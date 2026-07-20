@@ -1,6 +1,9 @@
 <template>
   <nav class="navbar">
-    <h1 class="navbar-title">秋芝选题站</h1>
+    <div class="navbar-brand">
+      <img src="../icon.png" alt="logo" class="navbar-logo" />
+      <h1 class="navbar-title">AI产品灵感日报</h1>
+    </div>
     <div class="navbar-tabs">
       <button
         :class="{ active: currentView === 'home' }"
@@ -33,6 +36,17 @@ defineEmits(['update:currentView'])
   position: sticky;
   top: 0;
   z-index: 100;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  object-fit: cover;
 }
 .navbar-title {
   font-size: 20px;
