@@ -31,6 +31,13 @@
         <span class="home-updated" v-if="date">更新于 {{ date }}</span>
       </div>
 
+      <div class="home-intro">
+        <img :src="iconIntro" alt="" class="intro-icon" />
+        <div class="intro-bubble">
+          从 Product Hunt 每日 Top 10 自动抓取 AI 产品，翻译中文并逐款拆解视频化潜力、上手门槛、当前热度，生成可直接参考的选题灵感日报，每天下午 3 点自动更新~
+        </div>
+      </div>
+
       <div v-if="loading" class="home-status"><Loader2 :size="18" class="spin" /> 加载中...</div>
       <div v-else-if="error" class="home-status home-error">{{ error }}</div>
       <div v-else-if="!products.length" class="home-status">该日期暂无数据</div>
@@ -73,6 +80,7 @@ import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useData } from '../composables/useData.js'
 import { useBookmarks } from '../composables/useBookmarks.js'
 import { Newspaper, Calendar, ChevronLeft, ChevronRight, Loader2, AlertTriangle } from '@lucide/vue'
+import iconIntro from '../icon-1_pixian_ai.png'
 import ProductCard from './ProductCard.vue'
 import ProductDetail from './ProductDetail.vue'
 
@@ -309,11 +317,47 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   flex-wrap: wrap;
 }
 .home-count { font-size: 14px; color: #888; }
 .home-updated { font-size: 12px; color: #bbb; margin-left: auto; }
+
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+.intro-icon {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+.intro-bubble {
+  position: relative;
+  background: #f0f4ff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.8;
+  max-width: 1024px;
+}
+.intro-bubble::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #f0f4ff;
+}
+
 .home-status { text-align: center; padding: 60px 0; color: #999; font-size: 15px; display: flex; align-items: center; justify-content: center; gap: 8px; }
 .home-error { color: #c62828; }
 .spin { animation: spin 1s linear infinite; }
