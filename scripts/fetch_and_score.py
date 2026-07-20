@@ -125,7 +125,11 @@ def fetch_top_products(token):
         json={"query": query, "variables": variables},
         timeout=30,
     )
-    response.raise_for_status()
+    if not response.ok:
+        print(f"ProductHunt API returned {response.status_code}")
+        print(f"Response body: {response.text[:500]}")
+        print(f"Request headers (sanitized): Authorization: Bearer {token[:8]}...{token[-4:]}")
+        response.raise_for_status()
     data = response.json()
 
     if "errors" in data:
