@@ -1,106 +1,172 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-20T19:20:07+08:00",
+  "generated_at": "2026-07-20T19:45:49+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1199790",
-      "name": "Rewisp",
-      "name_zh": "Rewisp",
-      "tagline_zh": "一眼万年，过目不忘：给你的Mac装个超级记忆体",
-      "description_zh": "Rewisp让Mac拥有了“记忆能力”。它能在你本地设备上读取屏幕文字并帮你记住一切，比如自动抓住“我周五前发给你”这种承诺，并持续提醒直到完成；还能让你用模糊的意思搜索，比如问问“周二以来有什么变化？”就能看到更新内容。它还能追踪体重、成绩等数字变化，自动填表（但绝不涉及密码），每晚9点还会悄悄发来一份当日摘要。整个过程完全隐私：截图绝不保存，只有纯文本留在你自己的Mac上。",
-      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Q6J5BWUJMERB6K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/78ee595e-5c0e-4a2b-93e6-f84c2ec521d8.png?auto=format",
-      "votes_count": 174,
+      "id": "1181486",
+      "name": "Spycost",
+      "name_zh": "Spycost",
+      "tagline_zh": "又上了打折的当？",
+      "description_zh": "还记得上次你趁打折买了个东西，结果发现就算不打折，价格也一个样吗？或者今天比昨天还贵？感觉被套路了？Spycost 帮你透视电商的各种价格花招，让你看清真实价格走势，不再被“降价”蒙蔽，每次下单前心里都有数。",
+      "url": "https://www.producthunt.com/products/spycost?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GQBVJSAAASPGEN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/2e8eaaef-e5f7-4afd-a32a-b9c1da344ed7.png?auto=format",
+      "votes_count": 345,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有丰富的屏幕操作画面和前后对比展示，比如文字捕捉、搜索、提醒弹窗、摘要生成等，非常适合录屏演示，视觉节奏强，容易抓人眼球。"
+          "reason": "有浏览器插件界面、价格历史曲线、真假促销对比画面，视觉效果直观，适合录屏演示，冲击力强。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "功能概念直观（让电脑记住屏幕文字、自动提醒、搜意思），普通Mac用户都能很快理解用途，无需编程背景；唯一门槛是安装和授予屏幕权限，但可通过引导解决。"
+          "reason": "概念很简单：看穿虚假打折，普通人一看就懂，无需技术背景，装上就能用。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第5，获得174票，处于热门前列，话题性较强，容易引发‘效率控’群体的共鸣。"
+          "score": 5,
+          "reason": "ProductHunt 排名第2，票数345，热度极高，话题性足，容易引发共鸣。"
         }
       },
       "video_inspiration": {
-        "title_idea": "你的Mac会过目不忘！Rewisp让所有承诺不再落空",
-        "angle": "开箱体验+教程演示",
-        "shooting_tips": "先录一段日常Mac工作中的遗忘场景，引发痛点；然后用屏幕录制展示安装Rewisp、捕捉一条‘我稍后发文档’的聊天文字、设置提醒的过程；接着演示搜索‘体重变化’、自动填表等亮点功能，最后展示晚上9点的摘要弹窗。节奏轻快，全程配上解说的惊讶感。",
-        "target_audience": "Mac重度用户、效率工具控、经常忘事的职场人或学生"
+        "title_idea": "你被网购打折骗了多久？这个插件专治商家套路！",
+        "angle": "开箱体验+对比测评",
+        "shooting_tips": "先录真实购物网站上的‘限时折扣’商品，再展示 Spycost 如何显示历史价格，揭露假打折；快节奏剪辑，配上夸张反应的画外音，突出“上当”和“识破”的瞬间。",
+        "target_audience": "经常网购、容易被促销吸引的普通网友，喜欢薅羊毛又想省钱的白领和学生。"
       },
       "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示效果出色，功能直观易懂，且产品本身话题性足够，极易产出吸引普通观众的爆款视频。"
+      "overall_reason": "产品功能直观、演示效果好、热度高且普通人极易共鸣，非常适合制作爆款视频。"
     },
     {
-      "id": "1199725",
-      "name": "Detourmap",
-      "name_zh": "秘境地图",
-      "tagline_zh": "一张互动地图，标注了所有值得你绕道前往的奇景",
-      "description_zh": "一个免费的交互式世界地图，标记了70,520个让你不惜绕路一探的秘境——古遗址、海滩、洞穴、瀑布、火山、纪念碑、圣地、城堡、博物馆、花园、主题公园，甚至鬼镇，覆盖350个国家和地区。选个国家，打开筛选器，开始你的探索之旅。",
-      "url": "https://www.producthunt.com/products/detourmap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JCGXN36YFZ53KR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/695d543d-4716-4d14-b842-eb5d05fc76d7.png?auto=format",
-      "votes_count": 148,
+      "id": "1200332",
+      "name": "Double",
+      "name_zh": "Double",
+      "tagline_zh": "你的AI职业经纪人，让工作来找你",
+      "description_zh": "Double是你的私人AI职业助手，你只需要发消息告诉它需求，它就能帮你搞定整个求职过程：搜寻合适岗位、自动投递简历、拓展维护人脉，甚至让招聘方反过来追着你跑。适合想省时省力、提升求职效率的普通职场人。",
+      "url": "https://www.producthunt.com/products/double-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SCKFLTBAC5A6WI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1cf344a8-cc01-427e-ba35-3b6078bdb42e.jpeg?auto=format",
+      "votes_count": 59,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "产品本身就是一张极具视觉表现力的交互地图，有丰富的UI操作、筛选切换和地点详情，非常适合录屏演示，能直观展示从全球缩放到具体地点的探索过程，画面节奏感和发现感强。"
+          "reason": "适合拍视频，可以展示聊天界面、职位匹配和申请流程的屏幕录制，充满操作演示和自动化的视觉冲击，能直观表现AI代办工作的便利。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "概念极其简单：一张地图，点击看地点，用筛选器找感兴趣的类型。没有任何技术门槛，普通互联网用户打开就能上手，所见即所得。"
+          "reason": "概念极其简单，就是和AI聊天让它帮忙找工作，不需要技术背景，任何求职者都能立刻理解并想尝试。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "在ProductHunt当日排名第6，获得148票，处于热门前列，有足够的话题性和传播潜力。"
+          "score": 3,
+          "reason": "排在ProductHunt第8名，票数59，不算爆款但有话题性，属于中等热度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "这张地图藏了7万个宝藏秘境，随便点一个都能让你立刻想出发！",
-        "angle": "开箱体验 + 互动演示",
-        "shooting_tips": "全程录制屏幕，先展示全球视角地图上密密麻麻的标记，制造「哇」的瞬间；然后快速缩小到某一国家，打开筛选器演示如何发现海滩、瀑布等不同类型；最后点到几个中国或国外的冷门地点，查看样片和介绍，用惊叹的语气解说。节奏先快后慢，结尾引导观众自己探索。",
-        "target_audience": "旅行爱好者、自驾游玩家、地理迷、喜欢小众景点的探索型观众"
+        "title_idea": "我让AI替我找工作，结果猎头反过来求我面试",
+        "angle": "开箱体验 + 娱乐吐槽",
+        "shooting_tips": "开头个人吐槽求职烦恼，然后引入Double，全程录制手机操作界面，展示从聊天输入到岗位匹配、一键申请的自动过程，重点突出‘全程不用我管’的爽感，可加入猎头主动联系的反差画面，节奏轻松活泼。",
+        "target_audience": "想高效跳槽的职场人、讨厌写简历的求职者、好奇AI工具的普通互联网用户"
       },
       "overall_suggestion": "强力推荐",
-      "overall_reason": "产品可视化极强，普通人一看就懂，热度也高，非常适合做成刷屏级的发现类短视频。"
+      "overall_reason": "操作直观、受众广、爽点密集，天然适合拍成‘躺平式求职’视频，极易引发共鸣和传播。"
+    },
+    {
+      "id": "1200051",
+      "name": "Wishlist and gifts - Farha",
+      "name_zh": "心愿清单与礼物助手 - Farha",
+      "tagline_zh": "一款为家庭而生的免费心愿清单与礼物协调应用",
+      "description_zh": "Farha 是一款面向家庭的免费心愿清单应用，可以从任何在线商店添加商品，一键生成分享链接，家人朋友无需注册就能查看。还支持秘密预订和集体送礼功能，让节日礼物准备不再撞款。",
+      "url": "https://www.producthunt.com/products/wishlist-and-gifts-farha?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZOJUG4B5UITKRG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f76b8b60-9a9b-4274-a56a-7f127c9df923.png?auto=format",
+      "votes_count": 38,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "UI 操作流畅，从创建清单、跨商店添加商品到分享链接和集体送礼，画面连贯，适合演示生活场景，视觉冲击力中等偏上。"
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "reason": "无需技术背景，功能直白，普通用户一看就懂，基本零门槛上手。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "今日排名第10，票数38，属于 PH 热门榜单前列，话题性较好。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "家人礼物不再撞款！这个免费心愿清单神器，让送礼更默契",
+        "angle": "教程演示 + 生活场景",
+        "shooting_tips": "先用家庭节日场景实拍引入痛点，再录屏展示添加亚马逊商品、生成分享链接、查看秘密预订等操作，结尾展示集体送礼进度，节奏轻快，突出无注册、跨平台协调两大卖点。",
+        "target_audience": "有家庭送礼需求的普通用户，特别是节日、生日礼物准备中的年轻父母或家属。"
+      },
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "界面直观、功能贴心，非常适合用生活化场景展示，普通观众极易产生共鸣。"
     },
     {
       "id": "1197935",
       "name": "Kobbe",
-      "name_zh": "科柏",
-      "tagline_zh": "注重隐私的网站流量与收入分析，一个无Cookie的轻量选择",
-      "description_zh": "这是一款隐私优先、无需Cookie的网站分析工具。它能帮你快速看清网站流量、页面表现、访问来源和收入漏斗，所有数据默认不追踪个人。注册后几秒就能装好，适合想了解网站状况又不想侵犯用户隐私的站长或创业者。",
+      "name_zh": "科贝",
+      "tagline_zh": "一款兼顾流量与营收分析的隐私友好型网站统计工具",
+      "description_zh": "Kobbe 是给网站主用的轻量级统计工具，不用 Cookie 也能看清流量来源、页面热度和收入转化。它默认保护用户隐私，几秒钟就能装好上路，适合不想被复杂后台和隐私合规问题困扰的人。",
       "url": "https://www.producthunt.com/products/kobbe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/B2O6SVSYZAAX5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6cf4464e-39c9-4b01-b42e-8d718cdaac68.png?auto=format",
-      "votes_count": 295,
+      "votes_count": 297,
       "scores": {
         "video_suitability": {
           "score": 3,
-          "reason": "有仪表盘、图表和数据可视化界面可以录屏，演示设置和看板操作还算直观，但缺少强烈的视觉冲击或新奇效果，更像看一个普通后台。"
+          "reason": "有可视化仪表盘、漏斗图等界面可展示，但画面整体偏数据图表，缺乏戏剧性视觉冲击力，可以通过前后对比（有/无工具）和操作演示来弥补。"
         },
         "beginner_friendly": {
-          "score": 3,
-          "reason": "基础概念如流量、来源、收入等，普通人大概能猜懂，但涉及到漏斗分析、转化收入归因时，纯小白可能一时摸不着头脑，需要旁白解释。"
+          "score": 4,
+          "reason": "针对普通网站主设计，强调零代码、一键部署。概念（流量、收入、漏斗）浅显易懂，非技术人员也能理解并使用。"
         },
         "popularity": {
           "score": 4,
-          "reason": "当日排名第3，获得295票，话题性不错，正好蹭中“隐私替代GA”的热度。"
+          "reason": "ProductHunt 当日第3名，297 票，热度较高，隐私话题自带讨论度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "谷歌分析再见！这个隐私工具5秒装好，数据一样看得明明白白",
-        "angle": "对比测评（和 Google Analytics 比，突出隐私、轻量和无 Cookie）",
-        "shooting_tips": "全程屏幕录制，先展示安装过程（贴一段代码或插件），再切换到实时流量、来源和收入看板，突出“无Cookie”的标签设置。可以用分屏对比 GA 的复杂界面，语速轻快，前15秒抛出痛点。",
-        "target_audience": "个人站长、出海小创业者、重视隐私的品牌运营，被数据分析搞晕的普通博主。"
+        "title_idea": "不用Cookie照样看转化！这个隐私统计工具，网站主都在偷偷装",
+        "angle": "对比测评",
+        "shooting_tips": "开篇用分屏对比：一边是眼花缭乱的传统统计后台，一边是 Kobbe 的极简仪表盘。快速演示安装代码粘贴过程，重点录收入追踪和漏斗视图界面，用鼠标高亮“零Cookie”“收入归因”等卖点。节奏控制在一分钟内，加入轻快的科技感背景音乐。",
+        "target_audience": "个人开发者、内容站长、独立创作者、中小电商运营，对隐私合规有担忧但又需要业务洞察的人群。"
       },
       "overall_suggestion": "可以做",
-      "overall_reason": "有真实界面可以演示，借力GA隐私争议话题，但对普通用户的吸引力一般，需要靠标题和痛点切入。"
+      "overall_reason": "工具界面直观，功能点能用屏幕录制轻松展示，且热度足够，但视觉冲击力中等，更适合做成实用测评而非病毒式传播内容。"
+    },
+    {
+      "id": "1195874",
+      "name": "CitedSpy",
+      "name_zh": "引用侦察员",
+      "tagline_zh": "追踪你的品牌在ChatGPT、Claude等AI搜索中的曝光表现",
+      "description_zh": "CitedSpy帮品牌摸清自己在AI搜索里的出镜率。它能一键监控你的公司名在ChatGPT、Gemini、Claude、Perplexity等主流AI助手中被提及、引用和推荐的频次。还能找出引用盲区、对标竞品，优化AI搜索引擎优化策略，让买家在问AI要方案时第一个想到你。",
+      "url": "https://www.producthunt.com/products/citedspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AMLMID75JZ2OIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f8632b6f-40ae-4474-93df-7e91cf5bf615.png?auto=format",
+      "votes_count": 60,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "产品以数据监控和报表为主，有仪表盘和对比分析界面，可展示图表和关键词变化，但缺乏动态操作流程或前后效果对比的视觉冲击力，适合录屏加解说，但画面相对静态。"
+        },
+        "beginner_friendly": {
+          "score": 4,
+          "reason": "概念直白，就是看品牌在AI回答里出现多少次，市场、运营人员都能理解。虽然涉及生成式引擎优化（GEO）可能稍显专业，但产品核心功能简单明了，无需技术背景。"
+        },
+        "popularity": {
+          "score": 3,
+          "reason": "ProductHunt排名第7，获60票，不属于头部爆款，但在AI营销工具话题下有一定关注度，话题性中等。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "你的品牌在ChatGPT里存在感为零？我用这个工具5分钟揪出真相",
+        "angle": "开箱体验+教程演示",
+        "shooting_tips": "开头用悬念提问切入，然后录屏展示注册、添加品牌关键词、查看各AI平台的引用报告，重点展示数据对比图表和竞品分析，节奏轻快，穿插截图放大关键数字，最后总结GEO优化小技巧。",
+        "target_audience": "品牌市场人员、SEO从业者、想了解AI搜索优化的创业者"
+      },
+      "overall_suggestion": "可以做",
+      "overall_reason": "有明确的操作界面和数据展示，普通人能看懂价值，热度中等，适合做成轻量级开箱或教程视频，但画面偏静态，需要靠剪辑和口播增强吸引力。"
     },
     {
       "id": "1199124",
@@ -111,7 +177,7 @@
       "url": "https://www.producthunt.com/products/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y35NVXDA24JBBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4e9ba10f-3997-42e5-8606-664347937ec5.png?auto=format",
-      "votes_count": 709,
+      "votes_count": 714,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -133,40 +199,8 @@
         "target_audience": ""
       },
       "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败"
-    },
-    {
-      "id": "1181486",
-      "name": "Spycost",
-      "name_zh": "Spycost",
-      "tagline_zh": "Fell for a discount again?",
-      "description_zh": "Remember the last time you bought something at a discount, only to see it later for the same price without the discount? Or when the product costs more today than it did yesterday. Did you feel cheated? Are you ready to look behind the screen of manipulation and lies? Spycost helps you see when you’re paying more while thinking you’re paying less. It gives you the full price picture, so you can decide whether it’s actually worth it.",
-      "url": "https://www.producthunt.com/products/spycost?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GQBVJSAAASPGEN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2e8eaaef-e5f7-4afd-a32a-b9c1da344ed7.png?auto=format",
-      "votes_count": 341,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败"
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Unterminated string starting at: line 26 column 21 (char 1002)"
     },
     {
       "id": "1199683",
@@ -177,7 +211,7 @@
       "url": "https://www.producthunt.com/products/basert?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3JJOOQXFG4LCTG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/474d4344-77f0-4190-b67b-49e40af7e541.png?auto=format",
-      "votes_count": 231,
+      "votes_count": 233,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -199,7 +233,110 @@
         "target_audience": ""
       },
       "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败"
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Expecting value: line 25 column 24 (char 765)"
+    },
+    {
+      "id": "1199790",
+      "name": "Rewisp",
+      "name_zh": "Rewisp",
+      "tagline_zh": "See it once. Ask forever.",
+      "description_zh": "Rewisp gives your Mac a memory. It reads your screen text on-device and remembers it for you. Catches promises like \"I'll send it Friday\" and reminds you until it's done. Ask \"what changed since Tuesday?\" and see exactly what's new. Search by meaning, not just words. Tracks numbers like weight or grades over time. Fills forms from your saved details — never passwords. One quiet 9 PM summary each day. Fully private: screenshots never saved, only text stays on your Mac.",
+      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Q6J5BWUJMERB6K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/78ee595e-5c0e-4a2b-93e6-f84c2ec521d8.png?auto=format",
+      "votes_count": 177,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": "1199725",
+      "name": "Detourmap",
+      "name_zh": "Detourmap",
+      "tagline_zh": "Every place worth the detour, on one interactive map",
+      "description_zh": "A free interactive world map of 70,520 places worth going out of your way for — ancient ruins, beaches, caves, waterfalls, volcanoes, monuments, sacred sites, castles, museums, gardens, theme parks and ghost towns across 350 countries. Pick a country, flip on the filters, and explore.",
+      "url": "https://www.producthunt.com/products/detourmap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JCGXN36YFZ53KR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/695d543d-4716-4d14-b842-eb5d05fc76d7.png?auto=format",
+      "votes_count": 151,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Unterminated string starting at: line 22 column 22 (char 702)"
+    },
+    {
+      "id": "1200306",
+      "name": "Panguard.AI",
+      "name_zh": "Panguard.AI",
+      "tagline_zh": "Open-source malware scanner and runtime guard for AI agents",
+      "description_zh": "Your AI agent runs third-party skills and MCP servers with full access to your files, keys and shell — no sandbox, no review. I scanned 96,096 published skills; 751 were malicious. PanGuard vets a skill before you install it, scans what you already have, and blocks hijack attempts at runtime. Free, MIT, fully on-device. Powered by 768 open ATR rules, already merged into Microsoft, Cisco, MISP and OWASP tooling. One command: npm install -g panguard && pga up",
+      "url": "https://www.producthunt.com/products/panguard-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XFEUYC76ANXRS5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9a606614-cd25-4d66-a235-b53b95f240d5.png?auto=format",
+      "votes_count": 40,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Expecting value: line 20 column 18 (char 729)"
     }
   ]
 }
