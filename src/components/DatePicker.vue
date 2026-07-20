@@ -4,7 +4,7 @@
     <input
       type="date"
       :value="modelValue"
-      :max="todayStr"
+      :max="todayStr" :min="minDateStr"
       @change="onDateChange"
       class="dp-input"
     />
@@ -27,25 +27,46 @@ const todayStr = computed(() => {
   return d.toISOString().slice(0, 10)
 })
 
-function formatDate(str) {
-  const d = new Date(str + 'T00:00:00')
-  if (isNaN(d.getTime())) return str
-  return d.toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' })
-}
+const minDateStr = computed(() => {
+  if (props.availableDates.length === 0) return undefined
+  const sorted = [...props.availableDates].sort()
+  return sorted[0]
+})
 
 function onDateChange(e) {
   emit('update:modelValue', e.target.value)
 }
 
 function shift(days) {
-  const d = new Date(props.modelValue + 'T00:00:00')
-  if (isNaN(d.getTime())) return
-  d.setDate(d.getDate() + days)
-  emit('update:modelValue', d.toISOString().slice(0, 10))
+  if (props.availableDates.length > 0) {
+    const sorted = [...props.availableDates].sort()
+    const idx = sorted.indexOf(props.modelValue)
+    if (idx === -1) {
+      const candidates = sorted.filter(d => days > 0 ? d > props.modelValue : d < props.modelValue)
+      if (candidates.length === 0) return
+      emit('update:modelValue', days > 0 ? candidates[0] : candidates[candidates.length - 1])
+    } else {
+      const newIdx = idx + days
+      if (newIdx < 0 || newIdx >= sorted.length) return
+      emit('update:modelValue', sorted[newIdx])
+    }
+  } else {
+    const d = new Date(props.modelValue + 'T00:00:00')
+    if (isNaN(d.getTime())) return
+    d.setDate(d.getDate() + days)
+    emit('update:modelValue', d.toISOString().slice(0, 10))
+  }
 }
 
-const hasPrev = computed(() => true)
-const hasNext = computed(() => props.modelValue < todayStr.value)
+const hasPrev = computed(() => {
+  if (props.availableDates.length === 0) return true
+  return props.availableDates.some(d => d < props.modelValue)
+})
+const hasNext = computed(() => {
+  if (props.modelValue >= todayStr.value) return false
+  if (props.availableDates.length === 0) return true
+  return props.availableDates.some(d => d > props.modelValue)
+})
 
 function goPrev() { shift(-1) }
 function goNext() { shift(1) }
