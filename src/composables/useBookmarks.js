@@ -2,29 +2,34 @@ import { ref, computed } from 'vue'
 import { loadFromStorage, saveToStorage } from '../utils/storage.js'
 
 const STORAGE_KEY = 'qiuzhi_bookmarks'
-const bookmarks = ref(new Set(loadFromStorage(STORAGE_KEY, [])))
+// Stored as { [id]: { id, name_zh, name, date } }
+const bookmarks = ref(loadFromStorage(STORAGE_KEY, {}))
 
 export function useBookmarks() {
   function persist() {
-    saveToStorage(STORAGE_KEY, [...bookmarks.value])
+    saveToStorage(STORAGE_KEY, { ...bookmarks.value })
   }
 
   function isBookmarked(productId) {
-    return bookmarks.value.has(productId)
+    return productId in bookmarks.value
   }
 
-  function toggleBookmark(productId) {
-    const s = new Set(bookmarks.value)
-    if (s.has(productId)) {
-      s.delete(productId)
+  /**
+   * Toggle bookmark. Pass productMeta (name_zh, name, date) when adding;
+   * meta is stored so Workspace can display names without loading data.
+   */
+  function toggleBookmark(productId, productMeta = {}) {
+    const next = { ...bookmarks.value }
+    if (productId in next) {
+      delete next[productId]
     } else {
-      s.add(productId)
+      next[productId] = { id: productId, ...productMeta }
     }
-    bookmarks.value = s
+    bookmarks.value = next
     persist()
   }
 
-  const bookmarkList = computed(() => [...bookmarks.value])
+  const bookmarkList = computed(() => Object.values(bookmarks.value))
 
   return { bookmarks, isBookmarked, toggleBookmark, bookmarkList }
 }

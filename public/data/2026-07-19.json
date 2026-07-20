@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-20T15:01:00+08:00",
+  "generation_error": false,
+  "products": [
+    {
+      "id": "sample-1",
+      "name": "SampleAI",
+      "name_zh": "示例AI助手",
+      "tagline_zh": "一键生成你的专属AI工作流",
+      "description_zh": "SampleAI 让任何人都能在几分钟内创建自己的AI助手，无需编程。只需用自然语言描述你的需求，它就能自动生成工作流，大大降低AI工具的使用门槛。",
+      "url": "https://www.producthunt.com/posts/sample",
+      "website": "https://example.com",
+      "image_url": "",
+      "votes_count": 834,
+      "scores": {
+        "video_suitability": { "score": 5, "reason": "丰富的UI界面，每一步操作都有视觉反馈，录屏效果极佳。拖拽式操作天然适合视频展示。" },
+        "beginner_friendly": { "score": 5, "reason": "完全零代码，用自然语言操作，任何人都能立马上手，无需任何技术背景。" },
+        "popularity": { "score": 5, "reason": "当日PH第1名，834票，话题性极强，社交媒体讨论度很高。" }
+      },
+      "video_inspiration": {
+        "title_idea": "我真的震惊了！这个AI工具10分钟帮我做了3天的工作",
+        "angle": "开箱体验+真人实测，强调'不用写代码'的反差感",
+        "shooting_tips": "录制从注册→输入需求→生成结果的全过程，重点展示AI理解需求并产出的瞬间，用快节奏剪辑保持观众注意力",
+        "target_audience": "对AI好奇但不知道从何下手的普通人，学生/上班族/自由职业者"
+      },
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "热度极高+纯视觉演示+完全零门槛，是爆款选题的理想素材"
+    }
+  ]
+}

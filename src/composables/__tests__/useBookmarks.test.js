@@ -14,9 +14,10 @@ describe('useBookmarks', () => {
   it('toggleBookmark adds and removes', () => {
     const { isBookmarked, toggleBookmark, bookmarkList } = useBookmarks()
     expect(isBookmarked('prod-1')).toBe(false)
-    toggleBookmark('prod-1')
+    toggleBookmark('prod-1', { name_zh: '测试产品', name: 'Test Product', date: '2026-07-19' })
     expect(isBookmarked('prod-1')).toBe(true)
-    expect(bookmarkList.value).toContain('prod-1')
+    expect(bookmarkList.value.length).toBe(1)
+    expect(bookmarkList.value[0].name_zh).toBe('测试产品')
     toggleBookmark('prod-1')
     expect(isBookmarked('prod-1')).toBe(false)
   })
