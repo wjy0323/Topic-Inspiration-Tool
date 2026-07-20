@@ -426,5 +426,20 @@ onUnmounted(() => {
 
 @media (max-width: 680px) {
   .product-list { grid-template-columns: 1fr; }
+
+  .home-intro {
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .intro-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+  }
+  .intro-bubble {
+    font-size: 13px;
+    padding: 10px 14px;
+    max-width: 100%;
+  }
 }
 </style>
