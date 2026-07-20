@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch ProductHunt Top 6, score with DeepSeek V4, output JSON."""
+"""Fetch ProductHunt Top 10, score with DeepSeek V4, output JSON."""
 
 import os
 import json
@@ -116,7 +116,7 @@ def fetch_top_products(token):
     variables = {
         "postedAfter": f"{date_str}T00:00:00Z",
         "postedBefore": f"{date_str}T23:59:59Z",
-        "first": 6,
+        "first": 10,
     }
 
     response = session.post(
@@ -257,6 +257,7 @@ def main():
         }
         if "scoring_error" in scored:
             generation_error = True
+            product_entry["scoring_error"] = scored["scoring_error"]
         products.append(product_entry)
 
     # Sort by overall_suggestion priority + votes

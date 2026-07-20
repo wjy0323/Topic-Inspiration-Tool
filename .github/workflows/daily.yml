@@ -1,6 +1,6 @@
 name: Daily Fetch & Deploy
 
-# 每天北京时间 15:01 自动抓取 ProductHunt Top 6，经 DeepSeek 评分后部署到 CloudBase
+# 每天北京时间 15:01 自动抓取 ProductHunt Top 10，经 DeepSeek 评分后部署到 CloudBase
 
 on:
   schedule:
