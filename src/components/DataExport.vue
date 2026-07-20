@@ -1,17 +1,17 @@
 <template>
   <div class="data-export">
-    <h3>💾 数据管理</h3>
+    <h3><Database :size="18" /> 数据管理</h3>
     <div class="export-options">
       <label><input type="radio" v-model="scope" value="all" /> 全部数据</label>
       <label><input type="radio" v-model="scope" value="bookmarks" /> 仅收藏</label>
       <label><input type="radio" v-model="scope" value="notes" /> 仅笔记</label>
     </div>
     <div class="export-actions">
-      <button class="btn-export" @click="doExport">📥 导出 JSON</button>
-      <button class="btn-clear" @click="confirmClear">🗑️ 清空数据</button>
+      <button class="btn-export" @click="doExport"><Download :size="15" /> 导出 JSON</button>
+      <button class="btn-clear" @click="confirmClear"><Trash2 :size="15" /> 清空数据</button>
     </div>
     <p v-if="clearConfirm" class="clear-confirm">
-      ⚠️ 确定要清空所有本地数据吗？此操作不可撤销。
+      <AlertTriangle :size="14" /> 确定要清空所有本地数据吗？此操作不可撤销。
       <span class="clear-actions">
         <button @click="doClear">确认清空</button>
         <button @click="clearConfirm = false">取消</button>
@@ -22,6 +22,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { Database, Download, Trash2, AlertTriangle } from '@lucide/vue'
 import { useBookmarks } from '../composables/useBookmarks.js'
 import { useNotes } from '../composables/useNotes.js'
 
@@ -63,7 +64,7 @@ function doClear() {
 </script>
 
 <style scoped>
-.data-export h3 { margin: 0 0 12px 0; font-size: 16px; }
+.data-export h3 { margin: 0 0 12px 0; font-size: 16px; display: flex; align-items: center; gap: 6px; }
 .export-options { display: flex; gap: 16px; margin-bottom: 16px; font-size: 14px; }
 .export-options label { cursor: pointer; display: flex; align-items: center; gap: 4px; }
 .export-actions { display: flex; gap: 8px; }
@@ -73,6 +74,9 @@ function doClear() {
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .btn-export { background: #1a1a2e; color: #fff; }
 .btn-export:hover { opacity: 0.9; }

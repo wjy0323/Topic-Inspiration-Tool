@@ -1,6 +1,6 @@
 <template>
   <div class="notes-list">
-    <h3>📝 我的笔记</h3>
+    <h3><FileText :size="18" /> 我的笔记</h3>
     <p v-if="!items.length" class="empty-hint">还没有写过笔记</p>
     <div v-for="item in items" :key="item.id" class="note-item" @click="toggleExpand(item.id)">
       <div class="note-info">
@@ -14,6 +14,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { FileText } from '@lucide/vue'
 import { useNotes } from '../composables/useNotes.js'
 
 const { notesList } = useNotes()
@@ -30,7 +31,7 @@ const items = computed(() => {
 
 <style scoped>
 .notes-list { margin-bottom: 32px; }
-.notes-list h3 { margin: 0 0 12px 0; font-size: 16px; }
+.notes-list h3 { margin: 0 0 12px 0; font-size: 16px; display: flex; align-items: center; gap: 6px; }
 .empty-hint { color: #999; font-size: 14px; padding: 24px 0; text-align: center; }
 .note-item {
   padding: 12px;

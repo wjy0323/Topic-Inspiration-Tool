@@ -50,6 +50,7 @@ SYSTEM_PROMPT = """\
     "shooting_tips": "拍摄具体建议（录哪些画面、突出什么卖点、用什么节奏）",
     "target_audience": "目标观众画像"
   },
+  "category": "产品分类标签（从以下选择最匹配的一个：AI工具 | 效率工具 | 设计创意 | 开发工具 | 社交生活 | 数据分析 | 安全隐私 | 硬件设备 | 游戏娱乐 | 教育学习 | 金融商业 | 健康健身 | 其他）",
   "overall_suggestion": "<强力推荐 | 可以做 | 谨慎考虑>",
   "overall_reason": "一句话总结理由"
 }
@@ -241,6 +242,7 @@ def score_product_with_deepseek(client, product, rank):
         },
         "overall_suggestion": "谨慎考虑",
         "overall_reason": "LLM 评分失败",
+        "category": "",
         "scoring_error": str(last_error),
     }
 
@@ -288,6 +290,7 @@ def main():
             "votes_count": post["votesCount"],
             "scores": scored.get("scores", {}),
             "video_inspiration": scored.get("video_inspiration", {}),
+            "category": scored.get("category", ""),
             "overall_suggestion": scored.get("overall_suggestion", "谨慎考虑"),
             "overall_reason": scored.get("overall_reason", ""),
         }

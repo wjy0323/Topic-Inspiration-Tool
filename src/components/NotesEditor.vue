@@ -1,6 +1,6 @@
 <template>
   <div class="notes-editor">
-    <h4>📝 我的笔记</h4>
+    <h4><FilePen :size="16" /> 我的笔记</h4>
     <textarea
       :value="noteText"
       @input="onInput"
@@ -8,12 +8,13 @@
       class="notes-textarea"
       rows="5"
     ></textarea>
-    <span class="notes-saved">{{ saved ? '✅ 已自动保存' : '💾 正在保存...' }}</span>
+    <span class="notes-saved">{{ saved ? '已自动保存' : '正在保存...' }}</span>
   </div>
 </template>
 
 <script setup>
 import { ref, watch, onMounted } from 'vue'
+import { FilePen } from '@lucide/vue'
 import { useNotes } from '../composables/useNotes.js'
 
 const props = defineProps({
@@ -48,7 +49,7 @@ function onInput(e) {
 </script>
 
 <style scoped>
-.notes-editor h4 { margin: 0 0 8px 0; font-size: 15px; }
+.notes-editor h4 { margin: 0 0 8px 0; font-size: 15px; display: flex; align-items: center; gap: 6px; }
 .notes-textarea {
   width: 100%;
   padding: 12px;

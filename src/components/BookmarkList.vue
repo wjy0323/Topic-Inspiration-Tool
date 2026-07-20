@@ -1,6 +1,6 @@
 <template>
   <div class="bookmark-list">
-    <h3>⭐ 我的收藏</h3>
+    <h3><Star :size="18" /> 我的收藏</h3>
     <p v-if="!items.length" class="empty-hint">还没有收藏任何产品</p>
     <div v-else v-for="item in items" :key="item.id" class="bm-item">
       <div class="bm-info">
@@ -14,6 +14,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { Star } from '@lucide/vue'
 import { useBookmarks } from '../composables/useBookmarks.js'
 
 const { bookmarkList, toggleBookmark } = useBookmarks()
@@ -26,7 +27,7 @@ const items = computed(() => {
 
 <style scoped>
 .bookmark-list { margin-bottom: 32px; }
-.bookmark-list h3 { margin: 0 0 12px 0; font-size: 16px; }
+.bookmark-list h3 { margin: 0 0 12px 0; font-size: 16px; display: flex; align-items: center; gap: 6px; }
 .empty-hint { color: #999; font-size: 14px; padding: 24px 0; text-align: center; }
 .bm-item {
   display: flex;

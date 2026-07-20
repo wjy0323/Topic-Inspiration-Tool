@@ -4,11 +4,12 @@
     :title="bookmarked ? '取消收藏' : '收藏'"
     @click.stop="$emit('toggle')"
   >
-    {{ bookmarked ? '⭐' : '☆' }}
+    <Star :size="20" :fill="bookmarked ? '#f5a623' : 'none'" />
   </button>
 </template>
 
 <script setup>
+import { Star } from '@lucide/vue'
 defineProps({
   bookmarked: { type: Boolean, default: false },
   productId: { type: String, default: '' }
@@ -20,13 +21,13 @@ defineEmits(['toggle'])
 .bookmark-btn {
   background: none;
   border: none;
-  font-size: 22px;
   cursor: pointer;
   transition: transform 0.2s;
   padding: 4px;
+  color: #ccc;
 }
 .bookmark-btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 .bookmark-btn.bookmarked {
   color: #f5a623;

@@ -1,6 +1,6 @@
 <template>
   <div class="video-inspiration">
-    <h4>🎥 视频创作灵感</h4>
+    <h4><Clapperboard :size="16" /> 视频创作灵感</h4>
     <div class="vi-card">
       <div class="vi-field">
         <span class="vi-label">标题灵感</span>
@@ -23,6 +23,7 @@
 </template>
 
 <script setup>
+import { Clapperboard } from '@lucide/vue'
 defineProps({
   inspiration: { type: Object, default: () => ({}) }
 })
@@ -30,7 +31,7 @@ defineProps({
 
 <style scoped>
 .video-inspiration { margin-bottom: 20px; }
-.video-inspiration h4 { margin: 0 0 12px 0; font-size: 15px; }
+.video-inspiration h4 { margin: 0 0 12px 0; font-size: 15px; display: flex; align-items: center; gap: 6px; }
 .vi-card {
   background: linear-gradient(135deg, #f0f4ff, #faf5ff);
   border: 1px solid #e0d8f0;

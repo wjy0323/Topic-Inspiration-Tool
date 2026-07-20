@@ -5,16 +5,17 @@
       <button
         :class="{ active: currentView === 'home' }"
         @click="$emit('update:currentView', 'home')"
-      >📊 榜单</button>
+      ><LayoutGrid :size="16" /> 榜单</button>
       <button
         :class="{ active: currentView === 'workspace' }"
         @click="$emit('update:currentView', 'workspace')"
-      >💼 工作台</button>
+      ><Briefcase :size="16" /> 工作台</button>
     </div>
   </nav>
 </template>
 
 <script setup>
+import { LayoutGrid, Briefcase } from '@lucide/vue'
 defineProps({
   currentView: { type: String, required: true }
 })
@@ -52,6 +53,9 @@ defineEmits(['update:currentView'])
   font-size: 14px;
   color: #555;
   transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .navbar-tabs button.active {
   background: #1a1a2e;

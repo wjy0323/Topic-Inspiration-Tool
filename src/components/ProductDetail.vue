@@ -2,11 +2,11 @@
   <Teleport to="body">
     <div v-if="product" class="detail-overlay" @click.self="$emit('close')">
       <div class="detail-panel">
-        <button class="detail-close" @click="$emit('close')" title="关闭">✕</button>
+        <button class="detail-close" @click="$emit('close')" title="关闭"><X :size="18" /></button>
 
         <div class="detail-image">
           <img v-if="product.image_url" :src="product.image_url" :alt="product.name" />
-          <div v-else class="detail-image-placeholder">📦</div>
+          <div v-else class="detail-image-placeholder"><Image :size="64" /></div>
         </div>
 
         <div class="detail-content">
@@ -15,9 +15,9 @@
           <p class="detail-desc">{{ product.description_zh }}</p>
 
           <div class="detail-meta">
-            <span>👍 {{ product.votes_count }} 票</span>
-            <a :href="product.url" target="_blank" rel="noopener">🔗 ProductHunt</a>
-            <a v-if="product.website" :href="product.website" target="_blank" rel="noopener">🌐 官网</a>
+            <span><ThumbsUp :size="14" /> {{ product.votes_count }}</span>
+            <a :href="product.url" target="_blank" rel="noopener"><ExternalLink :size="14" /> ProductHunt</a>
+            <a v-if="product.website" :href="product.website" target="_blank" rel="noopener"><Globe :size="14" /> 官网</a>
             <SuggestionTag :suggestion="product.overall_suggestion || '谨慎考虑'" />
             <BookmarkButton
               :productId="product.id"
@@ -44,6 +44,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { X, Image, ThumbsUp, ExternalLink, Globe } from '@lucide/vue'
 import ScoreDetail from './ScoreDetail.vue'
 import VideoInspiration from './VideoInspiration.vue'
 import NotesEditor from './NotesEditor.vue'
