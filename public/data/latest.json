@@ -1,80 +1,80 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-20T20:04:57+08:00",
-  "generation_error": true,
+  "generated_at": "2026-07-20T20:16:45+08:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1181486",
       "name": "Spycost",
       "name_zh": "价格侦探",
-      "tagline_zh": "又被折扣套路了？",
-      "description_zh": "网购时明明看到打折，结果过两天同价甚至更便宜？Spycost帮你追踪商品真实价格变化，一眼看穿虚假折扣。装上它，再也不当冤大头。",
+      "tagline_zh": "又被促销套路了？",
+      "description_zh": "还记得上次你买了打折商品，结果后来发现它没打折时也是这个价吗？或者今天比昨天还贵？感觉被坑了？Spycost 帮你揭开价格操纵的真相，让你看到商品完整的真实价格变动，来决定这笔钱花得到底值不值。",
       "url": "https://www.producthunt.com/products/spycost?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GQBVJSAAASPGEN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2e8eaaef-e5f7-4afd-a32a-b9c1da344ed7.png?auto=format",
       "votes_count": 345,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "可以直接屏幕录制展示商品价格历史曲线、真假折扣对比，画面直观，适合前后打脸式的视觉效果，冲击力强。"
+          "score": 4,
+          "reason": "可录制浏览器插件界面，直观展示商品价格历史曲线和打折前后对比，视觉冲击力强，节奏紧凑，适合短视频演示。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "所有人都经历过虚假折扣，功能就是看价格走势图，完全不需要任何技术背景，秒懂。"
+          "reason": "概念极其简单，任何网购用户都能立刻理解，无需任何技术背景，看一眼界面就能上手。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt当日排名第2，票数345，话题自带大众痛点，讨论度高。"
+          "reason": "ProductHunt 当日排名第2，获得345票，话题性高，戳中大众购物痛点，热度毋庸置疑。"
         }
       },
       "video_inspiration": {
-        "title_idea": "别再被双十一套路了！这个插件让你看清每一分钱的真假折扣",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "先演示安装Spycost，然后打开电商网站商品页面，展示价格变化曲线，挑选原价虚高、先涨后降的典型案例，用画中画插入主播吐槽表情，节奏轻快，结尾展示历史最低价提醒功能。",
-        "target_audience": "经常网购、容易被促销冲昏头脑的普通消费者"
+        "title_idea": "别再被骗了！用这个免费插件一眼看穿虚假打折",
+        "angle": "对比测评",
+        "shooting_tips": "录屏展示安装插件后，在电商网站上看到商品价格历史折线图，用两个例子：一个虚假打折案例（先提价再降价），一个真实好价案例，配合表情吐槽，节奏明快，前5秒抛出痛点钩子。",
+        "target_audience": "经常网购、担心被价格套路、想省钱但缺乏精力的普通消费者"
       },
       "overall_suggestion": "强力推荐",
-      "overall_reason": "全民痛点+直观画面+高热度，这类帮普通人省钱防坑的工具最适合做带货类和知识科普类短视频。"
+      "overall_reason": "痛点普适、展示效果直观、小白秒懂、热度爆表，是天然的视频化好选题。"
     },
     {
       "id": "1199790",
       "name": "Rewisp",
-      "name_zh": "Rewisp",
-      "tagline_zh": "看一眼就记住，想问随时问。",
-      "description_zh": "Rewisp 给你的 Mac 装上了一个“记忆大脑”。它能自动读取屏幕上的文字，帮你记住零零碎碎的事情，比如“周五前发文件”这种随口承诺，会一直提醒到你完成。你还可以用自然语言搜索“从周二到现在改了啥？”，直接看到结果。它还能跟踪体重、成绩这些数字的变化，帮你填表格（但绝不碰密码）。每晚9点，一份安静的摘要准时送到，全程只在你的 Mac 本地处理，绝不保存截图，所有隐私只留在你自己的设备上。",
+      "name_zh": "睿忆",
+      "tagline_zh": "看一次，问一生。",
+      "description_zh": "Rewisp 给 Mac 配了一个数字记忆，自动读取屏幕上出现的文字并帮你记住。无论是提醒你“周五前发送文件”，搜索“周二到现在有什么变化”，还是持续追踪体重和成绩，它都能轻松搞定，还能从你存过的信息里自动填表单。完全在本地运行，不保存任何截图，每晚 9 点简出一条总结，隐私无忧。",
       "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q6J5BWUJMERB6K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/78ee595e-5c0e-4a2b-93e6-f84c2ec521d8.png?auto=format",
       "votes_count": 177,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "有丰富的屏幕操作和功能演示画面，比如实时捕捉文字、弹出提醒、智能搜索、数据追踪曲线、表单自动填充，前后对比效果明显，视觉冲击力强，非常适合录制操作流程和结果展示。"
+          "score": 4,
+          "reason": "核心功能依赖屏幕文字读取和智能提醒，可以直观展示从“看到文字”到“创建提醒”再到“搜索回溯”的全过程，有清晰的界面操作和前后对比，视觉演示效果佳。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念就像“给电脑装个私人小秘书”，普通人一听就懂。虽然需要 Mac 环境和基础操作，但全程本地处理、保护隐私的理念很容易被理解，没有技术门槛，只是需要用户愿意尝试新工具。"
+          "reason": "概念通俗：给电脑装个记忆。普通人立即能理解它帮你记住屏幕上散落的信息，无需技术背景，安装后授权屏幕读取即可使用，几乎没有学习门槛。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第5，票数177，说明有一定关注度，但没有冲到前三，话题性中等偏上，适合趁热度制作内容。"
+          "reason": "当天排名第 5，获得 177 票，在 ProductHunt 上属于较高热度，兼具实用性和新鲜感，容易引发关注。"
         }
       },
       "video_inspiration": {
-        "title_idea": "你的Mac长脑子了！再也不忘事儿，看完直接封神",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先拍 Mac 桌面被各种便签和提醒淹没的凌乱场景，然后引出 Rewisp 图标。接着录屏演示核心功能：让一段文字出现在屏幕上，Rewisp 自动抓取并记住，然后故意说一句“我周五请吃饭”，展示到时提醒。再演示模糊搜索“上个月的支出”，快速找出之前屏幕上的数字。最后展示隐私声明选项，强调“截图从不上传”。节奏轻快，配幽默旁白，结尾放一张每晚9点摘要的截图，突出省心感。",
-        "target_audience": "用 Mac 办公、日常琐事多、经常忘事的上班族和学生，关注效率工具和数码新品的年轻人。"
+        "title_idea": "Mac 从此过目不忘？Rewisp 把屏幕文字全变成了你的私人记忆！",
+        "angle": "教程演示 + 场景化实测",
+        "shooting_tips": "全程录屏，先展示日常丢三落四的痛点，然后安装 Rewisp 并授权辅助功能；打开一个带有“我周五前发你”的聊天窗口，停留几秒后自动弹出提醒设置；加速模拟时间流逝后，用自然语言提问“周五前要发什么？”，呈现搜索结果；再快速演示体重数字追踪和自动填表，最后重点强调“截图从未保存，数据只留本地”的隐私设计。节奏轻快，配合醒目的文字标注。",
+        "target_audience": "Mac 用户、效率工具控、经常被琐事淹没的职场人、数码爱好者"
       },
       "overall_suggestion": "强力推荐",
-      "overall_reason": "功能演示型强、操作画面丰富、普通人秒懂，且隐私卖点打动人心，非常适合制作成抓眼球的视频内容。"
+      "overall_reason": "产品功能新颖直观，非常适合通过演示视频展示自动化记忆和提醒的亮点，普通人一看就懂，且热度表现不错，容易成为爆款选题。"
     },
     {
       "id": "1199725",
       "name": "Detourmap",
-      "name_zh": "绕道地图",
-      "tagline_zh": "每个值得绕路的地方，都在这张互动地图上",
-      "description_zh": "这是一张免费互动世界地图，收录了70,520个值得你特地绕路前往的地点——古遗址、海滩、洞穴、瀑布、火山、纪念碑、圣地、城堡、博物馆、花园、主题公园乃至鬼城，横跨350个国家和地区。选一个国家，打开筛选，随便点点就能发现惊喜。",
+      "name_zh": "绕路地图",
+      "tagline_zh": "一张交互地图，标记全球所有值得你绕道前往的秘境。",
+      "description_zh": "Detourmap 是一张免费的世界交互地图，收录了 350 个国家共 70,520 个值得你特意绕路去探索的独特地点。无论是古城废墟、海滩、洞穴、瀑布、火山、纪念碑、圣地、城堡、博物馆、花园、主题公园还是幽灵小镇，你都可以按国家筛选，一键开启探索之旅。",
       "url": "https://www.producthunt.com/products/detourmap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JCGXN36YFZ53KR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/695d543d-4716-4d14-b842-eb5d05fc76d7.png?auto=format",
@@ -82,98 +82,65 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "地图界面操作流畅，地点卡片配图精美，录屏展示筛选和探索过程有很强的浏览爽感，但缺乏前后对比或实时变化，视觉冲击力稍逊于动态生成类产品。"
+          "reason": "交互地图操作、地点切换、筛选器展示都有很强的视觉演示效果，画面感丰富，适合录屏展示探索过程。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "概念直观到零门槛，就像用手机地图找景点一样，不需要任何技术背景，普通网民上手就能玩。"
+          "reason": "概念极其简单，就是一个标记了各种有趣地点的世界地图，任何人都能立刻理解并上手使用，无需任何技术背景。"
         },
         "popularity": {
           "score": 4,
-          "reason": "当天排名第6，票数151，属于热度不错的前十产品，有成为话题的潜力。"
+          "reason": "ProductHunt 排名第 6，热度较高，拥有 151 票，具一定话题性。"
         }
       },
       "video_inspiration": {
-        "title_idea": "免费地图居然标了7万个必去秘境！随便一点就是人生奇景",
-        "angle": "开箱体验",
-        "shooting_tips": "全程录屏操作，先快速展示全球总览的密集标记效果，然后随意切换国家，点亮几个滤镜（比如‘鬼城’‘瀑布’），点开几张地点实拍图，用夸张语气念出地名和描述，最后呼吁观众自己去探索。节奏轻快，穿插‘哇’的音效。",
-        "target_audience": "热爱旅行、喜欢收藏冷门目的地、对世界充满好奇的普通网友"
+        "title_idea": "一张地图集齐全球7万个神仙地方，这辈子一定要去的打卡点！",
+        "angle": "开箱体验与趣味探索结合",
+        "shooting_tips": "先展示主页面的世界地图全貌，然后演示按国家筛选的过程，快速切换几个震撼的地点类型（如火山、冰川、古城），并点开几个地点查看详细信息和照片，最后带领观众开启一次“虚拟环球绕路之旅”，节奏明快，突出地图的丰富和视觉惊喜。",
+        "target_audience": "旅行爱好者、户外探险者、喜欢在地图上云旅游的好奇用户"
       },
       "overall_suggestion": "强力推荐",
-      "overall_reason": "画面直观好拍，普通人看完就能上手，热度也不错，非常适合做成种草类视频。"
-    },
-    {
-      "id": "1200282",
-      "name": "Pelagic Analytics",
-      "name_zh": "远洋分析",
-      "tagline_zh": "内置AI增长引擎的谷歌分析替代品，让流量主动找上门",
-      "description_zh": "Pelagic 不仅是谷歌分析的无Cookie替代品，还自带一位每天自动上班的AI增长顾问。它能帮你搞清楚客户从哪来、为啥下单，同时自动研究行业关键词，撰写符合搜索意图的文章并直接发布。无需技术背景，也不用弹窗征求用户同意，免费体验3天。",
-      "url": "https://www.producthunt.com/products/pelagic-analytics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/27ZJX3GPO7GHBN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/297cafce-341f-4d3e-92b9-68a789d0042b.png?auto=format",
-      "votes_count": 39,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的数据看板、流量来源地图、AI自动写文和发布的后台操作界面，前后对比效果直观，适合录屏演示，画面信息量足。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "面向网站主和个体创业者的工具，核心概念是「替代GA并自动做SEO」，普通人用日常语言就能理解，无需技术背景，注册即可上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "当日第10名，获得39票，虽未进前三，但Google Analytics替代品及AI+SEO的结合话题性强，容易引发站长圈讨论。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我花3天试了一款会自动写文的谷歌分析替身，网站流量发生了什么？",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "开头展示无优化时流量惨淡的GA截图，然后切入Pelagic注册流程，重点录屏：实时访客地图、转化看板，以及AI Agent自动研究关键词、生成文章并发布的整个过程。最后用一周流量趋势对比图收尾，节奏前抑后扬，用真实数据说话。",
-        "target_audience": "为网站流量发愁的创业者、独立站长、跨境电商卖家"
-      },
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "有清晰的UI操作界面和前后数据对比，概念通俗，自动写文发布的功能天生适合视频展现，能直接击中目标人群痛点。"
+      "overall_reason": "交互地图视觉效果好，概念通俗易懂，热度高，非常适合制作吸引旅行爱好者的短视频内容。"
     },
     {
       "id": "1199124",
       "name": "OpenSEO",
-      "name_zh": "OpenSEO",
-      "tagline_zh": "开源版 Ahrefs，让 SEO 数据不再昂贵",
-      "description_zh": "OpenSEO 是一个开源 SEO 工具，帮你搞定关键词研究、竞品分析、外链追踪和网站诊断。最低每月 10 美元，替代那些动辄上百美元的订阅。还支持 MCP 接口，能跟你的 AI 助手联动，自动定制 SEO 策略和内容。",
+      "name_zh": "开源SEO工具",
+      "tagline_zh": "开源版的Ahrefs，用十分之一的价格，给你百倍数据洞察",
+      "description_zh": "没有靠谱的数据，你的AI助手只会给泛泛的建议。OpenSEO提供关键词研究、竞品分析、外链追踪和网站审计，月费仅10美元，替代那些动辄上百美元的订阅。通过MCP集成，你可以与智能体协作，量身定制SEO策略和内容。",
       "url": "https://www.producthunt.com/products/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y35NVXDA24JBBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4e9ba10f-3997-42e5-8606-664347937ec5.png?auto=format",
-      "votes_count": 717,
+      "votes_count": 718,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的仪表盘界面、图表和数据报告，通过屏幕录制可展示操作流程和对比结果，视觉冲击力中等偏上。"
+          "score": 3,
+          "reason": "有数据看板、关键词图表和竞品对比界面，可录屏演示，但整体偏专业工具，视觉冲击力一般，适合解说型视频。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "SEO 本身有一定专业门槛，但该工具降低了对昂贵套餐的依赖，普通站长或营销人员稍加学习即可上手。"
+          "reason": "SEO概念对普通人有一定门槛，但产品将复杂功能简化，站长和营销人员能较快上手，非技术用户可能需要引导。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt 当日第 1 名，票数达 717，话题性极高，准确定位高价工具的开源替代。"
+          "reason": "ProductHunt当日第1名，718票，热度极高，具备话题爆发力。"
         }
       },
       "video_inspiration": {
-        "title_idea": "开源版Ahrefs？每月10刀，让你的SEO预算不再崩溃！",
+        "title_idea": "告别千元Ahrefs！开源平替月费只要10美元，SEO效率直接拉满",
         "angle": "对比测评",
-        "shooting_tips": "录制屏幕展示关键词研究、竞品分析、外链检测等核心功能，穿插与 Ahrefs 界面的同屏对比，强调价格优势和开源生态，语速轻快，加入“省下90%预算”等吸睛字幕。",
-        "target_audience": "站长、独立开发者、中小企业营销人员、想省钱的SEO学习者"
+        "shooting_tips": "聚焦屏幕演示：搜索关键词展示数据量，竞品分析对比实时截图，外链图谱动画，最后放价格对比表格，快速切镜突出节省成本；穿插一段MCP连接智能体的简单操作，节奏紧凑，配震撼标题字幕。",
+        "target_audience": "中小企业主、个人站长、预算敏感的营销人、希望入门SEO的创作者"
       },
       "overall_suggestion": "可以做",
-      "overall_reason": "界面演示效果好、热度极高，虽然需要一点SEO基础但用户画像明确，适合做成对比类教程或省钱安利视频。"
+      "overall_reason": "热度高、价格颠覆性强，但SEO专业度稍高，更适合做成对比测评或省钱攻略类视频。"
     },
     {
       "id": "1197935",
       "name": "Kobbe",
-      "name_zh": "科贝",
-      "tagline_zh": "保护隐私，轻松掌握网站流量和收入",
-      "description_zh": "一个不留痕迹的网站分析工具，不需要 Cookie，默认尊重用户隐私。几秒钟就能装好，让你清楚看到流量、热门页面、访客来源、收入和转化漏斗。",
+      "name_zh": "Kobbe",
+      "tagline_zh": "保护隐私的网站流量与收入分析",
+      "description_zh": "一款无需Cookie、注重隐私的网站分析工具，帮你轻松追踪访问量、页面表现、流量来源、收入情况和用户转化路径。默认开启隐私保护，几秒钟就能完成配置。",
       "url": "https://www.producthunt.com/products/kobbe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/B2O6SVSYZAAX5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6cf4464e-39c9-4b01-b42e-8d718cdaac68.png?auto=format",
@@ -181,32 +148,32 @@
       "scores": {
         "video_suitability": {
           "score": 3,
-          "reason": "有数据仪表盘可以录屏演示，但图表相对静态，缺乏强烈视觉效果或戏剧化的前后对比。"
+          "reason": "有数据仪表盘和操作界面，可以录制设置和图表展示，但视觉冲击力一般，属于偏功能演示的静态画面，缺少强烈对比或动感。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "界面直观、设置简单，但需要用户具备基本的网站分析概念（如漏斗、来源），纯小白可能一头雾水。"
+          "reason": "面向普通网站所有者，设置简单，但网站分析概念本身需要一定背景，完全不懂的用户可能需要解释术语，入门门槛中等。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt 当日排名第3，票数297，属于热门产品，话题性较高。"
+          "reason": "ProductHunt排名第3，票数297，属于当日热门产品，话题度较高。"
         }
       },
       "video_inspiration": {
-        "title_idea": "数据裸奔终结者！一行代码让网站收入透明，还不用偷用户隐私",
-        "angle": "教程演示 + 轻度测评",
-        "shooting_tips": "先录一屏传统分析工具弹cookie警告的烦人画面，再切到Kobbe秒装秒用的流畅体验，重点展示实时仪表盘数据的自动刷新和隐私保护提示，节奏轻快。",
-        "target_audience": "个人站长、自媒体博主、注重隐私的独立开发者"
+        "title_idea": "3秒部署隐私分析，再也不用担心GDPR！Kobbe实测",
+        "angle": "开箱体验/教程演示",
+        "shooting_tips": "先展示传统分析工具繁琐的Cookie同意弹窗，再切换到Kobbe的无Cookie即时设置，用分屏对比数据可视化界面，突出‘快、隐私、全面’三个卖点，全程快节奏口播，并加入实际网站后台看板录屏。",
+        "target_audience": "个人站长、独立开发者、注重合规的中小企业主"
       },
       "overall_suggestion": "可以做",
-      "overall_reason": "热门隐私工具，有直观的操作界面可以出视频，但视觉冲击力一般，更适合做干货教程而非炫技短片。"
+      "overall_reason": "产品有演示界面和热点话题，虽然视觉冲击力不强，但可通过对比和教程提升观看体验，热度高适合趁热推出。"
     },
     {
       "id": "1199683",
       "name": "BaseRT",
       "name_zh": "BaseRT",
-      "tagline_zh": "在苹果芯片上运行大语言模型，比 llama.cpp 快 6.4 倍，比 MLX 快 3.9 倍",
-      "description_zh": "BaseRT 是 Apple Silicon 上最快的 LLM 推理引擎。只需要一条命令就能安装，让你在自己的设备上本地运行大语言模型。适合想用苹果电脑跑 AI 模型的技术玩家和开发者。",
+      "tagline_zh": "比 llama.cpp 快 6.4 倍，比 MLX 快 3.9 倍",
+      "description_zh": "BaseRT 是 Apple Silicon 上最快的 LLM 运行时。一行命令安装，就能在自己的设备上运行本地大模型，适合想在 Mac 上玩本地 AI 的用户。",
       "url": "https://www.producthunt.com/products/basert?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3JJOOQXFG4LCTG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/474d4344-77f0-4190-b67b-49e40af7e541.png?auto=format",
@@ -214,126 +181,157 @@
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "纯命令行操作，缺乏图形界面和视觉变化，演示效果单调，只能靠屏幕录制加计时器展现速度对比，视觉冲击力弱。"
+          "reason": "主要操作在终端，画面单调缺少 UI，虽然可以录屏展示速度对比，但视觉冲击力有限，不太适合制作观赏性强的视频。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "需要懂命令行，自行下载模型，没有图形界面，普通用户上手难度较高，不适合完全没有技术背景的人。"
+          "reason": "需要打开终端并执行命令，虽然号称一行安装，但普通用户对命令行和大模型运行概念仍有技术门槛，难以直接上手。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第4，票数234，属于热门产品，但话题局限于 AI 开发圈，公众传播力一般。"
+          "reason": "ProductHunt 当日排名第 4，获得 234 票，话题性和关注度不错，属于热门产品。"
         }
       },
       "video_inspiration": {
-        "title_idea": "苹果电脑上的大模型加速神器，一行命令直接起飞！",
+        "title_idea": "你的 Mac 跑大模型能有多快？BaseRT 直接碾压 Llama.cpp",
         "angle": "对比测评",
-        "shooting_tips": "全程屏幕录制，分屏展示 BaseRT 与 llama.cpp、MLX 运行相同模型的耗时和生成速度；重点突出终端里的实时速率数据和末尾的加速倍数结论；用精简的剪辑和醒目文字标注速度对比。",
-        "target_audience": "苹果电脑用户、AI 爱好者、希望本地跑模型的开发者"
+        "shooting_tips": "录屏展示在相同 Mac 上用不同运行时（Llama.cpp、MLX、BaseRT）运行同一模型的耗时，用计时器和图表突出速度差异，快节奏剪辑，穿插命令行操作特写。",
+        "target_audience": "Mac 用户、AI 爱好者、想在本地玩大模型的极客和技术尝鲜者"
       },
       "overall_suggestion": "可以做",
-      "overall_reason": "虽然画面表现力有限，但性能对比强烈，适合做成干货速度测评，在技术圈内能抓住关注点。"
-    },
-    {
-      "id": "1200332",
-      "name": "Double",
-      "name_zh": "双倍",
-      "tagline_zh": "你的AI职业经纪人，帮你拿下心仪工作",
-      "description_zh": "Double是你的私人AI职业管家。只要发消息给它，它就能全包你的求职路：帮你找职位、自动投简历、拓展和维护人脉，让猎头反过来追着你跑。",
-      "url": "https://www.producthunt.com/products/double-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SCKFLTBAC5A6WI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1cf344a8-cc01-427e-ba35-3b6078bdb42e.jpeg?auto=format",
-      "votes_count": 59,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "主要是对话式交互，UI可能简洁，缺乏强烈视觉冲击；但可以展示聊天记录、求职进度等界面，有一定演示效果，不是纯后台逻辑。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念简单，就是AI帮你找工作，普通人一听就懂；使用方式像聊天，门槛低，唯一可能需要解释的是人脉维护等功能。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt当日第8名，59票，属于中等热度，有一定话题性但未进入前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "让我AI替身替我打工，躺着等HR来舔，差点被当成作弊器！",
-        "angle": "开箱体验+娱乐吐槽",
-        "shooting_tips": "先展示求职者日常痛苦（刷职位、改简历、求人脉），然后打开Double，像和朋友聊天一样输入要求，录屏展示AI自动搜索匹配职位、一键投递的过程；中间穿插AI生成的话术联系行业大牛，最后展示猎头主动发来的邮件。节奏开始对比惨，中间快速展示自动化，结尾反转爽感。",
-        "target_audience": "正在找工作的职场人、应届毕业生、对AI生产力工具好奇的年轻人"
-      },
-      "overall_suggestion": "可以做",
-      "overall_reason": "概念易懂，求职场景共鸣强，有演示空间，但视觉冲击力中等，热度一般，适合制作成体验解说视频。"
+      "overall_reason": "适合做技术类对比测评视频，虽然画面较单调但话题明确，对特定受众有一定吸引力。"
     },
     {
       "id": "1195874",
       "name": "CitedSpy",
-      "name_zh": "CitedSpy",
-      "tagline_zh": "Track your brand in ChatGPT, Claude, Perplexity and More",
-      "description_zh": "CitedSpy helps brands track and improve their visibility in AI search. Monitor how often your company is mentioned, cited, and recommended across ChatGPT, Gemini, Claude, Perplexity, and other AI assistants. Discover citation gaps, benchmark competitors, and optimize your Generative Engine Optimization (GEO) strategy so your brand gets recommended when buyers ask AI for solutions.",
+      "name_zh": "引用监控精灵",
+      "tagline_zh": "监测你的品牌在ChatGPT、Claude等AI助手里的真实存在感",
+      "description_zh": "CitedSpy 帮助品牌追踪自己在 AI 搜索中的曝光。它能自动扫描 ChatGPT、Gemini、Claude 等主流 AI 助手，告诉你公司被提及、引用或推荐的频率。适合市场团队用来发现引用缺口，对标竞品，优化 GEO 策略，确保客户用 AI 找答案时优先看到你。",
       "url": "https://www.producthunt.com/products/citedspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AMLMID75JZ2OIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f8632b6f-40ae-4474-93df-7e91cf5bf615.png?auto=format",
       "votes_count": 60,
       "scores": {
         "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+          "score": 3,
+          "reason": "有可录屏的后台仪表盘、数据对比图表、AI 扫描过程动画，但整体画面偏静态，缺乏镜头前操作或视觉冲击，适合用数据录屏+语音讲解呈现。"
         },
         "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+          "score": 4,
+          "reason": "核心概念“看 AI 有没有提到我”很直白，普通人一听就懂；不过 GEO、引用监测等术语稍显专业，需简单比喻化解，但无技术门槛。"
         },
         "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+          "score": 4,
+          "reason": "ProductHunt 当日排名第7，投票数60，属于中上热度；AI 搜索优化话题新鲜，但未进入前3，热度局部发酵中。"
         }
       },
       "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+        "title_idea": "我测了10个品牌，发现ChatGPT推荐的结果和Google完全不一样！",
+        "angle": "对比测评",
+        "shooting_tips": "录屏展示输入品牌名后，在不同AI助手中的回答片段，并用红框标出有无提及；切换仪表盘统计图，突出“引用率”落差；加入真人出镜抛出问题“你的品牌在AI眼里存在吗？”，节奏先悬念后解密。",
+        "target_audience": "中小企业市场负责人、内容站长、电商运营，以及关注AI时代品牌曝光的人"
       },
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Unterminated string starting at: line 6 column 5 (char 266)"
+      "overall_suggestion": "可以做",
+      "overall_reason": "产品概念有话题性，录屏素材充足，虽画面不炸裂但可借助数据对比制造冲突感，结合普通用户对AI答案的好奇心，做成浅显易懂的科普测评。"
+    },
+    {
+      "id": "1200332",
+      "name": "Double",
+      "name_zh": "Double",
+      "tagline_zh": "你的专属AI求职猎手，把offer送到你面前",
+      "description_zh": "Double是你的个人AI职业管家，你只需像聊天一样给它发消息，它就能接管整个求职流程：从筛选岗位、帮你投递，到拓人脉、拉拢招聘官——让好工作主动来敲你的门。",
+      "url": "https://www.producthunt.com/products/double-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SCKFLTBAC5A6WI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1cf344a8-cc01-427e-ba35-3b6078bdb42e.jpeg?auto=format",
+      "votes_count": 59,
+      "scores": {
+        "video_suitability": {
+          "score": 2,
+          "reason": "主要操作界面为聊天对话，画面以文字交互为主，缺少视觉冲击力和动态演示，拍成视频容易显得单调。"
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "reason": "求职本就是大众场景，通过聊天方式操作，完全无需技术背景，普通人一看就懂、上手即用。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日排名第8，处于前10阵营，59票说明有一定关注度，但尚未形成爆炸性话题。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "把求职交给AI，我竟然被猎头追着跑？",
+        "angle": "开箱体验",
+        "shooting_tips": "录制手机或电脑屏幕上的聊天界面，从发送第一条消息开始，展示AI怎样回复岗位推荐、确认投递，并穿插一些‘意想不到’的主动人脉扩展提示。用轻快的口播和字幕突出‘不用自己动手’的爽感。",
+        "target_audience": "想省时省力、对AI求职好奇的职场新人和跳槽者"
+      },
+      "overall_suggestion": "可以做",
+      "overall_reason": "求职场景天然吸睛，普通人极易产生代入感，但聊天工具的画面表现力有限，视频需在文案和节奏上下功夫。"
     },
     {
       "id": "1200306",
       "name": "Panguard.AI",
-      "name_zh": "Panguard.AI",
-      "tagline_zh": "Open-source malware scanner and runtime guard for AI agents",
-      "description_zh": "Your AI agent runs third-party skills and MCP servers with full access to your files, keys and shell — no sandbox, no review. I scanned 96,096 published skills; 751 were malicious. PanGuard vets a skill before you install it, scans what you already have, and blocks hijack attempts at runtime. Free, MIT, fully on-device. Powered by 768 open ATR rules, already merged into Microsoft, Cisco, MISP and OWASP tooling. One command: npm install -g panguard && pga up",
+      "name_zh": "守卫AI",
+      "tagline_zh": "AI代理的开源安全保镖，扫描恶意插件，守护运行时",
+      "description_zh": "你的AI助手经常调用各种第三方技能和MCP服务器，它们能随意访问你的文件、密钥和命令行，却没有沙箱审查。作者扫描了96096个公开技能，发现751个是恶意的。Panguard就像一个安全卫士，在安装前帮你审查技能，扫描存量插件，运行时还能拦截劫持行为。完全免费、MIT开源、本地运行，一条命令就能搞定。",
       "url": "https://www.producthunt.com/products/panguard-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XFEUYC76ANXRS5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9a606614-cd25-4d66-a235-b53b95f240d5.png?auto=format",
       "votes_count": 40,
       "scores": {
         "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+          "score": 2,
+          "reason": "主要是一个命令行工具，没有图形界面，演示效果仅限终端文字输出，缺乏视觉冲击力和丰富的画面变化，难以吸引普通观众。"
         },
         "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+          "score": 2,
+          "reason": "需要理解AI代理、MCP服务器、恶意技能等概念，使用门槛依赖npm和命令行，普通用户不好上手，容易感觉陌生。"
         },
         "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+          "score": 4,
+          "reason": "在ProductHunt排名第9，获得40票，属于当日TOP 10，有一定话题性和安全领域的关注度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+        "title_idea": "你的AI助手在偷偷泄密？这个开源工具免费帮你查杀！",
+        "angle": "教程演示 + 安全科普",
+        "shooting_tips": "先录制一段虚构的AI代理运行恶意技能窃取文件的模拟画面制造紧张感，然后切入终端界面，展示安装Panguard和扫描过程，用对比方式突出前后的安全效果，可以配上解读台词和简洁动画说明工作原理。",
+        "target_audience": "关注AI应用安全的开发者和极客，以及想了解AI潜在风险的普通互联网用户"
       },
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Expecting value: line 1 column 1 (char 0)"
+      "overall_suggestion": "可以做",
+      "overall_reason": "虽然工具本身实用且话题较新，但呈现形式是命令行操作，视觉冲击力不足，更适合技术类垂直内容的深挖，而非广泛传播的爆款视频。"
+    },
+    {
+      "id": "1200282",
+      "name": "Pelagic Analytics",
+      "name_zh": "远洋分析",
+      "tagline_zh": "一款能自动帮你拉流量的谷歌分析替代品",
+      "description_zh": "Pelagic 是谷歌分析的替身，内置一个 AI SEO 代理人。它能告诉你流量从哪来、用户为啥下单，还能每天自动帮你研究细分关键词、撰写符合搜索意图的文章并直接发布。全程无 Cookie，数据实时可见，连同意弹窗都省了，现在可免费试用 3 天。",
+      "url": "https://www.producthunt.com/products/pelagic-analytics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/27ZJX3GPO7GHBN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/297cafce-341f-4d3e-92b9-68a789d0042b.png?auto=format",
+      "votes_count": 39,
+      "scores": {
+        "video_suitability": {
+          "score": 2,
+          "reason": "后台分析面板和 AI 代理工作流较抽象，缺乏直观的前后效果对比或视觉冲击画面，拍摄时只能录录仪表盘和文章发布界面，可看性一般。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "涉及 SEO、关键词研究、转化归因等概念，普通用户如果不做网站或内容营销很难立刻理解，有一定认知门槛。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt 当日排名第 10，刚好进入前十，票数 39，有一定关注度但尚未成为现象级爆款。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "不碰谷歌分析也能搞流量？这个 AI 代理人 24 小时帮我写文章拉客",
+        "angle": "教程演示",
+        "shooting_tips": "用对比方式开头：先展示传统谷歌分析的复杂界面，再切到 Pelagic 的清爽仪表盘。重点录下 AI 代理人如何一键设置关键词研究任务，以及自动生成并发布文章的流程。最后快放展示流量增长曲线，配感叹语气。节奏要紧凑，用画中画突出操作步骤。",
+        "target_audience": "个人站长、独立开发者、内容创作者、不想碰复杂分析工具的小微创业者"
+      },
+      "overall_suggestion": "可以做",
+      "overall_reason": "产品功能强但视觉表现力偏弱，概念对小白有壁垒，更适合做深度的教程或测评，而非冲击力强的短视频。"
     }
   ]
 }
