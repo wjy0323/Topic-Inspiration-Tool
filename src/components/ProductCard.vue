@@ -11,9 +11,15 @@
         <span class="card-sep">·</span>
         <span class="card-name">{{ product.name_zh || product.name }}</span>
       </div>
-      <div v-if="product.overall_reason" class="card-highlight">
-        <span class="highlight-label"><Lightbulb :size="13" /> 值得留意</span>
-        <p class="highlight-text">{{ product.overall_reason }}</p>
+      <div v-if="product.intro_zh || product.overall_reason" class="card-highlight">
+        <template v-if="product.intro_zh">
+          <span class="highlight-label"><ScrollText :size="13" /> 产品简介</span>
+          <p class="highlight-text">{{ product.intro_zh }}</p>
+        </template>
+        <template v-if="product.overall_reason">
+          <span class="highlight-label"><Lightbulb :size="13" /> 值得留意</span>
+          <p class="highlight-text">{{ product.overall_reason }}</p>
+        </template>
       </div>
       <div class="card-scores">
         <ScoreBar label="视频化" :icon="Video" :score="product.scores?.video_suitability?.score || 0" compact />
@@ -41,7 +47,7 @@
 </template>
 
 <script setup>
-import { Lightbulb, Video, Sprout, Flame, FilePen, ThumbsUp, ArrowRight, Image } from '@lucide/vue'
+import { Lightbulb, ScrollText, Video, Sprout, Flame, FilePen, ThumbsUp, ArrowRight, Image } from '@lucide/vue'
 import ScoreBar from './ScoreBar.vue'
 import BookmarkButton from './BookmarkButton.vue'
 
@@ -154,6 +160,9 @@ defineEmits(['click', 'toggle-bookmark', 'open-notes'])
   align-items: center;
   gap: 4px;
   margin-bottom: 4px;
+}
+.highlight-label:not(:first-child) {
+  margin-top: 8px;
 }
 .highlight-text {
   margin: 0;

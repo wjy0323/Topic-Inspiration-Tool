@@ -30,6 +30,7 @@ SYSTEM_PROMPT = """\
   "name_zh": "产品名称地道中文翻译",
   "tagline_zh": "一句话标语的中文翻译（科普杂志风格）",
   "description_zh": "产品简介的中文翻译（通俗口语化，2-3句说清楚它是什么、给谁用）",
+  "intro_zh": "产品卡片简介（严格30-50字），第一句说明核心功能/定位，第二句说明目标用户和痛点场景，保持简洁有力",
   "scores": {
     "video_suitability": {
       "score": <1-5整数>,
@@ -284,6 +285,7 @@ def main():
             "name_zh": scored.get("name_zh", post["name"]),
             "tagline_zh": scored.get("tagline_zh", post.get("tagline", "")),
             "description_zh": scored.get("description_zh", post.get("description", "")),
+            "intro_zh": scored.get("intro_zh", ""),
             "url": post["url"],
             "website": post.get("website", ""),
             "image_url": get_image_url(post.get("media")),
