@@ -186,23 +186,16 @@ def score_product_with_deepseek(client, product, rank):
     max_retries = 3
     for attempt in range(max_retries):
         try:
-            # Increase tokens per retry: 1500 → 2000 → 3000 to handle truncation
-            token_limit = 1500 + attempt * 500
             response = client.chat.completions.create(
                 model=DEEPSEEK_MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
-                max_tokens=token_limit,
+                max_tokens=4096,
                 temperature=0.7,
             )
             content = response.choices[0].message.content.strip()
-            finish_reason = response.choices[0].finish_reason
-
-            # If truncated, retry with more tokens
-            if finish_reason == "length":
-                raise RuntimeError(f"Response truncated (finish_reason=length) with max_tokens={token_limit}")
 
             # Handle possible markdown code fences
             content = extract_json_from_response(content)
