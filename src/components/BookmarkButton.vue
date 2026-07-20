@@ -10,7 +10,8 @@
 
 <script setup>
 defineProps({
-  bookmarked: { type: Boolean, default: false }
+  bookmarked: { type: Boolean, default: false },
+  productId: { type: String, default: '' }
 })
 defineEmits(['toggle'])
 </script>
