@@ -141,6 +141,36 @@ def fetch_top_products(token):
     return date_str, posts
 
 
+def extract_json_from_response(content):
+    """Robustly extract JSON from LLM response, handling markdown fences and extra text."""
+    # Strip leading/trailing whitespace
+    content = content.strip()
+
+    # Remove markdown code fences: ```json ... ``` or ``` ... ```
+    if content.startswith("```"):
+        # Find first newline to strip the opening fence
+        first_nl = content.find("\n")
+        if first_nl != -1:
+            content = content[first_nl + 1:]
+        # Strip closing fence
+        if content.endswith("```"):
+            content = content[:-3]
+        content = content.strip()
+        # Strip optional "json" language tag
+        if content.startswith("json\n"):
+            content = content[5:].strip()
+
+    # If still not valid JSON, try to extract the outermost { ... } block
+    if not content.startswith("{"):
+        brace_start = content.find("{")
+        if brace_start != -1:
+            brace_end = content.rfind("}")
+            if brace_end > brace_start:
+                content = content[brace_start:brace_end + 1]
+
+    return content
+
+
 def score_product_with_deepseek(client, product, rank):
     """Score a single product using DeepSeek V4. Returns enriched product dict."""
     user_prompt = f"""\
@@ -156,25 +186,26 @@ def score_product_with_deepseek(client, product, rank):
     max_retries = 3
     for attempt in range(max_retries):
         try:
+            # Increase tokens per retry: 1500 → 2000 → 3000 to handle truncation
+            token_limit = 1500 + attempt * 500
             response = client.chat.completions.create(
                 model=DEEPSEEK_MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
-                max_tokens=1000,
+                max_tokens=token_limit,
                 temperature=0.7,
             )
             content = response.choices[0].message.content.strip()
+            finish_reason = response.choices[0].finish_reason
+
+            # If truncated, retry with more tokens
+            if finish_reason == "length":
+                raise RuntimeError(f"Response truncated (finish_reason=length) with max_tokens={token_limit}")
 
             # Handle possible markdown code fences
-            if content.startswith("```"):
-                content = content.split("\n", 1)[1]
-                if content.endswith("```"):
-                    content = content[:-3]
-                content = content.strip()
-                if content.startswith("json"):
-                    content = content[4:].strip()
+            content = extract_json_from_response(content)
 
             scored = json.loads(content)
 
