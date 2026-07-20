@@ -1,8 +1,107 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-20T19:11:48+08:00",
+  "generated_at": "2026-07-20T19:20:07+08:00",
   "generation_error": true,
   "products": [
+    {
+      "id": "1199790",
+      "name": "Rewisp",
+      "name_zh": "Rewisp",
+      "tagline_zh": "一眼万年，过目不忘：给你的Mac装个超级记忆体",
+      "description_zh": "Rewisp让Mac拥有了“记忆能力”。它能在你本地设备上读取屏幕文字并帮你记住一切，比如自动抓住“我周五前发给你”这种承诺，并持续提醒直到完成；还能让你用模糊的意思搜索，比如问问“周二以来有什么变化？”就能看到更新内容。它还能追踪体重、成绩等数字变化，自动填表（但绝不涉及密码），每晚9点还会悄悄发来一份当日摘要。整个过程完全隐私：截图绝不保存，只有纯文本留在你自己的Mac上。",
+      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Q6J5BWUJMERB6K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/78ee595e-5c0e-4a2b-93e6-f84c2ec521d8.png?auto=format",
+      "votes_count": 174,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "有丰富的屏幕操作画面和前后对比展示，比如文字捕捉、搜索、提醒弹窗、摘要生成等，非常适合录屏演示，视觉节奏强，容易抓人眼球。"
+        },
+        "beginner_friendly": {
+          "score": 4,
+          "reason": "功能概念直观（让电脑记住屏幕文字、自动提醒、搜意思），普通Mac用户都能很快理解用途，无需编程背景；唯一门槛是安装和授予屏幕权限，但可通过引导解决。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日排名第5，获得174票，处于热门前列，话题性较强，容易引发‘效率控’群体的共鸣。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "你的Mac会过目不忘！Rewisp让所有承诺不再落空",
+        "angle": "开箱体验+教程演示",
+        "shooting_tips": "先录一段日常Mac工作中的遗忘场景，引发痛点；然后用屏幕录制展示安装Rewisp、捕捉一条‘我稍后发文档’的聊天文字、设置提醒的过程；接着演示搜索‘体重变化’、自动填表等亮点功能，最后展示晚上9点的摘要弹窗。节奏轻快，全程配上解说的惊讶感。",
+        "target_audience": "Mac重度用户、效率工具控、经常忘事的职场人或学生"
+      },
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "画面演示效果出色，功能直观易懂，且产品本身话题性足够，极易产出吸引普通观众的爆款视频。"
+    },
+    {
+      "id": "1199725",
+      "name": "Detourmap",
+      "name_zh": "秘境地图",
+      "tagline_zh": "一张互动地图，标注了所有值得你绕道前往的奇景",
+      "description_zh": "一个免费的交互式世界地图，标记了70,520个让你不惜绕路一探的秘境——古遗址、海滩、洞穴、瀑布、火山、纪念碑、圣地、城堡、博物馆、花园、主题公园，甚至鬼镇，覆盖350个国家和地区。选个国家，打开筛选器，开始你的探索之旅。",
+      "url": "https://www.producthunt.com/products/detourmap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JCGXN36YFZ53KR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/695d543d-4716-4d14-b842-eb5d05fc76d7.png?auto=format",
+      "votes_count": 148,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "产品本身就是一张极具视觉表现力的交互地图，有丰富的UI操作、筛选切换和地点详情，非常适合录屏演示，能直观展示从全球缩放到具体地点的探索过程，画面节奏感和发现感强。"
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "reason": "概念极其简单：一张地图，点击看地点，用筛选器找感兴趣的类型。没有任何技术门槛，普通互联网用户打开就能上手，所见即所得。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "在ProductHunt当日排名第6，获得148票，处于热门前列，有足够的话题性和传播潜力。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "这张地图藏了7万个宝藏秘境，随便点一个都能让你立刻想出发！",
+        "angle": "开箱体验 + 互动演示",
+        "shooting_tips": "全程录制屏幕，先展示全球视角地图上密密麻麻的标记，制造「哇」的瞬间；然后快速缩小到某一国家，打开筛选器演示如何发现海滩、瀑布等不同类型；最后点到几个中国或国外的冷门地点，查看样片和介绍，用惊叹的语气解说。节奏先快后慢，结尾引导观众自己探索。",
+        "target_audience": "旅行爱好者、自驾游玩家、地理迷、喜欢小众景点的探索型观众"
+      },
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "产品可视化极强，普通人一看就懂，热度也高，非常适合做成刷屏级的发现类短视频。"
+    },
+    {
+      "id": "1197935",
+      "name": "Kobbe",
+      "name_zh": "科柏",
+      "tagline_zh": "注重隐私的网站流量与收入分析，一个无Cookie的轻量选择",
+      "description_zh": "这是一款隐私优先、无需Cookie的网站分析工具。它能帮你快速看清网站流量、页面表现、访问来源和收入漏斗，所有数据默认不追踪个人。注册后几秒就能装好，适合想了解网站状况又不想侵犯用户隐私的站长或创业者。",
+      "url": "https://www.producthunt.com/products/kobbe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/B2O6SVSYZAAX5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6cf4464e-39c9-4b01-b42e-8d718cdaac68.png?auto=format",
+      "votes_count": 295,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "有仪表盘、图表和数据可视化界面可以录屏，演示设置和看板操作还算直观，但缺少强烈的视觉冲击或新奇效果，更像看一个普通后台。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "基础概念如流量、来源、收入等，普通人大概能猜懂，但涉及到漏斗分析、转化收入归因时，纯小白可能一时摸不着头脑，需要旁白解释。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "当日排名第3，获得295票，话题性不错，正好蹭中“隐私替代GA”的热度。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "谷歌分析再见！这个隐私工具5秒装好，数据一样看得明明白白",
+        "angle": "对比测评（和 Google Analytics 比，突出隐私、轻量和无 Cookie）",
+        "shooting_tips": "全程屏幕录制，先展示安装过程（贴一段代码或插件），再切换到实时流量、来源和收入看板，突出“无Cookie”的标签设置。可以用分屏对比 GA 的复杂界面，语速轻快，前15秒抛出痛点。",
+        "target_audience": "个人站长、出海小创业者、重视隐私的品牌运营，被数据分析搞晕的普通博主。"
+      },
+      "overall_suggestion": "可以做",
+      "overall_reason": "有真实界面可以演示，借力GA隐私争议话题，但对普通用户的吸引力一般，需要靠标题和痛点切入。"
+    },
     {
       "id": "1199124",
       "name": "OpenSEO",
@@ -12,7 +111,7 @@
       "url": "https://www.producthunt.com/products/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y35NVXDA24JBBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4e9ba10f-3997-42e5-8606-664347937ec5.png?auto=format",
-      "votes_count": 708,
+      "votes_count": 709,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -70,39 +169,6 @@
       "overall_reason": "LLM 评分失败"
     },
     {
-      "id": "1197935",
-      "name": "Kobbe",
-      "name_zh": "Kobbe",
-      "tagline_zh": "Privacy-friendly web analytics with traffic and revenue.",
-      "description_zh": "Privacy-friendly and cookie-less analytics for your website. Traffic, pages, sources, revenue and funnels. Private by default. Set up in seconds.",
-      "url": "https://www.producthunt.com/products/kobbe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/B2O6SVSYZAAX5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6cf4464e-39c9-4b01-b42e-8d718cdaac68.png?auto=format",
-      "votes_count": 295,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败"
-    },
-    {
       "id": "1199683",
       "name": "BaseRT",
       "name_zh": "BaseRT",
@@ -112,72 +178,6 @@
       "website": "https://www.producthunt.com/r/3JJOOQXFG4LCTG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/474d4344-77f0-4190-b67b-49e40af7e541.png?auto=format",
       "votes_count": 231,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败"
-    },
-    {
-      "id": "1199790",
-      "name": "Rewisp",
-      "name_zh": "Rewisp",
-      "tagline_zh": "See it once. Ask forever.",
-      "description_zh": "Rewisp gives your Mac a memory. It reads your screen text on-device and remembers it for you. Catches promises like \"I'll send it Friday\" and reminds you until it's done. Ask \"what changed since Tuesday?\" and see exactly what's new. Search by meaning, not just words. Tracks numbers like weight or grades over time. Fills forms from your saved details — never passwords. One quiet 9 PM summary each day. Fully private: screenshots never saved, only text stays on your Mac.",
-      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Q6J5BWUJMERB6K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/78ee595e-5c0e-4a2b-93e6-f84c2ec521d8.png?auto=format",
-      "votes_count": 174,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败"
-    },
-    {
-      "id": "1199725",
-      "name": "Detourmap",
-      "name_zh": "Detourmap",
-      "tagline_zh": "Every place worth the detour, on one interactive map",
-      "description_zh": "A free interactive world map of 70,520 places worth going out of your way for — ancient ruins, beaches, caves, waterfalls, volcanoes, monuments, sacred sites, castles, museums, gardens, theme parks and ghost towns across 350 countries. Pick a country, flip on the filters, and explore.",
-      "url": "https://www.producthunt.com/products/detourmap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JCGXN36YFZ53KR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/695d543d-4716-4d14-b842-eb5d05fc76d7.png?auto=format",
-      "votes_count": 148,
       "scores": {
         "video_suitability": {
           "score": 0,
