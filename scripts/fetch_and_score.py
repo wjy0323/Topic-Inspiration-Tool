@@ -3,6 +3,7 @@
 
 import os
 import json
+import time
 import traceback
 from datetime import datetime, timedelta, timezone
 
@@ -151,62 +152,73 @@ def score_product_with_deepseek(client, product, rank):
 
     print(f"  Scoring [{rank}] {product['name']}...")
 
-    try:
-        response = client.chat.completions.create(
-            model=DEEPSEEK_MODEL,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt},
-            ],
-            max_tokens=1000,
-            temperature=0.7,
-        )
-        content = response.choices[0].message.content.strip()
+    last_error = None
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=DEEPSEEK_MODEL,
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt},
+                ],
+                max_tokens=1000,
+                temperature=0.7,
+            )
+            content = response.choices[0].message.content.strip()
 
-        # Handle possible markdown code fences
-        if content.startswith("```"):
-            content = content.split("\n", 1)[1]
-            if content.endswith("```"):
-                content = content[:-3]
-            content = content.strip()
-            if content.startswith("json"):
-                content = content[4:].strip()
+            # Handle possible markdown code fences
+            if content.startswith("```"):
+                content = content.split("\n", 1)[1]
+                if content.endswith("```"):
+                    content = content[:-3]
+                content = content.strip()
+                if content.startswith("json"):
+                    content = content[4:].strip()
 
-        scored = json.loads(content)
+            scored = json.loads(content)
 
-        # Derive overall_suggestion by rule if missing or override to ensure consistency
-        vs = scored["scores"]["video_suitability"]["score"]
-        bf = scored["scores"]["beginner_friendly"]["score"]
-        if vs >= 4 and bf >= 4:
-            scored["overall_suggestion"] = "强力推荐"
-        elif vs >= 2:
-            scored["overall_suggestion"] = "可以做"
-        else:
-            scored["overall_suggestion"] = "谨慎考虑"
+            # Derive overall_suggestion by rule if missing or override to ensure consistency
+            vs = scored["scores"]["video_suitability"]["score"]
+            bf = scored["scores"]["beginner_friendly"]["score"]
+            if vs >= 4 and bf >= 4:
+                scored["overall_suggestion"] = "强力推荐"
+            elif vs >= 2:
+                scored["overall_suggestion"] = "可以做"
+            else:
+                scored["overall_suggestion"] = "谨慎考虑"
 
-        return scored
-    except Exception as e:
-        print(f"  ERROR scoring {product['name']}: {e}")
-        traceback.print_exc()
-        return {
-            "name_zh": product["name"],
-            "tagline_zh": product.get("tagline", ""),
-            "description_zh": product.get("description", ""),
-            "scores": {
-                "video_suitability": {"score": 0, "reason": "评分失败"},
-                "beginner_friendly": {"score": 0, "reason": "评分失败"},
-                "popularity": {"score": 0, "reason": "评分失败"},
-            },
-            "video_inspiration": {
-                "title_idea": "",
-                "angle": "",
-                "shooting_tips": "",
-                "target_audience": "",
-            },
-            "overall_suggestion": "谨慎考虑",
-            "overall_reason": "LLM 评分失败",
-            "scoring_error": str(e),
-        }
+            return scored
+
+        except Exception as e:
+            last_error = e
+            if attempt < max_retries - 1:
+                wait = 2 ** attempt  # 1s, 2s, 4s exponential backoff
+                print(f"  Retry {attempt + 1}/{max_retries - 1} for {product['name']} in {wait}s: {e}")
+                time.sleep(wait)
+            else:
+                print(f"  ERROR scoring {product['name']}: {e}")
+                traceback.print_exc()
+
+    return {
+        "name_zh": product["name"],
+        "tagline_zh": product.get("tagline", ""),
+        "description_zh": product.get("description", ""),
+        "scores": {
+            "video_suitability": {"score": 0, "reason": "评分失败"},
+            "beginner_friendly": {"score": 0, "reason": "评分失败"},
+            "popularity": {"score": 0, "reason": "评分失败"},
+        },
+        "video_inspiration": {
+            "title_idea": "",
+            "angle": "",
+            "shooting_tips": "",
+            "target_audience": "",
+        },
+        "overall_suggestion": "谨慎考虑",
+        "overall_reason": "LLM 评分失败",
+        "scoring_error": str(last_error),
+    }
 
 
 def get_image_url(media):
@@ -232,7 +244,7 @@ def main():
     )
 
     # Fetch
-    print("Fetching ProductHunt Top 6...")
+    print("Fetching ProductHunt Top 10...")
     date_str, posts = fetch_top_products(ph_token)
 
     # Score
@@ -259,6 +271,10 @@ def main():
             generation_error = True
             product_entry["scoring_error"] = scored["scoring_error"]
         products.append(product_entry)
+
+        # Rate-limit: wait 2s between products to avoid DeepSeek throttling
+        if i < len(posts):
+            time.sleep(2)
 
     # Sort by overall_suggestion priority + votes
     priority = {"强力推荐": 0, "可以做": 1, "谨慎考虑": 2}
