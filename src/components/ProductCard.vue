@@ -45,6 +45,7 @@ defineEmits(['click', 'toggle-bookmark'])
 
 <style scoped>
 .product-card {
+  position: relative;
   display: flex;
   gap: 16px;
   background: #fff;
