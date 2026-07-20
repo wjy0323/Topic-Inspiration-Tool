@@ -3,7 +3,6 @@
 
 import os
 import json
-import sys
 import traceback
 from datetime import datetime, timedelta, timezone
 
@@ -288,7 +287,7 @@ def main():
         try:
             with open(dates_path, "r", encoding="utf-8") as f:
                 existing_dates = json.load(f).get("dates", [])
-        except Exception:
+        except (json.JSONDecodeError, KeyError):
             pass
     if date_str not in existing_dates:
         existing_dates.append(date_str)
