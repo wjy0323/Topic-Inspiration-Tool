@@ -1,15 +1,15 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-21T16:42:28+08:00",
+  "generated_at": "2026-07-21T17:32:25+08:00",
   "generation_error": false,
   "products": [
     {
       "id": "1178721",
       "name": "Fuzzy AI",
       "name_zh": "Fuzzy AI",
-      "tagline_zh": "在你联系潜在客户之前，先让他们对你产生好感。",
-      "description_zh": "做销售最怕发消息石沉大海，因为对方根本不认识你。Fuzzy 提前帮你暖场：找到已经在你市场里活跃的人，用内容和精心设计的评论帮你刷脸熟，再以你的语气发起个性化的 LinkedIn 和邮件活动。从线索挖掘、数据完善到序列化跟进和团队协同，全在一个工具里搞定，用过的人都说比之前用的更顺手、更全面。",
-      "intro_zh": "做销售的，最怕给陌生人发消息被无视。Fuzzy 帮你在联系前先混个脸熟，用内容、评论和个性化消息自动预热，让客户主动想认识你。销售、市场、创业者，想提高外联回复率的都值得试试。",
+      "tagline_zh": "在主动接触之前，先让潜在客户感受到你的温度",
+      "description_zh": "这是一款帮你做销售预热的AI工具。它能在你联系潜在客户之前，先找到那些已经在市场上活跃的人，并通过内容和互动让你在他们面前混个脸熟，最后再用你本人的口吻发出个性化的领英消息和邮件。从找线索、补齐资料到跟进、回复，一个平台全搞定。",
+      "intro_zh": "一个能自动帮你暖场的销售助手，在你主动找客户前，先用内容和评论让他们悄悄记住你。做销售的、跑客户的、搞拓客的，用了它，被忽略的窘境就会少很多。",
       "url": "https://www.producthunt.com/products/fuzzy-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/TZH7KMCWHJXAY5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2b7e45e0-5e5b-43f0-945b-b914185cc3fa.png?auto=format",
@@ -17,104 +17,104 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有完整的产品界面，可演示自动化外联流程、潜在客户发现、个性化消息生成等功能，前后对比回复率变化，视觉上足够直观，适合做成体验评测或教程视频。"
+          "reason": "有清晰的自动化面板、序列编辑器和邮件/领英消息预览界面，操作流程连贯，适合录屏演示，但缺少夸张的视觉特效，更多是效率工具类观感。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "面向销售和市场人员，概念就是自动暖场和跟单，不需要技术背景；界面被称为直观无缝，普通互联网用户只需理解销售外联基本流程即可快速上手。"
+          "reason": "围绕销售场景设计，概念直接（预热、序列、回复），不需要技术背景，普通销售从业者看看教程就能上手。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt 当日排名第1，收获 649 票，热度极高，话题性十足。"
+          "reason": "当天Product Hunt第1名，票数649，话题性高，顶部流量。"
         }
       },
       "video_inspiration": {
-        "title_idea": "冷外联神器！让客户主动找你的 AI 销售助手｜Fuzzy AI 评测",
-        "angle": "体验评测",
-        "shooting_tips": "录屏演示注册与设置过程，重点展示：自动匹配活跃潜在客户、一键生成个性化评论和消息、序列化跟进看板；穿插真实外联对比数据（打开率/回复率提升），快节奏剪辑，开头用痛点场景（邮件被忽略）快速抓住观众。",
-        "target_audience": "销售代表、商务拓展、创业者、市场运营，以及任何希望提高 LinkedIn/邮件外联效果的人。"
+        "title_idea": "销售不回消息？让AI先帮你把客户‘捂热’了再聊！",
+        "angle": "教程演示",
+        "shooting_tips": "录屏展示从添加线索、AI自动查找领英互动、生成个性化内容、到一键启动预热序列的全流程，重点对比‘无预热直接发推销信息被无视’和‘预热后再联系得到回复’的反差，配上轻快节奏和聊天截图。",
+        "target_audience": "经常做冷外联的销售、BD、创业者、独立开发者"
       },
       "category": "效率工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "Fuzzy AI 是高性能销售自动化工具，画面展示性强，小白也能看懂，加上当日票数冠军的高热度，非常适合做成视频推荐。"
+      "overall_reason": "产品界面直观、流程演示感强，概念简单易懂，且当天排名第一，非常适合做成轻松有趣的销售工具测评视频。"
     },
     {
       "id": "1195137",
       "name": "Loova Ads Studio",
-      "name_zh": "Loova AI广告工坊",
-      "tagline_zh": "不只好看，更要能转化的AI广告生成器",
-      "description_zh": "Loova Ads Studio 是一站式AI广告工作室，能生成UGC视频、产品广告、虚拟人视频和静态素材。专为提升转化率设计，帮助品牌和代理机构用不到2美元的成本制作高性能广告。",
-      "intro_zh": "一个AI广告制造机，输入产品信息就能自动生成能带货的视频和图片。想做电商、搞营销又不想花大钱拍广告的，这工具能帮你低成本出爆款。",
+      "name_zh": "Loova广告工作室",
+      "tagline_zh": "创造能转化而不仅是好看的AI广告",
+      "description_zh": "Loova是一款全能AI广告工作室，能一键生成UGC视频、产品广告、虚拟人视频和静态图片，专为高转化设计，帮品牌和代理商把每条广告成本压到2美元以下。",
+      "intro_zh": "这是个AI广告神器，能帮你做各种视频和图片广告，关键是做出来的广告不光好看，还能真让人下单。品牌方、做电商的、搞营销的，想省钱又出效果的，闭眼入。",
       "url": "https://www.producthunt.com/products/loova-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7WSRFJ4UO3U5WQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/64b7da57-907f-40bb-afc6-e15c731c2b48.png?auto=format",
-      "votes_count": 480,
+      "votes_count": 481,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "有完整的UI操作界面和广告生成过程，可直观展示从文字到视频的转化，前后对比效果强烈，适合录屏讲解。"
+          "score": 5,
+          "reason": "可以实时演示生成UGC视频、产品广告的过程，画面操作丰富，前后对比强烈，视觉冲击力强。"
         },
         "beginner_friendly": {
-          "score": 5,
-          "reason": "只需填写产品信息，其余全由AI代劳，无需任何设计或拍摄基础，普通网民秒上手。"
+          "score": 4,
+          "reason": "不需要编程知识，界面直观，但需要一些广告概念，初次使用的学习成本低。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt当日第3名，获得480票，话题热度极高，自带流量。"
+          "reason": "在ProductHunt上排第3名，票数高，热门话题"
         }
       },
       "video_inspiration": {
-        "title_idea": "2美元一条AI广告？亲测这个营销神器，转化率真香！",
-        "angle": "开箱体验",
-        "shooting_tips": "先录屏展示从输入产品卖点到生成不同风格广告的全过程，再对比传统外包广告的成本和时间，突出便宜+高转化；结尾放几条生成好的广告实例，配快节奏卡点音乐。",
-        "target_audience": "中小电商卖家、独立站主理人、数字营销从业者、小微企业主"
+        "title_idea": "2块钱一条AI广告，效果吊打万元专业团队？真实评测",
+        "angle": "对比测评",
+        "shooting_tips": "先展示传统广告拍摄的复杂和成本，然后引入Loova，从输入文案到生成多个版本视频，突出效果和成本对比。穿插真实案例，加快节奏。",
+        "target_audience": "电商卖家、市场运营、小品牌创业者"
       },
       "category": "AI工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉演示效果好，操作门槛低，热度高，天然适合拍教程或对比测评类视频。"
+      "overall_reason": "AI广告生成器，可视化操作适合视频演示，且面向大众创作者，小白友好。"
     },
     {
       "id": "1195868",
       "name": "Skippr AI",
-      "name_zh": "Skippr AI 实时助手",
-      "tagline_zh": "住在你产品里的AI员工，实时服务每一位用户",
-      "description_zh": "它是一个能看、会说的AI代理，能直接在你的软件里引导用户，帮他们上手、激活功能、解除卡点。它会记住每个用户的进度和语境，支持10种语言，还能替用户点击、填表。创建代理只需几分钟，嵌入两行代码或发个链接就能用。",
-      "intro_zh": "往你的产品里塞个AI小助手，能自己看懂屏幕，主动教用户操作，还把每个人的进度记得牢牢的。做SaaS、在线平台的老板和产品经理，想拉高激活率和留存，用它就像多了个不用睡觉的客服。",
+      "name_zh": "Skippr AI",
+      "tagline_zh": "产品里的AI活员工，一对一服务每位用户",
+      "description_zh": "能看、会说、直接操作软件的实时AI代理，帮你的产品搞定用户引导、激活和卡点疏通。全程自行安排任务和记忆，支持10种语言，内置浏览器自动化。几分钟就能创建，两行代码嵌入，或直接分享会议链接。用你的知识训练，穿上你的品牌外衣，新用户送200免费积分，无需绑卡，企业版更深度。",
+      "intro_zh": "在你的产品里塞一个AI小助手，能看画面、能说话、还能动手操作，带用户走完新手流程、解决卡顿。产品经理和创业者省掉人工客服，用户感受丝滑引导。",
       "url": "https://www.producthunt.com/products/skippr-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BR76ZLZHNBMYUU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e4c8f0e5-c39c-4226-85df-7d24ede05b0e.png?auto=format",
-      "votes_count": 339,
+      "votes_count": 345,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "可以录制屏幕展示AI如何实时引导用户，有丰富的界面操作和前后对比，动态交互画面观感好，适合在视频中突出“看到、说话、操作”的亮点。"
+          "reason": "演示AI代理在软件界面上实时操作、对话和引导用户的过程，画面感强，操作前后对比明显，适合录屏或模拟场景展示"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念就像“智能客服”，普通人完全能看懂；虽然嵌入需要开发，但也可以用会议链接分享，非技术用户也能体验，上手门槛低。"
+          "reason": "虽然背后技术复杂，但概念直观：产品里塞个智能助手，普通人能秒懂，嵌入只需复制代码，无需技术背景"
         },
         "popularity": {
           "score": 4,
-          "reason": "当日ProductHunt排名第5，获得339票，属于榜单热门，有不错的讨论度和传播潜力。"
+          "reason": "ProductHunt当日排名第5，票数345，处于前排高关注区域，有一定话题度"
         }
       },
       "video_inspiration": {
-        "title_idea": "给产品塞个AI员工，用户再也不卡了！",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "开头抛出痛：用户因卡顿流失；接着录制创建代理、嵌入代码/发链接的过程；然后切换用户视角，展示AI框出按钮、打字、自动跳转等实时引导；最后用留存数据对比收尾。节奏要快，突出“全自动”和“多语言”的视觉冲击。",
-        "target_audience": "SaaS创始人、产品经理、在线工具运营者"
+        "title_idea": "产品里活过来的AI员工，2行代码省掉整个客服团队",
+        "angle": "开箱体验",
+        "shooting_tips": "先展示一个SaaS产品新手用户的迷茫界面，再嵌入Skippr，录制AI一步步自动讲解、高亮按钮、填写表单的全过程，强调无需人工介入，最后呈现后台设置面板的极简操作。节奏先对比再演示，配轻快BGM",
+        "target_audience": "产品经理、SaaS创业者、想减少用户流失的运营人员"
       },
       "category": "AI工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "丰富的屏幕操作画面适合动态演示，概念足够普适，加上当日上榜热度，容易拍出吸引眼球的测评或教程。"
+      "overall_reason": "画面演示极具说服力，概念直观易懂，热度中上，非常适合视频化展示AI自动化带来的体验升级"
     },
     {
       "id": "1197930",
       "name": "LayerProof Mylar",
-      "name_zh": "LayerProof Mylar",
-      "tagline_zh": "把你的产品页面瞬间变成发布级宣传视频",
-      "description_zh": "LayerProof Mylar 的 AI 智能体能把一个产品页面、文档或一段提示词直接转化成完整的动态视频，脚本、分镜、配音全包。你可以随时重做任何镜头、精细调整每一帧，还能导出适配不同平台的版本。几分钟就能搞定一条可直接发布的宣传片。",
-      "intro_zh": "这工具就像个魔法视频工厂，给它一个产品链接或一段描述，它就能吐出带配音、分镜的完整视频。做独立开发、电商运营或者常要做产品展示的人，终于不用再为拍视频头疼了。",
+      "name_zh": "LayerProof Mylar（层证迈拉）",
+      "tagline_zh": "为你的产品一键生成发布级动态宣传视频",
+      "description_zh": "输入产品页面、文档或一段提示词，AI就能自动生成完整的动态视频——脚本、分镜、配音全包。不满意？任意场景都能重新生成，每个关键帧都能微调，最后导出适配各大平台的视频。几分钟内搞定一条可以直接用的产品发布视频。",
+      "intro_zh": "上传产品描述或链接，就能自动生成带解说和画面的宣传短片，连脚本都不用自己写。做电商、搞产品发布的小老板和营销人，这下省大事了。",
       "url": "https://www.producthunt.com/products/layerproof-social-content-generation?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CZOS4F47BAUX72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/09fac977-ccbe-44d6-94ba-1a0868b777b8.png?auto=format",
@@ -122,69 +122,34 @@
       "scores": {
         "video_suitability": {
           "score": 5,
-          "reason": "产品本身生成视频，界面操作、从文字到成片的转化过程极具视觉冲击力，非常适合录屏演示前后对比，动态效果丰富。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "输入产品页面或简单描述即可，不需要任何视频制作经验，普通用户一看就懂，上手门槛极低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第8名，158票，属于中上热度，有一定话题性但非爆款。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我让AI把我草率的想法变成苹果风宣传片，只用了3分钟",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "先录一段自己随便写的一句话描述，然后打开 Mylar 输入，加速展示生成过程，最后把AI成片和原始描述并列播放对比。重点突出分镜细化、一键多版导出、声音自然度，可以顺便吐槽传统剪辑的麻烦，节奏紧凑带点惊讶。",
-        "target_audience": "独立开发者、电商卖家、SaaS创业者、短视频创作者等需要快速产出产品展示视频的人。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面感极强，普通人零门槛上手，能直观展示AI从文字到视频的魔法效果，极易传播。"
-    },
-    {
-      "id": "1197573",
-      "name": "Backdrop",
-      "name_zh": "幕后AI同事",
-      "tagline_zh": "你的AI同事，帮你盯项目、跑运营",
-      "description_zh": "AI让执行变快了，但瓶颈转移到决定‘该做什么’，而这些决策所需的知识散落在不同的人、工具和聊天记录里。Backdrop提供了几个懂你公司的AI同事，能跨Slack、GitHub、Notion等工具自动汇总反馈、制定计划和需求、管理工单、起草文档，让项目自然流转起来。",
-      "intro_zh": "有个AI同事帮你在Slack、Notion、GitHub这些工具间跑腿，自动整理需求、制定计划、跟踪进度，再也不用追着人同步信息了。团队项目杂乱、跨部门协作头疼的产品和运营同学会爱上它。",
-      "url": "https://www.producthunt.com/products/backdrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JFE7XZUVIAWBTR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/19ddbcd8-41b6-413d-b50f-7cb6cee0ba58.png?auto=format",
-      "votes_count": 155,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以清晰展示AI跨多个工具自动操作和协同的过程，有前后变化和流畅的界面切换，演示效果强，视觉节奏带有满足感。"
+          "reason": "生成视频工具本身极富视觉冲击力，可完整录屏演示从输入到输出成品的过程，画面丰富、前后对比强烈，特别适合做视频内容。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "把AI拟人化为同事，概念直观易懂；虽然涉及一些项目管理工具，但核心就是用自然语言下需求、看结果，零技术门槛。"
+          "reason": "概念直白，就是自动生成宣传视频，无需编程，输入产品页或文字即可，但“关键帧”“再生场景”等环节需要一点学习，总体上手快。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt当天排名第9，票数155，处于榜单前列，具备一定话题性和关注度。"
+          "reason": "ProductHunt当日第8名，158票，属于榜单前十的热门产品，已有不少关注和讨论。"
         }
       },
       "video_inspiration": {
-        "title_idea": "给你的公司雇几个AI帮手，Slack一句需求就把活干了？",
-        "angle": "对比测评/教程演示",
-        "shooting_tips": "录屏演示一个典型场景：在Slack里用自然语言提一个功能需求，AI同事自动在Linear创建工单、在Notion写出需求文档、同步到Google Doc，并主动汇报进展。重点截取跨应用跳转的瞬间，配上轻快节奏和前后对比的叙述，突出‘信息孤岛’被打破的快感。",
-        "target_audience": "项目经理、产品运营、初创团队负责人，以及被多工具协同折磨的职场人"
+        "title_idea": "千万别让摄影师看！输入一个链接，AI直接生成产品宣传片？",
+        "angle": "开箱体验",
+        "shooting_tips": "录屏展示从打开LayerProof Mylar、粘贴产品链接，到AI自动生成视频的全过程，重点强调脚本、画面和配音的一键生成效果；再用一个真实产品页做对比，突出省时省力的卖点，节奏明快，最后放生成视频和官方宣传片的对比彩蛋。",
+        "target_audience": "电商卖家、初创公司创始人、社交媒体运营、营销策划人员"
       },
       "category": "AI工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "跨应用AI协同的场景展示感极佳，概念通俗，热度佳，非常适合做成爽感+实用兼备的短视频。"
+      "overall_reason": "演示效果直观震撼，操作门槛低，榜单热度高，特别适合做成快速种草的开箱视频。"
     },
     {
       "id": "1199946",
       "name": "Scriptyard",
-      "name_zh": "脚本工坊",
-      "tagline_zh": "在无限画布上搭建故事的免费视觉化工具",
-      "description_zh": "专为编剧和故事创作者打造的空间叙事规划工具。你可以在无限大的画布上拖拽排列角色、地点、场景和情节结构，用卡片和连线理清故事脉络，最后导出成 Markdown、Fountain 或 Final Draft 专业剧本格式。",
-      "intro_zh": "像在无限白板上拼积木一样搭出你的故事，角色、场景随手拖拽，画面感立现。经常写小说、编剧本但脑子一团乱的朋友，用它瞬间理清头绪。",
+      "name_zh": "编剧庭院",
+      "tagline_zh": "免费的可视化故事创作空间",
+      "description_zh": "Scriptyard 是个免费的可视化故事规划工具，专门为编剧和故事创作者设计。你可以在无限大的画布上自由安排角色、地点、场景和剧情结构，还能导出到常见的剧本格式。",
+      "intro_zh": "像个无限画板的编剧助手，把人物和情节拖拽摆开，连线就能理清思路。编剧、小说作者终于有个免费又简单的提纲工具了。",
       "url": "https://www.producthunt.com/products/scriptyard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/S6ZJMEYYUORADO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9203261f-1622-4556-8088-9e878bf9051a.jpeg?auto=format",
@@ -192,139 +157,139 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "拥有无限画布、拖拽、连线等直观操作界面，非常适合录屏演示，前后对比明显，视觉节奏丰富。"
+          "reason": "无限画布操作丰富，拖拽、缩放、连线演示效果好，适合录屏展示，但缺乏视觉冲击力"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念简单，就是摆卡片理故事，无需任何技术背景，写作爱好者一眼就能看懂怎么用。"
+          "reason": "概念直观，可视化操作，无需技术背景，普通用户也能理解使用方法"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第 10，152 票，处于热门区间但非头部爆款。"
+          "reason": "ProductHunt排名第10，152票，有一定关注度"
         }
       },
       "video_inspiration": {
-        "title_idea": "无限画布搭故事！这个免费神器让编剧和小说党狂喜",
-        "angle": "教程演示",
-        "shooting_tips": "全程录屏，从空白画布开始，逐步拖入角色、地点卡片，用连线展示人物关系与场景转换，最后演示一键导出剧本格式，突出“凌乱变清晰”的爽感，节奏轻快，用随手拈来的例子（比如一段小悬疑剧情）展示效率。",
-        "target_audience": "小说作者、剧本写作者、内容策划、需要用视觉梳理叙事的创作爱好者"
+        "title_idea": "写剧本必备！无限画布+一键导出，这个免费网站太强了",
+        "angle": "开箱体验+教程演示",
+        "shooting_tips": "录制屏幕，从新建画布开始，快速拖入角色、地点、场景块，展示连线描述关系，然后无限缩放看全局，最后导出Markdown或Final Draft，配以快节奏剪辑和讲解。",
+        "target_audience": "编剧、小说作者、内容创作者，对故事构思工具感兴趣的人"
       },
       "category": "设计创意",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "界面可视化程度高，操作简单，受众明确，非常适合拍成直观易懂的种草教程视频。"
+      "overall_reason": "可视化故事规划工具操作画面丰富，普通人容易理解且无使用门槛，排名靠前有话题性，非常适合制作视频内容"
     },
     {
       "id": "1194885",
       "name": "Nautis",
       "name_zh": "Nautis",
       "tagline_zh": "创始人的AI原生操作系统",
-      "description_zh": "Nautis 是一套为创始人打造的 AI 原生操作系统，把融资、规划、财务、文档、会议、CRM、招聘和日常运营都整合到一个互联的工作区里。它不像那些彼此割裂的 SaaS 工具，所有模块共享同一个 AI 大脑，能给你上下文感知的自动化、更聪明的洞察，以及一个真正理解你整个生意——而不只是单个应用——的“幕僚长”。让你少花时间管理工具，多花时间做好业务。",
-      "intro_zh": "给创业者整了个AI管家，融资、财务、客户、招人全在一个地方搞定，不用在十几个软件里来回切换。整天被各种系统和杂事淹没的创业老板，用了能省下大把时间。",
+      "description_zh": "Nautis 是为创始人打造的AI原生操作系统。在一个互联的工作区里就能搞定融资、规划、财务、文档、会议、客户管理、招聘和日常运营。跟那些各自为政的SaaS工具不同，所有模块共享一个AI大脑，能提供上下文感知的自动化、更聪明的洞察，以及一个懂你整个生意而不只是某个应用的首席幕僚，让你少花时间管理工具，多花时间搞建设。",
+      "intro_zh": "把创始人要用的所有工具都塞进了一个AI超级大脑里，融资、管人、看报表、开会啥都行，还能自动串起来帮你想主意。整天在不同软件间切来切去的创始人，用这个直接省掉半个助理班子。",
       "url": "https://www.producthunt.com/products/nautis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RVQOOZX7DXALRT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/313e23fa-4853-4364-a0a7-140903c45f90.png?auto=format",
-      "votes_count": 508,
+      "votes_count": 510,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的界面操作和模块切换，可以直观展示从融资仪表盘到客户管理的流畅联动，演示效果强，视觉信息量足，适合录制操作流程和前后对比。"
+          "score": 5,
+          "reason": "产品涉及融资看板、任务流程、AI对话、报表生成等丰富界面，前后操作对比感强，演示效果极具视觉冲击力，适合拍摄动态操作视频。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "概念围绕创业者日常，但涉及募资、CRM、财务等专业模块，普通用户需要一点背景知识才能完全看懂，不过核心逻辑通过界面演示可以降低理解门槛。"
+          "reason": "虽然界面设计可能直观，但概念围绕创始人运营、融资等商业场景，普通用户需要一定商业常识才能完全理解价值，使用门槛不是零。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt 当日第2名，获得508票，属于头部热度，话题性高，容易吸引关注。"
+          "reason": "ProductHunt 当日排名第2，获得510票，话题热度很高，属于当红炸子鸡产品。"
         }
       },
       "video_inspiration": {
-        "title_idea": "一个AI大脑接管整个公司？创始人再也不用来回切软件了！",
+        "title_idea": "一个人活成一个团队？创始人用AI操作系统的一天有多离谱",
         "angle": "开箱体验",
-        "shooting_tips": "直接录屏演示从创建项目到关联财务、自动抓取会议纪要的全流程，重点突出所有模块在同一AI上下文里协同工作的感觉，最后用传统多工具切换的混乱画面做对比，节奏前慢后快，配上惊讶表情特效。",
-        "target_audience": "初创团队创始人、自由职业者、中小公司管理者"
+        "shooting_tips": "录制从注册到创建第一个工作区的全程，重点展示融资仪表盘自动生成报告、会议纪要一键变待办、AI首席幕僚跨模块回答业务问题的情景，用快节奏剪辑突出「以前需要三四个工具，现在一个窗口搞定」的对比。",
+        "target_audience": "正在创业或对创业管理好奇的上班族、斜杠青年、小型团队管理者"
       },
       "category": "效率工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "界面演示素材丰富，能拍出很干货的开箱视频，但受众偏创业者，普通观众可能觉得离自己有点远。"
+      "overall_reason": "界面丰富、热度爆表、演示效果出色，非常适合视频化展示，虽然受众略垂直但话题性足够吸引泛人群。"
     },
     {
       "id": "1186303",
       "name": "Replay QA",
-      "name_zh": "Replay QA 智能回放测试",
-      "tagline_zh": "在用户发现前，自动揪出你的产品哪里坏了",
-      "description_zh": "连上你的GitHub仓库就能持续测试，或者扔个网址做一次性检查。Replay QA会自己探索你的应用，录下每个操作，找出真实bug，然后给你的编程助手提供根因和修复方案。免费试用：qa.replay.io。",
-      "intro_zh": "能自动点击、探索你的网页应用，像真实用户一样操作，把出错的步骤录下来，还能帮你定位到代码层面的根因。有自己产品在迭代的开发者、测试人员和小团队，再也不用靠用户投诉才发现bug了。",
+      "name_zh": "Replay QA",
+      "tagline_zh": "在你的用户察觉之前，就能揪出产品哪里出错了",
+      "description_zh": "把 GitHub 仓库连上就能持续自动测试，或者直接丢个网址做一次性检查。Replay QA 会自动逛你的应用，把每一步都录下来，找出真实 bug，并把根本原因和修复方案直接喂给你的编程助手。",
+      "intro_zh": "一个能自己翻你的应用、录下全部操作、自动定位 bug 并给出修复建议的测试助手。开发者和测试团队用了，再也不用熬夜找 bug、被用户报错追着跑。",
       "url": "https://www.producthunt.com/products/replayio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BJDB3RMYCKCJVL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad8bd8f5-8aff-4c13-857a-6fce7883ef0d.png?auto=format",
-      "votes_count": 403,
+      "votes_count": 405,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有丰富的UI操作录制回放、自动探索应用的动态画面，可以展示前后对比和bug发现过程，视觉冲击力较强，适合拍出效果。"
+          "reason": "有丰富的界面操作和录屏回放过程，可以清晰展示从发现 bug 到修复的全流程，前后对比明显，演示冲击力强。"
         },
         "beginner_friendly": {
-          "score": 3,
-          "reason": "概念上不难理解——自动找bug并录像，但目标用户主要是开发者，普通用户可能用不上；需要一定的技术背景才能接入GitHub仓库或解读根因。"
+          "score": 2,
+          "reason": "概念涉及 GitHub 仓库、持续测试、代码修复，普通非技术用户较难直接上手，需要一定开发背景。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt当日第4名，票数403，排名靠前，话题性不错，属于测试工具领域的新鲜产品，容易引发开发圈关注。"
+          "reason": "ProductHunt 排名第4，获得405票，在开发者圈话题性较高，热度不错。"
         }
       },
       "video_inspiration": {
-        "title_idea": "真·自动找bug！扔个网址，它帮你把应用点崩了再告诉你原因",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "先展示一个真实的web应用，然后演示如何一键添加Replay QA进行测试。镜头捕获它自动浏览页面、点击按钮的过程，重点录下发现bug时的报错界面和回放录像，最后展示代码层面的根因分析，强调速度，采用‘发现问题-复盘-定位’的快节奏剪辑。",
-        "target_audience": "独立开发者、小型技术团队、QA工程师、对自动化测试好奇的程序员"
+        "title_idea": "救命！这个 AI 自己翻我的网站，还把 bug 修了？",
+        "angle": "教程演示",
+        "shooting_tips": "直接屏幕录制，从添加 GitHub 仓库开始，展示自动探索页面的过程，把录制的回放片段剪进去，突出它精准定位 bug 并生成修复代码的画面，节奏轻快，配合惊讶口吻的解说。",
+        "target_audience": "正在焦头烂额找 bug 的开发者、测试工程师、技术初创团队"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "排名高、操作画面丰富，能直观展示自动化测试和bug根因定位，适合拍视频，对开发者圈子吸引力足。"
+      "overall_reason": "操作流程可视、前后对比强烈，适合录屏展示，但目标用户偏技术人群，大众传播范围有限。"
     },
     {
       "id": "1201055",
       "name": "Inkling",
       "name_zh": "Inkling",
-      "tagline_zh": "开放权重的975B多模态模型，专为微调而生",
-      "description_zh": "Inkling是Thinking Machines推出的首个开放权重模型，一个拥有975B参数的混合专家（MoE）架构，其中41B参数激活，支持100万token上下文，原生融合文本、图像和音频的推理能力，还能调节思考深度。你可以直接下载Apache 2.0许可的权重，或在Tinker上自由微调。",
-      "intro_zh": "一个能看文字、听懂声音、理解图片的超大AI模型，还能自己控制推理力度。想定制自己AI应用的开发者或研究团队，可以拿它微调出专属模型。",
+      "tagline_zh": "开放权重的 975B 多模态大模型，为微调而生",
+      "description_zh": "Inkling 是 Thinking Machines 的第一个开放权重模型，975B 的 MoE 架构，41B 活跃参数，支持 1M 上下文，能原生处理文字、图像和音频推理，还能调节思考强度。你可以直接在 Tinker 上微调，或者下载 Apache 2.0 许可的权重自己部署。",
+      "intro_zh": "一个能看图文、听音频的超级大模型，还把训练好的权重都开源了，方便你按自己的需求改造。适合想自己定制模型、又不愿意从头训的 AI 工程师和研究人员。",
       "url": "https://www.producthunt.com/products/tinker-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MWEQ2BQXHZ67O3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/21fdcba8-6557-46b8-bde7-f09114154f13.png?auto=format",
-      "votes_count": 184,
+      "votes_count": 186,
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "纯模型权重，无可视化界面，画面只有代码或推理结果，缺乏视觉冲击力，难以拍摄生动的内容。"
+          "reason": "主要交互是代码、终端和模型下载，缺乏直观的 UI 操作或画面冲击力，但微调过程和结果对比仍有一定录屏价值。"
         },
         "beginner_friendly": {
           "score": 1,
-          "reason": "概念高深，涉及MoE、微调、多模态推理等，需要较强的技术背景，普通人完全看不懂。"
+          "reason": "面向专业开发者，需要掌握 MoE、微调、权重下载等技术概念，普通用户完全看不懂，也无从下手。"
         },
         "popularity": {
-          "score": 3,
-          "reason": "ProductHunt排名第6，票数184，有一定关注度，但并非当日顶流，热度中等。"
+          "score": 4,
+          "reason": "ProductHunt 排名第 6，票数 186，开源大模型话题自带关注度，社区讨论度较高。"
         }
       },
       "video_inspiration": {
-        "title_idea": "开源模型的王炸？975B参数多模态AI，会看图听音还会控制思考",
-        "angle": "行业解读",
-        "shooting_tips": "以屏幕录制为主，展示模型架构图，实际调用演示文本、图片、音频的推理效果，重点突出“可控思考努力”参数的神奇之处，并与其他模型简单对比。",
-        "target_audience": "AI开发者、技术研究者、开源模型爱好者"
+        "title_idea": "在家驯服千亿参数巨兽！Inkling 开源多模态模型微调实战",
+        "angle": "教程演示 + 行业解读",
+        "shooting_tips": "屏幕录制为主，展示从 Hugging Face 下载权重、本地加载模型，到多模态推理（给张图片让它描述、给段音频让它总结）的完整过程，重点突出微调后的效果差异和推理速度。节奏先慢后快，配合通俗讲解降低技术压迫感。",
+        "target_audience": "AI 开发者、大模型技术爱好者、想用开源模型做产品的创业团队"
       },
       "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "技术概念深、可视化差，普通观众难以共鸣，仅适合深度技术向频道，大众传播效果有限。"
+      "overall_reason": "技术门槛极高，画面吸引力弱，仅适合极硬核的开发者向内容，普通用户完全无法共鸣。"
     },
     {
       "id": "1200738",
       "name": "Creed",
-      "name_zh": "Creed",
-      "tagline_zh": "为每个AI代理配备的个人信息档案",
-      "description_zh": "给AI代理们提供一个共享的、实时更新的个人背景信息库。Creed让每个连接上的AI都能理解你是谁、你怎样工作、以及什么对你最重要。简单说，就是给所有AI助手一个关于你的统一记忆文件。",
-      "intro_zh": "给所有AI助手建一个共享的个人资料夹，让它们知道你是谁、习惯和喜好。如果你经常用多个AI工具，又不想每次都重新介绍自己，这东西能帮你省掉大量重复解释。",
+      "name_zh": "信条",
+      "tagline_zh": "每个 AI 代理的专属个人背景档案",
+      "description_zh": "为你的 AI 代理提供个人背景信息。Creed 能让所有接入的 AI 共享一份实时更新的关于你——你是谁、你如何工作、以及什么对你重要——的共同认知。",
+      "intro_zh": "给所有AI助手装上一份你的个人说明书，让它们统一理解你的习惯和偏好。同时用好几个AI又想让它们协作的人，可能会喜欢这玩意。",
       "url": "https://www.producthunt.com/products/creed-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2CJALNGWPGKO2L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/18176ec9-e2fb-4908-8061-da73195666e5.jpeg?auto=format",
@@ -332,26 +297,61 @@
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "产品本身是底层API和概念，没有可视化操作界面，缺乏画面冲击力，很难通过演示展示效果，仅适合用动画或示意图辅助说明。"
+          "reason": "以配置文件或后台设置为主，没有丰富的 UI 操作或可视化结果对比，视频画面较平淡，缺乏视觉冲击力。"
         },
         "beginner_friendly": {
-          "score": 2,
-          "reason": "概念比较抽象，涉及AI代理和个人上下文管理，普通用户需要一定技术认知才能理解其用途，使用门槛较高，且目前无法直接触达终端用户。"
+          "score": 3,
+          "reason": "概念本身不难懂——就是“让AI更懂你”，但实际操作可能涉及多平台连接，需要用户对 AI 工具有一定的了解，存在轻微使用门槛。"
         },
         "popularity": {
           "score": 3,
-          "reason": "ProductHunt排名第7，票数162，处于中游水平，有一定关注度但不算爆款，缺乏广泛话题性。"
+          "reason": "ProductHunt 当日第7名，票数162，属于中等热度，未形成现象级关注但有一定话题性。"
         }
       },
       "video_inspiration": {
-        "title_idea": "给AI一个你的使用说明书，真能避免智障回复吗？",
-        "angle": "行业解读",
-        "shooting_tips": "用动画形式讲解个人上下文文件的概念，对比有无Creed时AI回答的差异，重点突出“一次设置，处处通用”的省心感，节奏上先痛点后方案。",
-        "target_audience": "经常使用多种AI工具的深度用户、对AI协作感兴趣的从业者。"
+        "title_idea": "都2025了，你的AI还在各说各话？试试统一人格的 Creed",
+        "angle": "教程演示",
+        "shooting_tips": "录屏展示创建个人档案的过程，然后分别打开两个不同的 AI 对话界面，输入相同问题，对比接入 Creed 前后的回答差异。节奏先慢后快，突出“一次配置，处处生效”的核心卖点。",
+        "target_audience": "正在同时使用多个 AI 工具、想让 AI 更了解自己的效率控或极客玩家"
       },
-      "category": "开发工具",
+      "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品概念抽象，缺乏可视化操作和直观效果，视频化难度高，且受众较窄，不适合面向普通互联网用户制作内容。"
+      "overall_reason": "虽然画面演示潜力有限，但概念贴近个人 AI 使用痛点，适合用对比教程类视频低成本呈现。"
+    },
+    {
+      "id": "1197573",
+      "name": "Backdrop",
+      "name_zh": "幕僚",
+      "tagline_zh": "替你跑项目、管运营的AI同事",
+      "description_zh": "AI让执行变得飞快，但决定该做什么反而成了瓶颈，因为决策背后的知识散落在人、工具和聊天记录里。Backdrop给你的项目和运营配了AI同事，它们懂你的公司，能跟团队一起干活，还能把分散的公司知识攒成共识。在Slack、GitHub、Linear、Notion、Asana、Google Workspace这些工具里，它们帮你提炼客户反馈、起草计划和规格、管理任务单、写文档，让工作自动流转。",
+      "intro_zh": "给公司配几个听得懂人话、会用各种办公软件的AI同事，替你把散落各处的信息和任务串起来自动推进。如果你是项目经理、运营负责人或初创团队，被跨工具协作搞到头秃，这玩意儿就是救星。",
+      "url": "https://www.producthunt.com/products/backdrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JFE7XZUVIAWBTR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/19ddbcd8-41b6-413d-b50f-7cb6cee0ba58.png?auto=format",
+      "votes_count": 155,
+      "scores": {
+        "video_suitability": {
+          "score": 2,
+          "reason": "产品主打后台自动化和多工具串联，界面以文字和状态流为主，缺乏生动的视觉演示元素，很难拍出吸引眼球的画面效果，更适合图文说明而非动态视频。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "概念不难懂，就是虚拟同事帮你干活，但要真的用起来需要团队先把各种工具对接好，对完全没有SaaS或协同工具使用经验的小白有一定门槛。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日排名第9，155票，处于话题热度中上区间，虽然没有现象级爆发，但也有一定社区关注度。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "我雇了三个AI同事，他们帮我管了整间公司",
+        "angle": "开箱体验",
+        "shooting_tips": "可以模拟一个混乱的项目管理场景，先展示散落在Slack、Notion、Linear里的各种信息，然后接入Backdrop，用屏幕录制展示AI如何自动整理需求、创建任务、更新进度，用分屏对比体现从混乱到有序的变化，节奏先乱后治，突出爽感。",
+        "target_audience": "被多工具协作折磨的项目经理、运营主管、初创公司创始人"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "概念有亮点，能解决真实痛点，但视觉呈现本身比较平淡，更适合讲清楚逻辑而不是靠画面冲击，开箱体验或教程类视频可以尝试，但不太容易出爆款。"
     }
   ]
 }
