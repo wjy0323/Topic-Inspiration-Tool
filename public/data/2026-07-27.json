@@ -1,155 +1,15 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-28T17:00:36+08:00",
+  "generated_at": "2026-07-28T17:40:47+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1195442",
-      "name": "Robynn AI",
-      "name_zh": "罗宾AI",
-      "tagline_zh": "你的网站会自己进化，越用越健康",
-      "description_zh": "网站上线后就像房子会老化，链接失效、内容过时、排名下滑，AI 搜索引擎还找不到你。Robynn 直接连上你的线上网站，不用重建代码或迁移数据，就能自动对照你的品牌定位、理想客户画像和竞争对手，给每一页做体检，然后用大白话跟你说哪里该改，你点点鼠标确认修改，它自动发布，还会用分析数据看效果，好的保留，不好的回滚。",
-      "intro_zh": "给网站配了个会自我修复的AI管家，能自动抓出坏链、过时内容，还照着你的品牌风格直接给出修改方案。做网站、搞独立站的朋友再也不用一点点排查问题了。",
-      "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/W2RTSYZ2NVMVFH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9587486c-2cd6-4995-a2bd-325378e4621e.png?auto=format",
-      "votes_count": 305,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的网页操作界面、前后修复对比、数据看板等画面，非常适合屏幕录制演示，视觉冲击力中等偏上。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "用普通英语描述修改需求即可，不需要懂代码，网站主、营销人员都能看懂并上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第5，305票，处于榜单前列，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "网站自己会看病打补丁？Robynn AI 体验：3分钟省掉一周改代码时间",
-        "angle": "开箱体验",
-        "shooting_tips": "先拍摄一个真实网站（如老博客或产品页）的问题界面，再用屏幕录制展示 Robynn 连接网站、自动审计、生成修复建议的过程，重点突出点击元素直接口述修改的流畅感，最后放出 Google Analytics 数据改进的对比图，节奏前快后稳。",
-        "target_audience": "独立站卖家、内容营销人员、小企业主、不想碰代码的网站打理人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "有清晰的操作界面和自愈逻辑，普通人看得懂、用得上，榜单热度高，很适合拍成直观的屏幕演示视频。"
-    },
-    {
-      "id": "1207491",
-      "name": "Rescript",
-      "name_zh": "Rescript",
-      "tagline_zh": "免费用，开源，可替代 Descript 的浏览器端视频编辑器",
-      "description_zh": "一个开源、完全运行在浏览器里的视频编辑器，你只要像编辑文字一样修改转录稿，就能直接剪辑视频。所有处理都在本地完成，免费且离线可用，无需安装。",
-      "intro_zh": "直接在浏览器里对着视频的说话稿改文字，视频就自动剪好了，完全不用学剪辑。经常要处理采访、课程或vlog的UP主和内容创作者，会觉得这玩意特别省时间。",
-      "url": "https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CUKYCRD6ZIYKTQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6f4dd5eb-5be0-4392-819e-c5e296ada3cf.jpeg?auto=format",
-      "votes_count": 146,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "界面操作感强，可以清晰展示“删文字=删视频”的即时效果，前后对比直观，适合录屏演示，视觉冲击力足。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "完全零门槛，会用文字编辑器就会用，无需任何视频剪辑经验或技术背景，打开网页就能干活。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第8名，获得146票，讨论度较高，处于话题上升期。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "开源免费！剪视频像删错别字一样简单？这款浏览器神器让剪辑师慌了",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示完整流程：从浏览器打开、导入一段讲话视频，到自动生成文字稿，最后通过删除、移动文字来实际剪辑视频，突出“删字即剪画”的核心玩法，节奏轻快，配上惊讶语气。",
-        "target_audience": "追求效率的内容创作者、不想学复杂剪辑软件的自媒体新手、经常处理访谈素材的UP主。"
-      },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化操作极具演示性，零成本上手，兼具话题性与实用价值，非常适合转化为爆款科普视频。"
-    },
-    {
-      "id": "1205300",
-      "name": "Estera",
-      "name_zh": "爱斯特拉",
-      "tagline_zh": "全天候接电话回消息的AI智能前台",
-      "description_zh": "认识一下爱斯特拉，专为房地产、酒店、餐饮等行业打造的AI接待员。这个智能助手能在5秒内接听每一个电话、回复每一条WhatsApp消息，自动筛选意向客户、预约日程并持续跟进。你只需3分钟就能创建一个专属的AI助理，再也不会漏掉任何一个商机。",
-      "intro_zh": "一个能自动接电话、回消息的AI客服，专门帮房产、餐馆、酒店这些忙不过来的商家搞定咨询和预约。生意太好、总漏接电话的老板们必备。",
-      "url": "https://www.producthunt.com/products/estera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GSPE3HHD2AHU47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f4215933-a5cc-4db9-b4fb-90ec0d2d7e24.png?auto=format",
-      "votes_count": 139,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以实景演示来电自动接听、WhatsApp消息互动、后台创建配置的全流程，真实通话和消息弹窗的画面很有冲击力，直观展示效果。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念就是“接电话的机器人”，普通店家一听就懂，注册就能用，没有任何技术门槛，3分钟搭建完成。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第9，获得139票，属于前十里热度不错但非顶流爆款的产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "3分钟雇个永不休息的AI前台！自动接电话回消息，老板彻底解放",
-        "angle": "开箱体验",
-        "shooting_tips": "先展示忙碌店主的痛点（漏接电话、回复不及时），然后录屏注册爱斯特拉并创建助理，用另一部手机拨打测试电话，录下AI接通的对话过程，同步展示WhatsApp自动回复，最后呈现后台的预约和客户列表。节奏轻快，突出5秒回应和无人值守的爽感。",
-        "target_audience": "中小商家老板、房产中介、餐馆店主、牙医诊所经营者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "场景直击痛点，画面直观生动，普通人一眼看懂且容易上手，非常适合做成爆款视频。"
-    },
-    {
-      "id": "1112188",
-      "name": "Adomate",
-      "name_zh": "阿多美特",
-      "tagline_zh": "把数据变成爆款广告，批量生产的那种。",
-      "description_zh": "Adomate 能让你用数据规模化地制作广告。它从你的 Meta 广告账户、广告资料库，以及 Trustpilot 和 Amazon 的用户评价里抓取信息，帮你搭建创意研究流程，自动生成符合品牌调性的广告概念，而且每一步都能追溯到原始数据，完全不是黑箱操作。",
-      "intro_zh": "这工具就是你的广告灵感发动机，把各种数据丢进去，直接吐出来一大堆能用的广告创意。天天为想广告词、做素材头疼的电商运营和投手，有了它就能批量出稿，再也不用干瞪眼。",
-      "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EPLPB5QB6JEVTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cb2c9bab-22c9-40c4-83c4-3bedf88219f1.png?auto=format",
-      "votes_count": 526,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以展示从数据输入到广告概念输出的完整流程，有丰富的UI操作界面和前后生成对比，画面切换快，信息量足，适合录屏演示。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "概念上需要理解“从数据触发创意”和“广告研究流程”，对纯小白有一点门槛，但核心操作是点击生成，上手不难。需略微了解Meta广告或电商。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当天第1名，526票，热度极高，属于当日现象级产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "广告人狂喜！产品猎手第一名，用你的数据自动生出爆款广告！",
-        "angle": "开箱体验+教程演示，展示从连接账号到生成首个广告概念的全过程，突出“数据可溯源”和“批量生成”的爽感。",
-        "shooting_tips": "全程录屏，先快速展示最终生成的几组广告对比，再倒回去一步步操作：连接Meta、导入评价、设置品牌调性、点击生成。用快节奏剪辑，配上惊喜音效。重点展示从一条差评直接变出一个广告创意的神奇时刻。",
-        "target_audience": "电商运营、投放优化师、中小企业老板、需要大量广告素材的数字营销人。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "当日第1名热度爆表，操作界面可视化强，批量生成广告的痛点精准，拍成视频既有看头又有转化力。"
-    },
-    {
       "id": "1198265",
       "name": "Artifacts by Databox",
-      "name_zh": "Databox 数据报告生成器",
-      "tagline_zh": "像聊天一样问你的AI分析师，一键收获专业报告",
-      "description_zh": "把你的每一次数据对话，直接变成精美的报告、幻灯片或交互文档，数据都是实时连接的。输一句提示词，报告就出来了，还能用链接分享或下载成PDF。",
-      "intro_zh": "在电脑上直接跟AI分析师聊天，就能自动生成带图表的报告和PPT，连排版都帮你搞定了。经常要做数据分析汇报的运营、市场、管理者会爱死它。",
+      "name_zh": "Databox 智能报告工坊",
+      "tagline_zh": "和你的 AI 分析师聊两句，马上收到一份能直接分享的报告",
+      "description_zh": "把你和 AI 分析师的任何对话，自动变成基于实时数据的精美报告、幻灯片或互动文档。只需一句提示词就能生成，然后通过公开链接分享或下载为 PDF。",
+      "intro_zh": "跟 AI 分析师聊两句，就能自动生成一份数据报告或 PPT，还能马上分享链接或下载 PDF。经常要做汇报、看数据的管理者和运营同学再也不用熬夜做表了。",
       "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OT2MF465VDKFTA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/190bc0a4-a6f8-4658-b9cd-8b1323bd66ee.png?auto=format",
@@ -157,174 +17,174 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "从一句自然语言提问到生成图文并茂的报告，整个过程界面变化丰富、前后对比明显，适合录屏演示，观感直接不枯燥。"
+          "reason": "可以完整演示从输入对话到生成可视化报告的流程，有清晰的 UI 界面和前后对比效果，但报告本身偏图表和文字，视觉冲击力中等。"
         },
         "beginner_friendly": {
-          "score": 3,
-          "reason": "普通用户看得懂“聊天生成报告”这个概念，但实际使用需要先连接自己的数据源，零数据基础的人可能会卡在初始配置这一步。"
+          "score": 5,
+          "reason": "无需任何技术背景，用自然语言提问就能获得报告，概念简单直接，普通职场人一看就懂，使用门槛极低。"
         },
         "popularity": {
           "score": 5,
-          "reason": "当日排名第2名，票数高达418，属于ProductHunt当日顶流，自带关注度和话题性。"
+          "reason": "产品在 ProductHunt 当天排名第 2，获得 418 票，热度很高，具备较强的话题性和用户关注度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "一句话秒出专业分析报告，打工人终于不用画PPT了！",
+        "title_idea": "一句话自动生成数据报告，这个 AI 打工人再也不用手搓图表了",
         "angle": "教程演示",
-        "shooting_tips": "先展示一个典型痛点（手动做报告耗时），然后录屏演示在对话框中输入问题，快速生成带图表的报告、转为PPT风格的全过程，突出即时分享链接的协作感，结尾用PDF下载展示最终效果。",
-        "target_audience": "经常和数据打交道的运营、市场、中小企业管理者，想快速将数据洞察转化为汇报材料的职场人。"
+        "shooting_tips": "录屏演示从打开工具、输入一句业务问题（比如‘本月销售趋势如何’）到自动生成包含图表和解读的完整报告，再演示一键导出和分享链接的全过程，节奏轻快，突出‘快’和‘省事’的核心卖点。",
+        "target_audience": "需频繁制作数据报告的市场运营、销售管理、小公司创始人等非技术商务人群"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "生成过程直观适合拍视频，但需要连接数据源，对完全没接触过数据分析的小白略有门槛。"
+      "category": "效率工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "直观的操作演示和极强的职场痛点抓取力，特别适合用短视频展示‘原来可以这么简单’，热度高且无认知门槛。"
     },
     {
       "id": "1205704",
       "name": "Claude Opus 5",
       "name_zh": "Claude Opus 5",
-      "tagline_zh": "近乎科幻级的智能，只要一半的价格",
-      "description_zh": "Opus 5 是 Opus 系列的一次跨代升级，专为长时间运行的智能体提供动力，同时在编程和专业工作中的表现也大幅提升。",
-      "intro_zh": "Anthropic 新出的超强脑力模型，写代码、干专业活更厉害了，价格还直接砍半。想用 AI 跑复杂自动化任务、搞深度开发的程序员和专业人士可以直接冲。",
+      "tagline_zh": "媲美顶级智能，价格直接砍半",
+      "description_zh": "Opus 5 是 Opus 系列的一次跨越式升级，专门为长时间运转的智能体提供动力，并在编程和专业工作上的表现大幅增强。",
+      "intro_zh": "Claude 最新 Opus 5 模型来了，智商逼近天花板，价格却只要之前的一半。写代码、处理复杂文档、跑长任务的专业党这下有福了。",
       "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IU2TVFNFIUECW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/af2e1709-0bf5-423a-9513-c3b33278fa07.jpeg?auto=format",
-      "votes_count": 400,
+      "votes_count": 402,
       "scores": {
         "video_suitability": {
-          "score": 2,
-          "reason": "纯 API 服务，没有图形界面，主要靠终端或代码编辑器展示，视觉冲击力弱，但可通过录屏演示代码生成效果，需要配合解说才能吸引观众。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及智能体、长运行任务、专业工作流等概念，普通用户不容易立刻理解价值，需要一定技术背景才会用，上手门槛较高。"
-        },
-        "popularity": {
           "score": 4,
-          "reason": "ProductHunt 排名第 3，票数 400，作为模型发布话题度较高，但未达到现象级爆款，热度集中在开发者圈层。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Claude Opus 5 实测：半价享受最强编程脑，能替代程序员吗？",
-        "angle": "测评演示",
-        "shooting_tips": "全程录屏，先展示如何通过 API 调用 Opus 5，然后用几个编程任务（比如写游戏、修 bug、生成自动化脚本）对比上一代速度与质量，最后总结性价比，节奏要快，配关键点字幕",
-        "target_audience": "开发者、独立黑客、AI 工具重度用户、技术博主"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然可视性较弱且有专业门槛，但性能翻倍、价格腰斩的话题性足够，适合以测评对比形式吸引开发者观众。"
-    },
-    {
-      "id": "1204010",
-      "name": "Webhound",
-      "name_zh": "Webhound",
-      "tagline_zh": "为你的AI代理量身打造的研究引擎",
-      "description_zh": "做研究没有天然的终点，同一个问题，AI代理花十分钟和花十小时得出的答案可能看起来都很完美。Webhound让你决定一个问题值得投入多少研究工作量。给它一个问题和一个预算，它就会顺着线索追踪、核查存疑的说法，直到预算用完，然后返回一份带引用的报告或带来源的数据集，连同背后的原始资料和工作文档。你可以自己运行Webhound，也可以通过 MCP 或 API 从你的代理调用它。",
-      "intro_zh": "随用随付的自动化研究助手，输入问题，设定预算，它就会自动查资料、验证真假，最后给你一份带来源的报告。适合需要深度调研但又不想亲自翻网页的研究者、写作者和AI玩家。",
-      "url": "https://www.producthunt.com/products/webhound?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TSDAGJRI6E3MV7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c01be36b-c9ae-49c7-8eb9-190e122839c2.png?auto=format",
-      "votes_count": 381,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "产品本质是后台研究引擎，没有丰富界面和视觉冲击，但可以演示“提交问题-等待-收到带引用报告”的流程，有一定的过程展示潜力，画面相对单一，适合录屏讲解。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "普通人理解需要一定的AI代理、API、MCP等概念门槛，直接使用也涉及预算设置和输出格式理解，对零技术背景用户不够友好。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 第4名，381票，热度较高，属于当天热门产品，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "花10块钱让AI帮你写篇调研报告，是真香还是鸡肋？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从输入问题、设置预算（比如5美元）开始，快速快进等待过程，重点展示最终生成的报告，放大引用来源，对比原网页内容，突出“核实弱说法”的卖点。用快节奏剪辑和悬念口播。",
-        "target_audience": "对AI自动化感兴趣、经常需要做资料调研的上班族、学生和自媒体作者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "热度高，功能有看点，虽界面不炫酷但演示过程能出效果，适当简化概念可以让普通用户理解，做成测评或教程有流量潜力。"
-    },
-    {
-      "id": "1207467",
-      "name": "superfile",
-      "name_zh": "超级文件",
-      "tagline_zh": "终端里的现代化多面板文件管家",
-      "description_zh": "Superfile 是一个现代化的终端文件管理器，拥有精致的多面板界面、强大的预览功能和深度自定义选项。让你像在桌面文件管理器里一样切换目录、预览文件、移动文件，同时保持键盘驱动的流畅和迅速。",
-      "intro_zh": "在命令行里装了个颜值超高的文件管理器，左边右边任意切，预览文件内容不用再打开，敲敲键盘就能搞定。经常折腾服务器、喜欢纯键盘操作的运维和开发者会很爱。",
-      "url": "https://www.producthunt.com/products/superfile?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/R3HSYEBN3DTVVZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7d5b519b-8b22-4837-803d-c56515ee1db9.png?auto=format",
-      "votes_count": 180,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "终端操作的界面变化和文件切换有可演示性，但画面始终是字符界面，缺乏色彩动效和视觉冲击力，节奏容易沉闷。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "文件管理概念人人都懂，但使用门槛在终端环境，普通用户可能不熟悉命令行操作，需要一定学习成本。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH 第6名，180票属于中上热度，终端工具话题自带极客光环，在技术社区有讨论度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "把文件管理器装进终端，效率直接翻倍？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示打开 superfile 后的多面板布局，演示复制、移动、预览文本和图片文件的操作流程，强调全键盘快捷键的高效感，中间可穿插与传统 ls/cd 的对比。",
-        "target_audience": "开发者、运维人员、喜欢折腾终端的效率控"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "终端工具视觉表现力有限，更适合图文教程，视频热度上限不高。"
-    },
-    {
-      "id": "1207308",
-      "name": "Grok 4.5",
-      "name_zh": "Grok 4.5",
-      "tagline_zh": "马斯克旗下xAI推出的编程、智能体任务与知识工作利器",
-      "description_zh": "Grok 4.5在编程、科学、工程和数学数据集上训练，拥有高效且智能的推理能力，擅长解决真实工程问题，在这方面超过了同类顶尖模型。",
-      "intro_zh": "一个能帮你写代码、解数学题、搞定工程任务的AI助手，由马斯克的xAI出品。程序员、理工科学生和经常跟复杂任务打交道的人，用它会觉得像开了外挂。",
-      "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3FJJ4M5M5IRALN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ee3cc408-d3cf-4b98-a2b6-74066f002240.jpeg?auto=format",
-      "votes_count": 162,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "主要交互是文本对话，画面变化不大，但可以通过屏幕录制展示问答过程和结果对比，有一定演示价值，视觉冲击力较弱。"
+          "reason": "虽然本身是模型，但可以展示编码对比、长文档处理、智能体运行的实机画面，有直观效果，适合录屏演示。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "用法跟普通聊天一样，不需要技术背景就能问问题，但它的强项在编程、工程领域，普通人可能感受不到全部威力。"
+          "reason": "通过网页就能直接用，聊天方式交互，普通人觉得就是一个更聪明的助手，虽有专业功能但不妨碍基本使用。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当天第7名，162票，有一定热度，但不算现象级爆款。"
+          "score": 5,
+          "reason": "ProductHunt 第 3 名，402 票，AI 圈关注度极高。"
         }
       },
       "video_inspiration": {
-        "title_idea": "马斯克新模型Grok 4.5实测：写代码、解数学题、搞工程，真的比GPT-4强？",
+        "title_idea": "Claude Opus 5 实测：半价就能买到的顶级 AI 大脑，写代码接管长任务有多强？",
         "angle": "对比测评",
-        "shooting_tips": "屏幕录制Grok 4.5网页或API调用过程，准备几个典型的编程、数学和逻辑推理问题，同时打开ChatGPT或其他模型做同步对比，用分屏展示，强调Grok 4.5的速度和准确度，结尾给出个人评价。",
-        "target_audience": "对AI工具感兴趣的程序员、学生、科技数码爱好者"
+        "shooting_tips": "录屏对比 Opus 4 和 Opus 5 在同一个代码生成、论文润色、多轮长任务中的表现，突出半价不降智的爽感，节奏先快后细，配上价格表情包。",
+        "target_audience": "程序员、AI 创作者、效率工具爱好者"
       },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有演示画面、普通人也能看懂、热度尚可，适合做成对比测评类视频。"
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "热度高、画面演示性强、普通人也能看懂，既有新闻热度又有实测价值。"
+    },
+    {
+      "id": "1195442",
+      "name": "Robynn AI",
+      "name_zh": "Robynn AI",
+      "tagline_zh": "自我学习，让网站不断优化自愈",
+      "description_zh": "你的网站上线后就开始劣化：死链、过时页面、排名下滑，连ChatGPT都搜不到你。Robynn直接连上你的正式站，不用重建、不用迁移，自动按品牌调性、目标用户、竞品情况检查每一页，给出有数据撑腰的改进建议。你只要点一下想改的地方，用大白话描述要什么效果，AI就会执行并发布，还能在GA里追踪数据——改对了就继续优化，改坏了自动回滚。第一次审计免费。",
+      "intro_zh": "给网站装个能自己修bug、自己进化的AI管家，用一句大白话“把这行字放大变红”就能改页面，完全不用碰代码。做网站的、搞营销的，再也不用被死链和SEO掉队折磨了。",
+      "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/W2RTSYZ2NVMVFH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9587486c-2cd6-4995-a2bd-325378e4621e.png?auto=format",
+      "votes_count": 306,
+      "scores": {
+        "video_suitability": {
+          "score": 5,
+          "reason": "有丰富的界面操作、点击元素、自然语言交互，能拍出强烈的前后对比和即时修改效果，视觉冲击力强，天然适合视频演示。"
+        },
+        "beginner_friendly": {
+          "score": 4,
+          "reason": "核心概念是网站优化，普通人一听就懂；操作靠说人话，零代码门槛，唯一需要的是清楚自己想怎么改。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日排名第5，获得306票，热度不错，有话题性。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "网站坏了不用管！一句人话就能让AI自动修好",
+        "angle": "教程演示",
+        "shooting_tips": "开头展示一个有死链、排版错乱的电商页面痛点，然后打开Robynn审计，镜头特写审计出的问题列表；之后用口语描述修改（如“把折扣标签改成红色炸眼一点”），录屏展示AI执行和页面瞬间变化；最后对比GA前后的数据提升，用快节奏剪辑强化“智能进化”的感觉。",
+        "target_audience": "网站站长、电商运营、中小创业者、想做网站优化的营销人员"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "操作直观、效果可视，拍成视频能制造强冲击的前后对比，普通人一眼就能看懂价值，非常适合做爆款内容。"
+    },
+    {
+      "id": "1207491",
+      "name": "Rescript",
+      "name_zh": "Rescript",
+      "tagline_zh": "一款免费、开源的浏览器端视频编辑器，Descript 的理想替代品",
+      "description_zh": "开源的在线视频编辑器，只需编辑转录文字就能剪辑视频。完全在浏览器里运行，无需安装，本地离线也能用，重点是免费！",
+      "intro_zh": "这玩意儿能让你像改稿子一样剪视频，删掉废话就把对应画面自动剪掉。拍视频的博主、做课程的老师、经常和视频打交道的打工人，不用装任何软件，打开浏览器就能干，还完全免费。",
+      "url": "https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CUKYCRD6ZIYKTQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6f4dd5eb-5be0-4392-819e-c5e296ada3cf.jpeg?auto=format",
+      "votes_count": 146,
+      "scores": {
+        "video_suitability": {
+          "score": 5,
+          "reason": "纯网页工具，直接录屏就能展示文字删改和视频画面的同步变化，操作过程自带视觉冲击力，非常适合做成直观的演示视频。"
+        },
+        "beginner_friendly": {
+          "score": 4,
+          "reason": "概念上像‘改文本’，普通人一看就懂，无需专业剪辑技术。唯一门槛是需要视频有语音，但上手几乎零成本。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt 当日第 8 名，146 票，在开源圈和视频创作者群体已经有不错的热度，话题性强。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "开源免费版Descript？用浏览器改文字就能剪视频，全程离线！",
+        "angle": "教程演示",
+        "shooting_tips": "录屏打开Rescript网页，导入一段口播视频，展示自动转录过程，然后删除一段废话，立即跳到视频轨道对应的片段被移除；再演示替换文字、视频画面同步调整。全程强调‘免费、离线、浏览器就跑’，节奏先快后细，突出‘像改Word一样剪视频’的爽感。",
+        "target_audience": "短视频创作者、在线课程讲师、经常需要处理口播素材的上班族和学生"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "画面演示效果极强，概念通俗易懂，开源免费自带热点，非常适合做成吸睛又实用的视频内容。"
+    },
+    {
+      "id": "1205300",
+      "name": "Estera",
+      "name_zh": "艾斯特拉",
+      "tagline_zh": "秒回电话和WhatsApp的AI前台，24小时在线",
+      "description_zh": "专为房地产、酒店、餐厅等行业设计的AI接待员，能自动接听电话和WhatsApp消息，5秒内响应，智能筛选客户、安排预约并跟进后续事务。",
+      "intro_zh": "开了个AI前台，电话和WhatsApp来了秒接，还能自动约时间、记跟进。做房产、酒店、餐饮这些常漏接电话的生意，这个能帮你抓住每个潜在客户。",
+      "url": "https://www.producthunt.com/products/estera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GSPE3HHD2AHU47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f4215933-a5cc-4db9-b4fb-90ec0d2d7e24.png?auto=format",
+      "votes_count": 139,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "可以展示电话接听、WhatsApp对话界面和预约流程，前后对比漏接与秒回的效果，画面直观，操作性强。"
+        },
+        "beginner_friendly": {
+          "score": 4,
+          "reason": "概念直白，无需技术背景，3分钟即可创建AI助手，普通商家能快速上手。"
+        },
+        "popularity": {
+          "score": 3,
+          "reason": "ProductHunt当日第9名，139票，虽非榜首，但在垂直领域有明确需求。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "再也不会漏接客户电话！这个AI前台全年无休，5秒响应",
+        "angle": "开箱体验",
+        "shooting_tips": "录制从注册到创建AI助手的3分钟流程，模拟电话打入和WhatsApp消息弹出，展示自动应答、筛选客户与一键预约日程，穿插没有AI前台时漏接电话的焦虑画面，节奏轻快，突出'秒回'和'省心'。",
+        "target_audience": "中小商家、房产经纪人、酒店前台、餐厅老板等需要及时响应客户咨询的人"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "演示性强，小白也能看懂，需求痛点明确，适合短视频展示效果。"
     },
     {
       "id": "1206376",
       "name": "AI YC interview with Gstack agents ",
-      "name_zh": "Gstack AI模拟面试官",
-      "tagline_zh": "加入你的Google Meet并提供反馈的AI专家团队",
-      "description_zh": "这是Garry Tan开源的一套AI专家，有CEO、CSO、QA主管等15+角色，能以3D虚拟形象加入你的真实Google Meet。他们会轮流发言，当场点评你共享的屏幕，并在聊天框里留下笔记。免费，MIT开源，底层由你的编程代理对话驱动，基于AgentCall构建。",
-      "intro_zh": "一群3D AI专家突然出现在你Google Meet里，对着你的屏幕指指点点，还发聊天笔记——这就是Gstack模拟面试官。准备YC面试的创业者，开个会就能免费练手。",
+      "name_zh": "Gstack AI 模拟 YC 面试",
+      "tagline_zh": "AI 专家组团进你的 Google Meet，当场点评你的路演",
+      "description_zh": "这是由 Garry Tan 开源的 Gstack 虚拟专家，包括 CEO、首席战略官、QA 负责人等 15 位以上的 AI 角色，能作为 3D 语音嘉宾直接加入你的 Google Meet。他们会轮流发言，针对你共享的屏幕提出尖锐反馈，并在聊天栏里留下笔记。免费、MIT 协议，背后是你自己的编程助手会话驱动。",
+      "intro_zh": "一个能直接拉进视频会议的 AI 智囊团，模拟 YC 面试官的刁钻提问，当场给你的方案挑刺。正在准备创业融资、想打磨路演表现的创始人必备。",
       "url": "https://www.producthunt.com/products/gstack-joins-your-meeting?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YGFMTX5T3K3NX7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/37b85a4b-3fe1-48f5-8e9d-27a68d02b9cf.png?auto=format",
@@ -332,26 +192,166 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有丰富的UI画面，Google Meet里3D虚拟形象、屏幕共享评论、聊天记录等动态元素，演示效果好，视觉冲击力强。"
+          "reason": "可录制 AI 角色以 3D 形象进入 Google Meet 并实时对话、点评屏幕的完整过程，画面生动有交互感，视觉表现力和声音元素适合视频传播。"
         },
         "beginner_friendly": {
-          "score": 3,
-          "reason": "需要会使用Google Meet，并理解创业融资面试的概念，对完全非技术用户稍有门槛，但操作不复杂。"
+          "score": 4,
+          "reason": "概念虽新颖但普通人一听就懂，无需编程背景，仅需简单设置即可在常用会议软件中使用，门槛较低。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt排名第10，121票，属于前10热门产品，有一定话题性。"
+          "reason": "ProductHunt 当日排名第 10，票数 121，处于前端显示，具有中等热度与话题性。"
         }
       },
       "video_inspiration": {
-        "title_idea": "我把YC面试官AI塞进谷歌会议，它当面怼我的BP！",
+        "title_idea": "我把YC合伙人团请进会议室，他们把我喷哭了",
+        "angle": "教程演示 + 开箱体验",
+        "shooting_tips": "用录屏展示从安装 AgentCall 到邀请 AI 专家加入 Google Meet 的全流程，共享一个简单路演 PPT，突出 AI 角色依次发言、对屏幕内容现场吐槽的画面，并用放大的聊天栏展示留下的笔记，节奏轻快，全程配上字幕强化声音互动。",
+        "target_audience": "早期创业者、YC 面试申请者、路演练习者、AI 工具爱好者"
+      },
+      "category": "教育学习",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "产品画面交互丰富、AI 对话效果生动，完全贴合视频演示，且对普通创业者足够友好，容易产出高传播度的内容。"
+    },
+    {
+      "id": "1112188",
+      "name": "Adomate",
+      "name_zh": "阿多美特",
+      "tagline_zh": "把数据炼成爆款广告，批量复制你的成功创意",
+      "description_zh": "Adomate 是个能自动把广告数据、竞品素材和用户评价转化成新广告方案的工具。你只要接入 Meta 广告账户、广告资料库和 Trustpilot、Amazon 的评价，设定好分析流程，它就能按你想要的风格生成有依据的广告概念，每个创意都能追溯回原始数据，全程透明不黑箱。",
+      "intro_zh": "一个能自动从你广告数据和用户评价里提炼创意、批量生成广告方案的智能助手。做电商、跑 Facebook 广告的运营和投手，再也不用愁想不出新素材了。",
+      "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EPLPB5QB6JEVTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cb2c9bab-22c9-40c4-83c4-3bedf88219f1.png?auto=format",
+      "votes_count": 529,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "有清晰的界面操作流程，可以展示从导入数据到生成多种广告创意的全过程，前后对比效果明显，画面信息丰富，适合录屏演示。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "概念不算复杂，但要理解它与 Meta 广告系统、广告资料库的关联，需要一定投放基础，纯小白可能有点懵。"
+        },
+        "popularity": {
+          "score": 5,
+          "reason": "ProductHunt 当日排名第1，529票，热度极高，话题性强。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "广告投手开挂！把数据喂给AI，1分钟生成本周爆款素材",
         "angle": "教程演示",
-        "shooting_tips": "录制整个Google Meet操作：发起会议，邀请AI机器人加入，展示3D头像现身；共享一个演示屏幕（如PPT），AI出声点评，聊天框弹出笔记。快速切换多个专家角色，配以惊讶反应，突出免费、开源的特点。节奏明快，用画中画展示自己的反应。",
-        "target_audience": "创业者、准备融资的创始人、对AI应用好奇的科技爱好者"
+        "shooting_tips": "屏录操作步骤：先从 Meta 广告账户导出表现好的广告数据，导入工具后展示如何设置创意规则，再呈现它自动生成的几种广告文案和图片草案，最后快速对比素材与原始数据触发器，突出“可追溯”卖点。节奏上先抛痛点再演示解法，结尾展示批量导出效果。",
+        "target_audience": "电商卖家、独立站运营、Facebook/TikTok 广告投手、出海营销人"
       },
       "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品有可视化的3D虚拟形象和会议互动，演示效果好，但需要一定的场景理解，适合特定受众。"
+      "overall_reason": "画面演示效果不错，热度高，但需要一定广告投放知识，面向垂直人群很适合做专业教程类内容。"
+    },
+    {
+      "id": "1204010",
+      "name": "Webhound",
+      "name_zh": "网猎",
+      "tagline_zh": "按预算自动挖掘真相的智能调研引擎",
+      "description_zh": "Webhound是一个能按美元预算自动执行深度调研的引擎。你只需给出问题和预算，它就会像侦探一样不断追踪线索、核查信息薄弱点，直到钱花光，最后交付一份带引用来源的报告或数据集。可以通过MCP协议或API直接调用，也支持独立运行。",
+      "intro_zh": "给个问题，再定个预算，它就能自己上网刨根问底，把线索追到底，最后甩你一份带出处的研究报告。做研究、写深度文章、需要核实大量信息的自媒体人和分析师会很爱这个。",
+      "url": "https://www.producthunt.com/products/webhound?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TSDAGJRI6E3MV7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c01be36b-c9ae-49c7-8eb9-190e122839c2.png?auto=format",
+      "votes_count": 380,
+      "scores": {
+        "video_suitability": {
+          "score": 2,
+          "reason": "本质是后台API驱动，没有丰富的可视化界面，用户看到的只是输入框和最终报告。虽然可以拍摄逐步下达预算、展示生成过程的屏幕录制，但画面单调，缺乏视觉冲击力，演示效果较平。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "目标用户是需要调用Agent的开发者和高级研究人员，概念涉及到MCP、API、按预算执行等，普通用户很难直接理解和使用，有较高技术门槛。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日排名第4，获得380票，属于较高热度，话题性较强。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "花5美元让AI帮我做了一整天研究，结果让我震惊！",
+        "angle": "对比测评",
+        "shooting_tips": "屏幕录制为主，展示输入同一个复杂问题，分别使用免费ChatGPT、传统搜索引擎和Webhound（设置不同预算）得到的结果差异。重点突出带引用来源的报告细节和预算消耗情况，用分屏对比节奏，最后展示报告质量。",
+        "target_audience": "对AI工具好奇的普通泛科技爱好者，以及想提高研究效率的内容创作者"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "产品功能强大但画面演示效果弱，且对非技术用户理解门槛高，视频可看性有限。"
+    },
+    {
+      "id": "1207467",
+      "name": "superfile",
+      "name_zh": "超级文件管理器",
+      "tagline_zh": "一款现代化的终端可视化文件管理器",
+      "description_zh": "这是一个现代化的终端文件管理器，拥有精致多面板界面、强大的文件预览和深度定制能力。你可以像操作桌面文件管理器一样，在不同面板间浏览、预览和移动文件，全程纯键盘操控，快捷高效。",
+      "intro_zh": "终端里也有双栏文件管理器了，像桌面一样拖拽预览，纯键盘操作飞快。经常在命令行里折腾文件的程序员、运维老哥会爱不释手。",
+      "url": "https://www.producthunt.com/products/superfile?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/R3HSYEBN3DTVVZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7d5b519b-8b22-4837-803d-c56515ee1db9.png?auto=format",
+      "votes_count": 180,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "终端界面具有色彩和多面板布局，展示键盘操作和文件预览能体现效率，但整体视觉冲击力较弱，容易显得单调。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "需要熟悉终端命令行操作，概念涉及面板、快捷键、纯键盘驱动，普通用户难以立刻理解和使用，门槛较高。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日排名第6，获得180票，在技术圈有一定话题性和关注度。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "这款终端神器，让我彻底抛弃了图形界面的文件管理器",
+        "angle": "教程演示",
+        "shooting_tips": "录屏展示多面板分割、文件预览、快捷键移动文件等操作，穿插与传统`ls`、`cd`命令的对比，强调速度与效率提升，节奏紧凑。",
+        "target_audience": "后端开发者、运维工程师、命令行重度用户、技术爱好者"
+      },
+      "category": "开发工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "终端工具视觉表现力有限且使用门槛较高，更适合开发者群体，普通用户难以产生共鸣。"
+    },
+    {
+      "id": "1207308",
+      "name": "Grok 4.5",
+      "name_zh": "Grok 4.5",
+      "tagline_zh": "SpaceXAI 推出的编程、智能代理与知识工作模型",
+      "description_zh": "Grok 4.5 在编码、科学、工程和数学数据上训练，兼具智能与高效推理能力。它擅长真实的工程任务，并且在这些任务上超越了同类主流模型。",
+      "intro_zh": "这是一款能帮你写代码、处理复杂工程难题的 AI 助手。程序员、科研狗或者需要干重脑力活的工程师，可以用它搞定那些烧脑任务。",
+      "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3FJJ4M5M5IRALN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ee3cc408-d3cf-4b98-a2b6-74066f002240.jpeg?auto=format",
+      "votes_count": 163,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "可以通过屏幕录制展示代码补全、问答、代理执行任务的过程，有一定视觉演示效果，但画面主要是文字和代码，缺乏强烈视觉冲击。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "主要面向开发者和技术人员的编程与工程任务，普通用户若不懂技术背景会感觉晦涩，使用门槛较高。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt 排名第7，获得163票，在发布当天有不错的关注度和话题性。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "马斯克新模型 Grok 4.5 实测：写代码能打过 Claude 吗？",
+        "angle": "对比测评",
+        "shooting_tips": "录屏演示几个典型编程任务（如写一个网页游戏、调试复杂算法），将 Grok 4.5 与 Claude/GPT 的输出并列对比，突出生成速度、准确性和工程细节。节奏紧凑，结果一目了然。",
+        "target_audience": "程序员、AI 爱好者、科技极客"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "有演示操作空间但视觉冲击一般，适合技术圈观众，普通人难以共鸣，不过热度不错值得尝试。"
     }
   ]
 }
