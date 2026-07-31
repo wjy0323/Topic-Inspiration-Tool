@@ -1,15 +1,260 @@
 {
   "date": "2026-07-30",
-  "generated_at": "2026-07-31T17:52:40+08:00",
+  "generated_at": "2026-07-31T20:17:56+08:00",
   "generation_error": false,
   "products": [
     {
+      "id": "1210286",
+      "name": "Pally",
+      "name_zh": "帕利",
+      "tagline_zh": "住在你短信里的私人助手",
+      "description_zh": "Pally是一个藏在短信里的私人助理，别再已读不回了，让Pally替你回复、处理工作、省下时间。它是唯一原生接通iMessage和WhatsApp的文本代理，能监控消息、提醒你，甚至用你的语气和语境帮你回复朋友。",
+      "intro_zh": "这玩意儿住你短信里，能帮你自动回消息、处理杂活儿。忙到忘记回复、又怕冷落朋友的上班族和学生党，真的需要它。",
+      "url": "https://www.producthunt.com/products/pally?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/O2GO374S5UU2NW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1aecb191-474e-4747-9922-a01a3c5f8d50.png?auto=format",
+      "votes_count": 270,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "有清晰的手机界面操作，可以展示在iMessage中自动回复、设置语气的流程，画面直观，适合拍沉浸式体验视频，但缺乏强烈视觉特效，整体可观性强。"
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "reason": "概念极其简单，就是短信里的自动回复机器人，普通人一听就懂，不需要任何技术背景，连接聊天App就能用，门槛几乎为零。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt排名第6，票数270，处于当日热门区域，但未进前三，有不错的关注度和讨论基础。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "AI替你回消息，比Siri还懂你！Pally上手实测",
+        "angle": "开箱体验",
+        "shooting_tips": "从屏幕录制开始，展示收到朋友消息时Pally自动回复的界面，突出它能模仿自己语气，再演示设置过程（连接iMessage、自定义回复规则），用生活场景（比如正在开会时自动回复“稍等，一会儿回你”）带出省时卖点，节奏轻快，穿插真实聊天截图对比。",
+        "target_audience": "经常因忙碌而延迟回复消息的上班族、不想在社交中显得冷漠的学生、对效率工具有热情的普通用户。"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "产品交互画面丰富、概念极度易懂又热门，非常适合拍成通俗有趣的体验视频，能自然吸引普通用户。"
+    },
+    {
+      "id": "1191527",
+      "name": "Expert Chase for iOS & Android",
+      "name_zh": "Expert Chase（智追）- AI生活管家",
+      "tagline_zh": "让人生与AI并肩同行",
+      "description_zh": "用户呼声得到了回应，Expert Chase 正式登陆 iOS 与 Android，带来更强大的体验和原生系统级整合。现在它横跨网页、苹果和安卓平台，你能把苹果日历、谷歌日历、提醒事项、谷歌任务、苹果健康、谷歌健康连接全都交给它，让AI帮你打理生活。",
+      "intro_zh": "这个App把你的日程、任务和健康数据一股脑接进来，让AI替你统一规划、智能提醒。每天被琐事追着跑的上班族、总忘东忘西的学生党，想要生活更有序的人都该试试。",
+      "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZK5OM6K2OEWREN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/49ea8837-2bf2-4b76-804d-3604149639e7.png?auto=format",
+      "votes_count": 185,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "有丰富的手机界面操作，可演示日历同步、任务整理、健康数据整合等画面，动态镜头加上前后对比很有视觉冲击力。"
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "reason": "就是一个生活管理助手，不需要任何技术背景，打开App跟着引导就能用，普通老百姓一眼就能看懂。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt 当日第8名，185票，处于中上热度，话题性不错，容易吸引好奇的观众。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "手机里藏了个AI管家，日程、打卡、健康它全包了！我一周的真实体验",
+        "angle": "开箱体验",
+        "shooting_tips": "录制从下载到授权日历、健康数据的全过程，重点展示AI自动整理日程和弹出提醒的瞬间，用快速剪辑突出“之前多乱vs之后多顺”，配上轻快BGM。",
+        "target_audience": "追求效率的职场人、需要规划的学生、关注健康又想省事的数码小白"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "手机应用可视化强、使用门槛低，天然适合视频演示，且热度足够引发观看兴趣。"
+    },
+    {
+      "id": "1210006",
+      "name": "Focus Room",
+      "name_zh": "专注学室",
+      "tagline_zh": "把你的 YouTube 变成私人订制的学习课堂",
+      "description_zh": "Focus Room 能把 YouTube 上的教学视频和播放列表整理成结构清晰的课程，去掉乱七八糟的推荐和干扰。你可以用时间戳直接跳转重点，自动生成视频总结，随手记笔记、列待办，还能追踪学习进度。它想让“漫无目的刷视频”变成“一门心思学到底”。",
+      "intro_zh": "这玩意儿能把你在 YouTube 上攒的教学视频变成正经课程，再也不会看着看着就被推荐带跑偏了。经常在 YouTube 自学但总是分心的学生和职场人，终于能有个像教室一样不受打扰的学习角落。",
+      "url": "https://www.producthunt.com/products/focus-room?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QVIVCH4IY2RXQW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0cb8e583-7ed3-48ac-ba5e-a1025be3a7d3.png?auto=format",
+      "votes_count": 158,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "课程列表、时间戳导航、笔记面板、进度环等 UI 元素丰富，拍成视频能清晰展示“散乱播放列表→结构化课程”的转变，视觉对比强烈。"
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "reason": "只要是常用 YouTube 看学习视频的人，点开就能理解怎么用，不需要任何技术背景。安装即用，交互直觉。"
+        },
+        "popularity": {
+          "score": 3,
+          "reason": "当日 ProductHunt 第 9 名，158 票，属于中等热度的效率类新品，话题性一般。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "白嫖 YouTube 全网课？这个插件让你学习效率暴涨 200%",
+        "angle": "教程演示",
+        "shooting_tips": "先录一段普通 YouTube 页面花里胡哨的推荐栏，再切换到 Focus Room 清爽的课程面板，用分屏对比。然后演示导出一个播放列表变成课程、点击时间戳跳进度、自动生成摘要做笔记的全过程，结尾展示进度统计页。节奏明快，加上滴答声效。",
+        "target_audience": "经常在 YouTube 上学技能、听公开课，但容易分心、不知如何系统整理笔记的在校学生和终身学习者。"
+      },
+      "category": "教育学习",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "操作画面直观，学习价值几乎零门槛，很适合拍“原来还能这样学”的种草视频。"
+    },
+    {
+      "id": "1208711",
+      "name": "SKI",
+      "name_zh": "SKI",
+      "tagline_zh": "免费语音编程，支持Claude Code、Codex等AI编程工具",
+      "description_zh": "我们刚打造了SKI——一款为Claude Code、Codex等准备的语音编程工具。它远不止听写：你的AI代理会用语音回复你，就像真正的队友，让你以思考的速度写代码。你可以带它进会议室现场构建，或者让它代你发言。它只是安静地呆在桌面上——按个键，开口说话，它就开始工作。完全在你本机运行，免费，支持Mac和Windows。",
+      "intro_zh": "在电脑上装了个能用嘴写代码的语音助手，你一边说话，AI一边语音回复，活像个坐在旁边的结对编程搭档。常用Claude Code或Codex的程序员会爽到，不用敲键盘就能快速开发。",
+      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9e7fefdc-964d-4b38-9c8a-0bc89eb64bc2.png?auto=format",
+      "votes_count": 573,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "语音交互和代码实时生成可以录屏演示，有画面感和操作冲击力，适合拍成直观体验视频。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "概念涉及AI编程代理，需要用户熟悉Claude Code、Codex等开发工具，纯技术小白很难上手，理解门槛高。"
+        },
+        "popularity": {
+          "score": 5,
+          "reason": "当天ProductHunt排名第1，获得573票，话题热度极高。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "打死我也不敲键盘了！用嘴写代码的免费神器SKI，AI还能语音怼你",
+        "angle": "演示体验",
+        "shooting_tips": "录屏+旁白，先展示桌面悬浮窗和快捷键，随后语音说出编程指令，展示代码实时生成，同时播放AI语音回答，强调不敲键盘的爽快感，再快速演示会议场景或代发言功能，节奏先慢后快，突出随想随做的效率。",
+        "target_audience": "程序员、独立开发者、AI工具发烧友、追求效率的技术博主"
+      },
+      "category": "开发工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "演示效果直观，但受众主要为技术人员，适合技术圈传播而非大众爆款。"
+    },
+    {
+      "id": "1203499",
+      "name": "Memmy Agent",
+      "name_zh": "Memmy 记忆助手",
+      "tagline_zh": "让每个AI都记住同一个你",
+      "description_zh": "这是一个个人记忆中心和本地AI代理，能把你在各种AI工具里的聊天、决定、偏好、进展和经历都存成统一记忆。让你的Claude Code、Codex等工具共享同一个完全由你控制的记忆库，它们都能认出你。它还能在合适的任务里自动带入背景信息，甚至直接帮你干活。数据默认存在本地，随时可管理，免费起步送200万token用量。",
+      "intro_zh": "把你跟任何AI助手说过的话、做的选择、习惯偏好自动记成一本共享账本，以后无论用ChatGPT还是Claude，它们都像老朋友一样记得你。经常在不同AI之间切换、不想重复解释自己的人特需要。",
+      "url": "https://www.producthunt.com/products/memmy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5S7SGS3F5S6RN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f316c01f-9b4c-49b5-ba54-f7e9d69a0554.png?auto=format",
+      "votes_count": 519,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "可以演示记忆管理界面、与多个AI对话的记忆同步效果，但操作多为后台设定和列表浏览，缺少动态视觉冲击力，整体偏功能讲解。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "“记忆中枢”“本地代理”等概念有点抽象，普通用户要稍微理解一下，不过设置和查看记忆的界面比较直观，有一定学习门槛但不算高。"
+        },
+        "popularity": {
+          "score": 5,
+          "reason": "ProductHunt当日排名第2，票数519，话题热度很高，AI记忆统一是个痛点方向，容易引发讨论。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "让所有AI都记住你！Memmy统一记忆中心实测，再也不用跟每个AI重复介绍了",
+        "angle": "教程演示",
+        "shooting_tips": "先录屏安装和初始设置，然后分别打开ChatGPT和Claude，用Memmy注入记忆，演示两者都知道你的名字和偏好，最后对比未使用前两边互不认识的情景，突出“一个记忆处处通用”的惊喜感。节奏前30秒快速抓人，中间做对比演示，末尾加一句实用总结。",
+        "target_audience": "重度AI用户、效率工具控、开发者、数字工作者"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "概念有话题性，记忆统一演示有亮点，虽然视频化程度中等，但能拍出清晰对比效果吸引观众。"
+    },
+    {
+      "id": "1187127",
+      "name": "AI Search Console",
+      "name_zh": "AI搜索管理台",
+      "tagline_zh": "AI搜索的提示词表现与引用溯源工具",
+      "description_zh": "这个工具让做AI搜索优化的人不用再手动去各个AI里查品牌曝光了。它能自动追踪你的品牌在ChatGPT、Claude等AI对话里被提及的次数、排名变化、声量份额，还能跟竞争对手对比。你可以细到分析每个提示词的表现，一眼找到内容缺口，直接生成客户报告，告别截图和表格。",
+      "intro_zh": "专盯ChatGPT、Claude这些AI，看你的品牌有没有被提到、排第几、占了多少话语权。SEO和GEO人再也不用一个个AI里截图查排名了。",
+      "url": "https://www.producthunt.com/products/ai-search-console?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/O7C4XHAKCEG4AF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6245d196-13c6-4f59-bc9b-c06773636bdf.jpeg?auto=format",
+      "votes_count": 511,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "拥有丰富的可视化仪表盘、趋势图表和报告生成界面，可以完整演示从输入品牌词到查看多维分析的过程，操作流畅，适合教程类视频，但缺乏强视觉冲击力的前后对比。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "需要理解SEO和AI搜索可见性的基本概念，普通用户可能对‘声量份额’‘引用来源’等术语感到陌生，但功能逻辑与常见的网站分析工具类似，稍微解释就能看懂。"
+        },
+        "popularity": {
+          "score": 5,
+          "reason": "ProductHunt当天第3名，票数超500，在SEO和AI交叉领域激起大量讨论，热度很高。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "我拿AI搜了下自己品牌，结果尴尬了…这款监控工具真实测评",
+        "angle": "对比测评",
+        "shooting_tips": "先展示传统手动检查AI搜索结果的低效过程（贴一堆截图），然后切入AI Search Console后台，输入同样品牌名，几秒钟呈现自动生成的排名、声量、引用源报告，重点放大‘提示词级别’分析功能，结尾配上导出报告的操作。节奏上用痛点引起共鸣，然后用一键分析制造爽感。",
+        "target_audience": "SEO优化师、内容营销负责人、在AI搜索时代寻找新监控方法的品牌运营。"
+      },
+      "category": "数据分析",
+      "overall_suggestion": "可以做",
+      "overall_reason": "后台操作演示性强，但目标用户偏专业，适合做给垂直人群的实用测评视频。"
+    },
+    {
+      "id": "1208851",
+      "name": "Claude Code usage tracking by LangWatch ",
+      "name_zh": "LangWatch 出品的 Claude Code 用量追踪",
+      "tagline_zh": "让每一次 Claude Code 会话的花费一目了然",
+      "description_zh": "追踪 Claude Code 的用量和花费，包括缓存命中、会话回放等细节。只需运行一次 npx langwatch claude，之后每次会话都会把缓存读写拆成独立的 token 类别计算成本，每次 bash 和 MCP 调用都作为一个 span，还能对比你 Max 套餐的理论费用和实际账单，并在网页里完整回放终端操作。同样支持 Codex。",
+      "intro_zh": "给 Claude Code 装了个记账本，每次编程花了多少 token、缓存省了多少，都明明白白。经常用 Claude Code 写代码又怕账单爆表的开发者，应该人手一个。",
+      "url": "https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d9a519ce-4437-4789-88f3-bcf3a19e1e5c.png?auto=format",
+      "votes_count": 378,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "有终端命令操作和 Web 仪表盘的可视化界面，能演示安装、成本分析图表、会话回放等，虽然冲击力一般，但画面信息完整，适合拍成教程类视频。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "概念简洁（就是看花了多少钱），但目标用户是使用 Claude Code 的开发者，需要有 npm 和命令行基础，普通网民不容易产生共鸣。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt 当日第 4 名，378 票，在开发者圈子里讨论热度较高。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "Claude Code 烧了多少钱？装完这个插件，每一分都清清楚楚",
+        "angle": "教程演示",
+        "shooting_tips": "先录终端窗口，演示 npx 一键安装的流畅过程；接着切入浏览器里的 LangWatch 面板，重点展示单次会话的成本拆解、缓存节省金额、MCP 调用追踪，再拖拽播放终端回放；最后放一张对比图：用了追踪前和追踪后的费用感知。节奏轻快，配上惊讶音效。",
+        "target_audience": "Claude Code 用户、关心 API 成本的开发者、希望优化 token 消耗的 AI 重度编程玩家"
+      },
+      "category": "开发工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "可视化界面适合演示，但受众垂直且有一定技术门槛，做成开发者向的教程视频会有不错反馈。"
+    },
+    {
       "id": "1052113",
       "name": "NINA",
-      "name_zh": "NINA·产品导航员",
-      "tagline_zh": "让用户在你的产品里不再迷路，一步步引导到解决问题。",
-      "description_zh": "NINA 就住在你的产品里，用户卡住时直接问一句“这功能怎么用？”，它就会在界面上一步步带着走，不用再翻帮助文档或等客服。它不是预设的导览、聊天机器人或FAQ，而是专为还在靠入驻电话、产品视频和反复答疑的 B2B SaaS 团队设计的实时引导助手。",
-      "intro_zh": "一个能听懂人话的产品内置向导，用户在哪卡住就在哪现身带路。做 SaaS 又总被用户追着问“怎么用”的团队，终于能把客服工作丢给 NINA 了。",
+      "name_zh": "妮娜",
+      "tagline_zh": "产品里的贴身向导，手把手带用户走出困惑",
+      "description_zh": "妮娜是你的产品内置智能助手，用户在哪儿卡壳，直接语音或文字问一句“这怎么弄？”，它就会在原界面上一步步带着操作。再也不用让用户查文档、提工单，专治 B2B SaaS 团队被重复问题淹没的烦恼。",
+      "intro_zh": "在你产品里安了个“活向导”，用户遇到不会的直接问，它就能在界面上手把手带着操作。不想每天回答同样问题的 SaaS 团队，用了能省下大把精力。",
       "url": "https://www.producthunt.com/products/agenq-nina-ai-product-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NKDYVHNHKYNZ5X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c110c5d6-77bb-4d98-8a15-61383317bb25.png?auto=format",
@@ -17,279 +262,34 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有清晰的 UI 操作界面和一步步指引的动画效果，可以直观展示从提问到界面高亮、引导点击的完整过程，画面有很强的演示感和对比冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极其简单：问一句就有人带路，像多了个产品里的Siri，不需要任何技术背景，普通互联网用户一看就懂。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 第5名，329票，属于当天高热产品，且有明显 SaaS 圈话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "还在被用户问“怎么用”？把NINA塞进产品，再也不用人肉客服了！",
-        "angle": "教程演示",
-        "shooting_tips": "先拍一段没有 NINA 时用户卡住、烦躁、翻文档的乱状，接着切入有 NINA 的同一款 SaaS 产品，展示语音提问后界面上出现高亮圈、箭头和浮窗引导的流畅步骤。重点特写 NINA 读懂了模糊问题并精准定位到操作按钮的过程，节奏前慢后快，最后用一组“客户提问量暴跌”的模拟数据收尾。",
-        "target_audience": "被用户入驻和客服问答折磨的 SaaS 产品经理、创业者、客户成功团队。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面表现力强，操作易懂，热点排名高，极其适合拍成直观的效果对比教程来吸引目标人群。"
-    },
-    {
-      "id": "1210286",
-      "name": "Pally",
-      "name_zh": "Pally",
-      "tagline_zh": "住在你短信里的私人助理",
-      "description_zh": "Pally是一个直接在你短信里帮你处理消息的私人助手。别再已读不回了，让它用你的语气自动回复、帮你做事，省下大把时间。它原生接入iMessage和WhatsApp，能监控、提醒，甚至替你聊天，全按你的风格来。",
-      "intro_zh": "在短信里藏了个私人助理，自动帮你回微信、WhatsApp，聊天干活两不耽误。消息多到爆炸、又不想冷落别人的上班族和社交控必备。",
-      "url": "https://www.producthunt.com/products/pally?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/O2GO374S5UU2NW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1aecb191-474e-4747-9922-a01a3c5f8d50.png?auto=format",
-      "votes_count": 269,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以展示手机屏幕上的自动回复过程，有发送前后的对比，操作直观，画面冲击力不错。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念就是替你回消息，所有人都能立刻明白，零使用门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第6名，269票，有不错的人气但不算现象级。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "消息再也不怕回不过来！Pally自动替你聊天",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示从安装到自动回复的全过程，突出设置自定义语气的步骤，穿插朋友发来的真实消息，对比手动回复和Pally回复的速度与效果，节奏轻快，加上幽默吐槽。",
-        "target_audience": "经常忙到没空回消息的上班族、怕已读不回的社交重度用户。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "界面操作直观、痛点贴合大众、演示效果生动，很容易做出吸引普通观众的短视频。"
-    },
-    {
-      "id": "1191527",
-      "name": "Expert Chase for iOS & Android",
-      "name_zh": "随行专家 iOS / 安卓版",
-      "tagline_zh": "人类生活，与AI自在奔跑",
-      "description_zh": "大家喊了很久的手机版终于来了！随行专家现在覆盖 Web、iOS 和安卓，原生整合 Apple 与 Google 生态，把日历、提醒、健康数据全都打通，让你的日常安排和健康记录在一个地方就能搞定。",
-      "intro_zh": "一个把日历、待办和健康数据全打通的生活助手，让你在手机和电脑上都能统一管理日常。经常手忙脚乱、想要生活更井井有条的上班族和学生都能用上。",
-      "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/ZK5OM6K2OEWREN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/49ea8837-2bf2-4b76-804d-3604149639e7.png?auto=format",
-      "votes_count": 184,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的操作界面和流程演示，可以展示日历同步、任务添加、健康数据整合等丰富画面，但整体偏向实用工具风，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念直白，就是帮你把各种提醒和健康信息集中管理，一看就懂，不需要任何技术背景，下载即用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第8名，184票，话题性和关注度较高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别再手动记日程了！这个AI助手把日历、待办和健康数据全接管了",
-        "angle": "开箱体验",
-        "shooting_tips": "从应用商店下载开始，录制首次打开后的权限授权（日历、健康等），快速展示自动同步已有日程的效果，再演示手动添加一个提醒，最后对比电脑和手机端同步情况。节奏轻快，用对比镜头突出以前多个App和现在一个App的差异。",
-        "target_audience": "想告别琐碎管理、追求高效生活的上班族和学生党，苹果和安卓用户都覆盖。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作画面丰富，整合日历和健康数据的场景很吸睛，普通人秒懂，热度也不错，非常适合拍成视频。"
-    },
-    {
-      "id": "1210006",
-      "name": "Focus Room",
-      "name_zh": "焦点课堂",
-      "tagline_zh": "把YouTube变成你的私人学习平台",
-      "description_zh": "Focus Room用整洁的课程界面，把YouTube上的教学视频和播放列表整理成系统课程。你可以按时间戳跳转章节，自动生成摘要，随手记笔记、列待办，还能追踪学习进度，收藏想看的课。它剔掉了网站原来的推荐和干扰，让刷视频变成真正的专注学习。",
-      "intro_zh": "装个插件，YouTube立马变成一间安静的自习教室，课程目录、笔记、进度条全都有。适合想用视频自学但老是忍不住乱逛的学生党和考证人。",
-      "url": "https://www.producthunt.com/products/focus-room?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QVIVCH4IY2RXQW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/0cb8e583-7ed3-48ac-ba5e-a1025be3a7d3.png?auto=format",
-      "votes_count": 157,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "界面操作丰富，可以清晰展示插件前后YouTube学习体验的强烈对比，演示记笔记、跳转章节、看进度等画面，有干货也有看点。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念一听就懂：把杂乱的视频变成课表。只需装个浏览器插件，不需要任何技术背景，点开就能用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第9，157票，学习类工具讨论度不错，踩中很多人想用YouTube学习却分心的痛点。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "YouTube最强学习插件！自动生成笔记+课程表，收藏夹终于不吃灰了",
-        "angle": "开箱体验",
-        "shooting_tips": "前半段录下平时在YouTube看教程时被侧边推荐带跑偏的真实画面，引出痛点；接着安装Focus Room，重点展示把一整个播放列表变成一节节课的过程、点击时间戳跳转、自动出摘要、边看边记笔记的界面。用「改造前vs改造后」的对比剪辑，节奏轻快。",
-        "target_audience": "被算法绑架的普通YouTube用户、用视频自学语言或技能的学生、在职备考族"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "实操画面丰富、痛点普适，能自然展示前后对比，非常适合做成通俗又有冲击力的视频。"
-    },
-    {
-      "id": "1208711",
-      "name": "SKI",
-      "name_zh": "SKI 语音编程助手",
-      "tagline_zh": "Claude Code、Codex 的免费语音编程搭档",
-      "description_zh": "SKI 让写代码像聊天一样，你说话，AI 不仅听懂还会出声回应，就像多了个坐在旁边的活队友。支持 Claude Code、Codex 等工具，开个会也能带着它现场写，或者让它替你发言。完全在本地运行，免费。",
-      "intro_zh": "在电脑上装个能出声的编程搭档，对着它说想法，AI 就帮你写代码改 bug，还像队友一样回应你。常用 Claude Code、Codex 的开发者，和想快速把想法变成现实的创造者必备。",
-      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9e7fefdc-964d-4b38-9c8a-0bc89eb64bc2.png?auto=format",
-      "votes_count": 568,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有快捷键触发语音、代码生成和 AI 出声回答的交互过程，适合录屏演示，但界面以声音和编辑器为主，视觉冲击力中等。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要了解 Claude Code、Codex 等 AI 编程环境，对普通互联网用户有一定认知和使用门槛。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "排名第 1，票数 568，刚发布就收获大量关注，话题性强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我让 AI 队友替我写代码，再也不敲键盘了！SKI 语音编程有多爽？",
-        "angle": "开箱体验 + 实操演示",
-        "shooting_tips": "录屏展示从安装到按快捷键唤起 SKI，对着项目需求说话，实时观察代码在 Claude Code 中自动生成，并录下 AI 出声回复的环节；突出双向对话的流畅感，用分屏对比传统打字编程；加入一段模拟开会时让 SKI 替身发言的彩蛋，节奏轻快，配上字幕和效果音。",
-        "target_audience": "AI 编程工具重度用户、程序员、效率软件博主、想提升开发速度的独立创作者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "语音交互和代码实时生成这种“边说边写”的体验非常适合视频展示，但受众集中在开发者圈层，更适合技术类博主。"
-    },
-    {
-      "id": "1203499",
-      "name": "Memmy Agent",
-      "name_zh": "Memmy 记忆管家",
-      "tagline_zh": "让每个AI都记住同一个你",
-      "description_zh": "Memmy Agent 是你的个人记忆中枢，能把聊天记录、决策、偏好等变成长期记忆。它能接入 Claude Code、Codex 等各种 AI 工具，让它们共享同一套关于你的记忆，再也不用重复解释。所有记忆本地存储，你随时可以管理、删除，默认免费。",
-      "intro_zh": "给所有AI助手装上一个共享记忆库，聊天、决策它都帮你记着，每个AI都更懂你。经常在不同AI之间来回切换的深度用户必备。",
-      "url": "https://www.producthunt.com/products/memmy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5S7SGS3F5S6RN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f316c01f-9b4c-49b5-ba54-f7e9d69a0554.png?auto=format",
-      "votes_count": 514,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有管理界面和同步效果可演示，但整体偏后台服务，缺少强烈的视觉冲击和前后对比画面。"
+          "reason": "可以通过录屏清晰展示用户提问、界面高亮引导等交互，前后对比效果直观，画面动感强，但缺乏实物出镜可能削弱冲击力。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "“统一记忆”的概念很容易理解，但实际使用需要集成多种 AI 开发工具，对普通用户存在一定技术门槛。"
+          "reason": "概念本身好懂，就是产品内嵌的智能帮助，但普通观众可能非 B2B 场景不直接相关，需稍了解 SaaS 才感同身受。"
         },
         "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当天排名第2，获得514票，话题热度很高。"
+          "score": 4,
+          "reason": "当日 ProductHunt 第 5 名，获得 329 票，排名与票数均属热门，有一定话题性。"
         }
       },
       "video_inspiration": {
-        "title_idea": "告别AI精分！一个记忆中枢让所有AI都记得你",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示从安装到配置的全过程，先展示在没有 Memmy 时不同 AI 互不认识的尴尬，再展示接入后记忆同步的效果，重点突出‘一次对话处处生效’和‘本地存储、随时可控’的卖点，节奏明快。",
-        "target_audience": "经常使用多个AI工具的开发者、深度用户和AI爱好者"
+        "title_idea": "告别工单地狱！NINA 让 SaaS 产品自带“活地图”",
+        "angle": "对比测评",
+        "shooting_tips": "先录一段普通用户体验某个没有 NINA 的 SaaS 时卡住，无奈翻文档、发工单的画面；再切换至集成妮娜的同一产品，用户开口问，界面自动出现逐步引导并高亮区域，流畅完成任务。最后用计时对比展示效率提升，节奏前慢后快，突出“即时无感帮助”的卖点。",
+        "target_audience": "SaaS 产品经理、创业者、客户成功团队，以及被重复问题折磨的运营同学"
       },
       "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "概念酷且热度高，但有一定使用门槛，视频表现力中等，更适合做成面向技术爱好者的科普或教程内容。"
-    },
-    {
-      "id": "1187127",
-      "name": "AI Search Console",
-      "name_zh": "AI搜索控制台",
-      "tagline_zh": "AI搜索时代的提示词分析与引用来源映射",
-      "description_zh": "帮SEO和GEO团队把手动检查品牌在AI里怎么露出的活儿变成可重复的自动化数据。能跨ChatGPT、Claude、Gemini、Perplexity追踪品牌被提及、排名、声量份额、竞争对手和引用来源，钻到单个提示词看可见性，找内容缺口，还能一键生成客户报告，告别表格和截图。",
-      "intro_zh": "这个工具自动帮你盯着ChatGPT、Gemini等AI里的回答，品牌被提到多少次、排在什么位置，一目了然。干SEO和品牌推广的朋友，再也不用操心手动查了。",
-      "url": "https://www.producthunt.com/products/ai-search-console?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/O7C4XHAKCEG4AF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6245d196-13c6-4f59-bc9b-c06773636bdf.jpeg?auto=format",
-      "votes_count": 507,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的仪表盘界面，可展示数据变化、品牌排名走势和报告生成过程，适合录屏对比演示，视觉直观。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "涉及SEO和AI可见性概念，普通用户需要一些解释才能理解价值，但核心是看品牌被谁提及，不算特别复杂。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日第3名，507票，热度很高，话题性强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "当ChatGPT开始决定你的流量：给你的品牌做个AI搜索体检",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从添加品牌关键词到看到引用来源的全流程，重点突出‘零截图式报告生成’和‘竞品对比视图’，节奏先提痛点（每天手动搜AI结果），再展示自动化解决方案，最后输出一份报告截图，用前后反差打动观众。",
-        "target_audience": "SEO专员、品牌数字营销经理、想监控AI口碑的创业者"
-      },
-      "category": "数据分析",
-      "overall_suggestion": "可以做",
-      "overall_reason": "数据仪表盘丰富，适合录屏演示，视觉吸引力强，且热度高，但需要一定的行业背景知识才能充分理解，对纯小白观众需多铺垫。"
-    },
-    {
-      "id": "1208851",
-      "name": "Claude Code usage tracking by LangWatch ",
-      "name_zh": "Claude Code 用量监控（LangWatch）",
-      "tagline_zh": "算笔明白账：你的Claude Code会话到底烧了多少钱？",
-      "description_zh": "帮你搞清楚Claude Code每次编程花了多少钱、缓存省了多少钱，还能回放整个终端操作。在终端敲一行命令就能安上，之后每个会话的费用、缓存读写、命令调用全自动记录，Max用户还能看到理论账单和实际扣费的对比，明明白白付钱。同样支持Codex。",
-      "intro_zh": "给Claude Code加了个记账本，自动算清楚每次AI编程花了多少钱、哪些缓存省了钱。整天用Claude写代码的程序员和团队，再也不会被每月账单吓一跳。",
-      "url": "https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d9a519ce-4437-4789-88f3-bcf3a19e1e5c.png?auto=format",
-      "votes_count": 376,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "虽然是命令行工具，但有网页UI可展示费用仪表盘和终端回放，适合录屏演示。整体偏技术向，对普通观众吸引力有限。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要了解Claude Code、token、缓存等概念，且必须通过命令行安装，没有编程基础的用户难以理解和上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt排名第4，票数376，当日热门，在开发者圈子有较高话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "每月烧掉几百刀？一条命令让你看清Claude Code的真实成本！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示终端运行 npx langwatch claude，然后登录LangWatch网页，突出费用分解图、缓存命中率、终端回放动画，重点强调‘理论vs实际’账单对比。开场用夸张的账单数字抓住注意力，中间快速演示安装和核心功能，结尾给个省钱建议。",
-        "target_audience": "经常使用Claude Code的软件工程师、AI编程玩家、想控制AI开发成本的团队。"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品实用但受众垂直，适合面向开发者制作教程或开箱视频，刚好有热度加持。"
+      "overall_reason": "演示过程视觉效果直观，适合用对比方式呈现价值，但受众偏 B 端，需找准垂直人群传播。"
     },
     {
       "id": "1209541",
       "name": "Greplica",
-      "name_zh": "Greplica（代码智能记忆库）",
-      "tagline_zh": "编程代理的自我进化知识库",
-      "description_zh": "Greplica 为你的工程团队和所有编程代理建立了一套共享的代码库记忆。它会从编码过程持续抓取决策、限制、踩坑记录、失败方案和文件级上下文，然后只捞出跟当前任务真正相关的内容。跟那种写死就过时的文档、或者各自为政的代理记忆不同，Greplica 扎根代码仓库，知识始终保持新鲜，开发者、代理、克隆分支都能一起用。它是开源工具，支持本地运行，也提供托管共享模式。",
-      "intro_zh": "给代码AI装了个自动更新的记忆脑，边写边记下做过什么决策、踩过哪些坑，下次遇到类似问题直接翻出来。用GitHub Copilot或Cursor的开发者一定懂这种痛——AI老忘事，现在终于有人帮它记住了。",
+      "name_zh": "Greplica",
+      "tagline_zh": "编程代理的自动更新知识库",
+      "description_zh": "给工程团队和编程助手一个共享的代码库记忆。它会从每次编程中自动提取决策、踩过的坑、失败方法，要写新功能时精准调出需要的信息。不再依赖过时文档或各自为战的记忆，知识跟着仓库实时更新，所有开发者、代理、分支都能用。开源且支持本地运行，也有云端共享版。",
+      "intro_zh": "给AI编程助手和程序员装了个随写随记的共享大脑，写代码时所有的教训、套路都自动存下来，下次要用马上翻出来。经常在代码里踩坑、需要团队记忆的开发者和AI编程重度用户，装了它就像脑子里多了块外接硬盘。",
       "url": "https://www.producthunt.com/products/greplica?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y6ERMPHE5K2ZGA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5add8513-786b-446f-b48f-01684a311929.jpeg?auto=format",
@@ -297,61 +297,61 @@
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "产品以代码库分析和文本知识提取为主，画面多为终端输出或静态代码片段，缺乏动态演示和视觉冲击力，难以通过镜头语言展现价值。"
+          "reason": "产品核心是后台知识提取与检索，缺乏可视化的炫酷界面或操作过程，视频演示容易变成枯燥的文档翻阅，视觉冲击力弱。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "面对编程代理工作流、代码上下文提取等专业概念，需要具备软件开发背景才能理解，普通互联网用户会感到费解且无法使用。"
+          "reason": "概念面向软件工程及编程代理，普通用户无技术背景难以理解具体价值，上手也需要一定开发知识。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt日榜第7名，获得195票，在当天的开发工具品类中有一定讨论热度。"
+          "reason": "在ProductHunt当日排名第7，票数195，处于前列，在开发者圈内有一定话题度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "让AI编码不再健忘！记录下每一次踩坑的自动化知识库",
+        "title_idea": "让AI编程永不踩坑！这个工具自动记住所有经验教训",
         "angle": "教程演示",
-        "shooting_tips": "录屏展示在VS Code中与AI助手协作的过程，先演示AI给出错误方案导致反复修正的常见痛点，再切换到Greplica自动捕捉这些决策并存储，最后通过一句话查询迅速调出历史上下文，展现出从混乱到高效的对比。节奏上前1/3制造焦虑，后2/3展现解决方案。",
-        "target_audience": "使用AI编程助手的软件开发者、技术负责人"
+        "shooting_tips": "录屏展示在IDE或终端中集成Greplica，模拟一次编程任务：先展示没有它时反复查文档的低效，再演示它如何自动弹出相关历史教训和上下文，穿插开发者的真实痛点口播。节奏紧凑，突出“一劳永逸”的爽感。",
+        "target_audience": "使用GitHub Copilot、Cursor等AI编程工具的程序员，希望沉淀团队知识的研发团队。"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "概念硬核、画面枯燥，仅适合垂直开发者圈层传播，难打动普通短视频观众。"
+      "overall_reason": "对非技术人员缺乏吸引力，但针对开发者群体可以制作解决问题的实用教程，有特定受众基础。"
     },
     {
       "id": "1202848",
       "name": "agentOS",
-      "name_zh": "代理操作系统",
-      "tagline_zh": "比普通沙箱便宜254倍，WebAssembly加持的新一代方案",
-      "description_zh": "把Linux操作系统打包成一个库，直接给AI代理用，再也不用搞沙箱、虚拟机或SaaS。底层采用WebAssembly，和Cloudflare Workers、Chrome用的是同款技术。支持Claude Code、Codex、OpenCode、Pi、Eve、Flue这些主流代理框架。",
-      "intro_zh": "给AI代理装了个便携版Linux，不用沙箱不用虚拟机，直接跑代码，省下大把钞票。专门给玩Claude Code、Codex那帮开发者准备的省钱利器。",
+      "name_zh": "agentOS",
+      "tagline_zh": "比沙箱便宜254倍的轻量级替代方案，由WebAssembly驱动",
+      "description_zh": "给AI代理提供一套完整的Linux操作系统，像调库一样直接调用，完全不用沙箱、虚拟机或SaaS。基于WebAssembly打造，跟Cloudflare Workers和Chrome用的是同一种底层技术。目前已经支持Claude Code、Codex、OpenCode、Pi、Eve和Flue。",
+      "intro_zh": "这玩意儿就像给AI塞了一个超轻量的Linux电脑，几毫秒就能启动，不用虚拟机也不走云服务。想做自动化任务又嫌传统沙箱太贵太重的开发者，现在有了个更省钱省事的选择。",
       "url": "https://www.producthunt.com/products/agentos-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DVJCQ4F3GS7JKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/852440d4-7e62-43d0-a33f-2de533603507.png?auto=format",
       "votes_count": 151,
       "scores": {
         "video_suitability": {
-          "score": 1,
-          "reason": "纯后台技术概念，没有界面或操作演示，视频只能靠代码讲解，视觉效果极差。"
+          "score": 2,
+          "reason": "纯技术概念，缺少直观的UI界面和视觉冲击力，主要展现命令行和后台调用，很难拍出吸引眼球的画面。"
         },
         "beginner_friendly": {
-          "score": 1,
-          "reason": "需要理解WebAssembly、Linux代理等专业概念，普通用户完全看不懂，使用门槛极高。"
+          "score": 2,
+          "reason": "涉及WebAssembly、沙箱替代、AI代理等专业概念，普通用户不理解也不关心，需要较深的技术背景才能上手。"
         },
         "popularity": {
-          "score": 3,
-          "reason": "ProductHunt排名第10，151票，在开发者圈有一定关注，但未出圈。"
+          "score": 4,
+          "reason": "ProductHunt当日第10名，151票，属于有热度但不算现象级，开发者圈子里有一定话题性。"
         }
       },
       "video_inspiration": {
-        "title_idea": "再也不给沙箱打工！254倍便宜，让AI代理裸奔Linux到底香不香？",
+        "title_idea": "给AI装了个不要钱的Linux，沙箱费用直接打骨折？",
         "angle": "行业解读",
-        "shooting_tips": "以技术访谈或画板讲解形式，展示传统沙箱的成本对比，配合代码运行片段和架构图，节奏放慢讲清原理。",
-        "target_audience": "AI开发者和后端工程师"
+        "shooting_tips": "用对比方式展示传统沙箱动辄几千美元的账单和agentOS几乎为零的成本，穿插命令行演示和架构图解，配合惊讶表情和放大镜特效突出“254倍便宜”的卖点。",
+        "target_audience": "关心AI工具链和自动化部署的开发者、技术爱好者"
       },
       "category": "开发工具",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "概念抽象、纯代码，缺乏视觉冲击力，无法吸引大众观众。"
+      "overall_suggestion": "可以做",
+      "overall_reason": "技术门槛高、视觉表现力弱，只适合极客向观众，大众传播性有限。"
     }
   ]
 }
