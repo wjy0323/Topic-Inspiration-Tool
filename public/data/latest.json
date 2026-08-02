@@ -1,357 +1,357 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-02T12:44:01+08:00",
+  "generated_at": "2026-08-02T17:14:26+08:00",
   "generation_error": false,
   "products": [
     {
       "id": "1211493",
       "name": "NudgeForMe",
-      "name_zh": "轻推邮件助手",
-      "tagline_zh": "专抓漏回邮件的AI小管家",
-      "description_zh": "NudgeForMe会扫描你发出去的邮件，找出那些一直没收到回复的对话，然后自动在邮箱里起草自然的跟进内容。所有草稿都由你审核后才发送，可从Gmail、Outlook或任意邮箱发出。Snoooz团队处理数百万邮件后打造，专治冷场：不让销售线索、合作和客户沟通悄悄凉掉。",
-      "intro_zh": "在你邮箱里塞了个会自动催人回信的AI小助手，它揪出那些石沉大海的邮件，帮你写好跟进话术。天天追邮件、怕丢客户的销售和商务打工人直呼内行。",
+      "name_zh": "邮件跟进小秘书",
+      "tagline_zh": "让每一封未回复邮件不再石沉大海的AI跟催助手",
+      "description_zh": "它扫描你的已发邮件，找出那些石沉大海的对话，并在你的邮箱里直接生成跟进草稿。所有草稿都由你先审阅，觉得有用再发送，支持Gmail、Outlook等。专门解决一个重要但容易忽略的问题：不让潜在客户、合作和重要沟通悄悄冷掉。",
+      "intro_zh": "给邮箱装个后悔药，自动发现没回复的重要邮件，帮你写好跟进话术。做销售、谈合作、追客户的上班族和创业者再忙也不怕漏掉任何一次机会。",
       "url": "https://www.producthunt.com/products/nudgeforme?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/G2YNDDYM6FTUFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/115820aa-c6ca-4484-b985-6101d54f4b28.png?auto=format",
-      "votes_count": 297,
+      "votes_count": 310,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "可展示清晰的邮件扫描、草稿生成和发送界面，前后对比直观，有演示价值"
+          "reason": "可以完整录屏展示扫描邮箱、找出未回复对话、AI生成跟进草稿和付费发送的全过程，有清晰的界面操作和前后对比，但缺乏强烈视觉特效，整体适合演示演示。"
         },
         "beginner_friendly": {
-          "score": 4,
-          "reason": "概念简单，普通人理解无门槛，但连接邮箱设置对技术小白可能稍需引导"
+          "score": 5,
+          "reason": "功能就是帮你跟进邮件，概念极简单，不需要任何技术背景，和日常使用邮箱的习惯完全一致，普通人一看就懂。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt首发排名第1，票数近300，热度极高，自带话题性"
+          "reason": "ProductHunt 当日排名第一，310票，话题性强，是目前最受关注的新品。"
         }
       },
       "video_inspiration": {
-        "title_idea": "邮件没人回？AI自动帮你催，再也不怕客户冷掉！",
+        "title_idea": "邮件石沉大海？让你的邮箱自动“追杀”回复，AI跟进神奇小工具！",
         "angle": "教程演示",
-        "shooting_tips": "录制浏览器或邮箱内插件操作流程，先展示未回复邮件列表的扫描过程，再演示AI草拟跟进内容和一键发送，突出省时省心，节奏轻快",
-        "target_audience": "销售、BD、创业者、项目经理等经常用邮件沟通的职场人"
+        "shooting_tips": "屏幕录制从绑定邮箱开始，展示扫描过程、未回复列表、AI生成的跟进草稿，重点对比人工翻找和工具一键处理的效率差异，用快节奏配轻快音乐，强调“省下几小时”和“找回冷掉的线索”。",
+        "target_audience": "每天处理大量邮件的销售、商务、自由职业者和初创团队"
       },
       "category": "效率工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "PH冠军产品，功能直观有演示性，普通人易理解，视频化效果好"
+      "overall_reason": "界面演示性强，痛点随处可见，稳居PH榜首且完全零门槛，是最适合做视频传播的题材。"
     },
     {
       "id": "1211399",
       "name": "Yamanote 3D",
       "name_zh": "山手线3D",
-      "tagline_zh": "在浏览器里搭乘东京山手线，沉浸式欣赏3D城景",
-      "description_zh": "一个免费的浏览器3D体验，让你走进东京山手线的E235车厢，自由漫步、坐下，看窗外城市流动的风景，听真实的报站和行驶音。它为学习或工作提供沉浸式火车旅行背景音，就像真的在坐车一样。",
-      "intro_zh": "在浏览器里钻进东京山手线的3D车厢，看窗外城景、听报站广播，就像真的在通勤。想给学习和工作添点旅行氛围的朋友，这个免费小工具太解压了。",
+      "tagline_zh": "在3D世界里搭乘东京山手线",
+      "description_zh": "一个免费的浏览器体验，让你走进东京山手线的E235系电车车厢。可以自由走动、坐下看窗外城市景色，听着真实的广播和列车行驶声。适合学习或工作时开着当背景音，沉浸在东京电车氛围里。",
+      "intro_zh": "在浏览器里就能乘坐东京山手线，3D车厢随便逛，坐下看窗外风景，广播声都很真实。想一边干活一边假装在日本电车里的上班族和学生党，打开它当背景音就对了。",
       "url": "https://www.producthunt.com/products/yamanote-3d?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QXXUS2XPEIPOLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/81e91c73-0b29-4d24-bd5a-1201544416eb.png?auto=format",
-      "votes_count": 141,
+      "votes_count": 146,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "3D画面展示移动的城市风景、车厢内部细节，配合音效，演示效果出色，但互动性相对单一。"
+          "score": 5,
+          "reason": "3D场景丰富，第一人称视角在车厢内走动、坐下、窗外动态风景，加上车站广播、列车音效，画面感和沉浸感极强，非常适合录制沉浸式体验或氛围展示视频。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "无需说明，打开网站就能逛，概念简单，任何人都能立刻上手。"
+          "reason": "打开浏览器就能玩，操作直觉（WASD走动、鼠标看四周），概念简单到“在火车上”，无需任何技术背景或复杂设置，普通人秒懂。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt日榜第5，141票，有一定讨论热度，但未进入前三。"
+          "reason": "ProductHunt当日第5名，146票，热度较高，并且JDM（日本铁路）文化自带话题性，容易引发圈层传播。"
         }
       },
       "video_inspiration": {
-        "title_idea": "浏览器里坐日本山手线！3D列车体验，写作业都有旅行感？",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏从进入网站开始，演示走动、坐下、看窗外流动街景，放大站名标牌，强调背景音和报站声。可穿插真实山手线视频对比，营造沉浸感。",
-        "target_audience": "日本文化爱好者、需要白噪音背景的上班族和学生、模拟游戏玩家"
+        "title_idea": "打开浏览器就能坐上日本山手线！边写稿边“乘车”是种什么体验？",
+        "angle": "沉浸式体验/氛围安利",
+        "shooting_tips": "录屏为主，先用第一视角展示在车厢内自由走动、坐下看向窗外，然后切到城市风景不断流动的延时画面，配上站台广播和行驶声。可以穿插在背景音中写作业、工作的镜头，展示“背景音模拟”卖点。用轻柔的日系配乐和原声交替，节奏做到视听解压。",
+        "target_audience": "喜欢日本铁路文化、需要沉浸式工作学习背景音的人，以及爱收集新奇浏览器体验的网友。"
       },
       "category": "游戏娱乐",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉沉浸感强、上手无门槛，适合短视频展示，能快速引发用户的好奇与放松需求。"
+      "overall_reason": "可视化效果绝佳，上手零门槛，铁路文化自带流量，做成氛围体验视频极易出圈。"
     },
     {
       "id": "1211804",
       "name": "EssayKraft",
-      "name_zh": "论文工坊",
-      "tagline_zh": "一款专为 Mac 和 iPad 打造的原生论文写作利器",
-      "description_zh": "一款为受够了参考文献管理工具折磨的学生量身定制的 Swift 原生 Mac 和 iPad 写作应用。集参考文献管理、自动引用、富文本排版和 PDF/DOCX 导出于一身，让你免去订阅、帐号和多个工具来回切换的烦恼，享受快速且无干扰的学术写作体验。一次买断，永久拥有。",
-      "intro_zh": "把写论文用的参考文献、引用、排版和导出全塞进一个原生 App 里，打开就能写，写完就能交。经常被一堆引用软件搞到头大的学生党，这就是你的救星。",
+      "name_zh": "EssayKraft",
+      "tagline_zh": "专为Mac和iPad打造的原生论文写作利器",
+      "description_zh": "一款专为厌倦了跟文献管理器较劲的学生打造的Swift原生Mac与iPad写作应用。论文、文章、学位论文一网打尽，内置文献管理、自动引用、富文本排版，一键导出PDF或DOCX。无订阅、无账号，买断制，让你专注写作本身。",
+      "intro_zh": "一个All-in-one的学术写作工具，把文献管理、自动引用和排版全融合在极简界面里。经常写论文、苦于引用格式错乱的大学生和研究生，开箱即用，再也不用在好几个软件间来回倒腾。",
       "url": "https://www.producthunt.com/products/essaykraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Z6QVYVVWL3T2ZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/201829d7-7ba7-402e-b5da-e15da1e80e58.jpeg?auto=format",
-      "votes_count": 102,
+      "votes_count": 103,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "可视化操作界面丰富，可演示文献管理、自动引用、格式调整和导出全过程，前后对比效果明显，但缺少动态特效，整体观感扎实但不惊艳。"
+          "reason": "写作界面清晰，引用插入、文献库管理、导出效果都有丰富的操作画面，可以通过前后对比展示效率提升，视觉观感直观，适合演示。"
         },
         "beginner_friendly": {
-          "score": 5,
-          "reason": "功能直接聚焦写论文的日常痛点，不需要任何技术背景，打开即用，学生人群一看就懂，上手零门槛。"
+          "score": 4,
+          "reason": "概念贴近学生日常，无复杂技术门槛，操作流程简单明了，只要写过论文的人都能快速理解其价值。"
         },
         "popularity": {
           "score": 3,
-          "reason": "位居 ProductHunt 当日第 10 名，获得 102 票，在当日榜单上热度中等，话题性一般。"
+          "reason": "当日排名第10，票数103，学术细分领域有一定讨论度，但并非现象级产品，热度中等。"
         }
       },
       "video_inspiration": {
-        "title_idea": "写论文最崩溃的参考文献，这一个 App 全搞定｜EssayKraft 上手体验",
-        "angle": "教程演示",
-        "shooting_tips": "先拍一段学生对着几个参考文献工具抓狂的画面，然后切入 EssayKraft 界面，展示如何一键添加文献、自动生成引用、在文稿中即时插入，最后导出为规范格式的 PDF，用快节奏剪辑突出‘不用来回切工具’的爽快感。",
-        "target_audience": "正在或即将开始写论文的本科、硕士、博士生，特别是被参考文献管理折磨的 Mac/iPad 用户"
+        "title_idea": "写论文写到崩溃？这款买断制神器让引用格式自动生成，Mac/iPad都能用！",
+        "angle": "开箱体验",
+        "shooting_tips": "开头展示学生熬夜整理文献的痛苦场景，切入软件快速导入论文、智能插入引用和一键切换引用风格的功能，突出无账号、买断制的省心，最后展示导出PDF的精美排版，节奏轻快带共情。",
+        "target_audience": "在校大学生、研究生、教师及学术写作频繁的科研人群"
       },
       "category": "教育学习",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "操作画面直观适合视频演示，受众明确且痛点强，小白也能立刻理解价值，视频转化潜力大。"
+      "overall_reason": "画面操作丰富、目标人群精准且痛点强烈，适合制作共鸣感强的视频内容，但热度一般，建议突出买断制和学术效率进行差异化传播。"
     },
     {
       "id": "1211631",
       "name": "DeepSeek-V4-Flash-0731",
-      "name_zh": "深度求索 V4 Flash 0731",
-      "tagline_zh": "以Flash的价格，提供前沿智能体能力",
-      "description_zh": "DeepSeek-V4-Flash-0731 是 V4-Flash 的正式版本，智能体能力有了大幅提升。它在关键测试中击败了 V4-Pro 预览版，原生支持 Responses API，并完全兼容 Codex CLI。",
-      "intro_zh": "这个AI模型特别擅长处理需要多步推理的复杂任务，比前代更聪明，还专门适配了终端命令行工具 Codex。搞开发、玩自动化的技术迷们会觉得很香，毕竟又快又便宜。",
+      "name_zh": "DeepSeek V4 Flash 0731",
+      "tagline_zh": "前沿智能体能力，Flash 级抄底价",
+      "description_zh": "DeepSeek 正式发布 V4 Flash 版本，智能体能力大幅跃升，在关键基准测试中超越 V4 Pro 预览版，原生支持 Responses API，并对 Codex CLI 做了全面适配。",
+      "intro_zh": "DeepSeek 家新出的 V4 Flash 模型，智能体能力拉满，价格还巨便宜。搞 AI 开发、想低成本接入最强智能体的程序员们可以冲了。",
       "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DHPDMPFRNHBRJQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/55747a0b-508e-43a1-a1a1-afa9881e6d22.jpeg?auto=format",
-      "votes_count": 281,
+      "votes_count": 298,
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "主要内容是API调用和命令行操作，缺乏直观的画面互动，视觉效果平淡，难以做成抓人眼球的视频。"
+          "reason": "纯 API 模型，没有图形界面，画面只能展示代码、终端或性能图表，缺乏视觉冲击力，不适合以演示为主的视频内容。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "涉及智能体能力、基准测试和接口协议等概念，普通用户很难一眼看懂，需要一定的技术背景才愿意尝试。"
+          "reason": "需要编程基础和 API 调用知识，普通用户无法直接使用，概念上也比较技术化，理解门槛较高。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当天排名第2，收获281票，在开发者圈子里有不小的话题度。"
+          "score": 5,
+          "reason": "ProductHunt 当日排名第 2，票数 298，热度极高，话题性强。"
         }
       },
       "video_inspiration": {
-        "title_idea": "DeepSeek V4 Flash 突然发布：Agent 能力暴涨，把 Claude 和 GPT-4o 打到白菜价？",
+        "title_idea": "DeepSeek V4 Flash 炸场！智能体能力暴增，价格还打骨折？",
         "angle": "行业解读",
-        "shooting_tips": "录屏展示 Codex CLI 实际跑复杂任务的过程，用快剪对比旧模型的差距，穿插几句通俗的架构比喻，节奏要紧凑。",
-        "target_audience": "AI 开发者、开源模型玩家、对前沿 Agent 感兴趣的科技发烧友"
+        "shooting_tips": "录制屏幕展示性能对比图表，快速演示通过 API 调用智能体完成复杂任务，穿插与竞品的价格对比，节奏明快，突出‘能力跃升’和‘极致性价比’两个爆点。",
+        "target_audience": "关注 AI 技术前沿的开发者、创业者及科技爱好者"
       },
-      "category": "开发工具",
+      "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品纯粹面向开发者，演示画面单调且需要技术知识，不适合做给普通观众看的长视频，但可作为简短的行业快讯。"
+      "overall_reason": "热度极高但视觉表现力弱，更适合做技术解读类视频而非操作演示。"
     },
     {
       "id": "1210161",
       "name": "Port22",
       "name_zh": "Port22",
-      "tagline_zh": "把Claude Code、Codex等AI编程助手装进手机口袋",
-      "description_zh": "你启动一个长时间的智能体任务，走开再回来，发现它卡在那儿等了你20分钟，就为了批准一次文件编辑。Port22把你Mac上所有正在跑的编程智能体全都放到了手机上，一眼就能看出哪个在工作、哪个卡壳。需要许可时，手机会震动，你直接点它给的真实选项，不用猜键盘。它直接挂接你现有的运行环境，不用封装、不用配置、不用开新终端。一台Mac加两个会话永久免费，功能全量开放。",
-      "intro_zh": "把电脑上跑的AI编程智能体装进手机，随时随地看进度、点一下就能批准操作。经常用Claude Code、Codex做开发的程序员，再也不用被绑在电脑前傻等着它叫你回来点确认。",
+      "tagline_zh": "把Claude Code、Codex等编程助手装进手机，随时掌控运行状态",
+      "description_zh": "它能把你Mac上正在运行的编程AI助手同步到手机，让你一眼看清哪些在工作、哪些卡住了。当需要你确认文件修改时，手机会震动提醒，直接点击助手提供的真实选项，不用再猜键盘。无需额外配置，它会直接附加到你现有的终端上，完全免费支持一台Mac加两个会话。",
+      "intro_zh": "这工具能把Mac上正在跑的AI编程助手搬到手机上，随时看进度，卡住或者需要你确认修改时手机会震动提醒，点一下就能批准。写代码的开发者再也不用被拴在电脑前，起身走开也不怕任务卡壳。",
       "url": "https://www.producthunt.com/products/port22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Z426QGPUISUCBK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/95dcde94-1fb5-4c72-bd61-833e4902c9d8.png?auto=format",
-      "votes_count": 233,
+      "votes_count": 242,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有清晰的手机端界面和实时互动，能展示状态监控、通知推送、一键操作，适合屏幕录制演示，但缺少强烈的视觉冲击效果。"
+          "reason": "从电脑端启动编程任务，到手机端接收通知、点击确认，整个过程有明确的屏幕操作和视觉反馈，适合演示，虽不算炫酷但节奏清晰可看。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "需要用户已经了解Claude Code、Codex等AI编程智能体，概念有一定技术门槛，完全不懂编程的普通人难以快速理解价值。"
+          "reason": "普通人完全不懂编程助手或终端概念，需要具备开发者背景才能理解功能价值，使用门槛较高。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt当日第3名，获得233票，话题热度高，在开发者圈引发关注。"
+          "reason": "ProductHunt 当日排名第3，获得242票，热度和话题性很高。"
         }
       },
       "video_inspiration": {
-        "title_idea": "摸鱼新姿势：用手机远程操控AI替你写代码",
-        "angle": "教程演示",
-        "shooting_tips": "先拍一段Mac上智能体卡在许可请求的画面，然后切到手机屏幕，展示Port22如何即时收到震动通知、点击按钮继续运行。强调省去来回跑电脑的烦恼，突出“人到哪儿项目就跟到哪儿”的轻松感。节奏前半段制造痛点，后半段展示爽感。",
-        "target_audience": "日常使用AI编程工具的软件开发者、独立开发者、技术爱好者"
+        "title_idea": "离开电脑后，AI编程助手在手机上喊你“批作业”，亲身演示Port22",
+        "angle": "开箱体验",
+        "shooting_tips": "先拍电脑端启动一个Claude Code任务，然后站起身拿着手机走开，手机收到push震动，镜头切换至手机屏幕点击确认，最后回电脑看任务继续执行，突出“零配置即挂即用”和“来电般及时响应”。",
+        "target_audience": "使用AI编程助手的开发者、技术博主、极客群体"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "有直观的手机端操作演示价值，能吸引特定开发者群体，但受众面偏窄，更适合面向技术用户的频道。"
+      "overall_reason": "画面适合演示，热度高，但概念偏开发者，普通观众看不懂，适合技术类频道。"
     },
     {
       "id": "1211380",
       "name": "AgentMicro",
       "name_zh": "AgentMicro",
-      "tagline_zh": "在你的 macOS 菜单栏里，实时盯住所有 Codex 任务状态",
-      "description_zh": "AgentMicro 是一个轻量的 macOS 菜单栏小工具，能把你所有 Codex Desktop 和 CLI 任务的状态、耗时、结果直接挂到菜单栏上，一眼全看清，点一下就能打开对应任务。它只读取本地数据，绝不碰你的任何提示词、代码或历史记录。",
-      "intro_zh": "在 Mac 菜单栏装了个 Codex 任务监视器，并行跑的一堆任务，状态、耗时、结果全都一目了然，点一下就能跳转过去。用 Codex 写代码的开发者，再也不用在窗口间切来切去找任务了。",
+      "tagline_zh": "实时 Codex 任务状态，尽在 macOS 菜单栏",
+      "description_zh": "AgentMicro 是一款本地优先的 macOS 菜单栏工具，用来同时监控多个 Codex Desktop 和 CLI 任务。一眼就能看到任务状态、项目、耗用时间和结果，点击即可打开对应的 Codex Desktop 任务。它只读取本地数据，绝不会上传你的提示、回复、源代码或任务历史。",
+      "intro_zh": "一个 macOS 菜单栏小帮手，能把你的 Codex 任务进度直接挂在那，随时查看状态、一键跳转。经常用 Codex 写代码、跑自动化任务的开发者会很喜欢，再也不用满屏找窗口了。",
       "url": "https://www.producthunt.com/products/agentmicro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OQQQ3Q6OSVD35Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8354e503-a59f-4bca-b5ad-62c300c43e24.png?auto=format",
-      "votes_count": 164,
+      "votes_count": 168,
       "scores": {
         "video_suitability": {
-          "score": 3,
-          "reason": "菜单栏小工具画面信息有限，但可以切任务面板特写、状态变化动画，配合录屏演示效果可接受，视觉冲击力一般。"
+          "score": 2,
+          "reason": "工具是菜单栏状态指示器，画面动感弱，主要靠图标变化和列表展示，缺少丰富的交互或前后对比，视频表现力一般。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "需要使用者对 Codex 这个开发者工具有基本认知，普通用户没有相关背景会看不懂，使用门槛较高。"
+          "reason": "需要用户拥有 Codex Desktop 或 CLI 使用背景，普通互联网用户可能不理解 Codex 是什么，上手有一定技术门槛。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第 4，获得 164 票，话题热度较高，在开发者圈层有一定传播力。"
+          "reason": "ProductHunt 当日排名第 4，获得 168 票，在开发工具圈中有一定关注度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "你的 Mac 菜单栏应该有个「任务大管家」！AgentMicro 一键盯住所有 Codex 项目",
+        "title_idea": "Mac 菜单栏秒变 AI 指挥中心：一眼监控所有 Codex 任务",
         "angle": "教程演示",
-        "shooting_tips": "先展示菜单栏图标，鼠标悬停弹出任务列表的界面特写，强调时间、状态一目了然；然后录一段同时跑多个 Codex CLI 任务的终端，再到菜单栏里实时查看状态变化；最后演示点击任务直接跳转到 Codex Desktop 的无缝体验。节奏轻快，15~30 秒核心功能讲完。",
-        "target_audience": "使用 OpenAI Codex（CLI / Desktop）的软件开发者，追求效率的 macOS 用户"
+        "shooting_tips": "全程录屏演示：从下载安装、授权本地目录，到菜单栏出现多个任务状态图标，切换不同任务查看项目、耗时，最后点击直接唤醒 Codex Desktop。突出“本地优先、无上传”的隐私安全，可以打字幕强调。节奏平稳，配轻量背景音乐。",
+        "target_audience": "经常使用 OpenAI Codex 或类似 AI 代码助手的软件开发者、独立黑客。"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "虽然受众垂直，但功能演示直观、有终端录屏画面，适合做一期面向开发者的效率工具推荐。"
+      "overall_reason": "尽管视觉效果平淡且受众垂直，但产品热度不错，通过清晰的录屏演示仍能吸引目标开发者。"
     },
     {
       "id": "1211111",
       "name": "TerminalWidget",
       "name_zh": "终端小部件",
-      "tagline_zh": "把脚本输出直接放到你的桌面或主屏幕小组件里",
-      "description_zh": "一个能在macOS、iOS和iPadOS上自定义小组件，用来显示命令输出、进度条、迷你趋势图和图片的工具。一次购买，全平台通用。",
-      "intro_zh": "在桌面或者手机主屏上放一个能实时跑脚本的小窗口，把平时得开终端才能看的进度、图表直接摆出来。写代码、管服务器的朋友肯定会喜欢，一目了然不用切窗口。",
+      "tagline_zh": "把脚本输出直接贴在桌面或主屏幕小组件上",
+      "description_zh": "一个能在Mac、iPhone和iPad上显示命令输出、进度条、迷你图和图片的可定制小组件，一次购买全平台通用。",
+      "intro_zh": "就是把你终端里跑脚本产生的结果，比如天气、待办、系统状态，直接变成桌面或手机屏幕上的小组件，一眼就能看到。适合爱折腾桌面、喜欢用脚本自动化又嫌看命令行麻烦的极客和效率控。",
       "url": "https://www.producthunt.com/products/terminalwidget?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UKIMX63EX5ST2R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/79a653ec-3d2f-42f3-b323-d27c4d38ad9e.jpeg?auto=format",
       "votes_count": 138,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "适合拍视频。展示自定义小组件从设置到显示命令行输出的过程，有清晰的UI操作和动态效果，终端画面和图表渲染很直观，可录制前后对比。"
+          "score": 3,
+          "reason": "可以录屏展示小组件的配置过程和不同样式的效果，但画面相对静态，缺少强烈视觉冲击，需要靠讲解吸引观众。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "概念有一定门槛。需要了解基本的命令行或脚本知识才能发挥价值，纯普通用户可能不清楚该运行什么命令，上手前需要一点技术背景。"
+          "reason": "需要自己准备脚本或命令输出，纯小白连终端是什么可能都不清楚，上手门槛较高。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt排名第6，票数138，在当日榜单靠前，有一定关注度。"
+          "reason": "ProductHunt当天第6名，138票，有一定热度但不是现象级爆款。"
         }
       },
       "video_inspiration": {
-        "title_idea": "把终端搬上桌面！这个小组件让你不用切窗口就能盯进度",
+        "title_idea": "让你的桌面会说话！把命令行输出变成炫酷小组件",
         "angle": "教程演示",
-        "shooting_tips": "先录一段平常需要频繁切终端看进度的繁琐操作，再展示用TerminalWidget把命令输出固定在桌面小组件后的清爽效果。突出几种自定义样式的实时变化，比如sparkline动态图或图像输出，最后简单走一遍安装和配置流程，节奏轻快。",
-        "target_audience": "经常和命令行打交道的开发者、运维人员或技术爱好者"
+        "shooting_tips": "录制Mac桌面，从下载安装开始，演示创建一个简单小组件并绑定脚本，展示实时更新效果，再快速切换几个好看的样式，最后放上iPhone和iPad同步的彩蛋。节奏轻快，突出零代码的可视化配置。",
+        "target_audience": "喜欢美化桌面、平时会用脚本或快捷指令的苹果用户，以及想提高信息获取效率的效率控。"
       },
-      "category": "开发工具",
+      "category": "效率工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "虽然展示效果直观，但目标用户偏技术人群，普通观众理解成本有点高，适合在技术社区或开发向账号发布。"
+      "overall_reason": "虽然适合拍教程并有直观的画面演示，但目标受众较窄且有一定上手门槛，适合特定观众群体。"
     },
     {
       "id": "1200935",
       "name": "Terminal Candy",
       "name_zh": "终端糖果",
-      "tagline_zh": "给 Mac 终端穿上任何你想要的皮肤",
-      "description_zh": "Terminal Candy 是一个真正的原生 macOS 终端，你可以选择 Game Boy、磁带机、Pip-Boy 或自己的图片作为皮肤，并把命令行界面画在上面。当 Claude Code 或 Codex 需要你输入时，它会用声音和 Dock 弹跳提醒，不用一直守着窗口。皮肤编辑器能把任意图片变成终端界面，支持 84 种配色、CRT 效果、⌥Space 热键和社区皮肤市场。可免费试用 14 天，之后一次性 10 美元买断，无需订阅。需要 macOS 14+ 和 Apple Silicon。",
-      "intro_zh": "给 Mac 终端换个酷皮肤，从 Game Boy 到磁带机随便挑，还能自己做皮肤。AI 要你回复时它会提醒，不用傻等窗口。常玩命令行、折腾工具的程序员和极客可以试试。",
+      "tagline_zh": "一个可以随心所欲换肤的 macOS 原生终端",
+      "description_zh": "在你的 Mac 上装一个能换皮肤的终端，有 Game Boy、卡带机、Pip-Boy 等主题，也可以把任意图片做成皮肤。当 Claude Code 这些 AI 需要你输入时，它会用声音和 Dock 弹跳来提醒你，不用老盯着窗口。内置皮肤生成器、84 种配色、CRT 扫描线效果，还能去社区市场白嫖别人的皮肤。14 天免费试，之后一次付 10 美元永久用，不搞订阅。",
+      "intro_zh": "在你 Mac 上塞了个可以换皮肤的命令行窗口，游戏机、复古卡带、自己拍的照片都能变成终端的样子。AI 叫你回复时会弹窗提醒，程序员和喜欢折腾桌面的极客会爱上它。",
       "url": "https://www.producthunt.com/products/terminal-candy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LF7L5WEVZODLXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9916823b-73f7-45f2-a169-1d8df07c0fbf.png?auto=format",
-      "votes_count": 120,
+      "votes_count": 123,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "有大量可演示的皮肤切换、皮肤编辑器操作、CRT 扫描线效果，画面冲击力强，非常适合视频展示。"
+          "score": 4,
+          "reason": "皮肤切换动画、实时的 CRT 扫描线效果、把图片拖进去秒变终端的生成过程，都非常适合录屏演示，视觉冲击力强。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "终端本身有一定技术门槛，普通用户可能不了解用途，但通过视频可以直观感受皮肤趣味性。"
+          "reason": "普通人未必需要终端，但皮肤概念不难理解；会用终端的人上手零门槛，但对完全没接触过命令行的用户仍需要简单说明。"
         },
         "popularity": {
           "score": 4,
-          "reason": "Product Hunt 当日第 7 名，获得 120 票，在同类工具中关注度不错。"
+          "reason": "当日第 7 名，123 票，在开发者圈子里有一定讨论度，话题性中等偏上。"
         }
       },
       "video_inspiration": {
-        "title_idea": "十年了，Mac 终端终于能换皮肤了！Game Boy 风也太酷了吧",
-        "angle": "开箱体验/测评演示",
-        "shooting_tips": "录制屏幕展示一键换肤效果，重点突出从默认终端到游戏机皮肤的瞬间切换；演示皮肤编辑器拖入图片自动生成 CRT 界面的过程；插入真实使用 AI CLI 工具时触发的提醒音效和 Dock 弹跳镜头；快节奏混剪多种皮肤，配合「不用再盯窗口」的痛点解说。",
-        "target_audience": "Mac 重度用户、程序员、命令行爱好者、效率工具追求者。"
+        "title_idea": "把Mac终端皮肤换成Game Boy，写代码都像在打游戏！",
+        "angle": "开箱体验 + 皮肤整活演示",
+        "shooting_tips": "先录一段自带的游戏机皮肤快速切换效果，接着演示如何把一张图拖进皮肤生成器变成终端主题，再展示 CRT 特效和老式扫描线的复古感，最后用 AI 助手的提醒演示声音和图标弹跳。节奏轻快，背景音乐配 8-bit 风格。",
+        "target_audience": "Mac 程序员、技术博主、喜欢美化工具的桌面极客"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "视频素材丰富，视觉化程度高，但需要一定技术背景来理解，适合面向程序员和极客群体制作内容。"
+      "overall_reason": "换肤和生成器的视觉效果很适合拍视频，但终端本身受众偏开发圈，大众感兴趣的程度有限。"
     },
     {
       "id": "1211927",
       "name": "Basedash Audit Logs",
       "name_zh": "Basedash 审计日志",
-      "tagline_zh": "你的 BI 工具终于有了记忆，每一次操作都有迹可循。",
-      "description_zh": "Basedash 的内置审计日志功能，自动记录每一次登录、查询和配置改动，连 AI 执行的查询都会归属到人，随时可追溯。用个过滤器就能查出谁在什么时候看过什么数据，还能把事件流推送到你的安全系统，按公司规定设保留期限，甚至通过 API 拉取日志。专为企业安全审查和上线把关设计，跟单点登录、用户同步和角色权限无缝配合。",
-      "intro_zh": "Basedash 加了个黑匣子，任何人在 BI 里的操作全记录在案。搞安全审计、合规检查的同学再也不用到处翻日志了，一个筛选就能把谁看了啥、啥时候看的一下揪出来。",
+      "tagline_zh": "BI 工具里的每一个动作，都被记录在案。",
+      "description_zh": "Basedash 的原生审计日志——每次登录、查询、配置变更都会被记录下来，包括 AI 运行的每个查询，都能溯源归因。通过一个筛选器就能查明谁在什么时间看了什么数据，把事件流发送到你的 SIEM 系统，按需设置保留策略，还能通过 API 拉取日志。适用于安全审查和企业部署，并配套单点登录、SCIM 和 RBAC。你的 BI 工具终于有记忆了。每一个动作，都记录在案。",
+      "intro_zh": "给 BI 工具装了一本安全日志，所有操作自动留底，方便随时翻查。做数据分析的公司、尤其要过安全审查的团队，这下能随时追踪每个数据访问了。",
       "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4BFYBSUOLNVBUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fe1e3093-844d-45e4-ae10-804009dc8d1e.jpeg?auto=format",
-      "votes_count": 108,
+      "votes_count": 110,
       "scores": {
         "video_suitability": {
           "score": 3,
-          "reason": "界面以表格、日志流为主，虽可录屏展示过滤和导出流程，但缺乏视觉冲击力和戏剧性对比，更适合功能性演示而非爆款短视频。"
+          "reason": "界面有日志列表和筛选操作，可演示查询与导出，但整体偏静态，缺少视觉冲击力，更像后台功能展示。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "需要有 BI 工具、审计、SIEM 等基本概念，普通互联网用户可能看不懂“SSO、SCIM、RBAC”这些术语，使用门槛较高。"
+          "reason": "概念涉及审计、SIEM、API、RBAC，普通用户理解门槛高，需要企业 IT 或安全背景才能上手。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日第 8 名，108 票，有一定关注度但未进入前三，话题性中等，属于垂直工具圈的热度。"
+          "reason": "ProductHunt 当日排名第 8，票数 110，属于热门产品，但未进入前三。"
         }
       },
       "video_inspiration": {
-        "title_idea": "你的 BI 工具终于长记性了！Basedash 审计日志有多能打？",
+        "title_idea": "BI工具也有“行车记录仪”了？Basedash审计日志实机演示",
         "angle": "教程演示",
-        "shooting_tips": "录制 Basedash 仪表盘操作，先展示无日志状态下数据访问的模糊感，然后开启审计日志功能，快速演示用过滤器查出某用户在某时段的所有查询记录，再展示导出或推送到 SIEM 的过程。用简洁的分屏对比突出“有记录”和“没记录”的差异，节奏紧凑。",
-        "target_audience": "企业 IT 管理员、安全合规负责人、使用 BI 的数据团队 Leader"
+        "shooting_tips": "先展示无日志的 BI 工具痛点，再打开 Basedash 审计面板，操作按用户、时间、操作类型筛选，展示 AI 查询记录，快速导出日志或联动 SIEM，突出“可追溯”和“企业合规”卖点，节奏平稳。",
+        "target_audience": "数据分析师、IT 管理员、企业安全合规负责人"
       },
       "category": "安全隐私",
       "overall_suggestion": "可以做",
-      "overall_reason": "功能专业且切中企业痛点，但概念壁垒高、画面缺乏吸睛点，更适合在安全圈内传播，难以出圈吸引泛互联网观众。"
+      "overall_reason": "界面有操作流程可展示，适合面向企业技术人群做实用演示，虽然受众窄，但内容有干货。"
     },
     {
       "id": "1210288",
       "name": "SyncStaq",
-      "name_zh": "SyncStaq",
-      "tagline_zh": "Stripe 账单数据，在谷歌表格里永不过时",
-      "description_zh": "SyncStaq 能把 Stripe 的账单数据自动同步到谷歌表格，包括收款、发票、客户、订阅等，各自放在独立标签页里。它不按创建时间拉数据，而是跟着 Stripe 的事件流走，一旦数据有变动，表格立即更新，再也不会用到过期的退款或订阅状态了。",
-      "intro_zh": "自动把 Stripe 里的账单数据实时同步到谷歌表格，不用再手忙脚乱导数据。做订阅生意、盯财务流水的创业者或运营同学最需要，数据一变表格就跟着变，再也不怕漏掉退款或者看到过时信息。",
+      "name_zh": "同步账单",
+      "tagline_zh": "Stripe 账单数据，在 Google 表格中永远都是最新的",
+      "description_zh": "SyncStaq 把 Stripe 的账单数据自动同步到 Google 表格，包括收款、发票、发票明细、客户、订阅、提现和争议，每个种类都有自己整齐的分页。和那些一导出就过时的脚本不一样，它直接从 Stripe 的“事件流”获取更新，数据一变，表格就跟着变，永远保鲜。只读的 Stripe 权限，每小时同步一次，有 14 天免费试用。",
+      "intro_zh": "把 Stripe 里的所有账单数据自动搬到 Google 表格，像对账一样实时更新。做电商、SaaS 的老板和财务再也不用对着过期的报表发愁了。",
       "url": "https://www.producthunt.com/products/syncstaq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7AJ3R66DDJFLAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/99deaaf8-9912-4673-b23e-2d55a4e8957d.png?auto=format",
-      "votes_count": 103,
+      "votes_count": 106,
       "scores": {
         "video_suitability": {
-          "score": 2,
-          "reason": "主要画面是谷歌表格和数据同步设置界面，缺乏动态演示和视觉亮点，很难拍出吸引眼球的视频。"
+          "score": 3,
+          "reason": "主要在 Google 表格里展示数据，有同步状态和设置界面，可以录屏演示连接与自动更新，但缺少视觉冲击力和炫酷 UI，画面观感比较平淡。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "需要了解 Stripe 账单的基本概念，并且必须有 Stripe 账号，对完全小白有上手门槛，但操作步骤不复杂，经常用表格的人不难学会。"
+          "reason": "需要知道 Stripe 是什么，有一定使用门槛，但连接后完全自动运行，普通人跟着教程也能设置，无需编程。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日第 9 名，获得 103 票，属于中等热度，有一定关注度但未引爆话题。"
+          "reason": "ProductHunt 排名第 9，拿到 106 票，属于当日热门产品，热度不错。"
         }
       },
       "video_inspiration": {
-        "title_idea": "Stripe 账单自动进表格，再也不用手动导数据了！",
+        "title_idea": "再也不用天天导出 Stripe 账单！这个工具让 Google 表格自动跟账",
         "angle": "教程演示",
-        "shooting_tips": "录屏展示如何连接 Stripe 账号，然后在谷歌表格里实时看到发票、订阅、退款等数据自动更新。突出‘传统导出会过期’的痛点，用刷新前后对比来强调实时更新的好处。",
-        "target_audience": "使用 Stripe 收取订阅费的个人开发者、中小创业者、财务对账人员"
+        "shooting_tips": "录屏展示 Stripe 后台界面、SyncStaq 的授权连接过程，然后切换到 Google 表格，对比连接前后的空白表 vs 自动填入的结构化数据；重点拍一下数据更新瞬间的变化，突出“事件流同步”的即时感，节奏轻快，20 秒内说清价值。",
+        "target_audience": "使用 Stripe 收款的独立站卖家、SaaS 创业者、财务运营人员"
       },
       "category": "效率工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "实用解决真实痛点，但演示画面较平，适合做成简短的录屏教程来吸引目标用户。"
+      "overall_reason": "功能很实用，能解决账单数据滞后的问题，适合做成清晰的录屏教程，但视觉冲击力一般，更适合有支付管理需求的垂类观众。"
     }
   ]
 }
