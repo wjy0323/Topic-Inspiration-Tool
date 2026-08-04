@@ -1,357 +1,357 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-04T15:32:08+08:00",
+  "generated_at": "2026-08-04T17:43:45+08:00",
   "generation_error": false,
   "products": [
     {
       "id": "1211605",
       "name": "Ctruh Studio",
       "name_zh": "Ctruh Studio",
-      "tagline_zh": "无需代码，创建交互式3D与XR体验",
-      "description_zh": "Ctruh Studio 是一个AI驱动的无代码平台，让任何人都能在浏览器里创作、定制和发布交互式3D网页内容。用AI生成3D模型，直接搭建沉浸式产品展示、虚拟店铺、配置器和AR体验。",
-      "intro_zh": "在浏览器里就能做出炫酷的3D互动页面，甚至玩AR，完全不用写代码。电商卖货的、设计师或者想搞个虚拟展厅的，拿它分分钟搞定。",
+      "tagline_zh": "无需编码，轻松打造交互式 3D 与 XR 体验",
+      "description_zh": "Ctruh Studio 是一个 AI 驱动的无代码平台，任何人都能直接在浏览器里创建、定制、发布交互式 3D 网页体验。用 AI 生成 3D 素材，搭建沉浸式产品展示、虚拟门店、3D 配置器以及 AR 场景。",
+      "intro_zh": "一个不用写代码就能做出炫酷 3D 互动网页的工具，AI 帮你搞定素材。想搭建虚拟店铺、搞产品 3D 展示的电商老板、设计师和创业者会爱上它。",
       "url": "https://www.producthunt.com/products/ctruh-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YYAIX2KMA2K36Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ba339b16-7e7e-47fe-8c68-abe4ab70ad41.jpeg?auto=format",
-      "votes_count": 405,
+      "votes_count": 408,
       "scores": {
         "video_suitability": {
           "score": 5,
-          "reason": "拖拽搭建3D场景、AI生成模型、AR预览等操作画面丰富，视觉冲击力强，非常适合出演示视频。"
+          "reason": "完整的无代码拖拽界面，从生成 3D 资产到搭建场景、发布 AR 体验，每一步都有丰富的视觉反馈和实时预览，演示效果极佳，极具视觉冲击力。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "无需编程，但3D/XR概念稍显陌生，普通人需几分钟上手，门槛整体较低。"
+          "reason": "无需任何编程知识，全程可视化操作，普通人上手快。虽然 3D 逻辑可能带来一点学习曲线，但整体门槛很低。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt当日第2名，405票，话题性极强。"
+          "reason": "ProductHunt 当日第 2 名，获得 408 票，话题性强，热度很高。"
         }
       },
       "video_inspiration": {
-        "title_idea": "0代码玩转3D互动网页！这个AI工具让设计师当场失业？",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示从登录开始，用AI生成一个耳机模型，拖入场景，添加旋转和变色的交互，最后手机扫码看AR效果。用传统建模的繁琐作为对比，强调快和简单，节奏明快。",
-        "target_audience": "电商卖家、产品设计师、营销人员、想尝试3D内容的小白"
+        "title_idea": "零代码 3 分钟造一间虚拟买手店！Ctruh Studio 上手实测",
+        "angle": "开箱体验+教程演示",
+        "shooting_tips": "录屏展示完整创建流程：用 AI 文字描述生成一把椅子模型，拖入场景，调整材质和光影，加上旋转交互，最后发布成一个可嵌入网站的 3D 卡片。突出‘无代码’和‘浏览器搞定’两大卖点，节奏轻快，配合惊讶语气。",
+        "target_audience": "想用 3D 提升产品展示的电商卖家、独立设计师、内容创作者，以及好奇无代码 3D 工具的泛科技爱好者。"
       },
       "category": "设计创意",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "高热度无代码3D工具，演示效果堪比大片，小白也能看懂，视频化潜力拉满。"
+      "overall_reason": "操作画面丰富、视觉表现力强，无代码特点对小白极友好，且 PH 热度高，是天然的爆款视频素材。"
     },
     {
       "id": "1202911",
       "name": "Airtop for Google Ads Automation",
-      "name_zh": "Airtop：谷歌广告自动打理",
-      "tagline_zh": "聊天就能搭建广告、优化花费、生成报表。",
-      "description_zh": "Airtop 让你像聊天一样管理谷歌广告。告诉它你的目标，它就能自动做关键词研究、创建广告系列、审计浪费、生成效果报告，不用任何投放经验。",
-      "intro_zh": "跟它聊几句，就能把谷歌广告全都自动搞定：建计划、管预算、出报表。专门给不会投广告的店主和营销小白准备的省钱省心助手。",
+      "name_zh": "Airtop 谷歌广告自动化助手",
+      "tagline_zh": "聊天式搭建广告，自动烧钱变精准投喂",
+      "description_zh": "你只要说人话，Airtop 就帮你把谷歌广告从建计划、盯数据到优化全包了。不用懂关键词、不用会看报表，省预算、提效果，统统自动完成。",
+      "intro_zh": "跟它聊两句就能自动搭建谷歌广告，从找关键词到优化投放全不用你操心。想投广告又怕烧钱打水漂的小商家、自由职业者和营销新人特别需要。",
       "url": "https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JGYVC4OPVU532G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d3978811-4997-4cf9-8396-a1c30b153f70.png?auto=format",
-      "votes_count": 296,
+      "votes_count": 297,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "软件界面本身就是聊天窗口，很适合录屏演示，有明确的对话互动、报表生成等可视画面，效率对比一目了然。"
+          "reason": "有完整的对话式交互界面，可以展示输入指令、自动生成广告系列、报表可视化的过程，前后对比效果直观，画面操作感强，适合演示类视频。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "全程通过自然语言描述需求就能用，完全屏蔽了广告后台的复杂操作，普通人秒懂。"
+          "reason": "完全基于自然语言对话，号称无需专业知识，零基础用户也能理解和使用，门槛极低。"
         },
         "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日排名第3，获得296票，热度很高且话题性强。"
+          "score": 4,
+          "reason": "ProductHunt当日排名第3，票数297，属于高热度新品，话题性强。"
         }
       },
       "video_inspiration": {
-        "title_idea": "不用学广告投放了！和AI聊聊天，谷歌广告自己跑起来",
-        "angle": "教程演示",
-        "shooting_tips": "直接录制屏幕，展示从打开聊天窗口、用中文说‘帮我投一款手工皮包的广告’，到AI自动生成关键词、写出文案、给出预算建议的完整过程，最后快速切换查看自动生成的报表，用画中画表情强调操作极其简单。",
-        "target_audience": "想做谷歌广告但被复杂后台劝退的小商家、个体创业者、新手营销人。"
+        "title_idea": "跟AI说句话，它帮我烧出300%的广告回报？Airtop真实体验",
+        "angle": "开箱体验",
+        "shooting_tips": "先录屏展示登录后面对空白广告账户的手足无措，再演示跟Airtop对话生成第一个广告系列的全过程，重点突出自动关键词推荐、预算调整和效果报告解读，最后放出实际数据前后对比，用快节奏剪辑加幽默吐槽。",
+        "target_audience": "想做谷歌广告但怕浪费钱的中小卖家、独立站站长、营销新手"
       },
-      "category": "金融商业",
+      "category": "AI工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "产品将专业广告投放变成大众都能上手的聊天体验，界面演示性强，且当天高居PH前三，非常适合做成爆款内容。"
+      "overall_reason": "界面展示丰富、操作零门槛、热度高，视频很容易做出吸引眼球的实用测评。"
     },
     {
       "id": "1213121",
       "name": "Appllama",
-      "name_zh": "应用羊驼",
-      "tagline_zh": "从 2.5 万个顶级 iOS 应用界面中汲取设计灵感",
-      "description_zh": "这是一个帮 App 创作者研究设计的平台。你可以搜索 600 多款 App Store 最赚钱应用里的 2.5 万多个界面截图，跟踪完整的注册引导、付费墙、首页和功能流程，还能直接查看 UI 元素、颜色和字体。每周都会从商店抓取最新应用，免费就能开始用，不用绑卡。",
-      "intro_zh": "一个让你逛遍最赚钱 iOS App 界面的设计宝库，能拆解每个按钮、字体和配色。做 App 的设计师、产品经理和运营，想抄顶级作业的可以直接闭眼入。",
+      "name_zh": "Appllama",
+      "tagline_zh": "纵览25000+高收入iOS应用界面，洞察设计趋势",
+      "description_zh": "Appllama 是给应用创作者用的设计研究平台。你可以在这儿搜到600多个苹果商店里最赚钱iOS应用的25000多张真实截图，完整查看引导、付费墙、主页和应用内操作流程，还能细看每个 UI 元素的颜色、字体，连收入、下载和评分数据都摆在那。每周都会上新，直接从应用商店真实抓取，免费就能上手，不用绑卡。",
+      "intro_zh": "一个藏着600多款热门iOS应用完整界面的灵感库，从注册引导到付费弹窗全流程都有。做UI设计、产品调研的朋友不用到处找参考了，上来就能搜到高清截图和配色方案。",
       "url": "https://www.producthunt.com/products/appllama?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JB22KSXJYEKFYA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c2b3690c-42b7-4bcf-89a5-1cb6ec2f6b7e.png?auto=format",
-      "votes_count": 210,
+      "votes_count": 212,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "平台以大量高清截图和结构化流程展示为主，录屏演示时能直观呈现界面浏览、元素检测和横向对比，画面信息丰富，适合视频讲解。"
+          "reason": "可以展示大量应用界面截图和搜索对比，视觉素材丰富，适合用录屏演示设计灵感挖掘过程"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念直白，操作就是搜索和点选，不需要任何技术背景，普通互联网用户一眼就能看懂，是个人都能上手翻看界面。"
+          "reason": "应用设计师、产品经理一看就懂，普通用户只需了解研究竞品的概念，使用门槛低"
         },
         "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当天排名第 5，收获 210 票，在工具类产品里有一定声量，但未到刷屏级热度。"
+          "score": 5,
+          "reason": "ProductHunt当日第5名，获得212票，热度高且话题性强"
         }
       },
       "video_inspiration": {
-        "title_idea": "扒光 iOS 最赚钱 App 的设计底裤！2.5 万个界面免费看",
+        "title_idea": "扒光App Store最赚钱应用的设计秘密！这个神器收藏了25000张截图",
         "angle": "开箱体验",
-        "shooting_tips": "先录屏打开网站，快速搜索一款热门应用，点开它的付费墙或引导流程，把截图放大，高亮标注字体、配色代码，再切到收入数据面板制造反差感，配合惊讶的语气和轻快 BGM，节奏控制在 2 分钟内。",
-        "target_audience": "独立开发者、UI/UX 设计师、产品经理和想偷师竞品运营策略的人"
+        "shooting_tips": "开头快速展示多个高收入应用界面截图，然后进入平台演示搜索、按分类浏览、查看完整用户流程的功能，突出免费、免注册的特点，节奏明快，可加入同屏对比让观众直观看到不同应用的差异",
+        "target_audience": "UI/UX设计师、产品经理、移动应用创业者、独立开发者"
       },
       "category": "设计创意",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "界面演示丰富，概念直观易懂，非常适合制作成“开箱测评”类视频，能快速抓住设计类观众的眼球。"
+      "overall_reason": "视觉素材丰富，设计灵感直观，适合视频展示，普通人也能理解。"
     },
     {
       "id": "1212851",
       "name": "Plethora",
-      "name_zh": "Plethora",
-      "tagline_zh": "互动内容界的 YouTube，摸得到玩得动的信息流",
-      "description_zh": "Plethora 是一个装满互动小玩意儿的平台，把微型游戏、谜题、数字解压玩具、互动艺术、微观世界和教育模拟全扔进一条可以刷的 feed 里。每个方块都能戳、能拖、能玩，内容会跟着你的操作给反应。适合闲不住的手和好奇的心，刷短视频不如刷点能动手指的。",
-      "intro_zh": "一个全是互动小玩意儿的信息流，刷到的不是视频，是能直接上手玩的迷你游戏、解压玩具、互动艺术。喜欢没事戳屏幕、又想找点新鲜感解闷的普通人，打开就当逛游乐场。",
+      "name_zh": "互动百宝箱",
+      "tagline_zh": "刷不完的互动内容，像刷短视频一样玩小游戏",
+      "description_zh": "一个满是互动微体验的平台，就像互动内容的YouTube。汇集小游戏、谜题、解压玩物、互动艺术、微观世界、教育模拟，每一点都能触摸、拖拽、戳动，内容会回应你的操作。",
+      "intro_zh": "一个刷不完的互动玩意儿平台，全是能点能拖的小游戏和解压神器。闲不住手、爱体验新鲜感的人肯定会玩上瘾。",
       "url": "https://www.producthunt.com/products/plethora-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3RO56PX4QHKTW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5c4c7df2-897a-440a-adf5-84ee0b52951d.jpeg?auto=format",
       "votes_count": 198,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "全是可触摸、拖拽、点击的画面，展示交互过程本身就有强烈的视觉演示效果，适合录屏拍摄，观感像魔法。"
+          "score": 4,
+          "reason": "充满可点击、拖拽的互动界面，屏幕录制能直观展示各种微体验，画面丰富有变化，适合视频演示，但部分互动效果在视频中不如亲手操作震撼。"
         },
         "beginner_friendly": {
-          "score": 5,
-          "reason": "不需要任何技术背景，从名字到操作都和刷视频一样直觉，点开就能玩，小孩老人都能看懂。"
+          "score": 4,
+          "reason": "概念简单直观，就是刷互动内容，无需任何技术背景，点开就能玩，唯一门槛是需要一些好奇心去探索。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日第6名，198票，讨论热度不错，适合尝鲜向内容传播。"
+          "reason": "ProductHunt当日排名第6，获得198票，话题性较高，能吸引尝鲜用户关注。"
         }
       },
       "video_inspiration": {
-        "title_idea": "刷到这个网站我玩了一下午！比短视频还上头的互动游乐园",
+        "title_idea": "比刷短视频更解压！这个互动版YouTube让我玩了整整一天",
         "angle": "开箱体验",
-        "shooting_tips": "直接录屏展示打开 Plethora 往下刷的过程，每遇到一个互动块就上手玩一下，突出「摸得到」的惊喜感，旁白用唠嗑语气形容手感，最后展示自己上瘾停不下来。",
-        "target_audience": "喜欢解压小游戏、没事刷手机消遣的普通网友，特别是学生和上班摸鱼党。"
+        "shooting_tips": "用屏幕录制展示浏览feed流，依次点开几个典型互动项目，如小游戏、解压玩具、物理模拟，强调手指点击、拖拽的即时反馈，适当加入惊讶表情和笑声，节奏轻快，每个体验展示10-15秒，最后引导用户自己上手。",
+        "target_audience": "喜欢新鲜App、解压需求、碎片时间找乐子的年轻人"
       },
       "category": "社交生活",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "画面互动极强，小白零门槛看懂，热度足够做成爆款开箱视频。"
+      "overall_reason": "互动内容平台画面活泼，玩法直观，极易通过视频展示趣味性，且热度不错，普通人一眼就能看懂，非常适合拍成种草视频。"
     },
     {
       "id": "1190533",
       "name": "yapyap",
-      "name_zh": "yapyap（丫丫记录）",
-      "tagline_zh": "重新掌握你的声音：本地优先的语音与会议记录工具",
-      "description_zh": "大多数会议记录工具都得把你的音频上传到云端，还月月收费。yapyap 偏不。它在你的电脑上完成录音、转文字、识别说话人，并把对话变成摘要和待办事项。内置的“镜头”功能可以把同一段录音重塑成总结、待办清单或决策日志，你也可以安装更多或自己打造。如果喜欢联云，可以选接 OpenAI、Anthropic 等大厂模型。总之，一次买断，不用订阅。",
-      "intro_zh": "在电脑上装个 yapyap，会议录音转文字、出摘要全在本地搞掂，不用联网。讨厌订阅费和隐私泄露的上班族、自由职业者终于翻身了。",
+      "name_zh": "呀呀记",
+      "tagline_zh": "夺回你的话语，本地先行的语音与会议记录器",
+      "description_zh": "别的会议记录工具总是把你的对话上传云端，还要按月收费，yapyap 全都不干。它直接在你电脑上录音、转文字、分出谁在说话，再把对话变成总结和待办事项。特别的「镜头」功能能把每次记录变成摘要、任务清单或决策日志，想自己装或者动手写新的都行。想用云服务？也可以选择性接上 OpenAI、Anthropic、Groq 这类大厂。不管怎样，买了就是你的，永远不用交订阅费。",
+      "intro_zh": "一个完全跑在你电脑里的会议记录神器，能录音、转写、出总结，还不用上传到任何云端。经常开会、要整理纪要的上班族和自由职业者，用过就很难回去了。",
       "url": "https://www.producthunt.com/products/yapyap-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/B4H2XU7GUPQ3UJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/60813010-171a-48f0-bd4d-a1eb748cc2b7.png?auto=format",
-      "votes_count": 143,
+      "votes_count": 147,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "拥有清晰的操作界面，可录制屏幕演示录音、实时转录、镜头生成摘要/待办的全流程，前后对比直观，视觉上虽不炫酷但实用性强。"
+          "reason": "产品是本地应用，有完整的录音、实时转写、说话人标注和自动总结界面，可以直观录制屏幕展示前后对比，隐私优势和本地处理的流畅感都很有视觉冲击力。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念直白（本地录音转文字），无需编程，下载即用；虽然涉及本地AI和隐私概念，但普通用户都能快速理解其价值。"
+          "reason": "核心功能就是录音转会议纪要，不需要任何技术背景，下载安装就能用，普通上班族完全看得懂、用得上。自定义镜头略微进阶，但不影响日常使用。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第8，143 票，属于前10 热门产品，有一定话题度。"
+          "reason": "ProductHunt 当日第7名，获得147票，属于较高热度，且“无订阅、本地运行”是当下很受欢迎的隐私话题，话题性强。"
         }
       },
       "video_inspiration": {
-        "title_idea": "开会录音再也不怕泄密！本地神器 yapyap，买断制告别订阅",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先快速吐槽传统工具上传云端、月付的痛点，接着屏幕录制 yapyap 从安装到录一段模拟会议的完整流程，突出本地转录、说话人识别、镜头一键生成总结和待办事项的亮点，节奏轻快，结尾强调一次性买断和隐私保护。",
-        "target_audience": "注重隐私、反感订阅制的职场人、远程工作者、自由职业者。"
+        "title_idea": "永不联网的会议记录器？你电脑里的贴身秘书，一次买断！",
+        "angle": "开箱体验+对比测评",
+        "shooting_tips": "屏幕录制整个安装和首次使用过程，用一段模拟会议音频演示录音、转文字、说话人分离和生成行动项。接着展示‘镜头’切换，把同一段记录变成摘要、待办列表的不同视图。再拿云工具对比，突出本地处理的速度和隐私。节奏先快后稳，开头5秒抛出痛点。",
+        "target_audience": "日常开会频繁的办公族、远程自由职业者、学生、对隐私敏感的用户"
       },
       "category": "效率工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "界面操作可视化强，隐私+买断话题自带热度，普通人一看就懂，很适合拍成种草视频。"
-    },
-    {
-      "id": "1199610",
-      "name": "Hand Wave",
-      "name_zh": "手势桥梁",
-      "tagline_zh": "一副智能眼镜，让手语开口说话",
-      "description_zh": "它用 Meta 智能眼镜的摄像头捕捉手语，实时转成文字和语音，iOS 和网页都能用。背后是一个轻量级开源神经网络，用 Google 的手语数据集训练，能在设备本地运行。",
-      "intro_zh": "戴上这副智能眼镜，你比划的手语马上变成声音和文字，对方用手机就能看到听到。聋哑人士、手语使用者终于能像普通人一样聊天了。",
-      "url": "https://www.producthunt.com/products/hand-wave?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/T6MK6FCAU4C57U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/47ce7ba9-2fe3-4fe2-908b-05bfff76013d.png?auto=format",
-      "votes_count": 134,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以拍出手语识别、文字语音实时显示的动态过程，真人演示很有视觉冲击力，但画面毕竟是小屏交互，需要靠剪辑增强观感。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念特别直白，就是用手语聊天，不需要任何技术背景。唯一门槛是得先有 Meta 智能眼镜，但这不影响观众理解。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第10名，134票，话题性较强，尤其无障碍科技容易引发讨论。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "手语秒变语音！戴上这个眼镜，聋哑人也能“说话”了",
-        "angle": "开箱体验 + 场景演示",
-        "shooting_tips": "找一位聋哑朋友做演示，拍第一视角戴上眼镜的画面，然后切到另一个人手机屏幕实时弹出文字的瞬间，中段加入一小段无字幕对比，最后解释背后的轻量级 AI 原理，节奏从“哇”到“原来如此”。",
-        "target_audience": "关心前沿科技的普通网友、关注无障碍领域的人、学生和科技尝鲜者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示性强、概念易懂、有社会话题热度，观众看完会想分享给身边的人。"
-    },
-    {
-      "id": "1211254",
-      "name": "AgentSky",
-      "name_zh": "天际代理",
-      "tagline_zh": "任意工具链，任意大模型，一键启动你的云端AI助手",
-      "description_zh": "一个托管式的AI代理即服务平台，点一下就能启动像Claude Code、Codex这样的智能体，不用自己折腾环境。它会帮你保存所有对话记录、自动从错误中恢复，而且通过微信、iMessage、Slack、网页、命令行都能用，很适合想用AI自动处理长期任务又不想管技术底层的个人和团队。",
-      "intro_zh": "就是个能一键在云端跑AI智能体的服务，连上微信或Slack就能像聊天一样指挥它干活。不想折腾服务器、又想用AI自动搬砖的打工人和小团队必备。",
-      "url": "https://www.producthunt.com/products/agentsky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VKQBZ233EK3JBM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6dd00586-2463-4cd6-8e7c-07854bb731de.png?auto=format",
-      "votes_count": 433,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "主要通过聊天工具界面交互，缺乏丰富的UI操作和视觉冲击力，但可以录制指令发送和回复的演示过程，画面相对平淡。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及AI代理、大模型、托管等概念，普通用户理解有门槛；虽然聊天方式降低了使用门槛，但初始配置和模型选择仍需要一定技术认知。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "当日ProductHunt排名第1，票数433，话题性极强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "一键在微信里召唤AI打工？这个云代理神器让你彻底躺平！",
-        "angle": "教程演示 + 娱乐吐槽",
-        "shooting_tips": "录屏展示在Slack或WhatsApp里发送“帮我写周报”等指令，AI代理秒回结果；穿插夸张表情和音效，对比过去自己上手操作的痛苦；最后快速演示网页端一键启动代理的界面，强调零配置。",
-        "target_audience": "对AI工具有兴趣但不想折腾技术的普通上班族、学生、小团队"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然视频展示效果一般且有技术门槛，但产品热度极高，适合用创意切入做科普或吐槽类内容。"
-    },
-    {
-      "id": "1213396",
-      "name": "Qwen3.8-Max",
-      "name_zh": "通义千问3.8 Max",
-      "tagline_zh": "通义千问最强编码与协同模型",
-      "description_zh": "Qwen3.8-Max是通义千问迄今最强大的模型，采用2.4万亿参数混合专家架构，激活参数95B，支持100万tokens上下文，擅长编程、研究、协同和长周期任务，还具备多模态智能体能力。",
-      "intro_zh": "这是一个能写代码、搞研究、陪你协同工作的AI超级大脑。如果你经常需要处理超长文档、复杂编程或者想找个人一起推项目，它可能就是你的新搭档。",
-      "url": "https://www.producthunt.com/products/qwen3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/52KS36OISXU6BD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/619335d6-0640-41ab-9642-b8d08d999c53.png?auto=format",
-      "votes_count": 272,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要通过对话和代码演示，画面缺乏丰富UI或多场景变化，视觉冲击力不足，但录屏对比可部分弥补。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及MoE、百万级上下文等术语，普通用户需要技术背景才能理解价值，使用门槛较高。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第4，272票，话题性较强，但未进入前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "100万上下文到底有多强？通义千问3.8 Max硬核实测",
-        "angle": "对比测评",
-        "shooting_tips": "录屏展示模型处理超长代码文件、多轮对话协同、与其他模型性能对比，突出长上下文记忆和多模态能力，节奏先快速展示痛点再亮出实测数据。",
-        "target_audience": "开发者、技术爱好者、AI应用探索者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "技术概念深，视频画面单一，更适合技术圈层解说，普通观众可能难坚持看完。"
-    },
-    {
-      "id": "1213145",
-      "name": "claudemon",
-      "name_zh": "克劳德兽",
-      "tagline_zh": "等 Claude 写代码时，野生宝可梦在终端里跳了出来",
-      "description_zh": "claudemon 把等待 Claude Code 执行任务的时间变成了一场终端里的宝可梦捕捉游戏。你的每次提示就像在草丛中前进，每工作 20 秒就是一步，随机遇到野生宝可梦，在另一个终端标签里战斗捕捉。所有 151 只宝可梦都已本地化，无需注册。",
-      "intro_zh": "用 Claude Code 写代码的间隙，顺手抓几只宝可梦。每次等待生成结果时，终端里就会冒出野生的战斗，开发者和命令行爱好者会玩得停不下来。",
-      "url": "https://www.producthunt.com/products/claudemon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GHBCQJ4B6XNFDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a0607e90-1c01-4dc2-8a54-6bab54c1ca6e.png?auto=format",
-      "votes_count": 148,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "终端的文本交互可以录屏演示，战斗动画和状态栏提示有复古趣味，但画面是纯文字，缺少视觉冲击力，适合短视频快节奏展示。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "玩过宝可梦的人一听就懂，但需要会打开终端、运行命令，对完全没用过命令行的用户稍有门槛，好在概念不复杂。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt 当日排名第 7，148 票，有话题性但并非现象级爆发，在技术圈层可能引发怀旧共鸣。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "程序员摸鱼神作！写代码时终端里捉宝可梦，151只全图鉴",
-        "angle": "开箱体验",
-        "shooting_tips": "录一段真实等待 Claude Code 执行任务的场景，切到另一个终端标签展示捕捉流程，用旁白调侃等待的焦虑被游戏化解，突出状态栏提示和战斗切换的节奏感，结尾展示图鉴收集进度。",
-        "target_audience": "用 AI 辅助编程的开发者、命令行工具爱好者、宝可梦怀旧玩家"
-      },
-      "category": "游戏娱乐",
-      "overall_suggestion": "可以做",
-      "overall_reason": "概念有趣，能引发开发者共鸣，但纯文字终端操作对大众观众有一定理解门槛，适合技术向短视频。"
+      "overall_reason": "本地运行、无订阅的会议记录器在画面演示上有天然优势，普通人一看就懂，加上当前隐私话题热度高，很适合做成爆款视频。"
     },
     {
       "id": "1212818",
       "name": "Snapdown",
-      "name_zh": "Snapdown",
-      "tagline_zh": "将Mac屏幕上任何内容转为整洁的Markdown",
-      "description_zh": "Snapdown 能把你Mac屏幕上的任意区域变成结构化的Markdown，保留标题、列表、表格格式，而不是粗暴地OCR成一堆纯文本。一键快捷键截图，随时随地粘贴，所有处理都在Apple芯片上本地完成，保护隐私。",
-      "intro_zh": "Mac上装了个截图神器，框选屏幕区域就能直接变Markdown，列表、标题都整整齐齐，粘贴到笔记里太省事了。经常写文档、做摘录的内容创作者和学生党绝对爱不释手。",
+      "name_zh": "截转笔记",
+      "tagline_zh": "Mac 屏幕前一拍，凌乱内容秒变清爽 Markdown",
+      "description_zh": "Snapdown 能把 Mac 屏幕上的任意部分直接抓成结构清晰的 Markdown，标题、列表、表格统统保留，不是粗暴的 OCR 纯文本。一个快捷键截图，就能粘贴到任何地方，而且所有截图都本地保存在你的 Apple 芯片 Mac 上。",
+      "intro_zh": "Mac 上装了个截图变笔记的小工具，选中屏幕上任何内容随手一拍，直接生成 Markdown 格式，标题、表格都能认。常需要把网页、文档转成结构化笔记的写作者、学生和效率控会很喜欢。",
       "url": "https://www.producthunt.com/products/snapdown-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ONEE7XAFIK6ZRL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b610558b-d8d7-4e82-b9fa-65bcbdd50e42.png?auto=format",
-      "votes_count": 140,
+      "votes_count": 141,
       "scores": {
         "video_suitability": {
-          "score": 3,
-          "reason": "可以展示截图到Markdown的转换前后对比，但操作场景单一，缺乏丰富的界面交互和视觉冲击力。"
+          "score": 4,
+          "reason": "画面直观，可以展示截图前后对比，将杂乱画面转为整齐 Markdown 的瞬间变化，视觉冲击力强，适合操作演示。"
         },
         "beginner_friendly": {
-          "score": 3,
-          "reason": "需要了解Markdown格式才能完全发挥价值，普通用户可能对Markdown较陌生，但“截图转文字”的概念很直观。"
+          "score": 4,
+          "reason": "概念容易理解，操作只是快捷键截图，不需要技术背景。只要是 Mac 用户就能看懂并上手。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当天排名第9，获得140票，在工具类中有一定关注度。"
+          "score": 3,
+          "reason": "排名第 9，属于 ProductHunt 当日热门中上游，有 141 票，但未进入前三，话题性一般。"
         }
       },
       "video_inspiration": {
-        "title_idea": "Mac神仙操作：截图直出Markdown，笔记党原地起飞！",
+        "title_idea": "Mac 新神器！一行代码不写，截图直接变 Markdown 笔记",
         "angle": "教程演示",
-        "shooting_tips": "录屏演示：在网页或文档中框选内容，按下快捷键，立刻粘贴到Obsidian或Notion，突出结构化识别和本地隐私，节奏轻快，穿插惊叹表情。",
-        "target_audience": "Mac重度用户、内容创作者、学生、Markdown爱好者"
+        "shooting_tips": "先展示一个满是格式的网页局部，用 Snapdown 快捷键截图，立刻出现对比画面，左侧原样右侧整洁 Markdown，强调表格和列表完好保留。再用快节奏展示从截图到粘贴进 Notion 的完整流程，突出本地处理、保护隐私。",
+        "target_audience": "Mac 用户、笔记爱好者、Markdown 写作者、内容搬运工"
       },
       "category": "效率工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "视觉演示效果好，普通人一看就懂，且能解决真实痛点，适合拍成节奏明快的工具分享视频。"
+    },
+    {
+      "id": "1199610",
+      "name": "Hand Wave",
+      "name_zh": "手语波",
+      "tagline_zh": "戴上智能眼镜，手语秒变语音",
+      "description_zh": "Hand Wave 利用 Meta 智能眼镜的摄像头，实时将手语转换成文字和语音，支持 iOS 和网页端。背后的轻量级开源神经网络跑在本地，基于 Google FSBoard 数据集训练，保护隐私又能跨设备使用。",
+      "intro_zh": "戴上一副智能眼镜，手语就能实时变成语音和文字。听障朋友、手语翻译员，还有总跟听障家人打交道的你，这下沟通省心多了。",
+      "url": "https://www.producthunt.com/products/hand-wave?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/T6MK6FCAU4C57U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/47ce7ba9-2fe3-4fe2-908b-05bfff76013d.png?auto=format",
+      "votes_count": 136,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "眼镜实时识别手语并发出语音，画面有动作、有交互、有转化效果，很适合镜头展示，但稍微依赖眼镜外观，视觉震撼中等。"
+        },
+        "beginner_friendly": {
+          "score": 4,
+          "reason": "概念直观：眼镜看懂手语并说话，普通人一下子就能看懂，不需要技术背景，唯一门槛是得有 Meta 眼镜，但理解上毫无困难。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt 当日第10名，136票，话题性不错，处在榜单前列，容易吸引关注。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "雷朋眼镜居然能翻译手语？聋哑人用眼镜说话了",
+        "angle": "开箱体验 / 对比测评",
+        "shooting_tips": "找一位会手语的佩戴者，戴上眼镜比划「你好」「谢谢」等常用手势，手机同步播放翻译语音，再录一段无眼镜时的沟通障碍做对比。突出本地运行、反应速度、隐私保护。节奏先苦后甜，结尾加一句温情呼吁。",
+        "target_audience": "科技数码爱好者、听障人士亲友、智能穿戴关注者、公益科普观众"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "强力推荐",
+      "overall_reason": "演示效果直接、有画面冲击力，普通人一眼看懂，热度不错，非常适合拍成有温度又涨知识的视频。"
+    },
+    {
+      "id": "1211254",
+      "name": "AgentSky",
+      "name_zh": "AgentSky",
+      "tagline_zh": "任意工具链，任意大模型——按需托管的云端智能体，即开即用",
+      "description_zh": "全托管的智能体即服务：一键启动长期运行的AI智能体，支持Claude Code、Codex、Hermes和OpenClaw等主流代理，提供完整历史记录、自动故障恢复，并可通过WhatsApp、iMessage、Telegram、Slack、网页、API和命令行访问。",
+      "intro_zh": "一个帮你把AI助手挂在云上随便用的工具，只要手机上有聊天App就能使唤它，忘了关也没事，它自己会续命。经常跑任务、懒得守着电脑的程序员和重度AI用户会很喜欢。",
+      "url": "https://www.producthunt.com/products/agentsky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VKQBZ233EK3JBM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6dd00586-2463-4cd6-8e7c-07854bb731de.png?auto=format",
+      "votes_count": 442,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "可以拍多平台交互演示，画面多是聊天窗口和设置界面，操作流畅但视觉冲击力弱，缺乏炫酷的UI动效或前后对比效果。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "普通人知道能用聊天App操作就不难上手，但要真正理解“AI代理”“长时任务”等概念需一定学习成本，更适合已有AI使用基础的用户。"
+        },
+        "popularity": {
+          "score": 5,
+          "reason": "ProductHunt当日排名第1，获得442票，热度极高，话题性强，容易引发好奇。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "把AI助手丢进云端，用微信/Telegram随时传唤，再也不怕任务断掉！",
+        "angle": "教程演示",
+        "shooting_tips": "实录屏幕和手机双视角，先展示一键创建代理，然后切换到手机上的聊天App向它下达耗时任务，再切回网页端查看历史记录和自动恢复的日志，最后展示命令行和API的玩法。节奏轻快，突出“一触即达，后台自己跑”的省心感。",
+        "target_audience": "对AI工具有了解、需要处理长任务的技术从业者和效率控"
+      },
+      "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "功能直观，演示门槛低，但对普通观众的吸引力略显小众，可在效率工具类内容中顺手推荐。"
+      "overall_reason": "以第1名热度自带流量，操作流程适合演示，但视觉表现力一般，做成教程类视频能精准吸引目标观众。"
+    },
+    {
+      "id": "1213396",
+      "name": "Qwen3.8-Max",
+      "name_zh": "通义千问3.8-Max",
+      "tagline_zh": "千问最强编程与协作模型",
+      "description_zh": "通义千问3.8-Max是目前千问系列最强的模型，用了2.4万亿参数的混合专家架构，每次激活950亿参数，支持100万token的超长上下文，还能看懂图片、读懂文档，专门用来写代码、做研究、协同工作、处理需要多步推理的任务。",
+      "intro_zh": "千问家族的新旗舰，2.4万亿参数，专为写代码和多轮协作任务训练。程序员、研究员想要搞定复杂逻辑、长文档分析，或者需要AI当副驾驶，用它就对了。",
+      "url": "https://www.producthunt.com/products/qwen3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/52KS36OISXU6BD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/619335d6-0640-41ab-9642-b8d08d999c53.png?auto=format",
+      "votes_count": 273,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "可以通过写代码、长文本推理、多模态识图的实操演示来呈现效果，有屏幕录制和前后对比的空间，但缺乏强视觉冲击的交互界面，画面相对静态。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "MoE、激活参数、100万上下文等概念对普通人门槛较高，实际使用往往需要编程或API调用，纯聊天用户很难直观感知其能力。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日第4名，票数273，属于热门前沿话题，在开发者群体中有一定讨论度。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "2.4万亿参数！国产模型王炸，写代码比人还快？",
+        "angle": "对比测评",
+        "shooting_tips": "选取几个真实编程和长文档分析任务，同时用Qwen3.8-Max和其他主流模型跑一遍，录屏展示生成速度、准确率和理解深度，中间穿插对多模态识别的演示，节奏先快后精，突出关键差异。",
+        "target_audience": "程序员、AI开发者、技术爱好者"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "虽然对小白不太友好，但通过编程实操和对比演示能做出有干货的技术向内容，适合吸引开发者观众。"
+    },
+    {
+      "id": "1213145",
+      "name": "claudemon",
+      "name_zh": "克劳德宝可梦",
+      "tagline_zh": "在等待Claude Code时，野生宝可梦随时出没。",
+      "description_zh": "Claude Code 有一半时间都在等待。claudemon 把这等待变成游戏：你输入的每一条提示就像在草丛里前进，每过20秒算一步，时不时就有野生宝可梦窜出来，状态栏提醒你，然后在另一个终端窗口里开打。151只全齐，纯本地运行，不用注册。",
+      "intro_zh": "把AI写代码的等待时间变成宝可梦对战游戏，每20秒随机遇敌，直接在终端里抓怪。用Claude Code的开发者终于可以边摸鱼边怀旧了。",
+      "url": "https://www.producthunt.com/products/claudemon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GHBCQJ4B6XNFDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a0607e90-1c01-4dc2-8a54-6bab54c1ca6e.png?auto=format",
+      "votes_count": 147,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "纯终端界面，可以录屏展示安装、遇敌和对战过程，但视觉冲击力有限，更适合讲解类内容。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "需要安装并运行Claude Code，全程在命令行操作，对非技术用户门槛较高。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt当日第8名，147票，宝可梦与AI编程的结合自带话题性。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "写代码也能抓宝可梦？这个Claude Code插件让我等编译时凑齐151只！",
+        "angle": "开箱体验+教程演示",
+        "shooting_tips": "全程录屏终端，先展示Claude Code等待时的无聊，再安装claudemon，依次演示步行遇怪、切tab战斗、捕捉成功，配合第一人称讲解和幽默吐槽。",
+        "target_audience": "使用Claude Code的AI编程爱好者、喜欢在工作流里摸鱼的开发者。"
+      },
+      "category": "开发工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "题材有梗，操作画面够录，但纯命令行界面需靠剪辑和嘴炮撑场，技术向UP主可以一试。"
     }
   ]
 }
