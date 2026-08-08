@@ -1,260 +1,225 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-08T15:55:32+08:00",
+  "generated_at": "2026-08-08T23:37:02+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1214232",
-      "name": "Rindler",
-      "name_zh": "Rindler",
-      "tagline_zh": "把你团队的手工网页操作自动执行",
-      "description_zh": "Rindler 能把那些还得靠手点的重复网页工作自动完成。你只需要用大白话告诉它要干什么，它就会像真人一样去网站登录、填表、抓数据，最后把整理好的结果给你。还能设定定时任务，让它在后台一直跑，页面变了也会自己调整，不用老盯着。",
-      "intro_zh": "像雇了个虚拟助手，帮你自动登录网站、填表单、抓取数据。每天被重复网页杂活困住的运营、销售、数据团队，终于能甩手摸鱼了。",
-      "url": "https://www.producthunt.com/products/rindler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/N2UOXZWDJSNLZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e5f5ded9-53f3-4faa-83fd-1c4bd6ccab8d.png?auto=format",
-      "votes_count": 247,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有完整的配置界面和自动化执行过程，可录屏展示自然语言指令到任务执行的完整闭环，前后对比直观，视觉效果好。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "用自然语言下达指令，无需编程，普通办公人员就能上手，概念接近“智能RPA”，理解门槛低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第4，247票，热度较高，属于话题性产品，但未进前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "一句话让AI替你上网干活！自动登录、抓数据的打工人摸鱼神器",
-        "angle": "教程演示",
-        "shooting_tips": "录屏为主：先展示一段枯燥的手动填表抓数据过程，再打开Rindler，用口语输入任务，快进展示它自动完成，最后切换到数据导出结果。节奏轻快，插入夸张表情和音效，突出“省力”和“可靠”。",
-        "target_audience": "经常处理重复网页操作的运营、市场、数据专员，中小企业效率工具探索者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "AI自动化网页操作，演示效果直观，无需技术背景，热度前10，非常适合拍视频。"
-    },
-    {
-      "id": "1216349",
-      "name": "Crew",
-      "name_zh": "小怪物助手",
-      "tagline_zh": "给 Claude Code 代码助手配个像素小怪物，干活散步两不误",
-      "description_zh": "Crew 给每个 Claude Code 聊天和子代理都配上一个身体：一个在屏幕底部走来走去的小像素怪物，工作时会挖地，空闲时就睡觉，完成任务还会朝你挥手。完全免费，只支持 macOS，所有数据都留在本机不出去。",
-      "intro_zh": "在Mac上用Claude写代码时，屏幕底下会出现一只会挖土、睡觉、挥手的像素小怪物。经常用Claude Code搞开发的程序员和AI爱好者，看了心情会变好。",
-      "url": "https://www.producthunt.com/products/crew-a-tiny-crew-for-claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5GX63ITCVZ2GQ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9f1e50b3-73d8-4845-ad71-a149434155c7.jpeg?auto=format",
-      "votes_count": 138,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "像素小怪物在屏幕底部行走、挖掘、睡觉、挥手的动画演示极具视觉趣味和冲击力，非常适合拍成可爱治愈的短视频，画面感强，容易引发分享。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "普通人能立刻理解这是一个可爱的桌面宠物，不需要技术背景；但安装依赖 Claude Code 可能对纯小白略有门槛，不过核心概念极简单。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 第7名，138票，热度不错，但非现象级爆款。适合作为新奇有趣的 AI 小工具推荐。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "给你的Claude代码助手配了个像素宠物，打工都有陪伴感了！",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示安装后小怪物出现在桌面底部的第一视角，分别拍摄怪物在 Claude 工作时挖地、空闲时打呼噜睡觉、任务完成时挥手致意的画面，配上轻松欢快的背景音乐和解说，突出可爱治愈感。",
-        "target_audience": "程序员、AI开发者、喜欢桌面宠物和萌系工具的年轻人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉呈现可爱有趣，视频演示效果极佳，普通人易理解，热度适中，非常适合做成爆款短视频。"
-    },
-    {
       "id": "1216604",
       "name": "DataBlur",
-      "name_zh": "数据模糊",
-      "tagline_zh": "敏感信息一闪即隐，屏幕共享再也不怕露馅",
-      "description_zh": "DataBlur 能实时模糊掉你屏幕上的敏感内容，不管是直播、演示还是录屏都管用。它会自动识别邮箱、银行卡号和 API 密钥，全都在本地运行，不用联网、不开 AI、也无需注册。识别不准时，宁可多模糊一片，也绝不少遮一点。",
-      "intro_zh": "在屏幕共享时自动把密码、卡号这些敏感信息统统打码，开会、录教程都不用再担心手滑泄露。经常远程演示的上班族、主播和开发者一定爱上它。",
+      "name_zh": "屏幕隐私卫士",
+      "tagline_zh": "实时模糊敏感信息，一键守护屏幕隐私",
+      "description_zh": "DataBlur 能在在线会议、演示或录屏时，自动检测并模糊屏幕上出现的邮箱、银行卡号、API密钥等敏感内容。完全在本地运行，无需联网、不用AI、无需注册，检测不完美时宁可多模糊也不放过任何一个隐私。",
+      "intro_zh": "开会时屏幕上突然弹出个密码，手忙脚乱？这工具能自动帮你把邮箱、银行卡、密钥全都打码，安心做演示。经常直播、录课、远程演示的上班族和创作者一定要试试，再也不用担心手滑泄密。",
       "url": "https://www.producthunt.com/products/datablur?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HJ2P4URTDUMTPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/30b39c02-a1ec-41ba-beb1-b9acd5b56386.png?auto=format",
-      "votes_count": 128,
+      "votes_count": 130,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "可以直观展示模糊前后的对比、实时检测的动画效果，录屏画面非常有视觉说服力。"
+          "score": 5,
+          "reason": "实时模糊效果极具视觉冲击力，前后对比强烈，适合演示泄露场景和打码效果，视频感染力强。"
         },
         "beginner_friendly": {
-          "score": 4,
-          "reason": "概念简单，装好就自动运行，不需要配置，普通用户一看就懂能立刻上手。"
+          "score": 5,
+          "reason": "完全无需技术背景，安装即用，自动化处理敏感信息，普通用户看一眼就明白。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第9，获得128票，在隐私工具里热度相当不错。"
+          "reason": "ProductHunt当日排名第9，130票，属于热门前列，话题性和关注度都还不错。"
         }
       },
       "video_inspiration": {
-        "title_idea": "开会时再也不会泄露密码了！这个自动打码神器太救命了",
-        "angle": "教程演示",
-        "shooting_tips": "先展示一个满是邮箱、卡号的网页，不开启模糊时直接共享屏幕的危险；然后一键开启 DataBlur，镜头切到实时模糊效果，用鼠标划过不同字段展示检测范围，结尾可以加一段录屏回放证明全程无泄露。",
-        "target_audience": "需要频繁进行线上演示、远程会议、录制教程的职场人、软件讲师和游戏主播。"
+        "title_idea": "开会再也不怕露馅！这个工具自动给密码打码",
+        "angle": "开箱体验+场景演示",
+        "shooting_tips": "先录一段没有防护时屏幕弹出敏感信息的尴尬画面，然后打开DataBlur，展示实时模糊效果，特写自动检测并打码的过程，最后用慢镜头对比开和关的差异。节奏先紧张后放松，配上轻松的语气。",
+        "target_audience": "经常远程会议、在线演示、录制教程的上班族、自由职业者和内容创作者"
       },
       "category": "安全隐私",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "功能视觉化程度高，痛点清晰，无需技术背景，非常适合用短视频直观展示效果。"
+      "overall_reason": "痛点明确、演示效果炸裂、小白也能秒懂，非常适合做成爆款短视频。"
     },
     {
       "id": "1198904",
       "name": "Coldtea.ai",
-      "name_zh": "冷茶",
-      "tagline_zh": "让你的软件自动驾驶",
-      "description_zh": "团队用AI交付代码的速度越快，保持生产环境稳定就越困难。现在不用再担心了。冷茶是一个智能代理型IDE，编码代理负责构建，视觉QA代理自动捕捉回归问题，AI监控紧盯生产环境，让你的团队可以全速推进，再也不用担心把东西搞崩。",
-      "intro_zh": "把软件开发变成自动驾驶，AI代理帮你写码、找bug、盯生产，快而不乱。怕出错的程序员和开发团队必备。",
+      "name_zh": "冷茶 AI",
+      "tagline_zh": "让你的软件自己跑起来",
+      "description_zh": "团队用 AI 开发越快，生产环境越容易崩。Coldtea 是个自带 AI 代理的 IDE，写代码的代理帮你建功能，视觉 QA 代理帮你抓界面问题，AI 监控盯着线上运行，这样你们就能用 AI 的速度往前冲，不怕把东西搞坏。",
+      "intro_zh": "给写代码的 IDE 装了个 AI 副驾，写完还能自动帮你看界面有没有崩、线上有没有报错。适合想用 AI 提速又怕出事的开发团队。",
       "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WB4IUOEMBNYG5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f7841527-de48-4834-a8bd-34f7b688d409.png?auto=format",
-      "votes_count": 467,
+      "votes_count": 482,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的IDE操作界面、代理构建过程、可视化QA和监控仪表盘，录屏演示效果直观，但需要技术观众才能充分欣赏"
+          "score": 3,
+          "reason": "有 IDE 界面和 AI 协同操作的画面可以演示，但交互偏代码和监控面板，视觉冲击力一般，不如消费级工具直观。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "概念涉及代理式IDE、自动回归测试、生产监控，普通用户不太容易秒懂，更适合有开发背景的人"
+          "reason": "面向开发者，概念涉及 agentic IDE、视觉回归、生产监控，普通用户需要相当的技术背景才能理解。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt今日排名第一，票数高达467，话题热度极高"
+          "reason": "ProductHunt 当日排名第1，482 票，热度极高，适合借势传播。"
         }
       },
       "video_inspiration": {
-        "title_idea": "让Bug自己消失？全网首测「冷茶」自动驾驶IDE",
-        "angle": "测评演示",
-        "shooting_tips": "录屏展示新建项目、触发AI代理生成代码、自动运行视觉QA对比差异、切换到监控大屏看报错，用快节奏配乐突出‘全自动安全感’",
-        "target_audience": "软件开发者、技术团队负责人"
+        "title_idea": "一个 IDE，三个 AI 帮你打工，写代码的时代变天了？",
+        "angle": "对比测评",
+        "shooting_tips": "录屏演示一个功能开发流程：从代码代理生成界面，到 QA 代理自动捕获渲染差异，再到生产环境报警模拟。节奏上先展示传统流程的痛点，再快速切换至 Coldtea 自动闭环的丝滑操作。",
+        "target_audience": "正在尝试 AI 辅助编程的前端/全栈开发者、技术团队 lead。"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品在开发者群体话题性强，演示效果直观，但概念门槛较高，适合做垂类技术内容而非大众人群选题"
+      "overall_reason": "产品热度高、有画面可演示，但受众偏窄，更适合面向开发者社区传播。"
     },
     {
       "id": "1216472",
       "name": "Soloop",
       "name_zh": "Soloop",
-      "tagline_zh": "一人创业，审批优先的AI代理操作系统",
-      "description_zh": "Soloop 是专门给单打独斗的创业者准备的 AI 公司搭建系统。它能给你配一个 AI CEO 管计划、排优先级，一个 AI CTO 负责开发和落地，再加一个 AI CMO 找用户做销售，你只需要对结果点头或摇头。把那些你没经验、通常得靠团队干的活儿都交给 AI，自己专心做决策。",
-      "intro_zh": "这玩意儿让你一个人就能把公司开起来，AI 假装 CEO、CTO 和 CMO 帮你干活，你只管拍板。没合伙人、招不起人的个人创业者最需要。",
+      "tagline_zh": "审批优先的独立创业者智能体操作系统",
+      "description_zh": "这款工具让单干的创始人拥有一支AI虚拟团队：CEO帮你规划和管理优先级，CTO负责技术实现，CMO找用户做销售。你只需把关决策，就能把想法一步步跑通变现。",
+      "intro_zh": "一个帮你创业的AI操作系统，相当于直接雇了CEO、CTO和CMO三个虚拟合伙人。想单干但不懂技术或营销的独立创客，用它就能省下招人成本。",
       "url": "https://www.producthunt.com/products/soloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/K3YBVXDB7SFOVL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a0447098-b73c-4c40-8ffa-e82c06a61145.png?auto=format",
-      "votes_count": 446,
+      "votes_count": 467,
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "主要以任务面板和对话式操作为主，缺少动态画面和强烈的视觉对比，录屏展示会比较沉闷。"
+          "reason": "产品核心是后台决策流、任务分配和审批界面，视觉多为文字列表和仪表盘，缺乏让观众惊艳的画面冲击力，demo容易显得枯燥。"
         },
         "beginner_friendly": {
           "score": 3,
-          "reason": "Agent OS 的概念需要一点解释，完全没接触过创业流程的小白可能会懵，但独立创始人基本能秒懂。"
+          "reason": "独立创始人一看就懂它的价值，但普通人需要理解创业分工和AI Agent概念，有一定认知门槛。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt 当天排名第2，票数冲到 446，热度数一数二。"
+          "reason": "ProductHunt 当日第2名，收获467票，创业圈关注度高，话题性强。"
         }
       },
       "video_inspiration": {
-        "title_idea": "一个人咋开公司？Soloop 塞给你一个 AI CEO+CTO+CMO",
+        "title_idea": "一个人创业？这个AI直接给你配了CEO、CTO和CMO！",
         "angle": "开箱体验",
-        "shooting_tips": "全程录屏，从输入创业点子开始，展示 AI CEO 生成的任务清单、AI CTO 产出的代码片段、AI CMO 写的营销文案，中间穿插未使用工具时的困难对比，旁白用轻松聊天节奏解释每一步。",
-        "target_audience": "想搞副业或独立创业但缺技术、缺营销能力的个人开发者、一人公司创始人"
+        "shooting_tips": "录屏展示从输入创业点子到AI CEO生成任务清单、CTO开始搭建、CMO规划营销的全流程，重点拍你点击“审批”的环节，用快节奏剪辑突出省心感，配上惊讶的人声解说。",
+        "target_audience": "个人开发者、独立创业者、想做副业的上班族"
       },
       "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "界面虽然不太炸裂，但产品热度高、痛点抓得准，靠录屏演示 AI 分身如何协作就足够有料。"
+      "overall_reason": "概念在创业圈有爆点，但演示偏抽象，适合做成知识解读或创业工具推荐类视频。"
     },
     {
       "id": "1211567",
       "name": "Nitro 4.0",
       "name_zh": "Nitro 4.0",
-      "tagline_zh": "首个为AI智能体量身打造的人工翻译平台",
-      "description_zh": "Nitro 是首个能让AI智能体自主下单并支付的人工翻译服务——不用注册、不用API密钥，你的AI助理直接把文本发过去，按次付费，由专业母语译者翻译，几小时内就能拿到出版级译文。特别适合篇幅短但必须精准的内容，比如广告文案、应用更新说明、邮件序列等。",
-      "intro_zh": "AI助理自己花钱找真人翻译，你啥也不用干。做小语种广告、产品更新文案，再也不用手动下单。创业者、开发者和营销人就靠这个让AI跑通最后一步。",
+      "tagline_zh": "首个专为AI智能体打造的人工翻译平台",
+      "description_zh": "Nitro 4.0 现在成了第一个 AI 智能体可以自己下单、付款并获取的人工翻译服务——无需账号、不用 API 密钥、不用注册。你的智能体把文本发过去，按次付费，专业母语译者几个小时就能交出可直接发布的高质量译文。特别适合那些字数不多但必须精准的小文本：广告、应用更新、邮件序列等等。下单是机器对机器，翻译始终是人在做。支持 80 多种语言，没有套餐，没有最低消费。",
+      "intro_zh": "给 AI 助手配上真人翻译，发段文字出去，母语译者几小时就把漂亮译文送回来。搞开发、做营销、经常处理小批量重要文案的人，再也不用自己一句句啃了。",
       "url": "https://www.producthunt.com/products/alconost-localization?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FV5DV6VRVX77O7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4e73d1f4-cb21-41c4-a583-d6413dae06df.jpeg?auto=format",
-      "votes_count": 250,
+      "votes_count": 258,
       "scores": {
         "video_suitability": {
           "score": 3,
-          "reason": "可以演示AI代理发起翻译请求与返回结果的界面交互，但整体以文本和状态显示为主，缺乏动态操作和强烈视觉冲击，画面表现力中等。"
+          "reason": "可以通过屏幕录制展示 AI 下单和译文回传的过程，有操作演示和前后对比，但整体偏后台交互，缺乏动态视觉冲击力。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "需要理解AI代理、机器到机器支付、无API调用等概念，对非技术背景用户有一定认知门槛，无法直接上手体验。"
+          "reason": "普通人理解“AI 智能体自己下单翻译”需要一定背景知识，产品面向有 AI 代理的用户，普通网民会觉得概念较远，上手有门槛。"
         },
         "popularity": {
           "score": 4,
-          "reason": "Product Hunt 当日排名第3，获得250票，话题新鲜且与AI自动化趋势紧密相关，在开发者圈子内有较高热度。"
+          "reason": "Product Hunt 当日排名第 3，获得 258 票，话题度和关注度不错。"
         }
       },
       "video_inspiration": {
-        "title_idea": "你的AI助理背着你偷偷花钱请翻译了？",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示：先用聊天界面给AI助理下达多语言广告文案翻译的指令，然后切换到Nitro返回的翻译结果，强调完全无需人工登录或付款的流畅体验。配合轻松吐槽的语气，穿插「人类翻译vs机翻」的对比画面。",
-        "target_audience": "关注AI工作流自动化、经常处理多语言内容的创业者、开发者、产品经理"
+        "title_idea": "AI 自己花钱请真人翻译？Nitro 4.0 让智能体帮你一键搞定多语言小稿",
+        "angle": "教程演示 + 对比测评",
+        "shooting_tips": "录屏展示用 ChatGPT 等 AI 助手触发 Nitro 下单、返回译文的完整链路，并拿同一段文本对比机翻结果，突出专业人工翻译的准确度；节奏先扎痛点，再给解决方案，最后展示速度和易用性。",
+        "target_audience": "开发者、产品经理、海外营销人员、需要高精度小语种翻译的创业者"
       },
       "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "概念新颖，适合技术科普，但理解门槛较高，需要搭配通俗讲解才能吸引普通观众。"
+      "overall_reason": "产品概念稍技术化，但通过清晰的操作演示能生动展现 AI 驱动人工翻译的便捷性，对目标人群很有说服力。"
+    },
+    {
+      "id": "1214232",
+      "name": "Rindler",
+      "name_zh": "Rindler",
+      "tagline_zh": "把团队里还得人肉做的网页任务，全自动搞定",
+      "description_zh": "Rindler能接手团队里那些重复又枯燥的网页操作。你直接用大白话告诉它要干什么，它就会登入真实网站，必要时自动登录，完成操作，再把整理好的结构化数据交回来。设个计划它就能自己跑下去。Rindler不用每次都让浏览器临时瞎猜，它会提前摸清网站结构，页面一变动还会自己修，所以重复任务永远靠谱。",
+      "intro_zh": "用说话就能指挥AI自动替你上网干活，从填表、登录到扒数据全包了。整天跟重复网页打交道的运营、销售和数据分析师，终于能准时下班了。",
+      "url": "https://www.producthunt.com/products/rindler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/N2UOXZWDJSNLZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e5f5ded9-53f3-4faa-83fd-1c4bd6ccab8d.png?auto=format",
+      "votes_count": 257,
+      "scores": {
+        "video_suitability": {
+          "score": 4,
+          "reason": "可直观展示输入指令后浏览器自动填表、登录、抓取的全过程，前后对比强烈，视觉冲击力足，适合录屏演示。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "用自然语言下指令降低了操作门槛，但理解“站点映射”“工作流修复”等概念仍需要一定认知成本，普通人需要看了演示才能秒懂。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt第4名，257票，热度不错，有话题基础，但对大众出圈可能还不够。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "再也不用求IT了！一句话让AI替我上网打工",
+        "angle": "对比测评",
+        "shooting_tips": "前半段录屏展示手工登录、重复填表、复制粘贴的痛苦；后半段只靠一句自然语言指令，Rindler自动跳转、登录、完成操作，弹出结构化数据。节奏前慢后快，最后突出“定期自动化”的可靠感。",
+        "target_audience": "经常需要手动操作大量网页的运营、市场、销售、数据爬取从业者"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "自动化网页操作的演示效果很有冲击力，能精准击中重复劳动人群的痛点，用对比画面很容易做成爆款视频。"
     },
     {
       "id": "1031913",
       "name": "BrowserOS neo",
-      "name_zh": "浏览器OS neo",
-      "tagline_zh": "专为Claude、Cowork和Codex打造的缺失浏览器",
-      "description_zh": "BrowserOS neo 是一款不给你用、是给AI智能体用的浏览器。它跑在你的电脑上，能连接 Claude Code、Cowork 和 Codex，替你完成真实任务。体验很神奇！",
-      "intro_zh": "这其实是个给AI实习生用的浏览器，装好后，Claude 这类模型能直接在你电脑上打开网页、点来点去地帮你干活。想让AI自动搞定在线操作的技术控和自动化玩家，会特别喜欢。",
+      "name_zh": "Neo 浏览器系统",
+      "tagline_zh": "Claude、Cowork和Codex终于等来了这个专属浏览器",
+      "description_zh": "这不是给你用的浏览器，而是专门给AI助理准备的。它装在你电脑里，跟Claude Code、Cowork、Codex搭档，你的AI就能替你上网干活，填表、搜索、点按钮一气呵成，比变魔术还神奇。",
+      "intro_zh": "这个浏览器是给AI住的，不是给人用的。装好后，你的AI助手能像真人一样上网浏览、填表、操作网页，帮你跑腿。经常让AI代劳的开发者、效率控会爱上它。",
       "url": "https://www.producthunt.com/products/browseros_ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VYGJWTFCKD3NFX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/20aff157-1a0f-44b7-b339-b0e79134557e.png?auto=format",
-      "votes_count": 194,
+      "votes_count": 202,
       "scores": {
         "video_suitability": {
-          "score": 3,
-          "reason": "可以录屏展示AI自动操作网页的过程，有操作画面和前后对比，但概念偏技术，普通人需要解说才能看懂。"
+          "score": 4,
+          "reason": "可直观演示AI控制浏览器的自动操作过程，屏幕录制能呈现“无头浏览器”的科技感，前后对比有视觉冲击力，适合拍成种草视频。"
         },
         "beginner_friendly": {
-          "score": 2,
-          "reason": "需要了解AI代理、配置API key等，对普通用户门槛较高，不是上手就能用的工具。"
+          "score": 3,
+          "reason": "概念涉及AI代理、本地运行、CLI配置，普通人需要一定学习成本，但若配上教程，大部分用户能理解基本用途。"
         },
         "popularity": {
           "score": 4,
-          "reason": "当日排名第5，194票，属于PH高热度项目，有话题性但尚未火出圈。"
+          "reason": "ProductHunt排名第5，票数202，在开发者圈和AI前沿社群中话题性高，具备可传播的潜质。"
         }
       },
       "video_inspiration": {
-        "title_idea": "AI的专属浏览器来了！我让Claude自己上网干活",
-        "angle": "测评演示",
-        "shooting_tips": "录屏从安装BrowserOS开始，切换到Claude Code界面，演示AI打开浏览器自动搜索、填写表单、完成一个线上任务；节奏先快剪展示效果，再配上通俗解说讲原理。",
-        "target_audience": "程序员、AI应用研究者、效率工具爱好者"
+        "title_idea": "AI终于有了自己的浏览器！替你上网搬砖，Claude亲手操控",
+        "angle": "开箱体验 + 任务演示",
+        "shooting_tips": "先录安装配置画面，再对着麦克风说出一个任务（如“帮我在淘宝搜最低价的纸巾”），录屏展示Neo浏览器自动跳转、自动输入、自动比价的完整过程。节奏紧凑，后期加些“魔法音效”，突出节省时间和省手的爽感。",
+        "target_audience": "AI工具重度用户、独立开发者、懒人效率党"
       },
       "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高且能拍出直观的AI操作画面，适合技术类演示内容，但对小白不够友好，解说需要下功夫。"
+      "overall_reason": "产品功能自带演示效果，能让人眼前一亮，虽然普通人上手有点门槛，但拍成视频能很好的降低理解成本，适合技术爱好者圈层推广。"
     },
     {
       "id": "1215770",
       "name": "Progress AI Observability",
-      "name_zh": "Progress AI 可观测性平台",
-      "tagline_zh": "追踪评估优化，让生产环境中的AI智能体不再“盲飞”",
-      "description_zh": "一个专为AI智能体打造的调试监控工具箱。几分钟就能定位生产故障，自动揪出传统监控看不见的“幻觉”和无根据回答，还能帮你省token、提质量、加快发布。支持.NET、Python、JavaScript。",
-      "intro_zh": "给你的AI智能体装个行车记录仪，每次运行都录下来，什么时候胡编乱造、哪里翻了车一眼就能看到。做AI应用的开发者，排错想少掉几根头发的，赶紧收。",
+      "name_zh": "Progress AI 可观测平台",
+      "tagline_zh": "在生产环境中，追踪、评估并持续优化你的AI代理",
+      "description_zh": "几分钟就能定位AI代理的毛病。它能追踪每一次运行，揪出传统监控发现不了的幻觉和瞎编回答，让你一眼看出问题出在哪儿。还能帮你省token、提质量，支持.NET、Python和JS。",
+      "intro_zh": "给AI代理装个黑匣子，每次运行都录下来，一有胡说就报警。做AI应用的开发哥们，靠它少掉坑、省大钱。",
       "url": "https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5L22D2Y4SZLAKB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f15b16b7-b5df-44f4-bc86-95749f0ba187.png?auto=format",
@@ -262,96 +227,131 @@
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "仪表盘、调用链追踪、错误高亮等界面元素丰富，有很强的操作演示空间，前后对比效果明显，视觉吸引力足够。但缺乏生活化场景，纯开发者向。"
+          "reason": "界面可视化强，能展示追踪记录、错误对比、token消耗等实况，非常适合屏幕录制和动态演示。"
         },
         "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及AI代理、幻觉、token浪费等，普通用户几乎无法理解，需要扎实的机器学习或开发背景，使用门槛较高。"
+          "score": 3,
+          "reason": "主打开发者群体，需要了解AI代理、幻觉、token等概念，纯小白理解门槛较高，但IT从业者上手不难。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt当日第6名，163票，在开发者圈子里有一定话题度，但未破圈成为大众热门。"
+          "reason": "ProductHunt当日第6名，163票，在开发者圈有一定话题度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "AI智能体翻车现场大解剖！Progress一键追踪让幻觉无处可逃",
+        "title_idea": "AI代理总胡说八道？这个监控神器5分钟帮你揪出车祸现场",
         "angle": "教程演示",
-        "shooting_tips": "录一个典型AI智能体出错的过程，先展示用户看到的杂乱输出，再切到Progress仪表盘，逐步看trace、高亮错误节点、度量token消耗，突出“分钟级定位”的爽感。节奏前慢后快，配上惊讶音效。",
-        "target_audience": "AI应用开发者、机器学习工程师、技术团队负责人"
+        "shooting_tips": "录屏展示仪表盘，先演示一段有幻觉的代理运行，然后切到平台，回放追踪、高亮错误答案，对比传统监控的盲区，最后呈现token消耗下降曲线。节奏紧凑，突出截胡幻觉和可视化回溯。",
+        "target_audience": "AI应用开发者、技术创业者、运维工程师"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "画面演示效果好，但概念偏技术，适合面向开发人群的深度内容，大众传播需降维讲解。"
+    },
+    {
+      "id": "1216349",
+      "name": "Crew",
+      "name_zh": "小怪兽帮",
+      "tagline_zh": "给你的Claude Code配上一队会挖土、会睡觉的像素小怪兽",
+      "description_zh": "Crew让每个Claude Code聊天窗口和子代理都有了自己的实体：一个在屏幕底部走动的小像素怪物，干活时埋头挖掘，闲下来就打盹，任务完成还会挥手。完全免费，macOS专属，所有数据都不出你的Mac。",
+      "intro_zh": "你在Mac上敲Claude Code的时候，屏幕底下会蹦出一只像素小怪物，替你盯着进度，忙时刨地，闲时打盹，弄完还朝你挥挥手。天天跟Claude打交道的程序员，用它给枯燥的等待加点可爱解压料。",
+      "url": "https://www.producthunt.com/products/crew-a-tiny-crew-for-claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5GX63ITCVZ2GQ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9f1e50b3-73d8-4845-ad71-a149434155c7.jpeg?auto=format",
+      "votes_count": 142,
+      "scores": {
+        "video_suitability": {
+          "score": 3,
+          "reason": "小怪物动画简单可爱，能展示屏幕上的行走、挖掘、睡觉、挥手动作，有演示效果，但缺乏复杂操作对比和视觉冲击力。"
+        },
+        "beginner_friendly": {
+          "score": 2,
+          "reason": "需要用户知道Claude Code和AI编程代理是什么，普通互联网用户没有技术背景很难一眼看懂，使用门槛较高。"
+        },
+        "popularity": {
+          "score": 4,
+          "reason": "ProductHunt排名第7，获得142票，在开发者圈子有一定热度，但未破圈。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "给你的AI程序员养了只电子宠物！Claude Code小怪兽打工日常",
+        "angle": "开箱体验+可爱演示，展示小怪兽的各种状态，搭配吐槽写代码时的无聊时刻。",
+        "shooting_tips": "录屏Mac桌面，先展示Claude Code运行终端，再给底部小怪兽特写，捕捉它挖地、睡觉、挥手的瞬间，配上轻快的Lo-Fi BGM，穿插开发者从疲惫到被治愈的表情变化。",
+        "target_audience": "使用Claude Code等AI编程工具的开发者，以及喜欢桌面电子宠物的极客玩家。"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "界面演示效果突出，适合教程类视频，但目标受众窄，仅限技术圈层，热度中等偏高，适合垂类开发号。"
+      "overall_reason": "虽然对普通观众有点理解门槛，但画面趣味性强，很适合拍给开发者社区看，能引起技术宅的共鸣。"
     },
     {
       "id": "1217044",
       "name": "Kitesurf",
-      "name_zh": "Kitesurf",
-      "tagline_zh": "专为AI代理打造的浏览器，跑在Cloudflare Workers上",
-      "description_zh": "Kitesurf是Cloudflare推出的一款无状态、代理优先的浏览器，整个浏览器都运行在Workers之上，能让你轻松实现截图、HTML抓取和网页自动化。主要面向需要让AI或程序像人一样浏览网页的开发者。",
-      "intro_zh": "一个能让AI自己上网冲浪的云端浏览器，不用自己搭环境，动动API就能截图、抓网页。搞爬虫、做自动化测试的开发者，这下省大事了。",
+      "name_zh": "风筝冲浪浏览器",
+      "tagline_zh": "跑在 Cloudflare Workers 上的无状态浏览器，专门服务 AI 代理",
+      "description_zh": "Kitesurf 是 Cloudflare 推出的轻量级浏览器，无需管理状态，专门为 AI 代理设计。它在 Cloudflare Workers 上运行，方便开发者通过 API 进行截图、提取 HTML 和自动化操作。",
+      "intro_zh": "一个给 AI 打工仔用的“隐形”浏览器，跑在 Cloudflare 边缘节点上，不用打开窗口就能截图、抓网页、干自动化任务。做爬虫、搞 AI 代理的程序员会爱不释手。",
       "url": "https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5B53WWLYMBD26A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e0f03f50-1f6b-4018-bb7d-cccdf1e6af2c.webp?auto=format",
-      "votes_count": 131,
+      "votes_count": 134,
       "scores": {
         "video_suitability": {
           "score": 2,
-          "reason": "纯后端服务，没有可视化界面，所有操作通过API调用完成，缺乏直观的画面演示和视觉冲击力，拍成视频会很枯燥。"
+          "reason": "功能集中在后台 API 调用，缺少直观界面和交互画面，拍视频只能展示代码和命令行，视觉冲击力弱，对普通观众吸引力不足。"
         },
         "beginner_friendly": {
-          "score": 1,
-          "reason": "概念偏技术（代理优先、无状态浏览器），纯程序员向，普通用户完全无法理解，需要扎实的编程和云计算背景。"
+          "score": 2,
+          "reason": "概念涉及无状态浏览器、AI 代理、Workers 运行时，普通人几乎看不懂，需要较强的编程和云服务基础，使用门槛很高。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt当日排名第8，获得131票，在开发者圈子里有一定讨论度，但远未达到大众爆款级别。"
+          "reason": "ProductHunt 当日排名第 8，获得 134 票，在开发者圈有一定热度，但非大众爆款。"
         }
       },
       "video_inspiration": {
-        "title_idea": "不用装Chrome也能上网？Cloudflare出了个给AI用的「隐形浏览器」",
+        "title_idea": "不用打开浏览器就能自动刷网页？Cloudflare 新出的“空气浏览器”有多神？",
         "angle": "行业解读",
-        "shooting_tips": "可以用屏幕录制展示一段Python代码调用Kitesurf获取网页截图的完整流程，中间穿插架构图解，用通俗类比解释什么是无状态浏览器，节奏要快，避免让观众觉得是在看编程教学。",
-        "target_audience": "对AI、自动化、Web技术感兴趣的开发者、产品经理、技术极客"
+        "shooting_tips": "用代码演示如何调用 API 完成一次网页截图和内容提取，对比传统 Playwright 方案，突出轻量和速度；配上简洁的架构图说明它在 Workers 上怎么跑，节奏放慢，让开发者能跟上思路。",
+        "target_audience": "后端开发者、AI 代理构建者、爬虫工程师"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品功能强大但纯后端，缺乏可展示的视觉元素，加上技术门槛极高，只适合非常垂直的开发者观众群体，大众向视频效果会很差。"
+      "overall_reason": "产品技术门槛高、缺少可视化界面，普通观众很难看懂，更适合文字教程而不是视频内容。"
     },
     {
       "id": "1216248",
       "name": "Merge",
       "name_zh": "Merge",
-      "tagline_zh": "AI原生的代码审查能力评估",
-      "description_zh": "Merge是一个在线代码审查评估平台，让应聘者像实际工作一样审查代码变更。AI会实时扮演工程师进行互动，最后从漏洞覆盖、沟通表达、PR质量和令牌使用效率多个维度给出评估。",
-      "intro_zh": "这是个用来考程序员的工具，你审查一段代码，AI假装同事跟你互动，最后打分看会不会找bug、沟通怎么样。技术面试官和招聘团队能省不少事。",
+      "tagline_zh": "AI驱动的代码审查能力评估，模拟真实工程师对话",
+      "description_zh": "Merge 是一个在线代码审查评估平台，用来考察候选人的工程判断力。候选人就像在实际工作中一样审查一段代码改动（PR），AI 同事会实时回复评论，模拟真实的协作场景。最终系统自动评估候选人的缺陷发现能力、沟通质量和 PR 审查效率。",
+      "intro_zh": "一个能模拟 AI 同事跟你对线代码的招聘测评工具，你审代码，AI 扮同事实时回应。技术面试官和 HR 用它考察候选人真实工作能力，比白板写代码更贴近实际。",
       "url": "https://www.producthunt.com/products/merge-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HMYSG37SE5XNVK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/72879251-41f6-4ed2-9dba-22f807eb6cfc.gif?auto=format",
-      "votes_count": 117,
+      "votes_count": 119,
       "scores": {
         "video_suitability": {
-          "score": 2,
-          "reason": "核心交互是代码审查界面，以文本对话和代码对比为主，画面偏静态，缺乏视觉冲击，但AI实时回复可小范围演示动态效果。"
+          "score": 4,
+          "reason": "PR 审查界面、AI 实时对话和评估报告都有清晰的可视化流程，屏幕录制可以完整展示互动过程，画面操作感强。"
         },
         "beginner_friendly": {
-          "score": 1,
-          "reason": "必须理解代码审查、PR流程和工程评估概念，完全面向技术人群，普通互联网用户无法看懂。"
+          "score": 2,
+          "reason": "围绕代码审查、工程判断力等专业概念，非技术用户难以理解，需要开发者背景才能上手。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "ProductHunt第10名，117票，在开发者工具品类有一定关注度，但未进入前3，话题性中等。"
+          "score": 3,
+          "reason": "ProductHunt 当日第 10 名，119 票，有一定关注度但不算爆款。"
         }
       },
       "video_inspiration": {
-        "title_idea": "AI面试官上线！直接审查代码还能模拟真人工程师？",
+        "title_idea": "AI 同事当场刁难！在线代码审查测评工具，招聘面试直接实战",
         "angle": "教程演示",
-        "shooting_tips": "录屏展示从提交PR到AI互动的完整流程，重点放大AI实时回复的对话气泡和评估报告，旁白用通俗语言解释每步在做什么，节奏紧凑不拖沓。",
-        "target_audience": "技术招聘经理、工程团队负责人、对效率工具有兴趣的程序员"
+        "shooting_tips": "全程录屏，从创建测评任务开始，展示候选人审查 PR、被 AI 追问、修改评论到最终评估报告的全过程，重点突出 AI 实时回应的逼真度和评估维度的实用性，解说节奏轻快，穿插对比传统面试的痛点。",
+        "target_audience": "软件工程师、技术面试官、HR、工程团队负责人"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "产品有可演示的交互界面，但视觉表现力不强且受众面窄，只适合面向程序员或技术招聘方向的垂类内容。"
+      "overall_reason": "演示效果好，但话题偏技术圈，更适合面向程序员观众的小众爆款，小白难理解。"
     }
   ]
 }
