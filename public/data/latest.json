@@ -1,357 +1,357 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-10T16:31:12+08:00",
+  "generated_at": "2026-08-10T19:44:58+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1196035",
-      "name": "Omniwork",
-      "name_zh": "全能创意工作台",
-      "tagline_zh": "一台永不停歇的创意代理操作系统，让桌面AI为你跑腿干活",
-      "description_zh": "Omniwork 就像一个常驻桌面的创意管家，内置各种专业AI代理帮你做调研、搞创作、盯进度。它会主动把成果、提醒和动态直接推到你面前，让你的灵感自动变成作品，不用自己一步步盯着。",
-      "intro_zh": "在电脑里养了一队AI小助手，它们能帮你查资料、做设计、盯项目，活儿干完了还会主动弹窗告诉你。搞创意、管流程的朋友终于可以当甩手掌柜了。",
-      "url": "https://www.producthunt.com/products/omniwork-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/M4Y5GPSVZTCBSU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9028ef02-49f7-429c-8ca3-c8d7abd4753d.png?auto=format",
-      "votes_count": 406,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "桌面端操作界面丰富，展示AI代理自动执行任务、弹出结果的过程，有很强的视觉演示效果和前后对比冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念易懂：就是让AI组团帮你做事，无需编程，但需要理解“代理工作流”的抽象，普通人看一眼演示就能明白。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日第1名，406票，话题性极强，猎奇和效率爱好者都会关注。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "在桌面养了一群AI打工仔，它们居然真把活儿干完了？！",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示从创建项目到AI代理自动完成调研、生成设计草稿、到最终弹窗通知的全流程，突出无需干预的自动化感；用快节奏剪辑配惊喜音效，展示多个代理并行工作的热闹场面。",
-        "target_audience": "设计师、自媒体创作者、项目经理、副业搞钱党等需要同时推进多个创意任务的人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "桌面端画面表现力强、Concept新颖且热度登顶，非常适合制作吸睛的自动化演示视频。"
-    },
-    {
       "id": "1218300",
       "name": "VoiceOS App Store",
-      "name_zh": "VoiceOS 语音应用商店",
-      "tagline_zh": "栖息在屏幕顶栏的语音原生应用商店，开口即得",
-      "description_zh": "这是一个专为语音交互打造的应用商店，建一个应用只需一句话。比如说“帮我做个写日记的应用”，VoiceOS 就能立刻帮你生成。生成后可以链接分享，别人点一下就能装上。",
-      "intro_zh": "在电脑顶栏藏了个语音应用商店，说句话就能凭空变出App，还能一键分享给朋友。不想学编程、但又总想捣鼓点专属小工具的人，玩起来根本停不下来。",
+      "name_zh": "VoiceOS 应用商店",
+      "tagline_zh": "藏在通知栏里的语音应用商店，说句话就能造个App",
+      "description_zh": "一个专门给语音应用准备的应用商店，你只要说出想法，它就能帮你自动生成一个语音App。做完之后会给你一条链接，别人点一下就能直接用，完全不用写代码。",
+      "intro_zh": "对着电脑说句话就能当场生成一个语音小工具，还能把链接甩给朋友直接安装。平时总想自己捣鼓点小应用又不会写代码的人，这下可算有救了。",
       "url": "https://www.producthunt.com/products/voiceos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RAQNCR3ER46NG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ec0bfe10-3ee1-40ea-8891-bf52c750c419.png?auto=format",
-      "votes_count": 316,
+      "votes_count": 323,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "从一句描述到生成应用的完整过程极具演示性，实时语音输入和UI变化有很强的视觉冲击力，非常适合录屏展示。"
+          "score": 4,
+          "reason": "有清晰的创建、生成、分享、安装流程，可以全程录屏展示，但纯语音交互界面可能略显简洁，需要靠讲解和节奏加分。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "完全无需技术背景，用自然语言就能创建应用，普通人一看就懂，使用门槛极低。"
+          "reason": "一句话描述就能生成应用，不需要任何编程知识，普通人听完概念就能上手。"
         },
         "popularity": {
           "score": 5,
-          "reason": "ProductHunt当日排名第2，获得316票，话题性高，AI语音原生应用的概念很抓眼球。"
+          "reason": "ProductHunt 当日排名第2，323票，在当日榜单中属于头部热门产品。"
         }
       },
       "video_inspiration": {
-        "title_idea": "说句话就能生App？在Mac顶栏藏了个「阿拉丁神灯」",
+        "title_idea": "离谱！说一句话就能变出一个App，苹果刘海里的黑科技商店有多野？",
         "angle": "开箱体验",
-        "shooting_tips": "录屏展示从打开菜单栏、说出需求到应用生成和分享的全流程，突出「一句话建应用」的丝滑体验，用对比镜头展示不同应用场景。",
-        "target_audience": "喜欢尝鲜的普通用户、效率爱好者、想快速搭建小工具的零代码人群"
+        "shooting_tips": "直接录屏演示：从打开 VoiceOS 开始，随口说一句‘帮我做一个睡前故事应用’，看着它自动生成，然后点开试听效果，最后分享链接给朋友演示一键安装。全程保持惊讶和碎嘴调侃，突出‘这也能行’的反差感。",
+        "target_audience": "喜欢数码尝鲜、对AI应用好奇、想自己搞点小工具但不会编程的普通网友"
       },
       "category": "AI工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "开箱即用、视觉演示效果炸裂、普通人秒上手，完美契合视频传播需要。"
+      "overall_reason": "一句话生成应用，演示效果炸裂，完全零门槛，加上榜单热度够高，天然适合拍成爆款短视频。"
     },
     {
       "id": "1210454",
       "name": "SoloUno",
       "name_zh": "SoloUno",
-      "tagline_zh": "掌控拔毛、咬甲和抠皮的冲动，用游戏化方式找回自控力",
-      "description_zh": "SoloUno 是一款帮助人们摆脱拔头发、咬指甲、抠皮肤等身体重复行为（BFRBs）的自助工具。它借鉴了习惯逆转训练、认知行为疗法和接纳承诺疗法，将康复过程变成好玩的挑战。通过记录习惯、分析诱因、完成无习惯日任务和接受冲动练习，让你在无羞耻的微小成就中稳步前进。",
-      "intro_zh": "一个帮你戒掉拔头发、咬指甲这些老毛病的游戏化助手。通过每天打卡挑战和记录触发点，一点点找回对身体的掌控权。经常不自觉地揪头发、抠手皮的人会特别喜欢。",
+      "tagline_zh": "掌控拔头发、咬指甲和揪皮肤的习惯，不再被小动作支配",
+      "description_zh": "SoloUno 是一款帮助人们管理身体重复性强迫行为（如拔毛癖、咬指甲、抠皮肤）的自助工具。它把习惯逆转训练、认知行为疗法和接纳承诺疗法变成游戏化的日常小挑战，通过记录习惯、分析诱因和接纳冲动的练习，让你在无压力的节奏中一点点找回控制感。",
+      "intro_zh": "一个用打游戏的方式帮你改掉拔头发、咬指甲这种小动作的 APP。总是忍不住抠手、揪头发，试过很多方法没用的人，会在这里找到不用自责、慢慢进步的陪伴感。",
       "url": "https://www.producthunt.com/products/solouno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XAIWIH5Z6NGPYS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/68703502-0357-41ff-96b0-aae3fc86f7f9.png?auto=format",
-      "votes_count": 293,
+      "votes_count": 300,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "应用界面清晰，有打卡进度、统计图表和挑战成就等可视化元素，录屏演示时变化明显；可插入真人模拟场景形成反差，视觉叙事空间大。"
+          "reason": "APP 界面直观，有习惯打卡、挑战倒计时、进度条和数据分析画面，录屏演示就能清楚展现游戏化激励的完整流程，视觉节奏利落，适合做成沉浸式体验测评。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念易懂，不涉及编程或复杂理论，用户只需跟着每日任务行动；简介里提到的疗法名称虽然专业，但核心操作只有记录和完成挑战，上手门槛低。"
+          "reason": "不需要任何专业背景，页面引导清晰，功能入口简单易懂，虽然 BFRB 概念略小众，但用生活化的例子解释后普通人很快就能理解。"
         },
         "popularity": {
           "score": 5,
-          "reason": "Product Hunt 当日排名第3，获得293票，话题热度高，关注心理健康和行为改变的用户群活跃。"
+          "reason": "ProductHunt 当日排名第 3，票数 300，热度非常高，评论区讨论积极，心理健康类工具常自带话题性。"
         }
       },
       "video_inspiration": {
-        "title_idea": "拔毛啃甲停不下来？试试这个把戒断变成闯关的神奇App",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "开头用几秒钟真人快速镜头展现揪头发、咬指甲的烦躁瞬间，然后切到手机屏幕录屏，展示注册后立即出现的今日挑战、记录冲动按钮和触发分析页；突出无习惯天数增长和成就解锁的动画效果；中间插一段自己试用一周的真实感受，最后引导观众尝试。节奏：前10秒共情，中间功能演示，结尾对比变化。",
-        "target_audience": "长期被拔毛、咬指甲、抠皮肤等小动作困扰、想要温和摆脱又需要直接方法的年轻人。"
+        "title_idea": "偷偷拔头发、抠手指到流血？这个游戏化APP救了我的「手贱」",
+        "angle": "教程演示结合个人体验",
+        "shooting_tips": "开头用特写镜头展示真实的习惯动作场景制造代入感，然后切到手机录屏：从第一次记录习惯、领取挑战，到连续打卡后解锁里程碑的画面；突出七天无自拔倒计时和冲动接纳训练的动态反馈，用轻快节奏搭配「不再自责」的情感金句，结尾放连续打卡的日历截图。",
+        "target_audience": "有咬指甲、拔头发、抠皮肤等小动作困扰的年轻人，关注心理健康和习惯养成的普通观众。"
       },
       "category": "健康健身",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "产品界面演示性强，操作简单易懂，且排名热度高，非常适合制作体验向视频吸引大众注意。"
+      "overall_reason": "界面演示效果佳，话题自带共情点，热度排名靠前，普通人极易代入，成片吸睛又治愈。"
     },
     {
       "id": "1210857",
       "name": "Prompt Golf",
-      "name_zh": "提示高尔夫",
-      "tagline_zh": "把写提示变成一场竞技运动",
-      "description_zh": "Prompt Golf 把提示工程变成了一款竞争性解谜游戏。在五个回合里，你要用尽可能少的字符，诱导一个没经过专门训练的AI准确说出指定的目标词或短语。每轮有特殊条件或禁用词，每个字符和每条对话都会增加杆数，只有精巧、简短的提示才能让你冲上实时排行榜。可以刷整轮课程、随时看排名、挑战好友，还能偷看他们的对话记录。",
-      "intro_zh": "一个把提示工程玩成竞技游戏的地方，比谁用最少的话就能让AI吐出指定词。喜欢文字谜题、想练练怎么写提示，或者就想跟朋友比比谁更会“钓鱼”的朋友，会玩到停不下来。",
+      "name_zh": "提示词高尔夫",
+      "tagline_zh": "把提示词工程变成竞技运动",
+      "description_zh": "Prompt Golf 将提示词工程变成了一款竞技解谜游戏。五轮比赛中，用尽可能少的字符引诱一个开箱即用的 AI 说出指定的目标词或短语。每轮都有特殊条件或禁用输入词，每个字符、每条消息都会增加杆数，巧妙简洁的提示能帮你冲上实时排行榜。整场游戏可重玩，随时查看排行榜，挑战朋友并围观他们的对话记录。",
+      "intro_zh": "跟 AI 玩文字高尔夫，用最精炼的话让对方说出目标词，少一个字就少一杆。喜欢解谜、热衷挑战的玩家和 AI 爱好者会玩上瘾。",
       "url": "https://www.producthunt.com/products/prompt-golf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FGKVBCQHSDLGO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b83f208e-7b27-4064-b923-a312d612e9f4.png?auto=format",
-      "votes_count": 136,
+      "votes_count": 137,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "游戏界面实时变化，有排行榜、对话流、杆数跳动，操作过程自带悬念和反转，录制出来就像现场解谜挑战，视觉冲击力和观看代入感都很强。"
+          "score": 4,
+          "reason": "游戏界面直观，有实时排行榜、杆数变化和对话展示，适合录制回合制冲突和玩家对决画面，视觉冲击力中等但演示效果流畅。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "核心就是“用最短的话让AI说出目标词”，普通人一听就懂，没有技术门槛，唯一的障碍是需要有一点“猜词”的语感，但几轮下来就能上手。"
+          "reason": "规则简单易懂，不需要技术背景，任何人都能上手玩，唯一门槛是理解“用尽量少的字让AI说出特定词”。"
         },
         "popularity": {
-          "score": 4,
-          "reason": "当日PH排名第7，票数136，在AI+游戏交叉领域有一定新鲜感和话题性，适合蹭一波AI工具混搭休闲竞技的热度。"
+          "score": 3,
+          "reason": "当日 ProductHunt 第7名，137票，热度中上，有一定话题性但非现象级。"
         }
       },
       "video_inspiration": {
-        "title_idea": "我玩了一款用最短提示让AI说“香蕉”的游戏，太上头了！",
-        "angle": "开箱体验",
-        "shooting_tips": "直接录屏游戏过程：先展示规则和目标词，再展示自己尝试不同提示、被禁用词弹回或者杆数暴涨的瞬间，最后秀一波巧妙的短提示逆袭；穿插实时排行榜攀升画面和朋友对战录屏，用数杆数的音效制造紧张感，结尾放一个离谱的高分案例。",
-        "target_audience": "对AI聊天感兴趣、喜欢文字解谜或轻竞技的普通网友，尤其是经常玩ChatGPT又觉得提示枯燥的上班族和学生。"
+        "title_idea": "跟AI斗智斗勇！用四个字让它说出“我爱你”",
+        "angle": "开箱体验 + 娱乐吐槽",
+        "shooting_tips": "先录游戏规则介绍，再展示自己玩几轮的屏幕操作，突出用极简提示搞定目标的惊喜时刻，最后拉好友对战展示排行榜变动，节奏轻快带反转。",
+        "target_audience": "喜欢烧脑小游戏、AI 尝鲜者和经常在社媒围观趣味挑战的年轻用户。"
       },
-      "category": "AI工具",
+      "category": "游戏娱乐",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "游戏化提示工程，画面节奏感强，天然适合做成“挑战类”视频，普通人一眼就能看懂并跟着尝试。"
+      "overall_reason": "游戏画面丰富、易上手且具备社交竞技属性，非常适合做成好玩易懂的视频内容。"
     },
     {
       "id": "1205840",
       "name": "Macrobite",
-      "name_zh": "宏量快算",
-      "tagline_zh": "马上把宏量营养素吃对的极速方式",
-      "description_zh": "拍一下你的饭菜，立刻得到卡路里、蛋白质、碳水和脂肪的详细分解。第一次不准？几秒就能快速编辑，不用翻庞大的食物数据库。喜欢语音？直接用说话记录饮食，Siri 也行。在 iPhone 小组件或 Apple Watch 上随时查看，不用打开 App。专为想要精准宏量、又烦传统记录 App 麻烦的人设计。",
-      "intro_zh": "给饭菜拍个照，瞬间算出热量和营养，语音也能记，超省事儿。健身党、上班族、想控饮食又懒得手写记录的人，用了就回不去。",
+      "name_zh": "一口营养",
+      "tagline_zh": "拍张照，秒懂你这顿饭的营养成分",
+      "description_zh": "用 Macrobite 记录营养超快。拍一张食物照片就能立刻看到热量、蛋白质、碳水和脂肪的分解。如果识别有偏差，快速编辑一下就行，不用翻庞大的食物数据库。还支持语音记录（包括 Siri），在 iPhone 小部件或 Apple Watch 上轻松追踪全天摄入，不用打开 App。专为那些厌烦传统记录繁琐步骤、又想精准掌握营养的人设计。",
+      "intro_zh": "吃饭前拍个照，热量、蛋白、碳水立刻算清楚，不用再手动翻半天表格。平时忙、又想精准控制饮食的健身党和上班族会爱死这个。",
       "url": "https://www.producthunt.com/products/macrobite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WJACCINHOHJWJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b5e9a5b0-a281-4319-b96a-d01fcf967db1.png?auto=format",
-      "votes_count": 125,
+      "votes_count": 126,
       "scores": {
         "video_suitability": {
           "score": 4,
-          "reason": "有丰富的 UI 操作、动态拍照演示、语音交互和小组件效果，画面直观，适合拍开箱测评或对比展示，但视觉冲击力不极端。"
+          "reason": "拍照识别、快速编辑、语音记录、小部件和手表同步，操作步骤多、界面变化丰富，前后对比直观，演示效果强，适合展示“刷一下出结果”的快节奏画面。"
         },
         "beginner_friendly": {
           "score": 5,
-          "reason": "概念超级简单，就是拍照算营养，没有任何技术门槛，爷爷奶奶也能看懂，秒上手。"
+          "reason": "概念就是“拍照得营养”，没有任何技术门槛，会用手机拍照的人都能马上上手，理解零成本。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 排名第 8，125 票，在前十名中话题性不错，有一定关注度。"
+          "reason": "PH 当日第 8 名，126 票，在健康类产品中有一定讨论度，属于当日热门。"
         }
       },
       "video_inspiration": {
-        "title_idea": "拍照就能算出卡路里？懒人减脂神器 Macrobite 实测",
-        "angle": "开箱体验",
-        "shooting_tips": "先展示传统记录方式的麻烦，再打开 App 拍摄一顿正餐，突出识别速度和结果；演示快速编辑修正，再试语音记录和 Siri 联动，最后展示小组件和手表效果。全程轻快，加字幕强调量化的精准感。",
-        "target_audience": "减脂增肌的健身党、日常想管理饮食的上班族、喜欢用手机解决问题的效率控"
+        "title_idea": "我试了拍照算热量的 App，结果比健身教练还快！",
+        "angle": "对比测评",
+        "shooting_tips": "用饭桌实拍开场，先展示传统 App 翻找输入的繁琐，再切到 Macrobite 一拍即得，强调秒出结果；穿插手表小部件的抬手画面，最后用 Siri 语音记录一顿饭收尾，节奏轻快。",
+        "target_audience": "想控卡减肥、增肌减脂的都市青年，经常外食又懒得手记的上班族，Apple Watch 用户。"
       },
       "category": "健康健身",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "操作直观、试用画面生动，普通人一看就懂，热点排名也不错，很适合短视频传播。"
-    },
-    {
-      "id": "1213905",
-      "name": "ConferenceGrid",
-      "name_zh": "会展雷达",
-      "tagline_zh": "用一张关系网，看透所有企业的展会动作",
-      "description_zh": "输入任意公司名字，就能看到它赞助、参展或演讲的所有会议信息，覆盖6000多场大会、62000多位演讲人、55000多个赞助席位，全部集成在一个动态知识图谱里。特别适合需要追踪竞品市场活动、寻找合作机会的B2B团队。",
-      "intro_zh": "像个侦探一样，查一查公司都去了哪些行业大会、派谁去了、投了多少钱。做市场、做商务的小伙伴，再也不用全网翻活动页面了。",
-      "url": "https://www.producthunt.com/products/conferencegrid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/24VUQNT3HZ33Q2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/94d0ffa0-3130-4a44-8654-9f3fdb27c1d3.png?auto=format",
-      "votes_count": 121,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "知识图谱可视化能带来酷炫的视觉冲击，搜索-展示关联关系的演示过程非常适合屏幕录制，容易拍出“数据侦探”的故事感。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直白：输公司名，看参会记录。无需技术背景，B2B从业者一看就能明白价值，操作门槛低。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "产品排名第9，121票，属于中等热度，但选题精准切入B2B营销痛点，容易引发专业人群共鸣。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "查公司老底的新工具！一秒看清对手在哪些展会砸了钱",
-        "angle": "开箱体验+行业解读，用几个知名品牌演示搜索过程，穿插竞品分析小技巧。",
-        "shooting_tips": "录屏展示：输入苹果、特斯拉等知名公司的查询结果，放大其关系网络；突出“按演讲人反向查找”“对比多家公司的展会布局”等卖点；节奏轻快，配上“卧槽这都能查到”的语气。",
-        "target_audience": "市场运营、商务拓展、活动策划、B2B销售人员"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "知识图谱可视化演示效果好，概念通俗易懂，适合通过具体案例展现工具威力。"
+      "overall_reason": "画面演示效果强、操作直观、普通人一看就懂，加上热度不错，非常适合做成吸睛的短视频。"
     },
     {
       "id": "1218316",
       "name": "Argos",
-      "name_zh": "阿格斯",
-      "tagline_zh": "你的浏览器分身，替你动手的AI",
-      "description_zh": "大部分AI只管告诉你该做什么，Argos直接帮你搞定。它运行在你的浏览器里，用你已登录的账号自动点击、打字、填表，完成真实任务。你可以在侧边栏下指令，或者通过Telegram/WhatsApp发消息，它就能实时或后台执行，然后把结果交给你。原生支持Gmail、Docs和Sheets，还能连接GitHub、Slack、Notion等。你的数据留在本地设备，免费就能开始用。",
-      "intro_zh": "浏览器里养了个能替你操作网页的AI，发条消息它就帮你填表、回邮件、处理文档。经常要在各种网页后台重复操作的运营、销售和远程办公的人会很喜欢。",
+      "name_zh": "阿戈斯",
+      "tagline_zh": "浏览器里的替身AI，说话就替你干",
+      "description_zh": "大多数AI只会给你建议，阿戈斯直接帮你干。它住在你的浏览器里，用你的登录账号自动点击、打字、填表，搞定真实任务。在侧边栏说句话，或者用 Telegram、WhatsApp 发消息，它就在前台或后台跑，然后把结果给你。原生接入 Gmail、Docs、Sheets，还能连通 GitHub、Slack、Notion 等工具。你的数据留在本机，无隐私担忧。免费就能上手。",
+      "intro_zh": "在浏览器里塞了个能替你动手干活的AI，你动嘴它动手，填表、回邮件、操作表格全自动。天天在网上重复操作的打工人和学生党终于能偷懒了。",
       "url": "https://www.producthunt.com/products/argos-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WHTBY2XSHARI7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/72063fc0-1343-4db4-9307-81842898aa43.png?auto=format",
       "votes_count": 115,
       "scores": {
         "video_suitability": {
-          "score": 5,
-          "reason": "浏览器自动操作画面极具演示冲击力，可以直接录屏展示AI接管鼠标键盘执行填表、发邮件全过程，前后效率对比一目了然，非常适合视频呈现。"
+          "score": 4,
+          "reason": "浏览器自动操作的过程极具画面感，可录屏展示 AI 填表、发邮件、操作页面元素的全流程，前后对比强烈，视觉冲击力足。"
         },
         "beginner_friendly": {
           "score": 4,
-          "reason": "概念好懂，就是AI代理干活，无需编程，通过聊天界面或消息就能控制，但需要理解浏览器已登录状态执行操作，普通用户稍加解释即可上手。"
+          "reason": "自然语言下达指令，无需任何编程知识，所有操作在熟悉的浏览器界面完成，普通互联网用户一看就懂，使用门槛极低。"
         },
         "popularity": {
           "score": 4,
-          "reason": "当日第10名，115票，话题性较强，AI代理是热门方向，浏览器内直接执行任务的新颖度带来传播潜力。"
+          "reason": "ProductHunt 当日第10名，获得115票，作为工具型产品热度不错，有一定话题性和关注度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "我让AI接管了我的浏览器，结果它替我上完了半天班",
-        "angle": "开箱体验/教程演示",
-        "shooting_tips": "用画中画同时出现真人反应和屏幕录屏，先设置一个日常烦人任务（如批量回邮件、数据填表），下达指令后展示Argos一步步自动操作的实况，最后检查结果并给出自己的惊讶表情，节奏轻快带点幽默。",
-        "target_audience": "每天和网页工具打交道、想从重复劳动中逃出来的打工人和学生。"
+        "title_idea": "这AI抢了你的鼠标键盘，但你会笑着给它加鸡腿",
+        "angle": "教程演示",
+        "shooting_tips": "录屏展示：打开 Gmail 侧边栏，输入‘帮我给老板写封请假邮件并发送’，阿戈斯自动在收件人栏填好地址，撰写正文，点击发送。再切到 Google Sheets 演示自动整理数据。节奏由快转稳，先展示惊艳效果再逐步解密，最后强调数据本地处理的安全性。",
+        "target_audience": "厌倦重复浏览器操作的上班族、学生、效率工具爱好者"
       },
       "category": "AI工具",
       "overall_suggestion": "强力推荐",
-      "overall_reason": "浏览器自动操控的画面感极强，普通人一看就懂，且AI代理正是当下热门，具备爆款视频潜质。"
+      "overall_reason": "可视化操作展示性强，受众广泛且理解零门槛，极易引发好奇和尝试冲动。"
+    },
+    {
+      "id": "1196035",
+      "name": "Omniwork",
+      "name_zh": "全能工作",
+      "tagline_zh": "创意代理操作系统，让桌面AI智能体助你更好地创作。",
+      "description_zh": "Omniwork是一套常驻的创意代理操作系统，能把你的想法变成完成的作品。专用的AI智能体可以研究、创作、监控并自动化你的创意工作流程，还有一个主动式的桌面伙伴，持续推动项目进展，把结果、提醒和进度直接推送到你的屏幕上。",
+      "intro_zh": "它是一个常驻桌面的AI创作大管家，主动帮你调研、写文案、盯进度，做完活直接弹窗提醒。搞设计、写方案、管项目的自由职业者和小团队用了会省心不少。",
+      "url": "https://www.producthunt.com/products/omniwork-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/M4Y5GPSVZTCBSU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9028ef02-49f7-429c-8ca3-c8d7abd4753d.png?auto=format",
+      "votes_count": 413,
+      "scores": {
+        "video_suitability": {
+          "score": 5,
+          "reason": "桌面应用有丰富UI，可录制AI代理自动执行任务、主动推送结果等动态操作，画面直观，演示效果强。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "AI代理、自动化工作流的概念对普通用户略抽象，需要一定解释，但操作本身可能不复杂，上手门槛中等。"
+        },
+        "popularity": {
+          "score": 5,
+          "reason": "ProductHunt当日排名第1，票数413，话题热度很高。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "我装了个AI大管家，桌面上的活全自动帮我干了！",
+        "angle": "开箱体验",
+        "shooting_tips": "录制桌面，从安装开始，设定一个创作任务，展示AI代理自动收集资料、撰写草案、最后结果弹窗推送的全过程，用快节奏剪辑突出‘自动化’和‘主动推送’的卖点。",
+        "target_audience": "内容创作者、设计师、自由职业者、小项目团队"
+      },
+      "category": "AI工具",
+      "overall_suggestion": "可以做",
+      "overall_reason": "桌面演示效果直观，适合拍操作视频，但普通人理解AI代理概念略有门槛，需在视频中着重解释。"
     },
     {
       "id": "1166306",
       "name": "Proxy Tester by ScrapeOps",
-      "name_zh": "ScrapeOps 代理测试器",
-      "tagline_zh": "像拿放大镜比货一样，测出最靠谱的网页抓取代理",
-      "description_zh": "这是一个给开发者、爬虫团队和数据公司用的代理基准测试平台。提交目标网址就能自动跑通20多种住宅、机房、移动等代理配置，实时测出成功率、延迟、带宽和成本，然后按你的实际场景排出名次，不再被代理商的花哨宣传忽悠。",
-      "intro_zh": "输入一个网址，就能帮你把市面上各种代理服务挨个跑一遍，告诉你哪家又快又稳又便宜。专门给那些天天跟反爬虫斗智斗勇的工程师和数据团队准备的。",
+      "name_zh": "代理测试器 by ScrapeOps",
+      "tagline_zh": "为可靠爬虫精准挑选代理的基准测评工具",
+      "description_zh": "一个给开发者、爬虫团队和AI智能体用的代理性能测评平台。提交目标网址就能自动测试20多种住宅、机房、移动代理及反封锁配置，看看谁的成功率、速度和成本最适合你的场景，再也不用听供应商自卖自夸。",
+      "intro_zh": "想找靠谱代理爬数据？这个工具能帮你把市面上的代理挨个儿跑分，告诉你哪个又快又稳又便宜。经常跟反爬虫系统斗智斗勇的开发者、做数据生意的公司都用得上。",
       "url": "https://www.producthunt.com/products/proxy-benchmark-by-scrapeops?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LYYFNPIONQKLRK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0f9a383d-e951-4335-8a94-557bf2070e19.png?auto=format",
-      "votes_count": 199,
+      "votes_count": 202,
       "scores": {
         "video_suitability": {
-          "score": 2,
-          "reason": "界面以数据报表和图表为主，缺乏动态视觉冲击，录屏演示容易显得枯燥，但测试过程的对比变化可以靠后期剪辑增强表现力。"
+          "score": 3,
+          "reason": "有可演示的网页操作和结果对比图表，但画面偏静态，缺乏视觉冲击力，纯技术流程难以吸引大众眼球。"
         },
         "beginner_friendly": {
-          "score": 1,
-          "reason": "需要理解网络代理、爬虫封禁等专业概念，纯小白根本不知道这有什么用，上手门槛极高。"
+          "score": 2,
+          "reason": "概念涉及代理服务器、爬虫、带宽等专业术语，普通人很难快速理解，需要一定的技术背景。使用门槛较高。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第4，199票，在开发者社区有一定讨论度，但大众话题性弱。"
+          "reason": "ProductHunt当日排名第4，得票202，在开发者圈有一定热度，但大众话题性一般。"
         }
       },
       "video_inspiration": {
-        "title_idea": "代理哪家强？我拿20家服务商实测了一遍，结果太真实了",
+        "title_idea": "再也不花冤枉钱！实测20种代理，哪个真能用？",
         "angle": "对比测评",
-        "shooting_tips": "全程录屏，先展示几家常被吹上天的代理品牌，再打开工具输入一个易被封的网站，迅速跑测试，用进度条和数字跳动制造紧张感，最后公布排名榜，配合惊讶语气和红绿对比高亮性价比之王。",
-        "target_audience": "爬虫工程师、数据采集团队、技术选型的开发者"
+        "shooting_tips": "录制屏幕操作：输入目标网站URL，展示测试过程图表，重点突出成功率、延迟和每GB成本的直接对比，最后给出性价比最高推荐。解说节奏轻快，用“踩坑”“避雷”口吻。",
+        "target_audience": "写爬虫的开发者、做数据抓取的技术团队、需要代理服务的数据公司"
       },
       "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "虽然是纯工具，但可以靠对比测评做出节目效果，适合垂直技术自媒体，但大众传播力有限。"
+      "overall_reason": "概念太技术，普通观众看不懂，只适合垂直开发者社区传播。"
     },
     {
       "id": "1217602",
       "name": "DocsAlot CLI",
-      "name_zh": "文档精灵 CLI",
-      "tagline_zh": "用大白话吩咐AI，把粗糙草稿一键变成高颜值文档站",
-      "description_zh": "Claude、Codex 这类 AI 写文档初稿很拿手，但排版总差点意思。DocsAlot 能把初稿瞬间变成正儿八经的漂亮文档网站，还附上一条龙维护流程。你只要用大白话说想干嘛，改了什么随时预览，确认满意再发布，全程不用记命令。",
-      "intro_zh": "像个会自动装修的文档助手，你用自然语言丢给它一堆文字或旧文档，它直接捣鼓出一个干净好看的说明网站。经常要对外发手册、API文档的开发者或写作者，终于能甩掉排版噩梦了。",
+      "name_zh": "DocsAlot CLI",
+      "tagline_zh": "让 Claude 或 Codex 为你创建并维护高颜值的文档站点",
+      "description_zh": "Claude Code、Codex 这类 AI 写文档初稿还行，但排版不好看。DocsAlot 能把初稿变成一个漂亮的文档网站，还能让 AI 帮你持续维护更新。用大白话告诉它要加什么、改什么，它就能自动搞定，不用记任何命令。",
+      "intro_zh": "你让 AI 写好的文档草稿，它能一键变成漂亮网站，还包后期更新修改。懒得手动维护文档的程序员和技术团队，用这个可以省大把时间。",
       "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SULGFU2UQH3T6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d2a4d783-3600-4eb5-8d81-2b71215d2386.png?auto=format",
-      "votes_count": 181,
+      "votes_count": 185,
       "scores": {
         "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的画面操作流程：从一份原始 markdown 草稿，到终端输入自然语言指令，再到瞬间生成带主题的文档网站，前后对比强烈，演示效果直观，能带来‘哇’的视觉冲动。"
+          "score": 3,
+          "reason": "终端操作画面较单一，但生成文档网站的前后对比和预览效果有吸引力，适合展示技术流程。"
         },
         "beginner_friendly": {
-          "score": 3,
-          "reason": "上手门槛不高，只需要会打字和基本的终端打开，但‘CLI 工具’这个概念本身会让完全没碰过命令行的普通用户犯怵，需要视频里多做心理按摩和手把手展示。"
+          "score": 2,
+          "reason": "需要命令行使用经验，且涉及 AI 代理工作流，非技术用户难理解，上手门槛较高。"
         },
         "popularity": {
           "score": 4,
-          "reason": "ProductHunt 当日第5名，181票，话题集中在‘AI 文档自动化’，正好踩中开发者对文档维护痛点的讨论，传播潜力不错。"
+          "reason": "当日 ProductHunt 排名第5，获得 185 票，热度中上，有一定关注度。"
         }
       },
       "video_inspiration": {
-        "title_idea": "别写文档了！对着终端说句话，AI自动搭好整站",
-        "angle": "教程演示 + 痛点共鸣",
-        "shooting_tips": "开场先展示满屏的原始 word/md 草稿和丑陋的默认样式，制造痛点；然后屏幕录制终端操作，敲一句简单的英文需求，立即切到浏览器预览，突出从草稿到精美文档站的一键变化；中段演示如何用自然语言修改导航、更新内容，强调‘不用记命令’；结尾再展示最终发布的站点，给个特写。节奏可以紧凑，加一点轻快的背景音乐。",
-        "target_audience": "常写技术文档或产品手册的开发者、开源项目维护者、中小团队的技术写作者，以及对排版美感有要求的个人博主。"
+        "title_idea": "再也不用维护文档了？一个自然语言命令，AI 自动帮你建站更新！",
+        "angle": "教程演示",
+        "shooting_tips": "先录一段 AI 生成的丑陋 Markdown 初稿，再展示输入自然语言指令后 DocsAlot 自动生成预览、美化排版的过程，突出前后对比和一键发布能力。",
+        "target_audience": "需要经常写技术文档的程序员、DevOps 工程师或中小型技术团队"
       },
-      "category": "开发工具",
+      "category": "AI工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "前后视觉反差够强，普通用户能看懂价值，且正好蹭上‘AI智能体写文档’的热度，适合做成获得感强的快速演示视频。"
+      "overall_reason": "命令行工具视觉吸引力一般，但能展示 AI 生成文档站点的强大功能，适合技术类 UP 主。"
     },
     {
       "id": "1212031",
       "name": "AgentConnect",
-      "name_zh": "AgentConnect",
-      "tagline_zh": "在任何工作发生的地方，标记任何智能代理。",
-      "description_zh": "AgentConnect 是一个开源平台，能让你的团队和 AI 代理在 Slack、Telegram、Discord 和 GitHub 上一起干活。你可以接入 Claude Code、Codex、Grok Build 等各类模型，给每个代理分配角色、工具和权限，从聊天消息、PR、工单里直接启动工作，多个代理还能互相调用，一切进度都可在统一控制台看到。",
-      "intro_zh": "这玩意儿能把 AI 助手塞进各种聊天群，帮你自动处理消息、管理任务，像拉了个不用睡觉的编外同事。经常用 Slack、Discord 搞协作的团队、对 AI 动手能力强的技术狂热分子，想偷懒又怕配不明白的，可以试试。",
+      "name_zh": "智能体互联",
+      "tagline_zh": "工作在哪发生，代理就在哪待命",
+      "description_zh": "AgentConnect是个开源平台，把AI代理接入Slack、Telegram等常用工具，帮你自动处理工单、审查代码。你可以给每个AI分配不同角色和权限，从聊天或代码事件就能触发任务，全程在一个控制台监控。适合想用AI自动化工作流的开发团队。",
+      "intro_zh": "在Slack、GitHub里塞AI助理，像小队长一样分配任务、自动干活。经常跟AI协作、希望减少重复操作的开发者和项目经理会觉得超实用。",
       "url": "https://www.producthunt.com/products/agentconnect?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3MVNGFQSNZHTP4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/219f7bdb-e71c-4b8f-9108-5fede3b01b9e.png?auto=format",
-      "votes_count": 157,
+      "votes_count": 158,
       "scores": {
         "video_suitability": {
           "score": 3,
-          "reason": "有完整的控制台界面和聊天工具内的交互流程，能录屏演示，但整体偏后台配置，视觉冲击力一般，没有特别炸裂的前后对比。"
+          "reason": "有丰富的面板配置和聊天界面演示，但缺乏视觉冲击，适合录制操作流程。"
         },
         "beginner_friendly": {
           "score": 2,
-          "reason": "概念涉及 AI 代理、ACP 兼容、模型分配等，普通用户理解门槛较高，更适合有一定技术背景的团队，不是纯小白秒懂的类型。"
+          "reason": "涉及AI代理配置、ACP运行时等概念，普通用户不易理解，需要一定开发背景。"
         },
         "popularity": {
-          "score": 3,
-          "reason": "ProductHunt 排名第6，票数157，属于中上游热度，但未进入前3，话题性中等。"
+          "score": 4,
+          "reason": "当日排名第6，158票，属于PH热门话题。"
         }
       },
       "video_inspiration": {
-        "title_idea": "给Slack群拉了个AI同事，从此我躺着把活干了？",
+        "title_idea": "指挥五个AI帮我干活！多代理协作平台AgentConnect上手",
         "angle": "教程演示",
-        "shooting_tips": "全程录屏，先展示一个空荡荡的聊天频道，接着添加AgentConnect，快速配置一个代理角色，然后用聊天消息下指令，让代理自动去 GitHub 建 issue、回复消息，多代理协作时镜头切到控制台的全景视图，节奏轻快，配上网感旁白。",
-        "target_audience": "经常用 Slack/Telegram 协作的技术团队、个人开发者、对 AI 工作流感兴趣的效率控"
+        "shooting_tips": "录屏展示从安装、连接到在Slack中唤醒代理处理issue的全过程，突出多平台集成和权限管控，辅以解说说明自动化场景。",
+        "target_audience": "想用AI提高效率的开发团队和技术管理者"
       },
-      "category": "AI工具",
+      "category": "开发工具",
       "overall_suggestion": "可以做",
-      "overall_reason": "有一定演示画面和实用性，虽然理解门槛不低，但作为专业向选题可以吸引特定圈层。"
+      "overall_reason": "开源AI代理协作平台具备演示价值，但概念对普通用户不够友好，适合推出面向开发者的实操教程。"
+    },
+    {
+      "id": "1213905",
+      "name": "ConferenceGrid",
+      "name_zh": "会展图谱",
+      "tagline_zh": "B2B团队的会议情报数据库",
+      "description_zh": "只要输入公司名字，就能看到它赞助、参展或演讲的所有会议。把6000多场会议、62000个演讲者和55000个赞助席位都汇集在一张关系图里。",
+      "intro_zh": "一个能查公司参加哪些展会的数据库，做商务拓展和市场调研的人，用它找合作机会、摸清对手动向特别省事。",
+      "url": "https://www.producthunt.com/products/conferencegrid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/24VUQNT3HZ33Q2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/94d0ffa0-3130-4a44-8654-9f3fdb27c1d3.png?auto=format",
+      "votes_count": 121,
+      "scores": {
+        "video_suitability": {
+          "score": 2,
+          "reason": "以数据库查询和图表展示为主，画面多为列表或关系图谱，缺乏动态操作演示和视觉冲击，不易产出吸睛视频。"
+        },
+        "beginner_friendly": {
+          "score": 3,
+          "reason": "概念直白，但需要具备B2B商务背景才能理解用途，普通互联网用户可能不关心会议赞助数据。"
+        },
+        "popularity": {
+          "score": 3,
+          "reason": "位列第9名，票数121，有一定关注但非现象级热点。"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "输入公司名，自动挖出它参加的所有展会！销售侦查神器",
+        "angle": "行业解读",
+        "shooting_tips": "演示搜索一家知名B2B公司，展示关系图如何串联出它的活动足迹，强调竞品分析和商机挖掘的实用场景，节奏快速切入案例。",
+        "target_audience": "B2B销售、市场、商务拓展从业者"
+      },
+      "category": "数据分析",
+      "overall_suggestion": "可以做",
+      "overall_reason": "工具强数据属性导致视频表现力偏弱，且受众较窄，普通用户难以产生兴趣。"
     }
   ]
 }
