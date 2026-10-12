@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-10",
-  "generated_at": "2026-10-11T21:51:33+08:00",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-13T00:34:54+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1245921",
-      "name": "ReSO AI",
-      "name_zh": "ReSO AI",
-      "tagline_zh": "Get discovered & recommended when customers ask AI",
-      "description_zh": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic. What makes it different is that it doesn’t just track rankings, it analyzes intent, competitors, content gaps, and technical issues, then turns them into priority actions to improve AI recommendations.",
+      "id": "1267423",
+      "name": "HireKey",
+      "name_zh": "HireKey",
+      "tagline_zh": "Your recruiter-informed AI copilot for tech job search",
+      "description_zh": "HireKey is a recruiter-informed AI job-search co-pilot for tech job seekers who want to apply strategically & interview with confidence. It helps you assess your role fit, tailor resumes, communicate experience & track applications. Unlike basic ATS tools, HireKey combines AI with 10 years of recruiting experience at Microsoft, Amazon & Stripe, plus practice out loud with an interactive AI voice coach that responds to your answers & provides real-time interview feedback.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/E6PNMMFOZ76WY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f21aab5c-70fc-4a05-bd79-103326182d68.png?auto=format",
-      "votes_count": 457,
+      "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VMWKGHD733ZQGV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/586457d1-e416-4f5c-8f53-6b8bd91db72a.jpeg?auto=format",
+      "votes_count": 268,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 16276ee2-1ec8-47f0-9722-2a6c1511b63a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9ee2bc63-3851-40ee-8786-fee3b0c23633)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1257662",
-      "name": "Onepin",
-      "name_zh": "Onepin",
-      "tagline_zh": "AI voiceover with every name, price and date said right",
-      "description_zh": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line. Onepin runs on the voices you already use (ElevenLabs, OpenAI, Google, 30+ more), spells out prices and dates, checks names against a 4M-word pronunciation dictionary, scores every line, and fixes the wrong word without re-rendering the take. Built for teams shipping AI voiceover in several languages: product videos, dubbing, courses. Free to start, no credit card required.",
+      "id": "1272499",
+      "name": "kōdlo",
+      "name_zh": "kōdlo",
+      "tagline_zh": "End-to-end sales workspace with unified context",
+      "description_zh": "kōdlo finds prospects that fit your ICP and tells you how to warm each one up. Upload product catalogues and other docs to the Knowledge Hub, and its agent turns them into personalized messages, offers, deep searches and decks. Track client data, collaborate with your team, and manage tasks, all in one place. Connect Claude Desktop/ChatGPT Work or your code agent with kōdlo MCP to scale and orchestrate contexts.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MTK6QP55FPQN3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/59e2d20a-8e04-423f-ac81-90fa2a2d6af6.png?auto=format",
-      "votes_count": 441,
+      "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OZIBM7CMM6TNPX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ddca4282-7085-4b00-b624-b165e830226b.png?auto=format",
+      "votes_count": 263,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,19 +73,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a0746c42-d274-449d-b691-929df8182aa2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 96bcea32-172c-45d2-9fca-c5980a367b58)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275017",
-      "name": "Claude Dashboards & Motion",
-      "name_zh": "Claude Dashboards & Motion",
-      "tagline_zh": "Ask Claude for live dashboards and animated explainers",
-      "description_zh": "Claude Dashboards and Claude Motion are beta artifacts in Claude. Dashboards connects to BigQuery, Databricks, Snowflake, Redshift, ClickHouse or Salesforce and turns a plain language question into a live dashboard that refreshes as your data changes, with the query behind every number. Motion turns reports, charts and walkthroughs into short animations written as code, so you can edit any word, number or timing, then export an MP4. Dashboards is on paid plans, Motion on Team and Enterprise.",
+      "id": "1264842",
+      "name": "Automations in Perplexity Computer",
+      "name_zh": "Automations in Perplexity Computer",
+      "tagline_zh": "Automations that remember, act, and keep work moving",
+      "description_zh": "Computer Automations turns recurring work into reliable, ongoing workflows. Define a task once... such as monitoring sources, compiling reports, updating trackers, or drafting follow-ups... and an agent executes it on a schedule or in response to triggers. Built for professionals, teams, and operations leaders who need continuity without constant supervision, it remembers prior runs, builds on accumulated context, and acts proactively rather than waiting for a prompt.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/claude-dashboards-motion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/W5M4LWJFFQH6PC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/22084f5a-78d1-4124-93b2-2bd091d42eda.jpeg?auto=format",
-      "votes_count": 242,
+      "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6KK57LLU7CBT57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9be448f1-f10c-4ae6-8173-20fdadea761c.png?auto=format",
+      "votes_count": 186,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e7610393-bf32-4c53-b044-b1f99fc8fe19)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8b70dca4-e531-463d-b1e4-06eff4b2ee7c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275196",
-      "name": "Microsoft-Decision-1",
-      "name_zh": "Microsoft-Decision-1",
-      "tagline_zh": "Microsoft’s decision model for agents and workflows",
-      "description_zh": "Microsoft-Decision-1 is a decision-scoring model for routing, classification, verification and agent control. Give it fixed options and it returns a calibrated probability for each in a single pass, as structured output software can act on directly. Post-trained from Qwen3.5-9B, it is about 35x faster than GPT-6 Sol at median latency, per Microsoft. Available now in Microsoft Foundry at $0.042 per million input tokens, with free output.",
+      "id": "1270791",
+      "name": "Ghost Core",
+      "name_zh": "Ghost Core",
+      "tagline_zh": "A personal AI computer that runs entirely on-device",
+      "description_zh": "Ghost Core is a personal AI computer that runs AI models on-device, connects to your apps, files, and devices, and builds continuous context to proactively help you.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/microsoft-decision-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/H7BWLNYG7UA47C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d07d0f5f-1cef-4fa0-a8c8-5fffa1c50ef1.png?auto=format",
-      "votes_count": 170,
+      "url": "https://www.producthunt.com/products/ghost-core?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OQOELJ4JJ5Z7RH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9a9099b7-9f5e-4afc-b122-198b94750a1c.png?auto=format",
+      "votes_count": 175,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 6e4b7a98-77c0-4ba4-b7e8-2357da3464a0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 108bea8c-1aa0-4d98-a9c0-1152f2365ccf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1273350",
-      "name": "Cue",
-      "name_zh": "Cue",
-      "tagline_zh": "Put your AirPods in, your Mac starts focusing",
-      "description_zh": "Your headphones become a focus switch. Put your AirPods in and your Mac turns on your Focus mode, blocks distracting sites and starts a timer in the notch. Take them out: break time, sites come back. Also in the notch: now playing, volume and brightness, your own colors, session history and two tiny buddies that react to everything. Free, private, macOS 14+ on Apple Silicon. Vibe-coded by one person and Claude.",
+      "id": "1263181",
+      "name": "OpenScreen 2",
+      "name_zh": "OpenScreen 2",
+      "tagline_zh": "Record your demo and let your AI agent do the edits",
+      "description_zh": "Record your screen and the demo looks great on the first take: zooms planned from your clicks, smooth cursor, 3D camera moves, cursor themes, backgrounds and webcam layouts. Then let your AI agent do the edit over MCP, or cut the video yourself by deleting words in the transcript. Windows, macOS and Linux. Free, MIT, no account, no watermark.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/cue-26?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/H3I7LIPWSS6SGH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/26769852-454e-40b3-bf98-a361cfd1a536.png?auto=format",
-      "votes_count": 154,
+      "url": "https://www.producthunt.com/products/openscreen-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4OHWRLLMHPB7PF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a659ccbc-ac42-4960-82c5-4278fbeaba73.jpeg?auto=format",
+      "votes_count": 161,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,19 +181,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3e47b547-eda8-44c6-b54b-b700dddd5446)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3bbc0f99-1d2f-48ee-862b-153dd887f158)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1268927",
-      "name": "Firefox 157",
-      "name_zh": "Firefox 157",
-      "tagline_zh": "A brand new Firefox is here",
-      "description_zh": "Say hello to a refreshed design and more ways to make it feel like home. Your bookmarks, extensions, and shortcuts are right where you left them.",
+      "id": "1251151",
+      "name": "MePersona",
+      "name_zh": "MePersona",
+      "tagline_zh": "Answer every fan comment in your voice",
+      "description_zh": "MePersona is the unified social media inbox for content creators, but the inbox is only where it starts. Your Persona learns how you talk and improves with every reply you approve. It drafts replies to comments and DMs from YouTube, Instagram, TikTok, X and more, scores how much each sounds like you, and remembers what each fan said last time. Nothing posts until you hit Send. It works in English and Spanish, so bilingual creators stop choosing which half of their audience gets a real answer.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mozilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RXBOSEALN6KQIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5ea767f0-58bd-4a4b-b4c9-b7fd6aabbcee.png?auto=format",
-      "votes_count": 141,
+      "url": "https://www.producthunt.com/products/mepersona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6EQNGGIFPMVVNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8d78a898-c3f6-4583-985e-1a7dee83d55d.jpeg?auto=format",
+      "votes_count": 148,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -217,19 +217,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 51e18caa-dd7b-43f8-8ad9-df24a17d2ad1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e9e9e87a-846c-4536-8fec-6076750d9933)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1264254",
-      "name": "Skreno",
-      "name_zh": "Skreno",
-      "tagline_zh": "Record, edit and share videos, all in your browser",
-      "description_zh": "Skreno is a video studio in your browser: record, edit and share in one place. Record your screen and camera as separate tracks, then edit in Studio: pick a layout, cut silences, and add animated captions and titles. Share one link with a transcript, AI summary and comments on the exact second. Send a request link and anyone can record for you, no account needed. Bug reports come with the console log attached.",
+      "id": "1246034",
+      "name": "Ayven",
+      "name_zh": "Ayven",
+      "tagline_zh": "Carries and drives your team's agenda",
+      "description_zh": "Ayven drives your agenda. It means observing, cutting the work into pieces your team can take one at a time, putting an owner and a date on each, and filing them in Jira or YouTrack. Then it runs, tracks and talks about the work for weeks: asking whoever knows, waiting, chasing silence, moving work when someone is away. Your team answers in Slack and the board moves. Planning stops being the barrier and you ship your agenda like crazy.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/skreno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WDUBCVME76574G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6ad819d6-57c3-463a-af76-f607eba4d3a9.png?auto=format",
-      "votes_count": 93,
+      "url": "https://www.producthunt.com/products/ayven?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6DJXTKBZIGEI7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ed12f6f2-23cf-49fb-ba09-fd64e48d563f.png?auto=format",
+      "votes_count": 143,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -253,19 +253,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5c376eeb-7263-42cf-ac1c-79284cb4d595)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ee5826f6-7a34-46e7-81bb-87d864a37438)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275415",
-      "name": "Maildun for Mac",
-      "name_zh": "Maildun for Mac",
-      "tagline_zh": "Design on-brand emails by hand, with AI, or over MCP",
-      "description_zh": "Maildun for Mac is an agentic email builder for macOS. Design by hand in the drag-and-drop editor, or connect Claude, ChatGPT, Gemini or Grok with your own API key: the assistant edits your design live, as a proposal you accept or reject. Turn on the built-in MCP server and Claude Code, Codex or Cursor can create and edit emails too. Plus workspaces per client, brand kits with shadcn-style component styles, saved sections, media on your own R2 or S3 bucket, and publishing to maildun.com.",
+      "id": "1275628",
+      "name": "FocusWrite",
+      "name_zh": "FocusWrite",
+      "tagline_zh": "A local-first writing app with focus modes.",
+      "description_zh": "A calm, local-first writing app with deep focus, ambient sounds, optional cloud sync, and PDF export.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/maildun-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WAPPR4AKY4O33X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/209047c0-8c3f-4945-95df-7f5141365714.jpeg?auto=format",
-      "votes_count": 91,
+      "url": "https://www.producthunt.com/products/focuswrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/K47HKNASYUGLBN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/47f05c41-233a-413c-a683-ceeb93692afc.png?auto=format",
+      "votes_count": 112,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -289,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: dc0c0c0d-2cc5-48f4-8a56-403eb476debd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 06c02d81-eb56-4edc-89d8-a0680b9f7836)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1265048",
-      "name": "Skymir",
-      "name_zh": "Skymir",
-      "tagline_zh": "Google Drive sync for Linux",
-      "description_zh": "Skymir mirrors your Google Drive folders to Linux with two-way sync, double-click Google Docs shortcuts, and a native GTK tray. Local saves upload within seconds; changes made in Drive arrive within about a minute. Deletes go to the trash on both sides, and a sync that would delete more than half your files is refused. $19 one-time, 14-day free trial, no subscription.",
+      "id": "1270101",
+      "name": "Foley",
+      "name_zh": "Foley",
+      "tagline_zh": "A voice to-do list that files, plans and asks first",
+      "description_zh": "Say what needs doing. Foley turns it into a task with the project, date and reminder already set, and asks when it isn't sure instead of guessing. When plans change, say so and it moves the task. Ask it to plan your day, or what to work on first, and it answers from your list. Capture from your Apple Watch. The desktop app is free with no account, using your own OpenRouter key. Foley Pro runs the AI for you and syncs every device. On iPhone, Android, Mac, Windows and the web.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/skymir?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JGDJQKMRU7HWW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1a4b3bc9-633d-4320-ba0d-aa502ec084e4.jpeg?auto=format",
-      "votes_count": 89,
+      "url": "https://www.producthunt.com/products/foley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XP4VSXUSSJUKQJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d42ac1f8-55cf-4b4d-97ce-e18370a116d9.png?auto=format",
+      "votes_count": 102,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -325,19 +325,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 245e322d-4f9c-4622-9e9b-f46c53eb2b49)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 74bf2a83-7e86-40d5-95d6-9779028a0f5a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275490",
-      "name": "Lune",
-      "name_zh": "Lune",
-      "tagline_zh": "The search engine built for scientific AI agents",
-      "description_zh": "Lune is Exa.ai for scientific research. It connects AI agents to research knowledge and tools built for scientific workflows, and provides high-quality knowledge grounding based on papers from top-tier academic conferences. 10x the efficiency and trustworthiness of literature review, experimental design, writing and peer review. From early ideas to publication, it helps researchers and technical teams move faster with traceable sources, deeper grounding, and rigorous, evidence-backed decisions.",
+      "id": "1276371",
+      "name": "Gboard Kurukuru Version",
+      "name_zh": "Gboard Kurukuru Version",
+      "tagline_zh": "Your fingers stay put. The keys come around",
+      "description_zh": "Gboard Kurukuru Version is a conveyor belt keyboard from Google Japan's Gboard team, its 15th. Four belts carry 29 keys each past your fingers, so one hand can reach every character. It isn't for sale, but STL files, firmware and a build guide are on GitHub.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/lune-research?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YPRI2YBH6V3NM5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/535c93b9-19da-48f3-92ac-1168b872bbb6.jpeg?auto=format",
-      "votes_count": 83,
+      "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2YBEYDPPDZS3KO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7d1e561c-dc31-4f21-98f4-c9e1d24d5894.jpeg?auto=format",
+      "votes_count": 92,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -361,7 +361,7 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 010334c4-7492-4cb4-a443-4ec549067a5c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c9a02aab-9b53-4aac-abbf-a70d2dd86733)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   ]
 }
