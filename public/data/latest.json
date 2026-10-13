@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-13T00:34:54+08:00",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-13T22:52:30+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1267423",
-      "name": "HireKey",
-      "name_zh": "HireKey",
-      "tagline_zh": "Your recruiter-informed AI copilot for tech job search",
-      "description_zh": "HireKey is a recruiter-informed AI job-search co-pilot for tech job seekers who want to apply strategically & interview with confidence. It helps you assess your role fit, tailor resumes, communicate experience & track applications. Unlike basic ATS tools, HireKey combines AI with 10 years of recruiting experience at Microsoft, Amazon & Stripe, plus practice out loud with an interactive AI voice coach that responds to your answers & provides real-time interview feedback.",
+      "id": "1271805",
+      "name": "Google EmbeddingGemma 2",
+      "name_zh": "Google EmbeddingGemma 2",
+      "tagline_zh": "An open, lightweight multimodal embedding model",
+      "description_zh": "EmbeddingGemma 2 is Google DeepMind's open embedding model that maps text, code, images, video and audio into one shared space, so you can search across them from a single query. At 740M parameters it runs on-device, needing about 567MB of RAM on a Pixel 11 Pro for the full multimodal model (191MB for text only). Apache 2.0 licensed, with weights on Hugging Face and Kaggle. MTEB Code score rises from 68.76 to 78.68.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VMWKGHD733ZQGV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/586457d1-e416-4f5c-8f53-6b8bd91db72a.jpeg?auto=format",
-      "votes_count": 268,
+      "url": "https://www.producthunt.com/products/embeddinggemma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/223DSPCXFFRIJF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/377e5470-e67b-4400-ab00-7563bc2105e8.png?auto=format",
+      "votes_count": 295,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9ee2bc63-3851-40ee-8786-fee3b0c23633)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ec8aaef0-a6f8-4a6e-97b4-069e644577dd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1272499",
-      "name": "kōdlo",
-      "name_zh": "kōdlo",
-      "tagline_zh": "End-to-end sales workspace with unified context",
-      "description_zh": "kōdlo finds prospects that fit your ICP and tells you how to warm each one up. Upload product catalogues and other docs to the Knowledge Hub, and its agent turns them into personalized messages, offers, deep searches and decks. Track client data, collaborate with your team, and manage tasks, all in one place. Connect Claude Desktop/ChatGPT Work or your code agent with kōdlo MCP to scale and orchestrate contexts.",
+      "id": "1266889",
+      "name": "ngram 2.0",
+      "name_zh": "ngram 2.0",
+      "tagline_zh": "Create explainers, screencasts, and AI avatar videos",
+      "description_zh": "Turn ideas, documents, and recordings into narrated videos. ngram analyzes uploaded videos and screen recordings to identify key moments and build clear product walkthroughs. Create animated explainers or add an AI avatar presenter, then refine your video in chat.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OZIBM7CMM6TNPX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ddca4282-7085-4b00-b624-b165e830226b.png?auto=format",
-      "votes_count": 263,
+      "url": "https://www.producthunt.com/products/ngram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/B7QZKLCV5HYNON?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/041c1628-7031-45a5-a6bd-0ff499c08013.jpeg?auto=format",
+      "votes_count": 255,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,19 +73,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 96bcea32-172c-45d2-9fca-c5980a367b58)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 90e5f4c0-55ab-495d-b8f7-09f26def240f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1264842",
-      "name": "Automations in Perplexity Computer",
-      "name_zh": "Automations in Perplexity Computer",
-      "tagline_zh": "Automations that remember, act, and keep work moving",
-      "description_zh": "Computer Automations turns recurring work into reliable, ongoing workflows. Define a task once... such as monitoring sources, compiling reports, updating trackers, or drafting follow-ups... and an agent executes it on a schedule or in response to triggers. Built for professionals, teams, and operations leaders who need continuity without constant supervision, it remembers prior runs, builds on accumulated context, and acts proactively rather than waiting for a prompt.",
+      "id": "1263940",
+      "name": "Base Code",
+      "name_zh": "Base Code",
+      "tagline_zh": "Let your whole team build on your product",
+      "description_zh": "Base Code lets teams work directly on existing codebases from the browser. Connect GitHub, describe changes in plain language, preview them live, and send completed work through standard pull requests.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6KK57LLU7CBT57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9be448f1-f10c-4ae6-8173-20fdadea761c.png?auto=format",
-      "votes_count": 186,
+      "url": "https://www.producthunt.com/products/base44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5UTAM4WFMO63VB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9972b40f-ffd1-4e6c-b450-0f40a0889e27.png?auto=format",
+      "votes_count": 195,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8b70dca4-e531-463d-b1e4-06eff4b2ee7c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8e170569-0d81-44b4-b865-c6eac0de913c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1270791",
-      "name": "Ghost Core",
-      "name_zh": "Ghost Core",
-      "tagline_zh": "A personal AI computer that runs entirely on-device",
-      "description_zh": "Ghost Core is a personal AI computer that runs AI models on-device, connects to your apps, files, and devices, and builds continuous context to proactively help you.",
+      "id": "1274741",
+      "name": "guilds.run",
+      "name_zh": "guilds.run",
+      "tagline_zh": "Create multi-agent workflows that you can trust",
+      "description_zh": "Open-source AI agent teams you can actually inspect. Debug every prompt, tool call, memory change, and agent interaction. Control permissions, edit context, and choose the model for each agent. Self-host for free. Stop guessing what your agents are doing.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/ghost-core?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OQOELJ4JJ5Z7RH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9a9099b7-9f5e-4afc-b122-198b94750a1c.png?auto=format",
-      "votes_count": 175,
+      "url": "https://www.producthunt.com/products/guilds-run?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/NDLI5PMZGPHFVE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5b1e219b-9b47-4d28-853e-672986dd337c.png?auto=format",
+      "votes_count": 192,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 108bea8c-1aa0-4d98-a9c0-1152f2365ccf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 84d9de06-d9a3-4d0c-9537-1a1a3baa781e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1263181",
-      "name": "OpenScreen 2",
-      "name_zh": "OpenScreen 2",
-      "tagline_zh": "Record your demo and let your AI agent do the edits",
-      "description_zh": "Record your screen and the demo looks great on the first take: zooms planned from your clicks, smooth cursor, 3D camera moves, cursor themes, backgrounds and webcam layouts. Then let your AI agent do the edit over MCP, or cut the video yourself by deleting words in the transcript. Windows, macOS and Linux. Free, MIT, no account, no watermark.",
+      "id": "1277089",
+      "name": "Manifold MCP",
+      "name_zh": "Manifold MCP",
+      "tagline_zh": "SEO, AI answers, social, ads and leads data for your agent",
+      "description_zh": "Manifold gives your agent live data from every marketing channel, in one hosted MCP server for Claude, ChatGPT, Cursor and Claude Code. Find keywords one push from page one. See if ChatGPT and Gemini recommend you. Watch the TikToks winning your niche. Read your competitors’ live ads. Catch Reddit threads asking for what you make. Get verified emails for buyers looking right now. Ask in plain words and your agent does the work. No pile of tabs. Free to start.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openscreen-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4OHWRLLMHPB7PF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a659ccbc-ac42-4960-82c5-4278fbeaba73.jpeg?auto=format",
-      "votes_count": 161,
+      "url": "https://www.producthunt.com/products/manifold-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BKDAFBA3FQGC6F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fcf1575a-27e0-4f13-9a1f-ffc936506bc4.jpeg?auto=format",
+      "votes_count": 155,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,18 +181,18 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3bbc0f99-1d2f-48ee-862b-153dd887f158)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b98ae564-2dc5-4892-a4ee-5142d572dede)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1251151",
-      "name": "MePersona",
-      "name_zh": "MePersona",
-      "tagline_zh": "Answer every fan comment in your voice",
-      "description_zh": "MePersona is the unified social media inbox for content creators, but the inbox is only where it starts. Your Persona learns how you talk and improves with every reply you approve. It drafts replies to comments and DMs from YouTube, Instagram, TikTok, X and more, scores how much each sounds like you, and remembers what each fan said last time. Nothing posts until you hit Send. It works in English and Spanish, so bilingual creators stop choosing which half of their audience gets a real answer.",
+      "id": "1266729",
+      "name": "Ancher 2.0",
+      "name_zh": "Ancher 2.0",
+      "tagline_zh": "Turn everything you read and save into work you can ship",
+      "description_zh": "Ancher is an AI knowledge workspace that turns everything you read, watch, and save into work you can actually use. Capture articles, videos, PDFs, posts, and ideas without organizing folders. Ancher connects related knowledge, lets you search and ask questions across your sources, and helps turn what you've learned into research briefs, reports, presentations, and content in your own voice. Your saved knowledge becomes more useful every time you add to it.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mepersona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6EQNGGIFPMVVNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8d78a898-c3f6-4583-985e-1a7dee83d55d.jpeg?auto=format",
+      "url": "https://www.producthunt.com/products/ancher-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OOSCUZ276X4LN2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/29fdf03f-03bb-435f-ad84-9b705727c139.jpeg?auto=format",
       "votes_count": 148,
       "scores": {
         "video_suitability": {
@@ -217,19 +217,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e9e9e87a-846c-4536-8fec-6076750d9933)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 01e32e27-2159-4d18-b04e-093deae2caec)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1246034",
-      "name": "Ayven",
-      "name_zh": "Ayven",
-      "tagline_zh": "Carries and drives your team's agenda",
-      "description_zh": "Ayven drives your agenda. It means observing, cutting the work into pieces your team can take one at a time, putting an owner and a date on each, and filing them in Jira or YouTrack. Then it runs, tracks and talks about the work for weeks: asking whoever knows, waiting, chasing silence, moving work when someone is away. Your team answers in Slack and the board moves. Planning stops being the barrier and you ship your agenda like crazy.",
+      "id": "1273871",
+      "name": "Hexis Cloud",
+      "name_zh": "Hexis Cloud",
+      "tagline_zh": "One company brain for all your AI agents",
+      "description_zh": "Hexis is one company brain for your team and all its AI agents. Through Hexis, your team can align on shared context that's important to align on, non-technical teams can work and collaborate on skills and your team can have hundreds of tools accessible via one MCP gateway. All the information is owned by someone, meaning it's context you can trust, and Hexis enables access control to a single file. It only takes a few minutes to set up, and is free for up to 3 people. Would love your feedback!",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/ayven?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6DJXTKBZIGEI7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ed12f6f2-23cf-49fb-ba09-fd64e48d563f.png?auto=format",
-      "votes_count": 143,
+      "url": "https://www.producthunt.com/products/bevel-software?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/URI5IUBUZNNTM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/644fa568-f125-4c57-a28d-2cf79c783eeb.png?auto=format",
+      "votes_count": 122,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -253,19 +253,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ee5826f6-7a34-46e7-81bb-87d864a37438)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 00d70d7f-f6df-4714-b027-30fe5b23b068)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275628",
-      "name": "FocusWrite",
-      "name_zh": "FocusWrite",
-      "tagline_zh": "A local-first writing app with focus modes.",
-      "description_zh": "A calm, local-first writing app with deep focus, ambient sounds, optional cloud sync, and PDF export.",
+      "id": "1277208",
+      "name": "Kudos 3.0",
+      "name_zh": "Kudos 3.0",
+      "tagline_zh": "The AI that finds money you're missing and gets it back",
+      "description_zh": "Most money apps show you charts. Kudos does the work. Your home shows Your wins, one number for everything Kudos has earned or saved you, and your next best money move. Most people don't know their cards come with personalized offers they have to turn on by hand. Kudos activates them for you: about $800/yr in offers in early testing. Our AI also calls providers to lower your bills ($216/yr per negotiation) and cancels subscriptions you forgot ($247/yr each). You keep 100% of the savings.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/focuswrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/K47HKNASYUGLBN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/47f05c41-233a-413c-a683-ceeb93692afc.png?auto=format",
-      "votes_count": 112,
+      "url": "https://www.producthunt.com/products/kudos-smart-wallet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QXBEXDC3BPWRYZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f6380d49-1f62-40c1-8f35-ea09e7f083ac.jpeg?auto=format",
+      "votes_count": 117,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -289,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 06c02d81-eb56-4edc-89d8-a0680b9f7836)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2eae0281-c1ec-43dc-8144-e0d56684aec4)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1270101",
-      "name": "Foley",
-      "name_zh": "Foley",
-      "tagline_zh": "A voice to-do list that files, plans and asks first",
-      "description_zh": "Say what needs doing. Foley turns it into a task with the project, date and reminder already set, and asks when it isn't sure instead of guessing. When plans change, say so and it moves the task. Ask it to plan your day, or what to work on first, and it answers from your list. Capture from your Apple Watch. The desktop app is free with no account, using your own OpenRouter key. Foley Pro runs the AI for you and syncs every device. On iPhone, Android, Mac, Windows and the web.",
+      "id": "1277022",
+      "name": "Scrape Anything by Context.dev",
+      "name_zh": "Scrape Anything by Context.dev",
+      "tagline_zh": "Turn any website into clean data with one API call.",
+      "description_zh": "Scrape Anything by Context lets you pull clean, usable data from the web without building or maintaining scraping infrastructure. Give Context a URL and it handles rendering, blocks, proxies, retries, and extraction—returning Markdown, HTML, screenshots, or structured data through one API.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/foley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XP4VSXUSSJUKQJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d42ac1f8-55cf-4b4d-97ce-e18370a116d9.png?auto=format",
-      "votes_count": 102,
+      "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6OFAPYNEA7JJ7A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e84da2f2-820f-422e-9ff3-1ceec969ecfa.png?auto=format",
+      "votes_count": 103,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -325,19 +325,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 74bf2a83-7e86-40d5-95d6-9779028a0f5a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2b0689df-2dbd-4290-b2cc-91566112434c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1276371",
-      "name": "Gboard Kurukuru Version",
-      "name_zh": "Gboard Kurukuru Version",
-      "tagline_zh": "Your fingers stay put. The keys come around",
-      "description_zh": "Gboard Kurukuru Version is a conveyor belt keyboard from Google Japan's Gboard team, its 15th. Four belts carry 29 keys each past your fingers, so one hand can reach every character. It isn't for sale, but STL files, firmware and a build guide are on GitHub.",
+      "id": "1264729",
+      "name": "Bearconnect 2.0",
+      "name_zh": "Bearconnect 2.0",
+      "tagline_zh": "AI-Powered LinkedIn Platform for Content and Outreach",
+      "description_zh": "Bearconnect started as a LinkedIn outreach tool. With V2, it’s now a platform for both inbound and outbound on LinkedIn. Create and schedule content, find prospects from LinkedIn activity, and turn intent into conversations with AI-powered messaging. V2 also adds team workspaces, role-based access, Brand Voice, CRM integrations, and webhooks.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2YBEYDPPDZS3KO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7d1e561c-dc31-4f21-98f4-c9e1d24d5894.jpeg?auto=format",
-      "votes_count": 92,
+      "url": "https://www.producthunt.com/products/early-access-bearconnect-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/U2PAEBVCP3WNUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/34766698-7e8c-4c21-88b1-ee82cb6198e7.jpeg?auto=format",
+      "votes_count": 97,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -361,7 +361,7 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c9a02aab-9b53-4aac-abbf-a70d2dd86733)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 003e46b6-2f78-48e2-9626-7d41f4a0e1d5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   ]
 }
