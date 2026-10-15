@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-15T20:31:22+08:00",
+  "generation_error": true,
+  "products": [
+    {
+      "id": "1221402",
+      "name": "Pancake",
+      "name_zh": "Pancake",
+      "tagline_zh": "The Vercel for GTM",
+      "description_zh": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d77de011-9237-4f78-bedc-3e03372e2824.png?auto=format",
+      "votes_count": 557,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9a92c07a-efb1-450f-b8f3-cb61d0646d92)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1265035",
+      "name": "Inferock",
+      "name_zh": "Inferock",
+      "tagline_zh": "Serverless inference, with credits back for failed calls.",
+      "description_zh": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Q5YAUE7WHFYYB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/298c83cd-d799-4604-af15-6358acae3332.jpeg?auto=format",
+      "votes_count": 393,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c779d081-d24e-4801-aa87-31e8dd861e72)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1273690",
+      "name": "Retriever AI",
+      "name_zh": "Retriever AI",
+      "tagline_zh": "Free AI browser agent: find leads, reach out, apply to jobs",
+      "description_zh": "Retriever is a free AI browser agent that finishes work across websites. Ask it to find leads and send outreach, shortlist TikTok and Instagram creators for your next campaign, or apply to jobs. Run tasks in your own Chrome browser or in cloud browsers hosted by rtrvr. It beats OpenAI, Anthropic, and Muse on accuracy, runs 5x faster, and costs 300x less.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WYCLMV7ALKHIUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/63240eff-1bee-463a-aa93-e005a496c9a5.png?auto=format",
+      "votes_count": 223,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1f0734fa-f7e2-4d68-a516-7993faf9e418)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1278154",
+      "name": "daily.dev for agents",
+      "name_zh": "daily.dev for agents",
+      "tagline_zh": "Where agents discover what's next",
+      "description_zh": "daily.dev is where millions of developers find out what's next. Now your agent can too. Connect Claude, Cursor, Codex or any MCP client to read personalized feeds, search posts, learn from discussions, save bookmarks and tune your feed. In addition, plugin marketplace and apps ecosystem. YOUR AGENTS CAN READ daily.dev NOW!!",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2DYUSJYPHY2MIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a1732b7c-cc1b-41dc-90ef-1c044b176475.jpeg?auto=format",
+      "votes_count": 204,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4155a58b-6ad4-4b5d-ab50-d21bd5a90a29)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1275120",
+      "name": "Tiden",
+      "name_zh": "Tiden",
+      "tagline_zh": "Intent verification for coding agents",
+      "description_zh": "Tiden verifies your coding agents built what you actually asked for. Most checks run inside the session that wrote the code, so the tests agree with it by construction. Tiden keeps your intent as requirements that branch and merge like code, and checks every change against that record. The verdict comes from tests run in your environment; no model grades the diff. You decide what merges, and production errors trace back to the release. Works beside Claude Code, Cursor, Codex and Copilot.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KLWVRGQPBSK7MC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/102bbb30-4e9e-40ff-8240-37167519ef18.jpeg?auto=format",
+      "votes_count": 200,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5009c473-625c-4128-a92a-74bb19eb4a85)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1278698",
+      "name": "AdAnt 2.0",
+      "name_zh": "AdAnt 2.0",
+      "tagline_zh": "Muse for Social Media Marketing",
+      "description_zh": "AdAnt AI is your proactive, 24/7 social media marketing team. The Strategist researches your niche on TikTok, Instagram, YouTube and Meta Ads and writes content strategies that work. The Creator turns every strategy into a batch of videos. The Analyst listens on X and Reddit for conversations worth joining. The Manager plans the calendar and posts. Built on the strategies our founding team used to generate 100M+ organic views and cut paid acquisition costs by 60% on average.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/P2S3Z4QRV2ANYE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/558fbfc4-b0a4-4ae6-b393-b3862b073a6a.jpeg?auto=format",
+      "votes_count": 180,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9189b8cb-81e8-4ea1-99a0-7df210e40d87)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1277882",
+      "name": "Confidence by Spotify ",
+      "name_zh": "Confidence by Spotify ",
+      "tagline_zh": "Build products at full speed, with both hands on the wheel",
+      "description_zh": "Confidence is a product intelligence platform built by Spotify. Spotify's approach to building products has always combined data with judgment and taste, and that scientific rigor is what Confidence brings to customers. Confidence is born from experimentation, but that’s now part of a wider story. Confidence analyzes your user signals, surfaces what's working, suggests the next move, and validates the hypothesis before it ships. You stay in the loop and approve the moves that matter.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MGDVIGENYLUYIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e9bfa8fb-5020-4288-9217-209c5f5a908e.png?auto=format",
+      "votes_count": 120,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c7db4119-64b1-4fc8-a6bd-db40ce2a20ba)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1278817",
+      "name": "Exodus for Google Cloud Run",
+      "name_zh": "Exodus for Google Cloud Run",
+      "tagline_zh": "Upgrade any app to Cloud Run, with your coding agent",
+      "description_zh": "Cloud Run is Google's managed platform: no servers to look after, new copies in seconds under load, a bill only while your code works. Exodus takes your app there with your coding agent (Claude Code, Codex, Cursor): it checks the app on your machine, shows what you pay today and on Cloud Run and what to change, by 50+ playbooks from real moves. Then the agent makes the move, task by task, or designs a new app for Cloud Run. Free and open source. Try it on your repo today.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/exodus-by-elim-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DKRZ5SVMJ577ZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/735ce32d-a1ee-4498-98ca-4548f1a9354b.jpeg?auto=format",
+      "votes_count": 111,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7cb9d221-01a1-4d1e-906a-e330b012fe5b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1269704",
+      "name": "Reason",
+      "name_zh": "Reason",
+      "tagline_zh": "A state-of-the-art coding agent for cost efficiency",
+      "description_zh": "Reason is the best coding agent, in the cloud or locally. Give it a task and it writes code, runs tests and opens a pull request. Use Reason from the Mac app, terminal, web or Slack, with your choice of models and connected subscriptions. Start free on your own computer. Our published GPT-6 Astra evaluation scores 65.1 on the Coding Agent Index vs Codex’s 62.5, at 22% lower cost per solved task.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ACZF6BMTUGELS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0062589e-ee11-4497-9d51-5078016ea255.jpeg?auto=format",
+      "votes_count": 111,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: aa650637-97b9-4ab3-a039-7602df1be62f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1135009",
+      "name": "AirJelly",
+      "name_zh": "AirJelly",
+      "tagline_zh": "Your Proactive, Self-Organizing Second Brain",
+      "description_zh": "AirJelly is an always-on desktop AI agent that proactively captures your intent, organizes your tasks, and gets things done. By observing your on-screen activities, it knows who you are and what you're working on. It doesn't just spot your to-dos — it foresees what's next and acts. It also tracks your personal interactions, so you'll never miss a follow-up or forget a promise. Everything in your life is managed by AirJelly — freeing your time for what AI can't do, or simply for you to enjoy.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ad21d0ca-98c9-4f34-9604-10fd3925070c.jpeg?auto=format",
+      "votes_count": 104,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: db371b02-2b31-4567-be96-75457beb2c15)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    }
+  ]
+}
