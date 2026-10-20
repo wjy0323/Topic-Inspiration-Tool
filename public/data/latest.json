@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-19T22:26:50+08:00",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-20T20:35:59+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1276034",
-      "name": "Inbox Zero",
-      "name_zh": "Inbox Zero",
-      "tagline_zh": "Open-source Superhuman alternative",
-      "description_zh": "Inbox Zero Mail is an open-source email client for Gmail and Outlook. Fast, keyboard-first, and free to use, on web, Mac, Windows and iPhone, with all your accounts in one inbox. Add AI for $20/mo: every email is sorted, and replies are drafted in your voice before you open them. Comment privately with your team, get Slack alerts, and give the AI context from your tools.",
+      "id": "1284611",
+      "name": "Beam.win",
+      "name_zh": "Beam.win",
+      "tagline_zh": "Run AI agents on one Mac and use its windows on another",
+      "description_zh": "Keep your agents and builds running on a Mac mini or Studio. Beam brings their Terminal, browser and other app windows onto the Mac in front of you, each as its own window with a Dock icon and ⌘Tab presence. Encrypted between your Macs. Free to try.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/inbox-zero-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/FK6F3KNVDZW35Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2f067ad5-1e46-4ce9-9c74-5e4ff1d128bd.jpeg?auto=format",
-      "votes_count": 341,
+      "url": "https://www.producthunt.com/products/beam-win?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XR2QV6TXWMZHHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/30edef9e-850e-451a-86d4-81f7cf48e1d0.png?auto=format",
+      "votes_count": 355,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3e182713-fd08-4add-a6b7-d34300da82b3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b01c0891-9257-45e8-a968-f916275f9cf6)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1282905",
-      "name": "MyLens",
-      "name_zh": "MyLens",
-      "tagline_zh": "1-1 Live Presentations at Scale with AI.",
-      "description_zh": "MyLens is AI for live 1-1 presentations at scale. You add your raw sources, say what matters, and invite your audience. MyLens AI gives every person a live, private presentation, answers their questions using your sources, and create new slides and layers in real time during the presentation. Then the AI tells you how each session went, so you can see who’s doing well, who’s stuck, and what to do next.",
+      "id": "1284894",
+      "name": "Figma Specs",
+      "name_zh": "Figma Specs",
+      "tagline_zh": "A container for your context that lives on the Figma canvas",
+      "description_zh": "Figma Specs is a collaborative Markdown document that can live on its own or beside your designs. Embed Figma frames and FigJam diagrams, work through comments with teammates and agents, and pass the full context to coding agents through MCP.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mylens-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RES6VMKW3LGAIK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/552d436f-cf8f-443d-b96a-4f974503af58.jpeg?auto=format",
-      "votes_count": 211,
+      "url": "https://www.producthunt.com/products/figma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H3ROFCAUEHWD3V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8f32dea8-6e25-4029-8312-53cd5f106d44.jpeg?auto=format",
+      "votes_count": 209,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,19 +73,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: cabc3008-f5ed-4634-b198-1ecf6378f252)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: bb3193e9-ae7b-455c-a1a7-fc5640918626)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1277759",
-      "name": "shim-cli",
-      "name_zh": "shim-cli",
-      "tagline_zh": "See what your coding agent sends. Mask what you can.",
-      "description_zh": "An open-source hook and local proxy for Claude Code, Codex, Copilot CLI and VS Code. In Claude Code it masks secrets and personal data in tool results before the model reads them, and shim watch shows what a session sent and cost. No account, no telemetry.",
+      "id": "1278782",
+      "name": "readywhen",
+      "name_zh": "readywhen",
+      "tagline_zh": "The senior personal assistant that works inside WhatsApp",
+      "description_zh": "readywhen is the senior Personal Assistant that works inside WhatsApp. It has its own phone number, its own computer, and a project board that keeps track of everything on your plate. Call it. Message it. Voice-note it. And it gets real work done.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/shim-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2E657WIGYUKWTP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b466991a-54d6-4bf2-896d-e6f22eaf00fa.png?auto=format",
-      "votes_count": 188,
+      "url": "https://www.producthunt.com/products/readywhen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OLPNM6HLKRJKDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4610e31e-dc91-47b0-a004-5f64751aa1c8.jpeg?auto=format",
+      "votes_count": 191,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: baffb022-dd48-4cb2-9761-fb8425a82ff0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ffcdc949-a0f7-41d4-92d4-3dfb51e06293)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1278287",
-      "name": "Tower 18 for Mac",
-      "name_zh": "Tower 18 for Mac",
-      "tagline_zh": "The most powerful Git client with a better CLI experience",
-      "description_zh": "Tower 18 for Mac is here! This update is all about improving the Tower experience in the terminal: the Tower Command Line Tool can now take you straight to any view in Tower (History, Blame, the Working Copy, Branches Review, and more) with a single command.",
+      "id": "1283818",
+      "name": "walkai-talkai",
+      "name_zh": "walkai-talkai",
+      "tagline_zh": "Talk to your AI coding agent over a walkie-talkie",
+      "description_zh": "Press PTT on any handheld radio and talk to your AI coding agent, hands-free. walkai-talkai transcribes your voice on your Mac with local Whisper, types the command into Cursor, Claude Code or Antigravity (or calls OpenAI, Anthropic, Gemini, DeepSeek or Ollama directly), then speaks the answer back over the radio with neural voice, VOX tones and a roger beep. Your radio audio never leaves your Mac. macOS 13+ on Apple Silicon. One-time lifetime license, no subscription.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/tower?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/H54Y7ZW2KMIL66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8fab1bb9-fef1-4f66-bace-5420d0f0fda8.png?auto=format",
-      "votes_count": 151,
+      "url": "https://www.producthunt.com/products/walkai-talkai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GI5UU6MDF6EM6J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cdd4b101-9a1c-47d6-bf6d-260b54b083bb.jpeg?auto=format",
+      "votes_count": 159,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 75401f1a-8630-4cb9-8ea6-31adc81b541c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b300a1fc-0598-4367-bc5f-858c4b953171)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1281805",
-      "name": "MeetPaw",
-      "name_zh": "MeetPaw",
-      "tagline_zh": "Instant meetings from your mac menu bar ",
-      "description_zh": "MeetPaw is a lightweight macOS menu-bar app that puts your meetings one click away. Spin up an instant Google Meet, Zoom, or Microsoft Teams link the moment you need it. The link is created, copied to your clipboard, and ready to share before you've switched windows. No tabs, no digging, no friction.",
+      "id": "1277569",
+      "name": "Kai Resolve by Gleap",
+      "name_zh": "Kai Resolve by Gleap",
+      "tagline_zh": "Support that does the digging for you.",
+      "description_zh": "Kai Resolve is the AI agent for support tickets your docs can't answer. It reads the screen recording, logs, account data and your code, read-only, then answers the customer or escalates with a diagnosis. Confirmed bugs become coding tasks your team reviews.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/meetpaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CLGB7TMIM44O62?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/39b1d756-bd6f-42b2-85ea-2c1449de7dac.jpeg?auto=format",
-      "votes_count": 136,
+      "url": "https://www.producthunt.com/products/gleap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XI7TL2X7GPY7ZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b3180fde-762a-42cf-9566-75fec4454354.jpeg?auto=format",
+      "votes_count": 146,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,19 +181,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 58d02473-499a-4908-9a42-6f748f420286)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 54981028-d283-4f0f-bb90-f9601bf2d027)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1283110",
-      "name": "XBOX Nano Controller",
-      "name_zh": "XBOX Nano Controller",
-      "tagline_zh": "Pocket-sized wireless gamepad with all 18 inputs",
-      "description_zh": "Take play to more places with the XBOX Nano Controller. Fit more play in your everyday in a smaller form factor. Connect via Bluetooth & play across devices.",
+      "id": "1282904",
+      "name": "Wally by Willow",
+      "name_zh": "Wally by Willow",
+      "tagline_zh": "Your Scribe agent that learns how you write",
+      "description_zh": "Meet Wally, your new Scribe agent in Willow. Chat by voice to draft an email/slack/ prompt, rewrite highlighted text and keep refining it in the same conversation. Wally uses your personal context and learns your writing style as you go back and forth.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/microsoft-xbox-series-s?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EAREDKT5V2YY67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/17820f30-5848-411a-9bac-c0ce513357f2.jpeg?auto=format",
-      "votes_count": 119,
+      "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PACLUWIXF3XULE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7edfd9e5-d305-47eb-9d37-36e776e670f1.jpeg?auto=format",
+      "votes_count": 138,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -217,19 +217,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 57e01964-b945-4b5b-97d8-d8c789fbf22a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 54e810ee-cb25-41dc-ad51-b5a6b81b9965)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1282576",
-      "name": "3AM Super Intelligence",
-      "name_zh": "3AM Super Intelligence",
-      "tagline_zh": "Production incidents: investigated, proven, fixed",
-      "description_zh": "Meet 3AM, the AI on-call engineer for systems you can’t rewrite. It finds the root cause, rehearses the fix, and resolves the incident with one tap in Slack, all from inside your network.",
+      "id": "1271076",
+      "name": "Beam",
+      "name_zh": "Beam",
+      "tagline_zh": "Highly efficient agentic 501B parameter open model",
+      "description_zh": "Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/3am-super-intelligence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PUH26LXS2WLDLX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4059fe3d-d7df-4b89-85bb-73f627b5368e.png?auto=format",
-      "votes_count": 103,
+      "url": "https://www.producthunt.com/products/beam-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EKSBMMH6A62RSY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0dde17f8-c940-4c42-a87d-862a08a2b948.png?auto=format",
+      "votes_count": 127,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -253,19 +253,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b70a490d-6677-4200-bd5a-eb27d8042a27)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 72c28278-1f36-4237-a8ea-b57ebe52e14a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1283357",
-      "name": "Tomo for ChatGPT",
-      "name_zh": "Tomo for ChatGPT",
-      "tagline_zh": "Ask anything. Then play it, Duolingo-style.",
-      "description_zh": "Ask ChatGPT for a Tomo course on black holes and a game drops into the chat. Quick questions, hearts on the line. Any topic, even the chat you’re in. Pick your teacher, from The Professor to The Pirate. Add Tomo from Plugins in ChatGPT. No sign-up to start.",
+      "id": "1280488",
+      "name": "buddylist",
+      "name_zh": "buddylist",
+      "tagline_zh": "Chat with your coding agents like it's 2005",
+      "description_zh": "A free desktop app for macOS (Apple Silicon), Windows and Linux that puts Claude Code, Codex, Gemini and OpenCode in an MSN-style buddy list. Use separate Git worktrees for separate jobs, or group-chat agents in a shared folder. Let them take turns, answer together or hand unfinished tasks to another agent. Review diffs, run terminals, preview your app and track PR checks beside the chat. Bring your own agent accounts; provider access and usage are separate.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/tomo-for-chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/B7PYM6TZUHFML4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/488580f2-96a0-4c03-84ec-417d3432ae58.png?auto=format",
-      "votes_count": 95,
+      "url": "https://www.producthunt.com/products/buddylist-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MU3NX4ZHCXFPBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/dd3095bc-34b6-4aed-ac6c-ecd37ac2738c.png?auto=format",
+      "votes_count": 123,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -289,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 032a68d0-67ae-439f-bfa2-4f458b6fa887)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f2d6890e-524b-4df5-a645-779ef68137bc)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1281580",
-      "name": "Bee Frontier and Bee Eclipse",
-      "name_zh": "Bee Frontier and Bee Eclipse",
-      "tagline_zh": "Amazon's personal AI memory, now on your wrist or phone",
-      "description_zh": "Bee Frontier and Bee Eclipse are Amazon's new personal AI devices that help you remember what matters. Frontier is a wearable for your wrist or clothing, while Eclipse attaches magnetically to your phone. Both capture conversations and turn them into useful summaries, reminders, and follow-ups without retaining audio recordings. With Alexa+ integration, your personal AI memory can help you recall important details and act on them later.",
+      "id": "1282616",
+      "name": "Framefields",
+      "name_zh": "Framefields",
+      "tagline_zh": "Open-source code-first video for AGI era",
+      "description_zh": "Framefields is a high-performance, code-first video engine powered by native WebGPU in Node.js. Built for AI agents and engineers, it replaces bulky creative suites with a single npm package: motion graphics, Photoshop-grade VFX, 3D scenes, and audio DSP. Zero Chromium or browser overhead—render deterministic, frame-accurate video and export hardware-accelerated MP4s directly from TypeScript.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WNZ6NFZTTN7MBD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f164daef-b6da-48b0-8662-e4c811e51337.jpeg?auto=format",
-      "votes_count": 93,
+      "url": "https://www.producthunt.com/products/framefields?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SVLMOG3GL4WKIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6a5362bf-f021-4467-b352-7787da2ce9b1.jpeg?auto=format",
+      "votes_count": 97,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -325,19 +325,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 75118a4d-dc26-4040-9da8-2c5bad3648b1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8c4c9fe4-9d36-404b-9194-d209fc2150b2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1278100",
-      "name": "Openbroca",
-      "name_zh": "Openbroca",
-      "tagline_zh": "Lightweight AI dictation for Mac that sounds like you",
-      "description_zh": "Openbroca is a native Swift AI dictation app for Mac, with a ~6.5 MB download. Press a shortcut, speak naturally, and get clean text right where you're typing. It removes fillers and repetition while keeping your meaning and tone, with no prompt tweaking. Includes a personal dictionary that learns from corrections, Typeless dictionary import, and translation into 28 languages. All features are free to try.",
+      "id": "1282153",
+      "name": "Lazy AWS",
+      "name_zh": "Lazy AWS",
+      "tagline_zh": "A keyboard-driven home for your AWS resources",
+      "description_zh": "Your AWS resources. One terminal. Browse, inspect, and run confirmed AWS CLI actions without leaving your keyboard.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openbroca?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BLEYUJP5LFNQCX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/46e1376a-116e-47f1-810f-8329e6dd8344.jpeg?auto=format",
-      "votes_count": 92,
+      "url": "https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7GT5YPN2WVDBEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e78a4962-b956-4e60-9758-4832566db0a4.jpeg?auto=format",
+      "votes_count": 96,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -361,7 +361,7 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8099f8cd-efc4-4bb2-835c-1927937f6fb1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d9efd42c-f78a-4d1a-baa4-fe7c3765785b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   ]
 }
