@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-22",
-  "generated_at": "2026-10-23T20:29:09+08:00",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-24T19:54:09+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1286749",
-      "name": "DeepCell",
-      "name_zh": "DeepCell",
-      "tagline_zh": "Your deadline survival kit for office work",
-      "description_zh": "Deepcell can help you with deadline tasks that require narrations, calculation and presentation at the same time, such as modeling, sales review, budget forecast and monthly report. DeepCell (both web app and agent plug-in) can create ready-to-use docs, spreadsheets, and slides—with sources and cheat sheets to help you explain. Furthermore, every edit can update related parts. The product is built on a newly designed document format (.deepcell), which is especially designed for system two tasks.",
+      "id": "1289897",
+      "name": "Product Hunt Visual Launch Editor",
+      "name_zh": "Product Hunt Visual Launch Editor",
+      "tagline_zh": "See your launch as you build it",
+      "description_zh": "See your Product Hunt launch come to life as you build it! The new visual editor lets you edit your launch in fewer steps while while automatically saving your draft. You can simply click the name, tagline, gallery or makers to edit them in place. A checklist shows what's required and what will help your launch stand out, and clicking a checklist item will take you straight to the field that needs work. Drafts, scheduled launches and live launches now all use the same editor.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/deepcell?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QQW4YFA2J3HRIM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4213bd09-4a21-4aa1-9b09-259b899ddfba.jpeg?auto=format",
-      "votes_count": 336,
+      "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Y7DEMV6KEGC3FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/63e7224f-3120-4869-b8c5-6aca2a63c623.jpeg?auto=format",
+      "votes_count": 402,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c5789019-f487-442f-9925-d3189dd15747)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: bd9c9534-2c7c-4a04-9a32-6c946574364d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1288350",
-      "name": "Claude Duet",
-      "name_zh": "Claude Duet",
-      "tagline_zh": "Proactive agent that understands what needs your attention",
-      "description_zh": "Claude Duet is a helpful, proactive agent you hand off work to through messages. Tell it what you need and it works on its own computer in the cloud, using apps you connect. It messages you when it is done or needs a decision from you. While it’s always on, it uses good judgment when it reaches out and knows what can wait.",
+      "id": "1255211",
+      "name": "MOVO AI",
+      "name_zh": "MOVO AI",
+      "tagline_zh": "The world's first long-form video agent for mobile",
+      "description_zh": "MOVO AI is the world’s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want. MOVO plans, creates, refines, keeps characters and scenes consistent, and brings the whole video together. Lock your phone and MOVO keeps working. Come back to review or make changes through chat. No prompt gymnastics. No canvas-heavy workflows. No manual clip stitching.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/E2X5OB7ZYY7LBL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6d3b0b35-8b8f-4795-b175-5e093770e0aa.jpeg?auto=format",
-      "votes_count": 317,
+      "url": "https://www.producthunt.com/products/movo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JXYZH5BXNMIBOM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c0db1ecf-ccf4-4006-accb-51767a6064fc.jpeg?auto=format",
+      "votes_count": 291,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,18 +73,18 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 42cd4485-3d97-42e0-b874-74fe93a77d15)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9628f6b3-6bea-4fbe-8077-0f8466b1daaf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1274632",
-      "name": "Doneas",
-      "name_zh": "Doneas",
-      "tagline_zh": "A daily accountability call with other entrepreneurs.",
-      "description_zh": "Doneas helps solo builders stay focused, accountable, and productive. Plan your week every Monday, join a 15-minute daily accountability call with five other builders, and track everything you ship on your public progress page. Plan less. Focus better. Ship more.",
+      "id": "1289806",
+      "name": "Agent Hunt",
+      "name_zh": "Agent Hunt",
+      "tagline_zh": "Live rankings of the tools AI agents use most",
+      "description_zh": "Agent Hunt is a live leaderboard of the tools AI agents actually use. Every place is earned by real calls agents make through Monid.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/doneas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AIRL3T6NP757FV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bcb1de90-07a1-48ff-ad06-1bd0107f5b98.jpeg?auto=format",
+      "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VX6RX4U6IBXRW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7fb51944-90bc-4a7d-8f7e-aad102e79bfb.jpeg?auto=format",
       "votes_count": 258,
       "scores": {
         "video_suitability": {
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 13dfdb13-46cf-4e80-9484-0bd6e0b5a68c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d485371f-278c-4dc6-b925-007815252ac8)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1266852",
-      "name": "heal.dev",
-      "name_zh": "heal.dev",
-      "tagline_zh": "Find bugs and vulnerabilities code review misses",
-      "description_zh": "Code review catches what’s wrong in a diff. Heal catches what breaks when the app runs. Heal learns how to run your application, builds a production-like sandbox with external services stubbed, then hunts for bugs, performance regressions, and runtime vulnerabilities users would hit. It reproduces every defect before reporting it, so you get real bugs to fix, not a backlog of AI-generated suspicions.",
+      "id": "1273697",
+      "name": "Ovren Live Preview",
+      "name_zh": "Ovren Live Preview",
+      "tagline_zh": "See your product change live before it ships",
+      "description_zh": "Describe a change in plain words. Ovren writes the code on a safe copy of your project and gives you a live preview of every frontend change — your real page, with the change on it. Click through it, approve it, and your team merges the pull request.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/heal-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HQTQB26MJAPQTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a104fe36-4bbe-41de-8625-9c6ebc487e09.png?auto=format",
-      "votes_count": 242,
+      "url": "https://www.producthunt.com/products/ovren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GZYWZ6Z6BGE5RV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4608a2ed-db7f-4c71-a72c-e630937fee3d.jpeg?auto=format",
+      "votes_count": 190,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4be6d155-c0a0-41a9-a660-6ab94bfa9759)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: db45dcdb-b513-402e-a1b0-007bcf0a51ae)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1286858",
-      "name": "Mistral Voxtral 3",
-      "name_zh": "Mistral Voxtral 3",
-      "tagline_zh": "Mistral’s speech models for transcription, TTS and agents",
-      "description_zh": "Voxtral 3 is Mistral’s new family of speech-to-text and text-to-speech models, plus a voice agent SDK built on LiveKit. Transcription covers 50+ languages with diarization and context biasing, and realtime transcription runs under 500ms. TTS adapts emotion and pacing, with voice cloning from 30+ minutes of audio. Batch transcription starts at $0.0035 per minute, and the models are available through Mistral’s API.",
+      "id": "1286735",
+      "name": "ElevenLabs Realtime",
+      "name_zh": "ElevenLabs Realtime",
+      "tagline_zh": "Realtime voice agent models with 570ms to first audio",
+      "description_zh": "Eleven Realtime is ElevenLabs’ new family of speech-to-speech models for voice agents. Speech recognition, turn-taking, the LLM and the voice are tuned end-to-end. v1 Mini is built for natural conversation, v1 Max for complex tasks, with 620ms and 570ms to first audio. It supports 90+ languages and works in ElevenAgents or through an OpenAI-compatible Realtime API, so you only change the endpoint and model name.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5EIBXLSLSKO5BV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c38dad27-215c-4344-9b17-5f16df25d01f.png?auto=format",
-      "votes_count": 210,
+      "url": "https://www.producthunt.com/products/realtime-max-mini?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/J2VB5S23Y57R7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4b26b4a9-9f7c-4a44-bcdf-2c6d0acff218.webp?auto=format",
+      "votes_count": 183,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,19 +181,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 49de9636-dd57-45f1-ab57-f2bbf1967fb3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 95b7ac86-aba4-49d4-83b6-c6ab54ec09b9)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1280966",
-      "name": "Fastlane 2.0",
-      "name_zh": "Fastlane 2.0",
-      "tagline_zh": "Create, launch and scale winning ads with AI",
-      "description_zh": "Meet Fastlane 2.0 - your next winning ad, on autopilot. What started as a simple AI organic content creation tool now runs your paid marketing end to end. Enter your website and Fastlane learns your brand, researches competitors and finds what's working. It creates high-quality AI video and image ads, runs Meta campaigns and publishes content across TikTok, Instagram and YouTube. Then it studies results, doubles down on winners and uses those learnings to build smarter campaigns every time.",
+      "id": "1289925",
+      "name": "ShogunAI",
+      "name_zh": "ShogunAI",
+      "tagline_zh": "Your personal AGI on your pc",
+      "description_zh": "An AI assistant that remembers your work and helps with meeting prep, search, writing and follow-ups. Try ShogunAI for Mac free for 7 days.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/fastlane-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/F336CZV4PLEFYY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3f532d3f-2551-4a42-b6e2-263c85d8b688.png?auto=format",
-      "votes_count": 178,
+      "url": "https://www.producthunt.com/products/shogunai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WGEUVK2HDK6FM6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3e47fa9a-cad9-472e-9e54-0112262675b3.jpeg?auto=format",
+      "votes_count": 153,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -217,19 +217,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 6bfa7801-db5e-4d01-a69a-c810612f27a0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: eb00ec9e-0094-4a59-93b2-f878b1a60544)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275115",
-      "name": "Loom Record for agents",
-      "name_zh": "Loom Record for agents",
-      "tagline_zh": "Hit record and hand off to AI, now in the new Loom app",
-      "description_zh": "Record your screen, a meeting, yourself and now…record for agents. No more typing out prompts to explain what's on your screen to agents. Capture video, audio, and on-screen actions, turning everyday walkthroughs into agent-ready prompts any AI tool can act on. Built natively into the reimagined, faster Loom for Mac app with precision area recording, new cam shapes, filters, backgrounds, and 4K capture by default. Give your AI agents the full picture. Also available in the Chrome extension.",
+      "id": "1285865",
+      "name": "FLUX 3 Max",
+      "name_zh": "FLUX 3 Max",
+      "tagline_zh": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds",
+      "description_zh": "FLUX 3 Max is fal’s post-trained text-to-video and image-to-video model, built with Black Forest Labs on the FLUX 3 base. fal says it generates a 10-second 720p clip in about 12 seconds, around 10x faster than FLUX 3. It is tied for #1 on a preliminary Artificial Analysis image-to-video board. Pricing is $0.0425 per second of video through November 7 (list $0.17), with a playground and API.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/loom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CEC7O36EG5BZTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b00c77ed-aed9-4d8a-b9fa-da4735ee8c30.png?auto=format",
-      "votes_count": 139,
+      "url": "https://www.producthunt.com/products/fal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H7WZJVJO5LJCXF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6bbef86c-ed98-4f44-a379-15ec0574b38e.webp?auto=format",
+      "votes_count": 131,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -253,54 +253,18 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2342a85c-0889-484f-9c69-8990ee1d8470)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 741dbf60-c630-4dd0-b4b0-f09663bb738c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1275489",
-      "name": "CutBay",
-      "name_zh": "CutBay",
-      "tagline_zh": "AI Video Agent: Turn Anything into Videos via Chat",
-      "description_zh": "CutBay is an AI video agent that turns anything into videos via chat. Instead of manually editing timelines, users simply describe what they want, and CutBay handles planning, scripting, visuals, voiceovers, subtitles, and editing. It creates videos from prompts, URLs, docs, PDFs, presentations, spreadsheets, and media assets, then refines them through natural conversation. Professional video creation, as easy as having a conversation.",
+      "id": "1287301",
+      "name": "Cloudflare Clairic",
+      "name_zh": "Cloudflare Clairic",
+      "tagline_zh": "Cloudflare's AI model for fast, cheap data extraction",
+      "description_zh": "Clairic is Cloudflare's new AI model for extracting structured information without generating tokens. Give it messy text or images, and it returns typed values like names, dates, amounts, calculations, and estimates in a single pass, with confidence scores. Built for developers who need faster, cheaper data processing than traditional LLM calls. Available in preview on Workers AI at $0.10 per million input tokens, with open weights planned.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/cutbay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/NHJ3TS2JQSOSXM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/dbd22bcf-e7ae-46d4-a2ae-38a42488fb28.jpeg?auto=format",
-      "votes_count": 136,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d061469d-f611-4d1b-a25f-61fca50ee605)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1286573",
-      "name": "Dadan",
-      "name_zh": "Dadan",
-      "tagline_zh": "One AI video workspace for recordings, meetings and guides",
-      "description_zh": "Most teams juggle one tool for async video, another for meeting notes, and a third for how-to docs. Dadan brings all three together, then goes further: make any video interactive with polls, CTAs, and lead forms that turn viewers into signups. Built for sales, marketing, and customer success teams creating demos, onboarding, and training content. Product Hunt offer: 3 months free on PRO with code PRODUCTHUNT",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/dadan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LAK7P6T2QU7ORA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/fbe6fb71-545c-4481-afa7-6e1a650c1c01.jpeg?auto=format",
+      "url": "https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/A6H4RT6E667XWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1b751f0a-6758-4390-aecb-b2656a8d2e8a.png?auto=format",
       "votes_count": 129,
       "scores": {
         "video_suitability": {
@@ -325,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b599b209-abb3-4246-8f10-7fa288866b68)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: df653910-0e71-4296-a3b7-b47fb2593dc5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     {
-      "id": "1288711",
-      "name": "Resend Inboxes",
-      "name_zh": "Resend Inboxes",
-      "tagline_zh": "Create shared inboxes, connect your agents, build workflows",
-      "description_zh": "The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.",
+      "id": "1285258",
+      "name": "Context Engine",
+      "name_zh": "Context Engine",
+      "tagline_zh": "One memory for your AI agents and human team members.",
+      "description_zh": "Context Engine is one memory for your AI agents and your team. Claude, ChatGPT, Cursor and Claude Code save to it as they work, and the people on your team read it, ask it questions and add files. Free to start.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/resend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TY5AGUVHIXOZXC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2863d339-1fb2-4088-8ba0-826e6cf32a13.jpeg?auto=format",
-      "votes_count": 120,
+      "url": "https://www.producthunt.com/products/context-engine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MJ2TTPRLW354IS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6d2a5bbb-42bb-4576-89f9-50d5c201386c.png?auto=format",
+      "votes_count": 108,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -361,7 +325,43 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3eabe520-4462-4cfa-badc-81f9c3f5142f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 20849211-1658-4765-9d36-3b4a88a17947)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "id": "1286515",
+      "name": "Dub Startup Program",
+      "name_zh": "Dub Startup Program",
+      "tagline_zh": "Launch your partner-led growth program",
+      "description_zh": "Launch your partner program, track every referral, and reward the people helping you grow. Get 50% off your first year of Dub.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/dub?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4BOWHNSPRGHOFP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/97560ae7-d1d8-418d-a77e-7211b3712311.jpeg?auto=format",
+      "votes_count": 103,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 286a7f88-f27d-4dad-8e2b-882f7a4bb9d5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   ]
 }
