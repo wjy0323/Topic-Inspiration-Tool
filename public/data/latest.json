@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-27",
-  "generated_at": "2026-10-28T21:53:41+08:00",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-29T21:59:28+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1282708",
-      "name": "TheySaid 4.0",
-      "name_zh": "TheySaid 4.0",
-      "tagline_zh": "See how users will react, right where you build.",
-      "description_zh": "Put what you’re building in front of real customers or synthetic users trained on them when you need an answer in minutes without leaving Claude, Cursor, or Jira. Nothing ships on a guess.",
+      "id": "1295250",
+      "name": "Dedica",
+      "name_zh": "Dedica",
+      "tagline_zh": "Check if AI agents can use your website",
+      "description_zh": "Dedica tests your website the way AI agents use it, then gives your team a fix for every place they fail. Muse, Instinct, GrokBot and other agents now browse, compare and sign up on people's behalf. Dedica runs 125 checks (for free) to see if they can use your site, and gives you a fix for every issue to hand to your coding agent.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/theysaid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/FIY7DCKNBRL5M2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/98da82eb-4125-44b2-86d1-2b2cab867ebb.jpeg?auto=format",
-      "votes_count": 361,
+      "url": "https://www.producthunt.com/products/dedica?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SMFJH4J7K55FL4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/17001014-4632-4629-bfd5-c838f9da73f8.jpeg?auto=format",
+      "votes_count": 299,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 73b21db8-ccbd-47fc-b06a-684f5b79e36f)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 41e9996c-0287-4a2d-9490-f274533e402f)"
     },
     {
-      "id": "1271668",
-      "name": "Overmind",
-      "name_zh": "Overmind",
-      "tagline_zh": "Open-source platform for continuous learning",
-      "description_zh": "Overmind is the model training platform for AI teams. Turn your production traces into specialised models you own, trained, benchmarked, and served.",
+      "id": "1287824",
+      "name": "bytemail",
+      "name_zh": "bytemail",
+      "tagline_zh": "Native Mac email: every inbox, in your notch, no trackers",
+      "description_zh": "bytemail is a native Mac email app built in Swift. Gmail, iCloud, Outlook, Yahoo, Fastmail and any IMAP account in one fast window. New mail and sign-in codes grow out of your MacBook's notch, Undo Send flies a paper plane through it, and desktop widgets show what's unread. Tracking pixels are blocked, look-alike senders flagged, and your mail never touches our servers. Snooze, rules, one-click unsubscribe, and an MCP server for Claude and other AI apps. iPhone beta included. 7-day free trial.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/overmind-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/H5DIPWPHSZEZY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6582e15a-748c-411d-9fa7-bc00037ae9dd.jpeg?auto=format",
-      "votes_count": 296,
+      "url": "https://www.producthunt.com/products/bytemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KKQJJZQQWWTXZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5297ffd3-a887-4b86-bcfa-242d8d96c2c6.jpeg?auto=format",
+      "votes_count": 291,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,19 +73,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4e7a6e36-1bd8-4a11-b164-454a2084a4b0)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 32422083-6bc3-4525-a799-abe21aed31db)"
     },
     {
-      "id": "1289807",
-      "name": "Spacesheep",
-      "name_zh": "Spacesheep",
-      "tagline_zh": "Documents of the future, made by AI, read by your team",
-      "description_zh": "Spacesheep (YC F26) turns any agent's work into a space: an interactive doc, live dashboard, mockup or app. Share it with specific people, your team or publicly, and collaborate on it together.",
+      "id": "1281746",
+      "name": "BotGauge",
+      "name_zh": "BotGauge",
+      "tagline_zh": "The trust layer for your agents ",
+      "description_zh": "AI agents don't just generate answers anymore. They take actions, call tools, and access real data. BotGauge helps engineering teams find where agents break before users do. Run adaptive red-team attacks and evals, catch security and behavioral failures, and replay every issue with full traces. Turn failures into regression tests, continuously retest as your agents evolve, and monitor their behavior in production. One reliability layer from development to deployment.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/spacesheep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RYFIJ64JQDF4MI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ea50373d-dd1d-4dc9-bfe2-94aa0f45530f.jpeg?auto=format",
-      "votes_count": 248,
+      "url": "https://www.producthunt.com/products/botgauge-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QSDCJZKJUIFLGU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e8615952-8abe-443e-be1c-501721d2cb85.jpeg?auto=format",
+      "votes_count": 250,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 799eeb49-0711-4574-ab6c-894592fab71b)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c3571f5a-92af-4ad2-9580-4f027487b083)"
     },
     {
-      "id": "1280377",
-      "name": "Orbit",
-      "name_zh": "Orbit",
-      "tagline_zh": "Stop doomscrolling. Earn every app unlock.",
-      "description_zh": "Doomscrolling is free. Orbit makes it cost something. Pick a schedule and your apps lock themselves. Want back in early? Earn it: hold the orb, do squats, ask a friend, pay a little more each time, or win a shift at The Gate. Most times, you’ll stay out.",
+      "id": "1290434",
+      "name": "Fraud Blocker",
+      "name_zh": "Fraud Blocker",
+      "tagline_zh": "AI ad fraud protection for Google and Meta ads",
+      "description_zh": "Fraud Blocker is an AI-powered platform that blocks invalid ad traffic from bots, click farms, and AI agents, ensuring enterprises, marketers, and agencies pay only for real clicks and genuine leads. It uses AI agents trained on billions of clicks and IPs to identify sophisticated invalid traffic that traditional filters miss, then explains why each click or IP was blocked. This helps protect budgets, improve conversion quality, and reduce wasted ad spend.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/orbit-app-blocker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YSIXNXJ4YVELYS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e57180b2-cefc-4d07-ad86-a3aca405c0ec.png?auto=format",
-      "votes_count": 224,
+      "url": "https://www.producthunt.com/products/fraud-blocker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KLAMYKYCPTEVYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/71323e0d-147a-42b8-a85a-62906afb4bdc.png?auto=format",
+      "votes_count": 230,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 280f06ba-bc58-4ded-9ea2-83299d36a1ec)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c9bf2a03-4c48-48a6-ab62-51b259820326)"
     },
     {
-      "id": "1248682",
-      "name": "SavorApp_AI",
-      "name_zh": "SavorApp_AI",
-      "tagline_zh": "Capture what matters and move your intentions forward",
-      "description_zh": "Savor is an Intention Layer™ for thoughts that never reach your to-do list. Speak, type, or snap a photo to create a clear card in Now, Soon, or Later. Reminders bring it back when it matters. Take Action (Beta) helps you explore options, build a plan or list, and draft words you can use. Review and adjust as you go. Hand off a card or a single step, with a private chat for context. You decide what happens next. Free on iOS and Android.",
+      "id": "1200683",
+      "name": "Tulu",
+      "name_zh": "Tulu",
+      "tagline_zh": "Autonomous marketing operations & analytics for SMBs",
+      "description_zh": "Say ta-ta to manual work, and get the right answers without messing with UTMs, spreadsheets or...anything else. See where marketing spend produces revenue, and get alerts straight to WhatsApp when something actually needs your attention. Integrate offline spend, share views to align the entire team, and finally stop guessing with your budget. Get to the insights that matter, so you can decide exactly where to put your next euro.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/savor-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CFSOIVTYQNWNGC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5ddebd7e-4207-42d6-b010-b23ad03d8415.png?auto=format",
-      "votes_count": 170,
+      "url": "https://www.producthunt.com/products/tulu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6OKRX6JA5BJRJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d624423f-6617-4157-89a2-6bb270d3af94.jpeg?auto=format",
+      "votes_count": 181,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,19 +181,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 6b78121f-f556-4e04-bac5-b64785dd971a)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 58a594a7-49ec-4ed5-a945-b2cd0a565764)"
     },
     {
-      "id": "1290712",
-      "name": "Notra",
-      "name_zh": "Notra",
-      "tagline_zh": "Notra is a GEO tool that helps you rank in AI Search.",
-      "description_zh": "Notra is a GEO tool that asks ChatGPT, Claude and Gemini the questions your buyers ask. It shows whether you appear, who appears instead and how to fix it.",
+      "id": "1282332",
+      "name": "Trigger.dev: Webhooks for your AI agents",
+      "name_zh": "Trigger.dev: Webhooks for your AI agents",
+      "tagline_zh": "Run AI agents with Slack, Supabase and 50+ other services",
+      "description_zh": "Trigger.dev Webhooks let you build AI agents on top of the services your customers already use, like Slack, Supabase and Stripe. A GitHub pull request can start a code review agent, a new Sentry issue can start an agent that writes the fix, and a Stripe refund can wait for a human to approve it in Slack.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/notra-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GWXNGB4WPOXZYO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f2adf941-b6a5-4e50-9568-55fd2071c7c9.png?auto=format",
-      "votes_count": 148,
+      "url": "https://www.producthunt.com/products/trigger-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3EFM4NPQQEMV32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/93544332-f66f-4b84-9d21-04faddcf055e.jpeg?auto=format",
+      "votes_count": 145,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -217,19 +217,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 23459fe7-6751-46da-aa64-2e448d828b57)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: de419198-fc29-418e-8d4d-5bda3e226742)"
     },
     {
-      "id": "1293789",
-      "name": "Nuvio 5.0",
-      "name_zh": "Nuvio 5.0",
-      "tagline_zh": "Hand your financial admin to your AI agent",
-      "description_zh": "Automate invoicing, expenses and reconciliation. Ask Nuvio’s assistant to do the work, or connect ChatGPT, Claude or your own AI agent. We’re also adding bookkeeping and tax services with accountants who already know Nuvio.",
+      "id": "1294903",
+      "name": "LFM3 by Liquid AI",
+      "name_zh": "LFM3 by Liquid AI",
+      "tagline_zh": "Six 2B-class models for phones, laptops and robots",
+      "description_zh": "LFM3 is Liquid AI’s third generation of Liquid Foundation Models, with open weights and a shared backbone across text, vision, audio, omni and decision models. The first release is six 2B-class models, including a 1.7B text model that fits in about 1 GB at 4-bit and has a 256K context. Liquid says they run on phones, laptops and edge devices and can be fine-tuned on one GPU. Weights are on Hugging Face.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/nuvio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HA2UYVF4I2W5ZE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/dca54ba8-66be-428d-8c66-fb1ac058c535.jpeg?auto=format",
-      "votes_count": 123,
+      "url": "https://www.producthunt.com/products/lfm2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YIAE2QFH3EFXKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cbb965a0-cb94-44a6-8e63-59ad97cb77da.jpeg?auto=format",
+      "votes_count": 134,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -253,54 +253,18 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: eca14ad4-91e5-4cba-be71-328b4f37c96b)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 5345511f-faa0-4177-9c8b-2202e8ab061e)"
     },
     {
-      "id": "1293889",
-      "name": "PulseDev",
-      "name_zh": "PulseDev",
-      "tagline_zh": "Click any UI bug on localhost and your AI agent fixes it",
-      "description_zh": "Stop describing UI bugs to your AI. Click any element on your localhost site, say what's wrong, and Claude Code, Codex, Gemini or OpenCode edits the right file. Watch it work live, then approve the diff on the page. Nothing is written until you do.",
+      "id": "1269164",
+      "name": "App Store Screenshots",
+      "name_zh": "App Store Screenshots",
+      "tagline_zh": "Your coding agent designs your app store screenshots",
+      "description_zh": "A free, open-source skill for Claude Code, Codex, and Cursor. Give your agent your app captures and a short brief, and it builds a local screenshot editor in your project. Choose from 18 styles, compare looks in Style Lab, edit the copy, and export every size for iPhone, iPad, Mac, and Android, in multiple languages. No screenshot subscription. It runs locally; your usual agent costs apply. Install: npx skills add ParthJadhav/app-store-screenshots",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/pulsedev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JCKGVWV6YEG6JR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b65acb59-3f4d-45ea-a247-309514062bc0.png?auto=format",
-      "votes_count": 116,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 41ca5410-a277-4339-a364-660c2b30f979)"
-    },
-    {
-      "id": "1293470",
-      "name": "iPad mini 8",
-      "name_zh": "iPad mini 8",
-      "tagline_zh": "OLED, A20 Pro and IP67 in Apple's smallest iPad",
-      "description_zh": "The all new iPad mini. Featuring the 8.5-inch Super Retina XDR display with OLED, A20 Pro chip, Apple Intelligence and Siri AI. Supports Apple Pencil.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Z7ZERMZNXQEGIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2e6e9295-06fe-4d0f-bbd5-d00a575d0f38.jpeg?auto=format",
+      "url": "https://www.producthunt.com/products/app-store-screenshots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MMLYDUYT2RHFD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/00d6ab96-4c61-4ba5-98e6-5e90a88860a0.png?auto=format",
       "votes_count": 115,
       "scores": {
         "video_suitability": {
@@ -325,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4ea97fb2-70f1-41da-85d7-684102fd2e1d)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 18cbeda4-c0d4-4a72-a20e-8d98daf0153d)"
     },
     {
-      "id": "1293408",
-      "name": "Arcade Controller Pro",
-      "name_zh": "Arcade Controller Pro",
-      "tagline_zh": "A fight controller with no stick and its own screen",
-      "description_zh": "A customizable all-button arcade controller with a compact layout, built-in display, hot-swappable switches, RGB lighting, and a magnetic wrist rest.",
+      "id": "1294823",
+      "name": "Genie 4",
+      "name_zh": "Genie 4",
+      "tagline_zh": "Turn a prompt into a living world you can steer",
+      "description_zh": "Genie 4 is Google DeepMind’s new real-time world model for creators, game developers and AI researchers. Unlike video generators that hand you a finished clip, Genie 4 builds a world you walk through with your keyboard and steer with text as it runs: change the weather, add a character, set an event in motion. It generates native audio and live dialogue, simulates physics and natural human motion, and uses Gemini to keep scenes coherent. Research preview, waitlist open now.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/bluetooth-snes-controller?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LOAER4AZB7SWDP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4cffc066-6521-415f-b69b-0323acfb4ac9.jpeg?auto=format",
-      "votes_count": 110,
+      "url": "https://www.producthunt.com/products/gemini-1-5-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LQRWKQDQ6UWMRQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/af519a91-ce9a-45de-a822-22359f11e271.png?auto=format",
+      "votes_count": 113,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -361,7 +325,43 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 99833842-784e-44ca-bdd2-2cf9147ff25c)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4fd5592e-eb55-42f3-8786-e173c890f920)"
+    },
+    {
+      "id": "1276545",
+      "name": "Zro: Uncensored Security Models",
+      "name_zh": "Zro: Uncensored Security Models",
+      "tagline_zh": "Abliterated open models for security work",
+      "description_zh": "Security research often involves questions that general-purpose models refuse Meet Dolly 1 Security and Dolly 2 Security, uncensored variants of GLM-5.3 Flash and GLM-5.3 for defensive testing and red-team workflows. Run them through the Zro API or CLI with zero request retention. Since our July launch, we’ve also added new models, agent integrations, yearly plans, and referrals.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/zro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7N6PVVLDFD3TXQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ad9ef8ae-058a-443d-b611-cbe4bcbdbe51.png?auto=format",
+      "votes_count": 108,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 01763526-5d9b-4367-b0ad-0de2fc97461f)"
     }
   ]
 }
