@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-11-01T22:07:40+08:00",
+  "generation_error": true,
+  "products": [
+    {
+      "id": "1284558",
+      "name": "Specsight",
+      "name_zh": "Specsight",
+      "tagline_zh": "Product observability for teams shipping fast with AI",
+      "description_zh": "Shipping fast with AI? Specsight turns code changes into a living product map, feature knowledge, and clear release updates. Keep Product, Sales, and Support in sync with what your software actually does and what changed.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/U5MK5YLVIQ7YIM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7a1c5725-8db5-43ac-9653-354383b1a3f0.png?auto=format",
+      "votes_count": 308,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 6b2e1c21-6a50-4abb-a1ad-542900e70d91)"
+    },
+    {
+      "id": "1298139",
+      "name": "SKI",
+      "name_zh": "SKI",
+      "tagline_zh": "Voice-first coding harness ",
+      "description_zh": "Talk to your coding agents and hear them talk back. SKI runs Claude Code, Codex, Cursor, OpenCode, Antigravity and pi side by side on your Mac, and tells you the moment one needs you.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YRTZMFLGRKJM3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9cbc7a28-bd42-4a93-bb1c-32cbecaf5167.png?auto=format",
+      "votes_count": 289,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 72be58a6-3578-4c77-b42f-8d60f4dbb4be)"
+    },
+    {
+      "id": "1296505",
+      "name": "telemetry.dev",
+      "name_zh": "telemetry.dev",
+      "tagline_zh": "LLM observability for AI agents",
+      "description_zh": "telemetry.dev shows each run of your AI agent as one trace. Each model call and tool call is a span with its duration, tokens, cost, and error. Prompts and evals use the same traces: change a prompt without a deploy, then run it on a dataset and compare the scores with production. Alerts tell you about errors, cost spikes, and agent loops. Connect with our TypeScript or Python SDK, or with the OpenTelemetry exporter that you already use.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/telemetry-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DROUHCHKOTIAJV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f4967885-c088-4095-af88-59e9d7d59c8c.png?auto=format",
+      "votes_count": 236,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: d9d9b485-376b-4bdf-b4b6-50dd5df0d7ad)"
+    },
+    {
+      "id": "1297694",
+      "name": "Backenly",
+      "name_zh": "Backenly",
+      "tagline_zh": "The autonomous backend for AI coding agents",
+      "description_zh": "Backenly is an autonomous backend platform built for coding agents. Your agent builds the backend over MCP, from Postgres to sign-in, storage, functions and realtime. Then it maintains itself: every minute a self-healing loop repairs missing indexes, RLS gaps and dead realtime triggers, verifying each fix live. As your app grows, it restructures its own schema once you approve. Risky changes wait for you, and every change is versioned with rollback.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/backenly-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KRKHMHKQW6VVDT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d8c5e11a-e42c-4763-b423-9f62bcc5d2e0.png?auto=format",
+      "votes_count": 151,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 45df2cd5-e449-42cf-9551-7762d88ce53a)"
+    },
+    {
+      "id": "1257960",
+      "name": "WinnerAdSpy",
+      "name_zh": "WinnerAdSpy",
+      "tagline_zh": "Turn competitor ad insights into winning app campaigns",
+      "description_zh": "Winneradspy is an ad creative intelligence platform built specifically for mobile app and game marketers. Explore 20M+ ad creatives across 200K+ apps, uncover winning hooks, visuals, messaging and CTAs, and track competitor campaigns with real-time alerts. Unlike generic ad spy tools, it scores creatives as Winner, Loser or Learning, helping UA managers, growth teams and agencies understand what works and build better campaigns. Query ad insights through ChatGPT, Claude or Gemini via MCP.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/winneradspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H7UZRHUBGPTV43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b7d425ef-6fb2-418e-b45c-9e57ad5f61dc.jpeg?auto=format",
+      "votes_count": 146,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 3176478d-3a2a-4877-8277-9b1d46b06671)"
+    },
+    {
+      "id": "1293442",
+      "name": "LumaFold: Screen Light",
+      "name_zh": "LumaFold: Screen Light",
+      "tagline_zh": "Makeup Mirror & Color Effects for iPhone Duo",
+      "description_zh": "Make your iPhone Duo screen a creative studio with adjustable screen lighting, a live makeup mirror, color animations, and personal photo displays. LumaFold lets you use two screen areas differently. Light your face while checking your makeup, pair two colors for a creative shot, or combine a favorite photo with a handwritten message. LIGHT FOR YOUR BEAUTY ROUTINE Use the live camera mirror on one side and adjustable light on the other.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/lumafold-screen-light?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZA6XBNIZ4JR2HT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0f615813-b1f2-4cf4-889a-1949ea2eb9b7.jpeg?auto=format",
+      "votes_count": 142,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 577a5456-ecce-4804-87c0-ca7f569deed8)"
+    },
+    {
+      "id": "1298856",
+      "name": "Secret Key",
+      "name_zh": "Secret Key",
+      "tagline_zh": "Let your family unlock your passwords if you can't",
+      "description_zh": "Open-source, self-hosted emergency access for your password database. Split the master password into pieces for people you trust (e.g. any 3 of 5 unlock it). Access needs SMS verification and a 48-hour delay you can cancel with one click.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/secret-key?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WTAFE2IZ2IA2LC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9c115d74-3ac8-41c2-b000-7dd8b01cabd4.jpeg?auto=format",
+      "votes_count": 100,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 66199abf-01cc-4323-81c8-86bfb30944db)"
+    },
+    {
+      "id": "1295778",
+      "name": "Knucklebop",
+      "name_zh": "Knucklebop",
+      "tagline_zh": "tap your palm rest to control your Mac",
+      "description_zh": "Tap twice to mute your mic in any meeting. Three times to play music. Four for a menu of anything.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/knucklebop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H5N3EEFTIU23VR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/76683696-1f50-4c2d-8f21-6d20191acb1b.jpeg?auto=format",
+      "votes_count": 98,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 679a35f7-50e3-4c71-8613-f0bc9c0be2bc)"
+    },
+    {
+      "id": "1296734",
+      "name": "GitHub Copilot Fusion",
+      "name_zh": "GitHub Copilot Fusion",
+      "tagline_zh": "GitHub's AI coding agent that picks and combines models",
+      "description_zh": "GitHub Copilot Fusion takes the guesswork out of choosing AI models for coding. Instead of picking one model, Fusion automatically routes each task to suitable models and combines them when needed. One model can write code while another reviews or improves it. Choose Standard, High, or Max effort to balance speed, quality, and cost. Available across GitHub Copilot plans in VS Code, Copilot CLI, the Copilot app, and JetBrains IDEs.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/github-copilot-fusion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/72K5GZ4MAY5NR2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9d3be44b-b0d5-4737-9f81-e1ea08e6bb03.png?auto=format",
+      "votes_count": 98,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 62df2db9-ee94-413c-a20c-f9dc1e495410)"
+    },
+    {
+      "id": "1297499",
+      "name": "BaseTab AI",
+      "name_zh": "BaseTab AI",
+      "tagline_zh": "Turn your new tab into an AI-powered workspace",
+      "description_zh": "BaseTab turns your browser's empty new tab into a dashboard you arrange yourself. Drag in 30+ widgets: notes, to-dos, Kanban, Pomodoro, bookmarks, weather, Google Calendar, Gmail, and chat with Claude, ChatGPT or Gemini. Missing a widget? Describe it in plain words and AI builds it for you. Keep separate workspaces for work and life, share one with your team, and pick a background that feels like home. Free forever, works without an account, and asks for site access only when a widget needs it.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/basetab-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QB7Y6PQIK5VVUN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/824932f4-dbe5-4250-886c-90eb6405d69d.jpeg?auto=format",
+      "votes_count": 91,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c1745292-9847-4d88-8043-8503969fdf1d)"
+    }
+  ]
+}

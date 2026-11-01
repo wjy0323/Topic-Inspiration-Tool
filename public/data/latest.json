@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-30",
-  "generated_at": "2026-10-31T21:25:57+08:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-11-01T22:07:40+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1295420",
-      "name": "Vaani Developer Platform",
-      "name_zh": "Vaani Developer Platform",
-      "tagline_zh": "The only voice AI harness that you'll ever need",
-      "description_zh": "Build a voice agent that sounds and behaves human without writing a single line of code. Design the call flow, handle objections and edge cases, connect your tools and knowledge base, and go live on a real phone number. Every call ends with clean, structured data.",
+      "id": "1284558",
+      "name": "Specsight",
+      "name_zh": "Specsight",
+      "tagline_zh": "Product observability for teams shipping fast with AI",
+      "description_zh": "Shipping fast with AI? Specsight turns code changes into a living product map, feature knowledge, and clear release updates. Keep Product, Sales, and Support in sync with what your software actually does and what changed.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/vaani-developer-platfrom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PLG3DPJZGCJSAB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/68533eef-f593-4ca8-8c88-cda88a0b2896.jpeg?auto=format",
-      "votes_count": 363,
+      "url": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/U5MK5YLVIQ7YIM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7a1c5725-8db5-43ac-9653-354383b1a3f0.png?auto=format",
+      "votes_count": 308,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 605cfbec-ac3f-4c4f-a9b3-d1f0c7c1f32c)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 6b2e1c21-6a50-4abb-a1ad-542900e70d91)"
     },
     {
-      "id": "1292989",
-      "name": "Knocket AI",
-      "name_zh": "Knocket AI",
-      "tagline_zh": "Chat with visitors from your website or link",
-      "description_zh": "Give visitors a way to say hello. Add free live chat to your website or app, or turn your bio link into a personal contact page. Visitors can start chatting without signing up. Built for founders, creators, and small teams.",
+      "id": "1298139",
+      "name": "SKI",
+      "name_zh": "SKI",
+      "tagline_zh": "Voice-first coding harness ",
+      "description_zh": "Talk to your coding agents and hear them talk back. SKI runs Claude Code, Codex, Cursor, OpenCode, Antigravity and pi side by side on your Mac, and tells you the moment one needs you.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/knocket-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PZ4KKDP7MANWFR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/474f2622-097f-4606-adc6-ee4191ae5d9e.png?auto=format",
-      "votes_count": 336,
+      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YRTZMFLGRKJM3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9cbc7a28-bd42-4a93-bb1c-32cbecaf5167.png?auto=format",
+      "votes_count": 289,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,19 +73,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 76285a15-984d-49c2-8b2b-b4b979fd8303)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 72be58a6-3578-4c77-b42f-8d60f4dbb4be)"
     },
     {
-      "id": "1297033",
-      "name": "SpeakON Agent",
-      "name_zh": "SpeakON Agent",
-      "tagline_zh": "Turn natural speech into real work for an agent to complete",
-      "description_zh": "Turn natural speech into real work with SpeakON Agent. It understands your Notes, connects your tools, and prepares Actions for you to review and confirm.",
+      "id": "1296505",
+      "name": "telemetry.dev",
+      "name_zh": "telemetry.dev",
+      "tagline_zh": "LLM observability for AI agents",
+      "description_zh": "telemetry.dev shows each run of your AI agent as one trace. Each model call and tool call is a span with its duration, tokens, cost, and error. Prompts and evals use the same traces: change a prompt without a deploy, then run it on a dataset and compare the scores with production. Alerts tell you about errors, cost spikes, and agent loops. Connect with our TypeScript or Python SDK, or with the OpenTelemetry exporter that you already use.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/speakon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GUQI7NTMSNKCWZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/13aa9ec1-903a-40d8-ab9f-911cdc02e813.jpeg?auto=format",
-      "votes_count": 313,
+      "url": "https://www.producthunt.com/products/telemetry-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DROUHCHKOTIAJV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f4967885-c088-4095-af88-59e9d7d59c8c.png?auto=format",
+      "votes_count": 236,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: bcd37ee2-e78f-44e1-9837-fc69a23fc229)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: d9d9b485-376b-4bdf-b4b6-50dd5df0d7ad)"
     },
     {
-      "id": "1297603",
-      "name": "Canva Brush",
-      "name_zh": "Canva Brush",
-      "tagline_zh": "A vision-language model that edits your designs",
-      "description_zh": "Canva Brush is a vision-language model for design from Canva Research. It sees your design, understands how it’s put together, and makes the changes you ask for, from one line of copy to every slide in a deck. Everything stays fully editable. Canva says it’s up to 69% faster and 46% lower cost per edit task than its previous design agent. It’s powering Canva AI design edits for Canva Pro subscribers today.",
+      "id": "1297694",
+      "name": "Backenly",
+      "name_zh": "Backenly",
+      "tagline_zh": "The autonomous backend for AI coding agents",
+      "description_zh": "Backenly is an autonomous backend platform built for coding agents. Your agent builds the backend over MCP, from Postgres to sign-in, storage, functions and realtime. Then it maintains itself: every minute a self-healing loop repairs missing indexes, RLS gaps and dead realtime triggers, verifying each fix live. As your app grows, it restructures its own schema once you approve. Risky changes wait for you, and every change is versioned with rollback.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CC5KZ2CNTCOFOY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5d14b7ac-2820-47c4-81b1-f1469f2e0a54.png?auto=format",
-      "votes_count": 178,
+      "url": "https://www.producthunt.com/products/backenly-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KRKHMHKQW6VVDT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d8c5e11a-e42c-4763-b423-9f62bcc5d2e0.png?auto=format",
+      "votes_count": 151,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 1220559f-7bb5-41a1-937e-5e01deb9aebc)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 45df2cd5-e449-42cf-9551-7762d88ce53a)"
     },
     {
-      "id": "1286355",
-      "name": "MCP Server by XWiki",
-      "name_zh": "MCP Server by XWiki",
-      "tagline_zh": "Give your AI your wiki's knowledge while keeping the control",
-      "description_zh": "XWiki MCP Server is an open-source, self-hostable extension that connects XWiki to the AI agent of your choice: OpenCode, Pi, Codex, Claude Code, GitHub Copilot, and more. You can already use the extension to query your knowledge base to get answers, create and edit pages, and work with structured data directly in XWiki. Try out the extension and let us what's should we improve next!",
+      "id": "1257960",
+      "name": "WinnerAdSpy",
+      "name_zh": "WinnerAdSpy",
+      "tagline_zh": "Turn competitor ad insights into winning app campaigns",
+      "description_zh": "Winneradspy is an ad creative intelligence platform built specifically for mobile app and game marketers. Explore 20M+ ad creatives across 200K+ apps, uncover winning hooks, visuals, messaging and CTAs, and track competitor campaigns with real-time alerts. Unlike generic ad spy tools, it scores creatives as Winner, Loser or Learning, helping UA managers, growth teams and agencies understand what works and build better campaigns. Query ad insights through ChatGPT, Claude or Gemini via MCP.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/xwiki?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HCKMTX4XJFTNMW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e7e1f84c-9388-44d5-9d73-1706b10bf495.jpeg?auto=format",
-      "votes_count": 174,
+      "url": "https://www.producthunt.com/products/winneradspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H7UZRHUBGPTV43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b7d425ef-6fb2-418e-b45c-9e57ad5f61dc.jpeg?auto=format",
+      "votes_count": 146,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,19 +181,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 9e28d776-fd61-447d-899d-9395d4b0b782)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 3176478d-3a2a-4877-8277-9b1d46b06671)"
     },
     {
-      "id": "1296613",
-      "name": "fastbrowse",
-      "name_zh": "fastbrowse",
-      "tagline_zh": "Fastest open source browser agent",
-      "description_zh": "A fast open-source browser agent. It reads every button, link and field on the page and has a System One model (ex: jev) pick the next step from that list. If it's unsure, it falls back to a standard model model. Fast, cheap, and every answer provides a citation.",
+      "id": "1293442",
+      "name": "LumaFold: Screen Light",
+      "name_zh": "LumaFold: Screen Light",
+      "tagline_zh": "Makeup Mirror & Color Effects for iPhone Duo",
+      "description_zh": "Make your iPhone Duo screen a creative studio with adjustable screen lighting, a live makeup mirror, color animations, and personal photo displays. LumaFold lets you use two screen areas differently. Light your face while checking your makeup, pair two colors for a creative shot, or combine a favorite photo with a handwritten message. LIGHT FOR YOUR BEAUTY ROUTINE Use the live camera mirror on one side and adjustable light on the other.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/fastbrowse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6XWF3PRT2W3QVO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ef30a313-509e-47f8-b891-07d2918b8616.png?auto=format",
-      "votes_count": 137,
+      "url": "https://www.producthunt.com/products/lumafold-screen-light?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZA6XBNIZ4JR2HT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0f615813-b1f2-4cf4-889a-1949ea2eb9b7.jpeg?auto=format",
+      "votes_count": 142,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -217,19 +217,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4c3b6751-7e6c-4e05-bf2b-e3291a37724f)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 577a5456-ecce-4804-87c0-ca7f569deed8)"
     },
     {
-      "id": "1296862",
-      "name": "Chopstick",
-      "name_zh": "Chopstick",
-      "tagline_zh": "Mac activity and action widgets that write themselves",
-      "description_zh": "Chopstick notices what you repeat on your Mac and builds notch widgets for it, using the coding agent you already have. Your activity log stays local.",
+      "id": "1298856",
+      "name": "Secret Key",
+      "name_zh": "Secret Key",
+      "tagline_zh": "Let your family unlock your passwords if you can't",
+      "description_zh": "Open-source, self-hosted emergency access for your password database. Split the master password into pieces for people you trust (e.g. any 3 of 5 unlock it). Access needs SMS verification and a 48-hour delay you can cancel with one click.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/chopstick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/IYFTKXHBVVHP2G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/609b4f3e-3ce9-464e-8696-0d7dd59cdadb.jpeg?auto=format",
-      "votes_count": 128,
+      "url": "https://www.producthunt.com/products/secret-key?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WTAFE2IZ2IA2LC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9c115d74-3ac8-41c2-b000-7dd8b01cabd4.jpeg?auto=format",
+      "votes_count": 100,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -253,19 +253,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 1791b30a-9258-4e37-903b-2a8a24835473)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 66199abf-01cc-4323-81c8-86bfb30944db)"
     },
     {
-      "id": "1294336",
-      "name": "Teable Mobile",
-      "name_zh": "Teable Mobile",
-      "tagline_zh": "Build the systems your team runs on, now from your phone",
-      "description_zh": "Explain your process like you would to a new hire. Teable builds the database, the app and the automations, so the work stops living in your head. Now you can do it from your phone: hold to talk, publish to your team, and get notified when it's done.",
+      "id": "1295778",
+      "name": "Knucklebop",
+      "name_zh": "Knucklebop",
+      "tagline_zh": "tap your palm rest to control your Mac",
+      "description_zh": "Tap twice to mute your mic in any meeting. Three times to play music. Four for a menu of anything.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/teable-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/63BC4PYRAMP73C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d8d14e73-3b16-4c0d-9213-cc77c9979c16.png?auto=format",
-      "votes_count": 118,
+      "url": "https://www.producthunt.com/products/knucklebop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H5N3EEFTIU23VR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/76683696-1f50-4c2d-8f21-6d20191acb1b.jpeg?auto=format",
+      "votes_count": 98,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -289,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: cfade4ab-b394-4c7e-8ebc-926541906f8c)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 679a35f7-50e3-4c71-8613-f0bc9c0be2bc)"
     },
     {
-      "id": "1296774",
-      "name": "iSurge",
-      "name_zh": "iSurge",
-      "tagline_zh": "Activity monitor, per-app volume, disk cleanup at your notch",
-      "description_zh": "iSurge is one app for people who live on their Mac: live stats at the notch, each app's volume and mic, disk clean-up, an uninstaller, dev tools for ports, projects and Homebrew, a focus timer and Keep Awake. $14.99 once, $10.99 with PHPROMO20. No account.",
+      "id": "1296734",
+      "name": "GitHub Copilot Fusion",
+      "name_zh": "GitHub Copilot Fusion",
+      "tagline_zh": "GitHub's AI coding agent that picks and combines models",
+      "description_zh": "GitHub Copilot Fusion takes the guesswork out of choosing AI models for coding. Instead of picking one model, Fusion automatically routes each task to suitable models and combines them when needed. One model can write code while another reviews or improves it. Choose Standard, High, or Max effort to balance speed, quality, and cost. Available across GitHub Copilot plans in VS Code, Copilot CLI, the Copilot app, and JetBrains IDEs.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/isurge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VFQNYFOWMDE4HU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1cc5f71a-fda5-4332-a434-1c3f488f794a.jpeg?auto=format",
-      "votes_count": 105,
+      "url": "https://www.producthunt.com/products/github-copilot-fusion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/72K5GZ4MAY5NR2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9d3be44b-b0d5-4737-9f81-e1ea08e6bb03.png?auto=format",
+      "votes_count": 98,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -325,19 +325,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 561f45c7-1ef5-48df-9dfb-3a02a436f5c7)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 62df2db9-ee94-413c-a20c-f9dc1e495410)"
     },
     {
-      "id": "1297509",
-      "name": "Faylee",
-      "name_zh": "Faylee",
-      "tagline_zh": "Bug reports your coding agent can fix from one link",
-      "description_zh": "Faylee records the screen, console, every network request and each click behind a bug, on one timeline, and shares it all as one link. Your team opens it and sees exactly what broke, with the failing request already open. Paste the link into Claude Code, Codex or Cursor, and Faylee's MCP server gives the agent the whole report so it can find the cause and fix it. Instant replay saves the last few minutes after a bug already happened. Free for up to 3 members.",
+      "id": "1297499",
+      "name": "BaseTab AI",
+      "name_zh": "BaseTab AI",
+      "tagline_zh": "Turn your new tab into an AI-powered workspace",
+      "description_zh": "BaseTab turns your browser's empty new tab into a dashboard you arrange yourself. Drag in 30+ widgets: notes, to-dos, Kanban, Pomodoro, bookmarks, weather, Google Calendar, Gmail, and chat with Claude, ChatGPT or Gemini. Missing a widget? Describe it in plain words and AI builds it for you. Keep separate workspaces for work and life, share one with your team, and pick a background that feels like home. Free forever, works without an account, and asks for site access only when a widget needs it.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/faylee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2NNSBIYKNI3BKE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f80dd324-b0a3-480c-81be-4dfd673c35dc.jpeg?auto=format",
-      "votes_count": 101,
+      "url": "https://www.producthunt.com/products/basetab-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QB7Y6PQIK5VVUN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/824932f4-dbe5-4250-886c-90eb6405d69d.jpeg?auto=format",
+      "votes_count": 91,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -361,7 +361,7 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c4773960-c20b-4b07-bbd5-827c191c92ce)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c1745292-9847-4d88-8043-8503969fdf1d)"
     }
   ]
 }
