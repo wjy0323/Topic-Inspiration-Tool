@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-04T23:14:35+08:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-05T23:15:07+08:00",
   "generation_error": true,
   "products": [
     {
-      "id": "1279115",
-      "name": "AgentKit by Scalekit",
-      "name_zh": "AgentKit by Scalekit",
-      "tagline_zh": "MCP gateway for production agents that acts on your behalf",
-      "description_zh": "Let your agents use 30,000+ tools across 600+ apps, from Salesforce to GitHub, through one MCP gateway. AgentKit handles auth and integrations, so every action runs as the user who asked, within the scopes they granted. Give each agent only the tools its job needs with Virtual MCP Servers. Add internal APIs as custom connectors. Use Triggers to start an agent the moment an email lands. Built for developers taking agents to production: every call is logged. Free tier: 10,000 tool calls a month.",
+      "id": "1295912",
+      "name": "Wanaka Studio",
+      "name_zh": "Wanaka Studio",
+      "tagline_zh": "Make and publish 3D games with the first AI game engine",
+      "description_zh": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/scalekit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/K2KQXD7ILBCL6E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/16386268-8e8a-44d8-91e1-579b11640a25.png?auto=format",
-      "votes_count": 409,
+      "url": "https://www.producthunt.com/products/wanaka-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/72C3HN2ZVH7J6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e183366b-c3b1-4ce9-a7d6-24eee37c7943.png?auto=format",
+      "votes_count": 435,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -37,19 +37,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4446f8cc-7e54-4561-a196-150770756bb2)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: bb3471e8-0898-45f3-9ab4-484945c3ee21)"
     },
     {
-      "id": "1162044",
-      "name": "Teamily AI",
-      "name_zh": "Teamily AI",
-      "tagline_zh": "Your personal agent, agent teams & people in one messenger",
-      "description_zh": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork. Built on an AI-native messenger, it connects people, agents, docs, meetings, calls, workflows, and business systems to automate office work and customer service. Agents become real teammates with persistent memory, proactive intelligence, and continuous self-improvement. Free to get started.",
+      "id": "1302148",
+      "name": "Floot Payments ",
+      "name_zh": "Floot Payments ",
+      "tagline_zh": "Take payments in apps you build in ChatGPT and Claude",
+      "description_zh": "Floot apps can now take real money. Ask your AI in ChatGPT, Claude or Cursor for \"a $9/month plan\", \"a checkout for this course\" or \"shipping labels for my orders\", and Floot sets it up: subscriptions with a billing page, one-time payments, tickets and deposits, coupons and refunds, plus shipping with live rates, labels and tracking. Runs on Stripe, no API keys or webhooks. Test free in preview, go live when you publish.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EKZU365TJG62XT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/fd5b66ca-66f1-473b-be98-91d0ad7fce9c.jpeg?auto=format",
-      "votes_count": 350,
+      "url": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DP7N4LLA6MSIQI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/becdfae2-669a-4a72-a3e3-4e866eb941c5.png?auto=format",
+      "votes_count": 320,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -73,19 +73,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 8fa26a5f-7046-4073-a65a-7561e62ca7b7)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 35f2122f-d954-4dd2-b19e-93b678f9619f)"
     },
     {
-      "id": "1296045",
-      "name": "Testifly",
-      "name_zh": "Testifly",
-      "tagline_zh": "Autonomous AI QA. Zero prompting. Zero maintenance. ",
-      "description_zh": "CTOs and founders with small teams and no time or resources to test and maintain. Connect your web app and Testifly does the rest. Discovers flows, writes tests, self-heals, explains failures with video. Zero prompting. Zero maintenance. 30-day free trial.",
+      "id": "1300148",
+      "name": "Prelulu",
+      "name_zh": "Prelulu",
+      "tagline_zh": "Be the main character: chat & video roleplay any story",
+      "description_zh": "Immersive stories with AI characters you can text or video roleplay with. It's our first time bringing real-time avatar technology to consumer scale. You can create your own characters with live avatar capability.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/testifly-launch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/673ETOS256IMRH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/178b177f-f0b5-42f8-a392-7c2a2eab05ee.jpeg?auto=format",
-      "votes_count": 256,
+      "url": "https://www.producthunt.com/products/prelulu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AS3PV7P3375YRL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/87774ea9-578b-4986-b849-d0f677c38ac4.png?auto=format",
+      "votes_count": 266,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -109,19 +109,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 90382e82-7c07-422a-9e47-04fa13923ef1)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 2dc58818-8533-4369-84e4-75fef26b7c0b)"
     },
     {
-      "id": "1286920",
-      "name": "Synter Canvas",
-      "name_zh": "Synter Canvas",
-      "tagline_zh": "Your AI agent runs ads across 30+ ad platforms",
-      "description_zh": "Your AI agent builds, launches and optimizes campaigns across 30+ ad platforms, with safety gates and guardrails on every change. $0.25 per verified write, 0% of ad spend.",
+      "id": "1290449",
+      "name": "Render Sandboxes",
+      "name_zh": "Render Sandboxes",
+      "tagline_zh": "A computer for every agent",
+      "description_zh": "Render Sandboxes give every agent its own isolated Linux computer. Sandboxes starts in under a second and can run any agent or harness, like Claude Code or Codex. Your agent can also run your app with Docker Compose to test its changes. You decide which domains each sandbox can reach. When your agent goes idle, the sandbox suspends and compute charges stop. It wakes with files and memory intact. And you can reliably run thousands at once - all on the same platform as the rest of your app.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/synter-canvas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VWLUQCUJVICBLP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c944b0c4-0593-4974-8a59-79b470a8f8f7.jpeg?auto=format",
-      "votes_count": 181,
+      "url": "https://www.producthunt.com/products/render?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RD6Q6GMJFZIXDH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7eb4ca6e-4e81-4328-9482-a9b695a2f991.png?auto=format",
+      "votes_count": 237,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -145,19 +145,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 0f77a718-f0e4-4624-841b-f3255e45cad6)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 57969f7a-4efa-4209-98df-8f66dfe2802f)"
     },
     {
-      "id": "1288999",
-      "name": "Videco",
-      "name_zh": "Videco",
-      "tagline_zh": "Turn every video into a content campaign with AI",
-      "description_zh": "Videco is an AI content studio and video hosting workspace for marketing teams. Find standout moments in demos and webinars, create branded short-form clips, and host, embed, and measure video in one place.",
+      "id": "1286593",
+      "name": "OpenMail",
+      "name_zh": "OpenMail",
+      "tagline_zh": "Give your AI agents an identity through email",
+      "description_zh": "Your agents sign up for tools, receive verification codes and reply to customers, mostly from your Gmail or a shared sending pool where one bad actor gets everyone flagged. OpenMail gives every AI agent its own inbox on your domain with its own sending reputation, for one API call each. Incoming mail reaches your code over webhook or WebSocket, attachments arrive as text, and there's a hosted MCP server and a Hermes plugin. Built and hosted in the EU, free for 3 inboxes.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/videco?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/X2LXQUKZ33REIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/01f77929-89e7-4a8f-9707-77b2c7797ff9.jpeg?auto=format",
-      "votes_count": 155,
+      "url": "https://www.producthunt.com/products/openmail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VT4VTQFYQVI4ZW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/26e3e5fd-22f5-4e59-a661-8a74b5fced35.png?auto=format",
+      "votes_count": 199,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -181,19 +181,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: afddb078-fd2f-48f9-bd5a-09ba2314e29a)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 06069ffc-9900-48de-9075-9c080ff5b5d2)"
     },
     {
-      "id": "1302206",
-      "name": "Calendarly ",
-      "name_zh": "Calendarly ",
-      "tagline_zh": "Your calendar and tasks, right on your iPhone Lock Screen",
-      "description_zh": "Calendarly draws your calendar, reminders, Todoist tasks, notes and countdowns onto the iPhone Lock Screen wallpaper, and redraws it automatically through a Shortcuts automation.",
+      "id": "1272509",
+      "name": "Orphex MCP",
+      "name_zh": "Orphex MCP",
+      "tagline_zh": "Run your entire digital marketing stack via one unified MCP",
+      "description_zh": "Orphex is the unified MCP gateway for digital marketing teams, handling auth and integrations for 65+ platforms, from Google Ads to Shopify, to give your AI true cross-channel context. Move your AI beyond QA: empower it to analyze integrated performance and take every action a human marketer can. Reallocate budgets, pause unprofitable creatives, or adjust products from a single prompt. Every change is logged and protected by safety guardrails. Start free, 30% off the first month.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/326NNFAYMAN2FN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4fc8eade-53e6-4416-8fb4-789a32aa796b.jpeg?auto=format",
-      "votes_count": 135,
+      "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BP2JPQXX3JGH6X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f22a9952-23a8-4305-94a4-e721cf498174.jpeg?auto=format",
+      "votes_count": 170,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -217,18 +217,54 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 5db2bfef-67b4-4e9c-800d-50e9831b7623)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: d573efac-2372-441c-8f72-d5b723a7d537)"
     },
     {
-      "id": "1302018",
-      "name": "LifeVal",
-      "name_zh": "LifeVal",
-      "tagline_zh": "OpenAI's benchmark for everyday life tasks with AI",
-      "description_zh": "LifeVal is OpenAI's new eval for the everyday tasks people most want help with, like finding childcare, budgeting, ordering groceries and government services. OpenAI says it used LifeVal for a year to push ChatGPT toward real agent work.",
+      "id": "1301917",
+      "name": "OpusClip 4.0",
+      "name_zh": "OpusClip 4.0",
+      "tagline_zh": "Turn raw footage into ready-to-publish videos with AI",
+      "description_zh": "OpusClip 4.0 goes beyond AI clipping to edit raw footage into finished videos. Automatically clean up speech, add captions and B-roll, create multiple formats, apply saved editing styles, and generate animated hooks and motion graphics.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LUAD4D36GSESMI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/985f8044-9031-45e7-9127-097c2a5f8066.png?auto=format",
+      "url": "https://www.producthunt.com/products/opusclip?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KFBPHGUX5EBAT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f9f94c60-a295-400a-91a4-c5d77ec2fa49.jpeg?auto=format",
+      "votes_count": 146,
+      "scores": {
+        "video_suitability": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "beginner_friendly": {
+          "score": 0,
+          "reason": "评分失败"
+        },
+        "popularity": {
+          "score": 0,
+          "reason": "评分失败"
+        }
+      },
+      "video_inspiration": {
+        "title_idea": "",
+        "angle": "",
+        "shooting_tips": "",
+        "target_audience": ""
+      },
+      "category": "",
+      "overall_suggestion": "谨慎考虑",
+      "overall_reason": "LLM 评分失败",
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 7784ea01-4b2a-4631-9d81-9f39854102a6)"
+    },
+    {
+      "id": "1295432",
+      "name": "fileForensics",
+      "name_zh": "fileForensics",
+      "tagline_zh": "Real or not? Check files before your AI trusts them.",
+      "description_zh": "fileForensics is a trust check for every file your app or agent acts on. Extraction tells you what a document says; fileForensics tells you whether to believe it. It looks for signs of editing, AI-generated content, tampering and details that don’t add up, then returns findings with the evidence: what, where and why. No black-box score. All delivered in one call and works via API, MCP (Claude, Cursor, Codex), the developer portal and the fileAI platform. Check the file before you trust the data.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/fileai-ai-ocr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/L36SEUDOAXE2D2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f57d83ff-193b-46c9-bcdb-cdf23282550d.jpeg?auto=format",
       "votes_count": 126,
       "scores": {
         "video_suitability": {
@@ -253,19 +289,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: fd133f32-f4e0-4696-8efa-5175d641fdfe)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 62365371-57ae-4994-91c8-d1c1f4a372e6)"
     },
     {
-      "id": "1301524",
-      "name": "MachineMail",
-      "name_zh": "MachineMail",
-      "tagline_zh": "Email inboxes for humans and bots",
-      "description_zh": "Give your AI agents real inboxes to receive and send emails. Connect them over MCP or API, use your own domain, and get a trust report on every inbound message. Free includes 3,000 messages/month; paid plans start at $9/month.",
+      "id": "1293092",
+      "name": "Mellow Kids",
+      "name_zh": "Mellow Kids",
+      "tagline_zh": "Personalized sleep and development app for parents",
+      "description_zh": "Most baby apps track what happened. Mellow Kids explains why, and what comes next. 🌙 Understand today: Log sleep, feeds and diapers easily. Mellow spots changes and tells you why. A routine to adjust, or a phase that will pass. 🔮 Prepare for tomorrow: A heads-up before sleep and development change, so you feel ready for each new stage. 🌱 The right guidance at the right time: Evidence based support, from short naps to separation anxiety and first tantrums.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/machinemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YGFRQB5ECPT5EA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b12b72ed-7d11-43f1-80d3-86059784b43f.jpeg?auto=format",
-      "votes_count": 122,
+      "url": "https://www.producthunt.com/products/mellow-kids?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GOI7VFFFGH7ZIG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/de0fb3e4-0013-4b35-9686-6a435ac2de8a.jpeg?auto=format",
+      "votes_count": 103,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -289,19 +325,19 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 70ad2887-606b-4483-ab5b-f52c92ab9abd)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 2c232d7c-e261-4c8c-b64e-532e7f0df3cd)"
     },
     {
-      "id": "1297285",
-      "name": "Hookdeck Inspect",
-      "name_zh": "Hookdeck Inspect",
-      "tagline_zh": "Free webhook tester for you and your agent",
-      "description_zh": "Test and debug webhooks with Hookdeck Inspect. Get a live URL you and your agent can use, plus mock webhooks for 500+ providers. It's free, no account or setup required.",
+      "id": "1300934",
+      "name": "KREV AI",
+      "name_zh": "KREV AI",
+      "tagline_zh": "An AI team that runs your ecommerce brand",
+      "description_zh": "KREV 2.0 is an AI team for your ecommerce brand. Scout tracks 10M+ competitor ads, Luna makes content that looks real, Kai buys your media, Chloe posts what's trending, Rue sends your emails, Toshi edits your store and Max gets you found.",
       "intro_zh": "",
-      "url": "https://www.producthunt.com/products/hookdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/ONA6KQJZWUEX2Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b2e949c3-7701-497b-8714-63ce5721a909.jpeg?auto=format",
-      "votes_count": 119,
+      "url": "https://www.producthunt.com/products/krev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CMCGNRX7T36FKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fac85759-5a6b-41ac-bf13-33d01f066ae8.jpeg?auto=format",
+      "votes_count": 101,
       "scores": {
         "video_suitability": {
           "score": 0,
@@ -325,43 +361,7 @@
       "category": "",
       "overall_suggestion": "谨慎考虑",
       "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 9e3aa9a2-b90e-442d-9743-ce93bf94723a)"
-    },
-    {
-      "id": "1302042",
-      "name": "People Search by Context.dev",
-      "name_zh": "People Search by Context.dev",
-      "tagline_zh": "People Search API: Find People by Role, Company & Location",
-      "description_zh": "Describe the people you need in plain English. Get up to 10 profiles per call with role, employer, location, experience, skills, and schools.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3IKZZRN7VHAG4G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5dd95c31-f7af-4b54-8537-1dc70fe4c82f.jpeg?auto=format",
-      "votes_count": 112,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c46b5a76-e0b5-435d-a90e-d0691126900d)"
+      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 994653bf-7d77-4899-96f1-e2432b21d90e)"
     }
   ]
 }
