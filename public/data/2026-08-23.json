@@ -1,367 +1,510 @@
 {
   "date": "2026-08-23",
-  "generated_at": "2026-08-24T15:59:55+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:34:18+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1186033",
       "name": "Construct Computer",
       "name_zh": "Construct Computer",
-      "tagline_zh": "Your AI coworker gets a computer. You get your day back.",
-      "description_zh": "AI workforce for solo founders and small teams. Any MCP or skill installs like an app, agents build the tools that don't exist yet, deployed and managed by the platform, shareable to the whole team, and any agent action that you like turns into a reusable workflow so agents spend less time thinking and more time doing.",
-      "intro_zh": "",
+      "tagline_zh": "给 AI 同事一台电脑，把一天的时间还给你。",
+      "description_zh": "面向独立创始人和小团队的 AI 工作平台，支持像安装应用一样安装 MCP 或技能，也让智能体构建尚不存在的工具，由平台部署、管理并供团队共享。用户认可的智能体操作可以转成可复用流程，产品希望借此减少重复规划。",
+      "intro_zh": "给独立创始人和小团队用，让 AI 使用工具做事，并把认可的操作保存成可重复执行的流程。",
       "url": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WTHQ4KSPC225E6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b8c9dd11-9d4a-41f2-8f07-fb23477cf542.png?auto=format",
       "votes_count": 322,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "团队共享工具和复用操作的用途清楚，但缺少具体任务与收益证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把一次操作变成可复用流程，涉及如何区分固定步骤和变化条件。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先认可一次操作再保存复用，是其他任务型产品可以借用的设计。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把满意的一次操作留作下次使用。关键疑问是它能否提取通用步骤，而非照搬当时的条件。",
+      "product_analysis": {
+        "target_problem": "独立创始人和小团队让 AI 承担重复工作时，需要可用的工具，也需要让满意的操作能再次执行。",
+        "workflow": "安装所需工具或技能，让智能体执行任务；认可某次操作后，将其转成可复用流程。工具可由平台管理并共享给团队。",
+        "ai_value": "AI 负责执行操作，也能构建缺失的工具。减少重复思考是产品提出的目标，资料没有提供效果数据。",
+        "differentiation": "它把工具管理和操作复用放在一起。最可能让团队犹豫的是，生成的流程是否还要花很多时间检查。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持安装 MCP（让 AI 连接外部工具的协议）或技能，并由平台部署、管理智能体构建的工具。",
+        "possible_approach": "如果自己做，可以先记录一次成功操作，再把每次会变的内容设为输入，保存执行步骤供用户确认后复用。",
+        "tradeoffs": "最难的是分清固定步骤和临时条件。若把一次任务里的对象写死，下次可能对错误对象执行操作。",
+        "unknowns": "介绍没说保存流程时，用户能否查看和修改其中的步骤。"
+      },
+      "transferable_insights": [
+        "做重复任务助手时，可以在用户认可结果后提供“保存为流程”，让用户从已有成果开始配置。"
+      ],
+      "validation_questions": [
+        "把同一流程换一组输入再执行，检查操作对象是否随之正确改变。",
+        "保存流程前，检查能否查看并修改执行步骤。"
+      ],
+      "source_tagline": "Your AI coworker gets a computer. You get your day back.",
+      "source_description": "AI workforce for solo founders and small teams. Any MCP or skill installs like an app, agents build the tools that don't exist yet, deployed and managed by the platform, shareable to the whole team, and any agent action that you like turns into a reusable workflow so agents spend less time thinking and more time doing."
     },
     {
       "id": "1223147",
       "name": "FetchSandbox MCP",
       "name_zh": "FetchSandbox MCP",
-      "tagline_zh": "The MCP that proves your AI's integration fixes work",
-      "description_zh": "Your agent's integration fix passes CI. The data is still wrong. FetchSandbox MCP reproduces the real failure on your code, fixes it, and proves the fix held. A receipt, not a vibe. 70+ API sandboxes. One config block in Cursor or Claude Code.",
-      "intro_zh": "",
+      "tagline_zh": "验证 AI 的系统对接修复是否奏效的 MCP 工具",
+      "description_zh": "AI 编程助手修复了系统对接问题，代码通过自动检查，数据却仍可能出错；介绍称，FetchSandbox MCP 能在你的代码上复现故障、修复问题，并提供修复有效的证据。它提供 70 多个 API 沙箱，可用一段配置接入 Cursor 或 Claude Code。",
+      "intro_zh": "给用 AI 编程助手对接外部服务的开发者用，在代码上复现数据错误，并验证修复结果。",
       "url": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WOUOLDN26NYVUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/117e9475-21d2-4e1f-8690-444e909abcc8.png?auto=format",
       "votes_count": 239,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对代码检查通过但数据仍错的问题，验证效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "沙箱能否复现真实服务的故障，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让修复附带前后对照证据，可借用于其他自动修复工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重把“代码改完”推进到“结果可检查”；最影响判断的是沙箱能否覆盖真实故障条件。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 修复外部服务对接时，自动检查通过，也不代表数据正确。麻烦在于还得确认原来的错误是否真的消失。",
+        "workflow": "在 Cursor 或 Claude Code 中加入配置。介绍称，工具会在代码上复现故障、修复，再验证修复是否成立。",
+        "ai_value": "AI 编程助手参与修复，工具提供复现和验证支持；两者如何分工，介绍没展开。",
+        "differentiation": "把检查推进到数据结果，而不只看代码是否通过。若沙箱与真实服务差异大，开发者可能仍需另行验证。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供 MCP（让 AI 助手调用外部工具的连接规范）接入，以及 70 多个 API 沙箱（模拟外部软件接口的测试环境）。",
+        "possible_approach": "如果自己做，可以先把出错请求和预期数据做成测试，再让助手修改代码，用同一测试比较修复前后结果。",
+        "tradeoffs": "最难的是模拟真实服务的行为；若漏掉触发错误的条件，验证通过也可能只是测试环境里没问题。",
+        "unknowns": "所谓修复证据，是否包含可重复运行的测试和数据对照？"
+      },
+      "transferable_insights": [
+        "做自动修复工具时，让每次修改附带同一故障修复前后的测试结果，方便用户复核。"
+      ],
+      "validation_questions": [
+        "拿一个已知的数据错误，检查沙箱能否复现相同结果。",
+        "检查修复后留下的测试能否独立重跑。"
+      ],
+      "source_tagline": "The MCP that proves your AI's integration fixes work",
+      "source_description": "Your agent's integration fix passes CI. The data is still wrong. FetchSandbox MCP reproduces the real failure on your code, fixes it, and proves the fix held. A receipt, not a vibe. 70+ API sandboxes. One config block in Cursor or Claude Code."
     },
     {
       "id": "1217834",
       "name": "Aximote",
       "name_zh": "Aximote",
-      "tagline_zh": "Your car data, finally in your pocket",
-      "description_zh": "Aximote brings the data from your car to your iPhone and turns every drive into something you can understand. Trips appear automatically with insights into consumption, charging, costs and driving efficiency. Customize a dashboard with 20+ vehicle metrics, compare trips and long-term trends, manage multiple cars, and keep one continuous driving history—even when you switch brands. No additional hardware required.",
-      "intro_zh": "",
+      "tagline_zh": "把汽车数据装进口袋",
+      "description_zh": "Aximote 将汽车数据带到 iPhone，自动记录行程，展示能耗、充电、费用和驾驶效率信息。它支持用 20 多项车辆指标自定义仪表盘、比较行程和长期趋势、管理多辆车，并在更换品牌后保留连续的驾驶历史，无需额外硬件。",
+      "intro_zh": "给想了解用车情况的 iPhone 车主用，自动记录行程，查看能耗、费用和多辆车的驾驶历史。",
       "url": "https://www.producthunt.com/products/aximote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IK7GY4H42E2FDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fd817655-3748-4ebd-b617-b9971e75fe81.png?auto=format",
       "votes_count": 203,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "自动记录和跨品牌保留历史用途明确，但车型覆盖尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "不同车辆的数据能否放在一起比较，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "更换设备仍保留历史的做法，可借给其他长期记录类产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重跨品牌保留历史，长期比较不用因换车中断；但车型覆盖决定了这个好处能否兑现。",
+      "product_analysis": {
+        "target_problem": "想比较日常能耗、或管理多辆车的车主需要它。换品牌后仍能查看连续历史，是它明确要解决的问题。",
+        "workflow": "行程自动出现后，用户查看能耗、充电和费用，再比较不同旅程或长期趋势；也可选择车辆指标，自定义仪表盘。",
+        "ai_value": "介绍没提 AI，主要靠自动记录、汇总和比较车辆数据来改善体验。",
+        "differentiation": "无需额外硬件，并把多车记录放在一起。最可能让人无法换过来的原因，是自己的车型可能不受支持。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持 iPhone、无需额外硬件，但没说如何取得车辆数据。",
+        "possible_approach": "如果自己做，可以先接入车辆可授权提供的数据，再按车和行程整理，统一单位后展示趋势。",
+        "tradeoffs": "最难的是统一不同品牌的数据口径。若能耗统计范围不同，放在同一张图上可能让车主误判哪辆车更省。",
+        "unknowns": "支持哪些品牌、车型和年份，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做健康或设备记录产品时，可以把历史归到用户账号下，让更换设备不等于重新开始记录。"
+      ],
+      "validation_questions": [
+        "用一辆明确支持的车完成一次行程，检查是否自动生成完整记录。",
+        "比较两款受支持车型的能耗指标说明，检查统计口径是否一致。"
+      ],
+      "source_tagline": "Your car data, finally in your pocket",
+      "source_description": "Aximote brings the data from your car to your iPhone and turns every drive into something you can understand. Trips appear automatically with insights into consumption, charging, costs and driving efficiency. Customize a dashboard with 20+ vehicle metrics, compare trips and long-term trends, manage multiple cars, and keep one continuous driving history—even when you switch brands. No additional hardware required."
     },
     {
       "id": "1229381",
       "name": "OpenLogi",
       "name_zh": "OpenLogi",
-      "tagline_zh": "A local-first alternative to Logitech Options+",
-      "description_zh": "A native, local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++ — no account, no telemetry.",
-      "intro_zh": "",
+      "tagline_zh": "本地优先的 Logitech Options+ 替代工具",
+      "description_zh": "一款用 Rust 编写、优先在本机运行的原生工具，可替代 Logitech Options+。支持重新分配按键功能，并通过 HID++ 调整鼠标灵敏度和 SmartShift 滚轮切换设置，无需账号，不收集遥测数据。",
+      "intro_zh": "给想在本机配置罗技鼠标的人用，重新分配按键功能，调整指针灵敏度和滚轮切换设置。",
       "url": "https://www.producthunt.com/products/openlogi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7MQBGZEICSBSJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c7c2f97a-a872-48d9-8c5a-7cfd0ff036e1.png?auto=format",
       "votes_count": 180,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "配置鼠标的用途清楚，无需账号，但设备支持范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "通过设备通信修改设置很具体，不同型号能否正确执行是关键。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把外设配置留在本机、免去账号步骤，是可借用的明确做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重无需账号就能配置鼠标；但支持范围不明，能否替代现有工具首先取决于自己的设备是否兼容。",
+      "product_analysis": {
+        "target_problem": "需要改罗技鼠标按键、灵敏度或滚轮设置，又不想为此使用账号的用户会需要它。它提供了 Logitech Options+ 之外的配置选择。",
+        "workflow": "用户在工具中重设按键功能，调整 DPI（指针灵敏度）和 SmartShift（滚轮模式自动切换）。介绍没交代连接及保存设置的步骤。",
+        "ai_value": "介绍没提 AI，主要靠本机配置和直接控制设备来改善体验。",
+        "differentiation": "无需账号，配置过程少一项账号依赖。最可能让人不愿换过来的原因，是尚不清楚自己的鼠标是否受支持。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1228104",
-      "name": "Claude Academy",
-      "name_zh": "Claude Academy",
-      "tagline_zh": "The Official Learning Hub by Anthropic",
-      "description_zh": "Master the entire Claude stack—from basic prompting and AI fluency to building complex multi-agent workflows. Claude Academy brings self-paced courses, developer tutorials, and official certification paths into a single interactive learning environment. Start learning at academy.claude.com!",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5XZCCZGFQOKTU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/029adaca-d2ba-45f1-9a37-885dbada9602.png?auto=format",
-      "votes_count": 163,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "工具用 Rust 编写，通过 HID++（与罗技设备交换控制指令的协议）调整设置；介绍称无遥测，即不收集使用情况数据。",
+        "possible_approach": "如果自己做，可以先识别设备及其支持的设置，再把用户选择转换成设备指令，发送后读回确认是否生效。",
+        "tradeoffs": "最容易出错的是把某个型号的控制方式套到其他型号上，导致界面显示已修改，鼠标却没有变化。",
+        "unknowns": "支持哪些鼠标型号和连接方式，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做外设配置工具时，可以让基本设置无需登录就能使用，避免用户为调整一个按键先处理账号。"
+      ],
+      "validation_questions": [
+        "用自己的鼠标和常用连接方式，检查能否识别并修改按键功能。",
+        "调整灵敏度后重启电脑，检查设置是否仍然生效。"
+      ],
+      "source_tagline": "A local-first alternative to Logitech Options+",
+      "source_description": "A native, local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++ — no account, no telemetry."
     },
     {
       "id": "1227238",
       "name": "Yatko",
       "name_zh": "Yatko",
-      "tagline_zh": "The download button Github forgot to add",
-      "description_zh": "Yatko (yatko.app) turns any public Github repo into clean download links that pick the right release asset for each visitor's OS and architecture. Swap the domain — one click to the right binary.",
-      "intro_zh": "",
+      "tagline_zh": "GitHub 忘了加的下载按钮",
+      "description_zh": "Yatko（yatko.app）可将公开 GitHub 仓库转成简洁的下载链接，为访客匹配操作系统和处理器架构对应的发布文件。简介称，替换域名后即可一键下载对应程序。",
+      "intro_zh": "给分发 GitHub 软件的维护者和下载者用，把仓库地址变成能匹配访客设备的下载链接。",
       "url": "https://www.producthunt.com/products/yatko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/O3BHFNXR7NLXF7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6931ec3c-e1ef-40c0-97e8-b006d00f9105.png?auto=format",
       "votes_count": 118,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "下载文件选错的问题明确，但匹配范围尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从不统一的发布文件中选对程序，是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先匹配设备再给下载入口的做法可用于软件下载页。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让下载者少辨认一次文件名；最影响判断的是遇到命名不规则的发布文件时，能否避免选错。",
+      "product_analysis": {
+        "target_problem": "从 GitHub 下载软件时，用户可能要在多个发布文件中辨认系统和处理器版本。以前需要自己挑文件，现在可以让链接代为匹配。",
+        "workflow": "按介绍，替换公开仓库地址的域名即可得到下载链接；访客打开后，获得匹配其系统和处理器架构的文件。",
+        "ai_value": "介绍没提 AI，主要靠设备匹配和下载跳转来减少选择。",
+        "differentiation": "省掉辨认文件名的步骤。但若用户无法确认匹配是否正确，可能仍会回原发布页选择。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1226244",
-      "name": "Plask",
-      "name_zh": "Plask",
-      "tagline_zh": "Have little ducks show how deep you dive on your Apple Watch",
-      "description_zh": "Plask turns your Apple Watch into a tiny aquatic theatre: pixel-art rubber ducks that dive when you do, your real depth on screen, and a duck or ten. With premium, you get sharks, the Loch Ness-monster, a castaway, surströmming, and more.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/plask-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2LNRTIPEFZQPWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cfb9fd1b-818e-4a0e-9ab2-f2d73cf2d010.png?auto=format",
-      "votes_count": 105,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持按操作系统和处理器架构匹配发布文件，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取仓库的发布文件列表，再识别访客设备，将文件名与设备信息匹配后跳转。",
+        "tradeoffs": "最难的是文件命名不统一。匹配错了，用户会下载到无法运行的程序。",
+        "unknowns": "无法确定设备或文件类型时，会怎样处理？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做软件下载页时，可以优先展示匹配设备的文件，同时保留手动选择入口，供识别不准时纠正。"
+      ],
+      "validation_questions": [
+        "用同一仓库在不同系统和处理器的设备上打开，是否选中了对应文件？",
+        "打开没有匹配文件的仓库链接时，是否明确提示无可用下载？"
+      ],
+      "source_tagline": "The download button Github forgot to add",
+      "source_description": "Yatko (yatko.app) turns any public Github repo into clean download links that pick the right release asset for each visitor's OS and architecture. Swap the domain — one click to the right binary."
     },
     {
       "id": "1227963",
       "name": "KanaSensei",
       "name_zh": "KanaSensei",
-      "tagline_zh": "Read Japanese kana in two weeks",
-      "description_zh": "KanaSensei is a web app for learning to read Japanese. Practice hiragana and katakana with adaptive drills, challenges, memorable mnemonics, native audio, and progress tracking.",
-      "intro_zh": "",
+      "tagline_zh": "两周学会读日语假名（产品标语）",
+      "description_zh": "KanaSensei 是一款学习日语识读的网页应用。它提供平假名和片假名的自适应练习、挑战、记忆提示、母语音频及进度记录。",
+      "intro_zh": "给刚开始学日语的人用，在网页上练习认读平假名和片假名，并记录学习进度。",
       "url": "https://www.producthunt.com/products/kanasensei?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DZC2H6TKFBDYCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/96af752d-3bb7-4c2d-99bc-0ca1068d9243.png?auto=format",
       "votes_count": 102,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "入门人群和练习内容明确，但两周学会的效果没有验证材料。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何根据答题表现调整练习有具体问题可讨论，但规则未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按掌握情况安排练习的做法，可借给其他基础知识学习产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它按学习表现调整练习的方向；最影响判断的是，进度记录能否区分暂时答对与真正记住。",
+      "product_analysis": {
+        "target_problem": "日语初学者需要把假名字形与读音对应起来。认过一次不等于记牢，练什么、哪些还不熟，是持续练习时的麻烦。",
+        "workflow": "在网页中练习平假名和片假名，结合记忆提示与母语音频学习，再查看进度。介绍称练习会自适应调整，但没说明调整依据。",
+        "ai_value": "介绍没提 AI，主要靠练习安排、记忆提示和音频来帮助学习。自适应不一定需要 AI。",
+        "differentiation": "它把练习、辅助记忆和进度记录放在一处。已有熟悉教材的人，可能不愿再换一套练习安排。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是网页应用，提供自适应练习和进度记录，介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先为每个假名配好读音和题目，再记录答题对错，让常错的字更常出现。",
+        "tradeoffs": "最容易错在把短期答对当成已经掌握。如果过早减少复习，用户隔几天可能又认不出。",
+        "unknowns": "隔多久、答对多少次，才会被算作掌握？"
+      },
+      "transferable_insights": [
+        "做词汇或符号识记产品时，可以按单个知识点记录错误，再安排后续练习，不只显示总完成率。"
+      ],
+      "validation_questions": [
+        "连续答错同一个假名后，后续练习是否会增加它的出现次数？",
+        "隔几天再测，进度中已掌握的假名是否仍能认对？"
+      ],
+      "source_tagline": "Read Japanese kana in two weeks",
+      "source_description": "KanaSensei is a web app for learning to read Japanese. Practice hiragana and katakana with adaptive drills, challenges, memorable mnemonics, native audio, and progress tracking."
     },
     {
       "id": "1224087",
       "name": "Tab Notes",
       "name_zh": "Tab Notes",
-      "tagline_zh": "Turn your browser new tab into a distraction-free notepad",
-      "description_zh": "Tab Notes turns every new browser tab into a distraction-free notepad. Capture thoughts instantly with rich text, tables, and syntax-highlighted code blocks, or sketch ideas using the built-in shape canvas. Works completely offline with local storage or syncs privately to your personal Google Drive with zero server lock-in. Access notes in full-screen tabs, via a quick toolbar popup over any website, and export totxt ormd anytime.",
-      "intro_zh": "",
+      "tagline_zh": "把浏览器新标签页变成少干扰的记事本",
+      "description_zh": "Tab Notes 把新标签页变成记事本，支持富文本、表格、带语法高亮的代码块和形状画布。笔记可完全离线保存在本地，或同步到个人 Google Drive；也可通过工具栏弹窗访问，并导出为 TXT 或 Markdown 文件。",
+      "intro_zh": "给浏览网页时需要随手记录的人用，在新标签页或工具栏弹窗里写笔记、整理代码和画草图。",
       "url": "https://www.producthunt.com/products/tab-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BCSJED4WJINCHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a875176d-4082-486a-a402-7237719e7339.jpeg?auto=format",
       "votes_count": 88,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "记录入口和保存方式清楚，但是否符合日常浏览习惯仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "离线保存与云端同步之间的冲突处理值得关注，但介绍未解释。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把随手记录放进用户正在使用的界面，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重随手记录不必离开当前网页；最影响判断的是同步发生冲突时会不会丢内容。",
+      "product_analysis": {
+        "target_problem": "浏览网页时冒出想法的人，需要一个顺手的记录入口。麻烦在于离开当前页面找笔记工具，可能打断阅读。",
+        "workflow": "打开新标签页写笔记，或在网页上通过工具栏弹窗记录。内容可保存在本地或同步到个人 Google Drive，也能导出文件。",
+        "ai_value": "介绍没提 AI，主要靠就近打开笔记、离线保存来改善体验。",
+        "differentiation": "弹窗让记录时少一次页面切换。最可能让人不愿换用的是，它会占用原有的新标签页入口。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持离线本地存储，以及同步到个人 Google Drive；介绍没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先让新标签页和弹窗读写同一份本地笔记，再接入云端同步，记录每次修改的版本。",
+        "tradeoffs": "最容易出错的是离线修改后的同步：两台设备改了同一篇笔记，若直接覆盖，用户可能丢掉一部分内容。",
+        "unknowns": "本地与云端出现不同版本时，如何保留双方修改？"
+      },
+      "transferable_insights": [
+        "做浏览器内的轻量工具时，可以提供工具栏弹窗，让用户完成短操作后继续看原网页。"
+      ],
+      "validation_questions": [
+        "两台设备离线修改同一篇笔记后再联网，检查修改是否被覆盖。",
+        "把含表格、代码块和草图的笔记导出为 Markdown，检查哪些内容得到保留。"
+      ],
+      "source_tagline": "Turn your browser new tab into a distraction-free notepad",
+      "source_description": "Tab Notes turns every new browser tab into a distraction-free notepad. Capture thoughts instantly with rich text, tables, and syntax-highlighted code blocks, or sketch ideas using the built-in shape canvas. Works completely offline with local storage or syncs privately to your personal Google Drive with zero server lock-in. Access notes in full-screen tabs, via a quick toolbar popup over any website, and export totxt ormd anytime."
+    },
+    {
+      "id": "1228104",
+      "name": "Claude Academy",
+      "name_zh": "Claude Academy",
+      "tagline_zh": "Anthropic 官方学习中心",
+      "description_zh": "学习内容涵盖 Claude 的基础提示词、AI 使用素养，以及让多个 AI 分工协作的复杂工作流程。平台将自主进度课程、开发者教程和官方认证路径集中在一个互动学习环境中。",
+      "intro_zh": "给想学习 Claude 的使用者和开发者，集中提供从基础提问到多个 AI 分工协作的课程与认证路径。",
+      "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5XZCCZGFQOKTU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/029adaca-d2ba-45f1-9a37-885dbada9602.png?auto=format",
+      "votes_count": 163,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "学习对象和内容明确，但课程质量与练习方式尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "教程如何跟上工具变化是具体问题，但实现信息很少。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把基础课程、开发教程和认证路径放在一起，可供开发者产品借鉴。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "集中组织学习材料能减少找课的麻烦；但历史简介未核验，尤其不清楚互动学习是否包含动手练习。",
+      "product_analysis": {
+        "target_problem": "想用 Claude 完成工作的人需要入门，开发者还需要学习复杂协作任务。难点可能在于不知道该从哪学、下一步学什么。",
+        "workflow": "进入学习平台，按自己的进度学习课程或开发者教程，也可选择官方认证路径。介绍没有说明具体练习和考核步骤。",
+        "ai_value": "AI 是学习对象。介绍没说平台会用 AI 批改作业或辅导，明确提供的是课程、教程和认证路径。",
+        "differentiation": "把不同层次的学习内容放在同一处，可能减少寻找材料的麻烦。最可能让人不愿投入的，是课程未覆盖自己的实际任务。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到互动学习环境，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先按学习目标组织课程，再给开发教程配可运行示例，最后把认证要求对应到所学内容。",
+        "tradeoffs": "最容易出错的是教程跟不上工具变化。示例一旦跑不通，初学者可能分不清是自己操作错了，还是教材过期。",
+        "unknowns": "“互动”是否包含实际操作练习，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做开发者工具时，可以把入门课、任务教程和认证路径放在同一入口，让不同阶段的用户找到对应内容。"
+      ],
+      "validation_questions": [
+        "选一个开发者教程，按当前环境从头操作，检查示例能否跑通。",
+        "选一个自己的真实任务，检查课程是否有对应练习。"
+      ],
+      "source_tagline": "The Official Learning Hub by Anthropic",
+      "source_description": "Master the entire Claude stack—from basic prompting and AI fluency to building complex multi-agent workflows. Claude Academy brings self-paced courses, developer tutorials, and official certification paths into a single interactive learning environment. Start learning at academy.claude.com!"
+    },
+    {
+      "id": "1226244",
+      "name": "Plask",
+      "name_zh": "Plask",
+      "tagline_zh": "让 Apple Watch 上的小鸭子展示你潜得有多深",
+      "description_zh": "Plask 在 Apple Watch 上显示像素风橡皮鸭，随你一起下潜，并显示实际深度；画面里可以有一只或多只鸭子。付费版还提供鲨鱼、尼斯湖水怪、漂流者、鲱鱼罐头等角色或元素。",
+      "intro_zh": "给戴 Apple Watch 下水的人用，把下潜深度显示在表上，再让像素小鸭跟着下潜。",
+      "url": "https://www.producthunt.com/products/plask-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2LNRTIPEFZQPWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cfb9fd1b-818e-4a0e-9ab2-f2d73cf2d010.png?auto=format",
+      "votes_count": 105,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "水下看深度和增加趣味的用途清楚，但支持条件不明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "深度变化如何可靠地反映到画面上，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让角色随真实数据变化，可借用于运动和活动记录产品。"
+        }
+      },
+      "category": "游戏娱乐",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让真实深度直接带动画面；但兼容型号不明，还无法判断有多少手表用户能用。",
+      "product_analysis": {
+        "target_problem": "面向戴 Apple Watch 下水、想看深度又喜欢趣味画面的人。它主要给读数增加趣味，资料没有说明它解决了什么测量难题。",
+        "workflow": "使用时，表上显示深度，小鸭随用户下潜。付费版增加角色和元素，具体设置方式未说明。",
+        "ai_value": "介绍没提 AI，主要靠深度显示和像素角色的变化来改善体验。",
+        "differentiation": "把深度数字和角色变化放在同一屏，可能让读数更有趣；但不喜欢装饰的人可能不愿换用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Apple Watch、实际深度显示，以及随下潜变化的像素鸭子。",
+        "possible_approach": "如果自己做，可以先确认手表能否提供深度数据，再把深度变化对应到鸭子的动作，并保留数字读数。",
+        "tradeoffs": "最容易出错的是深度数据与画面更新不同步，让鸭子显示的状态落后于实际下潜。",
+        "unknowns": "哪些 Apple Watch 型号能使用深度功能，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做运动记录产品时，可以让小角色随真实数据变化，同时保留数字，兼顾趣味和准确读取。"
+      ],
+      "validation_questions": [
+        "先确认自己的 Apple Watch 型号是否支持深度功能。",
+        "在设备允许的浅水条件下，检查鸭子的变化是否与深度读数同步。"
+      ],
+      "source_tagline": "Have little ducks show how deep you dive on your Apple Watch",
+      "source_description": "Plask turns your Apple Watch into a tiny aquatic theatre: pixel-art rubber ducks that dive when you do, your real depth on screen, and a duck or ten. With premium, you get sharks, the Loch Ness-monster, a castaway, surströmming, and more."
     },
     {
       "id": "1224596",
       "name": "Yattayo",
       "name_zh": "Yattayo",
-      "tagline_zh": "A physical slider to-do board, faithfully rebuilt in 3D",
-      "description_zh": "Yattayo is a to-do list you can feel. Every task is a real 3D slider on an orange board — drag the knob, hear the ratchet click, and an \"OK\" stamp lands on it. Done. • Every task is a sticky note. Tap it and handwrite or type right on the paper • Swipe a finished note to peel it off the board • Spin the whole board around with your finger • Widgets show the real board — slide the switch without opening the app • iPhone, Apple Watch and Mac, synced over iCloud Free for up to 3 tasks.",
-      "intro_zh": "",
+      "tagline_zh": "在屏幕上用 3D 重现实体滑块待办板",
+      "description_zh": "Yattayo 把待办做成橙色 3D 板上的便签和滑块：可手写或打字，拖动滑块时有棘轮声和“OK”印章，完成后可滑动移除便签，也能转动整块板。它支持在小组件中操作，并通过 iCloud 同步 iPhone、Apple Watch 和 Mac；最多 3 项任务免费。",
+      "intro_zh": "给喜欢直观操作的待办用户，把任务写在便签上，再用屏幕里的立体滑块标记完成。",
       "url": "https://www.producthunt.com/products/yattayo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/C6TYBUL6553NIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0143aa4e-26d4-454c-a67d-8762bfb398c1.png?auto=format",
       "votes_count": 86,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "操作方式清楚，但是否比普通清单更省事仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "小组件操作与多设备同步有具体的状态更新问题可讨论。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把完成动作和即时反馈绑定，可借用于轻量打卡产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重小组件里直接完成任务，少一次打开应用的动作。最大的疑问是立体滑块能否兼顾趣味与操作效率。",
+      "product_analysis": {
+        "target_problem": "适合想用更直观方式记录、勾掉日常任务的人。它主要改变完成任务时的操作和反馈，资料没有证明它能解决任务安排困难。",
+        "workflow": "点便签手写或输入任务，拖动滑块标记完成，再滑走已完成的便签。也可直接在小组件中滑动开关。",
+        "ai_value": "介绍没提 AI，主要靠立体画面、拖动动作和声音反馈改善体验。",
+        "differentiation": "小组件让用户不用打开应用就能标记完成。最可能让人不愿换来的原因，是觉得拖动比点选更费事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 3D 交互、小组件，以及通过 iCloud 在三类苹果设备间同步。",
+        "possible_approach": "如果自己做，可以先保存任务文字和完成状态，再把滑块位置、声音和印章绑定到状态变化，最后接入小组件与同步。",
+        "tradeoffs": "最容易出错的是多设备更新同一任务。若旧状态覆盖新状态，已完成的任务可能重新变成未完成。",
+        "unknowns": "手写内容换到 Apple Watch 后如何显示，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做习惯打卡产品时，可让一次完成操作同时触发视觉和声音反馈；保留明确的完成标记，不让用户只靠声音判断。"
+      ],
+      "validation_questions": [
+        "在小组件完成一项任务后，检查其他设备是否显示相同状态。",
+        "连续处理几项任务，检查拖动滑块是否容易误触。"
+      ],
+      "source_tagline": "A physical slider to-do board, faithfully rebuilt in 3D",
+      "source_description": "Yattayo is a to-do list you can feel. Every task is a real 3D slider on an orange board — drag the knob, hear the ratchet click, and an \"OK\" stamp lands on it. Done. • Every task is a sticky note. Tap it and handwrite or type right on the paper • Swipe a finished note to peel it off the board • Spin the whole board around with your finger • Widgets show the real board — slide the switch without opening the app • iPhone, Apple Watch and Mac, synced over iCloud Free for up to 3 tasks."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

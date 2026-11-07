@@ -1,367 +1,510 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-09T22:13:24+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:23:04+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1271048",
-      "name": "OpenSwarm",
-      "name_zh": "OpenSwarm",
-      "tagline_zh": "A swarm of agents, in the same place you work",
-      "description_zh": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together. Your OS just became an infinite canvas, and your work just transformed from you doing one task at a time, to orchestrating dozens in parallel. Tell it what you want and a swarm of agents does the work with you at the helm.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Y54VBVRLNCMW2B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/11f053b0-1939-408e-b385-1a0f3d478482.jpeg?auto=format",
-      "votes_count": 376,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0231d90d-e3c2-44d7-93bf-353f88e21961)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1272262",
-      "name": "OpenSEO",
-      "name_zh": "OpenSEO",
-      "tagline_zh": "The open source Semrush alternative",
-      "description_zh": "Without good data, your agent gives generic advice. We provide the data, tools, and integrations your AI agent needs for SEO via MCP. Regular SEO is the foundation of good GEO, but we just released a new set of AI Visibility features as well.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UBW3XPFGNKPZ5S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5b5be751-d20e-4ac8-aa11-e316046df1ab.png?auto=format",
-      "votes_count": 354,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d203d770-a38e-4327-a6f9-a2242bd1cbc0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1272993",
-      "name": "Claude Haiku 5.5",
-      "name_zh": "Claude Haiku 5.5",
-      "tagline_zh": "Anthropic's fastest and most capable Haiku yet",
-      "description_zh": "Claude Haiku 5.5 is Anthropic's fastest and most capable small model, built for high-volume, cost-sensitive tasks like summarization, classification, coding subagents, customer support, and browser use.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/M6JBHNQU6LWQU7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/08fef504-31b6-4b70-aff4-8b3e63b0d01f.jpeg?auto=format",
-      "votes_count": 327,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ab23fa0d-60a1-4409-8062-5e41fc533ebb)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1271901",
       "name": "Cekura Bench",
       "name_zh": "Cekura Bench",
-      "tagline_zh": "Speech-to-speech model benchmarks on live phone calls",
-      "description_zh": "Cekura Bench publishes voice AI benchmarks you can verify. Our new speech-to-speech benchmark tests 9 realtime voice models, including GPT Realtime 2.1, Gemini Live, Grok and Phonic, as complete phone agents on live calls: 82 scenarios, three runs each. Models are ranked on reliability, data accuracy, stalled calls, response time and cost, and every call transcript is public. Cekura Bench also covers voice agent benchmarks and STT benchmarks, with TTS benchmarks coming soon.",
-      "intro_zh": "",
+      "tagline_zh": "在真实电话通话中评测语音到语音模型",
+      "description_zh": "Cekura Bench 发布可供核查的语音 AI 评测：将 9 个实时语音模型作为完整电话代理，在真实通话中测试 82 种场景，每种运行三次，并公开全部通话文字记录，按可靠性、数据准确性、通话停滞、响应时间和成本排名。它还提供语音代理和语音转文字评测，文字转语音评测尚未上线。",
+      "intro_zh": "给挑选电话 AI 模型的产品和工程团队用，对照通话表现与公开文字记录，缩小候选范围。",
       "url": "https://www.producthunt.com/products/vocera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MBDNHIGIUTCOZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/47ada7e2-f50a-4b8a-8dac-0cfddf639460.png?auto=format",
       "votes_count": 167,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "选型场景明确，公开通话记录有助核查，但测试与实际业务是否相符仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把模型放进完整电话任务中测试，提出了如何公平比较的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "固定场景、重复运行并公开记录，是其他 AI 评测可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "公开通话记录让排名有据可查；但评分规则不明，暂时难判断分差是否足以指导选型。",
+      "product_analysis": {
+        "target_problem": "做电话 AI 的团队选模型时，需要知道它能否完成通话任务；单看回答样例，难判断会不会卡住或记错信息。",
+        "workflow": "查看各项排名，再对照公开通话文字记录，核查候选模型在相关场景中的表现。",
+        "ai_value": "AI 是被评测的对象，负责听懂来电并语音回应；介绍没说评分是否由 AI 完成。",
+        "differentiation": "它把比较放在完整电话任务里，并提供记录供复查。团队可能仍需自测，因为榜单场景未必覆盖自己的业务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1fa0ed9a-e70d-4288-8b61-555f10eac4f3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称测试覆盖 9 个实时语音模型、82 种场景，每种运行三次，公开全部通话文字记录。",
+        "possible_approach": "如果自己做，可以先写统一的电话任务和成功条件，再让各模型重复接听，记录结果、耗时和费用，公布评分依据。",
+        "tradeoffs": "最难的是保证测试条件可比。若不同模型拿到的任务信息不同，排名可能反映配置差异，让团队选错模型。",
+        "unknowns": "各项指标如何定义和评分，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做 AI 选型平台时，让每项评分都能回到对应测试记录，方便用户核查失败原因。"
+      ],
+      "validation_questions": [
+        "抽查同一场景，确认各模型获得的任务信息是否一致。",
+        "抽查一通被判失败的电话，确认公开记录能否支撑评分。"
+      ],
+      "source_tagline": "Speech-to-speech model benchmarks on live phone calls",
+      "source_description": "Cekura Bench publishes voice AI benchmarks you can verify. Our new speech-to-speech benchmark tests 9 realtime voice models, including GPT Realtime 2.1, Gemini Live, Grok and Phonic, as complete phone agents on live calls: 82 scenarios, three runs each. Models are ranked on reliability, data accuracy, stalled calls, response time and cost, and every call transcript is public. Cekura Bench also covers voice agent benchmarks and STT benchmarks, with TTS benchmarks coming soon."
     },
     {
       "id": "1237294",
       "name": "KloudMate 2.0",
       "name_zh": "KloudMate 2.0",
-      "tagline_zh": "AI-powered Full-Stack Observability & Agentic SRE-Ops",
-      "description_zh": "3 years after launching as an AWS serverless monitoring tool, KloudMate returns to PH as a full-stack, AI-powered Observability & Agentic SRE-Ops platform. It unifies metrics, logs, traces, and more, while KloudMate AI helps teams investigate incidents, find root causes, and resolve tickets. From dashboards to instant answers, KloudMate is built for modern, distributed systems. KloudMate AI Modules - Assistant (Answers), Builder (Dashboards, Alarms), Investigator (RCA), Docs (Documentation).",
-      "intro_zh": "",
+      "tagline_zh": "AI 驱动的全栈运行监测与运维助手平台",
+      "description_zh": "KloudMate 最初是 AWS 无服务器应用监控工具，三年后以覆盖整个应用系统的运行监测与 AI 运维平台回归 Product Hunt，汇集指标、日志和调用追踪。其 AI 帮助团队调查故障、查找原因和处理工单，模块涵盖问答、仪表盘与告警构建、根因调查及文档。",
+      "intro_zh": "给维护分布式应用的开发和运维团队用，集中查看运行数据，并用 AI 问答和调查故障。",
       "url": "https://www.producthunt.com/products/kloudmate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BWWRJNBPGI7HOE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/109e00fe-19e2-4137-b3ac-5a83c09ff03c.png?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "故障调查场景明确，但排查效率能提高多少尚无证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让故障判断有数据依据，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把问答、调查和配置生成拆开，便于分别检查结果。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把运行数据和故障问答放在一起；最大疑问是答案有没有可核对的证据。",
+      "product_analysis": {
+        "target_problem": "开发和运维人员处理分布式应用故障时，需要把性能指标、运行日志和请求经过各服务的记录对照起来，才能缩小问题范围。",
+        "workflow": "平台汇集运行数据后，团队可查看仪表盘，用 Assistant 提问，用 Investigator 调查原因，也可用 Builder 构建仪表盘和告警。简介没说明数据如何接入。",
+        "ai_value": "AI 负责回答问题、辅助调查原因，并帮助生成仪表盘和告警。处理工单的自动化程度未说明。",
+        "differentiation": "集中数据并提供问答，可能减少手动查找线索。团队是否愿意迁入，可能取决于现有系统接入有多麻烦。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0212b57b-22f0-464e-a381-6bc8a15d92c3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确汇集指标、日志、调用追踪，并提供四类 AI 模块，没说具体模型。",
+        "possible_approach": "如果自己做，可以先按服务和时间关联运行数据，再让 AI 查找相关记录，给出判断及依据。",
+        "tradeoffs": "最容易错在把同时出现的异常当成因果关系，导致团队修错地方。",
+        "unknowns": "AI 给出的故障原因能否追溯到原始记录？"
+      },
+      "transferable_insights": [
+        "做运维助手时，可把回答问题、调查原因和生成配置分开，让用户按任务选择入口。"
+      ],
+      "validation_questions": [
+        "用一个已知原因的历史故障，检查调查结果是否与事实吻合。",
+        "检查生成的告警条件是否符合用户提出的要求。"
+      ],
+      "source_tagline": "AI-powered Full-Stack Observability & Agentic SRE-Ops",
+      "source_description": "3 years after launching as an AWS serverless monitoring tool, KloudMate returns to PH as a full-stack, AI-powered Observability & Agentic SRE-Ops platform. It unifies metrics, logs, traces, and more, while KloudMate AI helps teams investigate incidents, find root causes, and resolve tickets. From dashboards to instant answers, KloudMate is built for modern, distributed systems. KloudMate AI Modules - Assistant (Answers), Builder (Dashboards, Alarms), Investigator (RCA), Docs (Documentation)."
     },
     {
       "id": "1253993",
       "name": "ChickyTutor",
       "name_zh": "ChickyTutor",
-      "tagline_zh": "A private language tutor that knows you better every day.",
-      "description_zh": "Hi Product Hunt! I’m Phanos, founder of ChickyTutor. We’re returning with an interactive whiteboard that brings visual teaching into spoken language practice. Ask about a language pattern, see examples, work through an exercise and discuss it with your tutor all during the conversation. We’ve also partnered with L’école de français to combine teacher-led French classes with daily AI practice between lessons at chickytutor.com/hybrid/french, and released ChickyTutor on Android.",
-      "intro_zh": "",
+      "tagline_zh": "每天更了解你的私人语言导师。",
+      "description_zh": "ChickyTutor 新增互动白板，让学习者在口语对话中提问语言规律、查看例句、完成练习并与导师讨论。它还与 L’école de français 合作，将教师带领的法语课与课间每日 AI 练习结合，并推出了 Android 版。",
+      "intro_zh": "给想练口语、理解语言规律的学习者用，在对话中看白板例句、做练习，再与导师讨论。",
       "url": "https://www.producthunt.com/products/chickytutor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PG7BUSTF6X2USS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/437c325e-9844-4264-a9ae-c8b47ed9bf4a.jpeg?auto=format",
       "votes_count": 125,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "口语讨论配合例句和练习的用途清楚，但教学效果尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "口头讨论与白板内容如何对应，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "将讲解、例子和练习放在同一场对话中的做法可以借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是能边说边看例句；最影响判断的是，白板与口头讲解能否持续对应。",
+      "product_analysis": {
+        "target_problem": "学习者练口语时，可能需要停下来理解某个句式。只听解释可能难以看清结构，白板提供了边说边看的方式。",
+        "workflow": "在对话中询问语言规律，查看白板例子，完成练习，再与导师讨论。法语合作课程还提供真人课堂之间的每日 AI 练习。",
+        "ai_value": "AI 用于日常语言练习；介绍没有说明它如何判断水平，也没交代如何做到越来越了解用户。",
+        "differentiation": "把例句和练习放进当前对话，可能减少另找材料的麻烦。最可能让人犹豫的是讲解是否准确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1468cd10-ac57-4874-9b74-06ffc7b1b852)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到互动白板、AI 语言练习和 Android 版，没说具体模型或语音技术。",
+        "possible_approach": "如果自己做，可以先把用户提问转成文字，再生成讲解、例句和练习，让口头回答与白板引用同一份内容。",
+        "tradeoffs": "最容易出错的是没认准用户正在讨论哪一句，导致导师解释与白板不对应，用户还得重新指明。",
+        "unknowns": "真人课堂教过的内容是否会用于安排课间练习？"
+      },
+      "transferable_insights": [
+        "做辅导产品时，可以在一轮对话里依次呈现规则、例子和练习，让用户当场试用刚学的内容。"
+      ],
+      "validation_questions": [
+        "连续追问白板上的同一例句，导师能否始终对应正确内容？",
+        "给出一个明显错误的句子，检查导师能否准确解释并纠正。"
+      ],
+      "source_tagline": "A private language tutor that knows you better every day.",
+      "source_description": "Hi Product Hunt! I’m Phanos, founder of ChickyTutor. We’re returning with an interactive whiteboard that brings visual teaching into spoken language practice. Ask about a language pattern, see examples, work through an exercise and discuss it with your tutor all during the conversation. We’ve also partnered with L’école de français to combine teacher-led French classes with daily AI practice between lessons at chickytutor.com/hybrid/french, and released ChickyTutor on Android."
     },
     {
       "id": "1273268",
       "name": "Claude for Google Workspace",
       "name_zh": "Claude for Google Workspace",
-      "tagline_zh": "Bring Claude directly into Google Docs, Sheets & Slides",
-      "description_zh": "Claude now works directly inside Google Docs, Sheets, and Slides. Ask it to draft and edit documents, analyze spreadsheets, write formulas, build charts, or create presentation slides — all without leaving your file. You can also create and edit Google Workspace files directly from Claude using the new connectors. No more copying and pasting between apps. Available in beta for all paid Claude plans.",
-      "intro_zh": "",
+      "tagline_zh": "把 Claude 直接带进 Google 文档、表格和幻灯片",
+      "description_zh": "Claude 可在 Google 文档、表格和幻灯片中起草和编辑文档、分析数据、编写公式、制作图表及演示文稿，无需离开文件。也可通过新的连接器在 Claude 中创建和编辑 Google Workspace 文件，测试版面向所有付费 Claude 套餐开放。",
+      "intro_zh": "给使用 Google Workspace 的办公人员，在文件里调用 Claude，协助写文档、分析表格和制作幻灯片。",
       "url": "https://www.producthunt.com/products/claude-for-google-workspace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WD4NK3DIKEXT7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c06a6013-a465-4ffb-9409-30433bdcffff.jpeg?auto=format",
       "votes_count": 121,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "办公任务和减少跨应用复制的好处明确，实际编辑质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把生成内容写回正确位置，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让用户在原文件里发起任务的做法，可借用于其他编辑工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是结果能留在工作文件里，少一次搬运；最影响判断的是用户能否在写回前控制改动范围。",
+      "product_analysis": {
+        "target_problem": "经常用 Google Workspace 写材料、处理数据的人会需要它。以前若在独立聊天窗口求助，需要来回复制；现在可以在文件内请求 Claude 协助。",
+        "workflow": "在文档、表格或幻灯片中提出任务，让 Claude 起草、分析或编辑。也可以从 Claude 出发，通过连接器创建和编辑这些文件。",
+        "ai_value": "AI 负责生成和修改内容，也能分析表格、写公式、制作图表及幻灯片。",
+        "differentiation": "省去部分跨应用搬运内容的操作。付费 Claude 套餐是明确的使用门槛。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 955b4ca9-e9a4-49d8-9723-b51b3db668ed)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到文件内使用和连接器（让 Claude 与 Workspace 传递内容的连接方式），未说明具体实现。",
+        "possible_approach": "如果自己做，可以先读取用户选中的内容和位置，再让模型生成修改，最后预览并确认写回。",
+        "tradeoffs": "最容易出错的是把修改写到错误位置；即使内容正确，也可能覆盖原有公式或段落。",
+        "unknowns": "介绍没说明修改前能否查看预览。"
+      },
+      "transferable_insights": [
+        "做文档或表格工具时，可以让用户选中内容后直接发起 AI 任务，减少重新解释处理对象的步骤。"
+      ],
+      "validation_questions": [
+        "选中一块表格要求修改公式，是否只改动指定范围？",
+        "提交一次编辑任务，写回前能否查看并确认改动？"
+      ],
+      "source_tagline": "Bring Claude directly into Google Docs, Sheets & Slides",
+      "source_description": "Claude now works directly inside Google Docs, Sheets, and Slides. Ask it to draft and edit documents, analyze spreadsheets, write formulas, build charts, or create presentation slides — all without leaving your file. You can also create and edit Google Workspace files directly from Claude using the new connectors. No more copying and pasting between apps. Available in beta for all paid Claude plans."
     },
     {
       "id": "1273143",
       "name": "Polylane for Vercel",
       "name_zh": "Polylane for Vercel",
-      "tagline_zh": "An AI on-call engineer for your Vercel apps",
-      "description_zh": "Keep shipping while Polylane watches your Vercel apps. Connect through the Vercel Marketplace to bring projects, deployments, domains and logs into one live graph. Agents catch regressions, investigate the root cause with evidence, and open a pull request with the permanent fix for your review.",
-      "intro_zh": "",
+      "tagline_zh": "为 Vercel 应用提供 AI 值班工程师",
+      "description_zh": "Polylane 通过 Vercel 应用市场连接项目，将项目、部署、域名和日志汇入持续更新的关联图。AI 代理会发现更新引入的问题、收集证据调查原因，并提交供你审查的代码合并请求，目标是修复问题根因。",
+      "intro_zh": "给在 Vercel 上部署应用的开发团队用，监看上线后的异常，并把调查结果推进到可审查的代码修复。",
       "url": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MPJT4OIBTEZYOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/015675c7-2c9b-4377-a049-8b0c34f54998.jpeg?auto=format",
       "votes_count": 118,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从发现故障到提交修复的用途清楚，但修复可靠性尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "怎样把运行异常对应到具体代码，是一个明确且有难度的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把调查证据和修复一并交给人审查，可借用于其他开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是调查后能给出可审查的修复；最影响判断的是，它能否证明修复确实解决了原故障。",
+      "product_analysis": {
+        "target_problem": "应用上线出问题时，开发人员需要查清哪次部署出了什么错。部署记录与日志之间的关联，是定位原因时的麻烦。",
+        "workflow": "从 Vercel 应用市场接入项目。工具汇集运行信息，发现异常后调查原因，再提交代码合并请求，交给开发者审查。",
+        "ai_value": "AI 承担异常调查和修复代码生成，把结果交给人决定是否合并。",
+        "differentiation": "它想省掉从告警追查到编写修复的部分工作。团队可能因不信任自动修改代码而暂不采用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b0fc462e-11b5-477e-a596-6fdb3c31784a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Vercel 市场接入、实时关联图，以及负责调查和提交修复的 AI 代理，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先按部署版本关联日志与代码变更，再让 AI 根据异常证据提出修复，生成代码合并请求供人审查。",
+        "tradeoffs": "最难的是找对原因。若把同时发生的代码变更误当成故障原因，修复可能无效，甚至引入新问题。",
+        "unknowns": "提交修复前，是否会运行测试来验证？"
+      },
+      "transferable_insights": [
+        "做自动排障工具时，可以把故障证据随修复一起提交，让审查者能对照判断，而不只收到一条告警。"
+      ],
+      "validation_questions": [
+        "用一个已知原因的故障，检查它能否定位到正确的代码变更。",
+        "检查生成的修复能否通过复现该故障的测试。"
+      ],
+      "source_tagline": "An AI on-call engineer for your Vercel apps",
+      "source_description": "Keep shipping while Polylane watches your Vercel apps. Connect through the Vercel Marketplace to bring projects, deployments, domains and logs into one live graph. Agents catch regressions, investigate the root cause with evidence, and open a pull request with the permanent fix for your review."
     },
     {
       "id": "1272821",
       "name": "NOVA CLI v1.0",
       "name_zh": "NOVA CLI v1.0",
-      "tagline_zh": "AI developer in your terminal",
-      "description_zh": "Nova CLI is an AI teammate in your terminal. Describe what you want in plain words and Nova reads your project, makes the change, runs your own tests and build, fixes what it broke, and gives you an honest verdict on what it checked. 160+ AI models are included on paid plans, with no separate AI account or API keys to manage. It works with the tests and tooling you already have, so there is nothing new to set up. Try Nova for free and see what it can do for your next task, here in your terminal.",
-      "intro_zh": "",
+      "tagline_zh": "终端里的 AI 开发助手",
+      "description_zh": "Nova CLI 是终端里的 AI 助手：用日常语言描述需求，它会读取项目、修改代码、运行已有测试和构建，尝试修复造成的问题，并报告检查内容。简介称可免费试用，付费方案包含 160 多种 AI 模型，无需另备 AI 账号或 API 密钥，并可沿用项目现有工具，无需新增配置。",
+      "intro_zh": "给在终端里工作的开发者用，把文字需求变成代码修改，再运行项目已有检查并报告结果。",
       "url": "https://www.producthunt.com/products/nova-18?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6CKPE3FQLUWQNP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/485b12fd-e72d-4166-9205-721158ad0e19.jpeg?auto=format",
       "votes_count": 106,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖改代码到运行检查的具体任务，但修复质量尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何准确报告检查范围，是明确且影响信任的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "沿用用户现有检查工具的做法，可借到其他自动化产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把修改和验证放在同一次任务里；最影响判断的是，它能否准确交代没有检查到的部分。",
+      "product_analysis": {
+        "target_problem": "开发者处理项目修改时，改代码后还要运行检查、定位失败。它把这些动作交给同一个终端助手处理。",
+        "workflow": "用日常语言描述需求。Nova 读取项目并修改代码，再运行已有测试和构建、修复引入的问题，最后报告检查情况。",
+        "ai_value": "AI 负责理解需求、修改代码，并根据检查结果继续修复；作用不止是给出代码建议。",
+        "differentiation": "可沿用现有测试和工具，减少另配检查流程的工作。开发者可能仍不放心让它直接修改项目。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: eafd5361-f0be-4010-9c90-78651874b5e4)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到读取项目、运行已有测试和构建；付费方案包含 160 多种模型，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先让 AI 找到相关文件和检查命令，再修改代码、执行检查，并记录运行结果。",
+        "tradeoffs": "最容易错在把部分检查通过说成任务完成。漏测的功能可能仍有问题，用户却以为已经验证。",
+        "unknowns": "检查无法运行时，会不会明确标为未验证？"
+      },
+      "transferable_insights": [
+        "做自动修复工具时，优先调用项目已有检查，并在结果中区分已通过、失败和未运行。"
+      ],
+      "validation_questions": [
+        "给它一个已有测试覆盖的小修改，检查最终代码是否满足需求。",
+        "让一项检查因环境缺失而无法运行，看报告是否明确写出未验证。"
+      ],
+      "source_tagline": "AI developer in your terminal",
+      "source_description": "Nova CLI is an AI teammate in your terminal. Describe what you want in plain words and Nova reads your project, makes the change, runs your own tests and build, fixes what it broke, and gives you an honest verdict on what it checked. 160+ AI models are included on paid plans, with no separate AI account or API keys to manage. It works with the tests and tooling you already have, so there is nothing new to set up. Try Nova for free and see what it can do for your next task, here in your terminal."
+    },
+    {
+      "id": "1271048",
+      "name": "OpenSwarm",
+      "name_zh": "OpenSwarm",
+      "tagline_zh": "让一组 AI 助手在你的工作环境中协作",
+      "description_zh": "OpenSwarm 将自己描述为以 AI 为核心的操作系统，让多个 AI 助手协作控制电脑、生成应用和操作浏览器。简介称，用户只需说出目标，就能指挥多个助手并行工作，并在画布式工作空间中掌控任务。",
+      "intro_zh": "给想把电脑任务交给 AI 的人，用一句目标指挥多个助手，协作操作应用和浏览器。",
+      "url": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Y54VBVRLNCMW2B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/11f053b0-1939-408e-b385-1a0f3d478482.jpeg?auto=format",
+      "votes_count": 376,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "并行处理电脑任务的用途清楚，但缺少具体任务和完成效果。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个助手同时操作电脑时，如何避免互相干扰是具体难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按目标分派任务的做法可借鉴，但任务如何拆分没有说明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是把多项任务交出去一起推进；但能否控制助手之间的冲突，决定了用户究竟省事还是多了监督工作。",
+      "product_analysis": {
+        "target_problem": "需要同时推进多项电脑工作的人可能会用它。麻烦在于既要执行任务，又要反复切换应用、照看进度。",
+        "workflow": "用户说出想完成的目标，由多个 AI 助手协作执行。简介提到生成应用、控制浏览器，但没给出具体操作流程。",
+        "ai_value": "AI 从回答问题扩展到操作电脑，并让多个助手并行做事；能可靠完成哪些任务尚不清楚。",
+        "differentiation": "它尝试减少用户逐项操作的负担。最可能让人犹豫的是，交出电脑控制权后是否仍能及时干预。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到多助手协作、浏览器控制和应用生成，没有披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先把目标拆成独立任务，分给不同助手，再汇总结果；涉及同一页面的操作则排队执行。",
+        "tradeoffs": "最容易出错的是多个助手同时改动同一处内容，可能覆盖彼此的结果，让用户返工。",
+        "unknowns": "所谓“操作系统”是独立系统，还是现有系统上的工作环境？"
+      },
+      "transferable_insights": [
+        "做多任务办公工具时，可以借用“用户给目标，系统分派任务”的方式，先用于彼此独立的工作。"
+      ],
+      "validation_questions": [
+        "让两个助手操作同一浏览器页面，检查是否互相干扰。",
+        "执行过程中要求停止，检查能否及时中止后续操作。"
+      ],
+      "source_tagline": "A swarm of agents, in the same place you work",
+      "source_description": "Stop bolting AI onto your computer. OpenSwarm is an AI-first operating system where agents run the whole machine: apps create themselves, browsers control themselves, and swarms of agents work together. Your OS just became an infinite canvas, and your work just transformed from you doing one task at a time, to orchestrating dozens in parallel. Tell it what you want and a swarm of agents does the work with you at the helm."
+    },
+    {
+      "id": "1272262",
+      "name": "OpenSEO",
+      "name_zh": "OpenSEO",
+      "tagline_zh": "开源的 Semrush 替代工具",
+      "description_zh": "OpenSEO 为 AI 助手提供搜索引擎优化（SEO）所需的数据、工具和连接能力，供助手通过 MCP 调用。简介认为常规 SEO 是生成式引擎优化（GEO）的基础，并提到新增了 AI 可见性功能。",
+      "intro_zh": "给用 AI 助手做网站搜索优化的人，提供可调用的数据和工具，帮助助手结合数据给建议。",
+      "url": "https://www.producthunt.com/products/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UBW3XPFGNKPZ5S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5b5be751-d20e-4ac8-aa11-e316046df1ab.png?auto=format",
+      "votes_count": 354,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "补充数据的用途明确，但数据范围和质量未交代。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "让助手调用数据有具体问题可讨论，但实现细节有限。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "给助手补充业务数据的做法可借用，收益仍取决于数据质量。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让助手有数据可查，而不只靠通用知识回答；最影响判断的是数据是否可靠，开源替代的定位本身不能证明这一点。",
+      "product_analysis": {
+        "target_problem": "用 AI 助手做网站搜索优化的人，需要建议有数据依据。缺少好数据时，助手可能只给通用建议。",
+        "workflow": "AI 助手通过 MCP 使用 OpenSEO 提供的数据和工具来处理搜索优化任务。简介没交代具体配置和操作步骤。",
+        "ai_value": "AI 是使用数据、形成建议的一方。OpenSEO 主要提供它可调用的数据和工具，未说明自身是否运行模型。",
+        "differentiation": "相比缺少业务数据的问答，它让助手能调用搜索优化资料。最可能阻碍使用的是数据覆盖不够，仍需另找来源。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "提供 MCP 连接（一种让 AI 助手调用外部数据和工具的通用方式），并提到新增 AI 可见性功能。",
+        "possible_approach": "如果自己做，可以先把搜索优化数据整理成可查询的服务，再让助手通过 MCP 查询，并在回答中保留来源和日期。",
+        "tradeoffs": "最容易出错的是把过时数据当成当前情况。助手即使解释得通，也可能让用户调整错方向。",
+        "unknowns": "AI 可见性具体衡量什么，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做垂直领域助手时，可以先让它查询业务数据，再生成建议，适合答案依赖外部事实的任务。"
+      ],
+      "validation_questions": [
+        "抽查一条助手引用的数据，能否核对来源和更新时间？",
+        "查看一次 AI 可见性结果，能否看懂它具体在衡量什么？"
+      ],
+      "source_tagline": "The open source Semrush alternative",
+      "source_description": "Without good data, your agent gives generic advice. We provide the data, tools, and integrations your AI agent needs for SEO via MCP. Regular SEO is the foundation of good GEO, but we just released a new set of AI Visibility features as well."
+    },
+    {
+      "id": "1272993",
+      "name": "Claude Haiku 5.5",
+      "name_zh": "Claude Haiku 5.5",
+      "tagline_zh": "Anthropic 称其为迄今最快、能力最强的 Haiku",
+      "description_zh": "缓存简介将 Claude Haiku 5.5 描述为 Anthropic 迄今最快、能力最强的小型模型，面向任务量大、对成本敏感的场景。列出的用途包括摘要、分类、编程子任务、客服和浏览器操作。",
+      "intro_zh": "面向需要批量处理任务的开发团队，用小型 AI 模型生成摘要、分类内容，或承担客服等任务。",
+      "url": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/M6JBHNQU6LWQU7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/08fef504-31b6-4b70-aff4-8b3e63b0d01f.jpeg?auto=format",
+      "votes_count": 327,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但价格和任务完成质量没有材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "批量任务中如何发现错误值得考虑，但介绍未给出具体做法。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按任务选择模型可以借鉴，适用边界仍需测试。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它对批量、成本敏感任务的明确定位；但历史缓存未经核验，不能据此确认速度或费用优势。",
+      "product_analysis": {
+        "target_problem": "处理大量摘要、分类或客服请求的团队，需要兼顾处理费用与结果质量。缓存将它定位于这类场景，但没有量化原来的负担。",
+        "workflow": "开发者可将它用于摘要、分类等任务并取得输出。简介没有说明如何接入，也没说明浏览器操作如何配置。",
+        "ai_value": "模型负责理解输入，再生成摘要、类别或回答。编程子任务指由它承担一部分编程工作。",
+        "differentiation": "主打用小型模型处理大量任务，可能降低费用；缺少价格和效果对比，团队可能不愿替换已有模型。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称它是小型模型，未披露具体结构。",
+        "possible_approach": "如果自己做，可以先选一种任务整理样例，再接入模型，比较输出与人工答案，错误结果交给人工处理。",
+        "tradeoffs": "最容易出错的是把看似合理的输出当成正确结果。批量分类时，错误可能进入后续处理，增加返工。",
+        "unknowns": "在质量达标的前提下，每完成一项任务要花多少钱？"
+      },
+      "transferable_insights": [
+        "做批量文本处理时，可以先用一组固定样例筛选模型，再决定哪些任务交给它。"
+      ],
+      "validation_questions": [
+        "用真实分类样例检查，它能否达到团队要求的正确率？",
+        "在同一批任务上，完成并修正结果的总费用是多少？"
+      ],
+      "source_tagline": "Anthropic's fastest and most capable Haiku yet",
+      "source_description": "Claude Haiku 5.5 is Anthropic's fastest and most capable small model, built for high-volume, cost-sensitive tasks like summarization, classification, coding subagents, customer support, and browser use."
     },
     {
       "id": "1270311",
       "name": "Paw-Paw",
       "name_zh": "Paw-Paw",
-      "tagline_zh": "A tiny desktop pet for your Mac that types along with you",
-      "description_zh": "A small illustrated animal sits in the corner of your Mac's screen, reacts as you type and click, and naps when you pause. Choose which season earns XP and unlock dozens of Paw-Paws and 100+ items as you level up. Free and native; one optional $2.99 add-on.",
-      "intro_zh": "",
+      "tagline_zh": "一只陪你打字的 Mac 迷你桌面宠物",
+      "description_zh": "一只插画小动物待在 Mac 屏幕角落，随打字和点击做出反应，暂停时会打盹。可选择积累经验值的季节，升级解锁数十种 Paw-Paw 和 100 多件物品；产品介绍称它免费、原生运行，另有一项可选的 2.99 美元附加内容。",
+      "intro_zh": "给想在 Mac 桌面养虚拟宠物的人，让小动物随打字和点击活动，并通过升级解锁角色与物品。",
       "url": "https://www.producthunt.com/products/paw-paw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/A2V3BLTS547C2F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a2ab9b38-0919-4bf6-bb45-3f4eef65624f.jpeg?auto=format",
       "votes_count": 91,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "陪伴场景清楚，但能否长期有趣仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "跟随输入做反应涉及权限和焦点处理，值得检查。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让日常操作触发轻量反馈，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "游戏娱乐",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重不用另开游戏就能获得互动反馈；最影响判断的是这种互动会不会干扰正常输入。",
+      "product_analysis": {
+        "target_problem": "它面向想给电脑使用过程添点陪伴感的 Mac 用户。解决的是桌面趣味需求，介绍没有说明它能提高工作效率。",
+        "workflow": "宠物待在屏幕角落，随打字、点击活动，停下时打盹。用户可选择积累经验值的季节，升级后解锁角色和物品。",
+        "ai_value": "介绍没提 AI，主要靠输入触发的动画和升级奖励改善体验。",
+        "differentiation": "宠物会回应正在发生的操作，无需专门进入游戏互动。持续出现的动画也可能让人分心。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c430d189-1e68-41d9-9506-295ebcea073b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它是 Mac 原生应用，能对打字、点击和暂停做出反应。",
+        "possible_approach": "如果自己做，可以先感知键鼠活动，再切换宠物动画；一段时间没有操作就播放打盹动作，另行记录经验值和解锁物品。",
+        "tradeoffs": "最容易出错的是宠物窗口抢走输入焦点，导致用户打字时文字没有进入原来的软件。",
+        "unknowns": "感知键鼠活动需要用户授予哪些系统权限，介绍没说。"
+      },
+      "transferable_insights": [
+        "做桌面陪伴产品时，可以让用户已有的操作触发反馈，减少专门照料的负担；前提是不打断原任务。"
+      ],
+      "validation_questions": [
+        "连续输入时让宠物活动，检查原软件是否始终能收到文字。",
+        "首次启用输入响应时，检查它具体请求哪些系统权限。"
+      ],
+      "source_tagline": "A tiny desktop pet for your Mac that types along with you",
+      "source_description": "A small illustrated animal sits in the corner of your Mac's screen, reacts as you type and click, and naps when you pause. Choose which season earns XP and unlock dozens of Paw-Paws and 100+ items as you level up. Free and native; one optional $2.99 add-on."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

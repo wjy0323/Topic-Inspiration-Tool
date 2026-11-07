@@ -3,7 +3,7 @@
     <!-- ── Sidebar ── -->
     <aside class="home-sidebar" :class="{ collapsed: sidebarCollapsed }">
       <div class="sidebar-header">
-        <h2 class="sidebar-title"><Newspaper :size="18" /> 选题灵感日报</h2>
+        <h2 class="sidebar-title"><Newspaper :size="18" /> AI 产品观察日报</h2>
         <button class="sidebar-toggle" @click="sidebarCollapsed = !sidebarCollapsed" :title="sidebarCollapsed ? '展开' : '收起'">
           <ChevronRight v-if="sidebarCollapsed" :size="16" />
           <ChevronLeft v-else :size="16" />
@@ -32,9 +32,8 @@
       </div>
 
       <div class="home-intro">
-        <img :src="iconIntro" alt="" class="intro-icon" />
         <div class="intro-bubble">
-          从 Product Hunt 每日 Top 10 自动抓取 AI 产品，翻译中文并逐款拆解视频化潜力、上手门槛、当前热度，生成可直接参考的选题灵感日报，每天下午 3 点自动更新~
+          每天从 Product Hunt Top 10 看新产品：它帮谁省了什么事，AI 在里面做了什么，如果自己来做，难点又在哪。每天北京时间下午 3 点左右更新。
         </div>
       </div>
 
@@ -80,7 +79,6 @@ import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useData } from '../composables/useData.js'
 import { useBookmarks } from '../composables/useBookmarks.js'
 import { Newspaper, Calendar, ChevronLeft, ChevronRight, Loader2, AlertTriangle } from '@lucide/vue'
-import iconIntro from '../icon-1_pixian_ai.png'
 import ProductCard from './ProductCard.vue'
 import ProductDetail from './ProductDetail.vue'
 
@@ -324,19 +322,9 @@ onUnmounted(() => {
 .home-updated { font-size: 12px; color: #bbb; margin-left: auto; }
 
 .home-intro {
-  display: flex;
-  align-items: center;
-  gap: 16px;
   margin-bottom: 28px;
 }
-.intro-icon {
-  flex-shrink: 0;
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
-}
 .intro-bubble {
-  position: relative;
   background: #f0f4ff;
   border-radius: 12px;
   padding: 16px 20px;
@@ -344,18 +332,6 @@ onUnmounted(() => {
   color: #555;
   line-height: 1.8;
   max-width: 1024px;
-}
-.intro-bubble::before {
-  content: '';
-  position: absolute;
-  left: -8px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  border-right: 8px solid #f0f4ff;
 }
 
 .home-status { text-align: center; padding: 60px 0; color: #999; font-size: 15px; display: flex; align-items: center; justify-content: center; gap: 8px; }
@@ -427,15 +403,6 @@ onUnmounted(() => {
 @media (max-width: 680px) {
   .product-list { grid-template-columns: 1fr; }
 
-  .home-intro {
-    align-items: flex-end;
-    gap: 10px;
-  }
-  .intro-icon {
-    width: 64px;
-    height: 64px;
-    border-radius: 14px;
-  }
   .intro-bubble {
     font-size: 13px;
     padding: 10px 14px;

@@ -1,357 +1,510 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-12T16:24:06+08:00",
+  "generated_at": "2026-11-07T15:37:13+00:00",
   "generation_error": false,
   "products": [
-    {
-      "id": "1136694",
-      "name": "BetterClaw",
-      "name_zh": "优爪",
-      "tagline_zh": "60秒部署AI代理，永久免费",
-      "description_zh": "BetterClaw 是个不用写代码就能搭AI小助手的平台，它们能定时自动帮你干活。连上 Gmail、Slack 或 Telegram，这个助手就会帮你整理邮件、发晨间简报，或者盯着你关心的事。一开始它会像实习生一样先问再动，用自己的 AI 密钥就完全免费。",
-      "intro_zh": "一个让你不用写代码就能攒出AI自动干活的助手，60秒搞定，不花钱。经常要处理邮件、定时发提醒的上班族和团队会爱上它。",
-      "url": "https://www.producthunt.com/products/betterclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RSXEQOXULUOFQR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d8bdc799-cd9d-4851-beaa-12ea53e4e38b.png?auto=format",
-      "votes_count": 314,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有完整的无代码搭建界面，可以演示拖拽配置、连接Gmail、查看代理运行的过程，画面操作流畅，适合录屏展示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "不需要编程，概念直观，普通人看一遍就能上手搭出自己的自动化流程，仅需理解触发条件和动作稍加学习。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第2，票数314，热度极高，自带话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "你敢信？60秒白嫖一个AI管家，每天自动帮你上班！",
-        "angle": "教程演示",
-        "shooting_tips": "全程录屏，先展示痛点（比如满屏未读邮件），然后打开BetterClaw，快速搭建一个自动整理收件箱并发送晨间简报的代理，突出拖拽、无代码和一键部署的爽感，最后对比使用前后效率变化，节奏明快，配上惊讶表情包。",
-        "target_audience": "想通过自动化节省时间的普通上班族、小团队负责人、效率工具爱好者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "热度爆表、画面演示效果好、零基础可上手，极易产出爆款内容。"
-    },
-    {
-      "id": "1214347",
-      "name": "Vizard Agent",
-      "name_zh": "Vizard 视频智能体",
-      "tagline_zh": "一个 AI 代理，全流程啃下所有视频活儿",
-      "description_zh": "Vizard Agent 是一个通用 AI 视频代理，能独自承担整个视频工作。从原始素材、现有视频、URL、脚本、图片，甚至一个想法开始，告诉它你想要什么，它会搞定剪辑、生成、翻新、本地化和修改。不用在不同工具间来回切换，只需给一个代理目标，直到视频完成。",
-      "intro_zh": "能搞定视频全流程的 AI 助手，素材扔进去，剪辑、生成、翻译全自动搞定。做视频的自媒体和营销人终于不用来回切工具了。",
-      "url": "https://www.producthunt.com/products/vizard-agent-the-first-video-agi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VWACZYA7FQVRD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4ee59fbf-294b-4e57-8bbb-6b6e75e71792.png?auto=format",
-      "votes_count": 124,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "丰富的 UI 操作与实时生成画面，可完整演示从输入想法或素材到输出成品视频的全过程，前后对比强烈，视觉冲击力足。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "无需技术背景，只需用自然语言提需求或上传素材，AI 即可完成视频处理，普通人也能立即上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第 8，收获 124 票，有一定热度但非榜首。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "一个 AI 干完所有视频活？Vizard Agent 开箱实测，打工人摸鱼神器！",
-        "angle": "开箱体验",
-        "shooting_tips": "录制屏幕操作，从打开工具开始，依次演示丢入 YouTube 链接自动剪辑、用脚本生成多语言版本、替换背景音乐等，突出一步到位的高效感，采用快节奏剪辑加字幕解说。",
-        "target_audience": "短视频创作者、自媒体运营、电商营销人员、想轻松做视频的普通人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "演示效果极佳，操作门槛低，热度适中，非常适合制作吸引眼球的视频内容。"
-    },
     {
       "id": "1217504",
       "name": "Tines 3B",
       "name_zh": "Tines 3B",
-      "tagline_zh": "为智能体、应用和自动化量身打造的安全环境",
-      "description_zh": "Tines 3B 是一个统一的安全工作台，用来构建和管理你最关键的 AI 智能体、应用和自动化流程。你可以在任何地方用 AI 进行构建，代码在隔离环境运行，凭证受到保护，一切操作都可审计、可监控。它主打代码优先、AI 原生，帮你快速推进项目同时不牺牲安全性。现在推出的 Explore 版本免费提供 3 个实时工作流，不限用户数、空间和连接器。",
-      "intro_zh": "一个专门跑自动化流程和 AI 助手的安全沙箱，不用担心密码泄露或代码出乱子。做运维、安全、开发的童鞋，想在安全环境里快速搭建自动化，这个就是你的菜。",
+      "tagline_zh": "为智能体、应用和自动化提供安全的运行环境",
+      "description_zh": "Tines 3B 是用于构建和管理 AI 智能体、应用及自动化流程的统一工作台，介绍称其支持隔离运行代码、保护凭证，以及审计和监控操作。缓存资料称，Explore 免费版提供 3 个实时工作流，不限用户数、空间和连接器。",
+      "intro_zh": "给要管理重要自动化任务的开发和安全团队用，在同一工作台构建 AI 应用并查看运行情况。",
       "url": "https://www.producthunt.com/products/tines?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YIH4E6DK7N5RLY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5f314c84-bfa5-4d6e-b1ab-82e0c1e0530e.png?auto=format",
       "votes_count": 405,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有可视化工作流拖拽界面、连接器配置、运行日志等画面，可以展示从零搭建自动化到执行的全过程，操作过程屏幕录制冲击力较强，但偏工具性，缺少故事性冲击。"
+          "reason": "把构建、运行和安全管理放在一起，场景明确，但省事程度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "虽然拖拽式操作降低了部分门槛，但目标用户仍需理解 API、JSON、自动化逻辑等概念，纯小白很难马上理解其用途和操作。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "代码隔离后如何安全使用凭证，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "当日 ProductHunt 排名第 1，票数 405，属于当日顶流产品，话题性高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把安全限制直接放进执行过程，可借用于内部自动化工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "我把公司所有重复工作都扔给 AI，这沙箱工具太狠了",
-        "angle": "教程演示",
-        "shooting_tips": "重点录制：1）从零创建 Workflow 的拖拽操作；2）连接谷歌表格或 Slack 等常见工具的配置过程；3）AI 辅助生成代码块的瞬间；4）最终自动化运行结果和审计日志。节奏先慢后快，配合幽默吐槽重复性工作的痛。",
-        "target_audience": "需要做流程自动化的运维、安全、开发人员，以及想提升效率的科技爱好者。"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有直观的 UI 和自动化演示空间，适合视频化呈现，但概念略硬核，需要针对技术向观众。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是构建后还能统一查看执行情况；最影响判断的是凭证权限能否细分到单个流程。",
+      "product_analysis": {
+        "target_problem": "开发和安全团队运行重要自动化时，既要让任务调用业务系统，也要防止代码越权或泄露凭证。麻烦在于功能能跑，还不等于可以放心上线。",
+        "workflow": "用户在工作台构建智能体、应用或自动化流程，让代码在隔离环境运行，再查看操作审计和监控信息。介绍未给出具体配置步骤。",
+        "ai_value": "AI 用于辅助构建，工作台也管理 AI 智能体。资料没有说明 AI 具体生成什么，不能据此认定它能自动完成整个项目。",
+        "differentiation": "它把构建与运行管理放在一起，可能减少工具间切换。我会先确认现有代码能否迁入，否则迁移工作可能抵消便利。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到代码隔离运行、凭证保护、操作审计和监控，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先把每次任务放进独立运行环境，再由平台按权限提供所需凭证，并记录执行过程。",
+        "tradeoffs": "最容易出错的是凭证使用范围：即使代码被隔离，权限过大的凭证仍可能让错误任务改动业务数据。",
+        "unknowns": "能否限制每个工作流可访问的系统和操作？"
+      },
+      "transferable_insights": [
+        "做内部自动化平台时，可以让每个流程单独申请所需权限，避免所有任务共用高权限账号。"
+      ],
+      "validation_questions": [
+        "让测试流程尝试访问未授权系统，检查是否被阻止。",
+        "故意触发一次失败，检查审计记录能否定位失败步骤。"
+      ],
+      "source_tagline": "为智能体、应用和自动化量身打造的安全环境",
+      "source_description": "Tines 3B 是一个统一的安全工作台，用来构建和管理你最关键的 AI 智能体、应用和自动化流程。你可以在任何地方用 AI 进行构建，代码在隔离环境运行，凭证受到保护，一切操作都可审计、可监控。它主打代码优先、AI 原生，帮你快速推进项目同时不牺牲安全性。现在推出的 Explore 版本免费提供 3 个实时工作流，不限用户数、空间和连接器。"
     },
     {
-      "id": "1219999",
-      "name": "Xirp",
-      "name_zh": "Xirp",
-      "tagline_zh": "Spotify打造的“记忆增强”智能开发环境",
-      "description_zh": "Xirp 是一个由 Spotify 推出的智能开发环境，自带团队记忆功能。它能自动关联你的服务、文档、代码归属和架构决策，打开开发工具就直接能看到完整的背景信息。再也不用花时间翻文档、问同事，一切从上次中断的地方无缝续上，由 Spotify Portal 技术驱动。",
-      "intro_zh": "Xirp 是 Spotify 自己人用的开发环境，能记住你团队的所有项目上下文，打开就是熟悉的配方。经常在庞杂代码库里迷路、受够不停看文档的开发者值得一试。",
-      "url": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WHZFBNTY35M434?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8f8293c6-2df5-4eca-ba85-b3aa94a25413.jpeg?auto=format",
-      "votes_count": 266,
+      "id": "1136694",
+      "name": "BetterClaw",
+      "name_zh": "BetterClaw",
+      "tagline_zh": "宣称可在 60 秒内部署 AI 助手，并永久免费",
+      "description_zh": "BetterClaw 是一个无需写代码就能搭建 AI 助手的平台，可连接 Gmail、Slack 或 Telegram，定时整理邮件、发送晨间简报或关注指定事项。简介称，助手起初会先询问再行动，使用自己的 AI 密钥即可免费使用平台。",
+      "intro_zh": "给想减少日常信息整理的人用，无需写代码，搭建能定时整理邮件、发送简报的 AI 助手。",
+      "url": "https://www.producthunt.com/products/betterclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RSXEQOXULUOFQR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d8bdc799-cd9d-4851-beaa-12ea53e4e38b.png?auto=format",
+      "votes_count": 314,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 4,
+          "reason": "定时整理邮件和发送简报的用途明确，但实际省时多少尚不清楚。"
+        },
+        "technical_insight": {
           "score": 3,
-          "reason": "有开发环境界面可演示记忆上下文、连接服务等操作，但以代码和配置为主，视觉冲击力一般"
+          "reason": "先询问再行动涉及执行权限，但确认规则没有展开。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及开发流程、架构决策等，普通互联网用户较难理解，需要编程背景"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第3，获得266票，话题热度很高"
+        "transferability": {
+          "score": 4,
+          "reason": "把首次执行交给用户确认，是自动化工具可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "Spotify程序员都在用的智能IDE？Xirp让代码自带“记忆”",
-        "angle": "开箱体验",
-        "shooting_tips": "屏幕录制，先展示传统开发环境里到处找文档的凌乱，再切换到Xirp自动弹出关联文档、架构决策和负责人信息，突出“无缝上下文”节省的时间。节奏轻快，用前后对比制造爽感。",
-        "target_audience": "程序员、开发团队、技术团队管理者"
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "定时整理信息比每次手动发起更省操作。最影响判断的是，“先问再动”有没有明确、可控的权限规则。",
+      "product_analysis": {
+        "target_problem": "适合需要反复整理邮件、汇总消息的人。这些事要定期做，也容易打断手头工作。",
+        "workflow": "无需写代码搭建助手，连接 Gmail、Slack 或 Telegram，让它定时处理指定任务。简介称，初期会先询问再行动。",
+        "ai_value": "AI 用于整理邮件、生成简报等信息处理；定时启动任务本身不必依赖 AI。",
+        "differentiation": "把定时执行和信息整理放在一起，可能减少逐次发起任务的操作。最可能让人犹豫的是开放邮箱访问权限。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然门槛较高，但凭借PH热度榜第3和Spotify的技术背书，通过界面演示带记忆的开发流程，能吸引技术爱好者和开发者群体"
+      "technical_analysis": {
+        "disclosed_facts": "支持连接三种消息服务、定时执行及自带 AI 密钥，即调用 AI 服务的凭证；未说明具体模型。",
+        "possible_approach": "如果自己做，可以先连接消息服务，再按时间取回内容交给 AI 整理；需要执行动作时，先展示内容让用户确认。",
+        "tradeoffs": "最难的是划清哪些动作必须确认。若未经同意就对外发送内容，用户可能要处理误发后果。",
+        "unknowns": "“初期先询问”何时结束，之后由谁决定执行权限？"
+      },
+      "transferable_insights": [
+        "做能代用户操作的助手时，可先让用户逐次确认，再由用户决定是否放开某类动作。"
+      ],
+      "validation_questions": [
+        "设置一项需要确认的动作，拒绝后检查助手是否仍会执行。",
+        "核对自带密钥时的收费说明，确认“免费”是否仅指平台费用。"
+      ],
+      "source_tagline": "60秒部署AI代理，永久免费",
+      "source_description": "BetterClaw 是个不用写代码就能搭AI小助手的平台，它们能定时自动帮你干活。连上 Gmail、Slack 或 Telegram，这个助手就会帮你整理邮件、发晨间简报，或者盯着你关心的事。一开始它会像实习生一样先问再动，用自己的 AI 密钥就完全免费。"
     },
     {
       "id": "1208960",
       "name": "Equitybee Benchmark",
-      "name_zh": "Equitybee 股权基准对比",
-      "tagline_zh": "免费给你的创业股权做一次市价体检",
-      "description_zh": "Equitybee Benchmark 帮美国创业公司的员工看清自己的股权价值在市场中的位置。你能按部门、资历和公司阶段，浏览 2500 多家公司里 9000 多份经过验证的新入职股权授予记录。以前都是公司在做股权对标，这回轮到你对自己手里的期权做一次公平对比了。",
-      "intro_zh": "一个给拿期权当工资的创业打工人准备的免费工具，能查到你手里的股权在市场里到底算不算公道。如果你在创业公司干活，一直好奇自己的期权有没有被低估，它就是你的谈判小参谋。",
+      "name_zh": "Equitybee Benchmark",
+      "tagline_zh": "免费对比你的创业公司股权授予水平",
+      "description_zh": "Equitybee Benchmark 帮助美国创业公司的员工了解自己的股权授予在市场中的位置。介绍称，用户可按部门、资历和公司阶段，浏览覆盖 2500 多家公司、9000 多份经过验证的新入职股权授予记录。",
+      "intro_zh": "给美国创业公司的员工用，按部门、资历和公司阶段查看股权授予记录，对比自己的入职待遇。",
       "url": "https://www.producthunt.com/products/equitybee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IP5NV4IA2YCYKO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fb39068f-5ff7-4873-b73f-ca92cdc926e6.png?auto=format",
       "votes_count": 238,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有完整的筛选、对比界面和图表，录屏演示操作流程、展示数据前后的差异很有画面感，能让观众直观看到“我的股权在别人家是什么水平”，适合做成知识型测评。"
+          "reason": "对比入职股权的用途清楚，但样本能否代表用户所在公司仍待确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "期权、股权授予这些概念对普通用户来说有一点门槛，但用生活化的比喻和简单案例就能讲清楚，不需要编程或金融背景，只是需要提前解释几个关键词。"
+          "reason": "不同公司的股权如何放在一起比较，是具体且影响判断的问题。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "当日排名第4，238票，话题贴近打工人薪资谈判痛点，容易引发讨论，有一定热度。"
+          "reason": "按用户条件筛选同类样本的做法，可借用于薪酬等对标工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "你的期权到底值多少钱？这个免费工具一查就知道",
-        "angle": "教程演示 + 行业解读",
-        "shooting_tips": "先抛出打工人对期权不确定的焦虑，然后录屏带着观众走一遍“选择公司→筛选岗位→查看比较图表”的流程，中间插入对不同公司阶段和市场行情的简单科普。节奏上前 5 秒直击痛点，后面用实际案例展示数据差距，结尾引出谈判建议。",
-        "target_audience": "在创业公司工作、拿期权或股权作为重要收入来源的科技行业员工，以及想了解自己工资价值的职场新人。"
-      },
       "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面操作感强、切入点有话题性，但需要稍微铺垫基础知识才能让更多人看懂，适合面向有一定职场认知的观众。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让员工自己找到待遇参照。但授予水平不等于股权当前能卖多少钱，不能把这类对比当作市价估值。",
+      "product_analysis": {
+        "target_problem": "美国创业公司员工评估入职股权待遇时，需要找到条件接近的参照。只有自己的授予数字，很难判断拿得多还是少。",
+        "workflow": "按部门、资历和公司阶段筛选，再浏览新入职股权授予记录，与自己的待遇对照。介绍未说明是否需要提交个人数据。",
+        "ai_value": "介绍没提 AI，主要靠可筛选的股权授予记录帮助用户比较。",
+        "differentiation": "把同类记录集中起来，可能省去自行搜集参照的工夫。但若找不到与自己条件接近的样本，用户可能不会据此作判断。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称记录经过验证，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集并核验授予记录，再统一字段和计量单位，最后提供条件筛选。",
+        "tradeoffs": "最难的是统一比较口径。若股份数和持股比例混在一起，用户可能误判待遇高低。",
+        "unknowns": "记录中的股权授予究竟用什么指标比较？"
+      },
+      "transferable_insights": [
+        "做薪酬对标工具时，可先让用户筛选岗位和资历，再展示同类记录，避免只给一个全市场平均数。"
+      ],
+      "validation_questions": [
+        "选定一组部门、资历和公司阶段后，有多少可比较记录？",
+        "检查记录是否采用相同的股权计量口径。"
+      ],
+      "source_tagline": "免费给你的创业股权做一次市价体检",
+      "source_description": "Equitybee Benchmark 帮美国创业公司的员工看清自己的股权价值在市场中的位置。你能按部门、资历和公司阶段，浏览 2500 多家公司里 9000 多份经过验证的新入职股权授予记录。以前都是公司在做股权对标，这回轮到你对自己手里的期权做一次公平对比了。"
     },
     {
       "id": "1216287",
       "name": "Bullet",
-      "name_zh": "极速编码助手 Bullet",
-      "tagline_zh": "比 Claude Code 和 Codex 快 30-60%",
-      "description_zh": "Bullet 是一款为速度而生的编码智能体，能自动根据提示词调配模型和推理强度，并行执行搜索、读取和指令，不再把整个仓库喂给向量搜索。它兼容 Claude Code、Codex 订阅或本地模型，在 SWE-bench 验证集上拿到 95.8% 的 top 3 成绩，平均一个任务只需 119 秒。",
-      "intro_zh": "想让 AI 帮你写代码但又嫌慢？Bullet 把搜索和执行并行，速度直接碾压 Claude 和 Codex。天天和代码打交道的程序员，想要省下大把等待时间的，绝对值得一试。",
+      "name_zh": "Bullet",
+      "tagline_zh": "宣称比 Claude Code 和 Codex 快 30%—60%",
+      "description_zh": "Bullet 是一款编码智能体，会根据提示词自动选择模型和推理强度，并行搜索、读取文件和执行指令，不把整个仓库交给向量搜索。缓存简介称它兼容 Claude Code、Codex 订阅或本地模型，并宣称在 SWE-bench 验证集上取得 95.8% 的 top 3 成绩，平均每项任务耗时 119 秒；这些数据未重新核验。",
+      "intro_zh": "给使用编码助手的开发者，根据任务自动选择模型，并行查找和读取代码、执行指令。",
       "url": "https://www.producthunt.com/products/bullet-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UMTDOOSFBWY54H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fe8cf30a-80f1-4851-a0f3-e9205067abcf.png?auto=format",
       "votes_count": 220,
       "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可录制编码加速对比演示，代码搜索和执行并行过程可视，秒级完成任务有冲击力，但画面局限于终端界面。"
+        "product_value": {
+          "score": 3,
+          "reason": "减少编码等待的目标明确，但速度和完成质量尚无可靠对照。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需具备编程背景，要了解 Claude Code、Codex 等术语，普通网民难以理解其价值。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "ProductHunt 排名第5，220票，属于热门新品但未达到爆款量级。"
+          "reason": "如何判断任务难度并分配推理强度，是具体的工程问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按任务难度分配处理资源，可借用于其他自动执行任务的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI 写代码居然能比 Claude 快 60%？这个神器让你告别等待！",
-        "angle": "对比测评",
-        "shooting_tips": "录屏对比同一任务在 Bullet 和 Claude Code 下的完成时间，用进度条快进展示加速效果，字幕高亮节省的时间百分比，穿插程序员键盘敲击的爽快氛围。",
-        "target_audience": "程序员、开发者、科技爱好者，特别是用过 AI 编码工具的人群。"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "技术圈讨论度高且画面能直观展现速度优势，但受众专业性强，适合面向开发者的垂直内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重自动调配能否减少人工选模型；最影响判断的是，宣传中的提速是否以相同完成质量为前提。",
+      "product_analysis": {
+        "target_problem": "面向让编码助手处理仓库任务的开发者。等待搜索、读文件和执行指令，会拖慢修改与检查。",
+        "workflow": "用户给出任务提示词，Bullet 自动调配模型和推理强度，再并行搜索、读取文件和执行指令。介绍未说明结果如何审核。",
+        "ai_value": "AI 负责处理编码任务；工具还会自动选择用哪个模型、投入多少推理。",
+        "differentiation": "它试图靠自动调配和并行操作减少等待。已有助手的用户可能不愿换，因为速度收益尚未证明能在自己的任务上复现。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存介绍明确提到模型调配、推理强度调整和并行操作；向量搜索指按内容相似度查找代码。",
+        "possible_approach": "如果自己做，可以先判断任务难度，再选择模型和推理强度，把互不依赖的搜索、读取操作同时执行。",
+        "tradeoffs": "最容易错在低估任务难度：分配的推理太少，可能漏掉修改条件，用户还得返工。",
+        "unknowns": "“top 3”如何计算，是否与速度对照使用相同条件，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做自动处理任务的工具时，可以先给简单任务分配较少资源，检查失败后再升级处理，避免所有任务都采用同一配置。"
+      ],
+      "validation_questions": [
+        "同一组仓库任务中，达到相同验收标准时，它是否确实比现用助手更快？",
+        "给出含隐含约束的任务，检查自动调配是否会漏掉关键要求？"
+      ],
+      "source_tagline": "比 Claude Code 和 Codex 快 30-60%",
+      "source_description": "Bullet 是一款为速度而生的编码智能体，能自动根据提示词调配模型和推理强度，并行执行搜索、读取和指令，不再把整个仓库喂给向量搜索。它兼容 Claude Code、Codex 订阅或本地模型，在 SWE-bench 验证集上拿到 95.8% 的 top 3 成绩，平均一个任务只需 119 秒。"
     },
     {
       "id": "1217674",
       "name": "bb",
       "name_zh": "bb",
-      "tagline_zh": "能自我构建的集成开发环境",
-      "description_zh": "bb 是一个智能协调图形界面，类似 Codex 应用，但兼容任何后端服务，如 Claude Code、Codex、OpenCode 等。它的独特之处在于能自定义和扩展自身——几乎任何功能都可以通过一个提示词来修改。比如你想要一个任务跟踪器，它就会立刻出现，同时还会自动生成技能教所有智能体如何使用它。不用等待更新，直接开口要就行。",
-      "intro_zh": "一个能自己写代码改造自己的开发者工具，像个会进化的编程助手。适合那些嫌现有 AI 编程工具不够灵活，总想按自己心意定制工作流的程序员和独立开发者。",
+      "tagline_zh": "可通过提示词扩展自身的集成开发环境",
+      "description_zh": "bb 是一个用于协调编程智能体的图形界面，介绍称可兼容 Claude Code、Codex、OpenCode 等后端。用户可以用提示词修改或增加功能，例如添加任务跟踪器，并自动生成指导智能体使用它的技能说明。",
+      "intro_zh": "给使用编程智能体的开发者用，在图形界面中协调工作，并用提示词添加所需工具。",
       "url": "https://www.producthunt.com/products/bb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JHAOO6HSRA3SKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3fc6370b-a551-4297-8a53-300f81b8574d.png?auto=format",
       "votes_count": 185,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有界面操作和交互过程，可展示通过提示词改变界面、生成功能的动态效果，但整体偏向后台智能化流程，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念较复杂，涉及 AI 代理、编排器、自扩展等，需要一定的编程和 AI 工具使用背景才能理解。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日第6名，185票，有一定热度，话题性强，但未进前三。"
+          "reason": "添加工作工具的场景明确，但修改范围与可靠性未说明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "新增功能后还要让智能体正确使用，存在具体技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "新增工具时同步生成使用说明，适合借到其他智能体产品。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "给IDE下个命令，它就自己长出任务面板？「bb」AI编程工具体验",
-        "angle": "教程演示 + 开箱体验",
-        "shooting_tips": "录屏演示打开 bb 后，直接用自然语言要求添加新功能（如任务看板、时间线），展示界面实时变化和自动生成的使用说明；突出‘无需等待’的卖点，采用快节奏剪辑，配合惊叹字幕。",
-        "target_audience": "对 AI 编程工具有好奇心的开发者、技术博主、独立创客。"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "概念有趣但技术门槛高，普通观众难以共鸣，适合垂直技术类频道。"
-    },
-    {
-      "id": "1216567",
-      "name": "Continuum",
-      "name_zh": "管理洞察",
-      "tagline_zh": "记住你对每位下属的真实印象",
-      "description_zh": "一款专为管理者打造的私人 Mac 应用。你可以把对每个团队成员的真实看法写下来，标记一对一沟通时注意到的细节，并随时回顾想法变化。没有评分，没有报告，所有内容都只留在你的 Mac 里，绝对私密。",
-      "intro_zh": "在Mac上装了个私密的管理日记，记下你对每个下属的真实印象，跟1对1会议时观察到的细节，还能看自己看法是怎么变的。怕忘记下属承诺、想更了解团队的经理和主管们，这东西就像个外置大脑。",
-      "url": "https://www.producthunt.com/products/continuum-2027?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5GRE6HVG3C23XL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/62070666-d810-4eec-ac95-0eaeea7f53e5.png?auto=format",
-      "votes_count": 131,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "界面以文字输入和列表为主，缺乏动态视觉变化和操作演示的冲击力，画面比较静态，适合录屏但不够抓眼球。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念就是私人备忘录，一看就懂，无需任何技术背景，只要会用 Mac 就能上手，管理者群体理解零障碍。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当天排名第7，获得131票，话题性和关注度在这个垂直领域算不错。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重新增功能时也补上智能体使用说明；最影响判断的是自我修改出错后能否恢复。",
+      "product_analysis": {
+        "target_problem": "开发者用编程智能体做项目时，可能需要任务跟踪等配套工具。bb 允许用提示词补充功能，减少等待产品更新的需要。",
+        "workflow": "用户提出所需功能，例如任务跟踪器；介绍称 bb 会添加它，并生成教智能体使用它的技能说明。具体配置过程未交代。",
+        "ai_value": "AI 用来修改工具自身，并生成新功能的使用说明。这里的智能体是能执行编程任务的 AI。",
+        "differentiation": "把提出需求和扩展工具放在同一界面。最可能让人犹豫的是：自动修改会不会破坏原有工作环境。"
       },
-      "video_inspiration": {
-        "title_idea": "你的Mac里需要一个绝对私密的下属印象管理神器",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从下载到创建人员条目、添加标签、记录观察、回顾历史版本的完整流程，重点突出离线隐私和简单输入的操作，可以用快节奏剪辑加趣味字幕，强调‘只属于你自己的记忆’。",
-        "target_audience": "带团队的中层管理者、创业者、项目经理，尤其是一对一会议频繁需要记录的人。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出 Claude Code、Codex、OpenCode 等后端，并提到自动生成技能说明；未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先限定可扩展的功能范围，再按提示生成组件和使用说明，测试通过后启用。",
+        "tradeoffs": "最容易出错的是功能与说明不一致：工具虽然出现了，智能体却可能按错误规则操作。",
+        "unknowns": "自动修改失败后，能否恢复到修改前的状态？"
       },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然界面演示不够炫，但概念直白、热度尚可，做成教程类短视频能直击管理者记不住细节的痛点。"
+      "transferable_insights": [
+        "做可扩展的智能体工作台时，每新增一个工具，同步生成使用说明，减少用户反复解释工具用途。"
+      ],
+      "validation_questions": [
+        "添加任务跟踪器后，让智能体按自动生成的说明更新一个任务，检查结果是否正确。",
+        "在测试项目中做一次有问题的修改，检查能否恢复原有功能。"
+      ],
+      "source_tagline": "能自我构建的集成开发环境",
+      "source_description": "bb 是一个智能协调图形界面，类似 Codex 应用，但兼容任何后端服务，如 Claude Code、Codex、OpenCode 等。它的独特之处在于能自定义和扩展自身——几乎任何功能都可以通过一个提示词来修改。比如你想要一个任务跟踪器，它就会立刻出现，同时还会自动生成技能教所有智能体如何使用它。不用等待更新，直接开口要就行。"
     },
     {
       "id": "1205805",
       "name": "Product Analytics for Agents and Users",
-      "name_zh": "AI代理与用户行为分析",
-      "tagline_zh": "用真实用户行为，调教出更聪明的人工智能代理",
-      "description_zh": "Kubit 让产品工程师能通过用户的实际行为来优化 AI 代理。把代理的每一步决策和用户的每一个动作串起来，一眼看出用户为什么重新提问、中途放弃或者最终买单。然后把分析结果直接喂给你的编码代理，造出真正让人离不开的 AI 产品。通过 OTel、CDP 或直接外挂你的数据仓库，马上就能用。",
-      "intro_zh": "盯住用户的操作，看 AI 哪里掉链子，再把洞察直接扔给编程助手去改进。做 AI 产品的工程师要是还没用这个，就跟睁眼瞎差不多。",
+      "name_zh": "Product Analytics for Agents and Users",
+      "tagline_zh": "用真实用户行为改进 AI 代理",
+      "description_zh": "Kubit 帮助产品工程师关联 AI 代理的决策与用户动作，分析重新提问、放弃或购买等行为，并把分析结果交给编码代理用于修改产品。简介称可通过 OTel、CDP 或连接数据仓库接入数据。",
+      "intro_zh": "给开发 AI 产品的工程师用，把代理决策和用户动作放在一起分析，找出需要改进的环节。",
       "url": "https://www.producthunt.com/products/kubit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HMY65PVSOJ3RX5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/04fc55dd-02fa-4b80-aea2-b7101afb5880.webp?auto=format",
       "votes_count": 115,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "虽然有数据看板和用户路径图，但画面多是图表和日志，缺乏直观的前后对比或炫酷操作，视觉冲击力较弱，不太抓人眼球。"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和改进场景清楚，但能否准确定位问题仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "需要懂产品工程、AI 代理和用户行为分析，概念比较硬核，没技术背景的普通人基本看不懂。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把代理决策与同一次用户操作对应起来，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "在 ProductHunt 排第 9，有 115 票，这类技术工具在圈子里有一定讨论，但还没出圈。"
+        "transferability": {
+          "score": 4,
+          "reason": "把系统执行过程与用户后续动作一起分析，可借用于其他自动化产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI 产品集体扑街？扒开用户行为我找到了原因",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段常见的对话界面，演示用户反复回退，然后切到 Kubit 后台，展示如何把这段失败体验关联到代理的日志，最后点出优化点并展示一键导出到 Coding Agent。全程用对比镜头，节奏先慢后快。",
-        "target_audience": "AI 产品经理、全栈工程师、技术创业者"
-      },
       "category": "数据分析",
-      "overall_suggestion": "可以做",
-      "overall_reason": "偏后台技术分析，视觉化效果有限，且普通人很难看懂，适合面向开发者的小众选题，大众视频不太容易做。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把用户行为纳入代理改进，比只看执行记录更有用；但行为先后不等于原因，关键要确认分析能否支持具体修改。",
+      "product_analysis": {
+        "target_problem": "产品工程师需要排查用户为何反复提问或中途退出。只看代理做了什么，可能看不出用户后面是否继续操作。",
+        "workflow": "接入代理和用户行为数据，关联决策与动作，查看重新提问、放弃或购买的情况，再把分析结果交给编码代理。",
+        "ai_value": "这里主要分析 AI 代理的表现。介绍没有说明分析本身是否使用 AI，也未说明编码代理如何根据结果修改产品。",
+        "differentiation": "把代理表现与用户后续动作放在一起，可能减少来回核对数据的工作。接入时若需要补采大量动作，团队可能不愿迁移。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 OTel（采集软件运行记录的标准）、CDP（汇集用户数据的平台）和数据仓库连接。",
+        "possible_approach": "如果自己做，可以先给每次交互分配共同编号，再按时间关联代理决策与用户动作，最后汇总反复提问和退出的位置。",
+        "tradeoffs": "最难的是把两类记录配对。配错一次交互，就可能把用户退出归到无关的代理决策上。",
+        "unknowns": "分析结果以什么形式交给编码代理，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做自动化客服时，可以同时记录系统处理过程和用户后续动作，优先检查处理后仍反复提问的环节。"
+      ],
+      "validation_questions": [
+        "挑一段已知完整过程，检查代理决策与用户动作是否对应到同一次交互。",
+        "把一份分析结果交给编码代理，检查它是否足以定位需要修改的代码。"
+      ],
+      "source_tagline": "用真实用户行为，调教出更聪明的人工智能代理",
+      "source_description": "Kubit 让产品工程师能通过用户的实际行为来优化 AI 代理。把代理的每一步决策和用户的每一个动作串起来，一眼看出用户为什么重新提问、中途放弃或者最终买单。然后把分析结果直接喂给你的编码代理，造出真正让人离不开的 AI 产品。通过 OTel、CDP 或直接外挂你的数据仓库，马上就能用。"
     },
     {
       "id": "1210851",
       "name": "Cerenovus",
-      "name_zh": "赛瑞诺维斯",
-      "tagline_zh": "主动揪出公司正在流失的每一分钱",
-      "description_zh": "它从公司的各种信息（文档、聊天记录、数据库）里自动抓取数据，画出实际的工作流程图，把卡顿和低效环节标得清清楚楚。然后会算清哪些问题值得修，最后给你一份有实证、经过人工核实的报告，告诉你具体该怎么动手改进，马上就能看到真金白银的回报。",
-      "intro_zh": "这玩意儿能自动扫描公司流程，把藏在犄角旮旯里的烧钱漏洞全挖出来，还附带一手修复指南。天天盯着成本、怕流程有暗坑的老板和运营头子，有它等于多了个不拿工资的顾问。",
+      "name_zh": "Cerenovus",
+      "tagline_zh": "主动发现公司运营中的资金浪费",
+      "description_zh": "它从文档、聊天记录和数据库收集数据，绘制实际工作流程，标出卡顿与低效环节，并评估哪些问题值得修。简介称，它会提供有证据、经人工核实的改进报告，但其中关于即时财务回报的说法未经验证。",
+      "intro_zh": "给需要排查运营浪费的企业团队用，整理内部资料，画出工作流程，找出待改进的环节。",
       "url": "https://www.producthunt.com/products/cerenovus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7OXGQFTLYF2LBR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3b61c69c-c27a-4e84-b260-ca86f4a8e0fc.png?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "产品以数据分析、流程挖掘和生成报告为主，核心展示是静态的图表和仪表盘，缺乏动态操作和前后强烈对比，视频演示时需要大量旁白解释，视觉冲击力弱，适合长图文解说而非短视频。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及工作流优化、瓶颈分析、ROI评估等专业概念，普通路人很难一眼看懂，使用前需要企业数据接入和业务理解，几乎没有零基础直接上手的可能。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 3,
-          "reason": "ProductHunt 当日排名第10，获得112票，热度处于中游，没有爆发性话题，但有稳定的目标受众关注。"
+          "reason": "排查低效的用途清楚，但能否准确估算损失尚无证据。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从零散记录还原实际流程，是具体且影响结果的难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把问题、证据和人工复核放在一起，可借用于诊断类产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "你司的隐形失血点，这个AI十分钟全给标出来了",
-        "angle": "行业解读 + 演示测评",
-        "shooting_tips": "屏幕录制为主，先快速展示一个假想公司的混乱原始流程，再切到Cerenovus自动绘制出的清晰流程图，用红色高亮卡壳节点，配合数字‘每年流失XX元’。最后翻到具体改进建议的页面，旁白用‘直接照着改就行’的轻松口气。节奏前半段紧凑制造焦虑，后半段变舒缓给出解决方案。",
-        "target_audience": "中小企业老板、运营总监、讲究降本增效的管理层"
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把改进建议交给人工核实有实际意义；最影响判断的是，记录里看见的低效能否可靠换算成可节省的钱。",
+      "product_analysis": {
+        "target_problem": "运营负责人排查延误和重复劳动时，需要把散落在不同资料里的线索拼起来。麻烦在于，发现流程慢，还不等于知道改哪里划算。",
+        "workflow": "产品收集内部资料，绘制流程并标出低效环节，再评估修复价值。用户最终拿到经人工核实的报告；资料未说明如何接入数据。",
+        "ai_value": "介绍没提 AI，主要靠自动收集、流程分析和人工核实来改善体验。",
+        "differentiation": "它把流程诊断和改进优先级放进同一份报告，可能减少分别整理的工作。内部聊天和数据库的开放权限，可能让团队犹豫。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到文档、聊天记录和数据库作为数据来源，未说明具体技术。",
+        "possible_approach": "如果自己做，可以先选一条业务流程，按同一笔业务关联各处记录，再按时间还原步骤，最后请业务人员核对异常。",
+        "tradeoffs": "最容易错在把不同业务的记录连到一起，导致报告把正常等待误判为卡点。",
+        "unknowns": "修复价值按什么依据估算，简介没有交代。"
+      },
+      "transferable_insights": [
+        "做运营诊断工具时，可让每条改进建议附上原始证据，并让业务人员确认后再进入报告。"
+      ],
+      "validation_questions": [
+        "选一条已知流程，检查生成的步骤是否与实际一致。",
+        "抽取一项节省金额估算，检查其计算依据能否复算。"
+      ],
+      "source_tagline": "主动揪出公司正在流失的每一分钱",
+      "source_description": "它从公司的各种信息（文档、聊天记录、数据库）里自动抓取数据，画出实际的工作流程图，把卡顿和低效环节标得清清楚楚。然后会算清哪些问题值得修，最后给你一份有实证、经过人工核实的报告，告诉你具体该怎么动手改进，马上就能看到真金白银的回报。"
+    },
+    {
+      "id": "1219999",
+      "name": "Xirp",
+      "name_zh": "Xirp",
+      "tagline_zh": "带团队记忆功能的智能开发环境，缓存标语称由 Spotify 打造",
+      "description_zh": "缓存简介称，Xirp 是 Spotify 推出的开发环境，会自动关联服务、文档、代码归属和架构决策。它在开发工具中呈现相关背景，并称由 Spotify Portal 技术驱动；这些信息尚未重新核验。",
+      "intro_zh": "给需要接手或继续开发项目的工程师用，在开发工具里查看服务、文档、代码负责人和架构决策的关联。",
+      "url": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WHZFBNTY35M434?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8f8293c6-2df5-4eca-ba85-b3aa94a25413.jpeg?auto=format",
+      "votes_count": 266,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找项目背景的需求明确，但关联信息是否完整、准确尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把当前代码与正确的团队资料关联起来，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把相关背景放到工作现场，适合借用于需要反复查资料的工具。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是把设计缘由放到写代码时就能看到的位置；最影响判断的是这些关联能否持续保持准确。",
+      "product_analysis": {
+        "target_problem": "工程师接手服务或恢复开发时，需要弄清谁负责、为什么这样设计。相关背景若散在不同地方，就得来回查找。",
+        "workflow": "打开开发工具，查看它自动关联的服务、文档、代码归属和架构决策。简介没说明首次如何接入这些资料。",
+        "ai_value": "介绍没明确提 AI，主要靠关联团队资料、集中展示背景来改善体验。",
+        "differentiation": "它可能减少离开开发工具找资料的次数。最可能让团队不愿换过来的，是首次整理和接入资料的工作量不明。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称由 Spotify Portal 技术驱动，未解释具体实现。",
+        "possible_approach": "如果自己做，可以先给服务建立统一标识，再把代码库、负责人、文档和决策记录挂到对应服务下，随当前项目展示。",
+        "tradeoffs": "最容易错在把资料关联到错误的服务。开发者可能据此找错负责人，或沿用不适用的设计决定。",
+        "unknowns": "服务负责人或架构决策变化后，关联信息如何更新？"
+      },
+      "transferable_insights": [
+        "做运维或项目管理工具时，可以围绕当前处理的对象展示相关资料，减少用户自己拼凑背景的工作。"
+      ],
+      "validation_questions": [
+        "打开一个熟悉的服务，检查展示的架构决策是否确实属于它。",
+        "更改一项服务负责人信息，检查工具内是否同步更新。"
+      ],
+      "source_tagline": "Spotify打造的“记忆增强”智能开发环境",
+      "source_description": "Xirp 是一个由 Spotify 推出的智能开发环境，自带团队记忆功能。它能自动关联你的服务、文档、代码归属和架构决策，打开开发工具就直接能看到完整的背景信息。再也不用花时间翻文档、问同事，一切从上次中断的地方无缝续上，由 Spotify Portal 技术驱动。"
+    },
+    {
+      "id": "1216567",
+      "name": "Continuum",
+      "name_zh": "Continuum",
+      "tagline_zh": "记下你对每位下属的真实印象",
+      "description_zh": "Continuum 是一款面向管理者的私人 Mac 应用，可记录对团队成员的看法、一对一沟通中的细节，并回顾想法变化。它不提供评分或报告；简介称内容只保存在用户的 Mac 上。",
+      "intro_zh": "给需要持续了解下属的管理者用，按成员记下沟通细节和个人看法，再回顾自己的判断变化。",
+      "url": "https://www.producthunt.com/products/continuum-2027?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5GRE6HVG3C23XL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/62070666-d810-4eec-ac95-0eaeea7f53e5.png?auto=format",
+      "votes_count": 131,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "记录对象和场景清楚，但比普通笔记省多少事尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "敏感记录的本地保护有具体问题可讨论，但实现未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕同一对象回看判断变化，可借用于持续跟进类产品。"
+        }
       },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示平淡，概念有一定门槛，更适合内容深读而非快速吸睛的视频，热度也未能弥补这一短板。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重保留判断变化，而不急着给人打分；最影响判断的是本地记录究竟受到怎样的访问保护。",
+      "product_analysis": {
+        "target_problem": "管理者做一对一沟通和后续跟进时，需要记住具体细节，也要知道自己为何改变了对某人的看法。",
+        "workflow": "写下对某位成员的看法，标记沟通中注意到的细节，之后回顾想法变化。简介未说明如何呈现这些变化。",
+        "ai_value": "介绍没提 AI，主要靠按成员记录和回顾来改善体验。",
+        "differentiation": "它把个人观察集中到成员身上，不要求转成评分或报告。但已有笔记习惯的人，可能看不到换工具的必要。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称它是 Mac 应用，内容只留在本机；没说具体存储和保护技术。",
+        "possible_approach": "如果自己做，可以先把记录按成员和日期存到本机，再按时间展示，供管理者回看判断变化。",
+        "tradeoffs": "最容易误判的是把本地保存等同于保密。若记录缺少访问保护，共用电脑时可能暴露对下属的敏感评价。",
+        "unknowns": "谁能在同一台 Mac 上读取这些记录，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做客户或成员跟进工具时，可以把同一对象的历次观察放在一起，方便回看，而不只保留最新结论。"
+      ],
+      "validation_questions": [
+        "给同一成员写下前后不同的看法，检查能否清楚回看变化。",
+        "检查未经授权的本机使用者能否直接读取记录。"
+      ],
+      "source_tagline": "记住你对每位下属的真实印象",
+      "source_description": "一款专为管理者打造的私人 Mac 应用。你可以把对每个团队成员的真实看法写下来，标记一对一沟通时注意到的细节，并随时回顾想法变化。没有评分，没有报告，所有内容都只留在你的 Mac 里，绝对私密。"
+    },
+    {
+      "id": "1214347",
+      "name": "Vizard Agent",
+      "name_zh": "Vizard Agent",
+      "tagline_zh": "用一个 AI 代理处理多类视频工作",
+      "description_zh": "Vizard Agent 支持从素材、现有视频、链接、脚本、图片或想法开始，按要求进行剪辑、生成、翻新、本地化和修改。介绍主张让用户向同一个代理提出目标，减少在不同工具之间切换。",
+      "intro_zh": "给需要制作或修改视频的内容团队使用，接收素材或想法，按文字要求处理视频。",
+      "url": "https://www.producthunt.com/products/vizard-agent-the-first-video-agi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VWACZYA7FQVRD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4ee59fbf-294b-4e57-8bbb-6b6e75e71792.png?auto=format",
+      "votes_count": 124,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "任务和使用场景明确，但能独立完成到什么程度尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "连续修改时如何保留已确认的内容，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按目标组织多项操作可以借鉴，但适用边界仍需验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把要求集中交给一个入口，有机会减少素材交接；但历史简介不足以证明它能稳定完成整项任务，修改的可控性最影响判断。",
+      "product_analysis": {
+        "target_problem": "内容团队需要把素材做成视频，或修改已有视频。若原先分工具处理剪辑和本地化，麻烦在于反复交接素材与要求。",
+        "workflow": "提供素材、链接、脚本、图片或想法，再说明目标，让代理处理视频；介绍也支持继续提出修改要求。",
+        "ai_value": "AI 接收用户目标并处理多类视频任务，但介绍没有说明哪些步骤仍需人工确认。",
+        "differentiation": "它试图把多项操作放在同一个入口。最可能让人不愿换用的原因，是修改是否足够可控还不明确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其为 AI 视频代理，支持多类输入，未披露具体模型或实现方式。",
+        "possible_approach": "如果自己做，可以先把要求拆成操作步骤，再调用对应的视频处理工具，并保存每次修改的版本供用户确认。",
+        "tradeoffs": "最难的是只改用户指定的部分；若连已确认的片段也改动，用户就得重新检查整条视频。",
+        "unknowns": "用户能否锁定已确认的片段，避免后续修改影响它们？"
+      },
+      "transferable_insights": [
+        "做多步骤内容工具时，可以让用户先说目标，再集中查看和修改结果，减少重复交代要求。"
+      ],
+      "validation_questions": [
+        "指定只修改一个片段，检查其余内容是否保持不变。",
+        "用一段已知内容的视频做本地化，检查译文是否保留原意。"
+      ],
+      "source_tagline": "一个 AI 代理，全流程啃下所有视频活儿",
+      "source_description": "Vizard Agent 是一个通用 AI 视频代理，能独自承担整个视频工作。从原始素材、现有视频、URL、脚本、图片，甚至一个想法开始，告诉它你想要什么，它会搞定剪辑、生成、翻新、本地化和修改。不用在不同工具间来回切换，只需给一个代理目标，直到视频完成。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

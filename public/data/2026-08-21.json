@@ -1,367 +1,510 @@
 {
   "date": "2026-08-21",
-  "generated_at": "2026-08-22T15:34:17+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:34:48+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1227792",
       "name": "Wizstar",
       "name_zh": "Wizstar",
-      "tagline_zh": "Digital avatars that move and act like professional actors",
-      "description_zh": "Wizstar helps founders, creators, and makers build an expressive, accurate digital ambassador that looks and moves like you. It gestures naturally, interacts with objects, and maintains precise lip sync—even during head turns or things in front of your face. Create product updates, training, localized videos, and branded content without being on camera every time. Bring your digital presence to life and scale it across markets, languages, and channels.",
-      "intro_zh": "",
+      "tagline_zh": "动作和表演像专业演员的数字分身",
+      "description_zh": "Wizstar 帮助创始人、创作者和产品制作者建立外貌与动作像自己的数字代言人，介绍称它能自然做手势、与物体互动，并在转头或面部被遮挡时保持准确口型。它可用于产品更新、培训、本地化视频和品牌内容，让用户不必每次亲自出镜，并面向不同市场、语言和渠道制作内容。",
+      "intro_zh": "给需要反复出镜的创始人和创作者，用像自己的数字分身制作产品介绍、培训和品牌视频。",
       "url": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/66CCQDPHMOWPG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3923a9fc-4923-4ae3-b501-a4a3d049c9e1.jpeg?auto=format",
       "votes_count": 318,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "反复出镜的麻烦明确，但制作投入和成片质量未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "转头和遮挡时保持口型可信，是具体且影响成片的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "复用个人形象的做法可借鉴，但建立分身的条件不明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是减少重复出镜；最影响判断的是分身建立和修正是否仍需本人投入大量时间。",
+      "product_analysis": {
+        "target_problem": "创始人和创作者反复发布讲解视频时，亲自出镜会占用时间。以前需要本人反复出镜的内容，现在可以尝试交给数字分身。",
+        "workflow": "先建立像自己的数字代言人，再用于产品更新、培训或本地化视频。简介没交代要交哪些素材、怎样编辑和导出。",
+        "ai_value": "介绍没提 AI，主要靠数字分身代替本人出镜来改善体验，不能据此确认生成方式。",
+        "differentiation": "省的是每次亲自表演的工作。最可能让人不愿换的，是分身表情不自然，影响观众对本人的印象。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到手势、物体互动和口型同步，并声称转头或面部被遮挡时也能保持口型准确；具体技术未说明。",
+        "possible_approach": "如果自己做，可以先用获授权的人像素材建立分身，再根据讲稿和语音生成口型、表情与动作，最后合成视频。",
+        "tradeoffs": "最难的是面部被遮挡后恢复时，嘴形仍接得上语音；一旦错位，观众会明显察觉失真。",
+        "unknowns": "建立可用分身需要多少本人拍摄素材？"
+      },
+      "transferable_insights": [
+        "做培训或产品讲解工具时，可以把固定讲解者做成可复用角色，让后续内容沿用同一形象。"
+      ],
+      "validation_questions": [
+        "让分身转头并遮挡嘴部，检查遮挡前后口型是否连续对上语音。",
+        "按实际建模要求提交素材，检查首次得到可用分身需要多少本人参与。"
+      ],
+      "source_tagline": "Digital avatars that move and act like professional actors",
+      "source_description": "Wizstar helps founders, creators, and makers build an expressive, accurate digital ambassador that looks and moves like you. It gestures naturally, interacts with objects, and maintains precise lip sync—even during head turns or things in front of your face. Create product updates, training, localized videos, and branded content without being on camera every time. Bring your digital presence to life and scale it across markets, languages, and channels."
     },
     {
       "id": "1220506",
       "name": "Supernova",
       "name_zh": "Supernova",
-      "tagline_zh": "All your data in Claude and Codex",
-      "description_zh": "Supernova connects your startup’s live data to Claude and Codex, so anyone can ask questions, investigate performance, and run complex analysis in the AI tools they already use. Connect Stripe, HubSpot, PostgreSQL, and 30+ other apps, then analyze revenue, pipeline, customers, usage, and operations without waiting on engineers or moving everything into a traditional BI stack.",
-      "intro_zh": "",
+      "tagline_zh": "在 Claude 和 Codex 中使用你的各类数据",
+      "description_zh": "Supernova 将初创公司的实时业务数据接入 Claude 和 Codex，让团队成员在已有的 AI 工具中提问、查看业务表现并开展复杂分析。它支持连接 Stripe、HubSpot、PostgreSQL 及其他 30 多款应用，介绍称无需等待工程师或将所有数据搬入传统商业智能分析系统，就能分析收入、销售机会、客户、使用情况和运营。",
+      "intro_zh": "给初创公司的业务团队用，把业务数据接入 Claude 和 Codex，用提问的方式分析收入和客户。",
       "url": "https://www.producthunt.com/products/supernova-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NI5US6CC4XM5FB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8e8273e1-195c-4a42-98ea-479b7f3aafac.png?auto=format",
       "votes_count": 306,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "分析场景清楚，但能否减少工程师协助仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨来源分析涉及同一客户如何对应，直接影响结果可信度。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把数据带进用户已有工具的做法可借鉴，但需确认权限条件。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重直接在现有工具里问业务数据；关键疑问是跨系统客户匹配是否可靠，否则回答流畅也可能算错账。",
+      "product_analysis": {
+        "target_problem": "初创公司的业务人员想查收入、客户和销售进展，数据却分散在不同系统。对需要工程师取数的团队，它提供了直接提问的入口。",
+        "workflow": "先连接 Stripe、HubSpot 或 PostgreSQL 等数据来源，再到 Claude 或 Codex 中提问，围绕接入的数据开展分析。",
+        "ai_value": "AI 是用户提问和分析数据的入口。介绍未说明 Supernova 自身是否负责理解问题或生成查询。",
+        "differentiation": "它把数据带进已有的 AI 工具，减少另开分析系统的需要。团队可能因不确定数据访问权限而暂缓接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持连接多种业务应用及 PostgreSQL，并在 Claude 和 Codex 中分析实时数据；未说明连接技术。",
+        "possible_approach": "如果自己做，可以先读取各系统获准访问的数据，再把问题转成查询，将结果交给 AI 解释。跨系统分析前，先确定哪些记录属于同一客户。",
+        "tradeoffs": "最容易错的是客户对应关系。若付款账户和销售记录匹配错，收入就可能算到别的客户名下。",
+        "unknowns": "能否按提问者身份限制可读取的数据？"
+      },
+      "transferable_insights": [
+        "做业务分析产品时，可把查询入口放进用户已有的工作工具，先支持一个高频问题，减少切换。"
+      ],
+      "validation_questions": [
+        "选一个跨 Stripe 和 HubSpot 的客户收入问题，核对结果是否对应同一客户。",
+        "用受限成员账号提问，检查能否读到其权限外的数据。"
+      ],
+      "source_tagline": "All your data in Claude and Codex",
+      "source_description": "Supernova connects your startup’s live data to Claude and Codex, so anyone can ask questions, investigate performance, and run complex analysis in the AI tools they already use. Connect Stripe, HubSpot, PostgreSQL, and 30+ other apps, then analyze revenue, pipeline, customers, usage, and operations without waiting on engineers or moving everything into a traditional BI stack."
     },
     {
       "id": "1223186",
       "name": "Mindcase",
       "name_zh": "Mindcase",
-      "tagline_zh": "Extract data from anywhere on the web within minutes",
-      "description_zh": "Mindcase is the infrastructure layer for extracting web data in a structured, usable format. Built for developers and AI teams that need reliable web data without managing scraping infrastructure. Access APIs across popular sources, or get anything across the web built as a custom API for your specific use case.",
-      "intro_zh": "",
+      "tagline_zh": "几分钟内从网页提取数据",
+      "description_zh": "Mindcase 为开发者和 AI 团队提供网页数据提取服务，输出结构清晰、可供使用的数据，免去自行管理抓取设施的工作。它提供热门来源的 API（让软件获取数据的接口），也可按具体需求定制网页数据接口。",
+      "intro_zh": "给需要网页数据的开发者和 AI 团队用，通过现成或定制接口，把网页内容变成程序可用的数据。",
       "url": "https://www.producthunt.com/products/mindcase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YI6XZOPMLJBZWC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b886c820-aede-49df-a749-a4e0c8b7ab94.png?auto=format",
       "votes_count": 225,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和省去的维护工作明确，但来源覆盖与数据可靠性待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "网页变化后如何维持字段准确，是具体问题，但介绍没说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "常见需求提供现成接口、特殊需求接受定制的做法可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把抓取维护交给服务方有明确便利，但关键疑问是网页变化后，返回数据还能否保持准确。",
+      "product_analysis": {
+        "target_problem": "开发者和 AI 团队需要持续获取网页数据。对自行维护抓取程序的团队，以前要处理网页采集与格式整理，现在可以调用服务接口取数。",
+        "workflow": "先确认目标来源是否有现成接口，再调用获取结构化数据；特殊来源可提出定制接口需求。介绍没有给出定制流程。",
+        "ai_value": "介绍没提 AI 如何参与提取，主要靠代管抓取和统一数据输出改善体验；AI 团队是使用者。",
+        "differentiation": "省去自管抓取设施的工作；最可能阻碍迁入的是所需网站不在现成接口覆盖范围内。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提供热门来源的数据接口和定制接口，输出结构化网页数据，未披露具体抓取技术。",
+        "possible_approach": "如果自己做，可以先限定几个网站和所需字段，再编写采集、字段整理程序，最后提供调用接口。",
+        "tradeoffs": "最容易出错的是网页改版后仍把内容填进错误字段。接口可能照常返回数据，用户却拿到错值。",
+        "unknowns": "定制来源从提出需求到可调用，需要多久？"
+      },
+      "transferable_insights": [
+        "做数据服务时，可把高频来源做成固定接口，特殊来源单独定制，让常见需求不用每次重新开发。"
+      ],
+      "validation_questions": [
+        "选一个实际需要的来源，将返回字段逐项与原网页核对，是否准确？",
+        "提交一个未覆盖来源，确认定制接口实际需要多长交付时间？"
+      ],
+      "source_tagline": "Extract data from anywhere on the web within minutes",
+      "source_description": "Mindcase is the infrastructure layer for extracting web data in a structured, usable format. Built for developers and AI teams that need reliable web data without managing scraping infrastructure. Access APIs across popular sources, or get anything across the web built as a custom API for your specific use case."
     },
     {
       "id": "1227471",
       "name": "fx (by Vercel)",
       "name_zh": "fx (by Vercel)",
-      "tagline_zh": "Vercel's tiny, open-source coding agent",
-      "description_zh": "fx is Vercel's tiny, open-source coding agent built to get out of your way. Written in Zig and shipped as a ~6MB native binary, it starts almost instantly while keeping memory and context overhead low. Use it with local or cloud models, extend it with skills, plugins and MCPs, or embed it into your own agent infrastructure. Small by design, so the model gets more room to work.",
-      "intro_zh": "",
+      "tagline_zh": "Vercel 的小型开源编程智能体",
+      "description_zh": "fx 是 Vercel 的小型开源编程智能体，用 Zig 语言编写，以约 6MB 的原生可执行文件交付；介绍称它启动快，内存和上下文占用低。它支持本地或云端模型，可通过技能、插件及 MCP（让模型连接外部工具的通用方式）扩展，也可嵌入自己的智能体系统。",
+      "intro_zh": "给使用 AI 编程的开发者，用小型工具连接本地或云端模型，也能嵌入已有系统。",
       "url": "https://www.producthunt.com/products/fx-by-vercel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/65726O3N7WO5MO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a626310f-94da-4d3e-959f-c1e62dc070d5.png?auto=format",
       "votes_count": 200,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "使用对象明确，但节省多少资源、能完成哪些编程任务尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "小型运行程序如何兼顾工具扩展与低上下文占用，是具体的工程问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把核心做小、按需加载扩展，可借用于其他开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重可嵌入自己的系统，便于复用编程能力。但约 6MB 的文件体积不能直接证明运行省资源，仍需确认实际任务中的占用。",
+      "product_analysis": {
+        "target_problem": "面向使用 AI 编程、或搭建智能体系统的开发者。它关注工具自身占资源、挤占模型可读取内容空间的问题。",
+        "workflow": "运行 fx，连接本地或云端模型来辅助编程。需要更多能力时添加扩展，也可将它嵌入自己的系统；具体操作未说明。",
+        "ai_value": "模型提供编程能力，fx 负责接入模型和扩展工具。简介没说明它能否独立修改文件、运行测试。",
+        "differentiation": "它主打小体积和可嵌入。最可能让人不愿换用的原因，是尚不清楚能否覆盖现有编程工具的任务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "用 Zig 编写，交付约 6MB 的原生可执行文件，开源，支持本地及云端模型和扩展。",
+        "possible_approach": "如果自己做，可以先实现发送任务、接收模型回复的最小程序，再按需加载工具，并限制每次发送的工具说明和历史记录。",
+        "tradeoffs": "最难的是少发上下文又不漏信息。若裁掉关键代码或约束，模型可能改错，用户还得补充说明。",
+        "unknowns": "低上下文占用具体靠什么实现，简介没有解释。"
+      },
+      "transferable_insights": [
+        "做可扩展开发工具时，可以让核心只保留常用动作，额外能力按需加载，避免每次都带上全部工具说明。"
+      ],
+      "validation_questions": [
+        "在同一编程任务中，减少上下文后是否遗漏关键要求？",
+        "接入一个实际需要的扩展后，能否完整执行一次工具调用？"
+      ],
+      "source_tagline": "Vercel's tiny, open-source coding agent",
+      "source_description": "fx is Vercel's tiny, open-source coding agent built to get out of your way. Written in Zig and shipped as a ~6MB native binary, it starts almost instantly while keeping memory and context overhead low. Use it with local or cloud models, extend it with skills, plugins and MCPs, or embed it into your own agent infrastructure. Small by design, so the model gets more room to work."
     },
     {
       "id": "1228265",
       "name": "Antigravity IDE Extensions",
       "name_zh": "Antigravity IDE Extensions",
-      "tagline_zh": "Antigravity agents now live inside your existing editor",
-      "description_zh": "Antigravity IDE Extensions bring Google’s agentic coding platform into VS Code, Visual Studio, JetBrains, and Zed. Keep your agent conversations and shared context while reviewing inline diffs, inspecting plans, debugging code, and handing off multi-step tasks without leaving your editor.",
-      "intro_zh": "",
+      "tagline_zh": "在现有代码编辑器里使用 Antigravity 智能体",
+      "description_zh": "Antigravity IDE Extensions 将 Google 的智能体编程平台带入 VS Code、Visual Studio、JetBrains 和 Zed。开发者可以保留智能体对话和共享上下文，在编辑器内查看代码改动、检查计划、调试代码，并交付多步骤任务。",
+      "intro_zh": "给想在现有编辑器里使用编程智能体的开发者，用来交付任务、查看计划和检查代码修改。",
       "url": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OJKMMDRQ54XCDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8245405d-5d60-4a06-8541-7cb4c79a4234.png?auto=format",
       "votes_count": 156,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，能把任务交付和代码检查放在现有编辑器里。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "对话如何跟上实际代码变化，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务执行和结果检查放在用户工作的位置，做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是能在写代码的位置检查智能体修改；最影响判断的是代码变化后，它是否仍理解当前状态。",
+      "product_analysis": {
+        "target_problem": "面向使用现有编辑器、又想交给智能体处理编程任务的开发者。若任务讨论与代码检查分散在不同工具里，来回对照会比较麻烦。",
+        "workflow": "在支持的编辑器里交付多步骤任务，检查计划、查看行内代码差异并调试，同时保留对话和共享上下文。",
+        "ai_value": "智能体用于处理多步骤编程任务；介绍没有明确它能独立完成到什么程度。",
+        "differentiation": "把任务讨论和修改检查放在同一处，可能减少切换。最可能影响使用意愿的是对自动修改代码的信任。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到四类编辑器支持、对话与共享上下文保留，以及行内代码差异查看。",
+        "possible_approach": "如果自己做，可以先让扩展读取任务相关代码，再把任务和对话交给智能体，将返回的修改展示为可检查的差异。",
+        "tradeoffs": "难点是用户继续改代码后，智能体仍可能按旧内容工作，导致修改冲突或覆盖新改动。",
+        "unknowns": "介绍没有说明共享上下文如何跟随代码变化更新。"
+      },
+      "transferable_insights": [
+        "做文档或设计助手时，可把任务计划和修改对照放进原有工作界面，让用户就地检查结果。"
+      ],
+      "validation_questions": [
+        "任务进行中手动修改同一段代码，检查智能体会不会覆盖新改动。",
+        "连续交付两个相关任务，检查第二个任务是否保留前面约定的要求。"
+      ],
+      "source_tagline": "Antigravity agents now live inside your existing editor",
+      "source_description": "Antigravity IDE Extensions bring Google’s agentic coding platform into VS Code, Visual Studio, JetBrains, and Zed. Keep your agent conversations and shared context while reviewing inline diffs, inspecting plans, debugging code, and handing off multi-step tasks without leaving your editor."
     },
     {
       "id": "1227815",
       "name": "Epho",
       "name_zh": "Epho",
-      "tagline_zh": "Run Claude Code, Codex or Opencode in cloud with your repo",
-      "description_zh": "Epho runs claude code, codex, or opencode in the cloud. POST a message, stream back the work. no sdk, no daemon, no infra on your side. Epho manages the underlying sandboxes, fallbacks, event streaming, and agent configuration for you. With a single API call, you can easily launch a Claude Code session that is already connected to your repo, understands your context, and runs in a serverless sandbox.",
-      "intro_zh": "",
+      "tagline_zh": "在云端运行连接你代码仓库的 Claude Code、Codex 或 Opencode",
+      "description_zh": "Epho 在云端运行 Claude Code、Codex 或 Opencode，接收请求并持续返回工作过程，无需用户自行部署基础设施、安装开发工具包或常驻后台程序。它管理隔离运行环境、故障回退、事件传输和助手配置，并称一次接口调用即可启动连接代码仓库、带有上下文的 Claude Code 会话。",
+      "intro_zh": "给想把编程助手接入自己产品的开发者用，连接代码仓库，在云端启动任务并接收工作进展。",
       "url": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YWZHF6R3TSHJHT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9d626d22-a966-4b89-977c-39524217c1e1.png?auto=format",
       "votes_count": 155,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "省去托管编程助手的部署工作，但实际接入要求未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "长任务中断后的恢复是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务提交与持续进度返回分开，适用于耗时的后台工作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把运行环境管理交出去，能减少自建服务的工作；但故障后如何恢复，决定它能否承接重要任务。",
+      "product_analysis": {
+        "target_problem": "开发者把编程助手接入产品时，若自行托管，还要管理运行环境和任务进度。现在可以把这些工作交给 Epho。",
+        "workflow": "通过接口（软件之间传数据的连接方式）发送任务消息，启动连接代码仓库的云端会话，再持续接收工作过程。",
+        "ai_value": "AI 编程助手负责处理任务；Epho 负责让它们在云端运行。资料没有说明 Epho 另有模型能力。",
+        "differentiation": "省的是部署和运行管理。团队可能因代码仓库需要交给第三方环境访问而不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1226539",
-      "name": "OneCLI",
-      "name_zh": "OneCLI",
-      "tagline_zh": "Give every employee a secured, sandboxed pro assistant agent",
-      "description_zh": "The best way to get work done, instead of chatting about it and doing it yourself. Open-source, secure agents, in Slack and on the web. Self-hosted agent harness for teams: sandboxed, policy-controlled, and never touching a real credential.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/onecli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GOJG4CX6YDBG6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/225881a2-3d4e-4420-b06e-f606621e6414.png?auto=format",
-      "votes_count": 141,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到沙箱（隔离的运行环境）、故障回退、事件流和助手配置管理。",
+        "possible_approach": "如果自己做，可以先接收任务，为它准备隔离环境并连接仓库，再启动助手，把进度逐条传回。",
+        "tradeoffs": "最难的是故障回退：若未确认任务已做到哪一步就重跑，可能重复修改文件，让用户难以判断该保留哪份结果。",
+        "unknowns": "介绍没说任务失败后能否接着原来的进度执行。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1227181",
-      "name": "Plow Latch",
-      "name_zh": "Plow Latch",
-      "tagline_zh": "Run AI agents on your Mac with scoped access",
-      "description_zh": "Safely give your agent real control of your Mac, while keeping your data local on your machine. With Plow Latch, pretty much anything you can do with your Mac, you can do with your AI.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/plow-latch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UWU6UJ7QRR5L65?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/adb9078d-940a-42f8-b7af-a335b2c883a4.png?auto=format",
-      "votes_count": 139,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做耗时任务工具时，可以让一次请求启动任务，再持续返回进展，避免用户只能等待最终结果。"
+      ],
+      "validation_questions": [
+        "我会用测试仓库检查：助手能否访问未授权的仓库？",
+        "我会中断一次任务，检查恢复后是否重复执行已完成的修改。"
+      ],
+      "source_tagline": "Run Claude Code, Codex or Opencode in cloud with your repo",
+      "source_description": "Epho runs claude code, codex, or opencode in the cloud. POST a message, stream back the work. no sdk, no daemon, no infra on your side. Epho manages the underlying sandboxes, fallbacks, event streaming, and agent configuration for you. With a single API call, you can easily launch a Claude Code session that is already connected to your repo, understands your context, and runs in a serverless sandbox."
     },
     {
       "id": "1227654",
       "name": "Dockhand",
       "name_zh": "Dockhand",
-      "tagline_zh": "Docker management for everyone",
-      "description_zh": "Docker manager for one host or a whole fleet. - Manage local, remote TLS, and NAT'd/VPS hosts from one UI - Deploy & update Compose stacks, incl. from Git with auto-sync - Live logs, metrics, and an in-browser container shell - Scan every image for CVEs (Grype/Trivy) before it ships - Inject secrets from 1Password, Vault, Infisical, Doppler - Encrypted backups to local, S3, or GCS - Semver update badges with release notes - SSO, LDAP, and role-based access Hardened and free.",
-      "intro_zh": "",
+      "tagline_zh": "面向所有人的 Docker 管理工具",
+      "description_zh": "管理单台或多台 Docker 主机，在同一界面连接本地、远程及位于内网或云上的主机，部署和更新 Compose 应用组合，并支持从 Git 自动同步、查看日志和指标、在浏览器中操作容器。简介还列出镜像漏洞扫描、从密码管理服务注入密钥、加密备份、版本更新提示、统一登录和按角色分配权限，并称其免费且做过安全加固。",
+      "intro_zh": "给管理 Docker 容器的开发和运维人员用，在一个界面部署应用、查看运行情况和管理多台主机。",
       "url": "https://www.producthunt.com/products/dockhand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZTGSK47YHNZBXI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1f2e93c0-8605-4018-8fbf-e78bbb940cbf.webp?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多主机部署与日常排查的场景清楚，但实际省事程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动同步部署遇到远程主机断连，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把漏洞检查放到发布前，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重部署与排查能在同一处完成；最影响判断的是远程主机异常时，部署结果是否仍然可信。",
+      "product_analysis": {
+        "target_problem": "开发和运维人员管理多台主机时，需要分清应用跑在哪里、哪里出了问题。分散查看会增加来回切换的麻烦。",
+        "workflow": "连接主机，部署 Compose 应用组合（一组一起运行的容器）。也可从 Git 代码仓库自动同步，再查看实时日志、指标或打开容器命令行。",
+        "ai_value": "介绍没提 AI，主要靠集中管理和自动同步减少重复操作。",
+        "differentiation": "部署和排查集中到一个界面。最可能让人犹豫的是：是否愿意让一个工具持有多台主机的管理权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出 Grype/Trivy 镜像漏洞扫描、外部密钥注入，以及本地、S3 或 GCS 加密备份。",
+        "possible_approach": "如果自己做，可以先接入单台主机，读取容器状态并执行部署，再扩展到多主机和 Git 同步，为每次部署记录结果。",
+        "tradeoffs": "最难的是断连后的部署处理。若没确认上次是否成功就重试，可能重复执行，也可能把失败显示成成功。",
+        "unknowns": "自动同步失败后，能否恢复到上一个可运行版本？"
+      },
+      "transferable_insights": [
+        "做发布工具时，可把漏洞扫描放到发布前，让用户在上线前看到风险；是否阻止发布，应给出明确规则。"
+      ],
+      "validation_questions": [
+        "部署时断开一台远程主机，检查界面是否准确显示部署结果。",
+        "用受限角色登录，检查能否越权打开其他主机的容器命令行。"
+      ],
+      "source_tagline": "Docker management for everyone",
+      "source_description": "Docker manager for one host or a whole fleet. - Manage local, remote TLS, and NAT'd/VPS hosts from one UI - Deploy & update Compose stacks, incl. from Git with auto-sync - Live logs, metrics, and an in-browser container shell - Scan every image for CVEs (Grype/Trivy) before it ships - Inject secrets from 1Password, Vault, Infisical, Doppler - Encrypted backups to local, S3, or GCS - Semver update badges with release notes - SSO, LDAP, and role-based access Hardened and free."
+    },
+    {
+      "id": "1226539",
+      "name": "OneCLI",
+      "name_zh": "OneCLI",
+      "tagline_zh": "为每位员工提供受安全保护、在隔离环境中运行的专业助手",
+      "description_zh": "OneCLI 是面向团队的开源助手工具，可在 Slack 和网页中使用，主张让助手执行工作。团队可自行部署；简介称，助手在隔离环境中运行，受规则约束，且不接触真实凭证。",
+      "intro_zh": "给希望让助手执行工作的团队用，员工可在 Slack 或网页中使用，团队可自行部署并设置运行限制。",
+      "url": "https://www.producthunt.com/products/onecli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GOJG4CX6YDBG6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/225881a2-3d4e-4420-b06e-f606621e6414.png?auto=format",
+      "votes_count": 141,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但缺少具体任务和完成效果的材料。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "不接触真实凭证仍能执行工作，是具体但尚未解释的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把任务执行与权限限制一起设计有借鉴意义，但实现条件不明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让团队限制助手的执行范围；但支持哪些实际任务仍不清楚，尚不能判断能省多少事。",
+      "product_analysis": {
+        "target_problem": "希望让助手代办工作的团队会需要它。麻烦在于，交出执行权限后，还要限制助手能访问什么、能改什么。",
+        "workflow": "团队自行部署，员工从 Slack 或网页使用助手。简介未说明任务如何提交、确认和交付。",
+        "ai_value": "助手被定位为执行工作，而非只给建议；但资料没列出能完成哪些任务，也没交代模型。",
+        "differentiation": "它把执行工作和团队管控放在一起。自行部署可能增加维护负担，让缺少技术人员的团队不愿采用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、自行部署、沙箱（隔离的运行环境）和规则控制，并声称助手不接触真实凭证。",
+        "possible_approach": "如果自己做，可以先让助手在隔离环境中运行，再由独立服务检查操作权限，代它保管和使用账号密钥。",
+        "tradeoffs": "最难的是把权限规则落实到每次操作。若只限制入口，助手仍可能改动不该改的数据。",
+        "unknowns": "助手不接触真实凭证时，如何获得执行操作所需的授权？"
+      },
+      "transferable_insights": [
+        "做能修改业务数据的助手时，可把权限检查放在真正执行操作的位置，不只靠对话中提醒它守规则。"
+      ],
+      "validation_questions": [
+        "给助手一个明确越权的任务，检查是否会被阻止。",
+        "选一个日常任务，检查助手能否实际完成，而非只返回操作建议。"
+      ],
+      "source_tagline": "Give every employee a secured, sandboxed pro assistant agent",
+      "source_description": "The best way to get work done, instead of chatting about it and doing it yourself. Open-source, secure agents, in Slack and on the web. Self-hosted agent harness for teams: sandboxed, policy-controlled, and never touching a real credential."
+    },
+    {
+      "id": "1227181",
+      "name": "Plow Latch",
+      "name_zh": "Plow Latch",
+      "tagline_zh": "让 AI 智能体在 Mac 上运行，并限定访问范围",
+      "description_zh": "Plow Latch 介绍称，可以让 AI 智能体实际操作 Mac，同时把数据留在本机。它宣称能覆盖用户在 Mac 上的大部分操作，但没有列出具体支持范围。",
+      "intro_zh": "给想让 AI 代操作 Mac 的用户用，让智能体执行电脑操作，并限定它能访问的范围。",
+      "url": "https://www.producthunt.com/products/plow-latch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UWU6UJ7QRR5L65?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/adb9078d-940a-42f8-b7af-a335b2c883a4.png?auto=format",
+      "votes_count": 139,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "代操作电脑的用途清楚，但缺少具体任务和支持范围。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何限制操作权限是具体问题，但资料没有说明实现方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按任务限定权限可以借鉴，但授权粒度尚不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让代操作有明确边界；但没有权限限制的具体说明，还不能把“安全”当成已证实的好处。",
+      "product_analysis": {
+        "target_problem": "想让 AI 帮忙操作 Mac 的人，需要给它足够权限，又不希望它接触无关数据。麻烦在于任务能否完成与权限能否收住。",
+        "workflow": "介绍只支持这样的使用轮廓：让智能体获得限定范围的访问权，再代为操作 Mac。授权方式、任务入口和结果确认步骤都没交代。",
+        "ai_value": "AI 在这里负责实际操作电脑。资料没有说明它如何理解任务，也没有给出可完成的任务示例。",
+        "differentiation": "它试图把代操作与权限限制放在一起，减少用户放权时的顾虑。最可能阻碍使用的是用户仍不确定限制是否可靠。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到限定访问范围、智能体操作 Mac 和数据留在本机，没有披露具体技术。",
+        "possible_approach": "如果自己做，可以先把任务拆成所需操作，再逐项检查授权；遇到未授权操作就停止，并请用户确认。",
+        "tradeoffs": "最难的是每一步都守住权限边界。若限制只在任务开始时检查，后续操作可能接触用户没打算开放的数据。",
+        "unknowns": "“数据留在本机”是否也包括发送给 AI 的任务内容，资料没有说明。"
+      },
+      "transferable_insights": [
+        "做能代用户操作的软件时，可以按当前任务请求权限，遇到额外操作再单独询问，避免一次索要全部访问权。"
+      ],
+      "validation_questions": [
+        "限定一个访问范围后，要求智能体读取范围外的文件，检查是否被阻止。",
+        "执行含敏感文本的任务时，检查文本是否被发送到本机之外。"
+      ],
+      "source_tagline": "Run AI agents on your Mac with scoped access",
+      "source_description": "Safely give your agent real control of your Mac, while keeping your data local on your machine. With Plow Latch, pretty much anything you can do with your Mac, you can do with your AI."
     },
     {
       "id": "1227172",
       "name": "Surfdeck",
       "name_zh": "Surfdeck",
-      "tagline_zh": "Your tabs, within reach.",
-      "description_zh": "Keep your favorite sites close at hand, right from your Mac's menu bar.",
-      "intro_zh": "",
+      "tagline_zh": "常用标签页，触手可及。",
+      "description_zh": "把喜爱的网站放在随手可及的位置。直接从 Mac 菜单栏访问它们。",
+      "intro_zh": "给经常访问固定网站的 Mac 用户用，把常用网站放进菜单栏，方便随时访问。",
       "url": "https://www.producthunt.com/products/surfdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KKNDE5EKUAL52T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fa18b983-eb1e-43f4-b8ba-066f6226c58b.jpeg?auto=format",
       "votes_count": 125,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "入口和使用场景清楚，但比现有书签省多少事还不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "菜单栏入口如何打开网站，会直接影响使用是否顺手。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把高频网站放到菜单栏的做法可借用，但适用数量有待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是从菜单栏直接访问常用网站；最影响判断的是，它能否减少找页面的动作，又不增加重复标签页。",
+      "product_analysis": {
+        "target_problem": "适合每天反复访问几个固定网站的 Mac 用户。要解决的是让常用网站更容易找到；资料没有说明用户原先用书签、固定标签页还是其他方式。",
+        "workflow": "用户从 Mac 菜单栏访问喜爱的网站。介绍没交代如何添加网站，也没说明点击后是在浏览器还是应用内打开。",
+        "ai_value": "介绍没提 AI，主要靠把网站入口放进菜单栏来改善访问体验。",
+        "differentiation": "它提供了浏览器窗口之外的访问入口。用户可能不愿更换，因为现有书签或固定标签页已经够顺手。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "明确提供 Mac 菜单栏网站入口，介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存网站名称和地址，再在菜单栏列出，点击后交给浏览器打开。这是一种可行做法，不能据此判断 Surfdeck 的实际打开方式。",
+        "tradeoffs": "最容易出错的是网站的打开行为：如果每次点击都新建标签页，反复访问可能让页面越积越多。",
+        "unknowns": "点击网站时，能否回到已经打开的页面？"
+      },
+      "transferable_insights": [
+        "做内部工具导航时，可以把少量高频系统放进菜单栏，让用户不必先找到导航页面。"
+      ],
+      "validation_questions": [
+        "连续打开同一网站，检查是否重复新建标签页。",
+        "放入自己日常使用的网站集合，检查菜单中是否容易找到目标。"
+      ],
+      "source_tagline": "Your tabs, within reach.",
+      "source_description": "Keep your favorite sites close at hand, right from your Mac's menu bar."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,511 @@
 {
   "date": "2026-09-03",
-  "generated_at": "2026-09-04T20:01:43+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:31:40+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1239953",
-      "name": "Nex",
-      "name_zh": "Nex",
-      "tagline_zh": "Claude Cowork for high-volume GTM workflows",
-      "description_zh": "Nex automates workflows like CRM clean up, large list qualification, revenue recovery, at large volumes, that break general purpose agents. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
-      "votes_count": 335,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1232031",
       "name": "Agent Builder by Airtop",
       "name_zh": "Agent Builder by Airtop",
-      "tagline_zh": "Build agents that heal themselves. ",
-      "description_zh": "Describe any workflow in plain English. Agent Builder compiles it into a coded automation that runs like software. When a run breaks, Airtop automatically investigates, rebuilds the step, and verifies the fix on a real test run. Airtop Agents run securely in the cloud and are up to 100x more efficient than traditional LLM-per-step AI Agents.",
-      "intro_zh": "",
+      "tagline_zh": "构建能自行修复的智能体。",
+      "description_zh": "用日常英语描述工作流程，Agent Builder 会将其转成可运行的代码自动化；执行出错时，会自动调查、重建出错步骤，并实际试跑验证修复。介绍称这些自动化在云端安全运行，相比每一步都调用大语言模型的 AI 智能体，效率最高可达其 100 倍，但未说明衡量口径。",
+      "intro_zh": "给需要自动执行重复流程的人用，把英语描述转成代码，并在执行出错后尝试修复。",
       "url": "https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2EYT4D2MQCUU3J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/109d98ce-8eba-4189-af61-2c5290db33c7.png?auto=format",
       "votes_count": 328,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "生成流程和处理故障的用途清楚，但适用任务范围不明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "修复后实际试跑很具体，但如何判断修对了仍不清楚。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把修复与验证绑定的做法可借鉴到自动化工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是把故障排查也纳入自动化；最影响判断的是，它能否区分“跑通了”和“做对了”。",
+      "product_analysis": {
+        "target_problem": "需要重复执行固定流程的人，可能既要搭建自动化，也要在失败后排查。它试图把这两部分工作一起接过去。",
+        "workflow": "用户用英语描述流程，工具生成代码并在云端执行。运行出错后，自动调查、重建该步骤，再试跑验证。",
+        "ai_value": "AI 用来把自然语言要求变成代码，并参与故障处理。介绍强调代码执行，但没说运行中哪些步骤仍需调用模型。",
+        "differentiation": "省事点是出错后能自动尝试修复并验证。用户可能不愿交出修复权，尤其当流程会产生实际业务变更时。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1226006",
-      "name": "MagiCrew",
-      "name_zh": "MagiCrew",
-      "tagline_zh": "Give everyone their own AI workforce in one platform",
-      "description_zh": "MagiCrew is an open-source AI Agent platform that gives everyone their own AI workforce. Instead of simply chatting with AI, deploy specialized digital workers that research, analyze, create reports, generate presentations, and complete real business tasks. With multi-agent collaboration, enterprise controls, and deliverable-ready outputs, MagiCrew helps teams turn AI from a tool they use into a workforce they can manage.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/magicrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7TTRWNXQKUKM4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/55bd063e-499a-46ed-ac34-df2d1b512737.jpeg?auto=format",
-      "votes_count": 269,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到生成代码、云端运行，以及故障后的自动调查、步骤重建和实际试跑。",
+        "possible_approach": "如果自己做，可以先把描述转成分步代码，记录执行结果；失败后让模型修改对应步骤，再按预先定义的成功条件试跑。",
+        "tradeoffs": "最难的是判断修复是否正确。代码不再报错，也可能做错事，导致错误操作被继续执行。",
+        "unknowns": "验证依据是用户的任务目标，还是仅检查程序能否跑完？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做自动化工具时，可以把“提出修复”和“试跑验证”设为两个独立动作，验证通过后再恢复执行。"
+      ],
+      "validation_questions": [
+        "人为制造一次步骤失败，检查修复后是否仍满足原任务目标。",
+        "让流程在已完成一次写入后失败，检查重试是否造成重复写入。"
+      ],
+      "source_tagline": "Build agents that heal themselves. ",
+      "source_description": "Describe any workflow in plain English. Agent Builder compiles it into a coded automation that runs like software. When a run breaks, Airtop automatically investigates, rebuilds the step, and verifies the fix on a real test run. Airtop Agents run securely in the cloud and are up to 100x more efficient than traditional LLM-per-step AI Agents."
     },
     {
       "id": "1240025",
       "name": "Omi",
       "name_zh": "Omi",
-      "tagline_zh": "Ask your computer anything you saw or heard",
-      "description_zh": "Omi captures your screen and conversations, creates tasks, reminders and advice, helping you find anything you saw or discussed. Turn calls into summaries and action items, ask questions and get personalized responses! Omi is open source, local and works with your own AI keys, giving you full control over what gets recorded, paused, or deleted.",
-      "intro_zh": "",
+      "tagline_zh": "向电脑询问你看过或听过的内容",
+      "description_zh": "Omi 记录屏幕和对话，生成任务、提醒与建议，帮助查找看过或讨论过的内容，也能将通话整理成摘要和待办，并回答个性化问题。简介称它开源、在本地运行，支持使用自己的 AI 密钥，并可控制记录、暂停和删除。",
+      "intro_zh": "给需要回查屏幕内容和工作对话的人用，记录信息，再从中查找答案、整理摘要和待办。",
       "url": "https://www.producthunt.com/products/open-source-ai-necklace-friend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LY6RGOFW5MIPEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/016bc8ef-65d7-47bf-ab3c-90438dd8796b.png?auto=format",
       "votes_count": 259,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "回查信息和整理通话的用途清楚，但查找准确性尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "本地运行与自带 AI 密钥之间的数据去向值得具体检查。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把记录直接变成可查询资料的做法可借用于会议和工作记录工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让已记录的信息能被再次问出来；最大的疑问是“本地运行”是否也覆盖 AI 处理，不能据此直接认定数据不外传。",
+      "product_analysis": {
+        "target_problem": "经常开会、跨页面找资料的人，可能记得讨论过某件事，却想不起内容在哪。Omi 面向这种事后回查场景。",
+        "workflow": "开启屏幕和对话记录后，可提问查找相关内容，也可把通话整理成摘要和待办。用户能控制记录、暂停和删除。",
+        "ai_value": "AI 用于回答问题，并把记录整理成摘要、任务、提醒和建议；简介未说明这些处理分别在哪里完成。",
+        "differentiation": "它把记录、查找和整理放在一起，可能减少手动翻找。最可能让人犹豫的是持续记录屏幕和谈话涉及隐私。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1238997",
-      "name": "Atlas by World Labs",
-      "name_zh": "Atlas by World Labs",
-      "tagline_zh": "Turn text, pics, video, + 3D into camera-controlled HD video",
-      "description_zh": "Atlas is World Labs' omni world model. It takes text, images, video, and 3D, then generates camera-controlled 1440p video up to a minute, reconstructs scenes from a few photos, and simulates space-time for robotics. Early access.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/atlas-by-world-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7ZC3M4VAAJWXV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4b1b3b9b-e52d-4d4b-b5c7-cf2246a9ab5b.jpeg?auto=format",
-      "votes_count": 216,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称产品开源、本地运行，并支持用户自己的 AI 密钥，即调用 AI 服务的访问凭证。",
+        "possible_approach": "如果自己做，可以先把屏幕和对话转成带时间的文字记录，再找出与问题相关的片段，让 AI 据此回答。",
+        "tradeoffs": "最难的是找对相关片段。漏掉一句限定条件，就可能把讨论中的设想误当成已确定的任务。",
+        "unknowns": "使用自己的 AI 密钥时，哪些记录会发送到外部服务？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做会议记录工具时，可让同一份记录同时支持事后问答和待办整理，减少用户重复录入背景。"
+      ],
+      "validation_questions": [
+        "选一段有明确结论的对话，检查回答是否准确保留结论的限定条件。",
+        "使用自带 AI 密钥提问时，检查实际发送到外部服务的数据范围。"
+      ],
+      "source_tagline": "Ask your computer anything you saw or heard",
+      "source_description": "Omi captures your screen and conversations, creates tasks, reminders and advice, helping you find anything you saw or discussed. Turn calls into summaries and action items, ask questions and get personalized responses! Omi is open source, local and works with your own AI keys, giving you full control over what gets recorded, paused, or deleted."
     },
     {
       "id": "1228465",
       "name": "Tabbit AI ",
-      "name_zh": "Tabbit AI ",
-      "tagline_zh": "The best AI browser built both for you and your Agents.",
-      "description_zh": "Tabbit is the AI browser that knows what you’re working on and can get the work done for you. Give it the pages, screenshots, and local files that matter, and Tabbit Agent can work across the web now or on a schedule. It delivers usable HTML, PDFs, and presentations, then saves the workflow as a Skill you can run again.",
-      "intro_zh": "",
+      "name_zh": "Tabbit AI",
+      "tagline_zh": "为你和你的 AI 助手打造的 AI 浏览器",
+      "description_zh": "Tabbit 是一款 AI 浏览器，可结合你提供的网页、截图和本地文件，让 AI 助手立即或按计划在网上执行任务。它能生成 HTML 网页、PDF 和演示文稿，并把工作流程保存为可再次运行的 Skill（可复用任务流程）。",
+      "intro_zh": "给需要结合网页和本地资料完成任务的人用，让 AI 助手执行网上工作，再生成文档。",
       "url": "https://www.producthunt.com/products/tabbitai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KCA4XB6BI4IKXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6f25a6ab-1634-4e0e-8459-7b0508c88ea3.png?auto=format",
       "votes_count": 150,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "资料输入、任务执行和成果交付都明确，但完成质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "保存的流程能否应对网页变化，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把一次任务保存为可重复运行的流程，适用于周期性工作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重做完一次后能复用流程，减少重复安排。最大的疑问是重跑遇到网页变化时，是否仍需频繁人工接手。",
+      "product_analysis": {
+        "target_problem": "需要结合网上信息和本地资料制作交付物的人会用到它。麻烦在于资料分散，收集后还要整理成文档。",
+        "workflow": "提供相关网页、截图和本地文件，让助手立即或按计划执行网上任务。拿到生成的文件后，可把流程保存为 Skill 再次运行。",
+        "ai_value": "AI 结合提供的材料执行网上任务，并生成交付物，不只回答问题。",
+        "differentiation": "它把执行任务和生成文件放在同一处。用户可能不愿换浏览器，尤其已有固定工作环境时。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持多种材料输入、定时执行和流程复用，没说具体用什么模型。",
+        "possible_approach": "如果自己做，可以先读取材料，把任务拆成网页操作，再生成文件；最后保存操作步骤和可替换的输入，供下次运行。",
+        "tradeoffs": "最难的是流程重跑时应对网页变化。按钮或页面结构变了，助手可能点错位置，导致任务中断或结果出错。",
+        "unknowns": "定时任务遇到需要重新登录的页面时，如何继续？"
+      },
+      "transferable_insights": [
+        "做周期性资料整理工具时，可以在任务完成后提供“保存为流程”，下次只替换资料和日期。"
+      ],
+      "validation_questions": [
+        "选一个熟悉的任务，核对生成文件中的关键事实是否与输入材料一致。",
+        "保存流程后更换一组同类资料重跑，检查是否仍能完成任务。"
+      ],
+      "source_tagline": "The best AI browser built both for you and your Agents.",
+      "source_description": "Tabbit is the AI browser that knows what you’re working on and can get the work done for you. Give it the pages, screenshots, and local files that matter, and Tabbit Agent can work across the web now or on a schedule. It delivers usable HTML, PDFs, and presentations, then saves the workflow as a Skill you can run again."
     },
     {
       "id": "1239706",
       "name": "Higgsfield Genjutsu",
       "name_zh": "Higgsfield Genjutsu",
-      "tagline_zh": "Recast motion with your characters, locations & products",
-      "description_zh": "Higgsfield Genjutsu is an AI video-to-video tool for creators, influencers, and marketers who want to transform existing footage without a full reshoot. Its Motion Transfer and Object Swap features let you change characters, objects, outfits, locations, or styles while preserving the original motion, timing, and shot structure, making content variations faster and more flexible.",
-      "intro_zh": "",
+      "tagline_zh": "用你的人物、场景和产品，重新演绎原视频的动作",
+      "description_zh": "Higgsfield Genjutsu 是一款 AI 视频转视频工具，面向希望不经完整重拍就能改造已有素材的创作者、网红和营销人员。简介称，其动作迁移和物体替换功能可更换人物、物体、服装、地点或风格，同时保留原有动作、时序和镜头结构。",
+      "intro_zh": "给已有视频素材的创作者和营销人员用，更换画面中的人物、商品或场景，制作内容变体。",
       "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GEZTQXOJSXCL6N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/30b6ba3e-a7f9-4806-805d-6a8b60c21ac5.png?auto=format",
       "votes_count": 140,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "复用已有拍摄成果的用途清楚，但成片可用程度尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "替换内容时仍要保持动作连贯，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "固定原片动作、只改指定内容的做法，可借给素材改版工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它能复用已有拍摄成果；但替换后的细节能否达到发布要求，历史简介还不足以回答。",
+      "product_analysis": {
+        "target_problem": "营销人员要给同一段演示换商品或场景时，完整重拍会重复拍摄工作。它提供复用原片制作变体的选择。",
+        "workflow": "以已有视频为基础，更换人物、物体、服装、地点或风格，生成保留原动作和镜头结构的版本。简介没说明如何指定替换内容。",
+        "ai_value": "AI 负责改变画面内容，并尝试沿用原片的动作与时序，减少重新组织表演和拍摄的需要。",
+        "differentiation": "核心好处是保留已有镜头设计。最可能阻碍使用的是替换结果不够稳定，仍需返工。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI 视频转视频、动作迁移和物体替换，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先识别要替换的对象，记录它在连续画面中的位置和动作，再生成替换画面，检查前后是否连贯。",
+        "tradeoffs": "最难的是让替换对象在连续画面中保持一致；若转身或遮挡后外观变了，整段素材可能无法使用。",
+        "unknowns": "替换商品时，能否准确保留标志和包装文字？"
+      },
+      "transferable_insights": [
+        "做素材改版工具时，可以让用户保留原片动作和节奏，只修改指定对象，减少每次从头制作的工作。"
+      ],
+      "validation_questions": [
+        "用含转身和遮挡的片段替换人物，检查前后外观是否一致。",
+        "用带标志和文字的商品做替换，检查品牌细节是否准确。"
+      ],
+      "source_tagline": "Recast motion with your characters, locations & products",
+      "source_description": "Higgsfield Genjutsu is an AI video-to-video tool for creators, influencers, and marketers who want to transform existing footage without a full reshoot. Its Motion Transfer and Object Swap features let you change characters, objects, outfits, locations, or styles while preserving the original motion, timing, and shot structure, making content variations faster and more flexible."
     },
     {
       "id": "1238755",
       "name": "Tidy",
       "name_zh": "Tidy",
-      "tagline_zh": "Fix grammar in any Mac app with free on-device AI",
-      "description_zh": "Fix spelling and grammar anywhere on your Mac. Select text, press the shortcut, and the corrected version replaces it where it sits. A second shortcut strips the AI slop out of anything that reads like a machine wrote it. @Mentions, dates and times are untouched. It runs on the model built into macOS. Nothing you select is uploaded. Needs macOS 26 with Apple Intelligence.",
-      "intro_zh": "",
+      "tagline_zh": "用免费的设备端 AI，在 Mac 应用中修正语法",
+      "description_zh": "在 Mac 上选中文字并按快捷键，即可原位替换拼写和语法修正结果；另一个快捷键可减少文字的机器腔，并保留 @提及、日期和时间。它使用 macOS 内置模型，所选文字不上传，需要 macOS 26 和 Apple Intelligence。",
+      "intro_zh": "给在 Mac 上写邮件、消息或文档的人用，选中文字后按快捷键，就地修正拼写和语法。",
       "url": "https://www.producthunt.com/products/tidy-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GU4VL44VXET6LD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d2be9b01-4819-4717-86d6-05161374a0a8.png?auto=format",
       "votes_count": 122,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "修改动作和使用场景清楚，但应用兼容性仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "改写时保留特殊内容，是具体且影响结果可信度的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "选中后原位处理的做法，可借给其他轻量文字工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是修改后不用再把文字搬回原处；但“任意 Mac 应用”能覆盖到什么程度，会直接影响它能否成为日常工具。",
+      "product_analysis": {
+        "target_problem": "经常在 Mac 上写文字的人，会需要随手修正语病，又不想打断当前写作。",
+        "workflow": "选中文字，按快捷键，修正结果直接替换原文。另一个快捷键用于减少机器腔。",
+        "ai_value": "AI 负责修正拼写、语法和调整表达。介绍称处理在设备上完成，所选文字不上传。",
+        "differentiation": "它把修改放在原文所在位置，省去搬运文本。最可能限制使用的是需要 macOS 26 和 Apple Intelligence。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "使用 macOS 内置模型，要求 macOS 26 和 Apple Intelligence。",
+        "possible_approach": "如果自己做，可以先获取选中文字，标记不能改的片段，再交给本地模型修改；核对这些片段后，将结果写回原处。",
+        "tradeoffs": "最容易出错的是改写时误动 @提及、日期或时间，用户可能因此发错通知或约错时间。",
+        "unknowns": "介绍没说明哪些应用能可靠地完成原位替换。"
+      },
+      "transferable_insights": [
+        "做翻译或文字清理工具时，可以借用“选中后原位处理”，让用户留在当前应用。",
+        "处理带人名、时间等信息的文本时，可以先保护关键片段，再修改周围表达。"
+      ],
+      "validation_questions": [
+        "在自己最常用的编辑应用中，快捷键能否只替换选中的文字？",
+        "用含 @提及、日期和时间的文本测试改写，这些内容是否保持不变？"
+      ],
+      "source_tagline": "Fix grammar in any Mac app with free on-device AI",
+      "source_description": "Fix spelling and grammar anywhere on your Mac. Select text, press the shortcut, and the corrected version replaces it where it sits. A second shortcut strips the AI slop out of anything that reads like a machine wrote it. @Mentions, dates and times are untouched. It runs on the model built into macOS. Nothing you select is uploaded. Needs macOS 26 with Apple Intelligence."
     },
     {
       "id": "1239794",
       "name": "Thaw",
       "name_zh": "Thaw",
-      "tagline_zh": "The only app that owns your whole menu bar, in and out",
-      "description_zh": "Take back your menu bar. Hide what you don't need, find anything in a keystroke, and make the bar look the way you want. Free and open source. Private by design: no tracking, no account, nothing ever leaves your Mac.",
-      "intro_zh": "",
+      "tagline_zh": "从内到外管理整个菜单栏的应用",
+      "description_zh": "隐藏不需要的菜单栏项目，用快捷键查找内容，并调整菜单栏外观。免费且开源；介绍称无需账号、不追踪，数据不会离开 Mac。",
+      "intro_zh": "给 Mac 菜单栏项目太多的用户用，隐藏不常用的项目，用快捷键查找，并调整外观。",
       "url": "https://www.producthunt.com/products/thaw-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WWDBCIUXA3KTQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/aa5f1329-513d-4843-adc1-4ca35530e9c3.png?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "整理菜单栏和快速查找的用途清楚，但实际便利程度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "隐藏后能否继续找到并使用项目，是具体且值得检查的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把隐藏与快捷查找配套，适合借到工具入口密集的产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是隐藏项目后仍有快捷查找入口。最影响判断的是，这个入口能否稳定找回并打开用户真正需要的项目。",
+      "product_analysis": {
+        "target_problem": "Mac 用户装了多个常驻应用后，菜单栏可能难以扫读。需要减少可见项目，又不能让偶尔要用的入口变得难找。",
+        "workflow": "用户可以隐藏不需要的菜单栏项目，用快捷键查找内容，再按偏好调整菜单栏外观。介绍没有说明具体设置过程。",
+        "ai_value": "介绍没提 AI，主要靠隐藏项目、快捷查找和外观设置改善体验。",
+        "differentiation": "把整理和查找放在一起，可能减少逐个辨认图标的麻烦。最可能让人犹豫的是：常用入口隐藏后是否仍然好找。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称产品开源、无需账号、不追踪，数据不离开 Mac；没说具体如何实现菜单栏管理。",
+        "possible_approach": "如果自己做，可以先识别可管理的菜单栏项目，再保存隐藏偏好，并提供快捷键搜索入口。难点是让搜索结果准确对应仍可操作的项目。",
+        "tradeoffs": "最容易出错的是项目隐藏后的访问：若能搜到却无法打开，用户仍得恢复显示再找一次。",
+        "unknowns": "隐藏与查找是否适用于用户常用的各类菜单栏项目？"
+      },
+      "transferable_insights": [
+        "做工具栏或后台导航时，可以给低频入口增加隐藏选项，同时保留统一搜索，避免界面变简洁后反而找不到功能。"
+      ],
+      "validation_questions": [
+        "隐藏一个常用项目后，能否通过快捷查找打开并操作它？",
+        "使用期间检查网络请求，是否符合数据不离开 Mac 的说明？"
+      ],
+      "source_tagline": "The only app that owns your whole menu bar, in and out",
+      "source_description": "Take back your menu bar. Hide what you don't need, find anything in a keystroke, and make the bar look the way you want. Free and open source. Private by design: no tracking, no account, nothing ever leaves your Mac."
     },
     {
       "id": "1239691",
       "name": "Readr",
       "name_zh": "Readr",
-      "tagline_zh": "A free reader that answers your questions and reads aloud",
-      "description_zh": "Readr is an ebook reader you can talk to. You're reading Project Hail Mary and wonder: could Astrophage exist? Select the line and ask. The answer appears in the margin, drawn from the whole book, and says when it's pulling from real science instead. Lost the thread? Ask for a recap of what you've read so far, no spoilers. Press Listen and a natural voice reads from your page, on your device, no cap. Opens the EPUBs and PDFs you own. No account, no server. Free, open source. iPhone, iPad, Mac.",
-      "intro_zh": "",
+      "tagline_zh": "可回答问题、朗读内容的免费阅读器",
+      "description_zh": "Readr 可打开自有 EPUB 和 PDF：选中文字提问，答案显示在页边，可结合全书内容，并区分书中信息与现实科学；也可要求回顾已读内容，介绍称不会剧透。它支持从当前页在设备上朗读，宣称不限量；免费、开源，无需账号或服务器，适用于 iPhone、iPad 和 Mac。",
+      "intro_zh": "给阅读电子书时想追问或回顾情节的人用，选中文字即可提问，也能从当前页开始听书。",
       "url": "https://www.producthunt.com/products/readr-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/25BJNDJATSKMUS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8bb59479-af54-4fbc-8675-42dd66d523fb.png?auto=format",
       "votes_count": 106,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "阅读中追问和回顾的场景明确，但回答质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "结合全书回答与不剧透之间，有具体的内容边界问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "选中内容就地提问的做法，可借用于其他文档产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是不离开书页就能追问。最影响判断的是它能否在利用全书信息时守住不剧透的边界。",
+      "product_analysis": {
+        "target_problem": "读长篇电子书的人，可能会忘记前情，或想弄清某句话的背景。麻烦在于找解释时容易打断阅读，也可能看到后续情节。",
+        "workflow": "打开已有的 EPUB 或 PDF，选中一句话提问，在页边看答案。也可询问已读内容摘要，或按 Listen 从当前页听书。",
+        "ai_value": "介绍没提 AI，但描述了结合全书回答问题、区分书内内容与现实科学的功能；具体生成方式未说明。",
+        "differentiation": "把问题和答案留在书页旁，可能减少跳出阅读器查找。若要更换现有阅读器，我会先确认原有批注能否保留。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 EPUB、PDF 和设备端朗读；介绍称无需服务器，并且开源。",
+        "possible_approach": "如果自己做，可以先解析书中文字并记录阅读位置，再按问题查找相关段落，生成带出处的回答。回顾情节时只使用已读部分。",
+        "tradeoffs": "最难的是控制剧透：若回答用了未读章节，即使事实正确，也可能提前揭晓情节。",
+        "unknowns": "“无需服务器”是否也覆盖问答，而不只是打开书和朗读？"
+      },
+      "transferable_insights": [
+        "做文档阅读工具时，可让用户选中原句后直接提问，并在旁边显示答案，保留阅读上下文。"
+      ],
+      "validation_questions": [
+        "在故事中段请求前情回顾，检查是否泄露未读章节。",
+        "断网后对书中文字提问，检查问答能否完成。"
+      ],
+      "source_tagline": "A free reader that answers your questions and reads aloud",
+      "source_description": "Readr is an ebook reader you can talk to. You're reading Project Hail Mary and wonder: could Astrophage exist? Select the line and ask. The answer appears in the margin, drawn from the whole book, and says when it's pulling from real science instead. Lost the thread? Ask for a recap of what you've read so far, no spoilers. Press Listen and a natural voice reads from your page, on your device, no cap. Opens the EPUBs and PDFs you own. No account, no server. Free, open source. iPhone, iPad, Mac."
+    },
+    {
+      "id": "1239953",
+      "name": "Nex",
+      "name_zh": "Nex",
+      "tagline_zh": "面向大批量市场拓展与销售流程的 Claude Cowork",
+      "description_zh": "Nex 可自动处理客户关系管理系统（CRM）数据清理、大批量名单资格筛选和收入追回；简介称，这类规模会让通用智能体难以应付。简介还称，团队来自 HubSpot，曾负责其三大客户平台，并获 HubSpot 创始人 Dharmesh Shah 支持。",
+      "intro_zh": "给需要批量整理客户资料的销售运营团队用，自动清理客户数据、筛选名单，并处理收入追回流程。",
+      "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
+      "votes_count": 335,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "任务和用户较清楚，但处理规模与节省的工作量未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "批量任务出错后如何恢复值得关注，但没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕具体业务任务做批量自动化可借鉴，适用条件仍待确认。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "批量处理重复业务有明确用途，但所谓大规模优势没有数据支撑；我最关心出错后能否恢复。",
+      "product_analysis": {
+        "target_problem": "销售运营团队需要成批维护客户资料、判断名单是否符合条件。记录多时，逐条检查和修改可能耗费大量时间。",
+        "workflow": "介绍只确认能自动处理数据清理、名单筛选和收入追回，没说明用户如何提交数据、设置规则或确认结果。",
+        "ai_value": "标语以 Claude Cowork 作类比，简介提到通用智能体，但没说明 AI 具体负责哪一步，不能据此认定使用 Claude。",
+        "differentiation": "它把大批量业务处理作为重点。可能省去逐条操作；但若结果仍需逐条复核，用户未必愿意换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选定一种清理任务，把规则和样例定清楚，再分批处理记录，保留每条修改前后的内容。",
+        "tradeoffs": "最容易出错的是把错误规则应用到整批数据，导致大量客户记录被误改，后续筛选也可能受影响。",
+        "unknowns": "批量误改后，能否恢复原始记录？"
+      },
+      "transferable_insights": [
+        "做销售运营工具时，可以先自动化一种规则明确、反复出现的任务，再考虑扩大处理量。"
+      ],
+      "validation_questions": [
+        "用一批已人工标注的名单测试，检查资格筛选是否符合既定规则。",
+        "在测试数据中制造一次误改，检查能否完整恢复。"
+      ],
+      "source_tagline": "Claude Cowork for high-volume GTM workflows",
+      "source_description": "Nex automates workflows like CRM clean up, large list qualification, revenue recovery, at large volumes, that break general purpose agents. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah."
+    },
+    {
+      "id": "1226006",
+      "name": "MagiCrew",
+      "name_zh": "MagiCrew",
+      "tagline_zh": "在一个平台上，让每个人拥有自己的 AI 工作团队",
+      "description_zh": "MagiCrew 是一个开源 AI 智能体平台，提供分工处理研究、分析、报告和演示文稿的数字员工。简介称，它支持多个智能体协作、企业管理控制，并以可交付成果为目标，让团队管理 AI 执行工作。",
+      "intro_zh": "给需要做研究、分析和汇报的团队用，部署分工不同的 AI 数字员工，产出报告和演示文稿。",
+      "url": "https://www.producthunt.com/products/magicrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7TTRWNXQKUKM4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/55bd063e-499a-46ed-ac34-df2d1b512737.jpeg?auto=format",
+      "votes_count": 269,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "任务和产物明确，但能减少多少人工整理仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人分工式的 AI 协作有具体问题可分析，但实现细节有限。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按任务分工并围绕交付物组织工作可以借鉴，适用条件仍需验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把研究和汇报放在同一任务中处理；最影响判断的是，多个角色协作后，错误能否被发现而非一路传递。",
+      "product_analysis": {
+        "target_problem": "需要定期做研究和汇报的团队可能会用它。若只用聊天式 AI，拿到回答后可能还要自己整理成报告或演示文稿。",
+        "workflow": "用户部署承担不同任务的数字员工，由它们协作研究、分析并生成报告或演示文稿。介绍未交代任务如何提交、成果如何审核。",
+        "ai_value": "AI 承担研究、分析和内容生成，并由多个智能体协作。智能体指能围绕任务执行工作的 AI 程序。",
+        "differentiation": "它把目标放在交付文件上，可能减少从聊天回答到正式材料的整理。若成果仍需大量返工，团队可能不愿换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到开源、多智能体协作和企业管理控制，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先把任务拆成研究、分析和排版，再让各角色传递带来源的材料，最后生成文件并交人审核。",
+        "tradeoffs": "最难的是让后续角色识别前一步的错误。研究材料一旦有误，可能被继续写进报告和演示文稿。",
+        "unknowns": "最终结论能否追溯到研究来源？"
+      },
+      "transferable_insights": [
+        "做周期性汇报工具时，可以按最终报告需要的材料拆任务，让每个角色提交固定格式的结果，方便后续拼装和检查。"
+      ],
+      "validation_questions": [
+        "给定一份已知事实的材料，检查最终报告是否准确保留关键事实。",
+        "检查生成的演示文稿能否直接编辑。"
+      ],
+      "source_tagline": "Give everyone their own AI workforce in one platform",
+      "source_description": "MagiCrew is an open-source AI Agent platform that gives everyone their own AI workforce. Instead of simply chatting with AI, deploy specialized digital workers that research, analyze, create reports, generate presentations, and complete real business tasks. With multi-agent collaboration, enterprise controls, and deliverable-ready outputs, MagiCrew helps teams turn AI from a tool they use into a workforce they can manage."
+    },
+    {
+      "id": "1238997",
+      "name": "Atlas by World Labs",
+      "name_zh": "Atlas by World Labs",
+      "tagline_zh": "将文字、图片、视频和三维内容转成可控制镜头的高清视频",
+      "description_zh": "Atlas 是 World Labs 的世界模型，简介称它可接收文字、图片、视频和三维内容，生成最高 1440p、最长一分钟且可控制镜头的视频。它还可用少量照片重建场景，并为机器人模拟空间随时间的变化，目前处于早期开放阶段。",
+      "intro_zh": "给需要控制生成视频镜头的创作者，以及需要重建场景、模拟环境的机器人开发者使用。",
+      "url": "https://www.producthunt.com/products/atlas-by-world-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7ZC3M4VAAJWXV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4b1b3b9b-e52d-4d4b-b5c7-cf2246a9ab5b.jpeg?auto=format",
+      "votes_count": 216,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但镜头控制程度和输出可用性尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "镜头移动后能否保持场景一致，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把镜头控制交给用户可供借鉴，但控制方式未说明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是让用户决定怎么看场景；但历史缓存不足以判断，这种控制是否精确到能用于实际制作。",
+      "product_analysis": {
+        "target_problem": "创作者可能需要按指定视角呈现场景；机器人开发者可能需要模拟环境。麻烦在于，画面看着合理，不代表换个视角后仍是同一个空间。",
+        "workflow": "用户提供文字、图片、视频或三维内容，生成可控制镜头的视频。简介另列了少量照片重建场景的用途，未说明操作步骤。",
+        "ai_value": "世界模型负责生成场景画面，并模拟空间随时间的变化；这里的世界模型可理解为学习环境及其变化规律的模型。",
+        "differentiation": "它把镜头控制放进生成过程，可能减少反复描述视角的尝试。最可能让人犹豫的是控制精度不明。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称其支持多种输入、可控镜头视频、照片重建和机器人环境模拟，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先从输入建立场景表示，再按用户指定的镜头路线生成连续画面。",
+        "tradeoffs": "最难的是镜头移动时保持空间一致；若物体位置或形状漂移，视频难以用于准确展示场景。",
+        "unknowns": "镜头控制能否指定精确位置和朝向，还是只能描述大致运动？"
+      },
+      "transferable_insights": [
+        "做生成式设计工具时，可以把视角这类关键变量做成独立控制项，让用户调整它时保留其他设定。"
+      ],
+      "validation_questions": [
+        "让镜头绕同一物体一周，检查回到起点时外观是否一致。",
+        "指定一条镜头路线，检查输出是否按路线移动。"
+      ],
+      "source_tagline": "Turn text, pics, video, + 3D into camera-controlled HD video",
+      "source_description": "Atlas is World Labs' omni world model. It takes text, images, video, and 3D, then generates camera-controlled 1440p video up to a minute, reconstructs scenes from a few photos, and simulates space-time for robotics. Early access."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

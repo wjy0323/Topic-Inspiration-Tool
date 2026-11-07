@@ -1,367 +1,512 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-10T21:22:23+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:22:45+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1189118",
       "name": "Busabase",
       "name_zh": "Busabase",
-      "tagline_zh": "The general system of record for AI agents",
-      "description_zh": "Different agents. One shared base. Busabase is a general-purpose database and workspace for people and AI agents. Keep business records, docs, skills, and apps in one place so the next task can build on them. Connect Claude Code, Codex, and more. Set access, review changes when needed, and see what changed. Busabase is open source, with Cloud, Personal Desktop, and self-hosting options.",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 智能体的通用记录系统",
+      "description_zh": "Busabase 是供人与 AI 智能体共用的通用数据库和工作空间，把业务记录、文档、技能和应用放在一起，让后续任务可以继续使用，并可连接 Claude Code、Codex 等工具。它支持设置访问权限、按需审查修改和查看变更，采用开源方式，提供云端、个人桌面和自行部署选项。",
+      "intro_zh": "给同时使用多个 AI 助手的个人和团队，把业务资料集中存放，让人与助手共用并检查修改。",
       "url": "https://www.producthunt.com/products/busabase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NCFRPHEHNAHLX7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/eb748a8f-c19d-4da5-b287-1db67973800d.png?auto=format",
       "votes_count": 348,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "共用资料和检查修改的用途明确，但能省多少整理工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个助手修改同一份资料时，如何避免覆盖是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "共享资料并保留人工审查的做法，可借用于多人协作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重后续任务能继续使用已有资料；但多人和多个助手同时写入时，能否避免丢失修改仍不清楚。",
+      "product_analysis": {
+        "target_problem": "同时用多个 AI 助手处理业务的人，需要让后续任务接着使用已有资料。资料若散在不同工具里，交接时可能要反复搬运和解释。",
+        "workflow": "把业务记录、文档等放入共享空间，连接 Claude Code、Codex 等助手并设置访问权限。任务产生修改后，可按需审查并查看变更。",
+        "ai_value": "AI 助手是资料的使用者和修改者；这里的作用是给它们共同工作的地方，介绍没有说明 Busabase 自身会执行哪些 AI 任务。",
+        "differentiation": "集中存放可能减少跨工具搬资料的工作。最可能阻碍迁入的是整理现有资料所需的投入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: cb045fd5-301c-4747-853e-b5de30670477)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "产品开源，可连接 Claude Code、Codex，提供云端、个人桌面和自行部署选项。",
+        "possible_approach": "如果自己做，可以先建立共享资料库，再让助手按权限读写；每次修改保存前后版本，供人检查。",
+        "tradeoffs": "最难的是处理同时修改：两个助手若基于旧内容分别保存，可能覆盖彼此的结果，让用户误用不完整资料。",
+        "unknowns": "介绍没说多个助手同时修改同一条记录时如何处理。"
+      },
+      "transferable_insights": [
+        "做支持多个 AI 助手的业务工具时，可让助手共用业务记录，减少每次任务重新提交资料。",
+        "做允许 AI 修改资料的协作工具时，可借用按需审查和查看变更的设计，方便人检查修改。"
+      ],
+      "validation_questions": [
+        "让两个助手同时修改同一条记录，检查是否会无提示地覆盖。",
+        "给助手设置只读权限，检查它能否通过已连接工具写入资料。"
+      ],
+      "source_tagline": "The general system of record for AI agents",
+      "source_description": "Different agents. One shared base. Busabase is a general-purpose database and workspace for people and AI agents. Keep business records, docs, skills, and apps in one place so the next task can build on them. Connect Claude Code, Codex, and more. Set access, review changes when needed, and see what changed. Busabase is open source, with Cloud, Personal Desktop, and self-hosting options."
     },
     {
       "id": "1272630",
       "name": "Zernio",
       "name_zh": "Zernio",
-      "tagline_zh": "Marketing infrastructure for products and agents",
-      "description_zh": "Zernio is the marketing infrastructure 200,000 developers build products on. We absorb the integrations, platform approvals and maintenance behind every channel, all on official APIs, so you can start building today. One API covers 16 social platforms, ads on 7 networks, WhatsApp, iMessage, and phone numbers with calls and SMS that you buy inside Zernio. Use the REST API in your code, or let your coding agent do the same through our MCP server and CLI.",
-      "intro_zh": "",
+      "tagline_zh": "面向产品和智能体的营销基础设施",
+      "description_zh": "Zernio 自称有 20 万开发者在其上构建产品，并使用官方接口处理各渠道的接入、平台审批和维护；一个接口覆盖 16 个社交平台、7 个广告网络、WhatsApp、iMessage，以及在 Zernio 内购买的电话号码所支持的通话和短信。开发者可以在代码中调用 REST API，也可以让编程智能体通过 MCP 服务和 CLI 使用这些能力。",
+      "intro_zh": "给需要接入多个营销渠道的开发者用，把社交、广告和通信能力接进自己的产品。",
       "url": "https://www.producthunt.com/products/zernio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2QQY2FLJ5IUZ2E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e23647b6-b860-4741-91f7-0746d1064698.jpeg?auto=format",
       "votes_count": 323,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多渠道接入和维护的麻烦清楚，但实际减少多少工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "统一调用方式后，仍要处理各平台不同的能力和限制。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "同一组能力同时供代码和智能体调用，有明确借鉴场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "集中处理渠道接入和维护最有吸引力；关键疑问是，统一接口能否覆盖实际业务需要的操作。",
+      "product_analysis": {
+        "target_problem": "开发者给产品接入多个营销渠道时，要面对不同的平台审批和维护要求。以前若逐个平台接入，要分别处理这些事；现在可以交给一个服务承接。",
+        "workflow": "开发者在代码中调用统一接口，使用所需渠道；也可让编程智能体通过配套工具调用。电话号码可在 Zernio 内购买。",
+        "ai_value": "介绍提到编程智能体能调用渠道能力，没说它会生成营销内容或优化投放。",
+        "differentiation": "省的是分别对接多个渠道的工作。最可能让人不愿换的是：统一接口可能不支持自己需要的平台细节。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: fbb9ae9b-10e6-45f0-b272-09c58b8fe1ee)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称使用官方 API（软件间传数据的接口），提供 REST API（供代码调用）、MCP 服务（供智能体连接工具）和 CLI（命令行工具）。",
+        "possible_approach": "如果自己做，可以先接通两个渠道，再把共用操作整理成统一入口，保留各渠道的特殊参数。",
+        "tradeoffs": "最难的是把不同平台的限制表达清楚。若统一入口隐藏了这些差别，用户可能提交后才发现操作不被支持。",
+        "unknowns": "各渠道究竟支持哪些操作，介绍没有列明。"
+      },
+      "transferable_insights": [
+        "做多渠道工具时，可先统一常用操作，再为平台特有能力留入口，避免为了统一而删掉用户需要的功能。",
+        "做开发者工具时，可让代码和智能体调用同一组功能，减少两套功能分别维护的工作。"
+      ],
+      "validation_questions": [
+        "选一个业务必需操作，检查它在目标渠道上是否完整可用。",
+        "故意提交一个不符合平台限制的请求，检查报错能否说明怎么改。"
+      ],
+      "source_tagline": "Marketing infrastructure for products and agents",
+      "source_description": "Zernio is the marketing infrastructure 200,000 developers build products on. We absorb the integrations, platform approvals and maintenance behind every channel, all on official APIs, so you can start building today. One API covers 16 social platforms, ads on 7 networks, WhatsApp, iMessage, and phone numbers with calls and SMS that you buy inside Zernio. Use the REST API in your code, or let your coding agent do the same through our MCP server and CLI."
     },
     {
       "id": "1273308",
       "name": "Playground by Google Labs",
       "name_zh": "Playground by Google Labs",
-      "tagline_zh": "Create, play, and share your own games with Google AI",
-      "description_zh": "Google Playground is an experimental AI gaming platform that lets anyone create, play, and share custom games without coding. Describe your idea, choose a genre, and let AI build a playable game in minutes. Change the rules, characters, physics, or visuals simply by chatting. Share your creation with friends, publish it to the community gallery, or explore games made by others. Powered by Google's Gemini, Nano Banana, and Lyria models.",
-      "intro_zh": "",
+      "tagline_zh": "用 Google AI 创建、游玩和分享自己的游戏",
+      "description_zh": "历史缓存将它描述为实验性 AI 游戏平台：用户描述想法、选择类型，无需编程即可生成游戏，介绍称可在几分钟内完成。用户还能通过聊天修改游戏，分享作品、发布到社区或体验他人作品；简介列出了 Gemini、Nano Banana 和 Lyria。",
+      "intro_zh": "给想做小游戏但不会编程的人用，通过描述想法生成游戏，再用聊天修改并分享给别人玩。",
       "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3YW7KAM2VS6EVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f463401a-2285-49c9-b5c5-0201f2c54066.jpeg?auto=format",
       "votes_count": 222,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从想法到试玩的用途清楚，但游戏完成度未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "用聊天修改规则后如何保持游戏可玩，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先生成可操作版本、再逐步修改的做法可用于其他创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "游戏娱乐",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让用户围绕可玩结果继续修改；最影响判断的是聊天改动能否保住原有玩法。",
+      "product_analysis": {
+        "target_problem": "不会编程、想验证小游戏点子的人，需要把玩法变成能玩的东西。它试图省去用户亲自编写游戏程序的工作。",
+        "workflow": "描述想法、选择游戏类型，得到可玩的游戏。再通过聊天修改规则、角色、物理效果或画面，随后分享或发布到社区。",
+        "ai_value": "AI 负责把描述转成游戏，并根据后续对话修改内容；生成速度只是缓存简介中的说法。",
+        "differentiation": "把制作和修改集中在对话中，减少直接改代码的需要。若修改结果难以控制，用户可能仍会选择熟悉的制作工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 11de39f3-5dd8-4ab2-a612-057123d17a6d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1270798",
-      "name": "Together Link",
-      "name_zh": "Together Link",
-      "tagline_zh": "Use open models in your harness",
-      "description_zh": "Together Link connects coding agents to open models on Together AI, letting developers keep their existing tools and workflows while reducing model costs.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/together-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XCPBKI3MW334HG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/93f11e89-a57f-4835-8764-d1fd0255853c.png?auto=format",
-      "votes_count": 186,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介列出 Gemini、Nano Banana、Lyria，但没说明各自负责什么。",
+        "possible_approach": "如果自己做，可以先把描述整理成规则和角色清单，再生成可运行的游戏；每次聊天修改后，检查游戏能否正常开始和结束。",
+        "tradeoffs": "最难的是改一条规则时不破坏其他玩法，否则用户改好角色后，可能发现游戏无法通关。",
+        "unknowns": "介绍没有说明能生成哪些类型、复杂到什么程度的游戏。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b8c9fad6-b4f3-4b16-9a51-ca2d63adfe2b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1274026",
-      "name": "Odyssey 3",
-      "name_zh": "Odyssey 3",
-      "tagline_zh": "A world model that simulates physics in real time",
-      "description_zh": "Odyssey-3 is a foundation world model that generates interactive environments from a prompt and predicts in real time how they change as you or an agent act in them. Its Pro version posts the highest reported Physics-IQ Verified video-to-video score (66.1, best-of-8). The same model has been adapted to control robot arms and humanoids, drive a car, and train agents. Try the research preview, or get in touch for API access.x`",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/odyssey-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/T77YP5EHSXPVNZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/abc95240-4e04-4912-b9cb-5be782ade536.jpeg?auto=format",
-      "votes_count": 159,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e3582cc5-f5b9-4332-ac86-6347ceb4e4e2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1273798",
-      "name": "Gemini Agent for Google Cloud",
-      "name_zh": "Gemini Agent for Google Cloud",
-      "tagline_zh": "The work agent that runs on both Gemini and Claude",
-      "description_zh": "Gemini agent is Google Cloud's single, universal agent for work. Give it an objective, not instructions: it plans, uses your company's skills and tools, connects to Workspace, Microsoft 365, Slack, Salesforce, Jira or any MCP server, and hands back finished docs, decks or code. Unlike chat assistants that stop at an answer, it keeps running in the cloud for hours or days, spins up coworker agents with their own email and calendar, and routes each job to the right model under hard spend caps.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CZHANWCNDFTOBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/45aefec2-10b2-41ec-baaf-4ef066c41513.jpeg?auto=format",
-      "votes_count": 150,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ed4e4305-4a53-4dd6-94c2-6b2cf5182e1f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做交互原型工具时，可以先给用户一个能操作的版本，再让用户针对具体结果提出修改。"
+      ],
+      "validation_questions": [
+        "用一个有明确胜负条件的简单点子，检查生成游戏能否完整玩完一局。",
+        "只要求修改跳跃高度，检查原有胜负规则是否仍然有效。"
+      ],
+      "source_tagline": "Create, play, and share your own games with Google AI",
+      "source_description": "Google Playground is an experimental AI gaming platform that lets anyone create, play, and share custom games without coding. Describe your idea, choose a genre, and let AI build a playable game in minutes. Change the rules, characters, physics, or visuals simply by chatting. Share your creation with friends, publish it to the community gallery, or explore games made by others. Powered by Google's Gemini, Nano Banana, and Lyria models."
     },
     {
       "id": "1273554",
       "name": "Staffcoder",
       "name_zh": "Staffcoder",
-      "tagline_zh": "Build like a real engineer",
-      "description_zh": "Staffcoder is a hands-on coding platform where developers practice real engineering work instead of algorithm puzzles. Choose from 1000+ challenges across 39 learning paths, covering React, Next.js, Django, Spring Boot, Docker, Kubernetes, AI agents, and more. Every challenge runs in a full browser IDE with a real terminal, file system, and live preview, so there is nothing to install. Pick a stack, open a challenge, and build. Free to start.",
-      "intro_zh": "",
+      "tagline_zh": "像真正的工程师一样构建项目",
+      "description_zh": "Staffcoder 是一个动手编程平台，让开发者练习实际工程任务，而非算法题；简介称有 1000 多项挑战、39 条学习路径，涵盖 React、Next.js、Django、Spring Boot、Docker、Kubernetes 和 AI 智能体等方向。每项挑战都在浏览器编程环境中运行，带终端、文件系统和实时预览，无需安装本地环境，可以免费开始。",
+      "intro_zh": "给想练习实际工程任务的开发者用，选好技术方向后，直接在浏览器里打开挑战并编写代码。",
       "url": "https://www.producthunt.com/products/staffcoder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2VTEVX554ZQNCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/48f78f9a-e2ff-4b9a-b588-844287665f1f.jpeg?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "练习对象和免本地安装的好处清楚，但任务质量尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "浏览器环境如何支持不同技术值得分析，但实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把练习题和可运行环境放在一起，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重打开题目就能动手的安排；但练习是否真有工程价值，取决于任务要求和反馈质量，题目数量本身不能证明这一点。",
+      "product_analysis": {
+        "target_problem": "想练应用开发或部署的开发者，需要能动手完成的工程任务。若原先在本地练习，还要先准备对应环境；这里可以直接进入浏览器环境。",
+        "workflow": "选择技术方向，打开挑战，再编写和运行代码。过程中可用终端操作文件，并查看实时预览。",
+        "ai_value": "介绍没提 AI 辅助功能，主要靠现成的练习环境改善体验。AI 智能体是学习内容之一。",
+        "differentiation": "省去了本地安装这一步。最可能让人不愿继续用的原因，是挑战可能偏向照着做，缺少真实工程中的取舍。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0a1c0e50-6253-4999-8141-e0cba8363404)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "每项挑战提供浏览器编程环境，包含真实终端、文件系统和实时预览。",
+        "possible_approach": "如果自己做，可以先给每类挑战准备可运行的项目环境，再接上浏览器编辑器、终端和预览，让学员直接改代码。",
+        "tradeoffs": "最难的是让不同技术的环境都稳定运行。依赖或服务启动出错，学员可能分不清是自己写错了，还是平台出了问题。",
+        "unknowns": "挑战完成后，平台如何判断代码是否满足要求？"
+      },
+      "transferable_insights": [
+        "做开发者教学产品时，可把任务和可运行项目放在同一页，减少学员先配环境再找题目的步骤。"
+      ],
+      "validation_questions": [
+        "打开一个包含多个服务的挑战，检查默认环境能否正常运行。",
+        "提交一份能运行但不符合任务要求的代码，检查平台能否指出问题。"
+      ],
+      "source_tagline": "Build like a real engineer",
+      "source_description": "Staffcoder is a hands-on coding platform where developers practice real engineering work instead of algorithm puzzles. Choose from 1000+ challenges across 39 learning paths, covering React, Next.js, Django, Spring Boot, Docker, Kubernetes, AI agents, and more. Every challenge runs in a full browser IDE with a real terminal, file system, and live preview, so there is nothing to install. Pick a stack, open a challenge, and build. Free to start."
     },
     {
       "id": "1271403",
       "name": "AgentSDR",
       "name_zh": "AgentSDR",
-      "tagline_zh": " Open-source AI SDR",
-      "description_zh": "The open-source AI SDR workspace that replaces Clay, Smartlead, HubSpot, and many more. Run email sequences, LinkedIn campaigns, and WhatsApp outreach with built-in data enrichment and automations, backed by an AI CRM that automatically classifies replies and drafts responses. Self-hosted with your own AI keys.",
-      "intro_zh": "",
+      "tagline_zh": "开源 AI 销售开发工具",
+      "description_zh": "AgentSDR 是开源的 AI 销售开发工作区，产品方称可替代 Clay、Smartlead、HubSpot 等工具，支持邮件序列、LinkedIn 活动、WhatsApp 联系，以及联系人资料补全和自动化。内置的客户关系管理工具可用 AI 自动分类回复、起草答复，支持自行部署并使用自己的 AI 服务密钥。",
+      "intro_zh": "给需要主动联系潜在客户的销售团队用，集中安排多渠道联系，并用 AI 整理客户回复、起草答复。",
       "url": "https://www.producthunt.com/products/agentsdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FIIHOH2O2SBZFI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a5173cd6-25cc-4ed7-b687-8d4cc5e16f9e.jpeg?auto=format",
       "votes_count": 106,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "销售联系与回复处理场景清楚，但能否替代现有工具尚无证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "回复分类会影响后续处理，但介绍未说明纠错方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把回复分类与答复草稿放在一起，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是减少处理客户回复时的切换；最影响判断的是，错误分类能否在继续跟进前被发现并纠正。",
+      "product_analysis": {
+        "target_problem": "需要持续开发潜在客户的销售团队会用到它。联系渠道多、回复需要逐条判断，容易让跟进工作分散。",
+        "workflow": "在工作区运行邮件序列、LinkedIn 活动或 WhatsApp 联系，结合资料补全与自动化，再由 AI 分类收到的回复、起草答复。介绍未说明配置步骤。",
+        "ai_value": "AI 负责回复分类和答复草稿。没有依据说明它能自主完成销售沟通。",
+        "differentiation": "它把联系与回复处理集中起来，可能减少工具间切换；自行部署的维护工作可能让团队不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 839431a8-3b78-4a9d-8e86-91af35b13d87)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、自行部署，以及使用用户自己的 AI 服务密钥。",
+        "possible_approach": "如果自己做，可以先接收各渠道回复，再让 AI 按销售团队定义的类别归类，并结合原文生成待确认的答复。",
+        "tradeoffs": "最容易出错的是回复分类。把拒绝联系误判为有兴趣，可能导致销售继续打扰对方。",
+        "unknowns": "分类结果能否人工纠正，并阻止错误的后续跟进？"
+      },
+      "transferable_insights": [
+        "做客服或销售工作台时，可以把分类结果和答复草稿并排展示，让用户对照原文确认后再发送。"
+      ],
+      "validation_questions": [
+        "用明确拒绝联系的回复测试，检查是否被正确分类。",
+        "在测试环境自行部署，检查能否用自己的 AI 服务密钥生成答复草稿。"
+      ],
+      "source_tagline": " Open-source AI SDR",
+      "source_description": "The open-source AI SDR workspace that replaces Clay, Smartlead, HubSpot, and many more. Run email sequences, LinkedIn campaigns, and WhatsApp outreach with built-in data enrichment and automations, backed by an AI CRM that automatically classifies replies and drafts responses. Self-hosted with your own AI keys."
     },
     {
       "id": "1273884",
       "name": "Refs",
       "name_zh": "Refs",
-      "tagline_zh": "Give Claude better references for your videos",
-      "description_zh": "Refs is a library of 3000+ films that moved people, each measured cut by cut and written up as a 15-plate blueprint with a recipe prompt. Add it to Claude Code, Codex or Cursor with one command, and Claude plans your launch film from the real thing.",
-      "intro_zh": "",
+      "tagline_zh": "为 Claude 提供更好的视频参考",
+      "description_zh": "Refs 收录了 3000 多部影片，介绍称每部都按剪辑点逐一分析，整理为包含 15 个板块的蓝图，并附有配套提示词。它支持用一条命令接入 Claude Code、Codex 或 Cursor，让 Claude 参考这些影片规划产品发布视频。",
+      "intro_zh": "给准备产品发布视频的团队用，把影片拆解资料交给 AI，辅助整理视频方案。",
       "url": "https://www.producthunt.com/products/refs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6WJCLZVYOWQGR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ceaab832-4584-46fa-ba59-f9a575bc772a.jpeg?auto=format",
       "votes_count": 106,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "参考资料和使用场景明确，但能否减少改稿仍需验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把影片拆成可用参考有具体难点，但拆解方式未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "案例拆解配提示词的做法，可借用于其他创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把参考素材变成 AI 可直接使用的资料；最大疑问是它能否借用表达方法，而不只复刻影片表面。",
+      "product_analysis": {
+        "target_problem": "准备发布视频的产品和创意团队，需要让 AI 理解想要的表达方式。只给影片名称，可能不足以说明具体该借鉴什么。",
+        "workflow": "用一条命令接入所支持的工具，再让 Claude 依据库中的影片拆解规划发布视频。介绍没说明如何挑选参考片。",
+        "ai_value": "AI 利用已有拆解辅助规划视频。资料没有说它能生成成片，也没说影片分析是否由 AI 完成。",
+        "differentiation": "它把参考片整理成蓝图和提示词，可能减少用户自行解释的工作；若拆解不贴合品牌，团队仍得重写。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 429650f1-79a1-4bf8-a336-1d4288296299)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到逐剪辑点分析、15 个板块的蓝图、配套提示词，以及单命令接入三种工具。",
+        "possible_approach": "如果自己做，可以先记录影片各段的时长、画面和作用，再按统一格式整理，让 AI 根据任务选取相关参考。",
+        "tradeoffs": "最难的是把影片手法对应到新任务。若只照搬表面节奏，用户拿到的方案可能像参考片，却讲不清自己的产品。",
+        "unknowns": "介绍没说明蓝图如何对应到原片，用户能否核对分析依据。"
+      },
+      "transferable_insights": [
+        "做设计或写作助手时，可以把案例拆成固定字段，再附使用提示词，让用户不必从零解释参考意图。"
+      ],
+      "validation_questions": [
+        "抽一部熟悉的影片，核对蓝图是否准确描述了原片。",
+        "给出一个真实产品需求，检查方案是否围绕该产品组织内容。"
+      ],
+      "source_tagline": "Give Claude better references for your videos",
+      "source_description": "Refs is a library of 3000+ films that moved people, each measured cut by cut and written up as a 15-plate blueprint with a recipe prompt. Add it to Claude Code, Codex or Cursor with one command, and Claude plans your launch film from the real thing."
     },
     {
       "id": "1273431",
       "name": "Pine Computer",
       "name_zh": "Pine Computer",
-      "tagline_zh": "A cloud computer built for AI to get jobs done",
-      "description_zh": "Pine Computer is a cloud computer built for AI to use. Your product hands it a job: research, forms, spreadsheets, portals with no API. The finished work comes back. AI reads each app's structure instead of pixels, is told when something changes, and gets as many virtual screens as it needs. Spin up a computer per customer through one SDK, bring your own model or use ours, and let a person take over for sign-ins or approvals. Invite-only beta.",
-      "intro_zh": "",
+      "tagline_zh": "供 AI 执行任务的云端电脑",
+      "description_zh": "Pine Computer 为 AI 提供云端电脑，接收产品交来的调研、填表、电子表格和无接口门户操作等任务，再返回完成的工作；AI 读取应用结构而非像素，并接收变化通知、使用多个虚拟屏幕。开发者可通过 SDK（软件开发工具包）为每位客户启动电脑，自带模型或使用平台模型，并让人接管登录或审批；目前处于邀请制测试阶段。",
+      "intro_zh": "给开发 AI 产品的团队用，让 AI 在云端电脑里操作应用，完成调研、填表等工作。",
       "url": "https://www.producthunt.com/products/pine-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LYSCUBGWWSQI5Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c0ab1f10-5105-46a6-8182-bf7f14584c51.png?auto=format",
       "votes_count": 96,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确面向需要操作外部应用的 AI 产品，但任务完成质量尚无证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "读取应用结构、接收变化通知与人工接管都有具体问题可深入。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把登录和审批交回人处理，是其他自动操作产品可借用的设计。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把无接口应用纳入 AI 可执行的工作范围，但应用结构能否可靠读取，直接决定这份便利是否成立。",
+      "product_analysis": {
+        "target_problem": "开发 AI 产品的团队，可能需要让 AI 操作没有接口的门户。接口是软件之间传数据的连接方式，缺少它时，任务仍要落到应用界面上。",
+        "workflow": "产品交入任务，为客户启动云端电脑；AI 操作应用后返回工作结果，遇到登录或审批可由人接管。",
+        "ai_value": "AI 负责理解任务并操作应用。这里省事的关键是给 AI 提供可操作的电脑，而不只返回文字建议。",
+        "differentiation": "它把按客户启动电脑和人工接管放进同一套工具。最可能让团队犹豫的是：自己的目标应用能否被可靠操作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b0cfe1ed-7a83-4229-b113-acc72c21b150)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介称 AI 读取应用结构而非像素，接收变化通知，并可使用多个虚拟屏幕。",
+        "possible_approach": "如果自己做，可以先把应用中的按钮、输入框及状态整理给模型，再执行操作；需要登录或审批时暂停，让人接手。",
+        "tradeoffs": "最容易出错的是把应用结构读错：若按钮含义或当前状态识别错误，AI 可能填错位置或误提交。",
+        "unknowns": "介绍没说哪些应用能提供足够完整、准确的结构信息。"
+      },
+      "transferable_insights": [
+        "做需要登录或审批的自动操作产品时，可以设置明确的暂停点，让人接管后再继续任务。"
+      ],
+      "validation_questions": [
+        "在目标门户跑一次填表任务，检查 AI 是否把内容填进正确字段。",
+        "中途让人接管登录，检查交回 AI 后能否继续原任务。"
+      ],
+      "source_tagline": "A cloud computer built for AI to get jobs done",
+      "source_description": "Pine Computer is a cloud computer built for AI to use. Your product hands it a job: research, forms, spreadsheets, portals with no API. The finished work comes back. AI reads each app's structure instead of pixels, is told when something changes, and gets as many virtual screens as it needs. Spin up a computer per customer through one SDK, bring your own model or use ours, and let a person take over for sign-ins or approvals. Invite-only beta."
+    },
+    {
+      "id": "1270798",
+      "name": "Together Link",
+      "name_zh": "Together Link",
+      "tagline_zh": "在现有运行工具中使用开放模型",
+      "description_zh": "Together Link 将编程代理连接到 Together AI 上的开放模型，让开发者保留现有工具和工作流程。简介称，这样可以降低模型使用成本。",
+      "intro_zh": "给使用编程代理的开发者，在现有编程工具中接入 Together AI 上的开放模型。",
+      "url": "https://www.producthunt.com/products/together-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XCPBKI3MW334HG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/93f11e89-a57f-4835-8764-d1fd0255853c.png?auto=format",
+      "votes_count": 186,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "保留工具并切换模型的用途清楚，但节省成本的条件未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "模型能否接住编程代理的工具调用，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "保留用户操作习惯的做法可借鉴，但兼容范围不明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是换模型时不用连工具一起换；最影响判断的是它能兼容哪些现有代理。",
+      "product_analysis": {
+        "target_problem": "使用编程代理的开发者，可能想换模型，又不想换掉熟悉的工具。Together Link 面向这种需求，减少更换模型时对工作方式的影响。",
+        "workflow": "把编程代理连接到 Together AI 上的开放模型，再沿用现有工具做开发。简介未提供具体配置步骤。",
+        "ai_value": "AI 负责支持编程代理完成开发任务；Together Link 的作用是连接代理与模型，未披露额外的 AI 功能。",
+        "differentiation": "它主打保留现有工作流程。最可能让人犹豫的是：换模型后，原有编程任务能否照常完成。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到连接编程代理与 Together AI 上的开放模型，没说具体连接技术。",
+        "possible_approach": "如果自己做，可以先接入一种编程代理，再转换它发给模型的请求，并把模型回复转回代理能读懂的格式。",
+        "tradeoffs": "最容易出错的是工具调用，也就是模型要求代理读文件或执行命令的消息。格式若对不上，任务可能中途停住。",
+        "unknowns": "哪些编程代理可以直接使用，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "给已有固定工具的用户增加模型选择时，可以先保留原操作入口，只更换请求发送的目标。"
+      ],
+      "validation_questions": [
+        "用现有代理跑一次需要读写文件的任务，检查工具调用能否完整执行。",
+        "用同一任务对照当前方案，检查包含失败重试后的总模型费用是否更低。"
+      ],
+      "source_tagline": "Use open models in your harness",
+      "source_description": "Together Link connects coding agents to open models on Together AI, letting developers keep their existing tools and workflows while reducing model costs."
+    },
+    {
+      "id": "1274026",
+      "name": "Odyssey 3",
+      "name_zh": "Odyssey 3",
+      "tagline_zh": "实时模拟物理变化的世界模型",
+      "description_zh": "Odyssey 3 可根据提示生成交互环境，并实时预测人或智能体采取行动后环境如何变化；简介称其 Pro 版在 Physics-IQ Verified 视频到视频测试中取得最高已报告分数 66.1（八次取最好结果）。简介还称，同一模型已适配机械臂、人形机器人、汽车驾驶及智能体训练，并提供研究预览，接口访问需联系申请。",
+      "intro_zh": "给研究交互环境和训练智能体的团队，用提示生成场景，再观察行动后环境如何变化。",
+      "url": "https://www.producthunt.com/products/odyssey-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/T77YP5EHSXPVNZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/abc95240-4e04-4912-b9cb-5be782ade536.jpeg?auto=format",
+      "votes_count": 159,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但能否支持可靠的训练和测试仍缺材料。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "连续行动后能否保持物理规律，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用可交互环境测试行动的做法可借鉴，但接入条件不明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把生成场景变成可行动、可观察的环境；最影响判断的是，连续交互时的物理预测究竟有多可靠。",
+      "product_analysis": {
+        "target_problem": "研究人员训练智能体（能观察环境并采取行动的软件）时，需要看到行动的后果。它尝试直接生成可操作的环境，减少准备测试场景的工作。",
+        "workflow": "输入提示生成环境，再由人或智能体行动，模型持续预测环境变化。可试研究预览，或联系申请接口访问。",
+        "ai_value": "AI 负责生成环境并预测后续变化。这里的世界模型，就是学习环境会怎样随行动变化的模型。",
+        "differentiation": "可能省下部分场景搭建工作。最可能阻碍使用的是：画面看起来合理，却不足以作为训练依据。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确称它使用基础世界模型，支持提示生成交互环境和实时行动预测。",
+        "possible_approach": "如果自己做，可以先收集带动作记录的环境视频，再训练模型根据当前画面和动作预测后续画面，并连续接收新动作。",
+        "tradeoffs": "最难的是连续预测不越走越偏。物体运动若逐步失真，智能体可能学会现实里无效的动作。",
+        "unknowns": "未说明机器人和驾驶适配的具体任务边界。"
+      },
+      "transferable_insights": [
+        "做智能体测试工具时，可以让同一任务接受不同动作，比较后续结果，帮助定位失败原因。"
+      ],
+      "validation_questions": [
+        "连续推动同一物体时，其运动是否保持一致？",
+        "提交动作后，到环境反馈的延迟是否满足目标任务？"
+      ],
+      "source_tagline": "A world model that simulates physics in real time",
+      "source_description": "Odyssey-3 is a foundation world model that generates interactive environments from a prompt and predicts in real time how they change as you or an agent act in them. Its Pro version posts the highest reported Physics-IQ Verified video-to-video score (66.1, best-of-8). The same model has been adapted to control robot arms and humanoids, drive a car, and train agents. Try the research preview, or get in touch for API access.x`"
+    },
+    {
+      "id": "1273798",
+      "name": "Gemini Agent for Google Cloud",
+      "name_zh": "Gemini Agent for Google Cloud",
+      "tagline_zh": "同时使用 Gemini 和 Claude 的工作智能体",
+      "description_zh": "历史简介将它描述为 Google Cloud 的通用工作智能体：接收目标、规划任务，连接企业工具，交付文档、演示文稿或代码。简介还称，它能在云端持续运行数小时至数天，创建拥有独立邮箱和日历的协作智能体，并在预算硬上限内为任务选择模型。",
+      "intro_zh": "面向需要跨办公系统完成任务的团队，接收工作目标，调用企业工具，交付文档、演示文稿或代码。",
+      "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CZHANWCNDFTOBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/45aefec2-10b2-41ec-baaf-4ef066c41513.jpeg?auto=format",
+      "votes_count": 150,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "跨工具执行的用途清楚，但缺少实际任务的完成情况。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "长时间执行和多智能体分工带来了具体的预算控制问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按目标组织执行可以借鉴，但适用任务边界不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重它尝试把跨工具任务做到交付；但历史缓存未经核验，长任务能否稳定完成仍缺依据。",
+      "product_analysis": {
+        "target_problem": "企业员工做跨系统任务时，需要在资料、沟通和交付之间协调。它试图让用户提交目标后，少做逐步指挥。",
+        "workflow": "用户给出目标；智能体规划任务，调用企业工具，返回文档、演示文稿或代码。简介称它还能创建其他智能体协作。",
+        "ai_value": "AI 负责拆解目标、选择工具和模型，并继续执行，不只生成文字回答。",
+        "differentiation": "可能省去多轮追问和手动接续工作；团队可能因企业系统授权复杂而不愿迁入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到云端持续运行、多模型分配，以及 MCP 服务器连接（让智能体调用外部工具的连接方式）。",
+        "possible_approach": "如果自己做，可以先把目标拆成任务，再逐项调用工具并保存进度；每次执行前预留预算，完成后核算。",
+        "tradeoffs": "难点是多个智能体同时花钱时守住预算。若各自只看剩余额度，合计支出可能超限。",
+        "unknowns": "达到预算上限后，未完成的任务如何停止和交接？"
+      },
+      "transferable_insights": [
+        "做跨工具办公助手时，可以围绕一份明确交付物组织任务，让用户检查结果，减少逐步指挥。"
+      ],
+      "validation_questions": [
+        "设置低预算并启动并行任务，检查总支出是否守住上限。",
+        "撤销一个工具的权限，检查任务能否明确报告阻塞原因。"
+      ],
+      "source_tagline": "The work agent that runs on both Gemini and Claude",
+      "source_description": "Gemini agent is Google Cloud's single, universal agent for work. Give it an objective, not instructions: it plans, uses your company's skills and tools, connects to Workspace, Microsoft 365, Slack, Salesforce, Jira or any MCP server, and hands back finished docs, decks or code. Unlike chat assistants that stop at an answer, it keeps running in the cloud for hours or days, spins up coworker agents with their own email and calendar, and routes each job to the right model under hard spend caps."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,510 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-25T20:37:57+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:26:24+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1249022",
       "name": "Scholé Learn by Building",
       "name_zh": "Scholé Learn by Building",
-      "tagline_zh": "Learning should be more than \"click next\"",
-      "description_zh": "Learn by building, on any website, with Scholé by your side. You can read about a tool, watch someone walk through it on YouTube, or ask ChatGPT to explain it. But you won’t properly learn until you build with it yourself. Learn Anywhere mode guides you through using any real tool directly on your screen, adapting tasks and giving visual hints. Everything you learn updates your Scholé knowledge graph and counts towards your lessons. Our thesis? Learn it well enough to use it.",
-      "intro_zh": "",
+      "tagline_zh": "学习不该只是点击“下一步”",
+      "description_zh": "Scholé 的 Learn Anywhere 模式在真实网站和工具中提供操作引导，调整任务并给出视觉提示，鼓励用户边做边学。学习内容会更新到 Scholé 的知识图谱，并计入课程进度。",
+      "intro_zh": "给正在学软件工具的人用，在实际操作时提供任务和视觉提示，并把练习计入学习进度。",
       "url": "https://www.producthunt.com/products/schole-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/F22BXESSBPZXG7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c3b766b0-d975-4950-aac6-9da4d78f7244.jpeg?auto=format",
       "votes_count": 399,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把看懂教程到动手使用之间的困难说清楚了，但引导效果尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨网站判断当前操作位置，是具体且直接影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把练习放进真实工具并计入课程，是可借用的教学做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重练习能直接发生在真实工具里；最影响判断的是，它能否可靠确认用户完成了操作。",
+      "product_analysis": {
+        "target_problem": "学软件的人看完文章或演示，仍可能不知道怎么动手。以前可以另找讲解，现在可以在真实工具中跟着任务练习。",
+        "workflow": "用户在实际网站上使用工具，Learn Anywhere 模式提供任务和视觉提示，并调整任务。学习内容随后更新到个人学习记录，计入课程。",
+        "ai_value": "介绍没明确提 AI，主要靠操作引导和学习记录改善体验，无法确认任务调整是否由 AI 完成。",
+        "differentiation": "可能减少在教程与工具之间来回对照的麻烦。但提示若经常跟不上页面，用户可能仍会回到熟悉的教程。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3c9c7988-41b6-4eef-8816-c5b66ed9f9bb)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到知识图谱，即用关联关系组织知识的记录方式；没说具体如何识别屏幕内容。",
+        "possible_approach": "如果自己做，可以先选一种工具，读取当前页面状态，再匹配练习并标出操作位置；确认完成后更新学习记录。",
+        "tradeoffs": "最难的是认准页面上的操作位置。网站改版或弹窗遮挡，都可能让提示指错，用户便无法继续练习。",
+        "unknowns": "它如何判断用户真正完成了任务，而不只是点过提示？"
+      },
+      "transferable_insights": [
+        "做软件培训产品时，可以让学员在真实工具里完成小任务，再把完成结果计入课程进度。"
+      ],
+      "validation_questions": [
+        "换到布局不同的网站，视觉提示还能准确指向目标控件吗？",
+        "跳过实际操作后，课程是否仍会错误地记为完成？"
+      ],
+      "source_tagline": "Learning should be more than \"click next\"",
+      "source_description": "Learn by building, on any website, with Scholé by your side. You can read about a tool, watch someone walk through it on YouTube, or ask ChatGPT to explain it. But you won’t properly learn until you build with it yourself. Learn Anywhere mode guides you through using any real tool directly on your screen, adapting tasks and giving visual hints. Everything you learn updates your Scholé knowledge graph and counts towards your lessons. Our thesis? Learn it well enough to use it."
     },
     {
       "id": "1259609",
       "name": "Floot MCP",
       "name_zh": "Floot MCP",
-      "tagline_zh": "Build and ship web and mobile apps inside Claude or ChatGPT",
-      "description_zh": "Connect Floot to Claude or ChatGPT and build a full-stack app without leaving the chat. Floot gives your AI a ready-to-use workspace with a database, user logins, hosting, and a live URL - nothing to install or configure. Your existing Claude or ChatGPT subscription does the thinking, so Floot doesn’t charge based on AI usage. When you’re ready, publish the same project to the web, iOS, and Android, then keep shipping updates from the same conversation.",
-      "intro_zh": "",
+      "tagline_zh": "在 Claude 或 ChatGPT 里构建并发布网页和手机应用",
+      "description_zh": "连接 Floot 与 Claude 或 ChatGPT，即可在聊天中构建包含数据库、用户登录、托管和在线网址的完整应用，无需安装或配置。简介称，AI 思考由现有聊天订阅承担，Floot 不按 AI 用量收费；同一项目可发布到网页、iOS 和 Android，并从原对话继续更新。",
+      "intro_zh": "给想用聊天方式做应用的人，在 Claude 或 ChatGPT 中搭建应用，并发布到网页和手机端。",
       "url": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QUJC2M4LRE7CQ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2fe69a40-f6c5-4483-ac40-f31ba1cf755a.png?auto=format",
       "votes_count": 367,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把应用搭建和发布放进聊天，省事之处明确，但发布条件未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "对话修改如何可靠地落到已有应用，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "预备好运行环境、让用户从熟悉的聊天入口操作，可供其他工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是把可运行环境一起交给聊天工具；最影响判断的是，手机端发布到底覆盖到哪一步。",
+      "product_analysis": {
+        "target_problem": "想用 AI 做应用的人，还要处理数据库、登录和上线环境。Floot 把这些准备集中起来，让聊天中的需求有地方运行。",
+        "workflow": "连接 Claude 或 ChatGPT 与 Floot，在聊天中构建应用并获得在线网址。准备好后发布到网页或手机端，再从同一对话继续更新。",
+        "ai_value": "Claude 或 ChatGPT 负责理解需求并推动构建，Floot 提供应用运行所需的环境。",
+        "differentiation": "减少离开聊天去准备环境的操作。最可能让人犹豫的是：能否把项目迁出 Floot，介绍没有说明。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 855c8157-c1b9-4c18-8452-e13fe5e1b7f6)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供数据库、用户登录、托管和在线网址，支持同一项目发布到网页、iOS 和 Android；未说明具体连接技术。",
+        "possible_approach": "如果自己做，可以先准备带数据库和登录的应用模板，再让聊天工具调用构建与发布功能，把运行结果传回对话。",
+        "tradeoffs": "难点是让后续修改保留已有功能和数据。若更新覆盖了原有行为，用户可能要反复修复已完成的部分。",
+        "unknowns": "发布到 iOS 和 Android 需要用户额外完成哪些步骤？"
+      },
+      "transferable_insights": [
+        "做面向非开发者的搭建工具时，可以先备齐运行环境，让用户从描述需求开始，不必先选配服务。"
+      ],
+      "validation_questions": [
+        "给已有应用增加一个字段，原有数据是否仍然保留？",
+        "把同一项目发布到 iOS，实际还需要哪些人工操作？"
+      ],
+      "source_tagline": "Build and ship web and mobile apps inside Claude or ChatGPT",
+      "source_description": "Connect Floot to Claude or ChatGPT and build a full-stack app without leaving the chat. Floot gives your AI a ready-to-use workspace with a database, user logins, hosting, and a live URL - nothing to install or configure. Your existing Claude or ChatGPT subscription does the thinking, so Floot doesn’t charge based on AI usage. When you’re ready, publish the same project to the web, iOS, and Android, then keep shipping updates from the same conversation."
     },
     {
       "id": "1255098",
       "name": "NOAN",
       "name_zh": "NOAN",
-      "tagline_zh": "The fact layer for your AI agents",
-      "description_zh": "Your company has thousands of documents, but only one version of the truth. NOAN turns the facts your business has approved such as pricing, positioning, policies, products, customers, and more into a verified, versioned source of truth available through API and MCP. Connect any model, agent, or app and give them all the same company facts, instead of letting each AI interpret your documents differently.",
-      "intro_zh": "",
+      "tagline_zh": "为你的 AI 智能体提供统一的事实来源",
+      "description_zh": "NOAN 将企业已批准的定价、定位、政策、产品和客户等事实，整理为经过核验、带有版本记录的统一来源，并通过 API 和 MCP 提供访问。模型、智能体或应用可以连接它，使用同一套公司事实，减少各自解读文档带来的差异。",
+      "intro_zh": "给同时使用多个 AI 工具的企业，把已批准的公司事实集中提供给模型和应用。",
       "url": "https://www.producthunt.com/products/noan-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/TJN667G2G336JQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f2d21f0d-56ae-4f19-b180-52c4f75a6ba1.jpeg?auto=format",
       "votes_count": 309,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对多个 AI 使用公司资料时口径不一致的问题。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "事实更新后，如何避免 AI 继续引用旧版本，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "将已批准事实单独管理的做法，可用于客服和销售助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把公司口径集中维护，减少多套 AI 各自理解的差异；最大疑问是事实变更能否及时反映到实际回答中。",
+      "product_analysis": {
+        "target_problem": "企业让多个 AI 回答价格、政策等问题时，各自解读文档可能得出不同答案。以前由各个 AI 分别理解资料，现在可以让它们读取同一套已批准事实。",
+        "workflow": "将企业已批准的事实整理进 NOAN，再连接模型、智能体或应用，让它们取用这些事实。介绍没有说明具体录入步骤。",
+        "ai_value": "它为 AI 提供统一的参考事实。介绍未说明是否用 AI 提取或核验事实，不能把“已核验”理解为自动判断真假。",
+        "differentiation": "省去让各个 AI 反复解读相同文档的部分工作。企业可能不愿切换，因为集中事实库仍需持续维护。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4d42ffbb-434d-41de-a8db-f1ba2c7df585)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1255017",
-      "name": "minimi 2.0",
-      "name_zh": "minimi 2.0",
-      "tagline_zh": "AI cat that closes your open loops",
-      "description_zh": "minimi is personal intelligence that comes to you. We are building a world where before you've said a word, AI already understands you and frees you from the work of managing your own life, so you can spend that time actually living it. Right now, you can adopt AI cats 🐱 on minimi: 1. Cotton captures your personal context so you never explain yourself to AI again. 2. Melody uses this personal context and never lets you miss your commitments More cats 🐈 🐈‍⬛ to come soon...",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XOGIIH5II2AH7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/dbe7e0eb-1fea-415b-93ce-fc4418a07301.jpeg?auto=format",
-      "votes_count": 308,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持事实版本管理，并通过 API（软件间传数据的接口）和 MCP（让 AI 工具连接外部资料的协议）提供访问。",
+        "possible_approach": "如果自己做，可以先把价格、政策拆成独立条目，记录批准状态和版本，再提供接口供 AI 查询。",
+        "tradeoffs": "最难的是更新后不再误用旧事实；若 AI 仍取到旧价格，即使接入同一来源，也可能答错。",
+        "unknowns": "事实更新后，已连接的应用如何停止使用旧版本？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4446c560-af85-42f0-b2f3-9e496e3664ec)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做客服或销售助手时，可把价格、退款规则等已批准事实单独维护，避免每次都从长文档重新解释。"
+      ],
+      "validation_questions": [
+        "修改一条价格后，已连接的 AI 下一次回答是否使用新价格？",
+        "输入两条相互冲突的政策时，能否明确指定哪条获准供 AI 使用？"
+      ],
+      "source_tagline": "The fact layer for your AI agents",
+      "source_description": "Your company has thousands of documents, but only one version of the truth. NOAN turns the facts your business has approved such as pricing, positioning, policies, products, customers, and more into a verified, versioned source of truth available through API and MCP. Connect any model, agent, or app and give them all the same company facts, instead of letting each AI interpret your documents differently."
     },
     {
       "id": "1258060",
       "name": "CtrlOps 1.0",
       "name_zh": "CtrlOps 1.0",
-      "tagline_zh": "Your server. Audited, managed, and deployed with AI.",
-      "description_zh": "Do you actually know who has access to your servers right now? CtrlOps gives you a security hardening score across 25 checks, a PDF audit report, and fix commands for every issue found. See who can log into every server, revoke access from your whole fleet in one click, and assign any level of roles/access without touching the terminal. Every log file, found and searchable without SSH. Deploy any app from GitHub in minutes. 100% local. Your credentials never leave your machine.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 审计、管理和部署你的服务器。",
+      "description_zh": "CtrlOps 提供涵盖 25 项检查的安全加固评分、PDF 审计报告及问题修复命令，也支持查看和撤销服务器访问权限、分配角色、搜索日志和从 GitHub 部署应用。介绍称部署可在几分钟内完成，工具完全在本地运行，凭据不会离开用户电脑。",
+      "intro_zh": "给管理多台服务器的运维人员用，集中检查安全问题、管理登录权限，并查日志和部署应用。",
       "url": "https://www.producthunt.com/products/ctrlops?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QDCOCHU6ZDBMJY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a845f06a-331c-43b6-8e4d-6ba4a4582aaa.png?auto=format",
       "votes_count": 284,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "权限盘点和安全检查的用途清楚，但管理范围与可靠性尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "批量撤权若漏掉服务器，会直接影响安全，值得重点验证。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把检查结果配上修复命令，是其他诊断工具可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重集中撤权后能减少逐台处理的工作；但资料未说明如何确认全部完成，这比支持多少功能更影响使用判断。",
+      "product_analysis": {
+        "target_problem": "管理多台服务器的人，需要知道谁还能登录、哪里配置不安全。麻烦在于要逐台核对，才能确认是否有遗漏。",
+        "workflow": "查看安全评分和问题对应的修复命令，导出报告；也可查看各服务器的登录权限，集中撤权或分配角色。介绍还支持搜索日志、从 GitHub 部署应用。",
+        "ai_value": "标语提到 AI，但没说明它负责检查、解释问题还是生成部署操作，无法判断实际作用。",
+        "differentiation": "它把权限盘点和修改放在同一处，减少来回核对。最可能让人犹豫的是：批量修改权限一旦出错，影响不止一台服务器。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7d7126ac-68c8-411c-8cb5-447e9f733e96)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称工具完全本地运行、凭据不离开电脑，并提供 25 项安全检查；未披露具体实现。",
+        "possible_approach": "如果自己做，可以先读取各服务器的账户和安全配置，再按规则列出问题与修复命令；执行批量撤权时，逐台记录结果。",
+        "tradeoffs": "最难的是确认每台服务器都已撤权。离线机器若被漏算成成功，管理员会误以为旧权限已清除。",
+        "unknowns": "“完全本地”是否也覆盖 AI 处理过程，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做安全或配置诊断工具时，把问题与对应修复命令放在一起，方便用户检查后再操作。"
+      ],
+      "validation_questions": [
+        "让一台服务器离线后批量撤权，结果是否明确标出该机器未完成？",
+        "启用 AI 功能时，检查是否有数据发往外部服务？"
+      ],
+      "source_tagline": "Your server. Audited, managed, and deployed with AI.",
+      "source_description": "Do you actually know who has access to your servers right now? CtrlOps gives you a security hardening score across 25 checks, a PDF audit report, and fix commands for every issue found. See who can log into every server, revoke access from your whole fleet in one click, and assign any level of roles/access without touching the terminal. Every log file, found and searchable without SSH. Deploy any app from GitHub in minutes. 100% local. Your credentials never leave your machine."
     },
     {
       "id": "1243676",
       "name": "Hookest",
       "name_zh": "Hookest",
-      "tagline_zh": "Your swipe file for viral video hooks",
-      "description_zh": "Hookest tracks the opening seconds of viral TikToks, Reels, and Shorts and makes them searchable with real performance data. Study what’s working in your niche, watch competitors, and bring saved hooks into Claude, ChatGPT, or Gemini through MCP.",
-      "intro_zh": "",
+      "tagline_zh": "你的热门短视频开头素材库",
+      "description_zh": "Hookest 追踪 TikTok、Reels 和 Shorts 热门视频的开头几秒，并支持结合表现数据搜索。你可以研究所在领域的热门开头、关注竞品，并通过 MCP 把收藏的开头带入 Claude、ChatGPT 或 Gemini。",
+      "intro_zh": "给短视频创作者和内容运营用，搜索热门视频开头、查看表现数据，并收藏参考素材。",
       "url": "https://www.producthunt.com/products/hookest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FFJW5UE4Y7SBQL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b0632168-1381-4070-80c5-18b43bb61050.jpeg?auto=format",
       "votes_count": 236,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找开头参考的场景清楚，搜索和收藏能减少整理工作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "素材与表现数据如何准确对应值得关注，但实现细节不足。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把参考素材与表现数据放在一起的做法可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是看参考素材时能同时看数据；但数据能否支持对开头效果的判断，仍需确认。",
+      "product_analysis": {
+        "target_problem": "创作者研究同领域视频时，需要找开头参考，也要判断哪些有表现依据。麻烦在于把素材和对应数据一起整理。",
+        "workflow": "搜索所在领域的视频开头，查看表现数据，收藏参考素材。再通过 MCP 将收藏带入支持的 AI 工具。",
+        "ai_value": "介绍提到把收藏交给 AI 工具使用，没说 Hookest 自身用 AI 做什么，也没说明交给 AI 后执行什么任务。",
+        "differentiation": "它把搜索、数据和收藏放在一起。最可能影响使用意愿的是素材是否覆盖用户所在领域。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 43074289-4747-4413-8792-afcc66455994)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持通过 MCP（让 AI 工具连接外部资料的一种方式）使用收藏的开头。",
+        "possible_approach": "如果自己做，可以先整理视频开头及对应表现数据，再做搜索和收藏，最后让 AI 工具读取收藏。",
+        "tradeoffs": "最容易误判的是把整条视频的表现归功于开头。用户可能因此模仿了开头，却忽略选题等其他因素。",
+        "unknowns": "介绍没说明表现数据的统计口径和更新时间。"
+      },
+      "transferable_insights": [
+        "做案例库时，可以让每条素材附带表现数据，方便用户决定先研究哪条。"
+      ],
+      "validation_questions": [
+        "搜一个熟悉的细分领域，检查结果是否相关。",
+        "将一条收藏带入 AI 工具，检查能否准确读取该素材。"
+      ],
+      "source_tagline": "Your swipe file for viral video hooks",
+      "source_description": "Hookest tracks the opening seconds of viral TikToks, Reels, and Shorts and makes them searchable with real performance data. Study what’s working in your niche, watch competitors, and bring saved hooks into Claude, ChatGPT, or Gemini through MCP."
     },
     {
       "id": "1259552",
       "name": "Bitrise Build Hub",
       "name_zh": "Bitrise Build Hub",
-      "tagline_zh": "GitHub Actions runners that build 2x faster for your agents",
-      "description_zh": "Coding agents push more code, so your CI runs more builds than ever. GitHub's runners are slow, so every extra build sits in the queue and your team waits with it. Bitrise Build Hub runs those builds on the newest Apple Silicon and high-core Linux instead: 54% faster on iOS, 31% on Android. PRs come back in minutes, and your app ships sooner. You keep GitHub Actions. Changing one line in your workflow is all it takes to run on the best runners made for mobile.",
-      "intro_zh": "",
+      "tagline_zh": "为编程智能体提供的 GitHub Actions 运行机器，宣称构建速度翻倍",
+      "description_zh": "编程智能体提交更多代码后，持续集成需要执行更多构建；Bitrise Build Hub 保留 GitHub Actions，把构建任务交给较新的 Apple Silicon 和多核 Linux 机器。简介称只需修改工作流中的一行，并宣称 iOS 构建提速 54%、Android 提速 31%，但未提供测试条件。",
+      "intro_zh": "给用 GitHub Actions 构建移动应用的团队，把构建任务换到另一批机器上执行。",
       "url": "https://www.producthunt.com/products/bitrise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/T4PHA2CSL3LUJO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/86dada4a-8a35-4c83-a6e8-014a701e0005.png?auto=format",
       "votes_count": 176,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "等待构建的问题明确，但提速幅度和迁移条件尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "更换执行机器的思路清楚，实际收益取决于构建瓶颈。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留原工作流、只替换执行资源的做法可供开发工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重保留 GitHub Actions 的迁移方式；最大的疑问是，自己的项目能否复现宣传中的提速。",
+      "product_analysis": {
+        "target_problem": "移动应用团队提交代码后，需要等构建完成才能判断改动是否通过。编程智能体增加提交量时，等待可能更频繁。",
+        "workflow": "以前在 GitHub 原有机器上执行构建，现在可以保留 GitHub Actions，改用 Build Hub 的机器。简介称只需改工作流一行，未给出具体配置。",
+        "ai_value": "介绍没提产品自身使用 AI，主要靠更换构建机器改善体验；编程智能体只是增加构建需求的背景。",
+        "differentiation": "不用重建整套自动构建流程。团队可能不愿迁移的原因，是现有构建环境未必能直接兼容新机器。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5cdb05aa-eec1-409c-958d-31e410276d53)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "使用 Apple Silicon 和多核 Linux 机器，承接 GitHub Actions 构建任务。",
+        "possible_approach": "如果自己做，可以先让工作流把任务交给指定机器，再在机器上准备编译工具并回传构建结果。",
+        "tradeoffs": "最容易出错的是构建环境匹配：工具版本或依赖不一致，原本通过的构建可能失败。",
+        "unknowns": "没有说明提速测试用了什么项目和对照机器。"
+      },
+      "transferable_insights": [
+        "做开发工具时，可以保留用户已有的任务配置，只替换执行任务的资源，减少迁移时要改的内容。"
+      ],
+      "validation_questions": [
+        "同一个项目换机器后，从触发到完成的总耗时减少多少？",
+        "现有工作流仅修改所称的一行后，能否成功完成构建？"
+      ],
+      "source_tagline": "GitHub Actions runners that build 2x faster for your agents",
+      "source_description": "Coding agents push more code, so your CI runs more builds than ever. GitHub's runners are slow, so every extra build sits in the queue and your team waits with it. Bitrise Build Hub runs those builds on the newest Apple Silicon and high-core Linux instead: 54% faster on iOS, 31% on Android. PRs come back in minutes, and your app ships sooner. You keep GitHub Actions. Changing one line in your workflow is all it takes to run on the best runners made for mobile."
     },
     {
       "id": "1245392",
       "name": "Maximem Synap",
       "name_zh": "Maximem Synap",
-      "tagline_zh": "The fastest, most accurate memory layer for AI agents",
-      "description_zh": "Maximem Synap is memory and context infrastructure for AI agents, so every conversation does not start from zero. It is the fastest and most accurate memory system on public benchmarks, 92% on LongMemEval and 93.2% on Locomo, with sub-15ms P75 recall. It handles entity resolution, temporal reasoning, and multi-level scoping automatically, no vector database or ranker to tune. Native across 22 frameworks including LangChain, LangGraph, and the Claude Agent SDK. Free tier, no credit card required.",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 智能体的记忆层，主打速度与准确性",
+      "description_zh": "Maximem Synap 为 AI 智能体保存记忆和上下文，自动处理实体对应、时间关系及多层级记忆范围，无需用户调校向量数据库或排序器。介绍称其支持包括 LangChain、LangGraph 和 Claude Agent SDK 在内的 22 个框架，提供免信用卡免费档，并宣称 LongMemEval 得分 92%、Locomo 得分 93.2%，75% 的记忆检索耗时低于 15 毫秒。",
+      "intro_zh": "给开发 AI 助手的团队用，保存过往对话中的信息，让助手在后续交流时取回相关记忆。",
       "url": "https://www.producthunt.com/products/maximem-synap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EKTF6S3CWYVDPI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6f84fd4c-6ff1-4aa9-9f76-be7e86a9dc85.png?auto=format",
       "votes_count": 147,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨对话保留信息的需求明确，但真实业务中的检索质量仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "同一对象的信息随时间变化时该取哪条，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按对象、时间和使用范围组织记忆，可借用于持续服务用户的助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少用户重复交代背景；最影响判断的是更正后的记忆是否可靠，宣传中的基准成绩不能回答这一点。",
+      "product_analysis": {
+        "target_problem": "开发持续对话助手的团队会需要它。助手若无法取回旧信息，用户就得重复解释偏好和背景。",
+        "workflow": "团队把记忆能力接入智能体，保存对话信息，并在后续交流时检索相关内容。介绍未给出具体接入步骤。",
+        "ai_value": "它为 AI 提供回答时可用的旧信息；没有披露提取、整理记忆时用了什么模型。",
+        "differentiation": "它把记忆存取与整理打包，减少自行调校检索组件的工作。已有记忆系统的团队可能会顾虑迁移旧数据。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7f56454d-734e-43c6-adb2-0fccd37ad98a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称可自动辨认同一对象、处理时间关系，并按不同层级限定记忆使用范围。",
+        "possible_approach": "如果自己做，可以先从对话提取事实，记录对象、时间和所属用户，再按当前问题取回相关记录。",
+        "tradeoffs": "最难的是处理新旧事实冲突。用户改了地址后，若仍取回旧地址，助手就可能继续给出错误答案。",
+        "unknowns": "用户更正信息后，旧记忆如何被替换或停用？"
+      },
+      "transferable_insights": [
+        "做长期服务用户的助手时，可给记忆记录时间，区分当前事实与历史状态。"
+      ],
+      "validation_questions": [
+        "先告知旧地址，再更正地址，检查新对话是否只使用新地址。",
+        "用两个用户保存不同偏好，检查检索结果是否混入另一人的信息。"
+      ],
+      "source_tagline": "The fastest, most accurate memory layer for AI agents",
+      "source_description": "Maximem Synap is memory and context infrastructure for AI agents, so every conversation does not start from zero. It is the fastest and most accurate memory system on public benchmarks, 92% on LongMemEval and 93.2% on Locomo, with sub-15ms P75 recall. It handles entity resolution, temporal reasoning, and multi-level scoping automatically, no vector database or ranker to tune. Native across 22 frameworks including LangChain, LangGraph, and the Claude Agent SDK. Free tier, no credit card required."
     },
     {
       "id": "1258336",
       "name": "Opaline",
       "name_zh": "Opaline",
-      "tagline_zh": "PostHog for team Claude Code and Codex sessions.",
-      "description_zh": "Team-wide, message-level analytics for Claude Code and Codex sessions. Track token cost, time, and skill usage for every single message across your team’s sessions. Catch every “You’re absolutely right” from Claude and every “I know, you f*cking idiot” from a frustrated teammate.",
-      "intro_zh": "",
+      "tagline_zh": "面向团队 Claude Code 和 Codex 会话的 PostHog 式分析工具。",
+      "description_zh": "为团队的 Claude Code 和 Codex 会话提供逐条消息的分析，追踪每条消息的 token 成本、耗时和技能使用情况。简介还强调能找出 Claude 的“你说得完全对”，以及沮丧队友说出的“我知道，你这个蠢货”等话语。",
+      "intro_zh": "给使用 Claude Code 和 Codex 的开发团队，按消息查看会话成本、耗时和技能使用情况。",
       "url": "https://www.producthunt.com/products/rudel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/L7DBTVHKIIMUT4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2a0742d4-5fe3-4e3e-bb96-9d848e4b470d.png?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "分析对象和查看粒度明确，但能否据此改善团队使用尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "逐条消息的成本归属值得关注，但介绍没有说明计算口径。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把汇总指标下钻到具体消息，是其他 AI 工作工具可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把团队用量追到具体消息；最影响判断的是成本归属是否准确，否则数据虽细，也可能误导调整。",
+      "product_analysis": {
+        "target_problem": "使用这两种编程助手的团队，可能需要找出哪些交互花钱、耗时。只看总量，很难定位到具体消息。",
+        "workflow": "分析单位是团队会话中的单条消息，可查看成本、耗时和技能使用。介绍没有交代会话如何接入。",
+        "ai_value": "它分析的是 AI 编程会话；介绍没提自身是否用 AI，主要靠逐条记录和展示使用数据来改善可见性。",
+        "differentiation": "把分析细化到消息，方便定位要复查的交互。团队可能因不愿集中暴露对话内容而放弃使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d69ba5a0-59f9-4270-983c-301b50a21be0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Claude Code 和 Codex 的消息级分析，追踪 token（模型处理文本的计量单位）成本、耗时和技能使用。",
+        "possible_approach": "如果自己做，可以先接入会话记录，再把用量、时间和技能事件对应到消息，最后按团队汇总并支持点开查看。",
+        "tradeoffs": "最难的是把成本准确归到消息。若漏算一次消息触发的后续处理，用户可能找错花钱最多的交互。",
+        "unknowns": "团队成员之间能看到哪些对话内容，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做 AI 工作工具的用量面板时，让用户从汇总数字点到具体消息，方便找到需要调整的交互。"
+      ],
+      "validation_questions": [
+        "选一段可核对用量的会话，检查逐条成本相加是否与该会话总成本一致。",
+        "用普通成员账号检查能否读取其他成员的完整对话。"
+      ],
+      "source_tagline": "PostHog for team Claude Code and Codex sessions.",
+      "source_description": "Team-wide, message-level analytics for Claude Code and Codex sessions. Track token cost, time, and skill usage for every single message across your team’s sessions. Catch every “You’re absolutely right” from Claude and every “I know, you f*cking idiot” from a frustrated teammate."
     },
     {
       "id": "1244890",
       "name": "Autonomous Product Delivery",
       "name_zh": "Autonomous Product Delivery",
-      "tagline_zh": "Discover, plan, build, ship, repeat. Product teams run it",
-      "description_zh": "AI coding agents made code fast; delivery still crawls, because coding is one seat in the product cycle. Autonomous Product Delivery runs the whole loop as one system on your real codebase. Ask a question, or let it suggest the next improvement on its own: The final piece in the loop, the new Discover Mode, researches your analytics, tickets, calls, and code, then the system plans, builds, verifies, and hands your engineers a review-ready PR. Every merge makes it smarter.",
-      "intro_zh": "",
+      "tagline_zh": "发现、规划、构建、交付，循环推进，由产品团队掌控",
+      "description_zh": "Autonomous Product Delivery 在团队现有代码库上，把发现改进机会、规划、开发和验证串起来，最后交给工程师一份可供审查的代码合并请求。新增的 Discover Mode 会研究分析数据、工单、通话和代码；简介还宣称，每次合并都能让系统变得更聪明，但没有解释具体机制。",
+      "intro_zh": "给产品和工程团队用，从业务资料中寻找改进机会，再规划、修改代码并提交给工程师审查。",
       "url": "https://www.producthunt.com/products/autonomyai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7V7TTVTYEQ5ADT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a79e1292-ee8f-4721-86ee-fd56b496ece5.jpeg?auto=format",
       "votes_count": 134,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从发现问题到交付代码的任务清楚，但实际节省多少人工尚无证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把业务线索转成正确的代码修改，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先汇集问题证据，再产出可人工审查的修改，适合借鉴到开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是把发现问题推进到可审查的代码修改；最大的疑问是，它能否选对问题，而不只是把代码写出来。",
+      "product_analysis": {
+        "target_problem": "产品和工程团队即使写代码更快，也仍要判断该改什么、安排实现并验证。它试图把这些工作放进同一个系统。",
+        "workflow": "团队提出问题，或让 Discover Mode 主动寻找改进机会。系统研究资料后规划、修改和验证代码，再交给工程师审查合并请求（提议把改动并入代码库的审查单）。",
+        "ai_value": "AI 不只生成代码，还参与分析业务资料、寻找改进点和规划修改。验证能覆盖哪些问题，介绍没说。",
+        "differentiation": "可能减少业务发现与开发之间反复交接的工作。团队是否愿意授权它读取业务资料和代码，可能影响使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7cbd5b41-6700-4690-9647-48f61cdb3df1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到研究分析数据、工单、通话及代码，并在真实代码库上构建、验证和生成合并请求。",
+        "possible_approach": "如果自己做，可以先让每条改进建议附上来源证据，再据此规划代码修改，运行检查，最后提交人工审查。",
+        "tradeoffs": "最容易错在把局部反馈当成应优先解决的问题；即使代码检查通过，也可能做出团队不需要的功能。",
+        "unknowns": "“每次合并后更聪明”具体记住什么、怎样影响下一次建议，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做需求分析或开发助手时，可以把建议、来源证据和代码改动放在一起，让审查者能追溯为什么要改。"
+      ],
+      "validation_questions": [
+        "选一条自动发现的建议，检查原始资料是否真的支持它。",
+        "给一个有明确验收条件的小任务，检查生成的修改是否满足这些条件。"
+      ],
+      "source_tagline": "Discover, plan, build, ship, repeat. Product teams run it",
+      "source_description": "AI coding agents made code fast; delivery still crawls, because coding is one seat in the product cycle. Autonomous Product Delivery runs the whole loop as one system on your real codebase. Ask a question, or let it suggest the next improvement on its own: The final piece in the loop, the new Discover Mode, researches your analytics, tickets, calls, and code, then the system plans, builds, verifies, and hands your engineers a review-ready PR. Every merge makes it smarter."
+    },
+    {
+      "id": "1255017",
+      "name": "minimi 2.0",
+      "name_zh": "minimi 2.0",
+      "tagline_zh": "帮你跟进未完成事项的 AI 猫",
+      "description_zh": "minimi 希望让 AI 主动理解个人情况，减少用户管理日常生活的负担。当前可领养两只 AI 猫：Cotton 记录个人背景，Melody 利用这些背景帮助用户记住承诺，后续计划增加更多角色。",
+      "intro_zh": "给想让 AI 记住个人背景、帮助跟进承诺的人用，以两只虚拟猫分别承担记录和提醒。",
+      "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XOGIIH5II2AH7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/dbe7e0eb-1fea-415b-93ce-fc4418a07301.jpeg?auto=format",
+      "votes_count": 308,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "重复解释背景和忘记承诺是清楚的问题，但如何收集和提醒尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "个人背景如何转成可靠提醒有具体难点，但缺少实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "记录背景供后续任务复用的做法可借鉴，实际收益待确认。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是记录下来的背景能继续用于跟进事项；最影响判断的是，它能否准确区分真实承诺和普通聊天。",
+      "product_analysis": {
+        "target_problem": "面向需要向 AI 反复说明个人情况、又想有人帮忙记住承诺的人。它想减少重复解释和自行记挂事项的负担。",
+        "workflow": "用户可领养 Cotton 和 Melody。前者记录个人背景，后者利用这些背景帮助跟进承诺；介绍没说用户如何提供资料或接收提醒。",
+        "ai_value": "AI 被用于记录个人背景，并把这些信息用于承诺跟进。“不再需要解释自己”和“绝不错过承诺”仍是宣传目标。",
+        "differentiation": "背景记录可供后续跟进使用，可能省去再次交代情况的麻烦。用户也可能不愿让工具持续保存私人信息。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到两个 AI 角色共享使用个人背景，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户确认要保存的个人信息，再从中找出承诺及时间，交由用户确认后设置提醒。",
+        "tradeoffs": "最容易把随口提到的计划当成承诺。判断错了，用户会收到不必要的提醒，还得逐条纠正。",
+        "unknowns": "个人背景来自用户主动填写，还是其他信息来源？"
+      },
+      "transferable_insights": [
+        "做个人助手时，可以让已确认的背景供后续任务复用，减少用户在不同功能里重复填写。"
+      ],
+      "validation_questions": [
+        "把一项承诺与一句随口设想一起提供，检查是否只跟进前者。",
+        "修改一条已保存的个人信息，检查后续跟进是否使用新内容。"
+      ],
+      "source_tagline": "AI cat that closes your open loops",
+      "source_description": "minimi is personal intelligence that comes to you. We are building a world where before you've said a word, AI already understands you and frees you from the work of managing your own life, so you can spend that time actually living it. Right now, you can adopt AI cats 🐱 on minimi: 1. Cotton captures your personal context so you never explain yourself to AI again. 2. Melody uses this personal context and never lets you miss your commitments More cats 🐈 🐈‍⬛ to come soon..."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

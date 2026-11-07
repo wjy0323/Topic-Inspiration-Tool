@@ -1,367 +1,510 @@
 {
   "date": "2026-09-19",
-  "generated_at": "2026-09-20T20:05:50+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:27:44+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1252832",
-      "name": "Bolt Forge",
-      "name_zh": "Bolt Forge",
-      "tagline_zh": "Bolt's new agent with open-source models and 50X usage",
-      "description_zh": "Bolt Forge is a new agent inside Bolt.new that runs on open-source models. Every Pro plan gets up to 50X more usage with no daily caps. Scores 91% of Bolt's top paid model on their internal benchmark.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/bolt-new?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4A3VQBDVIUMA2D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/db512423-8abc-4b5e-95a4-e4e9d763bced.jpeg?auto=format",
-      "votes_count": 230,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1162764",
       "name": "Mantra Timer",
       "name_zh": "Mantra Timer",
-      "tagline_zh": "A minimalist mantra meditation timer for iOS.",
-      "description_zh": "Mantra Meditation Timer rejects the bloated tracking of modern wellness apps. Built for self-directed practitioners, this elegant iOS app offers a distraction-free experience with zero data collection. Enjoy core Meditation timers, calming chimes, and mental or physical check-ins completely free. For established pro mantra practitioners, a small one-off payment unlocks advanced stats and deeper customisation. No subscription fatigue, just a beautifully simple tool for profound daily practice.",
-      "intro_zh": "",
+      "tagline_zh": "一款适用于 iOS 的极简曼陀罗冥想计时器。",
+      "description_zh": "Mantra Timer 面向自主练习者，提供免费的冥想计时、轻柔提示音和身心状态记录，并称不收集数据。进阶练习者可一次性付费解锁高级统计和更多自定义设置，无需订阅。",
+      "intro_zh": "给自主进行曼陀罗冥想的人用，在 iPhone 上计时、听提示音，并记录身心状态。",
       "url": "https://www.producthunt.com/products/transcendence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EWJKZOW5DRPD2A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5475501f-402f-4d07-ad05-f0eb8da49820.png?auto=format",
       "votes_count": 178,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象明确，免费计时与一次性付费的边界清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "锁屏后的计时与提醒值得检查，但实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "基础练习免费、深入统计付费的分工可供轻量工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重无需订阅就能使用基础计时；但锁屏后能否可靠提醒，直接决定它能不能承担日常练习。",
+      "product_analysis": {
+        "target_problem": "已有练习方法的人，需要计时和结束提醒，不一定需要课程或繁多的追踪功能。它把日常练习所需功能集中在一个轻量工具里。",
+        "workflow": "用计时器安排冥想，配合提示音，并记录心理或身体状态。需要高级统计和更多自定义设置时，可一次性付费解锁。",
+        "ai_value": "介绍没提 AI，主要靠精简功能和减少干扰来改善体验。",
+        "differentiation": "基础练习无需订阅。最可能让人犹豫的是，现有计时工具可能已经够用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是一款 iOS 应用，介绍称不收集数据，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先保存练习结束时间，再安排系统提醒；状态记录和统计可保存在手机上。",
+        "tradeoffs": "最容易出错的是锁屏后的提醒。若只靠前台倒计时，切到后台后可能无法按时提示，打断练习安排。",
+        "unknowns": "“不收集数据”是否意味着练习记录完全留在设备上，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做面向熟练用户的练习工具时，可让计时等基础功能免费，将长期统计和深度设置作为一次性付费项。"
+      ],
+      "validation_questions": [
+        "锁屏并切到其他应用后，结束提示是否仍按时响起？",
+        "隐私说明是否明确交代练习记录会不会离开设备？"
+      ],
+      "source_tagline": "A minimalist mantra meditation timer for iOS.",
+      "source_description": "Mantra Meditation Timer rejects the bloated tracking of modern wellness apps. Built for self-directed practitioners, this elegant iOS app offers a distraction-free experience with zero data collection. Enjoy core Meditation timers, calming chimes, and mental or physical check-ins completely free. For established pro mantra practitioners, a small one-off payment unlocks advanced stats and deeper customisation. No subscription fatigue, just a beautifully simple tool for profound daily practice."
     },
     {
       "id": "1249952",
       "name": "Lumiko",
       "name_zh": "Lumiko",
-      "tagline_zh": "Screen recordings that edit themselves with Auto Zoom-Pan ",
-      "description_zh": "Lumiko records your screen and edits the footage while you work. It tracks your cursor and clicks, then builds smooth zoom and pan moves over them automatically, no keyframes. Trim, split, and reorder clips on a timeline right in the browser. Smart Blur hides API keys and passwords in one drag. Add a webcam bubble, custom backgrounds, click effects. Exports up to 4K. Runs locally, no account, no upload queue. Free to start.",
-      "intro_zh": "",
+      "tagline_zh": "自动缩放和平移的录屏工具",
+      "description_zh": "Lumiko 录制屏幕，并根据光标和点击位置自动添加缩放、平移，无需手动设置关键帧；还可在浏览器时间线上裁剪、拆分和重排片段，拖动添加模糊以遮住 API 密钥和密码。它支持摄像头小窗、自定义背景、点击效果及最高 4K 导出，介绍称在本地运行，无需账号或排队上传，可免费开始使用。",
+      "intro_zh": "给制作软件演示和操作教程的人用，录下屏幕操作，自动突出点击位置，再在浏览器里剪辑导出。",
       "url": "https://www.producthunt.com/products/lumiko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6HXPPPSI732OW5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/87282358-fca1-4d6f-99d8-4f3265373c06.jpeg?auto=format",
       "votes_count": 158,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "自动突出操作位置能减少手动调镜头，但成片质量尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把零散的鼠标操作变成稳定镜头，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用操作记录生成编辑初稿，可借给教程制作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把操作记录直接变成镜头初稿；最影响判断的是自动结果不合意时，能否方便地修正。",
+      "product_analysis": {
+        "target_problem": "做软件演示的人需要让观众看清按钮和输入内容。以前若手动安排镜头，要设置关键帧（指定某个时刻的画面位置和大小）；现在可以按光标和点击自动生成。",
+        "workflow": "录下屏幕操作后，在浏览器时间线上裁剪、拆分或重排片段。再添加遮挡和外观效果，导出视频。",
+        "ai_value": "介绍没提 AI，主要靠跟踪光标和点击来自动安排镜头。",
+        "differentiation": "省掉部分逐段调整镜头的工作。若自动镜头不合意却难以修改，用户可能仍愿意手动剪辑。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到光标与点击跟踪、本地运行、浏览器时间线及最高 4K 导出。",
+        "possible_approach": "如果自己做，可以先同步记录屏幕与鼠标位置，再按点击生成放大区域，用缓慢过渡连接镜头，最后提供人工调整。",
+        "tradeoffs": "最难的是判断哪些鼠标移动值得跟随。若每次移动都触发镜头，画面可能来回晃，观众反而看不清操作。",
+        "unknowns": "自动生成的缩放和平移能否逐段修改？"
+      },
+      "transferable_insights": [
+        "做教程编辑器时，可以把点击位置作为镜头初稿的依据，让用户从修改开始，不必从空白时间线开始。"
+      ],
+      "validation_questions": [
+        "录一段频繁跨窗口点击的操作，检查自动镜头是否反复跳动。",
+        "用虚构密码测试模糊遮挡，检查导出视频是否仍有可读的泄露帧。"
+      ],
+      "source_tagline": "Screen recordings that edit themselves with Auto Zoom-Pan ",
+      "source_description": "Lumiko records your screen and edits the footage while you work. It tracks your cursor and clicks, then builds smooth zoom and pan moves over them automatically, no keyframes. Trim, split, and reorder clips on a timeline right in the browser. Smart Blur hides API keys and passwords in one drag. Add a webcam bubble, custom backgrounds, click effects. Exports up to 4K. Runs locally, no account, no upload queue. Free to start."
     },
     {
       "id": "1254713",
       "name": "Steam Frame",
       "name_zh": "Steam Frame",
-      "tagline_zh": "Your Steam library, now on a wearable PC",
-      "description_zh": "Steam Frame is a wireless SteamOS headset that streams your whole library from a PC, Deck, or Machine, and runs standalone titles too. Dual radios plus an included adapter keep streaming stable. The controllers work as VR wands and a full gamepad.",
-      "intro_zh": "",
+      "tagline_zh": "把你的 Steam 游戏库带到可穿戴电脑上",
+      "description_zh": "Steam Frame 是一款搭载 SteamOS 的无线头显，可从 PC、Deck 或 Machine 串流游戏，也能独立运行部分游戏。简介称双无线模块与附带适配器有助于稳定串流，控制器兼具 VR 手柄和完整游戏手柄的用途。",
+      "intro_zh": "给想戴头显玩 Steam 游戏的人用，可接收电脑传来的游戏画面，也能独立运行部分游戏。",
       "url": "https://www.producthunt.com/products/steam-machine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DVSJS2NGMZJEFP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e28de71a-92dd-4373-b9dd-dba874e4e2da.jpeg?auto=format",
       "votes_count": 152,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "复用已有游戏库的用途清楚，但实际兼容范围仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "无线串流如何兼顾画面和操作响应，是直接影响体验的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "兼顾两类游戏操作的思路可借鉴，但控制器切换体验缺少材料。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它能利用已有设备运行游戏；但历史简介中“整个游戏库”的说法不足以证明实际兼容范围。",
+      "product_analysis": {
+        "target_problem": "已有 Steam 游戏、想换到头显里玩的玩家会需要它。关键是能否沿用现有设备和游戏，不必另建一套内容库。",
+        "workflow": "可从 PC、Deck 或 Machine 串流游戏到头显，也可运行支持独立运行的游戏。控制器支持 VR 操作和完整游戏手柄操作。",
+        "ai_value": "介绍没提 AI，主要靠无线串流和两种控制器用途改善体验。",
+        "differentiation": "它把串流和独立运行放进同一设备。最可能让人犹豫的是：自己常玩的游戏究竟支持到什么程度。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "搭载 SteamOS，采用双无线模块并附带适配器；简介称这些配置有助于稳定串流。",
+        "possible_approach": "如果自己做，可以先让电脑运行游戏，把画面压缩后无线传给头显，再把控制器输入传回电脑。",
+        "tradeoffs": "最难的是控制往返延迟。无线传输一旦不及时，用户按下按钮后画面可能迟迟不响应。",
+        "unknowns": "“整个游戏库”具体覆盖哪些游戏，简介没有说明兼容条件。"
+      },
+      "transferable_insights": [
+        "做同时支持普通游戏和 VR 游戏的设备时，可以让同一套控制器承担两类操作，减少用户更换外设的步骤。"
+      ],
+      "validation_questions": [
+        "用一款熟悉的快节奏游戏测试串流，检查按键到画面响应是否明显滞后。",
+        "拿自己最常玩的游戏逐一检查，确认哪些能串流、哪些能独立运行。"
+      ],
+      "source_tagline": "Your Steam library, now on a wearable PC",
+      "source_description": "Steam Frame is a wireless SteamOS headset that streams your whole library from a PC, Deck, or Machine, and runs standalone titles too. Dual radios plus an included adapter keep streaming stable. The controllers work as VR wands and a full gamepad."
     },
     {
       "id": "1250937",
       "name": "Lull",
       "name_zh": "Lull",
-      "tagline_zh": "Tell it what is on your mind. It writes the meditation.",
-      "description_zh": "Lull doesn't play recordings. Talk for a minute about what's actually going on and it writes a meditation for that moment, read in one of 11 voices. Oura recovery shapes the tone. Apple Watch records your heart rate and shows the real settle after, or nothing.",
-      "intro_zh": "",
+      "tagline_zh": "说说你的心事，它来写冥想引导词。",
+      "description_zh": "Lull 不播放预录内容：你花一分钟讲述当下的情况，它会为此编写冥想内容，并用 11 种声音之一朗读。Oura 的恢复数据会影响引导语气；Apple Watch 记录心率，介绍称会展示练习后的平静变化，也可能没有变化。",
+      "intro_zh": "给想针对当下心事做冥想的人：说出正在烦恼的事，让它编写并朗读对应的引导内容。",
       "url": "https://www.producthunt.com/products/lull-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UK2JLUE5QAYOL3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c730ff4c-c3f1-4f96-95e0-9e188d60684a.png?auto=format",
       "votes_count": 117,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "场景明确，省去寻找贴合当下心事的冥想内容，但实际帮助尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把心事和身体数据用于引导，难点在于不把心率变化误说成放松效果。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先收集当下处境再生成内容的做法，可用于其他个性化练习。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把内容选择变成简短讲述；最影响判断的是，生成的引导究竟有多贴合用户处境。",
+      "product_analysis": {
+        "target_problem": "有具体烦恼、又想做冥想的人，可能难找到贴合此刻处境的内容。Lull 让用户先讲心事，再生成对应引导。",
+        "workflow": "讲约一分钟当前的情况，获得冥想内容并听取朗读。介绍还提到用 Oura 恢复数据调整语气，用 Apple Watch 记录心率。",
+        "ai_value": "介绍没明确提 AI，但描述了按用户讲述编写内容、再朗读的能力；没有说明由什么系统完成。",
+        "differentiation": "省去筛选现成内容的麻烦。用户可能不愿对工具讲出私人心事，这是我会先确认的使用顾虑。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 11 种朗读声音，使用 Oura 恢复数据和 Apple Watch 心率记录；介绍没说具体生成技术。",
+        "possible_approach": "如果自己做，可以先把讲述转成文字，再据此编写引导词并合成语音；取得授权后读取设备数据。",
+        "tradeoffs": "最容易错在解释心率：下降不等于焦虑缓解，若直接称为放松效果，用户可能误判自己的状态。",
+        "unknowns": "没有 Oura 或 Apple Watch 时，能否完整使用冥想功能？"
+      },
+      "transferable_insights": [
+        "做睡前引导或练习类产品时，可以先让用户简短描述当前处境，再据此生成内容，减少翻找分类的步骤。"
+      ],
+      "validation_questions": [
+        "讲述一件具体烦恼后，引导是否回应了这件事，而非仅替换几个词？",
+        "心率没有下降时，结果页是否如实展示，而不声称已经放松？"
+      ],
+      "source_tagline": "Tell it what is on your mind. It writes the meditation.",
+      "source_description": "Lull doesn't play recordings. Talk for a minute about what's actually going on and it writes a meditation for that moment, read in one of 11 voices. Oura recovery shapes the tone. Apple Watch records your heart rate and shows the real settle after, or nothing."
     },
     {
       "id": "1251902",
       "name": "Squirrel",
       "name_zh": "Squirrel",
-      "tagline_zh": "An app blocker that pays you back",
-      "description_zh": "Squirrel puts a price on the apps you open too much. Tap Instagram and you get a hard block, not a screen you can wave away. Want to check a DM? That's fine, but you have to open Squirrel, pick how long, and set aside a few dollars for yourself first. No money moves through the app. No card or bank account to connect. When you're ready, invest it in your own brokerage and tell Squirrel what you bought. It tracks your holdings with live prices.",
-      "intro_zh": "",
+      "tagline_zh": "一款让你把钱留给自己的应用拦截工具",
+      "description_zh": "Squirrel 会硬性拦截你频繁打开的应用；想临时使用，需要先回到 Squirrel 选择时长，并为自己留出几美元。它不经手资金，也不用绑定银行卡；你自行在证券账户投资后，告诉它买了什么，它会按实时价格追踪持仓。",
+      "intro_zh": "给想减少刷应用的人用。先拦住应用，再让用户为临时使用设定时长、留出一笔钱，并记录自行投资的持仓。",
       "url": "https://www.producthunt.com/products/squirrel-screen-time-savings?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PKEWAZ5UH5CJHO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/087e19bb-169a-44fe-b063-d28bd37cd655.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "减少随手打开应用的场景清楚，但能否持续改变习惯尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "限时放行后的重新拦截是具体问题，但实现条件未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把冲动操作改成有时限的主动选择，可借用于其他自控工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让临时使用先有明确时限。但资金完全由用户自行安排，不能把它理解成自动存钱或提供投资回报的工具。",
+      "product_analysis": {
+        "target_problem": "想少刷社交应用的人，有时只是查条私信，也可能继续刷下去。它在打开应用时设置一道需要主动处理的门槛。",
+        "workflow": "应用被拦后，用户回到 Squirrel，选使用时长并留出钱。之后自行投资，再填入买入内容查看持仓。",
+        "ai_value": "介绍没提 AI，主要靠应用拦截、限时放行和持仓记录来改善体验。",
+        "differentiation": "相比可直接关掉的提醒，它要求绕回 Squirrel 才能放行。每次查消息都要多做操作，可能让人不愿坚持。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说不经手资金、不连接银行卡，并用实时价格追踪持仓；没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先用系统允许的应用管控能力实现拦截和限时放行，再把用户填入的买入记录与行情价格匹配。",
+        "tradeoffs": "最容易出错的是到时重新拦截。若放行后没有按时恢复限制，用户就可能继续刷下去。",
+        "unknowns": "它支持哪些系统，以及拦截依赖什么权限，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做自控工具时，可以把“忽略提醒”改成“先选本次使用多久”，让放行有明确期限。"
+      ],
+      "validation_questions": [
+        "临时放行到期后，目标应用是否会重新被拦住？",
+        "不实际留钱也能否放行，以确认金钱约束有多依赖自觉？"
+      ],
+      "source_tagline": "An app blocker that pays you back",
+      "source_description": "Squirrel puts a price on the apps you open too much. Tap Instagram and you get a hard block, not a screen you can wave away. Want to check a DM? That's fine, but you have to open Squirrel, pick how long, and set aside a few dollars for yourself first. No money moves through the app. No card or bank account to connect. When you're ready, invest it in your own brokerage and tell Squirrel what you bought. It tracks your holdings with live prices."
     },
     {
       "id": "1249894",
       "name": "Doneit 3.2",
       "name_zh": "Doneit 3.2",
-      "tagline_zh": "Reimagined Doneit Assist, support for Siri AI, and more",
-      "description_zh": "You can now attach photos when planning tasks with Doneit Assist to turn a handwritten list, whiteboard or a document into tasks, include additional details to make tasks more accurate, as well as let it suggest reminders and attributes for tasks, and break tasks into subtasks. Doneit Assist can now also create a brief summary of a task list, highlight its key tasks for you to focus on, as well as show the upcoming tasks in this list.",
-      "intro_zh": "",
+      "tagline_zh": "重新设计的 Doneit Assist，支持 Siri AI 等更新",
+      "description_zh": "现在可以在使用 Doneit Assist 规划任务时附上照片，把手写清单、白板或文档转成任务，也能补充细节，让它建议提醒和任务属性，并把任务拆成子任务。它还可以为任务列表生成简短摘要，突出重点任务，并显示即将到来的任务。",
+      "intro_zh": "给用清单安排工作的人，把手写清单或白板照片转成任务，再辅助拆分任务和查看重点。",
       "url": "https://www.producthunt.com/products/doneit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZVRDCSGVJ3ISAA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/38485214-3830-4f51-a140-4814530c8a4b.jpeg?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从照片整理任务的用途清楚，但识别准确度和修改成本待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把照片内容变成可靠任务有具体难点，但实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先接收已有材料、再补充细节的做法可借给其他录入工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把现成清单变成可管理任务；关键疑问是，省下的录入时间会不会被校正错误抵消。",
+      "product_analysis": {
+        "target_problem": "用手写清单或白板安排工作的人，需要把已有内容整理进任务列表。以前若靠手动录入，现在可以附上照片生成任务。",
+        "workflow": "在 Doneit Assist 规划任务时附上照片，并补充细节。让它建议提醒、任务属性和子任务，也可查看列表摘要、重点及即将到来的任务。",
+        "ai_value": "助手把图片里的内容整理为任务，并辅助拆分和概括。标语提到 Siri AI，但没有说明它具体参与哪一步。",
+        "differentiation": "省下的是从照片逐条录入的动作。若生成后需要大量校正，用户可能仍愿意自己填写。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持照片输入和任务生成，没有说明具体用什么模型或文字识别技术。",
+        "possible_approach": "如果自己做，可以先识别照片中的文字，再把每项内容整理成任务，让用户确认后保存。",
+        "tradeoffs": "最容易出错的是把简略笔记解释成明确安排。若把猜测的日期当成提醒时间，用户可能按错时间办事。",
+        "unknowns": "生成的任务能否在保存前逐项修改？"
+      },
+      "transferable_insights": [
+        "做报销或表单工具时，可以先接收用户已有的照片，再让用户补充缺失信息，减少从空表开始填写。"
+      ],
+      "validation_questions": [
+        "用一张字迹不整齐的手写清单，检查是否漏掉任务。",
+        "用没有写日期的任务，检查助手是否擅自填入提醒时间。"
+      ],
+      "source_tagline": "Reimagined Doneit Assist, support for Siri AI, and more",
+      "source_description": "You can now attach photos when planning tasks with Doneit Assist to turn a handwritten list, whiteboard or a document into tasks, include additional details to make tasks more accurate, as well as let it suggest reminders and attributes for tasks, and break tasks into subtasks. Doneit Assist can now also create a brief summary of a task list, highlight its key tasks for you to focus on, as well as show the upcoming tasks in this list."
     },
     {
       "id": "1253025",
       "name": "VoiceCap",
       "name_zh": "VoiceCap",
-      "tagline_zh": "The AI notetaker for meetings in your language",
-      "description_zh": "Most AI notetakers are strong in English and mediocre in everything else. VoiceCap transcribes in 100+ languages and writes the summary, action items and decisions in that same language. Record in the room via native apps, send a bot to Zoom, Meet or Teams, or upload a file. Every meeting becomes a searchable record of what was decided and who owns it. Ask Claude or ChatGPT about it over MCP. EU company, recordings stored in Frankfurt, never used to train models. 300 free minutes, no card.",
-      "intro_zh": "",
+      "tagline_zh": "用你的语言记录会议的 AI 笔记工具",
+      "description_zh": "VoiceCap 称可转写超过 100 种语言，并用会议所用语言生成摘要、待办和决策；支持用原生应用现场录音、派机器人加入 Zoom、Meet 或 Teams，或上传文件，形成可搜索的会议记录。它支持通过 MCP 让 Claude 或 ChatGPT 查询记录；介绍称公司位于欧盟，录音存于法兰克福，不用于训练模型，并提供无需绑卡的 300 分钟免费额度。",
+      "intro_zh": "给使用不同语言开会的团队，把录音整理成同语言的摘要、待办和决策，供会后搜索查询。",
       "url": "https://www.producthunt.com/products/voicecap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5PK5DFR6FBKCXO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d9b2b824-b392-4e41-9146-6d518b6706d8.jpeg?auto=format",
       "votes_count": 100,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多语言会议整理的用途清楚，但各语言的实际准确率未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从转写到责任人提取，存在会直接影响任务分配的具体难点。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按用户工作语言输出结构化记录，适合借用于跨语言协作产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重同语言输出能减少额外翻译；最影响判断的是它能否分清“有人提过”和“已经决定”。",
+      "product_analysis": {
+        "target_problem": "用非英语开会的团队，需要会后查清决定和分工。若转写或摘要不准，仍得回听录音核对。",
+        "workflow": "用应用现场录音、让机器人入会，或上传文件。随后查看同语言的转写、摘要、待办和决策，也可搜索记录。",
+        "ai_value": "AI 把会议语音转成文字，再整理讨论结果和责任人；重点是摘要也沿用会议语言。",
+        "differentiation": "把转写和会后整理放在一起，可能减少另写纪要的工作。团队可能因录音保密要求不愿接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持通过 MCP（让 AI 助手连接外部工具和资料的协议）查询记录；介绍称录音存于法兰克福且不用于训练模型。",
+        "possible_approach": "如果自己做，可以先转写录音并区分发言人，再让模型提取决定、任务和责任人，保留对应原话供核对。",
+        "tradeoffs": "最容易错在把讨论中的提议当成已确认任务，导致用户误以为某人已经答应负责。",
+        "unknowns": "介绍没说明能否从摘要直接定位原话，核对任务归属。"
+      },
+      "transferable_insights": [
+        "做跨语言协作工具时，让摘要和任务沿用原始工作语言，减少用户自行翻译的步骤。"
+      ],
+      "validation_questions": [
+        "上传一段目标语言的会议录音，检查专业词汇的转写是否准确。",
+        "用包含提议、否决和最终决定的录音，检查待办是否只收录已确认事项。"
+      ],
+      "source_tagline": "The AI notetaker for meetings in your language",
+      "source_description": "Most AI notetakers are strong in English and mediocre in everything else. VoiceCap transcribes in 100+ languages and writes the summary, action items and decisions in that same language. Record in the room via native apps, send a bot to Zoom, Meet or Teams, or upload a file. Every meeting becomes a searchable record of what was decided and who owns it. Ask Claude or ChatGPT about it over MCP. EU company, recordings stored in Frankfurt, never used to train models. 300 free minutes, no card."
     },
     {
       "id": "1252432",
       "name": "Ruby UTCP",
       "name_zh": "Ruby UTCP",
-      "tagline_zh": "The scalable, secure alternative to MCP for tool calling",
-      "description_zh": "Ruby UTCP brings UTCP 1.1 to Ruby, giving apps and AI agents a standard way to discover and call tools over native protocols. It supports 12 transports, including HTTP, CLI, WebSocket, gRPC, GraphQL, MCP and WebRTC, plus streaming, auth, OpenAPI discovery, and CodeMode for programmable multi-tool workflows. Open source and built for the Ruby ecosystem.",
-      "intro_zh": "",
+      "tagline_zh": "用于工具调用的 MCP 替代方案，主打可扩展性和安全性",
+      "description_zh": "Ruby UTCP 将 UTCP 1.1 带到 Ruby，让应用和 AI 代理以统一方式发现工具，并用工具原有的通信方式调用它们。它开源，支持包括 HTTP、命令行和 MCP 在内的 12 种连接方式，还提供流式返回、身份认证、OpenAPI 工具发现，以及用于编排多工具流程的 CodeMode。",
+      "intro_zh": "给 Ruby 开发者用，让应用和 AI 代理找到外部工具、调用功能，并编排多个工具一起完成任务。",
       "url": "https://www.producthunt.com/products/utcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SFOK7JG377PPZN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/de2ffd50-d79e-43e9-a0a3-2b1f530f9b00.png?auto=format",
       "votes_count": 95,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "面向多工具接入的场景明确，但实际节省多少开发工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "统一调用入口后，如何保留不同工具的权限限制是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "统一工具描述、保留原有连接方式的做法可借用于集成平台。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是保留工具原有连接方式；最影响判断的是多工具执行时能否守住权限边界，安全性标语本身不能作证。",
+      "product_analysis": {
+        "target_problem": "Ruby 开发者要让应用或 AI 代理调用多个外部工具。工具连接方式不同，发现可用功能和处理调用规则可能需要分别适配。",
+        "workflow": "应用先发现工具，再通过受支持的连接方式调用。多工具任务可用 CodeMode 编写执行流程；介绍没给出具体配置步骤。",
+        "ai_value": "它帮助 AI 代理找到并调用工具，没有说明负责理解任务或决定调用顺序。",
+        "differentiation": "统一发现和调用方式，可能减少重复适配。已有 MCP 集成的团队是否愿意换，取决于新增连接能力能否抵消迁移工作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是面向 Ruby 的开源 UTCP 1.1 实现，支持 12 种连接方式、身份认证和流式返回，即结果分批传回。",
+        "possible_approach": "如果自己做，可以先统一记录工具名称、参数和地址，再为各类连接方式写调用模块，最后加入多工具执行流程。",
+        "tradeoffs": "最容易出错的是权限检查：多个工具串起来时，若漏查其中一步，代理可能执行用户未授权的操作。",
+        "unknowns": "CodeMode 如何限制可执行的操作范围，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做企业工具集成时，可以统一工具描述，同时保留各工具原有连接方式，减少为接入统一入口而改造工具的工作。"
+      ],
+      "validation_questions": [
+        "同一个任务换用两种受支持的连接方式，返回结果能否被同一段业务代码处理？",
+        "让 CodeMode 调用一个未授权工具，操作是否会被拒绝？"
+      ],
+      "source_tagline": "The scalable, secure alternative to MCP for tool calling",
+      "source_description": "Ruby UTCP brings UTCP 1.1 to Ruby, giving apps and AI agents a standard way to discover and call tools over native protocols. It supports 12 transports, including HTTP, CLI, WebSocket, gRPC, GraphQL, MCP and WebRTC, plus streaming, auth, OpenAPI discovery, and CodeMode for programmable multi-tool workflows. Open source and built for the Ruby ecosystem."
     },
     {
       "id": "1254873",
       "name": "Basedash Models",
       "name_zh": "Basedash Models",
-      "tagline_zh": "Define it once. Query it like a table.",
-      "description_zh": "Basedash Models is a semantic workspace of reusable, governed SQL for core business concepts—customers, orders, active accounts—so everyone works from the same trusted definition. Each model has dedicated views for details, columns, measures, and segments, plus synonyms, row grain, relationships, and usage guidance the assistant reads when it answers. Reference a model in SQL like a table: select * from models.customers. Define it once. Query it like a table.",
-      "intro_zh": "",
+      "tagline_zh": "定义一次，像查表一样查询。",
+      "description_zh": "Basedash Models 用可复用、受管理的 SQL（数据库查询语句）统一客户、订单、活跃账户等业务概念的定义。每个模型都有详情、字段、指标和分组视图，还包含同义词、每行代表什么、关联关系及使用说明，供助手回答时参考；模型可以像表一样在查询中引用。",
+      "intro_zh": "给数据团队和业务分析人员用，把客户、订单等业务定义存成可重复查询的模型。",
       "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/S66OIIDA7CTI4Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2b5f4786-bb3b-4435-b07b-7a9df456ef27.jpeg?auto=format",
       "votes_count": 91,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "统一业务定义的用途清楚，但维护这些定义需要多少工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让助手正确使用数据粒度和关联关系，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把查询和使用说明一起保存，可借用于内部数据问答工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是业务定义能直接被查询引用，不只留在文档里。最影响判断的是定义变更会不会悄悄改变已有报表。",
+      "product_analysis": {
+        "target_problem": "数据团队需要让不同人按同一口径统计客户和订单。若各自维护查询，定义可能分叉，数字也难对齐。",
+        "workflow": "先定义模型，补充字段、指标和使用说明。之后在 SQL 中用 models.customers 这样的名称引用它，助手回答时也会读取说明。",
+        "ai_value": "助手能读取业务定义及使用指导，获得解释数据的上下文；介绍没说明它如何生成或检查答案。",
+        "differentiation": "已有查询可以改为引用共享定义，减少重复维护。最可能让团队犹豫的是，旧查询迁过去需要多少修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "模型保存可复用 SQL，并提供行粒度（每行代表什么）、关系等信息，支持像表一样查询。",
+        "possible_approach": "如果自己做，可以先保存查询和业务说明，再把模型名称转换为对应查询，让助手回答前读取说明。",
+        "tradeoffs": "最难的是关联数据时保持行粒度正确。若一位客户对应多笔订单，连接后可能把客户数重复计算。",
+        "unknowns": "修改共享定义后，已有查询会直接跟着变，还是能保留旧版本？"
+      },
+      "transferable_insights": [
+        "做内部数据问答时，把每行代表什么、适用范围和查询一起保存，避免助手只凭字段名猜含义。"
+      ],
+      "validation_questions": [
+        "用客户关联多笔订单的样本提问，检查助手是否重复计算客户数。",
+        "修改一个模型定义，检查已有查询是否随之改变。"
+      ],
+      "source_tagline": "Define it once. Query it like a table.",
+      "source_description": "Basedash Models is a semantic workspace of reusable, governed SQL for core business concepts—customers, orders, active accounts—so everyone works from the same trusted definition. Each model has dedicated views for details, columns, measures, and segments, plus synonyms, row grain, relationships, and usage guidance the assistant reads when it answers. Reference a model in SQL like a table: select * from models.customers. Define it once. Query it like a table."
+    },
+    {
+      "id": "1252832",
+      "name": "Bolt Forge",
+      "name_zh": "Bolt Forge",
+      "tagline_zh": "Bolt 的新智能体，使用开源模型，使用额度最高增至 50 倍",
+      "description_zh": "Bolt Forge 是 Bolt.new 内使用开源模型的新智能体，产品介绍称所有 Pro 套餐可获得最高 50 倍的使用额度，且没有每日上限。介绍还称，它在内部基准测试中的得分达到 Bolt 顶级付费模型的 91%。",
+      "intro_zh": "给频繁使用 Bolt.new 的 Pro 用户，在原有产品内提供使用开源模型的智能体。",
+      "url": "https://www.producthunt.com/products/bolt-new?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4A3VQBDVIUMA2D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/db512423-8abc-4b5e-95a4-e4e9d763bced.jpeg?auto=format",
+      "votes_count": 230,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "提高额度的好处清楚，但适用任务和实际可用量不明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "模型表现与使用额度之间的取舍值得检查，但只有内部测试数据。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "在原产品内增加模型选择可借鉴，前提是任务质量能接受。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是不离开原产品就能获得更多尝试机会。但内部测试的 91% 得分不能说明自己的任务是否够用，这比宣传倍数更影响选择。",
+      "product_analysis": {
+        "target_problem": "面向频繁使用 Bolt.new 智能体的 Pro 用户。额度可能限制反复尝试，Forge 主打增加可用量。",
+        "workflow": "用户在 Bolt.new 内使用 Forge。介绍未说明启用方式、支持的任务或结果如何交付。",
+        "ai_value": "AI 负责执行智能体任务，Forge 使用开源模型。具体能完成哪些工作，资料没有展开。",
+        "differentiation": "它把更多使用量放进现有 Pro 套餐。最可能让人犹豫的是：额度增加后，任务结果是否仍够用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "Forge 使用开源模型；介绍未披露具体模型名称。",
+        "possible_approach": "如果自己做，可以先收集常见任务，分别交给候选模型执行，再把结果达标的模型接入现有产品，并设置使用额度。",
+        "tradeoffs": "最容易错在把总体测试分数当成每类任务的表现。某类任务若经常失败，用户可能要多次重试，抵消额度增加的好处。",
+        "unknowns": "“最高 50 倍”以什么额度为基准、按什么单位计算？"
+      },
+      "transferable_insights": [
+        "做已有付费用户的 AI 工具时，可以在原产品内提供另一种模型选择；先用用户常做的任务检查质量，再决定给多少额度。"
+      ],
+      "validation_questions": [
+        "拿一项自己反复做的任务测试 Forge，结果是否达到可用标准？",
+        "查看套餐额度规则，确认自己的套餐能增加多少实际可用量？"
+      ],
+      "source_tagline": "Bolt's new agent with open-source models and 50X usage",
+      "source_description": "Bolt Forge is a new agent inside Bolt.new that runs on open-source models. Every Pro plan gets up to 50X more usage with no daily caps. Scores 91% of Bolt's top paid model on their internal benchmark."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

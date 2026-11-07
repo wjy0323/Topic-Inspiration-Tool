@@ -1,367 +1,511 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-10-08T22:26:22+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:23:10+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1271031",
       "name": "IrisGo for Solopreneurs",
       "name_zh": "IrisGo for Solopreneurs",
-      "tagline_zh": "AI workflow automation: show it once, let it run",
-      "description_zh": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta.",
-      "intro_zh": "",
+      "tagline_zh": "AI 工作流自动化：演示一次，让它执行",
+      "description_zh": "IrisGo 帮助独立创业者处理重复工作，包括每日简报、邮件分流和待办跟踪，并用 Watch & Learn 将演示过的任务变成可复用流程。介绍称它可减少行政事务耗时，测试期间免费。",
+      "intro_zh": "给独立创业者用的自动化工具，处理邮件和待办，并把演示过的重复任务变成可复用流程。",
       "url": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/I2U7KF4RUGEZSO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/11044e05-2084-4f65-a840-99bd5c31d04d.png?auto=format",
       "votes_count": 515,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和重复事务很明确，但实际能省多少操作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从一次演示变成可重复执行的流程，有明确的可靠性问题可研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用操作演示创建流程，可借到重复操作多的业务工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把实际操作变成可复用流程，减少配置工作；最影响判断的是它能否处理演示之外的输入变化。",
+      "product_analysis": {
+        "target_problem": "独立创业者需要反复处理邮件、待办和日常信息。麻烦在于这些事务持续占用注意力。",
+        "workflow": "用户演示任务，Watch & Learn 将其转成可复用流程，再用于重复工作。介绍未说明如何启动或修改流程。",
+        "ai_value": "AI 的核心用途是把操作演示转成可复用流程；简介没有解释它如何理解演示。",
+        "differentiation": "以前需要重复执行的任务，现在可以尝试演示后复用。最可能让人犹豫的是：换一封邮件或一组数据，流程还能否做对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: fd8295fa-106f-4c9e-93ad-cf1e50e12813)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 自动化与 Watch & Learn，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录演示中的动作和对象，再让 AI 整理成步骤，把每次变化的内容留成可填写项。",
+        "tradeoffs": "最难的是分清固定步骤与本次示例内容。若把示例收件人当成固定对象，重复执行时可能发错邮件。",
+        "unknowns": "执行涉及发信等外部操作前，是否允许用户确认？"
+      },
+      "transferable_insights": [
+        "做有大量重复操作的业务工具时，可以让用户先演示任务，再提供可编辑的步骤，减少从零配置流程的负担。"
+      ],
+      "validation_questions": [
+        "演示一个任务后，只替换输入内容，检查流程是否仍按原意执行。",
+        "让流程执行一次发信任务，检查发送前能否由用户确认。"
+      ],
+      "source_tagline": "AI workflow automation: show it once, let it run",
+      "source_description": "IrisGo helps solopreneurs automate recurring work. Get daily briefs, triage email, track to-dos, and turn demonstrated tasks into reusable workflows with Watch & Learn. Spend less time on admin and more time building your business. Free during beta."
     },
     {
       "id": "1265939",
       "name": "GenPage 3.0",
       "name_zh": "GenPage 3.0",
-      "tagline_zh": "Build, personalize, and optimize landing pages with AI",
-      "description_zh": "Your marketing campaigns are personalized. Your landing pages should be too. GenPage learns your brand, builds dedicated pages for every ad, keyword, or target account, then continuously A-Z tests them on Autopilot - turning more traffic into pipeline and revenue.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 创建、个性化调整和优化落地页",
+      "description_zh": "GenPage 学习品牌信息，为每条广告、关键词或目标客户公司创建专属落地页，并持续自动测试不同版本。介绍称，这能让更多访问转化为销售机会和收入。",
+      "intro_zh": "给投放广告和做定向营销的团队用，按广告、关键词或目标公司生成落地页，并自动测试页面版本。",
       "url": "https://www.producthunt.com/products/genpage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/45NVHJPQAW44TX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1319b02f-1157-4849-b3bd-71afb6af2dc3.jpeg?auto=format",
       "votes_count": 508,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "按营销对象生成页面的用途明确，但转化收益未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "细分页面后能否获得足够流量来判断效果，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按访问来源调整页面内容的做法，可借用于多组广告投放。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是减少多组广告分别制作页面的工作；最影响判断的是自动测试有没有足够数据支持结论。",
+      "product_analysis": {
+        "target_problem": "营销团队为不同广告或目标公司准备页面时，需要反复调整内容，还要判断哪版有效。",
+        "workflow": "介绍支持的流程是：学习品牌信息，按广告、关键词或目标公司生成页面，再自动持续测试版本；具体操作未说明。",
+        "ai_value": "AI 用于学习品牌并生成对应页面。自动测试也在介绍中，但没有说明 AI 如何参与判断。",
+        "differentiation": "以前若逐个制作专属页面，现在可以交给工具批量生成并测试。团队可能不愿直接采用，原因是还不清楚发布前能否审核内容。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 511b0ba9-c1c2-462a-acc1-71a37b28b741)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 生成页面和自动持续测试，未披露具体模型或测试方法。",
+        "possible_approach": "如果自己做，可以先整理品牌资料和广告主题，再用模板生成对应页面，分配访问量比较效果。",
+        "tradeoffs": "最难的是判断哪个版本更好。页面分得太细时，每版访问量可能不足，容易把偶然差异当成改进。",
+        "unknowns": "自动测试以什么结果作为胜出标准，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做多组广告投放时，可以让广告主题对应页面标题和案例，减少用户点击前后看到的内容不一致。"
+      ],
+      "validation_questions": [
+        "生成一个指定目标公司的页面，检查是否出现品牌资料中没有的事实或承诺。",
+        "检查测试报告是否展示每版访问量，避免仅凭少量转化就宣布胜出。"
+      ],
+      "source_tagline": "Build, personalize, and optimize landing pages with AI",
+      "source_description": "Your marketing campaigns are personalized. Your landing pages should be too. GenPage learns your brand, builds dedicated pages for every ad, keyword, or target account, then continuously A-Z tests them on Autopilot - turning more traffic into pipeline and revenue."
     },
     {
       "id": "1254767",
       "name": "Velozity",
       "name_zh": "Velozity",
-      "tagline_zh": "The Multiplayer AI Office where your team and agents work.",
-      "description_zh": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for. Every agent shares the same context, so work moves between people and agents without having to re-explain. For startups, teams in dev, product, sales, and ops, or solo users juggling several AIs. No second AI bill. Free to start.",
-      "intro_zh": "",
+      "tagline_zh": "让团队与 AI 智能体一起工作的多人 AI 办公空间。",
+      "description_zh": "Velozity 将聊天、带转写的音视频通话、任务、日历、文件及 Claude、Codex 等 AI 智能体放在同一处，让多个智能体共享上下文。它面向创业公司、开发、产品、销售和运营团队，以及同时使用多个 AI 的个人；介绍称可沿用已有 AI 订阅、无需另付 AI 费用，并可免费开始使用。",
+      "intro_zh": "给需要多人、多 AI 协作的团队和个人用，把沟通、工作资料与 AI 放在同一处。",
       "url": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LVDMUE35VIECA7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1811e4d6-ba28-4db4-be6c-f7f345848b4b.jpeg?auto=format",
       "votes_count": 445,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "集中沟通与共享背景的用途清楚，但实际能少解释多少仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个 AI 如何共享背景又不越过权限，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕同一份工作资料组织多人和 AI，适合借到协作产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是换 AI 时可能不用重讲背景；最影响判断的是共享背景能否守住成员之间的资料权限。",
+      "product_analysis": {
+        "target_problem": "团队在不同应用沟通、又分别使用多个 AI 时，工作背景容易分散。以前换个 AI 可能要重新解释，现在它主张让各智能体共享背景。",
+        "workflow": "团队在同一处聊天、通话，管理任务、日历和文件，再与 AI 智能体协作。介绍没有说明资料如何交给 AI。",
+        "ai_value": "AI 作为共同参与工作的助手，重点是共享已有背景。具体能独立完成哪些任务，介绍没说。",
+        "differentiation": "它想省掉跨应用找资料、向不同 AI 重述背景的动作。团队可能不愿迁移已有沟通和文件。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 85ca5649-2715-4158-b82d-247c98b55a72)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到通话转写、Claude 和 Codex 等智能体共享上下文，以及沿用已有 AI 订阅。",
+        "possible_approach": "如果自己做，可以先把聊天、转写和文件按项目归集，再把有权访问的相关内容交给选定的 AI。",
+        "tradeoffs": "最容易出错的是共享资料时漏掉权限检查，导致 AI 把私密内容带进其他人的回答。",
+        "unknowns": "已有 AI 订阅如何接入、哪些套餐可用，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做项目协作工具时，可以让多个 AI 围绕同一份项目资料工作，减少用户反复粘贴背景。"
+      ],
+      "validation_questions": [
+        "换一个 AI 后，它能否准确接续前一个 AI 已确认的任务背景？",
+        "用无权访问某文件的成员账号提问，AI 是否会泄露文件内容？"
+      ],
+      "source_tagline": "The Multiplayer AI Office where your team and agents work.",
+      "source_description": "Your team chats in one app, meets in another, and every AI works alone. Velozity brings it all into one place. Chat, audio and video calls with transcripts, tasks, calendar and files, plus AI agents (Claude, Codex, etc.) on the subscriptions you already pay for. Every agent shares the same context, so work moves between people and agents without having to re-explain. For startups, teams in dev, product, sales, and ops, or solo users juggling several AIs. No second AI bill. Free to start."
     },
     {
       "id": "1253567",
       "name": "Databench by Alkera",
       "name_zh": "Databench by Alkera",
-      "tagline_zh": "Open-source collaborative agentic workspace for data teams",
-      "description_zh": "Databench by Alkera is the open-source, multiplayer workspace for data science, analytics, and engineering. Collaborate live alongside teammates and agents in notebooks and chats, run any cell or agent on your laptop, another computer, or a GPU node and launch many agents in parallel to explore ideas. Every result traces back to the data and code behind it. Try it at https://alkera.ai with a generous free tier or host Databench yourself (https://github.com/AlkeraAI/Databench).",
-      "intro_zh": "",
+      "tagline_zh": "面向数据团队的开源协作式智能体工作空间",
+      "description_zh": "Databench 是面向数据科学、分析和工程团队的开源工作空间，支持成员与智能体在笔记本和聊天中实时协作，并行探索多个想法。代码单元或智能体可在本机、其他电脑或 GPU 节点运行，结果可追溯到数据和代码；提供免费额度，也支持自行部署。",
+      "intro_zh": "给数据科学、分析和工程团队用，在同一空间协作写代码、与智能体聊天，并把计算任务交给不同机器。",
       "url": "https://www.producthunt.com/products/alkera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZYWPFJPNUVCX7V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b88db4ea-97ee-42b2-aa7f-f02f9dc04f24.png?auto=format",
       "votes_count": 291,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "协作、选择运行机器和追溯结果对应明确需求，但实际省事程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人和智能体并行操作时，如何准确记录结果来源是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把结果与生成它的数据和代码关联，可借用于其他分析工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重结果能回到数据和代码；但追溯是否保留当时版本，决定了它能否真正帮助复核。",
+      "product_analysis": {
+        "target_problem": "数据团队共同探索问题时，需要协调谁在改代码、任务在哪运行，以及结果从哪里来。",
+        "workflow": "成员在笔记本和聊天中实时协作，选择机器运行代码单元或智能体，也可启动多个智能体并行探索，再追溯结果对应的数据和代码。",
+        "ai_value": "智能体参与协作和并行探索。简介没说明它能独立完成哪些分析任务。",
+        "differentiation": "把协作、运行任务和追溯结果放在一起，可能减少来回核对；已有分析环境能否迁入，会影响换用意愿。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 62d4367d-3fc0-4a8a-b7d9-f065c89da8e9)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持开源自部署、实时协作，以及在不同机器上运行代码单元和智能体。",
+        "possible_approach": "如果自己做，可以先保存每次运行时的数据版本和代码，再把任务发给选定机器，将输出与这份记录关联。",
+        "tradeoffs": "最难的是并行修改时仍关联到运行当时的版本；关联错了，用户照着代码也可能复现不出结果。",
+        "unknowns": "结果追溯是否包含运行时的数据版本，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做分析或实验工具时，可让每个结果直接打开对应代码和数据记录，方便同事复核。"
+      ],
+      "validation_questions": [
+        "同时修改代码并运行任务后，结果是否仍指向运行时的代码版本？",
+        "把同一任务换到另一台机器运行，是否需要手工补装依赖？"
+      ],
+      "source_tagline": "Open-source collaborative agentic workspace for data teams",
+      "source_description": "Databench by Alkera is the open-source, multiplayer workspace for data science, analytics, and engineering. Collaborate live alongside teammates and agents in notebooks and chats, run any cell or agent on your laptop, another computer, or a GPU node and launch many agents in parallel to explore ideas. Every result traces back to the data and code behind it. Try it at https://alkera.ai with a generous free tier or host Databench yourself (https://github.com/AlkeraAI/Databench)."
     },
     {
       "id": "1264605",
       "name": "Pegasus 1.6 by TwelveLabs",
       "name_zh": "Pegasus 1.6 by TwelveLabs",
-      "tagline_zh": "Transforms egocentric video into robot training data",
-      "description_zh": "Pegasus 1.6 is the TwelveLabs model that understands video from a first-person point of view, built for the egocentric and teleoperated footage robotics and physical AI teams already collect. It recognizes entities more accurately, and produces persistent metadata across segment types. Point it at raw teleoperation or wearable footage and get back labeled, timestamped, robot-ready data. No manual labeling pass required.",
-      "intro_zh": "",
+      "tagline_zh": "将第一视角视频转成机器人训练数据",
+      "description_zh": "Pegasus 1.6 是 TwelveLabs 面向机器人和物理 AI 团队的视频理解模型，用于处理第一视角及远程操控录像。简介称，它能更准确地识别实体，在不同类型片段间保持描述信息持续一致，并将原始录像转成带标签和时间戳的训练数据，无需人工标注。",
+      "intro_zh": "给机器人训练团队用，把远程操控或穿戴设备拍下的视频，转成带标签和时间戳的数据。",
       "url": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DDK7QBEPTPQHWM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4e3ea54b-f6cb-439c-865b-486af0c276e4.png?auto=format",
       "votes_count": 274,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "处理对象和省去标注的目标清楚，但训练数据是否可直接使用仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "第一视角变化下能否持续认对同一物体，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "自动生成带时间标签的做法可借鉴，但标签要求和适用条件不明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把已有录像转成带时间标签的数据；但“无需人工标注”是否也意味着无需复核，资料没有回答。",
+      "product_analysis": {
+        "target_problem": "机器人团队已有远程操控或穿戴录像，却还需要把画面变成可供训练使用的标注数据。原始视频本身不等于训练样本。",
+        "workflow": "将原始录像交给模型，获取带标签和时间戳的数据。简介未说明后续如何接入训练。",
+        "ai_value": "AI 负责理解第一视角画面、识别实体，并生成跨片段的持续描述信息。",
+        "differentiation": "它试图省去人工逐段标注。最可能让团队犹豫的是：输出标签能否符合现有训练要求。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7a580f33-fdf1-4ff6-9433-327f77a329c4)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到第一视角视频理解、实体识别，以及跨片段持续的元数据（描述视频内容的信息）。",
+        "possible_approach": "如果自己做，可以先按时间切分录像，再用视频模型识别物体，将相邻片段中的同一物体关联起来，输出标签和时间。",
+        "tradeoffs": "最难的是视角变化后仍认对同一物体。若遮挡后把它认成另一个，训练数据里的对象记录就可能断开。",
+        "unknowns": "所谓“可用于机器人训练”的数据，具体包含哪些标签？"
+      },
+      "transferable_insights": [
+        "做视频标注工具时，可以把标签绑定到具体时间段，让人工直接定位原画面复核。"
+      ],
+      "validation_questions": [
+        "同一物体被遮挡后再次出现，输出是否仍将其认作同一对象？",
+        "抽取一段输出，检查标签是否满足团队现有训练任务的要求？"
+      ],
+      "source_tagline": "Transforms egocentric video into robot training data",
+      "source_description": "Pegasus 1.6 is the TwelveLabs model that understands video from a first-person point of view, built for the egocentric and teleoperated footage robotics and physical AI teams already collect. It recognizes entities more accurately, and produces persistent metadata across segment types. Point it at raw teleoperation or wearable footage and get back labeled, timestamped, robot-ready data. No manual labeling pass required."
     },
     {
       "id": "1271700",
       "name": "Figma Agent",
       "name_zh": "Figma Agent",
-      "tagline_zh": "Prompt, edit and prototype without leaving the canvas",
-      "description_zh": "Figma's agent lives right on the Design canvas and works with your real components, variables and team files, not flat images. Generate layout directions, bulk-edit across screens, turn comments into changes and build prototypes from a prompt. Pull context from Notion, Slack, GitHub and Linear via MCP, build your own plugins and shaders, and save repeatable workflows as skills your team runs with \"/\". Stay in flow from idea to review.",
-      "intro_zh": "",
+      "tagline_zh": "不离开画布，用提示词编辑设计、制作原型",
+      "description_zh": "Figma Agent 在设计画布中使用实际组件、变量和团队文件，可生成布局方向、跨屏批量编辑、把评论转成修改，并根据提示制作原型。它还能通过 MCP 连接 Notion、Slack、GitHub 和 Linear 获取上下文，制作插件与着色器，并将重复工作保存为团队可用“/”调用的技能。",
+      "intro_zh": "给使用 Figma 的设计师和产品团队，用文字修改画布、处理评审意见，并制作可交互原型。",
       "url": "https://www.producthunt.com/products/figma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2BXP2WL4E54CXJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ee7f09ce-c669-464c-9d3a-0e628964ec10.png?auto=format",
       "votes_count": 194,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "批量改稿和处理评论的场景明确，但修改质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把自然语言准确对应到组件和变量，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "将重复操作保存为团队指令的做法可借用，但适用边界待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是文字要求能直接作用于可编辑对象；最影响判断的是，它能否准确限制修改范围。",
+      "product_analysis": {
+        "target_problem": "设计师处理多屏改稿和评审意见时，需要把文字要求落实到具体对象。它把这类修改放进画布内完成。",
+        "workflow": "在画布中输入要求，让它生成布局、批量修改或制作原型。重复工作可保存为技能，团队用“/”调用。",
+        "ai_value": "AI 把文字要求和评论转成设计修改，操作对象包括实际组件、变量和文件，而不只是图片。",
+        "differentiation": "省事之处是直接修改可继续编辑的设计对象。我会先确认批量修改是否容易检查，否则逐处核对可能抵消收益。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 32a64829-330b-4c60-afce-cfc470cd9846)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1271752",
-      "name": "Mistral Large 4",
-      "name_zh": "Mistral Large 4",
-      "tagline_zh": "Mistral's 1T parameter open weight frontier model",
-      "description_zh": "Mistral Large 4 (aka Le Chonk) is Mistral's largest model yet: a natively multimodal mixture of experts model with 1T total and 49B active parameters and a 1M token context window. Mistral says it is the strongest open weight model from the US or Europe, and it ranks top 5 on the Artificial Analysis Cyber Index. It was trained in Mistral's own European datacenters. The preview API is live today on Mistral Studio, with open weights due by the end of October.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4HOPTUUNTIQUEV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bfa77382-b429-47c2-8870-948c26e8bc97.png?auto=format",
-      "votes_count": 183,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介提到通过 MCP（让 AI 工具连接外部软件的通用方式）获取上下文，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先读取选中对象和组件关系，再把文字要求转成修改清单，确认后逐项应用。",
+        "tradeoffs": "最难的是找准修改范围。若把共享组件当成单个页面元素修改，可能连带改动其他页面。",
+        "unknowns": "批量修改前，能否预览受影响的对象？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5cebec72-69e2-464b-8f55-c1eb638bc382)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做团队编辑工具时，可把反复执行的操作保存为命名指令，让同事直接调用，减少重复描述。"
+      ],
+      "validation_questions": [
+        "给出只改某一屏的要求，检查是否误改其他屏幕。",
+        "运行已保存的技能，检查能否复现预期修改。"
+      ],
+      "source_tagline": "Prompt, edit and prototype without leaving the canvas",
+      "source_description": "Figma's agent lives right on the Design canvas and works with your real components, variables and team files, not flat images. Generate layout directions, bulk-edit across screens, turn comments into changes and build prototypes from a prompt. Pull context from Notion, Slack, GitHub and Linear via MCP, build your own plugins and shaders, and save repeatable workflows as skills your team runs with \"/\". Stay in flow from idea to review."
     },
     {
       "id": "1012653",
       "name": "Supademo AI Demo Agent",
       "name_zh": "Supademo AI Demo Agent",
-      "tagline_zh": "Agentic demos like your best salesperson, without the salary",
-      "description_zh": "Most AI demo agents feel like a video call where the other side isn't really listening. Silly animated avatar or obvious fake person on the other end. You ask a question, they keep talking. You try to navigate, but you're just watching their screen. Why bother? Supademo's AI Demo Agent is the opposite. Buyers click through real interactive demos hands-on, take any path, jump back, skip ahead. The agent listens, answers the actual question, surfaces the right proof. Voice or text, 50+ languages.",
-      "intro_zh": "",
+      "tagline_zh": "像优秀销售一样演示的 AI 助手，无需支付薪水",
+      "description_zh": "Supademo AI Demo Agent 让买家亲手点击交互演示，自选路径、返回或跳过步骤。介绍称，助手能理解提问、回答问题并展示相关佐证，支持语音、文字及 50 多种语言。",
+      "intro_zh": "给需要向买家展示软件的销售团队用，让买家自己点击演示，并随时用语音或文字提问。",
       "url": "https://www.producthunt.com/products/supademo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DKMPPDCMFJ6WAD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/38764963-d12f-421e-899b-49584e7e0884.jpeg?auto=format",
       "votes_count": 166,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把动手探索和随时问答放在一起，用途清楚，回答质量仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "买家跳转页面后，助手如何跟上当前内容，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用户自己操作、助手按需解释的做法，可借用于产品教学。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重买家能自己探索并随时提问；最大疑问是演示能操作多深，是否足以回答真实购买问题。",
+      "product_analysis": {
+        "target_problem": "销售团队需要让买家理解软件。对只看讲解仍有疑问的买家，它提供边操作边提问的方式。",
+        "workflow": "买家进入交互演示，自选路径、返回或跳过步骤；用语音或文字提问，助手回答并展示相关佐证。",
+        "ai_value": "AI 负责回应问题、找出相关佐证。它的价值取决于能否跟上买家正在看的内容。",
+        "differentiation": "买家可以自己探索，不必一直跟着固定顺序看。团队可能因准备演示资料的工作量而犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4d9188c1-fa84-498f-8d18-61326f11c859)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1262169",
-      "name": "Rool",
-      "name_zh": "Rool",
-      "tagline_zh": "Your private AI machine. Files, ideas, AI in one workspace.",
-      "description_zh": "Rool is your private AI workspace. Bring your files, ideas and AI together in one place, on your own machine in the cloud. Unlike mainstream AI, Rool never sells your data, shows no ads and never uses your content to train AI. Your data is stored in Finland, under EU law. It's AI that runs on your terms, with full control and privacy. Built for privacy-conscious individuals, teams and creators. Try Rool free and own your AI.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/rool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MNNYKMQPVUHEQA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1f560be8-ab0c-45a8-9cd6-222036a3d9b8.png?auto=format",
-      "votes_count": 154,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 问答、交互演示、语音和文字输入，以及支持 50 多种语言，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先给演示页面配上说明和佐证，再把当前页面与问题一起交给 AI，让它据此回答。",
+        "tradeoffs": "最容易出错的是跳转后仍按旧页面回答，导致买家问这里，助手却解释上一处。",
+        "unknowns": "交互演示允许买家操作到什么程度，介绍没有说清。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: fde45b42-82f7-438f-8cba-89a9594872f7)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做产品教学时，可以让用户先操作，卡住再提问；回答同时指向当前步骤的具体说明。"
+      ],
+      "validation_questions": [
+        "连续跳过、返回几个页面后问“这里能做什么”，回答是否对应当前页面？",
+        "选一个关键购买问题，检查助手展示的佐证是否真正支持回答？"
+      ],
+      "source_tagline": "Agentic demos like your best salesperson, without the salary",
+      "source_description": "Most AI demo agents feel like a video call where the other side isn't really listening. Silly animated avatar or obvious fake person on the other end. You ask a question, they keep talking. You try to navigate, but you're just watching their screen. Why bother? Supademo's AI Demo Agent is the opposite. Buyers click through real interactive demos hands-on, take any path, jump back, skip ahead. The agent listens, answers the actual question, surfaces the right proof. Voice or text, 50+ languages."
     },
     {
       "id": "1272081",
       "name": "Ownfeed",
       "name_zh": "Ownfeed",
-      "tagline_zh": "A social feed of people who need your product",
-      "description_zh": "Paste your product's URL. Every day, Ownfeed reads Reddit, X, Bluesky and Hacker News and keeps only the posts from people who need what you built. No keywords, no alert inbox, no auto-replies. You scroll for five minutes and reply yourself.",
-      "intro_zh": "",
+      "tagline_zh": "把需要你产品的人发布的帖子汇成信息流",
+      "description_zh": "粘贴产品网址后，Ownfeed 每天读取 Reddit、X、Bluesky 和 Hacker News，筛选出可能需要该产品的人发布的帖子。无需设置关键词，没有提醒收件箱，也不自动回复；介绍称用户可花五分钟浏览，再亲自回复。",
+      "intro_zh": "给寻找潜在用户的产品团队用，输入产品网址，浏览筛选后的社交帖子，再亲自回复。",
       "url": "https://www.producthunt.com/products/ownfeed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DQI337F5AVTNLB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9704aa17-4935-4f6c-9a8a-57d970bfc791.jpeg?auto=format",
       "votes_count": 140,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找潜在用户的场景清楚，但帖子是否匹配仍需验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "从产品介绍判断帖子需求有具体难点，但实现方式未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用产品网址代替配置、保留人工回复的做法可以借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "省去配置关键词很实用；但能否从网址理解产品边界，决定它能不能真正减少筛帖时间。",
+      "product_analysis": {
+        "target_problem": "产品团队寻找潜在用户时，需要从社交讨论里挑出真正相关的求助。麻烦在于提到同一话题，不代表需要这款产品。",
+        "workflow": "粘贴产品网址，等待每日筛选结果，再浏览帖子并自行回复。介绍未说明回复是否需要跳转到原平台。",
+        "ai_value": "介绍没提 AI，主要靠每日筛选和集中展示帖子来改善体验。",
+        "differentiation": "用户不用先配置关键词，也不用逐条处理提醒。最可能让人放弃的是筛选不准，浏览时仍要反复排除无关帖子。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: cedeb1bb-dc5b-431d-b54c-9f9f577ba3a6)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍说会每日读取四个平台的帖子，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从产品网页提取用途，再获取帖子，按需求是否匹配排序，交给用户判断。",
+        "tradeoffs": "最难的是区分“讨论相关话题”和“确实需要产品”；判断错了，用户可能向无需求的人推销。",
+        "unknowns": "仅凭产品网址，能否识别产品的适用条件和不适用范围？"
+      },
+      "transferable_insights": [
+        "做获客工具时，可以先让用户提交已有产品页，减少填写筛选条件的工作。",
+        "涉及公开沟通时，可以只推荐帖子，把是否回复和如何回复留给人。"
+      ],
+      "validation_questions": [
+        "抽查一批推荐帖子，其中有多少明确表达了产品能解决的需求？",
+        "提交一个适用范围较窄的产品网址，检查筛选是否遵守其限制。"
+      ],
+      "source_tagline": "A social feed of people who need your product",
+      "source_description": "Paste your product's URL. Every day, Ownfeed reads Reddit, X, Bluesky and Hacker News and keeps only the posts from people who need what you built. No keywords, no alert inbox, no auto-replies. You scroll for five minutes and reply yourself."
+    },
+    {
+      "id": "1271752",
+      "name": "Mistral Large 4",
+      "name_zh": "Mistral Large 4",
+      "tagline_zh": "Mistral 的万亿参数开放权重前沿模型",
+      "description_zh": "缓存简介称，Mistral Large 4（又名 Le Chonk）是其规模最大的原生多模态混合专家模型，总参数 1 万亿、激活参数 490 亿，上下文窗口为 100 万 token，并在自有欧洲数据中心训练。Mistral 宣称它是欧美最强的开放权重模型、位列 Artificial Analysis Cyber Index 前五；缓存还称预览接口已在 Mistral Studio 上线，权重预计于 10 月底发布，但未注明年份，以上均未重新核验。",
+      "intro_zh": "给开发 AI 应用的团队使用，用于试验多模态输入和长材料处理，并评估后续自行部署。",
+      "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4HOPTUUNTIQUEV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/bfa77382-b429-47c2-8870-948c26e8bc97.png?auto=format",
+      "votes_count": 183,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "长材料处理的用途清楚，但实际质量和使用条件未确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "长上下文能否准确找出细节，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先用接口验证任务再评估部署的做法可借用，但权重状态未确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是少拆分长材料的可能性；但缓存中的窗口规格和发布状态尚未核验，不能据此决定替换现有模型。",
+      "product_analysis": {
+        "target_problem": "面向要处理长文档或多模态材料的开发团队。材料超出模型输入上限时，拆分后可能漏掉跨段关系。",
+        "workflow": "缓存给出的入口是 Mistral Studio 预览接口（让程序调用模型的连接方式）。团队可提交任务并检查输出；具体操作未说明。",
+        "ai_value": "AI 负责处理输入并生成回答。长上下文表示一次能容纳更多材料，不保证每处细节都能用对。",
+        "differentiation": "若长窗口可用，可能减少拆分材料的工作。最可能阻止切换的是：现有任务的回答质量尚无验证。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称其采用混合专家结构，即每次只启用部分参数；支持多模态及百万 token 上下文，token 是模型计算文本长度的单位。",
+        "possible_approach": "如果自己做，可以先用预览接口跑真实任务，再在权重可获取后评估自部署。开放权重指提供模型参数，不等于能低成本运行。",
+        "tradeoffs": "最难的是从长材料中准确找出依据。即使输入未超限，漏读关键条款也可能让答案出错。",
+        "unknowns": "权重是否已经发布，以及许可是否允许预期用途？"
+      },
+      "transferable_insights": [
+        "做长文档问答时，把关键事实放在材料不同位置，检查模型能否找对，别只测试能否成功上传。"
+      ],
+      "validation_questions": [
+        "给一份已知答案的长文档，能否找准中间段落的关键事实？",
+        "核对权重许可，是否允许计划中的商业使用？"
+      ],
+      "source_tagline": "Mistral's 1T parameter open weight frontier model",
+      "source_description": "Mistral Large 4 (aka Le Chonk) is Mistral's largest model yet: a natively multimodal mixture of experts model with 1T total and 49B active parameters and a 1M token context window. Mistral says it is the strongest open weight model from the US or Europe, and it ranks top 5 on the Artificial Analysis Cyber Index. It was trained in Mistral's own European datacenters. The preview API is live today on Mistral Studio, with open weights due by the end of October."
+    },
+    {
+      "id": "1262169",
+      "name": "Rool",
+      "name_zh": "Rool",
+      "tagline_zh": "你的私有 AI 空间：把文件、想法和 AI 放在同一个工作区。",
+      "description_zh": "Rool 面向重视隐私的个人、团队和创作者，把文件、想法和 AI 集中在用户自己的云端机器上。介绍承诺不出售数据、不展示广告、不用用户内容训练 AI，并称数据存放在芬兰，受欧盟法律约束。",
+      "intro_zh": "给重视隐私的个人、团队和创作者用，把文件、想法和 AI 放进同一个云端工作区。",
+      "url": "https://www.producthunt.com/products/rool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MNNYKMQPVUHEQA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1f560be8-ab0c-45a8-9cd6-222036a3d9b8.png?auto=format",
+      "votes_count": 154,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "隐私诉求明确，但文件与 AI 如何配合没有具体说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "云端文件交给 AI 处理时的数据去向，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "明确说明数据用途的做法可借鉴，但兑现方式尚不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把数据用途讲清楚，有助于用户判断能否放入私人资料；但云端存储位置不等于 AI 处理位置，这是最影响判断的缺口。",
+      "product_analysis": {
+        "target_problem": "重视隐私的人使用 AI 处理文件时，会在意内容是否被留存或拿去训练。Rool 围绕这些顾虑提供集中工作区。",
+        "workflow": "介绍支持的用法是把文件、想法和 AI 放在同一空间。具体如何导入文件、调用 AI 和保存结果，没有说明。",
+        "ai_value": "AI 是工作区的一部分，但介绍没说它能对文件做什么，无法判断能省下哪些具体操作。",
+        "differentiation": "它把数据使用承诺放在显眼位置。最可能让人犹豫的是：所谓“自己的机器”仍在云端，不能理解成本地运行。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称使用用户自己的云端机器，数据存储在芬兰；未披露具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先给用户建立隔离的文件空间，再接入 AI，并记录处理内容发往哪里，让隐私承诺有据可查。",
+        "tradeoffs": "最容易出错的是文件交给 AI 的一步。若内容被转发到其他服务，仅说明文件存放在芬兰，仍不足以解释完整的数据去向。",
+        "unknowns": "AI 处理文件时，内容是否会离开该云端机器？"
+      },
+      "transferable_insights": [
+        "做处理私人资料的工具时，可以把存储地点、训练用途和广告政策分别写清，避免只说“保护隐私”。"
+      ],
+      "validation_questions": [
+        "上传测试文件并调用 AI，检查处理过程是否涉及外部服务。",
+        "删除测试文件后，检查备份中的副本何时清除。"
+      ],
+      "source_tagline": "Your private AI machine. Files, ideas, AI in one workspace.",
+      "source_description": "Rool is your private AI workspace. Bring your files, ideas and AI together in one place, on your own machine in the cloud. Unlike mainstream AI, Rool never sells your data, shows no ads and never uses your content to train AI. Your data is stored in Finland, under EU law. It's AI that runs on your terms, with full control and privacy. Built for privacy-conscious individuals, teams and creators. Try Rool free and own your AI."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

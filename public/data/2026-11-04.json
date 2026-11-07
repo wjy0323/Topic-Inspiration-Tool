@@ -1,367 +1,510 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-05T23:15:07+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:16:31+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1295912",
       "name": "Wanaka Studio",
       "name_zh": "Wanaka Studio",
-      "tagline_zh": "Make and publish 3D games with the first AI game engine",
-      "description_zh": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity.",
-      "intro_zh": "",
+      "tagline_zh": "用自称首个 AI 游戏引擎的工具制作并发布 3D 游戏",
+      "description_zh": "Wanaka Studio 自称一体化 AI 原生游戏引擎，由 AI 代理生成“AAA 风格”3D 游戏，支持在同步的可视化编辑器里直接修改，无需写代码，并内置自动骨骼绑定、多人游戏和一键发布。缓存简介还声称，相比 Claude Opus 5.5 搭配 Unity，模型处理的文本单位消耗约少 80%、生成更快，但没有提供比较条件，原文也未重新核验。",
+      "intro_zh": "给想做 3D 游戏但不想写代码的创作者，用 AI 生成游戏，再通过可视化编辑修改和发布。",
       "url": "https://www.producthunt.com/products/wanaka-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/72C3HN2ZVH7J6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e183366b-c3b1-4ce9-a7d6-24eee37c7943.png?auto=format",
       "votes_count": 435,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "制作、修改和发布的用途清楚，但游戏可玩性与制作边界不明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "AI 修改与手动编辑如何共存，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "生成后允许直接编辑，适用于需要反复调整的创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重生成后还能直接动手修改；最影响判断的是，它能做到可玩的游戏，还是主要生成外观接近游戏的场景。",
+      "product_analysis": {
+        "target_problem": "面向想做 3D 游戏、但不想写代码的创作者。难点在于生成初稿后，还要能改细节并发布。",
+        "workflow": "让 AI 代理生成游戏，再在同步的可视化编辑器中修改，最后一键发布。介绍没说需求如何输入。",
+        "ai_value": "AI 负责生成游戏。自动骨骼绑定是给角色设置可驱动动作的骨架，但介绍没说明这一步是否由 AI 完成。",
+        "differentiation": "把生成、手动修改和发布放在一起，可能减少工具间搬运。最可能让人犹豫的是：复杂玩法能否改到位。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: bb3471e8-0898-45f3-9ab4-484945c3ee21)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 代理、同步可视化编辑器、自动骨骼绑定、多人游戏和一键发布，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先把场景、角色和规则存成统一的游戏数据，再让 AI 与编辑器都修改这份数据，最后打包发布。",
+        "tradeoffs": "最难的是保留手动修改。AI 再次生成时若覆盖用户调好的角色或规则，用户就得重做。",
+        "unknowns": "一键发布支持哪些平台，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做建站或动画工具时，可以让生成结果进入可直接修改的编辑器，让用户自己修细节，不必每次都重新描述。"
+      ],
+      "validation_questions": [
+        "手动调整一个角色后，再让 AI 修改场景，检查角色调整是否保留。",
+        "做一个包含胜负条件的小关卡，检查发布后能否完整玩完。"
+      ],
+      "source_tagline": "Make and publish 3D games with the first AI game engine",
+      "source_description": "The first all-in-one, AI-native game engine. An AI agent builds your AAA-style 3D game. You can edit it directly in a synced visual editor. No code. Auto-rigging, multiplayer, and 1-click publish built in. Uses ~80% fewer tokens and generates faster than Claude Opus 5.5 + Unity."
     },
     {
       "id": "1302148",
       "name": "Floot Payments ",
-      "name_zh": "Floot Payments ",
-      "tagline_zh": "Take payments in apps you build in ChatGPT and Claude",
-      "description_zh": "Floot apps can now take real money. Ask your AI in ChatGPT, Claude or Cursor for \"a $9/month plan\", \"a checkout for this course\" or \"shipping labels for my orders\", and Floot sets it up: subscriptions with a billing page, one-time payments, tickets and deposits, coupons and refunds, plus shipping with live rates, labels and tracking. Runs on Stripe, no API keys or webhooks. Test free in preview, go live when you publish.",
-      "intro_zh": "",
+      "name_zh": "Floot Payments",
+      "tagline_zh": "让你在 ChatGPT 和 Claude 中构建的应用收款",
+      "description_zh": "在 ChatGPT、Claude 或 Cursor 中向 AI 提出收款或发货需求，Floot 可配置订阅及账单页、单次付款、票务、订金、优惠券、退款，以及实时运费、面单和物流追踪。介绍称其基于 Stripe，用户无需配置 API 密钥或 webhook，可免费预览测试，发布后正式收款。",
+      "intro_zh": "给用 AI 搭建 Floot 应用的人，通过对话添加订阅、课程付款或订单发货功能。",
       "url": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DP7N4LLA6MSIQI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/becdfae2-669a-4a72-a3e3-4e866eb941c5.png?auto=format",
       "votes_count": 320,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "收款场景清楚，但正式经营所需的支持范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把付款结果正确对应到订单，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按业务意图配置功能、先预览再发布的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把收款配置放进搭建应用的对话很省步骤；但付款异常后能否恢复，最影响它能否用于真实交易。",
+      "product_analysis": {
+        "target_problem": "用 AI 搭建付费应用的人，还需要把价格、付款和订单接起来。Floot 把这些配置纳入搭建应用的对话。",
+        "workflow": "在 ChatGPT、Claude 或 Cursor 中提出“每月 9 美元套餐”等需求，让 Floot 配置；先在预览中测试，发布后正式收款。",
+        "ai_value": "AI 用来接收收款或发货需求，具体如何转成配置，介绍没说。",
+        "differentiation": "省去用户自行配置支付连接的部分工作。最可能让人犹豫的是，特殊收费规则是否超出支持范围。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 35f2122f-d954-4dd2-b19e-93b678f9619f)"
-    },
-    {
-      "id": "1300148",
-      "name": "Prelulu",
-      "name_zh": "Prelulu",
-      "tagline_zh": "Be the main character: chat & video roleplay any story",
-      "description_zh": "Immersive stories with AI characters you can text or video roleplay with. It's our first time bringing real-time avatar technology to consumer scale. You can create your own characters with live avatar capability.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/prelulu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AS3PV7P3375YRL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/87774ea9-578b-4986-b849-d0f677c38ac4.png?auto=format",
-      "votes_count": 266,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "基于 Stripe；介绍称用户无需配置 API 密钥（程序连接服务的凭证）或 webhook（付款结果自动通知）。",
+        "possible_approach": "如果自己做，可以先把需求整理成金额、周期等配置，再连接支付服务，并把付款结果对应到订单。",
+        "tradeoffs": "最难的是正确处理付款通知；漏掉或重复处理，可能导致付费后没开通，或重复发货。",
+        "unknowns": "介绍没说付款成功但应用处理失败时，如何补救。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 2dc58818-8533-4369-84e4-75fef26b7c0b)"
+      "transferable_insights": [
+        "做建站或开店工具时，可让用户直接说收费需求，再展示可核对的配置，并提供预览测试。"
+      ],
+      "validation_questions": [
+        "提出月付套餐需求后，检查生成的金额和收费周期是否正确。",
+        "模拟付款成功后应用处理失败，检查订单能否恢复为正确状态。"
+      ],
+      "source_tagline": "Take payments in apps you build in ChatGPT and Claude",
+      "source_description": "Floot apps can now take real money. Ask your AI in ChatGPT, Claude or Cursor for \"a $9/month plan\", \"a checkout for this course\" or \"shipping labels for my orders\", and Floot sets it up: subscriptions with a billing page, one-time payments, tickets and deposits, coupons and refunds, plus shipping with live rates, labels and tracking. Runs on Stripe, no API keys or webhooks. Test free in preview, go live when you publish."
     },
     {
       "id": "1290449",
       "name": "Render Sandboxes",
       "name_zh": "Render Sandboxes",
-      "tagline_zh": "A computer for every agent",
-      "description_zh": "Render Sandboxes give every agent its own isolated Linux computer. Sandboxes starts in under a second and can run any agent or harness, like Claude Code or Codex. Your agent can also run your app with Docker Compose to test its changes. You decide which domains each sandbox can reach. When your agent goes idle, the sandbox suspends and compute charges stop. It wakes with files and memory intact. And you can reliably run thousands at once - all on the same platform as the rest of your app.",
-      "intro_zh": "",
+      "tagline_zh": "给每个智能体一台电脑",
+      "description_zh": "Render Sandboxes 为每个智能体提供独立、隔离的 Linux 电脑，可运行 Claude Code、Codex 等智能体或运行框架，也可用 Docker Compose 启动应用来测试修改，并限制可访问的域名。简介称，沙箱不到一秒即可启动，空闲时暂停并停止计算计费，唤醒后保留文件和内存，还能与应用的其他部分部署在同一平台，并可靠地同时运行数千个沙箱。",
+      "intro_zh": "给开发编程智能体的团队用，为每个智能体分配隔离电脑，让它改代码并运行应用测试。",
       "url": "https://www.producthunt.com/products/render?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RD6Q6GMJFZIXDH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7eb4ca6e-4e81-4328-9482-a9b695a2f991.png?auto=format",
       "votes_count": 237,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "独立运行、应用测试和空闲暂停对应明确需求，实际稳定性尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "暂停后保留内存并恢复运行，是具体且值得拆解的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按任务隔离环境和限制联网范围，可借用于自动执行代码的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是智能体能运行应用来检查修改，而不只生成代码。最影响判断的是暂停恢复会不会打断实际任务。",
+      "product_analysis": {
+        "target_problem": "开发编程智能体的团队，需要让自动生成的代码有地方运行和测试。多个任务共用环境时，可能互相改坏文件或依赖。",
+        "workflow": "给智能体分配沙箱，设置允许访问的域名，再运行智能体。它可用 Docker Compose（一起启动应用所需多个服务的工具）启动应用并测试修改；空闲后暂停，需要时唤醒。",
+        "ai_value": "它提供的是智能体执行代码的环境。代码修改由接入的智能体完成，介绍没说沙箱本身使用 AI。",
+        "differentiation": "它把独立环境、测试和暂停恢复放在一起，减少团队自行拼装这些能力的工作。迁入前，我会先确认现有应用能否在这里完整跑起来。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 57969f7a-4efa-4209-98df-8f66dfe2802f)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到隔离的 Linux 环境、Docker Compose、域名访问限制，以及保留文件和内存的暂停恢复。",
+        "possible_approach": "如果自己做，可以先给每个任务创建隔离环境，再加入联网规则；空闲时保存运行状态，恢复后继续执行。",
+        "tradeoffs": "最难的是恢复运行状态。即使内存还在，暂停前的网络连接也可能失效，让测试卡住或报错。",
+        "unknowns": "简介没解释暂停后，仍在等待外部服务的任务如何恢复。"
+      },
+      "transferable_insights": [
+        "做自动改代码的产品时，可让每个任务在独立环境里运行测试，避免修改影响其他任务。"
+      ],
+      "validation_questions": [
+        "暂停一个正在等待外部服务响应的任务，唤醒后能否正确继续？",
+        "尝试访问未获允许的域名，请求是否确实被阻止？"
+      ],
+      "source_tagline": "A computer for every agent",
+      "source_description": "Render Sandboxes give every agent its own isolated Linux computer. Sandboxes starts in under a second and can run any agent or harness, like Claude Code or Codex. Your agent can also run your app with Docker Compose to test its changes. You decide which domains each sandbox can reach. When your agent goes idle, the sandbox suspends and compute charges stop. It wakes with files and memory intact. And you can reliably run thousands at once - all on the same platform as the rest of your app."
     },
     {
       "id": "1286593",
       "name": "OpenMail",
       "name_zh": "OpenMail",
-      "tagline_zh": "Give your AI agents an identity through email",
-      "description_zh": "Your agents sign up for tools, receive verification codes and reply to customers, mostly from your Gmail or a shared sending pool where one bad actor gets everyone flagged. OpenMail gives every AI agent its own inbox on your domain with its own sending reputation, for one API call each. Incoming mail reaches your code over webhook or WebSocket, attachments arrive as text, and there's a hosted MCP server and a Hermes plugin. Built and hosted in the EU, free for 3 inboxes.",
-      "intro_zh": "",
+      "tagline_zh": "通过电子邮件，为你的 AI 智能体提供身份",
+      "description_zh": "简介描述了 AI 智能体借用 Gmail 或共享发信资源注册工具、接收验证码和回复客户的场景；OpenMail 为每个智能体提供自有域名下的独立邮箱，称每次接口调用即可创建一个，并拥有独立发信信誉。来信可通过 webhook（收到邮件后通知程序）或 WebSocket（持续连接推送）送达，附件转为文本；另提供托管 MCP 服务（供 AI 工具连接使用）和 Hermes 插件，在欧盟开发和托管，免费提供 3 个邮箱。",
+      "intro_zh": "给开发 AI 智能体的团队用，为每个智能体分配邮箱，让程序接收验证码、处理来信和回复客户。",
       "url": "https://www.producthunt.com/products/openmail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VT4VTQFYQVI4ZW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/26e3e5fd-22f5-4e59-a661-8a74b5fced35.png?auto=format",
       "votes_count": 199,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "收验证码和回复客户的场景清楚，但发信信誉隔离效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "独立邮箱能否隔离发信信誉，是直接影响使用的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按智能体分配身份并主动推送来信，可借用于自动化任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把邮箱变成程序可直接接收事件的工具；最影响判断的是独立信誉是否有足够的隔离依据。",
+      "product_analysis": {
+        "target_problem": "开发团队让智能体注册工具、回复客户时，需要可由程序处理的邮箱。对借用个人邮箱或共享发信资源的团队，身份混用和连带封禁是麻烦。",
+        "workflow": "调用接口，为智能体创建自有域名下的邮箱。来信推送给程序，附件以文本形式交付，再由智能体处理。",
+        "ai_value": "它提供邮箱和收信连接，不是替用户生成回复的模型；具体回复逻辑仍需智能体完成。",
+        "differentiation": "省去为每个智能体单独接入邮箱的工作。换用前，我会先确认所谓独立信誉能否减少其他邮箱受牵连。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 06069ffc-9900-48de-9075-9c080ff5b5d2)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到接口建邮箱、两种来信推送方式、附件文本化，以及托管 MCP 服务和 Hermes 插件。",
+        "possible_approach": "如果自己做，可以先给每个智能体分配邮箱，再把来信按收件地址推送给对应程序。",
+        "tradeoffs": "难点是隔离发信信誉。即使邮箱分开，收件方仍可能按域名或发信服务器判断，一处滥发可能影响其他邮箱。",
+        "unknowns": "“独立发信信誉”具体隔离到哪一层，简介没说明。"
+      },
+      "transferable_insights": [
+        "做多智能体自动化时，可按智能体分配独立邮箱，让验证码和客户回复各归其主。"
+      ],
+      "validation_questions": [
+        "给不同智能体邮箱分别发信，检查来信是否准确送到对应程序。",
+        "要求提供发信信誉隔离的具体机制，检查它是否仍共享可能连带受限的资源。"
+      ],
+      "source_tagline": "Give your AI agents an identity through email",
+      "source_description": "Your agents sign up for tools, receive verification codes and reply to customers, mostly from your Gmail or a shared sending pool where one bad actor gets everyone flagged. OpenMail gives every AI agent its own inbox on your domain with its own sending reputation, for one API call each. Incoming mail reaches your code over webhook or WebSocket, attachments arrive as text, and there's a hosted MCP server and a Hermes plugin. Built and hosted in the EU, free for 3 inboxes."
     },
     {
       "id": "1272509",
       "name": "Orphex MCP",
       "name_zh": "Orphex MCP",
-      "tagline_zh": "Run your entire digital marketing stack via one unified MCP",
-      "description_zh": "Orphex is the unified MCP gateway for digital marketing teams, handling auth and integrations for 65+ platforms, from Google Ads to Shopify, to give your AI true cross-channel context. Move your AI beyond QA: empower it to analyze integrated performance and take every action a human marketer can. Reallocate budgets, pause unprofitable creatives, or adjust products from a single prompt. Every change is logged and protected by safety guardrails. Start free, 30% off the first month.",
-      "intro_zh": "",
+      "tagline_zh": "通过一个统一的 MCP 连接管理数字营销工具",
+      "description_zh": "Orphex 面向数字营销团队，介绍称可处理 Google Ads、Shopify 等 65 个以上平台的授权与连接，让 AI 结合跨渠道数据分析表现，并按指令调整预算、暂停素材或修改商品。简介称每次变更都有日志和安全限制，提供免费起步及首月七折优惠，但未说明限制条件。",
+      "intro_zh": "给管理多个广告和电商平台的营销团队用，让 AI 汇总表现，并按指令调整预算、素材或商品。",
       "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BP2JPQXX3JGH6X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f22a9952-23a8-4305-94a4-e721cf498174.jpeg?auto=format",
       "votes_count": 170,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨平台分析与操作场景明确，但省事程度取决于实际支持的操作范围。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把自然语言指令变成涉及资金的操作，权限和执行边界值得细看。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "集中处理授权、记录变更的做法，可借用于多系统操作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是分析后能直接执行调整；最影响判断的是，所谓安全限制能否拦住误解指令造成的支出。",
+      "product_analysis": {
+        "target_problem": "营销团队同时管理广告和商店时，需要结合多个平台的表现做调整。麻烦在于看懂数据后，还要把决定落实到对应账户。",
+        "workflow": "连接所需平台并授权后，用指令让 AI 分析表现、调整预算、暂停素材或修改商品。介绍称变更会留下日志。",
+        "ai_value": "AI 把跨渠道数据用于分析，再将用户指令转成平台操作；具体可执行范围没有列全。",
+        "differentiation": "它把分析和操作放到同一入口，减少来回切换。团队可能不愿交出预算修改权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: d573efac-2372-441c-8f72-d5b723a7d537)"
+      "technical_analysis": {
+        "disclosed_facts": "采用 MCP（让 AI 连接外部工具的协议）统一入口，处理平台授权与连接，并提供变更日志和安全限制。",
+        "possible_approach": "如果自己做，可以先接入各平台并统一账户、指标名称，再把指令转成具体操作；涉及花钱的变更先展示明细，请用户确认。",
+        "tradeoffs": "最容易出错的是把模糊指令变成具体预算调整。账户或金额理解错，可能直接影响投放支出。",
+        "unknowns": "安全限制是否要求高风险变更先由人确认？"
+      },
+      "transferable_insights": [
+        "做跨系统运营工具时，可把授权集中管理，并让每次修改都留下可查记录，方便定位误操作。"
+      ],
+      "validation_questions": [
+        "给出一句金额含糊的预算指令，检查执行前是否要求澄清。",
+        "完成一次小额修改后，检查日志能否显示对应账户及修改前后的数值。"
+      ],
+      "source_tagline": "Run your entire digital marketing stack via one unified MCP",
+      "source_description": "Orphex is the unified MCP gateway for digital marketing teams, handling auth and integrations for 65+ platforms, from Google Ads to Shopify, to give your AI true cross-channel context. Move your AI beyond QA: empower it to analyze integrated performance and take every action a human marketer can. Reallocate budgets, pause unprofitable creatives, or adjust products from a single prompt. Every change is logged and protected by safety guardrails. Start free, 30% off the first month."
     },
     {
       "id": "1301917",
       "name": "OpusClip 4.0",
       "name_zh": "OpusClip 4.0",
-      "tagline_zh": "Turn raw footage into ready-to-publish videos with AI",
-      "description_zh": "OpusClip 4.0 goes beyond AI clipping to edit raw footage into finished videos. Automatically clean up speech, add captions and B-roll, create multiple formats, apply saved editing styles, and generate animated hooks and motion graphics.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 将原始素材剪成可发布的视频",
+      "description_zh": "OpusClip 4.0 不只做 AI 片段剪辑，还能将原始素材编辑成完整视频。它可自动整理讲话、添加字幕和补充画面、制作多种格式、应用已保存的剪辑风格，并生成开场动画和动态图形。",
+      "intro_zh": "给需要处理原始视频的创作者和内容团队用，自动整理讲话、补充画面，并制作不同格式的视频。",
       "url": "https://www.producthunt.com/products/opusclip?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KFBPHGUX5EBAT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f9f94c60-a295-400a-91a4-c5d77ec2fa49.jpeg?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖多项重复剪辑工作，但成片需要多少人工修改尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动整理讲话涉及保留原意的问题，但介绍没有说明处理方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保存剪辑风格并重复应用，是批量内容制作可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是重复使用剪辑风格，减少同类视频的反复设置。最大疑问是自动成片后的返工量，简介不足以判断。",
+      "product_analysis": {
+        "target_problem": "创作者拿到原始视频后，要把讲话整理清楚，再配字幕和补充画面。需要持续出片的团队会更在意这些重复工作。",
+        "workflow": "以原始素材为起点，让工具整理讲话、添加字幕和补充画面，再应用已保存的风格，制作多种格式。介绍没有交代具体操作顺序。",
+        "ai_value": "AI 参与从原始素材到成片的编辑，包括讲话整理、字幕和动画生成；具体自动化程度不明。",
+        "differentiation": "它把多项编辑工作放在一起处理。最可能让人犹豫的是：自动剪完后，是否仍要花大量时间纠正内容。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 7784ea01-4b2a-4631-9d81-9f39854102a6)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确使用 AI 编辑视频，但没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先把讲话转成带时间位置的文字，再按文字安排删减和字幕，最后加入补充画面并输出不同格式。",
+        "tradeoffs": "最难的是整理讲话时保留原意。若删掉否定词或必要前提，成片可能流畅，却表达了错误意思。",
+        "unknowns": "用户能否方便地恢复被自动删掉的讲话片段？"
+      },
+      "transferable_insights": [
+        "做批量内容工具时，可以让用户保存确认过的编辑风格，下次重复应用，减少逐条调整。"
+      ],
+      "validation_questions": [
+        "用一段含否定和转折的讲话测试，检查整理后是否保留原意。",
+        "将同一段素材输出成横屏和竖屏，检查主体是否被裁掉。"
+      ],
+      "source_tagline": "Turn raw footage into ready-to-publish videos with AI",
+      "source_description": "OpusClip 4.0 goes beyond AI clipping to edit raw footage into finished videos. Automatically clean up speech, add captions and B-roll, create multiple formats, apply saved editing styles, and generate animated hooks and motion graphics."
     },
     {
       "id": "1295432",
       "name": "fileForensics",
       "name_zh": "fileForensics",
-      "tagline_zh": "Real or not? Check files before your AI trusts them.",
-      "description_zh": "fileForensics is a trust check for every file your app or agent acts on. Extraction tells you what a document says; fileForensics tells you whether to believe it. It looks for signs of editing, AI-generated content, tampering and details that don’t add up, then returns findings with the evidence: what, where and why. No black-box score. All delivered in one call and works via API, MCP (Claude, Cursor, Codex), the developer portal and the fileAI platform. Check the file before you trust the data.",
-      "intro_zh": "",
+      "tagline_zh": "是真是假？让 AI 信任文件前，先检查文件。",
+      "description_zh": "fileForensics 为应用或智能体使用的文件检查编辑、AI 生成、篡改及内容矛盾等迹象，并返回问题位置、原因和证据，而非只给一个分数。介绍称，一次调用即可完成检查，可通过 API、MCP、开发者门户及 fileAI 平台使用。",
+      "intro_zh": "给需要让应用或 AI 处理文件的开发者用，检查可疑改动和内容矛盾，并查看对应证据。",
       "url": "https://www.producthunt.com/products/fileai-ai-ocr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/L36SEUDOAXE2D2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f57d83ff-193b-46c9-bcdb-cdf23282550d.jpeg?auto=format",
       "votes_count": 126,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "文件核查场景明确，但识别准确性和实际省事程度未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把可疑迹象变成可定位、不过度下结论的证据，值得细想。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "返回问题位置和理由的做法，可借用于需要人工复核的检查工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重可定位的证据，用户能据此复核；但发现异常不等于证明文件真假，结论边界会直接影响是否敢用。",
+      "product_analysis": {
+        "target_problem": "开发者让应用或 AI 依据文件办事时，读出内容还不够。文件中的改动或矛盾，可能影响后续判断。",
+        "workflow": "通过接口或门户提交文件检查，取得发现及对应证据，再决定是否采信内容。介绍未说明后续处置是否自动完成。",
+        "ai_value": "介绍提到识别 AI 生成内容，但没说检测本身是否使用 AI。它在流程中的作用，是为 AI 使用文件前提供核查依据。",
+        "differentiation": "把可疑位置和原因一起返回，可能减少人工寻找问题的时间。误报若太多，用户仍得逐项复核，可能不愿接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 62365371-57ae-4994-91c8-d1c1f4a372e6)"
+      "technical_analysis": {
+        "disclosed_facts": "支持 API（软件间传数据的接口）和 MCP（让 AI 工具连接外部服务的协议），未披露检测技术。",
+        "possible_approach": "如果自己做，可以先解析文件内容和结构，再检查异常，把每条发现关联到原文位置，供人复核。",
+        "tradeoffs": "最难的是区分正常编辑与可疑篡改。把正常改动当成造假，可能让用户误拒真实文件。",
+        "unknowns": "能否明确区分“发现可疑迹象”和“已有证据确认篡改”？"
+      },
+      "transferable_insights": [
+        "做合同或报销审核工具时，让每条警告附原文位置和理由，方便用户核对，而非只展示风险分数。"
+      ],
+      "validation_questions": [
+        "提交只做过正常排版修改的文件，检查是否被误报为篡改。",
+        "提交已知改动位置的文件，检查返回证据能否准确定位该处。"
+      ],
+      "source_tagline": "Real or not? Check files before your AI trusts them.",
+      "source_description": "fileForensics is a trust check for every file your app or agent acts on. Extraction tells you what a document says; fileForensics tells you whether to believe it. It looks for signs of editing, AI-generated content, tampering and details that don’t add up, then returns findings with the evidence: what, where and why. No black-box score. All delivered in one call and works via API, MCP (Claude, Cursor, Codex), the developer portal and the fileAI platform. Check the file before you trust the data."
+    },
+    {
+      "id": "1300148",
+      "name": "Prelulu",
+      "name_zh": "Prelulu",
+      "tagline_zh": "成为故事主角：用聊天和视频扮演故事角色",
+      "description_zh": "与 AI 角色通过文字或视频进行故事角色扮演。介绍称，这是团队首次将实时虚拟形象技术带给大众用户，也支持创建带有实时虚拟形象的自定义角色。",
+      "intro_zh": "给喜欢互动故事和角色扮演的人用，与 AI 角色聊天或视频互动，也能创建自己的角色。",
+      "url": "https://www.producthunt.com/products/prelulu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AS3PV7P3375YRL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/87774ea9-578b-4986-b849-d0f677c38ac4.png?auto=format",
+      "votes_count": 266,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "互动故事的用途清楚，但视频能否增加投入感还需试用。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "实时形象与角色对话如何配合是具体问题，但实现信息有限。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让自建角色参与视频互动的做法可借鉴，效果条件尚不清楚。"
+        }
+      },
+      "category": "游戏娱乐",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重自建角色能从文字走向实时形象互动；但视频回应是否足够自然，决定了它是在帮助用户进入故事，还是增加干扰。",
+      "product_analysis": {
+        "target_problem": "喜欢角色扮演的人，可能希望自己参与故事，并看到角色回应。它把文字互动和实时虚拟形象放到同一产品里。",
+        "workflow": "用户可与 AI 角色进行文字或视频角色扮演，也可创建自己的角色并配上实时形象。具体创建步骤没有说明。",
+        "ai_value": "AI 扮演故事中的角色，与用户互动。介绍没说明它如何记住剧情或维持角色性格。",
+        "differentiation": "自建角色也能用于实时形象互动，不只停留在文字设定。最可能让人放弃的，是形象回应不自然，反而打断故事体验。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 角色和实时虚拟形象技术，未披露具体实现。",
+        "possible_approach": "如果自己做，可以先保存角色设定和当前剧情，再让 AI 生成回复，最后把回复转成语音并驱动形象说话。",
+        "tradeoffs": "最难的是让回复与形象动作及时配合。若文字已出现、形象还没反应，用户可能不知道该继续说还是等待。",
+        "unknowns": "视频角色扮演是否要求用户开启摄像头，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做互动故事产品时，可以让同一个自建角色同时支持文字和视频，减少用户重复设定角色的操作。"
+      ],
+      "validation_questions": [
+        "连续聊一段故事，检查角色是否忘记刚发生的关键事件。",
+        "进行多轮视频互动，检查每轮等待是否会打断对话节奏。"
+      ],
+      "source_tagline": "Be the main character: chat & video roleplay any story",
+      "source_description": "Immersive stories with AI characters you can text or video roleplay with. It's our first time bringing real-time avatar technology to consumer scale. You can create your own characters with live avatar capability."
     },
     {
       "id": "1293092",
       "name": "Mellow Kids",
       "name_zh": "Mellow Kids",
-      "tagline_zh": "Personalized sleep and development app for parents",
-      "description_zh": "Most baby apps track what happened. Mellow Kids explains why, and what comes next. 🌙 Understand today: Log sleep, feeds and diapers easily. Mellow spots changes and tells you why. A routine to adjust, or a phase that will pass. 🔮 Prepare for tomorrow: A heads-up before sleep and development change, so you feel ready for each new stage. 🌱 The right guidance at the right time: Evidence based support, from short naps to separation anxiety and first tantrums.",
-      "intro_zh": "",
+      "tagline_zh": "为家长提供个性化睡眠与发育指导的应用",
+      "description_zh": "Mellow Kids 支持记录宝宝的睡眠、喂养和尿布情况，并解释变化，提示可能需要调整作息或只是暂时阶段。它还会提前提醒睡眠与发育变化，并提供自称有证据依据的育儿指导，涉及短觉、分离焦虑和初次发脾气等情况。",
+      "intro_zh": "给照顾婴幼儿的家长用，记录睡眠和喂养，了解近期变化，并查看下一阶段的照护建议。",
       "url": "https://www.producthunt.com/products/mellow-kids?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GOI7VFFFGH7ZIG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/de0fb3e4-0013-4b35-9686-6a435ac2de8a.jpeg?auto=format",
       "votes_count": 103,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "从记录走向解释的需求清楚，但建议是否可靠尚无材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何从日常变化判断原因，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在记录后补充解释与下一步建议，可借用于其他日常记录产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是帮助家长判断记录之后该做什么；最影响判断的是，它能否在信息不足时承认无法确定原因。",
+      "product_analysis": {
+        "target_problem": "家长发现宝宝睡眠或喂养变化时，记录能说明发生了什么，却未必能帮助判断要不要调整照护方式。",
+        "workflow": "家长记录睡眠、喂养和尿布情况，再查看产品给出的变化解释、阶段提醒和照护建议。",
+        "ai_value": "介绍没提 AI，主要靠记录、变化解释和适时提醒来改善体验。",
+        "differentiation": "它试图省去家长对照记录查找原因的功夫；家长可能因不信任解释依据而继续自行查证。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 2c232d7c-e261-4c8c-b64e-532e7f0df3cd)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先整理连续记录，再结合月龄和经核对的育儿资料识别变化，给出可能原因与建议。",
+        "tradeoffs": "最难的是区分短期波动和需要调整的情况。判断错了，可能让家长频繁改变本来合适的作息。",
+        "unknowns": "所谓有证据依据的指导，具体参考什么资料？"
+      },
+      "transferable_insights": [
+        "做健康或习惯记录产品时，可在变化旁给出一条下一步建议，并说明依据，减少用户自己翻记录找解释。"
+      ],
+      "validation_questions": [
+        "记录缺失几天时，它是否仍给出确定的原因判断？",
+        "抽查一条照护建议，能否找到对应的证据来源？"
+      ],
+      "source_tagline": "Personalized sleep and development app for parents",
+      "source_description": "Most baby apps track what happened. Mellow Kids explains why, and what comes next. 🌙 Understand today: Log sleep, feeds and diapers easily. Mellow spots changes and tells you why. A routine to adjust, or a phase that will pass. 🔮 Prepare for tomorrow: A heads-up before sleep and development change, so you feel ready for each new stage. 🌱 The right guidance at the right time: Evidence based support, from short naps to separation anxiety and first tantrums."
     },
     {
       "id": "1300934",
       "name": "KREV AI",
       "name_zh": "KREV AI",
-      "tagline_zh": "An AI team that runs your ecommerce brand",
-      "description_zh": "KREV 2.0 is an AI team for your ecommerce brand. Scout tracks 10M+ competitor ads, Luna makes content that looks real, Kai buys your media, Chloe posts what's trending, Rue sends your emails, Toshi edits your store and Max gets you found.",
-      "intro_zh": "",
+      "tagline_zh": "为电商品牌处理运营工作的 AI 团队",
+      "description_zh": "KREV 2.0 将自己定位为电商品牌的 AI 团队：Scout 据称追踪超过一千万条竞品广告，Luna 制作看起来真实的内容，Kai 负责广告投放。Chloe 发布热门内容，Rue 发送邮件，Toshi 编辑店铺，Max 帮品牌被找到。",
+      "intro_zh": "给电商品牌运营者用，把竞品观察、内容制作、投放和店铺维护等工作交给不同的 AI 角色。",
       "url": "https://www.producthunt.com/products/krev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CMCGNRX7T36FKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fac85759-5a6b-41ac-bf13-33d01f066ae8.jpeg?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "覆盖明确的电商运营工作，但省多少人工尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "涉及对外发布和投放，执行出错的后果值得关注。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "按岗位拆分任务可以借用，但角色如何配合没有说明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把多项运营工作放在同一产品中，可能减少分头处理的麻烦；最影响判断的是它能执行到哪一步。",
+      "product_analysis": {
+        "target_problem": "电商品牌运营者需要兼顾内容、广告、邮件和店铺维护。任务分散，逐项处理需要持续投入精力。",
+        "workflow": "介绍按角色分工：观察竞品、制作内容，再涉及投放、发帖、发邮件和改店铺。没有说明这些工作是否自动衔接，也没给出启动步骤。",
+        "ai_value": "AI 被安排承担具体运营任务，范围从制作内容延伸到对外执行；自动化程度不明。",
+        "differentiation": "可能省去逐项手动处理的工作。我会先确认发布和花钱前能否审核，否则用户可能不敢放手。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 994653bf-7d77-4899-96f1-e2432b21d90e)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称由多个 AI 角色分工，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先让各角色生成待办和草稿，再经人工确认，连接店铺及营销平台执行。",
+        "tradeoffs": "最难的是确保实际执行符合用户批准的内容。若优惠或投放金额执行错了，可能造成直接损失。",
+        "unknowns": "这些角色能实际操作哪些平台？"
+      },
+      "transferable_insights": [
+        "做多任务运营工具时，可以按岗位划分入口，让用户先选要完成的工作，再查看对应结果。"
+      ],
+      "validation_questions": [
+        "尝试发送一封测试邮件，检查正式发送前能否审核完整内容。",
+        "选一个现有店铺平台，核对它是否支持实际修改店铺。"
+      ],
+      "source_tagline": "An AI team that runs your ecommerce brand",
+      "source_description": "KREV 2.0 is an AI team for your ecommerce brand. Scout tracks 10M+ competitor ads, Luna makes content that looks real, Kai buys your media, Chloe posts what's trending, Rue sends your emails, Toshi edits your store and Max gets you found."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,511 @@
 {
   "date": "2026-10-10",
-  "generated_at": "2026-10-11T21:51:33+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:22:26+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1245921",
       "name": "ReSO AI",
       "name_zh": "ReSO AI",
-      "tagline_zh": "Get discovered & recommended when customers ask AI",
-      "description_zh": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic. What makes it different is that it doesn’t just track rankings, it analyzes intent, competitors, content gaps, and technical issues, then turns them into priority actions to improve AI recommendations.",
-      "intro_zh": "",
+      "tagline_zh": "让客户向 AI 提问时发现并获得你的品牌推荐",
+      "description_zh": "ReSO 是一个帮助品牌优化 AI 搜索曝光的平台，面向创始人、首席营销官和增长团队，希望增加品牌在 ChatGPT、Perplexity 和 Google AI 搜索摘要中的曝光、引用和访问量。它除了追踪排名，还分析购买意图、竞争对手、内容缺口和技术问题，并据此排列优化行动的优先级。",
+      "intro_zh": "给创始人和增长团队用，查看品牌在 AI 搜索中的表现，并整理优先要做的优化事项。",
       "url": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/E6PNMMFOZ76WY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f21aab5c-70fc-4a05-bd79-103326182d68.png?auto=format",
       "votes_count": 457,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和任务清楚，但建议能否带来更多推荐尚无效果材料。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从不稳定的 AI 回答中判断优化方向，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把监测结果整理成有先后顺序的行动，可借用于其他诊断工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把曝光监测变成待办事项；最影响判断的是，建议是否有足够证据支撑团队投入修改。",
+      "product_analysis": {
+        "target_problem": "增长团队想知道，客户向 AI 咨询购买选择时，自己的品牌有没有出现。只看排名，还不知道该补哪些内容、先改哪里。",
+        "workflow": "平台追踪品牌表现，再分析意图、竞品、内容缺口和技术问题，输出按优先级排列的行动。简介没交代用户如何提交品牌和问题。",
+        "ai_value": "AI 搜索是它要优化的对象。介绍没说它自身是否用 AI 做分析，不能把建议归因于某个模型。",
+        "differentiation": "它把监测和下一步行动放在一起，可能省去自行整理问题的工作。若建议缺少证据，团队可能仍不愿据此调整内容。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 16276ee2-1ec8-47f0-9722-2a6c1511b63a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到追踪排名及分析内容和技术问题，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一组购买问题，重复记录 AI 回答中的品牌和引用，再对照网站内容找缺口，按证据排出修改顺序。",
+        "tradeoffs": "最难的是分清回答波动和真实变化。一次没被推荐就判断内容有问题，可能让团队改错方向。",
+        "unknowns": "它如何证明某条优化建议有依据，而非仅与曝光变化同时发生？"
+      },
+      "transferable_insights": [
+        "做网站诊断工具时，可把每个问题对应到具体修改项，再给出先后顺序，让用户少做一次人工整理。"
+      ],
+      "validation_questions": [
+        "同一组问题重复检测，品牌曝光结论是否稳定？",
+        "抽一条高优先级建议，能否找到支持它的具体回答或页面证据？"
+      ],
+      "source_tagline": "Get discovered & recommended when customers ask AI",
+      "source_description": "ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic. What makes it different is that it doesn’t just track rankings, it analyzes intent, competitors, content gaps, and technical issues, then turns them into priority actions to improve AI recommendations."
     },
     {
       "id": "1257662",
       "name": "Onepin",
       "name_zh": "Onepin",
-      "tagline_zh": "AI voiceover with every name, price and date said right",
-      "description_zh": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line. Onepin runs on the voices you already use (ElevenLabs, OpenAI, Google, 30+ more), spells out prices and dates, checks names against a 4M-word pronunciation dictionary, scores every line, and fixes the wrong word without re-rendering the take. Built for teams shipping AI voiceover in several languages: product videos, dubbing, courses. Free to start, no credit card required.",
-      "intro_zh": "",
+      "tagline_zh": "让名字、价格和日期都读对的 AI 配音",
+      "description_zh": "Onepin 可搭配 ElevenLabs、OpenAI、Google 等三十多种语音服务使用，展开价格和日期的读法，借助四百万词发音词典检查名字，并为每行配音评分、修正错词而无需重新生成整段。它面向制作多语言产品视频、配音和课程的团队，可免费开始，无需信用卡。",
+      "intro_zh": "给制作多语言配音的团队用，检查名字、价格和日期的读法，并局部修正读错的词。",
       "url": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MTK6QP55FPQN3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/59e2d20a-8e04-423f-ac81-90fa2a2d6af6.png?auto=format",
       "votes_count": 441,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对配音检查和错词返工，但实际漏检率尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "局部改词后如何保持语气连贯，是具体且影响交付的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "逐行标出风险并允许局部修正，可借用于其他内容生成工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "局部改词能减少整段返工；但评分是否可靠，决定团队能否真正少听审。",
+      "product_analysis": {
+        "target_problem": "多语言配音团队需要检查专名和数字读法。逐句听审费时，尤其难判断自己不熟悉的语言。",
+        "workflow": "沿用已有语音服务，让 Onepin 处理价格、日期和名字读法，再查看逐行评分，修正错词。介绍未说明具体导入方式。",
+        "ai_value": "AI 负责配音生成；Onepin 增加读法处理、逐行评分和局部纠错，但评分如何得出没有说明。",
+        "differentiation": "不用为一个错词重生成整段，是最直接的省事点。团队可能因不信任评分，仍保留完整听审。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a0746c42-d274-449d-b691-929df8182aa2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称支持三十多种语音服务，并用四百万词发音词典检查名字。",
+        "possible_approach": "如果自己做，可以先按语言展开数字、查名字读音，再生成配音并逐词定位，替换需要重读的片段。",
+        "tradeoffs": "最难的是局部替换后保持语气和节奏；接缝若明显，用户仍得重做整句。",
+        "unknowns": "逐行评分能否发现实际读错，而不只是检查文字读法？"
+      },
+      "transferable_insights": [
+        "做生成式内容编辑器时，可把检查结果标到句子，并让用户只重做出错部分，保留已确认内容。"
+      ],
+      "validation_questions": [
+        "用已知读错的多语言专名样本，检查逐行评分是否能标出问题。",
+        "替换句中一个词后，听接缝处的音色和停顿是否自然。"
+      ],
+      "source_tagline": "AI voiceover with every name, price and date said right",
+      "source_description": "AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line. Onepin runs on the voices you already use (ElevenLabs, OpenAI, Google, 30+ more), spells out prices and dates, checks names against a 4M-word pronunciation dictionary, scores every line, and fixes the wrong word without re-rendering the take. Built for teams shipping AI voiceover in several languages: product videos, dubbing, courses. Free to start, no credit card required."
     },
     {
       "id": "1275017",
       "name": "Claude Dashboards & Motion",
       "name_zh": "Claude Dashboards & Motion",
-      "tagline_zh": "Ask Claude for live dashboards and animated explainers",
-      "description_zh": "Claude Dashboards and Claude Motion are beta artifacts in Claude. Dashboards connects to BigQuery, Databricks, Snowflake, Redshift, ClickHouse or Salesforce and turns a plain language question into a live dashboard that refreshes as your data changes, with the query behind every number. Motion turns reports, charts and walkthroughs into short animations written as code, so you can edit any word, number or timing, then export an MP4. Dashboards is on paid plans, Motion on Team and Enterprise.",
-      "intro_zh": "",
+      "tagline_zh": "向 Claude 提问，生成实时仪表盘和动画讲解",
+      "description_zh": "Claude 中的两个测试版内容工具：Dashboards 可连接 BigQuery、Databricks、Snowflake、Redshift、ClickHouse 或 Salesforce，把自然语言问题变成随数据变化刷新的仪表盘，并展示每个数字背后的查询。Motion 可把报告、图表和操作讲解变成用代码编写的短动画，支持修改文字、数字和时序后导出 MP4；Dashboards 面向付费套餐，Motion 面向 Team 和 Enterprise。",
+      "intro_zh": "给需要看业务数据、讲解报告的团队用：用日常语言生成仪表盘，或把已有材料转成可编辑的短动画。",
       "url": "https://www.producthunt.com/products/claude-dashboards-motion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/W5M4LWJFFQH6PC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/22084f5a-78d1-4124-93b2-2bd091d42eda.jpeg?auto=format",
       "votes_count": 242,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查数据和讲解报告的场景明确，但生成结果是否准确、易改仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把问题转成正确查询，同时保留数字来源，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "给生成数字附上查询来源，是数据类产品可以借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重数字可追查到查询；但能否正确理解团队自己的指标定义，仍是决定仪表盘能否用于业务判断的关键。",
+      "product_analysis": {
+        "target_problem": "业务人员需要持续看指标，也需要向同事解释报告。麻烦在于数据变化后要更新展示，讲解材料也要能修改。",
+        "workflow": "连接支持的数据源，用日常语言提问，得到可刷新的仪表盘。也可把报告、图表或操作讲解转成动画，编辑后导出 MP4。",
+        "ai_value": "Claude 把问题转成仪表盘，把已有材料转成动画，减少手工搭建展示内容的工作。",
+        "differentiation": "数字背后保留查询，便于追查来源。最可能阻碍使用的是生成的指标口径仍需人工核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e7610393-bf32-4c53-b044-b1f99fc8fe19)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到数据源连接、随数据变化刷新、查询展示，以及用代码编写的动画。",
+        "possible_approach": "如果自己做，可以先读取数据表及字段说明，再把问题转成查询并生成图表；动画则先生成可修改的代码，再渲染成视频。",
+        "tradeoffs": "最容易错的是把业务问题理解成错误的统计口径。图表即使正常刷新，也可能一直展示算错的指标。",
+        "unknowns": "刷新频率和触发方式没有说明，不能据此判断数据会延迟多久。"
+      },
+      "transferable_insights": [
+        "做数据问答产品时，让每个数字都能展开查看查询，方便用户核对计算依据。"
+      ],
+      "validation_questions": [
+        "用一项已知正确结果的业务指标提问，检查生成查询是否采用相同统计口径。",
+        "修改一处动画中的数字，检查能否完成编辑并成功导出 MP4。"
+      ],
+      "source_tagline": "Ask Claude for live dashboards and animated explainers",
+      "source_description": "Claude Dashboards and Claude Motion are beta artifacts in Claude. Dashboards connects to BigQuery, Databricks, Snowflake, Redshift, ClickHouse or Salesforce and turns a plain language question into a live dashboard that refreshes as your data changes, with the query behind every number. Motion turns reports, charts and walkthroughs into short animations written as code, so you can edit any word, number or timing, then export an MP4. Dashboards is on paid plans, Motion on Team and Enterprise."
     },
     {
       "id": "1275196",
       "name": "Microsoft-Decision-1",
       "name_zh": "Microsoft-Decision-1",
-      "tagline_zh": "Microsoft’s decision model for agents and workflows",
-      "description_zh": "Microsoft-Decision-1 is a decision-scoring model for routing, classification, verification and agent control. Give it fixed options and it returns a calibrated probability for each in a single pass, as structured output software can act on directly. Post-trained from Qwen3.5-9B, it is about 35x faster than GPT-6 Sol at median latency, per Microsoft. Available now in Microsoft Foundry at $0.042 per million input tokens, with free output.",
-      "intro_zh": "",
+      "tagline_zh": "微软面向智能体和工作流的决策模型",
+      "description_zh": "Microsoft-Decision-1 用于分流、分类、核验和智能体控制：给定固定选项，一次计算便返回各选项的概率，并以软件可直接处理的格式输出。缓存简介称，它基于 Qwen3.5-9B 后训练，在 Microsoft Foundry 提供服务，输入每百万 token（模型处理文字的计量单位）0.042 美元、输出免费；其中还转述微软称其中位延迟约比 GPT-6 Sol 快 35 倍，这些信息均未重新核验。",
+      "intro_zh": "给开发自动化流程的团队用，把固定选项交给模型评分，让软件据此选择下一步动作。",
       "url": "https://www.producthunt.com/products/microsoft-decision-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/H7BWLNYG7UA47C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d07d0f5f-1cef-4fa0-a8c8-5fffa1c50ef1.png?auto=format",
       "votes_count": 170,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "固定选项和可直接处理的输出用途清楚，但实际决策质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "概率是否可信会直接影响自动执行的风险。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "限定选项再评分的做法可借用于分类和任务分流。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把判断变成软件能直接读取的评分；最影响判断的是这些概率换到自己的业务后是否仍可信。",
+      "product_analysis": {
+        "target_problem": "做自动化流程的开发者，需要让软件决定任务发往哪里、检查是否通过。麻烦在于模型的判断还得变成程序能执行的选择。",
+        "workflow": "准备固定选项，提交给模型，拿到每项概率。软件再根据评分决定下一步；如何设定执行规则，介绍没说。",
+        "ai_value": "AI 负责给候选项评分，覆盖分类、核验和智能体控制，也就是决定自动执行任务的程序下一步做什么。",
+        "differentiation": "输出格式可供软件直接处理，可能减少解析文字答案的工作。迁移前最需要确认的是评分能否支撑自己的业务判断。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 6e4b7a98-77c0-4ba4-b7e8-2357da3464a0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "缓存称其基于 Qwen3.5-9B 后训练，一次计算输出各选项概率，并称这些概率经过校准，即分数应与实际正确率相符。",
+        "possible_approach": "如果自己做，可以先定义有限选项，再训练模型评分，用已知答案检查概率，最后规定何时自动执行、何时交给人。",
+        "tradeoffs": "最容易出错的是把高概率当成可靠保证。若模型过度自信，软件可能直接执行错误选择。",
+        "unknowns": "介绍没说明概率校准在哪些任务和数据上验证过。"
+      },
+      "transferable_insights": [
+        "做工单分流时，可以先限定可选部门，再按评分设置人工复核条件，避免让自由文本直接决定去向。"
+      ],
+      "validation_questions": [
+        "用一批已知答案的业务样本检查：标为约 90% 的判断，实际正确率是否接近 90%？",
+        "输入不属于任何候选项的任务，检查评分是否仍会强行给出高置信选择。"
+      ],
+      "source_tagline": "Microsoft’s decision model for agents and workflows",
+      "source_description": "Microsoft-Decision-1 is a decision-scoring model for routing, classification, verification and agent control. Give it fixed options and it returns a calibrated probability for each in a single pass, as structured output software can act on directly. Post-trained from Qwen3.5-9B, it is about 35x faster than GPT-6 Sol at median latency, per Microsoft. Available now in Microsoft Foundry at $0.042 per million input tokens, with free output."
     },
     {
       "id": "1273350",
       "name": "Cue",
       "name_zh": "Cue",
-      "tagline_zh": "Put your AirPods in, your Mac starts focusing",
-      "description_zh": "Your headphones become a focus switch. Put your AirPods in and your Mac turns on your Focus mode, blocks distracting sites and starts a timer in the notch. Take them out: break time, sites come back. Also in the notch: now playing, volume and brightness, your own colors, session history and two tiny buddies that react to everything. Free, private, macOS 14+ on Apple Silicon. Vibe-coded by one person and Claude.",
-      "intro_zh": "",
+      "tagline_zh": "戴上 AirPods，Mac 就进入专注状态",
+      "description_zh": "戴上 AirPods 后，Cue 会开启 Mac 专注模式、屏蔽分心网站，并在屏幕刘海处显示计时器；摘下后进入休息，恢复网站访问。简介还列出播放信息、音量与亮度控制、自定义颜色、专注记录和两个互动小伙伴，并称产品免费、注重隐私，支持 Apple Silicon 芯片的 macOS 14 及以上设备，由一人借助 Claude 开发。",
+      "intro_zh": "给用 AirPods 和 Mac 工作的人，把戴上、摘下耳机变成开始专注和休息的开关。",
       "url": "https://www.producthunt.com/products/cue-26?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/H3I7LIPWSS6SGH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/26769852-454e-40b3-bf98-a361cfd1a536.png?auto=format",
       "votes_count": 154,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "触发动作和结果清楚，但戴耳机是否等于想专注仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "耳机状态如何可靠触发专注与恢复，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用已有动作触发一组设置，可借用于有明确开始信号的场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把开始专注所需的几项操作合在一起；最大疑问是，耳机佩戴能否准确代表用户此刻想专注。",
+      "product_analysis": {
+        "target_problem": "用 Mac 工作、希望减少网站干扰的人，可能需要反复切换专注模式、网站限制和计时。",
+        "workflow": "戴上 AirPods，开启专注模式、屏蔽网站并计时；摘下后进入休息，网站恢复访问。",
+        "ai_value": "介绍只提到 Claude 参与开发，没提运行时的 AI 功能；主要靠耳机状态触发操作来省事。",
+        "differentiation": "把几项操作合到戴耳机这个动作里。最可能让人不愿用的是：听音乐或开会时，也可能被当成要开始专注。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3e47b547-eda8-44c6-b54b-b700dddd5446)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1268927",
-      "name": "Firefox 157",
-      "name_zh": "Firefox 157",
-      "tagline_zh": "A brand new Firefox is here",
-      "description_zh": "Say hello to a refreshed design and more ways to make it feel like home. Your bookmarks, extensions, and shortcuts are right where you left them.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mozilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RXBOSEALN6KQIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5ea767f0-58bd-4a4b-b4c9-b7fd6aabbcee.png?auto=format",
-      "votes_count": 141,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持 Apple Silicon 芯片的 macOS 14 及以上设备；介绍没说如何检测佩戴或屏蔽网站。",
+        "possible_approach": "如果自己做，可以先确认系统能否提供可靠的佩戴状态，再让状态变化触发专注、网站限制和计时，并记录需要恢复的设置。",
+        "tradeoffs": "最容易错在把短暂摘耳机当成休息，导致网站限制提前解除，打断原本的专注安排。",
+        "unknowns": "网站限制通过什么方式生效，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 51e18caa-dd7b-43f8-8ad9-df24a17d2ad1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做阅读或工作计时工具时，可以把用户已有的开始动作设为触发条件，同时保留手动暂停，方便处理例外。"
+      ],
+      "validation_questions": [
+        "短暂摘下一只耳机时，是否会误进入休息？",
+        "在日常使用的浏览器里，被屏蔽网站是否确实无法访问？"
+      ],
+      "source_tagline": "Put your AirPods in, your Mac starts focusing",
+      "source_description": "Your headphones become a focus switch. Put your AirPods in and your Mac turns on your Focus mode, blocks distracting sites and starts a timer in the notch. Take them out: break time, sites come back. Also in the notch: now playing, volume and brightness, your own colors, session history and two tiny buddies that react to everything. Free, private, macOS 14+ on Apple Silicon. Vibe-coded by one person and Claude."
     },
     {
       "id": "1264254",
       "name": "Skreno",
       "name_zh": "Skreno",
-      "tagline_zh": "Record, edit and share videos, all in your browser",
-      "description_zh": "Skreno is a video studio in your browser: record, edit and share in one place. Record your screen and camera as separate tracks, then edit in Studio: pick a layout, cut silences, and add animated captions and titles. Share one link with a transcript, AI summary and comments on the exact second. Send a request link and anyone can record for you, no account needed. Bug reports come with the console log attached.",
-      "intro_zh": "",
+      "tagline_zh": "在浏览器里录制、编辑和分享视频",
+      "description_zh": "Skreno 把录屏、摄像头分轨录制、布局编辑、静音剪除及动态字幕和标题放在浏览器里，分享页提供转录文字、AI 摘要和精确到秒的评论。它还支持通过请求链接邀请他人免账号录制，并为错误报告附上控制台日志。",
+      "intro_zh": "给需要录制演示或收集问题反馈的人用，在浏览器里录制、剪辑视频，再发链接供他人查看和评论。",
       "url": "https://www.producthunt.com/products/skreno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WDUBCVME76574G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6ad819d6-57c3-463a-af76-f607eba4d3a9.png?auto=format",
       "votes_count": 93,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录制、编辑和反馈场景明确，但使用流畅度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "分轨编辑后如何保持字幕和评论定位准确，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "免账号请求录制、随报告附日志，都可借到反馈产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是视频反馈能定位到具体时刻；最影响判断的是剪辑后这些定位能否保持准确。",
+      "product_analysis": {
+        "target_problem": "做产品演示、远程反馈的人，需要同时说明操作过程和具体问题。只发视频时，接收者可能还得追问问题发生在哪一秒。",
+        "workflow": "分别录制屏幕和摄像头，再选布局、剪静音、加字幕和标题。分享链接后，接收者可看文字和摘要，并在具体时间点评论；也可发请求链接请他人免账号录制。",
+        "ai_value": "明确提到的 AI 用途是生成摘要，帮助接收者先了解内容。介绍未说明字幕或静音剪除是否使用 AI。",
+        "differentiation": "把录制、编辑和带定位的讨论放在一处，可能减少传文件和解释时间点的往返。已有剪辑习惯的人可能不愿迁入新编辑器。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5c376eeb-7263-42cf-ac1c-79284cb4d595)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "屏幕与摄像头分轨录制；错误报告会附控制台日志，即网页运行时留下的信息或错误记录。",
+        "possible_approach": "如果自己做，可以先分别保存两路录像和时间信息，再让剪辑操作同步更新视频、字幕及评论位置，最后生成分享页。",
+        "tradeoffs": "最容易出错的是剪掉静音后的位置重算。若字幕或评论没跟着移动，接收者会看到它们指向错误画面。",
+        "unknowns": "控制台日志会采集哪些内容，分享前能否检查和删除敏感信息？"
+      },
+      "transferable_insights": [
+        "做用户反馈工具时，可用免账号请求链接收集录像，减少提交前的注册步骤。",
+        "做错误报告时，可把录像和运行日志放在同一条反馈里，让排查者同时看到操作与报错。"
+      ],
+      "validation_questions": [
+        "剪掉一段静音后，已有字幕和时间点评论是否仍对应正确画面？",
+        "提交错误报告前，能否查看并移除日志中的敏感内容？"
+      ],
+      "source_tagline": "Record, edit and share videos, all in your browser",
+      "source_description": "Skreno is a video studio in your browser: record, edit and share in one place. Record your screen and camera as separate tracks, then edit in Studio: pick a layout, cut silences, and add animated captions and titles. Share one link with a transcript, AI summary and comments on the exact second. Send a request link and anyone can record for you, no account needed. Bug reports come with the console log attached."
     },
     {
       "id": "1275415",
       "name": "Maildun for Mac",
       "name_zh": "Maildun for Mac",
-      "tagline_zh": "Design on-brand emails by hand, with AI, or over MCP",
-      "description_zh": "Maildun for Mac is an agentic email builder for macOS. Design by hand in the drag-and-drop editor, or connect Claude, ChatGPT, Gemini or Grok with your own API key: the assistant edits your design live, as a proposal you accept or reject. Turn on the built-in MCP server and Claude Code, Codex or Cursor can create and edit emails too. Plus workspaces per client, brand kits with shadcn-style component styles, saved sections, media on your own R2 or S3 bucket, and publishing to maildun.com.",
-      "intro_zh": "",
+      "tagline_zh": "手动、借助 AI 或通过 MCP 设计符合品牌风格的邮件",
+      "description_zh": "Maildun for Mac 是一款 macOS 邮件设计工具，支持拖拽编辑，也能用自己的 API 密钥连接 Claude、ChatGPT、Gemini 或 Grok，让助手实时提出设计修改，由用户接受或拒绝；开启内置 MCP 服务后，Claude Code、Codex 或 Cursor 也能创建和编辑邮件。它还提供按客户划分的工作区、带有 shadcn 风格组件样式的品牌套件、可保存的区块，将媒体存入自己的 R2 或 S3 存储空间，以及发布到 maildun.com 的功能。",
+      "intro_zh": "给在 Mac 上制作品牌邮件的设计师和营销人员用，可拖拽排版，也可让 AI 提出修改再确认。",
       "url": "https://www.producthunt.com/products/maildun-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WAPPR4AKY4O33X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/209047c0-8c3f-4945-95df-7f5141365714.jpeg?auto=format",
       "votes_count": 91,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "制作品牌邮件的场景明确，但实际省时程度未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "AI 修改设计后由人确认，涉及具体的版本保留问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先提修改、再由用户确认的做法可用于其他编辑器。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是用户能拒绝 AI 修改；最影响判断的是拒绝后能否完整保留原稿，这决定了是否敢在正式邮件上使用。",
+      "product_analysis": {
+        "target_problem": "替多个客户制作邮件的人，需要区分品牌并复用版式。工作区、品牌套件和已存区块能帮助减少重复设置。",
+        "workflow": "在拖拽编辑器中设计邮件，或用自己的 API 密钥连接 AI 服务。助手提出修改后，接受或拒绝；内容可发布到 maildun.com。",
+        "ai_value": "AI 直接修改邮件设计，用户保留确认权。开启 MCP（让外部 AI 工具调用软件功能的连接方式）后，编程助手也能创建和编辑邮件。",
+        "differentiation": "把修改建议带进编辑器，可能减少对照建议手动调整的操作。但自备 API 密钥，即访问 AI 服务的凭证，可能让非技术用户卡在设置阶段。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: dc0c0c0d-2cc5-48f4-8a56-403eb476debd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到内置 MCP 服务，以及用自备 API 密钥连接多种 AI 服务。",
+        "possible_approach": "如果自己做，可以先把邮件拆成可编辑区块，再让 AI 生成修改草稿，确认后才写入正式版本。",
+        "tradeoffs": "最难的是隔离待确认修改与正式版本。若两者混在一起，拒绝建议后也可能留下不想要的改动。",
+        "unknowns": "介绍没说明 AI 修改期间，用户能否继续手动编辑同一封邮件。"
+      },
+      "transferable_insights": [
+        "做文档或页面编辑器时，可让 AI 先生成待确认版本，用户检查后再应用，避免直接覆盖原稿。"
+      ],
+      "validation_questions": [
+        "拒绝一次涉及多个区块的 AI 修改后，原设计能否完整保留？",
+        "让不熟悉 API 密钥的同事尝试连接 AI，能否独立完成设置？"
+      ],
+      "source_tagline": "Design on-brand emails by hand, with AI, or over MCP",
+      "source_description": "Maildun for Mac is an agentic email builder for macOS. Design by hand in the drag-and-drop editor, or connect Claude, ChatGPT, Gemini or Grok with your own API key: the assistant edits your design live, as a proposal you accept or reject. Turn on the built-in MCP server and Claude Code, Codex or Cursor can create and edit emails too. Plus workspaces per client, brand kits with shadcn-style component styles, saved sections, media on your own R2 or S3 bucket, and publishing to maildun.com."
     },
     {
       "id": "1265048",
       "name": "Skymir",
       "name_zh": "Skymir",
-      "tagline_zh": "Google Drive sync for Linux",
-      "description_zh": "Skymir mirrors your Google Drive folders to Linux with two-way sync, double-click Google Docs shortcuts, and a native GTK tray. Local saves upload within seconds; changes made in Drive arrive within about a minute. Deletes go to the trash on both sides, and a sync that would delete more than half your files is refused. $19 one-time, 14-day free trial, no subscription.",
-      "intro_zh": "",
+      "tagline_zh": "面向 Linux 的 Google Drive 同步工具",
+      "description_zh": "Skymir 将 Google Drive 文件夹与 Linux 本地文件夹双向同步，提供可双击的 Google Docs 快捷方式和原生 GTK 托盘；介绍称本地保存后数秒内上传，云端修改约一分钟内同步到本地。删除会进入两端回收站，若一次同步将删除超过一半文件则会被拒绝；价格为一次性 19 美元，提供 14 天免费试用，无订阅。",
+      "intro_zh": "给在 Linux 上使用 Google Drive 的人，把云端文件夹同步到本地，并将本地修改传回云端。",
       "url": "https://www.producthunt.com/products/skymir?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JGDJQKMRU7HWW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1a4b3bc9-633d-4320-ba0d-aa502ec084e4.jpeg?auto=format",
       "votes_count": 89,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，但同步可靠性仍需验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "双向修改冲突和误删保护都有具体问题可分析。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按删除比例拦截危险操作的做法可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重回收站之外还有大批删除拦截，能多挡住一类错误；但能否放心交给它同步，仍取决于冲突处理。",
+      "product_analysis": {
+        "target_problem": "Linux 用户需要在本地处理 Google Drive 文件，也要让两端修改保持一致。麻烦在于不能只下载一次，还得持续处理后续变化。",
+        "workflow": "同步后，在本地保存文件会上传，Drive 中的修改会传回本地。Google Docs 提供可双击的快捷方式，删除则进入两端回收站。",
+        "ai_value": "介绍没提 AI，主要靠双向同步和桌面托盘改善文件使用体验。",
+        "differentiation": "它把持续传送修改交给软件处理。最可能让人犹豫的是：双向同步出错时，会不会覆盖自己要保留的版本。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 245e322d-4f9c-4622-9e9b-f46c53eb2b49)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到双向同步、GTK（Linux 桌面界面工具库）原生托盘，以及删除超过半数文件时拒绝同步。",
+        "possible_approach": "如果自己做，可以先记录两端文件的对应关系和上次同步状态，再找出新增、修改和删除，执行前检查是否有冲突或大批删除。",
+        "tradeoffs": "最难的是同一文件在两端都被修改时决定保留什么。若直接用一端覆盖另一端，用户可能丢失尚未合并的内容。",
+        "unknowns": "介绍没说两端同时修改同一文件时如何处理。"
+      },
+      "transferable_insights": [
+        "做批量删除或同步工具时，可在执行前检查删除比例，超过阈值就暂停，避免一次异常影响大量文件。"
+      ],
+      "validation_questions": [
+        "两端同时修改同一文件，检查是否保留两个版本或明确提示冲突。",
+        "触发超过半数文件的删除，检查是否在实际删除前停止同步。"
+      ],
+      "source_tagline": "Google Drive sync for Linux",
+      "source_description": "Skymir mirrors your Google Drive folders to Linux with two-way sync, double-click Google Docs shortcuts, and a native GTK tray. Local saves upload within seconds; changes made in Drive arrive within about a minute. Deletes go to the trash on both sides, and a sync that would delete more than half your files is refused. $19 one-time, 14-day free trial, no subscription."
+    },
+    {
+      "id": "1268927",
+      "name": "Firefox 157",
+      "name_zh": "Firefox 157",
+      "tagline_zh": "新版 Firefox 来了",
+      "description_zh": "Firefox 更新了设计，并提供更多个性化方式。你的书签、扩展和快捷方式仍在原来的位置。",
+      "intro_zh": "面向日常使用浏览器的人，Firefox 更新界面、增加个性化方式，并保留熟悉的书签、扩展和快捷方式位置。",
+      "url": "https://www.producthunt.com/products/mozilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RXBOSEALN6KQIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5ea767f0-58bd-4a4b-b4c9-b7fd6aabbcee.png?auto=format",
+      "votes_count": 141,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "保留使用习惯的好处清楚，但新设计具体改善了什么尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "界面更新与原有设置兼容是具体问题，但没有实现细节。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "改版时保留常用入口，是其他成熟软件可以借用的做法。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重保留常用入口的承诺；最影响判断的是，新设计究竟带来实际便利，还是只改变外观。",
+      "product_analysis": {
+        "target_problem": "已有书签、扩展和快捷方式的 Firefox 用户，会关心改版后是否还找得到常用功能。这里解决的是界面变化与使用习惯之间的冲突。",
+        "workflow": "用户在新版界面中继续使用原有书签、扩展和快捷方式，也可使用新增的个性化方式。简介没有提供具体设置步骤。",
+        "ai_value": "介绍没提 AI，主要靠界面调整和个性化来改善体验。",
+        "differentiation": "保留原有位置，可能减少重新寻找入口的麻烦。但新设计是否更顺手没有依据，熟悉旧界面的用户也可能不愿改变。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保留用户设置和常用入口，再替换界面样式；最后用已有书签、扩展和快捷方式的配置检查新版。",
+        "tradeoffs": "最容易出错的是新版界面对旧设置的兼容。若自定义入口没有正确保留，用户仍得重新整理。",
+        "unknowns": "所谓更多个性化方式，具体允许用户调整什么？"
+      },
+      "transferable_insights": [
+        "给已有固定用户的软件改版时，可以保留高频入口的位置，把视觉更新与操作位置变化分开，减少用户重新找功能的负担。"
+      ],
+      "validation_questions": [
+        "用已有个人配置更新后，常用入口是否仍在原来的位置？",
+        "新增个性化设置是否能完成一项旧版做不到的调整？"
+      ],
+      "source_tagline": "A brand new Firefox is here",
+      "source_description": "Say hello to a refreshed design and more ways to make it feel like home. Your bookmarks, extensions, and shortcuts are right where you left them."
     },
     {
       "id": "1275490",
       "name": "Lune",
       "name_zh": "Lune",
-      "tagline_zh": "The search engine built for scientific AI agents",
-      "description_zh": "Lune is Exa.ai for scientific research. It connects AI agents to research knowledge and tools built for scientific workflows, and provides high-quality knowledge grounding based on papers from top-tier academic conferences. 10x the efficiency and trustworthiness of literature review, experimental design, writing and peer review. From early ideas to publication, it helps researchers and technical teams move faster with traceable sources, deeper grounding, and rigorous, evidence-backed decisions.",
-      "intro_zh": "",
+      "tagline_zh": "为科研 AI 智能体打造的搜索引擎",
+      "description_zh": "Lune 为科研 AI 智能体连接研究知识与科研工具，以顶级学术会议论文提供知识依据，支持文献综述、实验设计、写作和同行评审。缓存简介宣称可将效率与可信度提升十倍，并提供可追溯来源，但这些效果未经核验。",
+      "intro_zh": "给研究人员和技术团队使用，让执行科研任务的 AI 查找论文依据，并连接科研工具。",
       "url": "https://www.producthunt.com/products/lune-research?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YPRI2YBH6V3NM5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/535c93b9-19da-48f3-92ac-1168b872bbb6.jpeg?auto=format",
       "votes_count": 83,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "科研查证需求清楚，但节省多少工作尚无可靠材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "论文能否真正支持生成结论，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "让结论附带可检查的证据可以借鉴，但实现细节不足。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让科研回答有出处可查；最影响判断的是，这些出处究竟支持具体结论，还是仅与主题相关。",
+      "product_analysis": {
+        "target_problem": "研究人员让 AI 做综述或设计实验时，需要检查回答有没有论文依据。Lune 面向这类需要追溯证据的科研任务。",
+        "workflow": "科研 AI 智能体，也就是能执行任务的 AI 程序，通过 Lune 获取研究知识并连接科研工具。介绍没有给出具体接入步骤。",
+        "ai_value": "它为 AI 的回答提供论文依据；材料没有说明它是否也负责生成综述或实验方案。",
+        "differentiation": "把论文依据提供给执行任务的 AI，可能减少另外查证的工作。我会先确认论文覆盖面，过窄可能让团队继续使用原有检索工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 010334c4-7492-4cb4-a443-4ec549067a5c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到以顶级学术会议论文提供知识依据，但没说具体检索技术。",
+        "possible_approach": "如果自己做，可以先收集论文并保留出处，再按问题检索相关段落，让 AI 根据段落回答并附上引用。",
+        "tradeoffs": "最容易错在引用相关论文，却得出论文不支持的结论。用户看到出处后，可能误以为结论已经得到验证。",
+        "unknowns": "是否能定位到支持结论的原文段落？"
+      },
+      "transferable_insights": [
+        "做专业问答产品时，可以把每条关键结论与原文证据并排展示，方便用户逐条检查。"
+      ],
+      "validation_questions": [
+        "用一个熟悉的科研问题查询，逐条核对关键结论是否得到引用原文支持。",
+        "选定一个细分课题，检查结果是否遗漏已知的重要论文。"
+      ],
+      "source_tagline": "The search engine built for scientific AI agents",
+      "source_description": "Lune is Exa.ai for scientific research. It connects AI agents to research knowledge and tools built for scientific workflows, and provides high-quality knowledge grounding based on papers from top-tier academic conferences. 10x the efficiency and trustworthiness of literature review, experimental design, writing and peer review. From early ideas to publication, it helps researchers and technical teams move faster with traceable sources, deeper grounding, and rigorous, evidence-backed decisions."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

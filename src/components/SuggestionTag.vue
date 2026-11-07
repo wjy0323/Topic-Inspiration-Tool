@@ -10,8 +10,9 @@ const props = defineProps({
 })
 
 const tagClass = computed(() => {
-  if (props.suggestion === '强力推荐') return 'tag-recommend'
-  if (props.suggestion === '可以做') return 'tag-ok'
+  if (['强力推荐', '优先研究'].includes(props.suggestion)) return 'tag-recommend'
+  if (['可以做', '值得参考'].includes(props.suggestion)) return 'tag-ok'
+  if (['信息不足', '生成失败'].includes(props.suggestion)) return 'tag-unknown'
   return 'tag-caution'
 })
 </script>
@@ -36,4 +37,5 @@ const tagClass = computed(() => {
   background: #fce4ec;
   color: #c62828;
 }
+.tag-unknown { background: #f0f0f0; color: #666; }
 </style>

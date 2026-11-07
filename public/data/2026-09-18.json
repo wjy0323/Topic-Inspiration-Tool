@@ -1,367 +1,510 @@
 {
   "date": "2026-09-18",
-  "generated_at": "2026-09-19T19:50:33+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:27:49+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1252325",
       "name": "Ami AI",
       "name_zh": "Ami AI",
-      "tagline_zh": "Lovable for getting customers",
-      "description_zh": "Most outbound dies on one decision: who to write to this week. Ami has already made it 17,707 times and kept score. Built on GPT-6 Astra and every one of those campaigns, it reads your website, picks the buyers who actually convert, and plans backwards from the number you need: leads, senders, weeks. If the list you asked for won't work, it says so before it builds anything. Approve the plan and it runs the outreach, watches every campaign, and fixes what slips. 19,854 booked meetings behind it.",
-      "intro_zh": "",
+      "tagline_zh": "获客版 Lovable",
+      "description_zh": "Ami AI 读取你的网站，选择潜在买家，并按获客目标估算所需名单、发件人和周数；如果认为名单不可行，会在执行前指出。你批准计划后，它会开展主动联系、监测活动并调整；缓存中提到的历史活动数、会议数和模型名称均未核验。",
+      "intro_zh": "给需要主动开发客户的销售团队用，读取公司网站、挑选联系对象，并在批准后执行和调整联系计划。",
       "url": "https://www.producthunt.com/products/ami-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IABJ4YWI3SSSWZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8bdae202-3311-492a-a57f-67d5c79d8277.jpeg?auto=format",
       "votes_count": 506,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从选人到执行的用途清楚，但获客效果缺少可靠验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "按结果倒推计划很具体，难点在于转化估计是否可信。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "执行前检查目标是否可行，适合借到其他批量任务中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重执行前就指出计划可能不成立，避免先投入再发现问题。但它判断可行性的依据不明，暂时不能把计划当作可靠预测。",
+      "product_analysis": {
+        "target_problem": "销售团队做主动获客时，需要决定本周联系谁，以及名单规模能否支撑目标。选人依据不清，后面的发送可能白忙。",
+        "workflow": "它读取网站、挑选买家，再倒推名单量、发件人和周期。用户批准计划后，它执行联系，持续监测并调整。",
+        "ai_value": "AI 参与判断该联系谁、估算目标所需投入，并根据活动表现调整计划；具体判断依据没有说明。",
+        "differentiation": "把选人、估算和执行放在一起，可能减少人工协调。最可能让团队犹豫的是：能否信任它选出的买家。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介提到 GPT-6 Astra 和历史活动记录，但模型名称与具体用法未经核验。",
+        "possible_approach": "如果自己做，可以先从网站提取产品和适用客户，再匹配候选买家，用历史转化率估算规模，交给用户批准后执行。",
+        "tradeoffs": "最容易错在用不适用的历史转化率倒推计划，导致名单量和周期估得过于乐观。",
+        "unknowns": "它用什么数据判断一个买家更可能转化？"
+      },
+      "transferable_insights": [
+        "做广告投放或招募工具时，可以先按目标估算所需人数和时间；条件不够就先提示，再让用户决定是否执行。"
+      ],
+      "validation_questions": [
+        "用一份已知成交与未成交客户名单，检查它能否优先选中前者。",
+        "给出明显超出名单规模的目标，检查它是否在执行前指出不可行。"
+      ],
+      "source_tagline": "Lovable for getting customers",
+      "source_description": "Most outbound dies on one decision: who to write to this week. Ami has already made it 17,707 times and kept score. Built on GPT-6 Astra and every one of those campaigns, it reads your website, picks the buyers who actually convert, and plans backwards from the number you need: leads, senders, weeks. If the list you asked for won't work, it says so before it builds anything. Approve the plan and it runs the outreach, watches every campaign, and fixes what slips. 19,854 booked meetings behind it."
     },
     {
       "id": "1242849",
       "name": "AINA",
       "name_zh": "AINA",
-      "tagline_zh": "Find your job search blind spots with an AI coach",
-      "description_zh": "AINA is an AI career coach that helps you see what's holding your job search back, strengthen your profile, and practice for interviews — through conversations with a video avatar. Talk to AINA and walk away with a personalized action plan for whatever's next in your career.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 教练发现求职中的盲点",
+      "description_zh": "AINA 是一款 AI 职业教练，让你通过与视频虚拟形象对话，找出求职受阻的原因、完善个人资料并练习面试。它会根据对话，为你接下来的职业行动提供个性化计划。",
+      "intro_zh": "给求职遇到瓶颈的人用，通过与视频虚拟教练对话梳理问题、练习面试，并获得行动计划。",
       "url": "https://www.producthunt.com/products/aina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DPLNID7SCPBE2B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9a1a05de-b67b-46ad-9bc1-8c033ac6b1ea.png?auto=format",
       "votes_count": 456,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "求职诊断和面试练习场景明确，但建议质量尚无材料证明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何从有限对话给出可靠建议是具体难题，实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先对话梳理问题、再形成行动计划的做法可借用到其他辅导场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是对话后能拿到行动计划；最大的疑问是，它能否区分真实问题和信息不足造成的猜测。",
+      "product_analysis": {
+        "target_problem": "适合投递不顺、又不清楚该改什么的求职者。麻烦在于难以判断问题出在个人资料、面试表现，还是求职方向。",
+        "workflow": "与视频虚拟形象对话，围绕求职问题、个人资料或面试开展辅导，再获得个性化行动计划。介绍没有交代资料如何提供。",
+        "ai_value": "AI 承担职业辅导、面试练习和计划生成。视频形象是交流形式，本身不能证明建议更准确。",
+        "differentiation": "它把问题梳理和后续行动放在一次对话里，可能减少自行整理建议的工作。最可能让人犹豫的是建议是否真正贴合目标岗位。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 职业教练和视频虚拟形象对话，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集目标岗位和求职经历，再让 AI 追问缺失信息，最后按优先级整理行动计划。",
+        "tradeoffs": "最容易出错的是信息不足时就判断求职失败的原因，用户可能因此把时间花在不重要的修改上。",
+        "unknowns": "建议会依据具体岗位要求，还是主要依赖用户自述？"
+      },
+      "transferable_insights": [
+        "做学习或职业辅导时，可以先追问背景，再把建议整理成有先后顺序的任务，方便用户开始执行。"
+      ],
+      "validation_questions": [
+        "给出一段缺少关键背景的求职经历，看它是否先追问再下结论。",
+        "完成一次面试练习，检查反馈是否引用了回答中的具体内容。"
+      ],
+      "source_tagline": "Find your job search blind spots with an AI coach",
+      "source_description": "AINA is an AI career coach that helps you see what's holding your job search back, strengthen your profile, and practice for interviews — through conversations with a video avatar. Talk to AINA and walk away with a personalized action plan for whatever's next in your career."
     },
     {
       "id": "1253553",
       "name": "ProductBridge",
       "name_zh": "ProductBridge",
-      "tagline_zh": "AI-native customer support and feedback agent",
-      "description_zh": "Most teams run a helpdesk, a feedback board and a survey tool, then copy between them all week. ProductBridge is one system. An AI agent answers support chats from your help center, calls your APIs via tools, workflows and MCP, and hands off when it should. Every chat, survey and vote is captured, deduplicated and scored by reach and revenue, so your roadmap runs on evidence, not opinions. Ship it and everyone who asked is notified. MCP for Claude, ChatGPT and Cursor. Flat pricing, free plan.",
-      "intro_zh": "",
+      "tagline_zh": "以 AI 为核心的客服与反馈助手",
+      "description_zh": "ProductBridge 将客服、反馈板和调查放进同一系统：AI 根据帮助中心回答问题，通过工具、工作流和 MCP 调用业务接口，并在需要时转交人工。它还收集对话、调查和投票，合并重复反馈，按覆盖人数和收入评分，上线后通知提出需求的人；简介另称支持 Claude、ChatGPT 和 Cursor 的 MCP 连接，提供固定定价和免费方案。",
+      "intro_zh": "给同时处理客服和产品反馈的团队用，把客户提问整理成需求，并在功能上线后通知相关客户。",
       "url": "https://www.producthunt.com/products/productbridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AMDH6JBWMRKU7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/11ba5141-fe14-491d-893a-173aac30904c.png?auto=format",
       "votes_count": 438,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "客服与需求整理的重复工作很明确，但节省多少人工尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "相似反馈如何合并且不丢掉差异，是具体且影响决策的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留需求与提出者的关联，可借用于需要后续通知的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是反馈能一直追踪到上线通知；最影响判断的是评分能否解释清楚，否则仍难据此排期。",
+      "product_analysis": {
+        "target_problem": "客服和产品团队若分开使用工单、反馈板与调查工具，往往需要搬运信息，也难追踪谁提过同一需求。",
+        "workflow": "接入帮助中心和业务接口后，AI 回答咨询，必要时转人工。系统汇总对话、调查和投票，合并评分，上线后通知提出者。",
+        "ai_value": "AI 负责查帮助资料、回答问题和调用业务工具；简介没有明确说明反馈去重与评分是否由 AI 完成。",
+        "differentiation": "把客服记录直接用于需求整理，可能少一次搬运。已有客服系统的团队可能不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 API（软件间传数据或执行操作的接口）与 MCP（让 AI 连接外部工具的通用协议），未披露具体模型。",
+        "possible_approach": "如果自己做，可以先保存反馈及提出者，再找相似内容供人工确认合并，保留上线通知名单。",
+        "tradeoffs": "最容易把措辞相似、诉求不同的反馈合并，导致需求人数与优先级失真。",
+        "unknowns": "覆盖人数与收入分别如何影响评分，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做需求收集工具时，保留每条需求与提出者的关联，让上线通知不必重新找人。"
+      ],
+      "validation_questions": [
+        "提交两条措辞相近但诉求不同的反馈，检查是否被误合并。",
+        "用覆盖人数和收入不同的样本，检查评分排序是否符合团队的取舍。"
+      ],
+      "source_tagline": "AI-native customer support and feedback agent",
+      "source_description": "Most teams run a helpdesk, a feedback board and a survey tool, then copy between them all week. ProductBridge is one system. An AI agent answers support chats from your help center, calls your APIs via tools, workflows and MCP, and hands off when it should. Every chat, survey and vote is captured, deduplicated and scored by reach and revenue, so your roadmap runs on evidence, not opinions. Ship it and everyone who asked is notified. MCP for Claude, ChatGPT and Cursor. Flat pricing, free plan."
     },
     {
       "id": "1251122",
       "name": "MosMos",
       "name_zh": "MosMos",
-      "tagline_zh": "Voice writing that works before, during, and after meetings",
-      "description_zh": "MosMos goes beyond voice dictation by turning both individual thoughts and group conversations into usable writing. Speak naturally in any app, get fast and accurate text in the style you choose, or ask MosMos to search the web for current information. Its personal glossary remembers specialized terms after you add them once. In multi-speaker meetings, it tracks precise timestamps, distinguishes speakers, and creates structured notes, summaries, decisions, and action items for easier follow-up.",
-      "intro_zh": "",
+      "tagline_zh": "覆盖会前、会中和会后的语音写作",
+      "description_zh": "MosMos 将个人口述和多人对话转成可用文字，支持在应用中按所选风格写作、搜索网上的最新信息，并用个人词汇表记住添加过的专业术语；介绍称转写快速且准确。多人会议中，它可区分说话人、标记时间戳，并生成结构化笔记、摘要、决策和待办。",
+      "intro_zh": "给需要口述写作和整理会议的人，把想法转成文字，把多人讨论整理成摘要、决策和待办。",
       "url": "https://www.producthunt.com/products/mosmos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2WNX7F5ABJ77RC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/41b5553c-9b26-4369-a938-7779e504b2e9.png?auto=format",
       "votes_count": 409,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "口述写作和会议整理的用途清楚，但准确性与省时程度未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人发言如何对应到决策和待办，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让用户添加专业词并持续复用，是可借用的纠错做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是直接从讨论中整理决策和待办。关键疑问是能否方便地回查原话，否则省下的整理时间可能花在核对上。",
+      "product_analysis": {
+        "target_problem": "适合常写文字、常开会的人。口述后要改措辞，多人讨论后还要找出决定了什么、接下来做什么。",
+        "workflow": "个人写作时自然口述，选择文字风格，也可请求联网查资料。会议场景下，它区分说话人并标记时间，再生成笔记、摘要、决策和待办。",
+        "ai_value": "介绍没明确提 AI，主要靠语音转文字、按风格整理和会议内容提取来省事；无法确认哪些步骤由 AI 完成。",
+        "differentiation": "它把转写和后续整理放在一起，减少拿着逐字稿再写纪要的工作。最可能影响换用意愿的是整理结果是否仍需大量核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1252242",
-      "name": "Sider Omni Sidebar",
-      "name_zh": "Sider Omni Sidebar",
-      "tagline_zh": "Give every Mac app an Agent Sidebar",
-      "description_zh": "An AI agent beside any Mac app. Sider Omni sidebar sees what's on your screen and acts on it directly, right where you're working. Watch the result, ask for the next change. Nothing to copy, nothing to upload. Built on GPT-6 Astra, and it can run on your existing ChatGPT or Codex credits.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/sider-omni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GXEZU22QAYGGP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f488399c-5ae9-4c95-a67d-8db7ce0aa004.jpeg?auto=format",
-      "votes_count": 373,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到个人词汇表、多人说话人区分和时间戳，没说具体采用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成带时间的文字，区分每段是谁说的，再结合个人词汇表修正术语，最后提取决策和待办。",
+        "tradeoffs": "最难的是把发言归给正确的人。若把讨论建议当成另一人的承诺，待办就可能分错负责人。",
+        "unknowns": "生成的待办能否回到对应发言处核对？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1250743",
-      "name": "Ari by Ariso",
-      "name_zh": "Ari by Ariso",
-      "tagline_zh": "AI bar raiser for the most ambitious teams",
-      "description_zh": "The greatest companies like Amazon and Uber have long used “bar raisers” to grow their talent—and now you can too. Ari helps you and your team maintain and grow a higher standard of execution by handling the work about work, tracking commitments, reporting progress, aligning communications and priorities, driving follow-through, and showing what’s working so you can double down. You and everyone gains more time and mental space for meaningful work, to tackle your most ambitious projects.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/ariso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TOLICSA65DTFQU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c7ce72cc-d7bb-434f-be98-5d8c439c6921.png?auto=format",
-      "votes_count": 305,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做专业领域的语音输入时，可以让用户添加一次术语后持续复用，减少反复纠正同一个词。"
+      ],
+      "validation_questions": [
+        "添加一个专业术语后，多次口述是否都能正确转写？",
+        "用包含多人插话的讨论，检查待办负责人是否对应实际承诺者？"
+      ],
+      "source_tagline": "Voice writing that works before, during, and after meetings",
+      "source_description": "MosMos goes beyond voice dictation by turning both individual thoughts and group conversations into usable writing. Speak naturally in any app, get fast and accurate text in the style you choose, or ask MosMos to search the web for current information. Its personal glossary remembers specialized terms after you add them once. In multi-speaker meetings, it tracks precise timestamps, distinguishes speakers, and creates structured notes, summaries, decisions, and action items for easier follow-up."
     },
     {
       "id": "1253278",
       "name": "Keysake",
       "name_zh": "Keysake",
-      "tagline_zh": "Learn English as you type Chinese",
-      "description_zh": "Learn English as you type Chinese. Keysake is a free macOS input method that shows English alongside your Chinese. Save words, phrases, or full sentences from what you want to say. Japanese, Korean, and more languages are coming soon.",
-      "intro_zh": "",
+      "tagline_zh": "输入中文时学英语",
+      "description_zh": "Keysake 是一款免费的 macOS 输入法，会在输入中文时同时显示英文，支持保存自己想表达的单词、短语或完整句子。简介还预告将支持日语、韩语等语言，但未说明上线时间。",
+      "intro_zh": "给使用 Mac、想学英语的中文用户用，在输入中文时显示英文，并保存想学的表达。",
       "url": "https://www.producthunt.com/products/keysake-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SB7PVOG23C2Z33?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/20307291-207c-4013-99c1-54539533ec8b.png?auto=format",
       "votes_count": 257,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "学习场景明确，能随日常输入接触英文，但学习效果尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何根据未写完的中文给出合适英文，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从用户正在表达的内容中收集学习材料，做法具体且可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把学习材料和当下表达联系起来；但显示的英文是否准确，直接决定用户是在积累表达还是记住错误。",
+      "product_analysis": {
+        "target_problem": "适合日常用中文打字、又想积累英语表达的 Mac 用户。它把英文放进正在发生的表达场景，减少另找学习素材的需要。",
+        "workflow": "使用 Keysake 输入中文时查看旁边的英文，再保存想留下的单词、短语或整句。简介没有说明保存后如何查看或复习。",
+        "ai_value": "介绍没提 AI，主要靠输入时显示英文、保存表达来改善学习体验，不能仅凭链接名称判断用了 AI。",
+        "differentiation": "学习材料来自自己想说的话，不必完全依赖预设词表。最可能让人不愿换用的原因，是需要改变熟悉的输入法习惯。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "它是 macOS 输入法，支持中英文同时显示；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先取得用户已确认的中文，再生成对应英文，并让用户选择保存哪些内容。",
+        "tradeoffs": "最容易出错的是过早理解未写完的句子。后半句改变意思时，先显示的英文可能误导用户。",
+        "unknowns": "输入内容是否会发送到外部服务器，简介没有交代。"
+      },
+      "transferable_insights": [
+        "做语言学习产品时，可以让用户直接保存当下想表达的内容，用自己的句子积累学习材料。"
+      ],
+      "validation_questions": [
+        "输入一句后半段会改变含义的中文，检查最终英文是否准确反映整句意思。",
+        "检查隐私说明，确认哪些输入内容会被发送到外部服务器。"
+      ],
+      "source_tagline": "Learn English as you type Chinese",
+      "source_description": "Learn English as you type Chinese. Keysake is a free macOS input method that shows English alongside your Chinese. Save words, phrases, or full sentences from what you want to say. Japanese, Korean, and more languages are coming soon."
     },
     {
       "id": "1240357",
       "name": "Pushary",
       "name_zh": "Pushary",
-      "tagline_zh": "Every agent accessible via your Mac’s notch",
-      "description_zh": "Pushary Isle puts Claude Code, Codex, Cursor, Gemini CLI, VS Code and OpenCode in your Mac’s notch. Approve with one key, jump to the right terminal, or answer from your phone when you walk away. Native, 8 MB to download, 38 MB at rest, measured.",
-      "intro_zh": "",
+      "tagline_zh": "从 Mac 的刘海区域访问各个智能体",
+      "description_zh": "Pushary Isle 将 Claude Code、Codex、Cursor、Gemini CLI、VS Code 和 OpenCode 接入 Mac 的刘海区域，支持一键批准、跳转到对应终端，以及离开电脑后用手机回应。简介称它是原生应用，下载大小为 8 MB，静置时占用 38 MB，并称这些数字经过测量，但缓存资料没有说明测量条件。",
+      "intro_zh": "给在 Mac 上使用编程助手的开发者，把批准请求和终端跳转放到刘海区域，也支持手机回应。",
       "url": "https://www.producthunt.com/products/pushary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GP6PB77CGSKV7N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2a1ed932-d369-4cb1-8261-398e0f48b306.jpeg?auto=format",
       "votes_count": 186,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "集中批准和定位终端的用途清楚，但实际支持范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "批准请求能否准确对应任务，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把需要人决定的请求集中展示，可借用于多任务工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是从请求直接跳回对应终端，减少寻找上下文的操作。关键疑问是：快捷批准前展示的信息，是否足够让用户判断风险。",
+      "product_analysis": {
+        "target_problem": "同时使用多个编程助手的开发者，需要知道哪个任务在等批准，并找到对应窗口。Pushary 提供一个集中的处理入口。",
+        "workflow": "从 Mac 刘海区域访问接入的工具，一键批准请求或跳到对应终端。离开电脑后，还可以用手机回应；连接方式未说明。",
+        "ai_value": "它连接编程助手，方便人回应请求。介绍没说 Pushary 自身用 AI 做判断，也没有说明它会代替用户决定是否批准。",
+        "differentiation": "把批准和终端跳转放在同一入口，可能减少寻找窗口的操作。最可能让人犹豫的是：快捷批准时，能否看清即将执行的内容。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介称它是 Mac 原生应用，列出了六种接入工具，但没说具体接入技术。",
+        "possible_approach": "如果自己做，可以先接收各工具的待批准请求，标明来源和任务，再把用户的决定送回原任务，最后增加手机回应。",
+        "tradeoffs": "最容易出错的是把批准送回错误任务。多个任务同时等待时，用户可能误放行另一个操作。",
+        "unknowns": "手机回应如何确认操作者身份，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做多任务开发工具时，可以集中展示等待人工决定的请求，并保留跳回原任务的入口，方便用户先看上下文再处理。"
+      ],
+      "validation_questions": [
+        "让两个任务同时请求批准，检查每次批准是否只作用于选中的任务。",
+        "检查手机回应前是否需要验证操作者身份。"
+      ],
+      "source_tagline": "Every agent accessible via your Mac’s notch",
+      "source_description": "Pushary Isle puts Claude Code, Codex, Cursor, Gemini CLI, VS Code and OpenCode in your Mac’s notch. Approve with one key, jump to the right terminal, or answer from your phone when you walk away. Native, 8 MB to download, 38 MB at rest, measured."
     },
     {
       "id": "1251773",
       "name": "Nepotism Network",
       "name_zh": "Nepotism Network",
-      "tagline_zh": "Great things start by knowing friend of a friend of a friend",
-      "description_zh": "Someone you know knows someone you wish you knew. Nepo Network maps these connections between you and the people you want to reach on X, uncovering potential paths to a warm intro. Explore ranked routes, see who connects each step, draft your ask, and track your outreach. Your network has a surprisingly useful extended family.",
-      "intro_zh": "",
+      "tagline_zh": "好事往往从认识朋友的朋友的朋友开始",
+      "description_zh": "Nepotism Network 梳理你与想在 X 上联系的人之间的关系，寻找可能通过熟人引荐的路径。你可以查看排好序的路线及每一步的连接人，起草引荐请求，并跟踪联系进展。",
+      "intro_zh": "给想在 X 上找人引荐的用户用，查看自己与目标人物之间的关系路径，并准备和跟进联系请求。",
       "url": "https://www.producthunt.com/products/nepo-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P3AUURDV2OVZH3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1693b043-7bc0-4fbd-a8c5-4cbe963d4762.png?auto=format",
       "votes_count": 158,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找引荐人的场景明确，但关系路径是否真能用于引荐仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何区分账号有连接与真人熟悉，直接影响路线是否有用。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "展示完整路径和中间人，可借用于需要解释推荐依据的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让用户看清“可以找谁帮忙”。但连接数据能否反映真实熟悉程度，决定它提供的是可用线索还是无效名单。",
+      "product_analysis": {
+        "target_problem": "想在 X 上联系某个人时，用户可能不知道谁能帮忙引荐。难处是找出自己与目标之间有哪些中间人。",
+        "workflow": "围绕目标人物查看排序后的关系路径，确认每一步连接谁，再起草请求并跟踪联系进展。介绍没说明请求是否能直接发送。",
+        "ai_value": "介绍没提 AI，主要靠展示关系路径、整理请求和联系记录来改善体验。",
+        "differentiation": "把潜在引荐人和后续联系放在一起，可能减少来回查找。最可能让人不愿依赖它的是：显示有连接，却未必熟到能开口。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到梳理 X 上的关系连接并对路径排序，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把账号及其连接整理成关系网，再寻找通向目标的路线，按明确规则排序，并保存请求和跟进记录。",
+        "tradeoffs": "最容易出错的是把账号连接当成熟人关系；推荐了不熟的中间人，用户可能白费请求，甚至让对方尴尬。",
+        "unknowns": "路径排序依据是什么，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做商务引荐或导师匹配时，可以把推荐路径逐步展开，让用户先判断中间人是否合适，再决定联系谁。"
+      ],
+      "validation_questions": [
+        "选一位自己熟悉的目标，检查路径中的连接是否真实存在。",
+        "起草请求后，检查能否记录并更新联系进展。"
+      ],
+      "source_tagline": "Great things start by knowing friend of a friend of a friend",
+      "source_description": "Someone you know knows someone you wish you knew. Nepo Network maps these connections between you and the people you want to reach on X, uncovering potential paths to a warm intro. Explore ranked routes, see who connects each step, draft your ask, and track your outreach. Your network has a surprisingly useful extended family."
+    },
+    {
+      "id": "1252242",
+      "name": "Sider Omni Sidebar",
+      "name_zh": "Sider Omni Sidebar",
+      "tagline_zh": "为每个 Mac 应用配上 AI 助手侧栏",
+      "description_zh": "这款 AI 侧栏可在 Mac 应用旁读取屏幕内容，并直接操作；用户查看结果后，可以继续提出修改要求，简介称无需复制或上传内容。缓存简介还声称它基于 GPT-6 Astra，并能使用现有 ChatGPT 或 Codex 额度，这些说法尚未核验。",
+      "intro_zh": "给在 Mac 应用中处理任务的人用，让 AI 读取当前屏幕、执行操作，再按反馈继续修改。",
+      "url": "https://www.producthunt.com/products/sider-omni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GXEZU22QAYGGP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f488399c-5ae9-4c95-a67d-8db7ce0aa004.jpeg?auto=format",
+      "votes_count": 373,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "减少搬运内容的用途清楚，但缺少具体任务和支持范围。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "从识别屏幕到正确操作有明确难点，但实现信息很少。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "在工作现场查看结果并继续修改，是可借用的交互做法。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重直接围绕当前工作内容执行和修改；最影响判断的是，介绍没有证明它在具体应用里能准确操作到什么程度。",
+      "product_analysis": {
+        "target_problem": "面向希望 AI 帮忙操作 Mac 应用的人。若以前需要复制内容给助手、再把结果搬回应用，现在可以让侧栏围绕当前屏幕处理任务。",
+        "workflow": "在应用旁向侧栏提出要求，让它读取屏幕并执行操作。查看结果，再提出下一步修改。",
+        "ai_value": "AI 负责理解屏幕内容和用户要求，并执行操作。介绍没有给出具体任务示例，不能据此认定它能处理所有应用。",
+        "differentiation": "省去的是在应用与助手之间搬运内容。最可能让人犹豫的是：是否愿意让 AI 直接操作当前界面。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介声称基于 GPT-6 Astra、可使用 ChatGPT 或 Codex 额度；模型名称及额度兼容性均未核验。",
+        "possible_approach": "如果自己做，可以先读取当前屏幕，让模型确定目标控件，再执行操作并重新查看结果，判断是否完成。",
+        "tradeoffs": "最容易错在把指令对应到错误控件。窗口变化或按钮相似时，可能改错内容，用户还得恢复。",
+        "unknowns": "“无需上传”是否也包含屏幕数据不离开设备？简介没有说明。"
+      },
+      "transferable_insights": [
+        "做编辑类工具时，可以把助手放在工作区旁，让用户看着实际结果继续提修改，减少反复描述上下文。"
+      ],
+      "validation_questions": [
+        "在常用应用里完成一项明确修改，检查它是否准确操作了指定对象。",
+        "检查屏幕数据是否发送到云端，确认“无需上传”的实际含义。"
+      ],
+      "source_tagline": "Give every Mac app an Agent Sidebar",
+      "source_description": "An AI agent beside any Mac app. Sider Omni sidebar sees what's on your screen and acts on it directly, right where you're working. Watch the result, ask for the next change. Nothing to copy, nothing to upload. Built on GPT-6 Astra, and it can run on your existing ChatGPT or Codex credits."
+    },
+    {
+      "id": "1250743",
+      "name": "Ari by Ariso",
+      "name_zh": "Ari by Ariso",
+      "tagline_zh": "为有雄心的团队提高执行标准的 AI 助手",
+      "description_zh": "简介以 Amazon、Uber 的“标准把关人”做法为引子，称 Ari 能追踪承诺、汇报进展、协调沟通与优先级、推动后续落实，并展示哪些做法有效。它希望减少团队围绕工作本身的协调事务，让成员有更多时间和精力处理重要项目。",
+      "intro_zh": "给需要协调多人工作的团队用，追踪谁答应了什么、进展如何，并推动后续落实。",
+      "url": "https://www.producthunt.com/products/ariso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TOLICSA65DTFQU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c7ce72cc-d7bb-434f-be98-5d8c439c6921.png?auto=format",
+      "votes_count": 305,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "协调与跟进的需求清楚，但省事程度取决于信息获取方式。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何准确识别承诺值得推敲，但介绍没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕承诺持续跟进的做法可借鉴，具体交互仍不明确。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是把零散承诺变成可持续跟进的记录；最大的疑问是，维护这些记录会不会又增加一份工作。",
+      "product_analysis": {
+        "target_problem": "团队多人并行做项目时，需要反复确认谁答应了什么、事情推进到哪。负责人可能花不少时间追问和整理进展。",
+        "workflow": "团队用它追踪承诺、查看进展汇报，并协调优先级与后续行动。介绍没交代信息如何进入，也没说明成员如何更新状态。",
+        "ai_value": "标语将它称为 AI 助手，但没有说明哪些判断由 AI 完成，不能确认它会自动提取任务。",
+        "differentiation": "它把跟进、汇报和优先级协调放在一起，可能减少来回核对。若还要重复录入已有任务，团队可能不愿换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让成员确认承诺、负责人和期限，再按这些记录生成进展摘要与提醒。",
+        "tradeoffs": "最容易错在把讨论中的建议记成承诺，导致成员被催办自己没答应的事。",
+        "unknowns": "它靠成员填写信息，还是能从现有工作工具中读取？"
+      },
+      "transferable_insights": [
+        "做项目协作工具时，可以让每条承诺附上原始上下文，先确认再用于提醒，减少对任务归属的争议。"
+      ],
+      "validation_questions": [
+        "放入一段同时包含建议和明确承诺的讨论，检查它是否混淆两者。",
+        "检查生成一份进展汇报前，需要成员手动补录多少信息。"
+      ],
+      "source_tagline": "AI bar raiser for the most ambitious teams",
+      "source_description": "The greatest companies like Amazon and Uber have long used “bar raisers” to grow their talent—and now you can too. Ari helps you and your team maintain and grow a higher standard of execution by handling the work about work, tracking commitments, reporting progress, aligning communications and priorities, driving follow-through, and showing what’s working so you can double down. You and everyone gains more time and mental space for meaningful work, to tackle your most ambitious projects."
     },
     {
       "id": "1252237",
       "name": "Makersclaw 2.0",
       "name_zh": "Makersclaw 2.0",
-      "tagline_zh": "The operating system for a company run by agents",
-      "description_zh": "MakersClaw 2.0 turns a goal into the apps, agents and automations needed to get it done. We originally launched MakersClaw as AI employees that lived in Slack, Teams and Telegram. We rebuilt it around a different idea: instead of hiring an agent for a role, tell MakersClaw what you want done. It builds the tools for the job, runs them continuously, remembers the work and operates within a budget you set. Today it starts with go-to-market",
-      "intro_zh": "",
+      "tagline_zh": "为智能体运营的公司提供操作系统",
+      "description_zh": "Makersclaw 2.0 把目标转成所需的应用、智能体和自动化，最初从市场推广与获客工作切入。它从原先驻留在 Slack、Teams 和 Telegram 中的 AI 员工，改为按目标构建工具、持续运行、记住工作，并在用户设定的预算内运作。",
+      "intro_zh": "给想用 AI 执行市场推广与获客任务的团队，把目标转成工具和持续运行的任务。",
       "url": "https://www.producthunt.com/products/makersclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YTJLM2SBTWHMLF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3f906620-6f91-4b20-b750-827d30d4bb0b.jpeg?auto=format",
       "votes_count": 155,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "目标和用途清楚，但缺少实际能完成哪些获客任务的例子。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "持续执行与预算限制之间有具体问题可分析，实现方式未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "按目标组织工具的做法可借鉴，但适用任务范围尚不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重按目标组织工作的方式，能减少用户理解岗位和工具分工的负担；但预算能否约束持续执行，直接影响是否敢让它长期运行。",
+      "product_analysis": {
+        "target_problem": "面向希望让 AI 持续做市场推广与获客的团队。以前的版本让用户按岗位选择 AI 员工，现在可以直接说要完成什么。",
+        "workflow": "用户提出目标、设定预算；系统据此构建应用、智能体和自动化，持续运行并记住工作。简介未给出具体任务示例。",
+        "ai_value": "AI 不只回应问题，还负责把目标转成工具和执行任务。智能体就是能围绕任务持续执行动作的软件。",
+        "differentiation": "可能省去用户先拆岗位、再挑 AI 员工的步骤。但若无法确认它会执行哪些动作，团队可能不愿交出任务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到工具生成、持续运行、工作记忆和预算限制，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把目标拆成可检查的任务，再为任务配工具；每次执行前检查剩余预算，执行后保存结果。",
+        "tradeoffs": "最难的是及时限制支出：若多项任务同时运行，预算检查可能漏算尚未结算的费用，造成超支。",
+        "unknowns": "它所说的预算覆盖哪些费用，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做多工具工作台时，可以让用户先填目标，再展示拟执行的任务和所需工具，适合用户不熟悉工具分工的场景。"
+      ],
+      "validation_questions": [
+        "给一个明确的获客目标，检查它生成的任务是否真正对应目标。",
+        "设置较小预算，检查达到上限后是否停止新增支出。"
+      ],
+      "source_tagline": "The operating system for a company run by agents",
+      "source_description": "MakersClaw 2.0 turns a goal into the apps, agents and automations needed to get it done. We originally launched MakersClaw as AI employees that lived in Slack, Teams and Telegram. We rebuilt it around a different idea: instead of hiring an agent for a role, tell MakersClaw what you want done. It builds the tools for the job, runs them continuously, remembers the work and operates within a budget you set. Today it starts with go-to-market"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,510 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-09-08T20:02:56+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:30:40+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1234901",
       "name": "PR Lens by Coldtea.ai",
       "name_zh": "PR Lens by Coldtea.ai",
-      "tagline_zh": "See code through a new lens",
-      "description_zh": "PR Lens is a new way to look at code. It draws animated architecture and data flow diagrams of any codebase and every pull request, so you see the change before you read a single line of code. It runs as a GitHub Action, on the CLI, or as a skill for your coding agent. Open source under MIT.",
-      "intro_zh": "",
+      "tagline_zh": "换个视角看代码",
+      "description_zh": "PR Lens 为代码库和拉取请求（提交给团队审查的代码改动）绘制带动画的架构图和数据流图，让人先看变化，再读代码。它支持在 GitHub 自动任务、命令行或编程助手中运行，以 MIT 许可证开源。",
+      "intro_zh": "给需要理解项目和审查代码的开发者，把代码结构和改动画成图，辅助定位要细读的部分。",
       "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QDW4KEB2OFO6GI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fd968e40-a228-4bff-a978-184be5c35b60.gif?auto=format",
       "votes_count": 330,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "看图辅助理解代码的用途清楚，但图能否准确反映改动尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从代码改动中找出受影响的关系，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先展示关系变化再查看细节，可借用于其他复杂内容的审查。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是先看关系变化，再决定细读哪里；但图若不能覆盖间接影响，就可能把审查者引向错误判断。",
+      "product_analysis": {
+        "target_problem": "开发者接手项目或审查改动时，需要弄清模块怎样连接、数据流向哪里。只看局部代码，可能难以判断改动影响。",
+        "workflow": "选择 GitHub 自动任务、命令行或编程助手中的一种运行方式，为代码库或代码改动生成图，再结合图阅读代码。具体配置步骤未说明。",
+        "ai_value": "介绍没提 AI，主要靠架构和数据流可视化改善阅读体验。支持编程助手调用，不等于已说明用 AI 生成图。",
+        "differentiation": "把结构关系提前展示，可能减少来回查找代码的次数。最可能阻止用户继续用的，是图不准，反而需要逐项核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1243162",
-      "name": "Tucky",
-      "name_zh": "Tucky",
-      "tagline_zh": "Notes docked to your screen edge, with an AI agent inside",
-      "description_zh": "Tucky is a native macOS notes app that sleeps as a thin stripe on the screen edge. Local and encrypted. Plus is $4/month for voice, connectors, and the best LLM models.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/tucky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HOXPFE7M5744T2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/af9b7889-4031-4ae0-9070-ff2dee8806af.png?auto=format",
-      "votes_count": 259,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持三种运行方式，并以 MIT 许可证开源；介绍没说具体如何分析代码和生成图。",
+        "possible_approach": "如果自己做，可以先提取模块及调用关系，再比较改动前后，把变化画出来，并让图中节点对应到代码位置。",
+        "tradeoffs": "最难的是找全受影响的关系。漏掉间接调用，用户就可能误以为改动只影响眼前模块。",
+        "unknowns": "生成的图覆盖哪些编程语言？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做配置或流程审查工具时，可以先画出改动前后的关系差异，让审查者从变化处进入细节。"
+      ],
+      "validation_questions": [
+        "用一个已知涉及跨模块调用的改动，检查图是否漏掉关键影响。",
+        "修改一处代码后重新生成图，检查对应变化是否被正确标出。"
+      ],
+      "source_tagline": "See code through a new lens",
+      "source_description": "PR Lens is a new way to look at code. It draws animated architecture and data flow diagrams of any codebase and every pull request, so you see the change before you read a single line of code. It runs as a GitHub Action, on the CLI, or as a skill for your coding agent. Open source under MIT."
     },
     {
       "id": "1241043",
       "name": "Scriptly",
       "name_zh": "Scriptly",
-      "tagline_zh": "An iOS teleprompter app controlled by your voice",
-      "description_zh": "Write, organize, and record videos effortlessly with Scriptly. Featuring real-time voice-following scrolling, local storage privacy, and professional teleprompter tools. Download the public beta on TestFlight.",
-      "intro_zh": "",
+      "tagline_zh": "一款用声音控制的 iOS 提词器应用",
+      "description_zh": "Scriptly 支持编写、整理稿件和录制视频，提供实时跟随语音滚动、本地存储及提词工具。介绍称本地存储有助于保护隐私，并提供 TestFlight 公开测试版下载。",
+      "intro_zh": "给需要对着稿件录视频的人用，在 iOS 上编写和整理稿件，录制时让提词随语音滚动。",
       "url": "https://www.producthunt.com/products/sciptly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UO2ODGJRIT2SF5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5444bf50-def7-48d0-9d51-81b9c3406c07.png?auto=format",
       "votes_count": 259,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录视频时让提词跟随说话节奏，解决的问题明确，但跟随效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "口头内容与稿件位置如何对应，是具体且影响体验的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "让内容随用户进度移动的做法可借鉴，但适用条件尚不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是让提词适应说话进度；最影响判断的是偏离原稿后能否继续跟随，资料尚未回答。",
+      "product_analysis": {
+        "target_problem": "对稿录视频的人需要边说边看下一句。提词若跟不上说话节奏，就可能打断表达。",
+        "workflow": "在应用里编写、整理稿件，再录制视频；提词会实时跟随语音滚动。资料提供了 TestFlight 公测入口。",
+        "ai_value": "介绍没提 AI，主要靠语音跟随滚动改善提词体验，不能据此确定是否使用 AI。",
+        "differentiation": "它让滚动进度跟着说话走，可能减少手动调整。最可能让人不愿换用的，是跟随出错会打断录制。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 iOS、实时语音跟随滚动和本地存储，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再与稿件逐段比对，找到当前读到的位置后推动滚动。",
+        "tradeoffs": "最难的是读错或跳句后仍找对位置。匹配错了，屏幕可能跳到别段，让用户找不到下一句。",
+        "unknowns": "本地存储是否也意味着语音处理不需要上传，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做朗读练习或演讲排练工具时，可以让文本随朗读位置移动，减少用户停下来翻页。"
+      ],
+      "validation_questions": [
+        "录制时故意跳过一句，检查提词能否重新找到当前段落。",
+        "确认语音处理是否需要把录音传出设备。"
+      ],
+      "source_tagline": "An iOS teleprompter app controlled by your voice",
+      "source_description": "Write, organize, and record videos effortlessly with Scriptly. Featuring real-time voice-following scrolling, local storage privacy, and professional teleprompter tools. Download the public beta on TestFlight."
     },
     {
       "id": "1233849",
       "name": "Routines by Databox",
       "name_zh": "Routines by Databox",
-      "tagline_zh": "An AI Analyst that runs analysis and reports on a schedule",
-      "description_zh": "Give your AI Analyst a prompt and a schedule. It analyzes your live data, prepares the report or analysis you asked for, and delivers it by email, Slack, or in-app. The recurring work you do by hand today gets done automatically.",
-      "intro_zh": "",
+      "tagline_zh": "按计划执行分析并生成报告的 AI 分析助手",
+      "description_zh": "给 AI 分析助手一段指令并设定时间，它会分析实时数据，准备所需的报告或分析。结果可通过邮件、Slack 或应用内送达，用来自动执行重复的手工工作。",
+      "intro_zh": "给定期看数据、写报告的业务人员用，按设定时间分析数据，把结果送到邮件、Slack 或应用内。",
       "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XFUEYVLLCTAY6D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/82286f9a-da03-4a42-b0c1-c70b1054e8b2.png?auto=format",
       "votes_count": 176,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "定期分析和发报告的需求清楚，但结果质量尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "重复执行时如何保持指标口径一致，是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把分析要求、执行时间和送达位置一起保存，可借用于周期性任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最实用的是把定期分析连同分发一起自动执行；最影响判断的是，用户能否约束统计口径，避免每次收到后仍要重算。",
+      "product_analysis": {
+        "target_problem": "业务人员需要定期检查数据、整理报告。以前手工重复做的分析，现在可以设好要求和时间后自动执行。",
+        "workflow": "写明要分析什么，再设定执行时间。工具分析实时数据，生成报告或分析，并通过邮件、Slack 或应用内送达。",
+        "ai_value": "AI 负责按文字要求分析数据、整理结果；定时执行和发送让用户不用每次重新发起。",
+        "differentiation": "省下重复启动分析和分发结果的操作。最可能让人犹豫的是，自动报告是否仍需逐次核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI 分析实时数据、按计划执行并发送结果，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存分析要求、时间和收件位置，再定时取数，让 AI 整理结果后发送。",
+        "tradeoffs": "最容易出错的是理解指标口径。若把本周和过去七天混用，用户可能拿不可比的数字判断变化。",
+        "unknowns": "用户能否固定指标定义和统计时间范围？"
+      },
+      "transferable_insights": [
+        "做经营报表工具时，可以把分析要求、时间和送达位置保存成一个任务，减少每周重复填写。"
+      ],
+      "validation_questions": [
+        "用一组口径明确的数据生成报告，核对关键数字是否与原始数据一致。",
+        "设一个近期执行时间，检查报告是否按时送到指定位置。"
+      ],
+      "source_tagline": "An AI Analyst that runs analysis and reports on a schedule",
+      "source_description": "Give your AI Analyst a prompt and a schedule. It analyzes your live data, prepares the report or analysis you asked for, and delivers it by email, Slack, or in-app. The recurring work you do by hand today gets done automatically."
     },
     {
       "id": "1243202",
       "name": "Airuncode",
       "name_zh": "Airuncode",
-      "tagline_zh": "Run multiple local coding agents on your machine",
-      "description_zh": "Airuncode is a local-first agent runtime for serious software work. Run multiple coding agents on your machine, bring your own API keys, switch between cloud and local models, and pay providers directly with zero token markup. It scans your codebase, debates solutions across agents, edits files, runs tests and self-heals failures. It also ships with V-CORE, a native Vulkan 3D runtime for AI-assisted game development. Available on Windows, macOS and Linux.",
-      "intro_zh": "",
+      "tagline_zh": "在自己的电脑上运行多个编程智能体",
+      "description_zh": "Airuncode 是优先在本机运行的编程智能体工具，可使用自备 API 密钥、切换云端和本地模型，并直接向模型提供商付费；简介称不加收 token（模型处理文本的计量单位）费用。它支持扫描代码、让多个智能体讨论方案、修改文件、运行测试并尝试修复失败，还附带用于 AI 辅助游戏开发的 V-CORE 原生 Vulkan 3D 运行环境，支持 Windows、macOS 和 Linux。",
+      "intro_zh": "给想让 AI 参与开发的程序员用，在本机安排多个编程智能体读代码、改文件和运行测试。",
       "url": "https://www.producthunt.com/products/airuncode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LQFT5B5PA5MOJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9fdeda24-7c00-46c4-9dd4-6ea4c759961e.png?auto=format",
       "votes_count": 148,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "开发任务和操作范围明确，但自动修复的可靠性未得到验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个智能体共同修改代码时，如何避免互相覆盖是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "用测试结果推动下一轮修改可以借鉴，但缺少停止条件等细节。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把改代码后的测试和修复接起来；最影响判断的是，多智能体同时工作会不会增加人工收拾冲突的负担。",
+      "product_analysis": {
+        "target_problem": "程序员想让 AI 连续处理读代码、修改和验证，不必每轮都手动接续这些操作。",
+        "workflow": "使用自备密钥并选择云端或本地模型，让多个智能体扫描代码、讨论方案，再修改文件、运行测试并尝试修复失败。",
+        "ai_value": "AI 参与方案讨论和代码修改，也会根据测试失败继续尝试修复；能处理多复杂的任务还不清楚。",
+        "differentiation": "它把修改和测试放进同一套工具。最可能让人犹豫的是，是否愿意让多个智能体直接改工作目录。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1242727",
-      "name": "Assist",
-      "name_zh": "Assist",
-      "tagline_zh": "Voice annotate your Mac, get screenshots + clipboard manager",
-      "description_zh": "Annotate your Mac screen with voice, capture full-screen screenshots, and keep copied text ready to reuse from the notch.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/assist-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HRQNZUNMW6OS3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e1890d6d-4fda-42b5-a59a-6865c5de9729.png?auto=format",
-      "votes_count": 135,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介明确支持本机多智能体、云端与本地模型，以及 V-CORE；后者使用 Vulkan（调用显卡进行绘图的接口）。",
+        "possible_approach": "如果自己做，可以先给各智能体分配独立代码副本，再汇总修改、运行测试，把失败信息交回修改者。",
+        "tradeoffs": "最难的是合并修改：多个智能体可能改到同一处，覆盖彼此的修复，导致测试反复失败。",
+        "unknowns": "介绍没说明多个智能体如何隔离和合并文件修改。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做自动改代码工具时，可以让每次修改后自动运行测试，再把报错交给修改者继续处理，同时设置重试上限。"
+      ],
+      "validation_questions": [
+        "让两个智能体修改同一文件，检查最终是否保留双方需要的改动。",
+        "交给它一个有已知失败测试的任务，检查修复是否保留原测试，而非删改测试来通过。"
+      ],
+      "source_tagline": "Run multiple local coding agents on your machine",
+      "source_description": "Airuncode is a local-first agent runtime for serious software work. Run multiple coding agents on your machine, bring your own API keys, switch between cloud and local models, and pay providers directly with zero token markup. It scans your codebase, debates solutions across agents, edits files, runs tests and self-heals failures. It also ships with V-CORE, a native Vulkan 3D runtime for AI-assisted game development. Available on Windows, macOS and Linux."
     },
     {
       "id": "1216716",
       "name": "Bloop",
       "name_zh": "Bloop",
-      "tagline_zh": "Turn any Mac audio into a visual you can actually export",
-      "description_zh": "Bloop turns system audio or mic input into eight real-time shader skins - every frame reacts to what's actually playing. Keep it beside your work in the resizable Mini Player or send it to the menu bar. Drop in an MP3 playlist and export the whole thing as a finished video. Apple Silicon, notarized, no subscription. Two skins are free forever, and they're the full app, not a trial.",
-      "intro_zh": "",
+      "tagline_zh": "把 Mac 上的音频变成可导出的视觉画面",
+      "description_zh": "Bloop 将系统音频或麦克风输入转成八种实时响应声音的视觉皮肤，可放在可调大小的迷你播放器或菜单栏中。它支持导入 MP3 播放列表并导出完整视频，面向 Apple Silicon Mac，已获 Apple 公证，无订阅；两款皮肤永久免费，提供完整应用功能而非限时试用。",
+      "intro_zh": "给想在 Mac 上看声音画面、制作音频可视化视频的人用，支持实时显示和播放列表导出。",
       "url": "https://www.producthunt.com/products/bloop-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OMY2BYVJ7FLV5O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/24fdb476-8400-4b8a-9e44-bfe9abef379c.png?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "实时观看和导出视频的用途清楚，但导出质量与限制待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "声音变化与导出画面如何保持同步，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把实时展示与成品导出放在同一工具里，可借用于其他动态内容工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是播放列表能直接变成完整视频；最影响判断的是导出画质能否满足实际使用。",
+      "product_analysis": {
+        "target_problem": "Mac 用户想让正在播放的声音变成动态画面，或把音频列表做成视频。麻烦在于能实时观看的画面，未必也方便保存。",
+        "workflow": "用系统音频或麦克风输入驱动画面，在迷你播放器或菜单栏观看。要生成视频，则导入 MP3 播放列表并导出。",
+        "ai_value": "介绍没提 AI，主要靠画面随音频实时变化来改善体验。",
+        "differentiation": "观看和导出放在一个应用里，减少另找保存办法的需要。只有八种皮肤，可能不适合对画面风格要求很具体的人。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1243245",
-      "name": "Clipnote",
-      "name_zh": "Clipnote",
-      "tagline_zh": "Save your AI conversations so they persist after closing tab",
-      "description_zh": "Your ChatGPT and Claude conversations disappear the moment you close the tab. With Clipnote, just tell your AI to \"save this\" and it's kept on the spot — pasting it in works too, of course. It's a place to keep your AI conversations like a notepad, come back to them later, and pick up right where you left off.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/clipnote-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VPDNSBR7DX5UL4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/115e3022-e4a4-4e79-b507-f5ed00642d36.png?auto=format",
-      "votes_count": 115,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "使用着色器（生成画面效果的图形程序）呈现八种实时皮肤，支持 Apple Silicon，已获 Apple 公证。",
+        "possible_approach": "如果自己做，可以先提取音量和不同音高范围的强弱，再让这些数值控制画面；导出时按音频时间逐帧生成视频。",
+        "tradeoffs": "最容易出错的是导出时声音与画面对不齐，用户会看到节奏变化后画面才响应。",
+        "unknowns": "介绍没有说明导出视频的分辨率上限。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做动态图表或动画工具时，可以让同一份内容既能实时展示，也能直接导出，减少用户另行录屏的步骤。"
+      ],
+      "validation_questions": [
+        "导入节奏变化明显的 MP3，检查导出视频的画面是否始终跟得上声音。",
+        "用免费皮肤导出视频，检查最高可选分辨率是否满足用途。"
+      ],
+      "source_tagline": "Turn any Mac audio into a visual you can actually export",
+      "source_description": "Bloop turns system audio or mic input into eight real-time shader skins - every frame reacts to what's actually playing. Keep it beside your work in the resizable Mini Player or send it to the menu bar. Drop in an MP3 playlist and export the whole thing as a finished video. Apple Silicon, notarized, no subscription. Two skins are free forever, and they're the full app, not a trial."
     },
     {
       "id": "1242964",
       "name": "Remind",
       "name_zh": "Remind",
-      "tagline_zh": "Full-screen meeting reminders with AI briefings",
-      "description_zh": "Remind puts your next meeting on every screen, with an AI briefing on who you are meeting and a one-click join button. Stay focused until it is time to join. Connect Google or Microsoft calendars and bring relevant email, Slack, and Notion context into your meeting prep. For macOS 14+. $19.99/year with a 7-day free trial.",
-      "intro_zh": "",
+      "tagline_zh": "带 AI 会前简报的全屏会议提醒",
+      "description_zh": "Remind 会在每块屏幕上显示下一场会议，提供介绍参会对象的 AI 简报和一键入会按钮，让你在入会前继续专注工作。它支持连接 Google 或 Microsoft 日历，并将相关邮件、Slack 和 Notion 内容用于会前准备；适用于 macOS 14 及以上版本，年费 19.99 美元，提供 7 天免费试用。",
+      "intro_zh": "给用 Mac 参加线上会议的人，在每块屏幕上提醒下一场会议，提供会前简报并支持一键入会。",
       "url": "https://www.producthunt.com/products/remind-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PPGIUUFOH4YE66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/59522137-b309-4177-85eb-fd87b1036348.png?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "提醒、了解参会对象和入会集中在一起，使用场景明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把不同来源的资料准确对应到本次会议，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在提醒中同时提供准备材料和操作按钮，可借用于其他定时任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重提醒出现时就能了解背景并入会；最影响判断的是资料匹配是否准确，错误简报可能比没有简报更误事。",
+      "product_analysis": {
+        "target_problem": "适合开会频繁、又想专注手头工作的 Mac 用户。麻烦在于及时注意下一场会议，同时弄清参会对象和相关背景。",
+        "workflow": "连接 Google 或 Microsoft 日历，并引入相关邮件、Slack、Notion 内容。下一场会议会出现在每块屏幕上，用户查看简报，再点击入会。",
+        "ai_value": "AI 负责生成介绍参会对象的会前简报。介绍还提到引入相关工作资料，但没说明这些资料如何进入简报。",
+        "differentiation": "把会议时间、背景和入会按钮放在一起，可能减少临开会时查找资料的操作。全屏提醒也可能打断正在进行的工作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 macOS 14+，可连接 Google 或 Microsoft 日历，并引入邮件、Slack 和 Notion 内容。",
+        "possible_approach": "如果自己做，可以先读取日程和参会人，再找相关资料生成简报，最后按会议时间显示提醒和入会按钮。",
+        "tradeoffs": "最容易出错的是把资料对应到参会人。若混入同名人员或其他项目的信息，用户可能带着错误背景参会。",
+        "unknowns": "介绍没说会把哪些工作资料发送给 AI 服务处理。"
+      },
+      "transferable_insights": [
+        "做截止日期或预约提醒时，可以把必要背景和下一步按钮一起放进提醒，减少用户收到通知后再找入口。"
+      ],
+      "validation_questions": [
+        "选一场有同名联系人的会议，检查简报是否引用了正确对象的资料。",
+        "在多屏工作时触发一次提醒，检查全屏显示是否妨碍继续操作。"
+      ],
+      "source_tagline": "Full-screen meeting reminders with AI briefings",
+      "source_description": "Remind puts your next meeting on every screen, with an AI briefing on who you are meeting and a one-click join button. Stay focused until it is time to join. Connect Google or Microsoft calendars and bring relevant email, Slack, and Notion context into your meeting prep. For macOS 14+. $19.99/year with a 7-day free trial."
     },
     {
       "id": "1234767",
       "name": "Nina by Antalpha",
       "name_zh": "Nina by Antalpha",
-      "tagline_zh": "Non-custodial AI Agent: research, predict & trade crypto",
-      "description_zh": "Nina is a non-custodial AI trading assistant by Antalpha (NASDAQ: ANTA). Unlike generic chatbots, it's wired to institutional-grade, real-time data and answers conclusion-first, with charts—not walls of text. Ask in plain language; Nina drafts the trade, prediction, or safety check—you sign on your own wallet. One chat now covers crypto and US stocks: market intel, smart-money tracking, predictions & Polymarket, wallet-safety checks—plus Sentinel 24/7 alerts and MCP for any AI client.",
-      "intro_zh": "",
+      "tagline_zh": "非托管 AI 助手：研究、预测与交易加密资产",
+      "description_zh": "Nina 是 Antalpha 推出的非托管 AI 交易助手，即由用户自己的钱包签署交易；介绍称它连接实时市场数据，先给结论并配图表，还能按自然语言要求起草交易、预测或安全检查。它在同一聊天中提供加密资产和美股资讯、大额资金动向追踪、预测及 Polymarket 相关功能、钱包安全检查，并支持 Sentinel 全天候提醒，以及供其他 AI 客户端连接的 MCP。",
+      "intro_zh": "给关注加密资产和美股的人用，通过聊天查市场、看预测、检查钱包，并起草待签署的交易。",
       "url": "https://www.producthunt.com/products/antalpha?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CC7TGEK5H6UJIY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/674adfde-d021-4ac5-b1c1-83dbf4310da4.png?auto=format",
       "votes_count": 107,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "查询到交易准备的用途清楚，但数据质量和操作收益未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把自然语言要求准确变成钱包交易，是具体且后果重大的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先生成可检查的操作草稿，再由用户确认，适合高风险操作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是保留用户签署这一步；但非托管不等于不会损失资金，关键仍是用户能否看懂自己将签什么。",
+      "product_analysis": {
+        "target_problem": "面向需要结合市场信息决定交易的人。麻烦在于，理解行情之后，还要把判断转成具体交易。",
+        "workflow": "用自然语言提问，查看结论和图表；需要操作时，让 Nina 起草交易，再用自己的钱包签署。美股功能是否包含下单，介绍没说。",
+        "ai_value": "AI 把问题转成市场解读、预测或交易草稿。预测不等于可靠收益，图表也不能证明结论正确。",
+        "differentiation": "把查信息和准备操作放进同一聊天。用户可能不愿切换，主要因为难以判断交易草稿是否可信。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其连接实时数据、由用户钱包签署，并支持 MCP（让 AI 客户端连接外部工具的通用协议）。",
+        "possible_approach": "如果自己做，可以先读取行情和钱包信息，再把用户要求整理成交易参数，签名前展示资产、数量和授权范围。",
+        "tradeoffs": "最容易错在把用户意思转成交易参数。资产或授权范围一旦弄错，用户即使亲自签名，也可能签下错误操作。",
+        "unknowns": "签名前是否能清楚展示实际转出的资产和授予的权限？"
+      },
+      "transferable_insights": [
+        "做支付或资金操作助手时，可以先生成操作草稿，把最终确认留给用户，并展示将发生的具体变化。"
+      ],
+      "validation_questions": [
+        "给出容易混淆的同名资产，检查交易草稿是否选对资产。",
+        "检查签名前是否明确展示授权对象和额度。"
+      ],
+      "source_tagline": "Non-custodial AI Agent: research, predict & trade crypto",
+      "source_description": "Nina is a non-custodial AI trading assistant by Antalpha (NASDAQ: ANTA). Unlike generic chatbots, it's wired to institutional-grade, real-time data and answers conclusion-first, with charts—not walls of text. Ask in plain language; Nina drafts the trade, prediction, or safety check—you sign on your own wallet. One chat now covers crypto and US stocks: market intel, smart-money tracking, predictions & Polymarket, wallet-safety checks—plus Sentinel 24/7 alerts and MCP for any AI client."
+    },
+    {
+      "id": "1243162",
+      "name": "Tucky",
+      "name_zh": "Tucky",
+      "tagline_zh": "停靠在屏幕边缘的笔记，内置 AI 助手",
+      "description_zh": "Tucky 是一款原生 macOS 笔记应用，闲置时以屏幕边缘的细条显示，介绍称其支持本地存储和加密。Plus 每月 4 美元，包含语音、连接器和大语言模型，具体模型未说明。",
+      "intro_zh": "给想在 Mac 工作时随手记事的人用，把笔记放在屏幕边缘，闲置时收成细条。",
+      "url": "https://www.producthunt.com/products/tucky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HOXPFE7M5744T2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/af9b7889-4031-4ae0-9070-ff2dee8806af.png?auto=format",
+      "votes_count": 259,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "随手记事的场景清楚，但展开操作和实际便利程度未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "本地加密笔记与外部 AI 如何交换内容，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "将低频使用的工具收在屏幕边缘，是可以借用的具体交互做法。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重边缘收起带来的空间节省可能性；但 AI 到底能做什么仍不清楚，暂时无法判断订阅是否划算。",
+      "product_analysis": {
+        "target_problem": "在 Mac 上工作时，临时记事需要容易找到笔记，又不希望它一直占着屏幕。Tucky 用边缘细条保留入口。",
+        "workflow": "在应用里写笔记，闲置时笔记应用以屏幕边缘细条显示。如何展开，以及语音和连接器怎么使用，介绍没说。",
+        "ai_value": "标语提到内置 AI 助手，付费版提供大语言模型，但没说明 AI 能替用户完成哪件具体工作。",
+        "differentiation": "边缘收起可能减少笔记占用的显示空间；最可能让人犹豫的是 AI 功能下的数据去向不明确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到原生 macOS 应用、本地存储和加密，未说明加密方式。",
+        "possible_approach": "如果自己做，可以先做能贴边收起的笔记窗口，再加本地加密保存；接入 AI 时，让用户选择要发送的文字。",
+        "tradeoffs": "最容易出错的是把本地笔记交给外部 AI 时，发送范围不清楚，用户可能误传敏感内容。",
+        "unknowns": "启用 AI 后，哪些笔记内容会离开设备？"
+      },
+      "transferable_insights": [
+        "做需要随手查看的清单或草稿工具时，可以借用边缘收起的做法，减少常驻窗口占位。"
+      ],
+      "validation_questions": [
+        "全屏工作时，能否方便地展开边缘笔记？",
+        "调用一次 AI，能否确认具体发送了哪些笔记内容？"
+      ],
+      "source_tagline": "Notes docked to your screen edge, with an AI agent inside",
+      "source_description": "Tucky is a native macOS notes app that sleeps as a thin stripe on the screen edge. Local and encrypted. Plus is $4/month for voice, connectors, and the best LLM models."
+    },
+    {
+      "id": "1242727",
+      "name": "Assist",
+      "name_zh": "Assist",
+      "tagline_zh": "用语音标注 Mac 屏幕，兼具截图和剪贴板管理",
+      "description_zh": "用语音为 Mac 屏幕添加标注，并截取全屏截图。复制过的文字可以从屏幕刘海区域取出，再次使用。",
+      "intro_zh": "给需要讲解 Mac 屏幕内容、反复取用文字的人用，提供语音标注、全屏截图和文字复用。",
+      "url": "https://www.producthunt.com/products/assist-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HRQNZUNMW6OS3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e1890d6d-4fda-42b5-a59a-6865c5de9729.png?auto=format",
+      "votes_count": 135,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但语音标注的具体结果和操作方式不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "剪贴板留存涉及敏感内容处理，值得检查实际设计。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把近期复制内容放在固定位置便于取用，但效率收益待确认。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重复制文字能再次取用；但语音标注的结果形式不明，暂时无法判断它能替代多少手动操作。",
+      "product_analysis": {
+        "target_problem": "讲解屏幕内容、整理截图或重复粘贴文字的 Mac 用户可能需要它。复制过的文字若被后续复制替换，重新寻找原文会打断手头工作。",
+        "workflow": "用户可用语音标注屏幕、截取全屏，也可从刘海区域取用复制过的文字。介绍未说明三项功能是否能连续操作。",
+        "ai_value": "介绍没提 AI，主要靠语音操作、截图和文字留存来改善体验。不能据此判断语音是否会转成文字。",
+        "differentiation": "它把复制文字的取用入口放到刘海区域，可能减少回找原文的动作。已有剪贴板工具的人，可能不愿再增加一个常驻入口。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持 Mac 语音屏幕标注、全屏截图和刘海区域取用复制文字，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取并保存近期复制的文字，再在刘海区域列出可选条目。截图和语音标注分开实现；语音如何变成标注，要先确定输出形式。",
+        "tradeoffs": "最容易忽略的是把敏感文字也存入历史。若没有排除或清除机制，用户复制的密码等内容可能继续留在列表里。",
+        "unknowns": "语音标注最终呈现为文字、录音，还是其他标记？"
+      },
+      "transferable_insights": [
+        "做需要反复填入文字的桌面工具时，可以把近期复制内容放在固定入口，让用户直接选回，不必重新找原文。"
+      ],
+      "validation_questions": [
+        "说一句标注，检查屏幕上最终生成什么内容。",
+        "复制一段测试用敏感文字，检查能否从历史中彻底删除。"
+      ],
+      "source_tagline": "Voice annotate your Mac, get screenshots + clipboard manager",
+      "source_description": "Annotate your Mac screen with voice, capture full-screen screenshots, and keep copied text ready to reuse from the notch."
+    },
+    {
+      "id": "1243245",
+      "name": "Clipnote",
+      "name_zh": "Clipnote",
+      "tagline_zh": "保存 AI 对话，关闭标签页后仍可查看",
+      "description_zh": "简介将 Clipnote 描述为保存 ChatGPT 和 Claude 对话的记事本：可以告诉 AI“保存这段”，也可以粘贴内容保存。之后可回来查看，并接着此前的内容继续交流。",
+      "intro_zh": "给需要留存 ChatGPT、Claude 对话的人用，把对话保存成可回看的笔记。",
+      "url": "https://www.producthunt.com/products/clipnote-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VPDNSBR7DX5UL4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/115e3022-e4a4-4e79-b507-f5ed00642d36.png?auto=format",
+      "votes_count": 115,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "留存需求明确，但比已有对话历史省多少事尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "口头保存指令如何对应到完整对话，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "在当前对话里发起保存，并保留粘贴入口，做法可借用。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重不用离开对话就能发起保存；但能否带着完整上下文继续交流，决定它比普通笔记多省多少事。",
+      "product_analysis": {
+        "target_problem": "需要把 AI 对话留作资料的人，会用它集中保存和回看。缓存简介称关页就会丢失对话，这不能当作 ChatGPT、Claude 的普遍情况。",
+        "workflow": "告诉 AI“保存这段”，或把内容粘贴进 Clipnote。之后回来查看；简介还提到继续交流，但没说明如何接回原对话。",
+        "ai_value": "AI 在这里是对话来源，也是保存指令的入口。没有材料表明它会总结或整理内容。",
+        "differentiation": "相比手动复制粘贴，指令保存可能少一次搬运。若原平台历史记录已经够用，用户可能不愿再维护一份。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到支持 ChatGPT、Claude 对话和粘贴保存，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收粘贴内容并存成笔记，再让 AI 把指定对话交给保存服务，返回保存成功的确认。",
+        "tradeoffs": "最容易错在“这段”的范围：若只存了最后一条回答，回看时就可能缺少理解它所需的前文。",
+        "unknowns": "“继续交流”是否会把保存的上下文带回 AI，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做写作或研究助手时，可把保存动作放进当前对话，同时提供粘贴入口，让用户在自动保存不可用时仍能留存。"
+      ],
+      "validation_questions": [
+        "让 AI 保存一段多轮对话，检查笔记是否包含指定的完整范围。",
+        "从已保存笔记继续提问，检查 AI 是否真正拿到了此前上下文。"
+      ],
+      "source_tagline": "Save your AI conversations so they persist after closing tab",
+      "source_description": "Your ChatGPT and Claude conversations disappear the moment you close the tab. With Clipnote, just tell your AI to \"save this\" and it's kept on the spot — pasting it in works too, of course. It's a place to keep your AI conversations like a notepad, come back to them later, and pick up right where you left off."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

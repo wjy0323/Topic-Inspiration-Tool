@@ -1,357 +1,511 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-08-01T17:11:38+08:00",
+  "generated_at": "2026-11-07T15:39:48+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1211205",
-      "name": "MiniMax H3",
-      "name_zh": "MiniMax H3",
-      "tagline_zh": "统一视频生成，让动态设计和品牌包装一气呵成",
-      "description_zh": "MiniMax H3 是个开源多模态模型，能一次性生成带原生立体声的 2K 视频。你把文字、图片或者音频给它，它就能按你的复杂要求精准渲染出商业级的视觉内容，尤其擅长文字排版和动态包装。",
-      "intro_zh": "输入文字或图片，直接给你一段带声音的 2K 高清视频，做动态海报、产品宣传片又快又稳。正愁不会做视频的设计师和电商运营，用它能省下大把外包费。",
-      "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OLTE3UX4QGE277?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8ebf1d62-3a79-46ee-84b2-016179ab458e.jpeg?auto=format",
-      "votes_count": 350,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "输出本身就是视频，且有丰富的 UI 操作界面、生成前后对比和立体音效，观感极佳，视觉冲击力很强，非常适合录屏演示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念非常直观——文/图生成视频，普通用户一看就懂。虽然做出好效果可能需要一点设计感，但上手门槛不高，小白也能玩起来。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "当日 ProductHunt 排名第 1，票数高达 350，话题度和关注度都很高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "拿下第一！这个 AI 一键生成 2K 动态视频还自带音效，设计师狂喜",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先拍几秒实景引出痛点（做动态 banner 好麻烦），然后录屏展示输入一段文案或 logo 生成视频的全过程。重点对比普通工具和 H3 在文字渲染、动效流畅度上的区别，放一段带立体声的成品片段，配轻快卡点 BGM。",
-        "target_audience": "不擅长做视频的设计师、自媒体创作者、电商运营、品牌市场人员"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "生成的视频自带视觉冲击力，演示效果一流，加上今日排名第一的热度，具备爆款视频的所有要素。"
-    },
-    {
       "id": "1207991",
       "name": "Cleanlist AI",
-      "name_zh": "干净列表 AI",
-      "tagline_zh": "用自然语言挖掘客户：查找、补全并同步线索",
-      "description_zh": "把任何找客户的线索变成经过验证、信息完整、能直接导入 CRM 的销售列表。上传 CSV、粘贴领英或 Sales Navigator 链接、添加域名或用搜索筛选，AI 助手会自动补全联系人信息、验证邮箱、调研每条线索，最后同步到你的 CRM。背后有 15 家数据供应商交叉补充，加上 AI 分析列和一步到位同步，市场销售团队再也不用拼凑五六款工具了。",
-      "intro_zh": "想找客户但懒得拼凑一堆工具？告诉 Cleanlist AI 你要找谁，它能自动帮你搜齐联系方式、验邮箱真假，最后直接把名单扔进你的 CRM。销售、市场、招聘的人不用再做手工黏贴匠了。",
+      "name_zh": "Cleanlist AI",
+      "tagline_zh": "用自然语言查找、补全并同步销售线索",
+      "description_zh": "Cleanlist AI 支持上传 CSV、粘贴领英或 Sales Navigator 链接、添加域名或使用搜索筛选，补全联系人信息、验证邮箱并调研线索，再同步到 CRM（客户关系管理软件）。缓存简介称，它结合 15 家数据供应商和 AI 分析列，让市场与销售团队减少在多个工具之间整理资料的工作。",
+      "intro_zh": "给市场与销售团队用，把名单、链接或域名整理成联系人资料，验证邮箱后同步到客户管理软件。",
       "url": "https://www.producthunt.com/products/cleanlist-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HHVI7RICWYWVFT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ec47abc0-eac6-49d3-9b44-f5615c505240.png?auto=format",
       "votes_count": 284,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "上传文件、AI补全信息、同步CRM等操作画面丰富，前后对比效果明显，适合录屏演示，但缺少视觉冲击力强的动态效果。"
+          "reason": "找人、补资料和同步名单的用途清楚，但准确率和兼容范围待确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 4,
-          "reason": "用自然语言描述需求就能搜客户，普通销售或招聘人员无需技术背景，但理解数据补全和邮箱验证需要一点基础概念。"
+          "reason": "多来源资料能否匹配到同一个人，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "当日 ProductHunt 排名第2，284票，热度极高，属于热门产品。"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕最终可用名单组织多个处理步骤，可借用于其他资料整理产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "销售神器！说句话就能自动抓客户名单，还帮你验邮箱真假",
-        "angle": "教程演示",
-        "shooting_tips": "先展示传统手动找客户、拼凑表格的痛苦，再用录屏演示输入一句自然语言需求，AI瞬间生成带邮箱验证的列表和一键同步CRM的完整流程，突出时间节省和准确性。节奏要快，加字幕高亮关键步骤。",
-        "target_audience": "销售、招聘、市场营销等需要批量获取客户线索的职场人"
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重从零散线索到可跟进名单的连续处理。最大疑问是资料会不会配错人；邮箱验证本身不能证明联系人身份正确。",
+      "product_analysis": {
+        "target_problem": "市场与销售团队拿到名单或公司域名后，还要补联系人资料、核查邮箱，才能用于销售跟进。",
+        "workflow": "上传 CSV、粘贴链接、添加域名或搜索筛选。助手补全信息、验证邮箱、调研线索，最后同步到 CRM。",
+        "ai_value": "简介把联系人补全、线索调研和分析列交给 AI 助手，但没说明哪些结果来自 AI，哪些直接取自数据供应商。",
+        "differentiation": "它把资料整理到同步放在一起，可能减少工具间搬运。已有 CRM 能否接入，是最可能阻碍切换的一点。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作画面丰富，普通人秒懂，排名热度高，视频演示效果强，非常适合拍摄教程或对比测评。"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称有 15 家数据供应商交叉补充，并提供邮箱验证、AI 分析列和 CRM 同步。",
+        "possible_approach": "如果自己做，可以先统一名单格式，再按姓名、公司和域名匹配资料，核查邮箱后写入 CRM。难点是确认补回的信息确实属于同一个人。",
+        "tradeoffs": "同名或换工作可能导致匹配错人。邮箱即使能收信，也可能属于错误联系人，后续跟进就会找错对象。",
+        "unknowns": "多个来源的信息冲突时，系统依据什么选择保留值？"
+      },
+      "transferable_insights": [
+        "做名单或资料整理工具时，可以围绕最终交付物串起导入、补全、核查和导出，减少用户反复搬表格。"
+      ],
+      "validation_questions": [
+        "用一组已知正确资料的联系人测试，补全结果是否匹配本人？",
+        "向实际使用的 CRM 同步一次，字段是否进入预期位置？"
+      ],
+      "source_tagline": "用自然语言挖掘客户：查找、补全并同步线索",
+      "source_description": "把任何找客户的线索变成经过验证、信息完整、能直接导入 CRM 的销售列表。上传 CSV、粘贴领英或 Sales Navigator 链接、添加域名或用搜索筛选，AI 助手会自动补全联系人信息、验证邮箱、调研每条线索，最后同步到你的 CRM。背后有 15 家数据供应商交叉补充，加上 AI 分析列和一步到位同步，市场销售团队再也不用拼凑五六款工具了。"
     },
     {
       "id": "1210872",
       "name": "mectrics",
-      "name_zh": "Mac 健康计",
-      "tagline_zh": "Mac 的关键指标尽在菜单栏，免费且开源。",
-      "description_zh": "在菜单栏上显示 CPU、内存、电池、网络、磁盘、GPU、温度和风扇转速，你可以自选显示哪些，点一下就能看详细数据。紧凑健康模式能把整台机器的状态收成一个小图标，只在出问题时才提醒。采用 MIT 协议，支持 macOS 15 以上系统。",
-      "intro_zh": "在 Mac 菜单栏里装了个实时体检仪，CPU、内存、电池、温度一眼就能看到，点开还能看详情，机器不对劲立马提醒。爱机如命、总担心电脑卡顿或者发烫的 Mac 用户必备。",
+      "name_zh": "mectrics",
+      "tagline_zh": "在 Mac 菜单栏查看关键指标，免费且开源。",
+      "description_zh": "在菜单栏显示 CPU、内存、电池、网络、磁盘、GPU、温度和风扇转速，可自选显示项，点击查看详情。紧凑健康模式用一个小图标汇总机器状态，仅在出现问题时提醒；采用 MIT 开源许可，支持 macOS 15 及以上。",
+      "intro_zh": "给想随时了解 Mac 运行状态的人用，在菜单栏查看所选指标，点击展开详细数据。",
       "url": "https://www.producthunt.com/products/mectrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/D3NVQE57DZHHH4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8af0a04d-2b5f-47ae-91a8-7c365bbbaf12.png?auto=format",
       "votes_count": 265,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "菜单栏图标动态变化、点击弹出详细面板，有丰富的屏幕操作和前后对比画面，非常适合录制演示或开箱评测。"
+          "reason": "查看机器状态的场景明确，但异常提醒是否可靠尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念就是电脑状态监控，任何 Mac 用户都能立刻明白，无技术门槛，安装和设置极其简单。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把多项指标归成健康状态涉及具体判断，资料未说明规则。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日排名第3，获得265票，热度高，自带话题性。"
+        "transferability": {
+          "score": 4,
+          "reason": "默认收起、异常提醒、点击展开的做法可借给其他监控产品。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "Mac 菜单栏最强免费神器！一键监控所有健康数据，再也不用担心电脑卡顿了",
-        "angle": "开箱体验 + 免费替代 iStat 对比测评",
-        "shooting_tips": "屏幕录制：先展示普通菜单栏，然后下载安装（从 GitHub 获取），打开设置面板逐一选择要显示的指标，拖动到菜单栏展示实时数值，演示紧凑模式如何在异常时弹出提醒，对比同类付费工具突出免费优势，节奏轻快，最后总结使用感受。",
-        "target_audience": "所有 Mac 用户，尤其是开发者、设计师、运维工程师以及任何想实时了解电脑状态的普通用户。"
       },
       "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "免费开源、随手就能演示的菜单栏工具，视觉直观，大众一眼看懂，热度又高，非常适合做成视频。"
-    },
-    {
-      "id": "1201635",
-      "name": "Halo by Scam AI",
-      "name_zh": "Halo 防骗检测器",
-      "tagline_zh": "每次视频通话，立刻知道对方是不是真人",
-      "description_zh": "视频里和你说话的人，可能根本不是真人。Halo 能实时守护你的 Zoom、Teams 或 Google Meet 通话，一旦发现 AI 换脸的假人脸就立刻标记，全程在你设备上完成，不泄露隐私。现在 Deepfake 视频诈骗已经开始坑害个人和公司，大部分人根本分不清真假，而 Halo 能够在骗局得手前拦住它。",
-      "intro_zh": "视频通话时自动揪出 AI 换脸假人，守护你的钱包。经常远程面试、线上签合同、转钱的人，有了它就多一层保命符。",
-      "url": "https://www.producthunt.com/products/scam-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/U7XAVIELGY573U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7aa34470-4cc6-459e-9fd9-844f1300aeb9.png?auto=format",
-      "votes_count": 162,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可展示实时视频通话中检测并标记换脸的过程，录屏效果直观，画面有视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念通俗易懂，普通用户无需技术背景，安装即可使用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH 当日第 6 名，162 票，安全隐私话题关注度高。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重用一个图标减少日常查看负担；但异常规则不明，还不能判断它能否让人放心少看读数。",
+      "product_analysis": {
+        "target_problem": "想留意 Mac 负载、温度或电量的人，需要及时发现变化，也不想让多项读数一直占着菜单栏。",
+        "workflow": "选择要显示的指标，在菜单栏查看，点击展开详情。也可使用紧凑健康模式，把状态收成一个图标，等异常提醒。",
+        "ai_value": "介绍没提 AI，主要靠指标展示和异常提醒来改善体验。",
+        "differentiation": "把概览和详情放在同一入口，减少查看时的操作。macOS 15 的最低要求会直接挡住旧系统用户。"
       },
-      "video_inspiration": {
-        "title_idea": "视频里的人居然是假人？1秒识破AI诈骗黑科技",
-        "angle": "开箱体验+诈骗场景模拟",
-        "shooting_tips": "录制真实的视频通话（或模拟），使用 Deepfake 视频作为对方，展示 Halo 实时弹出警告标记，突出‘本机处理、隐私安全’的卖点；节奏前段抓眼球揭露假脸，后段讲解原理。",
-        "target_audience": "经常进行视频会议、远程招聘、线上交易的职场人和管理者"
+      "technical_analysis": {
+        "disclosed_facts": "采用 MIT 开源许可，支持 macOS 15 及以上；介绍没说具体的数据采集技术。",
+        "possible_approach": "如果自己做，可以先读取系统提供的指标，再按用户选择显示；最后为健康图标制定异常判断规则。",
+        "tradeoffs": "最难的是判断何时算异常。短暂高负载若也触发提醒，用户可能很快关闭提醒。",
+        "unknowns": "健康模式依据什么规则认定机器出了问题？"
       },
-      "category": "安全隐私",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品演示效果直观，防 Deepfake 热点话题，普通人极易理解，非常适合制作警示科普类视频。"
-    },
-    {
-      "id": "1210871",
-      "name": "Gemini Robotics 2",
-      "name_zh": "双子座机器人2",
-      "tagline_zh": "谷歌为下一代机器人打造的AI大脑",
-      "description_zh": "Gemini Robotics 2 是谷歌DeepMind迈向能在物理世界理解、推理和行动的智能机器人的最新一步。它由先进的Gemini模型驱动，为不同形状和大小的机器人带来全身智能、灵巧操控和自适应推理能力。从复杂物理任务到多机器人协同，Gemini Robotics 2让我们离机器人与人并肩工作的未来更近一步。",
-      "intro_zh": "给机器人装了个超级大脑，能看懂周围、自己琢磨怎么干活，手还特别巧。搞机器人研发的团队、工厂自动化的老板，想让机器真正帮上忙的人，都会为它兴奋。",
-      "url": "https://www.producthunt.com/products/gemini-robotics-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WBMO4OD2N7Q7GD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/800254e4-3f96-46aa-b40d-1e952e869db0.webp?auto=format",
-      "votes_count": 117,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "机器人执行复杂任务、精细手部操作、多机器人协作等画面极具视觉冲击力和未来感，非常适合视频展示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "核心概念“机器人变聪明帮人干活”通俗易懂，无需技术背景就能理解其价值，但涉及的技术细节对普通人略有门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第10名，获得117票，在科技社区中有一定热度和话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "谷歌把大脑塞进机器人，拧魔方、叠衣服全都会，这双手太吓人了！",
-        "angle": "行业解读 + 演示混剪",
-        "shooting_tips": "混剪官方演示视频，突出机器人双手协作拧瓶盖、自适应抓取陌生物体、多机协同搬重物的对比画面，配上快节奏旁白，先震撼后讲解原理。",
-        "target_audience": "对黑科技、机器人、AI感兴趣的年轻科技爱好者，以及泛科普观众。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "演示性强、视觉冲击力足，普通人看得懂、觉得酷，热度基础扎实，极易产出爆款科普视频。"
+      "transferable_insights": [
+        "做设备监控或服务状态工具时，可默认只显示状态图标，异常时提醒，点击再看具体指标。"
+      ],
+      "validation_questions": [
+        "让 Mac 经历一次短时高负载，检查健康模式是否产生不必要的提醒。",
+        "持续运行时，对照系统监控读数，检查 CPU 数据是否明显偏离。"
+      ],
+      "source_tagline": "Mac 的关键指标尽在菜单栏，免费且开源。",
+      "source_description": "在菜单栏上显示 CPU、内存、电池、网络、磁盘、GPU、温度和风扇转速，你可以自选显示哪些，点一下就能看详细数据。紧凑健康模式能把整台机器的状态收成一个小图标，只在出问题时才提醒。采用 MIT 协议，支持 macOS 15 以上系统。"
     },
     {
       "id": "1209426",
       "name": "Poth Labs",
       "name_zh": "Poth Labs",
       "tagline_zh": "你公司的客户大脑",
-      "description_zh": "客户知识不是一堆死的文档，而是一张活的网。Poth 先为你构建一个动态的客户关系模型，再回答问题，这样它就能像人一样跨信息源推理，而不只是拼凑片段。这让你能问出“到底是什么在推高流失率”或“用户为什么突然放弃某个功能”这类单靠一个来源根本答不出的问题。所有结论都标明了出处，缺数据时还会自动发起调研，把缺的部分补上。",
-      "intro_zh": "把你公司所有关于客户的碎片信息织成一张会思考的网，能直接回答流失原因、功能偏好这种深层问题。天天跟客户数据打交道的运营、产品和客户成功团队会离不开它。",
+      "description_zh": "Poth 先构建动态客户关系模型，再结合多个信息来源回答客户问题，并为结论标明出处。简介还称，缺少数据时会自动发起调研，补充信息。",
+      "intro_zh": "给需要分析客户流失和功能弃用原因的产品团队用，把多处客户信息联系起来，回答问题并附出处。",
       "url": "https://www.producthunt.com/products/poth-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6ZVL6YDPVSCYJ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bfbff352-7082-4359-9626-939df67009d8.png?auto=format",
       "votes_count": 212,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有可演示的问答交互和证据链展示，但整体是B2B数据看板风格，界面偏理性，缺乏视觉冲击力和戏剧性对比，画面不够抓眼球。"
-        },
-        "beginner_friendly": {
+        "product_value": {
           "score": 4,
-          "reason": "概念是“会推理的客户智库”，普通人结合自身工作场景就能理解，无需技术背景；但涉及流失分析等功能型问题，对完全没业务概念的观众略有门槛。"
+          "reason": "分析客户问题的场景清楚，但能否可靠解释原因还未验证。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第4，获得212票，属于头部热门产品，有较高的话题度和传播潜力。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨来源关联能否支撑结论，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "附出处和发现缺口后补充调研，都有明确的借鉴场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "公司里最懂客户的人，居然是个AI？Poth客户大脑实测",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从输入问题（如“为什么上季度高端客户流失猛增？”）到获得带证据链的推理结果的全过程，穿插展示自动生成调研问卷的功能，结尾给一个2-3分钟的完整演示。节奏先抛痛点（数据散、回答浅），再亮解决方案，最后展示证据追溯功能。",
-        "target_audience": "产品经理、客户运营、客户成功经理、用数据做决策的业务负责人"
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把回答和原始证据放在一起，便于团队复核；最大的疑问是，它能否区分“相关线索”和“真正原因”。",
+      "product_analysis": {
+        "target_problem": "产品团队追查流失或功能弃用时，相关线索可能散在多处。单看一个来源，很难拼出完整解释。",
+        "workflow": "用户提出客户问题，系统基于动态客户关系模型结合多处信息作答，附上出处；缺数据时自动发起调研。",
+        "ai_value": "简介没有明确提 AI，但描述了跨来源推理和自动调研。不能据此确认用了什么模型。",
+        "differentiation": "它尝试省去人工串联多处线索的工作。团队可能不愿换用的主要原因，是无法确认结论是否可信。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "可视化演示能讲清原理，但画面比较工具型，适合垂直领域的知识类视频，缺乏出圈潜力。"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到动态客户关系模型、跨来源推理和出处标注，未披露具体实现。",
+        "possible_approach": "如果自己做，可以先把不同来源中同一客户的信息对应起来，再找相关证据生成回答，并保留原文出处。",
+        "tradeoffs": "最容易错在把同时发生的现象当成原因。即使附了出处，也可能让团队据此改错功能。",
+        "unknowns": "自动发起调研具体会做什么，是否需要人工批准？"
+      },
+      "transferable_insights": [
+        "做客户分析工具时，让每条结论都能点回原文，方便使用者检查证据是否支持判断。",
+        "做研究助手时，先列清缺什么证据，再提出补充调研任务，避免强行给出完整答案。"
+      ],
+      "validation_questions": [
+        "抽查一条流失原因结论：所引原文是否真的支持因果判断？",
+        "给出资料不足的问题：系统发起调研前是否要求用户确认？"
+      ],
+      "source_tagline": "你公司的客户大脑",
+      "source_description": "客户知识不是一堆死的文档，而是一张活的网。Poth 先为你构建一个动态的客户关系模型，再回答问题，这样它就能像人一样跨信息源推理，而不只是拼凑片段。这让你能问出“到底是什么在推高流失率”或“用户为什么突然放弃某个功能”这类单靠一个来源根本答不出的问题。所有结论都标明了出处，缺数据时还会自动发起调研，把缺的部分补上。"
     },
     {
       "id": "1211027",
       "name": "DepthData",
-      "name_zh": "深度数据",
-      "tagline_zh": "企业AI开支的官方账本，每一笔花费都清晰可查。",
-      "description_zh": "公司同时用好几个AI工具，却说不清到底花了多少钱、谁在用、哪些账号在吃灰。DepthData能自动把分散的AI订阅信息汇总成一个统一的、可审计的视图，让你一眼看清花费和实际使用情况。它的特点是：每笔数据都标明了验证方式，绝不读取你的聊天记录，还清楚告诉你各个服务商的数据接口能暴露什么、不能暴露什么。",
-      "intro_zh": "这玩意儿把公司所有AI工具的花费和使用情况自动归拢到一个看板里，谁在摸鱼、哪些账号闲置，立马现原形。管IT预算的、给AI付费的团队负责人，再也不用焦头烂额地手动算账了。",
+      "name_zh": "DepthData",
+      "tagline_zh": "汇总企业 AI 开支，让每笔费用可查。",
+      "description_zh": "DepthData 自动汇总分散的 AI 订阅信息，集中展示费用和使用情况，供企业核查。它为数据标明验证方式，不读取聊天记录，并说明各服务商数据接口能提供什么、不能提供什么。",
+      "intro_zh": "给管理多款 AI 订阅的财务和 IT 人员用，把费用与使用情况汇总到一处，便于核查。",
       "url": "https://www.producthunt.com/products/depthdata?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/32ZT3A3POBCZDN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bdd91666-a60e-4695-8c62-8b60c02637ef.jpeg?auto=format",
       "votes_count": 170,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "产品是SaaS看板，有图表和表格，可以录制屏幕演示操作，但缺少视觉冲击力，画面比较静态，更适合讲解类视频而非炫酷展示。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "概念不难理解，但普通打工人未必关心公司层级的花费管理，需要观众有一定的企业采购或管理背景才能真正共鸣。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "当日排名第5，票数170，属于热度较高的产品，容易吸引关注企业效率工具的观众。"
+          "reason": "费用分散和闲置账号的问题明确，但能覆盖哪些服务仍不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "标明验证方式和数据缺口，直接影响用户能否相信使用情况判断。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "给汇总数据附上验证方式的做法，可用于其他多来源管理工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "你司的AI会员费，可能正在养活20个幽灵账号！",
-        "angle": "教程演示",
-        "shooting_tips": "先亮出痛点：贴出一堆AI工具的扣费记录，展示混乱的账单，然后切换到DepthData看板，演示连接各个工具后自动生成统一报表的过程，突出“闲置席位”“花费异常”等警示色块，最后点出数据验证标记。",
-        "target_audience": "中小企业老板、IT采购、财务人员、创业公司管理者"
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把验证依据放在费用旁边，方便追查差异；最影响判断的是，使用数据能否支撑停用或续费决定。",
+      "product_analysis": {
+        "target_problem": "财务和 IT 人员管理多款 AI 工具时，需要弄清花了多少、谁在用。信息分散时，很难判断哪些订阅还该续费。",
+        "workflow": "工具自动汇总 AI 订阅信息；用户在统一视图查看费用与使用情况，再查看数据的验证方式及服务商披露范围。接入步骤未说明。",
+        "ai_value": "介绍没提用 AI 处理数据，主要靠自动汇总和标注数据依据来改善体验；管理对象是 AI 订阅。",
+        "differentiation": "集中查看能减少逐处核对。最可能让人不愿换过来的原因，是常用服务的数据覆盖不足。"
       },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品界面可演示，热度尚可，适合做成面向管理者或IT采购的知识型视频，但缺少普通用户日常使用场景的共鸣，更适合专业圈层传播。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到服务商数据接口（软件间传数据的连接方式）、逐笔标明验证方式，并明确不读取聊天记录。",
+        "possible_approach": "如果自己做，可以先取得各服务商允许提供的费用和使用数据，再统一账号与计费周期，为每条记录保留来源和验证方式。",
+        "tradeoffs": "最容易错在把“拿不到使用数据”当成“没人用”，导致用户误停仍在使用的账号。",
+        "unknowns": "“实际使用情况”具体按什么指标判断？"
+      },
+      "transferable_insights": [
+        "做多来源报表时，可让用户查看每条数据的来源与验证方式，并将缺失数据和数值为零分开显示。"
+      ],
+      "validation_questions": [
+        "选一项常用订阅，与原始账单核对同一周期的总费用是否一致。",
+        "选一个拿不到使用数据的账号，检查页面是否明确显示未知，而非闲置。"
+      ],
+      "source_tagline": "企业AI开支的官方账本，每一笔花费都清晰可查。",
+      "source_description": "公司同时用好几个AI工具，却说不清到底花了多少钱、谁在用、哪些账号在吃灰。DepthData能自动把分散的AI订阅信息汇总成一个统一的、可审计的视图，让你一眼看清花费和实际使用情况。它的特点是：每笔数据都标明了验证方式，绝不读取你的聊天记录，还清楚告诉你各个服务商的数据接口能暴露什么、不能暴露什么。"
     },
     {
       "id": "1211309",
       "name": "witr",
       "name_zh": "witr",
-      "tagline_zh": "追根溯源：这进程为什么在运行？",
-      "description_zh": "witr 帮你找出每个进程的来龙去脉。不管你查的是端口、容器还是文件，它能顺着进程树追溯到源头，告诉你它是由 systemd、cron 还是哪个脚本启动的，谁触发的，什么时候，甚至附上值得注意的警告。",
-      "intro_zh": "一个命令行小工具，能回答那个经典问题“这玩意儿为啥在跑？”，给它一个进程号、端口或容器名，就能追踪出一整条调用链。运维、开发或任何被后台神秘进程折磨过的同学，拿来快速排查问题再合适不过。",
+      "tagline_zh": "追根溯源：这个进程为什么在运行？",
+      "description_zh": "witr 可从端口、容器或文件入手，沿进程树追查进程的来源。简介称，它能指出启动来源是 systemd、cron 或脚本，并提供触发者、时间和相关警告。",
+      "intro_zh": "给排查系统问题的开发和运维人员用，从端口、容器或文件追查进程由谁、何时启动。",
       "url": "https://www.producthunt.com/products/witr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZLRBFHIWGLSVEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/74f4eebb-dcb8-4599-a839-178aa12961e6.jpeg?auto=format",
       "votes_count": 148,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "终端界面有丰富的交互式表格和追踪链展示，可录制操作过程，但视觉动态不算强，主要是文字滚动，缺乏强烈视觉冲击力。"
+        "product_value": {
+          "score": 4,
+          "reason": "排查对象和结果明确，但溯源完整程度尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及进程、端口、容器、systemd等，普通用户可能不理解，且需要在命令行下操作，有一定使用门槛。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "父子进程关系能否说明真正的启动原因，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt排名第7，票数148，有一定关注度但非爆款，话题性中等。"
+        "transferability": {
+          "score": 4,
+          "reason": "允许从手头线索开始追查的做法，可借给其他排障工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "谁在偷偷跑进程？这个工具一眼看穿你的系统！",
-        "angle": "教程演示",
-        "shooting_tips": "录制终端操作，从运行witr交互界面开始，点击进程、端口、容器标签，展示跳转和追踪链；再用--short参数演示一行输出效果。配合画外音讲解步骤，节奏紧凑，突出诊断神秘进程的实用场景。",
-        "target_audience": "对系统运维、开发有兴趣的技术爱好者和程序员"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "适合技术向内容，终端操作可展示但视觉效果一般，且普通观众理解成本较高，更适合垂直领域的开发类频道。"
-    },
-    {
-      "id": "1204978",
-      "name": "Customer.io Summer Release",
-      "name_zh": "Customer.io 夏季更新",
-      "tagline_zh": "重要时刻，用全新方式触达客户",
-      "description_zh": "Customer.io 这个客户互动平台刚刚推出了夏季大更新，现在你能用地理围栏、实时通知等更灵活的方式，在关键时机自动给客户发消息。支持更多短信服务商、通知收件箱，还强化了 WhatsApp 管理和 AI 能力，所有渠道一个后台搞定，适合电商、App 运营等需要精细化触达用户的营销团队。",
-      "intro_zh": "给客户发消息的营销利器夏天又升级了，现在能按位置、实时弹通知，连 WhatsApp 短信都更好用了。做运营、搞增长的朋友省心多了。",
-      "url": "https://www.producthunt.com/products/customer-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UOQ6NKO24LGK4K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a8ceb24d-2529-491e-a248-02419dfa6269.png?auto=format",
-      "votes_count": 140,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有完整的设置界面和实时通知效果可录屏演示，但以仪表盘、工作流配置为主，画面偏静态，缺少强烈的视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解营销自动化、触发条件、多渠道管理等概念，目标用户是专业营销人员，普通消费者很难立刻看懂价值。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt 当天排名第8，获得140票，有一定关注度，但未进入前三，不属于现象级产品。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把“谁在运行”推进到“谁启动了它”；最影响判断的是，启动关系消失后还能查出多少。",
+      "product_analysis": {
+        "target_problem": "开发和运维人员发现陌生进程或端口占用时，需要查清启动原因。只知道进程编号，还不足以判断该去改哪个服务或脚本。",
+        "workflow": "从待查的端口、容器或文件入手，让 witr 沿进程树追溯，再查看启动来源、触发者、时间及警告。简介未给出具体命令。",
+        "ai_value": "介绍没提 AI，主要靠追查进程关系来解释运行来源。",
+        "differentiation": "它把运行对象和启动来源放在一起，可能省去分别查找的工作。若来源解释不完整，用户仍得回到原有工具核对。"
       },
-      "video_inspiration": {
-        "title_idea": "Customer.io 夏季更新：用地理围栏自动勾搭客户，运营人狂喜",
-        "angle": "教程演示",
-        "shooting_tips": "采用「痛点引入 + 操作演示 + 效果对比」的结构。先录屏展示过去只能定时发消息的局限，再演示如何在地图上圈定区域、设置自动触发规则，最后用手机实录收到实时推送的瞬间，突出“即时触达”和“多通道统一管理”的卖点，节奏轻快紧凑。",
-        "target_audience": "电商运营、App用户增长、CRM营销从业者"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到沿进程树溯源，并识别 systemd（系统服务管理器）、cron（定时任务工具）或脚本等启动来源。",
+        "possible_approach": "如果自己做，可以先把查询对象对应到进程，再沿父子关系向上查，并结合服务和定时任务记录补充来源。",
+        "tradeoffs": "最难的是父进程退出后仍能正确归因。若只看当前进程树，可能把接管进程的系统服务误当成最初启动者。",
+        "unknowns": "介绍没有说明：原始父进程消失后，还能否还原启动来源。"
       },
-      "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "功能演示素材充足，适合拍实操教程，但受众垂直且小白理解门槛高，更适合面向专业运营人群。"
+      "transferable_insights": [
+        "做排障工具时，允许用户从端口、文件等已知线索开始查询，不要求先找到进程编号。"
+      ],
+      "validation_questions": [
+        "用一个已知由定时任务启动的进程，检查是否正确指出启动来源。",
+        "让启动脚本退出、子进程继续运行，检查结果是否仍能追到原脚本。"
+      ],
+      "source_tagline": "追根溯源：这进程为什么在运行？",
+      "source_description": "witr 帮你找出每个进程的来龙去脉。不管你查的是端口、容器还是文件，它能顺着进程树追溯到源头，告诉你它是由 systemd、cron 还是哪个脚本启动的，谁触发的，什么时候，甚至附上值得注意的警告。"
     },
     {
       "id": "1208135",
       "name": "Screencap",
-      "name_zh": "屏幕录流",
-      "tagline_zh": "把团队的真实工作过程，变成AI训练数据",
-      "description_zh": "Screencap 能录下屏幕、点击、按键和窗口切换，把真实工作流程变成结构化的数据集，用来做自动化和 AI 训练。录制时强制隐私控制，敏感应用会被自动屏蔽，所有录到的痕迹在离开本机前都会被打码和审查。目前只支持 macOS，开源，可以先免费试用个人版，也可以联系团队试点。",
-      "intro_zh": "一个能录下你电脑上每一步操作的工具，自动把干活的过程变成 AI 能看懂的数据。适合想拿日常操作训练模型、但又不想泄漏隐私的团队。",
+      "name_zh": "Screencap",
+      "tagline_zh": "把团队的真实工作过程转成 AI 训练数据",
+      "description_zh": "Screencap 记录屏幕、点击、按键和窗口切换，将工作过程整理成用于自动化和 AI 训练的结构化数据集，并在数据离开本机前进行打码和审查，自动屏蔽敏感应用。它目前仅支持 macOS，开源，提供个人版免费试用和团队试点。",
+      "intro_zh": "给需要收集工作流程数据的自动化和 AI 团队用，记录电脑操作，整理成可供后续使用的数据集。",
       "url": "https://www.producthunt.com/products/screencap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/I4Q32UL5UOMRYQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/cc0b6c66-1c94-4a84-a374-670d9ef03eba.png?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "录屏工具本身有比较固定的操作界面，能展示录制前配置、录制中提示、录制后数据看板，但整个过程偏静态，没有很强烈的视觉冲击或前后对比，画面观感一般。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "普通人很难立刻理解“把工作流变成结构化数据集”的价值，需要一定的 AI 训练或自动化背景，使用门槛较高，不适合纯小白。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "在 ProductHunt 当日排名第9，获得 135 票，属于中上热度，在开发者和 AI 圈有一定话题性。"
+          "reason": "明确把真实操作转成数据集，但后续整理工作能省多少尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "隐私过滤既要防泄露，又要保留任务信息，是具体的技术取舍。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "数据离机前先打码和审查的做法，可借用于其他敏感信息采集工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "录下你的每一步操作，团队直接拿来训练AI",
-        "angle": "教程演示",
-        "shooting_tips": "从安装打开 Screencap 开始，录一段在浏览器里填表、在 Excel 里编辑的简单工作流，展示录制过程中隐私打码的实时效果，再切换到后台看生成的结构化数据长什么样，节奏由慢到快，突出“录完就能用”的闭环。",
-        "target_audience": "对 AI 训练感兴趣的效率极客、技术团队负责人、想利用内部数据做自动化的工程师。"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把实际操作留下来供后续使用；最影响判断的是，隐私过滤后是否还保留足够的任务信息。",
+      "product_analysis": {
+        "target_problem": "做桌面自动化或 AI 训练的团队，需要知道任务如何一步步完成。只看最终文件，很难还原中间操作。",
+        "workflow": "在 macOS 上录下工作过程，工具将屏幕和操作记录整理成数据集。简介称，敏感应用会被屏蔽，记录离机前会打码和审查。",
+        "ai_value": "它为 AI 训练准备数据。介绍没说用 AI 完成录制、打码或审查，也没说会直接训练模型。",
+        "differentiation": "把操作过程与数据整理放到一起，可能减少另行对齐记录的工作。仅支持 macOS，会限制混合设备团队使用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持屏幕和操作事件采集、本机打码与审查；仅支持 macOS，开源。",
+        "possible_approach": "如果自己做，可以先给画面和操作标上时间，再按任务整理；导出前过滤敏感内容。",
+        "tradeoffs": "最容易出错的是敏感信息识别：漏掉会泄露，遮得太多又可能让任务步骤无法理解。",
+        "unknowns": "输出的数据集包含哪些字段，是否还需人工标注才能用于训练？"
+      },
+      "transferable_insights": [
+        "做用户行为采集工具时，可以把本机过滤设为导出前的固定步骤，减少原始敏感信息外传。"
+      ],
+      "validation_questions": [
+        "用含虚构敏感信息的任务录制一次，检查导出内容是否仍有泄露。",
+        "取一段完整任务的数据，检查能否还原每次操作对应的画面。"
+      ],
+      "source_tagline": "把团队的真实工作过程，变成AI训练数据",
+      "source_description": "Screencap 能录下屏幕、点击、按键和窗口切换，把真实工作流程变成结构化的数据集，用来做自动化和 AI 训练。录制时强制隐私控制，敏感应用会被自动屏蔽，所有录到的痕迹在离开本机前都会被打码和审查。目前只支持 macOS，开源，可以先免费试用个人版，也可以联系团队试点。"
+    },
+    {
+      "id": "1211205",
+      "name": "MiniMax H3",
+      "name_zh": "MiniMax H3",
+      "tagline_zh": "统一生成视频，用于动态设计和品牌包装",
+      "description_zh": "缓存简介将 MiniMax H3 描述为开源多模态模型，可接收文字、图片或音频，生成带原生立体声的 2K 视频。简介强调文字排版和动态包装能力，但“精准渲染”“商业级”等效果未经核验。",
+      "intro_zh": "面向做动态设计和品牌包装的设计师，输入文字、图片或音频，生成带声音的视频。",
+      "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OLTE3UX4QGE277?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8ebf1d62-3a79-46ee-84b2-016179ab458e.jpeg?auto=format",
+      "votes_count": 350,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途清楚，但能否减少成片修改仍缺依据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "视频中文字能否持续正确，是具体且影响交付的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "多种素材输入可借鉴，但控制能力尚不明确。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重音画一起生成可能省去的配声工作；最影响判断的是，品牌文字出错后能否局部修正。",
+      "product_analysis": {
+        "target_problem": "做品牌动态内容的设计师，需要把文案、图像和声音组织成片。它提供从这些素材生成视频的方式，但资料没有交代用户原来的制作流程。",
+        "workflow": "输入文字、图片或音频，并描述要求，再获取视频。是否支持混合输入和局部修改，简介没说。",
+        "ai_value": "模型负责根据输入生成画面和声音。“多模态”指能处理文字、图像、音频等不同形式的信息。",
+        "differentiation": "把声音和画面一起生成，可能减少另行配声的工作。最可能让设计师犹豫的是，成片能否按品牌要求细改。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称其开源，支持文字、图片或音频输入，并生成带原生立体声的 2K 视频；这些信息未重新核验。",
+        "possible_approach": "如果自己做，可以先接收素材和生成要求，再调用支持音画生成的模型，最后检查文字并导出成片。",
+        "tradeoffs": "最难的是让文字在运动中保持正确。若字形变错或内容变化，品牌文案就无法直接交付。",
+        "unknowns": "能否只修改指定文字，而保留其余画面？"
+      },
+      "transferable_insights": [
+        "做设计工具时，可以让用户从已有图片或音频开始，不必只靠文字描述需求。"
+      ],
+      "validation_questions": [
+        "输入一段指定文案，逐帧检查文字是否准确。",
+        "要求只改一个词，检查其余画面是否保留。"
+      ],
+      "source_tagline": "统一视频生成，让动态设计和品牌包装一气呵成",
+      "source_description": "MiniMax H3 是个开源多模态模型，能一次性生成带原生立体声的 2K 视频。你把文字、图片或者音频给它，它就能按你的复杂要求精准渲染出商业级的视觉内容，尤其擅长文字排版和动态包装。"
+    },
+    {
+      "id": "1201635",
+      "name": "Halo by Scam AI",
+      "name_zh": "Halo by Scam AI",
+      "tagline_zh": "在视频通话中实时识别对方是否使用 AI 换脸",
+      "description_zh": "Halo 介绍称，它能在 Zoom、Teams 或 Google Meet 通话中实时标记疑似 AI 换脸的人脸，并在设备本地完成处理。产品希望帮助个人和公司发现视频诈骗，但缓存资料没有提供检测效果或隐私保护的验证结果。",
+      "intro_zh": "给需要核实视频通话对象的个人和团队用，在会议中标记疑似 AI 换脸的人脸。",
+      "url": "https://www.producthunt.com/products/scam-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/U7XAVIELGY573U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7aa34470-4cc6-459e-9fd9-844f1300aeb9.png?auto=format",
+      "votes_count": 162,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "通话防骗场景清楚，但能否可靠发现换脸仍待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "实时检测中的漏报会直接影响用户判断，技术问题具体。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "在现有工作界面内提示风险可以借鉴，但提示效果缺少证据。"
+        }
+      },
+      "category": "安全隐私",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是在通话当下提醒用户停下来核实；最大的疑问是漏报会不会让用户反而放松警惕。",
+      "product_analysis": {
+        "target_problem": "需要远程确认客户、同事身份的人，可能遇到冒用他人人脸的视频通话。难点是看见一张熟悉的脸，也不能据此确认身份。",
+        "workflow": "在 Zoom、Teams 或 Google Meet 通话时，Halo 检查画面并标记疑似换脸人脸。资料没说明如何接入会议。",
+        "ai_value": "它要识别的是 AI 换脸痕迹，不能据此判断对方的真实身份。介绍没说检测本身具体用了什么模型。",
+        "differentiation": "它把风险提示放进正在进行的通话，可能减少另找工具检查的麻烦。检测是否可靠，可能是用户不愿依赖它的主要原因。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称支持三种会议软件的实时换脸检测，处理在用户设备上完成。",
+        "possible_approach": "如果自己做，可以先获取通话画面，再连续检查人脸是否有合成痕迹，最后显示风险提示。难点是让检测跟上通话，又不拖慢会议。",
+        "tradeoffs": "最危险的是漏报：换脸未被标记，用户可能把没有警告误当成身份已获确认。",
+        "unknowns": "在低清晰度、网络卡顿的通话里，检测还能有多可靠？"
+      },
+      "transferable_insights": [
+        "做支付或远程审批工具时，可以把风险提示放在用户作决定的位置，并明确提示不等于身份核验结果。"
+      ],
+      "validation_questions": [
+        "用已知换脸的视频做通话测试，检查是否漏报。",
+        "监测运行时的网络传输，检查通话画面是否上传到设备外。"
+      ],
+      "source_tagline": "每次视频通话，立刻知道对方是不是真人",
+      "source_description": "视频里和你说话的人，可能根本不是真人。Halo 能实时守护你的 Zoom、Teams 或 Google Meet 通话，一旦发现 AI 换脸的假人脸就立刻标记，全程在你设备上完成，不泄露隐私。现在 Deepfake 视频诈骗已经开始坑害个人和公司，大部分人根本分不清真假，而 Halo 能够在骗局得手前拦住它。"
+    },
+    {
+      "id": "1204978",
+      "name": "Customer.io Summer Release",
+      "name_zh": "Customer.io Summer Release（夏季更新）",
+      "tagline_zh": "在重要时刻，用新方式触达客户",
+      "description_zh": "Customer.io 的夏季更新增加了地理围栏、实时通知、更多短信服务商和通知收件箱，支持在关键时机自动发送消息。更新还涉及 WhatsApp 管理和 AI 能力，并将多种渠道集中到一个后台。",
+      "intro_zh": "给电商和 App 运营团队用，根据位置等条件自动发消息，并在同一后台管理多种触达渠道。",
+      "url": "https://www.producthunt.com/products/customer-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UOQ6NKO24LGK4K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a8ceb24d-2529-491e-a248-02419dfa6269.png?auto=format",
+      "votes_count": 140,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "触达场景和集中管理的用途清楚，但实际省事程度待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "位置触发有具体可靠性问题，但资料没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按事件触发消息的做法可借鉴，适用条件仍需验证。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重把触发条件和多渠道管理放在一起；但缓存未说明位置权限要求，这会直接影响地理围栏能覆盖多少用户。",
+      "product_analysis": {
+        "target_problem": "电商和 App 运营需要在合适时机联系用户。麻烦在于判断何时发消息，以及管理不同渠道。",
+        "workflow": "团队可用地理围栏或实时通知等方式自动触达客户，并在同一后台管理多渠道消息。缓存没有说明具体配置步骤。",
+        "ai_value": "简介提到强化 AI 能力，但没说 AI 负责写文案、选人群还是其他任务，无法判断具体价值。",
+        "differentiation": "集中管理可能减少切换后台。最可能让团队犹豫的是：现有触达规则迁过去要花多少工夫。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到地理围栏（按设定区域触发动作）、实时通知及多短信服务商支持。",
+        "possible_approach": "如果自己做，可以先接收用户位置变化，再判断是否进入指定区域，最后按规则发送消息。",
+        "tradeoffs": "最容易出错的是把边界附近的位置波动当成多次进入，导致用户反复收到同一条消息。",
+        "unknowns": "位置触发需要哪些授权，缓存没有交代。"
+      },
+      "transferable_insights": [
+        "做门店会员工具时，可以把进入指定区域设为消息触发条件，同时限制同一活动的发送次数。"
+      ],
+      "validation_questions": [
+        "在区域边界反复进出，检查同一活动是否重复发消息。",
+        "选一条现有触达规则，检查能否在新后台完整重建。"
+      ],
+      "source_tagline": "重要时刻，用全新方式触达客户",
+      "source_description": "Customer.io 这个客户互动平台刚刚推出了夏季大更新，现在你能用地理围栏、实时通知等更灵活的方式，在关键时机自动给客户发消息。支持更多短信服务商、通知收件箱，还强化了 WhatsApp 管理和 AI 能力，所有渠道一个后台搞定，适合电商、App 运营等需要精细化触达用户的营销团队。"
+    },
+    {
+      "id": "1210871",
+      "name": "Gemini Robotics 2",
+      "name_zh": "Gemini Robotics 2",
+      "tagline_zh": "谷歌为下一代机器人打造的 AI 大脑",
+      "description_zh": "历史缓存简介将 Gemini Robotics 2 描述为谷歌 DeepMind 基于 Gemini 模型推进的机器人系统，旨在让机器人理解、推理并在物理世界行动。简介提到全身动作、灵巧操控、自适应推理和多机器人协同，但未提供具体任务或测试结果。",
+      "intro_zh": "面向机器人开发团队，让不同形态的机器人理解物理任务，并协调身体动作完成操作。",
+      "url": "https://www.producthunt.com/products/gemini-robotics-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WBMO4OD2N7Q7GD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/800254e4-3f96-46aa-b40d-1e952e869db0.webp?auto=format",
+      "votes_count": 117,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "任务方向清楚，但缺少具体场景和节省开发工作的证据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "从理解任务到控制身体有具体难点，但实现资料很少。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴按任务结果验证动作的做法，适用条件仍需确认。"
+        }
       },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面操作点足够支撑一期教程类视频，但因为概念偏技术、对普通观众不够友好，更适合面向垂类人群制作内容。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是减少任务理解与动作执行之间的人工适配；但历史缓存没有给出支持设备和实测任务，尚无法判断能否用于实际项目。",
+      "product_analysis": {
+        "target_problem": "机器人开发团队在让设备完成物理任务时，需要把任务理解变成身体动作。不同机器人形态不同，动作如何适配是关键麻烦。",
+        "workflow": "简介只说明机器人理解、推理并行动的目标，没有说明开发者如何接入、配置任务或部署，无法还原实际使用步骤。",
+        "ai_value": "AI 被用于连接任务理解、推理和动作执行；缓存还提到多机器人协同，但没解释如何分工。",
+        "differentiation": "可能省下部分针对不同机身调整动作的工作。最可能阻碍使用的是：现有机器人是否能接入，资料没有回答。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称其由 Gemini 模型驱动，涉及全身动作、灵巧操控和自适应推理，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先限定一种机器人和一个任务，再把任务拆成可执行动作，并根据传感器反馈修正动作。",
+        "tradeoffs": "最难的是把计划变成适合机身的动作；若动作超出关节或抓取能力，任务可能失败，甚至碰撞。",
+        "unknowns": "它适配哪些机器人，适配时需要额外训练还是配置？"
+      },
+      "transferable_insights": [
+        "做实体设备的 AI 控制时，可以先限定设备和任务，检查动作结果，再扩大支持范围。"
+      ],
+      "validation_questions": [
+        "在一种明确支持的机器人上，能否重复完成同一项操作任务？",
+        "物体位置改变后，机器人能否调整动作完成任务？"
+      ],
+      "source_tagline": "谷歌为下一代机器人打造的AI大脑",
+      "source_description": "Gemini Robotics 2 是谷歌DeepMind迈向能在物理世界理解、推理和行动的智能机器人的最新一步。它由先进的Gemini模型驱动，为不同形状和大小的机器人带来全身智能、灵巧操控和自适应推理能力。从复杂物理任务到多机器人协同，Gemini Robotics 2让我们离机器人与人并肩工作的未来更近一步。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

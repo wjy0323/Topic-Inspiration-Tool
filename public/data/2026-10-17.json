@@ -1,367 +1,510 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-10-18T19:59:13+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:20:46+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1273961",
       "name": "NitroStack",
       "name_zh": "NitroStack",
-      "tagline_zh": "Build, test, and deploy MCP servers in one place",
-      "description_zh": "NitroStack is the full-stack platform for building production-ready MCP servers and AI apps. Build with open-source TypeScript & Python SDKs, test and debug visually in NitroStack Studio, orchestrate agent workflows with NitroStack Workflow, deploy on NitroStack Cloud, and ship branded experiences with NitroStack Chat. Auth, testing, deployment and frontend stay in one workflow. Connect to ChatGPT, Claude and other AI clients. Powering 80,000+ MCP servers.",
-      "intro_zh": "",
+      "tagline_zh": "在一处构建、测试和部署 MCP 服务器",
+      "description_zh": "NitroStack 是构建 MCP 服务器和 AI 应用的平台，提供开源 TypeScript、Python 开发工具包，以及可视化测试调试、工作流编排、云部署和品牌化聊天界面。它将身份验证、测试、部署和前端放在同一工作流程中，可连接 ChatGPT、Claude 等客户端；简介称其已支持超过 8 万个 MCP 服务器。",
+      "intro_zh": "给开发 AI 应用的团队用，把工具连接服务的开发、调试、上线和聊天界面制作放在一起。",
       "url": "https://www.producthunt.com/products/nitrostack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NFV7LZ6PHSL5AT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5e19b60e-627e-4cba-a56b-afe217d6e2c1.png?auto=format",
       "votes_count": 295,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户和覆盖的工作明确，但省多少配置工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从本地调试到上线后的权限处理，有具体问题可研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕同一服务串起测试与部署的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是测试完成后能继续部署，不必重新组织工作；但现有服务能否低改动迁入，仍影响选择。",
+      "product_analysis": {
+        "target_problem": "开发团队让 AI 调用业务工具时，需要兼顾服务开发、权限、测试和上线。麻烦在于这些工作要配合，单个工具跑通不等于应用可用。",
+        "workflow": "用开发工具包写服务，在 Studio 中可视化测试和调试；按需编排工作流，部署到 Cloud，再提供聊天界面或连接 AI 客户端。",
+        "ai_value": "它帮助开发者把工具接给 AI 使用。介绍没有说明平台自身是否用 AI 写代码或自动修错。",
+        "differentiation": "它把多个开发环节放在一起，可能减少来回配置。最可能让团队犹豫的是已有服务迁入要改多少代码。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: aee57856-1de6-47a7-ba45-c81ba268928a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 MCP（让 AI 客户端连接外部工具的协议），提供开源 TypeScript、Python 开发工具包和可视化调试。",
+        "possible_approach": "如果自己做，可以先统一工具的输入输出定义，再让测试界面调用这些工具，最后把同一份服务部署上线。",
+        "tradeoffs": "最难的是上线后正确识别调用者权限；若测试身份与真实用户不同，可能出现本地能用、上线被拒绝的问题。",
+        "unknowns": "身份验证能否沿用团队现有的账号系统？"
+      },
+      "transferable_insights": [
+        "做开发平台时，可以让调试和部署沿用同一份服务定义，减少上线前重新填写配置。"
+      ],
+      "validation_questions": [
+        "用真实用户身份调用已部署工具，检查权限是否按预期生效。",
+        "将一个现有 MCP 服务迁入，检查需要改动哪些代码。"
+      ],
+      "source_tagline": "Build, test, and deploy MCP servers in one place",
+      "source_description": "NitroStack is the full-stack platform for building production-ready MCP servers and AI apps. Build with open-source TypeScript & Python SDKs, test and debug visually in NitroStack Studio, orchestrate agent workflows with NitroStack Workflow, deploy on NitroStack Cloud, and ship branded experiences with NitroStack Chat. Auth, testing, deployment and frontend stay in one workflow. Connect to ChatGPT, Claude and other AI clients. Powering 80,000+ MCP servers."
     },
     {
       "id": "1278219",
       "name": "Caldera",
       "name_zh": "Caldera",
-      "tagline_zh": "Your Obsidian vault as a living profile and linked garden",
-      "description_zh": "Caldera turns your Obsidian vault into a public page that updates itself, and a digital garden of notes you grow in public. Plant a note and it becomes a page marked seedling, budding or evergreen, with a license you choose. Link to a note in a friend's garden and the backlink appears on theirs. Private by default: nothing leaves your vault unless you choose it, and contact details are stripped. Free, open source and self-hostable.",
-      "intro_zh": "",
+      "tagline_zh": "把 Obsidian 笔记库变成持续更新的个人主页和互联笔记花园",
+      "description_zh": "Caldera 把 Obsidian 笔记库变成自动更新的公开页面：发布的笔记可标记为幼苗、萌芽或常青，并选择许可协议；链接朋友的笔记时，对方页面会出现反向链接。它默认私密，只发布你选中的内容并移除联系方式，免费、开源，也可自行部署。",
+      "intro_zh": "给想公开分享 Obsidian 笔记的人，把选中的笔记变成持续更新的网页，并连接朋友的笔记。",
       "url": "https://www.producthunt.com/products/caldera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2JSRELYQXYA53W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2c80407b-287d-44aa-9de0-4d61a0f00a9d.jpeg?auto=format",
       "votes_count": 191,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "发布对象和用途清楚，但自动更新的具体条件未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从私有笔记中准确选出可公开内容，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "默认私密、逐篇公开的做法可用于其他内容发布工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是在原有笔记库里维护公开内容；最影响判断的是私人笔记会不会被引用关系意外带出。",
+      "product_analysis": {
+        "target_problem": "适合用 Obsidian 积累笔记、又想公开部分内容的人。麻烦在于既要维护公开版本，又不能把私人内容一起带出去。",
+        "workflow": "选择要公开的笔记，设置成长状态和许可协议，生成自动更新的页面。链接朋友花园中的笔记后，对方会出现指回你的链接。",
+        "ai_value": "介绍没提 AI，主要靠选择性发布和自动更新来改善体验。",
+        "differentiation": "把笔记直接变成网页，可能减少另行维护公开副本的工作。最可能让人犹豫的是对私密内容误发的担心。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0ecb8fdf-622c-45d2-9bdc-84402e5a6f2b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说它开源、可自行部署，默认不上传未选中的内容，并会移除联系方式。",
+        "possible_approach": "如果自己做，可以先记录用户选中的笔记，检查内容后生成网页，再同步修改；跨站引用则通知对方添加回链。",
+        "tradeoffs": "最容易出错的是发布范围检查。若公开笔记引用了私人笔记，却连带发布其内容，就可能泄露信息。",
+        "unknowns": "公开笔记引用未公开笔记时，会怎样处理？"
+      },
+      "transferable_insights": [
+        "做内部文档对外发布时，可默认保持私密，让用户逐篇选择公开，缩小误发范围。"
+      ],
+      "validation_questions": [
+        "发布一篇引用私人笔记的测试笔记，检查网页是否泄露被引用内容。",
+        "修改已公开笔记，检查公开页面是否随之更新。"
+      ],
+      "source_tagline": "Your Obsidian vault as a living profile and linked garden",
+      "source_description": "Caldera turns your Obsidian vault into a public page that updates itself, and a digital garden of notes you grow in public. Plant a note and it becomes a page marked seedling, budding or evergreen, with a license you choose. Link to a note in a friend's garden and the backlink appears on theirs. Private by default: nothing leaves your vault unless you choose it, and contact details are stripped. Free, open source and self-hostable."
     },
     {
       "id": "1279890",
       "name": "Notion: Context for your agents",
       "name_zh": "Notion: Context for your agents",
-      "tagline_zh": "Switch AI agents without re-explaining your work",
-      "description_zh": "Notion 3.8 turns your workspace into the shared context layer for every AI agent your team uses. Unlike chat tools that start from zero each time you switch models, Notion keeps your docs, databases, and Skills in one place any MCP agent can read and update. Connect Claude, ChatGPT, or any MCP agent, plug Notion Agents into 150+ tools, sync Skills everywhere with the new Skills API, and see every agent edit in upgraded version history. Plus column permissions and rebuilt synced databases.",
-      "intro_zh": "",
+      "tagline_zh": "切换 AI 智能体，不必重新解释工作背景",
+      "description_zh": "Notion 3.8 把文档、数据库和 Skills（供智能体复用的任务说明）集中保存，供支持 MCP（让智能体连接外部工具的通用方式）的智能体读取和更新，包括 Claude、ChatGPT。简介还列出 Notion Agents 连接 150 多种工具、通过新版 Skills API（供软件同步这些说明的接口）同步 Skills，以及智能体编辑历史、列权限和重建的同步数据库。",
+      "intro_zh": "给同时使用多个 AI 智能体的团队，把工作资料和任务说明放在 Notion，供不同智能体读取和更新。",
       "url": "https://www.producthunt.com/products/notion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6JUMUPF3NCHFPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fd5e596d-3937-4c8c-a7c8-e8c8f0d1b7f4.gif?auto=format",
       "votes_count": 181,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨智能体复用工作资料的需求明确，但能省多少解释仍待验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "共享资料后的权限控制和修改追踪，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务说明独立保存、供多个工具复用，是可借鉴的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "集中维护一份工作资料，比反复粘贴更有吸引力；但共享资料能否真正支持任务接续，介绍还没有说明。",
+      "product_analysis": {
+        "target_problem": "同时用多个智能体的团队，切换工具时可能要反复补充项目背景。资料散在不同位置，也容易漏掉重要约定。",
+        "workflow": "把文档、数据库和任务说明集中在 Notion，连接支持的智能体，让它读取或更新资料，再从版本历史查看修改。",
+        "ai_value": "AI 使用共享资料执行任务。这里的重点是让不同智能体取得工作背景，不能据此认定它们会共享完整聊天记录。",
+        "differentiation": "可能减少重复提供资料的工作。最可能让团队不愿切换的，是还要把现有资料整理并持续维护在 Notion。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: bb46580c-e60e-4207-a841-63eab61576bf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1282248",
-      "name": "Emochi",
-      "name_zh": "Emochi",
-      "tagline_zh": "Voice journal to understand yourself through art and science",
-      "description_zh": "Emochi turns your voice notes into a living, generative character that reflects your emotional world. Vent about your day, untangle a thought, or check in with yourself. Your words are transcribed instantly, helping you notice patterns in how you feel. Built by a doctor, a designer, and two AI engineers, Emochi brings affective science and playful art to private, non-clinical self-reflection. Start with a voice note. Meet your Mochi.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/emochi-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YAJULXSMGNIKDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/0abd025c-97f1-46ff-ac87-b59498e3513d.jpeg?auto=format",
-      "votes_count": 157,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 MCP 读写、Skills API 同步、智能体编辑历史和列权限。",
+        "possible_approach": "如果自己做，可以先集中保存项目资料和任务说明，再提供受权限约束的读写入口，并记录每次修改。",
+        "tradeoffs": "最难的是让智能体读写时遵守权限边界。若列权限没有同样生效，原本隐藏的数据可能被读走。",
+        "unknowns": "共享工作资料，是否足以让另一个智能体接着完成未结束的任务？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 099ff6f4-744b-4d94-b7f7-27538f3e2392)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多助手产品时，可把项目约定保存为独立资料，让助手按需读取，避免每段对话各维护一份。"
+      ],
+      "validation_questions": [
+        "用受限账号连接智能体，检查它能否读到无权访问的列。",
+        "换一个智能体继续同一任务，检查还需补充哪些关键背景。"
+      ],
+      "source_tagline": "Switch AI agents without re-explaining your work",
+      "source_description": "Notion 3.8 turns your workspace into the shared context layer for every AI agent your team uses. Unlike chat tools that start from zero each time you switch models, Notion keeps your docs, databases, and Skills in one place any MCP agent can read and update. Connect Claude, ChatGPT, or any MCP agent, plug Notion Agents into 150+ tools, sync Skills everywhere with the new Skills API, and see every agent edit in upgraded version history. Plus column permissions and rebuilt synced databases."
     },
     {
       "id": "1279257",
       "name": "Train with Pasta",
       "name_zh": "Train with Pasta",
-      "tagline_zh": "A personal trainer powered by Apple Intelligence",
-      "description_zh": "Pasta is a personal trainer in your pocket. Ask for \"a 30 minute upper body workout\", and it'll build it for you. While you train, the app uses voice as a guide, so you can focus on pushing yourself hard. It does plans too! Tell it what you're training for and it writes a plan around the days you can train. The app runs on Apple Intelligence and needs no account. Your progress and health data stays on your device. Requires an iPhone with Apple Intelligence on iOS 27.",
-      "intro_zh": "",
+      "tagline_zh": "由 Apple Intelligence 驱动的私人健身教练",
+      "description_zh": "Pasta 能按要求生成训练内容，例如“30 分钟上肢训练”，并在训练时提供语音引导，也能按目标和可训练日期编排计划。介绍称它使用 Apple Intelligence，无需账号，进度和健康数据保留在设备上；要求使用支持 Apple Intelligence、运行 iOS 27 的 iPhone。",
+      "intro_zh": "给想自己安排健身的人用：说出训练要求，生成单次训练或多日计划，运动时听语音引导。",
       "url": "https://www.producthunt.com/products/train-with-pasta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RCYFVIP3UANWOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3db92606-07c8-4c1d-aae6-5cb1f0c85805.jpeg?auto=format",
       "votes_count": 130,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "训练安排和运动中听指导的用途清楚，但计划是否合适尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把自然语言要求变成合理训练安排有具体难点，介绍未说明如何检查。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按可用日期编排计划的做法，可借给其他需要长期坚持的任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把可训练日期直接变成计划；最影响判断的是，它是否会根据个人身体限制调整内容。",
+      "product_analysis": {
+        "target_problem": "想自己健身的人，需要把训练目标、每次时长和可用日期变成具体安排。运动时也需要方便获取下一步指导。",
+        "workflow": "提出“30 分钟上肢训练”等要求，获得训练内容；训练时听语音引导。也可以提供目标和可训练日期，让它编排计划。",
+        "ai_value": "AI 把口头表达的训练需求转成训练内容或计划。语音引导是否也由 AI 生成，介绍没说。",
+        "differentiation": "它把提出要求和获得安排放在一起，省去自己逐项编排的工作。设备兼容要求可能让部分人无法使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 60e80717-e362-4b9f-b9dc-f05d72894d7f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称使用 Apple Intelligence，无需账号，进度和健康数据保留在设备上。",
+        "possible_approach": "如果自己做，可以先提取目标、时长和日期，再从动作库组合训练，用规则检查后配上语音提示。",
+        "tradeoffs": "最容易出错的是训练强度不合适；即使满足时长要求，也可能超出用户体能，增加受伤风险。",
+        "unknowns": "是否会了解用户体能和伤病限制，再调整训练？"
+      },
+      "transferable_insights": [
+        "做学习计划工具时，可以先问每周哪些天有空，再安排任务，让计划适应用户时间。"
+      ],
+      "validation_questions": [
+        "说明膝盖不适后，生成的训练是否避开会加重不适的动作？",
+        "先核对缓存所写的 iOS 27 要求，确认实际支持哪些设备和系统版本。"
+      ],
+      "source_tagline": "A personal trainer powered by Apple Intelligence",
+      "source_description": "Pasta is a personal trainer in your pocket. Ask for \"a 30 minute upper body workout\", and it'll build it for you. While you train, the app uses voice as a guide, so you can focus on pushing yourself hard. It does plans too! Tell it what you're training for and it writes a plan around the days you can train. The app runs on Apple Intelligence and needs no account. Your progress and health data stays on your device. Requires an iPhone with Apple Intelligence on iOS 27."
     },
     {
       "id": "1276839",
       "name": "LooGo",
       "name_zh": "LooGo",
-      "tagline_zh": "Find public restrooms fast",
-      "description_zh": "LooGo helps you find public restrooms instantly when you're out in the city. Built natively for Android and Wear OS using OpenStreetMap data, it gives you quick access to door codes, pricing, opening hours, and accessibility details. No ads, no tracking, and no bloat just fast offline maps and a companion Wear OS app so you can find a spot directly from your wrist.",
-      "intro_zh": "",
+      "tagline_zh": "快速找到公共厕所",
+      "description_zh": "LooGo 帮助用户在城市外出时寻找公共厕所，原生支持 Android 和 Wear OS，使用 OpenStreetMap 数据，提供门禁码、费用、开放时间及无障碍信息。简介称它无广告、不追踪，提供快速离线地图，还可通过配套手表应用查找厕所。",
+      "intro_zh": "给城市外出时需要找厕所的人用，在安卓手机或手表上查找公厕，查看开放时间、费用和无障碍信息。",
       "url": "https://www.producthunt.com/products/loogo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6QTQ2YZVZFK4KE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e08e85a2-66af-49b0-ba24-50e67c336385.png?auto=format",
       "votes_count": 117,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "需求明确，开放时间和无障碍信息能帮助判断能否使用，但数据可靠性未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "离线查询有具体用途，关键问题是如何避免用户拿着过期信息赶路。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把地点搜索与使用条件放在一起，适合借到其他公共设施查询中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是查位置时就能看到使用条件；最影响判断的是这些信息能否及时更新，避免用户白跑。",
+      "product_analysis": {
+        "target_problem": "人在城里急着找厕所，需要知道附近哪里有、到了能不能用。只知道位置，还不足以判断是否开放或适合轮椅进入。",
+        "workflow": "在 Android 手机或 Wear OS 手表上查找公厕，再查看门禁码、费用、开放时间及无障碍信息。介绍也提供离线地图，但未说明准备方式。",
+        "ai_value": "介绍没提 AI，主要靠地图数据、离线查看和手表端查询来改善体验。",
+        "differentiation": "把地点和使用条件放在一起，可能减少另外查证的麻烦。最可能让人不愿依赖它的，是目的地信息是否准确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b1895075-08a0-4c4f-9a60-67c53c3c7f40)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "原生支持 Android 和 Wear OS，使用 OpenStreetMap（开放街道地图）数据，并提供离线地图。",
+        "possible_approach": "如果自己做，可以先整理地图中的公厕位置和属性，再把选定区域存到设备上，供离线查询。",
+        "tradeoffs": "最容易出错的是信息更新：门禁码或开放时间过期，用户即使找到厕所，也可能进不去。",
+        "unknowns": "离线数据如何更新，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做充电站或公共设施查询时，把费用、开放时间等使用条件放到地点旁边，让用户先判断能不能用。"
+      ],
+      "validation_questions": [
+        "抽查一片熟悉区域的公厕，核对开放时间是否与现场一致。",
+        "在飞行模式下检查地图能否显示公厕位置和详情。"
+      ],
+      "source_tagline": "Find public restrooms fast",
+      "source_description": "LooGo helps you find public restrooms instantly when you're out in the city. Built natively for Android and Wear OS using OpenStreetMap data, it gives you quick access to door codes, pricing, opening hours, and accessibility details. No ads, no tracking, and no bloat just fast offline maps and a companion Wear OS app so you can find a spot directly from your wrist."
     },
     {
       "id": "1280962",
       "name": "Craft Agents",
       "name_zh": "Craft Agents",
-      "tagline_zh": "The world's most powerful agents, with the UX they deserve",
-      "description_zh": "Craft Agents is fully open source and runs locally on your machine — your data and keys never leave it. Bring any AI provider: Claude, GPT, Gemini, or local models. Agents connect to your real tools (MCP, APIs, local files) and act across all of them. Code diffs, data tables, diagrams, and live previews render inline. Turn results into persistent Pages, teach reusable Skills, and run Automations on a schedule — all in a desktop UX you can actually live in.",
-      "intro_zh": "",
+      "tagline_zh": "强大的智能体，配上与之相称的使用体验",
+      "description_zh": "Craft Agents 是完全开源、在本机运行的桌面工具，简介称数据和密钥不会离开本机；它支持 Claude、GPT、Gemini 或本地模型，并能连接工具接口与本地文件执行任务。它可在对话中展示代码改动、表格、图表和实时预览，还能将结果保存为长期保留的 Pages、配置可复用的 Skills，并按计划运行自动任务。",
+      "intro_zh": "给需要让 AI 操作多个工具的人用，在桌面里执行任务、查看结果，并保存可重复使用的做法。",
       "url": "https://www.producthunt.com/products/craft-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ERP56R5DH2SM47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e0266350-146a-43ef-82e8-0b61a9e64e25.png?auto=format",
       "votes_count": 114,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨工具执行和保存结果的用途清楚，实际省事程度仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "本地运行与云端模型的数据边界，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把一次任务沉淀为可复用做法，适合重复性工作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重结果能留下来供后续工作使用；但支持云端模型与数据不离开本机的说法需要澄清，本地运行本身不足以证明数据不外传。",
+      "product_analysis": {
+        "target_problem": "面向需要结合文件和多个工具完成任务的人。麻烦在于任务涉及不同来源，结果还要留给后续工作使用。",
+        "workflow": "接入模型和工具，让智能体执行任务，在对话中查看结果。结果可存为 Pages，重复任务可配置成 Skills 或定时自动任务。",
+        "ai_value": "AI 负责结合连接的工具执行任务，不只生成文字。简介未说明它如何决定每一步操作。",
+        "differentiation": "把执行、查看和保留结果放在同一桌面工具里，可能减少切换。最可能让人犹豫的是跨工具操作的权限风险。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4f80359c-70f7-4fdc-8251-c4caa8f2025b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "完全开源、本地运行，支持多种模型；通过 MCP（供 AI 连接工具的通用协议）、API（软件间传数据的接口）及本地文件连接工作内容。",
+        "possible_approach": "如果自己做，可以先接一个模型和一个工具，再把执行结果展示出来。跑通后保存任务做法，最后增加定时执行。",
+        "tradeoffs": "最容易出错的是发送模型请求前的数据筛选。若把本地文件内容传给云端模型，用户可能误以为数据始终留在电脑里。",
+        "unknowns": "“数据和密钥不离开本机”的说法，是否只适用于本地模型？"
+      },
+      "transferable_insights": [
+        "做重复任务工具时，可先让用户检查一次执行结果，再将确认过的做法保存为可复用任务。"
+      ],
+      "validation_questions": [
+        "用云端模型处理测试文件时，检查哪些文件内容会被发送出去。",
+        "让智能体执行一次修改文件的任务，检查是否在写入前请求确认。"
+      ],
+      "source_tagline": "The world's most powerful agents, with the UX they deserve",
+      "source_description": "Craft Agents is fully open source and runs locally on your machine — your data and keys never leave it. Bring any AI provider: Claude, GPT, Gemini, or local models. Agents connect to your real tools (MCP, APIs, local files) and act across all of them. Code diffs, data tables, diagrams, and live previews render inline. Turn results into persistent Pages, teach reusable Skills, and run Automations on a schedule — all in a desktop UX you can actually live in."
     },
     {
       "id": "1278278",
       "name": "Ultracite v8",
       "name_zh": "Ultracite v8",
-      "tagline_zh": "The linter and formatter for agentic development",
-      "description_zh": "Agents write most of the code now. Ultracite is the linter and formatter for agentic development, a zero-config preset for Oxlint, Biome, and ESLint that keeps agent-written code consistent and type-safe. Ultracite checks every edit agents make against hundreds of strict rules in under half a second, so what reaches review is consistent, type-safe code instead of slop. Used by engineering teams at OpenAI, Vercel, Mintlify, and thousands of open source projects: ultracite.ai",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 代理编程的代码检查与格式化工具",
+      "description_zh": "Ultracite 为 Oxlint、Biome 和 ESLint 提供零配置预设，用严格规则检查 AI 代理编写的代码，并统一格式。简介称它能在半秒内用数百条规则检查每次修改，帮助代码保持一致并减少类型问题；这些效果未经核验。",
+      "intro_zh": "给用 AI 代理写代码的开发团队，用预设规则检查代码问题、统一格式，减少人工审查时的琐碎修改。",
       "url": "https://www.producthunt.com/products/ultracite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/E3YR3RCT4JCACA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c74a1b2e-0d67-4b70-b926-911f7cebf36e.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "检查代理代码的场景明确，但减少多少审查工作尚无实测。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "规则检查能覆盖多少类型问题，是具体且重要的边界。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把团队规范做成默认规则，可借用于其他自动生成内容的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把重复的规范检查提前到审查前；最影响判断的是，它承诺的类型安全究竟覆盖到哪里。",
+      "product_analysis": {
+        "target_problem": "用 AI 代理写代码的团队，需要在审查前发现不符合规范的修改。对自行配置检查器的团队，以前要挑选规则，现在可以从现成预设开始。",
+        "workflow": "团队采用对应检查器的预设，再检查代理修改的代码并统一格式。简介没交代检查如何自动触发。",
+        "ai_value": "AI 是被检查代码的来源。介绍没提 Ultracite 自身使用 AI，主要靠规则检查和格式整理来改善体验。",
+        "differentiation": "省事点是少做规则配置。严格预设若与项目现有规范冲突，团队可能不愿切换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1406e0b1-50c1-48e8-b70e-5119a1d0e42d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供 Oxlint、Biome、ESLint 的零配置预设；这些是查找代码问题或统一代码格式的工具。",
+        "possible_approach": "如果自己做，可以先把团队规范整理成检查规则，再接入现有检查器，把发现的问题反馈给开发者或代理。",
+        "tradeoffs": "最容易出错的是把规则检查通过当成类型安全保证；遗漏跨文件的类型错误，用户仍可能在后续检查中返工。",
+        "unknowns": "预设是否包含完整的类型检查，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做代码生成工具时，可以先检查生成结果是否符合项目规则，再交给人审查，减少审查者处理格式问题的时间。"
+      ],
+      "validation_questions": [
+        "放入一个跨文件的类型错误，检查它能否被发现。",
+        "在现有项目上运行预设，检查报告的问题是否符合团队规范。"
+      ],
+      "source_tagline": "The linter and formatter for agentic development",
+      "source_description": "Agents write most of the code now. Ultracite is the linter and formatter for agentic development, a zero-config preset for Oxlint, Biome, and ESLint that keeps agent-written code consistent and type-safe. Ultracite checks every edit agents make against hundreds of strict rules in under half a second, so what reaches review is consistent, type-safe code instead of slop. Used by engineering teams at OpenAI, Vercel, Mintlify, and thousands of open source projects: ultracite.ai"
     },
     {
       "id": "1283017",
       "name": "GPU Terminal by Context.dev",
       "name_zh": "GPU Terminal by Context.dev",
-      "tagline_zh": "Compare GPU rental prices across cloud providers",
-      "description_zh": "GPU cloud pricing is scattered across dozens of providers. GPU Terminal brings recent hourly rates into one dashboard. Pick your GPU, compare provider offers, explore price history, and check original sources. Open source and built by Context.dev.",
-      "intro_zh": "",
+      "tagline_zh": "比较不同云服务商的 GPU 租赁价格",
+      "description_zh": "GPU 云服务价格分散在数十家供应商，GPU Terminal 将近期每小时费率集中到一个看板。用户可以选择 GPU、比较报价、查看历史价格和原始来源；产品由 Context.dev 开发并开源。",
+      "intro_zh": "给需要租用 GPU 的开发者和采购人员用，集中比较云服务报价，并查看历史价格与来源。",
       "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DF6JU33ZTEEQI3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e990aafa-d516-4377-9d00-8b724a034226.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查价场景明确，能减少跨供应商找报价的工作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "报价是否可比是具体问题，但资料未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "集中比价并保留原始来源，适合借到其他采购工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重价格旁能查原始来源；最影响判断的是，各家报价是否按可比较的条件整理。",
+      "product_analysis": {
+        "target_problem": "开发者和采购人员租 GPU 时，需要比较不同云服务商。以前要分头查报价，现在可以在一个看板里看近期每小时费率。",
+        "workflow": "选择 GPU，比较供应商报价，再查看历史价格或原始来源。",
+        "ai_value": "介绍没提 AI，主要靠集中展示价格来改善查价体验。",
+        "differentiation": "省去来回查价的工作。若报价对应的配置或租赁条件不同，用户可能仍要回供应商页面逐项核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f37be412-00c1-4387-9b47-479213bf1151)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说产品开源，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集各家报价及来源，再按 GPU 型号整理，定期保存价格记录供比较。",
+        "tradeoffs": "最难的是让报价可比。同型号 GPU 若对应不同租赁条件，只按时价排序，可能把不适用的方案排在前面。",
+        "unknowns": "报价多久更新一次，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做采购比价工具时，可把原始来源放在报价旁边，让用户在决定前核对条件。"
+      ],
+      "validation_questions": [
+        "抽查一条报价，与原始来源核对其租赁条件是否一致？",
+        "检查报价是否标明更新时间，能否判断它有多新？"
+      ],
+      "source_tagline": "Compare GPU rental prices across cloud providers",
+      "source_description": "GPU cloud pricing is scattered across dozens of providers. GPU Terminal brings recent hourly rates into one dashboard. Pick your GPU, compare provider offers, explore price history, and check original sources. Open source and built by Context.dev."
     },
     {
       "id": "1279510",
       "name": "Unfenced",
       "name_zh": "Unfenced",
-      "tagline_zh": "Land for sale that actually borders public land",
-      "description_zh": "Checks ~700,000 U.S. listings every week against official public-land maps and shows the ~13,600 homes and land parcels that actually touch national forest, BLM and state land. Each one is measured from its county parcel boundary: the shared edge in feet, drawn on a map, plus how much public land is behind it, elevation, road access, flood zone and wildfire hazard. Search by ZIP or state. Free, no account needed.",
-      "intro_zh": "",
+      "tagline_zh": "寻找真正与公共土地接壤的待售房产",
+      "description_zh": "介绍称，它每周将约70万条美国房产信息与官方公共土地地图比对，筛出约1.36万处与国家森林、美国土地管理局管理土地及州有土地接壤的房屋和地块。它按县级地块边界标出共边长度（英尺），并展示相邻公共土地面积、海拔、道路通达情况、洪水分区和野火风险；可按邮编或州搜索，免费且无需账户。",
+      "intro_zh": "给想买美国公共土地旁房产的人用，按地区找接壤地块，在地图上查看共边和周边风险。",
       "url": "https://www.producthunt.com/products/unfenced?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PXFKGSHHKBKW2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/70840edb-6701-432c-8a04-26275bdc9130.png?auto=format",
       "votes_count": 96,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "购地条件明确，能集中呈现接壤证据，但边界准确性尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "判断两块土地是否真正共边，是具体且影响购买判断的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把模糊的区位描述转成地图上的可查证结果，可用于其他选址产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把“接壤”画成可检查的边界；最大疑问是用户会不会把地图相邻误当成拥有合法通行权。",
+      "product_analysis": {
+        "target_problem": "面向想买公共土地旁房产的人。判断“附近有森林”和“地块确实接壤”是两回事，需要核对实际边界。",
+        "workflow": "按邮编或州搜索，查看接壤房源，再看地图上的共边长度及道路、洪水和野火信息。",
+        "ai_value": "介绍没提 AI，主要靠房源与官方土地地图比对来改善筛选体验。",
+        "differentiation": "把接壤判断和地图证据放在一起，减少分头核对；用户可能仍因边界可信度不足而另行查证。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 481e1b4d-7d91-4d4c-b867-80012af9ff33)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称每周比对房源与官方公共土地地图，并按县级地块边界测量共边长度。",
+        "possible_approach": "如果自己做，可以先把房源对应到具体地块，再统一两类地图的位置基准，计算共边并画出来。",
+        "tradeoffs": "最难的是处理地图边界偏差：细小错位可能把接壤判成不接壤，让用户漏看或误选房产。",
+        "unknowns": "地图上的接壤是否意味着买家可以合法进入相邻公共土地，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做房产或选址搜索时，可把“靠近某资源”转成可测量条件，并直接展示地图证据。"
+      ],
+      "validation_questions": [
+        "抽取一处结果，对照县级地块图核查标出的共边是否存在。",
+        "检查接壤房源是否明确说明进入相邻公共土地的通行权限制。"
+      ],
+      "source_tagline": "Land for sale that actually borders public land",
+      "source_description": "Checks ~700,000 U.S. listings every week against official public-land maps and shows the ~13,600 homes and land parcels that actually touch national forest, BLM and state land. Each one is measured from its county parcel boundary: the shared edge in feet, drawn on a map, plus how much public land is behind it, elevation, road access, flood zone and wildfire hazard. Search by ZIP or state. Free, no account needed."
+    },
+    {
+      "id": "1282248",
+      "name": "Emochi",
+      "name_zh": "Emochi",
+      "tagline_zh": "用语音日记，结合艺术与科学认识自己",
+      "description_zh": "Emochi 将语音笔记转成文字，并生成反映情绪世界、持续变化的角色，供用户倾诉、梳理想法和观察感受变化。介绍称，它由一名医生、一名设计师和两名 AI 工程师打造，将情感科学与趣味艺术用于私密、非临床的自我反思。",
+      "intro_zh": "给想记录和梳理情绪的人用：说一段语音，留下文字记录，并看到反映情绪的角色。",
+      "url": "https://www.producthunt.com/products/emochi-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YAJULXSMGNIKDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0abd025c-97f1-46ff-ac87-b59498e3513d.jpeg?auto=format",
+      "votes_count": 157,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "记录场景清楚，但角色是否能帮助理解情绪还缺证据。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把个人叙述转成情绪表达，涉及容易误读且会影响用户判断的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "语音记录配合视觉反馈可借鉴，但长期作用尚不明确。"
+        }
+      },
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它让记录得到可见回应；最影响判断的是，这种回应能否贴近用户感受，而不让人误当成心理评估。",
+      "product_analysis": {
+        "target_problem": "想复盘一天感受的人，可能愿意倾诉，却难以把零散想法整理成记录。Emochi 提供语音入口，让用户回看自己的表达。",
+        "workflow": "先录下当天经历或一个困扰自己的念头。产品将语音转成文字，并生成反映情绪的角色，供用户自我观察。",
+        "ai_value": "介绍提到 AI 工程师，但没说明 AI 具体负责哪一步。明确功能是语音转写和角色生成，不能据此认定它能准确识别情绪。",
+        "differentiation": "它把文字记录与角色反馈放在一起，可能让回顾更有参与感。若角色表达不符合自身感受，用户可能不愿继续记录。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到语音转写和生成式角色，未披露具体技术实现。",
+        "possible_approach": "如果自己做，可以先把录音转成文字，再提取可能的情绪线索，用来调整角色表情，并让用户确认是否贴切。",
+        "tradeoffs": "最容易出错的是把一句话解释成确定情绪。角色若反复表达错误感受，可能误导用户对自己的理解。",
+        "unknowns": "语音和文字是否上传保存，以及用户能否彻底删除，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做日记或习惯记录产品时，可以在每次记录后给出随内容变化的视觉反馈，但应允许用户纠正它的含义。"
+      ],
+      "validation_questions": [
+        "录一段包含反话的自述，检查角色表达是否误读情绪。",
+        "删除一条语音记录，检查是否明确说明原始录音也被删除。"
+      ],
+      "source_tagline": "Voice journal to understand yourself through art and science",
+      "source_description": "Emochi turns your voice notes into a living, generative character that reflects your emotional world. Vent about your day, untangle a thought, or check in with yourself. Your words are transcribed instantly, helping you notice patterns in how you feel. Built by a doctor, a designer, and two AI engineers, Emochi brings affective science and playful art to private, non-clinical self-reflection. Start with a voice note. Meet your Mochi."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

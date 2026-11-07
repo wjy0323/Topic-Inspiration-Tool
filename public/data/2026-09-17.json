@@ -1,367 +1,510 @@
 {
   "date": "2026-09-17",
-  "generated_at": "2026-09-18T20:07:58+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:28:08+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1230612",
       "name": "CREEM 2.0",
       "name_zh": "CREEM 2.0",
-      "tagline_zh": "Sell and grow your AI built products",
-      "description_zh": "- Creem 2.0 is the money platform for the AI building era: sell software and digital products globally, with payments, taxes, payouts, affiliates and usage billing handled for you - The all in one platform for AI builders to turn what they build into a business. Payments, taxes, billing, affiliates, payouts, worldwide. Building a product went from months to a weekend. Getting paid for it did not, with CREEM you can move at the same speed.",
-      "intro_zh": "",
+      "tagline_zh": "销售并发展你用 AI 构建的产品",
+      "description_zh": "CREEM 2.0 面向 AI 产品开发者，支持向全球销售软件和数字产品，集中处理支付、税务、款项发放、推广分佣和按用量计费。它希望让开发者在做出产品后，更容易开始经营业务。",
+      "intro_zh": "给准备销售软件或数字产品的开发者用，集中处理全球收款、税务、计费和推广分佣。",
       "url": "https://www.producthunt.com/products/creem?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XPEDAC33OVX2ON?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/88fc1155-d720-497f-a5cc-89a8b39a0783.jpeg?auto=format",
       "votes_count": 550,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "销售后的事务很明确，但覆盖地区和使用条件尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "按用量计费有具体难题，但介绍未披露处理办法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕一次销售集中处理后续事务，适合借鉴到开发者服务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少开发者分别处理销售事务的工作；最影响判断的是税务覆盖范围，不能把“全球销售”理解为所有地区都已处理妥当。",
+      "product_analysis": {
+        "target_problem": "开发者做出软件后，还要解决怎么收钱、计费和处理税务。面向全球销售时，这些事务可能拖慢开始营业的进度。",
+        "workflow": "开发者用它销售软件或数字产品，由平台集中处理支付、税务、款项发放、推广分佣和用量计费。介绍没给出具体接入步骤。",
+        "ai_value": "AI 在这里指开发者构建产品的方式。介绍没提平台自身使用 AI，主要靠集中处理经营事务来省事。",
+        "differentiation": "它把多项销售事务放在一起，可能减少分别处理的工作。我会先确认收费，费用可能影响小额产品是否愿意接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持按用量计费，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录每次可收费的使用，再按价格规则汇总成账单，交给支付系统收款。",
+        "tradeoffs": "最容易错的是把重复上报的使用记录算两次，导致用户被多收费，开发者还得核账退款。",
+        "unknowns": "税务处理具体覆盖哪些国家和地区，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做开发者服务时，可以围绕“开始卖产品”组织功能，把收款、计费和税务放在同一个业务入口。"
+      ],
+      "validation_questions": [
+        "同一笔使用记录重复提交，账单会不会重复收费？",
+        "目标销售地区的税务，平台具体代办哪些事项？"
+      ],
+      "source_tagline": "Sell and grow your AI built products",
+      "source_description": "- Creem 2.0 is the money platform for the AI building era: sell software and digital products globally, with payments, taxes, payouts, affiliates and usage billing handled for you - The all in one platform for AI builders to turn what they build into a business. Payments, taxes, billing, affiliates, payouts, worldwide. Building a product went from months to a weekend. Getting paid for it did not, with CREEM you can move at the same speed."
     },
     {
       "id": "1252540",
       "name": "Bitrise Remote Dev Environments",
       "name_zh": "Bitrise Remote Dev Environments",
-      "tagline_zh": "Cloud Macs your coding agents can actually build on",
-      "description_zh": "Bitrise RDE gives you cloud Macs & Linux machines that start in seconds, the same machines, stacks and caches as your CI. Give every agent its machine and run them in parallel via MCP, or attach VS Code, Cursor or Claude Code. Archive when you stop, restore later.",
-      "intro_zh": "",
+      "tagline_zh": "让编程智能体能实际运行构建的云端 Mac",
+      "description_zh": "Bitrise RDE 提供云端 Mac 和 Linux 机器，介绍称可在数秒内启动，并与持续集成（CI，即自动构建和检查代码）的机器、软件环境及缓存保持一致。可通过 MCP（让 AI 工具连接外部服务的方式）为多个编程智能体分配机器并行工作，也可连接 VS Code、Cursor 或 Claude Code，停止后归档，稍后恢复。",
+      "intro_zh": "给使用编程智能体的开发团队，提供可运行构建的云端机器，支持并行工作和归档恢复。",
       "url": "https://www.producthunt.com/products/bitrise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/667RUK6AWQ3HIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/48e23cbd-05b4-49ce-a2cb-bf6d0e9811c1.jpeg?auto=format",
       "votes_count": 321,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确解决智能体缺少构建环境的问题，但实际配置负担尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "开发环境与自动构建环境保持一致，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "给每个智能体独立机器、暂停后恢复的做法可供开发工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重让智能体直接运行构建，减少只交出代码却无法检查的情况；关键疑问是环境一致性能否持续保持。",
+      "product_analysis": {
+        "target_problem": "让编程智能体修改代码的团队，还需要让它运行构建和检查。若开发与自动构建环境不同，排查失败原因会更麻烦。",
+        "workflow": "分配云端 Mac 或 Linux 机器，让智能体并行工作，或连接已有编辑器。停止时归档，需要时恢复。",
+        "ai_value": "它为编程智能体提供执行代码的机器；介绍未说明它自身会生成或审查代码。",
+        "differentiation": "主打复用自动构建所用的环境，可能减少配置差异。最可能让团队犹豫的是机器费用，资料未给价格。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1251830",
-      "name": "Text Agent Store",
-      "name_zh": "Text Agent Store",
-      "tagline_zh": "A marketplace for AI agents you can text",
-      "description_zh": "Meet all the agents you can text. Agent Store is a directory of AI agents that live inside a contact in your phone book. Browse an ecosystem of texting agents, and send one text to start using them today. No account, no download, no setup.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/text-agent-store?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/DMOVWAJZUXDH4M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f59470a2-ec64-42b5-8ff7-c69dc3037819.png?auto=format",
-      "votes_count": 304,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到共享 CI 的机器、软件环境和缓存，支持 MCP、编辑器连接及归档恢复。",
+        "possible_approach": "如果自己做，可以先用同一份配置创建开发和构建机器，再给每个智能体分配独立实例，停止时保存状态。",
+        "tradeoffs": "难点是恢复后环境是否仍匹配自动构建环境。版本一旦错开，用户可能遇到云端能构建、提交后却失败。",
+        "unknowns": "归档究竟保存哪些文件和运行状态，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做智能体开发工具时，可给每个任务分配独立机器，减少多个任务修改同一工作目录的冲突。"
+      ],
+      "validation_questions": [
+        "用同一份代码分别在远程环境和 CI 中构建，结果是否一致？",
+        "归档前创建未提交文件，恢复后文件是否完整保留？"
+      ],
+      "source_tagline": "Cloud Macs your coding agents can actually build on",
+      "source_description": "Bitrise RDE gives you cloud Macs & Linux machines that start in seconds, the same machines, stacks and caches as your CI. Give every agent its machine and run them in parallel via MCP, or attach VS Code, Cursor or Claude Code. Archive when you stop, restore later."
     },
     {
       "id": "1240456",
       "name": "Modaal for Android",
       "name_zh": "Modaal for Android",
-      "tagline_zh": "Ship on both stores from one project using Swift + Kotlin",
-      "description_zh": "Modaal for Android let you ship one app to both stores with your own AI agent - no rebuild. Rather than one React Native codebase that draws the same screens on both phones, Modaal shares the logic, not the screens: your agent writes real Swift/SwiftUI for iPhone and real Kotlin and Jetpack Compose for Android from one project, and the build proves both behave the same. So anyone who built an iPhone app with Modaal can add Android without touching a line of logic — no credit meters, no rebuild.",
-      "intro_zh": "",
+      "tagline_zh": "用一个 Swift + Kotlin 项目，向两个应用商店发布应用",
+      "description_zh": "Modaal for Android 让用户通过自己的 AI 代理，从一个项目生成 iPhone 和 Android 应用；它强调共享逻辑，两端分别使用原生界面代码。简介称，已有 Modaal iPhone 应用可以不改逻辑地增加 Android 版，并在构建时验证两端行为一致，无需重建，也不按点数计量。",
+      "intro_zh": "给想增加 Android 版本的 Modaal 应用开发者，用 AI 从同一项目生成两端原生代码。",
       "url": "https://www.producthunt.com/products/modaal-ai-agent-for-ios-android-native?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/G7X3BUMPYOSFCT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fab8a3cc-647b-411a-ac3f-29657b496e0c.jpeg?auto=format",
       "votes_count": 296,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "已有 iPhone 应用扩展 Android 的场景清楚，但省下多少改写工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "生成不同界面代码后，怎样验证行为一致是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "共享行为要求、分别生成界面并统一验收的做法可以借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是复用已有应用的业务逻辑；最影响判断的是行为一致性验证能发现多少实际问题。",
+      "product_analysis": {
+        "target_problem": "已有 Modaal iPhone 应用的开发者，要增加 Android 版时，需要让新界面保留原有业务行为。它试图减少为另一平台重新实现逻辑的工作。",
+        "workflow": "在同一项目中，由用户自己的 AI 代理生成两端代码，再构建应用。简介称构建会验证行为一致，但没交代具体操作。",
+        "ai_value": "AI 负责写两套原生代码：iPhone 用 Swift/SwiftUI，Android 用 Kotlin/Jetpack Compose，即各平台的编程语言和界面工具。",
+        "differentiation": "它把共享范围放在逻辑上，界面分别生成。可能让人犹豫的是：以后改功能，仍需检查两端是否一起改对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说共享逻辑、不共享屏幕，并由 AI 生成两端原生代码；未说明逻辑如何共享。",
+        "possible_approach": "如果自己做，可以先把业务规则写成共同要求，再分别生成界面，用同一组操作和预期结果检查两端。",
+        "tradeoffs": "最难的是验收覆盖不全。即使都能构建，返回操作或权限被拒后仍可能表现不同，让用户卡在不同步骤。",
+        "unknowns": "所谓“构建证明行为一致”，究竟检查了哪些行为？"
+      },
+      "transferable_insights": [
+        "做多端代码生成工具时，可以共用一组业务验收用例，分别检查各端，避免把编译成功当成功能完成。"
+      ],
+      "validation_questions": [
+        "选一个已有业务流程，检查增加 Android 版是否需要改动原有逻辑。",
+        "让两端出现一个已知行为差异，检查构建能否发现。"
+      ],
+      "source_tagline": "Ship on both stores from one project using Swift + Kotlin",
+      "source_description": "Modaal for Android let you ship one app to both stores with your own AI agent - no rebuild. Rather than one React Native codebase that draws the same screens on both phones, Modaal shares the logic, not the screens: your agent writes real Swift/SwiftUI for iPhone and real Kotlin and Jetpack Compose for Android from one project, and the build proves both behave the same. So anyone who built an iPhone app with Modaal can add Android without touching a line of logic — no credit meters, no rebuild."
     },
     {
       "id": "1237405",
       "name": "NovaSynth by Noveum",
       "name_zh": "NovaSynth by Noveum",
-      "tagline_zh": "Test your voice agent on the callers you can’t stage.",
-      "description_zh": "Simulate realistic callers at scale with custom personas, scenarios, interruptions, noise, accents, and network conditions. NovaSynth runs those calls against your voice agent, scores audio and transcripts across 30+ dimensions, and surfaces the failures and fixes that matter to your team.",
-      "intro_zh": "",
+      "tagline_zh": "用难以安排的来电情境测试你的语音助手。",
+      "description_zh": "模拟多种来电者，可自定义人物设定、场景、打断、噪声、口音和网络条件，并批量向语音助手拨打测试电话。产品介绍称，它会从 30 多个维度评估音频和转写文本，找出故障并给出修复建议。",
+      "intro_zh": "给开发和测试语音助手的团队用，模拟不同来电条件，检查助手在通话中哪里出错。",
       "url": "https://www.producthunt.com/products/novasynth-by-noveum?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BT4VXYMQNVMEGC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7b9339f1-f883-45c8-9b3e-ca37009c4dd3.png?auto=format",
       "votes_count": 194,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "测试对象和可配置条件明确，但能否发现真实通话问题仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让模拟来电触发真实故障，是具体且影响结果的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "组合干扰条件并定位失败片段的做法，可借用于其他对话产品测试。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是集中测试难安排的来电条件；最影响判断的是模拟结果能否反映真实用户遇到的问题。",
+      "product_analysis": {
+        "target_problem": "做语音助手的团队，需要检查口音、打断和差网络下的表现。这些条件难以靠安排来电者逐一覆盖。",
+        "workflow": "配置来电者和场景，再设定干扰条件。工具运行测试通话，评估音频与文字，列出失败及修复建议。",
+        "ai_value": "介绍没明确说明 AI 参与哪一步，明确的作用是模拟来电和自动评估，不能据此认定评分由模型完成。",
+        "differentiation": "它把多种来电条件放进批量测试，可能减少逐场组织测试的工作。团队最可能犹豫的是：模拟表现是否代表真实来电。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持模拟打断、噪声、口音和网络条件，并从 30 多个维度评估音频与转写文本；具体技术未披露。",
+        "possible_approach": "如果自己做，可以先定义通话任务和成功标准，再生成来电音频、加入干扰，与助手通话后对照标准检查结果。",
+        "tradeoffs": "最难的是让模拟来电足够接近真实行为。若打断时机过于规律，测试通过也可能漏掉真实故障。",
+        "unknowns": "30 多个评分维度如何对应团队实际关心的通话失败？"
+      },
+      "transferable_insights": [
+        "做对话产品测试时，可把同一任务分别放进口音、打断和噪声条件中，比较哪种条件最容易导致失败。"
+      ],
+      "validation_questions": [
+        "用一段已知会失败的通话场景测试，检查工具能否识别同一个问题。",
+        "固定任务只改变打断时机，检查模拟来电是否确实按设定打断。"
+      ],
+      "source_tagline": "Test your voice agent on the callers you can’t stage.",
+      "source_description": "Simulate realistic callers at scale with custom personas, scenarios, interruptions, noise, accents, and network conditions. NovaSynth runs those calls against your voice agent, scores audio and transcripts across 30+ dimensions, and surfaces the failures and fixes that matter to your team."
     },
     {
       "id": "1252831",
       "name": "Higgsfield API",
       "name_zh": "Higgsfield API",
-      "tagline_zh": "One async API for 50+ generative media models",
-      "description_zh": "Higgsfield API is one authenticated, asynchronous API for generative media. Call Seedance, Kling, Soul, Grok Imagine, Wan, and 50+ frontier models through the same request lifecycle — submit, poll or webhook, download. Explore models in Console, get keys in Cloud, ship with Python/TypeScript SDKs. Pay per use with intro discounts up to 50% off your top models. Build your own Higgsfield at open.higgsfield.ai.",
-      "intro_zh": "",
+      "tagline_zh": "用一个异步接口调用 50 多个生成式媒体模型",
+      "description_zh": "Higgsfield API 提供统一认证的异步接口，可调用 Seedance、Kling、Soul、Grok Imagine、Wan 等 50 多个模型，按提交、查询状态或接收完成通知、下载的流程获取结果。开发者可在 Console 探索模型、在 Cloud 获取密钥，并使用 Python 或 TypeScript 开发工具包接入；按用量付费，介绍称部分模型初期优惠最高可达五折。",
+      "intro_zh": "给要接入多个媒体生成模型的开发者用，通过同一个接口提交任务、查询进度并下载结果。",
       "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7K74F5COEZRHLG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6e8b36a6-4017-4093-bc39-7fbee685c328.webp?auto=format",
       "votes_count": 168,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "统一任务流程能减少重复接入，但各模型仍需多少适配尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "长时间生成任务如何准确返回最终状态，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把不同服务整理成同一套任务操作，可借用于其他多服务产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把多模型接入中的等待和取结果流程统一起来；最影响判断的是，统一接口之外还剩多少逐模型适配工作。",
+      "product_analysis": {
+        "target_problem": "开发者要在自己的产品中提供多个媒体生成模型。分别接入时，可能需要重复处理认证、任务等待和结果获取。",
+        "workflow": "先在 Console 查看模型，再到 Cloud 获取密钥。用开发工具包提交任务，定时查询状态或接收完成通知，最后下载结果。",
+        "ai_value": "AI 负责生成媒体内容。这个产品主要把多个模型的调用和等待流程放到同一个接口里。",
+        "differentiation": "省下的是重复编写任务处理代码。若模型专属参数仍需逐个适配，开发者可能不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "采用统一认证的异步接口，即提交后不必一直等结果；支持查询状态、完成通知及 Python、TypeScript 开发工具包。",
+        "possible_approach": "如果自己做，可以先记录每次提交的任务编号，再把各模型的进度转成统一状态，完成后提供下载地址。",
+        "tradeoffs": "最容易出错的是最终状态没同步回来。任务可能已经生成成功，用户却一直看到等待中。",
+        "unknowns": "完成通知丢失后，能否通过查询找回最终结果？"
+      },
+      "transferable_insights": [
+        "做多个耗时服务的聚合产品时，可以统一提交、查进度和取结果的操作，让页面复用同一套任务列表。"
+      ],
+      "validation_questions": [
+        "选两个模型提交任务，检查是否能复用同一套状态处理代码。",
+        "故意不接收完成通知，检查能否通过查询取回结果。"
+      ],
+      "source_tagline": "One async API for 50+ generative media models",
+      "source_description": "Higgsfield API is one authenticated, asynchronous API for generative media. Call Seedance, Kling, Soul, Grok Imagine, Wan, and 50+ frontier models through the same request lifecycle — submit, poll or webhook, download. Explore models in Console, get keys in Cloud, ship with Python/TypeScript SDKs. Pay per use with intro discounts up to 50% off your top models. Build your own Higgsfield at open.higgsfield.ai."
     },
     {
       "id": "1253037",
       "name": "MCPJam",
       "name_zh": "MCPJam",
-      "tagline_zh": "The testing & evaluations platform for MCP servers",
-      "description_zh": "Run User Testing, Swarms, Evals, and CI/CD gates on your MCP server to see if users actually succeed in ChatGPT, Claude, and Copilot. Test local servers via desktop app, CLI, or SDK.",
-      "intro_zh": "",
+      "tagline_zh": "面向 MCP 服务的测试与评估平台",
+      "description_zh": "在 MCP 服务上运行用户测试、Swarms、评估和自动构建发布检查，检查用户能否在 ChatGPT、Claude 和 Copilot 中完成任务。支持通过桌面应用、命令行或开发工具包测试本地服务。",
+      "intro_zh": "给开发 MCP 服务的团队用，测试服务接入 AI 助手后，用户能否完成任务，并设置发布检查。",
       "url": "https://www.producthunt.com/products/mcpjam-inspector?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WWCN2Z3AIPNSY6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f1f21cfe-3a9c-4704-82da-f0817cccd312.png?auto=format",
       "votes_count": 150,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "测试对象和使用场景清楚，但成功判定的可靠性未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从服务可调用到用户任务完成，存在具体的评估难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把用户任务测试纳入发布检查，是可以借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把测试目标延伸到用户任务结果；最影响判断的是，平台测试能否代表真实助手中的表现。",
+      "product_analysis": {
+        "target_problem": "开发 MCP 服务的团队需要确认：服务接到 AI 助手后，用户是否真能办成事。只检查服务能否响应，还不能回答这个问题。",
+        "workflow": "通过桌面应用、命令行或开发工具包测试本地服务，再运行用户测试、评估或发布检查。简介未说明这些测试如何配置。",
+        "ai_value": "它评估 AI 助手使用服务后的任务结果；资料没说评估过程是否由 AI 自动判断。",
+        "differentiation": "它把用户能否完成任务纳入测试和发布检查。团队可能不愿采用的原因是：还需确认测试结果能否代表真实使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1251910",
-      "name": "Die With Me",
-      "name_zh": "Die With Me",
-      "tagline_zh": "AIM buddy list for your friends’ Claude Code and Codex usage",
-      "description_zh": "An AIM buddy list for your AI usage. See friends’ Claude Code and Codex allowances as little mascots on your Mac. Set a status, visit their rooms, and unlock a chatroom when your allowance runs low. Your AI clocks out, but your friends are still here.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/die-with-me-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PRARYP23IA5HZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cd1b2494-0cf0-4880-a5e5-67952c2a64d4.jpeg?auto=format",
-      "votes_count": 117,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持本地 MCP 服务测试；MCP 是让 AI 应用连接外部工具和数据的一套约定。",
+        "possible_approach": "如果自己做，可以先准备带预期结果的用户任务，再让助手调用服务，检查实际结果，最后把检查接入发布流程。",
+        "tradeoffs": "最难的是判定任务是否成功。若只看助手说“已完成”，实际没办成的任务也可能通过检查。",
+        "unknowns": "介绍未说明测试如何覆盖 ChatGPT、Claude 和 Copilot 的实际使用环境。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做 AI 工具集成时，可以用“用户要办成什么事”组织测试用例，再把失败用例设为发布前必须通过的检查。"
+      ],
+      "validation_questions": [
+        "准备一个助手声称完成、实际结果错误的任务，检查平台能否判失败。",
+        "将同一任务在平台和一个真实助手中各跑一次，比较结果是否一致。"
+      ],
+      "source_tagline": "The testing & evaluations platform for MCP servers",
+      "source_description": "Run User Testing, Swarms, Evals, and CI/CD gates on your MCP server to see if users actually succeed in ChatGPT, Claude, and Copilot. Test local servers via desktop app, CLI, or SDK."
     },
     {
       "id": "1252719",
       "name": "Figo",
       "name_zh": "Figo",
-      "tagline_zh": "See every move your competitors make",
-      "description_zh": "Figo watches your competitors so you do not have to. Every week it checks their rankings, new pages, blog posts, Google Ads, Meta ads, TikTok ads, Instagram, Facebook and Reddit, plus what ChatGPT, Claude, Gemini and Perplexity say when buyers ask for a recommendation. Monday morning you get a short briefing: what changed, what it means, and one thing to do about it. Add your website and it finds the competitors for you.",
-      "intro_zh": "",
+      "tagline_zh": "查看竞争对手的每个动向",
+      "description_zh": "Figo 每周检查竞争对手的排名、新页面、博客、Google、Meta 和 TikTok 广告，以及 Instagram、Facebook、Reddit 上的动态，也关注 ChatGPT、Claude、Gemini 和 Perplexity 在买家寻求推荐时的回答。输入自己的网站后，它会寻找竞争对手，并在周一早上提供简报，说明变化、含义和一项行动建议。",
+      "intro_zh": "给需要跟踪竞品的产品和营销人员用，每周汇总竞品动向，并给出一项行动建议。",
       "url": "https://www.producthunt.com/products/figo-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EVRRQKUQJ3DFRO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/adba6e6e-aeea-4057-a9e4-49647294cd8b.png?auto=format",
       "votes_count": 107,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跟踪对象和交付结果清楚，但简报质量尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何区分真实变化与推荐回答的波动，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把监测结果压缩成变化、解释和一项建议，便于借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把多处动态整理成每周可读的结果；最影响判断的是，它能否为变化和建议提供可靠依据。",
+      "product_analysis": {
+        "target_problem": "产品和营销人员需要持续掌握竞品获客动向。信息分散在网站、广告和社交平台，逐处查看后还要判断哪些变化重要。",
+        "workflow": "输入自己的网站，让它寻找竞品。它每周检查介绍所列渠道，周一早上交付变化、含义和一项行动建议。",
+        "ai_value": "它会监测四款 AI 工具对买家推荐问题的回答。介绍没说是否用 AI 生成简报，不能把监测 AI 等同于用 AI 分析。",
+        "differentiation": "把分散动态集中成短简报，减少整理工作。用户可能不愿交出判断，尤其当建议没有足够依据时。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到每周跨渠道监测，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先确定竞品并保存每周资料，再比较前后变化，最后附上来源和一项建议。",
+        "tradeoffs": "最难的是判断 AI 推荐是否真的变了。同一问题的回答可能波动，直接比较可能把偶然差异写成趋势。",
+        "unknowns": "简报能否回看原始来源和历史记录？"
+      },
+      "transferable_insights": [
+        "做经营周报时，可以按“变化、含义、一项行动”组织内容，让用户读完就知道下一步。"
+      ],
+      "validation_questions": [
+        "挑一条简报变化，能否找到对应的原始证据？",
+        "对同一推荐问题重复提问，检查所谓变化是否只是回答波动？"
+      ],
+      "source_tagline": "See every move your competitors make",
+      "source_description": "Figo watches your competitors so you do not have to. Every week it checks their rankings, new pages, blog posts, Google Ads, Meta ads, TikTok ads, Instagram, Facebook and Reddit, plus what ChatGPT, Claude, Gemini and Perplexity say when buyers ask for a recommendation. Monday morning you get a short briefing: what changed, what it means, and one thing to do about it. Add your website and it finds the competitors for you."
     },
     {
       "id": "1252945",
       "name": "Zella",
       "name_zh": "Zella",
-      "tagline_zh": "Video recorder that edits itself on Mac and iPhone",
-      "description_zh": "Zella records your screen or camera and edits the video for you, on your own Mac or iPhone. Nothing uploads, no account, no subscription. Free at 1080p with no watermark. One tap runs Auto-Polish: captions, silence cuts, filler words removed, zoom-ins and a cleaned-up voice. Make it Viral adds pacing, transitions, sound effects and a music bed. Pro is one payment of $89 that unlocks Mac and iPhone together, for life, instead of a monthly bill.",
-      "intro_zh": "",
+      "tagline_zh": "在 Mac 和 iPhone 上自动剪辑的录像工具",
+      "description_zh": "Zella 可在 Mac 或 iPhone 上录制屏幕或摄像头画面，并在本机自动剪辑；介绍称内容不上传，无需账号或订阅，免费版支持无水印的 1080p 视频。Auto-Polish 可一键加字幕、删静音和口头语、放大画面并净化人声，Make it Viral 可调整节奏、添加转场、音效和背景音乐；Pro 标价一次支付 89 美元，永久解锁 Mac 和 iPhone 两端。",
+      "intro_zh": "给用 Mac 或 iPhone 录演示、讲解的人，把录屏或摄像头录像自动整理成带字幕的成片。",
       "url": "https://www.producthunt.com/products/zella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/H24QMZIKLQOUDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1686b3bd-f754-4dfb-9932-9f11e0c8eb3b.png?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录制后整理口播的需求明确，但自动剪辑质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "删除口头语时如何保留原意，是具体且影响成片的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把基础整理和风格加工分开，适合借鉴到内容工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重录完就能做基础整理；最影响判断的是误删后能否轻松恢复，否则省下的剪辑时间可能花在复查上。",
+      "product_analysis": {
+        "target_problem": "做演示和口播的人，录完后还要处理停顿、口头语和字幕。Zella 把这些整理动作集中到录制之后。",
+        "workflow": "先录屏幕或摄像头，再点 Auto-Polish 自动整理。需要更多节奏和声音处理时，可用 Make it Viral。",
+        "ai_value": "介绍没提 AI，主要靠自动剪辑和声音处理来改善体验，不能据此判断用了什么模型。",
+        "differentiation": "它把录制和后期放在同一工具里，减少来回处理。最可能让人犹豫的是自动剪法不符合自己的表达习惯。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确称录制和剪辑在本机完成，内容不上传。",
+        "possible_approach": "如果自己做，可以先把语音转成带时间标记的文字，再标出静音和口头语，按对应位置剪视频、加字幕，最后处理声音。",
+        "tradeoffs": "最容易错删有意义的语气词或停顿，让句意改变，用户还得逐段检查。",
+        "unknowns": "自动删掉的片段能否方便地恢复？"
+      },
+      "transferable_insights": [
+        "做内容编辑工具时，可把基础整理与风格加工分成两个入口，让只想清理素材的人不必同时接受转场和配乐。"
+      ],
+      "validation_questions": [
+        "录一段含犹豫和自我纠正的话，检查删口头语后是否保留原意。",
+        "断网后完成一次录制到剪辑，检查本机处理是否可用。"
+      ],
+      "source_tagline": "Video recorder that edits itself on Mac and iPhone",
+      "source_description": "Zella records your screen or camera and edits the video for you, on your own Mac or iPhone. Nothing uploads, no account, no subscription. Free at 1080p with no watermark. One tap runs Auto-Polish: captions, silence cuts, filler words removed, zoom-ins and a cleaned-up voice. Make it Viral adds pacing, transitions, sound effects and a music bed. Pro is one payment of $89 that unlocks Mac and iPhone together, for life, instead of a monthly bill."
+    },
+    {
+      "id": "1251830",
+      "name": "Text Agent Store",
+      "name_zh": "Text Agent Store",
+      "tagline_zh": "可以发短信使用的 AI 智能体市场",
+      "description_zh": "Text Agent Store 是一个 AI 智能体目录，介绍将这些智能体描述为手机通讯录里的联系人。用户可以浏览目录，发送一条短信开始使用，无需注册账号、下载或配置。",
+      "intro_zh": "给想用发短信的方式使用 AI 的人，提供智能体目录，找到对象后发消息开始交流。",
+      "url": "https://www.producthunt.com/products/text-agent-store?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DMOVWAJZUXDH4M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f59470a2-ec64-42b5-8ff7-c69dc3037819.png?auto=format",
+      "votes_count": 304,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "入口清楚，但没说明这些智能体能解决哪些具体任务。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "短信对话如何保留上下文是具体问题，但实现信息有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把服务放进用户已有的通信工具，是可借用的具体做法。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重免安装就能开始交流；但目录里究竟有哪些有用服务，仍是判断它是否值得持续使用的关键。",
+      "product_analysis": {
+        "target_problem": "想尝试 AI 服务、又不愿安装新应用的人可能会需要它。它针对的是开始使用前的注册、下载和配置负担。",
+        "workflow": "浏览智能体目录，选定对象，再发送短信开始使用。介绍没展示后续任务或操作。",
+        "ai_value": "AI 是对话服务的提供者，但简介没说它们具体能做什么，不能据此判断任务完成能力。",
+        "differentiation": "它把使用入口放进短信，减少进入新应用的步骤。最可能让人犹豫的是，要把任务内容发给陌生服务。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说可以通过短信使用 AI 智能体，没说具体模型或消息接入技术。",
+        "possible_approach": "如果自己做，可以先列出可用服务和联系入口，再把收到的消息交给对应 AI，把回复发回用户。",
+        "tradeoffs": "最容易出错的是把多轮消息接成同一段对话。若漏掉前文，用户就得反复解释任务。",
+        "unknowns": "“无需账号”时，对话记录如何保存和删除，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做问答或提醒服务时，可以先提供已有通信工具里的联系入口，让用户发第一条消息就开始，不必先安装应用。"
+      ],
+      "validation_questions": [
+        "连续追问同一个任务，检查智能体是否记得前文。",
+        "检查是否能明确找到删除对话记录的方法。"
+      ],
+      "source_tagline": "A marketplace for AI agents you can text",
+      "source_description": "Meet all the agents you can text. Agent Store is a directory of AI agents that live inside a contact in your phone book. Browse an ecosystem of texting agents, and send one text to start using them today. No account, no download, no setup."
+    },
+    {
+      "id": "1251910",
+      "name": "Die With Me",
+      "name_zh": "Die With Me",
+      "tagline_zh": "像 AIM 好友列表一样，查看朋友的 Claude Code 和 Codex 使用额度",
+      "description_zh": "它把 AI 使用情况做成 AIM 式好友列表，在 Mac 上用小吉祥物展示朋友的 Claude Code 和 Codex 额度。你可以设置状态、访问朋友的房间，并在自己的额度不足时解锁聊天室。",
+      "intro_zh": "给使用 Claude Code 和 Codex 的 Mac 用户，看朋友的额度状态，在额度不足时一起聊天。",
+      "url": "https://www.producthunt.com/products/die-with-me-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PRARYP23IA5HZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cd1b2494-0cf0-4880-a5e5-67952c2a64d4.jpeg?auto=format",
+      "votes_count": 117,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "场景清楚，但朋友是否愿意共同使用尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "额度更新是否准确会影响体验，但资料没解释如何获取。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把等待时刻变成交流机会可以借鉴，参与意愿仍待确认。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它围绕额度不足这个具体时刻设计交流入口；最大的疑问是，用户此时究竟想聊天，还是只想继续完成工作。",
+      "product_analysis": {
+        "target_problem": "面向有朋友一起使用 AI 编程工具的人。额度不足时，它提供一个找朋友交流的去处，但不解决额度短缺本身。",
+        "workflow": "在 Mac 上查看朋友的额度吉祥物，设置自己的状态或访问朋友房间。自己的额度低时，解锁聊天室。",
+        "ai_value": "介绍没提用 AI 实现功能，主要靠额度展示和社交互动改善体验。",
+        "differentiation": "它把额度状态放进好友列表，可能省去询问朋友使用情况的动作。最可能的阻碍是朋友不愿公开自己的使用状态。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Mac、Claude Code 和 Codex，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先确认能否经用户授权读取剩余额度，再把额度映射成角色状态，并按阈值开放聊天室。",
+        "tradeoffs": "最容易出错的是额度更新不及时：用户已经耗尽额度，聊天室却还没解锁。",
+        "unknowns": "额度数据从哪里获取，能否持续稳定读取？"
+      },
+      "transferable_insights": [
+        "做有次数限制的工具时，可以在额度用尽后提供同伴交流入口，让用户有事可做；前提是交流确实有用。"
+      ],
+      "validation_questions": [
+        "对照工具显示的剩余额度，检查它的展示是否及时更新。",
+        "检查用户能否自行决定向朋友公开哪些额度信息。"
+      ],
+      "source_tagline": "AIM buddy list for your friends’ Claude Code and Codex usage",
+      "source_description": "An AIM buddy list for your AI usage. See friends’ Claude Code and Codex allowances as little mascots on your Mac. Set a status, visit their rooms, and unlock a chatroom when your allowance runs low. Your AI clocks out, but your friends are still here."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,510 @@
 {
   "date": "2026-10-30",
-  "generated_at": "2026-10-31T21:25:57+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:17:42+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1295420",
       "name": "Vaani Developer Platform",
       "name_zh": "Vaani Developer Platform",
-      "tagline_zh": "The only voice AI harness that you'll ever need",
-      "description_zh": "Build a voice agent that sounds and behaves human without writing a single line of code. Design the call flow, handle objections and edge cases, connect your tools and knowledge base, and go live on a real phone number. Every call ends with clean, structured data.",
-      "intro_zh": "",
+      "tagline_zh": "一套语音 AI 搭建平台",
+      "description_zh": "无需写代码即可搭建语音代理，产品称它能以接近人的声音和方式交流。用户可设计通话流程、处理异议和特殊情况、连接工具及知识库，再通过真实电话号码上线，并在每次通话后获得结构化数据。",
+      "intro_zh": "给需要搭建电话服务的团队，用可配置的通话流程创建语音代理，并整理通话结果。",
       "url": "https://www.producthunt.com/products/vaani-developer-platfrom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PLG3DPJZGCJSAB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/68533eef-f593-4ca8-8c88-cda88a0b2896.jpeg?auto=format",
       "votes_count": 363,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从配置电话服务到整理通话结果，目标和省事之处清楚，实际通话表现待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "来电者偏离预设流程后如何继续对话，是具体且影响可用性的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把流程配置与固定格式的结果输出放在一起，可借用于其他对话服务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把通话结果整理成后续可用的字段；最影响判断的是，遇到预设之外的回答还能否准确记录。",
+      "product_analysis": {
+        "target_problem": "需要搭建电话服务的团队，要同时安排问答流程、业务资料和通话记录。Vaani 把这些工作集中到一个无需写代码的平台。",
+        "workflow": "设计通话流程，配置异议和特殊情况的处理方式，再连接工具与知识库。通过真实电话号码上线后，每次通话都会输出结构化数据，也就是按固定字段整理的结果。",
+        "ai_value": "AI 负责与来电者进行语音对话。介绍还承诺输出整理后的通话数据，但没说明由 AI 提取哪些字段。",
+        "differentiation": "可直接配置并上线电话代理，减少自行开发的工作。最可能阻碍迁入的是：现有业务规则能否用配置准确表达。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 605cfbec-ac3f-4c4f-a9b3-d1f0c7c1f32c)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持无代码配置、连接工具和知识库，以及真实电话号码上线，没说具体模型或语音技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再结合流程和业务资料生成回复并转成语音，最后按预设字段整理结果。",
+        "tradeoffs": "难点是处理偏离流程的回答。若把用户的补充说明误当成确认，后续操作和记录都可能出错。",
+        "unknowns": "对话无法继续时，是否支持转给人工？"
+      },
+      "transferable_insights": [
+        "做预约或信息收集助手时，可以先定义必须收集的字段，让对话围绕缺失信息继续追问。"
+      ],
+      "validation_questions": [
+        "在通话中临时更正一个关键信息，检查最终记录是否采用更正后的值。",
+        "提出配置范围外的问题，检查代理是否能明确结束或转交处理。"
+      ],
+      "source_tagline": "The only voice AI harness that you'll ever need",
+      "source_description": "Build a voice agent that sounds and behaves human without writing a single line of code. Design the call flow, handle objections and edge cases, connect your tools and knowledge base, and go live on a real phone number. Every call ends with clean, structured data."
     },
     {
       "id": "1292989",
       "name": "Knocket AI",
       "name_zh": "Knocket AI",
-      "tagline_zh": "Chat with visitors from your website or link",
-      "description_zh": "Give visitors a way to say hello. Add free live chat to your website or app, or turn your bio link into a personal contact page. Visitors can start chatting without signing up. Built for founders, creators, and small teams.",
-      "intro_zh": "",
+      "tagline_zh": "与来自网站或链接的访客聊天",
+      "description_zh": "在网站或应用中添加免费实时聊天，或把个人简介中的链接变成联系页面，让访客可以打招呼。访客无需注册即可发起聊天，面向创业者、创作者和小团队。",
+      "intro_zh": "给创业者、创作者和小团队用，在网站或个人联系页接收访客消息，访客无需注册。",
       "url": "https://www.producthunt.com/products/knocket-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PZ4KKDP7MANWFR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/474f2622-097f-4606-adc6-ee4191ae5d9e.png?auto=format",
       "votes_count": 336,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和联系场景清楚，免注册能少一道操作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "匿名访客如何保留会话值得考虑，但介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先允许发起联系的做法，可借用于咨询和反馈入口。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最明确的好处是访客无需注册就能开口。最影响判断的是离开页面后还能否联系上，否则咨询可能停在第一句话。",
+      "product_analysis": {
+        "target_problem": "创业者和创作者需要接住网站或个人简介带来的咨询。它提供直接聊天的入口，让访客不必先注册账号。",
+        "workflow": "在网站或应用中添加聊天功能，或把个人简介链接设为联系页面。访客从这些入口发起聊天。",
+        "ai_value": "简介没提 AI 功能，主要靠实时聊天和免注册入口改善联系体验；不能仅凭名称判断它会自动回复。",
+        "differentiation": "它把发起聊天放在访客所在的入口。已有固定客服工具的团队，可能不愿再增加一个收消息的地方。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 76285a15-984d-49c2-8b2b-b4b979fd8303)"
-    },
-    {
-      "id": "1297033",
-      "name": "SpeakON Agent",
-      "name_zh": "SpeakON Agent",
-      "tagline_zh": "Turn natural speech into real work for an agent to complete",
-      "description_zh": "Turn natural speech into real work with SpeakON Agent. It understands your Notes, connects your tools, and prepares Actions for you to review and confirm.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/speakon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GUQI7NTMSNKCWZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/13aa9ec1-903a-40d8-ab9f-911cdc02e813.jpeg?auto=format",
-      "votes_count": 313,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持实时聊天和访客免注册，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给访客分配临时会话编号，再把消息送到接收方的收件箱，并用该编号关联回复。",
+        "tradeoffs": "难点是免注册时仍能认回同一位访客。若刷新页面后丢了会话，用户可能看不到回复，还得重新说明来意。",
+        "unknowns": "接收方不在线时，访客能否留下联系方式并收到后续回复？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: bcd37ee2-e78f-44e1-9837-fc69a23fc229)"
+      "transferable_insights": [
+        "做售前咨询或意见反馈时，可以先让用户发送首条消息，需要跟进时再请其留下联系方式。"
+      ],
+      "validation_questions": [
+        "访客发消息后关闭并重新打开页面，能否继续原会话？",
+        "接收方离线时发送消息，访客能否收到后续回复？"
+      ],
+      "source_tagline": "Chat with visitors from your website or link",
+      "source_description": "Give visitors a way to say hello. Add free live chat to your website or app, or turn your bio link into a personal contact page. Visitors can start chatting without signing up. Built for founders, creators, and small teams."
     },
     {
       "id": "1297603",
       "name": "Canva Brush",
       "name_zh": "Canva Brush",
-      "tagline_zh": "A vision-language model that edits your designs",
-      "description_zh": "Canva Brush is a vision-language model for design from Canva Research. It sees your design, understands how it’s put together, and makes the changes you ask for, from one line of copy to every slide in a deck. Everything stays fully editable. Canva says it’s up to 69% faster and 46% lower cost per edit task than its previous design agent. It’s powering Canva AI design edits for Canva Pro subscribers today.",
-      "intro_zh": "",
+      "tagline_zh": "能修改设计的视觉语言模型",
+      "description_zh": "Canva Brush 是 Canva Research 推出的设计视觉语言模型，能理解设计的组成并按要求修改，从一行文案到整套幻灯片，修改后仍可继续编辑。缓存简介称，它已用于 Canva Pro 的 AI 设计编辑；Canva 表示，相比上一代设计助手，其编辑任务速度最高提升 69%，单次任务成本降低 46%。",
+      "intro_zh": "给使用 Canva 的设计者和演示文稿制作者，用文字要求修改设计，并保留后续手动编辑的能力。",
       "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CC5KZ2CNTCOFOY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5d14b7ac-2820-47c4-81b1-f1469f2e0a54.png?auto=format",
       "votes_count": 178,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "修改对象和使用人群明确，但省时幅度只有厂商比较。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "理解画面后仍保留可编辑结构，是具体且值得拆解的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用自然语言修改现有作品，同时保留手动调整的做法可以借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是修改后还能接着手动编辑。判断它能省多少事，关键看用户需要花多少时间检查误改；缓存中的速度和成本数字不能代替这项验证。",
+      "product_analysis": {
+        "target_problem": "做演示文稿的人常要改文案或调整多页设计。逐项处理可能费时，它提供了用文字提出修改要求的方式。",
+        "workflow": "围绕已有设计提出修改要求，模型理解设计组成后执行编辑。范围可从一行文案到整套幻灯片，结果仍可继续编辑；简介未说明具体入口。",
+        "ai_value": "AI 把用户的文字要求对应到设计中的内容和组成部分，再做修改，而不只是给出修改建议。",
+        "differentiation": "省事之处是把修改要求交给系统执行。我会先确认它能否只改指定部分，否则检查误改可能抵消省下的时间。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 1220559f-7bb5-41a1-937e-5e01deb9aebc)"
+      "technical_analysis": {
+        "disclosed_facts": "使用视觉语言模型，也就是能结合画面和文字理解任务的模型；编辑结果保持可编辑。",
+        "possible_approach": "如果自己做，可以先把画面和设计元素交给模型，找出要改的对象，再把修改写回原设计，保留文字框等元素。",
+        "tradeoffs": "最难的是准确圈定修改范围。把相似元素认错，可能导致用户没要求改的页面也被修改。",
+        "unknowns": "整套幻灯片编辑时，能否明确限制只修改哪些页面或元素？"
+      },
+      "transferable_insights": [
+        "做文档或设计编辑器时，可以让 AI 直接修改现有作品，并保留原生元素，方便用户继续微调。"
+      ],
+      "validation_questions": [
+        "只要求修改某页的一句文案，检查其他内容是否保持不变。",
+        "完成一次整套幻灯片编辑后，检查文字和图形是否仍能分别选中编辑。"
+      ],
+      "source_tagline": "A vision-language model that edits your designs",
+      "source_description": "Canva Brush is a vision-language model for design from Canva Research. It sees your design, understands how it’s put together, and makes the changes you ask for, from one line of copy to every slide in a deck. Everything stays fully editable. Canva says it’s up to 69% faster and 46% lower cost per edit task than its previous design agent. It’s powering Canva AI design edits for Canva Pro subscribers today."
     },
     {
       "id": "1286355",
       "name": "MCP Server by XWiki",
       "name_zh": "MCP Server by XWiki",
-      "tagline_zh": "Give your AI your wiki's knowledge while keeping the control",
-      "description_zh": "XWiki MCP Server is an open-source, self-hostable extension that connects XWiki to the AI agent of your choice: OpenCode, Pi, Codex, Claude Code, GitHub Copilot, and more. You can already use the extension to query your knowledge base to get answers, create and edit pages, and work with structured data directly in XWiki. Try out the extension and let us what's should we improve next!",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 使用你的维基知识，同时保留控制权",
+      "description_zh": "XWiki MCP Server 是一个开源、可自行部署的扩展，可将 XWiki 连接到 OpenCode、Codex、Claude Code、GitHub Copilot 等 AI 助手。它支持查询知识库以获取答案、创建和编辑页面，以及直接处理 XWiki 中的结构化数据。",
+      "intro_zh": "给使用 XWiki 的团队，让 AI 助手查询内部知识、创建和修改页面，并处理结构化数据。",
       "url": "https://www.producthunt.com/products/xwiki?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HCKMTX4XJFTNMW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e7e1f84c-9388-44d5-9d73-1706b10bf495.jpeg?auto=format",
       "votes_count": 174,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查询和修改知识库的用途明确，但权限控制方式尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "让 AI 写入团队知识库，带来了具体的权限执行问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把已有知识库操作开放给不同 AI 助手，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让现有知识库既能被查询，也能被更新；但“保留控制权”能否成立，关键还在权限是否真正约束每次操作。",
+      "product_analysis": {
+        "target_problem": "使用 XWiki 的团队，在让 AI 回答内部问题或整理文档时，需要把知识库接给助手，也需要让修改回到原页面。",
+        "workflow": "部署扩展并连接所选 AI 助手后，可以让助手查询知识库、创建或编辑页面，也能处理结构化数据。介绍未给出具体配置步骤。",
+        "ai_value": "AI 是用户发起查询和修改的入口；扩展负责连接 XWiki。介绍没说答案如何生成、修改前是否需要确认。",
+        "differentiation": "它把知识查询和页面写入放进同一个助手使用场景。最可能让团队犹豫的是：是否愿意授予 AI 修改内部文档的权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 9e28d776-fd61-447d-899d-9395d4b0b782)"
+      "technical_analysis": {
+        "disclosed_facts": "扩展开源、可自行部署，使用 MCP（让 AI 助手调用外部工具的连接规范）连接 XWiki 与多种助手。",
+        "possible_approach": "如果自己做，可以先把查询、建页和改页做成助手可调用的工具，再让每次操作沿用当前用户的 XWiki 权限。",
+        "tradeoffs": "最容易出错的是写入时没有正确检查用户权限，导致助手改动用户本来无权编辑的页面。",
+        "unknowns": "自行部署不等于数据不外发：查询内容会被送到哪里，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做内部知识工具时，可以保留原有文档存储，让用户从惯用的 AI 助手查询和修改，减少另建一套知识库的需要。"
+      ],
+      "validation_questions": [
+        "用无编辑权限的账号要求助手修改页面，检查是否被拒绝。",
+        "查询一段测试文档，检查其内容是否发送到外部 AI 服务。"
+      ],
+      "source_tagline": "Give your AI your wiki's knowledge while keeping the control",
+      "source_description": "XWiki MCP Server is an open-source, self-hostable extension that connects XWiki to the AI agent of your choice: OpenCode, Pi, Codex, Claude Code, GitHub Copilot, and more. You can already use the extension to query your knowledge base to get answers, create and edit pages, and work with structured data directly in XWiki. Try out the extension and let us what's should we improve next!"
     },
     {
       "id": "1296613",
       "name": "fastbrowse",
       "name_zh": "fastbrowse",
-      "tagline_zh": "Fastest open source browser agent",
-      "description_zh": "A fast open-source browser agent. It reads every button, link and field on the page and has a System One model (ex: jev) pick the next step from that list. If it's unsure, it falls back to a standard model model. Fast, cheap, and every answer provides a citation.",
-      "intro_zh": "",
+      "tagline_zh": "号称最快的开源浏览器智能体",
+      "description_zh": "fastbrowse 是一款开源浏览器智能体，会读取页面上的按钮、链接和输入框，让 System One 模型从中选择下一步，不确定时改用常规模型。简介宣称它速度快、成本低，且每个回答都附引用，但这些效果未经核验。",
+      "intro_zh": "给需要自动操作网页的人用，让 AI 选择页面上的操作，并在回答中附上引用。",
       "url": "https://www.producthunt.com/products/fastbrowse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6XWF3PRT2W3QVO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ef30a313-509e-47f8-b891-07d2918b8616.png?auto=format",
       "votes_count": 137,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "用途清楚，但没有具体任务或节省时间的证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "先选操作、不确定再换模型，带出了明确的判断难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "列出可选动作再决策的做法，可借给其他操作型助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是按步骤决定是否换模型，有机会减少不必要的调用；关键疑问是它能否发现自己的错误，而不只是继续执行。",
+      "product_analysis": {
+        "target_problem": "需要让 AI 代为操作网页的人，会关心它能否找到正确按钮、链接和输入框。这里的麻烦是把任务变成正确的页面操作。",
+        "workflow": "它读取页面上的可操作元素，再让模型选择下一步；拿不准时改用常规模型。回答会附引用，简介没交代用户如何提交任务。",
+        "ai_value": "AI 负责从候选操作中选下一步，并在不确定时换模型继续判断。",
+        "differentiation": "它试图减少每一步都调用常规模型的开销。但省多少没有数据，用户可能因操作可靠性不明而不愿交付任务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4c3b6751-7e6c-4e05-bf2b-e3291a37724f)"
-    },
-    {
-      "id": "1296862",
-      "name": "Chopstick",
-      "name_zh": "Chopstick",
-      "tagline_zh": "Mac activity and action widgets that write themselves",
-      "description_zh": "Chopstick notices what you repeat on your Mac and builds notch widgets for it, using the coding agent you already have. Your activity log stays local.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/chopstick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/IYFTKXHBVVHP2G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/609b4f3e-3ce9-464e-8696-0d7dd59cdadb.jpeg?auto=format",
-      "votes_count": 128,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称它开源，使用 System One 模型选择页面操作，不确定时回退到常规模型。",
+        "possible_approach": "如果自己做，可以先把按钮、链接和输入框整理成带编号的列表，再让模型选编号并执行；把拿不准的步骤交给另一模型。",
+        "tradeoffs": "最难的是识别“拿不准”。模型若自信地选错，就不会触发回退，可能点错按钮或填错位置。",
+        "unknowns": "什么条件会触发回退，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 1791b30a-9258-4e37-903b-2a8a24835473)"
+      "transferable_insights": [
+        "做后台操作助手时，可以先列出当前可执行的动作，让模型从中选择，减少凭空编造操作。"
+      ],
+      "validation_questions": [
+        "给它一个含多个同名按钮的页面，检查选错前能否触发回退。",
+        "抽查一条回答的引用，确认来源是否真的支持结论。"
+      ],
+      "source_tagline": "Fastest open source browser agent",
+      "source_description": "A fast open-source browser agent. It reads every button, link and field on the page and has a System One model (ex: jev) pick the next step from that list. If it's unsure, it falls back to a standard model model. Fast, cheap, and every answer provides a citation."
     },
     {
       "id": "1294336",
       "name": "Teable Mobile",
       "name_zh": "Teable Mobile",
-      "tagline_zh": "Build the systems your team runs on, now from your phone",
-      "description_zh": "Explain your process like you would to a new hire. Teable builds the database, the app and the automations, so the work stops living in your head. Now you can do it from your phone: hold to talk, publish to your team, and get notified when it's done.",
-      "intro_zh": "",
+      "tagline_zh": "用手机搭建团队日常工作所需的系统",
+      "description_zh": "像向新同事介绍工作一样讲清流程，Teable 会据此搭建数据库、应用和自动化任务，让流程不只留在脑中。现在也能用手机按住说话，将应用发布给团队，并在完成时收到通知。",
+      "intro_zh": "给需要把工作流程交给团队执行的人用，在手机上讲清流程，生成应用并发布给同事。",
       "url": "https://www.producthunt.com/products/teable-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/63BC4PYRAMP73C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d8d14e73-3b16-4c0d-9213-cc77c9979c16.png?auto=format",
       "votes_count": 118,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从讲述流程到发布给团队的用途清楚，但生成结果是否可用仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把口头流程变成可执行规则，有明确的理解准确性问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按讲解工作流程的方式收集需求，可以借用于内部工具搭建。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把口头流程变成团队可用的工具；关键疑问是生成的规则能否被用户看懂并纠正。",
+      "product_analysis": {
+        "target_problem": "团队负责人想把脑中的流程交给同事执行。麻烦在于讲清工作，还不等于有了能记录信息、推动任务的工具。",
+        "workflow": "在手机上按住说话，像带新人一样描述流程。产品据此生成数据库、应用和自动化任务，再发布给团队；简介还提到完成通知。",
+        "ai_value": "介绍没明确提 AI，也没交代模型。明确的能力是把流程描述转成应用，减少手工搭建工作。",
+        "differentiation": "把描述流程和发布工具放到手机上。最可能让人犹豫的是：口述漏掉例外情况后，生成结果是否容易修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: cfade4ab-b394-4c7e-8ebc-926541906f8c)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到手机语音输入，以及生成数据库、应用和自动化任务，未说明具体技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再整理出要记录的信息、负责人和执行条件；让用户确认后，再生成应用。",
+        "tradeoffs": "最难的是把口语里的条件理解准确。若把“审批后通知”听成“提交后通知”，团队就可能提前收到消息。",
+        "unknowns": "生成后能否检查并修改自动化规则，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做内部工具搭建产品时，可以让用户按“怎么教新人”描述流程，再逐项确认规则，少让用户先学配置术语。"
+      ],
+      "validation_questions": [
+        "口述一条带审批条件的流程，检查生成的触发条件是否正确。",
+        "故意描述错一条规则，检查发布前能否修改。"
+      ],
+      "source_tagline": "Build the systems your team runs on, now from your phone",
+      "source_description": "Explain your process like you would to a new hire. Teable builds the database, the app and the automations, so the work stops living in your head. Now you can do it from your phone: hold to talk, publish to your team, and get notified when it's done."
     },
     {
       "id": "1296774",
       "name": "iSurge",
       "name_zh": "iSurge",
-      "tagline_zh": "Activity monitor, per-app volume, disk cleanup at your notch",
-      "description_zh": "iSurge is one app for people who live on their Mac: live stats at the notch, each app's volume and mic, disk clean-up, an uninstaller, dev tools for ports, projects and Homebrew, a focus timer and Keep Awake. $14.99 once, $10.99 with PHPROMO20. No account.",
-      "intro_zh": "",
+      "tagline_zh": "在刘海区域查看运行状态、调节各应用音量、清理磁盘",
+      "description_zh": "iSurge 面向经常使用 Mac 的人，提供刘海区域实时状态、各应用音量与麦克风相关控制、磁盘清理、卸载，以及端口、项目和 Homebrew 管理工具，还带专注计时与保持唤醒功能。缓存介绍标价一次性 14.99 美元，使用 PHPROMO20 为 10.99 美元，无需账号；当前价格未核验。",
+      "intro_zh": "给经常使用 Mac 的人，把运行状态查看、应用音量调节和日常维护集中到一个工具里。",
       "url": "https://www.producthunt.com/products/isurge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VFQNYFOWMDE4HU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1cc5f71a-fda5-4332-a434-1c3f488f794a.jpeg?auto=format",
       "votes_count": 105,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群和日常任务明确，但集中操作能省多少事仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "清理文件的判断边界值得关注，但介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把高频查看和操作放在固定入口，适合借到桌面工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是查看状态后能就近操作；最影响判断的是清理范围是否清楚，避免为了省事承担误删风险。",
+      "product_analysis": {
+        "target_problem": "长时间使用 Mac 的人，需要反复查看运行状态、调音量和做维护。若这些操作分散在多个入口，来回寻找就会打断手头工作。",
+        "workflow": "在刘海区域查看实时状态，按应用调节音量；需要维护时，使用磁盘清理或卸载功能。开发者还可使用端口、项目及 Homebrew 相关工具。",
+        "ai_value": "介绍没提 AI，主要靠集中入口和系统控制来改善体验。",
+        "differentiation": "它可能减少切换工具的次数。最可能让人不愿换的是已有顺手的工具组合，不愿重新适应。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 561f45c7-1ef5-48df-9dfb-3a02a436f5c7)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把状态查看和常用操作放进固定面板，再接入系统提供的控制能力。清理功能先列出候选文件，让用户确认后再删除。",
+        "tradeoffs": "最容易出错的是把仍有用途的文件判成可清理内容，误删后可能影响应用使用。",
+        "unknowns": "清理对象如何判定，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做桌面效率工具时，可以把高频状态和对应操作放在同一入口，减少用户看完状态后再找控制项。"
+      ],
+      "validation_questions": [
+        "同时播放两个应用的声音，只调一个的音量，检查另一个是否受影响。",
+        "检查清理前能否看清将删除哪些文件。"
+      ],
+      "source_tagline": "Activity monitor, per-app volume, disk cleanup at your notch",
+      "source_description": "iSurge is one app for people who live on their Mac: live stats at the notch, each app's volume and mic, disk clean-up, an uninstaller, dev tools for ports, projects and Homebrew, a focus timer and Keep Awake. $14.99 once, $10.99 with PHPROMO20. No account."
     },
     {
       "id": "1297509",
       "name": "Faylee",
       "name_zh": "Faylee",
-      "tagline_zh": "Bug reports your coding agent can fix from one link",
-      "description_zh": "Faylee records the screen, console, every network request and each click behind a bug, on one timeline, and shares it all as one link. Your team opens it and sees exactly what broke, with the failing request already open. Paste the link into Claude Code, Codex or Cursor, and Faylee's MCP server gives the agent the whole report so it can find the cause and fix it. Instant replay saves the last few minutes after a bug already happened. Free for up to 3 members.",
-      "intro_zh": "",
+      "tagline_zh": "用一个链接，把缺陷报告交给编程助手修复",
+      "description_zh": "Faylee 将屏幕、控制台、网络请求和点击记录放在同一时间线上，用一个链接分享；团队打开后可查看故障，失败请求会预先展开，也能回看故障发生前几分钟的记录。把链接贴入 Claude Code、Codex 或 Cursor 后，其 MCP 服务会向编程助手提供报告，供其定位和修复问题；最多 3 名成员可免费使用。",
+      "intro_zh": "给提交和处理软件缺陷的团队用，把故障画面、操作和请求记录合成链接，供同事或编程助手查看。",
       "url": "https://www.producthunt.com/products/faylee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2NNSBIYKNI3BKE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f80dd324-b0a3-480c-81be-4dfd673c35dc.jpeg?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "收集和交接故障线索的用途清楚，实际修复效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "画面、点击和请求如何对准时间，是具体且影响定位的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先收集现场证据再交给助手处理，可用于其他排障工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是交接时能一并带上故障现场；最影响采用判断的是敏感请求数据能否安全分享。",
+      "product_analysis": {
+        "target_problem": "测试和开发人员交接缺陷时，需要说明怎么触发、哪里出错。画面和请求分散时，接手者还得拼出现场。",
+        "workflow": "记录故障后分享链接，团队打开查看时间线和失败请求；也可把链接贴给支持的编程助手。即时回放可保存此前几分钟。",
+        "ai_value": "AI 负责根据报告查找原因并尝试修复；Faylee 负责提供现场资料，不代表修复必然成功。",
+        "differentiation": "把多类线索集中到一个链接，减少来回补材料。团队可能因记录包含敏感数据而不愿接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c4773960-c20b-4b07-bbd5-827c191c92ce)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到统一时间线和 MCP 服务，后者是让编程助手读取外部资料的连接方式。",
+        "possible_approach": "如果自己做，可以先给画面、点击和请求标记时间，再合成报告；持续暂存近期记录，出错后保存，并提供给助手读取。",
+        "tradeoffs": "最容易出错的是时间对齐：若点击与请求错位，助手可能把无关请求当成故障原因。",
+        "unknowns": "介绍没说请求中的凭证和个人信息如何遮蔽。"
+      },
+      "transferable_insights": [
+        "做客服排障工具时，可把用户操作与错误记录放在同一时间线上，减少接手者反复询问。"
+      ],
+      "validation_questions": [
+        "触发一个已知失败请求，检查它是否与对应点击、画面对齐。",
+        "用含测试凭证的请求生成报告，检查分享内容是否隐藏凭证。"
+      ],
+      "source_tagline": "Bug reports your coding agent can fix from one link",
+      "source_description": "Faylee records the screen, console, every network request and each click behind a bug, on one timeline, and shares it all as one link. Your team opens it and sees exactly what broke, with the failing request already open. Paste the link into Claude Code, Codex or Cursor, and Faylee's MCP server gives the agent the whole report so it can find the cause and fix it. Instant replay saves the last few minutes after a bug already happened. Free for up to 3 members."
+    },
+    {
+      "id": "1297033",
+      "name": "SpeakON Agent",
+      "name_zh": "SpeakON Agent",
+      "tagline_zh": "把自然表达转成可交给智能体完成的工作",
+      "description_zh": "SpeakON Agent 将自然表达转成工作任务。它理解你的笔记、连接所用工具，并准备操作供你检查和确认。",
+      "intro_zh": "给想把口述笔记变成待办操作的人用，连接所用工具，准备操作内容，再由用户检查确认。",
+      "url": "https://www.producthunt.com/products/speakon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GUQI7NTMSNKCWZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/13aa9ec1-903a-40d8-ab9f-911cdc02e813.jpeg?auto=format",
+      "votes_count": 313,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "从笔记准备操作的用途清楚，但支持哪些工作尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把含糊表达变成准确操作有具体难点，但缺少实现细节。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先准备操作再由用户确认，适合借用于会改变外部数据的工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是在操作前留出人工检查机会；最影响判断的是，它究竟能执行哪些工作，还是只准备建议。",
+      "product_analysis": {
+        "target_problem": "适合口述后还要在工具里落实任务的人。麻烦在于笔记只是想法，还得整理成具体操作。",
+        "workflow": "用自然语言表达工作内容，由产品理解笔记、连接工具，准备操作供用户审核确认。确认后如何执行，简介没说。",
+        "ai_value": "介绍没明确提 AI，只描述理解笔记和准备操作，不能据此判断自动处理的范围。",
+        "differentiation": "可能省去把笔记逐项整理成操作的工作。若支持的工具不覆盖日常任务，用户可能不愿换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把口述转成文字，再提取要做的事和对象，生成操作草稿供确认后执行。",
+        "tradeoffs": "最难的是把含糊表达变成准确操作。对象或时间理解错，用户若没发现，就可能确认错误操作。",
+        "unknowns": "确认后是否真的执行，还是只生成操作建议？"
+      },
+      "transferable_insights": [
+        "做会修改外部数据的助手时，可以先展示将修改什么，让用户确认后再提交。"
+      ],
+      "validation_questions": [
+        "输入带有模糊指代的笔记，检查它是否会先要求澄清。",
+        "确认一项操作后，检查目标工具里是否发生了对应变化。"
+      ],
+      "source_tagline": "Turn natural speech into real work for an agent to complete",
+      "source_description": "Turn natural speech into real work with SpeakON Agent. It understands your Notes, connects your tools, and prepares Actions for you to review and confirm."
+    },
+    {
+      "id": "1296862",
+      "name": "Chopstick",
+      "name_zh": "Chopstick",
+      "tagline_zh": "自动生成的 Mac 活动与操作小组件",
+      "description_zh": "Chopstick 留意你在 Mac 上重复做的事，并借助你已有的编程助手，为这些操作生成位于屏幕刘海区域的小组件。活动日志保存在本机。",
+      "intro_zh": "给经常在 Mac 上重复操作的人用，观察重复行为，再调用已有编程助手生成小组件。",
+      "url": "https://www.producthunt.com/products/chopstick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/IYFTKXHBVVHP2G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/609b4f3e-3ce9-464e-8696-0d7dd59cdadb.jpeg?auto=format",
+      "votes_count": 128,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "重复操作的场景清楚，但没有具体例子说明能省哪些步骤。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "从重复行为判断用户想完成的任务，是一个具体且关键的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "观察重复动作再提供工具的做法可借用，但适用范围尚不清楚。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它可能省去手写自动化需求的工作；但现有介绍还不能说明，它能否准确理解重复动作背后的目的。",
+      "product_analysis": {
+        "target_problem": "经常重复操作 Mac 的人可能需要它。麻烦在于，重复动作未必已有合适的快捷工具，自己做还要先描述需求。",
+        "workflow": "Chopstick 观察重复行为，借助用户已有的编程助手生成刘海区域小组件。介绍没交代用户如何确认或启用结果。",
+        "ai_value": "编程助手负责生成小组件。重复行为是否也由 AI 识别，介绍没有说明。",
+        "differentiation": "它可能省去把操作习惯写成开发需求的工作。最可能让人犹豫的是，需要允许软件观察日常活动。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "调用用户已有的编程助手生成小组件，活动日志留在本机。",
+        "possible_approach": "如果自己做，可以先归纳重复动作，让用户确认要简化的任务，再交给编程助手生成小组件。",
+        "tradeoffs": "最难的是判断重复动作是否代表同一任务。判断错了，生成的小组件可能省不了事，还要用户重新解释。",
+        "unknowns": "日志留在本机，但生成时会把哪些活动信息传给编程助手？"
+      },
+      "transferable_insights": [
+        "做办公自动化工具时，可以先从重复动作提出一个具体建议，让用户确认后再生成工具，减少从空白开始配置的负担。"
+      ],
+      "validation_questions": [
+        "选一项真实重复任务，检查生成的小组件能否完成它。",
+        "检查交给编程助手的信息中，是否包含不必要的活动记录。"
+      ],
+      "source_tagline": "Mac activity and action widgets that write themselves",
+      "source_description": "Chopstick notices what you repeat on your Mac and builds notch widgets for it, using the coding agent you already have. Your activity log stays local."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

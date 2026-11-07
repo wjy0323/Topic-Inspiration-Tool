@@ -1,367 +1,510 @@
 {
   "date": "2026-09-01",
-  "generated_at": "2026-09-02T20:00:28+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:32:08+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1198993",
       "name": "Kilo Code for JetBrains",
       "name_zh": "Kilo Code for JetBrains",
-      "tagline_zh": "Fully native, open-source coding agent built for JetBrains",
-      "description_zh": "Kilo Code for JetBrains is a fully native, open-source coding agent for IntelliJ IDEA, WebStorm, PyCharm, GoLand, Rider, PhpStorm, CLion, RubyMine — any JetBrains IDE. Designed for both local and remote dev, with parallel agents in isolated worktrees, GitHub PRs and diffs inline, and 500+ models.",
-      "intro_zh": "",
+      "tagline_zh": "为 JetBrains 构建的原生开源编程助手",
+      "description_zh": "Kilo Code for JetBrains 是原生开源编程助手，面向 IntelliJ IDEA、WebStorm、PyCharm 等 JetBrains 开发环境。简介称它支持本地和远程开发、在独立工作目录中并行运行多个助手、在编辑器内查看 GitHub 合并请求及代码差异，并提供 500 多种模型。",
+      "intro_zh": "给使用 JetBrains 的开发者，在现有编辑器里安排编程助手处理任务，并查看代码改动。",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q57PO7OWZUJAZ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/92963747-1185-42ae-b116-961fe5f616f9.png?auto=format",
       "votes_count": 492,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象明确，把助手和改动查看放进日常开发环境有实际价值。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "独立目录支持并行任务，但改动汇合时仍有具体问题要解决。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "任务隔离和就地查看结果，都是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是并行任务各有独立目录；但能否省事，很大程度取决于改动冲突后是否容易处理。",
+      "product_analysis": {
+        "target_problem": "面向使用 JetBrains 的开发者。多个助手同时改代码时，需要避免彼此覆盖，也需要方便地检查各自改了什么。",
+        "workflow": "用户在 JetBrains 内使用助手，可在独立工作目录中并行处理任务，并在编辑器内查看 GitHub 合并请求和代码差异。简介未说明任务如何启动。",
+        "ai_value": "AI 以编程助手的形式参与开发；具体能自动完成哪些修改、是否运行测试，简介没展开。",
+        "differentiation": "把助手和改动查看放在同一编辑器里，可能减少切换。最可能让人犹豫的是：现有项目能否顺利配合使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其原生、开源，并使用独立的 Git 工作树，也就是同一代码仓库的多个独立工作目录，支持助手并行工作。",
+        "possible_approach": "如果自己做，可以先为每个任务分配独立工作目录，再把各自改动展示在编辑器里，供用户检查后合并。",
+        "tradeoffs": "隔离目录不等于消除合并冲突。多个助手若修改同一处代码，用户仍可能需要手动协调。",
+        "unknowns": "并行任务出现冲突时，产品如何帮助用户处理？"
+      },
+      "transferable_insights": [
+        "做批量改文件的助手时，可以给每个任务独立工作区，并分别展示改动，让用户逐项确认。"
+      ],
+      "validation_questions": [
+        "让两个助手修改同一处代码，检查合并冲突如何呈现和处理。",
+        "在一个远程开发项目中，检查助手能否读取正确的项目文件。"
+      ],
+      "source_tagline": "Fully native, open-source coding agent built for JetBrains",
+      "source_description": "Kilo Code for JetBrains is a fully native, open-source coding agent for IntelliJ IDEA, WebStorm, PyCharm, GoLand, Rider, PhpStorm, CLion, RubyMine — any JetBrains IDE. Designed for both local and remote dev, with parallel agents in isolated worktrees, GitHub PRs and diffs inline, and 500+ models."
     },
     {
       "id": "1233934",
       "name": "Computable GPU Index (CGI)",
       "name_zh": "Computable GPU Index (CGI)",
-      "tagline_zh": "The first open-source price index for GPU compute",
-      "description_zh": "Computable GPU Index (CGI) is a USD price per GPU-hour, computed from the published on-demand rental rates of a fixed panel of providers. The methodology is mathematically robust, and anyone can verify and reproduce every print.",
-      "intro_zh": "",
+      "tagline_zh": "自称首个开源 GPU 算力价格指数",
+      "description_zh": "CGI 根据一组固定供应商公布的按需租赁价格，计算以美元计价的每 GPU 小时价格。介绍称其计算方法在数学上严谨，每次发布的数值都可由任何人核验和复现。",
+      "intro_zh": "给需要了解 GPU 租赁行情的采购和研究人员，用一个价格指数观察算力报价。",
       "url": "https://www.producthunt.com/products/computable-gpu-index-cgi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BX544B26YNJ4H3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d59fe593-eb1e-4f00-a30b-f5c11db8a3d6.png?auto=format",
       "votes_count": 402,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "行情参考用途清楚，但能否代表用户实际采购价格尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "不同 GPU 报价如何合成一个可比数值，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "固定样本并公开计算方法，可借用于其他租赁市场的价格追踪。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把价格参考做成可复核的数值；最影响判断的是，它能否区分算力价格变化与 GPU 型号差异。",
+      "product_analysis": {
+        "target_problem": "采购和研究人员需要判断 GPU 租赁行情。单家报价难以代表市场，多家报价又未必能直接比较。",
+        "workflow": "它汇总固定供应商的公开按需租赁报价，算出每 GPU 小时的美元价格，供用户参考和核验。介绍未说明具体操作入口。",
+        "ai_value": "介绍没提 AI，主要靠汇总报价和公开计算方法来改善价格信息的可查性。",
+        "differentiation": "现成指数可能减少自行汇总报价的工作；但固定样本若不覆盖常用供应商，用户可能仍要自己查价。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1233519",
-      "name": "Creatium Coach",
-      "name_zh": "Creatium Coach",
-      "tagline_zh": "Your multimedia mentor that takes you from mid to great",
-      "description_zh": "Creatium Coach is a lifelike, multimedia coach that helps anyone set goals and reach them. Instead of clicking through static courses or half-remembering a video, you learn with a coach, as well as simulations, videos, and roleplays. These boost outcomes as much as one-on-one in-person coaching. Whatever the goal, professional or personal, and whether you're one learner or a whole enterprise, Coach meets you where you are. Warning: side effects may include world domination.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/creatium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/I5Q2WCFRUDQPOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/778ae48b-7e48-48e1-9554-7055e6528cb3.jpeg?auto=format",
-      "votes_count": 302,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "标语称其开源；简介明确使用固定供应商的公开按需租赁价格计算指数。",
+        "possible_approach": "如果自己做，可以先保存每期报价和 GPU 型号，再按公开规则计算，并保留输入供人复算。",
+        "tradeoffs": "最难的是让不同 GPU 的价格可比。若混合性能不同的型号，指数变化可能被误读为同等算力涨跌价。",
+        "unknowns": "介绍没说如何处理不同 GPU 型号之间的差异。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做云服务或设备租赁比价时，可以固定观察样本，并把原始报价与计算规则一起公开，方便用户复核。"
+      ],
+      "validation_questions": [
+        "取一期指数，能否用公开输入和规则复算出相同数值？",
+        "检查计算规则：不同 GPU 型号的价格是否被直接混算？"
+      ],
+      "source_tagline": "The first open-source price index for GPU compute",
+      "source_description": "Computable GPU Index (CGI) is a USD price per GPU-hour, computed from the published on-demand rental rates of a fixed panel of providers. The methodology is mathematically robust, and anyone can verify and reproduce every print."
     },
     {
       "id": "1235091",
       "name": "Gauth AI Course",
       "name_zh": "Gauth AI Course",
-      "tagline_zh": "AI courses you can watch, quiz through, and create",
-      "description_zh": "Gauth’s AI Course turns any subject into an interactive course, starting with 200+ AI math courses covering every US high school topic, from Algebra I through AP Calculus. The AI Course includes visuals, mindmaps, active-recall quizzes built in and enables you to pause any lesson to ask the AI Tutor a question. You can also generate your own course in seconds, to create personalized lessons at your own pace and share it with others.",
-      "intro_zh": "",
+      "tagline_zh": "可观看、答题和自行创建的 AI 课程",
+      "description_zh": "Gauth AI Course 将主题转成互动课程，介绍称首批有 200 多门数学课程，覆盖美国高中从代数 I 到 AP 微积分的全部主题。课程包含图示、思维导图和回忆测验，支持暂停后向 AI 导师提问，也称可在几秒内生成个性化课程并分享。",
+      "intro_zh": "给学数学或想自建学习内容的人用，把主题做成课程，边学边答题，遇到疑问可暂停提问。",
       "url": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/O6RGXJTHGDQVQN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/38dfe037-c39d-43db-8896-12c16d71c8df.png?auto=format",
       "votes_count": 249,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "学习、测验和提问的场景清楚，但教学质量未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "生成课程时如何避免数学错误，是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把提问放在当前课程内，能借用于其他教学产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是遇到不懂的步骤就能就地追问；但课程和答疑能否保持数学正确性，最影响判断。",
+      "product_analysis": {
+        "target_problem": "面向学数学时需要讲解、练习和答疑的学生。卡在某一步时，需要针对眼前内容继续追问。",
+        "workflow": "选择已有课程，观看讲解并完成测验；遇到疑问可暂停，向 AI 导师提问。也可生成自己的课程并分享。",
+        "ai_value": "AI 用来生成课程和回答学习问题。介绍未说明如何检查答案或适配学习程度。",
+        "differentiation": "把课程、测验和提问放在一起，可能减少另找解释的麻烦。最可能让人犹豫的是数学讲解是否可信。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 课程生成和 AI 导师，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把主题拆成知识点，再生成讲解、例题和测验；提问时把当前课节一并交给 AI。",
+        "tradeoffs": "最难的是检查推导是否正确。某一步出错，学生可能把错误方法学进去，后续测验还可能重复强化它。",
+        "unknowns": "生成的课程是否经过数学正确性检查？"
+      },
+      "transferable_insights": [
+        "做培训产品时，可在每个课节旁提供针对当前内容的提问入口，让学习者少解释一次背景。"
+      ],
+      "validation_questions": [
+        "选一道已知答案的微积分题，检查生成课程的推导是否正确。",
+        "暂停在具体例题处追问“这一步为什么成立”，检查回答能否对应当前步骤。"
+      ],
+      "source_tagline": "AI courses you can watch, quiz through, and create",
+      "source_description": "Gauth’s AI Course turns any subject into an interactive course, starting with 200+ AI math courses covering every US high school topic, from Algebra I through AP Calculus. The AI Course includes visuals, mindmaps, active-recall quizzes built in and enables you to pause any lesson to ask the AI Tutor a question. You can also generate your own course in seconds, to create personalized lessons at your own pace and share it with others."
     },
     {
       "id": "1234734",
       "name": "Sider Code",
       "name_zh": "Sider Code",
-      "tagline_zh": "Reshape any website with plain words via Sider extension",
-      "description_zh": "For 30 years, websites set the rules. Now you do. In the Sider Chrome extension, tell Sider Code how a site you rely on should work. It understands the page, writes the code, and makes the change. You can save and control the feature.",
-      "intro_zh": "",
+      "tagline_zh": "通过 Sider 扩展，用日常语言改造网站",
+      "description_zh": "在 Sider Chrome 扩展中，你可以用语言描述希望常用网站如何工作，让 Sider Code 理解页面、编写代码并应用修改。修改后的功能可以保存，并由你控制。",
+      "intro_zh": "给想调整常用网站的用户，用文字描述需求，让扩展修改页面，并保存改出的功能。",
       "url": "https://www.producthunt.com/products/sider-code-customize-any-website?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/X6K4WBNJAMQ6MK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad98c3e3-0d42-4e32-9a85-1a3b8818b855.png?auto=format",
       "votes_count": 219,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从描述需求到应用修改的用途清楚，但可修改的范围不明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "生成的修改如何适应网站变化，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把临时修改保存为功能可供借鉴，但可靠性尚无材料支持。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是用户能保留一次修改，不必每次重新提要求。最大的疑问是网站变化后，这些修改还能否可靠工作。",
+      "product_analysis": {
+        "target_problem": "经常使用某个网站、又想调整其用法的人会需要它。麻烦在于能说清需求，却未必会写修改页面的代码。",
+        "workflow": "用户在 Sider Chrome 扩展里描述想要的变化。工具理解页面、写代码并应用修改，用户可以保存和控制该功能。",
+        "ai_value": "介绍描述了理解页面并按要求写代码的能力，但没明确标注 AI。它承担的是把文字需求转成页面修改。",
+        "differentiation": "它把编写和应用修改交给工具，用户可以从描述需求开始。最可能让人犹豫的是：改动能否稳定用于每天依赖的网站。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "它运行于 Sider Chrome 扩展中，会理解页面、编写代码并应用修改；具体技术未说明。",
+        "possible_approach": "如果自己做，可以先读取页面结构，结合用户要求生成修改代码，再在页面内执行，并保存为可再次应用的规则。",
+        "tradeoffs": "最难的是网站更新后仍改对位置。页面结构一变，原有规则可能失效，或误改其他按钮，让用户无法正常操作。",
+        "unknowns": "保存的功能在刷新或重新打开网页后，是否仍能生效？"
+      },
+      "transferable_insights": [
+        "做面向重复操作的浏览器工具时，可以让用户把满意的一次修改保存为功能，减少反复描述需求。"
+      ],
+      "validation_questions": [
+        "保存一次修改后刷新页面，检查它是否仍能正确应用。",
+        "关闭保存的功能后，检查页面是否恢复原有行为。"
+      ],
+      "source_tagline": "Reshape any website with plain words via Sider extension",
+      "source_description": "For 30 years, websites set the rules. Now you do. In the Sider Chrome extension, tell Sider Code how a site you rely on should work. It understands the page, writes the code, and makes the change. You can save and control the feature."
     },
     {
       "id": "1237681",
       "name": "TrustedRouter",
       "name_zh": "TrustedRouter",
-      "tagline_zh": "Every model with a unified interface. Privacy with proof. ",
-      "description_zh": "One OpenAI-compatible API for hundreds of models on attested infrastructure, end to end encryption, with Confidential routes, ZDR routes, provider failover, BYOK, and no prompt or output logs.",
-      "intro_zh": "",
+      "tagline_zh": "用统一接口调用多种模型，提供可证明的隐私保护。",
+      "description_zh": "介绍称，它通过兼容 OpenAI 的接口（软件间传递请求的连接方式），在带有运行环境证明的基础设施上提供数百种模型，并支持端到端加密、机密计算路线和零数据保留路线。它还支持服务商故障切换、自带密钥，且不记录提示词或模型输出。",
+      "intro_zh": "给需要接入多种 AI 模型的开发团队用，通过统一接口发送请求，并选择隐私保护路线。",
       "url": "https://www.producthunt.com/products/trustedrouter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MTRCJE5UATTVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/41bb58cc-e726-4ae5-8d08-d5a5d70b9a0d.png?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多模型接入与隐私需求明确，但保护范围仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "故障切换后能否保持隐私条件，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "统一调用方式并保留路线选择，可借用于多服务接入产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把多模型调用集中到一个接口；最影响判断的是，隐私保证在故障切换后是否仍成立。",
+      "product_analysis": {
+        "target_problem": "接入多个 AI 服务、又要控制敏感数据去向的开发团队会需要它。分别适配不同服务的请求格式和隐私规则，会增加维护工作。",
+        "workflow": "团队通过统一接口调用模型，可使用自己的密钥并选择隐私路线。介绍还支持服务商故障切换，但没说明配置过程。",
+        "ai_value": "AI 负责处理请求并生成结果；这个产品主要省去多模型接入和请求分配的工作，没有说明另用 AI 做调度。",
+        "differentiation": "相比逐家适配，统一接口可能减少接入修改。最可能阻碍迁移的是团队无法确认隐私承诺覆盖哪些服务商。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "缓存介绍明确提到 OpenAI 接口兼容、运行环境证明、加密、两类隐私路线、故障切换和不记录输入输出，但未说明实现细节。",
+        "possible_approach": "如果自己做，可以先把统一请求转换成各服务商格式，再按隐私条件筛选目标；故障时只切换到满足相同条件的服务。",
+        "tradeoffs": "最容易出错的是备用服务不满足原先的隐私条件。请求虽然成功，敏感内容却可能被送到用户未接受的处理环境。",
+        "unknowns": "“隐私证明”究竟覆盖请求经过的哪些环节？"
+      },
+      "transferable_insights": [
+        "做多服务接入工具时，可以把隐私要求设为筛选条件；没有合格备用服务就报错，不自动放宽限制。"
+      ],
+      "validation_questions": [
+        "模拟所选服务不可用，检查备用服务是否仍满足同一隐私条件。",
+        "检查提供的证明材料，能否对应到本次请求实际使用的处理环境。"
+      ],
+      "source_tagline": "Every model with a unified interface. Privacy with proof. ",
+      "source_description": "One OpenAI-compatible API for hundreds of models on attested infrastructure, end to end encryption, with Confidential routes, ZDR routes, provider failover, BYOK, and no prompt or output logs."
     },
     {
       "id": "1237733",
       "name": "EAS Observe",
       "name_zh": "EAS Observe",
-      "tagline_zh": "Performance monitoring built for Expo and React Native",
-      "description_zh": "Observe measures how fast your Expo app starts and how fast each screen becomes usable, on real user devices. Install the library, wrap your root layout, and startup metrics arrive with nothing to instrument. Every native build and every EAS Update gets its own marker on the chart, so you can see which release moved the line. Full device context on every session: model, OS, country, network type, thermal state, frame data. Free plan covers 100K events a month.",
-      "intro_zh": "",
+      "tagline_zh": "为 Expo 和 React Native 应用打造的性能监测工具",
+      "description_zh": "Observe 在真实用户设备上测量 Expo 应用的启动速度和各页面变得可用的速度；安装库并接入根布局后，无需额外添加启动测量代码即可收到启动指标。图表会标记每次原生构建和 EAS Update 更新，每次会话附带机型、系统、国家、网络类型、设备温度状态和画面帧数据，免费方案每月包含 10 万个事件。",
+      "intro_zh": "给用 Expo 和 React Native 开发手机应用的团队，查看真实设备上的启动和页面可用耗时。",
       "url": "https://www.producthunt.com/products/expo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4QAOUAGSFJDJSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d672773e-0bee-4f0e-8ab7-72c185bf2497.png?auto=format",
       "votes_count": 132,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "测量对象和接入方式清楚，但页面可用的判定仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断页面真正可操作，是直接影响指标可信度的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在性能图上标记发布版本，是其他监测产品也能借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重发布标记能帮助缩小排查范围；但页面可用的定义若与真实操作不符，图表就可能误导判断。",
+      "product_analysis": {
+        "target_problem": "手机应用团队需要知道用户实际等了多久。发现变慢后，还要分辨是否与某次发布有关。",
+        "workflow": "安装库，在应用最外层布局接入监测，即可收到启动指标。再看带有发布标记的图表，结合设备信息排查变化。",
+        "ai_value": "介绍没提 AI，主要靠自动采集耗时和关联发布记录来改善排查体验。",
+        "differentiation": "启动测量不用另写采集代码。若团队已有监测工具，可能不愿重复接入和维护。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Expo 和 React Native 手机应用开发工具；按原生构建及 EAS Update 应用更新标记图表，并采集设备和会话信息。",
+        "possible_approach": "如果自己做，可以先记录启动、页面进入和可操作的时间，再连同版本、设备信息上传，按版本画出耗时变化。",
+        "tradeoffs": "最难的是判断“可用”：页面已经显示，按钮却还不能点，就可能低估用户等待时间。",
+        "unknowns": "介绍没有说明页面“可用”的判定标准。"
+      },
+      "transferable_insights": [
+        "做性能监测产品时，把发布时间直接标在指标图上，让团队少一次手动核对发布记录。"
+      ],
+      "validation_questions": [
+        "让页面显示后延迟启用按钮，检查可用耗时是否包含这段等待。",
+        "发布一次 EAS Update，检查新会话能否准确归到对应更新。"
+      ],
+      "source_tagline": "Performance monitoring built for Expo and React Native",
+      "source_description": "Observe measures how fast your Expo app starts and how fast each screen becomes usable, on real user devices. Install the library, wrap your root layout, and startup metrics arrive with nothing to instrument. Every native build and every EAS Update gets its own marker on the chart, so you can see which release moved the line. Full device context on every session: model, OS, country, network type, thermal state, frame data. Free plan covers 100K events a month."
     },
     {
       "id": "1237589",
       "name": "Nodeterm",
       "name_zh": "Nodeterm",
-      "tagline_zh": "A node-based free open source terminal manager",
-      "description_zh": "A node-based free open source terminal manager for macOS, Linux and Windows. Real terminals and coding agents as live nodes on an infinite canvas — watch Claude, Codex and Gemini work, wire them together, and never lose a session to a reboot.",
-      "intro_zh": "",
+      "tagline_zh": "基于节点的免费开源终端管理器",
+      "description_zh": "Nodeterm 是一款面向 macOS、Linux 和 Windows 的免费开源终端管理器。它把真实终端和编程代理放在无限画布上作为实时节点，支持查看 Claude、Codex 和 Gemini 的工作并连接节点，介绍还宣称重启后不会丢失会话。",
+      "intro_zh": "给同时使用多个终端和编程代理的开发者用，把工作窗口放在画布上查看、连接和管理。",
       "url": "https://www.producthunt.com/products/nodeterm-terminal-manager?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AKJTKEMPRNLOGO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/83ba89c8-d982-4151-b429-ba90c66698af.png?auto=format",
       "votes_count": 125,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多终端与编程代理的集中管理场景清楚，但会话恢复效果未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "重启后究竟能恢复到哪一步，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把运行中的任务放在画布上有借鉴意义，但连线的作用尚不明确。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把任务关系和运行现场放在一起；但会话恢复的边界不清楚，暂时不能把它当作防止任务中断的保障。",
+      "product_analysis": {
+        "target_problem": "同时跑多个终端和编程代理的开发者，需要看清各项工作及其关系。任务一多，找到对应窗口、记住上下文可能变得麻烦。",
+        "workflow": "在无限画布上查看终端和编程代理节点，再把节点连接起来。简介没说明连线后具体会发生什么。",
+        "ai_value": "AI 编程代理负责写代码等工作，Nodeterm 提供查看和组织它们的界面。介绍没说明它自身是否会分配任务。",
+        "differentiation": "它把多个运行窗口放进同一张画布。最可能让人不愿换的原因是：节点多了以后，整理画布可能比切换窗口更费事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1232843",
-      "name": "Notchling",
-      "name_zh": "Notchling",
-      "tagline_zh": "A little creature that lives in your MacBook notch",
-      "description_zh": "Notchling is a tiny creature living in your MacBook notch. It watches your cursor, dozes off when you idle, feels your battery, and when you drag a file at it, it opens its mouth and carries it for you. Free, under a megabyte, and nothing leaves your Mac.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/notchling-lives-in-your-notch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/S27NIHCKHWSUUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/555929c0-dc11-4796-ae0a-8ac6ebb352c9.jpeg?auto=format",
-      "votes_count": 123,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "免费开源，支持 macOS、Linux、Windows，以画布节点呈现真实终端和编程代理。",
+        "possible_approach": "如果自己做，可以先让每个节点对应一个终端进程，再保存布局和历史输出；重启后重新打开节点，并明确标出哪些任务需要重跑。",
+        "tradeoffs": "最难的是区分恢复画面和恢复运行。若只恢复文字记录，用户可能误以为之前的任务仍在继续。",
+        "unknowns": "“重启不丢会话”包括正在运行的任务，还是只保留历史内容？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多任务开发工具时，可以把运行窗口直接放进任务图，让用户在查看关系时也能看到实际输出。"
+      ],
+      "validation_questions": [
+        "运行一个持续输出的任务后重启电脑，检查它能否继续执行。",
+        "连接两个节点，检查连线是否真的传递输入输出。"
+      ],
+      "source_tagline": "A node-based free open source terminal manager",
+      "source_description": "A node-based free open source terminal manager for macOS, Linux and Windows. Real terminals and coding agents as live nodes on an infinite canvas — watch Claude, Codex and Gemini work, wire them together, and never lose a session to a reboot."
     },
     {
       "id": "1237941",
       "name": "Murmell",
       "name_zh": "Murmell",
-      "tagline_zh": "Google docs for AI agents, and you can close your laptop",
-      "description_zh": "Our first Product Hunt launch brought many new users to Murmell and showed us that the infrastructure was not ready to scale. So we rebuilt it from scratch. We also created unified agent memory: close your laptop, freeze a canvas, and return to the exact same workspace, terminals, files and conversations. Your agents retain their context and continue where they stopped, while teammates can join the same live environment and collaborate in real time.",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 智能体的 Google Docs，合上电脑也能保留工作现场",
+      "description_zh": "团队表示，首次在 Product Hunt 发布后新增了不少用户，也暴露了扩展能力不足的问题，因此重建了基础设施。新版加入统一的智能体记忆，支持冻结画布、合上电脑后回来恢复工作区、终端、文件和对话，让智能体接着工作，也让队友进入同一个实时环境协作。",
+      "intro_zh": "给使用 AI 智能体的团队，保存工作现场，并让队友进入同一个环境继续协作。",
       "url": "https://www.producthunt.com/products/murmell?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6HGGMZO37K4MRP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a812f057-e152-4951-b2a1-2377085389ba.jpeg?auto=format",
       "votes_count": 104,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "恢复工作现场和多人协作的用途清楚，但恢复效果未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "文件、终端与对话如何一起恢复，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把整个任务现场作为保存单位，可借用于长时间运行的工作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少离开后重建工作现场的麻烦；最影响判断的是，所谓恢复原样是否包含正在运行的终端任务。",
+      "product_analysis": {
+        "target_problem": "用 AI 智能体处理跨多次会话任务的团队，会需要离开后继续工作。麻烦在于文件、终端和对话都与任务有关，只留聊天记录可能不够。",
+        "workflow": "在画布中工作，离开时冻结画布，回来恢复原工作区并继续。队友也可加入同一个实时环境。",
+        "ai_value": "AI 智能体保留上下文并从停止处继续。这里主要改善任务接续，介绍没有说明智能体具体能执行哪些任务。",
+        "differentiation": "它把多类工作状态一起保留，可能减少重新整理现场的工作。最可能让人犹豫的是恢复是否可靠。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到统一智能体记忆、画布冻结和实时协作，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把文件、对话和终端运行状态保存为同一份快照，再在返回时一起恢复，供智能体接着处理。",
+        "tradeoffs": "最难的是让各部分恢复到同一时刻。若文件已更新、对话却停在旧版本，智能体可能依据过时信息继续修改。",
+        "unknowns": "冻结后，正在执行的任务是暂停还是继续运行？"
+      },
+      "transferable_insights": [
+        "做长任务工具时，可以按任务保存整个工作现场，让用户回来后直接接续，而不只找回历史消息。"
+      ],
+      "validation_questions": [
+        "冻结并恢复后，文件、终端和对话是否都对应冻结前的状态？",
+        "两名队友同时修改同一文件时，是否会丢失其中一人的修改？"
+      ],
+      "source_tagline": "Google docs for AI agents, and you can close your laptop",
+      "source_description": "Our first Product Hunt launch brought many new users to Murmell and showed us that the infrastructure was not ready to scale. So we rebuilt it from scratch. We also created unified agent memory: close your laptop, freeze a canvas, and return to the exact same workspace, terminals, files and conversations. Your agents retain their context and continue where they stopped, while teammates can join the same live environment and collaborate in real time."
+    },
+    {
+      "id": "1233519",
+      "name": "Creatium Coach",
+      "name_zh": "Creatium Coach",
+      "tagline_zh": "帮助你从一般走向出色的多媒体导师",
+      "description_zh": "Creatium Coach 是一款拟人化多媒体教练，面向个人和企业，帮助学习者设定并实现职业或个人目标，提供模拟、视频和角色扮演等学习形式。简介宣称其学习效果可比肩线下一对一辅导，但未提供验证依据。",
+      "intro_zh": "给有职业或个人学习目标的人，也给企业培训团队，用多媒体教练、模拟和角色扮演开展学习。",
+      "url": "https://www.producthunt.com/products/creatium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/I5Q2WCFRUDQPOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/778ae48b-7e48-48e1-9554-7055e6528cb3.jpeg?auto=format",
+      "votes_count": 302,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "学习场景清楚，但如何帮助达成目标及实际收益仍不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "模拟练习如何紧扣学习目标是具体问题，但实现信息很少。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把讲解与情境练习结合可供借鉴，适用范围仍需验证。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是从观看材料走向情境练习；最大的疑问是，它用什么依据判断用户学会了，而不只是完成了活动。",
+      "product_analysis": {
+        "target_problem": "个人学习者和企业培训团队可能需要它。相比只看课程或视频，模拟和角色扮演提供了练习机会，回应看过却记不牢的问题。",
+        "workflow": "围绕职业或个人目标，跟随教练学习，并使用模拟、视频和角色扮演。简介没说明这些环节如何安排。",
+        "ai_value": "介绍没提 AI，主要靠教练配合多种学习形式来改善体验，不能据此认定它会自动评估学习表现。",
+        "differentiation": "它把学习材料和情境练习放在一起。最可能让人犹豫的是，尚无依据判断这些练习能否改善真实表现。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到多媒体教练、模拟、视频和角色扮演，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先限定一个学习目标，再编写对应的讲解和角色练习，最后检查学习者能否完成目标动作。",
+        "tradeoffs": "最难的是让练习真正对应目标；情节即使逼真，也可能只让用户熟悉对话，没练到实际需要的能力。",
+        "unknowns": "教练如何判断学习者已达成目标，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做沟通类培训产品时，可以在一段讲解后接一轮对应的角色练习，让学习者把刚学到的方法用出来。"
+      ],
+      "validation_questions": [
+        "选一个具体学习目标，检查角色练习是否确实要求用到该能力。",
+        "完成一次练习后，检查教练能否指出具体哪里需要改进。"
+      ],
+      "source_tagline": "Your multimedia mentor that takes you from mid to great",
+      "source_description": "Creatium Coach is a lifelike, multimedia coach that helps anyone set goals and reach them. Instead of clicking through static courses or half-remembering a video, you learn with a coach, as well as simulations, videos, and roleplays. These boost outcomes as much as one-on-one in-person coaching. Whatever the goal, professional or personal, and whether you're one learner or a whole enterprise, Coach meets you where you are. Warning: side effects may include world domination."
+    },
+    {
+      "id": "1232843",
+      "name": "Notchling",
+      "name_zh": "Notchling",
+      "tagline_zh": "住在 MacBook 刘海里的小生物",
+      "description_zh": "Notchling 是住在 MacBook 刘海里的小生物，会看着光标、在你闲置时打盹，并感知电池状态；拖文件给它时，它会张嘴替你拿着。简介称它免费、体积不到 1 MB，且数据不会离开 Mac。",
+      "intro_zh": "给想让 MacBook 桌面多点陪伴感的人用，在刘海处养个会回应光标、接住文件的小生物。",
+      "url": "https://www.producthunt.com/products/notchling-lives-in-your-notch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/S27NIHCKHWSUUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/555929c0-dc11-4796-ae0a-8ac6ebb352c9.jpeg?auto=format",
+      "votes_count": 123,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "陪伴场景明确，但接住文件后能省什么操作还不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "拖放文件与动画回应的配合有具体问题可讨论。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用角色动作回应操作，可借到桌面小工具中。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把操作反馈做成了有性格的动作；最影响判断的是接住文件之后，是否真有方便的取用方式。",
+      "product_analysis": {
+        "target_problem": "面向喜欢桌面宠物的 MacBook 用户，给日常操作添一点陪伴感。资料没有说明它解决了哪种既有文件操作的麻烦。",
+        "workflow": "它在刘海处随光标、闲置和电池状态作出反应。把文件拖给它，它会张嘴并替你拿着；后续如何取用没有说明。",
+        "ai_value": "介绍没提 AI，主要靠角色对操作和设备状态的回应来改善体验。",
+        "differentiation": "把接文件做成角色动作，可能更直观。但若取回文件不顺手，用户可能只把它当装饰。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称体积不到 1 MB，数据不离开 Mac；没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先在刘海附近显示角色，再读取光标、闲置和电池状态来切换动作，最后加入文件拖放接收。",
+        "tradeoffs": "最容易出错的是接收文件时的反馈：若张嘴了却没接收成功，用户可能误以为文件已经交给它。",
+        "unknowns": "“替你拿着”是暂存文件入口，还是移动文件？介绍未说明。"
+      },
+      "transferable_insights": [
+        "做桌面暂存工具时，可以借用“张嘴准备接收”的动作，让用户在松手前看清放置目标。"
+      ],
+      "validation_questions": [
+        "拖入一个文件后，检查能否顺利取回并打开。",
+        "拖放未成功时，检查角色是否明确显示失败。"
+      ],
+      "source_tagline": "A little creature that lives in your MacBook notch",
+      "source_description": "Notchling is a tiny creature living in your MacBook notch. It watches your cursor, dozes off when you idle, feels your battery, and when you drag a file at it, it opens its mouth and carries it for you. Free, under a megabyte, and nothing leaves your Mac."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

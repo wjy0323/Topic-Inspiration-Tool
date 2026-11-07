@@ -1,367 +1,510 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-31T22:55:27+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:32:38+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1233737",
       "name": "Topview Motion Studio",
       "name_zh": "Topview Motion Studio",
-      "tagline_zh": "Create launch videos without touching After Effects",
-      "description_zh": "Motion Studio helps teams create polished launch videos for apps, hardware, and new products without learning After Effects or hiring a motion design studio. Describe what you want to communicate, upload reference images, and choose a visual style, duration, and aspect ratio. Motion Studio combines AI video models with purpose-built motion design skills to turn your brief into high-quality product storytelling—faster, simpler, and at a fraction of the traditional cost.",
-      "intro_zh": "",
+      "tagline_zh": "无需操作 After Effects，即可制作产品发布视频",
+      "description_zh": "Motion Studio 帮助团队制作应用、硬件和新品的发布视频，无需学习 After Effects 或聘请动态设计工作室。用户描述想传达的内容、上传参考图，并选择视觉风格、时长和画面比例；它结合 AI 视频模型与专门的动态设计能力生成视频，介绍宣称能缩短制作时间、降低成本。",
+      "intro_zh": "给需要发布应用、硬件或新品的团队用，把内容描述和参考图转成产品发布视频。",
       "url": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/25TEFO4TYMRPSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3d37b9e0-e01f-43c5-9ec4-482ff3fbabfd.png?auto=format",
       "votes_count": 318,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群和省去的制作工作清楚，成片质量与修改成本仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何让生成画面准确呈现产品是具体问题，但实现信息有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把自由描述与风格、时长等明确选项组合，适合借用于内容生成工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让缺少动态设计经验的人也能提交制作要求；最大的疑问是生成结果能否准确呈现产品，否则省下的制作时间可能花在返工上。",
+      "product_analysis": {
+        "target_problem": "需要发布新品、又缺少动态设计能力的团队会用到它。对原本考虑学习 After Effects 或外包制作的人，它提供了另一种制作方式。",
+        "workflow": "描述要传达的内容，上传参考图，再选择风格、时长和画面比例，由工具生成发布视频。",
+        "ai_value": "AI 把文字要求和参考图转成视频。介绍称还结合了专门的动态设计能力，但没有解释具体如何配合。",
+        "differentiation": "它把部分制作工作变成填写要求和选择参数。最可能让团队犹豫的是：成片细节是否能按要求修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1225037",
-      "name": "Hyperfocus",
-      "name_zh": "Hyperfocus",
-      "tagline_zh": "Planner that turns goals into daily progress",
-      "description_zh": "Hyperfocus is a free, goals-first planner for macOS. It helps you choose the few outcomes that matter most, plan weeks and days around them, and make consistent progress by doing focused work",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/hyperfocus-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WIPDN746ZT7D27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5b558482-76e8-4e90-bd5c-964ad8cc98d4.png?auto=format",
-      "votes_count": 291,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到结合 AI 视频模型与专门的动态设计能力，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把用户要求整理成分镜，再结合参考图生成各段画面，最后按目标时长和比例拼接。",
+        "tradeoffs": "最容易出错的是生成画面偏离参考图。产品外观或界面文字一旦变样，团队可能无法直接用于发布。",
+        "unknowns": "生成后能否只修改某一段，并保留其他已确认内容？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做内容生成工具时，可以让用户自由描述内容，再用明确选项约束风格、时长和尺寸，减少来回解释。"
+      ],
+      "validation_questions": [
+        "上传带有清晰文字的产品界面图，检查生成视频是否保留原文。",
+        "要求只修改其中一段，检查其他已确认片段是否保持不变。"
+      ],
+      "source_tagline": "Create launch videos without touching After Effects",
+      "source_description": "Motion Studio helps teams create polished launch videos for apps, hardware, and new products without learning After Effects or hiring a motion design studio. Describe what you want to communicate, upload reference images, and choose a visual style, duration, and aspect ratio. Motion Studio combines AI video models with purpose-built motion design skills to turn your brief into high-quality product storytelling—faster, simpler, and at a fraction of the traditional cost."
     },
     {
       "id": "1199418",
       "name": "Olostep",
       "name_zh": "Olostep",
-      "tagline_zh": "Turn the Web into Clean Data for AI",
-      "description_zh": "Olostep provides scalable web data APIs, specifically designed for the web’s second user - AI. Effortlessly turn any URL into LLM-ready Markdown, JSON, or structured data and use the API for agentic search workflows",
-      "intro_zh": "",
+      "tagline_zh": "把网页转成供 AI 使用的干净数据",
+      "description_zh": "Olostep 提供面向 AI 的网页数据接口，介绍称其支持规模化使用。它可将网址内容转成适合大语言模型处理的 Markdown、JSON 或结构化数据，也可用于由 AI 自动执行搜索步骤的流程。",
+      "intro_zh": "给开发 AI 搜索或问答工具的人用，把网页内容转成便于程序读取和处理的数据。",
       "url": "https://www.producthunt.com/products/olostep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ULWMLW4DJVACDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6604fdc1-e1d7-4abd-a135-fb96c0918f22.png?auto=format",
       "votes_count": 233,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确解决网页进入 AI 应用前的格式转换问题，但提取质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "正文提取有具体难点，但介绍没说明如何处理复杂网页。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把不同网页统一成可处理的数据，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把网页整理集中到一个接口里；但历史简介未说明复杂页面的处理范围，不能把“任意网址”当成可靠承诺。",
+      "product_analysis": {
+        "target_problem": "做网页问答或自动搜索的开发者，需要把网页交给模型。页面里的导航、广告和正文混在一起，会增加整理工作。",
+        "workflow": "把网址交给接口（让软件互相传数据的连接方式），取得转换后的文本或结构化数据，再用于 AI 搜索流程。介绍没给出更具体的操作步骤。",
+        "ai_value": "它负责准备供 AI 使用的网页数据。介绍没说转换过程是否由 AI 完成，不能据此判断它会生成答案。",
+        "differentiation": "它把网页转格式的工作封装成服务，可能减少自建提取程序的工作。最可能让人犹豫的是，目标网站上的提取质量尚不明确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供网页数据接口，可输出 Markdown（纯文本排版格式）、JSON（程序常用的数据格式）及结构化数据。",
+        "possible_approach": "如果自己做，可以先获取网页，分离正文和导航等内容，再按需要输出文本或固定字段。",
+        "tradeoffs": "最难的是准确识别正文；若把关键段落一起删掉，后续模型可能依据不完整内容作答。",
+        "unknowns": "需要运行页面脚本才能显示的内容，能否完整提取？"
+      },
+      "transferable_insights": [
+        "做多网站资料问答时，可以先统一网页输出格式，再交给问答模块，减少它对各站页面样式的依赖。"
+      ],
+      "validation_questions": [
+        "拿一篇带导航和广告的长文，检查提取结果是否保留全部正文。",
+        "拿一个正文依赖页面脚本加载的网址，检查结果是否包含加载后的内容。"
+      ],
+      "source_tagline": "Turn the Web into Clean Data for AI",
+      "source_description": "Olostep provides scalable web data APIs, specifically designed for the web’s second user - AI. Effortlessly turn any URL into LLM-ready Markdown, JSON, or structured data and use the API for agentic search workflows"
     },
     {
       "id": "1235626",
       "name": "Prequel",
       "name_zh": "Prequel",
-      "tagline_zh": "Create cinematic screen recordings on your Mac",
-      "description_zh": "A macOS screen recorder that hands back a finished video. Zooms that follow the work, a framed camera and a background, exported at up to 4K on your Mac's own media engine.",
-      "intro_zh": "",
+      "tagline_zh": "在 Mac 上制作有电影感的录屏",
+      "description_zh": "这款 macOS 录屏工具会直接输出成片，包含跟随操作的缩放、带边框的摄像头画面和背景。它使用 Mac 自带的媒体引擎，支持最高 4K 导出。",
+      "intro_zh": "给需要演示软件操作的 Mac 用户，把屏幕录制、重点缩放和摄像头画面组合成视频。",
       "url": "https://www.producthunt.com/products/prequel-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HDEJHZVHFWZ2YT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/658ee160-531b-489d-9772-a45a16212e72.png?auto=format",
       "votes_count": 202,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "演示场景明确，录制后直接成片能省去部分整理工作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "缩放如何跟上操作值得关注，但触发和纠错方式不明。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把常用后期处理并入录制流程，可借用于演示工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重录完就能拿到带排版的视频；但缩放出错后能否修正，会直接影响它能否替代部分后期工作。",
+      "product_analysis": {
+        "target_problem": "做软件演示的人，需要让观众看清操作重点。若录完还要补缩放、排摄像头和背景，成片前就多了一轮整理。",
+        "workflow": "在 Mac 上录屏，由工具加入跟随操作的缩放、摄像头边框和背景，再导出视频，最高支持 4K。简介没交代具体设置步骤。",
+        "ai_value": "介绍没提 AI，主要靠录制时的画面处理和成片导出来改善体验。",
+        "differentiation": "它把几项常见后期处理放进录屏工具。最可能让人不愿换用的原因，是自动缩放不符合自己的演示节奏。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "运行于 macOS，使用 Mac 自带媒体引擎，支持最高 4K 导出。",
+        "possible_approach": "如果自己做，可以先录下屏幕和操作位置，再据此安排放大区域，叠加摄像头画面与背景后导出。",
+        "tradeoffs": "最难的是选对缩放目标。若把短暂经过的位置当成重点，观众可能看不到真正要演示的内容。",
+        "unknowns": "自动缩放选错后，用户能否手动修改？"
+      },
+      "transferable_insights": [
+        "做教程或演示工具时，可以把固定的背景、摄像头边框和重点缩放并入输出流程，减少录完后的重复编辑。"
+      ],
+      "validation_questions": [
+        "连续切换两个操作区域，检查缩放是否始终对准当前重点。",
+        "检查能否修改一次不合适的自动缩放。"
+      ],
+      "source_tagline": "Create cinematic screen recordings on your Mac",
+      "source_description": "A macOS screen recorder that hands back a finished video. Zooms that follow the work, a framed camera and a background, exported at up to 4K on your Mac's own media engine."
     },
     {
       "id": "1219033",
       "name": "Murfy AI",
       "name_zh": "Murfy AI",
-      "tagline_zh": "Write, review, and publish to arXiv 10x faster",
-      "description_zh": "Murfy is a team of AI agents for the entire research writing workflow. Murfy helps to write and review your paper in context, fix LaTeX compile errors on the spot, verify reference papers and generate Beamer slides in minutes. Work with unlimited collaborators, real-time editing, free to start.",
-      "intro_zh": "",
+      "tagline_zh": "撰写、审阅并发布论文到 arXiv，宣传称速度提升至 10 倍",
+      "description_zh": "Murfy 用一组 AI 助手支持研究写作，可结合论文上下文撰写和审阅、修复 LaTeX 排版编译错误、核验参考论文，并生成 Beamer 学术演示幻灯片。它支持不限人数的协作者和实时编辑，可免费开始使用；简介还宣称能在几分钟内生成幻灯片。",
+      "intro_zh": "给使用 LaTeX 写论文的研究者和合作者，用 AI 辅助改稿、修复排版错误并制作汇报幻灯片。",
       "url": "https://www.producthunt.com/products/murfy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MPGY4SMRHXCRMC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2de19048-8860-472c-a321-eb06224123df.png?auto=format",
       "votes_count": 191,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "写作、排版和汇报的用途明确，但节省多少时间尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动修复排版代码时如何保住论文含义，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕同一份文档提供改稿和派生材料，可借用于其他专业写作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是让改稿和制作汇报共用论文上下文；最影响判断的是参考论文“核验”究竟检查存在性，还是也检查引用是否支持正文论点。",
+      "product_analysis": {
+        "target_problem": "研究者写论文时，既要改论述，也要处理排版错误和准备汇报。Murfy 把这些任务放进支持多人实时编辑的写作环境。",
+        "workflow": "围绕论文内容请求 AI 撰写或审阅，遇到编译错误时让它修复。还可以核验参考论文、生成幻灯片，并邀请合作者实时编辑。",
+        "ai_value": "AI 结合论文上下文改稿，并承担排版修复、参考论文核验和幻灯片生成。核验具体检查什么，简介没有解释。",
+        "differentiation": "可能省去为改稿和制作汇报材料反复交代论文背景的麻烦。团队是否愿意迁入，可能取决于现有论文工程能否完整导入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1232856",
-      "name": "Referent",
-      "name_zh": "Referent",
-      "tagline_zh": "The AI-native OS for modern law firms",
-      "description_zh": "Referent is AI-native legal practice management software. Legal AI agents handle the operational work while lawyers focus on clients and growth.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/referent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OTBU4BBU7KUQEY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ab9c73d8-4f3d-485b-b259-78ff0c4bea8e.jpeg?auto=format",
-      "votes_count": 178,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到一组 AI 助手、LaTeX（用代码排版论文）、Beamer（用 LaTeX 制作幻灯片）和实时协作，未披露具体实现。",
+        "possible_approach": "如果自己做，可以先读取论文和编译报错，再让 AI 提出修改，重新编译后展示差异，交给作者确认。",
+        "tradeoffs": "最容易把“编译通过”当成“修好了”。若改动误删公式或引用，论文虽然能打开，内容却可能已经变错。",
+        "unknowns": "标语提到发布到 arXiv（论文预印本平台），但简介没说明是否支持直接提交。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做专业文档工具时，可以围绕同一份原稿提供审阅和汇报材料生成，减少用户重复补充背景。"
+      ],
+      "validation_questions": [
+        "给一份带已知编译错误的论文，检查修复是否改变公式含义。",
+        "放入一条虚构参考文献，检查核验功能能否识别。"
+      ],
+      "source_tagline": "Write, review, and publish to arXiv 10x faster",
+      "source_description": "Murfy is a team of AI agents for the entire research writing workflow. Murfy helps to write and review your paper in context, fix LaTeX compile errors on the spot, verify reference papers and generate Beamer slides in minutes. Work with unlimited collaborators, real-time editing, free to start."
     },
     {
       "id": "1231976",
       "name": "Ravioli",
       "name_zh": "Ravioli",
-      "tagline_zh": "Create custom stamp shapes",
-      "description_zh": "Ravioli is a tiny design tool for creating custom postage-stamp shapes. Select a shape, adjust the stamp size, holes and roundness, then export your result as a transparent PNG or scalable SVG.",
-      "intro_zh": "",
+      "tagline_zh": "创建自定义邮票形状",
+      "description_zh": "Ravioli 是一款用于创建自定义邮票形状的小型设计工具。选择形状，调整尺寸、齿孔和圆角后，可导出透明背景 PNG 或可缩放的 SVG。",
+      "intro_zh": "给需要邮票式图形的设计师和内容创作者用，调整外形与齿孔，再导出到其他设计中使用。",
       "url": "https://www.producthunt.com/products/ravioli-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q3HHDTI43UTONK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e373950a-05a8-4675-b350-4feac0d7cc25.jpeg?auto=format",
       "votes_count": 118,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用途和输出明确，但形状选择能否覆盖实际需求仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "齿孔在不同轮廓上的排列有具体难点，但材料未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把特定图形的重复编辑变成少量参数调整，适合借到其他图形生成工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它能直接输出可继续排版的图形；最影响判断的是形状和齿孔的可调范围是否够用。",
+      "product_analysis": {
+        "target_problem": "做海报或装饰图形时，设计师可能需要带齿孔的邮票轮廓。逐个编辑边缘缺口比较繁琐，尺寸变化后还可能要重新排列。",
+        "workflow": "选择一种形状，调整邮票尺寸、齿孔和圆角，再导出透明 PNG 或 SVG，供后续排版使用。",
+        "ai_value": "介绍没提 AI，主要靠可调参数和图片导出来改善体验。",
+        "differentiation": "把轮廓细节集中为几项调整，可能减少重复绘制。若可选形状太少，用户仍可能留在原有设计软件里完成。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1231975",
-      "name": "RIP MY BUILD",
-      "name_zh": "RIP MY BUILD",
-      "tagline_zh": "Give your abandoned side project one last launch",
-      "description_zh": "RIP MY BUILD is a side project cemetery for honest public postmortems. Publish a permanent obituary with the original link, cause of death, lesson learned, and whatever you’re building next. Every memorial gets a shareable page, visitor roses, permanent plot adornments, and a weekly honors leaderboard. It turns the useful truth at the end of a project into closure, a launch asset, and a path to the founder’s next chapter. $12 per obituary; no account needed to browse.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/rip-my-build?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PBN7NH52G6BR3Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4829976b-c15f-4801-90fe-80bbaf3a1424.png?auto=format",
-      "votes_count": 117,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持透明 PNG 和可缩放的 SVG（放大时仍能保持轮廓清晰的矢量图格式）导出。",
+        "possible_approach": "如果自己做，可以先生成基础轮廓，再沿边缘布置重复缺口，用参数控制尺寸和圆角，最后生成两种导出文件。",
+        "tradeoffs": "最难的是转角处的齿孔排列。间距处理不好，缺口可能重叠，让邮票边缘出现破损感。",
+        "unknowns": "齿孔能调整哪些属性，简介没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做标签、票券等图形工具时，可以把重复边缘做成可调参数，让用户少画一批相同细节。"
+      ],
+      "validation_questions": [
+        "把尺寸调到极小或极大，检查转角处齿孔是否重叠。",
+        "将导出的 SVG 放进常用设计软件，检查轮廓是否与工具中一致。"
+      ],
+      "source_tagline": "Create custom stamp shapes",
+      "source_description": "Ravioli is a tiny design tool for creating custom postage-stamp shapes. Select a shape, adjust the stamp size, holes and roundness, then export your result as a transparent PNG or scalable SVG."
     },
     {
       "id": "1235219",
       "name": "Ulpaso",
       "name_zh": "Ulpaso",
-      "tagline_zh": "Stop paying just to take meeting notes",
-      "description_zh": "Your meeting-notes app wants the recording, an account, and a card. Ulpaso doesn't. Press record. Mic + system audio get transcribed on your Mac and land in a Markdown file you can actually edit. No cloud. No login. No $20/mo for a checklist.",
-      "intro_zh": "",
+      "tagline_zh": "别再只为记会议笔记付费",
+      "description_zh": "Ulpaso 无需登录或上传云端，点击录音后，会在 Mac 上转写麦克风和系统音频。转写结果保存为可编辑的 Markdown 文件；简介强调不必为此支付每月 20 美元，但未说明完整定价。",
+      "intro_zh": "给用 Mac 记录会议的人，把麦克风和电脑播放的声音转成文字，保存为可编辑文件。",
       "url": "https://www.producthunt.com/products/ulpaso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YSB77QGV4KPKYR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a724f372-579b-4825-95fc-00d38e37a6a9.png?auto=format",
       "votes_count": 113,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录音转文字并保存到本地的用途清楚，实际转写质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "同时收录两路声音时，重复转写是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "本地处理并输出通用文件的做法，可借用于其他记录工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重录完就能拿到可编辑的本地文件；最影响判断的是实际纠错量，宣传中的省事要靠这一点成立。",
+      "product_analysis": {
+        "target_problem": "适合用 Mac 开会、希望留下文字记录的人。对不愿上传录音或注册账号的人，这两项要求可能挡住使用。",
+        "workflow": "点击录音，收录麦克风和系统音频，在 Mac 上转成文字，再编辑生成的 Markdown 文件。",
+        "ai_value": "介绍没提 AI，主要靠本地转写和直接保存文件来改善体验，不能据此判断是否会总结会议。",
+        "differentiation": "省去登录和云端上传。最可能让人不愿换用的原因是转写准确度尚不明确，纠错可能抵消省下的时间。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持麦克风与系统音频的本地转写，输出 Markdown（一种可直接编辑的纯文本格式）。",
+        "possible_approach": "如果自己做，可以先取得两路音频的录制权限，再把声音按时间对齐，交给本地语音识别程序转成文字，最后写入文件。",
+        "tradeoffs": "难点是同一段声音可能同时进入两路录音；若没处理重复，用户就得手动删掉重复文字。",
+        "unknowns": "介绍没有说明支持哪些转写语言。"
+      },
+      "transferable_insights": [
+        "做访谈或口述记录工具时，可以让结果直接保存为通用文本文件，方便用户接着修改，不必留在专用编辑器里。"
+      ],
+      "validation_questions": [
+        "用扬声器播放远端发言并开启麦克风，检查是否出现重复转写？",
+        "用一段中文会议录音，检查文字是否准确到无需大量重写？"
+      ],
+      "source_tagline": "Stop paying just to take meeting notes",
+      "source_description": "Your meeting-notes app wants the recording, an account, and a card. Ulpaso doesn't. Press record. Mic + system audio get transcribed on your Mac and land in a Markdown file you can actually edit. No cloud. No login. No $20/mo for a checklist."
     },
     {
       "id": "1236134",
       "name": "Superagent",
       "name_zh": "Superagent",
-      "tagline_zh": "Claude Code for the rest of us",
-      "description_zh": "Working with a coding agent should feel like using a good Mac app, not a terminal. Superagent gives yours a computer: a real browser it drives on your own logged-in sessions, an iOS Simulator it taps and swipes, your files, a board it keeps, routines on a timer. Chats sit in a sidebar you can group, survive restarts, and never steal your focus. Each runs on its own git worktree. Pair your iPhone and the work follows you, encrypted end to end. No account, no server, no second bill. Open source.",
-      "intro_zh": "",
+      "tagline_zh": "面向更多人的 Claude Code",
+      "description_zh": "Superagent 希望让使用编程助手像使用 Mac 应用一样：助手可操作已登录的浏览器、iOS 模拟器和文件，维护看板并定时执行任务；聊天可在侧边栏分组、重启后保留，每段聊天使用独立的 Git 工作目录。介绍还称，它支持与 iPhone 配对并端到端加密同步工作，无需账户或服务器、不增加第二份账单，且代码开源。",
+      "intro_zh": "给想用图形界面管理编程助手的人，把代码任务、浏览器操作和手机接续工作放在一起。",
       "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SPXFLFPPKRFQUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8826a5a0-80d5-48f2-b6cf-40be26dac1c9.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景清楚，但能否减少操作负担仍需试用。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "让助手操作已登录浏览器，带来了具体的权限控制问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "独立工作目录和可恢复聊天，是可借用的多任务管理做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重任务能随聊天保存，重启后不用重新找回工作；但真实账户操作是否有可靠的确认机制，会直接影响使用意愿。",
+      "product_analysis": {
+        "target_problem": "面向用编程助手做项目、又不熟悉终端的人。以前通过终端交互的任务，现在可以放进 Mac 图形界面里管理。",
+        "workflow": "把聊天放进侧边栏分组，每段聊天使用独立工作目录。助手可操作浏览器、模拟器和文件；配对 iPhone 后可在手机接续工作。",
+        "ai_value": "AI 承担编程及电脑操作，应用负责提供操作环境和保存任务。具体支持哪些助手，介绍没说。",
+        "differentiation": "它把聊天和实际操作放在一起，可能减少切换窗口的麻烦。最可能让人犹豫的是，要把已登录的浏览器交给助手操作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "每段聊天使用独立的 git worktree（同一代码仓库的独立工作目录）；手机配对使用端到端加密，代码开源。",
+        "possible_approach": "如果自己做，可以先为每段聊天分配工作目录并保存记录，再让助手连接浏览器和模拟器的操作能力。",
+        "tradeoffs": "最容易出错的是浏览器操作权限：助手若误点提交，可能直接改动用户账户里的真实数据。",
+        "unknowns": "涉及提交、删除等操作时，是否必须先由用户确认？"
+      },
+      "transferable_insights": [
+        "做多任务编程工具时，可以让每段聊天对应独立工作目录，减少任务之间互相改动文件。"
+      ],
+      "validation_questions": [
+        "让助手在测试账户中执行删除操作，检查是否先请求确认。",
+        "重启应用后打开原聊天，检查能否接着处理原任务。"
+      ],
+      "source_tagline": "Claude Code for the rest of us",
+      "source_description": "Working with a coding agent should feel like using a good Mac app, not a terminal. Superagent gives yours a computer: a real browser it drives on your own logged-in sessions, an iOS Simulator it taps and swipes, your files, a board it keeps, routines on a timer. Chats sit in a sidebar you can group, survive restarts, and never steal your focus. Each runs on its own git worktree. Pair your iPhone and the work follows you, encrypted end to end. No account, no server, no second bill. Open source."
+    },
+    {
+      "id": "1225037",
+      "name": "Hyperfocus",
+      "name_zh": "Hyperfocus",
+      "tagline_zh": "把目标转为每日进展的规划工具",
+      "description_zh": "Hyperfocus 是一款免费的 macOS 规划工具，以目标为起点。它帮助你选出最重要的少数成果，围绕这些成果安排每周和每天的工作，并通过专注工作持续推进。",
+      "intro_zh": "给需要围绕目标安排工作的 macOS 用户，用来选定重点成果，再规划每周和每天要做的事。",
+      "url": "https://www.producthunt.com/products/hyperfocus-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WIPDN746ZT7D27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5b558482-76e8-4e90-bd5c-964ad8cc98d4.png?auto=format",
+      "votes_count": 291,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "目标与日常安排之间的问题清楚，但能否帮助持续执行尚无证据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "目标变动后怎样处理已有计划，是一个具体的设计难点。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先选少数成果再安排工作的顺序，可借用于其他规划产品。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它先确定少数成果的安排顺序；最影响判断的是，目标是否真正连接到日常计划，还是仅仅多了一页目标记录。",
+      "product_analysis": {
+        "target_problem": "适合有明确目标、却容易被日常杂事挤占时间的 macOS 用户。麻烦在于：知道想完成什么，不等于知道这周和今天该安排什么。",
+        "workflow": "先选出最重要的少数成果，再围绕它们安排周计划和日计划，之后按计划开展专注工作。简介没说明具体如何录入和调整。",
+        "ai_value": "介绍没提 AI，主要靠先确定目标、再安排时间的顺序来改善体验。",
+        "differentiation": "它把目标选择和日常规划放在一起，可能减少反复对照两份记录的麻烦。只支持 macOS，是其他平台用户最直接的使用门槛。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了 macOS 平台，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户填写少数目标，再给每条周计划和日计划关联一个目标，让用户看出时间花在了哪里。",
+        "tradeoffs": "最容易出错的是目标调整后，原有计划仍指向旧重点。用户可能继续忙，却没有推进当前最重要的事。",
+        "unknowns": "目标与周、日计划之间是否有实际关联，还是需要用户自己记住？"
+      },
+      "transferable_insights": [
+        "做学习或项目规划工具时，可以先让用户选出本周最想完成的成果，再填写待办，避免一开始就堆出长清单。"
+      ],
+      "validation_questions": [
+        "新增一条日计划时，能否清楚看到它对应哪个目标？",
+        "修改一个目标后，能否找出需要重新安排的已有计划？"
+      ],
+      "source_tagline": "Planner that turns goals into daily progress",
+      "source_description": "Hyperfocus is a free, goals-first planner for macOS. It helps you choose the few outcomes that matter most, plan weeks and days around them, and make consistent progress by doing focused work"
+    },
+    {
+      "id": "1231975",
+      "name": "RIP MY BUILD",
+      "name_zh": "RIP MY BUILD",
+      "tagline_zh": "给你已放弃的业余项目最后一次发布机会",
+      "description_zh": "RIP MY BUILD 是一个业余项目墓园，让创作者公开复盘，发布包含原链接、终止原因、经验教训和下一步项目的永久讣告。每篇收费 12 美元，提供可分享页面、访客献花、永久墓位装饰和每周荣誉榜，浏览无需账号。",
+      "intro_zh": "给停止维护业余项目的创作者用，把终止原因和经验写成公开纪念页，并介绍自己接下来要做的项目。",
+      "url": "https://www.producthunt.com/products/rip-my-build?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PBN7NH52G6BR3Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4829976b-c15f-4801-90fe-80bbaf3a1424.png?auto=format",
+      "votes_count": 117,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "复盘和展示下一项目的用途清楚，但付费需求尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "永久页面如何长期维护，是会直接影响承诺兑现的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用固定字段整理失败经验，并连接下一项目，容易借用于作品社区。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它给失败项目留下可分享的交代，还能指向新作品；最影响判断的是，这种一次性纪念是否足以支持付费。",
+      "product_analysis": {
+        "target_problem": "项目停止后，创作者可能想解释为什么结束，也想保留经验和去向。它给这些内容一个固定的公开展示位置。",
+        "workflow": "发布含原链接、终止原因、教训和下一项目的讣告，获得可分享页面。访客无需账号即可浏览，也能献花。",
+        "ai_value": "介绍没提 AI，主要靠固定内容结构和纪念互动改善体验。",
+        "differentiation": "它把复盘和下一项目放在同一页，便于一起分享。每篇 12 美元可能让只想写一次总结的人犹豫。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先用固定表单收集复盘，再生成有独立网址的页面，保存献花和装饰记录。",
+        "tradeoffs": "最难的是长期兑现“永久”：若服务停运却没有导出安排，用户分享出去的复盘可能一起消失。",
+        "unknowns": "永久保存具体覆盖多久，以及停运后如何处理，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做作品社区时，可在项目结束页固定询问终止原因、学到什么、下一步做什么，让后来者能读到可借鉴的经验。"
+      ],
+      "validation_questions": [
+        "我会先确认永久页面是否有明确的保存与退出安排。",
+        "我会给目标创作者看示例页和 12 美元价格，检查是否愿意实际付费发布。"
+      ],
+      "source_tagline": "Give your abandoned side project one last launch",
+      "source_description": "RIP MY BUILD is a side project cemetery for honest public postmortems. Publish a permanent obituary with the original link, cause of death, lesson learned, and whatever you’re building next. Every memorial gets a shareable page, visitor roses, permanent plot adornments, and a weekly honors leaderboard. It turns the useful truth at the end of a project into closure, a launch asset, and a path to the founder’s next chapter. $12 per obituary; no account needed to browse."
+    },
+    {
+      "id": "1232856",
+      "name": "Referent",
+      "name_zh": "Referent",
+      "tagline_zh": "面向现代律所的 AI 原生工作系统",
+      "description_zh": "Referent 是一款以 AI 为核心设计的律所业务管理软件。简介称，法律 AI 代理负责运营事务，让律师专注于客户和业务增长。",
+      "intro_zh": "给需要管理日常事务的律所使用，让 AI 代理处理运营工作，为律师留出服务客户的时间。",
+      "url": "https://www.producthunt.com/products/referent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OTBU4BBU7KUQEY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ab9c73d8-4f3d-485b-b259-78ff0c4bea8e.jpeg?auto=format",
+      "votes_count": 178,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用户和分工明确，但没有具体任务或节省时间的依据。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "没说明代理执行什么任务，无法判断具体技术做法。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按事务拆分人机分工可借鉴，但适用范围仍需验证。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "把运营事务交给 AI 有明确的省事方向，但历史缓存没有给出任何任务实例，目前无法判断它能替律师做到哪一步。",
+      "product_analysis": {
+        "target_problem": "面向需要兼顾客户服务和日常运营的律师及律所。它想减少运营事务对律师时间的占用，但没列出具体事务。",
+        "workflow": "介绍只说由 AI 代理处理运营工作，没有交代用户如何提交任务、检查结果或接手异常。",
+        "ai_value": "AI 被安排执行运营事务，而不只是回答问题。究竟能执行哪些动作，资料没有展开。",
+        "differentiation": "预期省下的是律师亲自处理部分事务的时间。我会先确认它是否需要律所改变现有工作方式，这可能影响换用意愿。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到法律 AI 代理，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一种边界清楚的事务，让 AI 根据输入生成处理结果，再由律师确认后执行。",
+        "tradeoffs": "最容易出错的是把不完整的信息当成执行依据；若直接执行，可能把错误带进后续工作。",
+        "unknowns": "哪些运营事务能由代理实际完成，而不只是给出建议？"
+      },
+      "transferable_insights": [
+        "做专业服务管理软件时，可以先自动化一种重复事务，并在执行前保留人工确认，再决定是否扩大范围。"
+      ],
+      "validation_questions": [
+        "选一项真实运营事务，检查它能否从接收输入做到交付可用结果。",
+        "故意漏掉一项必要信息，检查它会追问还是继续执行。"
+      ],
+      "source_tagline": "The AI-native OS for modern law firms",
+      "source_description": "Referent is AI-native legal practice management software. Legal AI agents handle the operational work while lawyers focus on clients and growth."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

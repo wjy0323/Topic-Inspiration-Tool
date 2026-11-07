@@ -1,367 +1,511 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-23T20:29:09+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:19:38+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1286749",
       "name": "DeepCell",
       "name_zh": "DeepCell",
-      "tagline_zh": "Your deadline survival kit for office work",
-      "description_zh": "Deepcell can help you with deadline tasks that require narrations, calculation and presentation at the same time, such as modeling, sales review, budget forecast and monthly report. DeepCell (both web app and agent plug-in) can create ready-to-use docs, spreadsheets, and slides—with sources and cheat sheets to help you explain. Furthermore, every edit can update related parts. The product is built on a newly designed document format (.deepcell), which is especially designed for system two tasks.",
-      "intro_zh": "",
+      "tagline_zh": "办公室工作的截止日期应急工具包",
+      "description_zh": "DeepCell 面向建模、销售复盘、预算预测和月报等同时需要文字说明、计算与展示的任务，提供网页版和智能体插件，可生成文档、表格与幻灯片，并附来源和讲解提要。介绍称，编辑可更新相关部分，产品采用新设计的 .deepcell 文档格式，面向需要深入思考的任务。",
+      "intro_zh": "给赶预算、销售复盘和月报的办公人员用，把文字说明、计算和演示材料放在一起制作与修改。",
       "url": "https://www.producthunt.com/products/deepcell?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QQW4YFA2J3HRIM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4213bd09-4a21-4aa1-9b09-259b899ddfba.jpeg?auto=format",
       "votes_count": 336,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "任务和产出清楚，修改后的联动效果还需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "数字变化后如何正确更新文字结论，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "关联更新与附带讲解提要，都能借到报告类产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少多份材料之间的修改遗漏；最影响判断的是联动能否正确处理文字结论，而不只是替换数字。",
+      "product_analysis": {
+        "target_problem": "做预算或月报的人，需要让数字、文字结论和演示材料对得上。麻烦在于改动一处后，相关内容也要检查。",
+        "workflow": "通过网页版或智能体插件生成文档、表格和幻灯片，查看来源与讲解提要。介绍称，后续编辑会更新相关部分，但没交代输入方式。",
+        "ai_value": "介绍没明确提 AI，主要靠多种材料生成和关联更新来改善体验；不能仅凭“智能体插件”判断 AI 做了什么。",
+        "differentiation": "它试图减少修改后逐项核对的工作。我会先确认自有格式是否方便交给不用 DeepCell 的同事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c5789019-f487-442f-9925-d3189dd15747)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "产品采用新设计的 .deepcell 文档格式，并提供网页版和智能体插件。",
+        "possible_approach": "如果自己做，可以先记录数字、结论和图表的引用关系，再在数据变化时重算并更新对应内容。",
+        "tradeoffs": "最难的是判断哪些结论受改动影响。若只更新数字，用户可能拿着新表格讲旧结论。",
+        "unknowns": "关联更新能否覆盖文字中的判断，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做经营报告工具时，可以把同一指标在表格和结论中的引用关联起来，修改后提示检查受影响内容。",
+        "做汇报生成工具时，可以随材料附上来源和讲解提要，帮助使用者回答追问。"
+      ],
+      "validation_questions": [
+        "修改一个预算数字，检查引用它的文字结论是否相应更新。",
+        "把生成材料交给不用 DeepCell 的同事，检查能否打开并继续编辑。"
+      ],
+      "source_tagline": "Your deadline survival kit for office work",
+      "source_description": "Deepcell can help you with deadline tasks that require narrations, calculation and presentation at the same time, such as modeling, sales review, budget forecast and monthly report. DeepCell (both web app and agent plug-in) can create ready-to-use docs, spreadsheets, and slides—with sources and cheat sheets to help you explain. Furthermore, every edit can update related parts. The product is built on a newly designed document format (.deepcell), which is especially designed for system two tasks."
     },
     {
       "id": "1288350",
       "name": "Claude Duet",
       "name_zh": "Claude Duet",
-      "tagline_zh": "Proactive agent that understands what needs your attention",
-      "description_zh": "Claude Duet is a helpful, proactive agent you hand off work to through messages. Tell it what you need and it works on its own computer in the cloud, using apps you connect. It messages you when it is done or needs a decision from you. While it’s always on, it uses good judgment when it reaches out and knows what can wait.",
-      "intro_zh": "",
+      "tagline_zh": "主动判断哪些事情需要你关注的智能代理",
+      "description_zh": "Claude Duet 是一个可通过消息交办工作的主动式助手，会在自己的云端电脑上使用你连接的应用完成任务。它会在完成工作或需要你决策时发消息；介绍称，它持续在线，并会判断哪些事需要联系你、哪些可以等。",
+      "intro_zh": "给想把应用内工作交给助手的人用，通过消息交办任务，等它回报结果或请求决策。",
       "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/E2X5OB7ZYY7LBL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6d3b0b35-8b8f-4795-b175-5e093770e0aa.jpeg?auto=format",
       "votes_count": 317,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "交办与回报方式清楚，但缺少具体任务和完成效果。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自主执行时何时停下来问人，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把进度通知集中到完成和决策两个时点，可借给后台任务产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是交办后不必持续盯着；最影响判断的是，它能否在关键操作前可靠地停下来问人。",
+      "product_analysis": {
+        "target_problem": "适合想委托应用内工作、又不想全程盯着进度的人。麻烦在于交办后仍可能要随时回答问题。",
+        "workflow": "连接应用，用消息说明需求。助手在云端电脑上执行，完成或需要决策时再联系用户。",
+        "ai_value": "助手负责把需求推进为应用内操作，并判断何时请人介入。缓存未说明它能处理哪些具体任务。",
+        "differentiation": "它把执行放到自己的云端电脑上，减少用户持续操作的需要。用户可能不愿授予应用访问权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 42cd4485-3d97-42e0-b874-74fe93a77d15)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到云端电脑、连接应用和消息交互，未说明具体模型或操作技术。",
+        "possible_approach": "如果自己做，可以先限定一种任务，让助手读取需求、操作已授权应用，再在预设的决策点暂停询问。",
+        "tradeoffs": "最难的是判断何时必须问人。若把需要确认的操作直接做了，用户可能要撤回或补救。",
+        "unknowns": "哪些操作必须经用户确认，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做耗时的后台任务时，可以把通知分为“已完成”和“需要决定”，减少只报进度的打扰。"
+      ],
+      "validation_questions": [
+        "交办一项包含关键选择的任务，检查它是否在行动前请求确认。",
+        "交办一项结果可核对的任务，检查完成通知是否与应用中的实际结果一致。"
+      ],
+      "source_tagline": "Proactive agent that understands what needs your attention",
+      "source_description": "Claude Duet is a helpful, proactive agent you hand off work to through messages. Tell it what you need and it works on its own computer in the cloud, using apps you connect. It messages you when it is done or needs a decision from you. While it’s always on, it uses good judgment when it reaches out and knows what can wait."
     },
     {
       "id": "1274632",
       "name": "Doneas",
       "name_zh": "Doneas",
-      "tagline_zh": "A daily accountability call with other entrepreneurs.",
-      "description_zh": "Doneas helps solo builders stay focused, accountable, and productive. Plan your week every Monday, join a 15-minute daily accountability call with five other builders, and track everything you ship on your public progress page. Plan less. Focus better. Ship more.",
-      "intro_zh": "",
+      "tagline_zh": "每天与其他创业者通话，互相督促进度。",
+      "description_zh": "Doneas 帮助独立开发者保持专注、相互督促并推进工作。每周一制定计划，每天与另外五位开发者参加 15 分钟的进度通话，并在公开进度页记录交付成果。",
+      "intro_zh": "给独立开发者用的进度督促工具，把每周计划、每日同伴通话和公开成果记录放在一起。",
       "url": "https://www.producthunt.com/products/doneas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AIRL3T6NP757FV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bcb1de90-07a1-48ff-ad06-1bd0107f5b98.jpeg?auto=format",
       "votes_count": 258,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "独自推进项目的场景明确，但持续参与能否改善交付尚无证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人每日通话带来具体的时间协调问题，但实现方式未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "固定频率汇报并公开成果的做法具体，适合需要持续推进的任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它给独自工作的人提供固定汇报对象；最大的疑问是，六人每天能否稳定到场。",
+      "product_analysis": {
+        "target_problem": "独立开发者独自推进项目时，可能缺少固定汇报对象，计划容易拖延。Doneas 提供每天见同伴、交代进度的场景。",
+        "workflow": "每周一制定本周计划，每天与另外五位开发者通话 15 分钟，再在公开进度页记录交付成果。",
+        "ai_value": "介绍没提 AI，主要靠固定通话和公开记录，让用户持续关注自己的承诺。",
+        "differentiation": "它把计划、同伴督促和成果展示放在同一套安排里。每天需要留出固定时间，可能让日程不规律的人不愿加入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 13dfdb13-46cf-4e80-9484-0bd6e0b5a68c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确有公开进度页，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集参与者可通话的时间，再组成六人小组安排每日通话，最后让成员把交付成果记到公开页面。",
+        "tradeoffs": "最难的是找到六个人都能持续参加的时间；若经常缺席，同伴督促可能变成少数人反复空等。",
+        "unknowns": "介绍没说成员缺席后，小组如何继续运作。"
+      },
+      "transferable_insights": [
+        "做学习或创作陪伴产品时，可以把定期汇报和成果记录配在一起，让参与者下次见面时有具体内容可谈。"
+      ],
+      "validation_questions": [
+        "按自己的实际日程，能否找到可持续参加的每日通话时段？",
+        "公开进度页能否清楚展示一周实际交付了什么？"
+      ],
+      "source_tagline": "A daily accountability call with other entrepreneurs.",
+      "source_description": "Doneas helps solo builders stay focused, accountable, and productive. Plan your week every Monday, join a 15-minute daily accountability call with five other builders, and track everything you ship on your public progress page. Plan less. Focus better. Ship more."
     },
     {
       "id": "1266852",
       "name": "heal.dev",
       "name_zh": "heal.dev",
-      "tagline_zh": "Find bugs and vulnerabilities code review misses",
-      "description_zh": "Code review catches what’s wrong in a diff. Heal catches what breaks when the app runs. Heal learns how to run your application, builds a production-like sandbox with external services stubbed, then hunts for bugs, performance regressions, and runtime vulnerabilities users would hit. It reproduces every defect before reporting it, so you get real bugs to fix, not a backlog of AI-generated suspicions.",
-      "intro_zh": "",
+      "tagline_zh": "找出代码审查遗漏的缺陷与漏洞",
+      "description_zh": "Heal 学习如何运行应用，建立接近生产环境的沙箱，并用模拟服务替代外部服务，查找运行时缺陷、性能退化和安全漏洞。介绍称，它会先复现每个缺陷再报告，以减少未经验证的问题猜测。",
+      "intro_zh": "给开发和测试团队用，在隔离环境中运行应用，查找并复现用户可能遇到的缺陷。",
       "url": "https://www.producthunt.com/products/heal-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HQTQB26MJAPQTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a104fe36-4bbe-41de-8625-9c6ebc487e09.png?auto=format",
       "votes_count": 242,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "运行后找问题并先复现再报告，目标明确，但效果未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "模拟外部服务时如何保留真实故障条件，是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先复现再报告的做法可借用，但复现标准未说明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是先复现再报告，可能减少排查空线索的时间；最大疑问是模拟环境能否保留真实故障条件。",
+      "product_analysis": {
+        "target_problem": "开发团队需要找出应用运行后才暴露的问题。代码审查能检查改动，但不能覆盖所有实际运行情况。",
+        "workflow": "工具学习应用的运行方式，建立隔离测试环境，模拟外部服务，再查找问题；介绍称发现后会先复现再报告。",
+        "ai_value": "介绍提到减少 AI 生成的猜测，但没说明 AI 具体负责哪些步骤。",
+        "differentiation": "它把运行检查和复现放在报告之前，可能省去开发者逐条验证线索的时间。团队是否信任模拟环境的结果，可能影响使用意愿。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4be6d155-c0a0-41a9-a660-6ab94bfa9759)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到类生产沙箱（隔离测试环境）、外部服务模拟和报告前复现。",
+        "possible_approach": "如果自己做，可以先跑通应用启动和关键操作，再模拟外部服务响应；发现异常后重跑相同操作，确认能否复现。",
+        "tradeoffs": "最难的是模拟外部服务：若漏掉超时或错误响应，测试可能通过，真实用户仍会遇到故障。",
+        "unknowns": "它如何判断测试环境足够接近生产环境？"
+      },
+      "transferable_insights": [
+        "做自动测试工具时，可先重跑失败操作，再把可复现的问题交给开发者，减少人工筛查。"
+      ],
+      "validation_questions": [
+        "放入一个已知的外部服务超时故障，检查它能否发现。",
+        "按报告提供的信息重跑一次，检查能否复现同一缺陷。"
+      ],
+      "source_tagline": "Find bugs and vulnerabilities code review misses",
+      "source_description": "Code review catches what’s wrong in a diff. Heal catches what breaks when the app runs. Heal learns how to run your application, builds a production-like sandbox with external services stubbed, then hunts for bugs, performance regressions, and runtime vulnerabilities users would hit. It reproduces every defect before reporting it, so you get real bugs to fix, not a backlog of AI-generated suspicions."
     },
     {
       "id": "1286858",
       "name": "Mistral Voxtral 3",
       "name_zh": "Mistral Voxtral 3",
-      "tagline_zh": "Mistral’s speech models for transcription, TTS and agents",
-      "description_zh": "Voxtral 3 is Mistral’s new family of speech-to-text and text-to-speech models, plus a voice agent SDK built on LiveKit. Transcription covers 50+ languages with diarization and context biasing, and realtime transcription runs under 500ms. TTS adapts emotion and pacing, with voice cloning from 30+ minutes of audio. Batch transcription starts at $0.0035 per minute, and the models are available through Mistral’s API.",
-      "intro_zh": "",
+      "tagline_zh": "Mistral 的语音模型，用于转写、语音合成和语音助手",
+      "description_zh": "Voxtral 3 包含语音转文字、文字转语音模型，以及基于 LiveKit 的语音助手开发工具包；转写支持 50 多种语言、区分说话人和提示领域词，简介称实时转写延迟低于 500 毫秒。语音合成可调整情绪和节奏，并用 30 分钟以上录音克隆声音；简介标注批量转写每分钟 0.0035 美元起，模型通过 Mistral 接口提供。",
+      "intro_zh": "给做会议转写和语音助手的开发者用，把录音转成文字，或把回复文字读出来。",
       "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5EIBXLSLSKO5BV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c38dad27-215c-4344-9b17-5f16df25d01f.png?auto=format",
       "votes_count": 210,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "转写和语音交互用途清楚，但延迟与识别效果尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "实时转写如何兼顾等待时间和句子完整性，是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用领域词提示改善专有名词识别，有明确借鉴场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重领域词提示能否减少人工改稿；实时转写的延迟口径不清，仍难判断对话体验。",
+      "product_analysis": {
+        "target_problem": "做多语言会议记录或语音客服时，开发者需要把声音变成文字，再让系统用声音回复。难点是识别专有名词，以及让用户少等。",
+        "workflow": "开发者通过接口（让软件互相传数据的连接方式）提交音频或文字，取得转写或合成语音。做语音助手可使用其开发工具包。",
+        "ai_value": "模型负责听写、区分谁在说话，以及按情绪和节奏生成语音。领域词提示可引导识别，但不等于保证识别正确。",
+        "differentiation": "它同时提供听写、发声和助手开发工具，可能减少分别接入的工作。已有语音服务的团队仍需评估替换和测试成本。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 49de9636-dd57-45f1-ab57-f2bbf1967fb3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到语音模型、基于 LiveKit 的开发工具包，以及 Mistral 接口。",
+        "possible_approach": "如果自己做，可以先接入音频转写，再把回复文字交给语音合成，最后接入实时通话。",
+        "tradeoffs": "最难的是判断一句话何时说完。过早提交可能误解意思，等待过久又会让对话停顿。",
+        "unknowns": "低于 500 毫秒指哪一段耗时，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做行业听写产品时，可让用户预先提供人名、产品名等领域词，帮助模型识别。"
+      ],
+      "validation_questions": [
+        "用含领域词的录音，比较提供词表前后的识别错误。",
+        "在目标网络环境下，测量说完一句话到收到完整转写的时间。"
+      ],
+      "source_tagline": "Mistral’s speech models for transcription, TTS and agents",
+      "source_description": "Voxtral 3 is Mistral’s new family of speech-to-text and text-to-speech models, plus a voice agent SDK built on LiveKit. Transcription covers 50+ languages with diarization and context biasing, and realtime transcription runs under 500ms. TTS adapts emotion and pacing, with voice cloning from 30+ minutes of audio. Batch transcription starts at $0.0035 per minute, and the models are available through Mistral’s API."
     },
     {
       "id": "1280966",
       "name": "Fastlane 2.0",
       "name_zh": "Fastlane 2.0",
-      "tagline_zh": "Create, launch and scale winning ads with AI",
-      "description_zh": "Meet Fastlane 2.0 - your next winning ad, on autopilot. What started as a simple AI organic content creation tool now runs your paid marketing end to end. Enter your website and Fastlane learns your brand, researches competitors and finds what's working. It creates high-quality AI video and image ads, runs Meta campaigns and publishes content across TikTok, Instagram and YouTube. Then it studies results, doubles down on winners and uses those learnings to build smarter campaigns every time.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 创建、上线并扩大投放表现好的广告",
+      "description_zh": "Fastlane 2.0 从 AI 自然流量内容生成工具，扩展到付费营销：输入网站后，它会了解品牌、研究竞品，生成视频和图片广告，运行 Meta 广告，并向 TikTok、Instagram 和 YouTube 发布内容。介绍称，它还会分析结果，增加对表现较好广告的投入，并用这些经验改进后续广告活动。",
+      "intro_zh": "给需要制作和投放广告的营销团队用，从网站了解品牌，再生成素材、运行广告并分析结果。",
       "url": "https://www.producthunt.com/products/fastlane-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/F336CZV4PLEFYY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3f532d3f-2551-4a42-b6e2-263c85d8b688.png?auto=format",
       "votes_count": 178,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖素材制作到投放分析，但节省多少人工尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何根据投放结果决定后续动作，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "用结果指导下一轮内容有借鉴意义，但判断标准未披露。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是投放结果能用于下一轮制作，减少重复整理；但它如何判断值得继续投入，仍缺少关键说明。",
+      "product_analysis": {
+        "target_problem": "需要持续投广告的团队，既要做素材，也要根据结果调整后续投放。麻烦在于这些工作需要反复衔接。",
+        "workflow": "输入网站，让它了解品牌、研究竞品，再生成图片和视频广告。它可运行 Meta 广告、向三个内容平台发布，并分析结果。",
+        "ai_value": "AI 用于了解品牌、研究竞品和生成素材；介绍还称，投放结果会用于改进下一轮广告。",
+        "differentiation": "把制作、发布和结果分析放在一起，可能减少人工搬运信息。最可能阻碍交付使用的是不敢让它自动调整广告投入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 6bfa7801-db5e-4d01-a69a-c810612f27a0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 图片和视频生成，以及根据投放结果改进广告，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先从网站提取产品和品牌信息，再生成素材并连接投放平台，最后按预设目标汇总结果、提出调整建议。",
+        "tradeoffs": "最难的是判断哪些广告真的有效。若把短期波动当成成功信号，可能继续给无效广告花钱。",
+        "unknowns": "自动增加投入前，是否有预算上限和人工确认？"
+      },
+      "transferable_insights": [
+        "做持续生成内容的工具时，可以把上一轮效果带入下一轮选题，并显示每次调整依据。"
+      ],
+      "validation_questions": [
+        "用一个真实品牌网站生成素材，检查是否出现错误的产品卖点。",
+        "设置预算上限，检查自动调整投放时是否始终遵守。"
+      ],
+      "source_tagline": "Create, launch and scale winning ads with AI",
+      "source_description": "Meet Fastlane 2.0 - your next winning ad, on autopilot. What started as a simple AI organic content creation tool now runs your paid marketing end to end. Enter your website and Fastlane learns your brand, researches competitors and finds what's working. It creates high-quality AI video and image ads, runs Meta campaigns and publishes content across TikTok, Instagram and YouTube. Then it studies results, doubles down on winners and uses those learnings to build smarter campaigns every time."
     },
     {
       "id": "1275115",
       "name": "Loom Record for agents",
       "name_zh": "Loom Record for agents",
-      "tagline_zh": "Hit record and hand off to AI, now in the new Loom app",
-      "description_zh": "Record your screen, a meeting, yourself and now…record for agents. No more typing out prompts to explain what's on your screen to agents. Capture video, audio, and on-screen actions, turning everyday walkthroughs into agent-ready prompts any AI tool can act on. Built natively into the reimagined, faster Loom for Mac app with precision area recording, new cam shapes, filters, backgrounds, and 4K capture by default. Give your AI agents the full picture. Also available in the Chrome extension.",
-      "intro_zh": "",
+      "tagline_zh": "在新版 Loom 应用中，按下录制，再交给 AI",
+      "description_zh": "Loom 可录制屏幕、会议和自己，并将视频、音频及屏幕操作转成供 AI 工具使用的提示词。该功能内置于新版 Mac 应用，也可在 Chrome 扩展中使用；简介还列出区域录制、摄像头画面形状、滤镜、背景和默认 4K 录制。",
+      "intro_zh": "给需要向 AI 交代屏幕任务的人用，把操作演示和口头说明转成提示词，再交给 AI 工具。",
       "url": "https://www.producthunt.com/products/loom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CEC7O36EG5BZTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b00c77ed-aed9-4d8a-b9fa-da4735ee8c30.png?auto=format",
       "votes_count": 139,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "解释屏幕内容的麻烦明确，但生成提示词能否直接使用尚待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把画面、讲解和操作对应起来，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先演示再生成任务说明的做法，可借用于软件问题反馈等场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少把屏幕操作翻译成文字的负担；最大疑问是生成结果能否保留足够信息，让接收它的 AI 正确理解任务。",
+      "product_analysis": {
+        "target_problem": "需要让 AI 理解软件操作的人，以前可能要打字描述页面和步骤。现在可以录下演示，减少把屏幕内容重新写一遍的工作。",
+        "workflow": "在 Mac 应用或 Chrome 扩展中录下画面、声音和屏幕操作，生成面向 AI 的提示词，再交给 AI 工具。",
+        "ai_value": "它把日常演示转成任务说明；介绍没有解释 AI 如何理解画面，也没说明后续任务是否由 Loom 执行。",
+        "differentiation": "省去部分手写背景说明的工作。若生成后仍需大量改写，用户可能不愿改变输入习惯。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2342a85c-0889-484f-9c69-8990ee1d8470)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到采集视频、音频和屏幕操作，并转成提示词，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把讲解转成文字，再按时间对应画面和操作，整理出任务目标与步骤。",
+        "tradeoffs": "最难的是分清演示过程和真正要求；若把误点也写进指令，AI 可能照着做错。",
+        "unknowns": "生成结果用什么形式交给不同 AI 工具，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做软件问题反馈工具时，可以让用户边操作边讲解，再生成可编辑的复现步骤。"
+      ],
+      "validation_questions": [
+        "录一段包含误点和口头纠正的演示，检查提示词是否保留了正确意图。",
+        "把同一份结果交给两款 AI 工具，检查是否都能读取其中的屏幕信息。"
+      ],
+      "source_tagline": "Hit record and hand off to AI, now in the new Loom app",
+      "source_description": "Record your screen, a meeting, yourself and now…record for agents. No more typing out prompts to explain what's on your screen to agents. Capture video, audio, and on-screen actions, turning everyday walkthroughs into agent-ready prompts any AI tool can act on. Built natively into the reimagined, faster Loom for Mac app with precision area recording, new cam shapes, filters, backgrounds, and 4K capture by default. Give your AI agents the full picture. Also available in the Chrome extension."
     },
     {
       "id": "1275489",
       "name": "CutBay",
       "name_zh": "CutBay",
-      "tagline_zh": "AI Video Agent: Turn Anything into Videos via Chat",
-      "description_zh": "CutBay is an AI video agent that turns anything into videos via chat. Instead of manually editing timelines, users simply describe what they want, and CutBay handles planning, scripting, visuals, voiceovers, subtitles, and editing. It creates videos from prompts, URLs, docs, PDFs, presentations, spreadsheets, and media assets, then refines them through natural conversation. Professional video creation, as easy as having a conversation.",
-      "intro_zh": "",
+      "tagline_zh": "AI 视频助手：通过聊天把各类内容转成视频",
+      "description_zh": "CutBay 让用户通过聊天描述需求，由 AI 处理视频策划、脚本、画面、配音、字幕和剪辑，减少手动编辑时间线的操作。它支持从提示词、链接、文档、PDF、演示文稿、表格及媒体素材生成视频，再通过对话修改。",
+      "intro_zh": "给需要把文档或素材做成视频的人用。描述需求生成视频，再用对话提出修改。",
       "url": "https://www.producthunt.com/products/cutbay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NHJ3TS2JQSOSXM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/dbd22bcf-e7ae-46d4-a2ae-38a42488fb28.jpeg?auto=format",
       "votes_count": 136,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "输入、产出和修改方式清楚，但成片质量与修改效率尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "对话修改如何准确落到成片局部，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先生成完整初稿再对话修改，可借用于多步骤内容制作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把多个制作环节集中到一次对话中；但若局部修改不可控，省下的操作可能变成反复核对。",
+      "product_analysis": {
+        "target_problem": "需要把已有资料做成视频、又不熟悉剪辑的人可能会用。以前手动剪时间线时要逐项安排内容，现在可以描述需求，让工具处理这些制作环节。",
+        "workflow": "提供提示词、链接或文件，说明想做什么。生成视频后，继续通过自然语言提出修改。",
+        "ai_value": "AI 把需求和资料转为脚本、画面、配音与字幕，并完成剪辑；介绍未说明各环节的具体实现。",
+        "differentiation": "省去部分逐项操作编辑器的工作。最可能让人不愿换过来的，是对话能否准确控制细节仍不清楚。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d061469d-f611-4d1b-a25f-61fca50ee605)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持多类输入和对话修改，没说具体用什么模型或剪辑技术。",
+        "possible_approach": "如果自己做，可以先提取资料内容，再生成分段脚本并配上画面、声音和字幕。保存每段对应的素材，让后续指令能定位到具体片段。",
+        "tradeoffs": "最难的是理解修改范围。若只想改一句旁白却连其他片段也变了，用户就得重新检查整条视频。",
+        "unknowns": "修改时能否保留用户已经认可的部分？"
+      },
+      "transferable_insights": [
+        "做多步骤内容工具时，可以先交付完整初稿，再让用户针对具体片段提修改，减少一开始填写大量参数。"
+      ],
+      "validation_questions": [
+        "只要求修改一句旁白，检查其他片段是否保持不变。",
+        "用一份包含数字的 PDF 生成视频，检查关键数字是否被准确保留。"
+      ],
+      "source_tagline": "AI Video Agent: Turn Anything into Videos via Chat",
+      "source_description": "CutBay is an AI video agent that turns anything into videos via chat. Instead of manually editing timelines, users simply describe what they want, and CutBay handles planning, scripting, visuals, voiceovers, subtitles, and editing. It creates videos from prompts, URLs, docs, PDFs, presentations, spreadsheets, and media assets, then refines them through natural conversation. Professional video creation, as easy as having a conversation."
     },
     {
       "id": "1286573",
       "name": "Dadan",
       "name_zh": "Dadan",
-      "tagline_zh": "One AI video workspace for recordings, meetings and guides",
-      "description_zh": "Most teams juggle one tool for async video, another for meeting notes, and a third for how-to docs. Dadan brings all three together, then goes further: make any video interactive with polls, CTAs, and lead forms that turn viewers into signups. Built for sales, marketing, and customer success teams creating demos, onboarding, and training content. Product Hunt offer: 3 months free on PRO with code PRODUCTHUNT",
-      "intro_zh": "",
+      "tagline_zh": "把录制、会议和指南放在一起的 AI 视频工作空间",
+      "description_zh": "Dadan 将异步视频、会议笔记和操作文档集中在一起，还能在视频中加入投票、行动按钮和潜客表单，希望让观看者进一步注册。它面向制作演示、入门引导和培训内容的销售、营销及客户成功团队；缓存资料中的 Product Hunt 优惠为使用 PRODUCTHUNT 码免费体验 PRO 三个月，当前是否有效未知。",
+      "intro_zh": "给销售、营销和客户成功团队用，把演示、会议笔记和操作指南集中管理，并给视频加入互动。",
       "url": "https://www.producthunt.com/products/dadan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LAK7P6T2QU7ORA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fbe6fb71-545c-4481-afa7-6e1a650c1c01.jpeg?auto=format",
       "votes_count": 129,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群和分散工具的问题清楚，但节省多少工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "视频互动有具体实现问题，AI 的实际任务则未说明。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在内容中直接放入反馈和报名入口，可借用于培训或演示产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重视频里能直接收集反馈和联系方式；但互动是否带来更多注册，现有资料没有证据。",
+      "product_analysis": {
+        "target_problem": "销售、营销和客户成功团队制作演示、入门引导和培训时，可能要在视频、会议笔记和文档工具之间切换。",
+        "workflow": "把录制、会议笔记和操作指南放进同一工作空间，再给视频加入投票、行动按钮或潜客表单。具体导入和发布步骤未说明。",
+        "ai_value": "标语提到 AI，但简介没说它具体完成什么任务，不能据此认定有自动转写或指南生成。",
+        "differentiation": "对原本分用三类工具的团队，它可能减少切换。最可能阻碍迁移的是已有内容能否方便搬入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b599b209-abb3-4246-8f10-7fa288866b68)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持视频投票、行动按钮和潜客表单，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让视频、笔记和指南共用一个内容目录，再给播放器加可配置的互动入口，并保存提交结果。",
+        "tradeoffs": "最容易出错的是互动提交：用户填完表单若未保存，团队可能漏掉有意向的人。",
+        "unknowns": "表单收集的信息能否导出，或送进现有客户管理工具？"
+      },
+      "transferable_insights": [
+        "做培训或产品演示工具时，可以在视频内加入投票或报名表，让用户看完相关内容就能反馈或留下联系方式。"
+      ],
+      "validation_questions": [
+        "用一份现有操作指南测试迁入，检查内容是否完整保留。",
+        "提交一次视频表单，检查后台是否完整收到填写内容。"
+      ],
+      "source_tagline": "One AI video workspace for recordings, meetings and guides",
+      "source_description": "Most teams juggle one tool for async video, another for meeting notes, and a third for how-to docs. Dadan brings all three together, then goes further: make any video interactive with polls, CTAs, and lead forms that turn viewers into signups. Built for sales, marketing, and customer success teams creating demos, onboarding, and training content. Product Hunt offer: 3 months free on PRO with code PRODUCTHUNT"
     },
     {
       "id": "1288711",
       "name": "Resend Inboxes",
       "name_zh": "Resend Inboxes",
-      "tagline_zh": "Create shared inboxes, connect your agents, build workflows",
-      "description_zh": "The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.",
-      "intro_zh": "",
+      "tagline_zh": "创建共享收件箱，连接你的代理程序，搭建工作流程",
+      "description_zh": "产品介绍称，它帮助邮件到达收件人，而不是落入垃圾邮件文件夹。它支持批量发送事务邮件和营销邮件。",
+      "intro_zh": "给需要共同处理邮件的团队用，创建共享收件箱，并连接代理程序组织邮件工作流程。",
       "url": "https://www.producthunt.com/products/resend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/TY5AGUVHIXOZXC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2863d339-1fb2-4088-8ba0-826e6cf32a13.jpeg?auto=format",
       "votes_count": 120,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "共享处理邮件的用途清楚，但标语与简介指向不同，省事程度尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人和程序共同处理邮件时，如何避免重复执行是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "共享工作入口再连接程序的做法可借鉴，但分工方式未说明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是团队能围绕同一封邮件协作；但历史缓存的标语和简介不一致，连核心使用方向都需要先确认。",
+      "product_analysis": {
+        "target_problem": "需要多人共同处理邮件的团队可能会用它。标语指向收件协作，简介却讲批量发信，不能据此认定它覆盖完整邮件处理流程。",
+        "workflow": "标语支持的操作是创建共享收件箱、连接代理程序、搭建工作流程。没有说明如何分配邮件或查看处理结果。",
+        "ai_value": "介绍没提 AI，主要靠共享收件箱和程序连接来改善体验；不能把“代理程序”直接理解成 AI 助手。",
+        "differentiation": "可能省去人工转交邮件的步骤。但若不能沿用现有邮箱，迁移可能让团队不愿换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3eabe520-4462-4cfa-badc-81f9c3f5142f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把邮件放进团队共用的列表，再让接入的程序按规则处理，并记录处理状态。",
+        "tradeoffs": "最容易出错的是多人和程序同时处理同一封邮件，可能造成重复回复；需要在执行前确认是否已被处理。",
+        "unknowns": "最关键的是：这个版本究竟以共享收件协作为主，还是以批量发信为主？"
+      },
+      "transferable_insights": [
+        "做客服或工单产品时，可以把待处理内容集中展示，并让人工和自动程序共用处理状态，减少重复劳动。"
+      ],
+      "validation_questions": [
+        "实际创建一个共享收件箱，确认它能接收来信并供团队查看吗？",
+        "让两名成员同时处理同一封邮件，系统能阻止重复回复吗？"
+      ],
+      "source_tagline": "Create shared inboxes, connect your agents, build workflows",
+      "source_description": "The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

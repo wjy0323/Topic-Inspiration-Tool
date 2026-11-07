@@ -1,367 +1,510 @@
 {
   "date": "2026-09-21",
-  "generated_at": "2026-09-22T20:27:09+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:27:08+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1256682",
       "name": "Jev",
       "name_zh": "Jev",
-      "tagline_zh": "Fast, structured AI decisions for software automation",
-      "description_zh": "Jev is TypeSafe AI's System One frontier model: unstructured state in, typed probabilistic decisions out. Instead of generating text, Jev returns Choice, Score, and Noul answers with calibrated probabilities your code can act on. Parallel sampling delivers ~70-500ms responses, about 20-200x faster and 40-400x cheaper than comparable LLM workflows, with output tokens free. Now available to everyone at console.typesafe.ai with no waitlist.",
-      "intro_zh": "",
+      "tagline_zh": "为软件自动化提供快速、结构化的 AI 决策",
+      "description_zh": "Jev 是 TypeSafe AI 的 System One 模型，接收非结构化状态，返回 Choice、Score 和 Noul 类型的决策及经过校准的概率，供代码直接使用，而非生成文本。简介称其通过并行采样实现约 70—500 毫秒响应，比可比大模型流程快约 20—200 倍、便宜约 40—400 倍，输出令牌免费，并已在 console.typesafe.ai 开放使用，无需候补。",
+      "intro_zh": "给开发自动化软件的人用，把非结构化信息转成带概率的决策结果，供程序决定下一步。",
       "url": "https://www.producthunt.com/products/jev-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XJ7UD64LPY5QDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d1cc0cb7-6ff3-4524-a253-9b44002769c1.jpeg?auto=format",
       "votes_count": 487,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "程序可直接使用决策结果，但具体任务的准确性尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "概率能否可靠地指导自动执行，是明确且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把模型输出限制为程序可处理的决策，可借用于自动化功能。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是结果能直接交给代码处理；最大疑问是概率是否可信，这决定了多少判断可以放心自动执行。",
+      "product_analysis": {
+        "target_problem": "做软件自动化的开发者，需要把零散信息变成执行判断。若原来让大模型生成文字，再提取结论，麻烦在于还要处理表述和格式。",
+        "workflow": "把非结构化状态交给 Jev，取得指定类型的答案和概率，再由代码使用这些结果。介绍未给出具体接入步骤。",
+        "ai_value": "AI 负责从输入中作出判断，并附上概率；程序不必先从一段解释里找答案。",
+        "differentiation": "它省的是文字答案到程序决策之间的转换。最可能阻碍替换的，是现有任务还需要文字解释。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到并行采样，以及 Choice、Score、Noul 类型和校准概率，但未解释 Noul 的含义。",
+        "possible_approach": "如果自己做，可以先限定允许返回的选项，再让模型判断并检查结果格式；用已知答案的样本核对概率，低把握结果交给人工。",
+        "tradeoffs": "最难的是概率校准，即标为九成把握的判断是否真有约九成正确。若概率虚高，程序可能自信地执行错误动作。",
+        "unknowns": "速度和费用对比用了什么任务、基线与准确率要求？"
+      },
+      "transferable_insights": [
+        "做工单分流等自动化功能时，可让模型只返回预定类别和把握程度，方便程序决定自动处理还是转人工。"
+      ],
+      "validation_questions": [
+        "用一批已有正确答案的业务样本，检查高概率判断的实际正确率。",
+        "在自己的典型输入上测响应时间，检查是否满足等待上限。"
+      ],
+      "source_tagline": "Fast, structured AI decisions for software automation",
+      "source_description": "Jev is TypeSafe AI's System One frontier model: unstructured state in, typed probabilistic decisions out. Instead of generating text, Jev returns Choice, Score, and Noul answers with calibrated probabilities your code can act on. Parallel sampling delivers ~70-500ms responses, about 20-200x faster and 40-400x cheaper than comparable LLM workflows, with output tokens free. Now available to everyone at console.typesafe.ai with no waitlist."
     },
     {
       "id": "1247082",
       "name": "Superset Mobile",
       "name_zh": "Superset Mobile",
-      "tagline_zh": "Your coding agents, now in your pocket",
-      "description_zh": "Orchestrate coding agents from your iPhone. Pick up the same workspaces from your computer, review diffs, and merge PRs away from your desk. Works with Claude Code, Codex, and other terminal agents. Included with Superset Pro. First month free with code MOBILELAUNCH.",
-      "intro_zh": "",
+      "tagline_zh": "把编程助手装进口袋",
+      "description_zh": "在 iPhone 上调度编程助手，接着使用电脑上的工作区，离开书桌也能查看代码差异、合并拉取请求。支持 Claude Code、Codex 等终端助手，包含在 Superset Pro 中；简介还列有首月免费优惠码 MOBILELAUNCH，当前是否有效未核验。",
+      "intro_zh": "给使用编程助手的开发者，在 iPhone 上接着处理电脑工作区，检查代码改动并合并。",
       "url": "https://www.producthunt.com/products/superset-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WKWWYZ4NNBTCM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/64fce6a9-5c44-4837-9ff1-e4c33955dc64.png?auto=format",
       "votes_count": 481,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "离开电脑后继续检查和合并代码，场景与动作都明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨设备接续有具体问题可分析，但实现方式未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把桌面任务的审核动作搬到手机，可供其他工作软件借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重随手处理审核决定的便利；最影响判断的是手机看到的内容能否始终对应即将合并的版本。",
+      "product_analysis": {
+        "target_problem": "使用编程助手的开发者，离开电脑后可能仍要检查改动、决定是否合并。它把这些操作放到 iPhone 上。",
+        "workflow": "在手机上接续电脑里的同一工作区，调度编程助手，查看代码差异，再合并拉取请求（提交给项目审核并合入的代码改动）。",
+        "ai_value": "AI 负责辅助编程。Superset Mobile 提供手机上的调度和检查入口，简介没说它另有代码审查 AI。",
+        "differentiation": "省去为了检查和合并而回到电脑前的麻烦。但手机屏幕可能让复杂改动难以看全，用户仍会留到电脑上处理。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 iPhone、接续电脑工作区，并兼容 Claude Code、Codex 等终端助手（通过文字命令工作的编程工具）。",
+        "possible_approach": "如果自己做，可以先让手机读取电脑工作区的任务状态和代码改动，再把操作送回原工作区执行。",
+        "tradeoffs": "最怕手机显示旧改动，助手却已继续修改；用户可能依据过时内容决定合并。",
+        "unknowns": "电脑离线后，手机还能否继续调度任务？"
+      },
+      "transferable_insights": [
+        "做桌面工作软件的手机版时，可以先提供查看进度和批准结果，不急着复制完整编辑器。"
+      ],
+      "validation_questions": [
+        "让助手继续修改后，检查手机展示的代码差异是否及时更新。",
+        "拿一份跨多个文件的改动，检查手机上能否完整查看修改内容。"
+      ],
+      "source_tagline": "Your coding agents, now in your pocket",
+      "source_description": "Orchestrate coding agents from your iPhone. Pick up the same workspaces from your computer, review diffs, and merge PRs away from your desk. Works with Claude Code, Codex, and other terminal agents. Included with Superset Pro. First month free with code MOBILELAUNCH."
     },
     {
       "id": "1255660",
       "name": "Sai",
       "name_zh": "Sai",
-      "tagline_zh": "The autonomous computer fleet at your command",
-      "description_zh": "Sai is the world's first robosecretary that works with a fleet of autonomous computers, doing your endless screen work. Each computer navigates software the way you do: reads the screen, clicks the button, types in the form. Trained to interact with the computer interface, Sai automates software even when they lack APIs: legacy desktop apps, internal portals, anything behind a login. Sai supports Windows, macOS and Linux. 73% on OSWorld.",
-      "intro_zh": "",
+      "tagline_zh": "由你指挥的自主电脑集群",
+      "description_zh": "Sai 被介绍为一款机器人秘书，指挥多台自主电脑，通过读屏、点击和填写表单，处理包括无接口软件在内的屏幕操作。简介称它支持 Windows、macOS 和 Linux，并报告了 OSWorld 测试中 73% 的成绩，但没有提供测试条件。",
+      "intro_zh": "给需要反复操作桌面软件或内部网站的人，让多台电脑代为读屏、点击和填表。",
       "url": "https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EXXMVNBYWQYZ32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c6c938d8-6c94-4e5d-80d3-4865969f82c2.png?auto=format",
       "votes_count": 406,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "无接口软件的重复操作场景清楚，但实际可靠性尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "读屏后连续操作的错误恢复，是直接影响可用性的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "借助现有界面操作旧软件的做法，可用于难以改造的内部系统。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是不用等旧软件开放接口，就可能减少手工操作；最大疑问是连续操作有多可靠，简介中的测试成绩不足以回答这一点。",
+      "product_analysis": {
+        "target_problem": "经常在旧桌面软件、内部网站里录入资料的人会需要它。软件没有接口（让程序互相传数据的连接方式）时，自动化难以直接接入。",
+        "workflow": "用户让 Sai 执行屏幕工作，电脑读取界面，再点击按钮、填写表单。简介没说任务如何交代，也没说明结果如何交回。",
+        "ai_value": "训练后的 AI 负责理解电脑界面并执行操作，让自动化覆盖没有接口的软件。",
+        "differentiation": "它可能省去人工反复点选和输入。最可能让人犹豫的是：登录后的业务操作，能否放心交给它。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到读屏、点击、输入，以及支持 Windows、macOS 和 Linux。",
+        "possible_approach": "如果自己做，可以先截取屏幕，让模型判断下一步，再执行点击或输入；每一步后重新读屏，确认页面确实按预期变化。",
+        "tradeoffs": "最容易出错的是把界面状态认错。若页面尚未加载完就继续，后续内容可能填进错误位置。",
+        "unknowns": "多台电脑怎样分配任务，简介没有说明。"
+      },
+      "transferable_insights": [
+        "给旧内部系统补自动化时，可以先保留原界面，让程序代做一段重复操作，从无需最终提交的任务开始验证。"
+      ],
+      "validation_questions": [
+        "让页面加载变慢，检查它会不会在页面未就绪时继续点击。",
+        "同时交给两台电脑不同任务，检查结果是否各自对应正确任务。"
+      ],
+      "source_tagline": "The autonomous computer fleet at your command",
+      "source_description": "Sai is the world's first robosecretary that works with a fleet of autonomous computers, doing your endless screen work. Each computer navigates software the way you do: reads the screen, clicks the button, types in the form. Trained to interact with the computer interface, Sai automates software even when they lack APIs: legacy desktop apps, internal portals, anything behind a login. Sai supports Windows, macOS and Linux. 73% on OSWorld."
     },
     {
       "id": "1251157",
       "name": "Arcjet",
       "name_zh": "Arcjet",
-      "tagline_zh": "Secure the AI agents you're building at runtime",
-      "description_zh": "Arcjet is the runtime security platform that ships in your AI code. Detect prompt injection, authorize agent tool calls, redact sensitive data, and block bots and abuse. Real-time security building blocks you call inside your app, before an action happens.",
-      "intro_zh": "",
+      "tagline_zh": "在运行时保护你正在构建的 AI 智能体",
+      "description_zh": "Arcjet 是集成到 AI 应用代码中的运行时安全平台，可检测提示注入、授权智能体调用工具、遮蔽敏感数据，并拦截机器人和滥用行为。应用可以在执行动作前调用这些安全组件。",
+      "intro_zh": "给开发 AI 智能体的团队用，在智能体执行动作前检查权限、敏感信息和恶意指令。",
       "url": "https://www.producthunt.com/products/arcjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7QMMNEZ7CJTVIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/551f7a01-9d19-425f-8e97-ffed7427902b.png?auto=format",
       "votes_count": 383,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对智能体执行动作前的安全检查，但拦截效果未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "检查必须发生在动作执行前，检查位置直接影响保护是否有效。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把权限检查放在工具执行前，可借用于能代用户操作的 AI 产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重在动作发生前设检查点，能把风险控制放在执行位置；最影响判断的是这些检查能否覆盖所有工具调用路径。",
+      "product_analysis": {
+        "target_problem": "开发能调用工具的 AI 智能体时，团队需要防止它受恶意内容诱导，越权操作或泄露敏感信息。",
+        "workflow": "开发者把安全组件接入应用代码，在动作发生前调用。组件检查恶意指令、工具调用权限或敏感数据，应用据此处理后续动作。",
+        "ai_value": "它保护 AI 的使用过程。提示注入指内容中夹带诱导 AI 改变任务的指令；介绍提到检测它，但没说是否用 AI 检测。",
+        "differentiation": "把多类安全检查放进应用可调用的组件，可能减少分别接入的工作。是否愿意接入，可能取决于正常操作被误拦的程度。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "安全组件在应用代码内调用，并在动作执行前检查；介绍没说具体检测技术。",
+        "possible_approach": "如果自己做，可以先集中处理所有工具执行请求，再检查用户权限、操作参数和待发送内容，检查通过才执行。",
+        "tradeoffs": "最容易漏掉某条工具执行路径。若它绕过检查，智能体仍可能直接执行危险操作。",
+        "unknowns": "检查失败或服务不可用时，应用会停止动作还是继续执行？"
+      },
+      "transferable_insights": [
+        "做能发邮件、改数据的 AI 助手时，可把权限检查固定在执行工具前，避免只靠提示词约束行为。"
+      ],
+      "validation_questions": [
+        "让无权修改数据的用户请求修改，工具调用会被阻止吗？",
+        "把恶意指令夹进待处理文档，智能体执行前能识别并拦截吗？"
+      ],
+      "source_tagline": "Secure the AI agents you're building at runtime",
+      "source_description": "Arcjet is the runtime security platform that ships in your AI code. Detect prompt injection, authorize agent tool calls, redact sensitive data, and block bots and abuse. Real-time security building blocks you call inside your app, before an action happens."
     },
     {
       "id": "1246118",
       "name": "Hyrax AI",
       "name_zh": "Hyrax AI",
-      "tagline_zh": "The AI architect for your entire codebase",
-      "description_zh": "Code review tools tell you what’s wrong with a PR. Hyrax finds what should improve across your entire codebase and does the work. It builds deep context around your architecture and conventions, prioritizes issues across six engineering domains, writes each fix in context, verifies it against your tests and checks, and opens a GitHub PR for your team to review and merge.",
-      "intro_zh": "",
+      "tagline_zh": "面向整个代码库的 AI 架构师",
+      "description_zh": "Hyrax AI 在整个代码库中寻找改进项，结合架构和代码约定，在六类工程领域中排列问题优先级并编写修复。它用项目的测试和检查验证修改，再创建 GitHub 拉取请求，交给团队审查和合并。",
+      "intro_zh": "给维护代码库的工程团队用，找出需要改进的地方，编写修复，再提交给团队审核。",
       "url": "https://www.producthunt.com/products/tristan-benozer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Z2PYMQAZ4BLH3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fca10126-6cc5-406b-b94e-4fff86dd595d.png?auto=format",
       "votes_count": 221,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从发现问题到提交修复的用途清楚，但修复质量尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让局部修改符合整个项目的约定，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自动修改后先验证、再交人审核的做法可用于其他维护工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把找问题和写修复连起来；最影响判断的是，测试未覆盖的地方能否改对。",
+      "product_analysis": {
+        "target_problem": "维护代码库的团队，不只需要检查当前改动，也需要找出库内已有的改进项。麻烦在于发现问题后，还得判断先改什么、怎么改。",
+        "workflow": "它理解项目架构和约定，排列问题优先级，编写修复并运行测试和检查。随后创建 GitHub 拉取请求（供团队审查、合并的一组代码修改）。",
+        "ai_value": "AI 用项目上下文寻找改进项并写修复，把问题清单推进到可供审核的代码。",
+        "differentiation": "相比简介提到的单次代码变更审查，它覆盖整个代码库并提交修改。团队可能顾虑自动生成的修复增加审核负担。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到利用架构和代码约定、运行项目测试与检查，以及创建 GitHub 拉取请求。",
+        "possible_approach": "如果自己做，可以先读取代码和项目规则，再挑一个范围小的问题生成修改；运行现有测试后，把修改和检查结果交给人审。",
+        "tradeoffs": "最难的是理解改动对其他模块的影响。即使已有测试通过，也可能破坏未被测试覆盖的行为。",
+        "unknowns": "它怎样决定哪些问题应优先修复，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做自动维护工具时，可以让每次修改先经过现有检查，再进入人工审核，保留团队最终决定权。"
+      ],
+      "validation_questions": [
+        "选一个依赖其他模块的问题，检查生成的修复是否保持原有行为。",
+        "人为加入一个会触发测试失败的修改，检查它是否如实报告失败。"
+      ],
+      "source_tagline": "The AI architect for your entire codebase",
+      "source_description": "Code review tools tell you what’s wrong with a PR. Hyrax finds what should improve across your entire codebase and does the work. It builds deep context around your architecture and conventions, prioritizes issues across six engineering domains, writes each fix in context, verifies it against your tests and checks, and opens a GitHub PR for your team to review and merge."
     },
     {
       "id": "1256721",
       "name": "Google Flow for iOS & Android",
       "name_zh": "Google Flow for iOS & Android",
-      "tagline_zh": "Google's AI creative studio now on mobile",
-      "description_zh": "Transform ideas into reality using Google’s advanced generative models for cinematic video, images, & tools, right from your phone. Use direct camera roll and live camera uploads to ground your image and video generations in your own personal experiences. It’s now easier than ever to pull inspiration from your camera roll or photos and videos captured in the moment. And with cross-device project syncing, you take your creative work wherever you go.",
-      "intro_zh": "",
+      "tagline_zh": "Google 的 AI 创作工作室现已登陆移动端",
+      "description_zh": "在手机上使用 Google 的生成式模型创作图像和视频，介绍称可生成电影感视频。可以上传相册素材或现场拍摄的照片、视频作为生成参考，并在不同设备间同步项目。",
+      "intro_zh": "给需要用随手拍素材创作的人，在手机上生成图像和视频，并跨设备继续处理项目。",
       "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/W4GG6XXAMZGWFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/81a6af35-5cbb-48f4-8d3e-75d43a5cc37b.jpeg?auto=format",
       "votes_count": 176,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "手机素材直接参与生成，场景清楚，但生成质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让生成结果保留参考素材的关键细节，是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "就地取材与项目同步，适合借用到移动创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是能直接拿手机素材开始生成；最影响判断的是结果能否保留用户在意的原始细节。",
+      "product_analysis": {
+        "target_problem": "创作者想把相册或现场拍摄的内容用于图像、视频生成时，需要把个人素材带入创作工具。它把取材和生成放到手机上。",
+        "workflow": "从相册上传素材，或现场拍摄后上传，用作图像、视频生成的参考。项目可跨设备同步。",
+        "ai_value": "AI 根据创作想法和上传素材生成图像、视频。介绍没说明用户能控制哪些细节。",
+        "differentiation": "省事之处是直接使用手机里的素材；若结果保不住原素材的关键特征，用户可能不愿换过来。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 Google 生成式模型、相册与现场拍摄素材上传，以及跨设备项目同步。",
+        "possible_approach": "如果自己做，可以先接入相册和相机，再把素材与创作要求交给生成模型，最后保存项目供其他设备读取。",
+        "tradeoffs": "最难的是让生成结果忠于参考素材。若人物或场景细节变了，用户可能需要反复重做。",
+        "unknowns": "跨设备同步是否包含可继续编辑的完整项目状态？"
+      },
+      "transferable_insights": [
+        "做移动创作工具时，可把相册选择和现场拍摄放在素材入口，方便用户用已有内容开始创作。"
+      ],
+      "validation_questions": [
+        "上传一张主体特征清楚的照片，检查生成结果是否保留这些特征。",
+        "在手机创建项目后换设备打开，检查能否从原来的编辑状态继续。"
+      ],
+      "source_tagline": "Google's AI creative studio now on mobile",
+      "source_description": "Transform ideas into reality using Google’s advanced generative models for cinematic video, images, & tools, right from your phone. Use direct camera roll and live camera uploads to ground your image and video generations in your own personal experiences. It’s now easier than ever to pull inspiration from your camera roll or photos and videos captured in the moment. And with cross-device project syncing, you take your creative work wherever you go."
     },
     {
       "id": "1253187",
       "name": "Sell to State",
       "name_zh": "Sell to State",
-      "tagline_zh": "Search 3M government contracts in 64 countries",
-      "description_zh": "Structured government procurement data around the globe — tenders, suppliers and agencies. We help you research what governments around the world buy and find new opportunities to sell to them. No need to get a foreign company or e-signature before deciding there's money to be made. Browse for free; a flat fee unlocks the full dataset, saved searches, REST API and MCP.",
-      "intro_zh": "",
+      "tagline_zh": "搜索覆盖 64 个国家的 300 万份政府合同",
+      "description_zh": "整理全球政府采购中的招标、供应商和采购机构数据，帮助你研究政府买什么，并在办理外国公司或电子签名前评估销售机会。可免费浏览，支付固定费用可解锁完整数据集、保存搜索、REST API 和 MCP。",
+      "intro_zh": "给想向政府销售产品或服务的企业，用来查询各国采购记录、研究买家并寻找投标机会。",
       "url": "https://www.producthunt.com/products/sell-to-state?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KLXKUSWCHC6RPL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c4cfbc0b-7945-44f7-95df-726c61de62a5.png?auto=format",
       "votes_count": 120,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "先研究采购需求再决定是否投入，使用场景清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨国采购数据如何统一并保持准确，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把机会评估放在资质办理之前，适用于进入成本较高的市场。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是先看采购需求再决定投入；但数据更新是否及时，会直接影响这些机会能不能行动。",
+      "product_analysis": {
+        "target_problem": "想做海外政府生意的企业，需要先知道谁在买、买什么，再判断是否投入当地资质准备。采购数据分散，会增加前期研究的麻烦。",
+        "workflow": "先免费浏览采购数据，研究招标、供应商和采购机构。需要完整数据或保存搜索时，再付费解锁。",
+        "ai_value": "介绍没提 AI，主要靠集中整理采购数据来改善查找体验。",
+        "differentiation": "把市场研究放到办理外国公司或电子签名前。最可能让人犹豫的是，目标市场的数据是否足够新、足够全。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "数据经过结构化整理；提供 REST API（供软件读取数据的接口）和 MCP（供 AI 工具连接数据的协议）。",
+        "possible_approach": "如果自己做，可以先收集公开采购记录，再统一国家、机构、金额和截止日期等字段，做成可搜索的数据表。",
+        "tradeoffs": "最难的是把不同来源的截止日期更新准确；旧日期若仍出现在搜索结果里，用户可能白做投标准备。",
+        "unknowns": "介绍没有说明采购记录的更新频率。"
+      },
+      "transferable_insights": [
+        "做跨境商机产品时，可以先让用户查看真实需求，再引导其投入注册或资质办理。"
+      ],
+      "validation_questions": [
+        "抽查目标国家的几条招标记录，截止日期是否与采购机构原公告一致？",
+        "选一个熟悉的采购类别，能否查到已知的近期招标？"
+      ],
+      "source_tagline": "Search 3M government contracts in 64 countries",
+      "source_description": "Structured government procurement data around the globe — tenders, suppliers and agencies. We help you research what governments around the world buy and find new opportunities to sell to them. No need to get a foreign company or e-signature before deciding there's money to be made. Browse for free; a flat fee unlocks the full dataset, saved searches, REST API and MCP."
     },
     {
       "id": "1255937",
       "name": "CC",
       "name_zh": "CC",
-      "tagline_zh": "Shared agent that helps keep your family in sync",
-      "description_zh": "CC is Google Labs’ shared AI agent for families and households. Up to six people can each choose what to share, then CC keeps everyone aligned on the day ahead and takes care of the small logistical work that usually gets lost between inboxes.",
-      "intro_zh": "",
+      "tagline_zh": "帮助家人协调日常事务的共享 AI 助手",
+      "description_zh": "CC 是 Google Labs 面向家庭和同住者的共享 AI 助手，最多支持六人，每个人可自行选择分享哪些信息。它帮助成员了解当天安排，并处理容易散落在各自收件箱里的日常协调事务。",
+      "intro_zh": "给家庭和同住者用的共享 AI 助手，让成员自行选择分享信息，帮助大家协调当天安排。",
       "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KXAMUMWSLRKFHT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6e711162-9370-4fb4-be73-cd7a0f5cd0f8.webp?auto=format",
       "votes_count": 118,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "家庭协调的场景清楚，但能代办哪些事务还不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人共享与个人隐私之间的边界，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "成员各自决定分享范围的做法，可借用于多人协作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让成员保留分享选择权，同时减少信息转述。最影响判断的是，简介没有讲清它能把协调工作做到哪一步。",
+      "product_analysis": {
+        "target_problem": "家人或同住者需要协调当天安排，但相关信息可能散落在各自收件箱里，容易遗漏。",
+        "workflow": "最多六名成员各自选择分享的信息，CC 再帮助大家了解当天安排并处理协调事务。简介未提供具体操作步骤。",
+        "ai_value": "AI 被用于整理共同需要知道的安排，并处理小型协调事务；具体能执行哪些动作没有说明。",
+        "differentiation": "它想省去成员之间反复转述消息的工作。最可能让人犹豫的是：私人信息会不会被其他成员看到。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确称其为共享 AI 助手，支持最多六人分别选择分享内容，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先记录每条信息允许谁查看，再让 AI 从获准使用的内容中整理当天安排。",
+        "tradeoffs": "最容易出错的是生成摘要时混入未获分享许可的信息，导致私人消息被其他成员看到。",
+        "unknowns": "“处理协调事务”究竟是给出提醒，还是能替成员执行操作？"
+      },
+      "transferable_insights": [
+        "做家庭或小组协作工具时，可以让每名成员先选分享范围，再生成共同摘要，不要求所有人公开全部信息。"
+      ],
+      "validation_questions": [
+        "放入一条未授权分享的信息，检查其他成员收到的摘要是否泄露其内容。",
+        "选一件需要家庭协调的事务，检查 CC 最终能完成什么动作。"
+      ],
+      "source_tagline": "Shared agent that helps keep your family in sync",
+      "source_description": "CC is Google Labs’ shared AI agent for families and households. Up to six people can each choose what to share, then CC keeps everyone aligned on the day ahead and takes care of the small logistical work that usually gets lost between inboxes."
     },
     {
       "id": "1252057",
       "name": "AI Creative Insights by Decode",
       "name_zh": "AI Creative Insights by Decode",
-      "tagline_zh": "Predict which ad wins before you spend on media",
-      "description_zh": "Upload any ad, banner, OOH, or video creative and AI Creative Insights predicts how people will respond before your media budget goes live. Get attention heatmaps showing where eyes land first, second-by-second emotion curves, and prescriptive suggestions on what to change and why. Benchmark against category norms, compare variants side by side, and use Synthetic Audience to see predictions persona by persona. Built by Entropik, the team behind Decode.",
-      "intro_zh": "",
+      "tagline_zh": "在投放前预测哪支广告更可能胜出",
+      "description_zh": "上传广告、横幅、户外广告或视频素材，可获得受众反应预测，包括注意力热图、逐秒情绪曲线，以及修改建议和理由。产品由 Decode 背后的 Entropik 团队开发，支持对照品类基准、并排比较版本，并用 Synthetic Audience 查看不同人群画像的预测。",
+      "intro_zh": "给广告投放和创意团队用，上传广告素材，查看预测反应，比较版本并寻找修改方向。",
       "url": "https://www.producthunt.com/products/decode-by-entropik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AXX3ZUQ4DMTXSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e7764424-2635-4dc3-88af-1862aeef678b.jpeg?auto=format",
       "votes_count": 110,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "投放前筛选素材的需求清楚，但预测能否帮助选对版本尚无验证材料。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把注意力和情绪预测用于素材选择，关键在于预测与真实反应是否一致。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把问题位置、修改理由和版本对照放在一起，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把抽象反馈变成可定位的修改线索；最大疑问是这些线索能否可靠地指导素材取舍。",
+      "product_analysis": {
+        "target_problem": "广告团队在投放前需要挑选素材。难点是判断哪里吸引注意、哪里可能让人失去兴趣。",
+        "workflow": "上传素材，查看注意力热图、情绪曲线和修改建议；再对照品类基准、并排比较版本，或按人群画像查看预测。",
+        "ai_value": "AI 预测受众可能注意哪里、产生什么情绪，并提出修改方向。这些输出不能直接当成真人观看记录。",
+        "differentiation": "它把素材比较和修改线索集中呈现。最可能让团队不愿据此决策的，是预测与实际投放表现之间的关系不明。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 反应预测和 Synthetic Audience 人群画像预测，没说具体模型或训练方法。",
+        "possible_approach": "如果自己做，可以先收集素材与真人观看反馈，再训练预测方法，把结果标回画面和时间点，最后据此给修改建议。",
+        "tradeoffs": "最难的是让预测适用于新素材。若把显眼误判为有效，团队可能改出了更抢眼、却更难传达信息的广告。",
+        "unknowns": "预测是否经过独立真人样本验证？"
+      },
+      "transferable_insights": [
+        "做内容评审工具时，可以把建议定位到具体画面或秒数，并保留版本对照，让用户知道改哪里、改后差在哪。"
+      ],
+      "validation_questions": [
+        "用已有真人观看结果的素材测试，预测的注意位置是否吻合？",
+        "拿已有投放结果的多个版本盲测，预测排序是否与实际目标指标一致？"
+      ],
+      "source_tagline": "Predict which ad wins before you spend on media",
+      "source_description": "Upload any ad, banner, OOH, or video creative and AI Creative Insights predicts how people will respond before your media budget goes live. Get attention heatmaps showing where eyes land first, second-by-second emotion curves, and prescriptive suggestions on what to change and why. Benchmark against category norms, compare variants side by side, and use Synthetic Audience to see predictions persona by persona. Built by Entropik, the team behind Decode."
     },
     {
       "id": "1247207",
       "name": "Turfs",
       "name_zh": "Turfs",
-      "tagline_zh": "Keep content across your Mac organized in defined areas",
-      "description_zh": "Use the desktop to keep content from across your Mac accessible and organized in defined areas — or simply keep it clutter-free. A turf can be backed by a real folder, a Finder tag, or your hand-picked selection of files and folders. Turfs stay put through Show Desktop; you choose what Mission Control does with them. Quit, and the desktop is exactly as it was. It replaces Finder's own desktop icon layer, so it can never be sandboxed or sold on the Mac App Store. $29 once, 10-day trial, no card.",
-      "intro_zh": "",
+      "tagline_zh": "在 Mac 桌面的指定区域里整理各处内容",
+      "description_zh": "Turfs 用桌面分区集中展示 Mac 各处的内容，分区可对应真实文件夹、Finder 标签或手选的文件与文件夹，也可让桌面保持清爽；显示桌面时分区仍在，用户可选择它们在调度中心中的表现，退出后桌面恢复原样。缓存简介称，它替换 Finder 的桌面图标层，因此无法沙盒化或通过 Mac App Store 销售；标价为一次性 29 美元，提供无需信用卡的 10 天试用。",
+      "intro_zh": "给经常从 Mac 桌面取用文件的人，把不同位置的文件和文件夹集中到指定区域。",
       "url": "https://www.producthunt.com/products/turfs-fences-on-the-mac-desktop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OY3BUK6IQCYTQ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3dad9ded-198a-454d-866c-07607e0dbcd1.jpeg?auto=format",
       "votes_count": 100,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "桌面取用场景清楚，但能否减少查找时间仍需试用。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "替换桌面图标层带来了明确的系统兼容与恢复问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按文件夹、标签和手选内容组织同一视图的做法可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把分散内容放到桌面直接取用；最影响判断的是，接管桌面后能否可靠恢复。",
+      "product_analysis": {
+        "target_problem": "经常取用分散文件的 Mac 用户，可能希望桌面既方便访问，又不堆满图标。Turfs 提供可划定区域的集中视图。",
+        "workflow": "创建分区，选择对应文件夹、Finder 标签或手选内容。显示桌面时分区保留，也能设置它在调度中心中的表现。",
+        "ai_value": "介绍没提 AI，主要靠桌面分区和文件组织方式改善体验。",
+        "differentiation": "可以把不同位置的内容放在桌面分区中访问。我会先确认：替换系统桌面图标层后，日常操作是否仍符合习惯。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称它替换 Finder 的桌面图标层，无法使用沙盒（限制应用访问范围的隔离机制）。",
+        "possible_approach": "如果自己做，可以先把文件夹、标签和手选列表转换成文件清单，再分区显示；接着处理显示桌面、调度中心和退出恢复。",
+        "tradeoffs": "最容易出错的是接管桌面后的恢复。若退出时没恢复完整，用户可能看到图标缺失或位置变化。",
+        "unknowns": "异常崩溃后，原桌面能否自动恢复？"
+      },
+      "transferable_insights": [
+        "做文件工作台时，可以让同一区域支持文件夹、标签和手选列表，兼顾长期分类与临时项目。"
+      ],
+      "validation_questions": [
+        "让应用异常退出，检查原桌面图标及位置是否恢复。",
+        "修改一个文件的 Finder 标签，检查对应分区是否及时更新。"
+      ],
+      "source_tagline": "Keep content across your Mac organized in defined areas",
+      "source_description": "Use the desktop to keep content from across your Mac accessible and organized in defined areas — or simply keep it clutter-free. A turf can be backed by a real folder, a Finder tag, or your hand-picked selection of files and folders. Turfs stay put through Show Desktop; you choose what Mission Control does with them. Quit, and the desktop is exactly as it was. It replaces Finder's own desktop icon layer, so it can never be sandboxed or sold on the Mac App Store. $29 once, 10-day trial, no card."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,511 @@
 {
   "date": "2026-10-20",
-  "generated_at": "2026-10-21T20:47:30+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:20:04+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1285391",
-      "name": "/dev/null",
-      "name_zh": "/dev/null",
-      "tagline_zh": "a social network for devs",
-      "description_zh": "/dev/null started as a live stream from the JetBrains office. On Oct 15, 2026, Nuno Maduro, Brent Roose, Matthieu Napoli, and Pauline Vos built a social network for web developers from scratch in 48 hours, in the open. Sign in with GitHub, share code snippets, like, reply, etc, etc! Hundreds of you sent PRs. Laravel’s Taylor Otwell stopped by mid-stream (“Laravel forever”), and Vercel’s Guillermo Rauch called it “really well done.” Thank you for watching, sharing, and roasting us.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/dev-null?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CQPWN4LKI7SB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3d0c2d66-ad99-4f2e-b9e4-cd1fa9ec0b05.png?auto=format",
-      "votes_count": 469,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 61f6617f-06d2-49bd-abf1-177e3948263e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1265727",
-      "name": "Composio Instant",
-      "name_zh": "Composio Instant",
-      "tagline_zh": "The easiest way for AI agents to pay for their own tools",
-      "description_zh": "Give your agent superpowers. No subscriptions, no signups. With Composio Instant, your agent can search the web, find business contacts, create voiceovers, turn audio into text, and so much more. Try it free: composio.dev/instant",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/composio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PO3RPT47NFZ2LL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/09b314a7-f001-4b4c-a157-7db52ecbbd9b.png?auto=format",
-      "votes_count": 321,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a7da078a-d84a-48ba-82c5-62723bd287ad)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1274705",
       "name": "Hoistbay",
       "name_zh": "Hoistbay",
-      "tagline_zh": "Open-source desktop app for Amazon S3 and CloudFront",
-      "description_zh": "Hoistbay is a free desktop app for macOS and Windows that takes the repetitive work out of S3 and CloudFront. Set header rules once (Cache-Control, Content-Type, Content-Encoding by file pattern) and they apply on every upload. Download whole folders, clear CloudFront cache in one click, and switch AWS accounts instantly. Keys stay in your OS keychain, no backend, no telemetry. MIT licensed.",
-      "intro_zh": "",
+      "tagline_zh": "用于管理 Amazon S3 和 CloudFront 的开源桌面应用",
+      "description_zh": "Hoistbay 是一款面向 macOS 和 Windows 的免费桌面应用，可按文件匹配规则自动设置上传文件的缓存、内容类型和编码信息，也支持整文件夹下载、清除 CloudFront 缓存及切换 AWS 账户。简介称，密钥保存在操作系统钥匙串中，无后端、不采集遥测数据，并采用 MIT 开源许可。",
+      "intro_zh": "给管理 AWS 云存储和内容分发的开发、运维人员用，在桌面端上传文件、复用规则并清除缓存。",
       "url": "https://www.producthunt.com/products/hoistbay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4VIOA4UVPIL46K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e27c2fa8-f7df-443f-9f6e-e634c820615c.png?auto=format",
       "votes_count": 191,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复设置上传属性的问题明确，但规则可靠性未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "文件规则怎样避免错误缓存，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把重复配置保存为自动规则，可借用于其他批量操作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把上传属性从逐次填写变成规则复用；规则冲突如何处理，会直接影响能否放心批量上传。",
+      "product_analysis": {
+        "target_problem": "管理 S3（云端文件存储）和 CloudFront（内容分发服务）的人，上传文件时需要设置缓存和文件类型。Hoistbay 把这些重复配置保存为规则。",
+        "workflow": "先按文件匹配模式设置上传属性，之后每次上传自动应用。还可下载整个文件夹、清除分发缓存和切换 AWS 账户。",
+        "ai_value": "介绍没提 AI，主要靠规则自动应用和集中操作来改善体验。",
+        "differentiation": "省下逐次填写上传属性的操作。已有脚本的团队可能不愿换成桌面操作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f475b0e6-8eb8-48c1-bdbd-1f1ad7d5a95e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1285840",
-      "name": "Harness²",
-      "name_zh": "Harness²",
-      "tagline_zh": "Harness the agent. Then harness its self-improvement.",
-      "description_zh": "Harness² from Google Research is a plug-and-play recursive agent harnessing framework that lets LLM agents automatically evolve their execution harnesses (prompts, tools, memory) for open-world tasks—without ground-truth verifiers. Dual recursion: task-level Propose-Probe-Compose refinement + harnessing-level accumulation of reusable experience. Up to +11.5 points on professional benchmarks like WorkBuddy-Bench.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/harness-104?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/37H22K5ZBP32OU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ec72f550-716e-4bd5-9e79-875ae597efe8.jpeg?auto=format",
-      "votes_count": 189,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持 macOS、Windows；密钥存于系统钥匙串，无后端、不采集遥测数据，采用 MIT 许可。",
+        "possible_approach": "如果自己做，可以先保存文件匹配条件和对应属性，再在上传前匹配文件，把属性随文件一起提交。",
+        "tradeoffs": "最容易出错的是规则匹配：若把需要及时更新的文件设成长时间缓存，访问者可能持续看到旧内容。",
+        "unknowns": "一个文件命中多条规则时，按什么顺序决定最终属性？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 37900a7c-6a03-46d5-8eab-1cc1c93b6b1e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做批量发布工具时，可把重复配置保存为规则，并在执行前展示每个文件最终采用的设置。"
+      ],
+      "validation_questions": [
+        "让一个文件同时命中两条冲突规则，检查最终上传属性是否符合预期。",
+        "清除一次 CloudFront 缓存，检查界面是否区分请求已提交和清除已完成。"
+      ],
+      "source_tagline": "Open-source desktop app for Amazon S3 and CloudFront",
+      "source_description": "Hoistbay is a free desktop app for macOS and Windows that takes the repetitive work out of S3 and CloudFront. Set header rules once (Cache-Control, Content-Type, Content-Encoding by file pattern) and they apply on every upload. Download whole folders, clear CloudFront cache in one click, and switch AWS accounts instantly. Keys stay in your OS keychain, no backend, no telemetry. MIT licensed."
     },
     {
       "id": "1285858",
       "name": "Exa 3.0",
       "name_zh": "Exa 3.0",
-      "tagline_zh": "Smarter search that gives AI agent richer data at lower cost",
-      "description_zh": "Exa 3.0 is the biggest search quality update to Exa’s search API for AI agents. It adds a larger embedding model, billions of new documents including 1.27B ecommerce listings and 211M+ local businesses, and Dynamic Highlights, which use 95% fewer tokens than full page text. A new Exa Lite tier costs $4 per 1,000 requests, and Exa Auto costs $7. Available now through the API.",
-      "intro_zh": "",
+      "tagline_zh": "为 AI 智能体提供更丰富数据、降低成本的搜索服务",
+      "description_zh": "Exa 3.0 更新了面向 AI 智能体的搜索接口，加入更大的嵌入模型和数十亿份新文档，其中包括 12.7 亿条电商商品信息及超过 2.11 亿家本地商家信息。简介称，Dynamic Highlights 比完整网页文本少用 95% 的 token（模型处理文本的计量单位）；服务已通过接口提供，Lite 每千次请求 4 美元，Auto 标价 7 美元。",
+      "intro_zh": "给开发 AI 助手的团队用，让助手搜索网页、商品和本地商家，并取得相关内容片段。",
       "url": "https://www.producthunt.com/products/exa-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2ZMKUDNEBLQZIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/60202d19-1e25-4fa0-9473-ee22e2c55067.png?auto=format",
       "votes_count": 187,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "搜索和减少输入文本的用途清楚，实际结果质量仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "缩短网页内容时如何保留关键证据，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先筛选相关片段再交给模型的做法，可用于多种检索产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重减少模型读取无关文字的做法；关键疑问是，节省文字后是否仍保留足够证据。",
+      "product_analysis": {
+        "target_problem": "做联网 AI 助手的团队，需要给模型找外部资料。把整页文字交给模型，会带入不少无关内容。",
+        "workflow": "开发者接入搜索接口（让程序请求搜索结果的连接方式），提交查询，取得结果及 Dynamic Highlights 内容片段。",
+        "ai_value": "嵌入模型把文本转成可比较的数字表示，帮助匹配查询与文档。内容片段则减少后续模型要读的文字。",
+        "differentiation": "相比输入完整网页，可以少传文字；简介称可减少 95% 的 token，但未说明测试条件。片段若漏掉重要条件，团队可能仍需读取全文。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 438ad249-7e32-452a-a679-817eb79ccb4f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到更大的嵌入模型、扩充的文档库和 Dynamic Highlights，未解释片段如何生成。",
+        "possible_approach": "如果自己做，可以先收集网页并按含义建立索引，再按查询找出相关段落，连同来源交给模型。",
+        "tradeoffs": "最难的是挑短片段时保留限制条件。若漏掉价格适用范围，助手可能给出错误建议。",
+        "unknowns": "电商价格和本地商家营业信息多久更新一次？"
+      },
+      "transferable_insights": [
+        "做知识库问答时，可以先给模型相关段落并保留原文入口，让用户能核对上下文。"
+      ],
+      "validation_questions": [
+        "用带限制条件的问题搜索，片段是否保留了会改变答案的条件？",
+        "抽查近期变更的商品价格，搜索结果是否已更新？"
+      ],
+      "source_tagline": "Smarter search that gives AI agent richer data at lower cost",
+      "source_description": "Exa 3.0 is the biggest search quality update to Exa’s search API for AI agents. It adds a larger embedding model, billions of new documents including 1.27B ecommerce listings and 211M+ local businesses, and Dynamic Highlights, which use 95% fewer tokens than full page text. A new Exa Lite tier costs $4 per 1,000 requests, and Exa Auto costs $7. Available now through the API."
     },
     {
       "id": "1285769",
       "name": "Mintlify Autopilot",
       "name_zh": "Mintlify Autopilot",
-      "tagline_zh": "An always-on agent that keeps your docs up to date",
-      "description_zh": "Autopilot is an always-on docs agent from Mintlify. It watches your code and tools like Slack, drafts doc updates when something changes, and opens a pull request for your team to review. It learns your style from every PR you merge or close.",
-      "intro_zh": "",
+      "tagline_zh": "持续运行、让文档保持更新的智能代理",
+      "description_zh": "Autopilot 是 Mintlify 的常驻文档代理，会关注代码及 Slack 等工具中的变化，起草文档更新，并提交拉取请求供团队审核。介绍称，它会从每次被合并或关闭的拉取请求中学习团队的写作风格。",
+      "intro_zh": "给维护产品和开发文档的团队用，发现代码或沟通中的变化，起草文档修改交给团队审核。",
       "url": "https://www.producthunt.com/products/mintlify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ORKFARLGVTAUML?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d4ff8d63-8710-48f0-8e1a-fbabb4a1a840.jpeg?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把发现变化和起草更新连起来，能省事，但草稿质量未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从代码和讨论中判断哪些变化应写进文档，是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先生成待审修改、再由人确认的做法可用于其他内容维护任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把变化直接变成可审阅的修改；最影响判断的是，它能否分清哪些变化真的需要写进文档。",
+      "product_analysis": {
+        "target_problem": "维护开发文档的团队需要跟上代码和内部讨论的变化。麻烦在于发现哪些变化影响读者，再找到该改的文档。",
+        "workflow": "它持续关注代码和 Slack 等工具，发现变化后起草文档更新，再发起拉取请求（供团队审核、合并修改的提案）。",
+        "ai_value": "代理负责把变化转成文档草稿。介绍还称它会从合并或关闭提案中学习风格，但没解释如何学习。",
+        "differentiation": "它把发现变化到准备修改的工作交给代理。团队可能不愿接入的原因，是审核无关提案反而增加负担。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7eb505fc-a9c5-4b7d-a72a-e0185352dd3c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1285509",
-      "name": "Asimov 1",
-      "name_zh": "Asimov 1",
-      "tagline_zh": "The most customizable humanoid robot you can buy",
-      "description_zh": "Asimov 1 is a humanoid robot you can build a company on. Train it and shape it for whatever you're building. Bought by founders, researchers and developers in 20+ countries.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/asimov-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6WIMBPGOJDSTU6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ee8a1bbd-84ed-4624-82e3-731be59a06b6.jpeg?auto=format",
-      "votes_count": 123,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到关注代码与 Slack、生成更新并发起拉取请求，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先收集变化，再找出相关文档，让模型起草修改，最后交给人审核。",
+        "tradeoffs": "最难的是判断讨论是否已成为确定行为；若把未定方案写进文档，读者就可能照着错误说明操作。",
+        "unknowns": "它如何区分正式决定和临时讨论，介绍没有回答。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7f245b7a-3810-421f-81ab-ebf903303ca7)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做知识库维护工具时，可以把自动修改做成待审提案，让负责人确认后再发布。"
+      ],
+      "validation_questions": [
+        "给它一段明确标注未定的 Slack 讨论，检查是否误写进文档。",
+        "提供一次影响已有说明的代码变更，检查它是否找到应修改的文档。"
+      ],
+      "source_tagline": "An always-on agent that keeps your docs up to date",
+      "source_description": "Autopilot is an always-on docs agent from Mintlify. It watches your code and tools like Slack, drafts doc updates when something changes, and opens a pull request for your team to review. It learns your style from every PR you merge or close."
     },
     {
       "id": "1285989",
       "name": "RunInfra",
       "name_zh": "RunInfra",
-      "tagline_zh": "Open models, built for agents.",
-      "description_zh": "RunInfra Coding Plans give your coding agent fast open models for a flat monthly price, starting at $10. Use GLM 5.3, DeepSeek V4.1 Flash, Qwen3.8 27B and more inside Claude Code, Codex, OpenCode, Cline, Droid or Grok Build. Setup takes one prompt: paste it into your agent, approve sign-in, done. Session-aware routing hits cache up to 99.5% of the time, so your plan goes further. Zero data retention, no training on prompts, SOC 2 Type II.",
-      "intro_zh": "",
+      "tagline_zh": "为智能体提供开放模型。",
+      "description_zh": "RunInfra 为编程助手提供每月 10 美元起的固定月费模型套餐，列出的模型包括 GLM 5.3、DeepSeek V4.1 Flash、Qwen3.8 27B 等，可用于 Claude Code、Codex、OpenCode、Cline、Droid 或 Grok Build；介绍称粘贴一段提示并批准登录即可完成配置。介绍还宣称，按会话分配请求可让缓存命中率最高达到 99.5%，并称不保留数据、不用提示词训练，具备 SOC 2 Type II 合规证明。",
+      "intro_zh": "给使用编程助手的开发者提供月费模型套餐，在现有工具里接入多种开放模型。",
       "url": "https://www.producthunt.com/products/runinfra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3TPWY4Y2OXO72N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ed987710-5f39-4736-8b38-590193757caf.png?auto=format",
       "votes_count": 114,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和接入场景明确，但月费对应的用量限制不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "按会话分配请求以复用计算结果，有具体问题可研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "提示词引导配置可以借鉴，但授权与失败处理尚不明确。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是保留原编程助手就能接入模型；最影响判断的是套餐限额，起价不足以说明实际使用成本。",
+      "product_analysis": {
+        "target_problem": "已经用编程助手写代码的开发者，可能想接入其他模型，也想按月安排预算。它把模型供应和月费套餐放在一起。",
+        "workflow": "把配置提示粘贴进编程助手，批准登录，再在原工具中使用套餐提供的模型。介绍未说明如何选模型。",
+        "ai_value": "AI 负责支持编程助手处理代码任务。RunInfra 提供模型接入与请求分配，资料未显示它额外承担代码审查等工作。",
+        "differentiation": "主打在现有助手内接入，减少另行配置的操作。最可能让人犹豫的是：固定月费究竟能用多少。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4e67a284-fb26-4e69-98fb-617e4cea6634)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称按会话分配请求，缓存命中率最高达 99.5%；缓存即复用已算过的内容，这个比例未经核验。",
+        "possible_approach": "如果自己做，可以先接收编程助手的请求，再把同一会话发往能复用前文计算结果的位置，最后返回模型回答。",
+        "tradeoffs": "难点是前文变化后不能误用旧缓存，否则模型可能按过时的代码回答。",
+        "unknowns": "99.5% 对应什么任务和统计口径，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做开发者工具接入时，可以用一段可粘贴的提示引导配置，并在需要登录授权时让用户确认。"
+      ],
+      "validation_questions": [
+        "用一个真实代码任务持续工作，检查何时触发套餐用量限制。",
+        "修改同一会话中的代码后，检查回答是否仍引用旧版本。"
+      ],
+      "source_tagline": "Open models, built for agents.",
+      "source_description": "RunInfra Coding Plans give your coding agent fast open models for a flat monthly price, starting at $10. Use GLM 5.3, DeepSeek V4.1 Flash, Qwen3.8 27B and more inside Claude Code, Codex, OpenCode, Cline, Droid or Grok Build. Setup takes one prompt: paste it into your agent, approve sign-in, done. Session-aware routing hits cache up to 99.5% of the time, so your plan goes further. Zero data retention, no training on prompts, SOC 2 Type II."
     },
     {
       "id": "1282966",
       "name": "Inflight",
       "name_zh": "Inflight",
-      "tagline_zh": "The missing feedback layer for prototypes",
-      "description_zh": "Share a preview link or HTML prototype. Reviewers pin comments to real elements, or record video, right on the running app. Inflight turns that feedback into next steps your coding agent (Cursor, Claude Code, Codex) pulls in over MCP.",
-      "intro_zh": "",
+      "tagline_zh": "为原型补上反馈层",
+      "description_zh": "分享预览链接或 HTML 原型，评审者就能在运行中的应用上，把评论标到具体元素，或录制视频。Inflight 会将反馈整理成后续步骤，让 Cursor、Claude Code、Codex 等编程助手通过 MCP 读取。",
+      "intro_zh": "给用编程助手做原型的团队用，让评审者在页面上标注问题，再把反馈交给编程助手读取。",
       "url": "https://www.producthunt.com/products/inflight-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CTRZYLJ3CO42UQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7e413da2-8954-45d6-849f-7939cd8e10bf.jpeg?auto=format",
       "votes_count": 113,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从页面评审到编程助手读取反馈的用途清楚，但整理质量未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "评论如何持续对应正确的页面元素，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把反馈绑定到被评审对象，再交给执行工具的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是编程助手能直接读取评审结果；最大疑问是整理后的步骤能否准确保留评审者的意思。",
+      "product_analysis": {
+        "target_problem": "做原型的产品、设计和开发同事，需要让修改者知道“哪一处、改什么”。反馈若脱离页面，可能还得补充位置和操作背景。",
+        "workflow": "分享预览链接或 HTML 原型，评审者在运行页面上标评论或录视频。Inflight 整理出后续步骤，编程助手再读取。",
+        "ai_value": "介绍提到与 AI 编程助手连接，但没说反馈整理是否由 AI 完成，也没说助手会自动修改代码。",
+        "differentiation": "它把页面反馈接到编程助手，可能省去手动搬运。最可能让团队犹豫的是，现有评审习惯需要迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ad31857d-97f5-4bac-ae12-a8a0eb4c028a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持元素评论、视频反馈，并通过 MCP（让编程助手读取外部工具内容的连接规范）提供后续步骤。",
+        "possible_approach": "如果自己做，可以先保存评论、元素位置和页面信息，再整理成修改任务，通过 MCP 提供给编程助手。",
+        "tradeoffs": "最难的是页面变化后仍能找对元素。若评论指错位置，助手可能修改错误的地方。",
+        "unknowns": "视频反馈如何变成明确、可执行的修改步骤，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做文档或设计评审工具时，可以把意见绑定到具体段落或对象，并在交给执行工具时保留原位置。"
+      ],
+      "validation_questions": [
+        "调整页面布局后，原有评论是否仍指向正确元素？",
+        "提交一段视频反馈，检查生成的步骤是否准确保留修改要求？"
+      ],
+      "source_tagline": "The missing feedback layer for prototypes",
+      "source_description": "Share a preview link or HTML prototype. Reviewers pin comments to real elements, or record video, right on the running app. Inflight turns that feedback into next steps your coding agent (Cursor, Claude Code, Codex) pulls in over MCP."
     },
     {
       "id": "1281979",
       "name": "ToDo.is",
       "name_zh": "ToDo.is",
-      "tagline_zh": "Write a to-do and your AI agent gets it done",
-      "description_zh": "Todo.is is an always-on AI agent you give to-dos to. Write \"find a cheaper flight to Lisbon\" or \"turn this PDF into Word\" and it does the work: researches with sources, makes files and images, uses websites, and reports back on the web, Android, WhatsApp or Telegram. It runs 24/7 in its own sandbox, remembers you, does daily briefings and price alerts on a schedule, can work in your own Chrome, and asks before it pays, sends or deletes anything. Try it for $1.",
-      "intro_zh": "",
+      "tagline_zh": "写下一项待办，让 AI 助手去完成",
+      "description_zh": "ToDo.is 是一个持续运行的 AI 助手，可接收查机票、PDF 转 Word 等待办，查找带来源的资料、制作文件和图片、操作网站，再通过网页、Android、WhatsApp 或 Telegram 汇报。简介称它在独立沙箱中全天运行，能记住用户、定时提供简报和价格提醒，也能在用户自己的 Chrome 中工作，并在付款、发送或删除前询问；试用价为 1 美元。",
+      "intro_zh": "给想把查资料、处理文件等待办交出去的人用，接收文字任务，执行后通过网页或聊天软件汇报。",
       "url": "https://www.producthunt.com/products/todo-is?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PFLC7HD35UDZ6D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/876cf5e9-16a6-409a-a8df-cfc79d06abd0.jpeg?auto=format",
       "votes_count": 110,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "任务和交付方式明确，但完成质量仍需验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动操作网站时如何守住确认边界，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自动准备、关键动作前询问的做法可用于其他代办产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是待办能继续执行并回报，不只停在记录上；最影响判断的是关键动作前的确认能否可靠生效。",
+      "product_analysis": {
+        "target_problem": "适合有查价、资料搜集或文件转换需求的人。麻烦在于这些待办仍要花时间操作，价格变化还需要持续关注。",
+        "workflow": "写下任务，例如查找更便宜的里斯本机票。助手执行并汇报；付款、发送或删除前会询问用户。",
+        "ai_value": "AI 接收自然语言待办，再查资料、生成文件或操作网站，把要求变成实际工作。",
+        "differentiation": "省的是逐项操作和定时查看的工夫。最可能让人犹豫的是，是否愿意让助手操作自己的浏览器。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d9663ea1-56e6-4223-bc93-f35be55ec8f8)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介称它在独立沙箱（隔离的运行环境）中运行，也能在用户自己的 Chrome 中工作。",
+        "possible_approach": "如果自己做，可以先把待办拆成步骤，再调用检索、文件处理和浏览器操作工具，最后汇报结果。",
+        "tradeoffs": "最难的是准确识别需要确认的动作。若把提交订单误当成普通点击，可能未经同意就付款。",
+        "unknowns": "用户确认后，授权只对当前动作有效，还是会覆盖后续操作？"
+      },
+      "transferable_insights": [
+        "做采购或消息代发助手时，可以先自动准备结果，到付款或发送前再请用户确认。"
+      ],
+      "validation_questions": [
+        "安排一次涉及付款的任务，检查最终付款前是否确实停下等待确认。",
+        "提交一份包含表格的 PDF，检查转成 Word 后内容和排版是否可用。"
+      ],
+      "source_tagline": "Write a to-do and your AI agent gets it done",
+      "source_description": "Todo.is is an always-on AI agent you give to-dos to. Write \"find a cheaper flight to Lisbon\" or \"turn this PDF into Word\" and it does the work: researches with sources, makes files and images, uses websites, and reports back on the web, Android, WhatsApp or Telegram. It runs 24/7 in its own sandbox, remembers you, does daily briefings and price alerts on a schedule, can work in your own Chrome, and asks before it pays, sends or deletes anything. Try it for $1."
+    },
+    {
+      "id": "1285391",
+      "name": "/dev/null",
+      "name_zh": "/dev/null",
+      "tagline_zh": "面向开发者的社交网络",
+      "description_zh": "简介称，/dev/null 起源于 JetBrains 办公室的一场直播，Nuno Maduro、Brent Roose、Matthieu Napoli 和 Pauline Vos 于 2026 年 10 月 15 日公开从零搭建，在 48 小时内做出了面向 Web 开发者的社交网络，支持 GitHub 登录、分享代码片段、点赞和回复。简介还提到数百人提交了 PR（请求合并代码修改），以及 Taylor Otwell 和 Guillermo Rauch 的到访或评价；这些历史缓存信息未经重新核验。",
+      "intro_zh": "给想交流代码的 Web 开发者用，通过 GitHub 登录，发布代码片段，与同行点赞、回复。",
+      "url": "https://www.producthunt.com/products/dev-null?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CQPWN4LKI7SB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3d0c2d66-ad99-4f2e-b9e4-cd1fa9ec0b05.png?auto=format",
+      "votes_count": 469,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "交流对象和动作明确，但没有说明现有社区满足不了什么需求。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "代码片段如何安全展示是具体问题，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕代码组织讨论、复用目标用户已有账号，都是可借用的具体做法。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重围绕代码直接展开讨论的设计；最影响判断的是能否持续得到同行回应，直播热度和榜单票数不能回答这一点。",
+      "product_analysis": {
+        "target_problem": "Web 开发者想展示一段代码、听同行意见时会用到它。它提供了专门的交流场所，但资料没说明原有交流方式具体麻烦在哪。",
+        "workflow": "用 GitHub 账号登录，分享代码片段，再通过点赞和回复参与交流。简介没有交代发布形式和内容发现方式。",
+        "ai_value": "介绍没提 AI，主要靠代码分享和社交互动来改善交流体验。",
+        "differentiation": "GitHub 登录可能省去单独注册账号的步骤。最可能让人不愿迁入的是：熟悉的同行未必在这里。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "明确提到 GitHub 登录，未披露具体框架或架构。",
+        "possible_approach": "如果自己做，可以先接入 GitHub 登录，再保存代码帖子、点赞和回复，并把代码按原样显示出来。",
+        "tradeoffs": "最容易出错的是代码展示。若把代码中的网页标签当成页面执行，访问者可能受到恶意脚本影响，需要确保内容只作为文字显示。",
+        "unknowns": "代码片段是否支持保留缩进和按语言着色，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做垂直社区时，可以围绕用户实际产出的内容组织讨论，例如让开发者直接贴代码，而不只发布个人动态。",
+        "面向已有共同账号体系的人群，可以提供对应登录方式，减少新建账号的步骤。"
+      ],
+      "validation_questions": [
+        "发布含缩进和特殊符号的代码，检查显示后是否仍能准确阅读。",
+        "查看近期帖子，检查是否有人给出与代码相关的实质回复。"
+      ],
+      "source_tagline": "a social network for devs",
+      "source_description": "/dev/null started as a live stream from the JetBrains office. On Oct 15, 2026, Nuno Maduro, Brent Roose, Matthieu Napoli, and Pauline Vos built a social network for web developers from scratch in 48 hours, in the open. Sign in with GitHub, share code snippets, like, reply, etc, etc! Hundreds of you sent PRs. Laravel’s Taylor Otwell stopped by mid-stream (“Laravel forever”), and Vercel’s Guillermo Rauch called it “really well done.” Thank you for watching, sharing, and roasting us."
+    },
+    {
+      "id": "1265727",
+      "name": "Composio Instant",
+      "name_zh": "Composio Instant",
+      "tagline_zh": "让 AI 智能体为自己使用的工具付费，更简单",
+      "description_zh": "Composio Instant 让 AI 智能体搜索网页、查找商务联系人、生成配音和将音频转成文字。介绍称无需订阅或注册，并提供免费试用。",
+      "intro_zh": "给开发 AI 智能体的人用，让智能体调用网页搜索、联系人查找和音频处理等工具。",
+      "url": "https://www.producthunt.com/products/composio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PO3RPT47NFZ2LL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/09b314a7-f001-4b4c-a157-7db52ecbbd9b.png?auto=format",
+      "votes_count": 321,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但免注册的适用范围和付费规则未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "智能体调用付费工具时，如何控制支出是具体问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "集中提供多种工具可供借鉴，但接入方式与收益待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "集中使用多种工具有实际吸引力，但免注册是否覆盖所列服务、付款是否可控，决定了它能省多少事。",
+      "product_analysis": {
+        "target_problem": "开发 AI 智能体的人，需要让它执行搜索、配音等任务。接入多种外部工具时，可能要分别处理账号和订阅。",
+        "workflow": "开发者可从免费试用开始，让智能体使用所列工具完成任务。介绍没给出接入和付款步骤。",
+        "ai_value": "AI 智能体是工具的使用者。资料没有说明搜索、配音和转写分别由什么技术完成。",
+        "differentiation": "它主打免订阅、免注册，可能减少逐个开通服务的工作。最可能让人犹豫的是付款规则不清楚。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把各工具整理成智能体能发出的标准请求，再在执行前检查余额和单次支出上限。",
+        "tradeoffs": "最容易出错的是把失败重试当成新任务再次付费，用户可能为同一件事重复花钱。",
+        "unknowns": "“智能体自己付费”具体由谁授权，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做需要调用收费服务的助手时，可以把账号开通和付款集中处理，减少用户逐个配置；执行前应显示费用并设置限额。"
+      ],
+      "validation_questions": [
+        "只接入 Composio Instant 后，能否完成一次搜索而无需再注册其他服务？",
+        "设置支出上限后，超额调用是否会在扣款前被阻止？"
+      ],
+      "source_tagline": "The easiest way for AI agents to pay for their own tools",
+      "source_description": "Give your agent superpowers. No subscriptions, no signups. With Composio Instant, your agent can search the web, find business contacts, create voiceovers, turn audio into text, and so much more. Try it free: composio.dev/instant"
+    },
+    {
+      "id": "1285840",
+      "name": "Harness²",
+      "name_zh": "Harness²",
+      "tagline_zh": "先让智能体做事，再让它改进自己的工作方式。",
+      "description_zh": "Harness² 被介绍为 Google Research 的即插即用框架，让大语言模型智能体自动调整执行配置，包括提示词、工具和记忆，无需标准答案校验器。它在任务内反复提案、试探和整合，并积累可复用经验；简介宣称在 WorkBuddy-Bench 等专业基准上最多提升 11.5 分。",
+      "intro_zh": "给开发 AI 智能体的团队用，让智能体在做任务时调整提示词、工具和记忆，并积累可复用经验。",
+      "url": "https://www.producthunt.com/products/harness-104?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/37H22K5ZBP32OU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ec72f550-716e-4bd5-9e79-875ae597efe8.jpeg?auto=format",
+      "votes_count": 189,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "自动调整执行配置的用途清楚，但实际节省多少人工尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "没有标准答案时如何判断改进有效，是具体且关键的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "复用任务经验的思路可借鉴，但筛选条件没有说明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是把任务中的尝试留下来复用。最影响判断的是：没有标准答案时，它如何避免把错误也积累成经验。",
+      "product_analysis": {
+        "target_problem": "开发智能体的团队，需要为开放式任务调整提示词、工具和记忆。这类任务未必有唯一标准答案，难点是判断调整是否有效。",
+        "workflow": "介绍支持的流程是：围绕任务提出方案、试探并整合，再积累可复用经验。具体如何接入现有智能体，缓存资料没说。",
+        "ai_value": "AI 除了完成任务，还会调整自身执行配置，把本次经验用于后续任务。",
+        "differentiation": "它把执行配置的调整交给智能体自动进行。团队可能不愿采用的原因，是难以确认自动修改是否可靠。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "采用双层递归，即任务内反复改进、任务间积累经验；调整对象包括提示词、工具和记忆，不依赖标准答案校验器。",
+        "possible_approach": "如果自己做，可以先保存执行配置，让智能体提出修改并试跑，再把表现较好的做法存为经验，供后续任务调用。",
+        "tradeoffs": "最容易出错的是把自评更好的方案当成真正进步。没有标准答案时，错误经验可能被反复复用。",
+        "unknowns": "介绍没说明用什么依据决定保留一次修改。"
+      },
+      "transferable_insights": [
+        "做长期运行的智能体时，可以把单次尝试与长期经验分开保存，只将经过检查的做法用于后续任务。"
+      ],
+      "validation_questions": [
+        "固定一组任务，检查修改后的配置能否比原配置更好地满足预先写好的验收条件？",
+        "换一组不同任务，检查复用经验是否导致原本能完成的任务失败？"
+      ],
+      "source_tagline": "Harness the agent. Then harness its self-improvement.",
+      "source_description": "Harness² from Google Research is a plug-and-play recursive agent harnessing framework that lets LLM agents automatically evolve their execution harnesses (prompts, tools, memory) for open-world tasks—without ground-truth verifiers. Dual recursion: task-level Propose-Probe-Compose refinement + harnessing-level accumulation of reusable experience. Up to +11.5 points on professional benchmarks like WorkBuddy-Bench."
+    },
+    {
+      "id": "1285509",
+      "name": "Asimov 1",
+      "name_zh": "Asimov 1",
+      "tagline_zh": "号称市面上可定制程度最高的人形机器人",
+      "description_zh": "Asimov 1 是一款面向创业项目的人形机器人，可按项目需要进行训练和定制。介绍称，已有来自 20 多个国家的创始人、研究人员和开发者购买。",
+      "intro_zh": "给机器人创业者、研究人员和开发者用的人形机器人，可按项目需要训练和定制。",
+      "url": "https://www.producthunt.com/products/asimov-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6WIMBPGOJDSTU6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ee8a1bbd-84ed-4624-82e3-731be59a06b6.jpeg?auto=format",
+      "votes_count": 123,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "目标用户明确，但没有具体任务和节省开发工作的例子。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "缺少训练方式、可修改范围和任务表现的信息。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "提供可定制硬件供别人开发的思路可借鉴，但开放程度不明。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我最看重能否买到机器人后直接开始任务开发；但缓存简介没有说明定制边界，暂时无法判断还需补多少工作。",
+      "product_analysis": {
+        "target_problem": "面向想开发机器人应用的团队。它可能减少从零搭建整机的工作，但资料没有说明能替团队省掉哪些环节。",
+        "workflow": "购买机器人，再按项目需要训练和定制。简介没给出训练步骤，也没展示完成任务的例子。",
+        "ai_value": "介绍没提 AI，只提到可训练、可定制，无法判断训练具体改变什么能力。",
+        "differentiation": "卖点是让不同项目使用同一款机器人继续开发。最可能阻碍购买的是可修改范围不清，团队难以判断能否适配自己的任务。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确它是可训练、可定制的人形机器人，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一个明确任务，确定机器人要完成哪些动作，再提供修改这些动作和反复测试的方式。",
+        "tradeoffs": "最难的是让修改后的动作在实物上稳定执行；若动作失控，可能损坏机器人或伤及旁人。",
+        "unknowns": "用户到底能修改哪些硬件和行为？"
+      },
+      "transferable_insights": [
+        "做面向开发者的硬件时，可以围绕一个示例任务，展示哪些部分能改、改后怎么测试，帮助团队判断是否适合自己的项目。"
+      ],
+      "validation_questions": [
+        "选一个目标任务，确认产品开放的修改范围是否足够完成它。",
+        "在受控环境中重复执行同一动作，检查是否出现危险偏差。"
+      ],
+      "source_tagline": "The most customizable humanoid robot you can buy",
+      "source_description": "Asimov 1 is a humanoid robot you can build a company on. Train it and shape it for whatever you're building. Bought by founders, researchers and developers in 20+ countries."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,510 @@
 {
   "date": "2026-09-13",
-  "generated_at": "2026-09-14T21:45:06+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:29:06+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1248014",
       "name": "Resurf",
       "name_zh": "Resurf",
-      "tagline_zh": "A Personal Context Library for Mac",
-      "description_zh": "Resurf is a personal context app for things you like, care about, and work on. Save notes, links, images, PDFs, and ideas. Find them later or hand that context to AI through MCP and CLI. Native on Mac, iPhone, and iPad, with local storage and private iCloud sync.",
-      "intro_zh": "",
+      "tagline_zh": "Mac 上的个人上下文资料库",
+      "description_zh": "Resurf 用于保存你喜欢、关心或正在处理的笔记、链接、图片、PDF 和想法，方便日后查找，或通过 MCP 和 CLI 把相关资料交给 AI。它提供 Mac、iPhone 和 iPad 原生应用，支持本地存储和私有 iCloud 同步。",
+      "intro_zh": "给需要积累项目资料的人用，保存笔记、链接和文件，之后找回，或交给 AI 作为参考。",
       "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/64OVTILJFOSXX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/98d8b3dc-45ba-4dc0-8e5e-fcb214124038.png?auto=format",
       "votes_count": 280,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "保存、找回和交给 AI 的用途清楚，但检索与选材效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把私人资料开放给 AI 使用，带来了具体的读取范围控制问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让收藏的资料能被其他工具继续使用，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重保存的资料能继续用于 AI 任务；最影响判断的是，用户能否明确控制 AI 可以读哪些内容。",
+      "product_analysis": {
+        "target_problem": "适合持续积累研究或项目资料的人。麻烦在于存下内容后，还要在需要时找到它，并整理成 AI 能参考的材料。",
+        "workflow": "保存笔记、链接、图片、PDF 和想法；之后查找，或通过 MCP、CLI 把资料交给 AI。介绍未说明具体选择和发送步骤。",
+        "ai_value": "明确的作用是向 AI 提供个人资料作为参考。介绍没说会自动总结、分类或生成答案。",
+        "differentiation": "资料库兼作 AI 的参考来源，可能减少重复搬运。换用它的顾虑是已有资料是否方便迁入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持苹果设备原生应用、本地存储和私有 iCloud 同步；提供 MCP（让 AI 工具读取资料的连接规范）和 CLI（用文字命令操作的入口）。",
+        "possible_approach": "如果自己做，可以先保存文件并建立查找目录，再提供按用户选择读取资料的入口，最后连接 AI 工具。",
+        "tradeoffs": "最容易出错的是读取范围控制：若一次暴露过多内容，无关的私人资料也可能进入 AI 对话。",
+        "unknowns": "能否限制 AI 只读取选中的资料，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做收藏或知识库产品时，可以让已保存内容按需交给外部工具，减少用户重新整理和粘贴。"
+      ],
+      "validation_questions": [
+        "用 MCP 连接 AI 后，检查它能否读取未授权的资料。",
+        "保存一份 PDF 后，用正文中的关键词查找，检查能否找到。"
+      ],
+      "source_tagline": "A Personal Context Library for Mac",
+      "source_description": "Resurf is a personal context app for things you like, care about, and work on. Save notes, links, images, PDFs, and ideas. Find them later or hand that context to AI through MCP and CLI. Native on Mac, iPhone, and iPad, with local storage and private iCloud sync."
     },
     {
       "id": "1245416",
       "name": "Perplexity Hybrid Compute ",
-      "name_zh": "Perplexity Hybrid Compute ",
-      "tagline_zh": "Splitting AI tasks: Cloud for research, Mac for privacy",
-      "description_zh": "Hybrid Compute is now live on Perplexity Computer, their Mac app. It splits a task between the cloud and your own Mac: research and reasoning happen in the cloud with their strongest AI, while anything touching your private files stays on your Mac with a local AI, so it never gets uploaded. Works on Apple silicon, 24GB RAM minimum, live now for Pro/Max/Enterprise.",
-      "intro_zh": "",
+      "name_zh": "Perplexity Hybrid Compute",
+      "tagline_zh": "拆分 AI 任务：云端做研究，Mac 处理隐私内容",
+      "description_zh": "Hybrid Compute 已在 Perplexity 的 Mac 应用 Perplexity Computer 中上线，把研究和推理交给云端 AI，把涉及私人文件的处理留给 Mac 上的本地 AI，并称文件不会上传。简介称其支持 Apple 芯片机型，最低需要 24GB 内存，面向 Pro、Max 和 Enterprise 用户开放。",
+      "intro_zh": "给需要结合公开资料与私人文件工作的 Mac 用户，把研究交给云端，把私人文件交给本机 AI 处理。",
       "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5IWKJOELJGRMKZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7b661ada-faa5-43d4-a613-56639f7be9f6.png?auto=format",
       "votes_count": 226,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "兼顾资料研究与私人文件处理的需求清楚，但隐私边界仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "任务拆分后如何避免私人内容进入云端，是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按数据敏感程度分配处理位置，可借用于文档类助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把公开研究和私人文件处理放进同一任务；最影响判断的是，隐私承诺是否覆盖文件之外的摘要与中间结果。",
+      "product_analysis": {
+        "target_problem": "需要同时查公开资料、处理私人文件的人，会关心哪些内容被传到云端。这类任务既需要研究能力，也需要控制文件去向。",
+        "workflow": "在 Mac 应用中发起任务，由系统把研究和推理分给云端，把涉及私人文件的部分留给本机 AI。介绍没说用户能否手动调整分工。",
+        "ai_value": "云端 AI 负责研究与推理，本地 AI 处理私人文件。它想省掉的是用户自己拆任务、分别处理的麻烦。",
+        "differentiation": "一次任务可以调用两处 AI。最直接的使用门槛是设备：需要 Apple 芯片和至少 24GB 内存。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到云端与本地 AI 分工，但没有说明具体模型。",
+        "possible_approach": "如果自己做，可以先区分公开信息和私人文件，再分别交给云端与本机处理，最后在本机合并结果。",
+        "tradeoffs": "最容易出错的是把文件摘录或处理结果带进云端请求；即使原文件没上传，也可能泄露私人内容。",
+        "unknowns": "“不上传”是否也覆盖文件摘要和中间结果，简介没有回答。"
+      },
+      "transferable_insights": [
+        "做企业文档助手时，可以让公开资料检索走云端、内部文件在本机处理，并向用户显示两者的分工。"
+      ],
+      "validation_questions": [
+        "用含独特测试标记的文件执行任务，检查发往云端的请求是否包含该标记或其含义。",
+        "用必须结合公开资料和本地文件才能回答的问题，检查最终答案是否正确结合两边信息。"
+      ],
+      "source_tagline": "Splitting AI tasks: Cloud for research, Mac for privacy",
+      "source_description": "Hybrid Compute is now live on Perplexity Computer, their Mac app. It splits a task between the cloud and your own Mac: research and reasoning happen in the cloud with their strongest AI, while anything touching your private files stays on your Mac with a local AI, so it never gets uploaded. Works on Apple silicon, 24GB RAM minimum, live now for Pro/Max/Enterprise."
     },
     {
       "id": "1246822",
       "name": "ScreenCursor",
       "name_zh": "ScreenCursor",
-      "tagline_zh": "Screen recorder with auto zoom effects",
-      "description_zh": "Record your screen and get back a finished video with the camera moves already in place. Every click, drag and keystroke becomes a zoom. No editing, and nothing ever leaves your computer.",
-      "intro_zh": "",
+      "tagline_zh": "带自动缩放效果的屏幕录制工具",
+      "description_zh": "录制屏幕后，可得到已加入镜头移动效果的视频，简介称点击、拖动和按键都会触发缩放。产品方称无需编辑，且所有内容都留在用户电脑上。",
+      "intro_zh": "给需要录制软件演示的人用，把屏幕操作录成视频，并自动加入缩放和镜头移动。",
       "url": "https://www.producthunt.com/products/screencursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7XXNXZ6PB2KTTO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/15bee2d9-4563-4259-a636-7afe0a372d06.jpeg?auto=format",
       "votes_count": 185,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "省去手动添加缩放的用途清楚，但成片是否可直接使用尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把密集操作变成稳定、易看的镜头，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "利用操作记录自动安排画面重点，可借用于软件教学录制。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少手动安排缩放的工作；最影响判断的是自动镜头能否跟上讲解重点，而非机械追逐每次操作。",
+      "product_analysis": {
+        "target_problem": "录制软件演示的人，需要让观众看清按钮和输入位置。以前若要手动补缩放，得在录制后编辑；现在可以在录制时自动生成这些效果。",
+        "workflow": "用户录制屏幕，工具根据点击、拖动和按键加入缩放，输出带镜头移动的视频。简介没交代具体设置和导出步骤。",
+        "ai_value": "介绍没提 AI，主要靠屏幕操作与自动缩放的配合来改善观看体验。",
+        "differentiation": "它把录制和镜头处理合在一起，减少后期操作。最可能让人不愿换用的原因，是自动选出的画面重点不符合讲解意图。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1247092",
-      "name": "Cognition's SWE-2",
-      "name_zh": "Cognition's SWE-2",
-      "tagline_zh": "Cognition's coding model, 64% cheaper than Fable 5.1",
-      "description_zh": "SWE-2 is Cognition's new coding model, post-trained from Kimi K3 with RL that optimizes for cost and capability at the same time. It hits 50.0% on FrontierCode 1.1 Main, within a point of Fable 5.1 at 64% less, and lands within a few points of GPT-6 Astra at a quarter of the cost. Compared to SWE-1.7 it takes 58% fewer turns and costs 81% less while scoring higher. Available now in Devin Desktop and CLI.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/FCGUK3GAKZ3BLA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/093a7130-f5a2-41d0-a611-b8cfbc57d5d9.jpeg?auto=format",
-      "votes_count": 183,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到操作触发缩放，并称所有内容都留在本机；没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先同步记录画面、操作时间和位置，再据此生成缩放，最后在本机合成视频。",
+        "tradeoffs": "最难的是合并连续操作。若每次按键都触发独立缩放，画面可能频繁跳动，反而看不清演示。",
+        "unknowns": "自动生成的缩放能否调整或取消，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做软件教学录制时，可以用点击位置提示画面重点，并把连续操作合成一段镜头，减少逐段设置。"
+      ],
+      "validation_questions": [
+        "连续输入并拖动窗口时，镜头是否稳定且始终保留必要上下文？",
+        "断网后，能否完成从录制到视频输出的全过程？"
+      ],
+      "source_tagline": "Screen recorder with auto zoom effects",
+      "source_description": "Record your screen and get back a finished video with the camera moves already in place. Every click, drag and keystroke becomes a zoom. No editing, and nothing ever leaves your computer."
     },
     {
       "id": "1246350",
       "name": "Visiby",
       "name_zh": "Visiby",
-      "tagline_zh": "Track and grow your visibility across AI search",
-      "description_zh": "Visiby helps brands measure, understand, and improve their visibility across AI search platforms like ChatGPT, Perplexity, Gemini, and Google AI Overviews. Track brand mentions, recommendations, and citations, discover where competitors are winning, and identify opportunities to improve your presence in AI-generated answers.",
-      "intro_zh": "",
+      "tagline_zh": "追踪并提升品牌在 AI 搜索中的可见度",
+      "description_zh": "Visiby 帮助品牌衡量、了解并改善自己在 ChatGPT、Perplexity、Gemini 和 Google AI Overviews 等平台中的曝光情况。它追踪品牌提及、推荐和引用，发现竞争对手表现较好的地方，并寻找改善品牌在 AI 生成答案中呈现情况的机会。",
+      "intro_zh": "给品牌和市场团队用，追踪品牌在 AI 搜索答案中被提及、推荐和引用的情况，并对照竞争对手。",
       "url": "https://www.producthunt.com/products/visiby?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/K5QKGJPDFGTEKH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f45c9265-b10e-4f22-9a9a-7488f641e33d.jpeg?auto=format",
       "votes_count": 134,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "品牌曝光监测的用途清楚，但能否据此改善曝光尚无材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "答案变化会影响比较结果，但介绍未说明如何处理。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把提及、推荐和引用分开观察，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是区分品牌被提到和被推荐；最影响判断的是，监测问题是否贴近真实购买需求。",
+      "product_analysis": {
+        "target_problem": "品牌团队想知道，消费者向 AI 问产品时，自己的品牌有没有出现。只看有没有被提到，还分不清它是否得到推荐。",
+        "workflow": "用它追踪各平台中的品牌提及、推荐和引用，再查看竞品表现与改善机会。介绍没说明如何设置监测问题。",
+        "ai_value": "AI 搜索答案是被分析的对象。介绍没说 Visiby 自身是否用 AI 识别品牌或生成建议。",
+        "differentiation": "它把多个平台的品牌表现放到一起看。最可能让团队犹豫的是：监测的问题能否代表真实顾客会问的问题。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出了覆盖的 AI 搜索平台，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一组顾客常问的问题，定期收集各平台答案，再标记品牌提及、推荐语句和引用来源，按品牌比较。",
+        "tradeoffs": "最难的是让前后结果可比较。同一问题的答案可能变化，少量采样可能让团队把偶然出现当成曝光增长。",
+        "unknowns": "它如何选择有代表性的监测问题？"
+      },
+      "transferable_insights": [
+        "做品牌监测时，把“出现名字”“得到推荐”“成为引用来源”分开计数，避免把不同含义的曝光混成一个数字。"
+      ],
+      "validation_questions": [
+        "连续重复监测同一组问题，检查品牌曝光结果的波动幅度。",
+        "抽查被标为“推荐”的原始答案，确认它确实在推荐该品牌。"
+      ],
+      "source_tagline": "Track and grow your visibility across AI search",
+      "source_description": "Visiby helps brands measure, understand, and improve their visibility across AI search platforms like ChatGPT, Perplexity, Gemini, and Google AI Overviews. Track brand mentions, recommendations, and citations, discover where competitors are winning, and identify opportunities to improve your presence in AI-generated answers."
     },
     {
       "id": "1242731",
       "name": "Clipwise ",
-      "name_zh": "Clipwise ",
-      "tagline_zh": "Save any page to Notion",
-      "description_zh": "Clipwise saves any web page to your Notion databases — the whole article, not half of it. No account, no login, no paywall. Fill in your database properties before saving, and it remembers your last one. Everything stays on your computer.",
-      "intro_zh": "",
+      "name_zh": "Clipwise",
+      "tagline_zh": "把网页保存到 Notion",
+      "description_zh": "Clipwise 可把网页保存到 Notion 数据库，简介称能保存完整文章，无需注册、登录或付费。保存前可填写数据库属性，并记住上次使用的数据库；简介还称所有内容都留在电脑上。",
+      "intro_zh": "给用 Notion 收集资料的人，把网页文章存进数据库，并在保存前填好分类等属性。",
       "url": "https://www.producthunt.com/products/clipwise-notion-web-clipper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2ZHSG2WD77RSJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6f4a2b2d-8b88-411f-9934-25bb1b654abb.png?auto=format",
       "votes_count": 127,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "收集文章和填写属性的场景清楚，但完整保存的效果待验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "网页正文提取有具体难点，但介绍未披露处理方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保存前补信息、记住上次目的地，可借用于重复收集场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重保存前就能补齐属性；但“完整文章”的适用范围不明，不能把它理解为所有网页都能完整保存。",
+      "product_analysis": {
+        "target_problem": "用 Notion 整理阅读资料的人，需要同时保留正文和分类信息。麻烦在于文章若没存全，后续还得回原网页查。",
+        "workflow": "在要收藏的网页上，选择 Notion 数据库，填写属性后保存。工具会记住上次使用的数据库。",
+        "ai_value": "介绍没提 AI，主要靠网页保存、属性填写和记住数据库来改善体验。",
+        "differentiation": "保存前就能补好属性，可能减少事后整理。最影响换用意愿的是：所谓完整文章究竟能覆盖哪些网页。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称内容留在电脑上，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先提取网页正文，再转成 Notion 能接收的内容格式，连同用户填写的属性一起保存。",
+        "tradeoffs": "最容易出错的是正文提取：把导航当正文，或漏掉延迟加载的段落，都会让存下的文章不完整。",
+        "unknowns": "“所有内容留在电脑上”是否只指本地处理？保存到 Notion 时的数据去向没有解释。"
+      },
+      "transferable_insights": [
+        "做资料收集工具时，可在保存前让用户填写分类，并记住上次目的地，减少重复选择。"
+      ],
+      "validation_questions": [
+        "选一篇需要滚动才加载完整的长文，检查保存后是否缺段。",
+        "检查保存时的数据去向，确认网页内容是否经过 Notion 之外的服务。"
+      ],
+      "source_tagline": "Save any page to Notion",
+      "source_description": "Clipwise saves any web page to your Notion databases — the whole article, not half of it. No account, no login, no paywall. Fill in your database properties before saving, and it remembers your last one. Everything stays on your computer."
     },
     {
       "id": "1222364",
       "name": "GhostWriter by MyHandler",
       "name_zh": "GhostWriter by MyHandler",
-      "tagline_zh": "Two taps and it's already written",
-      "description_zh": "Every other AI writes what you tell it. Ghostwriter writes what you already know. Double-tap Left Ctrl in any text field, in any app, and the reply is there — drawn from the thread on screen, your calendar, your files and your past meetings, indexed in an encrypted vault on your PC. It won't double-book you, and it matches how you write to that person, down to the sign-off. Then it stops: it types into the box and never sends. Windows.",
-      "intro_zh": "",
+      "tagline_zh": "轻按两下，就已写好",
+      "description_zh": "这是一款 Windows AI 写作工具：在应用的文本框中双击左 Ctrl，它会结合屏幕上的对话、日历、文件和过往会议生成回复，相关资料在电脑上的加密资料库中建立索引。简介称它能避免日程冲突，并模仿你对特定收件人的写法；它只填入文字，不会发送。",
+      "intro_zh": "给在 Windows 上频繁回复消息的人用，结合当前对话和个人资料起草回复，填入文本框供人检查。",
       "url": "https://www.producthunt.com/products/ghostwriter-by-myhandler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BF5SIJICZW37PQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/85e32e69-e5d8-4fd0-8ed4-e9b232cc9488.png?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "回复时查资料、核对日程的需求清楚，但准确性尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "怎样为当前收件人选对资料，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在原输入框提供草稿、保留人工发送，适合借到其他写作工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它停在填入草稿这一步，用户还能检查再发送。最影响判断的是私人资料会不会传到电脑之外。",
+      "product_analysis": {
+        "target_problem": "频繁处理工作消息的人，回复时可能要查日历、文件和会议记录。麻烦在于把这些信息找齐，再写成适合对方的回复。",
+        "workflow": "在文本框中双击左 Ctrl，工具结合当前对话和个人资料起草并填入回复。用户检查后自行发送；介绍未说明首次如何接入资料。",
+        "ai_value": "AI 把分散资料组织成回复，并尝试匹配你对该收件人的语气和落款。",
+        "differentiation": "省去把背景搬进独立写作窗口的动作。但让工具读取私人资料，可能是用户不愿换用的主要原因。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Windows；个人资料在电脑上的加密资料库中建立索引，即建立方便查找的目录。",
+        "possible_approach": "如果自己做，可以先读取当前对话，再查找相关资料、核对日历，让 AI 起草，最后只填入当前文本框。",
+        "tradeoffs": "最难的是选对可用于当前回复的资料。若混入其他项目的内容，草稿就可能泄露不该告诉对方的信息。",
+        "unknowns": "本地加密存储不等于本地生成；介绍没说生成回复时资料是否离开电脑。"
+      },
+      "transferable_insights": [
+        "做邮件或客服助手时，可以把草稿填回原输入框，并把发送留给用户确认。"
+      ],
+      "validation_questions": [
+        "准备两组不同项目的资料，检查回复是否混入另一项目的内容。",
+        "设置已有会议的时段，检查约会回复是否仍答应同一时间。"
+      ],
+      "source_tagline": "Two taps and it's already written",
+      "source_description": "Every other AI writes what you tell it. Ghostwriter writes what you already know. Double-tap Left Ctrl in any text field, in any app, and the reply is there — drawn from the thread on screen, your calendar, your files and your past meetings, indexed in an encrypted vault on your PC. It won't double-book you, and it matches how you write to that person, down to the sign-off. Then it stops: it types into the box and never sends. Windows."
     },
     {
       "id": "1244857",
       "name": "DemoTV",
       "name_zh": "DemoTV",
-      "tagline_zh": "The audience-ranked TV channel for product demos",
-      "description_zh": "DemoTV is a 24/7 channel of product demos, ranked by the people watching. Submit a short demo for free. Viewers watch head-to-head Channel Battles and back the product they'd actually try, and an Elo-style audience score decides who sits on Channels 1-3. Businesses can buy clearly labelled airtime: money buys exposure, completed views and clicks, never the ranking.",
-      "intro_zh": "",
+      "tagline_zh": "由观众排名的产品演示频道",
+      "description_zh": "DemoTV 是全天播放产品演示的频道，支持免费提交短演示，观众在两两对决中支持自己愿意尝试的产品，类 Elo 评分决定频道 1—3 的席位。企业可购买明确标注的播放时段；简介称付费购买的是曝光、完整观看和点击，不影响排名。",
+      "intro_zh": "给想展示产品的团队和寻找新工具的观众用，把短演示放进频道，让观众比较并选出想试的产品。",
       "url": "https://www.producthunt.com/products/demotv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QQOOOHQVE3BUZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/497fd1be-2f9e-415a-a18e-6f6c70fe22b4.jpeg?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "展示产品和发现工具的场景清楚，但能否带来试用尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "观众投票决定席位有具体问题可讨论，但计分规则未展开。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "付费展示与观众排名分开，适合借鉴到带推广位的发现平台。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让观众通过比较表达试用意愿；最大疑问是付费曝光与排名能否真正分开。",
+      "product_analysis": {
+        "target_problem": "产品团队需要被看见，观众需要判断哪些工具值得试。它把短演示集中播放，提供比较入口。",
+        "workflow": "团队免费提交短演示。观众观看两两对决并支持想试的产品，评分决定频道 1—3 的席位。",
+        "ai_value": "介绍没提 AI，主要靠演示播放、观众选择和评分来组织内容。",
+        "differentiation": "观众可以在同一处比较产品。最可能让团队犹豫的是：获得观看后，是否真有人试用仍不清楚。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1245868",
-      "name": "SHIUI",
-      "name_zh": "SHIUI",
-      "tagline_zh": "Hinomaru Ink Web UI Kit in Japanese Hinomaru style",
-      "description_zh": "SHIUI — a flat ink UI kit in the spirit of Hinomaru Japanese posters. Paper, sumi, vermilion. Zero shadows.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/shiui-hinomaru-ink-ui-kit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/DM2MJFTO3DRRTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9c0f5ac8-e52b-4566-af06-b71365ae77d4.png?auto=format",
-      "votes_count": 111,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "采用类 Elo 评分，即根据双方对决结果调整分数；具体算法未说明。",
+        "possible_approach": "如果自己做，可以先记录每场对决和投票，再更新分数、安排席位；付费播放单独标记和统计。",
+        "tradeoffs": "最难的是挡住重复或操纵投票。若少数人能刷高分，频道位置就可能偏离观众真实偏好。",
+        "unknowns": "付费增加观看机会后，如何避免间接影响排名？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做带推广位的产品目录时，可明确标注付费展示，并把购买曝光与购买排名分开。"
+      ],
+      "validation_questions": [
+        "同一观众反复支持同一产品，会不会重复计分？",
+        "购买播放时段后，新增曝光是否进入排名计分？"
+      ],
+      "source_tagline": "The audience-ranked TV channel for product demos",
+      "source_description": "DemoTV is a 24/7 channel of product demos, ranked by the people watching. Submit a short demo for free. Viewers watch head-to-head Channel Battles and back the product they'd actually try, and an Elo-style audience score decides who sits on Channels 1-3. Businesses can buy clearly labelled airtime: money buys exposure, completed views and clicks, never the ranking."
     },
     {
       "id": "1246401",
       "name": "Neopress",
       "name_zh": "Neopress",
-      "tagline_zh": "Build and grow your website by chatting with AI",
-      "description_zh": "Build and grow your website in one AI-powered loop. Neopress brings website creation, CMS, SEO, and analytics into a single workspace. Publish server-rendered, AI-readable pages that search engines and AI crawlers can access. Then ask AI to analyze your metrics, uncover insights, and turn them into improvements to your site and content. Build, publish, measure, learn, and improve, all through conversation.",
-      "intro_zh": "",
+      "tagline_zh": "通过与 AI 对话搭建和发展网站",
+      "description_zh": "Neopress 把网站搭建、内容管理、搜索优化和数据分析放进同一个工作区，支持发布服务器渲染、供搜索引擎和 AI 爬虫访问的页面。用户可以通过对话让 AI 分析指标，并据此改进网站和内容。",
+      "intro_zh": "给需要搭建和持续维护网站的人用，通过对话建站、发布内容，再分析数据并修改网站。",
       "url": "https://www.producthunt.com/products/neopress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2EZNTKTNXHKP34?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d705a1c4-3045-44f2-95c4-407097060272.jpeg?auto=format",
       "votes_count": 108,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "建站到持续改进的场景清楚，但节省多少操作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把指标分析变成网站修改，有具体的判断错误风险可研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让分析结果直接进入编辑流程，可借用于内容运营工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是分析之后能接着改页面；最影响判断的是，它能否分清数据支持的结论和猜测。",
+      "product_analysis": {
+        "target_problem": "适合既要建站又要持续更新内容的运营者。若原本分开使用建站和分析工具，麻烦在于看完数据还得回到编辑器修改。",
+        "workflow": "通过对话搭建网站并发布页面，再让 AI 分析指标，提出并落实网站或内容改进。简介没有说明修改前是否需要确认。",
+        "ai_value": "AI 参与建站，也负责解读指标并把分析结果转成修改。现有材料不足以判断这些建议是否可靠。",
+        "differentiation": "它把看数据和改网站放在同一工作区。已有网站的用户可能会因迁移内容的工作量而不愿切换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "页面采用服务器渲染，即由服务器生成页面内容，再交给浏览器或爬虫读取。",
+        "possible_approach": "如果自己做，可以先接入网站编辑和访问数据，再让 AI 根据指标生成修改草稿，由用户确认后发布。",
+        "tradeoffs": "最难的是从指标判断该改什么。访问量变化可能有多种原因，误判后可能改掉原本有效的内容。",
+        "unknowns": "介绍没有说明 AI 分析指标时能获得哪些背景信息。"
+      },
+      "transferable_insights": [
+        "做内容运营工具时，可以把数据建议旁边放上对应页面的修改草稿，减少用户重新查找和编辑的步骤。"
+      ],
+      "validation_questions": [
+        "给它一组原因不明确的流量变化，检查它是否把猜测说成确定原因。",
+        "要求它修改一个页面，检查发布前能否逐项确认改动。"
+      ],
+      "source_tagline": "Build and grow your website by chatting with AI",
+      "source_description": "Build and grow your website in one AI-powered loop. Neopress brings website creation, CMS, SEO, and analytics into a single workspace. Publish server-rendered, AI-readable pages that search engines and AI crawlers can access. Then ask AI to analyze your metrics, uncover insights, and turn them into improvements to your site and content. Build, publish, measure, learn, and improve, all through conversation."
+    },
+    {
+      "id": "1247092",
+      "name": "Cognition's SWE-2",
+      "name_zh": "Cognition's SWE-2",
+      "tagline_zh": "Cognition 的编程模型，宣称比 Fable 5.1 便宜 64%",
+      "description_zh": "SWE-2 是 Cognition 的新编程模型，介绍称它以 Kimi K3 为基础，用强化学习同时优化成本和能力，现已在 Devin 桌面端和命令行工具中提供。缓存简介宣称，它在 FrontierCode 1.1 Main 上得分 50.0%，与 Fable 5.1 相差不到一个百分点、成本低 64%，与 GPT-6 Astra 相差几个百分点、成本为其四分之一；相比 SWE-1.7，交互轮次减少 58%、成本降低 81%，且得分更高。",
+      "intro_zh": "给使用 Devin 的开发者，在桌面端或命令行中处理编程任务，重点关注完成任务的成本。",
+      "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/FCGUK3GAKZ3BLA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/093a7130-f5a2-41d0-a611-b8cfbc57d5d9.jpeg?auto=format",
+      "votes_count": 183,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "降低编程任务成本的目标明确，但收益只有缓存中的宣传数据。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把任务质量和完成成本一起用于训练，是具体且值得拆解的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按完整任务衡量成本可以借鉴，但训练和评测细节不足。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把完成任务的开销纳入优化目标；但历史缓存里的成本比较缺少统计口径，不能直接用来估算实际预算。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 处理编程任务时，需要同时考虑代码质量和费用。多轮尝试可能增加开销，便宜的单次调用也未必意味着任务更省钱。",
+        "workflow": "在 Devin 桌面端或命令行工具中使用 SWE-2 处理编程任务。介绍未说明如何选择模型或提交任务。",
+        "ai_value": "AI 承担编程工作。介绍强调用训练同时改善能力和成本，但没有列出具体支持哪些编程任务。",
+        "differentiation": "它主打减少完成任务的轮次和费用。最可能让人不愿换的原因，是榜单成绩未必能反映自己项目中的表现。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它基于 Kimi K3 做强化学习后训练，即在已有模型上，根据任务表现继续调整模型，同时优化成本和能力。",
+        "possible_approach": "如果自己做，可以先准备有测试的编程任务，再按测试结果和完成开销给模型反馈，让它学习更省资源的解法。",
+        "tradeoffs": "最容易出错的是把少轮次当成完成得好。若测试没覆盖关键要求，模型可能更早结束，用户却要花时间补错。",
+        "unknowns": "宣传中的成本是否包含失败重试，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做编程助手时，可以按“完成一个通过验收的任务花多少钱”比较模型，避免只比较单次调用价格。"
+      ],
+      "validation_questions": [
+        "用同一批真实项目任务，检查 SWE-2 的结果能否通过现有测试和人工验收？",
+        "把失败重试计入后，完成同一批合格任务的总费用是否更低？"
+      ],
+      "source_tagline": "Cognition's coding model, 64% cheaper than Fable 5.1",
+      "source_description": "SWE-2 is Cognition's new coding model, post-trained from Kimi K3 with RL that optimizes for cost and capability at the same time. It hits 50.0% on FrontierCode 1.1 Main, within a point of Fable 5.1 at 64% less, and lands within a few points of GPT-6 Astra at a quarter of the cost. Compared to SWE-1.7 it takes 58% fewer turns and costs 81% less while scoring higher. Available now in Devin Desktop and CLI."
+    },
+    {
+      "id": "1245868",
+      "name": "SHIUI",
+      "name_zh": "SHIUI",
+      "tagline_zh": "日之丸风格的水墨网页界面套件",
+      "description_zh": "SHIUI 是一套扁平化界面套件，风格取自日本日之丸海报。视觉元素包括纸张、墨色和朱红，不使用阴影。",
+      "intro_zh": "给想做日式海报风网页的设计师，用一套纸张、墨色与朱红的界面素材组织页面。",
+      "url": "https://www.producthunt.com/products/shiui-hinomaru-ink-ui-kit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DM2MJFTO3DRRTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9c0f5ac8-e52b-4566-af06-b71365ae77d4.png?auto=format",
+      "votes_count": 111,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "风格和用途清楚，但组件范围不足以判断能省多少设计工作。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "无阴影界面如何保持层次，是一个具体的设计实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用有限配色和明确的视觉限制统一页面，做法容易借用。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它给出了可执行的风格限制；最大的疑问是，它提供了完整可用的组件，还是主要提供视觉样式。",
+      "product_analysis": {
+        "target_problem": "设计师做日式海报风网页时，需要统一配色、材质感和层次。SHIUI 提供了明确的视觉方向，但资料没展示组件覆盖范围。",
+        "workflow": "用户可将这套 UI 素材用于网页设计。介绍未说明交付的是设计文件还是代码，无法确认具体导入和编辑步骤。",
+        "ai_value": "介绍没提 AI，主要靠统一视觉风格来改善设计体验。",
+        "differentiation": "它可能省去从零探索这类风格的工作；但鲜明的日式海报语言，也可能不适合已有品牌。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了扁平化、纸张、墨色、朱红和无阴影，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先固定颜色、字体和间距，再做按钮、输入框等常用组件，用线条与留白区分层次。",
+        "tradeoffs": "最容易出错的是去掉阴影后，没补足其他层次提示。用户可能分不清哪些内容能点击。",
+        "unknowns": "套件是否提供悬停、选中、禁用等交互状态？"
+      },
+      "transferable_insights": [
+        "做主题鲜明的网页模板时，可以先限定配色和层次表达方式，再让常用组件遵守同一套规则。"
+      ],
+      "validation_questions": [
+        "用套件拼一个带表单的页面，检查常用组件是否齐全。",
+        "检查按钮不同状态是否清楚可辨，尤其是禁用状态。"
+      ],
+      "source_tagline": "Hinomaru Ink Web UI Kit in Japanese Hinomaru style",
+      "source_description": "SHIUI — a flat ink UI kit in the spirit of Hinomaru Japanese posters. Paper, sumi, vermilion. Zero shadows."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

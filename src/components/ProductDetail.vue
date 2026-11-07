@@ -28,8 +28,13 @@
 
           <p class="detail-overall"><strong>综合建议：</strong>{{ product.overall_reason }}</p>
 
-          <ScoreDetail :scores="product.scores" />
-          <VideoInspiration :inspiration="product.video_inspiration" />
+          <ProductAnalysis v-if="product.product_analysis" :product="product" />
+          <VideoInspiration v-else :inspiration="product.video_inspiration" />
+          <details v-if="product.product_analysis" class="detail-scores">
+            <summary>为什么这样打分</summary>
+            <ScoreDetail :scores="product.scores" />
+          </details>
+          <ScoreDetail v-else :scores="product.scores" />
           <NotesEditor :productId="product.id" :productMeta="noteMeta" />
         </div>
 
@@ -47,6 +52,7 @@ import { computed } from 'vue'
 import { X, Image, ThumbsUp, ExternalLink, Globe } from '@lucide/vue'
 import ScoreDetail from './ScoreDetail.vue'
 import VideoInspiration from './VideoInspiration.vue'
+import ProductAnalysis from './ProductAnalysis.vue'
 import NotesEditor from './NotesEditor.vue'
 import SuggestionTag from './SuggestionTag.vue'
 import BookmarkButton from './BookmarkButton.vue'
@@ -124,6 +130,8 @@ const noteMeta = computed(() => {
   font-size: 64px;
 }
 .detail-content { padding: 24px; }
+.detail-scores { margin: 0 0 20px; }
+.detail-scores summary { cursor: pointer; margin-bottom: 12px; font-size: 14px; color: #666; }
 .detail-content h2 { margin: 0; font-size: 22px; }
 .detail-name-en { color: #999; font-size: 13px; margin: 4px 0 12px; }
 .detail-desc { font-size: 14px; line-height: 1.7; color: #444; }

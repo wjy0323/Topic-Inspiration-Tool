@@ -1,367 +1,510 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-04T23:14:35+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:16:34+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1279115",
       "name": "AgentKit by Scalekit",
       "name_zh": "AgentKit by Scalekit",
-      "tagline_zh": "MCP gateway for production agents that acts on your behalf",
-      "description_zh": "Let your agents use 30,000+ tools across 600+ apps, from Salesforce to GitHub, through one MCP gateway. AgentKit handles auth and integrations, so every action runs as the user who asked, within the scopes they granted. Give each agent only the tools its job needs with Virtual MCP Servers. Add internal APIs as custom connectors. Use Triggers to start an agent the moment an email lands. Built for developers taking agents to production: every call is logged. Free tier: 10,000 tool calls a month.",
-      "intro_zh": "",
+      "tagline_zh": "让生产环境中的智能体代用户执行操作的 MCP 网关",
+      "description_zh": "AgentKit 介绍称，可通过一个 MCP 网关连接 600 多个应用中的 30,000 多种工具，处理授权和集成，让操作以请求用户的身份、在其授权范围内执行。开发者可用虚拟 MCP 服务器限制各智能体可用的工具，添加内部接口作为自定义连接器，用邮件等事件触发智能体；每次调用都有日志，免费额度为每月 10,000 次工具调用。",
+      "intro_zh": "给开发可代用户办事的智能体的团队用，集中连接业务应用，并管理操作权限和调用记录。",
       "url": "https://www.producthunt.com/products/scalekit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/K2KQXD7ILBCL6E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/16386268-8e8a-44d8-91e1-579b11640a25.png?auto=format",
       "votes_count": 409,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "连接应用和管理用户授权的用途清楚，但实际接入工作量未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "代用户执行时如何避免用错身份，是明确且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按任务限制工具、按用户限制权限的做法可用于其他自动化产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "集中管理代用户操作的授权，比工具数量更有意义；最影响判断的是权限限制能否在每次实际调用时生效。",
+      "product_analysis": {
+        "target_problem": "开发团队让智能体操作 Salesforce、GitHub 等应用时，需要处理各应用的连接和用户授权，不能只让模型生成回答。",
+        "workflow": "开发者接入网关，为智能体限定工具，也可加入内部接口。用户授权后，智能体在授权范围内调用工具，调用留下日志；邮件到达等事件也可触发运行。",
+        "ai_value": "智能体负责调用工具办事；AgentKit 提供连接、授权和记录能力。介绍没说它如何判断该执行什么操作。",
+        "differentiation": "它把多应用连接和授权管理集中到一个入口。是否迁入，可能取决于现有业务需要的操作是否受支持。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4446f8cc-7e54-4561-a196-150770756bb2)"
-    },
-    {
-      "id": "1162044",
-      "name": "Teamily AI",
-      "name_zh": "Teamily AI",
-      "tagline_zh": "Your personal agent, agent teams & people in one messenger",
-      "description_zh": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork. Built on an AI-native messenger, it connects people, agents, docs, meetings, calls, workflows, and business systems to automate office work and customer service. Agents become real teammates with persistent memory, proactive intelligence, and continuous self-improvement. Free to get started.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EKZU365TJG62XT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/fd5b66ca-66f1-473b-be98-91d0ad7fce9c.jpeg?auto=format",
-      "votes_count": 350,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "使用 MCP（让智能体连接外部工具的协议）网关，支持按智能体限定工具、事件触发和调用日志。",
+        "possible_approach": "如果自己做，可以先接通一个应用，保存用户授权；再在每次调用前核对用户身份、授权范围和智能体可用工具，执行后记录结果。",
+        "tradeoffs": "最容易出错的是把调用对应到错误用户的授权，可能导致智能体读取或修改别人的数据。",
+        "unknowns": "用户撤销授权后，尚未执行的任务能否及时停止？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 8fa26a5f-7046-4073-a65a-7561e62ca7b7)"
+      "transferable_insights": [
+        "做企业自动化时，可按任务只开放必要工具，避免每个智能体都能调用所有操作。"
+      ],
+      "validation_questions": [
+        "用两个不同权限的账号执行同一操作，检查是否始终按各自权限放行。",
+        "撤销授权后再次调用，检查操作是否被阻止。"
+      ],
+      "source_tagline": "MCP gateway for production agents that acts on your behalf",
+      "source_description": "Let your agents use 30,000+ tools across 600+ apps, from Salesforce to GitHub, through one MCP gateway. AgentKit handles auth and integrations, so every action runs as the user who asked, within the scopes they granted. Give each agent only the tools its job needs with Virtual MCP Servers. Add internal APIs as custom connectors. Use Triggers to start an agent the moment an email lands. Built for developers taking agents to production: every call is logged. Free tier: 10,000 tool calls a month."
     },
     {
       "id": "1296045",
       "name": "Testifly",
       "name_zh": "Testifly",
-      "tagline_zh": "Autonomous AI QA. Zero prompting. Zero maintenance. ",
-      "description_zh": "CTOs and founders with small teams and no time or resources to test and maintain. Connect your web app and Testifly does the rest. Discovers flows, writes tests, self-heals, explains failures with video. Zero prompting. Zero maintenance. 30-day free trial.",
-      "intro_zh": "",
+      "tagline_zh": "自主 AI 测试，主打无需提示词和维护。",
+      "description_zh": "面向缺少测试时间和资源的小团队 CTO 与创始人，连接网页应用后，可自动发现操作流程、编写测试、修复测试，并用视频解释失败。简介宣称无需提示词和维护，提供 30 天免费试用。",
+      "intro_zh": "给缺少专职测试人员的小团队用，连接网页应用后，自动寻找操作流程、编写测试并呈现失败原因。",
       "url": "https://www.producthunt.com/products/testifly-launch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/673ETOS256IMRH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/178b177f-f0b5-42f8-a392-7c2a2eab05ee.jpeg?auto=format",
       "votes_count": 256,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "测试人手不足的场景明确，但覆盖范围和维护收益未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动修复测试时如何保留正确判断，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "失败时附视频的做法，可借给其他自动执行任务的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重失败视频能帮助定位问题；最影响判断的是测试通过能否代表业务结果正确，而不只是页面能点通。",
+      "product_analysis": {
+        "target_problem": "小团队 CTO 和创始人需要检查网页应用，却缺少编写和维护测试的时间。它试图接下这些持续重复的工作。",
+        "workflow": "连接网页应用后，工具自动发现流程并编写测试；测试出错时，用视频解释失败，并提供测试自修复。",
+        "ai_value": "AI 被用于发现流程、编写和修复测试。介绍未说明它如何判断业务结果是否正确。",
+        "differentiation": "它把流程发现、测试编写和故障说明放在一起，可能减少人工接手次数。换用前最大的顾虑是能否测到真正重要的业务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 90382e82-7c07-422a-9e47-04fa13923ef1)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 自动测试、测试自修复和视频失败说明，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录页面和操作路径，再生成操作步骤及预期结果。执行时保存视频，失败后比对页面变化，提出测试修正。",
+        "tradeoffs": "最难的是区分页面改版和真实故障。若自修复把错误结果也当成新标准，测试可能通过，产品却仍有问题。",
+        "unknowns": "预期结果由谁定义，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做自动执行任务的工具时，可在失败记录中附上过程视频，让用户看到出错前发生了什么。"
+      ],
+      "validation_questions": [
+        "故意让关键流程返回错误结果，检查自修复是否仍会报告失败。",
+        "接入一个已知核心流程的应用，检查自动发现是否覆盖该流程。"
+      ],
+      "source_tagline": "Autonomous AI QA. Zero prompting. Zero maintenance. ",
+      "source_description": "CTOs and founders with small teams and no time or resources to test and maintain. Connect your web app and Testifly does the rest. Discovers flows, writes tests, self-heals, explains failures with video. Zero prompting. Zero maintenance. 30-day free trial."
     },
     {
       "id": "1286920",
       "name": "Synter Canvas",
       "name_zh": "Synter Canvas",
-      "tagline_zh": "Your AI agent runs ads across 30+ ad platforms",
-      "description_zh": "Your AI agent builds, launches and optimizes campaigns across 30+ ad platforms, with safety gates and guardrails on every change. $0.25 per verified write, 0% of ad spend.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 代理在 30 多个广告平台投放广告",
+      "description_zh": "AI 代理可在 30 多个广告平台创建、发布和优化广告活动，每次修改都有安全检查和限制。简介标价为每次经验证的写入操作 0.25 美元，不按广告支出抽成。",
+      "intro_zh": "给管理多平台广告的投放人员用，让 AI 代理创建、发布和调整广告活动。",
       "url": "https://www.producthunt.com/products/synter-canvas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VWLUQCUJVICBLP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c944b0c4-0593-4974-8a59-79b470a8f8f7.jpeg?auto=format",
       "votes_count": 181,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "多平台投放的用途清楚，但省多少操作、优化是否有效尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动修改广告时如何拦住错误，是直接影响预算的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "每次修改前设置检查，适合借到涉及资金的自动操作中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是每次修改都带检查，而不只是自动执行。但历史缓存没有解释检查规则，暂时无法判断它能否管住预算风险。",
+      "product_analysis": {
+        "target_problem": "管理多个广告平台的人，需要反复创建活动、调整投放。各平台的规则和设置差异，可能增加检查工作。",
+        "workflow": "介绍只明确了创建、发布、优化三个环节，每次修改都有安全检查。用户如何提交目标、授权账户，资料未说明。",
+        "ai_value": "AI 代理负责创建和调整广告活动；介绍没有说明它依据什么数据决定调整。",
+        "differentiation": "把多平台操作交给一个代理，可能减少逐个平台处理的工作。最可能让人犹豫的是，能否放心让它改动花钱的设置。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 0f77a718-f0e4-4624-841b-f3255e45cad6)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称覆盖 30 多个广告平台，并对每次修改设置安全检查和限制。",
+        "possible_approach": "如果自己做，可以先把投放目标转成待修改清单，再检查预算等限制，最后提交给平台并核对结果。",
+        "tradeoffs": "最难的是识别看似合规却偏离目标的修改。若只检查金额上限，错误设置仍可能持续花钱。",
+        "unknowns": "安全检查会在什么情况下阻止修改？"
+      },
+      "transferable_insights": [
+        "做自动付款或批量改价时，可让系统先列出改动，再按金额和权限检查后执行。"
+      ],
+      "validation_questions": [
+        "提交一项超过预设预算的修改，检查它是否在执行前被拦截。",
+        "完成一次修改，核对平台实际结果与产品所报结果是否一致。"
+      ],
+      "source_tagline": "Your AI agent runs ads across 30+ ad platforms",
+      "source_description": "Your AI agent builds, launches and optimizes campaigns across 30+ ad platforms, with safety gates and guardrails on every change. $0.25 per verified write, 0% of ad spend."
     },
     {
       "id": "1288999",
       "name": "Videco",
       "name_zh": "Videco",
-      "tagline_zh": "Turn every video into a content campaign with AI",
-      "description_zh": "Videco is an AI content studio and video hosting workspace for marketing teams. Find standout moments in demos and webinars, create branded short-form clips, and host, embed, and measure video in one place.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 将每条视频转成一组营销内容",
+      "description_zh": "Videco 是面向营销团队的 AI 内容工作室和视频托管工作空间。它支持从演示和网络研讨会中寻找精彩片段、制作带品牌元素的短视频，并集中托管、嵌入视频和查看表现。",
+      "intro_zh": "给营销团队用的视频工作空间，把演示和研讨会中的片段做成品牌短视频，并管理发布后的表现。",
       "url": "https://www.producthunt.com/products/videco?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/X2LXQUKZ33REIZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/01f77929-89e7-4a8f-9707-77b2c7797ff9.jpeg?auto=format",
       "votes_count": 155,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "长视频再利用的场景明确，但省时程度尚无实测支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "片段能否脱离上下文独立表达，是具体且值得检查的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把内容制作与发布后观察放在一起，可借用于营销内容工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重制作后的素材能继续在同一处管理；最影响判断的是，挑片段究竟能自动完成多少，还是主要靠人工。",
+      "product_analysis": {
+        "target_problem": "营销团队想把演示和研讨会用于后续传播，需要挑片段、做品牌包装，还要管理视频和观察表现。",
+        "workflow": "从演示或研讨会中找出精彩片段，制作带品牌元素的短视频。随后在同一处托管、嵌入视频，并查看表现。",
+        "ai_value": "介绍将它称为 AI 内容工作室，但没说明 AI 具体负责挑片段、剪辑还是品牌包装，不能据此认定全程自动完成。",
+        "differentiation": "制作与托管、查看表现集中在一处，可能减少工具间搬运。已有视频库迁移起来是否方便，可能影响团队是否愿意换用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: afddb078-fd2f-48f9-bd5a-09ba2314e29a)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 内容工作室和视频托管，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成带时间标记的文字，再让模型提出候选片段，由人确认起止位置，最后套品牌样式并提供托管。",
+        "tradeoffs": "最容易错在片段边界：一句精彩结论若缺了前提，短视频可能让观众误解原意。",
+        "unknowns": "介绍没说明用户能否调整候选片段的起止位置。"
+      },
+      "transferable_insights": [
+        "做营销素材工具时，可以把成品托管和表现查看接在制作之后，减少导出后另找地方管理的步骤。"
+      ],
+      "validation_questions": [
+        "用一段结论依赖前文的演示，检查选出的片段是否保留必要前提。",
+        "将成品嵌入测试页面，检查后台能看到哪些观看指标。"
+      ],
+      "source_tagline": "Turn every video into a content campaign with AI",
+      "source_description": "Videco is an AI content studio and video hosting workspace for marketing teams. Find standout moments in demos and webinars, create branded short-form clips, and host, embed, and measure video in one place."
     },
     {
       "id": "1302206",
       "name": "Calendarly ",
-      "name_zh": "Calendarly ",
-      "tagline_zh": "Your calendar and tasks, right on your iPhone Lock Screen",
-      "description_zh": "Calendarly draws your calendar, reminders, Todoist tasks, notes and countdowns onto the iPhone Lock Screen wallpaper, and redraws it automatically through a Shortcuts automation.",
-      "intro_zh": "",
+      "name_zh": "Calendarly",
+      "tagline_zh": "在 iPhone 锁屏上查看日历和任务",
+      "description_zh": "Calendarly 将日历、提醒事项、Todoist 任务、笔记和倒计时绘制到 iPhone 锁屏壁纸上。它通过“快捷指令”自动化重新绘制壁纸。",
+      "intro_zh": "给想在 iPhone 锁屏查看安排的人用，把日历、待办和笔记画进壁纸，并自动更新。",
       "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/326NNFAYMAN2FN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4fc8eade-53e6-4416-8fb4-789a32aa796b.jpeg?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查看安排的场景明确，但更新是否及时仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "用自动重绘壁纸展示变化信息，更新失败的后果很具体。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把简短信息放到常看的屏幕上，可借用于其他提醒工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是不用打开应用就能看见安排；但壁纸能否及时更新，决定了它能不能作为可靠的提醒入口。",
+      "product_analysis": {
+        "target_problem": "适合经常查看日程和待办的 iPhone 用户。安排分散在不同工具里，临时确认下一件事可能要分别打开查看。",
+        "workflow": "将需要展示的信息绘制到锁屏壁纸，再通过“快捷指令”自动化重绘。简介没交代具体设置步骤。",
+        "ai_value": "介绍没提 AI，主要靠壁纸展示和自动更新来改善查看体验。",
+        "differentiation": "把多种安排集中到锁屏，减少打开应用查看的动作。需要配置自动化，可能让只想即装即用的人犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 5db2bfef-67b4-4e9c-800d-50e9831b7623)"
-    },
-    {
-      "id": "1302018",
-      "name": "LifeVal",
-      "name_zh": "LifeVal",
-      "tagline_zh": "OpenAI's benchmark for everyday life tasks with AI",
-      "description_zh": "LifeVal is OpenAI's new eval for the everyday tasks people most want help with, like finding childcare, budgeting, ordering groceries and government services. OpenAI says it used LifeVal for a year to push ChatGPT toward real agent work.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LUAD4D36GSESMI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/985f8044-9031-45e7-9127-097c2a5f8066.png?auto=format",
-      "votes_count": 126,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到将信息绘制成锁屏壁纸，并通过 iPhone 的“快捷指令”自动化重绘。",
+        "possible_approach": "如果自己做，可以先读取获准访问的日程和任务，再排成图片，最后用“快捷指令”定时生成并替换壁纸。",
+        "tradeoffs": "最容易出错的是更新未执行。旧任务仍留在锁屏上，用户可能把过期安排当成当前安排。",
+        "unknowns": "自动化在什么条件下触发，简介没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: fd133f32-f4e0-4696-8efa-5175d641fdfe)"
+      "transferable_insights": [
+        "做日程或习惯提醒工具时，可以把当天最重要的几条信息放到常看的屏幕上，避免塞入完整列表。"
+      ],
+      "validation_questions": [
+        "修改一条日程后，锁屏何时能显示新内容？",
+        "放入较长任务名后，文字是否被锁屏时钟遮挡？"
+      ],
+      "source_tagline": "Your calendar and tasks, right on your iPhone Lock Screen",
+      "source_description": "Calendarly draws your calendar, reminders, Todoist tasks, notes and countdowns onto the iPhone Lock Screen wallpaper, and redraws it automatically through a Shortcuts automation."
     },
     {
       "id": "1301524",
       "name": "MachineMail",
       "name_zh": "MachineMail",
-      "tagline_zh": "Email inboxes for humans and bots",
-      "description_zh": "Give your AI agents real inboxes to receive and send emails. Connect them over MCP or API, use your own domain, and get a trust report on every inbound message. Free includes 3,000 messages/month; paid plans start at $9/month.",
-      "intro_zh": "",
+      "tagline_zh": "供人和机器人使用的电子邮箱",
+      "description_zh": "为 AI 智能体提供收发邮件的真实邮箱，可通过 MCP 或 API 连接、使用自有域名，并为每封来信提供信任报告。简介列出的免费额度为每月 3,000 封邮件，付费方案每月 9 美元起。",
+      "intro_zh": "给需要让 AI 助手处理邮件的开发者用，为助手配置邮箱，让它能接收和发送邮件。",
       "url": "https://www.producthunt.com/products/machinemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YGFRQB5ECPT5EA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b12b72ed-7d11-43f1-80d3-86059784b43f.jpeg?auto=format",
       "votes_count": 122,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和收发邮件的用途明确，但可靠性尚无实测支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "来信可信度如何影响助手行动，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在外部消息旁附上可信度信息，可借用于其他自动处理消息的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是收发邮件时就能拿到逐封信任信息；但报告能否帮助助手避免错误行动，目前仍不清楚。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 助手处理邮件时，需要给它可用的邮箱，并判断外部来信是否可信。MachineMail 把收发邮件和逐封信任报告放在一起。",
+        "workflow": "为助手配置邮箱，通过 MCP 或 API 连接后收发邮件。可以使用自有域名，每封来信都会附带信任报告。",
+        "ai_value": "它给 AI 助手提供邮件收发能力。介绍没说它自身会用 AI 写信或判断来信。",
+        "differentiation": "它可能省去分别准备邮箱连接和来信评估的工作；已有邮箱是否方便接入，会影响迁移意愿。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 70ad2887-606b-4483-ab5b-f52c92ab9abd)"
+      "technical_analysis": {
+        "disclosed_facts": "支持 MCP（让 AI 助手连接外部工具的通用方式）和 API（软件之间传数据的接口），也支持自有域名。",
+        "possible_approach": "如果自己做，可以先接通邮箱收发，再为来信生成可信度信息，交给助手决定如何处理。",
+        "tradeoffs": "最容易出错的是把“来信可信”当成“可以照做”。即使发件人真实，邮件也可能诱导助手泄露资料或误发邮件。",
+        "unknowns": "信任报告依据什么生成，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做自动处理外部消息的产品时，可以把来源可信度随消息一起交给助手，并对发送敏感信息单独要求确认。"
+      ],
+      "validation_questions": [
+        "用来源已知的正常邮件和伪造邮件测试，信任报告能否区分？",
+        "给助手发送索要敏感资料的邮件，它会不会未经确认直接回复？"
+      ],
+      "source_tagline": "Email inboxes for humans and bots",
+      "source_description": "Give your AI agents real inboxes to receive and send emails. Connect them over MCP or API, use your own domain, and get a trust report on every inbound message. Free includes 3,000 messages/month; paid plans start at $9/month."
     },
     {
       "id": "1297285",
       "name": "Hookdeck Inspect",
       "name_zh": "Hookdeck Inspect",
-      "tagline_zh": "Free webhook tester for you and your agent",
-      "description_zh": "Test and debug webhooks with Hookdeck Inspect. Get a live URL you and your agent can use, plus mock webhooks for 500+ providers. It's free, no account or setup required.",
-      "intro_zh": "",
+      "tagline_zh": "供你和智能代理使用的免费 Webhook 测试工具",
+      "description_zh": "用 Hookdeck Inspect 测试和调试 Webhook，可获取你和智能代理都能使用的在线地址，以及覆盖 500 多家服务商的模拟 Webhook。产品介绍称工具免费，无需账号或配置。",
+      "intro_zh": "给对接第三方服务的开发者用，提供接收事件通知的在线地址和模拟通知，用于测试与排错。",
       "url": "https://www.producthunt.com/products/hookdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ONA6KQJZWUEX2Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b2e949c3-7701-497b-8714-63ce5721a909.jpeg?auto=format",
       "votes_count": 119,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "测试场景明确，免注册和模拟通知能减少准备工作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "模拟通知是否贴近真实通知是具体问题，但资料未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先给可用地址、再提供测试样例的做法可借给其他开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重不用等真实事件就能开始测试；关键疑问是模拟通知能否覆盖实际业务需要的事件。",
+      "product_analysis": {
+        "target_problem": "开发者对接付款、订单等事件通知时，需要接收通知并检查处理结果。等真实业务触发事件，可能拖慢测试。",
+        "workflow": "获取在线地址，用它测试 Webhook（服务发生事件后主动发来的通知）；也可使用产品提供的模拟通知。",
+        "ai_value": "介绍没提 AI 的具体能力，主要靠在线接收地址和模拟通知改善测试体验，只说明智能代理也能使用。",
+        "differentiation": "免账号和配置，减少开始测试前的准备。若模拟通知与真实服务差异较大，开发者可能仍需另做验证。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 9e3aa9a2-b90e-442d-9743-ce93bf94723a)"
+      "technical_analysis": {
+        "disclosed_facts": "提供在线接收地址，以及覆盖 500 多家服务商的模拟 Webhook。",
+        "possible_approach": "如果自己做，可以先为每次测试分配接收地址，记录收到的内容，再按服务商准备可发送的通知样例。",
+        "tradeoffs": "最难的是让模拟通知贴近真实通知；字段或格式不一致，可能让测试通过的代码上线后仍报错。",
+        "unknowns": "介绍没说接收到的通知会保存多久、谁能访问。"
+      },
+      "transferable_insights": [
+        "做第三方服务对接工具时，可以先给用户可用的测试入口，再配常见事件样例，减少等待真实事件的时间。"
+      ],
+      "validation_questions": [
+        "选一个实际要对接的服务商，比较模拟通知与真实通知的字段和格式是否一致。",
+        "接收一条不含敏感信息的测试通知，检查他人仅凭地址是否就能查看内容。"
+      ],
+      "source_tagline": "Free webhook tester for you and your agent",
+      "source_description": "Test and debug webhooks with Hookdeck Inspect. Get a live URL you and your agent can use, plus mock webhooks for 500+ providers. It's free, no account or setup required."
+    },
+    {
+      "id": "1162044",
+      "name": "Teamily AI",
+      "name_zh": "Teamily AI",
+      "tagline_zh": "在一个聊天工具里连接个人 AI 助手、AI 助手团队和其他人",
+      "description_zh": "Teamily AI 将多人和多个持续在线的 AI 助手放进同一个能结合上下文协作的聊天空间，并连接文档、会议、通话、工作流程和业务系统，用于办公及客服自动化。简介称助手拥有持久记忆、能主动处理事务并持续自我改进，且可免费开始使用。",
+      "intro_zh": "给需要多人协作的办公和客服团队用，在同一个聊天空间里与多个 AI 助手共同处理工作。",
+      "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EKZU365TJG62XT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fd5b66ca-66f1-473b-be98-91d0ad7fce9c.jpeg?auto=format",
+      "votes_count": 350,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "协作对象和场景清楚，但没有具体任务案例说明能省多少事。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人共享助手记忆带来明确的权限问题，但资料未说明处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把助手放进团队讨论的做法可借鉴，实际收益仍需验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是多人接手任务时可能少补一遍背景；最影响判断的是，共享助手能否守住不同成员的信息权限。",
+      "product_analysis": {
+        "target_problem": "办公和客服团队可能需要多人接力处理同一件事。个人助手若只掌握一个人的信息，其他成员参与时可能还得补充背景。",
+        "workflow": "成员在同一聊天空间与多个助手协作，并连接文档、会议和业务系统处理工作。介绍没有给出具体任务的发起和交付步骤。",
+        "ai_value": "AI 助手结合上下文参与办公和客服任务。简介提到持久记忆和主动处理事务，但未说明能独立完成哪些工作。",
+        "differentiation": "它把个人使用助手扩展为多人共同协作，可能减少反复交代背景。团队是否愿意迁入新的聊天工具，是一个使用门槛。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到多用户、多助手协作、持久记忆及业务系统连接，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让助手读取获准访问的群聊和文档，再保存任务摘要，供后续参与者继续处理。",
+        "tradeoffs": "最难的是按成员权限取用记忆；若把私聊内容带进群聊回复，就可能泄露信息。",
+        "unknowns": "成员权限变化后，助手保存的旧记忆是否仍可被调用？"
+      },
+      "transferable_insights": [
+        "做团队工单工具时，可以让助手围绕同一任务保留摘要，让接手的人继续处理，不必重述全部背景。"
+      ],
+      "validation_questions": [
+        "用两个权限不同的账号参与同一任务，检查助手是否会透露受限资料。",
+        "隔一段时间继续同一任务，检查助手能否准确记住此前已确认的结论。"
+      ],
+      "source_tagline": "Your personal agent, agent teams & people in one messenger",
+      "source_description": "The human-agent platform where people and always-on agents get work done together in one unified, context-aware space. Unlike single-user personal agents, Teamily AI enables multi-user, multi-agent teamwork. Built on an AI-native messenger, it connects people, agents, docs, meetings, calls, workflows, and business systems to automate office work and customer service. Agents become real teammates with persistent memory, proactive intelligence, and continuous self-improvement. Free to get started."
+    },
+    {
+      "id": "1302018",
+      "name": "LifeVal",
+      "name_zh": "LifeVal",
+      "tagline_zh": "OpenAI 面向 AI 日常生活任务的评测基准",
+      "description_zh": "历史缓存将 LifeVal 描述为 OpenAI 的一项评测，覆盖寻找托育、预算规划、订购杂货和政务服务等日常任务。简介称，OpenAI 用它持续一年推动 ChatGPT 执行实际任务；这些说法未重新核验。",
+      "intro_zh": "LifeVal 面向开发生活助手的团队，用日常办事任务评估 AI，关注找托育、做预算等需求。",
+      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LUAD4D36GSESMI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/985f8044-9031-45e7-9127-097c2a5f8066.png?auto=format",
+      "votes_count": 126,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "评测场景明确，但没有展示结果如何帮助团队改进产品。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何判定现实任务完成值得思考，但评分方法未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可以借鉴按生活任务设计测试的做法，具体标准仍需自建。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它围绕具体生活需求评估 AI 的方向。但缓存未给出样题和标准，尚无法判断它能否识别“说得好、办不成”的情况。",
+      "product_analysis": {
+        "target_problem": "做生活助手的团队需要判断 AI 能否帮人办事。回答看起来合理，不一定意味着托育找到或杂货订好。",
+        "workflow": "介绍只说明它用日常任务评估 AI，未提供使用入口或操作步骤。无法判断外部团队能否直接使用。",
+        "ai_value": "AI 是被评估的对象。LifeVal 用来检验它处理日常任务的能力，介绍没说评测本身是否由 AI 打分。",
+        "differentiation": "它把评测放到具体生活需求中。缺少评分标准，可能让团队难以判断结果是否适用于自己的产品。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了日常任务评测这一用途，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一种生活任务，写清用户条件和完成标准，再让助手执行，逐项核对结果。",
+        "tradeoffs": "最难的是定义“完成”。若把推荐商家当成订购成功，就可能高估助手能力，让用户误以为事情已办妥。",
+        "unknowns": "评分是否检查实际办事结果？"
+      },
+      "transferable_insights": [
+        "做办事型助手时，可以按用户目标组织测试，把“给出建议”和“完成操作”分开计分。"
+      ],
+      "validation_questions": [
+        "查看一道完整样题，检查评分是否要求可核对的完成证据。",
+        "检查是否公开可运行的测试材料，确认外部团队能否复用。"
+      ],
+      "source_tagline": "OpenAI's benchmark for everyday life tasks with AI",
+      "source_description": "LifeVal is OpenAI's new eval for the everyday tasks people most want help with, like finding childcare, budgeting, ordering groceries and government services. OpenAI says it used LifeVal for a year to push ChatGPT toward real agent work."
     },
     {
       "id": "1302042",
       "name": "People Search by Context.dev",
       "name_zh": "People Search by Context.dev",
-      "tagline_zh": "People Search API: Find People by Role, Company & Location",
-      "description_zh": "Describe the people you need in plain English. Get up to 10 profiles per call with role, employer, location, experience, skills, and schools.",
-      "intro_zh": "",
+      "tagline_zh": "人员搜索接口：按职位、公司和地点找人",
+      "description_zh": "用日常英语描述你要找的人。每次调用最多返回 10 份个人资料，包含职位、雇主、地点、经历、技能和毕业院校。",
+      "intro_zh": "给需要在产品中接入找人功能的开发者，用英语描述条件，获取匹配人员的职业资料。",
       "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3IKZZRN7VHAG4G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5dd95c31-f7af-4b54-8537-1dc70fe4c82f.jpeg?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "找人条件和返回内容明确，但匹配质量与资料时效未知。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把自然语言条件准确用于人员筛选，是具体且值得验证的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自由描述条件、返回固定字段的做法，可借用于其他搜索工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是能把英语找人需求接进现有产品；但资料来源和使用授权不明，可能直接决定能否采用。",
+      "product_analysis": {
+        "target_problem": "做招聘或商务找人工具的团队可能会用它。用户会同时关心职位、公司和地点，需要把这些条件变成可执行的搜索。",
+        "workflow": "通过 API（让软件互相传数据的接口）提交英语描述，接收最多 10 份个人资料，再由自己的产品展示或处理。",
+        "ai_value": "介绍没提 AI，主要靠自然语言输入和资料返回来改善体验，不能据此确定是否使用模型。",
+        "differentiation": "它允许直接描述找人要求。最可能让团队犹豫的是资料是否足够新，尤其是当前任职信息。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c46b5a76-e0b5-435d-a90e-d0691126900d)"
+      "technical_analysis": {
+        "disclosed_facts": "提供人员搜索 API，支持日常英语描述，每次最多返回 10 份含职业与教育信息的资料。",
+        "possible_approach": "如果自己做，可以先把英语描述拆成职位、公司、地点等条件，再到有权使用的人员资料库中筛选，统一返回字段。",
+        "tradeoffs": "最容易错在条件理解。若把“曾在某公司工作”当成“目前任职”，用户就会收到不符合要求的人选。",
+        "unknowns": "人员资料从哪里来，是否允许接入方用于自己的业务？"
+      },
+      "transferable_insights": [
+        "做候选人或专家搜索时，可以让用户自由描述要求，再用固定字段返回结果，方便列表展示与比较。"
+      ],
+      "validation_questions": [
+        "提交明确要求“目前在某公司任职”的查询，检查结果是否混入前员工。",
+        "核对数据授权条款，确认是否允许用于计划中的业务场景。"
+      ],
+      "source_tagline": "People Search API: Find People by Role, Company & Location",
+      "source_description": "Describe the people you need in plain English. Get up to 10 profiles per call with role, employer, location, experience, skills, and schools."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,357 +1,511 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-08-20T15:53:21+08:00",
+  "generated_at": "2026-11-07T15:35:16+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1226478",
-      "name": "Claude Watermark Remover",
-      "name_zh": "Claude 水印清除器",
-      "tagline_zh": "找出并清除 AI 在文本中留下的每一丝痕迹",
-      "description_zh": "粘贴任意文本，就能看到聊天界面在里面留下的各种痕迹：隐藏的 HTML 类名、零宽字符、特殊空格、排版标记。每个发现都有数量和位置，因为它们是字节层面的客观事实，不是概率猜测。一键清理，免费无限、无需注册，完全在浏览器本地运行，不上传任何内容。",
-      "intro_zh": "粘贴文本就能揪出 AI 留下的隐藏字符和格式痕迹，一键清干净。不想被看出文本是 AI 写的编辑、学生党会喜欢。",
-      "url": "https://www.producthunt.com/products/claude-watermark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XASKV4BHPP45EY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/88931443-6ba4-4fb7-995f-aa5a64c7cf38.png?auto=format",
-      "votes_count": 245,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以录屏展示粘贴文本后高亮隐藏字符、点击清理的前后对比，操作直观；但画面主要是字符和标记，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "粘贴即用，无需技术背景；不过零宽字符、HTML 类名等概念对普通用户稍显陌生，需要简单解释。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第 4 名，245 票，属于前 10，话题有热度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "AI 写的东西里竟藏着隐形字符？这个工具一键全揪出来",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示：先从 ChatGPT 或 Claude 复制一段文本，粘贴进工具，高亮显示零宽字符和隐藏 HTML 类名；展示计数和位置，再点击一键清理，复制出来对比前后差异。突出免费、本地运行、不上传隐私，节奏前 10 秒抛出痛点，中间操作紧凑，最后强调开源。",
-        "target_audience": "担心 AI 生成痕迹的学生、自媒体作者、职场上班族"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作直观、前后对比清晰，加上 AI 痕迹话题正热，很适合拍成短视频教程。"
-    },
-    {
-      "id": "1226377",
-      "name": "Fairphone Gen 6+",
-      "name_zh": "公平手机 Gen 6+",
-      "tagline_zh": "模块化设计，一部能陪你到2033年的手机",
-      "description_zh": "这是一款能自己换零件的5G手机，官方给五年保修，配了5000万像素摄像头，系统支持承诺到2033年。适合不想频繁换手机、坏了想修而不是直接扔的人。",
-      "intro_zh": "这是一部能自己拆开换电池、换屏幕的模块化5G手机，官方保修五年、支持到2033年。适合不想两三年就换手机、希望设备耐用好修的人。",
-      "url": "https://www.producthunt.com/products/fairphone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RYLWVL5IPFFUVI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/0c284f82-963a-413b-8439-a7bd0ec9a1b0.jpeg?auto=format",
-      "votes_count": 136,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "模块化拆解过程非常有展示性，实物操作、前后对比画面感强，适合开箱与测评。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "智能手机是大众消费品，模块化可更换零件概念直观，不需要专业知识也能理解。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第6名，票数136，处于榜单前列但未进前三，有一定关注度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "把手机大卸八块还能保修？Fairphone Gen 6+ 太离谱了",
-        "angle": "开箱体验",
-        "shooting_tips": "先快速展示拆后盖换电池、换屏幕的过程制造视觉冲击，再对比普通手机难修的一体化设计，穿插相机样张和系统更新承诺，最后总结适合谁用。",
-        "target_audience": "关注数码产品、讨厌频繁换机、重视环保和维修权的用户，尤其是极客、学生和环保主义者。"
-      },
-      "category": "硬件设备",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "模块化手机拆解演示视觉冲击力强，普通人一看就懂，热度也不错，非常适合做视频。"
-    },
-    {
-      "id": "1216898",
-      "name": "Paper Critters",
-      "name_zh": "纸艺小动物",
-      "tagline_zh": "儿童友好纸玩具，免费装饰，通过COPPA安全认证",
-      "description_zh": "Paper Critters 把屏幕上的创意和动手做结合起来。孩子们可以在网页上自由设计自己的纸玩具角色，用各种贴纸装饰，然后打印出来，上面已经标好裁剪线和折叠线，剪剪折折就能拼成立体小玩具。手机、平板、电脑都能用，支持添加到主屏幕，不用下载应用商店；免费开始，不需要注册邮箱，还有人工审核的作品展示区和私人保存功能，对家长很省心。",
-      "intro_zh": "让孩子在网页上设计纸玩具，打印出来剪折就能拼成小玩偶。想找免费又安全的亲子手工活动，家长和老师会需要。",
-      "url": "https://www.producthunt.com/products/paper-critters?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YLAOPRDBSN3BJX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b21b46ad-42af-475f-a57e-aecbfd18755b.png?auto=format",
-      "votes_count": 128,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有完整的网页设计界面、贴纸拖拽操作和从屏幕到实物的打印拼装过程，前后对比直观，画面节奏感强，适合演示。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "儿童自己都能看懂操作，不需要账号和技术背景，打开网页就能玩，门槛极低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第9、128票，进入前十，有一定热度但不算现象级。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "不用花钱买玩具！这个网站让娃自己设计纸玩偶，打印就能玩",
-        "angle": "教程演示",
-        "shooting_tips": "先展示最终成品纸玩具吸引注意，再打开网页演示选择角色、贴纸装饰、打印预览，最后实拍打印、裁剪、折叠、拼装过程；突出完全免费、无需下载、无账号，节奏轻快，配轻快背景音乐。",
-        "target_audience": "3-10岁孩子的家长、幼儿园和小学老师、想找低成本亲子手工活动的家庭"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面上手快、孩子家长都能秒懂，又有手工成品展示，适合拍成亲子向短视频。"
-    },
-    {
-      "id": "1224395",
-      "name": "Astute",
-      "name_zh": "Astute",
-      "tagline_zh": "用新媒体创作者，把你的B2B品牌自动推成爆款",
-      "description_zh": "Astute 是第一个B2B新媒体平台，主打创作者合作。它能监控你品牌在新媒体上的存在感，用数据找出买家信任的创作者，自动运营合作。全流程几分钟就能跑起来。",
-      "intro_zh": "帮做企业生意的公司自动对接网红搞推广，用数据选人、自动运营。想在新媒体上刷存在感的B2B老板和市场部直接用。",
-      "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/T27HYYATJQRXUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ffb8da08-6306-448d-b87b-eacff30e80ec.png?auto=format",
-      "votes_count": 494,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要是后台管理界面和数据图表，操作流程可以录屏展示，但画面偏静态，缺少前后对比和视觉冲击力，整体观感较平淡。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "B2B营销和创作者合作对普通用户比较陌生，需要理解一些行业背景，不过产品界面本身操作不复杂，但概念门槛中等。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 排名第1，票数494，热度非常高，话题性足够。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "B2B品牌也能自动撒网找网红？这工具5分钟搞定",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从注册、连接创作者市场、生成数据策略到自动运营的完整流程，突出几分钟搞定的卖点。可以用前后对比（手动找创作者 vs 自动匹配）加强说服力，节奏明快，关键步骤加字幕。",
-        "target_audience": "B2B公司市场人员、创始人、数字营销从业者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "热度高但内容偏B2B营销，画面演示一般，适合面向垂直人群讲解操作价值。"
-    },
-    {
       "id": "1202963",
       "name": "Clipto MCP",
-      "name_zh": "Clipto MCP 智能剪辑助手",
-      "tagline_zh": "让 AI 助手从你本地几个 T 的视频里自动挑出想要的片段",
-      "description_zh": "Clipto MCP 能让 Claude、ChatGPT 这类 AI 助手直接在你电脑里的视频、照片和录音中找素材、剪片段。你只要用日常话说需求，比如“把脚本每句话配上本地画面”或“找出所有提到某个话题的场景”，它就能帮你粗剪或搜索多年素材，像多了个专属剪辑助理。",
-      "intro_zh": "让 AI 直接翻你电脑里的视频和照片，说句话就挑素材、做粗剪。视频博主、剪辑师素材多的人不用手动找。",
+      "name_zh": "Clipto MCP",
+      "tagline_zh": "让 AI 助手从本地大量视频中查找所需片段",
+      "description_zh": "Clipto MCP 让 Claude、ChatGPT 等 AI 助手在电脑里的视频、照片和录音中查找素材、剪取片段。用户可以用日常语言要求按脚本寻找本地画面，或搜索提到某个话题的场景，辅助完成粗剪。",
+      "intro_zh": "给积累了大量本地素材的剪辑者用，让 AI 助手按文字需求找画面、查录音并剪取片段。",
       "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OTKPG4D4Y4NG66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format",
       "votes_count": 447,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "可展示从海量本地视频里“一句话找片段、自动粗剪”的前后对比，画面直观，适合视频演示。"
+          "reason": "找素材和粗剪的场景清楚，但匹配质量尚未核验。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "“说需求找素材”的概念容易懂，但要连 MCP、配置本地文件和 AI 助手，对小白有门槛。"
+          "reason": "文字需求如何对应准确片段值得拆解，但实现信息有限。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日第2名，447票，热度很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "让已有助手搜索本地资料的做法可供其他素材工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "让AI翻遍你电脑里几个T的视频，说句话就剪好片子？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示本地视频库→在AI助手输入指令→实时匹配素材和粗剪结果；插入手动翻找的耗时对比；前10秒抛出反差，突出“省时”。",
-        "target_audience": "视频博主、剪辑师、需要从海量本地素材中快速找片段的创作者"
-      },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示直观、热度高，但 MCP 配置略劝退小白，适合做教程型视频。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是搜索结果能继续用于剪片，少一次人工定位；最影响判断的是它能否理解画面与脚本的关系，而非只找到相同关键词。",
+      "product_analysis": {
+        "target_problem": "剪辑者为脚本配画面、回查旧录音时，需要从多年积累的素材里找到相关片段。文件找到了，也未必知道该用哪几秒。",
+        "workflow": "向 AI 助手用日常话描述需求，例如按脚本找画面或查找某个话题。工具据此搜索本地素材，辅助剪取片段或粗剪；具体接入步骤未说明。",
+        "ai_value": "AI 把文字需求对应到素材内容，帮助寻找可用片段。介绍未说明它如何理解画面和录音。",
+        "differentiation": "把找素材、剪片段放进与助手的对话中，可能减少来回查找。最可能让人不愿换用的是匹配不准，仍要逐段复查。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到可由 Claude、ChatGPT 等助手搜索和剪取本地媒体，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给素材生成带时间位置的文字描述，再按用户需求检索，最后按位置剪取候选片段。",
+        "tradeoffs": "最难的是把脚本意思匹配到合适画面。只匹配到相同词语，可能找出内容相关却无法配合叙事的片段。",
+        "unknowns": "本地素材是否需要上传到外部服务处理？"
+      },
+      "transferable_insights": [
+        "做素材库工具时，可以让搜索结果直接定位到片段，并提供剪取动作，减少用户重新打开文件定位的操作。"
+      ],
+      "validation_questions": [
+        "用一段已有脚本找画面，检查候选片段是否真正符合句意。",
+        "检查媒体处理时是否上传原始素材。"
+      ],
+      "source_tagline": "让 AI 助手从你本地几个 T 的视频里自动挑出想要的片段",
+      "source_description": "Clipto MCP 能让 Claude、ChatGPT 这类 AI 助手直接在你电脑里的视频、照片和录音中找素材、剪片段。你只要用日常话说需求，比如“把脚本每句话配上本地画面”或“找出所有提到某个话题的场景”，它就能帮你粗剪或搜索多年素材，像多了个专属剪辑助理。"
     },
     {
       "id": "1225966",
       "name": "Origin by Cursor",
-      "name_zh": "Origin（Cursor 代码托管平台）",
+      "name_zh": "Origin by Cursor",
       "tagline_zh": "为 AI 编程助手时代打造的 Git 代码托管平台",
-      "description_zh": "这是 Cursor 推出的代码托管平台，专门给人和 AI 编程助手一起干活用的。你可以在 Cursor 里直接建仓库、存代码、看代码、审 Pull Request、管权限，还能跟 GitHub 同步。以后还会有更多给 AI 助手用的功能。",
-      "intro_zh": "Cursor里内置的代码托管平台，建仓库、搜代码、审PR都能干，还能同步GitHub。用Cursor和AI编程搭档写代码的人必备。",
+      "description_zh": "Origin 是供人和 AI 编程助手协作的代码托管平台，可在 Cursor 内创建仓库、保存和查看代码、审核代码合并请求、管理权限，并与 GitHub 同步。简介还提到，未来会增加面向 AI 助手的功能。",
+      "intro_zh": "给在 Cursor 中写代码的开发者和团队用，在编辑器内管理代码仓库、审核修改并与 GitHub 同步。",
       "url": "https://www.producthunt.com/products/cursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SGM5OGI6LTVBU5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c96a5270-7e48-455d-b7f5-2dace57977d8.png?auto=format",
       "votes_count": 319,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群和集中处理的任务明确，但节省多少操作尚未验证。"
+        },
+        "technical_insight": {
           "score": 3,
-          "reason": "有实际界面和操作流程可以拍，比如建仓、AI 审查 PR，但代码界面较多、视觉冲击力一般，对非开发者吸引力有限。"
+          "reason": "跨平台同步有具体问题可分析，但同步规则未披露。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 Git、代码托管、Pull Request 和 AI 编程代理，概念门槛较高，普通用户需要一定开发背景才能理解和使用。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日第3名，票数319，热度不错，话题性较高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把协作操作放回工作现场，并兼容已有平台，是可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "Cursor 出了个给 AI 用的代码仓库，程序员要失业了？",
-        "angle": "教程演示",
-        "shooting_tips": "屏幕录制 Cursor 内创建仓库、浏览代码、提交 PR、AI 审查等关键操作；突出“不用切到 GitHub”和“AI 原生”卖点；节奏可以快剪，先展示痛点（在多个工具间切换），再演示 Origin 解决，最后给结论。",
-        "target_audience": "使用 Cursor 或其他 AI 编程工具的开发者、程序员、技术爱好者，想提高效率和关注 AI 编程趋势的人。"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有实际演示画面和一定热度，但对普通用户技术门槛较高，适合面向开发者群体的内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重写代码时就能处理审查；最影响判断的是 GitHub 同步遇到冲突时，能否保住双方修改。",
+      "product_analysis": {
+        "target_problem": "面向在 Cursor 中写代码、还要参与团队协作的开发者。代码托管、审查和权限管理若分散在不同地方，处理时可能需要来回切换。",
+        "workflow": "用户可在 Cursor 内建仓库、保存和查看代码，再审核 Pull Request（请求把一组修改合入代码库）、管理权限。已有 GitHub 仓库还可使用同步功能。",
+        "ai_value": "简介提到人和 AI 助手协作，但没说明 AI 已经具体执行什么任务。更多助手功能属于未来计划，不能算现有能力。",
+        "differentiation": "它把托管相关操作放进写代码的地方。最可能让团队犹豫的是：与现有 GitHub 协作方式能否兼容。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 Git（记录代码修改历史的工具）代码托管、Cursor 内操作和 GitHub 同步。",
+        "possible_approach": "如果自己做，可以先接好代码存储和权限检查，再在编辑器内加入查看、审查入口，最后处理与 GitHub 的同步。",
+        "tradeoffs": "最难的是两边同时修改后的同步处理。若覆盖了另一边的更新，用户可能审查旧版本，或漏掉同事的修改。",
+        "unknowns": "同步是单向还是双向，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做面向专业用户的编辑工具时，可以把高频协作操作放在编辑内容旁边，减少切换页面。",
+        "替代已有平台时，可以先提供同步，让团队保留原有协作方式，再决定是否迁移。"
+      ],
+      "validation_questions": [
+        "在两边修改同一文件后，同步能否明确提示冲突而不静默覆盖？",
+        "给成员设置只读权限后，他是否确实无法提交修改？"
+      ],
+      "source_tagline": "为 AI 编程助手时代打造的 Git 代码托管平台",
+      "source_description": "这是 Cursor 推出的代码托管平台，专门给人和 AI 编程助手一起干活用的。你可以在 Cursor 里直接建仓库、存代码、看代码、审 Pull Request、管权限，还能跟 GitHub 同步。以后还会有更多给 AI 助手用的功能。"
     },
     {
       "id": "1224932",
       "name": "Hosted Agents in Cluing",
-      "name_zh": "Cluing 云端智能体",
-      "tagline_zh": "能在一个地方构建、学习和发布的协作智能体。",
-      "description_zh": "Cluing 托管智能体把原本只待在个人电脑里的代理搬进团队协作空间。你可以在电脑上开始干活，手机上继续，再交给同事，上下文不丢失。随着积累新洞察，代理技能不断升级，成为团队资产。任何人都能分配任务、发布成果，还能通过 API 或 MCP 连接外部工具。合上电脑，工作照样继续。",
-      "intro_zh": "把AI助手放到云端，电脑关了它还能接着干活，手机和同事也能接力。需要自动化跑任务、团队协作的运营和创业者会喜欢。",
+      "name_zh": "Hosted Agents in Cluing",
+      "tagline_zh": "在同一空间构建、学习和发布的协作智能体。",
+      "description_zh": "Cluing 将智能体托管到团队协作空间，支持跨设备继续任务、交给同事，并保留上下文。介绍还称，智能体能积累技能，支持分配任务、发布成果及连接外部工具，电脑关闭后仍可继续工作。",
+      "intro_zh": "给需要共同使用智能体的团队，把任务放进共享空间，换设备或交给同事后继续处理。",
       "url": "https://www.producthunt.com/products/cluing?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LQXQPUPFGN5HBZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/48b0e7db-bafd-4dcd-bae7-3ea2107c4a42.png?auto=format",
       "votes_count": 181,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有后台面板和任务流转画面可演示，但视觉冲击力一般，多为操作界面而非直观效果。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "分配任务和团队协作概念不难理解，但连接 API/MCP 等外部工具有一定技术门槛。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 排名第5，181票，属于当日热门产品，有一定话题性。"
+          "reason": "跨设备接续和同事接手的场景清楚，但实际保留哪些工作信息尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人接手时如何恢复任务状态，是直接影响可用性的具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把进行中的任务做成可交接对象，可借用于其他长时间运行的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "关掉电脑，AI 还在替你打工？这个工具把智能体搬上了云端",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示创建智能体、分配任务、从电脑切换到手机、交接给同事，以及连接外部工具的流程；重点突出‘合上电脑工作继续’的卖点，节奏要快，避免长时间停留在设置页。",
-        "target_audience": "想用 AI 自动化重复工作、需要团队协作的中小团队运营、产品经理和创业者"
-      },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有可演示的协作操作画面，但技术概念略多，适合做成教程向视频吸引效率工具爱好者。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让任务脱离个人电脑持续运行；最大疑问是“上下文不丢失”究竟覆盖哪些工作状态。",
+      "product_analysis": {
+        "target_problem": "团队共同使用智能体时，任务若留在个人电脑上，换人或关机就可能中断。它把工作移到团队空间，方便接续。",
+        "workflow": "成员分配任务，在电脑上开始后，可换手机继续或交给同事，再发布成果。介绍未说明具体界面操作。",
+        "ai_value": "智能体负责执行分配的任务；介绍还称它会积累技能，但没有说明如何把新洞察变成可复用能力。",
+        "differentiation": "主要省下重新交代任务背景的麻烦。最可能影响迁移的是团队能否接受把工作资料放到托管环境。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持托管运行，并通过 API（软件间传数据的接口）或 MCP（让智能体连接工具的协议）连接外部工具。",
+        "possible_approach": "如果自己做，可以先在服务器运行任务，再保存对话、文件和执行进度，让其他设备或成员读取后接续。",
+        "tradeoffs": "最难的是完整恢复任务状态。若只留下聊天记录，却漏了文件或工具执行结果，接手者可能重复操作。",
+        "unknowns": "所谓技能升级，是保存团队经验，还是改变智能体的执行方式？"
+      },
+      "transferable_insights": [
+        "做长任务工具时，可把任务进度和成果保存在共享空间，让交接不依赖发起人的电脑在线。"
+      ],
+      "validation_questions": [
+        "任务执行到一半交给同事，能否保留继续处理所需的文件和进度？",
+        "给一个成员限制工具权限后，他能否借共享智能体执行越权操作？"
+      ],
+      "source_tagline": "能在一个地方构建、学习和发布的协作智能体。",
+      "source_description": "Cluing 托管智能体把原本只待在个人电脑里的代理搬进团队协作空间。你可以在电脑上开始干活，手机上继续，再交给同事，上下文不丢失。随着积累新洞察，代理技能不断升级，成为团队资产。任何人都能分配任务、发布成果，还能通过 API 或 MCP 连接外部工具。合上电脑，工作照样继续。"
     },
     {
-      "id": "1222356",
-      "name": "Expert Chase 2.0",
-      "name_zh": "行家追踪 2.0",
-      "tagline_zh": "人类生活与AI一起奔跑",
-      "description_zh": "体验全新改版，旨在让日常生活更简单、更紧密、更有用。打开它，探索它，亲身体验。",
-      "intro_zh": "一个AI生活助手，说自己能让日常更简单、更连接。想省事又想过得明白的上班族和学生党可以试试。",
-      "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7QRFBBFPA4I3CX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/25d77d5a-f7a7-40ae-98d1-aa8f165339b4.png?auto=format",
-      "votes_count": 134,
+      "id": "1226377",
+      "name": "Fairphone Gen 6+",
+      "name_zh": "Fairphone Gen 6+",
+      "tagline_zh": "模块化设计，承诺系统支持至2033年的手机",
+      "description_zh": "这是一款支持自行更换零件的5G手机，配有5000万像素摄像头，官方提供五年保修，并承诺系统支持至2033年。它面向希望长期使用手机、损坏后优先维修的人。",
+      "intro_zh": "给不想频繁换手机的人用，支持自己更换零件，让局部损坏后仍有继续使用的选择。",
+      "url": "https://www.producthunt.com/products/fairphone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RYLWVL5IPFFUVI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0c284f82-963a-413b-8439-a7bd0ec9a1b0.jpeg?auto=format",
+      "votes_count": 136,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "产品描述太抽象，没有具体功能画面或前后对比，演示效果和视觉冲击力不足。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "概念上普通人能看懂“让生活更简单”，但具体能干什么不清楚，上手门槛不高但容易迷茫。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt排名第7，票数134，进入前10，有一定关注度。"
+          "reason": "维修和长期使用的需求清楚，但零件供应与价格尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "可更换零件与长期系统支持，需要同时解决硬件维修和软件维护。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把易损部分做成可替换单元，可借用于需要长期使用的硬件。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI生活助手实测：第7名的Expert Chase 2.0是真有用还是画大饼？",
-        "angle": "开箱体验",
-        "shooting_tips": "打开App后快速浏览主要界面，点按几个核心入口，对比它宣称的“让生活更简单”和实际体验，节奏前快后吐槽。",
-        "target_audience": "对AI工具有兴趣、不想研究复杂操作的普通用户"
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重局部损坏后还能继续使用整机的选择；但能否长期买到价格合理的零件，会直接影响这个好处是否成立。",
+      "product_analysis": {
+        "target_problem": "想长期保留一部手机的人，会关心局部损坏后能否维修，以及系统还能支持多久。它分别给出自行换件和长期系统支持的承诺。",
+        "workflow": "正常作为手机使用，零件损坏后可自行更换。简介没说明哪些零件能换，也没提供购买和安装流程。",
+        "ai_value": "介绍没提 AI，主要靠可更换零件的设计和系统维护承诺来改善体验。",
+        "differentiation": "自行换件可能减少送修的麻烦；最可能让人犹豫的是，替换零件是否容易买到。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "排名不错但功能描述模糊，视频只能做开箱吐槽，难以做出深度演示。"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介明确提到5G、自行更换零件、5000万像素摄像头，以及系统支持至2033年的承诺。",
+        "possible_approach": "如果自己做，可以先把容易损坏的部件做成可拆换单元，再设计便于拆装的连接和固定方式，同时安排后续系统维护。",
+        "tradeoffs": "最容易出错的是换件时的连接与固定；若装不到位，用户可能换了零件仍无法正常使用。",
+        "unknowns": "系统支持到2033年，具体包含哪些更新？"
+      },
+      "transferable_insights": [
+        "做长期使用的硬件时，可以让易损部件单独更换，避免局部故障牵连整机报废。"
+      ],
+      "validation_questions": [
+        "按官方说明更换一种支持自行更换的零件，检查普通用户能否完成并恢复使用。",
+        "检查官方零件商店是否明确列出替换件的供应地区和价格。"
+      ],
+      "source_tagline": "模块化设计，一部能陪你到2033年的手机",
+      "source_description": "这是一款能自己换零件的5G手机，官方给五年保修，配了5000万像素摄像头，系统支持承诺到2033年。适合不想频繁换手机、坏了想修而不是直接扔的人。"
     },
     {
-      "id": "1223837",
-      "name": "OmniVibe",
-      "name_zh": "万象共鸣",
-      "tagline_zh": "一个连接AI智能体创作者和用户的市场",
-      "description_zh": "OmniVibe 让专门干活的AI智能体和它们的创作者聚在一起。创作者可以把已经做好的智能体上传发布，不再只放在本地或GitHub上，还能靠别人的使用赚钱。普通用户能浏览或直接说出需求，平台帮你找到合适的智能体，还能同时和好几个智能体一起干活，就像在Slack上跟同事聊天一样。",
-      "intro_zh": "一个买卖AI智能体的平台，创作者把自己的机器人挂上去赚钱，普通人像逛淘宝一样找能帮自己干活的AI。适合开发者和不想折腾AI的上班族。",
-      "url": "https://www.producthunt.com/products/omnivibe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HE5UDGEWOAQACW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/339c1daf-771b-49f3-908a-e9f24f9168cb.png?auto=format",
-      "votes_count": 129,
+      "id": "1216898",
+      "name": "Paper Critters",
+      "name_zh": "Paper Critters",
+      "tagline_zh": "适合儿童的纸玩具，可免费装饰；缓存标语声称通过 COPPA（美国儿童网络隐私保护法）相关安全认证，未经核验。",
+      "description_zh": "孩子可以在网页上设计纸玩具角色、添加贴纸，再打印带有裁剪线和折叠线的图纸，动手拼成立体玩具。支持手机、平板和电脑，可添加到主屏幕；免费开始，无需邮箱注册，并提供私人保存和人工审核的作品展示区。",
+      "intro_zh": "给想做纸玩具的孩子和陪伴他们的家长用：在网页上装饰角色，打印图纸，再剪折成立体玩具。",
+      "url": "https://www.producthunt.com/products/paper-critters?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YLAOPRDBSN3BJX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b21b46ad-42af-475f-a57e-aecbfd18755b.png?auto=format",
+      "votes_count": 128,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "平台有丰富的界面操作，可以录屏演示浏览、搜索、上传智能体、多智能体对话等完整流程，前后对比明显，适合视频呈现，但视觉冲击力中等，不像设计工具那样有惊艳画面。"
+          "reason": "从网页设计到打印制作的用途明确，但成品是否容易拼装还待确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "AI智能体的概念对普通用户稍显陌生，需要简单类比成“能帮你干活的机器人”才能理解。平台本身操作不复杂，但入口有GitHub、SKILL.md等词，理解门槛中等。"
+          "reason": "屏幕装饰如何准确落到折叠后的纸模型上，是具体且值得检查的问题。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "ProductHunt排名第8，票数129，处于前10，有一定热度，但不算爆款，话题性一般。"
+          "reason": "把数字创作输出为带制作标记的实物图纸，可借用于手工教育产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "把AI当员工用？这个平台能同时指挥多个AI干活，还能卖自己养的AI赚钱",
-        "angle": "教程演示",
-        "shooting_tips": "录制浏览首页、搜索需求、查看智能体详情、发起多智能体对话的完整用户流程，再切换到创作者后台上传智能体、设置价格、查看收入。突出多智能体协作像Slack聊天的卖点，节奏先展示痛点（AI工具太散），再演示一站式解决，最后展示收益或成果。",
-        "target_audience": "对AI工具好奇、想找现成AI助手提高效率的上班族和学生，以及想把自己的AI作品变现的独立开发者。"
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是创作结果能拿到手里继续玩。但面向儿童，隐私保护很关键，缓存中的认证说法不能直接当作安全保证。",
+      "product_analysis": {
+        "target_problem": "孩子想把自己设计的角色做成实物，需要既能装饰、又能照着制作的图纸。它把这两件事放在一起。",
+        "workflow": "在网页上设计角色、添加贴纸，再打印带裁剪线和折叠线的图纸，剪折后拼装。也可私人保存作品。",
+        "ai_value": "介绍没提 AI，主要靠网页编辑和可打印图纸来改善体验。",
+        "differentiation": "打印结果自带制作标记，省去另画裁剪线和折叠线的工作。家里能否方便打印，可能是持续使用的门槛。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有丰富的界面操作适合录屏演示，但AI智能体概念需要额外解释，普通观众理解有一定门槛。"
+      "technical_analysis": {
+        "disclosed_facts": "支持多种设备的网页访问和添加到主屏幕，作品展示区采用人工审核。",
+        "possible_approach": "如果自己做，可以先准备能折成立体角色的平面模板，再把贴纸位置写入打印文件，并保留裁剪线和折叠线。",
+        "tradeoffs": "最容易出错的是装饰与折叠面的对应：屏幕上位置合适，折好后却可能倒置或被遮住。",
+        "unknowns": "私人保存的作品存在哪里，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做儿童手工或课堂活动工具时，可以把制作标记直接放进打印结果，让孩子从设计接着做实物。"
+      ],
+      "validation_questions": [
+        "打印并拼装一个带方向性图案的角色，检查图案折好后是否位置正确。",
+        "检查私人保存是否会让其他用户看到作品。"
+      ],
+      "source_tagline": "儿童友好纸玩具，免费装饰，通过COPPA安全认证",
+      "source_description": "Paper Critters 把屏幕上的创意和动手做结合起来。孩子们可以在网页上自由设计自己的纸玩具角色，用各种贴纸装饰，然后打印出来，上面已经标好裁剪线和折叠线，剪剪折折就能拼成立体小玩具。手机、平板、电脑都能用，支持添加到主屏幕，不用下载应用商店；免费开始，不需要注册邮箱，还有人工审核的作品展示区和私人保存功能，对家长很省心。"
     },
     {
       "id": "1226287",
       "name": "Cronloop AI",
-      "name_zh": "循环AI助手",
-      "tagline_zh": "让AI智能体定时循环运行",
-      "description_zh": "Cronloop能让你创建定时循环运行的AI智能体，频率从每5分钟到每周一次。只需用Markdown描述任务，选好Codex或Claude Code，连上工具即可。每个智能体还有持久记忆，每次运行都能自我改进，今天就能免费试用第一个。",
-      "intro_zh": "让你创建定时循环干活的AI智能体，写好任务描述就能自动重复执行。适合需要定期自动化任务、又不想自己写脚本的开发者和效率控。",
+      "name_zh": "Cronloop AI",
+      "tagline_zh": "让 AI 智能体按设定时间重复运行",
+      "description_zh": "Cronloop 可创建定时运行的 AI 智能体，频率从每 5 分钟到每周一次，用 Markdown 描述任务，选择 Codex 或 Claude Code 并连接工具。简介还称智能体拥有持久记忆、能逐次自我改进，并提供首个智能体免费试用。",
+      "intro_zh": "给需要反复执行同类任务的人，用文字描述任务，让 AI 按设定频率调用工具处理。",
       "url": "https://www.producthunt.com/products/cronloop-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VMIR2MJHLVUNCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c3bf7b03-8253-4bf1-bd04-f44c83a641ca.jpeg?auto=format",
       "votes_count": 117,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 3,
-          "reason": "可以演示创建循环AI智能体、运行日志和记忆改进，但整体偏后台自动化，画面冲击力一般。"
+          "reason": "定时执行的用途清楚，但缺少具体任务和执行效果。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及Markdown、Codex/Claude Code等概念，普通用户不易上手，需要一定技术背景。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "PH排名第10，票数117，热度中等偏上，开发者圈有讨论。"
+          "reason": "跨次保留记忆后，如何避免错误不断累积是具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把文字任务与重复执行计划放在一起，适合借用于周期性工作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI自己给自己派活？定时循环任务神器体验",
-        "angle": "教程演示",
-        "shooting_tips": "录屏从零创建一个循环AI智能体：用Markdown写任务、选择模型、连接工具，展示定时执行和记忆改进过程。节奏放慢，突出'自动重复干活'的卖点，可加入运行日志特写。",
-        "target_audience": "对AI自动化感兴趣的开发者、技术爱好者和效率控。"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把一次任务变成可重复执行的安排。记忆能否纠错最影响长期使用判断，不能把持续运行直接当成持续变好。",
+      "product_analysis": {
+        "target_problem": "适合需要周期性处理同类任务的人。任务需要 AI 判断、又要反复执行时，逐次发起和补充背景可能很麻烦。",
+        "workflow": "用 Markdown（纯文本排版格式）描述任务，选择 Codex 或 Claude Code，连接所需工具，再设定运行频率。",
+        "ai_value": "AI 负责理解任务并使用工具执行。定时触发让任务重复运行；简介宣称的“自我改进”没有效果依据。",
+        "differentiation": "它把任务描述、执行工具和时间安排放在一起，可能省去逐次发起的动作。最可能让人犹豫的是无人看守时执行出错。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品适合拍教程视频展示自动化流程，但对普通用户理解门槛略高。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 Codex、Claude Code、工具连接和持久记忆，即跨次运行保留信息。",
+        "possible_approach": "如果自己做，可以先保存任务和时间安排，到点交给所选 AI 执行，再保存结果与下次需要的记录。",
+        "tradeoffs": "最难的是决定哪些信息值得记住。若把一次错误结论当成长期事实，后续运行可能反复沿用。",
+        "unknowns": "用户能否查看、修改或删除智能体记住的内容？"
+      },
+      "transferable_insights": [
+        "做周期性巡检或汇总工具时，可以把任务说明与执行频率一起保存，减少重复输入。"
+      ],
+      "validation_questions": [
+        "设定每 5 分钟运行一次，检查是否按计划触发。",
+        "让一次运行留下错误记录，检查能否清除它并阻止下次沿用。"
+      ],
+      "source_tagline": "让AI智能体定时循环运行",
+      "source_description": "Cronloop能让你创建定时循环运行的AI智能体，频率从每5分钟到每周一次。只需用Markdown描述任务，选好Codex或Claude Code，连上工具即可。每个智能体还有持久记忆，每次运行都能自我改进，今天就能免费试用第一个。"
+    },
+    {
+      "id": "1224395",
+      "name": "Astute",
+      "name_zh": "Astute",
+      "tagline_zh": "借助新媒体创作者，自动推广你的 B2B 品牌",
+      "description_zh": "Astute 面向企业间业务（B2B）的创作者合作，监测品牌在新媒体上的表现，并用数据寻找买家信任的创作者。简介称它能自动运营合作，几分钟即可启动，但未说明具体覆盖哪些环节。",
+      "intro_zh": "给需要做创作者合作的企业营销团队用，监测品牌表现、寻找合作对象，并自动运营合作。",
+      "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/T27HYYATJQRXUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ffb8da08-6306-448d-b87b-eacff30e80ec.png?auto=format",
+      "votes_count": 494,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找合作对象的需求明确，但自动运营的范围和收益不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何判断买家信任谁是具体问题，但资料没说明判断依据。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按目标买家筛选创作者可借鉴，但需要可靠的受众数据。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它把寻找创作者与后续合作放在一起；但“买家信任”的判断依据不明，直接影响推荐能否用于预算决策。",
+      "product_analysis": {
+        "target_problem": "企业营销团队想借创作者接触潜在买家时，需要判断谁的受众合适、谁有影响力。麻烦在于曝光高，不一定代表买家信任。",
+        "workflow": "介绍支持的流程是：监测品牌在新媒体上的表现，用数据找创作者，再自动运营合作。需要用户提供什么、如何确认合作，资料没说。",
+        "ai_value": "介绍没提 AI，主要靠品牌监测、数据筛选和合作自动化来改善体验。",
+        "differentiation": "它可能减少从监测结果中挑选合作对象的工作。我会先确认推荐依据是否透明，否则团队可能仍要逐个核查。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到用数据筛选创作者和自动运营合作，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集品牌提及和创作者内容，再按目标买家与内容主题的匹配程度筛选，最后记录合作进度。",
+        "tradeoffs": "最难的是判断“买家信任”。若把互动热度当成信任，用户可能把预算花在受众不匹配的创作者身上。",
+        "unknowns": "自动运营合作具体能做到哪一步？"
+      },
+      "transferable_insights": [
+        "做合作对象推荐时，可以先让用户定义目标买家，再展示每个推荐对象的匹配依据，方便人工复核。"
+      ],
+      "validation_questions": [
+        "抽查几位推荐创作者，其受众是否符合预先设定的目标买家？",
+        "走完一次合作流程，确认哪些操作仍需人工完成？"
+      ],
+      "source_tagline": "用新媒体创作者，把你的B2B品牌自动推成爆款",
+      "source_description": "Astute 是第一个B2B新媒体平台，主打创作者合作。它能监控你品牌在新媒体上的存在感，用数据找出买家信任的创作者，自动运营合作。全流程几分钟就能跑起来。"
+    },
+    {
+      "id": "1226478",
+      "name": "Claude Watermark Remover",
+      "name_zh": "Claude Watermark Remover",
+      "tagline_zh": "查找并清除 AI 在文本中留下的痕迹",
+      "description_zh": "粘贴文本后，可查看隐藏的 HTML 类名、零宽字符、特殊空格和排版标记，并显示各类发现的数量与位置。介绍称支持一键清理，免费不限次数、无需注册，全部处理在浏览器本地完成，不上传内容。",
+      "intro_zh": "给需要整理聊天界面复制内容的人用，找出文本中的隐藏字符和排版痕迹，再一键清理。",
+      "url": "https://www.producthunt.com/products/claude-watermark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XASKV4BHPP45EY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/88931443-6ba4-4fb7-995f-aa5a64c7cf38.png?auto=format",
+      "votes_count": 245,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "清理对象和操作明确，但这些痕迹是否影响实际使用仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何识别异常字符又保留正常排版，是具体且有用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先显示数量与位置、再清理的做法，可借用于文本导入工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把不可见字符变成可定位的问题。最大疑问是清理边界；“找到了字符”不等于“找到了 AI 水印”，更不能据此保证抹去来源。",
+      "product_analysis": {
+        "target_problem": "需要把聊天内容用于编辑或发布的人，可能想检查复制时带入的隐藏字符。发现这些字符，并不能证明文本由 AI 生成。",
+        "workflow": "粘贴文本，查看各类痕迹的数量和位置，再一键清理。介绍未说明清理后的内容如何导出。",
+        "ai_value": "介绍没提用 AI 检测，主要靠查找具体字符和标记来改善文本整洁度。",
+        "differentiation": "把定位和清理放在一起，减少逐处处理的操作。最可能让人犹豫的是：清理会不会误删有用格式。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称在浏览器本地检查字符及 HTML 类名（网页元素的分类标签），不上传内容。",
+        "possible_approach": "如果自己做，可以先接收粘贴内容，再按规则标出字符和标签的位置，最后生成清理结果。",
+        "tradeoffs": "难点是区分异常字符与正常用途。零宽字符在某些语言中有用，直接删除可能改变文字显示。",
+        "unknowns": "粘贴时是否保留网页格式？只接收纯文本，可能看不到原来的 HTML 类名。"
+      },
+      "transferable_insights": [
+        "做编辑器的粘贴清理时，可先展示问题数量与位置，让用户看清哪些内容会被处理。"
+      ],
+      "validation_questions": [
+        "粘贴含已知隐藏字符的样本，检查报告的位置是否准确。",
+        "清理含正常零宽字符的多语言文本，检查文字显示是否改变。"
+      ],
+      "source_tagline": "找出并清除 AI 在文本中留下的每一丝痕迹",
+      "source_description": "粘贴任意文本，就能看到聊天界面在里面留下的各种痕迹：隐藏的 HTML 类名、零宽字符、特殊空格、排版标记。每个发现都有数量和位置，因为它们是字节层面的客观事实，不是概率猜测。一键清理，免费无限、无需注册，完全在浏览器本地运行，不上传任何内容。"
+    },
+    {
+      "id": "1223837",
+      "name": "OmniVibe",
+      "name_zh": "OmniVibe",
+      "tagline_zh": "连接 AI 智能体创作者和用户的市场",
+      "description_zh": "OmniVibe 让创作者发布已做好的 AI 智能体，并通过他人使用获得收入。用户可以浏览或描述需求来寻找智能体，也可以在类似 Slack 的聊天环境中同时与多个智能体协作。",
+      "intro_zh": "给想发布或使用 AI 智能体的人用，支持上架工具、按需求寻找工具，并在聊天中一起使用。",
+      "url": "https://www.producthunt.com/products/omnivibe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HE5UDGEWOAQACW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/339c1daf-771b-49f3-908a-e9f24f9168cb.png?auto=format",
+      "votes_count": 129,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "发布和寻找工具的场景清楚，但实际匹配质量及使用收益未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多个智能体如何共享任务信息，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让用户描述任务来找工具，可借用于专业工具目录。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重按任务找工具能减少筛选；最大的疑问是，多智能体同处聊天窗口究竟能省掉多少人工转述。",
+      "product_analysis": {
+        "target_problem": "创作者需要让已做好的智能体被发现和使用；用户则要找到能做特定任务的工具。以前作品可能只放在本地或 GitHub，现在可以上架供别人使用并获取收入。",
+        "workflow": "创作者上传并发布智能体。用户浏览列表或说出需求，找到合适的智能体，再在聊天环境中同时与多个智能体协作。",
+        "ai_value": "智能体是能执行特定任务的 AI 工具。这里由它们承担具体工作；介绍没说明按需求找工具是否也由 AI 完成。",
+        "differentiation": "它把找工具和使用多个工具放在同一处。用户可能不愿迁入，因为还不清楚这些智能体能否完成自己的任务。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到上传发布、按需求寻找和多智能体聊天，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给每个智能体登记能做什么、需要什么输入，再按用户需求筛选，并把选中的工具接入同一聊天界面。",
+        "tradeoffs": "难点是多个智能体能否拿到必要的上下文。若看不到彼此的结果，用户可能还得反复转述。",
+        "unknowns": "同时聊天是否支持智能体之间传递结果，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做专业工具目录时，可以让用户先描述任务，再返回候选工具及适用条件，减少逐个翻查。"
+      ],
+      "validation_questions": [
+        "用一个要求明确的任务查找，返回的智能体是否具备所需能力？",
+        "让第二个智能体接着处理第一个的结果，是否需要手动转贴？"
+      ],
+      "source_tagline": "一个连接AI智能体创作者和用户的市场",
+      "source_description": "OmniVibe 让专门干活的AI智能体和它们的创作者聚在一起。创作者可以把已经做好的智能体上传发布，不再只放在本地或GitHub上，还能靠别人的使用赚钱。普通用户能浏览或直接说出需求，平台帮你找到合适的智能体，还能同时和好几个智能体一起干活，就像在Slack上跟同事聊天一样。"
+    },
+    {
+      "id": "1222356",
+      "name": "Expert Chase 2.0",
+      "name_zh": "Expert Chase 2.0",
+      "tagline_zh": "让 AI 参与日常生活",
+      "description_zh": "Expert Chase 2.0 宣布推出改版，希望让日常生活更简单、联系更紧密、更有用。简介邀请用户打开探索，但没有说明具体功能。",
+      "intro_zh": "面向希望借助 AI 处理日常事务的人，但缓存资料没有说明能完成哪些具体任务。",
+      "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7QRFBBFPA4I3CX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/25d77d5a-f7a7-40ae-98d1-aa8f165339b4.png?auto=format",
+      "votes_count": 134,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "没有具体用户、任务和省事方式，无法判断价值。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "未披露功能或技术信息，无法识别具体技术问题。"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "没有可观察的操作流程，缺少可借鉴的具体做法。"
+        }
+      },
+      "category": "其他",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "目前没有足够信息指出一个具体好处。最影响判断的是缺少任何功能实例；这份历史缓存也可能经过改写，不宜把宣传语扩展成产品能力。",
+      "product_analysis": {
+        "target_problem": "资料只提到改善日常生活，没有指出谁在什么情况下遇到什么麻烦。无法据此比较以前和现在的做法。",
+        "workflow": "简介只有“打开、探索”的邀请，没有输入内容、操作步骤或输出结果，无法还原使用流程。",
+        "ai_value": "标语提到了 AI，但没有说明 AI 做了什么，不能据此认定它具备问答、推荐或自动办事能力。",
+        "differentiation": "改版不等于已经省下某项工作。用户可能不愿尝试的一个原因，是介绍没有讲清楚打开后能解决什么问题。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "目前无法判断实现方式。如果自己做，可以先确定一个日常任务，再定义用户提供什么、最终拿到什么，之后才有依据选择技术。",
+        "tradeoffs": "目前无法识别具体技术难点；连任务和结果都不明确，讨论哪一步容易出错会变成猜测。",
+        "unknowns": "最关键的未知是：它实际能替用户完成哪一件事？"
+      },
+      "transferable_insights": [
+        "做日常生活类 AI 产品时，可以把这份介绍当作提醒：用一个明确的输入和输出展示用途，不要只写“生活更简单”。"
+      ],
+      "validation_questions": [
+        "打开产品后，能否找到一个明确可执行的日常任务？",
+        "完成这个任务后，能否得到可直接使用的结果？"
+      ],
+      "source_tagline": "人类生活与AI一起奔跑",
+      "source_description": "体验全新改版，旨在让日常生活更简单、更紧密、更有用。打开它，探索它，亲身体验。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

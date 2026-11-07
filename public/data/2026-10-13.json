@@ -1,367 +1,510 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-14T20:43:16+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:21:47+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1267617",
-      "name": "Articos MCP",
-      "name_zh": "Articos MCP",
-      "tagline_zh": "See how simulated buyers react, right in your agent",
-      "description_zh": "Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out. Validated against human research from Baymard and Nielsen Norman, it agrees 86% of the time.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/KE4OQDDO5PVYVA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bf8a4aba-000b-4cce-86ca-fb88380bb028.png?auto=format",
-      "votes_count": 328,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: efcd340c-e8c4-4cc1-ac41-dfe792634c12)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1278232",
-      "name": "OpenCode 2.0",
-      "name_zh": "OpenCode 2.0",
-      "tagline_zh": "The open source AI coding agent",
-      "description_zh": "OpenCode is an open source AI coding agent. It’s available as a terminal-based interface, desktop app, or web app.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/opencode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RIJ2YFQQYD7OOS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8e52eeef-b98d-48b7-b0e3-9579fc3864b9.png?auto=format",
-      "votes_count": 300,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 01d3914a-b654-4626-87ad-f4159cf1c513)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1254833",
       "name": "Fina Business",
       "name_zh": "Fina Business",
-      "tagline_zh": "The flexible $20/mo QuickBooks alternative for founders",
-      "description_zh": "You started a business, not an accounting department. Fina Business gives founders the essentials of business accounting without the complexity of traditional tools. Track business and personal finances your way, automate invoices, accept Stripe payments, manage customers, and get double-entry bookkeeping, P&L, and balance sheets. Start at $20/mo and customize Fina around how your business actually works.",
-      "intro_zh": "",
+      "tagline_zh": "面向创业者的灵活 QuickBooks 替代工具，每月 20 美元起",
+      "description_zh": "Fina Business 为创业者提供基础会计功能，可按自己的方式追踪企业与个人财务，自动处理发票、接受 Stripe 付款并管理客户。它也提供复式记账、损益表和资产负债表，每月 20 美元起，支持按业务需要定制。",
+      "intro_zh": "给需要亲自管账的创业者用，把财务追踪、发票、收款和会计报表放在一个工具里。",
       "url": "https://www.producthunt.com/products/fina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5DQUP4N5FLROGS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a5d55202-1d0a-4374-ae0c-712cb83760b2.png?auto=format",
       "votes_count": 266,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "创业者的管账需求明确，但能省多少操作仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "收款与记账如何对应值得关注，介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕同一笔业务组织发票、收款与报表的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重收款记录能用于后续记账；但仍需确认这种关联是否自动完成，不能仅凭功能列表判断省事程度。",
+      "product_analysis": {
+        "target_problem": "面向亲自管账的创业者。麻烦在于既要跟踪日常收支，又要处理发票、客户和会计报表。",
+        "workflow": "用户可追踪企业与个人财务，管理客户、自动处理发票并接受 Stripe 付款，再查看损益表和资产负债表。介绍未说明配置顺序。",
+        "ai_value": "介绍没提 AI，主要靠集中管理财务和发票自动化来改善体验。",
+        "differentiation": "把收款和报表放在一起，可能减少跨工具整理。已有账目能否顺利迁入，可能最影响用户是否愿意换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 77697185-0054-4fb0-b235-8868f9455431)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1278066",
-      "name": "Muse Wonder",
-      "name_zh": "Muse Wonder",
-      "tagline_zh": "Meta’s most capable models for personal agents",
-      "description_zh": "Muse Wonder is Meta’s new model series for personal and professional agents, with two models: Muse Wonder and Muse Wonder Full. Active Memory carries your context across conversations, Active Focus keeps working through blockers on hard goals, and it adds domain expertise in law, finance, and health plus stronger coding. Muse Wonder is live on the Meta Model API and Muse Code. Muse Wonder Full is for Muse Code subscribers.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BPLYESDJCGE7ME?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3247d91c-ed53-4879-b811-e82feeb43f2c.webp?auto=format",
-      "votes_count": 239,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Stripe 收款和复式记账，即每笔业务在对应账户中留下相互平衡的记录。",
+        "possible_approach": "如果自己做，可以先关联客户、发票和付款，再把业务记录转成账目，汇总为报表。",
+        "tradeoffs": "最容易错在付款与账目的对应；若同一笔收款重复入账，收入和报表都会失真。",
+        "unknowns": "企业与个人财务如何分开核算，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f860786f-9059-4a7e-b1f2-5ac354a6a317)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做小企业管理工具时，可以按同一笔业务关联客户、发票、付款和账目，让用户少重复录入。"
+      ],
+      "validation_questions": [
+        "同一笔 Stripe 付款是否会被重复记账？",
+        "个人收支是否会混入企业损益表？"
+      ],
+      "source_tagline": "The flexible $20/mo QuickBooks alternative for founders",
+      "source_description": "You started a business, not an accounting department. Fina Business gives founders the essentials of business accounting without the complexity of traditional tools. Track business and personal finances your way, automate invoices, accept Stripe payments, manage customers, and get double-entry bookkeeping, P&L, and balance sheets. Start at $20/mo and customize Fina around how your business actually works."
     },
     {
       "id": "1259407",
       "name": "Kai",
       "name_zh": "Kai",
-      "tagline_zh": "Autonomous assistant designed to handle meetings and email",
-      "description_zh": "Kai is an AI executive assistant for solopreneurs, freelancers and startup founders. It works across your email, calendar and tasks: it triages your inbox and drafts replies, schedules around your availability, records and transcribes your meetings, then turns them into summaries and action items. Workflows run in the background, and Kai hands tasks to Claude or ChatGPT with the context of the meeting or email they came from. Web, desktop and mobile. Product Hunt sign-ups get 2x trial credits.",
-      "intro_zh": "",
+      "tagline_zh": "用于处理会议和邮件的自主助手",
+      "description_zh": "Kai 是面向独立创业者、自由职业者和初创公司创始人的 AI 行政助理，可整理收件箱、起草回复、按空闲时间安排日程，并把会议录音转成文字、摘要和待办。它支持网页、桌面和移动端，可在后台运行工作流程，并携带会议或邮件上下文将任务交给 Claude 或 ChatGPT；通过 Product Hunt 注册可获得双倍试用额度。",
+      "intro_zh": "给独立创业者和自由职业者用，整理邮件、安排会议，再把讨论变成可继续处理的任务。",
       "url": "https://www.producthunt.com/products/hirekai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NJDBQIHHJFMEQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a20e8ef7-b6b3-4abd-a22d-0bdf43f5dc94.png?auto=format",
       "votes_count": 195,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和事务明确，但能省多少人工检查仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "任务交接时如何带准原始背景，是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务连同来源一起交接，可借用于其他协作产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重带着来源背景交接任务，少一次重新解释；但自动执行的权限边界不清，仍难判断能放心交给它多少工作。",
+      "product_analysis": {
+        "target_problem": "独立创业者同时处理客户邮件、会议和待办时，需要反复整理信息。Kai 把这些事务放到一起处理，减少人工衔接。",
+        "workflow": "它整理收件箱并起草回复，按空闲时间排会；会议录音转成文字后生成摘要和待办，再携带来源背景把任务交给 Claude 或 ChatGPT。",
+        "ai_value": "AI 用于邮件整理、回复起草、会议转写和摘要，并把讨论提炼成待办。",
+        "differentiation": "省事之处是任务交接时附带原邮件或会议背景。换用它的顾虑可能是要开放邮箱、日历等私人信息的访问权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: eaeb2972-dfc1-4bea-9857-03fb1a258c4f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1271264",
-      "name": "MentionBird",
-      "name_zh": "MentionBird",
-      "tagline_zh": "Ahrefs for AI Search",
-      "description_zh": "We took the top 3 Product Hunt launches and asked ChatGPT, Gemini and Claude the exact questions their buyers ask: “Best browser for Claude Code?” “How do I track agent run costs?” “Best open-source Grok alternative?” Nine answers. Zero mentions. AI sent their buyers elsewhere. That’s how AI search works. It pulls from pages it trusts—listicles, Reddit, comparisons, YouTube. If you’re not there, you’re not in the answer. MentionBird helps you fix that.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mentionbird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UMWHAWOFZYDA63?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9bc83d51-373b-49aa-9168-b702bfc13558.jpeg?auto=format",
-      "votes_count": 157,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到后台工作流程，以及向 Claude 或 ChatGPT 传递带上下文的任务，没说具体实现。",
+        "possible_approach": "如果自己做，可以先接入邮件、日历和录音，再生成草稿与待办，为每项任务附上相关原文后交给助手处理。",
+        "tradeoffs": "最容易出错的是给任务配错背景。若混入另一封邮件的内容，助手可能写出不合当前约定的回复。",
+        "unknowns": "哪些操作会自动执行，哪些必须经用户确认？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b7480a38-5fbe-45cc-911d-7e214c564b74)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1271564",
-      "name": "MausBot",
-      "name_zh": "MausBot",
-      "tagline_zh": "Open source Grok Bot: Free, Local",
-      "description_zh": "Give each bot a job and work with it in a familiar chat interface. MausBot brings your supported AI agents together on your computer, with tools and routines for getting work done. Free and open source under Apache 2.0. Bring your own provider account or API key; provider fees and limits apply.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mausbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5TI644DA4URAF2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2c88ae91-b345-4a95-97b9-8d2a93203298.png?auto=format",
-      "votes_count": 137,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1a9c312c-39e8-46a3-9796-8bc52045ad29)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做客服或项目协作工具时，可给转交的任务附上来源原文，减少接手者重新查找背景。"
+      ],
+      "validation_questions": [
+        "用两封主题相近但约定不同的邮件，检查交接任务是否带对背景。",
+        "尝试安排一次会议，检查正式写入日历前是否需要确认。"
+      ],
+      "source_tagline": "Autonomous assistant designed to handle meetings and email",
+      "source_description": "Kai is an AI executive assistant for solopreneurs, freelancers and startup founders. It works across your email, calendar and tasks: it triages your inbox and drafts replies, schedules around your availability, records and transcribes your meetings, then turns them into summaries and action items. Workflows run in the background, and Kai hands tasks to Claude or ChatGPT with the context of the meeting or email they came from. Web, desktop and mobile. Product Hunt sign-ups get 2x trial credits."
     },
     {
       "id": "1277012",
       "name": "Takes for Mac",
       "name_zh": "Takes for Mac",
-      "tagline_zh": "Record talking-head videos. Claude Code does the edit.",
-      "description_zh": "A free, open-source Mac app for talking-head videos. A teleprompter that follows your voice, one-button recording of camera and screen, and every take in plain folders. Claude Code, on your own Claude plan, cuts the edit, makes the vertical version and drafts the posts. Leave notes on the frame; it turns them into rules and remembers them.",
-      "intro_zh": "",
+      "tagline_zh": "录制口播视频，让 Claude Code 完成剪辑。",
+      "description_zh": "一款免费、开源的 Mac 口播视频应用，提供跟随语音的提词器、一键录制摄像头和屏幕，并将每次录制保存在普通文件夹中。简介称，用户可用自己的 Claude 套餐，通过 Claude Code 剪辑、制作竖版和起草发布文案，还能把画面批注变成可记住的规则。",
+      "intro_zh": "给在 Mac 上录口播的人用，把提词、录制和交给 Claude Code 剪辑放在一起。",
       "url": "https://www.producthunt.com/products/takes-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7OVOHHBNNABKR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/df241800-c38b-4b99-97ed-005120d71737.png?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录制到剪辑的用途明确，但成片质量和实际省时程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把画面批注转成后续剪辑规则，是具体且有难度的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留普通文件、积累用户修改偏好的做法可供创作工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重素材保存在普通文件夹，便于继续处理；但批注如何变成可控的长期规则，仍是影响判断的关键。",
+      "product_analysis": {
+        "target_problem": "面向录口播、讲解视频的 Mac 用户。录完还要挑片段、剪辑、做竖版和写发布文案，这些后续工作是它想接手的部分。",
+        "workflow": "跟随语音提词，一键录摄像头和屏幕，素材存入普通文件夹。再由 Claude Code 剪辑、制作竖版和起草文案；用户可在画面上留批注。",
+        "ai_value": "Claude Code 是可执行任务的 AI 编程工具，这里被用于处理剪辑和文案。简介还称，画面批注能转成记住的规则。",
+        "differentiation": "它把录制与后续处理接在一起，可能减少手动整理素材的工作。使用自己的 Claude 套餐，是换用前要确认的条件。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 57c2e048-517b-4ff2-bf8d-314e035a008b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "应用免费开源，素材存于普通文件夹，剪辑使用用户自有 Claude 套餐中的 Claude Code。",
+        "possible_approach": "如果自己做，可以先保存素材和时间位置，再让 AI 把批注转成剪辑指令，调用视频处理工具输出预览供用户确认。",
+        "tradeoffs": "最容易错在理解批注：一次性的修改若被记成长期规则，后续视频可能反复被错误裁剪。",
+        "unknowns": "记住的规则能否查看、修改和删除，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做重复创作工具时，可让用户把一次修改明确设为长期偏好，减少下次重复交代。"
+      ],
+      "validation_questions": [
+        "留一条针对当前片段的批注，检查下次剪辑是否误用为通用规则。",
+        "用包含停顿和重录的素材，检查剪辑后是否保留完整语义。"
+      ],
+      "source_tagline": "Record talking-head videos. Claude Code does the edit.",
+      "source_description": "A free, open-source Mac app for talking-head videos. A teleprompter that follows your voice, one-button recording of camera and screen, and every take in plain folders. Claude Code, on your own Claude plan, cuts the edit, makes the vertical version and drafts the posts. Leave notes on the frame; it turns them into rules and remembers them."
     },
     {
       "id": "1273007",
       "name": "PostNitro for Agents",
       "name_zh": "PostNitro for Agents",
-      "tagline_zh": "Let your AI agent design and publish social posts",
-      "description_zh": "Most social APIs let an agent publish text or media it already has. PostNitro lets it design the post too. Connect from Claude or ChatGPT in one click (OAuth, no API key), or use our 35-tool MCP server, CLI or REST API. Your agent turns a topic, article or X thread into an on-brand carousel, image post or animated video, then schedules it to LinkedIn, Instagram, TikTok, Threads, Facebook and Pinterest. Or it hands you an editable draft to finish.",
-      "intro_zh": "",
+      "tagline_zh": "让你的 AI 助手设计并发布社交帖子",
+      "description_zh": "多数社交平台接口只能让 AI 助手发布已有文字或媒体，PostNitro 还支持设计帖子：可从 Claude 或 ChatGPT 一键授权连接，无需 API 密钥，也提供含 35 项工具的 MCP 服务、命令行和 REST 接口。助手可把主题、文章或 X 帖子串变成符合品牌风格的轮播图、图片帖或动画视频，再安排到 LinkedIn、Instagram、TikTok、Threads、Facebook 和 Pinterest 发布，也可交付可编辑草稿。",
+      "intro_zh": "给用 AI 助手做社交运营的人，把主题或文章做成品牌帖子，再安排发布或交回草稿。",
       "url": "https://www.producthunt.com/products/postnitro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NRNA7TFZVCQ3TD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9a133055-9195-49c3-9ae1-e55bd4e83a75.jpeg?auto=format",
       "votes_count": 132,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把内容制作和排期放在一起，省事方向明确，但成稿质量未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从生成内容走到公开发布，值得关注执行出错后的处理。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自动执行与可编辑草稿并存，适合借到需要人工把关的生成工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重从内容输入直接走到排期，少一次素材交接；但发布异常能否可靠处理，决定了能否放心交给助手。",
+      "product_analysis": {
+        "target_problem": "用 AI 助手做社交运营的人，需要把内容做成可发布素材。以前只接发布接口，还得另行准备素材；现在可以让助手连设计一起做。",
+        "workflow": "连接 Claude 或 ChatGPT，提供主题、文章或 X 帖子串。助手制作帖子后安排发布，或交回可编辑草稿。",
+        "ai_value": "AI 把输入内容做成符合品牌风格的视觉帖子，不只负责发送已有文件。",
+        "differentiation": "减少制作素材与安排发布之间的交接。最可能让人犹豫的是，自动生成的品牌风格是否合格。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 30e8788d-df08-46ba-9064-b85cc6fa8d2c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 OAuth（授权连接，无需交出密码）及 MCP 服务（让 AI 助手调用外部工具的连接方式），后者含 35 项工具。",
+        "possible_approach": "如果自己做，可以先把文章拆成各页文案，再套用品牌模板生成草稿，最后连接社交账号安排发布。",
+        "tradeoffs": "最容易出错的是发布失败后的重试：若没确认上次是否成功，用户可能发出重复帖子。",
+        "unknowns": "介绍没说发布失败后如何确认结果、避免重复。"
+      },
+      "transferable_insights": [
+        "做对外发布的生成工具时，可同时提供自动执行和可编辑草稿，让需要审核的人保留修改机会。"
+      ],
+      "validation_questions": [
+        "给定一套品牌规范，生成的帖子是否符合其中的字体、颜色和版式要求？",
+        "模拟发布超时后重试，是否会出现重复帖子？"
+      ],
+      "source_tagline": "Let your AI agent design and publish social posts",
+      "source_description": "Most social APIs let an agent publish text or media it already has. PostNitro lets it design the post too. Connect from Claude or ChatGPT in one click (OAuth, no API key), or use our 35-tool MCP server, CLI or REST API. Your agent turns a topic, article or X thread into an on-brand carousel, image post or animated video, then schedules it to LinkedIn, Instagram, TikTok, Threads, Facebook and Pinterest. Or it hands you an editable draft to finish."
     },
     {
       "id": "1278439",
       "name": "Toby",
       "name_zh": "Toby",
-      "tagline_zh": "Realistic mock interviews with an AI hiring manager",
-      "description_zh": "Paste a job description. Toby researches the company, maps every round and interviews you on a Meet, Teams or Zoom-style call. Then you get a scored debrief and a stronger version of each answer, built only from what you said. Real mode runs it straight through; Coach mode gives a note and a retry. No subscription: 50p a minute on a call. First 5 minutes free.",
-      "intro_zh": "",
+      "tagline_zh": "与 AI 招聘经理进行逼真的模拟面试",
+      "description_zh": "粘贴职位描述后，Toby 会研究公司、梳理各轮面试，并以类似 Meet、Teams 或 Zoom 的通话形式面试你，随后给出评分复盘，以及仅根据你说过的内容改进的答案。真实模式连续面试，教练模式提供提示和重试；无需订阅，通话每分钟收费 50 便士，前 5 分钟免费。",
+      "intro_zh": "给准备求职面试的人用，按目标职位进行模拟问答，再根据自己的回答获取评分和修改建议。",
       "url": "https://www.producthunt.com/products/toby-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y6CHNYUW4CI4UT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/883caab6-43a5-4cda-b74f-62b6691cbf25.jpeg?auto=format",
       "votes_count": 110,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "练习对象和反馈方式清楚，但面试内容的准确性尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "改进答案却不添加虚构经历，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "连续演练与即时纠错两种模式可借用于其他表达训练。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是练完能拿到逐条答案反馈；最影响判断的是，公司研究和面试轮次是否准确，否则可能练偏方向。",
+      "product_analysis": {
+        "target_problem": "求职者需要针对目标职位练习，也需要知道回答该怎么改。麻烦在于，完成一轮问答后，往往还缺具体反馈。",
+        "workflow": "粘贴职位描述，让 Toby 研究公司并梳理面试轮次，再进入模拟通话。可选连续面试或提示后重试，结束后查看评分和改写答案。",
+        "ai_value": "AI 扮演面试官，并根据回答给出反馈。介绍强调，改写答案只使用用户已经说过的内容。",
+        "differentiation": "把针对职位的练习和复盘放在一起，减少另找反馈的麻烦。按分钟收费可能让用户顾虑反复练习的支出。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 61a3e9db-9e36-4d86-b299-c226ca8ae4a5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 面试和两种练习模式，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从职位描述整理考察点，再逐题提问并记录回答，最后对照原话评分和改写。",
+        "tradeoffs": "最容易出错的是把表达润色成新增事实。若凭空补出业绩，用户可能把虚构经历带进正式面试。",
+        "unknowns": "公司研究如何核实，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做演讲或销售训练时，可让用户选择完整演练或逐题纠错，分别练临场表现和单项表达。"
+      ],
+      "validation_questions": [
+        "给一段缺少业绩数字的回答，检查改写是否擅自补出数字。",
+        "选一家熟悉的公司，检查生成的面试轮次是否有可靠依据。"
+      ],
+      "source_tagline": "Realistic mock interviews with an AI hiring manager",
+      "source_description": "Paste a job description. Toby researches the company, maps every round and interviews you on a Meet, Teams or Zoom-style call. Then you get a scored debrief and a stronger version of each answer, built only from what you said. Real mode runs it straight through; Coach mode gives a note and a retry. No subscription: 50p a minute on a call. First 5 minutes free."
+    },
+    {
+      "id": "1267617",
+      "name": "Articos MCP",
+      "name_zh": "Articos MCP",
+      "tagline_zh": "直接在你的 AI 助手里查看模拟买家的反应",
+      "description_zh": "Articos MCP 可在 Claude 或 ChatGPT 中，让基于实际客户的模拟买家评价标题、产品定位或页面，帮助团队在发布前查看反馈。缓存简介称，它与 Baymard 和 Nielsen Norman 的真人研究进行了对照，一致率为 86%，但未说明比较方法。",
+      "intro_zh": "给准备发布文案或页面的产品、营销团队用，在 Claude 或 ChatGPT 中查看模拟买家的反馈。",
+      "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KE4OQDDO5PVYVA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/bf8a4aba-000b-4cce-86ca-fb88380bb028.png?auto=format",
+      "votes_count": 328,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "发布前检查文案的用途清楚，但反馈能否代表真实客户尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "模拟买家如何贴近真实客户，是具体且直接影响结果可信度的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "在现有助手中加入发布前检查可以借鉴，但收益取决于反馈质量。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是发布前多一次客户视角检查；但缓存中的一致率声明缺少比较方法，不能拿来判断它能否替代真人反馈。",
+      "product_analysis": {
+        "target_problem": "产品和营销团队发布标题、定位或页面前，需要判断客户会怎样理解。它提供模拟反馈，但不能据此认定可以省掉真人研究。",
+        "workflow": "在 Claude 或 ChatGPT 中，把待评估内容交给基于实际客户的模拟买家，查看反应。客户资料如何提供，简介没说。",
+        "ai_value": "AI 在这里扮演买家，对内容作出模拟反应。它能提供检查线索，不能证明真实购买意愿。",
+        "differentiation": "把反馈放进已有对话中，可能减少切换工具。最可能阻碍使用的是团队不信任模拟买家的判断。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确支持在 Claude 或 ChatGPT 内使用，模拟买家基于实际客户；未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把客户资料整理成角色，再让模型以这些角色阅读内容并给出反馈，最后与真人反馈对照。",
+        "tradeoffs": "最难的是让模拟角色贴近真实客户。角色一旦失真，团队可能根据听起来合理的意见改错文案。",
+        "unknowns": "所称 86% 一致率，具体比较的是什么判断？"
+      },
+      "transferable_insights": [
+        "做写作或建站工具时，可以在发布前加入按目标客户视角检查内容的入口，让用户带着反馈继续修改。"
+      ],
+      "validation_questions": [
+        "用同一页面对照模拟反馈与目标客户访谈，检查两者指出的主要理解障碍是否一致。",
+        "换入两组差异明确的客户资料，检查反馈是否随客户差异发生合理变化。"
+      ],
+      "source_tagline": "See how simulated buyers react, right in your agent",
+      "source_description": "Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out. Validated against human research from Baymard and Nielsen Norman, it agrees 86% of the time."
+    },
+    {
+      "id": "1278232",
+      "name": "OpenCode 2.0",
+      "name_zh": "OpenCode 2.0",
+      "tagline_zh": "开源 AI 编程助手",
+      "description_zh": "OpenCode 是一款开源 AI 编程助手。它提供终端界面、桌面应用和网页应用。",
+      "intro_zh": "给想用 AI 辅助编程的开发者使用，可通过终端、桌面应用或网页进入。",
+      "url": "https://www.producthunt.com/products/opencode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RIJ2YFQQYD7OOS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8e52eeef-b98d-48b7-b0e3-9579fc3864b9.png?auto=format",
+      "votes_count": 300,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用对象明确，但没有说明能完成哪些编程任务。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何给助手提供正确的代码上下文值得分析，但实现未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "多种使用入口可以借鉴，但各入口的能力与适用条件不明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重多种入口对工作习惯的照顾，但资料连可完成的具体任务都未说明，暂时不能判断实际省事程度。",
+      "product_analysis": {
+        "target_problem": "面向想用 AI 辅助编程的开发者。简介未说明它针对哪类编程麻烦，也无法判断能省多少操作。",
+        "workflow": "用户可选择终端、桌面或网页入口。如何提供代码、发起任务和接收结果，资料没有展开。",
+        "ai_value": "AI 用于辅助编程，但简介没有明确它能否解释代码、修改文件或执行测试。",
+        "differentiation": "三种入口可能方便不同工作习惯的人使用。我会先确认它能否处理现有项目，否则多一个入口也未必值得迁移。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源，并提供终端、桌面和网页三种使用形式。",
+        "possible_approach": "如果自己做，可以先让用户选定任务和相关代码，再让模型生成修改建议，供用户审阅；之后再接入不同界面。",
+        "tradeoffs": "最难的是选对相关代码。漏掉依赖关系时，生成的修改可能看似合理，却影响其他功能。",
+        "unknowns": "它如何获取用户项目中的代码？"
+      },
+      "transferable_insights": [
+        "做开发者工具时，可以让同一项任务从终端和图形界面进入，照顾不同操作习惯；先验证核心任务，再扩充入口。"
+      ],
+      "validation_questions": [
+        "给它一个需要同时理解两个文件的小任务，检查建议是否兼顾两处约束。",
+        "检查代码会被发送到哪里，是否符合项目的保密要求。"
+      ],
+      "source_tagline": "The open source AI coding agent",
+      "source_description": "OpenCode is an open source AI coding agent. It’s available as a terminal-based interface, desktop app, or web app."
+    },
+    {
+      "id": "1278066",
+      "name": "Muse Wonder",
+      "name_zh": "Muse Wonder",
+      "tagline_zh": "Meta 面向个人智能助手的最强模型（原标语自称）",
+      "description_zh": "缓存简介将 Muse Wonder 描述为 Meta 面向个人和专业智能助手的新模型系列，包含 Muse Wonder 和 Muse Wonder Full，提供跨对话记忆、遇阻后继续推进任务的能力，并宣称加强了法律、金融、健康知识及编程能力。简介称它已在 Meta Model API 和 Muse Code 上提供，Full 版面向 Muse Code 订阅用户；这些信息未经重新核验。",
+      "intro_zh": "面向需要长期处理个人事务或专业任务的人，让 AI 跨对话记住背景，并继续推进复杂目标。",
+      "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BPLYESDJCGE7ME?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3247d91c-ed53-4879-b811-e82feeb43f2c.webp?auto=format",
+      "votes_count": 239,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "长期任务的需求清楚，但省事程度缺少实例支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨对话记忆有具体问题可讨论，但实现未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "保留任务背景可借鉴，适用边界仍需验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重减少重复交代背景的潜力。但历史缓存没有实例，记忆能否被用户纠正最影响判断。",
+      "product_analysis": {
+        "target_problem": "持续处理同一项目的人，需要助手理解此前背景。若换次对话就得重讲目标和约束，长期协作会很费事。",
+        "workflow": "简介只说明可经 Meta Model API（供软件调用模型的接口）或 Muse Code 使用，未提供具体操作流程。",
+        "ai_value": "模型负责理解任务和生成结果。介绍还宣称能跨对话保留背景，并在困难目标遇阻后继续工作，但没说明如何判断任务已完成。",
+        "differentiation": "跨对话记忆可能减少重复交代背景。最可能让人犹豫的是，不清楚哪些个人信息会被长期保留。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存提到两个模型版本、Active Memory 跨对话记忆和 Active Focus 持续推进任务，未披露实现细节。",
+        "possible_approach": "如果自己做，可以先保存用户确认过的背景，再在新任务中取出相关内容交给模型。给用户提供修改和删除入口。",
+        "tradeoffs": "最容易错在把过期背景带入新任务。比如用户已改预算，助手仍按旧金额给建议，记得越久反而越添麻烦。",
+        "unknowns": "用户能否查看、纠正和删除长期记忆？"
+      },
+      "transferable_insights": [
+        "做长期项目助手时，可把目标、约束和偏好做成可编辑的背景记录，供后续对话复用。"
+      ],
+      "validation_questions": [
+        "新开对话后，能否正确沿用上一轮明确给出的任务约束？",
+        "更正一条已保存的信息后，后续回答是否仍引用旧值？"
+      ],
+      "source_tagline": "Meta’s most capable models for personal agents",
+      "source_description": "Muse Wonder is Meta’s new model series for personal and professional agents, with two models: Muse Wonder and Muse Wonder Full. Active Memory carries your context across conversations, Active Focus keeps working through blockers on hard goals, and it adds domain expertise in law, finance, and health plus stronger coding. Muse Wonder is live on the Meta Model API and Muse Code. Muse Wonder Full is for Muse Code subscribers."
+    },
+    {
+      "id": "1271564",
+      "name": "MausBot",
+      "name_zh": "MausBot",
+      "tagline_zh": "开源 Grok 机器人：免费、本地使用",
+      "description_zh": "给每个机器人分配工作，在熟悉的聊天界面中协作；MausBot 将支持的 AI 助手集中到你的电脑上，并提供工具和例行任务功能。软件免费，按 Apache 2.0 许可开源；需自备服务商账号或 API 密钥，服务商的费用和额度限制仍适用。",
+      "intro_zh": "给使用多个 AI 助手的人，在电脑上的聊天界面中为助手分工、调用工具并安排例行任务。",
+      "url": "https://www.producthunt.com/products/mausbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5TI644DA4URAF2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/2c88ae91-b345-4a95-97b9-8d2a93203298.png?auto=format",
+      "votes_count": 137,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "分工和集中使用的场景清楚，但没说明支持哪些助手及具体任务。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "助手分工涉及任务隔离，但介绍没有展开实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按工作分配助手可以借用，实际收益仍需验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重把助手分工保留在同一界面里；但支持范围不清楚，还不能判断它能否容纳现有工作。",
+      "product_analysis": {
+        "target_problem": "需要让多个 AI 助手承担不同工作的人可能会用它。它把分工放进同一聊天界面，但介绍没说明用户原先如何管理这些助手。",
+        "workflow": "准备服务商账号或 API 密钥，为支持的助手分配工作，再在聊天界面中协作。介绍还提到工具和例行任务，未给出设置步骤。",
+        "ai_value": "AI 助手承担分配的工作；具体能完成什么，取决于支持的助手和工具。",
+        "differentiation": "集中管理可能减少来回切换。最可能阻碍使用的是：现有助手不在支持范围内。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "采用 Apache 2.0 开源许可，需自备服务商账号或 API 密钥；本地使用不等于模型在本地运行。",
+        "possible_approach": "如果自己做，可以先给每个助手保存职责和独立对话，再接入服务商，把消息发给选定助手，最后加入工具和例行任务。",
+        "tradeoffs": "最容易出错的是把一个助手的对话传给另一个。用户可能收到混入其他任务信息的回答。",
+        "unknowns": "聊天内容会发送到哪些外部服务？"
+      },
+      "transferable_insights": [
+        "做多助手工作台时，可以按工作给助手命名并保存职责，让用户按任务选择助手。"
+      ],
+      "validation_questions": [
+        "用自己的常用服务商账号，检查能否完成一次对话。",
+        "给两个助手不同背景，检查切换后是否混入对方信息。"
+      ],
+      "source_tagline": "Open source Grok Bot: Free, Local",
+      "source_description": "Give each bot a job and work with it in a familiar chat interface. MausBot brings your supported AI agents together on your computer, with tools and routines for getting work done. Free and open source under Apache 2.0. Bring your own provider account or API key; provider fees and limits apply."
+    },
+    {
+      "id": "1271264",
+      "name": "MentionBird",
+      "name_zh": "MentionBird",
+      "tagline_zh": "面向 AI 搜索的 Ahrefs",
+      "description_zh": "介绍称，团队把买家会问的问题交给 ChatGPT、Gemini 和 Claude，涉及 Product Hunt 排名前三的产品，得到的九份回答都没有提及这些产品。介绍认为，品牌需要出现在 AI 搜索信任的榜单、Reddit、对比文章和 YouTube 等内容中，并称 MentionBird 能帮助改善这一情况。",
+      "intro_zh": "给关心 AI 搜索推荐的品牌和营销人员用，帮助处理产品未被回答提及的问题。",
+      "url": "https://www.producthunt.com/products/mentionbird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UMWHAWOFZYDA63?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9bc83d51-373b-49aa-9168-b702bfc13558.jpeg?auto=format",
+      "votes_count": 157,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "未被推荐的问题清楚，但具体如何改善没有说明。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "没有披露产品功能或技术实现，无法判断技术内容。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用买家的真实问题检查品牌曝光可以借鉴，但样本代表性待确认。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "从买家问题检查品牌曝光很直接，但九份回答不足以支持普遍结论，资料也未交代产品如何帮助改进。",
+      "product_analysis": {
+        "target_problem": "品牌和营销人员会关心：买家向 AI 问同类产品时，自己的产品是否出现。难处是知道没被提及后，仍不清楚该补哪些内容。",
+        "workflow": "介绍展示了向三个 AI 提问、检查回答有无品牌的研究方式，但未说明用户在 MentionBird 中如何操作或拿到什么结果。",
+        "ai_value": "AI 是被观察的推荐渠道。资料没说 MentionBird 自身是否用 AI 分析答案或生成建议。",
+        "differentiation": "它把关注点放在 AI 回答有没有提到品牌。可能让人不愿投入的是：增加外部内容后，推荐是否改变仍难确认。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到向 ChatGPT、Gemini 和 Claude 提问，没说产品具体用什么技术。",
+        "possible_approach": "如果自己做，可以先整理买家问题，再重复提问，保存答案，标出品牌提及及回答附带的来源。",
+        "tradeoffs": "最难的是区分真实变化和回答波动。若只测一次，用户可能把偶然出现的推荐当成改善。",
+        "unknowns": "产品会给出具体改进建议，还是只展示品牌是否出现？"
+      },
+      "transferable_insights": [
+        "做品牌监测工具时，可以按买家的选购问题组织检查，让每条结果对应一个购买场景。"
+      ],
+      "validation_questions": [
+        "同一问题重复测试，品牌提及情况是否稳定？",
+        "发现品牌未被提及时，产品能否给出具体可执行的建议？"
+      ],
+      "source_tagline": "Ahrefs for AI Search",
+      "source_description": "We took the top 3 Product Hunt launches and asked ChatGPT, Gemini and Claude the exact questions their buyers ask: “Best browser for Claude Code?” “How do I track agent run costs?” “Best open-source Grok alternative?” Nine answers. Zero mentions. AI sent their buyers elsewhere. That’s how AI search works. It pulls from pages it trusts—listicles, Reddit, comparisons, YouTube. If you’re not there, you’re not in the answer. MentionBird helps you fix that."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

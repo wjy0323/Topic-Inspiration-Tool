@@ -1,367 +1,510 @@
 {
   "date": "2026-10-11",
-  "generated_at": "2026-10-13T00:34:54+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:22:17+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1267423",
       "name": "HireKey",
       "name_zh": "HireKey",
-      "tagline_zh": "Your recruiter-informed AI copilot for tech job search",
-      "description_zh": "HireKey is a recruiter-informed AI job-search co-pilot for tech job seekers who want to apply strategically & interview with confidence. It helps you assess your role fit, tailor resumes, communicate experience & track applications. Unlike basic ATS tools, HireKey combines AI with 10 years of recruiting experience at Microsoft, Amazon & Stripe, plus practice out loud with an interactive AI voice coach that responds to your answers & provides real-time interview feedback.",
-      "intro_zh": "",
+      "tagline_zh": "融入招聘经验的科技岗位求职 AI 助手",
+      "description_zh": "HireKey 面向科技岗位求职者，帮助评估岗位匹配度、调整简历、表达工作经历和追踪申请。介绍称其结合了在 Microsoft、Amazon 和 Stripe 的十年招聘经验，并提供能回应回答、即时反馈的交互式 AI 语音面试教练。",
+      "intro_zh": "给科技岗位求职者用的 AI 助手，帮助判断岗位是否匹配、调整简历，并开口练习面试。",
       "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VMWKGHD733ZQGV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/586457d1-e416-4f5c-8f53-6b8bd91db72a.jpeg?auto=format",
       "votes_count": 268,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "求职场景明确，但建议质量和练习效果尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "语音反馈如何准确理解技术经历，是具体且值得检查的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕用户回答继续互动并反馈，可借用于表达训练。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它让求职者开口练习，而不只修改文字。最影响判断的是，反馈能否依据真实经历和岗位要求给出具体建议。",
+      "product_analysis": {
+        "target_problem": "科技岗位求职者需要判断岗位是否合适，也要把经历讲清楚。难点是同一段经历面对不同岗位，该突出什么。",
+        "workflow": "可以评估岗位匹配度、调整简历、记录申请，也能用语音练面试并获得反馈。介绍没说明这些功能是否自动衔接。",
+        "ai_value": "AI 用于辅助求职准备，并根据口头回答作出回应、提供面试反馈。招聘经验具体如何影响建议，资料没有展开。",
+        "differentiation": "它把书面准备和开口练习放在一起，可能减少切换工具。用户可能不愿换用的原因，是无法判断建议是否符合目标岗位。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9ee2bc63-3851-40ee-8786-fee3b0c23633)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到交互式 AI 语音教练，能回应回答并提供实时面试反馈，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再结合岗位要求和经历生成回应，最后播放反馈。",
+        "tradeoffs": "最容易出错的是把技术术语听错，随后按错误内容评价，用户可能因此修改原本准确的表达。",
+        "unknowns": "所谓招聘经验，是可查阅的评价标准，还是仅作为生成建议的背景？"
+      },
+      "transferable_insights": [
+        "做销售或答辩训练时，可以让用户先完整说一段，再围绕这段回答继续提问并给反馈。"
+      ],
+      "validation_questions": [
+        "说一段含技术术语的经历，检查反馈是否准确理解原意。",
+        "为同一岗位调整简历，检查建议是否引入了未提供的经历。"
+      ],
+      "source_tagline": "Your recruiter-informed AI copilot for tech job search",
+      "source_description": "HireKey is a recruiter-informed AI job-search co-pilot for tech job seekers who want to apply strategically & interview with confidence. It helps you assess your role fit, tailor resumes, communicate experience & track applications. Unlike basic ATS tools, HireKey combines AI with 10 years of recruiting experience at Microsoft, Amazon & Stripe, plus practice out loud with an interactive AI voice coach that responds to your answers & provides real-time interview feedback."
     },
     {
       "id": "1272499",
       "name": "kōdlo",
       "name_zh": "kōdlo",
-      "tagline_zh": "End-to-end sales workspace with unified context",
-      "description_zh": "kōdlo finds prospects that fit your ICP and tells you how to warm each one up. Upload product catalogues and other docs to the Knowledge Hub, and its agent turns them into personalized messages, offers, deep searches and decks. Track client data, collaborate with your team, and manage tasks, all in one place. Connect Claude Desktop/ChatGPT Work or your code agent with kōdlo MCP to scale and orchestrate contexts.",
-      "intro_zh": "",
+      "tagline_zh": "统一客户背景信息的全流程销售工作台",
+      "description_zh": "kōdlo 寻找符合理想客户画像的潜在客户，并建议如何逐步建立联系；上传产品目录等资料后，智能助手可生成个性化消息、报价方案、深入检索和演示文稿。它还支持管理客户数据、团队协作和任务，并通过 MCP（让 AI 工具连接外部数据和功能的协议）连接 Claude Desktop、ChatGPT Work 或编程助手。",
+      "intro_zh": "给需要寻找和跟进客户的销售团队用，把产品资料用于准备沟通内容，并集中管理客户与任务。",
       "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OZIBM7CMM6TNPX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ddca4282-7085-4b00-b624-b165e830226b.png?auto=format",
       "votes_count": 263,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找客户、准备材料和跟进的用途明确，但省时效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把正确的产品信息用于不同客户，是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让同一份业务资料支持多种销售材料，做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是产品资料能直接用于准备销售材料；最影响判断的是生成内容能否准确遵守资料里的条件。",
+      "product_analysis": {
+        "target_problem": "销售团队寻找潜在客户时，需要判断是否匹配，再准备有针对性的沟通材料。产品资料与客户情况需要对应起来。",
+        "workflow": "上传产品目录等文件到知识中心，让助手生成消息、报价方案或演示文稿。再在工作台中记录客户数据、协作并管理任务。",
+        "ai_value": "AI 负责寻找匹配客户、建议接触方式，并利用上传资料生成销售内容；匹配准确度尚不清楚。",
+        "differentiation": "把材料准备和客户跟进放在一处，可能减少来回查资料。已有客户系统的数据迁移可能让团队不愿切换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 96bcea32-172c-45d2-9fca-c5980a367b58)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到知识中心、智能助手，以及通过 MCP 连接外部 AI 工具。",
+        "possible_approach": "如果自己做，可以先整理产品资料和客户筛选条件，再找出与目标客户相关的内容，交给模型起草材料，并保留来源供销售核对。",
+        "tradeoffs": "最容易出错的是把产品条件用错客户，例如生成不适用的报价，导致销售向客户作出错误承诺。",
+        "unknowns": "潜在客户信息从哪里获得、多久更新一次，介绍没说。"
+      },
+      "transferable_insights": [
+        "做销售辅助产品时，可让同一份已确认的产品资料生成消息和演示文稿，减少重复录入。"
+      ],
+      "validation_questions": [
+        "给定明确的客户筛选条件，找到的客户是否符合？",
+        "上传带限制条件的产品资料，生成的报价是否保留这些限制？"
+      ],
+      "source_tagline": "End-to-end sales workspace with unified context",
+      "source_description": "kōdlo finds prospects that fit your ICP and tells you how to warm each one up. Upload product catalogues and other docs to the Knowledge Hub, and its agent turns them into personalized messages, offers, deep searches and decks. Track client data, collaborate with your team, and manage tasks, all in one place. Connect Claude Desktop/ChatGPT Work or your code agent with kōdlo MCP to scale and orchestrate contexts."
     },
     {
       "id": "1264842",
       "name": "Automations in Perplexity Computer",
       "name_zh": "Automations in Perplexity Computer",
-      "tagline_zh": "Automations that remember, act, and keep work moving",
-      "description_zh": "Computer Automations turns recurring work into reliable, ongoing workflows. Define a task once... such as monitoring sources, compiling reports, updating trackers, or drafting follow-ups... and an agent executes it on a schedule or in response to triggers. Built for professionals, teams, and operations leaders who need continuity without constant supervision, it remembers prior runs, builds on accumulated context, and acts proactively rather than waiting for a prompt.",
-      "intro_zh": "",
+      "tagline_zh": "能记住上下文、采取行动并持续推进工作的自动化",
+      "description_zh": "Computer Automations 让用户一次定义重复任务，例如监控来源、汇编报告、更新跟踪表或起草跟进内容，再由智能体按时间安排或触发条件执行。它面向专业人士、团队及运营负责人，介绍称其会记住此前的执行情况，结合积累的上下文继续工作，减少持续监督的需要。",
+      "intro_zh": "给需要反复监控信息、整理报告的专业人士和团队用，让任务按时间或条件自动执行。",
       "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6KK57LLU7CBT57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9be448f1-f10c-4ae6-8173-20fdadea761c.png?auto=format",
       "votes_count": 186,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复工作的场景明确，但减少监督的程度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨次执行如何保留有用信息，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "一次定义、持续执行的做法可借用于周期性工作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是任务可以接着上次进展继续做；最大的疑问是，积累的上下文出错后能否及时纠正。",
+      "product_analysis": {
+        "target_problem": "运营人员和团队需要持续盯信息、整理报告。麻烦在于任务反复发生，每次执行又可能需要接上此前的进展。",
+        "workflow": "先定义任务，再设定执行时间或触发条件。智能体执行时会利用此前运行积累的上下文。",
+        "ai_value": "智能体负责执行任务，并结合之前的运行情况继续处理，不必每次等用户重新发出提示。",
+        "differentiation": "它把重复启动任务的动作交给自动化。最可能让人犹豫的是：是否仍要逐次检查结果，才能放心让它继续运行。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8b70dca4-e531-463d-b1e4-06eff4b2ee7c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1270791",
-      "name": "Ghost Core",
-      "name_zh": "Ghost Core",
-      "tagline_zh": "A personal AI computer that runs entirely on-device",
-      "description_zh": "Ghost Core is a personal AI computer that runs AI models on-device, connects to your apps, files, and devices, and builds continuous context to proactively help you.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/ghost-core?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OQOELJ4JJ5Z7RH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9a9099b7-9f5e-4afc-b122-198b94750a1c.png?auto=format",
-      "votes_count": 175,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到智能体、定时或条件触发，以及跨次运行保留上下文，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先保存任务规则和每次结果，再在触发时取出相关记录，让智能体执行并保存本次变化。",
+        "tradeoffs": "最难的是判断旧记录是否仍有效。若沿用过期信息，后续报告可能连续出错。",
+        "unknowns": "用户能否查看并纠正它记住的内容，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 108bea8c-1aa0-4d98-a9c0-1152f2365ccf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做周期报告工具时，可以保存上次结果，让下次执行接着处理新增变化，减少重复整理。"
+      ],
+      "validation_questions": [
+        "修改一条此前的信息后，下次运行能否采用新内容？",
+        "连续运行同一项任务，是否会重复更新同一条记录？"
+      ],
+      "source_tagline": "Automations that remember, act, and keep work moving",
+      "source_description": "Computer Automations turns recurring work into reliable, ongoing workflows. Define a task once... such as monitoring sources, compiling reports, updating trackers, or drafting follow-ups... and an agent executes it on a schedule or in response to triggers. Built for professionals, teams, and operations leaders who need continuity without constant supervision, it remembers prior runs, builds on accumulated context, and acts proactively rather than waiting for a prompt."
     },
     {
       "id": "1263181",
       "name": "OpenScreen 2",
       "name_zh": "OpenScreen 2",
-      "tagline_zh": "Record your demo and let your AI agent do the edits",
-      "description_zh": "Record your screen and the demo looks great on the first take: zooms planned from your clicks, smooth cursor, 3D camera moves, cursor themes, backgrounds and webcam layouts. Then let your AI agent do the edit over MCP, or cut the video yourself by deleting words in the transcript. Windows, macOS and Linux. Free, MIT, no account, no watermark.",
-      "intro_zh": "",
+      "tagline_zh": "录制演示，让你的 AI 助手来剪辑",
+      "description_zh": "录屏时可根据点击规划缩放，并提供平滑光标、3D 镜头运动、光标主题、背景和摄像头画面布局，简介称首次录制就能获得好看的演示效果。录完可让 AI 助手通过 MCP 编辑，或删除转写文字来剪视频；支持 Windows、macOS 和 Linux，免费、采用 MIT 开源许可，无需账号且无水印。",
+      "intro_zh": "给制作软件演示的产品、销售和开发者用，录下操作后，让 AI 助手编辑，或删文字剪视频。",
       "url": "https://www.producthunt.com/products/openscreen-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4OHWRLLMHPB7PF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a659ccbc-ac42-4960-82c5-4278fbeaba73.jpeg?auto=format",
       "votes_count": 161,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "演示录制和后期编辑的用途明确，但成片质量未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "文字与视频片段如何准确对应，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用删除文字控制视频删减，可借用于访谈和课程编辑。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重用删文字替代寻找视频切点；但文字与画面的对应是否准确，会直接决定省下的是时间还是增加返工。",
+      "product_analysis": {
+        "target_problem": "制作软件演示的人，需要让观众看清操作重点，也要删掉口误和多余讲解。逐段找位置、调画面会增加后期工作。",
+        "workflow": "先录屏，由点击规划缩放。录完可让 AI 助手编辑，或在转写文字里删除内容，剪掉对应视频。",
+        "ai_value": "AI 助手可通过 MCP（让 AI 调用外部工具的连接规范）执行编辑。介绍没说明它能自主决定哪些剪辑。",
+        "differentiation": "把部分画面调整放进录制过程，再用文字操作视频。最可能影响换用意愿的是自动画面效果能否符合自己的演示风格。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3bbc0f99-1d2f-48ee-862b-153dd887f158)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到按点击规划缩放、通过 MCP 编辑，以及删除转写文字来剪视频。",
+        "possible_approach": "如果自己做，可以先给转写文字标上视频时间，再把删词操作转换成片段删减，最后开放编辑命令给 AI 助手调用。",
+        "tradeoffs": "最容易错在文字与视频时间没对齐。删掉一句话时，可能连带剪掉关键操作，或留下半句话。",
+        "unknowns": "AI 助手具体能执行哪些编辑命令，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做访谈或课程编辑工具时，可以把转写文字当作剪辑入口，让用户通过删句子删片段。"
+      ],
+      "validation_questions": [
+        "删除一句紧贴鼠标操作的讲解，检查是否误剪了关键操作画面。",
+        "让 AI 助手执行一次指定片段删减，检查成片是否只删除了要求的范围。"
+      ],
+      "source_tagline": "Record your demo and let your AI agent do the edits",
+      "source_description": "Record your screen and the demo looks great on the first take: zooms planned from your clicks, smooth cursor, 3D camera moves, cursor themes, backgrounds and webcam layouts. Then let your AI agent do the edit over MCP, or cut the video yourself by deleting words in the transcript. Windows, macOS and Linux. Free, MIT, no account, no watermark."
     },
     {
       "id": "1251151",
       "name": "MePersona",
       "name_zh": "MePersona",
-      "tagline_zh": "Answer every fan comment in your voice",
-      "description_zh": "MePersona is the unified social media inbox for content creators, but the inbox is only where it starts. Your Persona learns how you talk and improves with every reply you approve. It drafts replies to comments and DMs from YouTube, Instagram, TikTok, X and more, scores how much each sounds like you, and remembers what each fan said last time. Nothing posts until you hit Send. It works in English and Spanish, so bilingual creators stop choosing which half of their audience gets a real answer.",
-      "intro_zh": "",
+      "tagline_zh": "用你的口吻回复每一条粉丝评论",
+      "description_zh": "MePersona 为内容创作者集中管理社交平台消息，起草 YouTube、Instagram、TikTok、X 等平台的评论和私信回复，并评估回复与你口吻的相似度、记住粉丝之前说过的话。它会根据你批准的回复学习表达方式，支持英语和西班牙语，所有回复都要由你点击发送。",
+      "intro_zh": "给需要回复多平台粉丝消息的创作者用，集中查看评论和私信，审核按自己口吻起草的回复。",
       "url": "https://www.producthunt.com/products/mepersona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6EQNGGIFPMVVNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8d78a898-c3f6-4583-985e-1a7dee83d55d.jpeg?auto=format",
       "votes_count": 148,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "集中消息和起草回复对应明确需求，但省下多少审核时间尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "粉丝历史能否准确归到本人，是一个具体且影响回复质量的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从人工批准的回复中学习，并保留发送确认，适合借到其他代拟消息场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重审核后再发送，让创作者保留最终决定权；最影响判断的是粉丝历史能否准确对应本人。",
+      "product_analysis": {
+        "target_problem": "面向同时经营多个社交账号的创作者。消息分散时，逐条回复还要兼顾个人口吻和此前聊过的内容。",
+        "workflow": "在统一收件箱查看评论和私信，检查草稿、口吻评分及粉丝历史，再点击发送。支持英语和西班牙语。",
+        "ai_value": "自动代拟回复，并根据获批回复学习表达方式。介绍未说明所用模型，口吻评分也不能直接当成准确性证明。",
+        "differentiation": "把消息、草稿和历史放在一起，减少来回查找。若草稿经常需要重写，创作者可能仍愿意自己回复。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e9e9e87a-846c-4536-8fec-6076750d9933)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到从获批回复学习、口吻评分和粉丝记忆，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先汇总消息，按粉丝账号保存历史，再结合获批回复样例生成草稿，交给本人确认发送。",
+        "tradeoffs": "最容易出错的是把历史消息归错人。一旦串错记录，草稿可能引用另一位粉丝的私事。",
+        "unknowns": "同一粉丝在不同平台的历史如何区分或关联，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做客服或销售回复助手时，可以只把人工批准的回复作为学习样例，并保留发送前确认。"
+      ],
+      "validation_questions": [
+        "用一组真实英、西语消息检查：草稿是否保持创作者惯用的表达方式？",
+        "用昵称相同的两个粉丝账号检查：历史消息会不会被混用？"
+      ],
+      "source_tagline": "Answer every fan comment in your voice",
+      "source_description": "MePersona is the unified social media inbox for content creators, but the inbox is only where it starts. Your Persona learns how you talk and improves with every reply you approve. It drafts replies to comments and DMs from YouTube, Instagram, TikTok, X and more, scores how much each sounds like you, and remembers what each fan said last time. Nothing posts until you hit Send. It works in English and Spanish, so bilingual creators stop choosing which half of their audience gets a real answer."
     },
     {
       "id": "1246034",
       "name": "Ayven",
       "name_zh": "Ayven",
-      "tagline_zh": "Carries and drives your team's agenda",
-      "description_zh": "Ayven drives your agenda. It means observing, cutting the work into pieces your team can take one at a time, putting an owner and a date on each, and filing them in Jira or YouTrack. Then it runs, tracks and talks about the work for weeks: asking whoever knows, waiting, chasing silence, moving work when someone is away. Your team answers in Slack and the board moves. Planning stops being the barrier and you ship your agenda like crazy.",
-      "intro_zh": "",
+      "tagline_zh": "承接并推进团队的工作计划",
+      "description_zh": "Ayven 会观察工作情况，把计划拆成团队可逐项处理的任务，设置负责人和日期，并录入 Jira 或 YouTrack。它还会持续数周询问进展、等待答复、催促未回应的人，并在有人不在时调整工作；团队在 Slack 回复，看板随之更新。",
+      "intro_zh": "给需要协调项目的团队用，把计划拆成任务、分配负责人，并在 Slack 中跟进进展、更新看板。",
       "url": "https://www.producthunt.com/products/ayven?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6DJXTKBZIGEI7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ed12f6f2-23cf-49fb-ba09-fd64e48d563f.png?auto=format",
       "votes_count": 143,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "拆任务、分工和持续追进度的用途清楚，但自动推进的可靠性未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把聊天回复准确对应到任务变更，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让成员在聊天工具中回复、同步更新任务的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是持续接手追进度，而不只生成任务清单；最影响判断的是，它能否在信息含糊时避免擅自更改安排。",
+      "product_analysis": {
+        "target_problem": "负责项目推进的人，需要把计划变成可执行任务，还要持续问进度、处理人员缺席。麻烦在于这些协调工作会反复发生。",
+        "workflow": "Ayven 拆分工作、设置负责人和日期，写入 Jira 或 YouTrack。之后持续跟进，成员在 Slack 回复，任务看板随之更新。",
+        "ai_value": "介绍没提 AI，主要靠任务拆分、持续询问和看板更新来减少协调操作；无法判断哪些动作由模型完成。",
+        "differentiation": "它把任务建立后的追问也纳入处理范围。团队可能不愿交出任务调整权，担心它误解回复后改错安排。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ee5826f6-7a34-46e7-81bb-87d864a37438)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1275628",
-      "name": "FocusWrite",
-      "name_zh": "FocusWrite",
-      "tagline_zh": "A local-first writing app with focus modes.",
-      "description_zh": "A calm, local-first writing app with deep focus, ambient sounds, optional cloud sync, and PDF export.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/focuswrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/K47HKNASYUGLBN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/47f05c41-233a-413c-a683-ceeb93692afc.png?auto=format",
-      "votes_count": 112,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Jira、YouTrack 和 Slack，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存任务、负责人和日期，再把 Slack 回复对应到具体任务；涉及改负责人等重要操作时先请人确认。",
+        "tradeoffs": "最容易错在把含糊回复当成确定进展。比如“快好了”若被当成完成，看板就会误导其他成员。",
+        "unknowns": "它调整工作前是否需要负责人确认？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 06c02d81-eb56-4edc-89d8-a0680b9f7836)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做团队任务工具时，可以让成员在已有聊天工具里回复进度，再同步到对应任务，减少来回切换。"
+      ],
+      "validation_questions": [
+        "回复“快好了，但还没做完”，检查它是否错误地把任务标为完成。",
+        "设置负责人暂时不在，检查它调整工作前是否请求确认。"
+      ],
+      "source_tagline": "Carries and drives your team's agenda",
+      "source_description": "Ayven drives your agenda. It means observing, cutting the work into pieces your team can take one at a time, putting an owner and a date on each, and filing them in Jira or YouTrack. Then it runs, tracks and talks about the work for weeks: asking whoever knows, waiting, chasing silence, moving work when someone is away. Your team answers in Slack and the board moves. Planning stops being the barrier and you ship your agenda like crazy."
     },
     {
       "id": "1270101",
       "name": "Foley",
       "name_zh": "Foley",
-      "tagline_zh": "A voice to-do list that files, plans and asks first",
-      "description_zh": "Say what needs doing. Foley turns it into a task with the project, date and reminder already set, and asks when it isn't sure instead of guessing. When plans change, say so and it moves the task. Ask it to plan your day, or what to work on first, and it answers from your list. Capture from your Apple Watch. The desktop app is free with no account, using your own OpenRouter key. Foley Pro runs the AI for you and syncs every device. On iPhone, Android, Mac, Windows and the web.",
-      "intro_zh": "",
+      "tagline_zh": "用语音记待办，自动归类、规划，拿不准时先问你",
+      "description_zh": "说出要做的事，Foley 会创建任务，设置项目、日期和提醒，不确定时先询问；也能按口述调整任务，根据清单安排一天或建议先做什么，并支持 Apple Watch 录入。免费桌面版无需账号，但要自备 OpenRouter 密钥；Pro 版代管 AI 并同步设备，介绍列出的平台包括 iPhone、Android、Mac、Windows 和网页。",
+      "intro_zh": "给想用口述管理待办的人，把要做的事记成任务，再用语音改期、询问当天先做什么。",
       "url": "https://www.producthunt.com/products/foley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XP4VSXUSSJUKQJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d42ac1f8-55cf-4b4d-97ce-e18370a116d9.png?auto=format",
       "votes_count": 102,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录入、改期和安排优先事项的用途清楚，识别准确性仍待验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "拿不准时如何追问，直接影响任务会不会记错。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先补问再写入的做法，可借给涉及日期和归属的信息录入产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把补问放进录入过程；关键疑问是它能否识别该问的时候，避免悄悄记错。",
+      "product_analysis": {
+        "target_problem": "适合随口想到事情就想记下的人。若以前需要逐项填写项目、日期和提醒，现在可以口述，让它整理成任务。",
+        "workflow": "说出待办，补答它的疑问，得到任务。计划变了再口述调整，也可询问当天安排或先做哪件事。",
+        "ai_value": "AI 把口述整理为任务字段，并依据已有清单回答安排问题；不确定时会追问。",
+        "differentiation": "省去逐项填表的操作。免费桌面版要自备密钥，可能让不熟悉配置的人却步。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 74bf2a83-7e86-40d5-95d6-9779028a0f5a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "免费桌面版使用自备的 OpenRouter 密钥（调用 AI 服务的访问凭证）；Pro 代管 AI 并同步设备。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再提取任务、日期和项目；缺少关键信息就追问，补齐后写入清单。",
+        "tradeoffs": "最难的是判断何时该问。若把含糊的日期当成确定信息，任务和提醒就可能设错。",
+        "unknowns": "介绍没说用什么标准判断信息不确定。"
+      },
+      "transferable_insights": [
+        "做预约或待办录入时，可在日期、归属不明确时只补问缺失项，避免让用户重新说一遍。"
+      ],
+      "validation_questions": [
+        "说一条日期含糊的待办，检查它是否先追问。",
+        "创建两条相似任务后口述改期，检查是否改对了那一条。"
+      ],
+      "source_tagline": "A voice to-do list that files, plans and asks first",
+      "source_description": "Say what needs doing. Foley turns it into a task with the project, date and reminder already set, and asks when it isn't sure instead of guessing. When plans change, say so and it moves the task. Ask it to plan your day, or what to work on first, and it answers from your list. Capture from your Apple Watch. The desktop app is free with no account, using your own OpenRouter key. Foley Pro runs the AI for you and syncs every device. On iPhone, Android, Mac, Windows and the web."
+    },
+    {
+      "id": "1270791",
+      "name": "Ghost Core",
+      "name_zh": "Ghost Core",
+      "tagline_zh": "完全在设备本地运行的个人 AI 电脑",
+      "description_zh": "Ghost Core 是一台在设备本地运行 AI 模型的个人电脑。它连接你的应用、文件和设备，持续积累背景信息，以主动提供帮助。",
+      "intro_zh": "给希望 AI 结合个人资料提供帮助的人用，连接应用、文件和设备，持续积累背景信息。",
+      "url": "https://www.producthunt.com/products/ghost-core?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OQOELJ4JJ5Z7RH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9a9099b7-9f5e-4afc-b122-198b94750a1c.png?auto=format",
+      "votes_count": 175,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "方向清楚，但没有具体任务说明能省下多少操作。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "持续维护个人背景信息有具体难点，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "持续补充背景信息的做法可借鉴，收益仍需具体场景验证。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重持续保留背景信息，可能省去重复交代。最大的疑问是它究竟能主动完成什么，现有简介还不足以判断。",
+      "product_analysis": {
+        "target_problem": "面向资料分散在应用、文件和设备里，希望 AI 理解工作背景的人。麻烦在于，单次提问可能没有带齐相关信息。",
+        "workflow": "介绍只说明：连接应用、文件和设备，持续积累背景信息，再主动提供帮助。没有给出具体接入步骤或任务示例。",
+        "ai_value": "AI 模型在本机运行，并结合持续积累的信息提供帮助。资料没说明它会提出建议，还是能直接执行操作。",
+        "differentiation": "可能减少反复补充背景的操作。我会先确认现有常用应用能否接入，否则信息仍可能不全。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到本机运行 AI 模型，并连接应用、文件和设备，持续积累背景信息。",
+        "possible_approach": "如果自己做，可以先接入一种资料来源，再保存内容及更新时间，提问时找出相关信息交给本机模型。",
+        "tradeoffs": "最容易出错的是背景信息更新不及时。文件已经改了，AI 若还沿用旧内容，主动给出的建议就可能过时。",
+        "unknowns": "“主动帮助”具体会触发什么操作，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做项目助手时，可以保留已有项目背景，并随资料变化更新，减少用户每次从头交代。"
+      ],
+      "validation_questions": [
+        "修改一份已接入的文件后，检查下一次回答是否使用新内容。",
+        "不输入问题时，检查它会主动给出哪一种具体帮助。"
+      ],
+      "source_tagline": "A personal AI computer that runs entirely on-device",
+      "source_description": "Ghost Core is a personal AI computer that runs AI models on-device, connects to your apps, files, and devices, and builds continuous context to proactively help you."
+    },
+    {
+      "id": "1275628",
+      "name": "FocusWrite",
+      "name_zh": "FocusWrite",
+      "tagline_zh": "一款以本地存储为主、带专注模式的写作应用。",
+      "description_zh": "这款写作应用以本地存储为主，提供安静的写作环境、深度专注模式和环境音。它还支持可选的云同步和 PDF 导出。",
+      "intro_zh": "给想少受干扰的写作者用，在本地写稿，按需开启环境音、同步文稿或导出 PDF。",
+      "url": "https://www.producthunt.com/products/focuswrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/K47HKNASYUGLBN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/47f05c41-233a-413c-a683-ceeb93692afc.png?auto=format",
+      "votes_count": 112,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "写作场景明确，但专注模式能减少哪些干扰还不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "本地文稿与可选云同步带来了具体的版本冲突问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把本地使用与云同步分开，适合借用于个人内容工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把本地写作和可选同步放在一起。最影响判断的是同步冲突会不会让文稿丢失，现有资料没有回答。",
+      "product_analysis": {
+        "target_problem": "想安静写长文、又希望文稿主要留在本机的人可能会需要它。它把减少干扰和保存文稿放在同一个工具里。",
+        "workflow": "在应用里写稿，按需使用专注模式和环境音。需要时开启云同步，或把文稿导出为 PDF；介绍没给出具体操作步骤。",
+        "ai_value": "介绍没提 AI，主要靠专注模式、环境音和本地存储改善写作体验。",
+        "differentiation": "写作、环境音和导出集中在一处，可能减少切换工具。已有写作习惯的人是否愿意换，可能取决于专注模式能否真正减少干扰。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到本地优先、可选云同步和 PDF 导出，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把文稿保存在本机，再加专注视图、环境音和 PDF 导出。云同步单独开启，上传前检查本地与云端是否都被改过。",
+        "tradeoffs": "最容易出错的是同步时处理不同版本。若直接用一份覆盖另一份，用户可能丢掉刚写的段落。",
+        "unknowns": "同一篇文稿在多台设备上修改后，会怎样处理冲突？"
+      },
+      "transferable_insights": [
+        "做笔记或日记工具时，可以让本地保存独立工作，把云同步留作可选项，避免用户为了保存内容先配置云服务。"
+      ],
+      "validation_questions": [
+        "断网写一段文字并重启应用，检查内容是否完整保留。",
+        "在两台设备上离线修改同一篇文稿，再联网，检查是否有改动被静默覆盖。"
+      ],
+      "source_tagline": "A local-first writing app with focus modes.",
+      "source_description": "A calm, local-first writing app with deep focus, ambient sounds, optional cloud sync, and PDF export."
     },
     {
       "id": "1276371",
       "name": "Gboard Kurukuru Version",
       "name_zh": "Gboard Kurukuru Version",
-      "tagline_zh": "Your fingers stay put. The keys come around",
-      "description_zh": "Gboard Kurukuru Version is a conveyor belt keyboard from Google Japan's Gboard team, its 15th. Four belts carry 29 keys each past your fingers, so one hand can reach every character. It isn't for sale, but STL files, firmware and a build guide are on GitHub.",
-      "intro_zh": "",
+      "tagline_zh": "手指留在原地，让按键转过来",
+      "description_zh": "Gboard Kurukuru Version 是 Google 日本 Gboard 团队的第 15 款作品，一种传送带键盘：四条带子各载有 29 个按键，从手指旁经过，让单手能够触及所有字符。它不对外销售，但在 GitHub 提供 STL 文件、固件和制作指南。",
+      "intro_zh": "给想尝试单手输入、也愿意动手制作的人，用循环传送的按键把字符送到手指旁。",
       "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2YBEYDPPDZS3KO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7d1e561c-dc31-4f21-98f4-c9e1d24d5894.jpeg?auto=format",
       "votes_count": 92,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "单手触及全部字符的目标清楚，但等待按键的代价不明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "移动按键如何被准确识别，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把操作目标送到手边的思路可借鉴，但适用条件待验证。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它让单手触及全部字符的尝试，但能触及不等于容易输入，等待时间最影响实用判断。",
+      "product_analysis": {
+        "target_problem": "它面向想用单手覆盖全部字符的人。固定键位需要手指移动到目标位置，这个设计让按键经过手指旁，但是否更省力尚不清楚。",
+        "workflow": "它不出售成品。想体验需按 GitHub 指南，结合 STL 文件（供制作零件使用的三维模型）和固件自行搭建，再用经过手边的按键输入。",
+        "ai_value": "介绍没提 AI，主要靠传送带改变按键的位置来改善触及方式。",
+        "differentiation": "它可能减少找键时的手部移动。最可能让人不愿换用的原因，是要等目标字符转到手边。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c9a02aab-9b53-4aac-abbf-a70d2dd86733)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "四条传送带各载有 29 个按键；提供固件（控制硬件运行的程序）及制作资料。",
+        "possible_approach": "如果自己做，可以先让一条带子循环运送按键，再记录各键位置，把按下动作对应到字符，最后扩展到四条带子。",
+        "tradeoffs": "最难的是按下时准确判断哪个键到了手边。位置记录若与实际运动错开，用户按到的键就可能输出另一字符。",
+        "unknowns": "介绍没说用户如何控制传送带的移动和停止。"
+      },
+      "transferable_insights": [
+        "做单手操作设备时，可以尝试把选项依次送到固定操作位置；先用少量选项验证等待时间是否可接受。"
+      ],
+      "validation_questions": [
+        "连续输入指定字符，检查实际输出是否与按下的键一致？",
+        "输入一段固定文字，等待目标按键的时间占多少？"
+      ],
+      "source_tagline": "Your fingers stay put. The keys come around",
+      "source_description": "Gboard Kurukuru Version is a conveyor belt keyboard from Google Japan's Gboard team, its 15th. Four belts carry 29 keys each past your fingers, so one hand can reach every character. It isn't for sale, but STL files, firmware and a build guide are on GitHub."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

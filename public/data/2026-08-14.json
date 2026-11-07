@@ -1,357 +1,511 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-15T15:39:17+08:00",
+  "generated_at": "2026-11-07T15:36:30+00:00",
   "generation_error": false,
   "products": [
     {
       "id": "430331",
       "name": "Outcome ",
-      "name_zh": "Outcome（成果）",
+      "name_zh": "Outcome",
       "tagline_zh": "把你的内容变成每位潜在客户的专属成果",
-      "description_zh": "Outcome 帮创作者把已有的内容和专业知识变成一个个会倾听、能理解的个性化漏斗，给每个潜在客户生成真正有用的东西，比如行动计划、评分、路线图或推荐。不用再给所有人发一样的资料，也不用把用户塞进固定的测验结果里，而是结合每个人的回答和你的内容，生成专属成果。",
-      "intro_zh": "这是一个给创作者的个性化营销工具，能让每个潜在客户收到为自己定制的行动计划、评分或推荐。做课程、咨询、内容变现的人会很喜欢，因为不用再群发一样的资料了。",
+      "description_zh": "Outcome 帮创作者结合已有内容、专业知识和潜在客户的回答，生成个性化成果。成果可以是行动计划、评分、路线图或推荐，不必给所有人发送相同资料，也不局限于预设的测验结果。",
+      "intro_zh": "给想用专业内容吸引潜在客户的创作者用，结合对方的回答，生成行动计划、评分或推荐。",
       "url": "https://www.producthunt.com/products/contentblocks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GBFHMSYXVPFMF7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/15e0dd12-567b-4504-876e-86f6e795b79c.png?auto=format",
       "votes_count": 342,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "可以展示创建漏斗的界面、用户填写问卷、实时生成个性化成果的过程，有前后对比和成品展示，视觉上有一定吸引力。"
+          "reason": "使用者和产出明确，但成果是否有用仍需验证。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何让个性化成果忠于原内容值得分析，但实现信息不足。"
+        },
+        "transferability": {
           "score": 4,
-          "reason": "虽然涉及营销概念，但产品本身操作直观，无需编程，创作者和营销人员能快速理解价值。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 排名第1，342票，热度很高。"
+          "reason": "把通用资料改成按回答生成的具体建议，可用于内容获客。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "别再群发资料了！这个AI工具让每个客户都收到专属方案",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从导入内容、设置问题、到生成个性化成果的完整流程，突出实时生成和个性化对比；用实际案例（如健身教练生成训练计划）演示；节奏轻快，前5秒展示结果反差。",
-        "target_audience": "内容创作者、在线课程老师、咨询师、营销人员"
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把阅读资料变成拿到具体建议；最影响判断的是，这些建议是否确实适合回答者的情况。",
+      "product_analysis": {
+        "target_problem": "创作者用内容吸引潜在客户时，统一资料难以照顾每个人的情况。以前若靠固定测验分配结果，现在可以结合回答和已有内容生成成果。",
+        "workflow": "创作者提供内容和专业知识，潜在客户回答问题，工具据此生成计划、评分、路线图或推荐。介绍没说明具体配置步骤。",
+        "ai_value": "介绍没提 AI，主要靠结合个人回答与创作者内容来改善体验，不能据此确认用了生成式 AI。",
+        "differentiation": "省去让用户自己从通用资料里找适用建议的麻烦。创作者可能因无法控制建议质量而不愿换用。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "排名第1热度高，有清晰的界面操作和个性化生成演示，普通人也能看懂价值，非常适合拍视频。"
-    },
-    {
-      "id": "1221852",
-      "name": "isolate.video",
-      "name_zh": "突显视频",
-      "tagline_zh": "将屏幕录制转化为引人入胜的产品视频",
-      "description_zh": "把屏幕录制变成精致的成品视频，自动加上动态缩放、AI 配乐和聚光灯效果。做产品演示、教程或宣传视频的人不用自己动手剪辑，省时省力。",
-      "intro_zh": "把屏幕录制自动变成带缩放、配乐和聚光灯效果的产品视频。常做演示、教程的运营和老师会喜欢，省去剪辑时间。",
-      "url": "https://www.producthunt.com/products/isolate-video?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UTC2H5DOR7EORD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c52d205c-7a63-4d22-840b-02f2439bbe8c.png?auto=format",
-      "votes_count": 114,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "产品本身就是视频制作工具，可以直观展示原始录屏和成品效果的前后对比，画面冲击力强，非常适合视频演示。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念简单直观，就是把屏幕录制加特效，普通人一看就懂，无需剪辑或技术背景，上手门槛极低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第10，票数114，有不错的热度但不算顶尖，话题性中等。"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先按主题整理内容，再根据回答找出相关部分，按统一格式组织成计划，并保留出处供检查。",
+        "tradeoffs": "最难的是把回答对应到适用建议。对应错了，成果即使看起来很具体，也可能给出不合适的行动安排。",
+        "unknowns": "创作者能否限制成果只能使用自己提供的内容？"
       },
-      "video_inspiration": {
-        "title_idea": "录屏一键变大片？这个工具自动加运镜和BGM！",
-        "angle": "对比测评",
-        "shooting_tips": "先展示一段平淡的原始屏幕录制，然后导入工具，自动生成带动态缩放、AI配乐和聚光灯效果的成品，前后对比快速剪辑，突出省时省力和专业效果，最后展示完整成品片段。",
-        "target_audience": "需要制作产品演示、教程或营销视频的运营人员、产品经理、创业者、自媒体博主和教师等，想快速产出专业视频但不会剪辑的人。"
-      },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品演示效果直观、上手门槛低，非常适合拍成前后对比的种草视频。"
+      "transferable_insights": [
+        "做课程或咨询获客工具时，可以让用户先说明目标和限制，再把已有资料组织成可执行的下一步。"
+      ],
+      "validation_questions": [
+        "只改变回答中的一个关键限制，生成的计划是否相应调整？",
+        "逐条核对一份成果，建议能否在创作者提供的内容中找到依据？"
+      ],
+      "source_tagline": "把你的内容变成每位潜在客户的专属成果",
+      "source_description": "Outcome 帮创作者把已有的内容和专业知识变成一个个会倾听、能理解的个性化漏斗，给每个潜在客户生成真正有用的东西，比如行动计划、评分、路线图或推荐。不用再给所有人发一样的资料，也不用把用户塞进固定的测验结果里，而是结合每个人的回答和你的内容，生成专属成果。"
     },
     {
       "id": "1217183",
       "name": "BrowserAct Cloud",
-      "name_zh": "BrowserAct 云端",
+      "name_zh": "BrowserAct Cloud",
       "tagline_zh": "用一句提示词从任意网站抓取任意数据",
-      "description_zh": "不用再修那些总出问题的抓取工具了。BrowserAct 的 AI 助手能把你用大白话写的需求变成自动机器人，并在真实浏览器里测试好；就算网站改版也能继续运行。整理好的数据能导出成 CSV、JSON、API，或直接对接 Make、n8n、Zapier 等工具。",
-      "intro_zh": "说句话就能让AI从任意网站抓数据，自动生成机器人，导出表格或对接常用工具。不想写代码但常要搜集网页数据的人会很需要。",
+      "description_zh": "BrowserAct 的 AI 助手可把自然语言需求转成自动抓取机器人，在真实浏览器中测试，并宣称网站改版后也能继续运行。整理后的数据可导出为 CSV、JSON，通过 API 提供，或对接 Make、n8n、Zapier 等工具。",
+      "intro_zh": "给需要采集网页数据的人用，把文字需求变成抓取任务，再把整理好的数据交给其他工具。",
       "url": "https://www.producthunt.com/products/browseract?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/N2RAF5UFRFDMHE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad95ff15-5ed1-4cf5-97db-dbe984001729.png?auto=format",
       "votes_count": 272,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有浏览器自动化操作录屏、前后对比和数据表格生成等画面，演示直观；但界面偏技术，视觉冲击力中等。"
+          "reason": "需求输入到数据交付较清楚，但持续运行的可靠性未核实。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
+          "score": 4,
+          "reason": "网页改版后如何避免抓错字段，是具体且关键的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "生成任务后先执行测试的做法，可借用于其他自动化产品。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重浏览器测试能让生成的任务先跑一次；最影响判断的是，页面改版后会不会悄悄抓错数据。",
+      "product_analysis": {
+        "target_problem": "需要反复采集网页数据的人，可能要维护抓取规则。以前遇到页面变化要修规则，现在它尝试让 AI 生成任务并处理变化。",
+        "workflow": "用日常语言描述需求，助手生成机器人并在真实浏览器里测试。结果可导出成文件，或交给其他自动化工具。",
+        "ai_value": "AI 把文字需求转成抓取任务；介绍还声称它能适应网站改版，但没有说明适用范围。",
+        "differentiation": "它想省掉编写和维护抓取规则的工作。用户可能不愿换，是担心任务看似成功，数据却抓错了。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 生成机器人、真实浏览器测试，以及 API（让软件互相传数据的连接方式）输出。",
+        "possible_approach": "如果自己做，可以先把需求拆成目标网页和所需字段，再生成浏览器操作，用少量结果让用户核对。",
+        "tradeoffs": "最难的是改版后仍找对字段；若把原价当成现价，任务可能正常结束，却交付错误数据。",
+        "unknowns": "页面变化后，系统凭什么确认抓到的仍是同一种数据？"
+      },
+      "transferable_insights": [
+        "做自动化工具时，可借用“生成后先试跑”的做法，把样例结果交给用户确认，再重复执行。"
+      ],
+      "validation_questions": [
+        "给出明确字段要求后，抽查抓取结果是否与网页一致？",
+        "在测试页面调整布局后，任务能否继续抓对原定字段？"
+      ],
+      "source_tagline": "用一句提示词从任意网站抓取任意数据",
+      "source_description": "不用再修那些总出问题的抓取工具了。BrowserAct 的 AI 助手能把你用大白话写的需求变成自动机器人，并在真实浏览器里测试好；就算网站改版也能继续运行。整理好的数据能导出成 CSV、JSON、API，或直接对接 Make、n8n、Zapier 等工具。"
+    },
+    {
+      "id": "1222158",
+      "name": "DeepSeek Harness",
+      "name_zh": "DeepSeek Harness",
+      "tagline_zh": "各部分均可作为插件组合的智能体框架",
+      "description_zh": "DeepSeek Harness 是一个开源智能体运行时，负责执行 AI 任务，模型、工具、提示词、存储、执行循环和界面均设计为插件。它支持组合配置文件与智能体预设、用代码调用工具，并保留事件日志，帮助恢复出错任务和回放流程。",
+      "intro_zh": "给开发 AI 智能体的团队用，把模型、工具和执行流程组合起来，并记录任务运行过程。",
+      "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/E7OUYY4VU5AEL2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1e948388-2abf-4495-87d8-966a50308abc.png?auto=format",
+      "votes_count": 156,
+      "scores": {
+        "product_value": {
           "score": 3,
-          "reason": "自然语言交互降低门槛，但涉及网页抓取、数据导出和自动化工具概念，普通用户需要一点讲解才能完全理解。"
+          "reason": "组合组件和排查失败的用途清楚，但缺少接入工作量与恢复效果的材料。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日第2名，272票，热度很高，具备话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "1句话让AI自动扒全网数据，打工人别再手动复制了！",
-        "angle": "教程演示",
-        "shooting_tips": "先拍一段手动复制网页数据的痛苦场景，再录屏展示输入‘抓取某电商网站前100条商品价格和评价’，看AI在浏览器里自动打开、点击翻页、提取并生成表格，最后导出到CSV或飞书。突出不用写代码和网站改版也不怕，节奏前30秒痛点，中间1分钟演示，结尾展示对比效果。",
-        "target_audience": "经常需要采集网页数据的运营、市场、电商从业者、数据分析师，以及不想学爬虫的普通职场人。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示直观且热度高，但概念对普通用户稍有点门槛，适合做成科普+演示类视频。"
-    },
-    {
-      "id": "1222324",
-      "name": "Freebuff",
-      "name_zh": "Freebuff（免费增益）",
-      "tagline_zh": "免费的编程代理，取代 Claude、Cursor、Replit 和 Devin",
-      "description_zh": "Freebuff 是一个免费的编程代理，让你用上最好的开源模型。它提供命令行工具、桌面应用、网页应用构建器和云端代理，全都免费。这是免费搭建全栈应用的方式，不用订阅、不用 API 密钥、不被锁定，可以取消 Claude Code、Cursor、Codex、Lovable、Replit、Bolt、Windsurf 和 Devin 的订阅了。",
-      "intro_zh": "免费编程代理，能让你白嫖最好的开源模型，写代码、搭应用不花一分钱。想省下 Claude、Cursor 订阅费的开发者和编程爱好者，赶紧试试。",
-      "url": "https://www.producthunt.com/products/freebuff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/NWQXOKBNUWYRG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1a07159f-0f93-44c7-a4b3-30b5eb89e16d.png?auto=format",
-      "votes_count": 268,
-      "scores": {
-        "video_suitability": {
+        "technical_insight": {
           "score": 4,
-          "reason": "可以展示 CLI 界面、桌面应用和网页构建器的操作过程，有丰富的屏幕录制和前后对比，画面感强。"
+          "reason": "事件回放如何避免重复执行工具，是一个具体且影响使用的问题。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及编程、全栈开发和开源模型等概念，普通人需要技术背景才能理解，使用门槛较高。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 排名第 3，票数 268，属于当日热门产品，话题性较强。"
+        "transferability": {
+          "score": 4,
+          "reason": "可借用预设组合与事件记录的做法，适合需要反复调整的 AI 任务。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "白嫖党狂喜！免费替代 Claude Code、Cursor 的编程神器？",
-        "angle": "对比测评",
-        "shooting_tips": "录制实际使用过程：打开 CLI 输入指令、用桌面应用生成代码、通过网页构建器快速搭一个简单应用；重点突出完全免费、无需 API 密钥、无锁定；节奏轻快，穿插与付费工具的对比画面，结尾展示成品。",
-        "target_audience": "想省钱又不想被锁定的开发者、编程学习者和独立开发者"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高、画面演示丰富，但技术门槛较高，适合开发者向的视频内容。"
-    },
-    {
-      "id": "1222359",
-      "name": "Gemini 3.7 Flash",
-      "name_zh": "谷歌 Gemini 3.7 Flash",
-      "tagline_zh": "谷歌迄今最聪明的编码与智能代理主力模型",
-      "description_zh": "谷歌发布了新的 Gemini 3.7 Flash 模型，是他们目前最聪明、专门用来写代码和驱动 AI 代理的务实型主力。适合需要快速生成代码、自动化任务的技术团队和开发者。",
-      "intro_zh": "谷歌新出的主力AI模型，专门帮人写代码、跑自动化任务，聪明又快手。程序员和技术团队用它提升开发效率，不用自己吭哧吭哧敲。",
-      "url": "https://www.producthunt.com/products/gemini-3-7-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/KZ3XHAUAQJY7E5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/741efbb8-7a4c-465c-b61f-d082ad3d57c7.png?auto=format",
-      "votes_count": 228,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "模型本身没有可视化界面，演示主要是终端或代码输出，对普通观众视觉冲击较弱；但可以录制编码和自动化任务前后对比，有一定可拍性。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及“编码”“智能代理”等概念，普通用户需要一定技术背景才能理解，使用门槛偏高。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第4，票数228，属于当日热门，有一定关注度。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重失败后能查看执行记录；但日志是否足以支持可靠恢复，历史缓存简介还没说清。",
+      "product_analysis": {
+        "target_problem": "开发团队在调整智能体的模型、工具和执行流程时，需要管理不同组合；任务失败后，也需要查清停在哪一步。",
+        "workflow": "组合配置文件和智能体预设，用代码调用工具。运行过程保留事件日志，供出错恢复和流程回放使用。",
+        "ai_value": "AI 执行任务，框架负责组织模型、工具和执行过程。介绍没说明它会提升模型判断的准确率。",
+        "differentiation": "插件化可能减少更换组件时的改动。我会先确认接入现有工具要写多少适配代码，这可能决定团队是否愿意换。"
       },
-      "video_inspiration": {
-        "title_idea": "谷歌最强干活模型实测！Gemini 3.7 Flash写代码快到离谱？",
-        "angle": "对比测评",
-        "shooting_tips": "屏幕录制输入提示生成代码、运行结果、速度对比，展示代理任务自动执行；重点突出智能、速度快、编码能力强，节奏快速直接。",
-        "target_audience": "程序员、开发者、AI技术爱好者和关注AI工具的技术团队"
+      "technical_analysis": {
+        "disclosed_facts": "简介称其开源，各部分采用插件设计，并支持配置组合、代码调用工具和完整事件日志。",
+        "possible_approach": "如果自己做，可以先统一组件的调用方式，再记录每次调用的输入、结果和完成状态，供失败后继续执行。",
+        "tradeoffs": "最难的是恢复时分清哪些动作已完成。若重复发送消息或写入数据，回放就可能造成实际错误。",
+        "unknowns": "流程回放会重新执行工具，还是只展示已有记录？"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "热度不错，编码演示有一定看点，但对普通用户技术门槛较高，适合开发者向视频。"
-    },
-    {
-      "id": "1221363",
-      "name": "Munder Difflin",
-      "name_zh": "蒙德迪弗林",
-      "tagline_zh": "用 Claude Code 和 Codex 克隆出一队员工，替你干活",
-      "description_zh": "一个开源本地工具，把你在用的 Claude Code、Codex 等编程代理包装起来，组成一个24小时不停歇的“办公室”，让多个AI克隆像员工一样为你干活。你可以当老板派活，忙不过来时也能让克隆人当老板。适合开发者、产品经理、设计师、创业者以及科技行业的各类人群。",
-      "intro_zh": "把 Claude Code 和 Codex 变成一群24小时不休息的AI员工，你当老板给他们派活。天天写代码、做产品的科技打工人，能靠它把重复工作都丢给克隆人干。",
-      "url": "https://www.producthunt.com/products/munder-difflin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CEEDFBEQBAUXU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/985a7a03-a433-4992-b9d6-539cd3ba8392.png?auto=format",
-      "votes_count": 177,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有终端运行画面和多个代理工作状态可展示，但以文字日志为主，视觉冲击力一般，更适合技术向演示。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及编程代理、命令行和本地部署，普通用户理解门槛较高，需要一定技术背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第5，票数177，属于热门产品，有一定关注度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我让AI自己开公司打工，老板彻底躺平了？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示在终端里同时运行多个 Claude Code/Codex 代理，像办公室工位一样各干各的；突出从一条指令自动拆解任务、多代理协作的卖点；节奏前快后稳，配合搞笑办公室音效增加趣味。",
-        "target_audience": "对 AI 自动化感兴趣的开发者、技术创业者和效率工具爱好者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "技术向视频能展示AI代理自动化办公，但仅适合开发者等小众人群。"
+      "transferable_insights": [
+        "做需要频繁试配的 AI 工作台时，可以把常用配置保存为预设，减少逐项重设。",
+        "做多步骤自动任务时，可以逐步记录执行结果，让失败位置可查。"
+      ],
+      "validation_questions": [
+        "更换一个模型插件后，原有工具配置还能否直接使用？",
+        "中断已写入数据的任务后再恢复，是否会重复写入？"
+      ],
+      "source_tagline": "一切皆插件的可组合智能体框架",
+      "source_description": "DeepSeek Harness 是一个开源的智能体运行时，模型、工具、提示词、存储、智能体循环甚至界面都被设计成插件。你可以自由组合配置文件和智能体预设，用代码调用工具，并保留完整事件日志，方便出错恢复和流程回放。"
     },
     {
       "id": "1200173",
       "name": "Hoplite",
-      "name_zh": "霍普利特",
-      "tagline_zh": "一键把软件工厂搬上云",
-      "description_zh": "它把你本地配置的 AI 编程助手直接搬到云端，不用重新设置。迁移时会同步会话、MCP 服务器、依赖和命令行工具，让你的智能体无缝接着干活。可以并行跑多个智能体，不卡电脑、不折腾分支和端口，还能即时预览结果，甚至用 iMessage 远程下指令。",
-      "intro_zh": "帮你把本地跑的AI编程助手一键搬上云，多开几个也不怕电脑卡死。经常用AI写代码、受够笔记本风扇狂转的开发者会爱死这个。",
+      "name_zh": "Hoplite",
+      "tagline_zh": "把本地 AI 编程环境迁到云端",
+      "description_zh": "Hoplite 将本地配置的 AI 编程助手迁到云端，并同步会话、MCP 服务器、依赖和命令行工具。简介还提到多智能体并行、结果预览和 iMessage 远程指令，并称可减少本机占用及分支、端口管理的麻烦。",
+      "intro_zh": "给已在本地使用 AI 编程助手的开发者，把现有环境迁到云端，继续运行任务并预览结果。",
       "url": "https://www.producthunt.com/products/hoplite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EJPDFV4R5ISEDR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/16382608-5fac-49b9-be87-d6f0d31d49d5.png?auto=format",
       "votes_count": 140,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以展示本地跑多个智能体卡顿与云端并行运行的对比，以及即时预览和iMessage远程指令，但整体界面偏开发者工具，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "充满编码代理、MCP服务器、CLI、依赖等术语，普通用户完全看不懂，纯开发者向工具，使用门槛高。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt当天排名第7，获得140票，属于前10名，热度不错。"
+          "reason": "迁移已有环境的用途清楚，但省去多少配置工作尚未确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "会话和工具迁移后能否继续工作，是具体且关键的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "保留现有配置再改变运行位置，可借用于其他开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "MacBook终于不烫了！把AI编程助手扔上云，同时开10个Agent",
-        "angle": "对比测评",
-        "shooting_tips": "先录屏展示本地跑多个AI编程助手导致内存爆满、电脑卡顿的痛点，再演示用Hoplite一键迁移到云端，同时运行多个agent、秒开预览链接，最后用手机iMessage远程发指令，节奏前紧后爽。",
-        "target_audience": "程序员、独立开发者、日常使用AI编程工具（如Claude、Cursor）的用户"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是保留已配置环境，减少换运行位置的准备工作；最大疑问是迁移后能否真正续跑任务。",
+      "product_analysis": {
+        "target_problem": "已配好本地 AI 编程助手的开发者，在任务占用电脑或需要并行运行时会需要它。麻烦在于换到云端后，原有会话和工具能否接着用。",
+        "workflow": "把本地助手及相关配置迁到云端，再运行多个智能体、预览结果；也支持通过 iMessage 下指令。具体迁移操作未说明。",
+        "ai_value": "AI 负责执行编程任务。Hoplite 的主要作用是迁移并运行已有助手，介绍没说明它会提高代码质量。",
+        "differentiation": "它试图省掉迁移后的重新配置。最可能让人犹豫的是，本地能用的工具到云端可能接不上。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到同步 MCP 服务器（让助手连接外部工具的服务）、会话、依赖和命令行工具，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先整理会话和工具配置，再在云端安装所需软件，恢复会话并逐项检查工具能否调用。",
+        "tradeoffs": "最难的是恢复工具连接。本地路径或登录凭据若在云端失效，助手即使记得任务，也可能无法继续执行。",
+        "unknowns": "迁移能否保留正在执行的任务进度，还是只能带走对话记录？"
+      },
+      "transferable_insights": [
+        "做云端开发工具时，可以先导入用户已有配置，并在首次运行前检查工具连接，减少迁移后才发现缺东西的情况。"
+      ],
+      "validation_questions": [
+        "迁移一个调用本地工具的未完成任务，检查云端能否继续执行。",
+        "同时运行两个使用相同端口的项目，检查预览是否互相干扰。"
+      ],
+      "source_tagline": "一键把软件工厂搬上云",
+      "source_description": "它把你本地配置的 AI 编程助手直接搬到云端，不用重新设置。迁移时会同步会话、MCP 服务器、依赖和命令行工具，让你的智能体无缝接着干活。可以并行跑多个智能体，不卡电脑、不折腾分支和端口，还能即时预览结果，甚至用 iMessage 远程下指令。"
+    },
+    {
+      "id": "1221852",
+      "name": "isolate.video",
+      "name_zh": "isolate.video",
+      "tagline_zh": "把屏幕录制转成产品视频",
+      "description_zh": "把屏幕录制加工成视频，自动加入动态缩放、AI 配乐和聚光灯效果。面向制作产品演示、教程或宣传视频的人，旨在减少手动剪辑。",
+      "intro_zh": "给制作产品演示和教程的人用，把屏幕录制加工成带缩放、配乐和重点突出效果的视频。",
+      "url": "https://www.producthunt.com/products/isolate-video?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UTC2H5DOR7EORD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c52d205c-7a63-4d22-840b-02f2439bbe8c.png?auto=format",
+      "votes_count": 114,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用者和省去的编辑工作明确，但成片质量尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动缩放如何选对重点是具体问题，但资料未说明实现方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕现有素材自动添加常用效果，可借用于其他内容编辑工具。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是减少逐段添加视觉效果的工作；最大疑问是选错重点后，修正起来是否方便。",
+      "product_analysis": {
+        "target_problem": "做产品演示或教程时，若要突出关键操作，往往还需编辑录屏。以前要手动添加缩放和突出效果，现在可以交给它自动处理。",
+        "workflow": "以屏幕录制为素材，工具自动加入动态缩放、AI 配乐和聚光灯效果，形成视频。简介未交代素材如何导入。",
+        "ai_value": "缓存简介只明确把配乐标为 AI 功能，没说明是生成音乐还是自动选曲，也不能据此认定其他效果由 AI 完成。",
+        "differentiation": "它把几类常用效果合在一次自动处理中。最可能让人不愿换用的，是自动选出的重点不符合讲解意图。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到自动动态缩放、AI 配乐和聚光灯效果，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先找出画面变化和可能的操作区域，再安排放大与聚光灯的时间，最后合成音乐和画面。",
+        "tradeoffs": "最难的是选准该突出的区域。选错后，缩放可能把相关信息移出画面，让观众看不懂操作。",
+        "unknowns": "自动效果选错时，用户能否调整位置和出现时间？"
+      },
+      "transferable_insights": [
+        "做内容编辑工具时，可以围绕已有素材自动套用一组常用效果，减少用户逐项设置的工作。"
+      ],
+      "validation_questions": [
+        "用一段多区域操作的录屏，检查自动缩放是否对准当前讲解重点。",
+        "检查能否修改一处错误的聚光灯位置。"
+      ],
+      "source_tagline": "将屏幕录制转化为引人入胜的产品视频",
+      "source_description": "把屏幕录制变成精致的成品视频，自动加上动态缩放、AI 配乐和聚光灯效果。做产品演示、教程或宣传视频的人不用自己动手剪辑，省时省力。"
+    },
+    {
+      "id": "1222324",
+      "name": "Freebuff",
+      "name_zh": "Freebuff",
+      "tagline_zh": "免费编程代理，主张替代 Claude、Cursor、Replit 和 Devin",
+      "description_zh": "Freebuff 是一款使用开源模型的免费编程代理，提供命令行工具、桌面应用、网页应用构建器和云端代理。简介称它可用于搭建全栈应用，无需订阅或 API 密钥，并宣称可替代多款付费编程工具。",
+      "intro_zh": "给想用 AI 写代码、搭建应用的人用，提供命令行、桌面和网页等多种使用入口。",
+      "url": "https://www.producthunt.com/products/freebuff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/NWQXOKBNUWYRG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1a07159f-0f93-44c7-a4b3-30b5eb89e16d.png?auto=format",
+      "votes_count": 268,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "免订阅和免密钥的用途清楚，但免费额度与可完成的任务范围未知。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "代理修改代码后如何确认应用仍可运行，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "减少使用前的配置步骤可以借鉴，但持续提供免费服务的条件不明。"
+        }
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "适合拍给开发者看，云端部署前后对比有一定演示效果，但普通观众门槛太高。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是不用先订阅或准备密钥就能开始；但免费使用的实际边界不清楚，不能据此认定它能替代现有工具。",
+      "product_analysis": {
+        "target_problem": "想用 AI 搭建应用的人，可能不愿先付订阅费或配置模型访问密钥。Freebuff 主打省去这些准备。",
+        "workflow": "用户可从命令行、桌面应用、网页构建器或云端代理开始编程。简介没有交代如何提交需求、检查代码和交付应用。",
+        "ai_value": "开源模型用于编程代理，帮助写代码、搭建应用；能独立完成多复杂的任务，资料没说。",
+        "differentiation": "对需要自行配置密钥的工具，它少一道准备。最可能让人不愿换来的，是尚不清楚能否接手现有项目。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到使用开源模型，并提供命令行工具、桌面应用、网页构建器和云端代理。",
+        "possible_approach": "如果自己做，可以先让模型读取项目和需求，再生成代码修改，并运行项目测试，把错误交回模型修正。",
+        "tradeoffs": "最难的是判断修改是否真的完成需求。代码能启动却功能不对，用户仍要逐项检查和返工。",
+        "unknowns": "免费使用是否有额度、排队或任务时长限制？"
+      },
+      "transferable_insights": [
+        "做面向新手的开发工具时，可以借鉴免密钥的起步方式，让用户先完成一个小任务，再处理高级配置。"
+      ],
+      "validation_questions": [
+        "拿一个已有测试的小项目，让它修改一项功能，检查相关测试是否通过。",
+        "连续提交同类任务，确认免费使用何时出现额度或排队限制。"
+      ],
+      "source_tagline": "免费的编程代理，取代 Claude、Cursor、Replit 和 Devin",
+      "source_description": "Freebuff 是一个免费的编程代理，让你用上最好的开源模型。它提供命令行工具、桌面应用、网页应用构建器和云端代理，全都免费。这是免费搭建全栈应用的方式，不用订阅、不用 API 密钥、不被锁定，可以取消 Claude Code、Cursor、Codex、Lovable、Replit、Bolt、Windsurf 和 Devin 的订阅了。"
+    },
+    {
+      "id": "1221363",
+      "name": "Munder Difflin",
+      "name_zh": "Munder Difflin",
+      "tagline_zh": "把 Claude Code 和 Codex 等编程代理组成一支可派活的 AI 团队",
+      "description_zh": "这是一个开源本地工具，把 Claude Code、Codex 等编程代理组织成一个可分派任务的“办公室”，并宣称可以全天运行。用户可以自己派活，也可以让 AI 代理负责管理；简介面向开发者、产品经理、设计师和创业者等人群。",
+      "intro_zh": "给使用编程代理的开发者等用户，把多个 AI 代理组织起来，自己派活或交给代理管理。",
+      "url": "https://www.producthunt.com/products/munder-difflin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CEEDFBEQBAUXU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/985a7a03-a433-4992-b9d6-539cd3ba8392.png?auto=format",
+      "votes_count": 177,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "多人式派活的用途清楚，但能完成哪些任务、需要多少人工介入尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个代理如何避免互相覆盖工作，是具体且影响结果的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把执行和管理分成不同角色可以借鉴，但自动管理的收益待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是把多个代理放在一起派活；最大的疑问是自动管理能否减少跟进，而非增加检查工作。",
+      "product_analysis": {
+        "target_problem": "已经使用编程代理的人，在有多项任务要推进时，可能需要反复派活和跟进。它尝试把这些工作集中到一个可管理的“办公室”里。",
+        "workflow": "把已有的 Claude Code、Codex 等代理组织起来，再由用户派活；也可以让代理担任管理角色。简介没交代结果如何汇总和验收。",
+        "ai_value": "AI 负责执行任务，也可以承担管理角色。“克隆员工”是角色比喻，不能据此认定它复制了某个人的技能。",
+        "differentiation": "它尝试减少逐个协调代理的操作。最可能让人犹豫的是：交给代理管理后，是否仍要频繁纠偏。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "这是开源本地工具，会包装 Claude Code、Codex 等编程代理。",
+        "possible_approach": "如果自己做，可以先把任务拆成可单独验收的小项，再分给不同代理；最后集中检查结果，明确哪些操作必须由人批准。",
+        "tradeoffs": "最容易出错的是任务边界没划清。两个代理若同时修改同一份文件，可能覆盖彼此的成果，让用户返工。",
+        "unknowns": "本地工具是否会把任务内容传给外部服务，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做多任务助手时，可以把派活与执行分开，先支持人工分配，再尝试让代理管理边界清楚的重复任务。"
+      ],
+      "validation_questions": [
+        "让两个代理处理涉及同一文件的任务，检查是否会覆盖彼此的修改。",
+        "交给管理代理一项范围明确的任务，检查是否仍需人工反复重新派活。"
+      ],
+      "source_tagline": "用 Claude Code 和 Codex 克隆出一队员工，替你干活",
+      "source_description": "一个开源本地工具，把你在用的 Claude Code、Codex 等编程代理包装起来，组成一个24小时不停歇的“办公室”，让多个AI克隆像员工一样为你干活。你可以当老板派活，忙不过来时也能让克隆人当老板。适合开发者、产品经理、设计师、创业者以及科技行业的各类人群。"
     },
     {
       "id": "1222442",
       "name": "Suno Studio 2.0",
       "name_zh": "Suno Studio 2.0",
       "tagline_zh": "浏览器里的生成式数字音频工作站",
-      "description_zh": "Suno Studio 2.0 是一个在浏览器里就能用的音乐制作工具，加入了 MIDI、音频效果、聊天、自动化等功能。你甚至能自己设计插件和合成器，适合想做歌但不想装复杂软件的人。",
-      "intro_zh": "一个在浏览器里就能做音乐的工作站，还能用 AI 帮你生成和编辑。想快速做歌、调音色、玩合成器的音乐爱好者会很喜欢。",
+      "description_zh": "Suno Studio 2.0 是一款浏览器音乐制作工具，提供 MIDI、音频效果、聊天和自动化功能。简介还提到可以自行设计插件和合成器，面向想做歌但不想安装复杂软件的人。",
+      "intro_zh": "给想做歌又不想安装复杂软件的人用，在浏览器里制作音乐、添加音效，并设计自己的声音工具。",
       "url": "https://www.producthunt.com/products/suno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2F6CMDOZSLVX2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/beddb241-2253-47bc-b3b3-7c45462f4d8c.jpeg?auto=format",
       "votes_count": 123,
       "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "浏览器界面操作直观，有 MIDI 编辑、音频效果和插件设计等丰富画面，可以录屏演示前后对比，视觉上比纯代码类产品更适合拍视频。"
-        },
-        "beginner_friendly": {
+        "product_value": {
           "score": 3,
-          "reason": "普通用户能理解“做音乐”的概念，但 DAW、MIDI、合成器、插件这些词有一定门槛，小白需要讲解才能上手。"
+          "reason": "免安装的使用场景清楚，但完整制作能力和使用门槛待确认。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "排名第8名，票数123，属于当天热门产品，加上 Suno 本身有知名度，话题性不错。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "浏览器中多种声音同时播放时能否保持顺畅，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用浏览器降低开始使用的门槛可以借鉴，但复杂操作是否更容易仍未知。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "不用装软件！浏览器里用 AI 做歌是什么体验？",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段从零到做出小段音乐的完整过程，突出浏览器打开即用、AI 生成和 MIDI 编辑的流畅感；中间穿插插件和合成器自定义的画面，节奏轻快，别陷进专业参数。",
-        "target_audience": "对音乐制作好奇但不想学复杂软件的普通用户、短视频创作者、独立音乐爱好者"
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重免安装就能开始制作；最影响判断的是，省去安装之后，实际编辑是否仍有很高的学习门槛。",
+      "product_analysis": {
+        "target_problem": "想做歌但不愿安装复杂软件的人会需要它。以前若用需安装的制作软件，要先完成安装；现在可以在浏览器里开始制作。",
+        "workflow": "打开浏览器中的工作站制作音乐，使用音符控制、音频效果等功能，也可自行设计插件和合成器。简介没交代具体操作顺序。",
+        "ai_value": "标语提到“生成式”，但没说明 AI 具体生成什么，也不能据“聊天”推定它能替用户编曲。",
+        "differentiation": "省去本地软件安装是明确变化。但若常用的制作功能不全，用户可能仍不愿迁移。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示效果不错且产品有热度，但音乐制作概念对普通用户有一定门槛，需要好的讲解来降低理解难度。"
+      "technical_analysis": {
+        "disclosed_facts": "简介列出 MIDI（记录音符和演奏控制信息的格式）、音频效果、自动化，以及自定义插件和合成器，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先让浏览器按音符信息播放声音，再接入音效和随时间变化的参数控制，最后开放自定义声音工具。",
+        "tradeoffs": "难点是让多种声音和效果按时处理。处理跟不上时，用户可能听到卡顿，难以判断编曲是否准确。",
+        "unknowns": "自定义插件和合成器需要用户写代码，还是能直接用界面搭建？"
+      },
+      "transferable_insights": [
+        "做需要安装的创作工具时，可以先提供浏览器版基础编辑，让用户完成一小段作品后再决定是否深入使用。"
+      ],
+      "validation_questions": [
+        "逐步增加同时播放的声音和效果，检查何时出现可感知的卡顿。",
+        "尝试设计一个简单合成器，检查是否必须编写代码。"
+      ],
+      "source_tagline": "浏览器里的生成式数字音频工作站",
+      "source_description": "Suno Studio 2.0 是一个在浏览器里就能用的音乐制作工具，加入了 MIDI、音频效果、聊天、自动化等功能。你甚至能自己设计插件和合成器，适合想做歌但不想装复杂软件的人。"
     },
     {
       "id": "1222240",
       "name": "NS1",
       "name_zh": "NS1",
       "tagline_zh": "个性化神经系统训练",
-      "description_zh": "NS1 评估是一款个性化测评工具，能分析你的身体面对压力时的反应，并告诉你这对你具体意味着什么、该怎么做来改善。5分钟内你会拿到：一个调节分数（压力后系统恢复的真实基线）、一张五技能记分卡（各核心能力的优势和短板），以及一条个性化学习路径，帮你提升调节能力、重新掌控状态。",
-      "intro_zh": "花5分钟测测你的神经系统抗压能力，给你一套专属调节方案。经常压力大、睡不好、容易焦虑的人可以试试。",
+      "description_zh": "NS1 通过个性化评估，分析使用者面对压力时的反应，并提供改善建议。介绍称，五分钟内可获得调节分数、五项技能记分卡和个性化学习路径。",
+      "intro_zh": "给想了解自己压力反应的人用，评估调节能力，再提供技能记分卡和后续学习路径。",
       "url": "https://www.producthunt.com/products/ns1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3XTD266XEJ4YT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/76b54473-7eb5-48e3-9def-a888843baba1.png?auto=format",
       "votes_count": 122,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 3,
-          "reason": "有完整的评估界面、分数卡片和技能图表，可以录屏展示结果，但整体偏静态，缺少连续操作和视觉冲击。"
+          "reason": "从了解压力反应到安排学习的用途清楚，但测评可信度未说明。"
         },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念是压力管理和神经调节，普通人能理解，全程只需回答问题看报告，没有技术门槛。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把测评结果转成合适建议是具体问题，但评分方法未知。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "ProductHunt 当日第9名，122票，属于前十热度产品，有一定关注度。"
+          "reason": "总分、分项反馈和后续学习结合的做法可用于其他测评产品。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "5分钟给神经系统做个体检，我的抗压分数居然这么低？",
-        "angle": "教程演示",
-        "shooting_tips": "先录屏从进入测试到完成全流程，突出5分钟快速；然后逐屏展示调节分数和五技能雷达图，配上自己解读；最后放个人实验前后对比或给出实用建议，节奏轻快。",
-        "target_audience": "经常感到压力大、焦虑、睡眠差的上班族、学生和关注心理健康的人"
       },
       "category": "健康健身",
-      "overall_suggestion": "可以做",
-      "overall_reason": "测评结果有可视化图表能拍演示，概念通俗易懂，但缺乏动态操作，整体适合做体验分享。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是测完就有下一步安排；但材料没有解释评分依据，不能把结果当成已验证的身体状态判断。",
+      "product_analysis": {
+        "target_problem": "想改善压力应对的人，可能不清楚自己哪项能力薄弱，也不知道先学什么。NS1 把评估结果接到学习安排上。",
+        "workflow": "完成评估后，查看调节分数和五项技能表现，再获得个性化学习路径。介绍称五分钟内可拿到结果，未说明评估如何进行。",
+        "ai_value": "介绍没提 AI，主要靠测评、分项反馈和学习建议来改善体验。",
+        "differentiation": "它把“了解状态”和“接下来学什么”放在一起。最可能让人犹豫的是：这个分数是否值得相信。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选有依据的测评方法，把结果分成总分和技能分项，再按薄弱项匹配学习内容。",
+        "tradeoffs": "最难的是确认分数确实反映了要测的能力。否则，用户可能把一次状态波动当成稳定短板，选错训练重点。",
+        "unknowns": "所谓“压力后恢复的真实基线”依据什么测出，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做学习测评时，可以让每个薄弱项直接对应下一步学习内容，减少用户拿到分数后自行找课的麻烦。"
+      ],
+      "validation_questions": [
+        "我会先查评分依据，确认它是否足以支持“真实基线”的说法。",
+        "我会检查学习路径是否随技能短板变化，而非给不同结果推荐同一套内容。"
+      ],
+      "source_tagline": "个性化神经系统训练",
+      "source_description": "NS1 评估是一款个性化测评工具，能分析你的身体面对压力时的反应，并告诉你这对你具体意味着什么、该怎么做来改善。5分钟内你会拿到：一个调节分数（压力后系统恢复的真实基线）、一张五技能记分卡（各核心能力的优势和短板），以及一条个性化学习路径，帮你提升调节能力、重新掌控状态。"
     },
     {
-      "id": "1222158",
-      "name": "DeepSeek Harness",
-      "name_zh": "DeepSeek 插件化智能体框架",
-      "tagline_zh": "一切皆插件的可组合智能体框架",
-      "description_zh": "DeepSeek Harness 是一个开源的智能体运行时，模型、工具、提示词、存储、智能体循环甚至界面都被设计成插件。你可以自由组合配置文件和智能体预设，用代码调用工具，并保留完整事件日志，方便出错恢复和流程回放。",
-      "intro_zh": "一个能把模型、工具、提示词甚至界面都当插件来拼的智能体框架。爱折腾AI应用、想自己搭一套可控流程的开发者会需要它。",
-      "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/E7OUYY4VU5AEL2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1e948388-2abf-4495-87d8-966a50308abc.png?auto=format",
-      "votes_count": 156,
+      "id": "1222359",
+      "name": "Gemini 3.7 Flash",
+      "name_zh": "Gemini 3.7 Flash",
+      "tagline_zh": "面向编码与 AI 代理的主力模型",
+      "description_zh": "缓存简介将 Gemini 3.7 Flash 描述为谷歌推出、面向代码编写和 AI 代理的模型。它面向需要生成代码、自动化任务的开发者和技术团队，但名称、版本及能力均未重新核验。",
+      "intro_zh": "给开发者和技术团队用的模型，用于生成代码，以及驱动能执行任务的 AI 代理。",
+      "url": "https://www.producthunt.com/products/gemini-3-7-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KZ3XHAUAQJY7E5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/741efbb8-7a4c-465c-b61f-d082ad3d57c7.png?auto=format",
+      "votes_count": 228,
       "scores": {
-        "video_suitability": {
-          "score": 1,
-          "reason": "这基本是一个纯代码和终端操作的开发者工具，没有直观的画面演示或前后对比，对普通观众来说画面枯燥、缺乏视觉冲击力。"
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但缺少具体任务和节省工作量的证据。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "需要理解智能体、插件、工具调用、事件日志等概念，还要有编程基础才能跑起来，普通用户完全看不懂。"
+        "technical_insight": {
+          "score": null,
+          "reason": "只有模型定位，没有实现细节或能力边界。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第6名、156票，在开发者圈子里有一定热度，但远未出圈。"
+        "transferability": {
+          "score": 3,
+          "reason": "可借用代码生成后自动检查的做法，但不是已披露方案。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI智能体也能像乐高一样拼？DeepSeek开源框架把一切变成插件",
-        "angle": "教程演示",
-        "shooting_tips": "录制终端和代码编辑器，展示如何用配置文件组合不同插件，跑通一个简单智能体任务；用简单动画解释“一切皆插件”的架构；重点演示事件日志如何恢复和回放，突出可组合性和可控性。",
-        "target_audience": "有Python基础的开发者、AI Agent技术爱好者、想定制自动化工作流的人"
-      },
       "category": "开发工具",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "纯开发者向的底层框架，画面以代码和终端为主，普通观众很难看懂，不适合做成大众视频内容。"
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我看重它把代码生成用于实际开发的方向，但当前最影响判断的是版本身份未核验，尚不能据此推荐更换现有模型。",
+      "product_analysis": {
+        "target_problem": "开发者写代码、技术团队安排自动化任务时可能需要它。简介没交代原有流程，不能据此判断能替代多少人工工作。",
+        "workflow": "介绍只支持两类用途：生成代码，以及驱动 AI 代理执行任务。具体如何提交需求、连接工具和取得结果，没有说明。",
+        "ai_value": "模型负责生成代码，或为代理提供任务判断。代理是能调用工具执行任务的软件；这里未说明它能执行哪些动作。",
+        "differentiation": "可能减少手写代码的工作量，但没有与其他模型的比较。“最聪明”和“快速”只是缓存中的宣传，不能当作测量结果。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确它是面向编码和 AI 代理的模型，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让模型按需求生成代码，再在隔离环境中运行测试，把报错交回模型修改。",
+        "tradeoffs": "最容易出错的是把生成成功当成任务完成。代码即使能运行，也可能做错业务规则，仍需检查结果。",
+        "unknowns": "当前是否存在可核验的同名版本及可用入口？历史缓存不能确认这一点。"
+      },
+      "transferable_insights": [
+        "做内部开发助手时，可以把生成代码和运行测试放在一起，让开发者同时看到代码与检查结果。"
+      ],
+      "validation_questions": [
+        "先核对官方资料，确认产品名称和版本是否对应。",
+        "用一项已有测试的真实小任务，检查生成代码能否通过测试。"
+      ],
+      "source_tagline": "谷歌迄今最聪明的编码与智能代理主力模型",
+      "source_description": "谷歌发布了新的 Gemini 3.7 Flash 模型，是他们目前最聪明、专门用来写代码和驱动 AI 代理的务实型主力。适合需要快速生成代码、自动化任务的技术团队和开发者。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

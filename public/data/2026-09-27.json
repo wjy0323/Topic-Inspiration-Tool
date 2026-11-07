@@ -1,367 +1,511 @@
 {
   "date": "2026-09-27",
-  "generated_at": "2026-09-28T23:04:30+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:25:36+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1238671",
-      "name": "Humalike x GTA RP",
-      "name_zh": "Humalike x GTA RP",
-      "tagline_zh": "AI NPCs that talk, remember & act on their own",
-      "description_zh": "A new roleplay experience. Build characters and entire AI societies with memory, personality and voice that recognize players, form relationships and react to everything around them. Live on Poland's largest roleplay server. Now, add it to yours.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/V63RWUYZIRKDTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a81e2367-4dfc-45b4-a1a3-781f43173b99.png?auto=format",
-      "votes_count": 337,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8a59ff08-f95b-4378-ab14-cdc343c4855c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1258630",
-      "name": "GPT-6 Sol & Luna",
-      "name_zh": "GPT-6 Sol & Luna",
-      "tagline_zh": "Frontier AI intelligence, now at half the price",
-      "description_zh": "OpenAI expands the GPT-6 family with Sol and Luna with faster, cheaper models trained like Astra. 50% lower API pricing, near-Astra factuality/coding/computer use gains, better prompt caching (90% off cached reads), and alignment improvements. Live in ChatGPT Work, Codex, and via API.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TYGMCTMYJRKMMV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6d11edf5-395b-4e4a-a2d7-ae6ea133ca08.jpeg?auto=format",
-      "votes_count": 324,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8973dfe0-5367-41cb-9205-5c056df47972)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1203994",
       "name": "Cuey",
       "name_zh": "Cuey",
-      "tagline_zh": "Compare ChatGPT, Claude & Gemini answers in one tab.",
-      "description_zh": "AI gives you wrong answers in the same confident tone as right ones. Cuey cross-checks your AI's answer against ChatGPT, Claude, Gemini, and 30+ other models. It surfaces where they disagree and what your model missed. No copy-pasting between tabs, no repeating yourself, no extra subscriptions. Get a second opinion before you get burned by the first.",
-      "intro_zh": "",
+      "tagline_zh": "在同一个标签页比较 ChatGPT、Claude 和 Gemini 的回答。",
+      "description_zh": "Cuey 将 AI 的回答与 ChatGPT、Claude、Gemini 及其他 30 多个模型交叉比较，指出分歧和可能遗漏的内容。简介称，无需在标签页间复制粘贴、重复提问或额外订阅，就能获得第二意见。",
+      "intro_zh": "给需要复核 AI 回答的人用，在同一页比较多个模型的意见，查看分歧和遗漏。",
       "url": "https://www.producthunt.com/products/cuey-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KQXSDK666ISFA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b7b0db09-1d8f-43bf-96b6-7deb3b3453c8.png?auto=format",
       "votes_count": 282,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "复核场景明确，能减少跨页比较，但纠错效果尚无依据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何区分措辞差异与事实冲突，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "集中展示分歧的做法可借用，但需要保留原文供核对。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "集中展示分歧能缩小复核范围；关键疑问是，它能否找到真正的错误，而不只是增加几份回答。",
+      "product_analysis": {
+        "target_problem": "需要据 AI 回答做判断的人，会担心它把错误也说得很肯定。自行问多个模型后，逐段找差异仍然麻烦。",
+        "workflow": "用户用 Cuey 交叉比较 AI 回答，在同一页查看不同模型的分歧和遗漏。简介没说明如何提交原回答。",
+        "ai_value": "多个模型提供第二意见，Cuey 展示比较结果。但模型互相同意，也不能证明答案正确。",
+        "differentiation": "以前若跨标签页复核，需要复制问题、自己比对；现在可以集中查看。最可能让人犹豫的是，多份答案仍需自己判断。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2336845e-38c5-4d98-8d79-926f382385f2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到与 ChatGPT、Claude、Gemini 及其他 30 多个模型交叉比较，未说明具体比较技术。",
+        "possible_approach": "如果自己做，可以先把相同问题和必要背景交给多个模型，再把回答拆成具体主张，标出冲突并附上原文。",
+        "tradeoffs": "最容易把表述不同误判为事实冲突，用户会多花时间排查并不存在的问题。",
+        "unknowns": "比较时，各模型能否拿到原回答所依据的完整上下文？"
+      },
+      "transferable_insights": [
+        "做多来源问答时，可以先展示有分歧的具体主张，再让用户展开对应原文，减少逐篇阅读。"
+      ],
+      "validation_questions": [
+        "用一个已知包含事实错误的回答测试，检查是否指出了该错误。",
+        "用两份措辞不同但意思相同的回答测试，检查是否误报分歧。"
+      ],
+      "source_tagline": "Compare ChatGPT, Claude & Gemini answers in one tab.",
+      "source_description": "AI gives you wrong answers in the same confident tone as right ones. Cuey cross-checks your AI's answer against ChatGPT, Claude, Gemini, and 30+ other models. It surfaces where they disagree and what your model missed. No copy-pasting between tabs, no repeating yourself, no extra subscriptions. Get a second opinion before you get burned by the first."
     },
     {
       "id": "1257863",
       "name": "Superhuman Go",
       "name_zh": "Superhuman Go",
-      "tagline_zh": "The AI assistant that works where you do",
-      "description_zh": "Go works inside Gmail, Slack, your docs, and your browser nudging better phrasing, drafting replies that sound like you, and prepping meetings before you think to. Add no-code agents that run on their own schedule. Free to start.",
-      "intro_zh": "",
+      "tagline_zh": "在你工作的地方提供帮助的 AI 助手",
+      "description_zh": "Go 在 Gmail、Slack、文档和浏览器中提供措辞建议、起草贴近你语气的回复，并提前准备会议。还可添加无需编程、按计划运行的智能体，支持免费开始使用。",
+      "intro_zh": "给经常处理邮件、消息和文档的人，在工作页面里改措辞、起草回复、准备会议。",
       "url": "https://www.producthunt.com/products/superhuman-go?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XBSELBXBOG2RGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f1d595ac-9597-4d64-9d0e-2d03c1daa81e.jpeg?auto=format",
       "votes_count": 198,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，但建议质量和会议准备效果尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何选对当前任务需要的信息值得分析，但实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把辅助动作放进工作页面，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是少搬运一次工作内容就能获得帮助；最影响判断的是它能否选对参考资料，否则省下的操作会变成核对负担。",
+      "product_analysis": {
+        "target_problem": "经常在邮件、消息和文档间工作的人，需要反复组织措辞、回复和会前材料。这些准备工作会占用处理事情的时间。",
+        "workflow": "在 Gmail、Slack、文档或浏览器中获得措辞建议、回复草稿和会议准备帮助。也可添加按计划自行运行的免编程智能体。",
+        "ai_value": "AI 用来建议措辞、生成贴近个人语气的回复，以及准备会议内容；简介没说明具体产出形式。",
+        "differentiation": "帮助直接出现在工作页面，可能减少搬运内容的操作。最可能让人犹豫的是：需要开放多少工作资料的读取权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a777401c-782a-4ee1-8801-599671e80eb2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI 助手和按计划运行的免编程智能体，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取当前邮件或文档中获准使用的内容，再让 AI 生成建议；定时任务则按用户设定的时间启动。",
+        "tradeoffs": "最容易出错的是选错参考内容。若把无关讨论带进回复，用户就得逐句核对，甚至可能误发信息。",
+        "unknowns": "会议准备会读取哪些资料，简介没有交代。"
+      },
+      "transferable_insights": [
+        "做客服或文档工具时，可以把建议放在当前编辑位置，方便用户对照原文后决定是否采用。"
+      ],
+      "validation_questions": [
+        "用一段包含多个话题的邮件讨论，检查回复草稿是否只引用当前问题相关的信息。",
+        "检查按计划运行的智能体是否会在未经确认时向外发送内容。"
+      ],
+      "source_tagline": "The AI assistant that works where you do",
+      "source_description": "Go works inside Gmail, Slack, your docs, and your browser nudging better phrasing, drafting replies that sound like you, and prepping meetings before you think to. Add no-code agents that run on their own schedule. Free to start."
     },
     {
       "id": "1249438",
       "name": "KiwiDesk",
       "name_zh": "KiwiDesk",
-      "tagline_zh": "Tiling that feels like it shipped with macOS.",
-      "description_zh": "KiwiDesk is a tiling window manager for macOS that keeps your Mac calm and organized: every window finds its place in one of seven layouts, apps open with a shortcut, and mouse users get a Space Bar they can drag windows onto. It works with your native macOS Desktops: bind a profile to each one and it loads the moment you swipe there, with its own spaces, layouts, colors and shortcuts. Everything is set in a native Settings app, no config file needed. Free to use, source on GitHub.",
-      "intro_zh": "",
+      "tagline_zh": "像 macOS 自带功能一样自然的窗口平铺。",
+      "description_zh": "KiwiDesk 是 macOS 窗口平铺管理器，提供七种布局、快捷键启动应用，以及可拖入窗口的 Space Bar。它支持给原生桌面绑定独立配置，切换桌面时加载对应的空间、布局、颜色和快捷键；可在原生设置应用中配置，无需配置文件，免费使用，源码放在 GitHub。",
+      "intro_zh": "给经常在多个 Mac 窗口间工作的人用，按布局排列窗口，并随桌面切换加载各自的设置。",
       "url": "https://www.producthunt.com/products/kiwidesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MLKOVEXGXQJVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/62f70f6d-3b3b-47b2-97e8-65c3bc305ad5.png?auto=format",
       "votes_count": 147,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "窗口排列和按桌面加载设置的用途清楚，但实际稳定性未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "切换桌面时如何正确应用窗口布局，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把整套设置绑定到工作场景，可借用于有多种工作模式的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让桌面记住整套工作设置；最影响判断的是，它能否稳定处理日常应用的窗口。",
+      "product_analysis": {
+        "target_problem": "经常在多个应用间工作的 Mac 用户，需要整理窗口，也可能需要为不同桌面保留不同安排。麻烦在于切换工作内容时，还要调整窗口和设置。",
+        "workflow": "在设置应用中选择布局，把配置绑定到原生桌面。之后切换桌面会加载对应配置，也可用快捷键打开应用，或把窗口拖到 Space Bar。",
+        "ai_value": "介绍没提 AI，主要靠窗口平铺和按桌面加载配置来改善体验。",
+        "differentiation": "它把布局、颜色和快捷键一起随桌面切换，省去逐项调整。最可能让人犹豫的是自动排列是否会打乱已有的窗口习惯。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a6cc95de-ec6a-42bd-bf56-af4009c45866)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 macOS 原生桌面、七种布局和原生设置应用，源码在 GitHub；介绍未说明具体窗口控制技术。",
+        "possible_approach": "如果自己做，可以先记录每个桌面的布局配置，再识别当前桌面和窗口，把窗口移到对应位置。",
+        "tradeoffs": "最难的是切换桌面时识别对当前窗口；若应用错了配置，用户就得重新整理。",
+        "unknowns": "介绍没有说明哪些应用窗口不能参与平铺。"
+      },
+      "transferable_insights": [
+        "做编辑器或工作台时，可以把一组设置绑定到项目，打开项目就恢复，减少逐项调整。"
+      ],
+      "validation_questions": [
+        "连续切换两个绑定不同布局的桌面，检查是否加载了正确配置？",
+        "用日常常用应用测试，检查是否有窗口无法参与平铺？"
+      ],
+      "source_tagline": "Tiling that feels like it shipped with macOS.",
+      "source_description": "KiwiDesk is a tiling window manager for macOS that keeps your Mac calm and organized: every window finds its place in one of seven layouts, apps open with a shortcut, and mouse users get a Space Bar they can drag windows onto. It works with your native macOS Desktops: bind a profile to each one and it loads the moment you swipe there, with its own spaces, layouts, colors and shortcuts. Everything is set in a native Settings app, no config file needed. Free to use, source on GitHub."
     },
     {
       "id": "1255507",
       "name": "Harmony",
       "name_zh": "Harmony",
-      "tagline_zh": "AI agents that resolve IT/HR tickets inside Slack and Teams",
-      "description_zh": "Harmony is an AI-native ITSM platform for IT teams. Instead of bolting a chatbot onto a ticketing tool, we built the helpdesk around AI agents: employees ask in Slack or Teams, and 100+ production-ready agents handle password resets, app access, onboarding, device issues and more end to end, escalating to a human only when needed. Ticketing, asset inventory, SaaS management and workflows live in one workspace, so agents have context to act. Teams hit 60%+ auto-resolution in days.",
-      "intro_zh": "",
+      "tagline_zh": "在 Slack 和 Teams 内处理 IT、人事工单的 AI 助手",
+      "description_zh": "Harmony 是面向 IT 团队的服务管理平台，员工可在 Slack 或 Teams 提问，由 AI 助手处理密码重置、应用权限、入职和设备问题，必要时转交人工；工单、资产清单、在线软件管理和工作流集中在同一工作区。缓存简介称其有 100 多个可用于生产环境的助手，团队数天内可达到超过 60% 的自动解决率，但这些说法未经核验。",
+      "intro_zh": "给企业 IT 支持团队用，让员工在 Slack 或 Teams 提交问题，由 AI 处理或转交人工。",
       "url": "https://www.producthunt.com/products/harmony-it?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NNMZDIS3NQH7H7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8e44a07e-688e-40cc-a105-4bce692d7066.jpeg?auto=format",
       "votes_count": 141,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复求助场景明确，但自动解决的实际范围尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "代办权限操作时如何核实身份，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在员工常用聊天入口接收请求，并结合资产资料处理，可供内部服务产品借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让 AI 从回答问题走到执行操作；最影响判断的是，它如何防止未经授权的操作。",
+      "product_analysis": {
+        "target_problem": "IT 团队要处理密码、权限和设备求助。重复请求占用人力，判断问题还需要员工与资产信息。",
+        "workflow": "员工在 Slack 或 Teams 提问，AI 助手处理请求，必要时转人工。工单、资产和软件资料放在同一工作区。",
+        "ai_value": "AI 承担请求处理，并利用工作区信息执行任务；简介没有说明各类任务能自动做到哪一步。",
+        "differentiation": "把提问和处理放在聊天入口，可能减少另开工单页面的操作。迁入现有资产和软件资料的工作量，可能让团队犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 23528165-38a6-4114-a8d8-253d71ad4cf1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1256758",
-      "name": "Clicks Communicator",
-      "name_zh": "Clicks Communicator",
-      "tagline_zh": "A new kind of mobile communicator designed for doing",
-      "description_zh": "Clicks Communicator is a compact Android 17 phone built around a physical keyboard and a home screen for conversations. Use it as your main phone or a companion, with full 5G and apps while keeping messages, typing, and quick replies close at hand.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/clicks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/27XWJYYEJSFQFE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8429d008-fdf8-40ac-a1cd-acf1bdb45097.jpeg?auto=format",
-      "votes_count": 134,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI 助手、Slack 和 Teams 入口，以及统一的工单、资产和软件管理工作区。",
+        "possible_approach": "如果自己做，可以先从聊天消息识别请求，再核对身份与权限，执行获准操作，并记录结果或转人工。",
+        "tradeoffs": "最容易出错的是授权判断。若把“提出申请”当成“有权获得”，就可能给错人开通应用访问权限。",
+        "unknowns": "执行敏感操作前，哪些情况必须由人审批？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 920cbf35-fe36-4f9e-a789-3c7805609a0e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做企业内部服务时，可先挑密码重置这类边界清楚的请求，在聊天中完成处理，异常时连同处理记录转给人工。"
+      ],
+      "validation_questions": [
+        "让无权限员工申请受限应用，检查系统是否拦截或要求审批。",
+        "抽查被标记为自动解决的工单，确认员工的问题是否真的解决。"
+      ],
+      "source_tagline": "AI agents that resolve IT/HR tickets inside Slack and Teams",
+      "source_description": "Harmony is an AI-native ITSM platform for IT teams. Instead of bolting a chatbot onto a ticketing tool, we built the helpdesk around AI agents: employees ask in Slack or Teams, and 100+ production-ready agents handle password resets, app access, onboarding, device issues and more end to end, escalating to a human only when needed. Ticketing, asset inventory, SaaS management and workflows live in one workspace, so agents have context to act. Teams hit 60%+ auto-resolution in days."
     },
     {
       "id": "1260008",
       "name": "NiroHelp",
       "name_zh": "NiroHelp",
-      "tagline_zh": "Save time and money with AI-native support for WordPress",
-      "description_zh": "Support more customers with a smaller team and lower costs. NiroHelp’s AI uses your docs to answer customer questions in chat and reply to support tickets automatically. Customers get faster answers, while your team spends less time on repetitive questions. When AI is unsure, your team takes over. All inside WordPress.",
-      "intro_zh": "",
+      "tagline_zh": "用面向 WordPress 的 AI 客服节省时间和费用",
+      "description_zh": "NiroHelp 的 AI 使用你的文档回答聊天中的客户问题，并自动回复客服工单；无法确定答案时，由团队接手，操作都在 WordPress 内完成。介绍称，这能减少重复答疑，让较小的团队服务更多客户，并降低成本。",
+      "intro_zh": "给在 WordPress 内处理客服的团队用，让 AI 根据文档回答聊天和工单，不确定时交给人工。",
       "url": "https://www.producthunt.com/products/nirohelp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/R2TIQJRCRGQNZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c7d430a4-a956-4312-a2ef-3560b6609187.jpeg?auto=format",
       "votes_count": 36,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复答疑的场景清楚，但实际能减少多少人工工作尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "能否识别自己答不了的问题，直接影响自动回复的可靠性。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "依据已有文档回答、遇到疑问转人工的做法可用于其他客服产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把文档用于日常答疑有明确用途；最影响判断的是，它能否可靠识别没有依据的问题。",
+      "product_analysis": {
+        "target_problem": "适合在 WordPress 内处理聊天和工单的客服团队。重复问题会占用人工答疑时间。",
+        "workflow": "让 AI 使用已有文档回答客户聊天、自动回复工单；AI 不确定时，团队接手。介绍未说明文档如何接入。",
+        "ai_value": "AI 根据文档组织回答，承担重复答疑。介绍称能加快回复、降低成本，但没有提供实测数据。",
+        "differentiation": "以前需要人工处理的部分重复问题，现在可以交给 AI。团队可能不愿启用自动回复，主要是担心错误答案直接发给客户。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 06a427a9-abc5-40ad-b741-ac5b2489295b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "AI 使用用户文档作答，支持聊天和工单回复，并在不确定时交给人工；功能位于 WordPress 内。",
+        "possible_approach": "如果自己做，可以先按客户问题查找相关文档，再让 AI 依据内容回答；找不到充分依据时转人工。",
+        "tradeoffs": "最难的是判断何时不该回答。AI 若把猜测当成确定答案，就可能跳过人工接手，误导客户。",
+        "unknowns": "转人工时，客服能否看到此前对话和 AI 已给出的回答？"
+      },
+      "transferable_insights": [
+        "做已有帮助文档的客服产品时，可以先自动回答文档覆盖明确的重复问题，其他问题交给人工。"
+      ],
+      "validation_questions": [
+        "问一个文档没有答案的问题，检查它是否转人工而非编造回答。",
+        "触发一次人工接手，检查客服能否看到完整对话。"
+      ],
+      "source_tagline": "Save time and money with AI-native support for WordPress",
+      "source_description": "Support more customers with a smaller team and lower costs. NiroHelp’s AI uses your docs to answer customer questions in chat and reply to support tickets automatically. Customers get faster answers, while your team spends less time on repetitive questions. When AI is unsure, your team takes over. All inside WordPress."
     },
     {
       "id": "1261758",
       "name": "Lofi Cities",
       "name_zh": "Lofi Cities",
-      "tagline_zh": "Pixel-art city nights with endless, browser-generated lofi",
-      "description_zh": "Explore 16 animated pixel-art cities with endless lofi composed live in your browser. Choose from 9 music styles, change the weather, mix city sounds, and set focus or sleep timers. See how many people are in your city, send floating reactions, and release lanterns together. Take a city tour or explore on your phone. Free, no account needed, and works offline after your first visit.",
-      "intro_zh": "",
+      "tagline_zh": "像素城市夜景，配上浏览器实时生成的持续低保真音乐",
+      "description_zh": "探索 16 座动态像素城市，聆听在浏览器中实时创作的低保真音乐；可选 9 种音乐风格、调整天气、混合城市声音，并设置专注或睡眠计时器。还可查看同城人数、发送飘浮表情、一起放灯笼、游览城市或用手机探索；产品介绍称免费、无需账号，首次访问后可离线使用。",
+      "intro_zh": "给专注或睡前想听背景音乐的人用，在像素城市里选音乐、调环境声，再设置计时。",
       "url": "https://www.producthunt.com/products/lofi-cities?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZQJ6K5DCQ7OJBO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8d26ff57-5d56-452d-a215-843548427a8b.png?auto=format",
       "votes_count": 21,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景清楚，音乐、环境声和计时集中在一处，但实际听感待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "浏览器持续作曲与后台播放之间有具体的可靠性问题可研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "免登录体验和首次访问后离线使用，能借给轻量陪伴工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重免账号且支持离线的使用方式；最影响判断的是手机锁屏后能否稳定播放，这直接关系到睡前场景。",
+      "product_analysis": {
+        "target_problem": "需要专注或准备入睡的人，可能想同时要背景音乐和环境氛围。它把这两件事放进一个可调节的城市场景。",
+        "workflow": "选城市和音乐风格，调整天气、混合城市声音，再设专注或睡眠计时器。也可查看同城人数，发送表情或一起放灯笼。",
+        "ai_value": "介绍没提 AI，主要靠浏览器实时作曲、动态场景和声音设置来改善体验，不能据此认定用了生成式模型。",
+        "differentiation": "音乐、环境声和计时集中设置，可能少开几个工具；持续生成的音乐是否合口味，最可能影响用户是否留下。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5367e959-f819-4a88-aa27-c8bb9c68095e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到浏览器内实时作曲，以及首次访问后可离线使用。",
+        "possible_approach": "如果自己做，可以先用节奏、和弦规则安排音符，再在浏览器里合成并播放，最后缓存离线所需素材。",
+        "tradeoffs": "最容易出问题的是手机锁屏后的持续播放：浏览器若暂停声音，睡前收听就会中断。",
+        "unknowns": "离线时哪些功能仍可用，尤其同城人数和共同放灯笼，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做白噪声或专注工具时，可把声音调节和计时放在同一界面，减少来回切换。",
+        "做轻量陪伴工具时，可先让用户免登录体验，并缓存核心素材供下次离线使用。"
+      ],
+      "validation_questions": [
+        "手机锁屏后连续播放半小时，声音是否中断？",
+        "首次访问后断网重开，音乐能否正常播放？"
+      ],
+      "source_tagline": "Pixel-art city nights with endless, browser-generated lofi",
+      "source_description": "Explore 16 animated pixel-art cities with endless lofi composed live in your browser. Choose from 9 music styles, change the weather, mix city sounds, and set focus or sleep timers. See how many people are in your city, send floating reactions, and release lanterns together. Take a city tour or explore on your phone. Free, no account needed, and works offline after your first visit."
+    },
+    {
+      "id": "1238671",
+      "name": "Humalike x GTA RP",
+      "name_zh": "Humalike x GTA RP",
+      "tagline_zh": "能交谈、记事并自主行动的 AI 非玩家角色",
+      "description_zh": "创建带有记忆、个性和语音的角色乃至 AI 社会，让它们识别玩家、建立关系并对周围环境作出反应。介绍称它已在波兰最大的角色扮演服务器上线，也可加入其他服务器。",
+      "intro_zh": "给 GTA 角色扮演服务器运营者用，创建能与玩家交谈、记住关系并自主行动的游戏角色。",
+      "url": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/V63RWUYZIRKDTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a81e2367-4dfc-45b4-a1a3-781f43173b99.png?auto=format",
+      "votes_count": 337,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "互动场景清楚，但部署要求和实际省下的角色维护工作尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "记忆如何影响后续行为，是一个具体且直接影响体验的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "记住关系再调整回应的做法可借用，但效果仍待验证。"
+        }
+      },
+      "category": "游戏娱乐",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是角色关系能延续到下一次互动；最影响判断的是自主行动能否被运营者约束。",
+      "product_analysis": {
+        "target_problem": "角色扮演服务器运营者需要持续回应玩家的角色。麻烦在于，角色既要记得过去发生的事，又要保持性格连贯。",
+        "workflow": "介绍支持创建角色或 AI 社会，赋予记忆、个性和语音，再加入自己的服务器。玩家互动后，角色可识别玩家并建立关系；具体接入步骤未说明。",
+        "ai_value": "AI 用于让游戏中的非玩家角色交谈、记忆并自主行动。介绍没有解释这些能力如何配合。",
+        "differentiation": "它把持续记忆和自主反应放进角色互动中，可能减少逐段编写回应的工作。运营者可能顾虑角色行为难以控制。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI、角色记忆、个性、语音和玩家识别，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录玩家身份和重要互动，再按角色性格生成回应，最后把允许的动作交给游戏执行。",
+        "tradeoffs": "最容易出错的是记忆归属：若把另一位玩家的经历记到当前玩家身上，角色关系就会混乱。",
+        "unknowns": "运营者能否限制角色可执行的游戏动作？"
+      },
+      "transferable_insights": [
+        "做长期陪伴或训练模拟产品时，可以记录少量关键互动，让下次回应接续已有关系。"
+      ],
+      "validation_questions": [
+        "让两位玩家分别互动后再回来，检查角色是否记混双方经历。",
+        "要求角色执行超出设定权限的动作，检查它是否会拒绝。"
+      ],
+      "source_tagline": "AI NPCs that talk, remember & act on their own",
+      "source_description": "A new roleplay experience. Build characters and entire AI societies with memory, personality and voice that recognize players, form relationships and react to everything around them. Live on Poland's largest roleplay server. Now, add it to yours."
+    },
+    {
+      "id": "1258630",
+      "name": "GPT-6 Sol & Luna",
+      "name_zh": "GPT-6 Sol & Luna",
+      "tagline_zh": "前沿 AI 能力，价格减半（缓存资料中的宣传说法）",
+      "description_zh": "缓存简介称，OpenAI 为 GPT-6 系列增加了 Sol 和 Luna，采用类似 Astra 的训练方式，速度更快，接口价格降低 50%，事实准确性、编程和操作电脑的能力接近 Astra。简介还称，缓存读取费用降低 90%，模型更能遵循预期行为，并已在 ChatGPT Work、Codex 和 API 中提供；这些信息未经重新核验。",
+      "intro_zh": "面向接入 AI 的开发者和工作用户，用于编程、回答问题及操作电脑，主打较低使用费用。",
+      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TYGMCTMYJRKMMV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6d11edf5-395b-4e4a-a2d7-ae6ea133ca08.jpeg?auto=format",
+      "votes_count": 324,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "降价对应明确需求，但比较基准和实际任务表现未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "缓存如何影响实际账单值得分析，但资料没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "复用重复输入的做法可借鉴，收益取决于任务是否重复。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是重复输入可能更便宜；但历史缓存未经核验，需先确认这些型号及价格目前是否真实可用。",
+      "product_analysis": {
+        "target_problem": "需要大量调用 AI 的团队，会关心费用能否下降，同时保持任务完成质量。资料没有说明降价具体相对哪个版本。",
+        "workflow": "简介列出 ChatGPT Work、Codex 和 API（让软件调用模型的接口）三个使用入口，但没交代如何选择或切换 Sol、Luna。",
+        "ai_value": "模型负责回答、写代码和操作电脑。接近 Astra 的能力属于缓存宣传，不能据此认定任务成功率。",
+        "differentiation": "主张省的是调用费用。我会先确认换模型后是否需要增加人工检查，否则单价下降未必让整项任务更便宜。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介提到类似 Astra 的训练方式和提示缓存，即复用已处理的输入；没有具体实现细节。",
+        "possible_approach": "如果自己做，可以先找出请求中反复出现的固定说明，再使用支持缓存的模型服务，并分别记录缓存与非缓存费用。",
+        "tradeoffs": "难点是让重复输入真正被缓存复用；若频繁改动导致无法复用，用户账单可能远高于按缓存折扣估算的金额。",
+        "unknowns": "缓存复用需要满足什么条件，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做重复处理同类文档的助手时，可以固定通用说明，把每次变化的正文单独组织，再检查是否实际减少费用。"
+      ],
+      "validation_questions": [
+        "在同一批真实任务上，新旧模型的任务通过率是否相近？",
+        "重复发送相同的固定输入后，账单是否确实按缓存读取计费？"
+      ],
+      "source_tagline": "Frontier AI intelligence, now at half the price",
+      "source_description": "OpenAI expands the GPT-6 family with Sol and Luna with faster, cheaper models trained like Astra. 50% lower API pricing, near-Astra factuality/coding/computer use gains, better prompt caching (90% off cached reads), and alignment improvements. Live in ChatGPT Work, Codex, and via API."
+    },
+    {
+      "id": "1256758",
+      "name": "Clicks Communicator",
+      "name_zh": "Clicks Communicator",
+      "tagline_zh": "一种为处理事务而设计的新型移动通信设备",
+      "description_zh": "Clicks Communicator 是一款紧凑型手机，缓存简介称其搭载 Android 17，围绕实体键盘和以对话为中心的主屏幕设计。它可作主力机或备用机，支持 5G 和应用，方便查看消息、打字和快速回复。",
+      "intro_zh": "给经常用手机处理消息的人，用实体键盘输入，在以对话为中心的主屏幕查看和回复消息。",
+      "url": "https://www.producthunt.com/products/clicks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/27XWJYYEJSFQFE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8429d008-fdf8-40ac-a1cd-acf1bdb45097.jpeg?auto=format",
+      "votes_count": 134,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "消息处理场景明确，但实体键盘能否改善输入体验尚无验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把不同应用的对话放到主屏幕涉及具体的消息接入问题，但实现细节未知。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕高频任务组织首页的做法，可借用于客服和协作产品。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把消息处理放到首页；但常用应用能否接入，决定了这个首页是否真能少一次寻找。",
+      "product_analysis": {
+        "target_problem": "适合频繁收发消息、偏好实体按键的人。手机上消息入口分散时，找到对话再回复可能需要来回切换。",
+        "workflow": "把它作为主力机或备用机使用，从以对话为中心的主屏幕查看消息，用实体键盘输入和回复。介绍没有说明具体支持哪些消息应用。",
+        "ai_value": "介绍没提 AI，主要靠实体键盘和主屏幕布局改善消息处理体验。",
+        "differentiation": "它把对话入口和实体输入放在一起。最可能让人不愿换机的是不适应键盘手感，输入收益未必能抵消换设备的麻烦。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介写有 Android 17、实体键盘和 5G 支持，其中系统版本未经重新核验。",
+        "possible_approach": "如果自己做，可以先让实体按键稳定输入文字，再把支持的消息应用接到主屏幕，提供打开对话和回复入口。",
+        "tradeoffs": "最难的是让主屏幕里的消息保持完整、及时；如果漏消息，用户仍得逐个打开应用检查。",
+        "unknowns": "主屏幕究竟能接入哪些消息应用，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做客服或团队协作产品时，可以按待回复的对话组织首页，让用户先看到要处理的事，再进入对应内容。"
+      ],
+      "validation_questions": [
+        "用自己最常用的消息应用收发一次，检查主屏幕能否完整呈现新消息。",
+        "用实体键盘输入一段日常中文回复，检查选词和纠错是否顺手。"
+      ],
+      "source_tagline": "A new kind of mobile communicator designed for doing",
+      "source_description": "Clicks Communicator is a compact Android 17 phone built around a physical keyboard and a home screen for conversations. Use it as your main phone or a companion, with full 5G and apps while keeping messages, typing, and quick replies close at hand."
     },
     {
       "id": "1261980",
       "name": "QueroCura",
       "name_zh": "QueroCura",
-      "tagline_zh": "the future of connected healthcare ",
-      "description_zh": "Personalized care, right at home. From understanding your symptoms to remembering your next dose, QueroCura keeps your health story in one trusted place.",
-      "intro_zh": "",
+      "tagline_zh": "互联医疗的未来",
+      "description_zh": "在家获得个性化健康照护。从了解症状到记住下一次服药，QueroCura 将个人健康信息集中在一处。",
+      "intro_zh": "给需要在家管理健康的人用，帮助了解症状、记住服药时间，并集中保存个人健康信息。",
       "url": "https://www.producthunt.com/products/querocura?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QF2EYY7QR645AC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2583a060-d2f3-4342-9843-d86a34e2bf0f.png?auto=format",
       "votes_count": 19,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "居家健康管理的用途清楚，但如何帮助理解症状还不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "用药信息变化后如何避免错误提醒，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把健康记录与服药提醒放在一起可供借鉴，实际联动方式仍不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重健康记录和服药提醒能放在一起；但这份历史简介没有讲清症状解释的边界，不能据此判断医疗可靠性。",
+      "product_analysis": {
+        "target_problem": "需要在家持续关注症状和服药的人，既要记住身体变化，也要记住下一次用药。它试图把这些事放在同一处处理。",
+        "workflow": "简介支持的用途是了解症状、记住下一次服药，并集中保存健康信息。没有说明用户如何录入信息或设置提醒，无法还原完整操作。",
+        "ai_value": "介绍没提 AI，主要靠集中健康信息和帮助记住服药时间来改善体验。",
+        "differentiation": "集中处理可能减少查找记录的麻烦。但若已有其他健康记录，重新整理资料可能让人不愿迁入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 59572aa4-7cc8-4003-8047-18e303a26243)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存带日期的症状和用药记录，再按用户确认的服药时间发提醒。症状说明应标清信息来源，避免让用户误当成诊断。",
+        "tradeoffs": "最容易出错的是用药方案变了，提醒却没更新。用户可能继续按旧时间或旧剂量服药。",
+        "unknowns": "“理解症状”究竟只是整理信息，还是会给出医疗建议？"
+      },
+      "transferable_insights": [
+        "做长期健康管理产品时，可以把每次用药调整和后续提醒放在同一处，便于用户核对当前方案。"
+      ],
+      "validation_questions": [
+        "修改用药方案后，旧提醒是否停止？",
+        "查看症状解释时，能否分清一般健康信息与医疗建议？"
+      ],
+      "source_tagline": "the future of connected healthcare ",
+      "source_description": "Personalized care, right at home. From understanding your symptoms to remembering your next dose, QueroCura keeps your health story in one trusted place."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

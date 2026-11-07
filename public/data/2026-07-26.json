@@ -1,357 +1,510 @@
 {
   "date": "2026-07-26",
-  "generated_at": "2026-07-27T18:49:09+08:00",
+  "generated_at": "2026-11-07T15:41:02+00:00",
   "generation_error": false,
   "products": [
     {
       "id": "1198766",
       "name": "Athena by Shoplazza",
-      "name_zh": "店匠雅典娜",
-      "tagline_zh": "掌控全盘电商运营的智能编排助手",
-      "description_zh": "雅典娜帮你快速生成一个页面精美、商品齐全、文案本地化的即开即用网店。开店后还能批量上架商品、设置促销、配置物流、投放广告，持续经营。支付、物流、履约和会员体系全内置，它建的不只是橱窗，而是一个立刻就能运转的真实生意。",
-      "intro_zh": "这是一个能帮你从零搭建并运营网店的全能助手，商品、优惠、物流、广告全都自动搞定。想快速开网店又不懂技术的创业小白或中小商家，有了它就能少走弯路。",
+      "name_zh": "Athena by Shoplazza",
+      "tagline_zh": "统筹电商运营的智能助手",
+      "description_zh": "Athena 帮助生成包含页面、商品和本地化文案的网店，并支持开店后的批量上架、促销设置、物流配置和广告投放。介绍称支付、物流、履约和会员体系均已内置。",
+      "intro_zh": "给准备开网店的商家用，帮助生成店铺页面、商品和本地化文案，并处理开店后的运营设置。",
       "url": "https://www.producthunt.com/products/athena-by-shoplazza?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BFVWD7733PP65I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/614a9e6e-e262-4934-b558-9d1a44a84e45.jpeg?auto=format",
       "votes_count": 386,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "界面操作丰富，可以录制AI快速生成店铺页面、商品列表、营销设置的完整过程，有清晰的前后对比，视觉观感好，但整体偏教程风格，缺少戏剧化冲击。"
+          "reason": "覆盖建店和后续运营，但实际省多少操作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "完全为非技术人员设计，无需编程或电商背景，所有操作都是直观的界面引导，概念通俗，普通用户看完就能上手。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "生成内容怎样变成正确的经营配置，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第1，获得386张选票，话题性极强，正好踩中AI落地商业的热点。"
+        "transferability": {
+          "score": 4,
+          "reason": "把内容生成和业务配置放在一起，可借用于其他业务搭建工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "3分钟开一家能赚钱的网店！这个AI把电商全包了",
-        "angle": "教程演示+开箱体验",
-        "shooting_tips": "全程录屏，从输入“开一家宠物用品店”开始，展示AI如何自动生成首页、商品列表、折扣活动和物流设置，突出批量操作和一键打通的效率。剪辑时用快节奏踩点，加上“一键开店”“0基础当老板”等字幕，最后展示真实网店前台的视觉效果。",
-        "target_audience": "想开网店但缺乏技术能力的个人、中小创业者、跨境电商新手"
       },
       "category": "金融商业",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品界面演示效果强，零门槛人人可懂，且热度登顶PH，非常适合制作吸引眼球的AI电商科普或实操视频。"
-    },
-    {
-      "id": "1206526",
-      "name": "SF Apartment Finder",
-      "name_zh": "旧金山找房刷",
-      "tagline_zh": "刷交友软件一样刷旧金山实时房源",
-      "description_zh": "Criblist 把旧金山找房变成了可滑动的卡片。设定你的预算、中意社区和硬性条件，就能浏览来自 Craigslist 和本地中介的实时房源，Context.dev 负责提取和提供数据，喜欢的就留下。",
-      "intro_zh": "这玩意儿让你像刷 Tinder 一样找旧金山的房子，左滑跳过右滑收藏，全是实时房源。想在旧金山租房、被过时假信息搞烦的上班族和学生党必备。",
-      "url": "https://www.producthunt.com/products/sf-apartment-finder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/O3D2UFH7U4P7SI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cd1b8159-8f0c-47a6-9c3f-c0ecd24c1db2.png?auto=format",
-      "votes_count": 216,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "滑动卡片的交互界面非常适合视频演示，类似 Tinder 的操作动感十足，能清晰展示房源切换、收藏等画面，视觉冲击力强。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念像交友软件一样简单，设置预算和区域后只需左右滑动，毫无技术门槛，普通人秒懂上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第4名，票数216，热度较高，且特定城市的找房痛点容易引发话题。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把建店延伸到实际经营；但“即开即用”仍是宣传，关键要看生成后还有多少设置需要人工补齐。",
+      "product_analysis": {
+        "target_problem": "准备开店的商家，需要同时处理页面、商品和交易设置。难处是页面做完，还得让店铺能接单、发货。",
+        "workflow": "先生成含商品和本地化文案的店铺，再进行批量上架、设置促销等运营操作。介绍未交代商家要提供哪些资料。",
+        "ai_value": "介绍没明确提 AI，只描述了自动生成店铺和集中处理运营的能力，无法判断哪些操作由模型完成。",
+        "differentiation": "把建店和经营功能放在一起，可能减少来回配置。已有店铺的商家可能因迁移现有设置而不愿更换。"
       },
-      "video_inspiration": {
-        "title_idea": "旧金山租房像刷 Tinder？左滑右滑找公寓，再也不怕假房源！",
-        "angle": "开箱体验 + 功能演示",
-        "shooting_tips": "录屏展示设置预算和社区的引导过程，重点拍摄左右滑动的卡片动画，对比传统找房网页的繁琐，穿插真实房源截图，用快节奏配轻搞笑音效。",
-        "target_audience": "准备在旧金山租房的年轻人，留学生、科技从业者，熟悉交友软件操作的用户。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说支付、物流、履约和会员体系内置，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集商品、市场和配送资料，再生成页面与配置草稿，确认后写入店铺系统。",
+        "tradeoffs": "最容易出错的是把配送资料变成物流规则；若运费或配送范围设错，可能出现有订单却无法按约发货。",
+        "unknowns": "生成的经营配置是否需要商家确认后才生效？"
       },
-      "category": "社交生活",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "界面动感易演示，概念零门槛，话题性足，非常适合做成抓眼球的短视频。"
-    },
-    {
-      "id": "1202119",
-      "name": "Aymo AI",
-      "name_zh": "艾莫AI",
-      "tagline_zh": "团队专属的AI全家桶",
-      "description_zh": "在一个安全的工作区里，直接使用GPT、Claude、Gemini、DeepSeek等45+顶尖AI模型。你可以并排比较不同模型的回答，上传文件聊天，联网搜索，生成图片，还能和团队一起协作。免费版和付费版都能帮你省掉十几个AI工具的开销，配套还有浏览器扩展、桌面应用和即将上线的AI文档功能。",
-      "intro_zh": "一个地方就能玩转几十种主流AI，对比回答、传文件、搜网页、生图全搞定，还能拉上同事一起用。想从一堆AI订阅费里解脱的团队和重度AI用户，应该会爱上它。",
-      "url": "https://www.producthunt.com/products/aymo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/B2AAONAFWVZST6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/79a95f00-f54f-40f0-a440-678932db4ad3.png?auto=format",
-      "votes_count": 184,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "界面操作丰富，可以直观演示多模型并排对比、文件上传对话、图像生成、团队协作等场景，画面切换多，演示效果强，视觉冲击力足。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念直白，就是把市面上最好的AI模型装进一个统一界面，不需要任何技术背景，注册即用，所有功能都有现成的按钮和引导。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第5，184票，AI平台类产品竞争激烈仍能冲进前五，话题性较高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "一个工具白嫖GPT、Claude、Gemini等45+大佬，团队再也不用买一堆会员了",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "屏幕录制为主，开篇快速展示在同一个对话框里切换不同模型的炫酷操作，然后选取一个热点问题让GPT、Claude、DeepSeek同时回答并对比优劣，再演示上传PDF分析、联网搜索、生成图片等核心卖点，最后展示团队共享工作区的用法。节奏轻快，配口语化解说，穿插夸张的省钱对比字幕。",
-        "target_audience": "习惯使用各类AI工具的内容创作者、创业者、中小型团队，以及想省钱又追求效率的重度AI玩家。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "视频演示效果极佳，小白零门槛上手，热度不错，集多模型对比与团队协作于一身，非常适合做成沉浸式测评视频。"
-    },
-    {
-      "id": "1206492",
-      "name": "PureBox.ai",
-      "name_zh": "PureBox.ai",
-      "tagline_zh": "先审查后清理，AI帮你轻松搞定Gmail收件箱",
-      "description_zh": "大多数收件箱工具都得先让你建规则，PureBox 直接跳过这一步——它用 AI 和你的 Gmail 历史记录（你打开过、回复过或放任不管的邮件），在第一次扫描时就为你量身定制清理建议，从第一天起就符合你的习惯。每条建议都会告诉你原因，并且只有你同意它才会执行——没有黑箱操作，也不会悄悄删除。它帮你揪出需要关注的邮件，而不仅仅是找垃圾。你的数据绝不会被出售，Pro 订阅就是它的商业模式。",
-      "intro_zh": "用 AI 给 Gmail 来个大扫除，所有建议都要你点头才动手，特别有安全感。每天被促销邮件淹没、动不动几千封未读的上班族和学生党，用了它终于能喘口气。",
-      "url": "https://www.producthunt.com/products/purebox-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6EOMSBCWVQ62HH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/fa819b2a-12d0-423b-81f1-eb01af9e68a4.jpeg?auto=format",
-      "votes_count": 153,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的界面截图、AI扫描进度和审批操作，能展示邮箱清理前后对比，视觉上直观易懂，适合录屏演示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "只要会用 Gmail 就能看懂，概念很简单：扫描→推荐→人工批准。没有技术门槛，唯一需要的是授权登录，普通人能够轻松上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第6，获得153票，有不错的话题度和关注量，属于当日热门产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我终于对我的Gmail下狠手了！AI先审后删，强迫症舒服了",
-        "angle": "开箱体验",
-        "shooting_tips": "全程录屏：从连接Gmail账号开始，展示AI扫描过程、清洗出的邮件建议列表，重点拍每一条建议的理由和审批按钮，最后呈现清理前后的邮箱整洁度对比。语速轻快，吐槽以前自己的邮箱多恐怖，突出‘不会偷删’的安心感。",
-        "target_audience": "收件箱常年爆满、错过重要邮件、被营销邮件搞疯的职场人、学生和自由职业者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化审批流程和前后对比效果突出，普通人一看就懂，拍摄难度低但观感很爽。"
-    },
-    {
-      "id": "1205894",
-      "name": "BrainFeed",
-      "name_zh": "脑力食粮",
-      "tagline_zh": "把无意识的刷屏变成有营养的学习",
-      "description_zh": "BrainFeed 把你的收藏夹里吃灰的文章、视频变成像刷朋友圈一样的知识卡片，边刷边学。设定你想达成的目标，它会用间隔重复帮你真正记住内容，等车、排队的碎片时间就能积累扎实的知识。",
-      "intro_zh": "把你收藏了但永远不看的文章和视频，变成像刷抖音一样的知识卡片，刷着刷着就真学会了。想改掉无脑刷手机，把碎片时间用在学习上的上班族和学生，一定想试试。",
-      "url": "https://www.producthunt.com/products/brainfeed-scroll-better?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/IUAEPHIZ7VT24D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5452d557-703f-48b3-9861-c9e4a705f6e6.png?auto=format",
-      "votes_count": 131,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的卡片界面、滚动交互和间隔重复提醒，适合录屏演示，前后对比刷屏习惯的改变很有画面感和说服力。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念就是刷卡片学习，和刷朋友圈一样直观，无需任何技术背景，点开就能用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "在 ProductHunt 当日排名第7（前10），获得了131票，有一定的关注度和话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我用这个刷知识APP，把刷手机的坏毛病改掉了！",
-        "angle": "开箱体验",
-        "shooting_tips": "先拍一段对比：过去无意识刷社交媒体 vs 现在用 BrainFeed 刷知识卡片。然后录屏演示：建立一个“如何获得前100个用户”的目标，粘贴一篇长文章链接，迅速生成卡片流，展示滑动阅读、标记掌握、间隔重复弹出的过程。节奏轻快，配合口播讲解设置有多简单。",
-        "target_audience": "管不住手爱刷手机，又想利用碎片时间学点东西的学生、上班族，以及‘收藏等于学了’的资深拖延症患者。"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉演示性强、小白零门槛、精准戳中无意识刷屏的痛点，非常适合制作出圈视频。"
-    },
-    {
-      "id": "1206148",
-      "name": "Yoggi",
-      "name_zh": "Yoggi",
-      "tagline_zh": "专为儿童设计的安全 AI 聊天伙伴，成长路上的贴心陪聊",
-      "description_zh": "Yoggi 是专门给 3～15 岁孩子打造的 AI 助手，回答会按年龄调整，支持实时语音对话、画图功能，内置严格的内容过滤，家长还能远程查看和管控。在 iOS 和安卓上都能免费下载。",
-      "intro_zh": "给孩子用的 AI 小伙伴，聊天、画画、回答问题都会跟着年龄走，爸妈还能在后台盯着，省心又安全。家里有小朋友的家长，尤其适合让娃边玩边学。",
-      "url": "https://www.producthunt.com/products/yoggi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/24P2KUY4V3E55O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cecf25dd-dc22-43d7-bdad-90d1baac07e1.png?auto=format",
-      "votes_count": 125,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的 UI 界面和儿童互动场景可展示，语音对话、图像生成效果直观，亲子使用画面感强，适合开箱演示，但缺少强烈视觉冲击。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "无需技术背景，概念就是‘儿童聊天机器人’，家长和孩子都能秒懂，下载即用，上手零门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第8，125票，儿童 AI 赛道关注度高，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "给娃装了个 AI 陪聊，结果他天天跟手机聊天！家长后悔了没？",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示孩子注册流程、年龄选择界面，录一段孩子用语音提问的实拍，突出 AI 回答的口气和适合度，再切换家长后台的过滤记录和权限设置，最后放几张孩子用 AI 画的图，节奏先活泼后温馨。",
-        "target_audience": "有 3-15 岁孩子的宝妈宝爸、关注儿童数字安全的教育者"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "儿童 AI 产品自带话题热度，使用场景可视化强，家长痛点明确，非常适合制作通俗易懂的测评视频。"
-    },
-    {
-      "id": "1187054",
-      "name": "Forgeon",
-      "name_zh": "故事锻造者",
-      "tagline_zh": "像玩游戏一样创作故事：编织分支剧情、加入角色成长与视听特效",
-      "description_zh": "Forgeon 是一个让作者把书籍变成可互动冒险的平台，你可以为故事添加分支选择、RPG 机制、音乐和插画。它不替代人类作者，而是提供一套趁手的创作工具，让书本也能跟游戏、电影一样引人入胜。",
-      "intro_zh": "在 Forgeon 上，写故事就像设计 RPG 游戏，分支剧情、角色升级、插画配乐全能揉进去，做出来的书读者能边看边玩。想让小说活起来的作家、教育者和创意玩家，这下有神器了。",
-      "url": "https://www.producthunt.com/products/forgeon-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AFVYUCU2FMSEPA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a471939f-1d3d-4d48-8bf6-82456b7f02c7.png?auto=format",
-      "votes_count": 123,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "平台拥有丰富的 UI 操作、分支选择演示和视听元素，很容易拍出前后对比和沉浸感，画面信息量大，视觉冲击力强。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直观，就是给故事加上选择枝和角色属性，无需编程，拖拽式操作，普通创作者十分钟就能上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第9，票数 123，处于前10，讨论度不低，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "让小说变成可玩的 RPG！互动故事平台 Forgeon 上手实测",
-        "angle": "开箱体验",
-        "shooting_tips": "从注册账号开始录屏，快速创作一个带分支和角色成长的小故事，重点展示配乐和插画的插入过程，最后导出成可交互的阅读链接，用观众的手机端点选一下给出震撼对比。",
-        "target_audience": "网文作者、互动叙事爱好者、游戏剧情策划、教育内容创作者"
-      },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "创作过程画面丰富、操作直观，非常适合用视频演示创意玩法，且小白友好、热度在线，极易引发观众好奇。"
-    },
-    {
-      "id": "1206457",
-      "name": "Pulse Island",
-      "name_zh": "灵动脉搏",
-      "tagline_zh": "Mac刘海里的灵动小岛，一眼看尽所需信息",
-      "description_zh": "Pulse 把你 MacBook 的刘海变成一个灵动岛，音乐、会议、剪贴板、天气、专注计时器、设备和系统状态，只需抬抬眼就能全看到。不用切换窗口，一切尽在屏幕顶端。",
-      "intro_zh": "在Mac刘海那儿装了个万能小助手，音乐、天气、剪贴板啥的一眼就能看到。整天盯着屏幕的上班族和学生党，再也不用切换窗口了。",
-      "url": "https://www.producthunt.com/products/pulse-island?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/K4GNWQIHQ3MCGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/50ccb84d-9de7-424b-977b-418295bc20b1.png?auto=format",
-      "votes_count": 114,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有丰富的动态UI效果和交互演示，非常抓眼球，适合视频展示"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "安装即用，概念简单，普通人一眼能看懂，无使用门槛"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt日榜第10名，114票，热度较高"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我把Mac刘海改造成了灵动岛！Notch秒变实用工具",
-        "angle": "开箱体验",
-        "shooting_tips": "屏幕录制安装过程，对比开启前后的notch区域，重点展示音乐控制、天气、剪贴板等动态效果，快节奏切换不同功能特写",
-        "target_audience": "MacBook用户、追求桌面美观与效率的数码爱好者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉冲击力强，操作直观，普通人极易理解，热度不错，非常适合拍成视频"
+      "transferable_insights": [
+        "做业务搭建工具时，可以把生成的内容和对应设置一起交付，例如商品页配套配送规则，减少用户逐项补齐。"
+      ],
+      "validation_questions": [
+        "给定配送地区和运费要求，生成的物流规则是否准确？",
+        "修改促销设置时，系统是否在生效前让商家确认？"
+      ],
+      "source_tagline": "掌控全盘电商运营的智能编排助手",
+      "source_description": "雅典娜帮你快速生成一个页面精美、商品齐全、文案本地化的即开即用网店。开店后还能批量上架商品、设置促销、配置物流、投放广告，持续经营。支付、物流、履约和会员体系全内置，它建的不只是橱窗，而是一个立刻就能运转的真实生意。"
     },
     {
       "id": "1205823",
       "name": "TouchGrass",
-      "name_zh": "TouchGrass（触草提醒）",
-      "tagline_zh": "懂场景的休息提醒，不窥探隐私",
-      "description_zh": "TouchGrass 是一款 macOS 上的智能休息提醒工具。它不只盯着时间，还会根据你正在开会、通话、看视频或录屏的情况，聪明地推迟提醒。离开电脑就算完成一次休息，还会在你长时间打字后提醒眨眼、坐直。一切数据都在本地处理，无需授权辅助功能，不打扰你的工作流。免费试用7天，之后一次性 $3.99 买断，终生更新。",
-      "intro_zh": "给 Mac 装了个懂事的休息闹钟，开会时不乱响，离开座位自动算休息，还能提醒你别驼背、别忘眨眼。经常久坐打字、开视频会议的上班族和学生党值得一试。",
+      "name_zh": "TouchGrass",
+      "tagline_zh": "根据使用场景推迟休息提醒，注重隐私",
+      "description_zh": "TouchGrass 是 macOS 休息提醒工具，会在开会、通话、看视频或录屏时推迟提醒，把离开电脑计为休息，并在长时间打字后提醒眨眼、坐直。简介称数据均在本地处理，无需辅助功能权限，提供 7 天试用，之后一次性支付 3.99 美元并享终生更新。",
+      "intro_zh": "给长时间使用 Mac 的人，在会议等场景推迟休息提醒，并把离开电脑计为一次休息。",
       "url": "https://www.producthunt.com/products/touchgrass-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OFM4DSHZYBEP2A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7d5090e6-ad2d-46ea-88a7-a0377ddc5a02.png?auto=format",
       "votes_count": 375,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有系统菜单栏和弹窗界面可演示，但整体交互较轻，缺乏强视觉冲击的画面，更适合解说型展示而非大片式开箱。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极其简单，安装即用，无需任何设置或技术背景，Mac 用户看一眼就能理解。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日第2名，375 票，话题围绕健康提效，属于近期关注热点。"
+          "reason": "明确处理休息提醒打断工作的麻烦，但识别准确度未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "识别忙碌状态又不让提醒无限延期，是具体的设计难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按场景延后通知的做法可借用到其他提醒产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "装上这个Mac休息神器，开会摸鱼它都知道？",
-        "angle": "开箱体验",
-        "shooting_tips": "录制屏幕菜单栏图标变化，实时展示进入会议时提醒自动推迟、离开电脑回来显示已休息完成的动画，再对着摄像头边演示边吐槽传统闹钟的不智能，最后快速带过眨眼和坐姿提醒的趣味性。节奏轻快，穿插真实办公场景。",
-        "target_audience": "Mac 办公党、远程工作者、在家上网课的学生"
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把提醒时机纳入设计；最大的疑问是场景误判会不会让该来的提醒迟迟不来。",
+      "product_analysis": {
+        "target_problem": "长时间用 Mac 工作的人需要休息，但会议或录屏中弹出提醒可能打断工作。固定间隔提醒难以照顾这些场景。",
+        "workflow": "使用期间，工具根据会议、通话、视频或录屏状态推迟提醒。离开电脑会被计为休息，持续打字后还会收到眨眼、坐姿提示。",
+        "ai_value": "介绍没提 AI，主要靠场景判断和提醒时机调整来改善体验。",
+        "differentiation": "相比固定间隔提醒，它可能减少手动关闭通知的次数。但用户可能不愿把提醒时机交给无法确认准确度的自动判断。"
       },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品简单易懂有热度，但画面观赏性一般，更适合以轻量开箱或科普节奏快速带出亮点。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到本地处理数据，且无需辅助功能权限。",
+        "possible_approach": "如果自己做，可以先判断当前是否忙碌，再决定提醒或延后；另用电脑闲置时长估计休息。场景判断要逐一验证，不能把视频播放一律当作忙碌。",
+        "tradeoffs": "最容易错在该不该延后：若把后台视频误当成正在观看，休息提醒可能一直不出现。",
+        "unknowns": "介绍没说推迟是否有最长时限。"
+      },
+      "transferable_insights": [
+        "做喝水、用眼或待办提醒时，可以先判断是否处于不便打断的场景，结束后再提示。"
+      ],
+      "validation_questions": [
+        "只在后台播放视频时，休息提醒是否仍会被推迟？",
+        "离开电脑再返回后，是否准确记为一次休息？"
+      ],
+      "source_tagline": "懂场景的休息提醒，不窥探隐私",
+      "source_description": "TouchGrass 是一款 macOS 上的智能休息提醒工具。它不只盯着时间，还会根据你正在开会、通话、看视频或录屏的情况，聪明地推迟提醒。离开电脑就算完成一次休息，还会在你长时间打字后提醒眨眼、坐直。一切数据都在本地处理，无需授权辅助功能，不打扰你的工作流。免费试用7天，之后一次性 $3.99 买断，终生更新。"
     },
     {
       "id": "1200703",
       "name": "Openbase",
       "name_zh": "Openbase",
-      "tagline_zh": "随时随地，用语音指挥你的AI编程团队",
-      "description_zh": "Openbase让你能用手机语音管理一队AI编程助手，彻底告别屏幕和办公桌。AI可以异步干活，但监管它们总让你得回到电脑前——Openbase解决了这个痛点。你只需要动动嘴，就能分配任务、中途调整方向、批准改动，而AI会在后台写代码、操作电脑、发起PR、提交推送，一切尽在掌握。支持跨服务商，并与你的本机同步，回到工位刚好无缝衔接。",
-      "intro_zh": "用手机说几句话，就能让AI编程助手帮你写代码、改bug、提交文件，走到哪儿都能推进项目。不想被电脑拴住、又需要随时跟进开发进度的程序员和团队老大，绝对会爱上它。",
+      "tagline_zh": "随时随地，用语音指挥你的 AI 编程团队",
+      "description_zh": "Openbase 让用户通过手机语音分配编程任务、调整方向和批准改动，由 AI 在后台写代码、操作电脑、发起代码合并请求并提交推送。介绍称它支持跨服务商使用，并能与本机同步，方便回到电脑后继续工作。",
+      "intro_zh": "给需要离开电脑管理 AI 编程任务的开发者，用手机语音分配工作、调整方向和批准改动。",
       "url": "https://www.producthunt.com/products/openbase-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/U7DUSA6V3LZT5Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c6061c78-0cfe-4bd6-924a-23b48e6015de.png?auto=format",
       "votes_count": 226,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "可以演示手机语音操作到电脑自动编码的完整链路，分屏对比和语音指令的实时响应很有视觉冲击力，适合录屏和实拍结合展示。"
+          "reason": "离开电脑后仍需监管编程任务的场景清楚，但手机审批是否方便尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "概念涉及AI编程代理、PR、工作同步等技术细节，非程序员理解有门槛；但语音交互本身很简单，上手不难。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "语音批准如何对应到具体代码版本，是直接影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第3，票数226，话题热度高，关注度突出。"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务执行与人工批准分开，适合借用于其他后台自动化工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "我试了试用嘴写代码，AI直接帮我交了PR！",
-        "angle": "教程演示 + 生活化场景还原",
-        "shooting_tips": "画面分两半：左边手机收音、正在说指令，右边电脑屏幕实时显示AI自动写代码、打开PR、提交推送的过程。穿插边走边说的户外镜头，突出“随地指挥”的自由感，最后展示回到工位后的无缝同步。节奏明快，配合轻快的BGM和关键步骤的字幕强调。",
-        "target_audience": "程序员、技术管理者、喜欢尝鲜的AI工具爱好者"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是人在离开电脑后仍能调整任务；最大的疑问是，手机提供的信息是否足够支撑可靠的代码审批。",
+      "product_analysis": {
+        "target_problem": "需要监管 AI 编程助手的开发者，离开电脑后仍可能要改任务、批改动。以前这些操作需要回到电脑前，现在可以在手机上用语音处理。",
+        "workflow": "用户用手机语音分配任务，中途调整方向或批准改动。AI 在后台写代码、操作电脑，并发起 PR（代码合并请求）、提交推送；介绍还称任务可与本机同步。",
+        "ai_value": "AI 承担编程和电脑操作；语音让用户能远程下达指令，但介绍没说它如何理解口述需求。",
+        "differentiation": "它减少了为监管任务而返回电脑的需要。用户可能不愿切换，因为手机上是否能看清改动、放心批准还不明确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到后台异步执行、跨服务商支持和本机同步，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先把语音转成可确认的任务，再交给编程助手执行。批准时绑定具体改动版本，最后同步执行结果。",
+        "tradeoffs": "最容易出错的是批准对象不清：用户说“可以提交”时，若对应错了版本，就可能提交尚未检查的代码。",
+        "unknowns": "手机端批准前，用户能看到多少代码改动和检查结果？"
+      },
+      "transferable_insights": [
+        "做后台自动化工具时，可以把执行留在后台，把需要人决定的节点送到手机；每次批准都明确显示操作对象。"
+      ],
+      "validation_questions": [
+        "连续产生两版改动后，检查语音批准是否只作用于指定版本。",
+        "在手机调整任务后回到电脑，检查本机是否保留最新任务状态。"
+      ],
+      "source_tagline": "随时随地，用语音指挥你的AI编程团队",
+      "source_description": "Openbase让你能用手机语音管理一队AI编程助手，彻底告别屏幕和办公桌。AI可以异步干活，但监管它们总让你得回到电脑前——Openbase解决了这个痛点。你只需要动动嘴，就能分配任务、中途调整方向、批准改动，而AI会在后台写代码、操作电脑、发起PR、提交推送，一切尽在掌握。支持跨服务商，并与你的本机同步，回到工位刚好无缝衔接。"
+    },
+    {
+      "id": "1202119",
+      "name": "Aymo AI",
+      "name_zh": "Aymo AI",
+      "tagline_zh": "面向团队的一站式 AI 工具",
+      "description_zh": "Aymo AI 在一个工作区提供 GPT、Claude、Gemini、DeepSeek 等 45 个以上模型，支持并排比较回答、文件聊天、联网搜索、图片生成和团队协作。介绍称有免费及付费版本，提供浏览器扩展和桌面应用，AI 文档功能尚待上线；安全与节省开销的说法未经核验。",
+      "intro_zh": "给需要使用多种 AI 的团队，在同一工作区提问、比较模型回答，并围绕文件开展协作。",
+      "url": "https://www.producthunt.com/products/aymo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/B2AAONAFWVZST6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/79a95f00-f54f-40f0-a440-678932db4ad3.png?auto=format",
+      "votes_count": 184,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "集中使用和比较多个模型的用途清楚，但费用与团队使用条件待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多模型能否收到同样完整的材料，是具体且影响比较结果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把同一任务的多个结果并排展示，可借用于需要人工选择的工具。"
+        }
       },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示效果直观有看点，但目标人群偏技术向，适合面向程序员群体的内容创作。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重同一任务能直接比较多个回答；但团队材料如何保存仍不清楚，这会影响是否用于正式工作。",
+      "product_analysis": {
+        "target_problem": "需要交替使用多个模型的团队，可能要反复切换工具、提交同一份材料。它把这些操作集中到一个工作区。",
+        "workflow": "用户在工作区使用模型提问，或上传文件聊天，再并排查看不同模型的回答。也可联网搜索、生成图片，与团队协作。",
+        "ai_value": "AI 负责回答问题、处理文件内容和生成图片。产品主要把多种模型及相关工具放到一起。",
+        "differentiation": "集中入口可能减少切换工具的次数。团队是否愿意迁入，最可能取决于内部材料能否放心上传。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出 GPT、Claude、Gemini、DeepSeek 等模型，并提到浏览器扩展和桌面应用，未说明具体接入技术。",
+        "possible_approach": "如果自己做，可以先把同一问题和文件内容分别交给两个模型，再把回答并排展示，之后增加更多模型。",
+        "tradeoffs": "难点是让不同模型收到同样完整的材料；若其中一个漏掉文件内容，用户可能把输入差异误认为模型能力差异。",
+        "unknowns": "上传的团队文件会交给哪些服务处理、保存多久，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做文案或方案生成工具时，可以让同一任务的候选结果并排显示，方便用户逐项比较。"
+      ],
+      "validation_questions": [
+        "给两个模型提交同一份带关键细节的文件，检查它们是否都能读取该细节？",
+        "查看数据条款，确认上传文件的保存期限是否明确？"
+      ],
+      "source_tagline": "团队专属的AI全家桶",
+      "source_description": "在一个安全的工作区里，直接使用GPT、Claude、Gemini、DeepSeek等45+顶尖AI模型。你可以并排比较不同模型的回答，上传文件聊天，联网搜索，生成图片，还能和团队一起协作。免费版和付费版都能帮你省掉十几个AI工具的开销，配套还有浏览器扩展、桌面应用和即将上线的AI文档功能。"
+    },
+    {
+      "id": "1206492",
+      "name": "PureBox.ai",
+      "name_zh": "PureBox.ai",
+      "tagline_zh": "先审查再清理，用 AI 整理 Gmail 收件箱",
+      "description_zh": "PureBox 根据 Gmail 中打开、回复或未处理的邮件，在首次扫描时生成个性化清理建议，解释原因，经用户同意后才执行，也会找出需要关注的邮件。介绍称数据不会被出售，商业模式是 Pro 订阅。",
+      "intro_zh": "给需要整理 Gmail 的人用，根据邮件处理习惯提出清理建议，让用户看过原因后再决定是否执行。",
+      "url": "https://www.producthunt.com/products/purebox-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6EOMSBCWVQ62HH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fa819b2a-12d0-423b-81f1-eb01af9e68a4.jpeg?auto=format",
+      "votes_count": 153,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "整理邮件的场景清楚，省去预设规则，但建议质量未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从未处理邮件判断用户偏好，是具体且影响结果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "解释建议并在执行前确认，可借用于有误操作风险的工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重执行前能看理由并确认。最大疑问是，它能否分清不重要的邮件和暂时没处理的重要邮件。",
+      "product_analysis": {
+        "target_problem": "Gmail 邮件积压时，用户既要清理，也怕漏掉重要邮件。相比需要先建规则的工具，它尝试用历史行为减少前期设置。",
+        "workflow": "首次扫描 Gmail 历史记录，生成带理由的清理建议，并指出需要关注的邮件。用户审查同意后才执行。",
+        "ai_value": "AI 根据打开、回复和未处理等记录提出建议。是否真能贴合习惯，要看实际建议。",
+        "differentiation": "省下的是先定义筛选规则的工作。用户可能不愿让清理工具读取邮件历史。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 会利用 Gmail 历史行为，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先整理邮件及处理记录，再让 AI 提出候选建议和理由；把建议与执行分开，只执行用户确认的项目。",
+        "tradeoffs": "最难的是区分“不感兴趣”和“还没来得及处理”。判断错了，重要邮件可能被建议清理，用户仍需仔细复核。",
+        "unknowns": "邮件数据会被保存多久？不出售数据的承诺没有回答这一点。"
+      },
+      "transferable_insights": [
+        "做文件清理工具时，可以先展示候选项和理由，让用户确认后再执行，降低误删风险。"
+      ],
+      "validation_questions": [
+        "找几封一直未处理但重要的邮件，检查是否被误列入清理建议。",
+        "不确认一条清理建议，检查对应邮件是否保持原状。"
+      ],
+      "source_tagline": "先审查后清理，AI帮你轻松搞定Gmail收件箱",
+      "source_description": "大多数收件箱工具都得先让你建规则，PureBox 直接跳过这一步——它用 AI 和你的 Gmail 历史记录（你打开过、回复过或放任不管的邮件），在第一次扫描时就为你量身定制清理建议，从第一天起就符合你的习惯。每条建议都会告诉你原因，并且只有你同意它才会执行——没有黑箱操作，也不会悄悄删除。它帮你揪出需要关注的邮件，而不仅仅是找垃圾。你的数据绝不会被出售，Pro 订阅就是它的商业模式。"
+    },
+    {
+      "id": "1206457",
+      "name": "Pulse Island",
+      "name_zh": "Pulse Island",
+      "tagline_zh": "把 MacBook 刘海变成集中查看信息的灵动岛",
+      "description_zh": "Pulse Island 把 MacBook 的刘海区域变成灵动岛，集中展示音乐、会议、剪贴板、天气、专注计时器以及设备和系统状态。简介称，用户无需切换窗口，就能在屏幕顶端查看这些信息。",
+      "intro_zh": "给使用 MacBook 的人，把音乐、会议和系统状态等信息集中到刘海区域查看。",
+      "url": "https://www.producthunt.com/products/pulse-island?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/K4GNWQIHQ3MCGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/50ccb84d-9de7-424b-977b-418295bc20b1.png?auto=format",
+      "votes_count": 114,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "查看零散信息的场景明确，但是否真能少切窗口还需试用。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多种信息挤在刘海区域，显示优先级是具体难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把常看的短信息放到固定位置，可借用于桌面效率工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重固定查看位置带来的便利；最影响判断的是，有限空间里能否及时露出真正重要的信息。",
+      "product_analysis": {
+        "target_problem": "适合工作时需要查看播放、会议或计时状态的 MacBook 用户。麻烦在于这些信息分散，查看时可能打断手头工作。",
+        "workflow": "使用时在屏幕顶端查看所需信息。简介没交代如何启用各项内容，也没说明能否直接操作。",
+        "ai_value": "介绍没提 AI，主要靠集中展示信息来改善体验。",
+        "differentiation": "它把查看位置集中到刘海区域，可能减少切换窗口。最可能让人不愿用的是：常驻信息反而分散注意力。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确了刘海区域展示和信息种类，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取一种信息，例如音乐播放状态，再把简短内容显示在刘海周围，最后增加其他来源和显示优先级。",
+        "tradeoffs": "最容易出错的是多条信息同时出现时的取舍。若音乐一直占着位置，用户可能看不到更急的会议提醒。",
+        "unknowns": "介绍没说明多种信息同时出现时，如何决定显示哪一项。"
+      },
+      "transferable_insights": [
+        "做桌面效率工具时，可以把只需瞥一眼的状态放到固定位置，减少用户到处寻找。"
+      ],
+      "validation_questions": [
+        "会议信息和音乐状态同时出现时，会议信息是否能被看见？",
+        "全屏工作时，顶端信息是否遮挡当前应用的内容？"
+      ],
+      "source_tagline": "Mac刘海里的灵动小岛，一眼看尽所需信息",
+      "source_description": "Pulse 把你 MacBook 的刘海变成一个灵动岛，音乐、会议、剪贴板、天气、专注计时器、设备和系统状态，只需抬抬眼就能全看到。不用切换窗口，一切尽在屏幕顶端。"
+    },
+    {
+      "id": "1206526",
+      "name": "SF Apartment Finder",
+      "name_zh": "SF Apartment Finder",
+      "tagline_zh": "像刷交友软件一样浏览旧金山实时房源",
+      "description_zh": "简介中称为 Criblist 的找房工具，把旧金山房源做成可滑动的卡片，支持设置预算、意向社区和硬性条件。它展示来自 Craigslist 和本地中介的房源，由 Context.dev 提取并提供数据，用户可以留下喜欢的房源。",
+      "intro_zh": "给在旧金山找租房的人用，按预算、社区和硬性条件浏览房源卡片，留下感兴趣的房子。",
+      "url": "https://www.producthunt.com/products/sf-apartment-finder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/O3D2UFH7U4P7SI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cd1b8159-8f0c-47a6-9c3f-c0ecd24c1db2.png?auto=format",
+      "votes_count": 216,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找房对象和筛选动作清楚，但房源覆盖与更新效果尚未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多来源房源的更新问题具体，但介绍没有说明处理办法。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先按硬条件筛选、再逐个保留候选的做法容易借用。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把筛选和保留候选放在一次浏览里；但房源状态能否及时更新，比滑动是否顺手更影响实际用途。",
+      "product_analysis": {
+        "target_problem": "在旧金山找租房的人，需要从多个来源挑出预算和位置合适的房子。逐条判断是否满足硬性条件，是它试图减少的麻烦。",
+        "workflow": "先设置预算、意向社区和硬性条件，再滑动浏览房源卡片，留下喜欢的房源。介绍未说明之后怎样联系出租方。",
+        "ai_value": "介绍没提 AI，主要靠集中房源、条件筛选和卡片浏览来改善体验。",
+        "differentiation": "把不同来源的候选放在一起，可能减少来回浏览。最可能让人不愿换过来的原因，是不确定这里是否漏掉房源。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 Context.dev 负责提取并提供 Craigslist 和本地中介的房源数据。",
+        "possible_approach": "如果自己做，可以先把各来源的租金、位置和条件整理成统一字段，再按用户条件筛选，做成可保留的卡片。",
+        "tradeoffs": "最容易出错的是房源状态更新。已出租的房子若仍展示，用户留下候选后可能白联系一轮。",
+        "unknowns": "简介称房源实时更新，但没有说明更新间隔。"
+      },
+      "transferable_insights": [
+        "做职位或二手商品筛选时，可以先用硬性条件缩小范围，再让用户逐个保留候选；卡片上要保留决定去留的关键信息。"
+      ],
+      "validation_questions": [
+        "抽查卡片对应的原始房源，确认是否仍可租。",
+        "设置一条明确的硬性条件，检查结果是否混入不符合条件的房源。"
+      ],
+      "source_tagline": "刷交友软件一样刷旧金山实时房源",
+      "source_description": "Criblist 把旧金山找房变成了可滑动的卡片。设定你的预算、中意社区和硬性条件，就能浏览来自 Craigslist 和本地中介的实时房源，Context.dev 负责提取和提供数据，喜欢的就留下。"
+    },
+    {
+      "id": "1205894",
+      "name": "BrainFeed",
+      "name_zh": "BrainFeed",
+      "tagline_zh": "把无意识刷屏变成学习",
+      "description_zh": "BrainFeed 将收藏的文章和视频变成可滑动浏览的知识卡片。用户可设定学习目标，并用间隔重复在碎片时间复习内容。",
+      "intro_zh": "给收藏了文章和视频却少有回看的人，把内容变成知识卡片，方便碎片时间学习。",
+      "url": "https://www.producthunt.com/products/brainfeed-scroll-better?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/IUAEPHIZ7VT24D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5452d557-703f-48b3-9861-c9e4a705f6e6.png?auto=format",
+      "votes_count": 131,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "收藏后不回看的问题清楚，但卡片质量和学习效果尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把长内容拆成不失真的卡片，是具体且值得关注的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把已有收藏变成短卡片并安排复习，可借用于阅读和培训产品。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是让已有收藏进入复习安排，而非继续堆积。最影响判断的是卡片能否保留原意；历史缓存里的“真正记住”还不能当作效果证据。",
+      "product_analysis": {
+        "target_problem": "它面向收藏了学习材料，却很少回看的人。麻烦在于收藏只留下了材料，没有安排之后学什么、何时复习。",
+        "workflow": "将收藏的文章、视频转成知识卡片，设定学习目标，再滑动浏览并按间隔重复复习。简介没交代收藏如何接入。",
+        "ai_value": "介绍没提 AI，主要靠卡片浏览和间隔重复改善学习体验；后者就是隔一段时间再复习。",
+        "differentiation": "它把回看材料变成连续浏览卡片，可能减少每次挑内容的麻烦。但若卡片省掉重要解释，用户可能仍愿意读原文。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到间隔重复，没说卡片转换具体用什么技术。",
+        "possible_approach": "如果自己做，可以先提取文章文字或视频字幕，再按知识点拆卡，最后安排复习时间。",
+        "tradeoffs": "最难的是拆卡时保留成立条件。把限定语删掉，用户可能反复记住一个过度简化的结论。",
+        "unknowns": "复习时间是否会根据用户记住或忘记的情况调整？"
+      },
+      "transferable_insights": [
+        "做阅读或培训产品时，可以把用户已有材料拆成短卡片，再安排回看，减少重新挑选学习材料的操作。"
+      ],
+      "validation_questions": [
+        "选一篇有明确限定条件的文章，检查生成卡片是否保留这些条件。",
+        "对同一张卡分别反馈记住和忘记，检查下次复习时间是否随之变化。"
+      ],
+      "source_tagline": "把无意识的刷屏变成有营养的学习",
+      "source_description": "BrainFeed 把你的收藏夹里吃灰的文章、视频变成像刷朋友圈一样的知识卡片，边刷边学。设定你想达成的目标，它会用间隔重复帮你真正记住内容，等车、排队的碎片时间就能积累扎实的知识。"
+    },
+    {
+      "id": "1206148",
+      "name": "Yoggi",
+      "name_zh": "Yoggi",
+      "tagline_zh": "面向儿童的安全 AI 聊天伙伴",
+      "description_zh": "Yoggi 是面向 3～15 岁儿童的 AI 助手，支持按年龄调整回答、实时语音对话和画图。简介称它有严格的内容过滤，家长可远程查看和管控，iOS 和安卓版本均可免费下载。",
+      "intro_zh": "给 3～15 岁孩子提供语音聊天和画图功能，也让家长远程查看和管控使用情况。",
+      "url": "https://www.producthunt.com/products/yoggi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/24P2KUY4V3E55O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cecf25dd-dc22-43d7-bdad-90d1baac07e1.png?auto=format",
+      "votes_count": 125,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "孩子交流与家长管理的场景清楚，但安全效果没有验证材料。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "同一句话如何对不同年龄作出合适回应，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按年龄调整回答可以借鉴，但年龄划分和调整规则不明。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把家长管理纳入孩子的聊天工具；最影响判断的是，缓存简介中的“严格过滤”究竟能否处理儿童真实提问。",
+      "product_analysis": {
+        "target_problem": "孩子想随时提问、聊天，家长则关心回答是否适龄、能否查看使用情况。它把这两类需要放进同一个工具。",
+        "workflow": "在 iOS 或安卓下载后，孩子可进行实时语音对话、使用画图功能；家长可远程查看和管控。简介没交代具体设置步骤。",
+        "ai_value": "AI 负责与孩子对话，并按年龄调整回答。画图是否由 AI 生成，简介没有说清。",
+        "differentiation": "孩子聊天与家长管理放在一起，可能减少家长另找监督办法的麻烦。但家长是否信任内容过滤，可能决定他们愿不愿用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到按年龄调整回答、实时语音、内容过滤和远程家长管控，未披露具体模型或实现方式。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再结合年龄生成回答，检查内容后转成语音播放；另给家长提供查看和限制使用的入口。",
+        "tradeoffs": "最难的是判断回答是否适龄。只拦敏感词可能漏掉不适合幼儿的解释，拦得太宽又可能挡住正常提问。",
+        "unknowns": "家长能查看哪些内容、设置哪些限制，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做儿童问答产品时，可让同一个问题按年龄改变词汇和解释深度，并用各年龄段的典型问题分别测试。"
+      ],
+      "validation_questions": [
+        "我会用同一组敏感但合理的问题测试不同年龄设置，检查回答是否适龄。",
+        "我会检查家长设置的使用限制是否能在孩子端实际生效。"
+      ],
+      "source_tagline": "专为儿童设计的安全 AI 聊天伙伴，成长路上的贴心陪聊",
+      "source_description": "Yoggi 是专门给 3～15 岁孩子打造的 AI 助手，回答会按年龄调整，支持实时语音对话、画图功能，内置严格的内容过滤，家长还能远程查看和管控。在 iOS 和安卓上都能免费下载。"
+    },
+    {
+      "id": "1187054",
+      "name": "Forgeon",
+      "name_zh": "Forgeon",
+      "tagline_zh": "像玩游戏一样创作故事，加入分支剧情、角色成长和视听元素",
+      "description_zh": "Forgeon 帮助作者把书籍改成互动冒险，可加入分支选择、角色扮演游戏机制、音乐和插画。介绍将它定位为辅助人类作者的创作工具。",
+      "intro_zh": "给想写互动故事的作者用，把读者的选择加入剧情，并为故事配上音乐和插画。",
+      "url": "https://www.producthunt.com/products/forgeon-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AFVYUCU2FMSEPA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a471939f-1d3d-4d48-8bf6-82456b7f02c7.png?auto=format",
+      "votes_count": 123,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "创作对象和用途清楚，但能省多少制作工作尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "分支剧情与角色成长结合，会带来具体的剧情条件检查问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让选择影响后续内容可借鉴，但编辑和检查方式未披露。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把文字扩展成可选择的故事有明确用途；最影响判断的是，作者能否方便地检查复杂分支，避免把制作时间耗在排错上。",
+      "product_analysis": {
+        "target_problem": "想把书改成互动冒险的作者，需要同时安排剧情选择和角色成长，还要放入音乐、插画。",
+        "workflow": "作者为故事添加分支选择、角色扮演游戏机制和视听素材，形成互动冒险。简介未说明具体编辑、预览或发布步骤。",
+        "ai_value": "介绍没提 AI，主要靠互动故事创作工具来改善体验，不能据此认定它会自动写剧情或生成素材。",
+        "differentiation": "它把多种互动元素放在一个平台中，可能减少分别组织内容的麻烦；作者是否愿意使用，可能取决于分支维护是否足够省事。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术；只明确支持分支选择、RPG 机制（角色扮演游戏中的成长等规则）、音乐和插画。",
+        "possible_approach": "如果自己做，可以先把故事拆成段落，用选项连接，再记录角色属性，让属性决定哪些后续段落可以进入。",
+        "tradeoffs": "最容易出错的是剧情条件与角色状态对不上，导致读者走到某处后无路可走。",
+        "unknowns": "是否能自动找出无法继续阅读的分支？"
+      },
+      "transferable_insights": [
+        "做情境教学产品时，可以让学习者先选行动，再看到对应后果，把同一案例写成多条可探索路径。"
+      ],
+      "validation_questions": [
+        "故意设置一条没有后续的分支，检查工具能否指出断点。",
+        "让同一角色以不同属性进入同一段剧情，检查可选行动是否符合设定。"
+      ],
+      "source_tagline": "像玩游戏一样创作故事：编织分支剧情、加入角色成长与视听特效",
+      "source_description": "Forgeon 是一个让作者把书籍变成可互动冒险的平台，你可以为故事添加分支选择、RPG 机制、音乐和插画。它不替代人类作者，而是提供一套趁手的创作工具，让书本也能跟游戏、电影一样引人入胜。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

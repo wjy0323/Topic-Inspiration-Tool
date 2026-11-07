@@ -1,357 +1,510 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-14T16:25:18+08:00",
+  "generated_at": "2026-11-07T15:36:43+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1214956",
-      "name": "Scrimba Explain",
-      "name_zh": "Scrimba 讲解",
-      "tagline_zh": "问任何问题，秒得视频讲解",
-      "description_zh": "Scrimba Explain 能根据你问的几乎任何问题，瞬间生成一段带旁白的视频教程。你可以上传文件、添加链接、粘贴代码，或者直接描述你想弄懂的内容。视频里能包含图片、代码演示、动画、图表，还有配音、字幕和光标，看起来更像 YouTube 视频，而不是传统的聊天机器人。",
-      "intro_zh": "想问啥就问啥，它马上生成带配音的视频讲解，代码文件链接都能放进去。想快速搞懂技术概念或代码的上班族和学生党会很喜欢。",
-      "url": "https://www.producthunt.com/products/scrimba?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VT3DATI3BPG4AZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/709b1195-d5a6-42b1-b3bc-c4631d132550.png?auto=format",
-      "votes_count": 297,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "产品本身生成视频教程，可展示输入问题到生成结果的完整过程，画面丰富、前后对比强，视觉冲击力好。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "只需像聊天一样提问就能得到视频讲解，不需要技术背景或编码能力，概念直观易懂。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "Product Hunt 排名第4，获得297票，热度不错，但未进入前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "问啥都能秒变视频教程？这个AI新工具我测了",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示从输入问题、上传代码到生成完整视频的全过程；选一个编程问题和一个日常知识问题做对比，重点突出生成速度、配音自然度和画面元素（代码高亮、图表、光标）；节奏可以前30秒快剪吸引注意，后面详细展示结果并加入自己的使用感受。",
-        "target_audience": "想提高学习效率的学生、程序员、职场人，以及对AI新工具感兴趣的普通互联网用户。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面感强、小白友好，能直接展示提问生成视频的完整过程，非常适合拍实测视频。"
-    },
-    {
-      "id": "1221646",
-      "name": "Skilldocs",
-      "name_zh": "Skilldocs（技能文档）",
-      "tagline_zh": "Markdown 界的 Figma",
-      "description_zh": "打开一个技能文档，所有人都能同时编辑——能看见彼此的光标、写行内评论，编辑器边打字边渲染。完成后，可以把整个对话和修改记录一起交回给 AI 智能体。适合团队一起打磨技能文档、知识库，尤其是需要和 AI 工具配合的场景。",
-      "intro_zh": "多人实时协作的 Markdown 编辑器，像 Figma 一样能看到彼此光标和评论。适合团队写技能文档、知识库，尤其是要喂给 AI 的场景。",
-      "url": "https://www.producthunt.com/products/skilldocs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SMQ4IHG6EFSAU3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4fb46c60-4260-40f3-a646-be1de806d355.png?auto=format",
-      "votes_count": 188,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "实时协作编辑画面直观，多人光标、行内评论、所见即所得渲染都有很强的演示效果，录屏即可展现产品亮点。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念类似在线文档和 Markdown 编辑器，普通人能快速理解；涉及 skill 和 agent 时可稍作解释，门槛不高。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "Product Hunt 当日第7名，188票，属于中上热度，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "多人同时编辑 Markdown，还能直接喂给 AI？这个工具太会了",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示多人光标同时移动、评论和实时渲染；对比传统 Markdown 编辑器的割裂感；快速演示把内容交回 AI agent 的流程；节奏轻快，突出协作顺畅感。",
-        "target_audience": "需要团队协作写文档、知识库的上班族，以及对 AI 工作流感兴趣的内容创作者和开发者。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面直观、概念易懂，多人实时编辑和 AI 协作的演示效果突出，非常适合做视频内容。"
-    },
-    {
-      "id": "1221100",
-      "name": "Kitbitz",
-      "name_zh": "Kitbitz 手绘插画库",
-      "tagline_zh": "2000+ 免费手绘插画素材，CC0 可商用随便用",
-      "description_zh": "这是一个免费 CC0 手绘素材库，里面有 2000 多个手绘小元素，分成 13 个主题包。可以单独下载 SVG 或 PNG，也能整套拿走 Figma 社区库，里面的组件和颜色都能改、能缩放。做游戏、App、地图、插画，或者搭个可爱小世界都合适，后续还会出 Figma 插件和 MCP 支持。",
-      "intro_zh": "免费手绘插图库，2000多个小元素分主题打包，Figma直接拖用。做游戏和App的设计师会很喜欢。",
-      "url": "https://www.producthunt.com/products/kitbitz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/KGXJNX2IMMNDIR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ae789c18-6126-48f1-a5f7-2442980da88d.webp?auto=format",
-      "votes_count": 142,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "手绘插画本身视觉丰富，可以展示不同主题套件、Figma里拖拽改色缩放，画面好看，但缺少动态冲突或强反转，适合做轻松种草/演示视频。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直观，就是免费素材库，普通创作者能秒懂；Figma和MCP术语对纯小白稍有一点点门槛，但不影响基本理解。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt排名第9，142票，进入前10，有一定热度但不算现象级爆款。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "免费可商用！2000+手绘小元素，做游戏/App/地图直接拖走",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示官网素材库和13个主题分类，实际操作下载SVG/PNG，导入Figma后拖拽、改颜色、缩放；再把同一个小元素用到游戏界面、App界面、地图三个场景里做演示。节奏轻快，配手绘风BGM，突出CC0免费可商用和Figma组件化这两个卖点。",
-        "target_audience": "独立开发者、游戏设计师、UI/UX设计师、自媒体创作者、想做可爱风格项目的学生"
-      },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "免费手绘素材库视觉展示效果好、普通人一看就懂，又是刚需资源，适合拍成种草/教程类视频。"
-    },
-    {
       "id": "1219199",
       "name": "Kane CLI",
-      "name_zh": "凯恩 CLI",
-      "tagline_zh": "在终端里用大白话给浏览器和手机应用做测试",
-      "description_zh": "给开发者和 AI 编程助手用的质量检查工具。你用自然语言描述一个测试，它就会在真实的 Chrome 浏览器里跑一遍，然后告诉你通过还是失败，还附上可以分享的证明。不用写那些麻烦的选择器，本地优先，免费就能开始用。",
-      "intro_zh": "在终端里说句话，就能让浏览器自己动起来帮你测试网页。经常要给网站或 App 做检查的开发者、测试同学会很喜欢，省得写一堆自动化脚本。",
+      "name_zh": "Kane CLI",
+      "tagline_zh": "在终端里用自然语言测试浏览器和手机应用",
+      "description_zh": "面向开发者和 AI 编程助手，用自然语言描述测试后，在真实 Chrome 浏览器中执行，返回通过或失败及可分享的证明。简介称它无需编写选择器、本地优先，并可免费开始使用。",
+      "intro_zh": "给开发者和 AI 编程助手用，在终端描述测试，让浏览器执行并返回结果与证明。",
       "url": "https://www.producthunt.com/products/lambdatest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3OE7IF5ZP7LPWJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e5c5b6bb-38a2-4eb3-898d-9b3c4958dc77.png?auto=format",
       "votes_count": 446,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "能录屏展示终端输入自然语言后，浏览器自动打开页面、点击、填表并给出通过/失败报告，有一些可视化操作画面；但核心交互在命令行，整体风格偏技术，视觉冲击力中等。"
+        "product_value": {
+          "score": 4,
+          "reason": "测试输入和结果都明确，但判断是否可靠仍待验证。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念上虽然强调自然语言，但实际用户得懂终端、开发测试流程，对普通互联网用户门槛偏高，不适合完全没技术背景的人秒懂。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把自然语言变成准确操作和通过条件，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 排名第 1，446 票，热度和话题性都很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "执行结果附带可分享证明，可借用于其他自动检查工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "不用写代码！说句话就让浏览器自动帮你测试网页",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段传统写自动化测试脚本的繁琐过程作为痛点引入，再切到 Kane CLI：终端输入一句自然语言描述，浏览器自动执行点击/输入/跳转，最后展示可分享的通过或失败报告。节奏前慢后快，突出'省事'和'可靠'。",
-        "target_audience": "开发者、测试工程师、技术爱好者、关注 AI 编程工具的人群"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高、演示有一定画面感，但目标受众偏技术，普通人理解门槛较高，适合面向开发者圈层制作内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是执行后能交出证明，方便复核；最影响判断的是，它是否真正检查了用户想验证的结果。",
+      "product_analysis": {
+        "target_problem": "开发者改完页面后，需要检查操作是否正常。对原本写自动化脚本的人，以前要维护选择器（定位页面元素的规则），现在可以用自然语言描述测试。",
+        "workflow": "在终端描述测试，让工具在真实 Chrome 中执行，再查看通过或失败及可分享的证明。缓存简介没有交代手机应用的测试步骤。",
+        "ai_value": "自然语言是测试入口，但介绍没说是否由 AI 解析。AI 编程助手是明确的使用对象，不能据此确定内部技术。",
+        "differentiation": "省掉手写选择器的工作。最可能让人犹豫的是：同一句测试描述，能否稳定检查同一个目标。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到真实 Chrome 执行、无需手写选择器和本地优先，未披露具体实现。",
+        "possible_approach": "如果自己做，可以先把描述拆成操作与通过条件，再定位页面元素、执行并保存证据。",
+        "tradeoffs": "最容易错在通过条件理解偏了：操作做完不等于功能正确，用户可能拿到误报通过的结果。",
+        "unknowns": "“本地优先”是否意味着页面内容和测试证据都不上传，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做自动检查工具时，可让每次结论附带可回看的证据，方便团队核对，而不只显示成功或失败。"
+      ],
+      "validation_questions": [
+        "故意让预期结果不出现，它是否会判失败？",
+        "运行一次测试，检查页面内容和证据是否被发送到外部服务。"
+      ],
+      "source_tagline": "在终端里用大白话给浏览器和手机应用做测试",
+      "source_description": "给开发者和 AI 编程助手用的质量检查工具。你用自然语言描述一个测试，它就会在真实的 Chrome 浏览器里跑一遍，然后告诉你通过还是失败，还附上可以分享的证明。不用写那些麻烦的选择器，本地优先，免费就能开始用。"
     },
     {
       "id": "1204836",
       "name": "Ito",
       "name_zh": "Ito",
-      "tagline_zh": "能把你代码真正跑起来的 AI 代码审查",
-      "description_zh": "Ito 是一个会先运行你代码再下结论的 AI 审查工具。每次有人提交合并请求，它都会拉起一个临时环境，把受影响的功能跑一遍，然后返回运行时的报错证据。这样团队能抓到那些只看代码差异、纯静态分析会漏掉的 bug。",
-      "intro_zh": "能先把你代码跑一遍再下结论的 AI 审查员，每次提交 PR 都会搭个临时环境跑关键流程，告诉你哪里真挂了。经常合代码怕出 bug、不想靠肉眼 review 的开发者和团队会很受用。",
+      "tagline_zh": "会实际运行代码的 AI 代码审查工具",
+      "description_zh": "Ito 会在提交合并请求时启动临时环境，运行受影响的功能，再返回运行时报错的证据。它希望帮助团队发现只看代码差异或做静态分析时可能漏掉的问题。",
+      "intro_zh": "给审查合并请求的开发团队用，运行改动涉及的功能，把报错证据带回代码审查。",
       "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZLCM32IRDVPZ5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d7bf8087-1835-4dbf-b262-d99db3d52d35.png?auto=format",
       "votes_count": 418,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有实际界面和 PR 审查流程可以录屏，能展示临时环境跑代码、报错定位、前后对比，但画面以代码和终端为主，视觉冲击力一般，更适合开发者向内容。"
+        "product_value": {
+          "score": 4,
+          "reason": "审查场景和报错证据的用途明确，但实际能覆盖多少问题尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 Pull Request、CI/CD、运行时环境等概念，没有开发背景的普通用户很难看懂，使用门槛较高。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何选中并跑到受影响的功能，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日第 2 名，418 票，在开发者工具中热度很高，话题性强。"
+        "transferability": {
+          "score": 4,
+          "reason": "先执行再附证据的做法，可借用于其他自动检查工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI 不光看代码，还帮你跑起来抓 bug？PR 合并前必看！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示创建 Pull Request 后，Ito 自动拉起临时环境、运行受影响功能的完整过程；重点捕捉运行时报错界面和定位 bug 位置的画面。节奏先抛痛点“静态审查漏 bug”，10 秒内进入实操，展示前后对比，最后总结适合谁用。",
-        "target_audience": "程序员、开发团队、DevOps/技术负责人、对 AI 编程工具好奇的工程师"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "热度高、适合录屏演示代码审查过程，但受众偏开发者且需要技术背景，更适合做垂直内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重运行证据能帮助审查者复核问题；最影响判断的是它能否跑到真正受改动影响的地方。",
+      "product_analysis": {
+        "target_problem": "开发团队审查合并请求时，只看代码差异可能发现不了运行后才出现的错误。Ito 把实际运行加入审查过程。",
+        "workflow": "有人提交合并请求后，它启动临时环境，运行受影响的功能，再返回运行时报错证据。",
+        "ai_value": "AI 用于代码审查，但简介没说它如何选择运行内容、判断错误。明确的做法是让审查结论带上运行证据。",
+        "differentiation": "相比只看代码，可能减少审查者手动复现的工作。已有自动测试的团队，可能因新增检查与现有测试重叠而不愿接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到临时运行环境和运行时报错证据，未说明具体模型或执行技术。",
+        "possible_approach": "如果自己做，可以先读取代码改动，准备能运行项目的环境，再选择相关测试或操作路径，记录失败步骤和报错。",
+        "tradeoffs": "最难的是选对运行路径。若没有触发改动影响的功能，即使执行无报错，也可能漏掉问题。",
+        "unknowns": "它如何确定受影响的功能，并实际触发这些功能？"
+      },
+      "transferable_insights": [
+        "做自动修复或配置检查工具时，可以让每条问题附上失败步骤和报错，方便用户复核。"
+      ],
+      "validation_questions": [
+        "放入一个已知的运行时错误，检查它能否触发对应功能并报告问题。",
+        "拿一条报告，检查能否仅凭所附证据复现错误。"
+      ],
+      "source_tagline": "能把你代码真正跑起来的 AI 代码审查",
+      "source_description": "Ito 是一个会先运行你代码再下结论的 AI 审查工具。每次有人提交合并请求，它都会拉起一个临时环境，把受影响的功能跑一遍，然后返回运行时的报错证据。这样团队能抓到那些只看代码差异、纯静态分析会漏掉的 bug。"
     },
     {
-      "id": "1214622",
-      "name": "Nuphos",
-      "name_zh": "纽福斯",
-      "tagline_zh": "AI 原生的 DevOps 工作空间。",
-      "description_zh": "Nuphos 为工程团队提供一个共享环境，让 AI 智能体学习你的基础设施、调查问题，还能直接操作生产系统。",
-      "intro_zh": "给开发团队用的 AI 运维工作台，AI 能自己摸清服务器、查问题、直接操作修复。搞 DevOps、常盯线上系统的工程师会喜欢。",
-      "url": "https://www.producthunt.com/products/nuphos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2TYRIPK2F3Z6W7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/11ae1cbb-31fb-427a-9f98-505679edbe48.png?auto=format",
-      "votes_count": 367,
+      "id": "1214956",
+      "name": "Scrimba Explain",
+      "name_zh": "Scrimba Explain",
+      "tagline_zh": "提出问题，快速获得视频讲解（速度为缓存标语所称）",
+      "description_zh": "Scrimba Explain 可根据问题生成带旁白的视频教程，支持上传文件、添加链接、粘贴代码或直接描述问题。视频可包含图片、代码演示、动画、图表、配音、字幕和光标。",
+      "intro_zh": "给想弄懂代码或其他知识的人用，把问题和参考材料变成带旁白的视频教程。",
+      "url": "https://www.producthunt.com/products/scrimba?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VT3DATI3BPG4AZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/709b1195-d5a6-42b1-b3bc-c4631d132550.png?auto=format",
+      "votes_count": 297,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 4,
+          "reason": "输入和输出都清楚，但讲解是否准确、易懂仍待确认。"
+        },
+        "technical_insight": {
           "score": 3,
-          "reason": "可以录屏展示 AI 操作面板和系统诊断过程，但界面偏专业，视觉冲击力一般。"
+          "reason": "画面与讲解如何对应有具体难点，但实现细节未披露。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "DevOps、基础设施、生产系统等概念对普通人门槛高，需要技术背景才能理解。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "PH 排名第3，票数367，热度高。"
+        "transferability": {
+          "score": 4,
+          "reason": "按材料内容配合演示的做法，可借给教学产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "让 AI 替你运维服务器，工程师要失业了？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示 Nuphos 界面，突出 AI 智能体学习基础设施、排查问题并操作生产系统的过程，和人工运维做前后对比，节奏紧凑。",
-        "target_audience": "DevOps 工程师、SRE、技术团队负责人"
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把解释和演示放在同一段视频里；最大疑问是讲解能否忠实于输入材料，而不只是看起来完整。",
+      "product_analysis": {
+        "target_problem": "学习者看代码或图表时，可能需要有人边指边讲。它把提问后的回答做成视频，适合想看演示的场景。",
+        "workflow": "上传文件、添加链接、粘贴代码或描述问题，再获得带旁白的视频。介绍未说明能否修改或追问。",
+        "ai_value": "缓存介绍没明确提 AI，只描述了从问题和材料自动生成视频的能力，无法确认具体由 AI 完成哪些环节。",
+        "differentiation": "把讲解与示范放在一起，可能省去自己对照文字找位置的麻烦；但视频不方便快速扫读，可能让偏爱文字的人不愿换。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有可演示的 AI 运维画面且热度高，但目标受众较窄、理解门槛高，适合技术向视频。"
+      "technical_analysis": {
+        "disclosed_facts": "支持多种材料输入和图像、代码演示、字幕等视频内容；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从材料里整理讲解步骤，再为每步配画面、旁白和字幕，最后合成视频。",
+        "tradeoffs": "最容易出错的是旁白与画面没对上。讲到某行代码时若光标指错，用户可能理解反了。",
+        "unknowns": "视频讲错后，能否只修改出错的一段？"
+      },
+      "transferable_insights": [
+        "做编程教学时，可以让每句解释对应一处代码高亮，减少学习者寻找讲解位置的时间。"
+      ],
+      "validation_questions": [
+        "给它一段结果已知的代码，检查讲解是否正确。",
+        "检查旁白提到的代码行是否与光标位置对应。"
+      ],
+      "source_tagline": "问任何问题，秒得视频讲解",
+      "source_description": "Scrimba Explain 能根据你问的几乎任何问题，瞬间生成一段带旁白的视频教程。你可以上传文件、添加链接、粘贴代码，或者直接描述你想弄懂的内容。视频里能包含图片、代码演示、动画、图表，还有配音、字幕和光标，看起来更像 YouTube 视频，而不是传统的聊天机器人。"
     },
     {
       "id": "1221864",
       "name": "Human Behavior",
-      "name_zh": "人类行为",
-      "tagline_zh": "产品分析只告诉你发生了什么，我们来处理掉。",
-      "description_zh": "Human Behavior 是个自动分析用户行为的 AI 工具，装上它的 SDK 后就能自动录制用户操作回放，AI 会找出愤怒点击、无效按钮和流失点。它会后台代发邮件、更新项目管理和 CRM，甚至用回放当证据开 PR 修复问题，结果直接发到 Slack 或短信，不用盯数据看板。适合产品团队和开发者省心改进产品。",
-      "intro_zh": "这玩意儿能自动看用户操作录像，揪出让人抓狂的点击和死按钮，然后让AI直接去发消息、开任务单修掉。产品经理和开发团队不用天天盯数据看板，省心省力。",
+      "name_zh": "Human Behavior",
+      "tagline_zh": "产品分析告诉你发生了什么，我们接着处理问题。",
+      "description_zh": "Human Behavior 自动录制用户操作回放，用 AI 查找愤怒点击、无效按钮和流失点。简介还称，它能代发邮件、更新项目管理工具和客户关系管理系统（CRM），提交代码修改请求（PR），并通过 Slack 或短信发送结果。",
+      "intro_zh": "给产品团队和开发者用，分析用户操作回放，找出使用障碍，并把发现转成通知或后续处理。",
       "url": "https://www.producthunt.com/products/human-behavior?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/S5QUTH4NO57LJM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bdaaadbf-03ed-46e1-9def-c518a329b5f1.png?auto=format",
       "votes_count": 264,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有用户会话回放、愤怒点击标记、自动开PR等可视化素材，但整体是后台自动化，缺乏华丽的界面演示，视频化程度中等。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及SDK集成、Linear、CRM、PR等开发概念，普通用户理解门槛较高，需要一定技术背景。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt当日第5名，264票，处于前十，有不错的热度和话题性。"
+          "reason": "从发现使用障碍到后续处理的用途清楚，但自动处理的可靠性未获验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "从操作回放判断问题并触发修改，有明确的误判风险值得分析。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让问题证据跟随任务流转，是其他反馈工具也能借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI盯着每个用户操作，自动修bug发工单？产品经理要失业了？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示用户操作回放，标出愤怒点击和死按钮；展示AI在Slack自动发消息、在GitHub开PR的界面；前后对比“以前看dashboard vs 现在AI自动处理”，节奏明快，突出“不用盯盘”。",
-        "target_audience": "产品经理、开发者、初创团队，对AI自动化感兴趣的技术从业者。"
-      },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有可演示的会话回放和AI自动处理闭环，但目标用户偏技术，需要一定背景才能看懂。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把操作证据带到处理任务里；最影响判断的是，自动动作能否由团队控制和审批。",
+      "product_analysis": {
+        "target_problem": "产品团队排查用户卡在哪里时，需要理解操作过程，再安排处理。它把回放分析和后续动作放在一起。",
+        "workflow": "先接入 SDK（嵌入产品、采集操作的软件组件），再自动录制和分析回放。简介称，系统会执行后续处理，并把结果发到 Slack 或短信。",
+        "ai_value": "AI 查找愤怒点击、无效按钮和流失点；介绍未说明它如何判断原因。",
+        "differentiation": "它尝试省掉发现问题后再转交处理的工作。团队可能因不放心自动代发邮件而不愿接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 SDK 录制回放、AI 分析，以及向外部工具写入结果，没说具体模型。",
+        "possible_approach": "如果自己做，可以先采集点击和页面变化，再标记可疑片段，附上回放生成待办；对外发送或修改代码前先让人确认。",
+        "tradeoffs": "最难的是从操作异常判断真实问题。连续点击未必代表故障，误判可能触发不必要的邮件或代码修改。",
+        "unknowns": "自动执行前，能否按动作设置人工审批？"
+      },
+      "transferable_insights": [
+        "做反馈或报错工具时，让每条待办附上对应回放，接手者不用重新询问操作经过。"
+      ],
+      "validation_questions": [
+        "用正常重复点击和真实失效按钮分别测试，检查它能否区分。",
+        "关闭自动发送权限后，检查代发邮件是否确实被阻止。"
+      ],
+      "source_tagline": "产品分析只告诉你发生了什么，我们来处理掉。",
+      "source_description": "Human Behavior 是个自动分析用户行为的 AI 工具，装上它的 SDK 后就能自动录制用户操作回放，AI 会找出愤怒点击、无效按钮和流失点。它会后台代发邮件、更新项目管理和 CRM，甚至用回放当证据开 PR 修复问题，结果直接发到 Slack 或短信，不用盯数据看板。适合产品团队和开发者省心改进产品。"
     },
     {
-      "id": "1220624",
-      "name": "Oasis",
-      "name_zh": "绿洲",
-      "tagline_zh": "人类与 AI 智能体并肩协作的工作空间",
-      "description_zh": "Oasis 是一个智能工作区，能把你、你的团队和各类 AI 代理放进同一个空间。你可以把市面上好用的 AI 代理拉进来，让人和代理像平级队友一样一起干活，所有对话、决策和文件都会沉淀成共享知识。工作区越用越懂你，还会自动长出适合你们的专用工具。",
-      "intro_zh": "一个能把各种 AI 助手拉进同一个工作区的平台，人和 AI 像同事一样配合干活。团队里活儿杂、想用 AI 提效又不想来回切换工具的人会很喜欢。",
-      "url": "https://www.producthunt.com/products/oasis-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4IKWDWPTSOGQQ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/295736e2-1a0c-416f-9c9d-d7b5a9a9ccfb.png?auto=format",
-      "votes_count": 233,
+      "id": "1221646",
+      "name": "Skilldocs",
+      "name_zh": "Skilldocs",
+      "tagline_zh": "Markdown 界的 Figma",
+      "description_zh": "多人可以同时编辑技能文档，看见彼此的光标、添加行内评论，并在输入时看到排版效果。完成后，可把整个对话和修改记录一起交给 AI 智能体，适用于协作编写技能文档和知识库。",
+      "intro_zh": "给一起编写技能文档和知识库的团队用，支持多人同步修改、评论，再把讨论和修改记录交给 AI。",
+      "url": "https://www.producthunt.com/products/skilldocs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SMQ4IHG6EFSAU3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4fb46c60-4260-40f3-a646-be1de806d355.png?auto=format",
+      "votes_count": 188,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以录屏展示多个 AI 代理协同工作的界面和流程，但整体比较抽象，缺少强烈的视觉冲击或前后对比，不如图像、视频类工具直观。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解 AI 代理、共享知识、自适应工作区等概念，对普通用户有认知门槛，不是打开就能立刻上手。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 排名第6，拿到233票，有一定热度，但还没到现象级刷屏的程度。"
+          "reason": "共同改文档并向 AI 交接的场景清楚，但交接效果尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人修改后，评论能否仍指向正确内容，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把讨论和修改记录随文档交接的做法，可借用于其他人机协作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "我把一堆AI员工塞进同一个办公室，结果它们开始自己配合干活了",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段任务混乱的场景，再引入 Oasis 把多个 AI 代理拉到同一工作区，演示分配任务、代理协作、知识沉淀的过程。重点突出“人只需要说需求，代理们自己分工”的爽感，节奏先慢后快。",
-        "target_audience": "对 AI 提效感兴趣的职场人、小团队管理者和效率工具爱好者"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重讨论记录能随文档交接；但若 AI 分不清已采纳和未解决的意见，记录齐全也可能导致误改。",
+      "product_analysis": {
+        "target_problem": "团队一起打磨技能文档或知识库时，需要围绕同一段内容讨论，也需要让后续接手的 AI 知道改过什么、讨论过什么。",
+        "workflow": "打开文档后，多人同时编辑、查看彼此光标并添加行内评论。完成后，把对话和修改记录一起交给 AI 智能体。",
+        "ai_value": "AI 在这里是接收资料、继续处理任务的程序。简介没说它会自动写文档或解决评论。",
+        "differentiation": "它把共同编辑与向 AI 交接放在一起，可能减少另行整理讨论记录的工作。已有协作文档能否顺利迁入，可能影响团队是否愿意换工具。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品概念有话题性，也适合录屏演示，但普通观众需要一定解释成本，适合做成偏行业解读或效率工具演示的内容。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到同步编辑、光标显示、行内评论和边输入边渲染，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先同步每个人的修改，再把评论关联到对应段落，最后把正文、讨论和修改记录整理给 AI。",
+        "tradeoffs": "最容易出错的是评论跟随修改后的文字：多人增删内容后，评论若指错位置，人和 AI 都可能误解修改要求。",
+        "unknowns": "交给 AI 的记录是否保留已解决、未解决的讨论状态？"
+      },
+      "transferable_insights": [
+        "做需要 AI 接手的审稿工具时，可以把讨论和修改记录随正文一起交付，让接手者了解修改依据。"
+      ],
+      "validation_questions": [
+        "让两人同时增删同一段文字，检查行内评论是否仍指向原本讨论的内容。",
+        "交接一份含未解决评论的文档，检查 AI 收到的材料是否保留该状态。"
+      ],
+      "source_tagline": "Markdown 界的 Figma",
+      "source_description": "打开一个技能文档，所有人都能同时编辑——能看见彼此的光标、写行内评论，编辑器边打字边渲染。完成后，可以把整个对话和修改记录一起交回给 AI 智能体。适合团队一起打磨技能文档、知识库，尤其是需要和 AI 工具配合的场景。"
     },
     {
       "id": "1220849",
       "name": "Caveman",
-      "name_zh": "穴居人",
-      "tagline_zh": "能用几个 token，为啥要用一堆？",
-      "description_zh": "Caveman 是一个本地代理，能把你发给 Claude Code、Codex 这些 AI 编程助手的东西先压缩一遍，日志、工具输出、文件都能瘦身，省下不少 token。它跑测试能减少 33.2% 的输入 token，而且正确率不变；还有个绝活是把文本当图片加载，能再省约 70% token。适合天天跟命令行 AI 打交道的开发者。",
-      "intro_zh": "给 AI 编程助手套了个省 token 神器，自动压缩日志文件，省三成 token。天天用 Claude Code、Codex 的开发者会很喜欢。",
+      "name_zh": "Caveman",
+      "tagline_zh": "能用几个 token，何必用一大堆？",
+      "description_zh": "Caveman 是面向命令行 AI 编程助手用户的本地代理，会先压缩发给 Claude Code、Codex 的日志、工具输出和文件，减少 token（模型处理内容时使用的计量单位）。缓存简介称，其测试中输入 token 减少了 33.2% 且正确率不变，还可把文本作为图片加载，节省约 70% token；测试条件未说明。",
+      "intro_zh": "给常用 Claude Code、Codex 的开发者，在内容送进助手前压缩日志、工具输出和文件。",
       "url": "https://www.producthunt.com/products/caveman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FRMSTVLRT7A4E3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/651be91e-6bc6-4383-a708-ce0a89b44597.jpeg?auto=format",
       "votes_count": 157,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要是终端命令行操作和文本对比，缺乏丰富 UI 和视觉冲击力；虽然能展示 token 前后对比，但画面较枯燥，适合技术圈但不适合大众。"
+        "product_value": {
+          "score": 3,
+          "reason": "使用人群和节省目标清楚，但收益只有缺少条件的测试宣传。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "涉及 AI 编程助手、token 计费、本地代理、命令行等概念，普通互联网用户很难看懂，需要一定技术背景。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "Product Hunt 当日第 8 名，157 票，属于前 10 热门，话题性中等偏上。"
+          "reason": "压缩后能否保留调试线索，是具体且影响结果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先整理冗长工具输出再交给模型，适合借到开发工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI 编程烧钱？这个开源神器帮你省下 33% token！",
-        "angle": "对比测评",
-        "shooting_tips": "终端录屏展示安装 Caveman 前后运行同一任务的 token 消耗对比，用醒目字幕标出 -33.2% 和 18/18 正确率；快节奏展示压缩过程和最终账单节省，突出开源生态和易于接入。",
-        "target_audience": "使用 Claude Code、Codex、Cursor 等 AI 编程工具的开发者、独立开发者和技术团队，关注成本与效率的程序员。"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有一定技术演示价值，能拍出 token 对比效果，但小白极不友好，更适合开发者垂类内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是少让助手读取重复输出；最影响判断的是压缩后能否保住完成任务必需的细节。",
+      "product_analysis": {
+        "target_problem": "开发者让编程助手读日志、工具输出和文件时，大量内容会占用输入额度。Caveman 在这些内容送出前做压缩。",
+        "workflow": "通过本地代理，把相关内容压缩后交给 Claude Code、Codex 等助手。简介未说明安装和接入步骤。",
+        "ai_value": "它替 AI 编程助手缩减输入材料；介绍没说压缩本身是否使用 AI。",
+        "differentiation": "相比直接提交原始内容，它试图减少输入用量。开发者可能因担心关键线索被删而不愿接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介明确提到本地代理、内容压缩，以及将文本作为图片加载。",
+        "possible_approach": "如果自己做，可以先识别日志里的重复行，再保留错误位置和上下文，把缩短后的内容交给助手。",
+        "tradeoffs": "最难的是分清冗余和关键细节。若删掉触发错误的那一行，助手可能据此给出错误修复。",
+        "unknowns": "文本转图片后，图片输入用量如何计入所称的节省比例？"
+      },
+      "transferable_insights": [
+        "做会向模型提交长日志的工具时，可以先折叠重复内容，并保留原文供用户核对。"
+      ],
+      "validation_questions": [
+        "用同一项调试任务对照压缩前后，检查助手是否漏掉关键错误线索。",
+        "对同一份文本检查转图片后的实际输入用量，确认是否真的减少。"
+      ],
+      "source_tagline": "能用几个 token，为啥要用一堆？",
+      "source_description": "Caveman 是一个本地代理，能把你发给 Claude Code、Codex 这些 AI 编程助手的东西先压缩一遍，日志、工具输出、文件都能瘦身，省下不少 token。它跑测试能减少 33.2% 的输入 token，而且正确率不变；还有个绝活是把文本当图片加载，能再省约 70% token。适合天天跟命令行 AI 打交道的开发者。"
+    },
+    {
+      "id": "1221100",
+      "name": "Kitbitz",
+      "name_zh": "Kitbitz",
+      "tagline_zh": "2000 多个免费手绘插画素材，采用 CC0 授权",
+      "description_zh": "Kitbitz 提供 2000 多个手绘元素，分为 13 个主题包，可单独下载 SVG、PNG，或获取可改色、缩放的 Figma 社区库。素材可用于游戏、App、地图和插画，介绍称采用 CC0 授权，并计划推出 Figma 插件和 MCP 支持。",
+      "intro_zh": "给做游戏、App 和地图的设计者用，按主题挑选手绘元素，下载后拼装画面或在 Figma 中修改。",
+      "url": "https://www.producthunt.com/products/kitbitz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KGXJNX2IMMNDIR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ae789c18-6126-48f1-a5f7-2442980da88d.webp?auto=format",
+      "votes_count": 142,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "用途、下载格式和编辑方式清楚，但素材是否覆盖实际项目需求还需确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多格式素材的编辑一致性有具体问题可检查，实现细节未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按主题打包并同时提供单件下载，适合其他可复用素材库借鉴。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重按需取单件、需要时拿整库的选择；能否放心用于商业项目，仍取决于当前授权是否覆盖所选素材。",
+      "product_analysis": {
+        "target_problem": "做游戏、App 或地图时，设计者可能缺少能直接拼装的手绘元素。它提供现成素材，减少从头绘制的工作。",
+        "workflow": "按主题挑选元素，单独下载 SVG 或 PNG；需要继续编辑时，可获取 Figma 社区库，修改组件和颜色。",
+        "ai_value": "介绍没提 AI，主要靠现成素材和可编辑文件改善体验。插件及 MCP 支持仍是计划，不能算已上线能力。",
+        "differentiation": "单件下载适合补图，整库适合批量搭画面。最可能让人不愿采用的原因，是手绘风格与现有项目不搭。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "提供 SVG（可缩放的矢量图）、PNG（像素图片）及 Figma 社区库，库内组件和颜色可修改。",
+        "possible_approach": "如果自己做，可以先按主题整理原始图稿，再导出两种图片格式，并制作可改色的 Figma 组件。",
+        "tradeoffs": "最容易出错的是各版本更新不同步，可能让用户换个格式就拿到不同的颜色或细节。",
+        "unknowns": "历史简介称采用 CC0（允许商用且通常无需署名的授权），但未核验当前授权原文及覆盖范围。"
+      },
+      "transferable_insights": [
+        "做图标或模板库时，可同时提供单件下载和主题整包，让补一个素材与搭整套画面的人各取所需。"
+      ],
+      "validation_questions": [
+        "挑同一元素，对照 SVG、PNG 和 Figma 版本，检查外观是否一致。",
+        "查看当前授权原文，确认 CC0 是否覆盖全部素材包。"
+      ],
+      "source_tagline": "2000+ 免费手绘插画素材，CC0 可商用随便用",
+      "source_description": "这是一个免费 CC0 手绘素材库，里面有 2000 多个手绘小元素，分成 13 个主题包。可以单独下载 SVG 或 PNG，也能整套拿走 Figma 社区库，里面的组件和颜色都能改、能缩放。做游戏、App、地图、插画，或者搭个可爱小世界都合适，后续还会出 Figma 插件和 MCP 支持。"
     },
     {
       "id": "1220673",
       "name": "Mem Agent",
-      "name_zh": "Mem 智能助手",
-      "tagline_zh": "绝不让你掉链子的 AI",
-      "description_zh": "不管是你工作里的重要交付，还是为以后去意大利玩收藏的披萨店，Mem Agent 都会记住你告诉它的事，还会把笔记和会议里的待办盯得紧紧的，主动跟进直到你做完。它还有个 Push-to-Remember 一键记忆功能，按一下就能把想法存进去或把之前存的东西调出来，不用打断手头的工作。",
-      "intro_zh": "这是个帮你记事、追着你把事办完的AI助手，工作待办和收藏的餐厅它都记得。事情多、爱忘事的上班族和学生党用着会很省心。",
+      "name_zh": "Mem Agent",
+      "tagline_zh": "帮你记事并跟进待办的 AI",
+      "description_zh": "Mem Agent 会记住你告诉它的工作事项和生活收藏，并跟进笔记、会议里的待办，直到完成。它提供 Push-to-Remember 一键记忆功能，用于保存想法或调出已存内容。",
+      "intro_zh": "给需要记住工作待办和生活收藏的人用，保存随手想到的事，找回旧记录，并主动跟进未完成事项。",
       "url": "https://www.producthunt.com/products/mem-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ABBU5P5YT2K2II?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2d91fc74-46da-4406-80b2-4cdeec51321e.png?auto=format",
       "votes_count": 127,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以录屏演示记录待办、自动跟进提醒和 Push-to-Remember 操作，但画面以文本列表和弹窗为主，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "功能概念直观，就是 AI 帮你记事和催办，普通人无需技术背景就能看懂和使用。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "Product Hunt 排名第10，127票，热度中上，但不算现象级爆款。"
+          "reason": "记事、找回和跟进的用途清楚，但省心程度尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "判断待办是否完成是具体难点，但介绍未说明如何处理。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把随手记录与后续跟进连起来，可借用于任务型产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "记性差星人救星！这个AI专治“我忘了”",
-        "angle": "教程演示",
-        "shooting_tips": "开头用“忘记重要事项导致尴尬”的场景切入，然后屏幕录制展示如何把待办、笔记和想法交给 Mem Agent，再演示它如何主动跟进提醒；重点突出 Push-to-Remember 一键保存和召回，节奏保持轻快，最后总结改变。",
-        "target_audience": "容易忘事、待办多、需要个人知识管理的上班族、学生和自由职业者。"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是记录之后还能有人提醒继续做；最影响判断的是，它能否准确知道何时该停止提醒。",
+      "product_analysis": {
+        "target_problem": "适合想法、收藏和待办散在笔记与会议中的人。麻烦在于记下之后，还要记得回来查、继续做。",
+        "workflow": "把事项告诉它，或用一键记忆保存想法；需要时调出旧内容。它还会主动跟进笔记和会议里的待办。",
+        "ai_value": "AI 的用途是记住内容并持续跟进待办。简介没说明它如何识别待办、判断完成。",
+        "differentiation": "它把记录和后续跟进放在一起，可能减少反复翻笔记。用户可能不愿把个人与工作记录交给同一工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 和一键记忆功能，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存记录，再让 AI 找出待办和相关旧内容。给待办保留完成状态，供用户确认后停止跟进。",
+        "tradeoffs": "最容易错在判断事项是否完成。判断错了，可能继续催已做完的事，或漏掉尚未完成的事。",
+        "unknowns": "它凭什么判断一件事已经完成？"
+      },
+      "transferable_insights": [
+        "做会议记录产品时，可以让提取出的待办保留原文出处，并让用户确认完成，避免提醒与实际进度脱节。"
+      ],
+      "validation_questions": [
+        "把一项已完成的待办留在原笔记里，检查它能否正确停止跟进。",
+        "存入几条相似收藏，再用不含原词的描述查找，检查能否找回目标。"
+      ],
+      "source_tagline": "绝不让你掉链子的 AI",
+      "source_description": "不管是你工作里的重要交付，还是为以后去意大利玩收藏的披萨店，Mem Agent 都会记住你告诉它的事，还会把笔记和会议里的待办盯得紧紧的，主动跟进直到你做完。它还有个 Push-to-Remember 一键记忆功能，按一下就能把想法存进去或把之前存的东西调出来，不用打断手头的工作。"
+    },
+    {
+      "id": "1214622",
+      "name": "Nuphos",
+      "name_zh": "Nuphos",
+      "tagline_zh": "AI 原生的开发运维工作空间。",
+      "description_zh": "Nuphos 为工程团队提供共享工作环境。AI 智能体可以了解团队的基础设施、调查问题，并直接操作生产系统。",
+      "intro_zh": "给负责线上系统的工程团队用，让 AI 在共享环境中了解基础设施、调查问题并执行操作。",
+      "url": "https://www.producthunt.com/products/nuphos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2TYRIPK2F3Z6W7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/11ae1cbb-31fb-427a-9f98-505679edbe48.png?auto=format",
+      "votes_count": 367,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但省下多少排查工作、适用哪些系统尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让 AI 直接操作线上系统，带来了明确的权限与误操作问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "共享系统背景的做法可借鉴，但资料未说明如何维护这些信息。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重调查之后能继续执行操作，可能少一次人工转手；但生产操作的权限边界没说明，直接影响能否放心使用。",
+      "product_analysis": {
+        "target_problem": "负责线上系统的工程团队，排查故障时需要先弄清系统结构和运行情况。它把了解环境、调查问题和执行操作放进一个共享工作环境。",
+        "workflow": "团队在共享环境中，让 AI 了解基础设施，再调查问题、操作生产系统。简介未说明接入和发起任务的方式。",
+        "ai_value": "AI 智能体，也就是能调查问题并执行操作的 AI 程序，在这里参与排查和操作，不只提供文字建议。",
+        "differentiation": "可能减少从排查结论转到实际操作的手工步骤。最可能让团队犹豫的是，要给 AI 多大的线上操作权限。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介只明确提到共享环境和可操作生产系统的 AI 智能体，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先让 AI 只读系统资料和运行状态，再生成操作方案，最后经人工确认执行。",
+        "tradeoffs": "最容易出错的是把错误判断变成线上操作；一旦改错对象，可能让故障扩大。",
+        "unknowns": "执行生产操作前，是否必须由人确认？"
+      },
+      "transferable_insights": [
+        "做内部排障工具时，可以让团队和 AI 共用同一份系统背景，减少每次重新交代环境；但要标明信息更新时间。"
+      ],
+      "validation_questions": [
+        "不给写入权限时，AI 能否完成一次具体故障的调查？",
+        "在测试环境发起修改，检查执行前是否要求人工确认？"
+      ],
+      "source_tagline": "AI 原生的 DevOps 工作空间。",
+      "source_description": "Nuphos 为工程团队提供一个共享环境，让 AI 智能体学习你的基础设施、调查问题，还能直接操作生产系统。"
+    },
+    {
+      "id": "1220624",
+      "name": "Oasis",
+      "name_zh": "Oasis",
+      "tagline_zh": "人类与 AI 智能体并肩协作的工作空间",
+      "description_zh": "Oasis 把个人、团队和可引入的 AI 智能体放在同一工作区，并把对话、决策和文件积累为共享知识。简介还称，工作区会逐渐了解团队，并自动生成专用工具，但没有说明具体方式。",
+      "intro_zh": "给需要与 AI 一起工作的团队用，把成员和 AI 放进同一空间，保留讨论、决策与文件。",
+      "url": "https://www.producthunt.com/products/oasis-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4IKWDWPTSOGQQ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/295736e2-1a0c-416f-9c9d-d7b5a9a9ccfb.png?auto=format",
+      "votes_count": 233,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "团队协作场景清楚，但能省多少交接工作尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "共享知识如何被不同 AI 正确使用，是具体且关键的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一保存协作材料的做法可借鉴，但使用条件未说明。"
+        }
       },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "功能实用、小白友好，演示操作也流畅，但画面以笔记和提醒为主，视觉冲击力中等，适合作为效率工具类选题。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重协作背景可以留给后续参与者继续使用；最影响判断的是，AI 能否从积累的材料里找对当前有效的决定。",
+      "product_analysis": {
+        "target_problem": "适合多人和多个 AI 共同推进任务的团队。讨论、决策和文件若分散保存，交接时可能要反复补充背景。",
+        "workflow": "把团队成员和需要的 AI 智能体引入工作区，再共同开展工作。对话、决策和文件会积累为共享知识；具体任务如何分派，简介没说。",
+        "ai_value": "AI 作为协作参与者加入工作区。简介还称它能逐渐了解团队、生成专用工具，但缺少具体例子。",
+        "differentiation": "集中保存协作材料，可能减少重复解释。最可能让团队犹豫的是：现有 AI 工具能否接进来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先统一保存讨论、决策和文件，再让 AI 按当前任务查找相关内容，并附上出处。",
+        "tradeoffs": "最容易出错的是把旧讨论当成最终决定。AI 若据此行动，团队就得返工纠正。",
+        "unknowns": "共享知识能否按成员和 AI 分别限制访问？"
+      },
+      "transferable_insights": [
+        "做团队协作产品时，可以把最终决定单独标出，并保留原讨论出处，方便人和 AI 核对。"
+      ],
+      "validation_questions": [
+        "我会先选一个团队正在使用的 AI 工具，检查能否接入。",
+        "把同一决定的新旧版本放进去，检查 AI 是否采用最新版。"
+      ],
+      "source_tagline": "人类与 AI 智能体并肩协作的工作空间",
+      "source_description": "Oasis 是一个智能工作区，能把你、你的团队和各类 AI 代理放进同一个空间。你可以把市面上好用的 AI 代理拉进来，让人和代理像平级队友一样一起干活，所有对话、决策和文件都会沉淀成共享知识。工作区越用越懂你，还会自动长出适合你们的专用工具。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

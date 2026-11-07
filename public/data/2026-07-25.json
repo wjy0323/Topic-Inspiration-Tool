@@ -1,357 +1,510 @@
 {
   "date": "2026-07-25",
-  "generated_at": "2026-07-26T17:18:26+08:00",
+  "generated_at": "2026-11-07T15:41:16+00:00",
   "generation_error": false,
   "products": [
-    {
-      "id": "1198621",
-      "name": "Second Brain for Mac and Windows",
-      "name_zh": "第二大脑桌面版",
-      "tagline_zh": "你的AI记忆，无处不在",
-      "description_zh": "Second Brain 桌面应用让你五分钟内就能用上。不用终端，不用 Git，只要下载、设个密码、登录 Cloudflare，魔法就开始了。你所有AI工具都能共用这份持久记忆，回忆变得聪明多了，不只翻最新的，而是跳出最相关的。知识图谱自动长出来。数据存在你自己的 Cloudflare 账户，不是我们这。支持 Mac 和 Windows。你要的应用，你要的更好记忆，我们都做出来了。",
-      "intro_zh": "在Mac或Windows上装个AI记忆管家，不管你用哪个AI工具，它都能记住，回头问啥都能精准找回。经常在不同AI之间切换、需要上下文不丢的上班族和创作者必备。",
-      "url": "https://www.producthunt.com/products/second-brain-cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6JNYYPRQZ2R2PT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ef011f73-0424-4f0c-b43e-23fe88e0daf9.png?auto=format",
-      "votes_count": 262,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有完整的桌面UI和操作流程，从安装到跨工具调取记忆都有清晰的画面可以演示，视觉效果直观，适合拍摄演示视频。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "无需编程或Git，下载后设密码登录即可使用，普通人完全能看懂和上手，概念简单（给AI加个公用的记忆）。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当天排名第3，票数262，热度高，话题性强，用户需求旺盛。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "给所有AI工具装上过目不忘的记忆！Second Brain真香现场",
-        "angle": "教程演示",
-        "shooting_tips": "先拍摄桌面安装过程，展示简单设置；然后用两个不同的AI应用（比如聊天和文档编辑），演示在同一主题下，记忆如何自动调取。用分屏对比有记忆和无记忆的回复差别，突出智能回忆和知识图谱的卖点。节奏轻快，从安装到演示3分钟内完成。",
-        "target_audience": "经常使用多种AI工具、需要记忆上下文提升效率的上班族、学生、内容创作者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "安装简单、画面演示性强、热度高，普通人轻松理解，是非常理想的视频化选题。"
-    },
-    {
-      "id": "1200286",
-      "name": "Capsomnia",
-      "name_zh": "盖不眠",
-      "tagline_zh": "用Caps Lock键做开关，合上Mac盖也能保持清醒",
-      "description_zh": "Capsomnia把Caps Lock变成一个物理开关，让MacBook合盖后仍能保持唤醒，这样你跑的AI代理、SSH连接、下载任务就不会被打断了。如果你已经给Caps Lock分配了其他功能，也能选别的快捷键，Caps Lock上的灯会显示是否处于激活状态。软件免费开源，已签名公证，不用注册、没有遥测。在日本已经火了，浏览量超过230万，下载量6000多。",
-      "intro_zh": "在Mac上把Caps Lock键变成休眠开关，合上盖子也能让程序继续跑。搞AI开发、经常连服务器或者下载大文件的Mac用户再也不用怕打断进度了。",
-      "url": "https://www.producthunt.com/products/capsomnia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GHQA6Z5FHKWY5F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e8dd26d0-08b3-4eb1-a5f0-7d23728b557c.png?auto=format",
-      "votes_count": 174,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以演示设置界面和合盖前后对比，Caps Lock灯亮灭有实时视觉反馈，操作直观，但整体画面变化比较简单。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "功能直观易懂，只要知道Mac合盖会休眠的普通用户就能理解，设置只需点几下，完全没有技术门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第5名，174票，加上日本230万浏览的热度，话题性不错。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "合盖不关机！你的Caps Lock键成物理外挂，Mac打工人狂喜",
-        "angle": "教程演示",
-        "shooting_tips": "先拍普通Mac合盖后任务中断的痛点镜头，再演示安装Capsomnia，点击设置用Caps Lock当开关，然后合盖，切到外接显示器或系统状态画面，证明下载/编译还在继续，给Caps Lock灯一个特写强调状态。全程快节奏加字幕，最后来一个对比画面收尾。",
-        "target_audience": "MacBook用户，尤其是程序员、AI开发者、运维和经常远程工作的人"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "功能简单直观，能轻松拍出前后对比效果，热度不错，很适合让普通用户快速种草。"
-    },
-    {
-      "id": "1202982",
-      "name": "Islet",
-      "name_zh": "Islet - Mac灵动岛",
-      "tagline_zh": "iPhone的灵动岛，如今在你的Mac刘海屏上安了家",
-      "description_zh": "绝大多数刘海工具只是在缺口上画个静态框，Islet却真像iPhone的灵动岛一样活了起来：用原生物理引擎展开收起，音量、亮度调节直接弹出小窗，音乐播放一目了然还能切歌，一键切换音频输出不用再钻系统设置，外加日历、天气和随手拖放的文件托盘。全Swift+AppKit原生打造，又快又省电，还完美适配全屏。",
-      "intro_zh": "在Mac刘海屏上装了个跟iPhone一模一样的灵动岛，调节音量、切歌、看日程都弹出来，丝滑又顺手。用MacBook又爱捣鼓桌面的小伙伴一定会爱上。",
-      "url": "https://www.producthunt.com/products/islet-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/T2XYC24IG2RGWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ce0de2c1-e109-41d1-8443-16ba1d2414bb.jpeg?auto=format",
-      "votes_count": 127,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "软件交互性强，动画丝滑，有展开收起、实时HUD、音乐控制和拖拽文件等丰富演示点，但功能颗粒较细，整体画面冲击力偏中等。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念直接复用iPhone灵动岛，普通用户一看就懂，安装后即用，无任何技术门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "127票排名第7，在PH当日属热度较高的小工具，话题性强，但未进入前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Mac刘海屏终于不再鸡肋！装上它秒变灵动岛",
-        "angle": "开箱体验+功能演示，穿插对比原生操作路径的繁琐，突出随手一按的便利感。",
-        "shooting_tips": "全程录屏，先展示Mac厚重刘海的原貌，再启动Islet，慢镜头特写展开/收起动画；接着分屏演示音量亮度调节、音乐控制、一键切音频输出、日历天气呼出，最后用拖拽文件到托盘收尾，配上轻松惊叹的旁白。",
-        "target_audience": "MacBook用户、数码爱好者、效率软件尝鲜党，尤其是已经习惯iPhone灵动岛的果粉。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示效果好，普通人秒懂，热度也够，是个很适合短视频展示的桌面小工具。"
-    },
-    {
-      "id": "1205334",
-      "name": "Speechius",
-      "name_zh": "语音跟随提词器",
-      "tagline_zh": "真正能听懂你说话的提词器",
-      "description_zh": "Speechius会听你的声音，并自动滚动演讲稿——你讲得快它就滚得快，讲得慢它就慢下来，即兴发挥也不会跟丢。不用脚踏板，不用设固定速度。它可以在任何直播工具里实时工作，比如网络研讨会、Zoom、Meet、Teams、OBS，而且屏幕共享时能完美隐藏。完全在设备本地处理，保护隐私，一次买断，无需订阅，支持macOS和Windows。",
-      "intro_zh": "一个能听懂你说话的提词器，你讲快讲慢它都自动跟，再也不用手脚并用控制滚动。经常直播、录课、开会的朋友用了，能彻底解放双手。",
-      "url": "https://www.producthunt.com/products/speechius?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/D6XV5RID3EJJR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/84682b6b-76ff-4a3b-9e1a-589c8f7876a5.jpeg?auto=format",
-      "votes_count": 126,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以实时录制屏幕，演示在Zoom/Teams里提词器跟随语音自动滚动的效果，还能展示隐藏特性，视觉反差明显，但界面较为简单，冲击力中等。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "提词器概念直观，下载安装即用，无需任何技术背景或配置，普通人一看就懂。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt当日排名第8，126票，热度中等，不是现象级产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "开会忘词救星！这提词器能听懂你说话，自动跟读，老板以为你全程脱稿",
-        "angle": "开箱体验+教程演示",
-        "shooting_tips": "先给观众看传统脚踏板提词器的狼狈操作，再切换到Speechius，演示边说话脚本边自动滚动；重点展示在Zoom里屏幕共享时提词器完美隐藏，同事视角完全看不到；节奏轻松，加入真实的语气变化测试，快慢停顿都跟得上，最后强调一次付费永久用。",
-        "target_audience": "经常做线上演示、直播带货、录制网课、开视频会议的上班族和内容创作者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化的自动跟读提词器演示效果直观，普通人秒懂，视频极易拍出对比感和惊喜感，很有爆款潜力。"
-    },
-    {
-      "id": "1203598",
-      "name": "Wisprkey",
-      "name_zh": "Wisprkey",
-      "tagline_zh": "跟你的Mac说句话，就能在任何App里输入文字",
-      "description_zh": "Wisprkey 是一款免费的 Mac 语音输入工具。设定一个全局快捷键，就能以 98% 的准确率将语音实时转成文字，支持 31 种语言。特别适合嫌打字麻烦的文字工作者和日常用户。",
-      "intro_zh": "在Mac上装了个语音输入工具，按下快捷键就能对着电脑说话，说完自动转成文字。经常打字到手酸的上班族、学生，或者懒得敲键盘的人一定会喜欢。",
-      "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/DIHCSXXHR6I43G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5a62948b-b668-41b6-9480-6030bf3e325f.png?auto=format",
-      "votes_count": 106,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以直观展示跨应用语音输入过程，有设置界面、实时转写效果和多语言切换画面，演示性强。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "功能就是‘说话变文字’，普通人秒懂，无需任何技术知识，设置一个快捷键就能立刻使用。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "PH当天排名第9，106票，有一定关注度，但未进入热门前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "告别键盘！Mac万能语音输入，一句话写邮件、做笔记",
-        "angle": "开箱体验+教程演示",
-        "shooting_tips": "先拍摄下载安装和快捷键设置，再打开备忘录、微信、浏览器等不同应用，实时演示说出内容后文字秒出，突出 98% 准确率和多语言切换，最后强调完全免费。节奏明快，配上字幕。",
-        "target_audience": "Mac 用户，尤其是有大量文字输入需求的上班族、学生和效率控。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "演示效果直观，适合视频展示，且对普通用户极友好，容易引发观众尝试欲望。"
-    },
-    {
-      "id": "1205639",
-      "name": "Heard",
-      "name_zh": "Heard",
-      "tagline_zh": "给 Claude Code 和 Codex 一张会说话的嘴",
-      "description_zh": "Heard 是 macOS 上的语音层，接入你的编程智能体工作流。它连接 Claude Code、Codex 和 Cursor，把它们的输出变成听得懂的摘要，让 AI 对你开口说话。",
-      "intro_zh": "在 Mac 上给 AI 编程助手加了个会汇报的语音播报员，不用盯着屏幕也能知道代码写到哪了。经常在多个终端同时跑智能体任务、需要离开电脑又怕错过关键报错的程序员和独立开发者必备。",
-      "url": "https://www.producthunt.com/products/heard-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HOUL4RGO5V5BZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cdd91f13-8e71-480c-9e01-2a1b11f04a6a.jpeg?auto=format",
-      "votes_count": 330,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可在 Mac 上录屏展示语音播报、多种工作流并行摘要等动态画面，视觉冲击力中等但演示感强，适合录屏讲解。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "概念涉及编程智能体终端协作，虽为语音播报降低监视负担，但普通用户缺少上下文，需要一定技术背景才能完全发挥价值。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第一，330 票，热度极高，话题性强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "让 Claude 开口说话，你的编程智能体终于不用盯屏幕了",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先展示界面和连接 Claude Code 的过程，录一段智能体运行时的真实报错和进度语音播报，重点突出并行项目摘要和离开时语音提醒的场景，节奏前快后稳。",
-        "target_audience": "用 AI 辅助编程、经常同时跑多个智能体任务的开发者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "视频化程度高、产品热度第一、能直观演示语音播报新奇体验，适合面向开发者的技术测评内容。"
-    },
     {
       "id": "1203314",
       "name": "FluentDB",
       "name_zh": "FluentDB",
-      "tagline_zh": "Mac上的AI数据库客户端",
-      "description_zh": "FluentDB 是一个能在 Mac 上用 AI 帮你写 SQL 的数据库管理工具。它支持 PostgreSQL、MySQL、SQLite 等主流数据库，可以用自己的 API 密钥或订阅 Claude、OpenAI，也能连接本地 Ollama 模型。你的数据不会离开电脑，AI 只看到表结构，生成的每一条 SQL 都会等你确认后才执行。",
-      "intro_zh": "在Mac上装了个能用自然语言查数据库的AI助手，你动动嘴它就帮你写SQL。经常要和数据库打交道的工程师、数据分析师，再也不用手拼复杂的查询了。",
+      "tagline_zh": "Mac 上的 AI 数据库客户端",
+      "description_zh": "FluentDB 是 Mac 上的数据库管理工具，可用 AI 编写 SQL，支持 PostgreSQL、MySQL、SQLite，以及自带 API 密钥、Claude 或 OpenAI 订阅和本地 Ollama 模型。缓存简介称，数据不会离开电脑，AI 只看到表结构，每条生成的 SQL 都需用户确认后执行。",
+      "intro_zh": "给在 Mac 上查询和管理数据库的人用，让 AI 帮忙写查询语句，由用户确认后执行。",
       "url": "https://www.producthunt.com/products/fluentdb-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XDHRXK2IKT3XVD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d935c44e-57de-4d3e-916e-9440ccad4273.png?auto=format",
       "votes_count": 311,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "界面操作丰富，可演示连接数据库、输入需求、AI生成查询、审批执行的全过程，前后对比直观，视觉节奏感强。"
+          "reason": "写查询与确认执行的用途清楚，但生成质量尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解数据库和表结构的基本概念，对零基础用户门槛较高，即使有AI辅助，仍不适合纯小白。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "只给表结构能否写对查询，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第2，收获311票，热度很高，话题性强。"
+        "transferability": {
+          "score": 4,
+          "reason": "先展示操作内容、再让用户确认的做法可用于其他高风险工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "再也不用手写SQL！Mac这个AI数据库客户端太爽了",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先录一段手写复杂SQL的烦躁画面，切到FluentDB界面，演示从连接数据库、用自然语言提问到AI生成查询、一键审批执行的全流程。重点突出“AI只懂结构不看数据”的安全提示和审批环节，节奏轻快，结尾展示节省的时间。",
-        "target_audience": "后端开发者、数据分析师、经常要写报表的产品经理"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重执行前能看到具体语句；最大疑问是只靠表结构，能否写出业务含义正确的查询。",
+      "product_analysis": {
+        "target_problem": "在 Mac 上查数据库的人，写 SQL（查询或修改数据库的语句）需要理解表和字段。它让 AI 分担语句编写。",
+        "workflow": "连接支持的数据库，选择 AI 来源，由 AI 生成 SQL。用户确认后才执行。",
+        "ai_value": "AI 根据表结构编写语句。介绍没说它能理解业务口径或判断结果是否正确。",
+        "differentiation": "把生成语句和执行前确认放在同一工具里，减少手写工作。用户若仍需逐句核对，可能不愿更换现有客户端。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持多种数据库、云端 AI 和本地 Ollama；简介称 AI 只看到表结构，生成语句须确认后执行。",
+        "possible_approach": "如果自己做，可以先读取表和字段说明，再把用户要求与这些信息交给模型，最后展示生成语句，确认后交给数据库执行。",
+        "tradeoffs": "最难的是把业务要求对应到正确字段。语句可能能运行，却选错统计口径；确认按钮本身不能发现这种错误。",
+        "unknowns": "“数据不离开电脑”是否仅指记录内容，表结构发送到哪里，缓存简介没有讲清楚。"
+      },
+      "transferable_insights": [
+        "做批量修改或运维工具时，可先展示将执行的具体操作，让用户审核后再运行。"
+      ],
+      "validation_questions": [
+        "用一个已知正确答案的多表查询，检查生成结果是否符合业务口径。",
+        "接入云端 AI 时，检查发送内容是否包含数据库记录。"
+      ],
+      "source_tagline": "Mac上的AI数据库客户端",
+      "source_description": "FluentDB 是一个能在 Mac 上用 AI 帮你写 SQL 的数据库管理工具。它支持 PostgreSQL、MySQL、SQLite 等主流数据库，可以用自己的 API 密钥或订阅 Claude、OpenAI，也能连接本地 Ollama 模型。你的数据不会离开电脑，AI 只看到表结构，生成的每一条 SQL 都会等你确认后才执行。"
+    },
+    {
+      "id": "1200286",
+      "name": "Capsomnia",
+      "name_zh": "Capsomnia",
+      "tagline_zh": "用 Caps Lock 切换，让 MacBook 合盖后保持唤醒",
+      "description_zh": "Capsomnia 把 Caps Lock 变成保持唤醒的开关，让 MacBook 合盖后继续运行 AI 代理、SSH 远程连接和下载，也支持其他快捷键，并用 Caps Lock 指示灯显示激活状态。简介称它免费开源、已签名并公证，无需注册且没有遥测，并称在日本获得超过 230 万次浏览和 6000 多次下载。",
+      "intro_zh": "给需要让 MacBook 合盖后继续跑任务的人，用键盘开关控制保持唤醒，并用指示灯查看状态。",
+      "url": "https://www.producthunt.com/products/capsomnia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GHQA6Z5FHKWY5F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e8dd26d0-08b3-4eb1-a5f0-7d23728b557c.png?auto=format",
+      "votes_count": 174,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "合盖后继续跑任务的场景明确，但适用条件尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "指示灯能否准确反映合盖后的运行状态，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用实体按键切换、用灯显示状态，可借用于后台工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重无需打开窗口就能控制后台运行状态；最大的疑问是合盖保持唤醒有哪些供电或外设条件。",
+      "product_analysis": {
+        "target_problem": "需要长时间运行任务的 MacBook 用户，可能遇到合盖休眠导致任务中断。它针对的是合盖后仍需工作的场景。",
+        "workflow": "用 Caps Lock 开启保持唤醒，指示灯显示激活状态，再合盖继续运行任务。已有按键映射的人可改用其他快捷键。",
+        "ai_value": "介绍没提 AI 实现，主要靠唤醒控制和键盘开关改善体验；AI 代理只是它要保住的任务之一。",
+        "differentiation": "把唤醒控制放到实体按键上，省去寻找软件开关的动作。最可能影响切换意愿的是 Caps Lock 已有其他用途。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称软件开源、已签名并公证，但没说保持唤醒具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收快捷键，再控制系统的保持唤醒功能，最后把实际状态同步到指示灯；合盖后是否仍有效要单独验证。",
+        "tradeoffs": "最容易出错的是灯亮着，电脑合盖后却仍休眠，用户会误以为任务还在运行。",
+        "unknowns": "合盖保持唤醒是否要求接电或连接外接显示器？"
+      },
+      "transferable_insights": [
+        "做录制、同步等后台工具时，可用固定按键控制开关，并让指示灯反映实际运行状态，减少反复打开窗口确认。"
+      ],
+      "validation_questions": [
+        "先跑一个持续记录时间的任务，开启后合盖，检查记录是否中断。",
+        "把 Caps Lock 留给原有映射，检查替代快捷键能否正常切换。"
+      ],
+      "source_tagline": "用Caps Lock键做开关，合上Mac盖也能保持清醒",
+      "source_description": "Capsomnia把Caps Lock变成一个物理开关，让MacBook合盖后仍能保持唤醒，这样你跑的AI代理、SSH连接、下载任务就不会被打断了。如果你已经给Caps Lock分配了其他功能，也能选别的快捷键，Caps Lock上的灯会显示是否处于激活状态。软件免费开源，已签名公证，不用注册、没有遥测。在日本已经火了，浏览量超过230万，下载量6000多。"
+    },
+    {
+      "id": "1202982",
+      "name": "Islet",
+      "name_zh": "Islet",
+      "tagline_zh": "把类似 iPhone 灵动岛的交互带到 Mac 刘海区域",
+      "description_zh": "Islet 在 Mac 刘海区域提供展开收起的面板，支持音量与亮度提示、音乐控制、音频输出切换，以及日历、天气和文件拖放托盘。简介称它使用 Swift 和 AppKit 原生开发，强调动画、速度、省电及全屏适配，但这些效果未经实测。",
+      "intro_zh": "给使用刘海屏 Mac 的人，把音乐控制、音频切换和临时文件拖放集中到屏幕顶部。",
+      "url": "https://www.producthunt.com/products/islet-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/T2XYC24IG2RGWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ce0de2c1-e109-41d1-8443-16ba1d2414bb.jpeg?auto=format",
+      "votes_count": 127,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "常用操作的入口清楚，但是否比现有入口顺手仍待试用。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "刘海面板如何在全屏应用中显示且不挡操作，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把短时操作放进可收起面板，适合借用于桌面辅助工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重音频输出切换入口更直接；最影响判断的是，面板在全屏工作时会不会带来额外干扰。",
+      "product_analysis": {
+        "target_problem": "经常听音乐、切换耳机或暂存文件的 Mac 用户，可能需要在工作中反复找这些入口。Islet 把它们集中到刘海区域。",
+        "workflow": "在顶部面板查看播放信息、切歌或切换音频输出，也可把文件拖进托盘。介绍未交代面板具体如何唤出。",
+        "ai_value": "介绍没提 AI，主要靠集中操作入口和展开收起的交互改善体验。",
+        "differentiation": "切换音频输出不必再进入系统设置。最可能让人不愿换用的，是顶部面板可能干扰当前应用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称使用 Swift 编程语言和 AppKit（Mac 原生界面开发框架），并用原生物理引擎实现展开收起动画。",
+        "possible_approach": "如果自己做，可以先在刘海附近做可收起面板，再接入音乐、音频设备和文件拖放操作，最后处理全屏时的显示。",
+        "tradeoffs": "最难的是全屏时决定面板何时出现。处理不好，用户可能点不到它，或被它挡住应用内容。",
+        "unknowns": "所谓全屏适配，是否包括全屏应用之间切换时仍能正常使用？"
+      },
+      "transferable_insights": [
+        "做桌面辅助工具时，可把短时、高频操作集中到一个可收起面板，减少长期占用屏幕。"
+      ],
+      "validation_questions": [
+        "进入全屏应用后，面板能否正常唤出且不遮挡关键操作？",
+        "连接多个音频设备后，面板选择的输出是否与实际播放设备一致？"
+      ],
+      "source_tagline": "iPhone的灵动岛，如今在你的Mac刘海屏上安了家",
+      "source_description": "绝大多数刘海工具只是在缺口上画个静态框，Islet却真像iPhone的灵动岛一样活了起来：用原生物理引擎展开收起，音量、亮度调节直接弹出小窗，音乐播放一目了然还能切歌，一键切换音频输出不用再钻系统设置，外加日历、天气和随手拖放的文件托盘。全Swift+AppKit原生打造，又快又省电，还完美适配全屏。"
+    },
+    {
+      "id": "1205334",
+      "name": "Speechius",
+      "name_zh": "Speechius",
+      "tagline_zh": "跟随说话节奏滚动的提词器",
+      "description_zh": "Speechius 会听取声音，按讲话节奏滚动演讲稿，介绍称即兴发挥时也能继续跟随，无需脚踏板或固定滚动速度。它支持 macOS 和 Windows，采用本地处理和一次买断，介绍称可配合 Zoom、Meet、Teams、OBS 等工具使用，并在屏幕共享时隐藏提词内容。",
+      "intro_zh": "给直播、线上演讲和会议发言者用的提词器，听取讲话声音，让稿件跟着说话节奏滚动。",
+      "url": "https://www.producthunt.com/products/speechius?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/D6XV5RID3EJJR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/84682b6b-76ff-4a3b-9e1a-589c8f7876a5.jpeg?auto=format",
+      "votes_count": 126,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "跟随语速滚稿解决了明确麻烦，但实际跟随效果尚未核验。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "即兴讲话后能否重新找准稿件位置，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用实际讲话进度控制内容展示，可借用于排练和口播工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是不用边讲边调滚速。最影响判断的是偏离稿件后能否恢复跟随，这决定了它能否用于正式发言。",
+      "product_analysis": {
+        "target_problem": "线上演讲者一边讲话一边看稿，固定滚速可能赶不上语速变化。以前用脚踏板或固定速度控制提词的人，现在可以让声音控制滚动。",
+        "workflow": "用户对着演讲稿讲话，工具听取声音并调整滚动速度。介绍称可配合直播和会议软件使用，但未说明具体设置步骤。",
+        "ai_value": "介绍没提 AI，主要靠听取声音、跟随讲话进度来改善体验，不能据此认定它用了哪种模型。",
+        "differentiation": "省去讲话时另行控制滚速的动作。但用户可能担心临场偏离稿件后，提词位置跟不上自己。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确称声音在设备本地处理，支持 macOS 和 Windows。",
+        "possible_approach": "如果自己做，可以先把声音转成文字，再与稿件片段比对，找到当前讲到的位置，用它控制滚动。",
+        "tradeoffs": "最难的是即兴发挥后重新找准位置。若匹配错段落，屏幕可能跳到错误位置，打断发言。",
+        "unknowns": "共享整个屏幕时，提词内容是否仍能隐藏？缓存简介没有说明适用条件。"
+      },
+      "transferable_insights": [
+        "做口播或演讲排练工具时，可以用讲话进度带动稿件展示，同时保留手动定位，方便跟丢后继续。"
+      ],
+      "validation_questions": [
+        "讲稿中途插入一段即兴内容，再回到原稿，检查能否找回正确位置。",
+        "在常用会议软件中共享整个屏幕，从观众端检查提词内容是否可见。"
+      ],
+      "source_tagline": "真正能听懂你说话的提词器",
+      "source_description": "Speechius会听你的声音，并自动滚动演讲稿——你讲得快它就滚得快，讲得慢它就慢下来，即兴发挥也不会跟丢。不用脚踏板，不用设固定速度。它可以在任何直播工具里实时工作，比如网络研讨会、Zoom、Meet、Teams、OBS，而且屏幕共享时能完美隐藏。完全在设备本地处理，保护隐私，一次买断，无需订阅，支持macOS和Windows。"
+    },
+    {
+      "id": "1203598",
+      "name": "Wisprkey",
+      "name_zh": "Wisprkey",
+      "tagline_zh": "对着 Mac 说话，在各类 App 中输入文字",
+      "description_zh": "Wisprkey 是一款免费的 Mac 语音输入工具，可设置全局快捷键，将语音实时转成文字。缓存简介称其支持 31 种语言、准确率达 98%，面向不想频繁打字的文字工作者和日常用户，这些说法未经重新核验。",
+      "intro_zh": "给想少打字的 Mac 用户用，设置快捷键后，用说话的方式在正在使用的 App 中输入文字。",
+      "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DIHCSXXHR6I43G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5a62948b-b668-41b6-9480-6030bf3e325f.png?auto=format",
+      "votes_count": 106,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群和省去打字的用途清楚，但识别效果与应用兼容性待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把识别文字送到正确输入位置有具体难点，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用全局快捷键在当前工作位置调用工具，是可借用的具体做法。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是能在当前 App 中完成语音输入；最影响判断的是纠错量，缓存中的 98% 缺少测试条件，不能直接代表实际省时。",
+      "product_analysis": {
+        "target_problem": "文字工作者和日常用户在 Mac 上写东西时，可能想用说话代替部分打字。它面向的是输入文字这一步，不负责替用户构思内容。",
+        "workflow": "先设置全局快捷键，再在需要输入文字的 App 中调用它，说话并获得转写文字。缓存简介没有交代具体的开始和结束录音方式。",
+        "ai_value": "介绍没提 AI，主要靠语音转文字来减少手动输入。不能据此认定它会改写或润色。",
+        "differentiation": "它把语音输入做成可在不同 App 中调用的工具。用户可能不愿切换的原因是：识别后若要频繁纠错，省下的打字时间就有限。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介明确提到全局快捷键、实时语音转文字和 31 种语言，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先用快捷键启动录音，再把声音转成文字，最后将文字送入当前输入框。",
+        "tradeoffs": "最容易出错的是判断文字该送到哪个输入框。用户切换窗口后，文字可能进入错误位置，甚至覆盖已有内容。",
+        "unknowns": "语音是在本机处理，还是上传到服务器？这会影响敏感内容能否放心输入。"
+      },
+      "transferable_insights": [
+        "做翻译或文字处理工具时，可以借用“全局快捷键调用、结果回到当前输入位置”的做法，让用户少切一次窗口。"
+      ],
+      "validation_questions": [
+        "用包含人名和专业词的一段日常口述，检查转写后需要改多少处。",
+        "在两个 App 间切换后调用，检查文字是否进入当前选中的输入框。"
+      ],
+      "source_tagline": "跟你的Mac说句话，就能在任何App里输入文字",
+      "source_description": "Wisprkey 是一款免费的 Mac 语音输入工具。设定一个全局快捷键，就能以 98% 的准确率将语音实时转成文字，支持 31 种语言。特别适合嫌打字麻烦的文字工作者和日常用户。"
+    },
+    {
+      "id": "1205639",
+      "name": "Heard",
+      "name_zh": "Heard",
+      "tagline_zh": "让 Claude Code 和 Codex 用语音说话",
+      "description_zh": "Heard 是 macOS 上的语音层，可接入编程智能体工作流。它连接 Claude Code、Codex 和 Cursor，把输出整理成可听的摘要。",
+      "intro_zh": "给在 Mac 上使用编程智能体的开发者，把工具输出整理成摘要，再用语音播报。",
+      "url": "https://www.producthunt.com/products/heard-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HOUL4RGO5V5BZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cdd91f13-8e71-480c-9e01-2a1b11f04a6a.jpeg?auto=format",
+      "votes_count": 330,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "听摘要的用途清楚，但能否减少查看原始输出还待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "摘要能否保留错误和待确认事项，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把长输出压缩成可听状态，能借用于后台任务通知。"
+        }
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示感强，热度足够，但目标观众需要数据库基础，受众偏窄，适合技术向账号。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是不用一直盯着输出也能了解进展；最大疑问是摘要能否保留影响下一步判断的关键信息。",
+      "product_analysis": {
+        "target_problem": "面向在 Mac 上使用编程智能体的开发者。想知道任务进展时，阅读较长输出可能打断手头工作。",
+        "workflow": "将 Heard 接入 Claude Code、Codex 或 Cursor 的工作流，由它把工具输出整理成摘要并播报。介绍没说具体接入步骤。",
+        "ai_value": "它把编程智能体的输出变成摘要并读出来。介绍没说明摘要是否由另一个 AI 模型生成。",
+        "differentiation": "相比自己读输出，它提供了听摘要的方式。若摘要不足以判断任务状态，用户可能仍习惯回看原文。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "明确支持 macOS，连接三款编程工具并提供语音摘要；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收工具输出，再提取完成情况、错误和待确认事项，最后把摘要转成语音。",
+        "tradeoffs": "最容易出错的是摘要遗漏关键限制。把“部分完成”说成“已完成”，可能让用户误判代码已经可用。",
+        "unknowns": "介绍没说明何时触发播报，这会直接影响它是否打断工作。"
+      },
+      "transferable_insights": [
+        "做构建、测试等后台任务通知时，可以把长日志压成“结果、异常、下一步”，让用户先听重点，再决定是否查看详情。"
+      ],
+      "validation_questions": [
+        "给它一段包含失败步骤的输出，检查语音摘要是否保留失败信息。",
+        "让编程工具连续输出，检查播报频率是否打断正常工作。"
+      ],
+      "source_tagline": "给 Claude Code 和 Codex 一张会说话的嘴",
+      "source_description": "Heard 是 macOS 上的语音层，接入你的编程智能体工作流。它连接 Claude Code、Codex 和 Cursor，把它们的输出变成听得懂的摘要，让 AI 对你开口说话。"
+    },
+    {
+      "id": "1198621",
+      "name": "Second Brain for Mac and Windows",
+      "name_zh": "Second Brain for Mac and Windows",
+      "tagline_zh": "随处可用的 AI 记忆",
+      "description_zh": "Second Brain 提供 Mac 和 Windows 桌面应用，介绍称无需终端或 Git，下载、设置密码并登录 Cloudflare 后即可开始使用。它让 AI 工具共用持久记忆，按相关性找回内容、自动建立知识关联，并将数据存入用户自己的 Cloudflare 账户。",
+      "intro_zh": "给同时使用多个 AI 工具的人，把背景资料存成共用记忆，在需要时找回相关内容。",
+      "url": "https://www.producthunt.com/products/second-brain-cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6JNYYPRQZ2R2PT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ef011f73-0424-4f0c-b43e-23fe88e0daf9.png?auto=format",
+      "votes_count": 262,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "共用背景资料的用途清楚，但接入范围和找回效果待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨工具存取记忆有具体难点，但介绍没有说明实现细节。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把部署操作收进桌面安装流程，是可借用的具体做法。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "共用记忆可能减少重复交代背景；最影响判断的是常用工具能否真正接入，不能仅凭“所有”二字认定兼容。",
+      "product_analysis": {
+        "target_problem": "同时使用多个 AI 工具时，用户可能要重复解释背景。它想让这些工具读取同一份长期资料。",
+        "workflow": "下载桌面应用，设置密码，登录 Cloudflare。介绍随后称可共用记忆，但没有交代各个 AI 工具如何接入。",
+        "ai_value": "按当前问题找相关记忆，而不只取最新记录；自动建立知识图谱，也就是记录内容之间的关联。",
+        "differentiation": "它把原本涉及终端和 Git 的配置收进桌面流程。仍需使用 Cloudflare 账户，可能让不熟悉云服务的人犹豫。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持 Mac、Windows，数据存于用户的 Cloudflare 账户；介绍没说具体用什么模型。",
+        "possible_approach": "如果自己做，可以先统一保存资料，再按问题找出相关片段，交给已接入的 AI 工具。",
+        "tradeoffs": "最难的是选对记忆。若把无关背景交给 AI，回答可能被带偏，用户还得纠正。",
+        "unknowns": "“所有 AI 工具”具体包含哪些，介绍没有列出。"
+      },
+      "transferable_insights": [
+        "做面向非技术用户的自部署工具时，可以把配置集中到桌面引导中，减少手动操作。"
+      ],
+      "validation_questions": [
+        "我常用的两个 AI 工具，能否实际读取同一条已保存记忆？",
+        "放入主题相近但结论不同的资料后，能否找回与问题匹配的那条？"
+      ],
+      "source_tagline": "你的AI记忆，无处不在",
+      "source_description": "Second Brain 桌面应用让你五分钟内就能用上。不用终端，不用 Git，只要下载、设个密码、登录 Cloudflare，魔法就开始了。你所有AI工具都能共用这份持久记忆，回忆变得聪明多了，不只翻最新的，而是跳出最相关的。知识图谱自动长出来。数据存在你自己的 Cloudflare 账户，不是我们这。支持 Mac 和 Windows。你要的应用，你要的更好记忆，我们都做出来了。"
     },
     {
       "id": "1205923",
       "name": "OpenComputer",
       "name_zh": "OpenComputer",
-      "tagline_zh": "部署托管智能体，从未如此简单",
-      "description_zh": "只需告诉智能体该做什么，再把一行提示贴进你的编程工具里，瞬间就能得到一个在线的智能体链接。不管是聊天机器人还是自动化任务，用起来都像发消息一样自然。",
-      "intro_zh": "这工具就像给你的AI助手开了个专属房间，你告诉它任务，它自己就能对外接客。做客服、接API、自动回复，只要你会写提示词，不用懂后端也能让AI替你打工。",
+      "tagline_zh": "更简单地部署和托管智能体",
+      "description_zh": "描述希望智能体完成的任务，再把一行提示贴进编程工具，便可获得在线智能体链接。简介列出的用途包括聊天机器人和自动化任务，并将交互方式描述为像发消息一样。",
+      "intro_zh": "给想上线聊天机器人或自动化任务的开发者用，把任务描述变成可在线访问的智能体。",
       "url": "https://www.producthunt.com/products/opencomputer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3DPB3AQPXKIGFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/767a3a88-4284-4bb9-aa33-497326187e83.png?auto=format",
       "votes_count": 216,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 3,
-          "reason": "操作过程是粘贴提示、生成URL，画面以代码编辑器、浏览器切换为主，有一定演示效果但缺少视觉冲击力，属于实用但不出彩的工具类画面。"
+          "reason": "上线目标明确，但支持哪些任务、需要多少配置尚不清楚。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "核心概念是智能体部署，对完全没接触过AI开发的人需要一点解释，但操作足够简化，只要会用提示词就能上手，不需要写代码。"
+          "reason": "从任务描述到在线运行有具体问题可想，但实现信息很少。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第4，216票，热度处于中上游，有一定话题性和猎奇吸引。"
+        "transferability": {
+          "score": 3,
+          "reason": "借现有编程工具发起部署的做法可借鉴，适用条件待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "把AI变成私人管家，一行提示就能上线接客！",
-        "angle": "教程演示",
-        "shooting_tips": "录制一段屏幕操作：先打开编程工具（如Cursor），粘贴官方提供的提示，然后浏览器打开生成的链接，展示智能体在聊天窗里的应答效果，最后演示修改提示词更新智能体行为。节奏轻快，配上惊讶表情和字幕强调“不用写后端代码”。",
-        "target_audience": "想快速搭建AI服务的产品经理、独立开发者、自媒体博主"
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重把任务描述接到在线链接的简短流程；最大的疑问是，这个流程能支持多复杂的实际任务。",
+      "product_analysis": {
+        "target_problem": "开发者想把聊天机器人或自动化任务放到线上，需要处理部署和托管。它试图减少这部分操作，但缓存简介没有交代具体省掉哪些步骤。",
+        "workflow": "先告诉智能体要做什么，再把一行提示贴进编程工具，获得在线智能体链接。简介没有说明中间是否还需确认或配置。",
+        "ai_value": "智能体负责接收任务描述，用于对话或自动化工作；介绍没有说明它如何理解和执行任务。",
+        "differentiation": "把上线入口放进用户已有的编程工具，可能减少工具切换。最可能让人犹豫的是，现用编程工具是否受支持。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "操作画面干净有逻辑，上手门槛低，虽然视觉不炸但实用性吸引精准人群，配合教程向内容能出不错的效果。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把任务描述整理成可运行的程序，再部署到托管环境，返回访问链接。",
+        "tradeoffs": "最难的是把模糊描述变成正确动作。即使链接能打开，智能体也可能做错事，用户仍需逐项核对结果。",
+        "unknowns": "自动化任务可以获得哪些操作权限，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做开发者工具时，可以让用户从现有编程工具发起部署，并直接返回访问链接，减少另开后台的操作。"
+      ],
+      "validation_questions": [
+        "用一个有明确验收结果的小任务，检查上线后的智能体是否按要求完成。",
+        "检查自动化任务执行前，能否限制它的操作权限。"
+      ],
+      "source_tagline": "部署托管智能体，从未如此简单",
+      "source_description": "只需告诉智能体该做什么，再把一行提示贴进你的编程工具里，瞬间就能得到一个在线的智能体链接。不管是聊天机器人还是自动化任务，用起来都像发消息一样自然。"
     },
     {
       "id": "1205906",
       "name": "Health in ChatGPT",
-      "name_zh": "ChatGPT健康助手",
-      "tagline_zh": "你的私人健康顾问，用ChatGPT读懂身体信号",
-      "description_zh": "把你的健康数据、病历、运动手环都拉进一个聊天框，Health in ChatGPT 能帮你读懂检查报告、追踪身体变化、为看病做好功课，还能给出个性化建议，让你更懂自己的健康。所有分享的内容都由你掌控。",
-      "intro_zh": "把碎片化的健康信息整合成一位随时能聊的智能健康顾问，问啥都能帮你分析。适合常看病、想搞懂化验单、需要管理日常健康的普通人。",
+      "name_zh": "Health in ChatGPT",
+      "tagline_zh": "用 ChatGPT 理解健康信息的个人健康助手",
+      "description_zh": "把健康数据、病历和运动手环数据放进聊天中，帮助理解检查报告、追踪身体变化、准备就诊并提供个性化建议。简介称，用户可以掌控自己分享的内容。",
+      "intro_zh": "给想读懂报告、整理就诊资料的人用，把病历和日常健康数据放进聊天中提问。",
       "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/S3VSCUPLNPUYSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/07bd412f-47ba-4d4f-83d3-4451ec21d99c.webp?auto=format",
       "votes_count": 147,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 4,
+          "reason": "读报告和准备就诊的需求明确，但建议质量尚无验证。"
+        },
+        "technical_insight": {
           "score": 3,
-          "reason": "主要交互是聊天界面，可演示导入数据、获取洞察的过程，但画面以文字对话为主，缺乏视觉冲击力，适合用录屏+旁白展示，但不够抓眼。"
+          "reason": "多份健康记录如何正确对应时间和指标，是具体且重要的问题。"
         },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念简单，就是跟AI聊自己的健康，不需要技术背景，但连接多个数据源可能对部分用户有门槛，整体容易理解。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第6，147票，属于前十热门产品，有一定关注度。"
+        "transferability": {
+          "score": 3,
+          "reason": "围绕个人资料提供解释的做法可借鉴，但数据接入条件不明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "把化验单扔给ChatGPT，它竟然秒变我的家庭医生",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示从连接健康App到上传一份血常规报告，再展示ChatGPT如何拆解指标、提醒异常和给日常建议，穿插真实用户惊喜表情和“真的能看懂”的感叹。",
-        "target_audience": "重视健康管理、经常需要看检验报告、喜欢用智能工具简化生活的普通人，尤其是有慢性病管理需求的中青年。"
-      },
       "category": "健康健身",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品概念通俗易懂且贴合大众刚需，但视频呈现以对话为主，需靠内容选题弥补画面平淡。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是让个人记录帮助准备就诊；最影响判断的是，回答能否准确对应原始报告。",
+      "product_analysis": {
+        "target_problem": "拿到检查报告、又有病历和手环记录的人，可能难以把这些信息联系起来，也不容易整理出就诊时该问什么。",
+        "workflow": "把健康资料放进聊天，围绕报告和身体变化提问，再用回答准备就诊。简介未说明资料如何导入。",
+        "ai_value": "ChatGPT 负责解释健康信息，并结合个人资料给出建议；这些回答不能当成诊断结论。",
+        "differentiation": "把分散资料放在同一处提问，可能减少来回查找。最可能让人犹豫的是上传敏感病历。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 ChatGPT，以及健康数据、病历和运动手环数据，没说具体如何接入。",
+        "possible_approach": "如果自己做，可以先提取报告中的日期、指标和单位，让用户核对，再让模型结合记录回答，并标出依据。",
+        "tradeoffs": "最容易错在比较不同记录时混淆单位，可能把正常波动解释成异常，让用户白白担心。",
+        "unknowns": "“掌控分享内容”是否包括删除已上传资料，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做个人资料助手时，可以围绕“下一次要办的事”组织回答，例如把健康记录整理成就诊问题清单。"
+      ],
+      "validation_questions": [
+        "用同一指标、不同单位的两份报告，检查它是否正确比较数值。",
+        "检查已上传的病历是否有明确的删除入口及删除范围说明。"
+      ],
+      "source_tagline": "你的私人健康顾问，用ChatGPT读懂身体信号",
+      "source_description": "把你的健康数据、病历、运动手环都拉进一个聊天框，Health in ChatGPT 能帮你读懂检查报告、追踪身体变化、为看病做好功课，还能给出个性化建议，让你更懂自己的健康。所有分享的内容都由你掌控。"
     },
     {
       "id": "1201154",
       "name": "ShellMate",
       "name_zh": "ShellMate",
-      "tagline_zh": "让你真正爱上的 SSH 工作台",
-      "description_zh": "ShellMate 是一款现代 SSH 工作空间，专为开发者、系统管理员和 DevOps 团队打造。通过标签页、分屏终端、SFTP、代码片段、会话分享和 AI 辅助，无限连接服务器，一个原生桌面应用通吃 Windows、macOS 和 Linux。个人永久免费（不含 AI），团队可实惠订阅解锁协作与 AI 功能。",
-      "intro_zh": "一个让远程服务器管理顺手到上瘾的终端工具，多标签、分屏、拖拽传文件、分享会话都齐了。整天泡在命令行里的程序员和运维同学，这下终于有个省心又有颜值的家了。",
+      "tagline_zh": "让你喜欢上使用的 SSH 工作台",
+      "description_zh": "ShellMate 面向开发者、系统管理员和 DevOps 团队，提供标签页、分屏终端、SFTP（安全文件传输）、代码片段、会话分享与 AI 辅助，支持不限数量的服务器连接。介绍称它是支持 Windows、macOS 和 Linux 的原生桌面应用，个人版永久免费但不含 AI，团队订阅可解锁协作与 AI 功能。",
+      "intro_zh": "给开发者和运维团队用的桌面工作台，把远程连接服务器、传文件和分享会话放在一起。",
       "url": "https://www.producthunt.com/products/shellmate-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/W5KSNMJBWVXXT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/33c6452a-8a55-4390-b621-9edde1b8b16d.png?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "终端操作界面丰富，可以演示多标签切换、分屏效果、SFTP拖拽上传、AI 自动补全和会话共享等交互，画面虽不如炫光产品酷炫，但功能演示性强，适合录制。"
+          "reason": "多服务器操作的场景清楚，但实际能省多少切换尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "核心是 SSH 客户端，需要理解服务器连接、终端命令等概念，面向有技术背景的用户，普通互联网用户看了会一头雾水。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 3,
-          "reason": "ProductHunt 第10名，101票，排名中等偏上，有一定讨论度但未进入前五，热度属于中规中矩。"
+          "reason": "会话分享涉及操作权限，但介绍没有说明处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按同一工作对象组织工具可借鉴，使用收益仍待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "告别Xshell！这个免费开源SSH工具，颜值和功能都赢麻了",
-        "angle": "对比测评",
-        "shooting_tips": "录屏对比传统终端工具，先快速展示颜值和基本连接，再逐个演示分屏、SFTP拖拽上传、AI命令提示、会话分享等卖点，节奏轻快，结尾给出“免费够用，付费解锁团队功能”的总结。",
-        "target_audience": "开发者、运维工程师、技术 enthusiast"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "UI演示效果不错，但目标群体较窄，适合技术垂类视频，普通观众难转化。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重多连接终端与文件传输放在一起；共享会话能否可靠限制操作权限，最影响团队使用判断。",
+      "product_analysis": {
+        "target_problem": "开发和运维人员需要同时操作多台服务器。若连接、传文件和常用命令分散在不同窗口，来回定位会比较麻烦。",
+        "workflow": "连接服务器后，用标签页或分屏查看多个终端；需要时传文件、使用代码片段或分享会话。介绍没有说明分享的具体步骤。",
+        "ai_value": "只提到 AI 辅助，无法判断它是解释报错、生成命令，还是做其他事情。",
+        "differentiation": "把几类服务器操作放在同一应用里，可能减少窗口切换。已有连接配置能否迁入，可能影响换用意愿。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持 SSH（远程登录服务器）、SFTP，以及三大桌面系统；未披露 AI 的具体技术。",
+        "possible_approach": "如果自己做，可以先接入远程终端和文件传输，再把连接组织成标签页与分屏，最后加入会话分享。",
+        "tradeoffs": "最难的是限制共享会话的操作权限。若查看者意外获得输入权限，可能在服务器上误执行命令。",
+        "unknowns": "AI 辅助会读取并发送哪些终端内容？"
+      },
+      "transferable_insights": [
+        "做数据库或运维工具时，可以围绕同一连接放置操作入口，让用户少找一次对应窗口。"
+      ],
+      "validation_questions": [
+        "分享会话后，能否把参与者限制为只读？",
+        "启用 AI 前，能否确认哪些终端内容会被发送出去？"
+      ],
+      "source_tagline": "让你真正爱上的 SSH 工作台",
+      "source_description": "ShellMate 是一款现代 SSH 工作空间，专为开发者、系统管理员和 DevOps 团队打造。通过标签页、分屏终端、SFTP、代码片段、会话分享和 AI 辅助，无限连接服务器，一个原生桌面应用通吃 Windows、macOS 和 Linux。个人永久免费（不含 AI），团队可实惠订阅解锁协作与 AI 功能。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

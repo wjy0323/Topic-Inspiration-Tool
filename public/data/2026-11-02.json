@@ -1,367 +1,511 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-03T22:54:14+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:16:56+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1292351",
-      "name": "beacon.sh",
-      "name_zh": "beacon.sh",
-      "tagline_zh": "Open-source self-improving memory for AI coding agents",
-      "description_zh": "Beacon turns agent sessions across Claude Code, Cursor, Codex, OpenCode, and 20+ other harnesses into a compounding knowledge layer, so every agent starts smarter than the last. It captures every agent trace across your environment and turns activity into clear operational visibility. Get started for free at beacon.sh",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WB3BWWZDEG2XEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9fbd8c98-c5aa-4e40-88c2-58905005594a.png?auto=format",
-      "votes_count": 419,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 98f7a6a3-310e-4a54-9854-2986c5a59a49)"
-    },
     {
       "id": "1285435",
       "name": "UnleashX",
       "name_zh": "UnleashX",
-      "tagline_zh": "The AI workforce that turns conversations into outcomes. ",
-      "description_zh": "UnleashX lets you hire AI employees like people - pick a role, connect your CRM and tools, set your rules, and hand over the work. Execute workflows end-to-end, with humans stepping in only when needed.",
-      "intro_zh": "",
+      "tagline_zh": "把对话转成工作成果的 AI 团队。",
+      "description_zh": "UnleashX 让你像聘用员工一样分配 AI 工作：选择角色，连接客户关系管理系统和其他工具，设定规则，再交付任务。介绍称，它可以执行完整流程，只在需要时让人介入。",
+      "intro_zh": "给需要处理跨工具业务任务的团队用，按角色配置 AI，连接业务系统，再按规则分配工作。",
       "url": "https://www.producthunt.com/products/unleashx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LF5W4HZMDHS2VV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/08f53bc9-7c5e-409d-8b9c-fe264c8d86b0.jpeg?auto=format",
       "votes_count": 342,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "配置方式清楚，但缺少具体任务和执行结果的例子。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "何时自动执行、何时交给人，是直接影响可用性的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按角色配置工具与规则的做法，可借用于业务自动化产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重把工具连接和执行规则放在交付任务之前；但缺少具体任务案例，还无法判断它能独立完成多大范围的工作。",
+      "product_analysis": {
+        "target_problem": "适合希望把业务任务交给 AI 执行的团队。跨工具任务可能要反复传递信息、确认下一步；介绍未给出具体岗位案例。",
+        "workflow": "先选角色，连接客户关系管理系统和其他工具，再设定规则并交付工作。介绍称，AI 会执行完整流程，必要时由人接手。",
+        "ai_value": "AI 被安排承担角色对应的任务，并执行流程。资料没有说明它如何理解对话、决定下一步。",
+        "differentiation": "它试图减少人逐步推动任务的操作。最可能让团队犹豫的是：能否放心让它直接操作业务系统。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c6960dc1-03f5-4f73-a8ca-9af9162ff590)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到连接业务工具、设置规则和人工介入，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先限定一种任务，拆出可执行步骤，再接入工具、检查每步是否符合规则，把无法处理的情况交给人。",
+        "tradeoffs": "最难的是判断何时必须停下来找人。判断错了，AI 可能继续执行不符合业务要求的操作。",
+        "unknowns": "人工介入由什么条件触发，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做业务自动化产品时，可按岗位组织任务、工具和规则，让用户从自己熟悉的职责开始配置。"
+      ],
+      "validation_questions": [
+        "给它一项明确违反已设规则的任务，检查它是否会停止执行。",
+        "让任务转交人工，检查接手者能否看到已执行步骤和停下的原因。"
+      ],
+      "source_tagline": "The AI workforce that turns conversations into outcomes. ",
+      "source_description": "UnleashX lets you hire AI employees like people - pick a role, connect your CRM and tools, set your rules, and hand over the work. Execute workflows end-to-end, with humans stepping in only when needed."
     },
     {
       "id": "1300992",
       "name": "Xmind 2027",
       "name_zh": "Xmind 2027",
-      "tagline_zh": "Your mind map is now an AI thinking partner",
-      "description_zh": "As information becomes easier to access, understanding and judgment matter more than ever. Xmind 2027 gives you and AI a shared visual space to work through ideas. With Xmind Agent, use your local documents and maps to research, develop ideas, and weigh possibilities through conversation. Your map evolves with your thinking. With MCP, bring that same context into ChatGPT, Claude, and your existing AI workflow, while you stay in control of the direction.",
-      "intro_zh": "",
+      "tagline_zh": "让思维导图成为你的 AI 思考伙伴",
+      "description_zh": "Xmind 2027 为用户和 AI 提供共同梳理想法的可视化空间，Xmind Agent 可结合本地文档和导图，通过对话开展研究、拓展想法和比较不同可能性。导图可随思考更新，并通过 MCP 将相关上下文带入 ChatGPT、Claude 和现有 AI 工作流程，由用户掌握方向。",
+      "intro_zh": "给需要研究资料、梳理方案的人用，结合本地文档与 AI 对话，在思维导图中整理和发展想法。",
       "url": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ITN3N4YT7NIKXS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/83293104-0a90-419f-8aaf-d14a04436bae.png?auto=format",
       "votes_count": 313,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "资料、对话和导图能一起使用，场景清楚，实际省事程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "导图变化后，外部 AI 能否获得正确上下文，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让 AI 围绕已有工作材料展开对话，可借用于研究和规划工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是讨论结果能留在可继续修改的导图里；最影响判断的是，跨工具使用时能否保持上下文准确。",
+      "product_analysis": {
+        "target_problem": "适合要结合多份资料梳理方案的人。难点在于把资料中的信息组织成关系，再据此比较不同选择。",
+        "workflow": "以本地文档和导图为材料，与 Xmind Agent 对话研究、拓展想法，导图随之更新。还可将相关上下文带入 ChatGPT 或 Claude。",
+        "ai_value": "AI 结合已有材料参与讨论，并帮助发展导图中的想法；介绍没有说明它如何核对结论。",
+        "differentiation": "把讨论放进导图，可能减少在聊天记录中重新整理思路的工作。若已有固定的导图工具，迁移材料可能让人犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 1a4ad1be-6b3e-4271-9c4f-6e9098d7bb1d)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到本地文档、导图及 MCP（让 AI 应用连接外部工具和资料的一套约定）。",
+        "possible_approach": "如果自己做，可以先读取文档和导图层级，再把相关内容交给 AI；将修改建议对应到具体节点，由用户确认。",
+        "tradeoffs": "最难的是导图更新后仍传对上下文；外部 AI 若拿到旧内容，就可能沿着已放弃的方案继续分析。",
+        "unknowns": "本地文档的哪些内容会发送到外部服务，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做研究或规划工具时，可以让 AI 围绕用户已有的结构化材料提出修改，并把建议对应到具体位置，方便逐项判断。"
+      ],
+      "validation_questions": [
+        "修改导图中的关键结论后，外部 AI 能否读到最新版本？",
+        "使用本地文档前，能否明确选择允许发送给外部服务的内容？"
+      ],
+      "source_tagline": "Your mind map is now an AI thinking partner",
+      "source_description": "As information becomes easier to access, understanding and judgment matter more than ever. Xmind 2027 gives you and AI a shared visual space to work through ideas. With Xmind Agent, use your local documents and maps to research, develop ideas, and weigh possibilities through conversation. Your map evolves with your thinking. With MCP, bring that same context into ChatGPT, Claude, and your existing AI workflow, while you stay in control of the direction."
     },
     {
       "id": "1294656",
       "name": "Cedric AI for Meetings",
       "name_zh": "Cedric AI for Meetings",
-      "tagline_zh": "The first AI agent to present your slides and attend for you",
-      "description_zh": "Send Cedric to your Zoom, Meet, or Teams calls. He presents your slides, and answers questions using live data from your tools. Join late? He catches you up. Can’t join? He represents you. Afterwards, approve the notes and follow-ups, and he handles the work.",
-      "intro_zh": "",
+      "tagline_zh": "替你演示幻灯片、代你参会的 AI 助手",
+      "description_zh": "把 Cedric 派到 Zoom、Meet 或 Teams 会议中，它会演示幻灯片，并利用你所用工具中的实时数据回答问题；迟到时帮你补上进度，缺席时代表你参会。会后，你批准笔记和后续事项，再由它处理相关工作。",
+      "intro_zh": "给需要汇报却可能迟到或缺席的人用，让 AI 代讲幻灯片、回答问题，并在会后处理获批事项。",
       "url": "https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3WNUZE5QLV6YEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/066b7fd8-7b22-49ec-8993-4378bfc63017.png?auto=format",
       "votes_count": 237,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "缺席汇报和会后跟进的场景清楚，但代答可靠性尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "现场回答如何避免越权承诺，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先批准、再执行的做法可以借到其他代办工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是缺席时仍能完成汇报和答问；最影响判断的是，它能否分清引用事实与替人作决定。",
+      "product_analysis": {
+        "target_problem": "需要汇报的人迟到或缺席时，会议仍可能需要听讲解、问数据。Cedric 尝试代替本人完成这些交流。",
+        "workflow": "让 Cedric 加入会议，演示幻灯片并回答问题；迟到时听它补进度。会后审核笔记和后续事项，再交给它处理。",
+        "ai_value": "AI 在这里不只整理记录，还负责现场讲解、结合工具中的实时数据回答问题，以及代表缺席者参与交流。",
+        "differentiation": "它把代讲和会后执行放在一起，可能减少本人补讲和跟进的工作。但用户未必愿意让 AI 代表自己发言。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 49a557b6-b4c3-4259-905d-342bf095b299)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持 Zoom、Meet、Teams，并称可使用工具中的实时数据答问，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先读取幻灯片和获准使用的数据，再结合会上提问生成回答；会后列出待办，经用户批准后执行。",
+        "tradeoffs": "最难的是划清代答边界。若把资料里的信息说成用户的承诺，参会者可能据此安排工作。",
+        "unknowns": "遇到资料不足或超出授权的问题，它会如何处理？"
+      },
+      "transferable_insights": [
+        "做能代用户执行任务的助手时，把待办先交给用户批准，再开始操作，适合发消息、安排日程等场景。"
+      ],
+      "validation_questions": [
+        "提出一个需要本人拍板的问题，检查它是否擅自承诺。",
+        "不批准一项会后待办，检查它是否仍会执行。"
+      ],
+      "source_tagline": "The first AI agent to present your slides and attend for you",
+      "source_description": "Send Cedric to your Zoom, Meet, or Teams calls. He presents your slides, and answers questions using live data from your tools. Join late? He catches you up. Can’t join? He represents you. Afterwards, approve the notes and follow-ups, and he handles the work."
     },
     {
       "id": "1295992",
       "name": "Hera",
       "name_zh": "Hera",
-      "tagline_zh": "AI Creative Canvas",
-      "description_zh": "Generate images, design, and animate on one canvas. Direct multiple AI agents at the same time. Stay in control with editable layers. Make ads, launch videos, and social posts in your own brand. Paste your website to get your brand kit. Write a few prompts and get dozens of on-brand ads side by side. Drop in any ad you like as a reference, fix details with feedback or by hand, then animate your best ones into motion ads. Resize to every format, all on the same board.",
-      "intro_zh": "",
+      "tagline_zh": "AI 创意画布",
+      "description_zh": "在同一画布上生成图片、设计和制作动画，同时指挥多个 AI 代理，并用可编辑图层调整内容，制作符合自有品牌风格的广告、发布视频和社交帖子。粘贴网站获取品牌素材包，用提示词批量生成广告并排查看，也可加入参考广告，通过反馈或手动修改细节，再将选中的作品做成动态广告并调整为不同尺寸。",
+      "intro_zh": "给制作品牌广告和社交内容的团队用，在同一画布上生成多个方案、修改细节，再制作动态版本。",
       "url": "https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6URUWPJU6AOJT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7f4235b7-4dc2-4cc9-bfe1-2fef3b80cc55.jpeg?auto=format",
       "votes_count": 214,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "批量出稿、修改和制作动态广告的场景清楚，实际成稿质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "生成内容如何保留可编辑图层，是直接影响修改体验的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "并排比较方案后继续编辑的做法，可借给需要反复选稿的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重从并排选稿直接进入修改，能少一次交接；判断关键是生成内容究竟能改到多细。",
+      "product_analysis": {
+        "target_problem": "面向需要反复制作品牌广告的营销和设计团队。麻烦在于既要比较多个方案，又要逐一修改细节、制作动态版本和不同尺寸。",
+        "workflow": "粘贴网站获取品牌素材包，输入提示词或放入参考广告，生成并排方案。选中后用反馈或手动修改，再制作动画、调整尺寸。",
+        "ai_value": "AI 负责生成图片和广告方案，并支持制作动画。介绍还提到可同时指挥多个 AI 代理，即执行生成任务的软件助手。",
+        "differentiation": "把选稿、修改和动态制作放在同一画布，可能减少搬运素材。若图层不好改，已有设计工具的用户可能不愿切换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: b4821354-aa4a-40e5-9c5c-0c9299014594)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到多个 AI 代理、可编辑图层和从网站获取品牌素材包，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先从网站提取标志和配色供用户确认，再据此生成方案，把文字、图片等拆成图层，最后制作动画和不同尺寸版本。",
+        "tradeoffs": "最难的是让生成结果真正可编辑。若文字与背景混成一张图，用户改一句文案也可能要重新生成。",
+        "unknowns": "可编辑图层能细分到单个文字和图形，还是只能替换整张生成图片？"
+      },
+      "transferable_insights": [
+        "做批量创作工具时，可把候选稿并排放置，让用户选中后直接继续修改，减少来回打开文件。"
+      ],
+      "validation_questions": [
+        "生成一张带文案的广告，检查能否单独修改文字而不改变背景。",
+        "用已有品牌网站生成一批广告，检查配色是否持续符合品牌要求。"
+      ],
+      "source_tagline": "AI Creative Canvas",
+      "source_description": "Generate images, design, and animate on one canvas. Direct multiple AI agents at the same time. Stay in control with editable layers. Make ads, launch videos, and social posts in your own brand. Paste your website to get your brand kit. Write a few prompts and get dozens of on-brand ads side by side. Drop in any ad you like as a reference, fix details with feedback or by hand, then animate your best ones into motion ads. Resize to every format, all on the same board."
     },
     {
       "id": "1290785",
       "name": "Clayzo",
       "name_zh": "Clayzo",
-      "tagline_zh": "Create animations and motion design with your coding agent",
-      "description_zh": "Clayzo makes it incredibly easy for coding agents like Claude Code, Codex and Cursor to create web animations and motion graphics. Your agent writes it in code and reviews every frame; you export a video or play it live on your site. And it’s free!",
-      "intro_zh": "",
+      "tagline_zh": "用编程助手制作动画与动态设计",
+      "description_zh": "Clayzo 帮助 Claude Code、Codex、Cursor 等编程助手用代码制作网页动画和动态图形，并逐帧检查。作品可以导出为视频，也能直接在网站上播放；简介称其免费。",
+      "intro_zh": "给使用编程助手的开发者和设计师，用代码制作网页动画，再导出视频或放到网站播放。",
       "url": "https://www.producthunt.com/products/clayzo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PQXQECJKP5FJNI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/96dbb70d-157c-4dbc-8ec1-e4e5dd0c496b.png?auto=format",
       "votes_count": 192,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "制作对象和交付方式清楚，但修改动画是否省事还待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "助手如何检查连续画面的质量，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让生成代码的助手检查渲染结果，可借用于其他视觉工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它让助手写完代码后继续检查画面；但逐帧检查能否判断连续动作，最影响实际省事程度。",
+      "product_analysis": {
+        "target_problem": "用编程助手做网页动画的人，需要确认代码跑出来的画面是否符合预期。代码能运行，并不等于动作自然。",
+        "workflow": "编程助手写动画代码并逐帧检查，完成后导出视频，或放到网站上直接播放。简介没交代用户如何提出和修改要求。",
+        "ai_value": "AI 负责写动画代码和检查画面。关键是检查能否发现视觉问题，而不只是确认程序运行。",
+        "differentiation": "它把代码制作、画面检查和两种交付方式放在一起，可能减少来回操作。已有动画制作习惯的人，可能不愿改用代码调整细节。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 448d1970-9a0b-49be-9cf9-e631e6adef68)"
-    },
-    {
-      "id": "1287630",
-      "name": "Self-Growing Websites by Greta.sh",
-      "name_zh": "Self-Growing Websites by Greta.sh",
-      "tagline_zh": "Build a website that can do its own SEO & AEO automatically",
-      "description_zh": "You built a website/app, so why is nobody visiting? Getting found on Google & AI tools like ChatGPT, Perplexity etc takes months of SEO & AEO. Self-Growing Websites fix that. Greta.sh finds what customers search for, writes pages that answer them, and gets you showing up on Google, ChatGPT & everywhere With the Greta.sh MCP, you can run it all from Claude, ChatGPT or Cursor: just ask it to build, grow, publish or report. Don't just build a website anymore, build a customer magnet with Greta.sh!",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/gretabyquestera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/A4SAVBJLKDKRDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/802a9ab1-93f4-42d5-b3e2-3d037aa623ad.jpeg?auto=format",
-      "votes_count": 157,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到代码生成、逐帧检查，以及视频导出和网页播放。",
+        "possible_approach": "如果自己做，可以先让助手生成动画代码，再按时间点渲染画面供它检查，修改后重新播放，最后提供导出。",
+        "tradeoffs": "最容易漏掉的是帧与帧之间的动作问题：单张画面正常，连播仍可能突跳，用户还得手动回看。",
+        "unknowns": "所谓逐帧检查，能否结合前后画面判断动作是否连贯？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 3d404dc3-3484-43ef-bbf2-1754231d63d0)"
-    },
-    {
-      "id": "1298623",
-      "name": "Display 1.0",
-      "name_zh": "Display 1.0",
-      "tagline_zh": "Create docs and apps with any agent, in one workspace",
-      "description_zh": "Create and collaborate on docs, prototypes and apps with your team. Store the files your agents make, organise knowledge work in Spaces and Folders, and turn it all into your internal knowledge base. Work with any agent and any plan, at a flat price.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7NCNIIQEMH52HJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6518ad94-8774-4cb6-88a7-b4e47a87bb3f.jpeg?auto=format",
-      "votes_count": 150,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: a9e0d9a8-cee7-461d-bb02-b59eee0981e7)"
+      "transferable_insights": [
+        "做图表或页面生成工具时，可以让助手检查实际渲染图，再修改代码，别只检查代码能否运行。"
+      ],
+      "validation_questions": [
+        "给一段存在明显突跳的动画，检查助手能否发现并修正。",
+        "把同一作品导出为视频，检查是否与网页播放一致。"
+      ],
+      "source_tagline": "Create animations and motion design with your coding agent",
+      "source_description": "Clayzo makes it incredibly easy for coding agents like Claude Code, Codex and Cursor to create web animations and motion graphics. Your agent writes it in code and reviews every frame; you export a video or play it live on your site. And it’s free!"
     },
     {
       "id": "1300411",
       "name": "Agent Inbox",
       "name_zh": "Agent Inbox",
-      "tagline_zh": "Give your agent an email address, Slack and Telegram handle",
-      "description_zh": "Agent Inbox gives every AI agent its own email address, Slack handle and Telegram handle, all behind one API. Message your agent from wherever you already work, and it replies in the same thread. It works with Claude, Grok, OpenAI, Hermes and any other agent framework. No more glue code for each channel: your agent gets one inbox, and you get one place to reach it.",
-      "intro_zh": "",
+      "tagline_zh": "给你的 AI 智能体一个邮箱地址、Slack 和 Telegram 账号",
+      "description_zh": "Agent Inbox 为 AI 智能体提供邮箱地址、Slack 和 Telegram 账号，统一由一个接口接入；用户可以从这些渠道发消息，并在原会话中收到回复。简介称其支持 Claude、Grok、OpenAI、Hermes 及其他智能体框架，让开发者不必为每个渠道分别编写连接代码。",
+      "intro_zh": "给开发 AI 助手的团队用，让用户从邮件、Slack 或 Telegram 联系助手，并在原会话收到回复。",
       "url": "https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VVMJ7O2SOEPDB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/dcc393c7-8e50-4a62-a1a9-76101afdad04.jpeg?auto=format",
       "votes_count": 139,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多渠道接入的麻烦明确，但实际省多少开发工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "统一收消息后仍要正确回复原会话，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把渠道差异集中处理的做法可用于其他多渠道助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少重复接入工作；最影响判断的是，会话归属出错时能否避免把回复发给错误的人。",
+      "product_analysis": {
+        "target_problem": "开发 AI 助手的团队，可能需要让用户从多个通讯工具联系助手。以前要为各渠道分别写连接代码，现在可以用一个接口接入。",
+        "workflow": "给助手配置通讯账号并接入后，用户从邮件、Slack 或 Telegram 发消息，助手在同一会话回复。简介未给出具体配置步骤。",
+        "ai_value": "AI 负责理解和回复消息；这个工具主要替开发者处理通讯接入，未说明会提升回答质量。",
+        "differentiation": "省的是重复连接多个渠道的工作。已有渠道接入的团队，可能不愿为此迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: a0f6b507-9508-4f0e-9fc3-c71664f5fea6)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到统一 API（让软件互相传数据的接口），并称支持多个模型及智能体框架。",
+        "possible_approach": "如果自己做，可以先把各渠道消息整理成统一格式，再交给助手处理；保留来源和会话编号，把回复送回原处。",
+        "tradeoffs": "最容易错的是消息与原会话的对应关系。对应错了，回复可能发到别的讨论中，甚至泄露内容。",
+        "unknowns": "介绍没说明如何限制哪些人可以向助手发消息。"
+      },
+      "transferable_insights": [
+        "做多渠道客服助手时，可以把渠道转换集中处理，让回答逻辑只接收一种消息格式。"
+      ],
+      "validation_questions": [
+        "同时开启多个会话，检查回复是否都回到正确的原会话。",
+        "用未获授权的账号发消息，检查能否触发助手执行任务。"
+      ],
+      "source_tagline": "Give your agent an email address, Slack and Telegram handle",
+      "source_description": "Agent Inbox gives every AI agent its own email address, Slack handle and Telegram handle, all behind one API. Message your agent from wherever you already work, and it replies in the same thread. It works with Claude, Grok, OpenAI, Hermes and any other agent framework. No more glue code for each channel: your agent gets one inbox, and you get one place to reach it."
     },
     {
       "id": "1299009",
       "name": "Hyperresearch",
       "name_zh": "Hyperresearch",
-      "tagline_zh": "Durable, verified agentic search",
-      "description_zh": "Hyperresearch does the research and shows the evidence. Ask a question, get a cited report; each cited claim is checked against its source, and all sources are kept in a searchable vault. On the DRACO benchmark, we are the world's number-one research agent. New: Answers MCP and API. Your agent calls ask and gets a short answer with word-for-word quotes, or a simple \"not found\" instead of a hallucination. We combine 4 AI search engines and 40+ other data sources for the widest and deepest access.",
-      "intro_zh": "",
+      "tagline_zh": "可留存、可核验的智能体搜索",
+      "description_zh": "Hyperresearch 根据问题生成带引用的研究报告，逐项对照来源检查引用主张，并把来源保存在可搜索的资料库中；简介称其结合了 4 个 AI 搜索引擎及 40 多个其他数据源，并自称在 DRACO 基准测试中排名第一。新增的 Answers MCP 和 API 可供其他智能体调用，返回附逐字引文的简短答案，或在未找到依据时返回“未找到”。",
+      "intro_zh": "给需要查证资料的研究人员和产品团队用，按问题生成带引用的报告，并保存来源供后续搜索。",
       "url": "https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PC2E463TYUYTKB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/023c0470-8b02-444d-b5be-e05186ecb9db.jpeg?auto=format",
       "votes_count": 122,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查资料、核对引用和保留来源的用途清楚，核验质量仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "引文是否真正支持结论，是具体且影响可信度的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "附原文证据和明确返回未找到，都可借用于问答产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把查证依据留在答案旁边；最大疑问是所谓核验能否发现“引用真实、结论却不成立”的情况。",
+      "product_analysis": {
+        "target_problem": "做竞品或行业研究的人，需要的不只是答案，还要能回查依据。逐条核对结论与原文是否对应很费事。",
+        "workflow": "输入问题，得到带引用的报告，再搜索保存的来源。其他智能体也可调用它，取得附原文摘录的短答案或“未找到”。",
+        "ai_value": "AI 承担检索和生成回答；产品还会对照来源检查引用主张，但介绍没说明检查方法。",
+        "differentiation": "它把答案、核验和来源留存放在一起，减少来回查证。是否愿意换用，可能取决于核验结果能否让人信任。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: f3bcc1b2-51fc-4bbc-8845-eff90113703b)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称接入 4 个 AI 搜索引擎及 40 多个其他数据源，并提供 MCP（让智能体调用外部工具的连接方式）和 API（软件间传数据的接口）。",
+        "possible_approach": "如果自己做，可以先检索并保存原文，再生成带引用的答案，最后逐条检查结论是否有原文支持；找不到依据就明确返回未找到。",
+        "tradeoffs": "最难的是判断引文是否足以支持结论。原文提到同一主题，不等于证明了答案，误判会让用户把有引用当成已证实。",
+        "unknowns": "保存的来源是当时的原文副本，还是可能变化或失效的链接？"
+      },
+      "transferable_insights": [
+        "做知识库问答时，把关键结论与对应原文一起返回，让用户直接核对。",
+        "证据不足时明确返回“未找到”，不要为了填满答案而补写。"
+      ],
+      "validation_questions": [
+        "拿一个带限定条件的问题测试，检查引文是否完整支持答案。",
+        "拿一个资料库中没有答案的问题测试，检查它是否明确返回未找到。"
+      ],
+      "source_tagline": "Durable, verified agentic search",
+      "source_description": "Hyperresearch does the research and shows the evidence. Ask a question, get a cited report; each cited claim is checked against its source, and all sources are kept in a searchable vault. On the DRACO benchmark, we are the world's number-one research agent. New: Answers MCP and API. Your agent calls ask and gets a short answer with word-for-word quotes, or a simple \"not found\" instead of a hallucination. We combine 4 AI search engines and 40+ other data sources for the widest and deepest access."
+    },
+    {
+      "id": "1292351",
+      "name": "beacon.sh",
+      "name_zh": "beacon.sh",
+      "tagline_zh": "为 AI 编程助手提供开源、可持续改进的记忆",
+      "description_zh": "Beacon 将 Claude Code、Cursor、Codex、OpenCode 等二十多种运行工具中的助手会话汇集为可积累的知识，目标是让后续助手利用此前的经验。它还收集助手的执行记录，帮助查看运行活动，并提供免费起步入口。",
+      "intro_zh": "给使用多种 AI 编程助手的开发者，汇集会话经验，并查看助手做过什么。",
+      "url": "https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WB3BWWZDEG2XEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9fbd8c98-c5aa-4e40-88c2-58905005594a.png?auto=format",
+      "votes_count": 419,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "跨助手积累经验的用途清楚，但如何复用及实际收益尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "从执行记录筛出可靠经验有具体难点，但介绍未披露处理方法。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴从历史任务提取经验的做法，但有效筛选的条件待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是让已有工作记录有机会被再次利用；最大的疑问是，它能否从记录中筛出可信经验，而不只是集中保存日志。",
+      "product_analysis": {
+        "target_problem": "同时使用多种编程助手的开发者，可能需要回看分散的会话，并让后续任务用上此前经验。",
+        "workflow": "介绍支持的流程是：汇集各工具的会话与执行记录，形成知识积累并查看活动。如何接入、后续助手怎样读取，未说明。",
+        "ai_value": "它面向 AI 助手保存和复用经验；资料没有说明是否用模型提炼记忆。“越用越聪明”仍是产品目标。",
+        "differentiation": "集中记录可能减少跨工具翻找。最可能阻碍使用的是接入现有开发环境的工作量尚不清楚。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "标语称其开源；简介称可收集 Claude Code、Cursor、Codex、OpenCode 等工具的执行记录。",
+        "possible_approach": "如果自己做，可以先统一收集会话，再提取带项目和来源的经验，最后按当前任务找出相关内容交给助手。",
+        "tradeoffs": "最难的是区分有效经验与失败尝试。若把错误操作存成建议，后续助手可能反复照做。",
+        "unknowns": "积累的知识如何进入后续助手的工作过程？"
+      },
+      "transferable_insights": [
+        "做长期任务助手时，可把历史结论连同适用项目和来源保存，供后续任务按需取用。"
+      ],
+      "validation_questions": [
+        "完成一次任务后，新会话能否实际用上其中的有效经验？",
+        "记录中包含失败尝试时，它会不会被当成后续建议？"
+      ],
+      "source_tagline": "Open-source self-improving memory for AI coding agents",
+      "source_description": "Beacon turns agent sessions across Claude Code, Cursor, Codex, OpenCode, and 20+ other harnesses into a compounding knowledge layer, so every agent starts smarter than the last. It captures every agent trace across your environment and turns activity into clear operational visibility. Get started for free at beacon.sh"
+    },
+    {
+      "id": "1287630",
+      "name": "Self-Growing Websites by Greta.sh",
+      "name_zh": "Self-Growing Websites by Greta.sh",
+      "tagline_zh": "搭建能自动做 SEO（搜索引擎优化）和 AEO（面向 AI 答案的内容优化）的网站",
+      "description_zh": "Greta.sh 会寻找客户搜索的问题，编写回答这些问题的网页，并宣称能帮助网站在 Google、ChatGPT 等渠道被发现。介绍还称，借助 Greta.sh MCP，用户可从 Claude、ChatGPT 或 Cursor 发出建站、增长、发布和查看报告的请求。",
+      "intro_zh": "给已经上线网站、想获取访问者的团队用，寻找客户常搜的问题，再生成回答这些问题的网页。",
+      "url": "https://www.producthunt.com/products/gretabyquestera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/A4SAVBJLKDKRDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/802a9ab1-93f4-42d5-b3e2-3d037aa623ad.jpeg?auto=format",
+      "votes_count": 157,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "获客问题清楚，但生成内容能否带来访问仍缺少证据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把搜索问题变成可靠网页有具体难点，但实现细节有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕客户问题组织网页的做法，可用于产品帮助中心和内容站。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把客户问题直接变成内容选题；最影响判断的是，介绍没有提供页面发布后获得实际访问的证据。",
+      "product_analysis": {
+        "target_problem": "网站已上线，却缺少访问者的团队会需要它。麻烦在于持续寻找客户会搜什么，再把答案写成网页。",
+        "workflow": "工具寻找客户搜索的问题并生成回答页面。介绍还支持从 Claude、ChatGPT 或 Cursor 发出建站、发布和报告请求，但没交代审核步骤。",
+        "ai_value": "它把问题发现和页面写作交给工具处理，并允许从 AI 助手发出操作请求；具体用了什么模型没有说明。",
+        "differentiation": "它把找题和写页放到一起，可能减少人工交接。团队最可能犹豫的是：内容发出去了，却未必获得搜索曝光或 AI 引用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 MCP，即让 AI 助手连接外部工具的一种协议，可用于发起建站、发布等请求。",
+        "possible_approach": "如果自己做，可以先整理客户问题和产品资料，再生成回答草稿，经人工确认后发布，并记录页面带来的访问。",
+        "tradeoffs": "最容易出错的是把相关问题写成没有依据的答案。若直接发布，用户可能看到错误的产品说明。",
+        "unknowns": "它依据什么数据判断客户正在搜索哪些问题？"
+      },
+      "transferable_insights": [
+        "做帮助中心时，可以先按客户问题建选题队列，再用已确认的产品资料生成回答，减少只有关键词、没有实际答案的页面。"
+      ],
+      "validation_questions": [
+        "抽查一组推荐问题，是否确实对应目标客户的需求？",
+        "生成一页涉及产品限制的内容，检查是否编造了功能或承诺？"
+      ],
+      "source_tagline": "Build a website that can do its own SEO & AEO automatically",
+      "source_description": "You built a website/app, so why is nobody visiting? Getting found on Google & AI tools like ChatGPT, Perplexity etc takes months of SEO & AEO. Self-Growing Websites fix that. Greta.sh finds what customers search for, writes pages that answer them, and gets you showing up on Google, ChatGPT & everywhere With the Greta.sh MCP, you can run it all from Claude, ChatGPT or Cursor: just ask it to build, grow, publish or report. Don't just build a website anymore, build a customer magnet with Greta.sh!"
+    },
+    {
+      "id": "1298623",
+      "name": "Display 1.0",
+      "name_zh": "Display 1.0",
+      "tagline_zh": "在同一个工作区，与不同智能助手一起创建文档和应用",
+      "description_zh": "与团队一起创建和协作文档、原型及应用，保存智能助手生成的文件，用空间和文件夹整理工作内容，形成内部知识库。简介称支持任意智能助手及套餐，并采用统一定价。",
+      "intro_zh": "给与智能助手共同工作的团队用，集中保存文档、原型和应用，并整理成内部知识库。",
+      "url": "https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7NCNIIQEMH52HJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6518ad94-8774-4cb6-88a7-b4e47a87bb3f.jpeg?auto=format",
+      "votes_count": 150,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "团队整理生成文件的用途清楚，但协作和复用能省多少事尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "不同助手生成的文件如何接收和保留，是具体且值得确认的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把生成结果纳入团队已有的空间和文件夹，是可借用的组织方式。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是生成成果能留给团队继续用。但目前不清楚它能直接接收助手输出，还是仍需人工搬运，这会明显影响省事程度。",
+      "product_analysis": {
+        "target_problem": "团队用智能助手产出文档、原型和应用后，还需要保存、分类并交给同事继续使用。它提供一个共同整理这些成果的地方。",
+        "workflow": "创建内容并与团队协作，保存助手生成的文件，再按空间和文件夹组织，积累成内部知识库。简介没说明文件如何进入工作区。",
+        "ai_value": "智能助手负责生成内容，Display 负责保存和组织成果；介绍没说它自身会执行哪些 AI 任务。",
+        "differentiation": "它把生成后的整理与团队协作放在一起。最可能影响迁入的是：团队已有的文件能否方便搬过来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到文件存储、空间和文件夹，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收助手输出的文件，再按项目归类，提供预览和共同编辑入口。",
+        "tradeoffs": "最难的是保留不同助手输出的完整内容。若原型缺了依赖文件，团队可能只能看到文件，却无法打开使用。",
+        "unknowns": "“支持任意助手”是手动上传文件，还是可以自动接收生成结果？"
+      },
+      "transferable_insights": [
+        "做团队生成工具时，可以让每次产出直接归入项目文件夹，方便同事接着使用，减少事后整理。"
+      ],
+      "validation_questions": [
+        "用团队现有助手生成一个原型，检查进入工作区后能否完整打开。",
+        "让一位同事修改共享文档，检查另一位成员能否看到修改结果。"
+      ],
+      "source_tagline": "Create docs and apps with any agent, in one workspace",
+      "source_description": "Create and collaborate on docs, prototypes and apps with your team. Store the files your agents make, organise knowledge work in Spaces and Folders, and turn it all into your internal knowledge base. Work with any agent and any plan, at a flat price."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

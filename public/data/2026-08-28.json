@@ -1,367 +1,510 @@
 {
   "date": "2026-08-28",
-  "generated_at": "2026-08-29T21:01:43+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:33:04+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1228394",
       "name": "PageIndex",
       "name_zh": "PageIndex",
-      "tagline_zh": "Accurate, trustworthy answers across professional documents",
-      "description_zh": "PageIndex gives you accurate, trustworthy answers across long, professional documents your work depends on. Bring in your entire document set, ask your hardest question, and click any citation to jump to the exact highlighted source line, so you can verify it in seconds.",
-      "intro_zh": "",
+      "tagline_zh": "围绕专业文档，提供准确、可信的回答",
+      "description_zh": "PageIndex 宣称能针对工作所依赖的长篇专业文档提供准确、可信的回答。导入整套文档并提问后，可点击回答中的引用，跳到高亮的原文行，以便核对依据。",
+      "intro_zh": "给需要查阅长篇专业资料的人用，导入整套文档后提问，再点击引用核对原文。",
       "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XN6ZYWE35L5YMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d99a7df0-89aa-43de-b41f-a67881fd1f3d.png?auto=format",
       "votes_count": 343,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把文档问答与原文核对放在一起，省事方向清楚，但准确性未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "回答与原文行的对应值得关注，但介绍没有披露实现方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "点击结论直达依据的做法，可用于需要复核的资料工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是把核对依据变成一次点击。最大的疑问是引用能否真正支撑回答；有出处不等于结论准确。",
+      "product_analysis": {
+        "target_problem": "需要从成套长篇专业文档中找答案的人，既要找相关内容，也要核对结论有没有依据。",
+        "workflow": "导入整套文档，提出问题，查看回答。点击引用，跳到高亮的原文行。",
+        "ai_value": "介绍没提 AI，主要靠文档问答和引用定位来改善体验；没有说明答案如何生成。",
+        "differentiation": "核对时可直接跳到出处，减少重新找原文的麻烦。用户可能仍担心引用真实，但结论理解有误。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "明确支持引用跳转和原文行高亮，介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先提取文档文字并保留位置，再找出相关段落组织回答，把引用连回原文。",
+        "tradeoffs": "最容易出错的是把相关段落当成充分依据。引用即使跳对了，也可能漏掉限制条件，让用户误信结论。",
+        "unknowns": "遇到文档里没有答案的问题，会不会明确说找不到依据？"
+      },
+      "transferable_insights": [
+        "做合同审阅或研究资料工具时，可以让每条结论附带可点击出处，方便用户逐条复核。"
+      ],
+      "validation_questions": [
+        "挑一个带例外条件的问题，检查回答是否保留了原文限制。",
+        "问一个文档未覆盖的问题，检查它会不会明确表示无法回答。"
+      ],
+      "source_tagline": "Accurate, trustworthy answers across professional documents",
+      "source_description": "PageIndex gives you accurate, trustworthy answers across long, professional documents your work depends on. Bring in your entire document set, ask your hardest question, and click any citation to jump to the exact highlighted source line, so you can verify it in seconds."
     },
     {
       "id": "1225168",
       "name": "Caddi",
       "name_zh": "Caddi",
-      "tagline_zh": "Agent that builds agents by only showing your work only once",
-      "description_zh": "Caddi turns narrated screenshares into production agents that run back-office work across your real tools. Show the task once, and Caddi learns the process, builds the automation, and lets you update it in plain English. Unlike RPA or workflow builders that require scoping, developers, and step-by-step setup, Caddi combines AI reasoning with deterministic execution, with every run logged and every permission scoped.",
-      "intro_zh": "",
+      "tagline_zh": "演示一次工作，就能创建智能体的工具",
+      "description_zh": "Caddi 把带口头讲解的屏幕共享转成智能体，在实际使用的软件里执行后台事务，并支持用日常语言修改流程。介绍称它结合 AI 推理与确定性执行，记录每次运行，并限定操作权限；但“一次演示即可投入使用”的效果未经核验。",
+      "intro_zh": "给处理重复后台事务的运营和行政人员用，把带讲解的屏幕演示转成跨软件执行任务的智能体。",
       "url": "https://www.producthunt.com/products/caddi-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4ZZ3GDQQF3O7YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2fad4e7f-40cc-4763-b89e-681c7c52cae7.png?auto=format",
       "votes_count": 301,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "演示代替逐步配置的价值清楚，但实际可用范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从一次示范中区分固定步骤和临时选择，是具体且关键的难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用演示表达需求、用日常语言修改流程，可借给重复操作类产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把现成的操作演示变成配置输入；最影响判断的是它如何处理演示没有覆盖的情况。",
+      "product_analysis": {
+        "target_problem": "处理跨软件后台事务的人，需要把熟悉的操作交给自动化执行。逐步配置流程时，还得把操作经验写成明确规则。",
+        "workflow": "边共享屏幕边讲解任务，让 Caddi 生成自动化，再用日常语言修改流程。介绍称每次执行都会留日志，权限也有限定。",
+        "ai_value": "AI 从演示和讲解中理解过程、生成自动化，并理解后续修改要求。具体如何判断任务规则，介绍没展开。",
+        "differentiation": "它把流程演示作为配置入口，可能减少手工搭步骤的工作。最可能阻碍使用的是：一次演示能否覆盖真实业务里的例外。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 推理与确定性执行（按既定规则运行）结合，并有运行日志和权限限制。",
+        "possible_approach": "如果自己做，可以先把讲解和屏幕操作对应起来，再生成可检查的步骤，把固定动作写成规则，最后让用户确认后执行。",
+        "tradeoffs": "最难的是把示范中的临时选择误认成固定规则，可能导致后续任务选错对象，仍照常执行。",
+        "unknowns": "遇到示范之外的情况，它会停下来询问，还是继续执行？"
+      },
+      "transferable_insights": [
+        "做重复操作工具时，可以让用户边演示边讲解，再展示识别出的步骤供确认，减少从空白流程开始配置的负担。"
+      ],
+      "validation_questions": [
+        "换一组业务数据运行，检查它是否仍能选对操作对象。",
+        "给出超出授权范围的任务，检查它是否拒绝执行。"
+      ],
+      "source_tagline": "Agent that builds agents by only showing your work only once",
+      "source_description": "Caddi turns narrated screenshares into production agents that run back-office work across your real tools. Show the task once, and Caddi learns the process, builds the automation, and lets you update it in plain English. Unlike RPA or workflow builders that require scoping, developers, and step-by-step setup, Caddi combines AI reasoning with deterministic execution, with every run logged and every permission scoped."
     },
     {
       "id": "1234088",
       "name": "Microduck",
       "name_zh": "Microduck",
-      "tagline_zh": "A tiny open-source biped you can train yourself",
-      "description_zh": "Microduck is a 25cm, $399 open-source bipedal robot built by Hugging Face and Pollen Robotics. It’s designed for sim-to-real reinforcement learning. It ships with 7 pre-trained behaviors and an Apache 2.0 software stack you can clone, modify, and retrain.",
-      "intro_zh": "",
+      "tagline_zh": "可以自行训练的小型开源双足机器人",
+      "description_zh": "Microduck 是 Hugging Face 和 Pollen Robotics 打造的双足机器人，高约 25 厘米，介绍标价为 399 美元，面向从仿真到实体的强化学习。它附带 7 种预训练行为，以及可复制、修改和重新训练的 Apache 2.0 许可软件。",
+      "intro_zh": "给想动手训练双足机器人的开发者和研究者，用已有行为起步，修改软件并训练自己的动作。",
       "url": "https://www.producthunt.com/products/hugging-face?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DDI5YNTYTQBWQO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2b364f18-023a-498f-9efd-099665f8c563.jpeg?auto=format",
       "votes_count": 259,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "训练对象和起步资源清楚，但跑起来需要多少准备尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "仿真中学会的动作能否在实体上完成，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "提供可运行示例和可修改软件，适合借用于开发者硬件产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是硬件之外还给了可修改的训练起点；最影响判断的是，仿真成果转到实机究竟需要多少调试。",
+      "product_analysis": {
+        "target_problem": "想训练双足机器人动作的人，需要把训练结果放到实体上检验。Microduck 提供硬件和已有行为作为起点，不必从零定义全部动作。",
+        "workflow": "可从附带的 7 种预训练行为起步，复制软件、修改并重新训练。介绍没有交代具体操作流程。",
+        "ai_value": "它面向强化学习，也就是让机器人通过反复尝试和奖励学习动作。重点是把仿真环境里学到的行为用于实体机器人。",
+        "differentiation": "现成行为可能减少起步准备。最可能让人犹豫的是训练门槛：有硬件和代码，不等于能轻松训练成功。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1234397",
-      "name": "Gemini Omni 1.1 Flash",
-      "name_zh": "Gemini Omni 1.1 Flash",
-      "tagline_zh": "Our newest multimodal model for video generation and editing",
-      "description_zh": "Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, crisp 4K upscaling, faster prototyping, and more.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/gemini-omni-1-1-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/A7U5SL5CKKHNAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1f3397b4-30c6-4aa7-9b40-542c255eebbd.jpeg?auto=format",
-      "votes_count": 201,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到仿真到实体的强化学习、7 种预训练行为，以及 Apache 2.0 软件许可。",
+        "possible_approach": "如果自己做，可以先在仿真中训练保持平衡的动作，再放到实体上测试，根据偏差调整训练条件。",
+        "tradeoffs": "最难的是仿真与实体的差异。摩擦或电机响应不同，都可能让仿真里稳定的动作在实机上摔倒。",
+        "unknowns": "从修改代码到完成一次实机训练，需要哪些额外设备？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1234433",
-      "name": "OpenTag",
-      "name_zh": "OpenTag",
-      "tagline_zh": "AI coworker lives on Slack and Teams",
-      "description_zh": "OpenTag is an AI coworker that lives where your team collaborates. It has full context on your company, so it takes actions and real work off your team's plate.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/opentag?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/ERKDF76UMITZKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/699ea2ac-4b11-4aab-9cfb-de152373c290.png?auto=format",
-      "votes_count": 172,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做可编程硬件时，可以附带可运行、可修改的行为示例，让用户先复现结果，再改一个动作。"
+      ],
+      "validation_questions": [
+        "按提供的说明，能否在实机上复现一个预训练行为？",
+        "自行训练的一个简单动作，放到实机上能否稳定完成？"
+      ],
+      "source_tagline": "A tiny open-source biped you can train yourself",
+      "source_description": "Microduck is a 25cm, $399 open-source bipedal robot built by Hugging Face and Pollen Robotics. It’s designed for sim-to-real reinforcement learning. It ships with 7 pre-trained behaviors and an Apache 2.0 software stack you can clone, modify, and retrain."
     },
     {
       "id": "1233278",
       "name": "Firecrawl Developer Index",
       "name_zh": "Firecrawl Developer Index",
-      "tagline_zh": "A curated index of 70M+ artifacts for coding agents.",
-      "description_zh": "Search 70M+ GitHub READMEs, issues, pull requests, and documentation from one endpoint. The highest recall of any coding-specific index, with no API key needed to start. The index is live now at /v2/search/developer on the API, CLI, and MCP. Ready to integrate with all your favorite coding agents!",
-      "intro_zh": "",
+      "tagline_zh": "为编程智能体整理的索引，收录超过 7000 万项资料。",
+      "description_zh": "从一个入口搜索超过 7000 万份 GitHub 项目说明、问题讨论、合并请求和文档，无需 API 密钥即可开始；介绍声称其编程专项搜索的召回率最高，即能找回更多相关资料，但未提供验证依据。索引已通过 /v2/search/developer 提供，可从 API、命令行和 MCP 使用，并可接入编程智能体。",
+      "intro_zh": "给开发者和编程助手使用，把 GitHub 项目说明、讨论与文档放到一个入口搜索。",
       "url": "https://www.producthunt.com/products/extract-by-firecrawl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/D6DMT64DXNRKM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f3979eb9-20f0-4e78-ba50-c7459098125b.jpeg?auto=format",
       "votes_count": 164,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "检索对象和使用者清楚，但搜索质量尚无验证材料。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨多类开发资料检索有具体难点，但实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把资料搜索做成助手可调用的入口，适合借用于开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "统一查文档和讨论能减少接入工作；最影响判断的是，搜索结果能否区分已经过时的答案。",
+      "product_analysis": {
+        "target_problem": "开发者排查依赖问题时，答案可能分散在文档和问题讨论中。它把这些资料集中起来，减少分别查找的麻烦。",
+        "workflow": "开发者或编程助手提交搜索请求，从同一入口检索多类 GitHub 资料；无需密钥即可开始。",
+        "ai_value": "它给编程智能体提供查资料的入口。介绍未说明检索本身是否使用 AI，也未说会自动修复代码。",
+        "differentiation": "省去分别连接多类资料来源的工作。是否愿意接入，可能取决于结果能否匹配正在使用的软件版本。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1234391",
-      "name": "Almanac",
-      "name_zh": "Almanac",
-      "tagline_zh": "The agent with a second brain",
-      "description_zh": "Almanac is an AI agent that knows your company. Connect your accounts in one click and it builds a self-updating \"brain\" from your work, then lives in Slack & iMessage to actually get tasks done. It has its own computer, so it keeps working after you close your laptop.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/almanac-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MQQFXHKTAUN25N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/abec72eb-dc64-443a-8170-123783814ba6.png?auto=format",
-      "votes_count": 146,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "提供 API（软件间传数据的接口）、命令行和 MCP（供 AI 助手连接外部工具的协议）入口，路径为 /v2/search/developer。",
+        "possible_approach": "如果自己做，可以先收集文档和讨论，记录项目、时间与出处，再建立可搜索目录，让助手按问题查询并取回原文。",
+        "tradeoffs": "最容易错在把旧版本的答案排到前面，助手可能据此给出当前版本不可用的代码。",
+        "unknowns": "索引多久更新一次，介绍没有回答。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1214652",
-      "name": "Aramb",
-      "name_zh": "Aramb",
-      "tagline_zh": "Build, launch and monetize your AI agents in 20 minutes",
-      "description_zh": "Aramb is the operating system for AI agents. Hire AI agents or build your own with one line of code ( npm install @aramb-ai/sdk ) — then launch and monetize in 20 minutes. One API for runtime, memory, browser, tools, models, and billing.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/aramb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/D4TC4EHIKS3ZSW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9b5b42be-97dd-4fad-a042-02c7d9bdcf9c.png?auto=format",
-      "votes_count": 130,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做内部开发助手时，可以把说明文档和故障讨论放进同一搜索入口，让助手一次查询两类资料。"
+      ],
+      "validation_questions": [
+        "用一个已知答案藏在问题讨论中的真实问题搜索，能否找到对应原帖？",
+        "查询一个不同版本用法有变化的功能，结果能否辨认适用版本？"
+      ],
+      "source_tagline": "A curated index of 70M+ artifacts for coding agents.",
+      "source_description": "Search 70M+ GitHub READMEs, issues, pull requests, and documentation from one endpoint. The highest recall of any coding-specific index, with no API key needed to start. The index is live now at /v2/search/developer on the API, CLI, and MCP. Ready to integrate with all your favorite coding agents!"
     },
     {
       "id": "1233614",
       "name": "screenpipe",
       "name_zh": "screenpipe",
-      "tagline_zh": "AI that records your computer work to power agents.",
-      "description_zh": "screenpipe records your screen, audio, and activity on your computer, then lets AI agents access that history through MCP. Ask about calls, bugs, or documents without reconstructing your day. Local-first and source-available for Mac, Windows, and Linux. Launch-day offer: use code BUSINESS20 for a discount on annual plans. Ends August 28 at 11:59pm PT.",
-      "intro_zh": "",
+      "tagline_zh": "记录电脑工作过程，为 AI 助手提供历史信息。",
+      "description_zh": "screenpipe 记录电脑屏幕、音频和活动，让 AI 助手通过 MCP 访问历史，用于询问通话、程序问题或文档，不必重新梳理当天经过。产品采用本地优先设计、提供可查看的源代码，支持 Mac、Windows 和 Linux；缓存还包含一项截至 8 月 28 日的年度套餐折扣，当前是否有效未知。",
+      "intro_zh": "给需要回顾电脑工作的人用，记录屏幕、音频和活动，让 AI 助手据此回答工作中的问题。",
       "url": "https://www.producthunt.com/products/screenpipe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4SP35UNQXXHEE2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/19c8a599-65d6-469f-9a7e-fd17f36fb945.jpeg?auto=format",
       "votes_count": 127,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "回忆通话和查找工作背景的用途清楚，但回答质量未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "持续记录与助手读取之间，存在具体的信息访问边界问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先留存工作背景、再供助手查询的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它能减少反复补充背景；最影响判断的是，用户能否控制哪些内容被记录和读取。",
+      "product_analysis": {
+        "target_problem": "适合需要回顾通话、排查程序问题或查找文档背景的人。麻烦在于向 AI 提问时，还得重新说明此前发生了什么。",
+        "workflow": "先记录屏幕、音频和电脑活动，再让 AI 助手访问历史，围绕通话、程序问题或文档提问。",
+        "ai_value": "AI 使用记录补充提问背景，让用户少做一次手工回忆和整理。",
+        "differentiation": "省下的是重新交代工作经过的动作。持续记录可能涉及敏感内容，会让部分用户不愿开启。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到本地优先、源代码可查看，以及 MCP（让 AI 助手连接外部工具和数据的协议）。",
+        "possible_approach": "如果自己做，可以先按时间保存记录，再建立可搜索的目录，让助手按问题取回相关片段，并限制可读取的范围。",
+        "tradeoffs": "最容易出错的是读取范围设得过宽，助手可能拿到与问题无关的私人内容。本地保存不等于读取后不会外传。",
+        "unknowns": "用户能否排除特定应用或内容，不让它们进入记录？"
+      },
+      "transferable_insights": [
+        "做需要用户交代背景的工作助手时，可以先提供可查询的历史记录，减少每次提问前的手工整理。"
+      ],
+      "validation_questions": [
+        "用一段内容已知的通话提问，回答是否准确对应原记录？",
+        "能否把一个指定应用排除在记录范围之外？"
+      ],
+      "source_tagline": "AI that records your computer work to power agents.",
+      "source_description": "screenpipe records your screen, audio, and activity on your computer, then lets AI agents access that history through MCP. Ask about calls, bugs, or documents without reconstructing your day. Local-first and source-available for Mac, Windows, and Linux. Launch-day offer: use code BUSINESS20 for a discount on annual plans. Ends August 28 at 11:59pm PT."
     },
     {
       "id": "1218794",
       "name": "Glisio",
       "name_zh": "Glisio",
-      "tagline_zh": "Mac Recorder & Snap editor w/auto-zoom, audio, local MP4",
-      "description_zh": "Glisio is a native Mac app for product demos: record cinematic clips or capture styled snapshots. Record display, window, or area with system audio, mic, and optional webcam. Smart auto-zoom follows clicks so you skip a heavy timeline. Snap opens a built-in screenshot editor: background, crop, annotate, then copy or export. Export local MP4 in 16:9, 9:16, or 1:1. Files stay on your Mac. Free with a small watermark. Pro Lifetime $79 once, or $9.99/mo (removes watermark). Windows waitlist open.",
-      "intro_zh": "",
+      "tagline_zh": "Mac 录屏与截图编辑工具，支持自动缩放、音频录制和本地 MP4 导出",
+      "description_zh": "Glisio 是用于制作产品演示的 Mac 原生应用，可录制屏幕、窗口或区域，加入系统声音、麦克风和可选摄像头画面，并让自动缩放跟随点击；截图编辑器支持背景、裁剪、标注及复制或导出。视频可按横屏、竖屏或方形导出为本地 MP4，文件留在 Mac；免费版带小水印，去水印版标价为终身 79 美元或每月 9.99 美元，Windows 版开放候补登记。",
+      "intro_zh": "给需要展示软件操作的 Mac 用户用，录制带点击缩放的演示视频，也能给截图加背景和标注。",
       "url": "https://www.producthunt.com/products/glisio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BBRQ4XBF4J2ZA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fd1a25b0-12ed-444f-b175-eda98cd0a8bf.png?auto=format",
       "votes_count": 114,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "演示录制场景明确，自动缩放和截图编辑能减少部分后期操作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "点击如何转成稳定、准确的缩放画面，是具体且影响观看的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "利用操作事件安排画面重点，可借用于教程和操作回放。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把点击位置直接用于安排演示重点；能否修正自动缩放，决定它能省掉多少后期工作。",
+      "product_analysis": {
+        "target_problem": "产品经理、设计师做软件演示时，需要让观众看清操作重点。手动安排局部放大可能增加剪辑工作。",
+        "workflow": "选择屏幕、窗口或区域录制，按需加入声音和摄像头，再导出指定比例的 MP4。截图则进入内置编辑器，修改后复制或导出。",
+        "ai_value": "介绍没提 AI，主要靠跟随点击的自动缩放和内置截图编辑来改善体验。",
+        "differentiation": "它把部分画面处理放进录制过程，减少手动剪辑。若自动缩放不合意又难修改，用户可能仍会回到熟悉的编辑器。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是 Mac 原生应用，支持多种录制范围、声音来源和本地 MP4 导出。",
+        "possible_approach": "如果自己做，可以先同步记录画面与点击位置，再围绕点击生成放大区域，用平滑过渡连接前后画面。",
+        "tradeoffs": "最难的是判断哪些点击值得放大。连续点击若触发频繁缩放，观众反而难以跟上操作。",
+        "unknowns": "自动缩放的位置和时机能否手动修改，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做教程或操作回放工具时，可以用点击位置建议画面重点，让用户少设一些放大节点，同时保留修改入口。"
+      ],
+      "validation_questions": [
+        "连续点击相距较远的控件，检查缩放是否频繁跳动。",
+        "遇到一次不合意的自动放大，检查能否单独调整。"
+      ],
+      "source_tagline": "Mac Recorder & Snap editor w/auto-zoom, audio, local MP4",
+      "source_description": "Glisio is a native Mac app for product demos: record cinematic clips or capture styled snapshots. Record display, window, or area with system audio, mic, and optional webcam. Smart auto-zoom follows clicks so you skip a heavy timeline. Snap opens a built-in screenshot editor: background, crop, annotate, then copy or export. Export local MP4 in 16:9, 9:16, or 1:1. Files stay on your Mac. Free with a small watermark. Pro Lifetime $79 once, or $9.99/mo (removes watermark). Windows waitlist open."
+    },
+    {
+      "id": "1234397",
+      "name": "Gemini Omni 1.1 Flash",
+      "name_zh": "Gemini Omni 1.1 Flash",
+      "tagline_zh": "用于视频生成与编辑的新一代多模态模型",
+      "description_zh": "简介称，Omni 可制作“影棚级”视频，支持延长场景、在首尾帧之间生成过渡画面，以及提升至 4K 分辨率。简介还称它能加快原型制作，但没有提供效果或速度数据。",
+      "intro_zh": "给需要制作和修改视频的人用，可延长场景、补出首尾画面之间的内容，并提升视频分辨率。",
+      "url": "https://www.producthunt.com/products/gemini-omni-1-1-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/A7U5SL5CKKHNAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1f3397b4-30c6-4aa7-9b40-542c255eebbd.jpeg?auto=format",
+      "votes_count": 201,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途具体，但省多少修改时间取决于生成画面是否可用。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "首尾画面之间如何保持动作连贯，是明确的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用首尾状态约束生成的做法可借鉴，但适用边界未说明。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是围绕已有画面补内容；最影响判断的是补出的片段能否连贯，历史缓存中的画质宣传不足以证明这一点。",
+      "product_analysis": {
+        "target_problem": "视频创作者可能需要把短场景接长，或补齐两幅指定画面之间的动作。麻烦在于新增内容要接得上已有画面。",
+        "workflow": "介绍列出了场景延长、首尾帧插值和 4K 放大，但没交代输入要求、操作顺序和导出方式。",
+        "ai_value": "模型负责生成或修改视频内容；首尾帧插值就是在指定的起点和终点画面之间补出过渡。",
+        "differentiation": "它可能减少补画面和调整衔接的工作。若新增片段仍需大量修正，用户可能不愿更换现有工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "标语称其为用于视频生成与编辑的多模态模型，介绍未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先接入视频生成模型，按首尾画面生成短片，再检查衔接，最后放大到目标分辨率。",
+        "tradeoffs": "最难的是中间动作连续：首尾画面即使吻合，人物或物体也可能在过程中变形，让片段无法直接使用。",
+        "unknowns": "场景延长能否稳定保留原片中的人物外观？"
+      },
+      "transferable_insights": [
+        "做生成式编辑工具时，可以让用户指定起点和终点，适用于结果边界明确、但中间过程难描述的任务。"
+      ],
+      "validation_questions": [
+        "给定同一人物的首尾画面，检查中间是否出现外观突变。",
+        "把带有细小文字的片段放大到 4K，检查文字是否被改错。"
+      ],
+      "source_tagline": "Our newest multimodal model for video generation and editing",
+      "source_description": "Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, crisp 4K upscaling, faster prototyping, and more."
+    },
+    {
+      "id": "1234433",
+      "name": "OpenTag",
+      "name_zh": "OpenTag",
+      "tagline_zh": "驻留在 Slack 和 Teams 中的 AI 同事",
+      "description_zh": "OpenTag 是一个在团队协作平台中工作的 AI 同事。简介称它了解公司的完整背景，能够执行操作，分担团队的实际工作。",
+      "intro_zh": "给使用 Slack 或 Teams 的团队用，在日常协作平台中提供 AI 助手，帮助处理工作。",
+      "url": "https://www.producthunt.com/products/opentag?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ERKDF76UMITZKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/699ea2ac-4b11-4aab-9cfb-de152373c290.png?auto=format",
+      "votes_count": 172,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但没有具体任务和节省工作的例子。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "根据公司资料执行操作涉及权限判断，但实现细节未知。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把助手放进现有协作平台的做法可借鉴，效果条件尚不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重在讨论现场直接发起工作的便利；但缺少具体操作示例，还无法判断它能分担多少实际工作。",
+      "product_analysis": {
+        "target_problem": "面向在 Slack 或 Teams 中协作的团队。它想减少交代公司背景、再由人动手处理工作的负担，但简介没有具体案例。",
+        "workflow": "团队在协作平台中使用 OpenTag，由它结合公司背景执行操作。资料没有说明如何交代任务、接入资料或确认结果。",
+        "ai_value": "AI 被用于理解公司背景并处理工作。所谓“完整背景”是介绍中的主张，不能据此认定它掌握所有资料。",
+        "differentiation": "把助手放在现有沟通场所，可能减少切换工具。最可能让团队犹豫的是：是否愿意让它代为执行操作。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "标语提到 Slack 和 Teams；介绍未说明具体模型或执行技术。",
+        "possible_approach": "如果自己做，可以先在协作平台接收任务，再查找用户有权查看的公司资料，生成操作方案，经确认后执行。",
+        "tradeoffs": "最容易出错的是权限判断。若把能读到资料当成有权执行操作，可能替用户做出越权变更。",
+        "unknowns": "它究竟能执行哪些具体操作，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做团队助手时，可以把任务入口放进团队已有的聊天工具，让用户在讨论发生处发起工作。"
+      ],
+      "validation_questions": [
+        "选一项真实工作，检查它能否完成操作，而不只是给出建议。",
+        "用无权操作目标资源的账号发起请求，检查是否会被阻止。"
+      ],
+      "source_tagline": "AI coworker lives on Slack and Teams",
+      "source_description": "OpenTag is an AI coworker that lives where your team collaborates. It has full context on your company, so it takes actions and real work off your team's plate."
+    },
+    {
+      "id": "1234391",
+      "name": "Almanac",
+      "name_zh": "Almanac",
+      "tagline_zh": "拥有第二大脑的 AI 智能体",
+      "description_zh": "Almanac 是一个了解公司信息的 AI 智能体，连接账号后，会根据工作资料建立自动更新的知识库，并在 Slack 和 iMessage 中执行任务。简介称它有自己的计算机，用户合上笔记本后也能继续工作。",
+      "intro_zh": "给需要借助公司资料处理任务的团队成员用，在聊天中交代工作，让 AI 查阅资料并执行。",
+      "url": "https://www.producthunt.com/products/almanac-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MQQFXHKTAUN25N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/abec72eb-dc64-443a-8170-123783814ba6.png?auto=format",
+      "votes_count": 146,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但没有说明能完成哪些具体任务。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把公司资料读取与任务执行结合，权限边界直接影响可用性。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "在现有聊天工具中交办任务可以借鉴，但收益取决于任务覆盖范围。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它尝试让公司资料直接服务于任务执行；但缺少具体任务示例，目前还无法判断能替用户完成多少工作。",
+      "product_analysis": {
+        "target_problem": "团队成员处理依赖公司资料的任务时，需要找到相关信息，再据此操作。Almanac 尝试把查资料和执行交给同一个助手。",
+        "workflow": "连接工作账号，让它建立自动更新的公司知识库，再通过 Slack 或 iMessage 交办任务。简介称，合上笔记本后它仍可继续执行。",
+        "ai_value": "AI 利用公司资料理解任务并采取行动。资料更新后，用户可能少一些重复交代背景的工作。",
+        "differentiation": "任务入口放在已有聊天工具里，可能省去切换工具的操作。最可能让团队犹豫的是，要授予它多大的资料读取和操作权限。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到账号连接、自动更新知识库、Slack 和 iMessage 交互，以及独立于用户笔记本继续工作的计算机。",
+        "possible_approach": "如果自己做，可以先同步获准读取的资料，再按任务查找相关内容，让 AI 生成执行步骤，最后交给独立运行环境操作。",
+        "tradeoffs": "最难的是让读取和操作都遵守当前用户的权限。一旦用错身份，可能泄露受限资料或误改他人的内容。",
+        "unknowns": "没有列出可执行的具体任务，无法判断它能把工作做到哪一步。"
+      },
+      "transferable_insights": [
+        "做团队助手时，可以把任务入口放进团队已有的聊天工具，减少用户另开页面交代工作的步骤。"
+      ],
+      "validation_questions": [
+        "用无权读取某份资料的账号提问，检查它是否仍会透露内容。",
+        "交办一项真实工作，检查它最终完成了哪些操作，哪些仍需人工接手。"
+      ],
+      "source_tagline": "The agent with a second brain",
+      "source_description": "Almanac is an AI agent that knows your company. Connect your accounts in one click and it builds a self-updating \"brain\" from your work, then lives in Slack & iMessage to actually get tasks done. It has its own computer, so it keeps working after you close your laptop."
+    },
+    {
+      "id": "1214652",
+      "name": "Aramb",
+      "name_zh": "Aramb",
+      "tagline_zh": "宣称可在 20 分钟内构建、发布 AI 智能体并开始变现",
+      "description_zh": "Aramb 将自己定位为 AI 智能体的操作系统，可选用现成智能体，也可安装开发工具包来自行构建，并宣称能在 20 分钟内发布和变现。它提供统一接口，涵盖运行、记忆、浏览器、工具、模型和计费。",
+      "intro_zh": "给想发布 AI 智能体服务的开发者用，把构建、运行和向用户收费放在一个平台里。",
+      "url": "https://www.producthunt.com/products/aramb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/D4TC4EHIKS3ZSW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9b5b42be-97dd-4fad-a042-02c7d9bdcf9c.png?auto=format",
+      "votes_count": 130,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "发布和收费的需求清楚，但省多少开发工作尚无具体案例支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "任务运行如何对应账单是具体问题，但介绍未交代处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把运行与计费放在一起可供借鉴，适用范围仍需确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是能否少做运行与收费之间的连接工作；最大疑问是统一接口究竟包办了多少，还是仍需开发者自行拼接。",
+      "product_analysis": {
+        "target_problem": "面向要把 AI 智能体做成收费服务的开发者。难处不只在生成回答，还要让任务运行、保留信息并处理收费。",
+        "workflow": "选用现成智能体，或安装开发工具包自行构建，再发布并设置变现。简介没有提供具体配置步骤；安装命令不等于完成构建。",
+        "ai_value": "AI 智能体负责执行任务，Aramb 提供周边运行和收费能力。介绍没说智能体具体能完成哪些任务。",
+        "differentiation": "统一入口可能减少分别连接多项服务的工作。我会先确认已有智能体迁入时需要改多少代码。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出开发工具包 @aramb-ai/sdk，并称用一个 API（软件间传数据和发指令的接口）覆盖运行、记忆、浏览器、工具、模型和计费。",
+        "possible_approach": "如果自己做，可以先让一个智能体跑通任务，再保存任务记录，并把收费记录关联到同一次任务。",
+        "tradeoffs": "最容易出错的是任务重试时的计费处理。一次任务若被重复收费，用户就得核对账单。",
+        "unknowns": "计费按什么单位计算，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做可收费的自动化工具时，可以让任务记录和收费记录共用任务编号，方便定位某笔费用对应的执行。"
+      ],
+      "validation_questions": [
+        "从安装工具包到发布一个可用智能体，实际还需要完成哪些配置？",
+        "让同一任务失败后重试，检查是否出现重复收费。"
+      ],
+      "source_tagline": "Build, launch and monetize your AI agents in 20 minutes",
+      "source_description": "Aramb is the operating system for AI agents. Hire AI agents or build your own with one line of code ( npm install @aramb-ai/sdk ) — then launch and monetize in 20 minutes. One API for runtime, memory, browser, tools, models, and billing."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

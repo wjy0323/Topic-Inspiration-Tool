@@ -1,357 +1,510 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-23T17:29:16+08:00",
+  "generated_at": "2026-11-07T15:41:59+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1184697",
-      "name": "Buzzy",
-      "name_zh": "Buzzy",
-      "tagline_zh": "你的创意AI联合导演",
-      "description_zh": "Buzzy 是首个真正能自主创作的无限画布视频工具。它能帮你激发灵感、搭建情绪板，一键像修图一样精准编辑视频——同时创作无限时长的电影大片和商业广告，保持无数角色一致，控制灯光和镜头角度，在一个工作区里像修图一样精细调整每一个画面。",
-      "intro_zh": "一个能帮你在画布上把点子直接变成大片的AI视频工具，像修图一样拖拽着剪视频，角色、灯光统统能精准控制。想拍广告、做电影的创作者和营销人闭眼入。",
-      "url": "https://www.producthunt.com/products/buzzy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3CNNP4C2NOIRFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/991c8f73-7222-4a5a-9e89-0c90bd5b7a3d.png?auto=format",
-      "votes_count": 511,
+      "id": "1192293",
+      "name": "Kastra",
+      "name_zh": "Kastra",
+      "tagline_zh": "为 Claude、Cursor、Codex 等编程助手增加执行前的安全检查",
+      "description_zh": "Kastra 面向使用 AI 编程工具且需要安全管控的团队，在操作执行前判断允许或禁止，并统一管理多种工具的行为策略。缓存简介称其判断延迟不到 1 毫秒，旨在防范越权操作、注入攻击和敏感数据泄露，这些效果未经核验。",
+      "intro_zh": "给使用 AI 编程助手的团队用，在助手执行操作前检查权限，并统一管理多种工具的行为规则。",
+      "url": "https://www.producthunt.com/products/kastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PIAVHXT5GCZFUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/312b3c76-1890-412c-aecf-f17db87c78f1.png?auto=format",
+      "votes_count": 384,
       "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "界面上有无限画布、情绪板、一键编辑等丰富交互，非常适合录屏演示前后对比，视觉冲击力强，视频化能直接展示“像修图一样剪视频”的惊艳效果。"
-        },
-        "beginner_friendly": {
+        "product_value": {
           "score": 4,
-          "reason": "虽然涉及视频创作的专业概念（情绪板、灯光控制），但整体拖拽式操作降低了门槛，普通用户稍加引导就能上手，不需要技术背景。"
+          "reason": "团队管控多种编程助手的需求明确，但实际拦截范围未说明。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日第1名，获得511票，话题性很强，社区讨论热烈。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "执行前检查能否覆盖所有操作，是具体且关键的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把权限检查放在执行前的做法，可借用于其他自动操作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI帮你一键剪大片？这个画布工具让视频创作像P图一样简单！",
-        "angle": "演示/开箱体验",
-        "shooting_tips": "开头快速展示成片效果抓眼球，然后录屏演示从空白画布拖入素材、AI自动生成情绪板、一键调整灯光和替换角色的过程，用分屏呈现原始素材与AI修改后的对比，节奏紧凑，配以“这简直是把剪辑台变成魔法画板”的惊叹语气。",
-        "target_audience": "视频创作者、自媒体运营、广告营销人、想尝试拍短剧的普通人"
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把限制落实到执行前，而不只写在给助手的要求里。最影响判断的是：有没有操作能绕过这道检查。",
+      "product_analysis": {
+        "target_problem": "团队让 AI 助手操作代码和数据时，需要限制它能做什么。多种工具并用时，我会先关注同一条规则能否一致生效。",
+        "workflow": "团队设置行为策略；助手发起操作后，Kastra 在执行前判断放行或禁止。介绍没给出具体接入步骤。",
+        "ai_value": "介绍没提用 AI 做安全判断，主要靠执行前的授权检查改善管控。AI 编程助手是被管控的对象。",
+        "differentiation": "统一管理策略可能减少逐个工具维护规则的工作。是否愿意换用，关键看能否覆盖团队现有工具里的实际操作。"
       },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作界面可视化极强，能做出吸睛的视频对比演示，且热度爆棚，是大众乐见的“AI降低创作门槛”典型故事。"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称它采用运行时授权层，即在操作执行前检查权限；并声称判断延迟不到 1 毫秒。",
+        "possible_approach": "如果自己做，可以先把助手请求的操作交给检查程序，再按规则判断是否交给执行程序。",
+        "tradeoffs": "最难的是不漏掉执行入口。若助手能绕过检查去运行命令，规则写得再严也可能挡不住。",
+        "unknowns": "遇到检查程序不可用时，操作会被禁止还是继续执行？"
+      },
+      "transferable_insights": [
+        "做能自动修改文件或发送数据的工具时，可以在执行前集中检查权限，让不同助手遵守同一套规则。"
+      ],
+      "validation_questions": [
+        "设一条禁止读取指定文件的规则，通过助手运行命令读取它，检查是否被拦截。",
+        "让授权检查程序不可用，检查受保护操作是否仍能执行。"
+      ],
+      "source_tagline": "为 Claude、Cursor、Codex 等编程助手加上一道即时安全锁",
+      "source_description": "Kastra 是一个面向 AI 智能体的运行时授权层，能在操作执行前瞬间决定允许或禁止，延迟不到 1 毫秒。你可以用它统一管控 Claude Code、Cursor、Codex 等多种编程工具里的行为策略，防止越权操作、注入攻击和敏感数据泄露，从源头堵住风险。适合用 AI 写代码且需要安全管控的团队。"
+    },
+    {
+      "id": "1202312",
+      "name": "box",
+      "name_zh": "box",
+      "tagline_zh": "为智能代理提供带完整电脑环境的简易云电脑",
+      "description_zh": "box 面向搭建代理平台和自动化系统的开发者，介绍称输入 box new 即可在两秒内创建带桌面和 SSH 远程连接的 Ubuntu 虚拟机，并获得完整控制权限。缓存简介还宣称每小时“两分多钱”、比同类便宜十倍且能同时创建上千台，但币种、比较条件和实际表现均未核验。",
+      "intro_zh": "给开发代理平台和自动化系统的人用，一条命令创建云端电脑，供程序运行任务。",
+      "url": "https://www.producthunt.com/products/box-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XQORCUD6WISVS4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f27e4ca3-4caa-4931-98e6-96ebd7c7ae56.png?auto=format",
+      "votes_count": 280,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "创建运行环境的用途清楚，但速度、价格和规模都缺少核验。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "批量创建可控电脑后，任务间的权限隔离是具体难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把环境创建收成一条命令，适合需要反复启动任务的开发工具。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是把创建电脑变成可重复执行的命令。最影响判断的是任务结束后的资源回收和计费规则，低小时单价不能说明一次任务的实际花费。",
+      "product_analysis": {
+        "target_problem": "搭建代理平台的开发者需要电脑来运行任务。反复准备运行环境可能拖慢试验，box 把创建环境收成一条命令。",
+        "workflow": "在终端输入 box new，创建 Ubuntu 虚拟机，也就是云端运行的一台独立电脑。创建后可使用桌面，或通过 SSH 远程连接。",
+        "ai_value": "介绍没说内置 AI 功能，主要靠提供运行环境来支持代理执行任务。",
+        "differentiation": "它想省掉逐项准备电脑环境的操作。我会先确认已有任务能否直接运行，否则迁移适配可能抵消便利。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到命令行创建 Ubuntu 虚拟机，提供桌面、SSH 和完整控制权限。",
+        "possible_approach": "如果自己做，可以先准备装好桌面的系统模板，再让创建命令分配电脑并返回连接信息。",
+        "tradeoffs": "最难的是让拥有完整权限的任务彼此隔离。隔离失效时，一个任务可能读到另一个任务的文件。",
+        "unknowns": "任务结束后，电脑是否会自动关闭并停止计费？"
+      },
+      "transferable_insights": [
+        "做自动化测试平台时，可以把环境创建做成一条命令，并直接返回连接信息，减少用户在多个页面间配置。"
+      ],
+      "validation_questions": [
+        "用一个现有代理任务检查：新建电脑后能否按原有方式运行？",
+        "创建两台电脑，检查一台能否访问另一台的私有文件。"
+      ],
+      "source_tagline": "为智能代理打造的全功能简易云电脑",
+      "source_description": "Box 是给搭建代理平台和自动化工厂的开发者用的最便宜、最简单的云电脑。在终端敲一句 box new，两秒钟就拿到一台带桌面和 SSH 的 Ubuntu 虚拟机，权限全归你。每小时只要两分多钱，比同行便宜十倍，你可以一口气开上千台，花同样的钱跑更多的活、试更多的想法。"
     },
     {
       "id": "1198379",
       "name": "ACME.BOT",
       "name_zh": "ACME.BOT",
-      "tagline_zh": "先采访你再生成文章的零废话AI SEO助手",
-      "description_zh": "ACME.BOT 把你的专业经验变成不废话的SEO博文。手机回答几个问题，你的亲身体验就融进文章了，AI 搞定关键词研究、插图、内链这些麻烦事，做出真正有用、不被谷歌判定为水货的内容。",
-      "intro_zh": "跟AI聊几句就能变出一篇高质量博文，把你的亲身经验直接喂给它，专治写不出、写不好的内容创作者和博主，省时省力还自带SEO优化。",
+      "tagline_zh": "先采访你，再生成文章的 AI 搜索优化助手",
+      "description_zh": "ACME.BOT 让用户在手机上回答几个问题，把专业经验写进面向搜索引擎优化（SEO）的博文，并用 AI 处理关键词研究、插图和站内链接。简介还声称这些内容更有用、不易被谷歌视为低质内容，但历史缓存无法证明这一效果。",
+      "intro_zh": "给想把专业经验写成博文的人用，先在手机上回答问题，再由 AI 把回答组织成文章。",
       "url": "https://www.producthunt.com/products/acme-bot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QTI2CZCO32XRUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e53bceda-9b30-4622-8ec4-6320f647b947.png?auto=format",
       "votes_count": 216,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "采访式对话界面生动，可展示文章从无到有的生成过程，前后对比效果强，画面不枯燥。"
+          "reason": "经验输入和文章生成的用途清楚，但成稿质量仍需确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 4,
-          "reason": "只需回答问题，零技术门槛，概念简单，任何会打字的人都能上手。"
+          "reason": "把简短回答扩成文章时，如何保留事实边界是具体难题。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "ProductHunt 当日第6名，216票，SEO内容创作领域热度高，自带话题性。"
+          "reason": "先提问收集一手材料的做法，可借给其他经验写作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "再也不用憋博文了！让AI采访你5分钟，自动生成带插图内链的爆款文章",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示手机端问答过程，接着切换到后台看AI自动生成文章、配图、链接，突出「动嘴不动手」，可用竞品对比水货文章。",
-        "target_audience": "想靠内容引流但害怕写作的博主、独立创业者、SEO营销人员"
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重先收集本人经验再写作的顺序；关键疑问是成稿会不会把 AI 补写的内容冒充成用户经历。",
+      "product_analysis": {
+        "target_problem": "有专业经验、却难把经历整理成博文的人会需要它。除了写正文，还要处理关键词、配图和站内链接。",
+        "workflow": "用户在手机上回答几个问题，工具把回答融入文章，并处理关键词研究、插图和内链。介绍没说明审稿或发布步骤。",
+        "ai_value": "AI 负责组织文章和处理搜索优化相关工作，用户负责提供亲身经验。它不能因此保证获得搜索流量。",
+        "differentiation": "先采访再成文，可能减少用户面对空白文档的负担。最可能让人不愿换用的，是仍要花大量时间纠正成稿。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI，但没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先用问题收集具体经历，再让 AI 据此起草；补充关键词、配图和站内链接后，让用户核对。",
+        "tradeoffs": "最容易出错的是把有限回答扩写成用户没说过的经历。文章越像本人陈述，用户越需要逐句检查。",
+        "unknowns": "回答不足时，工具会追问，还是自行补全？"
+      },
+      "transferable_insights": [
+        "做案例或经验写作工具时，可先问发生了什么、怎么处理、结果如何，再生成正文，降低用户整理素材的负担。"
+      ],
+      "validation_questions": [
+        "只提供一段简短经历，检查成稿有没有添加未提供的事实。",
+        "检查生成的内链是否指向站内真实且相关的页面。"
+      ],
+      "source_tagline": "先采访你再生成文章的零废话AI SEO助手",
+      "source_description": "ACME.BOT 把你的专业经验变成不废话的SEO博文。手机回答几个问题，你的亲身体验就融进文章了，AI 搞定关键词研究、插图、内链这些麻烦事，做出真正有用、不被谷歌判定为水货的内容。"
+    },
+    {
+      "id": "1202223",
+      "name": "MonoCloud for Startups",
+      "name_zh": "MonoCloud for Startups",
+      "tagline_zh": "为客户、API（软件之间传数据的接口）和代理提供统一身份管理",
+      "description_zh": "MonoCloud 将身份管理从登录延伸到权限控制和行为追溯，可规定用户、服务及 AI 代理能做什么，记录行为并撤销权限。它还整合通行密钥、单点登录、API 防护、机器间通信和证书绑定信任，并称初创企业可免费使用一年。",
+      "intro_zh": "给需要管理客户、服务和 AI 代理权限的初创团队，用一套工具控制访问、记录行为并撤销权限。",
+      "url": "https://www.producthunt.com/products/monocloud-for-startups-free-for-1-year?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/B7HLNBLKWG3ZG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a3cd5335-c17d-435b-9c82-9b4795a2146c.png?auto=format",
+      "votes_count": 189,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "管理对象和权限需求明确，但接入工作量与免费条件不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "撤权能否及时阻止后续访问，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把权限控制、行为记录和撤权一起设计，可用于多类协作产品。"
+        }
+      },
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把代理也纳入可撤销的权限管理很实用；但“随时撤销”是否能及时阻止实际访问，是最影响判断的问题。",
+      "product_analysis": {
+        "target_problem": "客户、后台服务和 AI 代理都要访问业务数据的初创团队会需要它。麻烦在于：确认身份之后，还得判断每次操作是否有权限。",
+        "workflow": "团队用它规定各类身份能做什么，记录行为，并在需要时撤销权限。简介没有给出具体接入步骤。",
+        "ai_value": "AI 代理是被管理的对象。介绍没提用 AI 做判断，主要靠身份和权限控制来限制访问。",
+        "differentiation": "它把登录、授权和追溯放在一起，可能减少分别配置的工作。最可能让团队犹豫的是改造现有权限检查需要多少工作。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介列出细粒度授权（按具体操作分配权限）、通行密钥、单点登录（一次登录访问多个应用）及证书绑定信任。",
+        "possible_approach": "如果自己做，可以先给用户和服务分配身份，再让每次访问检查权限并留下记录；撤权时，让后续检查拒绝访问。",
+        "tradeoffs": "最容易出错的是撤权后仍沿用旧的权限结果。这样界面显示已撤权，实际请求却可能继续通过。",
+        "unknowns": "撤权后，已登录的用户或正在运行的代理多久会失去访问权限？"
+      },
+      "transferable_insights": [
+        "做能代用户执行操作的代理产品时，把“允许做什么、做过什么、如何停用”一起设计，别只提供登录。"
+      ],
+      "validation_questions": [
+        "让代理持续发起请求，中途撤权，检查之后是否仍有请求成功。",
+        "选一个现有受保护接口接入，检查原有权限判断需要改多少代码。"
+      ],
+      "source_tagline": "一套为你的客户、API和代理打造的统一身份层",
+      "source_description": "MonoCloud不只在登录框止步，它把身份控制延伸到授权与追溯：精确规定每个用户、服务乃至AI代理能做什么，记录其行为并可随时撤销权限。集细粒度授权、通行密钥与SSO、API防护、机器间通信和证书绑定信任于一体，初创企业可免费使用一年。"
+    },
+    {
+      "id": "1184697",
+      "name": "Buzzy",
+      "name_zh": "Buzzy",
+      "tagline_zh": "你的创意 AI 联合导演",
+      "description_zh": "Buzzy 是一款采用无限画布的视频工具，介绍称可辅助构思、搭建情绪板，并在同一工作区编辑视频画面、调整灯光和镜头角度。历史简介还宣称支持长篇视频创作和多角色一致性，但其中“无限时长”等说法未经核验。",
+      "intro_zh": "给制作影片和广告的人用，在同一画布里整理视觉参考，并用 AI 创作和调整视频画面。",
+      "url": "https://www.producthunt.com/products/buzzy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3CNNP4C2NOIRFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/991c8f73-7222-4a5a-9e89-0c90bd5b7a3d.png?auto=format",
+      "votes_count": 511,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但精细修改能否达到可交付水平尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "局部修改后如何保持角色外观稳定，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把视觉参考与编辑放在一起有借鉴意义，但节省多少操作尚待确认。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把修改落实到具体画面，而不只生成整段视频；最影响判断的是这种修改能否保留用户不想改变的内容。",
+      "product_analysis": {
+        "target_problem": "面向需要反复调整画面的影片和广告创作者。麻烦在于既要修改灯光、角度，又要让同一角色在不同画面里看起来一致。",
+        "workflow": "可在画布里构思、搭建情绪板，也就是汇集风格参考图，再创作和调整视频画面。介绍没有交代具体操作顺序。",
+        "ai_value": "AI 被用于辅助构思和视频创作，并支持画面调整；自主创作到什么程度，资料不足以判断。",
+        "differentiation": "它把风格参考与画面调整放进一个工作区，可能减少来回切换。最可能阻碍迁入的是修改结果不够可控。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI、无限画布和画面编辑能力，没有说明具体采用什么技术。",
+        "possible_approach": "如果自己做，可以先把参考图与待编辑片段放在同一画布，再让用户指定修改区域和要求，由 AI 生成候选结果供确认。",
+        "tradeoffs": "最难的是只改指定内容。调整灯光时若连角色面貌也变了，用户就得反复返工。",
+        "unknowns": "所谓精准编辑，能否只改选定区域而保留其余内容？"
+      },
+      "transferable_insights": [
+        "做视觉创作工具时，可以让参考图始终留在编辑区旁边，方便用户边修改边对照风格。"
+      ],
+      "validation_questions": [
+        "只修改一个区域的灯光，区域外的画面是否保持不变？",
+        "让同一角色出现在多个镜头中，外貌是否稳定？"
+      ],
+      "source_tagline": "你的创意AI联合导演",
+      "source_description": "Buzzy 是首个真正能自主创作的无限画布视频工具。它能帮你激发灵感、搭建情绪板，一键像修图一样精准编辑视频——同时创作无限时长的电影大片和商业广告，保持无数角色一致，控制灯光和镜头角度，在一个工作区里像修图一样精细调整每一个画面。"
+    },
+    {
+      "id": "1199213",
+      "name": "Humalike x Hermes",
+      "name_zh": "Humalike x Hermes",
+      "tagline_zh": "让 Hermes 代理更懂群聊语境的社交智能插件",
+      "description_zh": "简介称，用一个命令就能为 Hermes 代理添加社交判断能力，让它判断何时发言、适应群聊氛围并记住每个人说过的话。支持 Slack、Telegram 和 WhatsApp 群聊。",
+      "intro_zh": "给在群聊中使用 Hermes 代理的人用，帮助代理选择发言时机，并结合群聊氛围和成员说过的话回应。",
+      "url": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7WFK7BDIY5DLKG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/2e1752a9-79f2-478f-b854-680a99398217.jpeg?auto=format",
+      "votes_count": 496,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "群聊中少打扰、接得上话有明确价值，但判断效果未知。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "何时保持沉默是具体技术问题，介绍未说明判断方法。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先判断是否需要回答的做法可借用，适用边界仍需验证。"
+        }
       },
       "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "生成过程直观可视化，零技术门槛，SEO 实用热点，拍成视频极易引发共鸣和传播。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重让群聊代理有选择地参与；最影响判断的是，它能否在没有明确点名时把握发言时机。",
+      "product_analysis": {
+        "target_problem": "面向把 Hermes 代理放进群聊的人。代理若不分场合插话，可能打断成员交流；忽略之前的发言，也容易答非所问。",
+        "workflow": "简介称可用一个命令添加插件。代理随后在支持的群聊中判断发言时机，并结合群聊氛围与成员发言回应；具体接入步骤未交代。",
+        "ai_value": "它要让代理决定“该不该说”，再调整回应方式。简介没有说明这些判断是否都由 AI 完成。",
+        "differentiation": "省事之处可能是减少用户提醒代理何时参与。最可能让人不愿采用的，是它仍会在不合适的时候插话。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确它是 Hermes 插件，支持三个聊天平台，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取近期群聊，判断是否需要代理参与，再结合按成员保存的发言生成回复。",
+        "tradeoffs": "最难的是判断发言时机。门槛太低会打扰聊天，太高又可能漏掉真正需要它回答的问题。",
+        "unknowns": "记住成员发言的范围、期限，以及用户能否删除，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做多人协作助手时，可以在生成回复前加一次“是否需要参与”的判断，让保持沉默成为正常结果。"
+      ],
+      "validation_questions": [
+        "让成员连续闲聊且不向代理提问，检查它是否频繁主动插话。",
+        "让两位成员分别表达不同偏好，再提问，检查它是否把两人的发言记混。"
+      ],
+      "source_tagline": "让 Hermes 代理学会读空气的社交智能插件",
+      "source_description": "一个命令就能给你的 Hermes 代理赋予社交智慧。它会自动判断什么时候该说话，适应群聊的氛围，并记住每个人说过的话。支持 Slack、Telegram 和 WhatsApp 群聊。"
+    },
+    {
+      "id": "1192199",
+      "name": "Migma AI",
+      "name_zh": "Migma AI",
+      "tagline_zh": "用 AI 代办邮件营销，并根据发送结果持续改进",
+      "description_zh": "Migma AI 围绕营销目标和活动生成邮件，处理个性化、本地化及不同邮箱中的显示适配。它还负责发送、订阅偏好和合规管理，并声称会根据结果学习哪些内容更能带来收入。",
+      "intro_zh": "给负责邮件营销的团队用，围绕活动生成邮件，处理不同语言版本，并管理发送和订阅偏好。",
+      "url": "https://www.producthunt.com/products/migma-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XOS6KKLW7EXHLV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1699460a-b37a-43ea-93be-67cb677fc7ca.png?auto=format",
+      "votes_count": 447,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "覆盖了明确的营销任务，但省事程度和发送效果尚未核验。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "订阅偏好如何约束自动发送是具体问题，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把内容生成与后续发送管理放在一起，是可借用的具体做法。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它把邮件草稿接到实际发送的做法。能否在自动执行时可靠遵守退订选择，是目前最影响判断的问题。",
+      "product_analysis": {
+        "target_problem": "面向需要持续发营销邮件的团队。麻烦不只在写文案，还要处理不同语言、邮箱显示和收件人的订阅选择。",
+        "workflow": "围绕营销目标和活动生成邮件，再做个性化、本地化和显示适配，随后发送并管理订阅偏好。简介没有交代用户如何提交目标或审核邮件。",
+        "ai_value": "AI 用于理解活动目标和生成邮件。资料还声称会学习哪些内容带来收入，但没有说明如何判断。",
+        "differentiation": "它把写邮件和发送管理放在一起，可能减少人工交接。最可能让团队犹豫的是，发出前能否保留审核权。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 生成邮件及发送后的学习，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先把活动目标整理成邮件草稿，再生成不同语言版本；发送前检查订阅状态，发送后记录结果供下一轮调整。",
+        "tradeoffs": "最容易出错的是发送时没用上最新订阅状态。收件人退订后若仍收到邮件，会带来投诉和合规风险。",
+        "unknowns": "退订后，已经排队的邮件会不会被取消？"
+      },
+      "transferable_insights": [
+        "做批量内容工具时，可以把生成后的执行也纳入流程；例如邮件生成后，先检查订阅状态，再进入发送队列。"
+      ],
+      "validation_questions": [
+        "邮件进入队列后再退订，检查它是否停止发送。",
+        "生成一封营销邮件后，检查能否审核并修改，再允许发送。"
+      ],
+      "source_tagline": "AI替你跑邮件营销，每发一次就更聪明一点",
+      "source_description": "Migma 能在你开口前就帮你搞定整套营销邮件。它能自动理解你的目标和活动，生成每一封邮件，还帮你做个性化、本地化，确保在各个收件箱里都显示正常。它负责发送、管理订阅偏好和合规，然后不断学习什么东西最能驱动收入。"
+    },
+    {
+      "id": "1202738",
+      "name": "Gemini 3.6 Flash Family",
+      "name_zh": "Gemini 3.6 Flash Family",
+      "tagline_zh": "面向规模化构建 AI 代理的轻量级 AI 系列",
+      "description_zh": "缓存简介称，谷歌推出了 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber。简介宣称这些模型优化了效率、延迟和可靠性，面向需要控制成本、规模化运行 AI 代理的开发者；型号及效果未重新核验。",
+      "intro_zh": "面向开发 AI 代理的团队，提供用于自动处理任务的模型选择，主打规模化运行时的成本与响应表现。",
+      "url": "https://www.producthunt.com/products/gemini-3-6-flash-family?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2L6BNQROL433FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f197209e-d6d6-41a5-95ac-b550a2697daa.jpeg?auto=format",
+      "votes_count": 192,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用户和问题明确，但成本与稳定性收益只有宣传描述。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "批量任务中如何兼顾响应时间与完成质量是具体问题，但实现细节不足。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用真实任务比较模型表现的做法可借用，但型号差异尚不明确。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把规模化运行的成本与等待时间作为目标，但缓存中的型号尚未核验，当前不足以支持选型。",
+      "product_analysis": {
+        "target_problem": "开发自动处理任务的 AI 代理时，团队需要控制大量请求的费用，并避免等待过久或任务失败。",
+        "workflow": "介绍只说明开发者可用这些模型构建代理，没有给出接入方式或实际操作步骤。",
+        "ai_value": "AI 模型供代理处理任务使用，但介绍未说明具体支持哪些任务，也不能据此认定模型能独立完成整套工作。",
+        "differentiation": "主打降低规模化运行的负担。最可能让团队犹豫的是：换用后能否保持原有任务的完成质量。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存列出了三个模型名称，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一组真实任务，让候选模型分别执行，再比较完成率、耗时和费用，最后接入表现合适的模型。",
+        "tradeoffs": "最容易出错的是只看单次响应快不快。若回答经常需要重试，用户完成整件事反而可能更慢。",
+        "unknowns": "这些型号是否准确、目前是否可用，需先核验。"
+      },
+      "transferable_insights": [
+        "做自动处理任务的产品时，可以按一次任务最终完成的总耗时和总费用选模型，把重试也算进去。"
+      ],
+      "validation_questions": [
+        "能否从官方资料确认缓存中的三个型号确实存在且可用？",
+        "在同一组真实任务上，计入重试后的完成质量能否达到业务要求？"
+      ],
+      "source_tagline": "下一代轻量级AI，为规模化构建智能代理而生",
+      "source_description": "谷歌发布了全新Gemini模型系列：Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber。这些模型在效率、延迟和可靠性上都做了优化，方便开发者低成本地打造能稳定运行的大规模AI代理。"
     },
     {
       "id": "1186473",
       "name": "Trovio For Brands",
-      "name_zh": "Trovio 品牌社区发现器",
-      "tagline_zh": "你的品牌被社群深爱——交给AI团队为你精准触达",
-      "description_zh": "别只盯着大网红，真正的转化来自信任你的小圈子。Trovio 用AI帮你找出那些已经在用、真心喜爱你产品的小型社区和他们的意见领袖。发布需求，设定条件，从匹配到分析，全自动搞定，让信任驱动转化。",
-      "intro_zh": "这工具用AI帮你挖出真心喜欢你品牌的小社群和带货小网红，不是那种天价大V，但转化贼靠谱。做品牌营销、想在小圈子里打响口碑的你，会离不开它。",
+      "name_zh": "Trovio For Brands",
+      "tagline_zh": "用 AI 帮品牌触达喜爱其产品的社群",
+      "description_zh": "Trovio 帮品牌寻找已在使用、喜爱其产品的小型社群及意见领袖。简介称，发布需求并设定条件后，可自动完成匹配和分析，但未说明如何确认真实使用与喜爱。",
+      "intro_zh": "给寻找社群合作对象的品牌团队用，按需求匹配可能已在使用、喜爱产品的小型社群及意见领袖。",
       "url": "https://www.producthunt.com/products/trovio-brand-dashboard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MXNWB2ANVQRUGF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6b6238f8-686b-4615-a8b1-ae46d4d162ca.png?auto=format",
       "votes_count": 184,
       "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有完整的后台界面、搜索匹配流程和数据分析面板，操作步骤清晰，可以通过录屏展示从发需求到报告的全过程，画面信息量大，适合教程型视频。"
+        "product_value": {
+          "score": 3,
+          "reason": "找合作对象的需求清楚，但匹配质量和节省多少筛选工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念不复杂，核心就是找小社区和靠谱网红，没有专业壁垒，营销人员一看就懂，上手门槛低。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何区分真实喜爱与普通提及，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第9名，184票，处于前10热门区域，有一定话题度，在出海营销圈易引起讨论。"
+        "transferability": {
+          "score": 3,
+          "reason": "先找已有使用关系再筛选合作对象的做法可借用，但依赖可靠数据。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "别烧钱找大V了！让AI帮你一秒挖出最能卖货的野生网红",
-        "angle": "教程演示",
-        "shooting_tips": "用录屏展示从注册、创建Brief、AI匹配社区和达人、查看转化数据看板的完整流程，重点突出匹配速度和信任度评分，节奏紧凑，配上“以前花几十万，现在几步搞定”的对比画外音。",
-        "target_audience": "品牌运营、独立站卖家、出海营销专员"
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把筛选重点放在已有使用关系上；最影响判断的是，它能否拿出可信证据，而不只是识别品牌提及。",
+      "product_analysis": {
+        "target_problem": "品牌团队想找小型社群合作时，需要判断谁真正用过产品、谁能影响成员。麻烦在于，提到品牌不等于信任品牌。",
+        "workflow": "发布需求，设定条件，再由工具匹配社群和意见领袖并做分析。缓存简介没交代后续如何联系或合作。",
+        "ai_value": "AI 用于寻找和匹配对象，并参与分析。简介没有证明它能提高转化，不能把这项宣传当成结果。",
+        "differentiation": "它可能减少逐个寻找候选对象的工作。但若匹配理由不透明，品牌仍得自行核实。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "界面演示性强，操作直观，契合当下小微网红营销趋势，热度不错，非常适合拍成“产品实测”类爆款视频。"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI 匹配和自动分析，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集获准使用的品牌讨论，再找出使用经历和态度，按品牌条件筛选，并附上原始内容供人核对。",
+        "tradeoffs": "最容易错在把广告或普通提及判成真实喜爱，导致品牌找错合作对象。",
+        "unknowns": "它依据什么证据确认候选对象已经使用产品？"
+      },
+      "transferable_insights": [
+        "做合作对象推荐时，可以先筛已有使用关系的人，再看其他条件；每条推荐附证据，方便人工判断。"
+      ],
+      "validation_questions": [
+        "抽查一批匹配结果，能否找到支持“实际使用”的原始证据？",
+        "只改变一个筛选条件，结果是否按该条件相应变化？"
+      ],
+      "source_tagline": "你的品牌被社群深爱——交给AI团队为你精准触达",
+      "source_description": "别只盯着大网红，真正的转化来自信任你的小圈子。Trovio 用AI帮你找出那些已经在用、真心喜爱你产品的小型社区和他们的意见领袖。发布需求，设定条件，从匹配到分析，全自动搞定，让信任驱动转化。"
     },
     {
       "id": "1202630",
       "name": "Light Flip ",
       "name_zh": "Light Flip",
       "tagline_zh": "重温智能手机问世前的旧时光",
-      "description_zh": "Light是一家特立独行的科技公司，我们设计既美观又尊重用户、提升自主权的工具。第一款作品是Light Phone，如今Light Flip翻盖机延续极简理念，带你回到没有无尽推送的宁静世界。",
-      "intro_zh": "一台能让你放下智能机、重回翻盖时代的极简手机，只能打电话发短信，完全没App打扰。想戒手机瘾、找回专注的人一用就会爱上。",
+      "description_zh": "Light 希望设计美观、尊重用户并让用户保有自主权的工具，首款产品是 Light Phone。简介将 Light Flip 描述为延续极简理念的翻盖机，希望减少无尽推送带来的打扰。",
+      "intro_zh": "面向想减少手机打扰的人，Light Flip 主打用极简翻盖设备减少推送干扰。",
       "url": "https://www.producthunt.com/products/light-phone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5AWKZPAEQSZ2TZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b7d7c949-c461-4dc2-8b95-457d4875c4f9.jpeg?auto=format",
       "votes_count": 156,
       "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "翻盖设计复古吸睛，开箱、操作演示和与智能机对比的视觉冲击力强，但功能极简可能让内容略显单一。"
+        "product_value": {
+          "score": 3,
+          "reason": "减少手机打扰的需求清楚，但保留哪些功能尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "就是一台只能打电话发短信的翻盖手机，零学习成本，任何人都能秒懂。"
+        "technical_insight": {
+          "score": null,
+          "reason": "缓存未说明功能和实现，缺少判断技术做法的依据。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt排名第10，票数156，热度中等偏上，有一定话题性。"
+        "transferability": {
+          "score": 3,
+          "reason": "主动减少打扰的方向可借用，但具体取舍仍待确认。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "这台翻盖手机让我戒掉了手机瘾！Light Flip开箱实测",
-        "angle": "开箱体验",
-        "shooting_tips": "重点拍摄翻盖动作、与智能机的界面对比、户外极简使用场景，突出无干扰的复古感，节奏轻快带点怀旧氛围。",
-        "target_audience": "想减少屏幕时间、怀念功能机时代的人，极简主义者和数字排毒尝试者。"
       },
       "category": "硬件设备",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "翻盖复古设计视觉吸引力强，话题性高，非常适合视频展示。"
-    },
-    {
-      "id": "1199213",
-      "name": "Humalike x Hermes",
-      "name_zh": "Humalike x Hermes（人性化赫尔墨斯插件）",
-      "tagline_zh": "让 Hermes 代理学会读空气的社交智能插件",
-      "description_zh": "一个命令就能给你的 Hermes 代理赋予社交智慧。它会自动判断什么时候该说话，适应群聊的氛围，并记住每个人说过的话。支持 Slack、Telegram 和 WhatsApp 群聊。",
-      "intro_zh": "给 Hermes 机器人装了个社交大脑，一个命令就让它学会看场合、记人名，群聊里再也不怕插错话。经常在 Slack、Telegram 或 WhatsApp 里用机器人的团队会爱死。",
-      "url": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7WFK7BDIY5DLKG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2e1752a9-79f2-478f-b854-680a99398217.jpeg?auto=format",
-      "votes_count": 496,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以通过录制群聊窗口，展示代理在对话中的表现和前后对比，但画面主要是文字滚动，缺乏视觉冲击力，较难抓住眼球。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "插件本身只要一行命令就能启用，但需要用户已经了解并部署了 Hermes 代理，对普通聊天用户来说概念有点陌生，使用门槛中等。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第2，获得496票，有较高的话题性和关注度。"
-        }
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我看重把减少打扰变成设备选择的方向；但功能清单缺失，无法判断换机后是否还得依赖原手机。",
+      "product_analysis": {
+        "target_problem": "想减少手机打扰、又不想完全离开手机的人可能会关注它。问题是频繁推送容易打断正在做的事。",
+        "workflow": "简介只描述了使用极简翻盖机的方向，未说明购买后如何设置、能完成哪些日常操作，无法还原完整流程。",
+        "ai_value": "介绍没提 AI，主要靠极简设备设计来改善体验；具体如何减少推送没有展开。",
+        "differentiation": "它试图把减少打扰做成设备本身的选择。最可能让人不愿换用的原因，是必要功能可能不够用。"
       },
-      "video_inspiration": {
-        "title_idea": "一行命令，让你的群聊机器人秒变高情商！Humalike x Hermes 实测",
-        "angle": "教程演示 + 对比实测",
-        "shooting_tips": "先展示没有插件的 Hermes 代理在群聊里乱插话、破坏气氛的尴尬场景，再开启插件演示它如何智能等待、调整语气和记住上下文。录屏为主，配合画外音解释操作步骤和效果对比。",
-        "target_audience": "对 AI 代理感兴趣的开发者和技术团队、已经在用 Hermes 或类似机器人的社群运营者"
+      "technical_analysis": {
+        "disclosed_facts": "历史缓存称其为延续极简理念的翻盖机，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先明确必须保留的日常任务，再只提供对应功能，并限制非必要通知。",
+        "tradeoffs": "最难的是判断哪些通知可以删。若把重要提醒也挡住，用户可能不得不另带一部手机。",
+        "unknowns": "这份缓存未核验，Light Flip 的实际功能范围是什么？"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品概念有趣且能在群聊中直观演示，热度不错，但对普通观众需要稍加解释，适合面向有一定技术背景的观众。"
-    },
-    {
-      "id": "1192199",
-      "name": "Migma AI",
-      "name_zh": "Migma AI",
-      "tagline_zh": "AI替你跑邮件营销，每发一次就更聪明一点",
-      "description_zh": "Migma 能在你开口前就帮你搞定整套营销邮件。它能自动理解你的目标和活动，生成每一封邮件，还帮你做个性化、本地化，确保在各个收件箱里都显示正常。它负责发送、管理订阅偏好和合规，然后不断学习什么东西最能驱动收入。",
-      "intro_zh": "这是一个能自动帮你写全套营销邮件、还能越用越懂你的AI工具。做电商、运营或者自己搞品牌的人，每天被邮件营销追着跑，用它能省下大把时间，发出去的邮件还更有效果。",
-      "url": "https://www.producthunt.com/products/migma-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XOS6KKLW7EXHLV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1699460a-b37a-43ea-93be-67cb677fc7ca.png?auto=format",
-      "votes_count": 447,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有仪表盘、邮件编辑器等操作界面，可以展示创建活动、对比数据的过程，但画面偏静态，缺乏视觉冲击力，不太适合纯观赏型视频。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "界面引导清晰，但需要用户具备基本的邮件营销概念（如列表管理、A/B测试），完全门外汉看热闹会觉得有点干。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "位居 ProductHunt 当日第3名，票数 447，话题性高，属于当天的热门产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "发邮件太累？让AI自己写、自己发、自己学，闭眼挣钱！",
-        "angle": "教程演示",
-        "shooting_tips": "录制从零开始创建营销活动的流程：输入活动目标、AI自动生成几封邮件的对比、个性化插入客户名的效果、查看发送后的收入分析图表。用10分钟以内完成，节奏紧凑，每一步都配上简短的文字说明。",
-        "target_audience": "中小电商店主、独立站运营、市场投放人员，想省力又提效的营销新手。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面可展示，能拍出清晰的操作流，但题材偏垂直，更适合营销垂类账号，泛流量吸引力一般。"
-    },
-    {
-      "id": "1192293",
-      "name": "Kastra",
-      "name_zh": "Kastra",
-      "tagline_zh": "为 Claude、Cursor、Codex 等编程助手加上一道即时安全锁",
-      "description_zh": "Kastra 是一个面向 AI 智能体的运行时授权层，能在操作执行前瞬间决定允许或禁止，延迟不到 1 毫秒。你可以用它统一管控 Claude Code、Cursor、Codex 等多种编程工具里的行为策略，防止越权操作、注入攻击和敏感数据泄露，从源头堵住风险。适合用 AI 写代码且需要安全管控的团队。",
-      "intro_zh": "这玩意儿就像给 AI 编程助手配了个贴身警卫，每次它要动手操作，警卫都在一毫秒内判断能不能放行。搞开发的、管安全的，要是你团队在用 Claude Code 或 Cursor 写代码，怕 AI 乱调接口、泄密，用它就能把规则定得死死的。",
-      "url": "https://www.producthunt.com/products/kastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PIAVHXT5GCZFUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/312b3c76-1890-412c-aecf-f17db87c78f1.png?auto=format",
-      "votes_count": 384,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要面向后台策略配置和日志审查，没有可视化操作界面或直观的前后对比效果，画面多是配置文件和代码，缺乏视觉冲击力，不太适合短视频展示。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "概念涉及运行时授权、策略执行、SDK 集成等技术细节，普通用户完全看不懂，需要扎实的开发和安全知识背景才能理解用途和价值。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 日榜第 4 名，获得 384 票，在开发者安全圈子里有一定话题度，但大众认知度很低。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别再让 AI 瞎调你接口了！给 Cursor 加个「即刻刹车」",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕演示：先展示一个没有权限控制的 AI 编程场景，AI 随意调用了敏感 API；然后切换至 Kastra 配置策略的过程，演示它如何实时拦截并弹出告警。重点突出配置的简单程度和拦截的即时性，节奏前慢后快，用分屏对比增强说服力。",
-        "target_audience": "用 Claude Code、Cursor 等 AI 编程工具的专业开发者或技术管理者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品纯后台安全层，画面枯燥，技术壁垒高，普通观众难以产生兴趣，适合垂类技术社区，不适合大众视频。"
-    },
-    {
-      "id": "1202312",
-      "name": "box",
-      "name_zh": "Box 云主机",
-      "tagline_zh": "为智能代理打造的全功能简易云电脑",
-      "description_zh": "Box 是给搭建代理平台和自动化工厂的开发者用的最便宜、最简单的云电脑。在终端敲一句 box new，两秒钟就拿到一台带桌面和 SSH 的 Ubuntu 虚拟机，权限全归你。每小时只要两分多钱，比同行便宜十倍，你可以一口气开上千台，花同样的钱跑更多的活、试更多的想法。",
-      "intro_zh": "一个命令就能在云端变出带完整桌面的电脑，专给跑自动化代理、做批量测试的程序员用。想低成本大规模折腾虚拟机的开发团队会爱死它。",
-      "url": "https://www.producthunt.com/products/box-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XQORCUD6WISVS4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f27e4ca3-4caa-4931-98e6-96ebd7c7ae56.png?auto=format",
-      "votes_count": 280,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有终端命令、虚拟机桌面弹出、多窗口并行的动态操作过程，可以直观演示速度与价格对比，画面素材丰富且节奏感强。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念围绕代理、虚拟机、终端命令行，普通互联网用户难以快速理解应用场景，需要一定技术背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 第5名，280票，话题热度高，在开发者圈引发关注。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "一条命令秒开10台云电脑，每月省出一台MacBook！开发者秘宝Box实测",
-        "angle": "开箱体验/对比测评",
-        "shooting_tips": "先拍终端敲 box new，特写两秒后桌面跳出的瞬间；再同时开10个窗口，展示不同代理任务并行；最后拉对比表算经济账，突出省钱。节奏轻快，加表情包强化‘省十倍’反差。",
-        "target_audience": "程序员、独立开发者、技术博主、自动化工程师、计算机专业学生"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有可视化的创建过程和强烈价格对比可拍出爽感，但概念较硬核，适合面向技术人群做深度内容。"
-    },
-    {
-      "id": "1202223",
-      "name": "MonoCloud for Startups",
-      "name_zh": "初创企业版MonoCloud",
-      "tagline_zh": "一套为你的客户、API和代理打造的统一身份层",
-      "description_zh": "MonoCloud不只在登录框止步，它把身份控制延伸到授权与追溯：精确规定每个用户、服务乃至AI代理能做什么，记录其行为并可随时撤销权限。集细粒度授权、通行密钥与SSO、API防护、机器间通信和证书绑定信任于一体，初创企业可免费使用一年。",
-      "intro_zh": "给API和AI代理加装一道门禁，谁进来、能碰哪儿、干了啥全管得明明白白。做SaaS或AI产品的创业团队，怕用户权限乱、接口被滥用的，会很需要。",
-      "url": "https://www.producthunt.com/products/monocloud-for-startups-free-for-1-year?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/B7HLNBLKWG3ZG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a3cd5335-c17d-435b-9c82-9b4795a2146c.png?auto=format",
-      "votes_count": 189,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "后台管理界面偏枯燥，缺乏操作对比或视觉冲击，主要靠演示配置流程，画面吸引力弱。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "概念高度技术化（细粒度授权、mTLS、Ceder策略语言），普通用户完全摸不着头脑，只适合开发者。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt当天第8名，189票，处于中游，话题性不足以引发大众关注。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "创业团队白嫖利器：一个平台搞定API权限和AI代理管控",
-        "angle": "教程演示",
-        "shooting_tips": "录制仪表板操作：创建用户、定义权限策略、绑定API代理、查看审计日志，镜头跟随鼠标点击，强调免费一年的福利。用平实语速解释每一步解决了什么安全问题。",
-        "target_audience": "SaaS创业者、后端开发、技术型创始人"
-      },
-      "category": "安全隐私",
-      "overall_suggestion": "可以做",
-      "overall_reason": "纯开发者工具，画面表现力差且概念门槛高，即便免费对普通观众毫无吸引力。"
-    },
-    {
-      "id": "1202738",
-      "name": "Gemini 3.6 Flash Family",
-      "name_zh": "Gemini 3.6 Flash 家族",
-      "tagline_zh": "下一代轻量级AI，为规模化构建智能代理而生",
-      "description_zh": "谷歌发布了全新Gemini模型系列：Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber。这些模型在效率、延迟和可靠性上都做了优化，方便开发者低成本地打造能稳定运行的大规模AI代理。",
-      "intro_zh": "谷歌新出的轻量级AI模型，专门给想低成本、大规模部署AI代理的开发者准备的。如果你在搞自动化客服、批量数据处理这类应用，这几款会很划算。",
-      "url": "https://www.producthunt.com/products/gemini-3-6-flash-family?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2L6BNQROL433FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f197209e-d6d6-41a5-95ac-b550a2697daa.jpeg?auto=format",
-      "votes_count": 192,
-      "scores": {
-        "video_suitability": {
-          "score": 1,
-          "reason": "纯后端API模型，没有界面或可视化操作，无法展示有趣的画面或前后对比效果，视频化价值极低。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "需要理解API调用、模型参数、代理部署等技术概念，普通互联网用户完全无法直接使用，门槛极高。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第7名，获得192票，作为开发者工具热度不错，但缺乏出圈话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "谷歌悄咪咪更新了一堆新模型，专门给愿意折腾的开发者用",
-        "angle": "行业解读",
-        "shooting_tips": "用录屏展示官方benchmark图表、对比数字，配合讲解模型定位；穿插开发者社区的讨论截图。节奏平实，避免炫技。",
-        "target_audience": "关注前沿AI动态的开发者和技术博主"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "纯API产品缺乏可视化素材，且受众门槛太高，不适合面向普通用户的视频内容。"
+      "transferable_insights": [
+        "做专注工具时，可以先按用户要完成的任务筛选功能，再决定保留哪些提醒，不必默认所有事件都推送。"
+      ],
+      "validation_questions": [
+        "我会先核对它能否完成自己每天必需的一项手机任务。",
+        "我会检查一条重要提醒在减少打扰的设置下是否仍能收到。"
+      ],
+      "source_tagline": "重温智能手机问世前的旧时光",
+      "source_description": "Light是一家特立独行的科技公司，我们设计既美观又尊重用户、提升自主权的工具。第一款作品是Light Phone，如今Light Flip翻盖机延续极简理念，带你回到没有无尽推送的宁静世界。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

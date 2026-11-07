@@ -1,367 +1,510 @@
 {
   "date": "2026-08-22",
-  "generated_at": "2026-08-23T15:35:42+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:34:38+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1209555",
       "name": "Toplify",
       "name_zh": "Toplify",
-      "tagline_zh": "Track your App Store ranking worldwide",
-      "description_zh": "Toplify is a multi server service monitoring App Store charts across 175 countries, 24/7, so you never miss your next milestone. Get alerts for new rankings and significant jumps. No API keys or App Store Connect access needed. Just add your app and Toplify takes care of the rest.",
-      "intro_zh": "",
+      "tagline_zh": "追踪你的应用在全球 App Store 的榜单排名",
+      "description_zh": "Toplify 使用多台服务器，全天监测 175 个国家的 App Store 榜单，并在应用新上榜或排名显著上升时提醒。只需添加应用，无需 API 密钥（调用服务的凭证），也不用授权访问 App Store Connect 管理后台。",
+      "intro_zh": "给关注海外榜单的应用开发者和运营人员用，添加应用后追踪各国排名，接收上榜和跃升提醒。",
       "url": "https://www.producthunt.com/products/toplify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HQFTOUXGX42OW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8d3a4f25-f804-4c70-81b4-35474b5123bd.webp?auto=format",
       "votes_count": 332,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨国查榜和排名提醒的用途清楚，但更新及时性尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "持续监测多国榜单有具体难点，但资料未说明采集和更新方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "免后台授权、只添加监测对象的做法可借用于公开信息监测。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是不用开放应用后台权限就能跟踪海外榜单；最影响判断的是提醒能否及时反映变化。",
+      "product_analysis": {
+        "target_problem": "面向关注海外表现的应用团队。逐国查看榜单费事，也容易错过短暂上榜。",
+        "workflow": "添加自己的应用，服务持续监测各国榜单；新上榜或排名显著上升时收到提醒。",
+        "ai_value": "介绍没提 AI，主要靠持续监测和变化提醒来改善体验。",
+        "differentiation": "相比逐国查榜，它集中跟踪并主动提醒。若团队已有排名工具，可能不愿再多看一套通知。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到多服务器、覆盖 175 个国家、全天监测，且不需要应用后台授权。",
+        "possible_approach": "如果自己做，可以先定时读取各国公开榜单，再保存应用名次，与上次结果比较后发送提醒。",
+        "tradeoffs": "最容易出错的是把读取失败当成应用掉榜；下次恢复读取时，可能误报为新上榜。",
+        "unknowns": "全天监测不等于实时更新，实际多久查一次没有说明。"
+      },
+      "transferable_insights": [
+        "做公开价格或榜单监测时，可以让用户只添加目标，不先索取后台权限，减少开始使用前的配置。"
+      ],
+      "validation_questions": [
+        "选一款已知上榜应用，对照同一国家榜单，检查提醒延迟多久。",
+        "核对一次新上榜提醒，确认它不是读取失败后恢复造成的误报。"
+      ],
+      "source_tagline": "Track your App Store ranking worldwide",
+      "source_description": "Toplify is a multi server service monitoring App Store charts across 175 countries, 24/7, so you never miss your next milestone. Get alerts for new rankings and significant jumps. No API keys or App Store Connect access needed. Just add your app and Toplify takes care of the rest."
     },
     {
       "id": "1228617",
       "name": "Open Analytics",
       "name_zh": "Open Analytics",
-      "tagline_zh": "AI-Native Google Analytics alternative for the modern web",
-      "description_zh": "Open Analytics is an open-source, privacy-first alternative to Google Analytics, built for humans and AI agents. Track real-time visitors, funnels, and revenue with one lightweight, cookieless script. Connect your analytics to AI tools via MCP. GDPR-friendly with no consent banner, and self-hostable.",
-      "intro_zh": "",
+      "tagline_zh": "面向现代网站的 AI 原生 Google Analytics 替代工具",
+      "description_zh": "Open Analytics 是面向人和 AI 智能体的开源网站分析工具，强调隐私保护，可用一个轻量、不使用 Cookie 的脚本追踪实时访客、转化漏斗和收入。它支持通过 MCP 连接 AI 工具，也支持自行部署；简介称其符合 GDPR 要求且无需同意横幅，但未提供具体条件。",
+      "intro_zh": "给网站运营者和产品团队用，追踪访问、转化与收入，并把分析数据接给 AI 工具。",
       "url": "https://www.producthunt.com/products/open-analytics-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AGWMLNH2CQI3U6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b4a03156-0c21-4201-b947-28f4471b0b72.jpeg?auto=format",
       "votes_count": 232,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "分析对象和接入方式明确，但统计准确性及维护负担待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "不使用 Cookie 时如何串起转化步骤，是直接影响结果的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让同一份数据同时供人查看和 AI 读取，有明确的借鉴场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是网站数据能直接交给 AI 查询；最影响判断的是，无 Cookie 统计能否保持转化记录完整。",
+      "product_analysis": {
+        "target_problem": "网站运营者需要看访客在哪一步离开、哪些访问带来收入。它把这些分析放在一起，也提供给 AI 工具读取的入口。",
+        "workflow": "在网站接入脚本，查看实时访客、转化漏斗和收入。需要让 AI 读取时，通过 MCP（让 AI 工具连接外部数据的通用方式）接入。",
+        "ai_value": "明确的 AI 相关功能是连接外部 AI 工具。简介没有说明它会自动解释波动或提出优化建议。",
+        "differentiation": "单脚本接入可能减少安装工作；但已有统计方案的团队，可能因历史数据难以连续比较而不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、无 Cookie 脚本、MCP 连接和自行部署。",
+        "possible_approach": "如果自己做，可以先用脚本收集访问和转化事件，再汇总成报表，最后提供只读的数据连接供 AI 查询。",
+        "tradeoffs": "最难的是在不使用 Cookie 时正确串起同一次访问中的多个步骤。串错或漏掉，会让转化率失真。",
+        "unknowns": "“无需同意横幅”的说法适用于哪些数据收集方式和部署条件，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做业务报表时，可以让页面和 AI 查询共用同一套统计口径，减少两边数字不一致的问题。"
+      ],
+      "validation_questions": [
+        "走一遍已知的访问到购买流程，检查漏斗是否完整记录各步。",
+        "让 AI 查询一个指定时段的访客数，检查是否与页面结果一致。"
+      ],
+      "source_tagline": "AI-Native Google Analytics alternative for the modern web",
+      "source_description": "Open Analytics is an open-source, privacy-first alternative to Google Analytics, built for humans and AI agents. Track real-time visitors, funnels, and revenue with one lightweight, cookieless script. Connect your analytics to AI tools via MCP. GDPR-friendly with no consent banner, and self-hostable."
     },
     {
       "id": "1223324",
       "name": "SubtitleGenerator",
       "name_zh": "SubtitleGenerator",
-      "tagline_zh": "From video to publish-ready AI subtitles—all in one browser",
-      "description_zh": "Free: 60 one-minute videos a month, no signup. Drop in a video and generate, fix, translate, style and export subtitles in one editor. All 30 styles are included free. Most tools leave you hunting line by line—Fix flags uncertain words and counts down to “All clear,” a real finish line. Pro and Max add full-track translation, HD without a watermark, eight subtitle formats, custom fonts and saved brand styles. Your video stays in your browser.",
-      "intro_zh": "",
+      "tagline_zh": "在一个浏览器中，把视频做成可发布的 AI 字幕",
+      "description_zh": "无需注册，免费额度为每月 60 个一分钟视频，可在同一编辑器生成、修正、翻译、调整样式并导出字幕，包含全部 30 种样式；Fix 会标记不确定的词，并显示剩余待检查项。Pro 和 Max 增加整轨翻译、无水印高清导出、八种字幕格式、自定义字体和品牌样式保存；简介称视频始终留在浏览器中。",
+      "intro_zh": "给需要为视频配字幕的创作者用，在浏览器里生成字幕、检查疑词，再调整样式并导出。",
       "url": "https://www.producthunt.com/products/subtitlegenerator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZYQ3SSNKVR2CLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/77637c3c-d69b-46c6-9467-9d1e37bb922f.png?auto=format",
       "votes_count": 204,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "字幕制作和校对场景明确，但疑词提示能否减少漏错尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何标出不确定的词，同时避免让用户误信完成提示，是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把待检查内容列出来并显示剩余数量，可借用于其他自动生成内容的校对。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它给校对提供明确的检查重点；最影响判断的是未标记区域会漏掉多少错误。",
+      "product_analysis": {
+        "target_problem": "给视频配字幕的创作者需要核对识别结果。逐行检查时，很难知道哪里最值得先看。",
+        "workflow": "放入视频，生成字幕，用 Fix 检查标记词，再调整样式并导出。整轨翻译等功能属于付费方案。",
+        "ai_value": "AI 用于生成字幕，工具也提供翻译和疑词标记；介绍没说明后两者具体如何实现。",
+        "differentiation": "相比逐行查找，疑词标记提供了检查重点。用户可能仍不敢跳过未标记内容，省时程度取决于漏报情况。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1225576",
-      "name": "Maccess",
-      "name_zh": "Maccess",
-      "tagline_zh": "Your Mac, in your pocket — trackpad, screen, and AI",
-      "description_zh": "Control your Mac from iPhone with touchpad, keyboard, screen mirroring, files, and Mackie AI. Pair over Wi-Fi or use Online Access from anywhere.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/maccess?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HVWKOBYWJKKZIG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ea206598-23db-4158-9d80-63826a503c16.png?auto=format",
-      "votes_count": 179,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称视频留在浏览器中，但没说具体模型或计算位置。",
+        "possible_approach": "如果自己做，可以先把语音转成带时间的文字，再标记把握不足的词，让用户逐项确认，最后合成样式并导出。",
+        "tradeoffs": "最难的是找出真正可疑的词。漏标后仍显示“All clear”，可能让用户带着错误发布。",
+        "unknowns": "“视频留在浏览器”是否也包括音轨不上传，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做转写或文档提取工具时，可把疑似错误列成待检查项，并显示剩余数量；检查完毕不应等同于内容无误。"
+      ],
+      "validation_questions": [
+        "用一段包含已知人名错误的字幕测试，Fix 能否标出这些错误？",
+        "生成字幕时检查网络请求，是否向外发送音视频内容？"
+      ],
+      "source_tagline": "From video to publish-ready AI subtitles—all in one browser",
+      "source_description": "Free: 60 one-minute videos a month, no signup. Drop in a video and generate, fix, translate, style and export subtitles in one editor. All 30 styles are included free. Most tools leave you hunting line by line—Fix flags uncertain words and counts down to “All clear,” a real finish line. Pro and Max add full-track translation, HD without a watermark, eight subtitle formats, custom fonts and saved brand styles. Your video stays in your browser."
     },
     {
       "id": "1228663",
       "name": "AutoClaw",
       "name_zh": "AutoClaw",
-      "tagline_zh": "An AI work agent across desktop, browser, and chat",
-      "description_zh": "AutoClaw is a desktop AI agent for multi-step work across files, browsers, office documents, web apps, and IM. Give it a goal, let it operate tools and coordinate agents, then get the finished work back in the same conversation. GLM-5.3 is built in.",
-      "intro_zh": "",
+      "tagline_zh": "跨桌面、浏览器和聊天工作的 AI 助手",
+      "description_zh": "AutoClaw 是桌面 AI 助手，可跨文件、浏览器、办公文档、网页应用和即时通讯处理多步任务。用户给出目标后，它会操作工具、协调多个助手，并在同一对话中返回成果；内置 GLM-5.3。",
+      "intro_zh": "给需要跨文件、网页和聊天处理多步工作的用户，用对话交代目标，并在原对话收取成果。",
       "url": "https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CP2T53A7KU7FHJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f9ced0cd-9474-4b32-9490-6d478fc48d15.jpeg?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "跨软件办事的场景清楚，但能独立完成哪些任务尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多步操作中如何判断上一步成功，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在原对话返回成果的做法，可借给需要后台执行任务的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把跨软件任务的成果带回原对话；最影响判断的是，它如何避免把未完成的步骤当作成功继续执行。",
+      "product_analysis": {
+        "target_problem": "需要跨文件、网页应用和聊天处理任务的人会用它。麻烦在于工作分散在多个地方，还要衔接前后步骤。",
+        "workflow": "用户在对话中给出目标，AutoClaw 操作工具并协调多个助手，再把成果返回同一对话。介绍未给出具体任务示例。",
+        "ai_value": "AI 负责根据目标推进多步工作，并调用工具执行操作。它的用途不止于回答问题，还包括交付工作成果。",
+        "differentiation": "把交代目标和接收成果放在同一处，可能减少来回切换。用户是否愿意交出操作权，可能取决于执行过程能否确认。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到内置 GLM-5.3，并支持操作工具、协调多个助手。",
+        "possible_approach": "如果自己做，可以先把目标拆成步骤，再连接所需软件；每步检查结果，完成后回传成果。",
+        "tradeoffs": "最难的是判断一步是否真的完成。若保存失败却继续发送，用户可能收到旧文件，或把错误成果交出去。",
+        "unknowns": "涉及发送消息、覆盖文件等操作时，是否会先让用户确认？"
+      },
+      "transferable_insights": [
+        "做需要后台执行的办公助手时，可以让任务从对话发起，成果也回到原对话，减少用户另找结果的步骤。"
+      ],
+      "validation_questions": [
+        "给一个结果可核对的跨软件任务，检查最终成果是否满足目标。",
+        "要求覆盖已有文件，检查执行前是否请求确认。"
+      ],
+      "source_tagline": "An AI work agent across desktop, browser, and chat",
+      "source_description": "AutoClaw is a desktop AI agent for multi-step work across files, browsers, office documents, web apps, and IM. Give it a goal, let it operate tools and coordinate agents, then get the finished work back in the same conversation. GLM-5.3 is built in."
     },
     {
       "id": "1227502",
       "name": "Zero",
       "name_zh": "Zero",
-      "tagline_zh": "Vercel's programming language built for AI agents",
-      "description_zh": "Zero is Vercel's experimental programming language designed for a world where AI agents write the code. Instead of editing source text, agents query and patch a semantic program graph while the compiler checks every change. Humans simply ask for outcomes, then review readable code projections when needed. Built from the ground up for agentic coding, with token efficiency, fast builds, low memory, and zero dependencies.",
-      "intro_zh": "",
+      "tagline_zh": "简介称由 Vercel 打造、面向 AI 编程助手的编程语言",
+      "description_zh": "Zero 被介绍为 Vercel 的实验性编程语言：AI 编程助手查询和修改语义程序图，由编译器检查每次改动；人提出目标，需要时审阅可读的代码视图。简介还宣称它消耗更少的模型处理文本量、构建快、内存占用低且零依赖，但未提供验证数据。",
+      "intro_zh": "给探索 AI 编程的开发者使用，让助手修改程序结构，人提出目标并审阅生成的代码视图。",
       "url": "https://www.producthunt.com/products/zero-15?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2PR44EYSQC74U3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/05f224e0-b360-4eb3-a33f-4c01f4eb57d3.png?auto=format",
       "votes_count": 130,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "分工清楚，但实际能完成哪些开发任务尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把文本修改改成程序结构修改，有具体的检查机制可讨论。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "结构化修改配合逐次检查，可借用于其他自动编辑工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重把修改拆成可逐次检查的操作；但检查能覆盖什么错误，决定了人还要花多少精力兜底。",
+      "product_analysis": {
+        "target_problem": "让 AI 编程助手改项目的开发者可能需要它。相比直接编辑源代码文本，它尝试让助手围绕程序结构操作，减少文本替换带来的歧义。",
+        "workflow": "人先提出目标，助手再查询和修改程序图，编译器检查每次改动。需要审阅时，人查看可读的代码视图。",
+        "ai_value": "AI 负责把目标变成程序改动。编译器检查改动，不等于确认程序符合人的要求。",
+        "differentiation": "它可能省去助手反复定位和改写文本的工作；最可能让人犹豫的是需要接受一门实验性语言。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到语义程序图，即记录程序含义及关系的结构，以及逐次编译检查和可读代码视图。",
+        "possible_approach": "如果自己做，可以先把函数及引用关系存成图，再让助手提交结构化修改，检查通过后生成供人审阅的代码。",
+        "tradeoffs": "最难的是检查改动是否符合目标。改错业务条件也可能通过编译，人仍需测试实际行为。",
+        "unknowns": "检查未通过时，系统如何处理这次修改？"
+      },
+      "transferable_insights": [
+        "做 AI 配置编辑器时，可以让助手提交明确的字段修改，每次检查通过后再应用，避免直接重写整份文本。"
+      ],
+      "validation_questions": [
+        "提交一次破坏函数引用的修改，检查系统是否阻止它生效。",
+        "完成一个小任务后，检查代码视图是否足以让人看清具体改了什么。"
+      ],
+      "source_tagline": "Vercel's programming language built for AI agents",
+      "source_description": "Zero is Vercel's experimental programming language designed for a world where AI agents write the code. Instead of editing source text, agents query and patch a semantic program graph while the compiler checks every change. Humans simply ask for outcomes, then review readable code projections when needed. Built from the ground up for agentic coding, with token efficiency, fast builds, low memory, and zero dependencies."
     },
     {
       "id": "1218964",
       "name": "Pawvis",
       "name_zh": "Pawvis",
-      "tagline_zh": "Control your Mac via camera & train gestures, local & FOSS",
-      "description_zh": "PawVis turns your Mac’s webcam into a hand-tracked mouse, no extra hardware required. Raise your hand and the cursor follows, dip a finger to click, and fold two fingers to scroll. Map gestures to custom actions like window management or any app/command from a series of common gestures or train your own. Everything runs 100% on-device, and PawVis is free and open source. Enable optional voice control for hands-free commands, or pass computer-use tasks to Codex or Claude Code.",
-      "intro_zh": "",
+      "tagline_zh": "用摄像头控制 Mac，可训练手势，本地运行且免费开源",
+      "description_zh": "Pawvis 将 Mac 摄像头变成手部追踪鼠标，无需额外硬件，可用手势移动光标、点击、滚动，并将常用或自行训练的手势绑定到窗口管理、应用或命令。简介称其全部在设备上运行，免费开源，还可选用语音控制，或将电脑操作任务交给 Codex、Claude Code。",
+      "intro_zh": "给想用手势操作 Mac 的人，用摄像头识别手部动作，控制光标、点击和执行自定义命令。",
       "url": "https://www.producthunt.com/products/pawvis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HKKJVJPTO6V2R3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/72342bfe-8733-4c5c-97b9-9387be498b37.png?auto=format",
       "votes_count": 100,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "操作场景明确，但手势是否比鼠标省力仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "连续移动与点击手势如何避免互相干扰，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "预设动作加自定义绑定的做法，可借给其他快捷控制工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它用现有摄像头增加输入方式，不必另配硬件。判断能否日常使用，关键还是手势误触是否可控。",
+      "product_analysis": {
+        "target_problem": "想暂时不碰鼠标、触控板操作 Mac 的人会需要它。现在可以借现有摄像头，把手部动作变成电脑操作。",
+        "workflow": "抬手移动光标，手指下压点击，弯曲两根手指滚动。还可把已有或自行训练的手势绑定到应用、命令或窗口操作。",
+        "ai_value": "介绍提到手部追踪、自定义手势训练，以及向 Codex 或 Claude Code 分派任务；没说明识别模型和任务交接方式。",
+        "differentiation": "无需额外硬件就能增加手势输入。最可能让人放弃的是误触：若经常需要撤销操作，就难省事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1228026",
-      "name": "KerasFormers",
-      "name_zh": "KerasFormers",
-      "tagline_zh": "Keras 3 collection of pretrained models",
-      "description_zh": "Pretrained transformer models in pure Keras 3, runnable on JAX, PyTorch and TensorFlow.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/kerasformers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JPL2L2XFP7HO77?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6d169073-cc72-4d17-a89f-9b4996249638.png?auto=format",
-      "votes_count": 92,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称支持摄像头手部追踪、手势训练和本地运行，且免费开源。",
+        "possible_approach": "如果自己做，可以先从画面识别手指位置，再把连续移动映射为光标，把特定动作映射为点击或命令。",
+        "tradeoffs": "最难的是区分移动中的自然弯指和主动点击。判断错了，用户可能在移动光标时误点按钮。",
+        "unknowns": "“全部本地运行”是否也涵盖交给 Codex 或 Claude Code 的任务，简介没有解释。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1222860",
-      "name": "Agents Never Sleep",
-      "name_zh": "Agents Never Sleep",
-      "tagline_zh": "Agents keep running with the lid closed",
-      "description_zh": "A macOS menu bar app that keeps your agents AI awake even if with lid closed. No more keeping your laptop half-open or carrying it around in weird ways. Stop this madness 🙅‍♂️, close the lid.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/agents-never-sleep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/W2ZLZ4HQ2AODJR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/01d52ee3-c191-4f63-b00d-da3d05d5cfd7.png?auto=format",
-      "votes_count": 90,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做快捷操作工具时，可以先提供常用动作，再让用户修改绑定；特殊需求再用自定义训练补充。"
+      ],
+      "validation_questions": [
+        "连续移动光标并自然弯指时，会不会触发非预期点击？",
+        "交给 Codex 或 Claude Code 的任务，会把哪些数据发送出设备？"
+      ],
+      "source_tagline": "Control your Mac via camera & train gestures, local & FOSS",
+      "source_description": "PawVis turns your Mac’s webcam into a hand-tracked mouse, no extra hardware required. Raise your hand and the cursor follows, dip a finger to click, and fold two fingers to scroll. Map gestures to custom actions like window management or any app/command from a series of common gestures or train your own. Everything runs 100% on-device, and PawVis is free and open source. Enable optional voice control for hands-free commands, or pass computer-use tasks to Codex or Claude Code."
     },
     {
       "id": "1228833",
       "name": "Port Radar for macOS",
       "name_zh": "Port Radar for macOS",
-      "tagline_zh": "An AI port manager for your Mac. ",
-      "description_zh": "Port Radar is a native macOS menu bar app that shows you exactly what’s running on your ports—in plain English. Spot Vite, Next.js, Docker, forgotten apps, and anything else quietly using resources, then stop it with a single click. Apple Intelligence answers \"what is this, is it safe to stop?\" right on your device, so nothing leaves your Mac. Plus one click Cloudflare tunnels to share a local site as a live link.",
-      "intro_zh": "",
+      "tagline_zh": "Mac 上的 AI 端口管理工具。",
+      "description_zh": "Port Radar 是一款原生 macOS 菜单栏应用，用易懂的文字显示哪些程序占用了端口，可识别 Vite、Next.js、Docker 等程序并一键停止。简介称，它用设备上的 Apple Intelligence 解释程序用途及能否安全停止，相关信息不离开 Mac；还可一键通过 Cloudflare 隧道，把本地网站分享为可访问的链接。",
+      "intro_zh": "给在 Mac 上开发和调试网站的人用，查看哪些程序占着端口，停止不用的服务，或分享本地网站。",
       "url": "https://www.producthunt.com/products/port-radar-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/65G5SQ6CHMW3B2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1bd898f4-5c56-4a63-98fc-801533719cde.png?auto=format",
       "votes_count": 82,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找占用程序和停止服务的用途清楚，但识别及停止效果尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "识别程序不等于能判断停止后果，这个差别直接影响使用安全。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把系统信息翻成可读说明并就近提供操作，适合借到开发工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是查到占用后就能处理；最影响判断的是，它能否分清“认出程序”和“可以安全停止”。",
+      "product_analysis": {
+        "target_problem": "在 Mac 上同时跑多个本地网站时，开发者可能不知道哪个程序占着端口。端口是程序接收连接的编号，查到编号后仍要辨认程序用途。",
+        "workflow": "在菜单栏查看占用端口的程序，阅读用途和停止建议，再一键停止。需要分享本地网站时，可生成对外访问链接。",
+        "ai_value": "AI 负责解释“这是什么、能否安全停止”。简介称由设备上的 Apple Intelligence 回答，不应把这个回答当成安全保证。",
+        "differentiation": "把查看、解释和停止放在一起，减少来回查找。最可能让人犹豫的是：停止建议是否足够可靠。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 Apple Intelligence 设备端回答，以及 Cloudflare 隧道，即把外部访问转到本地网站的连接方式。",
+        "possible_approach": "如果自己做，可以先读取端口及对应程序，再整理程序名称和启动信息供 AI 解释，最后提供停止按钮。",
+        "tradeoffs": "最难的是判断停止后果：一个程序可能被其他任务依赖，建议出错会让仍在使用的服务中断。",
+        "unknowns": "分享链接是否有访问限制，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做系统监控工具时，可以把编号和进程名转换成用途说明，并把对应操作放在旁边，减少用户自行查资料。"
+      ],
+      "validation_questions": [
+        "让一个服务被另一个任务依赖，检查停止建议能否提示影响。",
+        "用未获授权的浏览器打开分享链接，检查是否能直接访问。"
+      ],
+      "source_tagline": "An AI port manager for your Mac. ",
+      "source_description": "Port Radar is a native macOS menu bar app that shows you exactly what’s running on your ports—in plain English. Spot Vite, Next.js, Docker, forgotten apps, and anything else quietly using resources, then stop it with a single click. Apple Intelligence answers \"what is this, is it safe to stop?\" right on your device, so nothing leaves your Mac. Plus one click Cloudflare tunnels to share a local site as a live link."
+    },
+    {
+      "id": "1225576",
+      "name": "Maccess",
+      "name_zh": "Maccess",
+      "tagline_zh": "把 Mac 装进口袋：触控板、屏幕和 AI",
+      "description_zh": "用 iPhone 控制 Mac，提供触控板、键盘、屏幕镜像、文件功能和 Mackie AI。可以通过 Wi-Fi 配对，也可以用 Online Access 从异地访问。",
+      "intro_zh": "给需要离开电脑操作 Mac 的人用，在 iPhone 上查看电脑屏幕，用触控板和键盘控制。",
+      "url": "https://www.producthunt.com/products/maccess?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HVWKOBYWJKKZIG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ea206598-23db-4158-9d80-63826a503c16.png?auto=format",
+      "votes_count": 179,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "手机控制电脑的用途明确，但远程连接条件和操作体验待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "屏幕回传与触控响应之间有具体问题可分析，但实现未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把查看与操作放在同一设备上的做法可借鉴，实际收益待验证。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重手机既能查看又能控制 Mac；最影响判断的是异地连接是否稳定，AI 的用途目前不足以成为选择理由。",
+      "product_analysis": {
+        "target_problem": "需要离开电脑操作 Mac 的人，可能只带着 iPhone。麻烦在于既要看清电脑状态，又要能输入和点击。",
+        "workflow": "先通过 Wi-Fi 配对，或使用 Online Access 远程访问。连接后，在手机上查看屏幕，并用触控板、键盘操作 Mac。",
+        "ai_value": "简介只提到 Mackie AI，没说它能完成什么任务，无法判断 AI 具体省了哪一步。",
+        "differentiation": "把看屏幕和控制电脑集中到手机上。手机屏幕较小，可能让需要精确操作的人不愿改用它。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持 Wi-Fi 配对、Online Access 远程访问和屏幕镜像；介绍没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先让 Mac 把画面传到手机，再把手机上的触控和按键传回 Mac 执行。",
+        "tradeoffs": "最难的是让画面跟上操作。反馈延迟时，用户可能重复点击，误以为第一次没成功。",
+        "unknowns": "Online Access 对 Mac 在线状态有什么要求，介绍没说明。"
+      },
+      "transferable_insights": [
+        "做远程设备管理时，可以把状态画面与操作控件放在同一界面，方便用户确认操作结果。"
+      ],
+      "validation_questions": [
+        "换到异地网络后，能否连接仍在线的 Mac？",
+        "连续点击时，手机画面能否及时显示每次操作结果？"
+      ],
+      "source_tagline": "Your Mac, in your pocket — trackpad, screen, and AI",
+      "source_description": "Control your Mac from iPhone with touchpad, keyboard, screen mirroring, files, and Mackie AI. Pair over Wi-Fi or use Online Access from anywhere."
+    },
+    {
+      "id": "1228026",
+      "name": "KerasFormers",
+      "name_zh": "KerasFormers",
+      "tagline_zh": "基于 Keras 3 的预训练模型集合",
+      "description_zh": "提供完全使用 Keras 3 编写的预训练 Transformer 模型。这些模型可在 JAX、PyTorch 和 TensorFlow 上运行。",
+      "intro_zh": "给使用 Keras 3 的开发者用，提供已训练好的模型，并支持在三种计算框架上运行。",
+      "url": "https://www.producthunt.com/products/kerasformers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JPL2L2XFP7HO77?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6d169073-cc72-4d17-a89f-9b4996249638.png?auto=format",
+      "votes_count": 92,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "复用预训练模型的用途清楚，但模型范围和使用条件不明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "同一模型如何在不同计算框架上保持结果一致，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一模型写法可供借鉴，但实际兼容范围仍需确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是复用模型时能保留运行框架的选择；最影响判断的是三种框架下的实际兼容表现。",
+      "product_analysis": {
+        "target_problem": "使用 Keras 3 的开发者，需要把已训练好的模型接入项目。若项目使用不同计算框架，模型代码能否复用就是一道门槛。",
+        "workflow": "使用集合中的预训练模型，在 JAX、PyTorch 或 TensorFlow 上运行。简介没有提供具体加载步骤。",
+        "ai_value": "AI 是它提供的模型本身。预训练表示模型已经过训练，开发者不必从零开始训练才能使用。",
+        "differentiation": "它把 Keras 3 模型与三种运行选择放在一起，可能减少改写代码的工作。最可能阻止采用的是缺少项目所需的模型。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "模型采用纯 Keras 3 编写；Keras 是编写神经网络的工具，介绍称其支持三种计算框架。",
+        "possible_approach": "如果自己做，可以先用 Keras 3 编写模型并接入已有训练参数，再让同一组输入分别在三个框架上运行，对比输出。",
+        "tradeoffs": "最难的是跨框架结果一致。若同一输入换框架后输出明显不同，开发者就得额外排查，不能直接替换运行环境。",
+        "unknowns": "具体提供哪些预训练模型，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做模型库时，可以统一模型写法，并用同一批输入检查各运行框架的输出，方便使用不同技术栈的团队复用。"
+      ],
+      "validation_questions": [
+        "项目需要的模型是否在支持列表中？",
+        "同一模型、参数和输入在三个框架上的输出差异有多大？"
+      ],
+      "source_tagline": "Keras 3 collection of pretrained models",
+      "source_description": "Pretrained transformer models in pure Keras 3, runnable on JAX, PyTorch and TensorFlow."
+    },
+    {
+      "id": "1222860",
+      "name": "Agents Never Sleep",
+      "name_zh": "Agents Never Sleep",
+      "tagline_zh": "合上电脑盖，AI 代理仍能继续运行",
+      "description_zh": "这是一款 macOS 菜单栏应用，让 AI 代理在合上电脑盖后继续运行。产品介绍称，用户不必再为了保持任务运行而让笔记本半开着，或以不便的姿势携带。",
+      "intro_zh": "给在 Mac 上运行 AI 代理的人用，让电脑合盖后仍保持运行，减少等待任务时的携带不便。",
+      "url": "https://www.producthunt.com/products/agents-never-sleep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/W2ZLZ4HQ2AODJR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/01d52ee3-c191-4f63-b00d-da3d05d5cfd7.png?auto=format",
+      "votes_count": 90,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "合盖不中断任务的需求清楚，但适用条件尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "合盖后的系统休眠行为值得检查，但没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕长任务提供保持运行的控制有借鉴意义，效果仍需验证。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最具体的好处是不用为了等待任务而保持开盖；最大的疑问是合盖运行需要哪些外部条件。",
+      "product_analysis": {
+        "target_problem": "在 Mac 上等待 AI 代理完成任务的人，可能不方便一直开着电脑。以前若靠保持半开盖来避免中断，现在可以尝试合盖继续运行。",
+        "workflow": "它以 macOS 菜单栏应用的形式使用，目标是让代理在合盖后继续工作。介绍没说明具体开关和设置步骤。",
+        "ai_value": "AI 是它要保持运行的任务，不是已披露的实现手段。介绍没说它会生成内容或管理代理。",
+        "differentiation": "它想省掉为等待任务而保持开盖的麻烦。我会先确认电池供电时是否可用，否则外出携带的价值可能有限。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确它是 macOS 菜单栏应用，支持合盖后保持代理运行，未说明具体技术。",
+        "possible_approach": "如果自己做，可以先检查系统允许怎样阻止休眠，再做菜单栏开关，并测试合盖后任务是否持续推进。",
+        "tradeoffs": "最难的是合盖后真正保持任务运行；若系统仍进入休眠，用户可能回来才发现任务一直停着。",
+        "unknowns": "合盖保持运行是否需要接电源或外接显示器？"
+      },
+      "transferable_insights": [
+        "做下载、导出等长任务工具时，可以把“任务期间保持唤醒”做成明确开关，完成后恢复正常休眠。"
+      ],
+      "validation_questions": [
+        "电池供电时合盖，正在运行的代理任务能否持续推进？",
+        "关闭保持唤醒功能后，电脑能否恢复正常休眠？"
+      ],
+      "source_tagline": "Agents keep running with the lid closed",
+      "source_description": "A macOS menu bar app that keeps your agents AI awake even if with lid closed. No more keeping your laptop half-open or carrying it around in weird ways. Stop this madness 🙅‍♂️, close the lid."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

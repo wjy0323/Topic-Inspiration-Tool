@@ -1,357 +1,510 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-22T17:32:07+08:00",
+  "generated_at": "2026-11-07T15:42:14+00:00",
   "generation_error": false,
   "products": [
-    {
-      "id": "1196885",
-      "name": "Rerun",
-      "name_zh": "Rerun",
-      "tagline_zh": "零代码打造全能AI助手",
-      "description_zh": "大多数AI代理像个黑箱，Rerun完全透明。不用写代码，就能搭建全天候自动运行的AI助手，帮你追发票、筛客户、清收件箱，还能实时观察它每一步在做什么。处理敏感操作前会暂停等你审批，每个工作区都有独立服务器，可以从内置模型开始，也能接上你自己的API密钥。",
-      "intro_zh": "不用写一行代码，就能捏出24小时不间断打工的AI小帮手，自动追发票、筛客户、清邮箱，还能实时偷看它怎么干活。被重复琐事淹没的上班族和小老板，靠它真能多活两个小时。",
-      "url": "https://www.producthunt.com/products/rerun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XYR6JX4GTXPF64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4923cfb9-b78a-4583-94c6-b672c7f4f2d7.png?auto=format",
-      "votes_count": 333,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可视化拖拉拽搭建界面，实时步骤监控和审批弹窗，操作过程丰富，非常适合录屏演示，视觉冲击力强。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "完全无代码，普通人也能上手，虽然需要理解'AI代理'概念，但使用场景（追发票、清邮箱）很接地气，学习成本低。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第4，斩获333票，是热门新品，自带话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "白嫖AI帮你打工？这个神器让你躺着把活干完 | Rerun上手",
-        "angle": "教程演示",
-        "shooting_tips": "屏幕录制为主，展示从0开始搭建发票追踪代理的全过程，突出拖拽工作流节点、实时执行回放、敏感操作暂停审批这三个画面；加入轻快口播解释每一步，用表情包或特效强调‘省下时间’的情绪价值；节奏轻快，3分钟内呈现完整案例。",
-        "target_audience": "渴望减少重复劳动的办公族、电商卖家、中小创业者、自由职业者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品界面可视化强、无代码门槛低、热度排名靠前，非常适合做成直观易懂的实操测评视频，传播潜力大。"
-    },
-    {
-      "id": "1198043",
-      "name": "Routine AI",
-      "name_zh": " Routine AI",
-      "tagline_zh": "用声音掌控工作，打工人专属的 Siri 来了",
-      "description_zh": "Routine AI 让你用说话就能管好任务、日历、笔记和项目。自然地开口，就能安排会议、添加提醒、捕捉灵感、写笔记、搜资料、更新进度，还把重复工作自动化。",
-      "intro_zh": "这玩意儿让你动动嘴就能把日程、笔记、待办全搞定，像多了个听得懂人话的小秘书。整天被会议和杂事追着跑的白领、学生和自由职业者一定会爱上它。",
-      "url": "https://www.producthunt.com/products/routine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5CQA6DGZBK2NA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3764b1b8-cfd3-4440-8d62-939e72d74303.png?auto=format",
-      "votes_count": 238,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的 UI 界面和语音交互演示，可以拍摄屏幕操作和前后对比，画面节奏感强，但缺少爆炸性视觉冲击。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念和操作跟 Siri 一样简单，普通人一开口就能用，完全没有技术门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第6，获得238票，在效率圈有不错的话题度，但未进入前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "打工人嘴替！像使唤 Siri 一样管理工作和日程，一天能少点30次鼠标",
-        "angle": "开箱体验",
-        "shooting_tips": "直接录屏演示语音建任务、语音查日历、语音记笔记的全流程，穿插真人对着电脑说话的画面，加上和手动操作的耗时对比，节奏轻快带点幽默。",
-        "target_audience": "被会议和杂事淹没的白领、习惯用语音助手的数码爱好者、想提升效率的学生和自由职业者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "上手零门槛、演示效果直观、击中打工人痛点，视频容易出圈。"
-    },
-    {
-      "id": "1195651",
-      "name": "Jockey by TwelveLabs ",
-      "name_zh": "Jockey（十二实验室视频管家）",
-      "tagline_zh": "能读懂你整个媒体库的视频AI助手",
-      "description_zh": "Jockey是第一个能像你一样理解所有照片视频的AI，它可以按人物、瞬间或上下文，搜到库里的任何内容。背后由TwelveLabs的先进模型驱动，越用越聪明。支持接入Claude、ChatGPT，也能用API自己搭建应用，让你的媒体库瞬间变得可问可查。",
-      "intro_zh": "这个AI能看懂你存的所有照片和视频，想找谁、哪个瞬间、什么场景，直接问它就行。手机里存了几万张回忆，懒得翻的普通用户和靠素材吃饭的创作者都会爱死它。",
-      "url": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/DTYSOPLK3L2DRF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/25170d90-bd88-4c39-8261-4ecdef040abb.png?auto=format",
-      "votes_count": 206,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "界面有搜索框和结果展示，可以录屏演示输入描述自动匹配视频片段，前后对比效果明显，视觉冲击力中等偏上，适合做成实测视频。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念不复杂，就是‘用自然语言找视频’，不需要技术背景，普通用户看一遍就能上手，只有API部分略硬核，但不影响核心体验。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第7，票数206，属于头部偏上，话题性较强，AI理解视频内容的概念容易引发讨论。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "手机里的几万张照片再也不怕找不到了！这个AI能听懂你的模糊描述",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示上传一些旅行照片和视频，然后用口语化的句子搜索，比如‘去年海边蹦跶的孩子’，镜头特写迅速定位到的画面，配合惊讶表情和画外音解说，节奏先快后缓，突出‘模糊搜索也能精准找到’的爽感。",
-        "target_audience": "手机里存满照片视频却总是找不到回忆的普通人，以及需要快速查找素材的内容创作者。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "既能看懂视频又能用大白话搜索，演示效果直观有记忆点，普通观众秒懂，PH热度还高，很适合拍成爆款视频。"
-    },
     {
       "id": "1197421",
       "name": "Lev8",
       "name_zh": "Lev8",
-      "tagline_zh": "快速找到、调研并触达你要找的人",
-      "description_zh": "跟Lev8聊天，就能用全网实时搜索找到目标客户和公司，AI助手遍布互联网各个角落同步工作。它能用瀑布式查找自动补齐CSV里的联系人信息，监控购买意图信号，还能帮你发送个性化的多渠道消息，一切自动运行。",
-      "intro_zh": "一个AI销售小助手，你告诉它想找什么样的客户，它马上全网帮你搜出来，连联系方式都帮你补全。天天在外面跑客户的销售、做BD的朋友、刚起步的创业者，再也不用自己一个个查资料了。",
+      "tagline_zh": "快速找到、调研并触达目标人群",
+      "description_zh": "Lev8 支持通过聊天搜索目标客户和公司，并自动补齐 CSV 表格中的联系人信息。简介还提到监控购买意图信号，以及发送个性化的多渠道消息。",
+      "intro_zh": "给寻找潜在客户的销售和市场人员用，通过聊天找公司与联系人，再补齐资料并发送消息。",
       "url": "https://www.producthunt.com/products/lev8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IITOSI26P6BQTV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/860330de-7862-4f22-9249-0b103250b689.png?auto=format",
       "votes_count": 550,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有清晰的界面和操作流程，可以展示搜索过程、联系人列表生成、多渠道消息发送等画面，通过真实业务场景演示能带来较强的代入感，但整体视觉冲击力中等。"
+          "reason": "找客户、补资料和发消息的用途清楚，但准确率和节省的时间未知。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "功能围绕销售获客展开，普通用户理解起来不太费劲，但需要基本的商务知识才能完全体会价值，纯个人用户会觉得和自己关系不大。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第1，获得550票，热度很高，话题性强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "“销售开挂！用AI一秒找到100个精准客户，再也不愁KPI”",
-        "angle": "开箱体验 + 对比演示（传统找客方式 vs Lev8一键搜索）",
-        "shooting_tips": "先录一段苦哈哈手动翻LinkedIn找人的画面，再切换到Lev8输入需求、实时生成目标清单的界面，展示信息自动补全和消息群发功能，节奏紧凑，突出‘省时’和‘精准’两个卖点。",
-        "target_audience": "销售员、商务拓展、中小创业者，以及想提升获客效率的职场人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高，操作界面可演示性强，但目标人群偏垂直，做成视频能吸引精准受众，普通观众可能只是看个热闹。"
-    },
-    {
-      "id": "1160224",
-      "name": "CartAI",
-      "name_zh": "CartAI",
-      "tagline_zh": "结算这件事，交给AI替你跑腿。",
-      "description_zh": "CartAI是一个能自动帮你在任何电商网站完成结账的AI代理。它不需要商家配合，直接像真人一样操作下单，还能和反作弊系统和平共处。开发者通过一个API就能调用四大功能：全网搜索比价、自动下单追踪、替用户保管卡信息、还能从每笔交易中给你分佣金。",
-      "intro_zh": "一句话：这就是个能帮你自动清空购物车的AI助手。如果你常在不同网站抢限量、盯补货，或者自己开发购物工具，它会像你的私人抢单员一样好用。",
-      "url": "https://www.producthunt.com/products/cartai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LZD2Q2Q6VJPRPU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4694c11a-eefc-42cc-bbe9-a7cebfaec56d.jpeg?auto=format",
-      "votes_count": 440,
-      "scores": {
-        "video_suitability": {
+        "technical_insight": {
           "score": 4,
-          "reason": "有清晰的UI操作流和自动填表下单的镜头，演示“AI替你结账”的过程很像魔法，适合录屏展示前后对比，视觉冲击力强。"
+          "reason": "多来源信息能否对应到同一个人，直接影响后续消息是否发错。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "普通人一看就懂“自动下单”这个价值，但涉及API、佣金分成等概念，纯小白会觉得离自己有点远，需要解释背景。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当天排名第2，票数440，属于高热度新品，讨论度很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "按顺序补查缺失字段的做法，可借用于其他资料整理工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "我让AI自己抢到了断货显卡…这工具比黄牛还快？",
-        "angle": "开箱体验+教程演示",
-        "shooting_tips": "先拍真实网站商品页面，再触发CartAI开始操作，屏幕录制自动跳转、填地址、输卡号的全过程，配上惊讶表情和计时器，突出“无需商家配合”的卖点，最后展示订单成功页。",
-        "target_audience": "喜欢海淘、抢限量球鞋/数码的潮流玩家，以及想靠AI赚佣金的轻量级开发者。"
       },
       "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "自动下单的视觉表现力强，热度也到位，虽然对普通用户有点技术门槛，但用抢货场景包装一下很容易出爆款。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重从名单继续补查资料的能力，能减少重复搜索；但身份匹配若不可靠，自动触达会放大错误。",
+      "product_analysis": {
+        "target_problem": "销售找客户时，需要确认公司是否符合条件、联系人是谁、何时适合联系。麻烦在于这些信息分散，找到名单后还要继续查。",
+        "workflow": "通过聊天描述目标，搜索客户和公司；也可用 CSV 表格补齐联系人资料。简介还支持监控购买意图信号、发送个性化的多渠道消息，但没说明这些功能如何串起来。",
+        "ai_value": "AI 参与搜索和联系人调研，并支持个性化消息。购买意图如何识别，历史简介没有解释。",
+        "differentiation": "把查资料和联系客户放在同一工具里，可能减少来回整理名单。最可能让人犹豫的是自动发送前能否检查收件人和内容。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到实时搜索、多个 AI 助手同步工作，以及瀑布式查找，即按顺序尝试不同来源补齐资料。",
+        "possible_approach": "如果自己做，可以先把找人条件拆成筛选项，再逐个来源补查缺失字段，最后用确认过的资料生成消息。",
+        "tradeoffs": "最容易错在把同名者的信息合并，导致消息引用错公司或职位，甚至发给错误的人。",
+        "unknowns": "自动发送前是否支持人工确认，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做名单补全工具时，可只对缺失字段继续查找，已确认的信息保留来源，方便用户核对。"
+      ],
+      "validation_questions": [
+        "用一份包含同名联系人的表格，检查补回的公司和职位是否属于正确的人。",
+        "检查消息自动发送前，能否逐条确认收件人和正文。"
+      ],
+      "source_tagline": "快速找到、调研并触达你要找的人",
+      "source_description": "跟Lev8聊天，就能用全网实时搜索找到目标客户和公司，AI助手遍布互联网各个角落同步工作。它能用瀑布式查找自动补齐CSV里的联系人信息，监控购买意图信号，还能帮你发送个性化的多渠道消息，一切自动运行。"
     },
     {
       "id": "1200759",
       "name": "ditto.site",
-      "name_zh": "Ditto",
-      "tagline_zh": "一键克隆任意网站，生成干净代码，永久免费开源",
-      "description_zh": "只要输入一个公开网址，Ditto 就能在几分钟内将其变成干净、组件化的 Next.js 或 Vite 代码。整个过程完全确定，所以又快又稳，成本还低。组件、设计变量、交互和悬停状态一个不落，还免费提供 REST API 和 MCP 服务器，全部开源。",
-      "intro_zh": "给网站拍个快照，立马变成干干净净的前端代码，连按钮的悬停动画都帮你保留。做竞品调研、快速搭原型的前端老哥应该会爱不释手。",
+      "name_zh": "ditto.site",
+      "tagline_zh": "一键克隆网站并生成代码，标语称永久免费且开源",
+      "description_zh": "输入公开网址，可生成组件化的 Next.js 或 Vite 项目代码；简介称能在几分钟内完成，并保留设计变量、交互和悬停状态。简介还称处理过程完全确定、速度快且成本低，并免费提供 REST API 和 MCP 服务器，全部开源。",
+      "intro_zh": "给需要复用网页界面的开发者用，输入公开网址，生成可继续修改的前端项目代码。",
       "url": "https://www.producthunt.com/products/ditto-site?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HMFIHL7XJ25WLP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5b962fa6-9263-43f8-8afd-434687f1a7e3.png?auto=format",
       "votes_count": 417,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 3,
+          "reason": "输入和产物清楚，但生成代码能否直接使用尚未确认。"
+        },
+        "technical_insight": {
           "score": 4,
-          "reason": "操作过程可视化，从输入URL到生成代码的前后对比很有画面感，能展示文件结构和交互复现，适合演示，但视觉冲击力中等。"
+          "reason": "把页面外观和交互还原成可维护组件，是具体且有难度的问题。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 Next.js、Vite 等技术概念，目标用户是开发者，普通人难以理解其价值和用法，使用门槛较高。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第3，获得417票，话题热度很高，属于当天的爆款产品。"
+        "transferability": {
+          "score": 4,
+          "reason": "交付可编辑项目而非截图，可借用于页面迁移工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "开源神器！一键克隆任何网站源码，前端摸鱼又多了个理由",
-        "angle": "教程演示",
-        "shooting_tips": "直接录屏，开场展示一个炫酷的网页，然后打开 Ditto 输入网址，等待几秒生成代码，接着打开代码文件，逐个文件展示组件的映射，最后在本地启动项目与原网站对比，突出交互和样式的还原度。节奏保持明快，配上轻量吐槽。",
-        "target_audience": "前端开发者、UI 还原工人、需要快速复刻页面的设计师"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然热度很高，演示效果也不错，但产品主要面向开发者，普通人理解门槛高，更适合做程序员垂直方向的内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把参考页面变成后续开发的起点；最影响判断的是，生成结果究竟只是外观接近，还是能保留可用的交互。",
+      "product_analysis": {
+        "target_problem": "开发者做页面迁移或参考实现时，需要把现有界面变成可修改代码。麻烦在于既要还原外观，也要整理组件和交互。",
+        "workflow": "输入公开网址，生成 Next.js 或 Vite 项目代码，供后续修改。这两者分别是网页开发框架和项目构建工具。",
+        "ai_value": "介绍没提 AI，主要靠网页转代码来改善体验；不能据此判断是否使用模型。",
+        "differentiation": "它试图省去手动重建界面的工作。若生成代码难以维护，开发者可能仍愿意自己写。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称过程确定、代码组件化，并提供 REST API（供程序调用的接口）和 MCP 服务器（供支持该方式的 AI 工具连接）。",
+        "possible_approach": "如果自己做，可以先读取页面结构、样式和资源，再把重复区域整理为组件，最后补上交互并生成项目。",
+        "tradeoffs": "最难的是识别页面的不同交互状态。只还原初始画面，可能看着相似，点击菜单却没有反应。",
+        "unknowns": "所谓保留交互，是否只覆盖浏览器里能直接观察到的行为？"
+      },
+      "transferable_insights": [
+        "做页面迁移工具时，可以交付可编辑项目，让用户在生成结果上继续修改，而不只拿到静态预览。"
+      ],
+      "validation_questions": [
+        "用自有测试页生成项目，检查下拉菜单的点击行为是否保留。",
+        "修改生成代码中的一个重复组件，检查相关页面是否能一致更新。"
+      ],
+      "source_tagline": "一键克隆任意网站，生成干净代码，永久免费开源",
+      "source_description": "只要输入一个公开网址，Ditto 就能在几分钟内将其变成干净、组件化的 Next.js 或 Vite 代码。整个过程完全确定，所以又快又稳，成本还低。组件、设计变量、交互和悬停状态一个不落，还免费提供 REST API 和 MCP 服务器，全部开源。"
     },
     {
-      "id": "1199341",
-      "name": "Phantomstory",
-      "name_zh": "幻影故事",
-      "tagline_zh": "两键搭建第三方博客，让你的公司在AI搜索中脱颖而出",
-      "description_zh": "Phantomstory 帮团队在5分钟内在全新域名上自动生成第三方博客，专门发布能打动AI大模型的内容，从而赢得AEO（AI搜索引擎优化）。简单点说，就是让AI更懂你的公司、更愿意推荐你，把AEO从纸上谈兵变成真实业绩。",
-      "intro_zh": "帮你一键生成独立域名的博客，自动写文章专门给AI看的，让ChatGPT这类工具更容易搜到你、推荐你。做市场推广、想提升AI搜索排名的团队都会用上。",
-      "url": "https://www.producthunt.com/products/phantomstory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SXAB23Z2C5PDRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e0026960-5a3d-4589-b123-edf74b484a38.png?auto=format",
-      "votes_count": 247,
+      "id": "1196885",
+      "name": "Rerun",
+      "name_zh": "Rerun",
+      "tagline_zh": "不用写代码，搭建 AI 助手",
+      "description_zh": "Rerun 支持不写代码搭建持续运行的 AI 助手，用于追发票、筛选客户和整理收件箱，并查看执行过程。敏感操作前会暂停等待审批；每个工作区配有独立服务器，可使用内置模型或接入自己的 API 密钥。",
+      "intro_zh": "给需要处理发票、客户和邮件的人，用无代码方式搭建 AI 助手，并查看执行过程、审批敏感操作。",
+      "url": "https://www.producthunt.com/products/rerun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XYR6JX4GTXPF64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4923cfb9-b78a-4583-94c6-b672c7f4f2d7.png?auto=format",
+      "votes_count": 333,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有后台仪表盘和建站流程可以录屏演示，但核心价值偏概念性，缺乏视觉冲击力，纯界面操作吸引力有限。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "AEO、第三方博客、域名部署等概念对普通网民较陌生，需要一定营销或SEO知识背景才能理解价值。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日第5名，获得247票，话题性较强，但尚未出圈。"
+          "reason": "任务场景明确，但自动处理的可靠程度尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "暂停审批后如何正确恢复任务，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "过程可见与关键操作审批，可借用于其他自动执行工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI时代SEO绝地反击？两键建站让大模型主动推荐你",
-        "angle": "行业解读",
-        "shooting_tips": "开头展示传统SEO在AI搜索时代失效的痛点，再用屏幕录制演示两键搭建博客的全过程，重点突出自动生成的文章和域名的快速部署，最后用数据对比展示AEO效果提升。节奏紧凑，穿插吐槽现有解决方案的复杂。",
-        "target_audience": "中小企业主、市场营销人员、对AI营销感兴趣的普通网友"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是用户能在关键操作前介入；最影响判断的是审批范围是否覆盖实际业务风险。",
+      "product_analysis": {
+        "target_problem": "处理发票、客户筛选和收件箱的人，需要减少重复事务。把任务交给 AI 后，还要知道它做了什么、哪些操作需要自己决定。",
+        "workflow": "用户无需写代码即可搭建助手，选择内置模型或使用自己的 API 密钥（调用模型的访问凭证）。运行时可查看每一步，遇到敏感操作则等待审批。",
+        "ai_value": "AI 承担追发票、筛客户、整理邮件等事务；具体如何理解任务、判断客户，简介没有展开。",
+        "differentiation": "它把查看执行过程和人工审批放进自动任务中。最可能让人犹豫的是，仍不清楚哪些操作会被拦下。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到每个工作区有独立服务器，并支持内置模型及自带 API 密钥。",
+        "possible_approach": "如果自己做，可以先把任务拆成可记录的步骤，再在敏感操作前保存进度，等审批后继续。",
+        "tradeoffs": "最容易出错的是审批后恢复任务：若重复执行已完成的步骤，可能重复发送催款邮件。",
+        "unknowns": "敏感操作由系统预设，还是允许用户自行定义？"
+      },
+      "transferable_insights": [
+        "做自动处理业务的工具时，可让用户看到当前步骤，并在对外发送或修改数据前确认。"
+      ],
+      "validation_questions": [
+        "让助手准备发送催款邮件，检查是否会在发送前暂停审批。",
+        "批准暂停中的任务后，检查同一封邮件是否只发送一次。"
+      ],
+      "source_tagline": "零代码打造全能AI助手",
+      "source_description": "大多数AI代理像个黑箱，Rerun完全透明。不用写代码，就能搭建全天候自动运行的AI助手，帮你追发票、筛客户、清收件箱，还能实时观察它每一步在做什么。处理敏感操作前会暂停等你审批，每个工作区都有独立服务器，可以从内置模型开始，也能接上你自己的API密钥。"
+    },
+    {
+      "id": "1195651",
+      "name": "Jockey by TwelveLabs ",
+      "name_zh": "Jockey by TwelveLabs",
+      "tagline_zh": "可用来查询整个媒体库的视频 AI 助手",
+      "description_zh": "Jockey 支持按人物、瞬间或上下文查找照片和视频，简介称其由 TwelveLabs 模型驱动，并会“越用越聪明”。它支持接入 Claude、ChatGPT，也提供 API，供开发者搭建媒体查询应用。",
+      "intro_zh": "给需要查找照片和视频素材的人，用人物、场景或上下文描述，找出媒体库里的相关内容。",
+      "url": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DTYSOPLK3L2DRF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/25170d90-bd88-4c39-8261-4ecdef040abb.png?auto=format",
+      "votes_count": 206,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "素材查找场景清楚，但检索准确性尚未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把描述对应到视频片段值得思考，但实现披露有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按内容描述检索素材的做法，可借给其他资料库产品。"
+        }
       },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "概念偏前瞻，普通用户理解门槛高，画面表现力一般，更适合垂直行业深度解读而非大众吸睛。"
-    },
-    {
-      "id": "1198012",
-      "name": "CreateOS Sandbox",
-      "name_zh": "CreateOS 沙盒",
-      "tagline_zh": "AI智能体的即时硬件隔离沙箱",
-      "description_zh": "CreateOS沙盒为 AI 智能体构建者提供了一套即时、安全、硬件隔离的沙箱环境，启动速度极快，大约 30 毫秒就能就绪。它提供 CLI、SDK、50 多个真实案例、Claude 插件等，让你轻松集成和测试自己的 AI 代理。",
-      "intro_zh": "给 AI 智能体用的安全测试环境，启动飞快，还能完全硬件隔离。如果你在开发 AI 代理，需要一个靠谱的沙箱来跑代码，这个挺方便。",
-      "url": "https://www.producthunt.com/products/createos-sandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CRR2A5MOXBPBOZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c843bb87-37bf-4e35-aa08-0c2e122413bd.jpeg?auto=format",
-      "votes_count": 178,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要是命令行和代码示例演示，缺乏直观的 UI 界面和视觉冲击力，视频展示效果有限。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "面向开发者，需要了解 AI 代理和容器化概念，普通用户难以理解和使用。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "在 ProductHunt 排名第 8，获得 178 票，有一定关注度但未达热门爆款级别。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重按记忆中的画面找素材；最影响判断的是，它能否找到具体片段，而不只返回大致相关的视频。",
+      "product_analysis": {
+        "target_problem": "管理大量照片和视频的人，可能记得画面，却不记得文件名。它面向这类“知道要找什么，但不知道存在哪”的查找任务。",
+        "workflow": "围绕媒体库，按人物、瞬间或上下文提出查询，获取相关内容。介绍没有说明媒体如何接入，也没展示结果形式。",
+        "ai_value": "AI 将用户的描述与照片、视频内容对应起来，帮助查找素材。“越用越聪明”没有解释具体机制。",
+        "differentiation": "它提供按画面含义查找的方式，可能减少逐个翻看的时间。最可能阻碍迁移的是查找结果不够可靠。"
       },
-      "video_inspiration": {
-        "title_idea": "给AI智能体一个安全的小房间！CreateOS沙盒开箱体验",
-        "angle": "教程演示",
-        "shooting_tips": "录制终端操作，展示从安装 CLI 到创建沙箱的全过程，用计时器强调 30 毫秒启动速度，对比普通容器启动时间的差异，同时运行一个简单的 AI 代理示例演示隔离效果。",
-        "target_audience": "对 AI 智能体开发感兴趣的程序员和技术爱好者"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 TwelveLabs 模型、Claude 和 ChatGPT 接入，以及 API（供软件互相调用功能的接口）。",
+        "possible_approach": "如果自己做，可以先把照片和视频片段整理成可检索的内容记录，再把用户描述与记录匹配，返回原素材位置。",
+        "tradeoffs": "最难的是判断描述是否真的对应画面。若只找到主题相近的素材，用户仍要逐个核对。",
+        "unknowns": "视频结果能否直接定位到相关片段，介绍没有说明。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然面向技术人群且视觉表现力一般，但作为开发工具有清晰的演示价值，适合教程类内容。"
+      "transferable_insights": [
+        "做素材管理产品时，可以让用户用“谁在什么场景做什么”来查询，补充文件名和标签搜索。"
+      ],
+      "validation_questions": [
+        "用一段已知存在的具体画面描述查询，检查能否找到正确素材。",
+        "查询长视频中的某个瞬间，检查结果能否直接跳到对应位置。"
+      ],
+      "source_tagline": "能读懂你整个媒体库的视频AI助手",
+      "source_description": "Jockey是第一个能像你一样理解所有照片视频的AI，它可以按人物、瞬间或上下文，搜到库里的任何内容。背后由TwelveLabs的先进模型驱动，越用越聪明。支持接入Claude、ChatGPT，也能用API自己搭建应用，让你的媒体库瞬间变得可问可查。"
     },
     {
       "id": "1201330",
       "name": "Skim",
       "name_zh": "Skim",
-      "tagline_zh": "免费开源的 Windows AI 邮件客户端，极简、轻快、零追踪",
-      "description_zh": "Skim 是一款 Windows 平台的免费开源邮件客户端，极致精简，没有日历、规则引擎等臃肿功能，按钮少，认知负担低。采用 Rust 原生内核，安装包仅约 5MB，冷启动不到一秒，全文搜索即时响应。数据完全本地存储，支持离线使用，无任何遥测。AI 功能可选择自带 Anthropic 或 OpenRouter 密钥，让 AI 用你的口吻草拟回信，并能在整个邮箱中回答问题。",
-      "intro_zh": "一个超轻量的 Windows 邮箱，砍掉所有花哨功能，只留纯粹的收发体验。配上你自己的 AI 密钥，还能让它帮你回信、搜邮件。受够了臃肿的 Outlook 又想白嫖智能助手的人，可以试试。",
+      "tagline_zh": "免费开源的 Windows AI 邮件客户端，主打精简和无追踪",
+      "description_zh": "Skim 是免费开源的 Windows 邮件客户端，省去日历和规则引擎，支持本地存储、离线使用，并称不收集遥测数据；缓存介绍称其采用 Rust 原生内核，安装包约 5MB，冷启动不到一秒，全文搜索即时响应。用户可自行提供 Anthropic 或 OpenRouter 密钥，让 AI 按自己的口吻草拟回信，或回答涉及整个邮箱的问题。",
+      "intro_zh": "给主要在 Windows 上处理邮件的人用，集中阅读、搜索邮件，并可接入 AI 草拟回信和查询邮箱内容。",
       "url": "https://www.producthunt.com/products/skim-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/67IYQDOUMJ4LK4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/92aa73bd-e14f-4d33-a11e-316b3aba66cc.png?auto=format",
       "votes_count": 171,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "邮件客户端拥有完整的图形界面，可直观展示 UI 操作、极速启动对比和 AI 自动回复的生成过程，画面观感清晰，容易制造视觉记忆点。"
+          "reason": "邮件搜索和回信场景清楚，但实际收益尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "邮件收发本身简单，但 AI 功能要求用户自行申请并配置第三方 API 密钥，对普通用户有一定技术门槛，不是开箱即用。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "本地存储与外部 AI 如何划分邮件数据范围，是具体问题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "当日排名第 9，获得 171 票，话题性中等，尚未成为爆款，但口碑趋势不错。"
+        "transferability": {
+          "score": 4,
+          "reason": "精简主界面、让用户自选是否接入 AI 的做法可以借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "5MB 的 Windows 邮箱，冷启动不到 1 秒，还送一个 AI 秘书？",
-        "angle": "开箱体验 + 功能演示",
-        "shooting_tips": "先录屏展示从下载、秒装、秒开的速度感，与 Outlook 启动速度做对比；然后演示极简界面，突出无侧边栏无广告的清爽；再展示一键配置 AI 密钥后，让 AI 根据邮件内容生成回复并搜索历史邮件；结尾可以放大小对比图（5MB vs 几GB的传统客户端）。",
-        "target_audience": "追求效率和隐私的 Windows 上班族、极简主义者、不想被复杂邮箱折磨的学生。"
-      },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面演示生动，轻量极速卖点突出，适合视频呈现；但 AI 配置步骤会让部分小白观众望而却步，需要适当简化说明。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重把邮件处理收拢到少量操作中；最影响判断的是，用户能否看清并控制 AI 读取和外发的范围。",
+      "product_analysis": {
+        "target_problem": "主要处理邮件、不需要日历和复杂规则的 Windows 用户，可能更在意少找按钮、少翻邮件。",
+        "workflow": "在客户端阅读和全文搜索邮件，也可离线使用。需要 AI 时，提供自己的服务密钥，再让它草拟回信或回答邮箱问题；介绍未交代邮箱接入步骤。",
+        "ai_value": "AI 负责按用户口吻起草回复，以及从邮箱内容回答问题。是否能准确引用邮件，介绍没说。",
+        "differentiation": "它把功能集中在邮件处理上，可能减少界面干扰；但依赖规则自动整理邮件的人，可能不愿迁移。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存介绍称采用 Rust 原生内核、本地存储且无遥测，AI 可接入 Anthropic 或 OpenRouter。",
+        "possible_approach": "如果自己做，可以先把邮件保存在本机并建立搜索索引，再找出与问题相关的邮件片段，交给用户选定的 AI 生成答案。",
+        "tradeoffs": "最容易出错的是发送给外部 AI 的邮件范围。若夹带无关内容，用户可能在不知情时传出敏感信息。",
+        "unknowns": "本地存储不等于 AI 本地运行；介绍没有说明调用 AI 时会发送哪些邮件内容。"
+      },
+      "transferable_insights": [
+        "做文档或邮件工具时，可以把阅读、搜索保留为基础功能，让用户主动开启需要外部服务的 AI 功能。"
+      ],
+      "validation_questions": [
+        "触发一次 AI 回信时，能否确认实际发送了哪些邮件内容？",
+        "用一封已知邮件提问，答案能否准确指回原邮件？"
+      ],
+      "source_tagline": "免费开源的 Windows AI 邮件客户端，极简、轻快、零追踪",
+      "source_description": "Skim 是一款 Windows 平台的免费开源邮件客户端，极致精简，没有日历、规则引擎等臃肿功能，按钮少，认知负担低。采用 Rust 原生内核，安装包仅约 5MB，冷启动不到一秒，全文搜索即时响应。数据完全本地存储，支持离线使用，无任何遥测。AI 功能可选择自带 Anthropic 或 OpenRouter 密钥，让 AI 用你的口吻草拟回信，并能在整个邮箱中回答问题。"
     },
     {
       "id": "1201336",
       "name": "Manifest",
       "name_zh": "Manifest",
-      "tagline_zh": "把任何网页变成AI智能体能看懂的“行动地图”",
-      "description_zh": "Manifest 能把任何网页自动转换成结构化的 JSON 地图，让 AI 智能体知道哪里可以点击、哪里能填写、哪里是提交按钮。没有脆弱的元素选择器，只需一个 API 调用，每个操作都自带 CSS 或 role 定位器，还能自动关联元素之间的依赖关系，比如“先选套餐，按钮才能点”，这是普通页面快照做不到的。自带 Python SDK、LangChain 支持和 MCP 服务器，专为开发浏览器智能体的团队而生。",
-      "intro_zh": "这玩意儿能把普通网页当场变成AI助手能看懂的操作说明书，什么能点、什么能填、什么能提交，都自动标得明明白白，还带依赖顺序。做浏览器自动化的码农和智能体开发者应该会很喜欢，省去一大把写定位器的功夫。",
+      "tagline_zh": "把网页转成 AI 智能体可读取的行动地图",
+      "description_zh": "Manifest 将网页转换成结构化 JSON 地图，标出可点击、填写和提交的位置，并关联操作之间的依赖关系。介绍称一次 API 调用即可获取地图，每项操作附带 CSS 或 role 定位器，并提供 Python SDK、LangChain 支持和 MCP 服务器。",
+      "intro_zh": "给开发浏览器智能体的团队用，把网页里的可操作位置和前置条件整理成机器可读的地图。",
       "url": "https://www.producthunt.com/products/manifest-363?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4LLV6WKBOFMLGR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9e79d4a9-1f95-4fe7-9944-07846997ba8b.png?auto=format",
       "votes_count": 153,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有丰富的UI操作和前后对比：可以展示抓取网页→生成结构化操作地图→AI智能体自动执行填表点击的全过程，画面感强，适合录屏演示。"
+          "reason": "对象和用途清楚，但复杂网页上的可用程度仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "核心概念‘AI智能体操作网页’普通人能理解，但涉及API、SDK、JSON地图等，纯小白上手有一点门槛，需要稍微解释技术背景。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "产品排 PH 第10名，153票，属于中上热度，有一定话题性。"
+          "reason": "如何识别按钮可用的前置条件，是一个具体且影响执行的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把操作与前置条件一起交给执行程序，适合借用到表单自动化。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "随便丢个网址进去，AI自己就会填表、点按钮了！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示：打开一个复杂网页（比如机票预订），调用Manifest API生成操作地图，然后用一个LangChain智能体自动完成选日期、填信息、提交，突出原来的脆弱选择器容易失效，而Manifest一键生成稳定定位，节奏先慢后快，卖点是‘告别 XPath 噩梦’。",
-        "target_audience": "对AI自动化感兴趣的程序员、独立开发者、喜欢折腾自动化脚本的极客。"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是它把操作前置条件也交给智能体；最影响判断的是动态页面变化后，这些信息还能否保持准确。",
+      "product_analysis": {
+        "target_problem": "开发浏览器智能体时，程序既要找到按钮，也要知道何时能点。只识别出页面元素，还不足以安排操作顺序。",
+        "workflow": "开发者调用接口，取得网页的结构化地图。智能体可据此找到操作位置，并读取“先选套餐才能提交”之类的依赖关系。",
+        "ai_value": "它给 AI 智能体提供可操作的页面信息；介绍没说生成地图是否使用 AI。",
+        "differentiation": "它试图减少开发者另写操作前置条件的工作。但地图是否可靠，可能决定团队是否愿意接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "输出 JSON（结构化数据）；操作附 CSS 或 role 定位器（按样式规则或控件角色找元素），并关联依赖关系。",
+        "possible_approach": "如果自己做，可以先读取网页控件和状态，再把动作及定位方式整理成地图，最后通过状态变化识别前置条件。",
+        "tradeoffs": "最难的是把依赖关系判断对。漏掉必填项时，智能体可能反复点击无法提交的按钮。",
+        "unknowns": "页面变化后，地图是否会同步更新？"
+      },
+      "transferable_insights": [
+        "做表单自动化时，把“能做什么”和“做之前必须满足什么”一起输出，帮助执行程序安排顺序。"
+      ],
+      "validation_questions": [
+        "找一个必须先选套餐才能提交的页面，检查地图是否准确标出这项依赖。",
+        "切换页面选项后，检查地图是否更新了按钮的可用状态。"
+      ],
+      "source_tagline": "把任何网页变成AI智能体能看懂的“行动地图”",
+      "source_description": "Manifest 能把任何网页自动转换成结构化的 JSON 地图，让 AI 智能体知道哪里可以点击、哪里能填写、哪里是提交按钮。没有脆弱的元素选择器，只需一个 API 调用，每个操作都自带 CSS 或 role 定位器，还能自动关联元素之间的依赖关系，比如“先选套餐，按钮才能点”，这是普通页面快照做不到的。自带 Python SDK、LangChain 支持和 MCP 服务器，专为开发浏览器智能体的团队而生。"
+    },
+    {
+      "id": "1160224",
+      "name": "CartAI",
+      "name_zh": "CartAI",
+      "tagline_zh": "让 AI 代办电商结账。",
+      "description_zh": "缓存简介称，CartAI 能像人一样操作电商网站，替用户结账，无需商家配合，并宣称可适用于任何电商网站、兼容反作弊系统。开发者可通过 API 调用搜索比价、下单追踪、卡信息保管和交易分佣功能；这些说法未重新核验。",
+      "intro_zh": "给购物助手开发者用，把搜索比价、代用户下单和订单追踪接进自己的产品。",
+      "url": "https://www.producthunt.com/products/cartai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LZD2Q2Q6VJPRPU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4694c11a-eefc-42cc-bbe9-a7cebfaec56d.jpeg?auto=format",
+      "votes_count": 440,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "代办购买的用途清楚，但可用网站和付款成功率不明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "付款后如何确认订单，直接关系到是否重复扣款。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把购买动作做成可调用功能有参考性，但适用范围待确认。"
+        }
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示效果好，AI浏览器自动化话题正热，但受众偏技术向，小白理解有一定门槛，适合面向开发者的硬核测评。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把推荐继续推进到购买；但“任何网站都能结账”的范围过宽，必须先核实目标商家是否可用。",
+      "product_analysis": {
+        "target_problem": "做购物助手的开发者，需要把商品推荐接到实际购买。麻烦在于购买还涉及填写结账信息和确认订单。",
+        "workflow": "开发者通过 API（让软件互相传数据的连接方式）调用比价、下单和追踪功能。用户授权及付款确认步骤，简介没交代。",
+        "ai_value": "AI 代理负责像人一样操作网站完成结账。介绍没有说明它如何识别页面或判断操作结果。",
+        "differentiation": "它试图省去逐家争取商家配合的工作。我会先确认网站覆盖范围，这可能决定开发者是否愿意接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI 代理、API 调用和卡信息保管，未说明具体技术。",
+        "possible_approach": "如果自己做，可以先限定支持的网站，让用户确认商品和金额，再自动操作页面，并保存订单结果。",
+        "tradeoffs": "最容易出错的是付款后没收到确认。若直接重试，可能重复下单；若直接报失败，用户可能再次购买。",
+        "unknowns": "哪些网站和结账情形真正受支持，介绍没有给出边界。"
+      },
+      "transferable_insights": [
+        "做购物助手时，可以把比价与购买分别做成可调用动作，让用户确认后再付款。"
+      ],
+      "validation_questions": [
+        "选一个目标商家，检查它能否完成一次真实结账。",
+        "模拟付款后连接中断，检查重试是否产生重复订单。"
+      ],
+      "source_tagline": "结算这件事，交给AI替你跑腿。",
+      "source_description": "CartAI是一个能自动帮你在任何电商网站完成结账的AI代理。它不需要商家配合，直接像真人一样操作下单，还能和反作弊系统和平共处。开发者通过一个API就能调用四大功能：全网搜索比价、自动下单追踪、替用户保管卡信息、还能从每笔交易中给你分佣金。"
+    },
+    {
+      "id": "1199341",
+      "name": "Phantomstory",
+      "name_zh": "Phantomstory",
+      "tagline_zh": "两键搭建第三方博客，帮助公司争取在 AI 搜索中获得更多展示",
+      "description_zh": "Phantomstory 帮团队在新域名上自动生成第三方博客，用来发布面向 AI 搜索的公司内容，介绍称可在 5 分钟内完成。它希望借此让 AI 更了解并推荐公司，但缓存资料没有提供效果证据。",
+      "intro_zh": "给想增加 AI 搜索曝光的市场团队用，在新域名上自动搭建博客，发布介绍公司的内容。",
+      "url": "https://www.producthunt.com/products/phantomstory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SXAB23Z2C5PDRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e0026960-5a3d-4589-b123-edf74b484a38.png?auto=format",
+      "votes_count": 247,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "建博客的用途清楚，但能否增加 AI 推荐仍缺证据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "发布内容后能否被 AI 搜索采纳，是具体且值得验证的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "自动建站可借鉴，但独立域名是否有额外收益尚不清楚。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "自动建站是明确的省事点；我最在意的是，新域名上的内容能否带来可观察的搜索变化，而不只是多出一个博客。",
+      "product_analysis": {
+        "target_problem": "市场团队想让公司出现在 AI 搜索答案里，但发布公司资料后，能否被找到和引用并不由自己决定。",
+        "workflow": "介绍支持的流程是：在新域名上自动生成博客，再发布面向 AI 搜索的内容。需要提供哪些资料、是否自动写稿，没有说明。",
+        "ai_value": "这里的 AI 主要是希望影响的搜索对象。介绍未明确说产品是否用 AI 写稿，不能把自动建站等同于 AI 生成内容。",
+        "differentiation": "它把建站这一步自动化了。最可能让团队犹豫的是：多维护一个站点，却未必换来更多推荐。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到在新域名上自动生成博客，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先用模板生成博客，再把公司核实过的资料整理成页面并发布到新域名。",
+        "tradeoffs": "最难的是让外部搜索系统采纳内容。即使页面发布成功，也可能不被引用，用户不能把上线当成曝光增长。",
+        "unknowns": "所谓第三方博客，是否会向读者说明与公司的关系？"
+      },
+      "transferable_insights": [
+        "做企业内容工具时，可以把建站和发布合成一次操作，减少团队在网站配置上的工作。"
+      ],
+      "validation_questions": [
+        "用一份公司资料建站，检查生成内容是否出现资料中没有的事实。",
+        "固定一组相关搜索问题，比较发布前后 AI 答案是否新增对该公司的推荐。"
+      ],
+      "source_tagline": "两键搭建第三方博客，让你的公司在AI搜索中脱颖而出",
+      "source_description": "Phantomstory 帮团队在5分钟内在全新域名上自动生成第三方博客，专门发布能打动AI大模型的内容，从而赢得AEO（AI搜索引擎优化）。简单点说，就是让AI更懂你的公司、更愿意推荐你，把AEO从纸上谈兵变成真实业绩。"
+    },
+    {
+      "id": "1198043",
+      "name": "Routine AI",
+      "name_zh": "Routine AI",
+      "tagline_zh": "用语音管理工作的助手",
+      "description_zh": "Routine AI 支持用说话的方式管理任务、日历、笔记和项目。简介列出的用途包括安排会议、添加提醒、记录灵感、写笔记、搜索资料、更新进度和自动化重复工作。",
+      "intro_zh": "给需要管理日程和项目的上班族，用语音安排会议、记录想法，并更新任务进度。",
+      "url": "https://www.producthunt.com/products/routine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5CQA6DGZBK2NA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3764b1b8-cfd3-4440-8d62-939e72d74303.png?auto=format",
+      "votes_count": 238,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "语音处理工作事项的用途明确，但能否准确执行还需确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把口头表达变成正确操作有具体难点，但实现信息很少。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "语音直接创建工作事项可以借鉴，适用范围取决于识别准确度。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是把临时想法直接变成可处理的工作事项。最大的疑问是，遇到不明确的指令时，它能否先问清楚再动手。",
+      "product_analysis": {
+        "target_problem": "适合临时想到任务、需要安排会议或更新项目进度的人。它试图减少把口头想法整理成工作记录的操作。",
+        "workflow": "用户说出要安排、记录或更新的事项，工具据此处理对应内容。简介未说明是否需要确认后才执行。",
+        "ai_value": "介绍把语音表达作为操作入口，但没交代 AI 如何理解指令、处理含糊信息。",
+        "differentiation": "它把多类工作事项放进同一个语音入口。可能让人不愿换用的原因是：检查执行结果比自己填写还费事。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确支持自然语言语音操作和重复工作自动化，未说明具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再识别要做的事和日期等信息，交给相应功能执行。",
+        "tradeoffs": "最容易错的是把含糊表达直接变成操作。例如日期理解错了，会议就可能排到错误时间。",
+        "unknowns": "执行前能否让用户核对关键内容？"
+      },
+      "transferable_insights": [
+        "做任务或日历工具时，可以先支持“说一句话创建一条事项”，把识别出的标题和时间展示出来再确认。"
+      ],
+      "validation_questions": [
+        "说“下周三下午提醒我交方案”，检查生成的日期和时间是否正确。",
+        "故意要求更新一个同名任务，检查它会先询问，还是直接修改。"
+      ],
+      "source_tagline": "用声音掌控工作，打工人专属的 Siri 来了",
+      "source_description": "Routine AI 让你用说话就能管好任务、日历、笔记和项目。自然地开口，就能安排会议、添加提醒、捕捉灵感、写笔记、搜资料、更新进度，还把重复工作自动化。"
+    },
+    {
+      "id": "1198012",
+      "name": "CreateOS Sandbox",
+      "name_zh": "CreateOS Sandbox",
+      "tagline_zh": "为 AI 智能体提供即时可用、硬件隔离的沙箱",
+      "description_zh": "CreateOS Sandbox 为 AI 智能体开发者提供硬件隔离的沙箱环境，简介称约 30 毫秒即可就绪。它提供 CLI（命令行工具）、SDK（供程序调用的开发工具包）、50 多个案例和 Claude 插件，帮助开发者集成和测试智能体。",
+      "intro_zh": "给 AI 智能体开发者用的隔离运行环境，用来集成和测试自己的智能体。",
+      "url": "https://www.producthunt.com/products/createos-sandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CRR2A5MOXBPBOZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c843bb87-37bf-4e35-aa08-0c2e122413bd.jpeg?auto=format",
+      "votes_count": 178,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和隔离测试的需求明确，但启动速度与隔离效果未经核验。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "快速启动与隔离边界有具体问题可讨论，但缺少实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "多种接入方式配合案例可以借鉴，实际接入负担仍待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它可能减少隔离环境的准备工作；最影响判断的是硬件隔离究竟保护到哪些资源，缓存简介没有解释。",
+      "product_analysis": {
+        "target_problem": "开发会执行代码或命令的 AI 智能体时，需要限制试运行对宿主环境的影响。开发者既要准备运行环境，也要处理隔离问题。",
+        "workflow": "开发者可通过命令行工具、开发工具包或 Claude 插件接入沙箱，再集成和测试智能体。简介没有给出具体配置步骤。",
+        "ai_value": "它给 AI 智能体提供运行环境；介绍没说沙箱自身用 AI 做了什么。",
+        "differentiation": "它把现成的隔离环境和接入工具放在一起，可能减少自行搭建的工作。最可能阻碍切换的是现有任务依赖在沙箱里跑不起来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到硬件隔离，并称约 30 毫秒就绪，但没有说明隔离技术或计时条件。",
+        "possible_approach": "如果自己做，可以先准备硬件隔离的执行环境，再让程序提交任务、取回结果，最后在任务结束后清理环境。",
+        "tradeoffs": "最容易出错的是隔离边界：若宿主文件暴露给任务，智能体执行错误命令时仍可能影响外部数据。",
+        "unknowns": "约 30 毫秒是否包含任务所需依赖的准备时间？"
+      },
+      "transferable_insights": [
+        "做面向开发者的执行工具时，可以同时提供命令行入口和程序调用入口，让手动测试与正式接入共用一套能力。"
+      ],
+      "validation_questions": [
+        "用一个尝试读取宿主测试文件的任务，检查文件是否确实不可访问。",
+        "从未创建环境的状态运行代表性任务，测量到任务真正可执行需要多久。"
+      ],
+      "source_tagline": "AI智能体的即时硬件隔离沙箱",
+      "source_description": "CreateOS沙盒为 AI 智能体构建者提供了一套即时、安全、硬件隔离的沙箱环境，启动速度极快，大约 30 毫秒就能就绪。它提供 CLI、SDK、50 多个真实案例、Claude 插件等，让你轻松集成和测试自己的 AI 代理。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

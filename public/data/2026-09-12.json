@@ -1,367 +1,510 @@
 {
   "date": "2026-09-12",
-  "generated_at": "2026-09-13T20:36:55+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:29:20+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1222670",
       "name": "Youkti ",
-      "name_zh": "Youkti ",
-      "tagline_zh": "Finds who's ready to buy, then tells you what to do next ",
-      "description_zh": "Youkti keeps a memory of every account, conversation, and deal, then tells your sales team the exact next move: which deal is slipping, which dormant account just fired a signal, what to prep for tomorrow's meeting. Built for AEs, RevOps, and outbound reps. Contact data, buying signals, and intent are all free, no card, no meter.",
-      "intro_zh": "",
+      "name_zh": "Youkti",
+      "tagline_zh": "找出有购买意向的客户，再告诉你下一步做什么",
+      "description_zh": "Youkti 保存客户、对话和交易的历史，向销售团队提示哪些交易可能流失、哪些沉睡客户出现新信号，以及明天的会议该准备什么。面向客户经理、营收运营和主动开发客户的销售人员；介绍称联系人数据、购买信号和购买意向信息免费，无需绑卡、不按用量计费。",
+      "intro_zh": "给客户经理和销售运营用，保留客户往来记录，提示该跟进哪笔交易、该为会议准备什么。",
       "url": "https://www.producthunt.com/products/youkti?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AXBZALUEGRY3KK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/78a280bd-cc06-4531-8546-e148f16eaf8a.png?auto=format",
       "votes_count": 327,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跟进交易和准备会议的场景明确，但建议能否用上尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把客户历史变成可信的下一步建议，是具体问题，但实现信息很少。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕客户历史给出下一步动作，可借用于其他持续跟进的业务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把客户历史变成可执行的跟进提示；最影响判断的是，它能否区分有效购买信号和已经过时的信息。",
+      "product_analysis": {
+        "target_problem": "销售同时跟进多个客户时，需要判断谁该优先联系、哪笔交易有风险。麻烦在于要把过去的对话和新出现的信号一起看。",
+        "workflow": "产品保留客户、对话和交易历史，再提示交易风险、沉睡客户的新动向和会前准备事项。介绍没说用户怎样接入这些记录。",
+        "ai_value": "介绍没提 AI，主要靠保留历史并给出行动提示来改善体验；无法判断建议如何生成。",
+        "differentiation": "它把历史记录进一步变成跟进提示，可能减少销售自己梳理的工作。最可能让人犹豫的是：建议是否足够可信。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先按客户整理带日期的往来记录，再结合新信号生成建议，并附上对应依据。",
+        "tradeoffs": "最容易错在把过时信号当成当前意向，结果让销售追错客户，耽误更该处理的交易。",
+        "unknowns": "它如何判断一个信号仍然有效？"
+      },
+      "transferable_insights": [
+        "做客户成功工具时，可以在客户历史旁直接列出待跟进事项，并标明触发这项建议的记录。"
+      ],
+      "validation_questions": [
+        "抽查一条交易风险提示，依据是否符合这笔交易的最新情况？",
+        "导入同一客户的多次对话，检查它们能否归到正确客户名下？"
+      ],
+      "source_tagline": "Finds who's ready to buy, then tells you what to do next ",
+      "source_description": "Youkti keeps a memory of every account, conversation, and deal, then tells your sales team the exact next move: which deal is slipping, which dormant account just fired a signal, what to prep for tomorrow's meeting. Built for AEs, RevOps, and outbound reps. Contact data, buying signals, and intent are all free, no card, no meter."
     },
     {
       "id": "1241923",
       "name": "Cortex",
       "name_zh": "Cortex",
-      "tagline_zh": "Turn API specs into docs, SDKs, and MCP servers",
-      "description_zh": "Cortex is an open source API knowledge layer that turns OpenAPI, AsyncAPI, GraphQL, gRPC, and OpenRPC specs into interactive documentation, typed SDKs in 11 languages, and MCP servers for AI agents.",
-      "intro_zh": "",
+      "tagline_zh": "把 API 规范转成交互文档、开发工具包和 MCP 服务器",
+      "description_zh": "Cortex 是一个开源的 API 知识层，可处理 OpenAPI、AsyncAPI、GraphQL、gRPC 和 OpenRPC 规范。它能生成交互式文档、支持 11 种语言的带类型开发工具包，以及供 AI 智能体使用的 MCP 服务器。",
+      "intro_zh": "给需要向开发者或 AI 智能体开放接口的团队用，把接口规范转成文档和调用工具。",
       "url": "https://www.producthunt.com/products/cortex-25?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2YCIFX5SDWGMX6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2a0de04a-6204-4bf8-8682-56a4d5db6abe.png?auto=format",
       "votes_count": 291,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和产物明确，但生成结果能否直接使用尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "同一份接口规范生成多种产物，值得关注转换时是否保留原意。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "维护一份定义、生成多种使用形式的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是接口定义能同时用于文档和调用工具；关键疑问是复杂参数约束能否准确保留。",
+      "product_analysis": {
+        "target_problem": "开放 API（软件间传数据的接口）的团队，需要同时照顾人和程序的使用方式。文档、调用代码和 AI 工具若分别维护，更新时可能漏改。",
+        "workflow": "以现有接口规范为输入，生成交互文档、带类型 SDK（供程序调用接口的代码包）和 MCP 服务器（让 AI 智能体发现并调用工具的服务）。",
+        "ai_value": "明确提到的 AI 用途是让智能体使用接口，没说生成过程是否使用 AI。",
+        "differentiation": "它把多种产物的生成集中到规范上。最可能影响迁入的是：团队现有规范能否完整描述实际接口。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其开源，支持五类接口规范，并能生成 11 种语言的带类型 SDK。",
+        "possible_approach": "如果自己做，可以先把不同规范读成统一的接口清单，再分别生成文档、调用代码和 AI 工具定义。",
+        "tradeoffs": "最难的是转换时不丢掉参数约束。若必填项被误当成可选项，生成代码可能通过类型检查，却调用失败。",
+        "unknowns": "接口规范更新后，已有产物如何同步更新，介绍没说。"
+      },
+      "transferable_insights": [
+        "做需要同时服务开发者和 AI 的平台时，可以让文档与调用工具共用一份接口定义，减少重复维护。"
+      ],
+      "validation_questions": [
+        "选一个带必填参数的真实接口，检查生成的调用代码能否成功执行。",
+        "修改规范中的一个字段，检查重新生成后各项产物是否同步变化。"
+      ],
+      "source_tagline": "Turn API specs into docs, SDKs, and MCP servers",
+      "source_description": "Cortex is an open source API knowledge layer that turns OpenAPI, AsyncAPI, GraphQL, gRPC, and OpenRPC specs into interactive documentation, typed SDKs in 11 languages, and MCP servers for AI agents."
     },
     {
       "id": "1239880",
       "name": "QApilot MCP for Android",
       "name_zh": "QApilot MCP for Android",
-      "tagline_zh": "Android app testing inside your coding agent",
-      "description_zh": "QApilot MCP automates tests on real Android devices and emulators by talking to Claude, Cursor or Codex. Describe a test flow in plain English, no Appium code required. Your agent lays out the steps. QApilot runs the steps. It finds the elements, waits for the screen to settle, retries when something moves, and caches what it learns so repeat runs are faster. Every pass saves a Gherkin feature file and becomes a replayable test case. Needs Node, Java and the Android SDK.",
-      "intro_zh": "",
+      "tagline_zh": "在编程助手里测试 Android 应用",
+      "description_zh": "QApilot 可配合 Claude、Cursor 或 Codex，用英文描述测试流程，由助手规划步骤，再在 Android 真机或模拟器上执行，无需编写 Appium 测试代码。介绍称它会查找界面元素、等待画面稳定、在元素移动时重试，并缓存已学信息以加快重复运行；每次运行保存 Gherkin 格式的测试描述并形成可重放用例，运行需要 Node、Java 和 Android SDK。",
+      "intro_zh": "给 Android 开发和测试人员用，在编程助手里描述操作流程，再让工具执行并保存可重复运行的测试。",
       "url": "https://www.producthunt.com/products/qapilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CHCYBUSI4J3W2B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2478378e-5ca1-441a-bc7b-079d8ce8f12b.png?auto=format",
       "votes_count": 207,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和省去编写测试代码的好处明确，测试可靠性仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "界面变化后的元素识别与重试，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把自然语言操作保存成可重放用例，适合借用于重复性检查。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把临时描述留下来，供后续重复测试；最影响判断的是它能否识别业务失败，而不只确认操作执行完毕。",
+      "product_analysis": {
+        "target_problem": "Android 开发和测试人员需要反复检查应用流程。以前若用 Appium 编写测试，现在可以先用英文描述流程，减少手写测试代码。",
+        "workflow": "准备所需环境及真机或模拟器，在编程助手中描述流程。助手拆步骤，QApilot 执行，再保存可重放用例。",
+        "ai_value": "编程助手把自然语言流程拆成操作步骤；QApilot 负责执行。介绍没有说明元素识别是否也依赖 AI。",
+        "differentiation": "省去部分测试脚本编写工作。但仍需准备 Android 测试环境，可能让只想快速检查一次的人却步。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1247030",
-      "name": "ABrush",
-      "name_zh": "ABrush",
-      "tagline_zh": "AI Studio for Digital Artists",
-      "description_zh": "ABrush brings leading AI models and production-ready advanced AI workflows into the environment where artists already work. We use AI to remove repetitive production work, accelerate iteration, and give artists more time for creative decisions, while keeping the artist in control of the final result. AI speeds up the process and cuts the cost of routine. Created by artists, for artists.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/abrush-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WNR63HR4RGXHOI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/368823a6-baa9-4ac6-908d-1fe76533c49d.png?auto=format",
-      "votes_count": 144,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持真机和模拟器，带等待、重试及缓存；依赖 Node、Java 和 Android SDK（Android 开发工具包）。",
+        "possible_approach": "如果自己做，可以先把流程拆成操作和预期结果，再定位控件、执行并核对结果，最后存成可重放步骤。",
+        "tradeoffs": "最难的是界面变化后仍找到正确控件。重试若点到相似按钮，可能走错流程却继续执行。",
+        "unknowns": "保存的用例如何判断业务结果正确，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做重复检查工具时，可把一次自然语言任务保存成可重放步骤，让用户下次不用重新描述。"
+      ],
+      "validation_questions": [
+        "故意让预期结果不成立，检查它是否明确报失败。",
+        "移动目标按钮后重放用例，检查是否仍点中正确控件。"
+      ],
+      "source_tagline": "Android app testing inside your coding agent",
+      "source_description": "QApilot MCP automates tests on real Android devices and emulators by talking to Claude, Cursor or Codex. Describe a test flow in plain English, no Appium code required. Your agent lays out the steps. QApilot runs the steps. It finds the elements, waits for the screen to settle, retries when something moves, and caches what it learns so repeat runs are faster. Every pass saves a Gherkin feature file and becomes a replayable test case. Needs Node, Java and the Android SDK."
     },
     {
       "id": "1246379",
       "name": "Calerto for Mac",
       "name_zh": "Calerto for Mac",
-      "tagline_zh": "Full-screen meeting alerts for your Mac",
-      "description_zh": "Calerto turns your calendar into alarms you can't sleep through. Full-screen meeting alerts — not another notification you'll swipe away — with custom prep time per meeting, Apple + Google Calendar sync, a menu bar countdown to what's next, and automatic launch at login (toggle it off anytime). Pause alarms without losing them. Pro auto-alarms your whole week. Your calendar data never leaves your device. Never be late again.",
-      "intro_zh": "",
+      "tagline_zh": "Mac 上的全屏会议提醒",
+      "description_zh": "Calerto 把日历会议变成全屏提醒，支持逐场设置准备时间、同步 Apple 和 Google 日历、菜单栏倒计时，以及可关闭的登录自启。提醒可暂停而不丢失，Pro 版可为整周会议自动设提醒；介绍称日历数据不会离开设备。",
+      "intro_zh": "给容易错过会议提醒的 Mac 用户，把日历安排变成全屏提醒，并显示下一场会议倒计时。",
       "url": "https://www.producthunt.com/products/calerto-meeting-alarms?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EIMZLZC2RBYDC3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f8ea8e76-2279-4f85-8b2c-5859db05aa51.jpeg?auto=format",
       "votes_count": 121,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "漏看会议提醒的问题明确，但全屏打断是否合适取决于工作场景。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "日历变更后如何更新提醒是具体问题，介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按会议设置准备时间的做法可借用到其他日程工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我更看重逐场设置准备时间，能照顾不同会议的准备需求。最影响判断的是全屏提醒是否足够可靠，介绍没有给出异常情况下的处理信息。",
+      "product_analysis": {
+        "target_problem": "开会频繁的 Mac 用户可能会顺手划掉普通通知。Calerto 用全屏提醒，让临近会议更难被忽略。",
+        "workflow": "同步 Apple 或 Google 日历，为会议设置准备时间，再查看菜单栏倒计时并接收全屏提醒。可暂停提醒，Pro 版支持整周自动设提醒。",
+        "ai_value": "介绍没提 AI，主要靠日历同步、定时提醒和全屏显示来改善体验。",
+        "differentiation": "逐场设置准备时间，能把提醒提前到需要开始准备的时刻。全屏遮挡当前工作，也可能让人不愿长期启用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Apple 和 Google 日历同步；介绍称日历数据不离开设备，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先读取日历会议，减去准备时间来安排提醒，再在会议修改或取消时更新它。",
+        "tradeoffs": "最容易出错的是日历已改、提醒没改，用户可能被旧时间打断，或错过新时间。",
+        "unknowns": "Mac 休眠后错过的提醒，唤醒时会如何处理？"
+      },
+      "transferable_insights": [
+        "做预约或日程工具时，可让用户逐项设置准备时间，区分需要提前准备和到点参加的安排。"
+      ],
+      "validation_questions": [
+        "把已设提醒的会议改期，检查提醒是否跟着更新。",
+        "让 Mac 休眠跨过提醒时间，检查唤醒后如何补提醒。"
+      ],
+      "source_tagline": "Full-screen meeting alerts for your Mac",
+      "source_description": "Calerto turns your calendar into alarms you can't sleep through. Full-screen meeting alerts — not another notification you'll swipe away — with custom prep time per meeting, Apple + Google Calendar sync, a menu bar countdown to what's next, and automatic launch at login (toggle it off anytime). Pause alarms without losing them. Pro auto-alarms your whole week. Your calendar data never leaves your device. Never be late again."
     },
     {
       "id": "1241512",
       "name": "Kabza",
       "name_zh": "Kabza",
-      "tagline_zh": "Take over a real city map with your friends",
-      "description_zh": "Turn Noida, Delhi, Gurugram or Bengaluru into a battle with friends. Drag to send supporters, capture territory and hold 75% of the map to win. Play solo against bots or in a room of up to 8. Free in your browser. No download or account needed.",
-      "intro_zh": "",
+      "tagline_zh": "和朋友一起争夺真实城市地图上的地盘",
+      "description_zh": "把诺伊达、德里、古尔冈或班加罗尔变成与朋友对战的地图，拖动派出支持者、占领地盘，控制地图的 75% 即获胜。可单人对战电脑，也可在最多 8 人的房间游玩；浏览器内免费运行，无需下载或注册账号。",
+      "intro_zh": "给想和朋友玩占地对战的人，在真实城市地图上拖动派兵，也能单人对战电脑。",
       "url": "https://www.producthunt.com/products/kabza?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6GDIU67Q3JZ3CV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad534a46-d6fa-4218-ac82-65d741ba166c.jpeg?auto=format",
       "votes_count": 117,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "玩法和参与方式清楚，免下载、免注册减少了开局准备。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人争夺同一地盘涉及状态同步，但介绍未披露处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先让用户直接参与，再考虑账号，适合临时组局的轻量游戏。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "游戏娱乐",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重朋友不用安装和注册就能参与；最影响判断的是多人同时操作时，占领结果能否保持一致。",
+      "product_analysis": {
+        "target_problem": "朋友临时想玩一局占地游戏时，需要容易加入的入口。Kabza 提供浏览器对战，不要求先下载或注册。",
+        "workflow": "可单人对战电脑，或进入最多 8 人的房间。拖动派出支持者、占领地盘，控制地图的 75% 获胜。",
+        "ai_value": "介绍没提 AI，主要靠直接开玩的浏览器体验省事；电脑对手不等于使用了生成式 AI。",
+        "differentiation": "免去安装和注册的准备。若朋友想玩的城市不在所列四座城市中，可能降低参与兴趣。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持浏览器运行、电脑对手及最多 8 人同房；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把城市地图划成可争夺区域，再处理拖动派兵和占领规则，最后让服务器统一判定结果并发给玩家。",
+        "tradeoffs": "最难的是同时进攻时统一地盘归属。处理不好，不同玩家可能看到不同的占领结果。",
+        "unknowns": "“控制 75%”按区域数量还是地图面积计算，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做临时组局的轻量游戏时，可以借用无需账号即可参与的入口，减少邀请朋友后的准备步骤。"
+      ],
+      "validation_questions": [
+        "让两名玩家同时进攻同一区域，检查双方最终看到的归属是否一致。",
+        "用未登录的另一台设备尝试加入房间，检查是否确实无需注册即可参战。"
+      ],
+      "source_tagline": "Take over a real city map with your friends",
+      "source_description": "Turn Noida, Delhi, Gurugram or Bengaluru into a battle with friends. Drag to send supporters, capture territory and hold 75% of the map to win. Play solo against bots or in a room of up to 8. Free in your browser. No download or account needed."
     },
     {
       "id": "1245884",
       "name": "Marked Share",
       "name_zh": "Marked Share",
-      "tagline_zh": "Markdown and TextBundle editing, review, and sharing",
-      "description_zh": "Marked Share is a subproduct of Marked 3, but doesn't require Marked to use. It's a free way to share Markdown and TextBundle documents with images and attachments, allow others to highlight and comment on them, and can even publish \"blog\" feeds with RSS/Atom and Micro.blog integration. Built in editor, or a full API for integrating with your favorite editor/tool.",
-      "intro_zh": "",
+      "tagline_zh": "Markdown 与 TextBundle 文档的编辑、审阅和分享",
+      "description_zh": "Marked Share 是 Marked 3 的子产品，但无需使用 Marked 即可独立使用，可免费分享包含图片和附件的 Markdown、TextBundle 文档，并让他人高亮和评论。它还支持发布带 RSS/Atom 订阅的博客内容、集成 Micro.blog，并提供内置编辑器和供其他编辑器或工具接入的完整接口。",
+      "intro_zh": "给用 Markdown 写作、需要他人审阅的人，用来分享带图片和附件的文档，并收集高亮与评论。",
       "url": "https://www.producthunt.com/products/marked-share?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2MH5GGN2EG7Q4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5ec6e42b-008f-4828-82a8-e821f33a5a1b.png?auto=format",
       "votes_count": 100,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "分享带附件的文档并收集批注，使用场景清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "文档改动后如何保留批注位置值得关注，但介绍未说明。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "内置编辑与外部工具接入并存，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重反馈能贴着具体文字留下；但修改文档后批注是否仍可靠，会直接影响它能否用于反复审稿。",
+      "product_analysis": {
+        "target_problem": "用 Markdown 写稿的人，需要把正文、图片和附件一起交给别人审阅。麻烦在于分享内容之外，还要让反馈对应到具体段落。",
+        "workflow": "可以在内置编辑器中编辑文档，再分享给他人高亮和评论。需要持续发布时，还能发布可订阅的博客内容。",
+        "ai_value": "介绍没提 AI，主要靠文档分享、段落批注和订阅发布来改善体验。",
+        "differentiation": "它把带附件分享与批注放在一起，减少分开组织材料和反馈的需要。已有编辑器能否方便接入，可能影响用户是否愿意换用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1247937",
-      "name": "DockFix 5.0",
-      "name_zh": "DockFix 5.0",
-      "tagline_zh": "Replace the macOS Dock with one that is truly yours.",
-      "description_zh": "Replace the macOS Dock with one that is truly yours. Custom colors, icons and animations, plus widgets, window previews and a file shelf.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/dockfix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SKJQJW3HCCK5N4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/76aff051-2332-4968-a63b-1b4aed5d702d.jpeg?auto=format",
-      "votes_count": 99,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持 Markdown（纯文本标记格式）、TextBundle（把正文和资源打包的格式）、RSS/Atom（内容订阅格式），并提供 API（让软件互相传数据的接口）。",
+        "possible_approach": "如果自己做，可以先解析正文并保存图片、附件，再生成分享页面，让评论绑定到选中的文字及其前后文。",
+        "tradeoffs": "最容易出错的是改稿后批注定位失效。若只记文字位置，插入一段内容就可能让评论指向错误句子。",
+        "unknowns": "介绍没说文档更新后，已有高亮和评论如何保留。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做写作或审阅工具时，可同时提供内置编辑器和外部接入方式，让用户有机会保留原来的写作工具。"
+      ],
+      "validation_questions": [
+        "分享一份含图片和附件的文档，检查接收者能否完整查看。",
+        "在被评论段落前插入文字，检查评论是否仍指向原句。"
+      ],
+      "source_tagline": "Markdown and TextBundle editing, review, and sharing",
+      "source_description": "Marked Share is a subproduct of Marked 3, but doesn't require Marked to use. It's a free way to share Markdown and TextBundle documents with images and attachments, allow others to highlight and comment on them, and can even publish \"blog\" feeds with RSS/Atom and Micro.blog integration. Built in editor, or a full API for integrating with your favorite editor/tool."
     },
     {
       "id": "1245739",
       "name": "Wokyintosh",
       "name_zh": "Wokyintosh",
-      "tagline_zh": "Turn a spare Mac display into a retro system dashboard!",
-      "description_zh": "Wokyintosh is a free, open-source macOS dashboard inspired by the classic Macintosh. It combines a large clock and date, local weather, Apple Music and Spotify Now Playing with artwork, plus live CPU, RAM, SSD and network stats. I built it for my Wokyis M5 Retro Dock Station after months of not finding the dashboard I wanted — even among paid apps.",
-      "intro_zh": "",
+      "tagline_zh": "把 Mac 的闲置显示屏变成复古系统仪表盘",
+      "description_zh": "Wokyintosh 是一款免费、开源的 macOS 仪表盘，设计灵感来自经典 Macintosh，集中显示大号时钟、日期、本地天气、Apple Music 和 Spotify 正在播放的歌曲及封面，以及实时 CPU、内存、SSD 和网络状态。作者说，它是为自己的 Wokyis M5 Retro Dock Station 制作的，因为数月间都没找到符合需求的仪表盘，付费应用中也没有。",
+      "intro_zh": "给有闲置副屏的 Mac 用户，把时间、天气、当前歌曲和系统状态集中放在一屏。",
       "url": "https://www.producthunt.com/products/wokyintosh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DOU2O35DWJVGFT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c1ef3f07-1192-4535-b583-105295507af4.png?auto=format",
       "votes_count": 94,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "闲置副屏的用途明确，但显示兼容性和常驻体验待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多种信息持续更新时，如何控制资源占用是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把只需扫一眼的信息集中到副屏，可借用于其他常驻看板。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它给闲置副屏一个明确用途；最影响判断的是，持续显示这些信息会不会带来明显资源开销。",
+      "product_analysis": {
+        "target_problem": "有闲置副屏、想随时看时间和电脑状态的 Mac 用户会需要它。麻烦在于这些信息分属不同应用，不便集中查看。",
+        "workflow": "把仪表盘显示在副屏，查看时间、天气、当前歌曲及实时系统状态。介绍没有交代安装和配置步骤。",
+        "ai_value": "介绍没提 AI，主要靠集中展示信息来改善体验。",
+        "differentiation": "减少在多个信息入口间切换的需要。但固定看板会占用副屏，仍需用它办公的人可能不愿长期打开。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是免费、开源的 macOS 应用，支持两种音乐服务的播放信息及实时系统指标；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取系统指标和当前歌曲，再获取天气，按各自所需频率更新到同一页面。",
+        "tradeoffs": "最容易出错的是刷新安排：若所有信息都高频读取，常驻看板可能反过来增加电脑负担。",
+        "unknowns": "它能否适配普通副屏，还是主要针对作者的底座屏幕？"
+      },
+      "transferable_insights": [
+        "做设备看板时，可把经常扫一眼、很少需要操作的信息放在一起，让副屏承担持续展示。"
+      ],
+      "validation_questions": [
+        "在自己的副屏上全屏显示，检查文字是否完整可读。",
+        "持续运行时，检查仪表盘自身的 CPU 占用是否明显增加。"
+      ],
+      "source_tagline": "Turn a spare Mac display into a retro system dashboard!",
+      "source_description": "Wokyintosh is a free, open-source macOS dashboard inspired by the classic Macintosh. It combines a large clock and date, local weather, Apple Music and Spotify Now Playing with artwork, plus live CPU, RAM, SSD and network stats. I built it for my Wokyis M5 Retro Dock Station after months of not finding the dashboard I wanted — even among paid apps."
+    },
+    {
+      "id": "1247937",
+      "name": "DockFix 5.0",
+      "name_zh": "DockFix 5.0",
+      "tagline_zh": "把 macOS Dock 换成更符合自己习惯的版本。",
+      "description_zh": "DockFix 可替换 macOS Dock，并自定义颜色、图标和动画。它还提供小组件、窗口预览和文件暂存架。",
+      "intro_zh": "给想调整 Mac 程序坞的用户，用来定制外观，并在程序坞里查看窗口预览、暂存文件。",
+      "url": "https://www.producthunt.com/products/dockfix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SKJQJW3HCCK5N4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/76aff051-2332-4968-a63b-1b4aed5d702d.jpeg?auto=format",
+      "votes_count": 99,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但是否比现有程序坞顺手仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "窗口预览能否准确对应窗口，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把临时文件放在常驻入口的做法可借鉴，但操作细节不足。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重文件暂存架能否让临时文件更容易取用；但它保存的是文件本身还是位置引用，资料没有说明。",
+      "product_analysis": {
+        "target_problem": "想定制 Mac 程序坞、同时查看窗口和暂存文件的人会用它。它把这些功能放在同一入口，但简介没说明用户原来如何完成这些事。",
+        "workflow": "用 DockFix 替换 Dock，再定制颜色、图标和动画。也可使用小组件、窗口预览和文件暂存架；具体操作未说明。",
+        "ai_value": "介绍没提 AI，主要靠外观定制和增加程序坞功能来改善体验。",
+        "differentiation": "它可能减少查看窗口、取用暂存文件时的来回切换。最可能让人不愿换的是对替代程序坞稳定性的顾虑。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先做常驻程序栏和外观设置，再读取应用窗口信息，生成对应预览，最后加入文件暂存区。",
+        "tradeoffs": "最容易出错的是预览与实际窗口的对应关系。窗口关闭或切换后若没及时更新，用户可能看到过期画面。",
+        "unknowns": "窗口预览需要用户授予哪些系统权限？"
+      },
+      "transferable_insights": [
+        "做桌面工具时，可以把临时文件暂存区放在常驻入口，方便后续取用。先做好暂存和取回，再考虑更多整理功能。"
+      ],
+      "validation_questions": [
+        "连续打开、关闭同一应用的多个窗口，检查预览是否及时更新。",
+        "把测试文件放入暂存架后重启 DockFix，检查文件是否仍可取回。"
+      ],
+      "source_tagline": "Replace the macOS Dock with one that is truly yours.",
+      "source_description": "Replace the macOS Dock with one that is truly yours. Custom colors, icons and animations, plus widgets, window previews and a file shelf."
     },
     {
       "id": "1239632",
       "name": "Stackness",
       "name_zh": "Stackness",
-      "tagline_zh": "Show your stack! The social home for your dev tools",
-      "description_zh": "Stackness is where developers and vibe coders show the tools, workflows, and approaches they build with. Build a stack profile you share as one link, post your moves, follow people whose taste you trust, and watch tools rise and fall. Free and with an MCP server.",
-      "intro_zh": "",
+      "tagline_zh": "展示你的工具组合，和开发者交流",
+      "description_zh": "Stackness 供开发者和用 AI 辅助编程的人展示工具、工作流与开发方法，把工具组合做成可用一个链接分享的个人页。用户可以发布动态、关注信任的人、观察工具热度变化；介绍称产品免费，并提供 MCP 服务。",
+      "intro_zh": "给开发者和用 AI 辅助编程的人用，把常用工具整理成分享页，也能关注别人如何选工具。",
       "url": "https://www.producthunt.com/products/stackness?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NHEA5EBWIJFZS2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/204c1948-355d-4d83-8aef-1135095c39f5.png?auto=format",
       "votes_count": 92,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "展示工具与关注同行的场景清楚，但能否持续获得有用内容尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "工具热度如何统计是具体问题，但介绍没有交代方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把工具组合做成单链接个人页，适合借用于专业社区。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把工具组合变成可分享的交流起点。最影响判断的是，个人页是否有足够的使用方法说明，避免只剩工具名称列表。",
+      "product_analysis": {
+        "target_problem": "开发者想介绍自己用什么、怎么做，也想参考信任的同行。麻烦在于，单独看工具名称，很难了解一个人的完整工作方式。",
+        "workflow": "建立工具组合个人页，用一个链接分享。再发布动态、关注他人，查看工具热度变化。",
+        "ai_value": "介绍没提 AI 功能，主要靠个人页、动态和关注关系改善交流体验。面向 AI 编程用户不等于产品自身用了 AI。",
+        "differentiation": "一个链接就能分享整套工具组合。可能让人不愿迁入的原因是，信任的同行还不在这里。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 MCP 服务，即供 AI 应用连接外部工具或数据的服务，但没说开放哪些操作。",
+        "possible_approach": "如果自己做，可以先让用户选择工具、补充使用方法，生成公开页；再加入动态和关注，按统一规则统计工具热度。",
+        "tradeoffs": "最容易出错的是把同一工具的不同写法算成多个工具，导致热度被拆散，用户可能误判趋势。",
+        "unknowns": "工具热度依据用户填写、动态提及，还是其他数据计算？"
+      },
+      "transferable_insights": [
+        "做专业社区时，可以让用户先整理一页常用工具和使用方法，再用单链接对外分享，给交流提供具体背景。"
+      ],
+      "validation_questions": [
+        "分享链接后，未登录的人能否看完整工具组合？",
+        "同一工具的别名是否会被归到同一条目？"
+      ],
+      "source_tagline": "Show your stack! The social home for your dev tools",
+      "source_description": "Stackness is where developers and vibe coders show the tools, workflows, and approaches they build with. Build a stack profile you share as one link, post your moves, follow people whose taste you trust, and watch tools rise and fall. Free and with an MCP server."
+    },
+    {
+      "id": "1247030",
+      "name": "ABrush",
+      "name_zh": "ABrush",
+      "tagline_zh": "面向数字艺术家的 AI 工作室",
+      "description_zh": "ABrush 将 AI 模型和制作流程带入艺术家已有的工作环境，旨在减少重复制作、加快迭代。产品介绍称，这能让艺术家留出更多时间做创作决策，同时保留对最终结果的控制。",
+      "intro_zh": "面向数字艺术家，把 AI 处理重复制作任务的能力放进现有工作环境，辅助作品迭代。",
+      "url": "https://www.producthunt.com/products/abrush-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WNR63HR4RGXHOI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/368823a6-baa9-4ac6-908d-1fe76533c49d.png?auto=format",
+      "votes_count": 144,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "受众和问题清楚，但没有具体任务或省时效果的材料。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "没有说明具体制作任务和接入方式，难以判断技术含量。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把辅助操作放进用户熟悉的环境有借鉴意义，但实现细节不足。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我最看重减少工具切换的可能性；但没有具体任务示例，还无法判断它能省掉多少实际操作。",
+      "product_analysis": {
+        "target_problem": "数字艺术家在反复修改作品时，会遇到重复制作工作。ABrush 想减少这部分操作，把时间留给创作判断。",
+        "workflow": "介绍只说明在艺术家已有的工作环境中使用 AI 模型和制作流程，并由艺术家控制最终结果。具体如何提交任务、检查和采用结果，没有交代。",
+        "ai_value": "AI 被用于辅助重复制作和作品迭代。具体处理哪些任务不明确，提速和降成本仍是产品方的说法。",
+        "differentiation": "它强调把 AI 带进原有工作环境，可能减少切换工具。若不支持用户惯用的软件，这个好处就难以兑现。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 模型和制作流程，但没说具体用什么模型或接入技术。",
+        "possible_approach": "如果自己做，可以先选一种明确的重复任务，再把素材提交、结果预览和确认采用放进常用创作软件。",
+        "tradeoffs": "最难的是让 AI 修改可控。若结果无法局部撤回，艺术家可能需要额外返工。",
+        "unknowns": "所谓已有工作环境，具体支持哪些软件？"
+      },
+      "transferable_insights": [
+        "做创作辅助工具时，可以先围绕一种高频重复任务提供预览和确认采用，让用户决定哪些改动进入作品。"
+      ],
+      "validation_questions": [
+        "能否在目标艺术家日常使用的软件中完成一次 AI 任务？",
+        "不满意 AI 结果时，能否撤回该次修改并保留此前的作品状态？"
+      ],
+      "source_tagline": "AI Studio for Digital Artists",
+      "source_description": "ABrush brings leading AI models and production-ready advanced AI workflows into the environment where artists already work. We use AI to remove repetitive production work, accelerate iteration, and give artists more time for creative decisions, while keeping the artist in control of the final result. AI speeds up the process and cuts the cost of routine. Created by artists, for artists."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

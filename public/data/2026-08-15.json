@@ -1,357 +1,510 @@
 {
   "date": "2026-08-15",
-  "generated_at": "2026-08-16T15:38:36+08:00",
+  "generated_at": "2026-11-07T15:36:12+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1218955",
-      "name": "Attyn",
-      "name_zh": "Attyn（光标智能助手）",
-      "tagline_zh": "把智能带到你的光标上",
-      "description_zh": "Attyn 是一个 macOS 应用，让你在正在用的任何软件里，光标处就能调用 AI。你可以选中文字直接改写，用实时听写把语音转成文字，针对屏幕内容提问，还能把问题变成黑板风格的视觉解释。新用户注册送 500 积分，也可以接自己的模型。",
-      "intro_zh": "在 Mac 上给光标加了 AI 外挂，选中文字就能改写，还能听写和问屏幕内容。常在各种软件里写东西、查资料的上班族和学生党会很喜欢。",
-      "url": "https://www.producthunt.com/products/attyn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JK4EMFX3J4PIJM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c8759b19-6bf1-4df8-b7c7-41ee295351a4.png?auto=format",
-      "votes_count": 151,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的屏幕操作和前后对比可以录制，比如选中文字改写、实时听写、屏幕问答，画面直观，演示效果不错，但缺乏强烈的视觉冲击感。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "核心功能直观，选中文字就能用，不需要技术背景；不过涉及本地模型、自带 key 等高级选项，普通用户可能有点懵。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第5，拿到151票，属于前10的热门产品，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Mac 光标开挂！选中文字就能 AI 改写，这效率外挂太顶了",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示在文本编辑器里选中文字调用 Inline Assist 做改写前后对比；用实时听写快速输入一段话；对网页内容使用 Screen Assist 提问；再用 Blackboard 生成视觉解释。节奏上先抛痛点（频繁切换 AI 工具），再逐项演示，最后强调无需离开当前应用。",
-        "target_audience": "经常写文档、做调研、整理信息的上班族、学生和内容创作者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "功能直观、屏幕演示丰富，普通人也能看懂，热度不错，很适合拍视频。"
-    },
-    {
-      "id": "1221450",
-      "name": "nenspace",
-      "name_zh": "念空间",
-      "tagline_zh": "LLM的低保真之道：让你的思维更广阔",
-      "description_zh": "nenspace 是一个帮你扩展大脑的空间，把工作记忆、待办、笔记、习惯和日志都收在一起。它融入了 AI 但不强制打扰，你脑子只能同时装四件事，剩下的全交给它。可以免费开始用，支持网页和 iOS。",
-      "intro_zh": "一个把任务、笔记、习惯、日志全装进去的AI小助手，随手记随手理。脑子记不住太多事的上班族、学生党，或者想养成好习惯的人会很喜欢。",
-      "url": "https://www.producthunt.com/products/nenspace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/A3I5QRDNO2ESIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/53f4c4c9-292d-4598-a9c6-4d42b831e692.png?auto=format",
-      "votes_count": 132,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的界面和操作流程，可以录屏展示记录、AI整理、前后对比，但视觉冲击力中等，适合实用型演示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念围绕任务、笔记、习惯，普通人很容易理解，只有“工作记忆”等少量术语需要简单解释。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第6，票数132，处于前10名，有一定话题热度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "脑子只能装4件事？这个AI空间帮你全记下",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "录屏展示网页或iOS界面，从添加任务、笔记到养成习惯，突出AI如何自动整理；用轻松节奏和轻音乐，穿插真实使用场景，比如记下临时想法后 AI 帮你归位。",
-        "target_audience": "学生党、上班族、效率工具爱好者、想养成习惯但总忘事的人"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "界面直观、概念易懂、有演示空间，热度也不错，适合做成实用型视频内容。"
-    },
-    {
-      "id": "1215892",
-      "name": "Joy",
-      "name_zh": "Joy",
-      "tagline_zh": "Mac菜单栏小工具，为你的每一次胜利撒彩纸",
-      "description_zh": "Joy是一款macOS菜单栏应用，当你达成里程碑——比如GitHub拿到星星、Stripe收到付款、Docker Hub下载量增长——它就会自动弹出彩纸庆祝。不用手动记录，每次小成功都给你即时的仪式感。",
-      "intro_zh": "在Mac菜单栏装了个自动撒花小助手，代码获星、收到打款、下载破纪录，一有好事就蹦彩纸。适合天天盯着数据、需要一点正反馈的独立开发者和创业者。",
-      "url": "https://www.producthunt.com/products/joy-celebrate-your-wins?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/H344PK7NRKALNU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3887185f-93bc-42c3-a6e7-d425b1889512.png?auto=format",
-      "votes_count": 125,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "彩纸动画和菜单栏弹出效果直观有趣，演示前后对比清晰，适合短视频展示；但功能单一，可能只能拍成1分钟内的快节奏片段。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "核心概念“达成目标就撒花”人人都懂，Mac用户几分钟能上手；不过触发条件涉及GitHub、Stripe等开发者平台，非技术人群会觉得关联度低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt排名第7，票数125，属于当日中上热度，话题性一般但有小众共鸣。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Mac上装了个自动撒花神器，每次赚钱都彩纸狂飞！",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示配置过程（连接GitHub或Stripe），然后模拟达成一个里程碑，特写菜单栏彩纸爆发瞬间；节奏明快，配欢快BGM，突出“即时奖励”的情绪价值。",
-        "target_audience": "独立开发者、自由职业者、需要工作激励的Mac用户"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉演示效果好、概念简单有趣，能在短视频里快速抓住观众情绪。"
-    },
-    {
-      "id": "1217087",
-      "name": "FileRouter",
-      "name_zh": "文件路由",
-      "tagline_zh": "文件与编辑器，由你掌控",
-      "description_zh": "这是一个 macOS 小工具，能让不同文件类型自动用你指定的编辑器打开，相当于文件版的 Velja/Choosy。它提供径向选择器和自定义规则，让你完全掌控任何文件该用哪个应用打开，特别适合装了好几个编辑器、总被默认打开方式搞烦的人。",
-      "intro_zh": "Mac上的文件打开管家，双击文件就能用你指定的编辑器打开，还支持弹菜单临时换。被默认打开方式烦到的Mac用户会爱死。",
-      "url": "https://www.producthunt.com/products/filerouter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JJB7QS6OHPVJDX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/baf46bb8-1747-4442-a9dc-a0a937080972.png?auto=format",
-      "votes_count": 118,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的 UI 操作和径向选择器，可以录屏展示不同文件类型关联不同编辑器，前后对比直观，视觉呈现不枯燥。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念贴近日常“文件用什么打开”，不需要编程，但需要理解文件类型和默认应用，略有设置成本。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "Product Hunt 当日第8名、118票，属于前10但非头名，热度中上。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Mac 双击文件总开错软件？这个工具帮你自动选对编辑器！",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕：先展示默认情况下不同文件类型（如.md、.txt、.psd）双击打开不一致的混乱，再演示安装 FileRouter 后设置规则和 radial picker 快速选择，突出前后对比和自定义规则的灵活性。节奏轻快，加字幕标注文件类型和对应的编辑器。",
-        "target_audience": "Mac 用户、设计师、开发者、文字工作者等经常使用多种编辑器的效率党"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "适合做视频：画面演示直观，概念通俗易懂，PH热度中上，能戳中Mac用户文件打开混乱的痛点。"
-    },
-    {
-      "id": "1222256",
-      "name": "Talvo",
-      "name_zh": "塔尔沃",
-      "tagline_zh": "连接2500+欧洲银行，追踪你的每一笔支出",
-      "description_zh": "这是欧洲的记账和预算App，能绑定2500多家银行自动同步流水并分类，帮你管理预算和净资产，数据托管在欧盟、符合GDPR。",
-      "intro_zh": "一个能连上欧洲2500多家银行的记账App，自动同步流水、分类支出，还能看预算和净资产。在欧洲工作生活、总搞不清钱花哪儿的人会很需要。",
-      "url": "https://www.producthunt.com/products/talvo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EUUETRPPQUTW43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/19527a49-0b67-44f7-9d33-f8d2fea21fb5.png?auto=format",
-      "votes_count": 93,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的App界面，可展示银行连接、交易自动分类、图表预算等，适合录屏演示；但整体是数据展示，视觉冲击力中等。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "核心是记账和预算，普通人能理解；但涉及PSD2、GDPR等欧洲金融概念，对非欧洲用户略有门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt第10名，93票，属于前10，有一定热度但不算爆款。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "在欧洲管钱有多难？这个App连了2500家银行！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示App连接银行流程、交易自动分类、图表预算和净资产变化；突出自动同步、省时省力；节奏轻松，开头用痛点引入（欧洲银行多、对账麻烦）。",
-        "target_audience": "在欧洲生活或工作的华人、留学生、关注个人理财的年轻人"
-      },
-      "category": "金融商业",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "有清晰的记账界面和自动化流程可演示，普通人也能看懂，适合做一期欧洲理财工具推荐视频。"
-    },
-    {
       "id": "1220779",
       "name": "Inferock Bench",
-      "name_zh": "Inferock 工作台",
-      "tagline_zh": "给每一次大模型 API 调用开一张独立收据",
-      "description_zh": "Inferock Bench 是一个本地代理，放在你的应用和 OpenAI、Anthropic、Gemini、OpenRouter 这类大模型接口之间。它能记录每次调用用了多少 token、失败和重试情况，然后生成一份独立收据，让你看清到底被扣了多少钱、实际多付了多少。",
-      "intro_zh": "大模型 API 和应用间加个独立账本，调用花多少 token、失败重试都记下，还告诉你多扣了多少钱。常用 OpenAI、Claude 的开发者能用它来对账。",
+      "name_zh": "Inferock Bench",
+      "tagline_zh": "给每次大模型 API 调用生成一张独立收据",
+      "description_zh": "Inferock Bench 是放在应用和 OpenAI、Anthropic、Gemini、OpenRouter 等大模型接口之间的本地代理。它记录每次调用的 token 用量、失败和重试情况，并生成独立收据；简介称可据此查看扣费和多付金额。",
+      "intro_zh": "给接入大模型的开发者用，记录每次请求的用量、失败和重试，并生成可逐笔查看的收据。",
       "url": "https://www.producthunt.com/products/inferock-bench?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GR7NKWTUDANGUS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/42a255e5-2317-4539-ae0a-db2551b450bd.png?auto=format",
       "votes_count": 284,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有本地代理配置界面和收据/账单展示，可以演示安装和对比数据，但整体偏后台工具，视觉冲击力一般。"
+        "product_value": {
+          "score": 4,
+          "reason": "逐次检查用量和重试的用途明确，但费用是否对应真实扣款尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "面向开发者，概念涉及 API 代理、token 用量、计费，普通人需要技术背景才能理解。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "失败和重试如何计入费用，是影响收据可信度的具体问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日第1名，284票，热度很高，开发者社区关注度高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把调用记录整理成逐笔凭据，可借用于其他按量收费服务。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "你的 OpenAI 账单可能多扣钱了？本地代理一查就知道",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕演示：在终端安装运行 Inferock Bench，配置代理指向 OpenAI/Claude，发起几次 API 调用，展示生成的收据界面，突出 token 用量、失败重试和费用对比。节奏轻快，开头用痛点提问引入。",
-        "target_audience": "使用 LLM API 的开发者、独立开发者、AI 创业者、需要控制成本的技术团队"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "面向开发者的 API 对账工具，热度高但普通人理解门槛较高，适合做开发者向的教程或揭秘视频。"
-    },
-    {
-      "id": "1222612",
-      "name": "GLM-5.3",
-      "name_zh": "GLM-5.3",
-      "tagline_zh": "同一底座上，靠大规模后训练实现的编程能力跃升",
-      "description_zh": "GLM-5.3 是 Z.ai 最新推出的大模型，专攻复杂、长流程的编程任务。它通过大规模后训练，在智能体编程上做到了开源顶尖水平，还额外展现出漏洞挖掘和网络防御的能力。主要面向需要自动写代码、做安全研究的开发者。",
-      "intro_zh": "Z.ai新出的GLM-5.3，专门搞定复杂长流程的编程活儿，开源里顶尖。写代码的程序员、搞安全研究的人会特别需要它。",
-      "url": "https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/334UKTYFNLBOCG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8749749c-b506-4762-9453-1b35e9b04ae6.png?auto=format",
-      "votes_count": 210,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以展示代码生成、智能体操作、漏洞挖掘等过程，但主要是终端/IDE画面，视觉冲击力一般，不如UI产品直观。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解大模型、智能体编码、开源SOTA等概念，普通用户有理解门槛。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt排名第2，210票，热度很高。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "逐笔记录有助于定位费用来源，但独立收据不等于扣款证明；“多付了多少”需要账单依据。",
+      "product_analysis": {
+        "target_problem": "开发者排查大模型费用时，需要知道哪次请求用了多少、是否发生重试。只有汇总金额，可能难以定位原因。",
+        "workflow": "让应用经本地代理访问大模型接口。代理记录每次调用的用量、失败和重试，再生成独立收据。",
+        "ai_value": "介绍没提 AI 参与分析，主要靠记录调用来帮助查费用。token 是模型计算文本用量的单位。",
+        "differentiation": "它把用量和异常放进逐笔收据，便于追查。接入需要改变请求经过的路径，可能让开发者犹豫。"
       },
-      "video_inspiration": {
-        "title_idea": "开源模型把程序员卷哭了？GLM-5.3 写代码有多猛？",
-        "angle": "对比测评",
-        "shooting_tips": "录屏展示GLM-5.3在终端/IDE里跑复杂编程任务，对比其他开源模型的速度和准确率；突出长代码生成和漏洞发现环节；开头用争议提问抓眼球，中间快节奏演示，结尾总结适用场景。",
-        "target_audience": "程序员、AI开发者、安全研究人员、对AI编程感兴趣的科技爱好者"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确采用本地代理，即在应用与模型服务之间转发请求的程序。",
+        "possible_approach": "如果自己做，可以先记录请求及返回的用量，再关联重试记录，按价格估算费用并生成收据。",
+        "tradeoffs": "最难的是确认失败或重试有没有计费。若只看请求成败，收据就可能与实际扣款不符。",
+        "unknowns": "收据金额来自服务商账单，还是按用量估算，介绍没有说明。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高且有可演示的编程效果，但面向开发者，普通人理解门槛较高。"
-    },
-    {
-      "id": "1196496",
-      "name": "Big Mike",
-      "name_zh": "大迈克",
-      "tagline_zh": "iMessage里那个懂体育、会下注的叔叔",
-      "description_zh": "Big Mike是一个通过iMessage发体育博彩建议的AI助手，全天紧盯MLB、NFL/CFB、NBA/WNBA比赛，告诉你押哪场、什么赔率、哪个平台有，七月战绩115胜68负，公开记录不删输单。绑上Sleeper或ESPN联赛，还能针对你的阵容给首发/替补建议，适合爱看球又想下注的体育迷。",
-      "intro_zh": "iMessage里住着个懂球的大叔，每天给你发投注建议，告诉你押什么、赔率多少。爱看球又爱下注的体育迷，想省心跟单会很需要。",
-      "url": "https://www.producthunt.com/products/big-mike?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2CK4OJBPPEMYKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/535168aa-dae8-4919-94e5-28f054964955.png?auto=format",
-      "votes_count": 197,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "主要是iMessage文字对话，画面以聊天记录为主，缺乏丰富的操作界面，但能展示实时推荐和战绩记录，有一定的演示效果。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "通过iMessage使用门槛低，但涉及博彩盘口、单位等术语，对非体育博彩用户不够友好。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第3，票数197，热度很高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "iMessage里藏了个博彩大神，7月战绩115-68？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示iMessage对话：向Big Mike询问今日推荐，展示回复的投注详情（比赛、盘口、平台），展示公开战绩页面，群聊互动场景，提醒观众理性投注。",
-        "target_audience": "体育迷、博彩爱好者、梦幻联赛玩家，追求轻松跟单的年轻人。"
-      },
-      "category": "其他",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有实际聊天界面和战绩可展示，热度高，但博彩题材敏感且视觉呈现较单一，适合尝试制作教程或娱乐向内容。"
+      "transferable_insights": [
+        "做按量收费工具时，可以给每次操作保留明细凭据，让用户从总费用追到具体操作。"
+      ],
+      "validation_questions": [
+        "选一笔可在服务商账单中定位的调用，检查收据金额是否一致。",
+        "触发一次失败后重试，检查收据是否保留了每次尝试的记录。"
+      ],
+      "source_tagline": "给每一次大模型 API 调用开一张独立收据",
+      "source_description": "Inferock Bench 是一个本地代理，放在你的应用和 OpenAI、Anthropic、Gemini、OpenRouter 这类大模型接口之间。它能记录每次调用用了多少 token、失败和重试情况，然后生成一份独立收据，让你看清到底被扣了多少钱、实际多付了多少。"
     },
     {
       "id": "1217720",
       "name": "Zetik",
       "name_zh": "Zetik",
       "tagline_zh": "口袋里的幕僚长",
-      "description_zh": "Zetik 是一个 AI 情报团队，24 小时帮你盯着播客、论文、代码、推文和新闻，自动完成收集、筛选、分析，最后生成简报。你只需要告诉它你关心什么，它就能近实时地跟踪相关动态。适合不想自己天天刷信息流、又怕错过重要消息的人。",
-      "intro_zh": "Zetik像口袋里的AI幕僚团队，24小时帮你盯播客、论文、推文和新闻，自动出简报。做研究、投资或追行业动态的人，不用再天天刷信息流。",
+      "description_zh": "Zetik 用 AI 持续收集、筛选和分析播客、论文、代码、推文及新闻，并生成简报。用户告诉它关注什么，产品称可近实时跟踪相关动态。",
+      "intro_zh": "给需要持续跟踪某个领域的人用，按关注主题收集多种来源的信息，整理成简报。",
       "url": "https://www.producthunt.com/products/zetik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OWYI7YOIY64MF4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1b767007-e72a-4d60-8646-0d96dd9ec777.png?auto=format",
       "votes_count": 176,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以展示信息监控面板、来源过滤和简报生成过程，但画面以文本流和摘要为主，视觉冲击力一般，需要靠剪辑节奏和案例对比来提升观感。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "核心概念'AI情报团队'不算难懂，但涉及多源监控和情报循环，普通人需要一点解释才能明白能帮自己干嘛，有一定理解门槛。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "PH排名第4，票数176，属于当日热门产品，有一定话题性。"
+          "reason": "关注主题到生成简报的用途清楚，但筛选质量尚未确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从不同来源中选出真正重要的信息，是具体且影响结果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先设关注主题、再持续交付简报的做法可用于行业监测。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "打工人请了个AI幕僚团队？24小时自动生成情报简报",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段手机/电脑刷信息流刷到焦虑的画面，引出痛点；然后录屏演示在Zetik里输入关注关键词、选择来源（播客/论文/推文/新闻），展示它自动抓取、过滤、生成摘要简报；最后用并排对比'手动刷2小时 vs Zetik 2分钟简报'，突出省时省力。节奏轻快，配上信息流快剪和提示音。",
-        "target_audience": "需要持续追踪行业动态的研究者、投资人、产品经理、自媒体创作者等。"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是按主题持续整理多种来源，减少反复查找。最影响判断的是筛选能否保住重要消息，现有历史缓存无法回答。",
+      "product_analysis": {
+        "target_problem": "需要跟踪行业动态的人，可能每天花时间刷多个信息源，还担心漏掉重要消息。",
+        "workflow": "告诉 Zetik 自己关心什么，它持续收集相关内容，筛选、分析后生成简报。介绍未说明简报在哪里接收。",
+        "ai_value": "AI 负责收集后的筛选与分析，把分散内容整理成简报；具体如何判断重要性没有说明。",
+        "differentiation": "对原本自己刷信息流的人，它把找信息和整理合在一起。最可能让人不愿交给它的是担心筛选时漏掉关键消息。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称使用 AI，覆盖播客、论文、代码、推文和新闻，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先获取内容，把音频转成文字，再按用户主题筛选，最后整理成简报并保留来源。",
+        "tradeoffs": "最难的是判断什么值得留下。若把相关但重要的消息过滤掉，用户只看简报就可能一直不知道。",
+        "unknowns": "历史缓存提到“近实时”，但没有说明从消息发布到进入简报要多久。"
+      },
+      "transferable_insights": [
+        "做行业监测产品时，可以让用户先写关注主题，再持续生成简报，减少每次重新搜索的操作。"
+      ],
+      "validation_questions": [
+        "选一个熟悉的主题，对照同期原始信息，检查简报漏掉了哪些重要消息？",
+        "选一条新发布的相关消息，记录它多久后进入简报？"
+      ],
+      "source_tagline": "口袋里的幕僚长",
+      "source_description": "Zetik 是一个 AI 情报团队，24 小时帮你盯着播客、论文、代码、推文和新闻，自动完成收集、筛选、分析，最后生成简报。你只需要告诉它你关心什么，它就能近实时地跟踪相关动态。适合不想自己天天刷信息流、又怕错过重要消息的人。"
+    },
+    {
+      "id": "1218955",
+      "name": "Attyn",
+      "name_zh": "Attyn",
+      "tagline_zh": "在光标处调用 AI",
+      "description_zh": "Attyn 是一款 macOS 应用，可在当前软件的光标处调用 AI，支持选中文字改写、实时语音转文字、针对屏幕内容提问，以及生成黑板风格的视觉解释。简介称新用户注册可获 500 积分，也能接入自己的模型。",
+      "intro_zh": "给在 Mac 上写作、阅读的人用，在当前软件里改写选中文字、语音输入，或就屏幕内容向 AI 提问。",
+      "url": "https://www.producthunt.com/products/attyn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JK4EMFX3J4PIJM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c8759b19-6bf1-4df8-b7c7-41ee295351a4.png?auto=format",
+      "votes_count": 151,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景清楚，在当前软件里调用 AI 能减少切换，但兼容范围待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何准确取得用户选中的内容，是影响体验的具体技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕当前选区提供操作，可借用于编辑和阅读工具。"
+        }
       },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品功能有可演示的界面和流程，但视觉冲击力一般，适合做教程或效率类内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是不用搬运文字就能发起改写；最影响判断的是，它能否在日常使用的软件里准确取得选区。",
+      "product_analysis": {
+        "target_problem": "Mac 用户写作或阅读时，可能需要改一句话、口述文字，或弄懂屏幕上的内容。若另开 AI 工具，搬运上下文会打断手头工作。",
+        "workflow": "在当前软件里选中文字后调用改写；也可使用实时听写，或针对屏幕内容提问。介绍还支持把问题变成黑板风格的视觉解释，未说明具体触发方式。",
+        "ai_value": "AI 用来改写文字、转写语音、回答屏幕相关问题，并生成视觉解释。",
+        "differentiation": "把求助入口放到正在工作的地方，省去部分切换和复制。最可能让人不愿换来的原因，是常用软件中调用不稳定。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确它是 macOS 应用，支持接入用户自己的模型，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取用户选中的文字，再交给模型改写并展示结果；先把这一项做稳，再扩展语音和屏幕问答。",
+        "tradeoffs": "最容易出错的是读错选区。若把相邻段落当成用户要改的内容，生成结果就会答非所问。",
+        "unknowns": "屏幕内容会发送到哪里、是否保留，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做编辑或阅读工具时，可以把 AI 操作放在选中文字附近，让选区直接成为提问材料。"
+      ],
+      "validation_questions": [
+        "在自己最常用的 Mac 软件里选中一段文字，检查改写是否只针对该选区。",
+        "用不含敏感信息的屏幕测试问答，确认内容发送和保留规则是否有明确说明。"
+      ],
+      "source_tagline": "把智能带到你的光标上",
+      "source_description": "Attyn 是一个 macOS 应用，让你在正在用的任何软件里，光标处就能调用 AI。你可以选中文字直接改写，用实时听写把语音转成文字，针对屏幕内容提问，还能把问题变成黑板风格的视觉解释。新用户注册送 500 积分，也可以接自己的模型。"
+    },
+    {
+      "id": "1217087",
+      "name": "FileRouter",
+      "name_zh": "FileRouter",
+      "tagline_zh": "文件与编辑器，由你掌控",
+      "description_zh": "FileRouter 是一款 macOS 小工具，可让不同文件类型自动交给指定编辑器打开。它提供径向选择器和自定义规则，面向装有多个编辑器、需要选择文件打开方式的人。",
+      "intro_zh": "给 Mac 上装了多个编辑器的人用，按规则把文件交给指定应用，也能用径向选择器挑选。",
+      "url": "https://www.producthunt.com/products/filerouter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JJB7QS6OHPVJDX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/baf46bb8-1747-4442-a9dc-a0a937080972.png?auto=format",
+      "votes_count": 118,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "多编辑器用户和默认打开方式的困扰明确，但规则能力尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "文件分发有具体的规则冲突问题，但介绍未说明处理方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "自动规则配合手动选择的做法，可借用于多目标分发工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把反复选择编辑器变成固定规则。最影响判断的是规则条件是否足够细，否则可能只是换了一个地方设置默认应用。",
+      "product_analysis": {
+        "target_problem": "装了多个编辑器的 Mac 用户，可能不想让同类文件总由同一个应用打开。临时选应用和维护默认打开方式都可能打断工作。",
+        "workflow": "先指定文件类型对应的编辑器，再由规则自动选择打开应用。需要自行选择时，可使用径向选择器；具体触发方式未说明。",
+        "ai_value": "介绍没提 AI，主要靠自定义规则和应用选择界面改善体验。",
+        "differentiation": "它把选应用这件事变成可重复执行的规则。是否愿意换用，可能取决于规则能否表达用户实际的选择条件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "这是 macOS 工具，支持按文件类型指定编辑器、自定义规则和径向选择器，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先接收文件打开请求，再读取文件类型、匹配规则，最后交给目标应用；需要人工决定时显示选择器。",
+        "tradeoffs": "最容易出错的是多条规则同时命中。若优先顺序不清楚，文件可能被交给意料之外的编辑器。",
+        "unknowns": "自定义规则除了文件类型，还能按什么条件判断？"
+      },
+      "transferable_insights": [
+        "做需要在多个应用间分发内容的工具时，可以让规则处理固定选择，再保留手动选择入口处理例外。"
+      ],
+      "validation_questions": [
+        "给同一文件设置两条都能命中的规则，检查最终选择是否有明确且稳定的优先顺序。",
+        "临时想换一个编辑器时，检查能否通过选择器完成一次性选择。"
+      ],
+      "source_tagline": "文件与编辑器，由你掌控",
+      "source_description": "这是一个 macOS 小工具，能让不同文件类型自动用你指定的编辑器打开，相当于文件版的 Velja/Choosy。它提供径向选择器和自定义规则，让你完全掌控任何文件该用哪个应用打开，特别适合装了好几个编辑器、总被默认打开方式搞烦的人。"
     },
     {
       "id": "1222502",
       "name": "Chronock",
-      "name_zh": "日程通",
-      "tagline_zh": "日程安排与日历同步，一站式搞定",
-      "description_zh": "Chronock 把日程安排和跨日历同步整合在一个工作台。它会检查你关联的 Google 和 Outlook 日历的空闲时间，把空档变成预订页面，并在工作、个人和项目日历之间同步事件，避免重复预订。访客只看到可预订时间，你可以在一个集成日历里查看所有关联事件。免费开始，无需信用卡。",
-      "intro_zh": "把多个日历同步到同一界面，自动找空档生成预约页，避免撞档。经常在谷歌和Outlook日历间切换的上班族和自由职业者会喜欢。",
+      "name_zh": "Chronock",
+      "tagline_zh": "把日程安排与日历同步放在一起",
+      "description_zh": "Chronock 检查关联的 Google 和 Outlook 日历，把空闲时间变成预订页面，并在工作、个人和项目日历之间同步事件，帮助避免重复预订。访客只看到可预订时间，用户可集中查看关联事件；介绍称可免费开始，无需信用卡。",
+      "intro_zh": "给同时管理多个日历的人用，汇总可约时间供访客预订，并集中查看、同步各日历事件。",
       "url": "https://www.producthunt.com/products/chronock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/APHZ3DPPTXALTZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d6191aa5-7c57-4a77-b76c-a92110098491.png?auto=format",
       "votes_count": 106,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有日历界面和预订页可以演示，但视觉冲击力一般，属于常规工具类录屏，缺少惊艳画面。"
-        },
-        "beginner_friendly": {
+        "product_value": {
           "score": 4,
-          "reason": "概念直观，无需技术背景，普通用户一看就懂怎么同步日历和预约。"
+          "reason": "多日历约时间的问题明确，但防止重复预订的效果未核实。"
         },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "排名ProductHunt第9，票数106，进入前十，有一定关注度。"
+          "reason": "同步延迟可能让已占用时间继续被预订，后果具体。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "对外只展示空闲时间的做法可用于其他预约产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "同时管好 Google 和 Outlook 日历？这个免费工具让我告别撞会！",
-        "angle": "教程演示",
-        "shooting_tips": "屏幕录制连接 Google/Outlook 日历的过程，突出自动检测空闲时间、生成预订页、跨日历同步防冲突的对比，开头用撞会痛点引入，节奏轻快。",
-        "target_audience": "同时使用多个日历的上班族、自由职业者、需要预约客户的咨询师"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把多个日历的占用一起纳入预约判断；最影响判断的是占用更新能否及时阻止冲突预订。",
+      "product_analysis": {
+        "target_problem": "同时用工作和个人日历的人，对外约时间时需要兼顾多处安排。只看一个日历，可能漏掉另一个日历里的占用。",
+        "workflow": "关联 Google 和 Outlook 日历后，工具检查空闲时间并生成预订页面。访客选择可约时段，用户在集成日历里查看关联事件。",
+        "ai_value": "介绍没提 AI，主要靠汇总空闲时间和同步事件来减少核对。",
+        "differentiation": "把检查空档、对外预约和集中查看放在一起，省去分别核对的麻烦。最可能让人犹豫的是需要授权访问多个日历。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持关联 Google 和 Outlook 日历、检查空闲时间及跨日历同步；介绍没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先读取各日历的忙碌时段，合并后生成可约时间，再在确认预订前重新检查占用并写入事件。",
+        "tradeoffs": "最容易出错的是占用变化未及时反映到预订页。用户可能把刚被占用的时间再次约出去。",
+        "unknowns": "跨日历同步的是完整事件，还是仅表示忙碌的占位事件？"
+      },
+      "transferable_insights": [
+        "做咨询、面试等预约产品时，可只向访客展示可约时间，让用户保留日程细节。"
+      ],
+      "validation_questions": [
+        "在关联日历中新建占用后，预订页多久会移除对应时段？",
+        "访客能否从预订页看到已有事件的标题或参与者？"
+      ],
+      "source_tagline": "日程安排与日历同步，一站式搞定",
+      "source_description": "Chronock 把日程安排和跨日历同步整合在一个工作台。它会检查你关联的 Google 和 Outlook 日历的空闲时间，把空档变成预订页面，并在工作、个人和项目日历之间同步事件，避免重复预订。访客只看到可预订时间，你可以在一个集成日历里查看所有关联事件。免费开始，无需信用卡。"
+    },
+    {
+      "id": "1222256",
+      "name": "Talvo",
+      "name_zh": "Talvo",
+      "tagline_zh": "连接 2500 多家欧洲银行，追踪支出",
+      "description_zh": "Talvo 是面向欧洲用户的记账和预算应用，可绑定银行、自动同步流水并分类，管理预算和净资产。缓存简介称其支持 2500 多家银行，数据托管在欧盟，并符合 GDPR（欧盟通用数据保护条例）。",
+      "intro_zh": "给使用欧洲银行账户的人用，自动汇集流水并分类，帮助查看支出、管理预算和净资产。",
+      "url": "https://www.producthunt.com/products/talvo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EUUETRPPQUTW43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/19527a49-0b67-44f7-9d33-f8d2fea21fb5.png?auto=format",
+      "votes_count": 93,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "自动汇集银行流水的用途清楚，但实际银行覆盖和同步表现待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多银行流水如何避免重复计入，是直接影响账目可信度的具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先自动收集记录、再用于预算的做法，可借给其他个人财务工具。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是省去多账户流水的手工汇总；最影响判断的是实际同步是否可靠，覆盖银行数量本身不能回答这一点。",
+      "product_analysis": {
+        "target_problem": "使用多个欧洲银行账户的人，可能需要汇总各处流水，才能看清总支出。Talvo 把这些记录集中起来，用于记账和预算。",
+        "workflow": "绑定支持的银行账户，让应用自动同步流水并分类，再查看支出、管理预算和净资产。",
+        "ai_value": "介绍没提 AI，主要靠银行流水自动同步和分类来减少整理工作；不能据此认定分类由 AI 完成。",
+        "differentiation": "对需要手动汇总流水的人，它能省去搬运记录的工作。最可能让人犹豫的是是否愿意授权应用读取银行数据。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到银行连接、自动同步和分类，并称数据托管在欧盟；未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先取得用户授权，读取银行流水，再统一日期、金额和交易标识，去重后分类并计算预算。",
+        "tradeoffs": "最容易出错的是把同一笔流水重复导入，导致支出虚高，用户得回银行账单逐笔核对。",
+        "unknowns": "净资产如何计算，尤其是否包含负债，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做个人财务工具时，可以先自动汇集已有记录，再提供预算视图，减少用户持续手工录入。"
+      ],
+      "validation_questions": [
+        "我会先确认自己的主要银行账户能否成功绑定并同步流水。",
+        "我会重复同步同一时间段，检查同一笔交易是否被重复计入。"
+      ],
+      "source_tagline": "连接2500+欧洲银行，追踪你的每一笔支出",
+      "source_description": "这是欧洲的记账和预算App，能绑定2500多家银行自动同步流水并分类，帮你管理预算和净资产，数据托管在欧盟、符合GDPR。"
+    },
+    {
+      "id": "1222612",
+      "name": "GLM-5.3",
+      "name_zh": "GLM-5.3",
+      "tagline_zh": "在同一底座上，通过大规模后训练提升编程能力",
+      "description_zh": "GLM-5.3 是 Z.ai 推出的大模型，面向复杂、长流程的编程任务，主要供开发者和安全研究人员使用。缓存简介称，它通过大规模后训练提升自动编程能力，并具备漏洞挖掘和网络防御能力；其中的领先性宣传未经核验。",
+      "intro_zh": "给处理复杂编程任务的开发者和安全研究人员用，帮助自动写代码、寻找漏洞和开展网络防御。",
+      "url": "https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/334UKTYFNLBOCG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8749749c-b506-4762-9453-1b35e9b04ae6.png?auto=format",
+      "votes_count": 210,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用人群和任务明确，但缺少实际完成任务的例子。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "长流程编程有具体难点，但后训练方法和效果证据不足。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕完整任务改进模型的方向可借鉴，具体训练做法未披露。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它对多步骤编程任务的关注；最影响判断的是，最终结果究竟还需要人修多少。",
+      "product_analysis": {
+        "target_problem": "开发者处理跨多个步骤的编程任务时，需要持续核对需求、代码和运行结果。它瞄准这类难以一次写完的工作，也面向安全研究。",
+        "workflow": "介绍只明确了自动编程、漏洞挖掘和网络防御三个用途。如何提交任务、连接代码和获取结果，缓存没有说明。",
+        "ai_value": "模型承担代码生成和安全分析。简介称后训练改善了编程表现，但不能据此判断能独立完成多长的任务。",
+        "differentiation": "潜在省事之处是少一些人工接手和修正。最可能让人不愿切换的原因，是仍需逐步检查代码，节省多少工作尚不明确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称它在同一底座上进行大规模后训练，即在基础训练后继续训练，以改善任务表现。",
+        "possible_approach": "如果自己做，可以先收集带测试的多步骤编程任务，再用完成过程和测试结果继续训练模型，最后用未参与训练的任务检验。",
+        "tradeoffs": "最难的是中途改错后还能守住原始需求；若只修眼前报错，可能让测试通过，却破坏其他功能。",
+        "unknowns": "没有说明完成任务时需要多少人工干预。"
+      },
+      "transferable_insights": [
+        "做编程助手时，可以把完整任务是否完成作为评价单位，同时记录人工接手次数，避免只看单段代码是否正确。"
+      ],
+      "validation_questions": [
+        "给它一个带明确验收测试的多步骤任务，检查最终代码是否全部通过。",
+        "给它一个已知漏洞的授权测试项目，检查能否准确定位漏洞。"
+      ],
+      "source_tagline": "同一底座上，靠大规模后训练实现的编程能力跃升",
+      "source_description": "GLM-5.3 是 Z.ai 最新推出的大模型，专攻复杂、长流程的编程任务。它通过大规模后训练，在智能体编程上做到了开源顶尖水平，还额外展现出漏洞挖掘和网络防御的能力。主要面向需要自动写代码、做安全研究的开发者。"
+    },
+    {
+      "id": "1196496",
+      "name": "Big Mike",
+      "name_zh": "Big Mike",
+      "tagline_zh": "iMessage 里那个懂体育、会下注的叔叔",
+      "description_zh": "Big Mike 是通过 iMessage 提供体育博彩建议的 AI 助手，覆盖美国棒球、橄榄球和篮球赛事，提供比赛、赔率及可下注平台信息。简介称其七月战绩为 115 胜 68 负、公开保留输单，并支持连接 Sleeper 或 ESPN 联赛，按用户阵容提供首发和替补建议。",
+      "intro_zh": "给关注美国赛事的体育迷用，在 iMessage 中接收投注建议，也能按已连接的联赛阵容获取排兵建议。",
+      "url": "https://www.producthunt.com/products/big-mike?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2CK4OJBPPEMYKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/535168aa-dae8-4919-94e5-28f054964955.png?auto=format",
+      "votes_count": 197,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但建议质量和实际收益没有可靠材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "赔率时效直接影响建议是否可用，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "结合用户已有阵容给建议，是可借用的个性化做法。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是建议能结合个人阵容，减少补充背景的麻烦；最影响判断的是推荐赔率到用户行动时是否仍有效。",
+      "product_analysis": {
+        "target_problem": "面向既看球又参与投注或管理幻想体育阵容的人。比赛、赔率和个人阵容分散，判断下一步怎么做需要结合多处信息。",
+        "workflow": "在 iMessage 中接收比赛、赔率和平台建议。连接 Sleeper 或 ESPN 联赛后，还可获取针对阵容的首发与替补建议。",
+        "ai_value": "AI 提供投注和阵容建议；介绍未说明它如何判断，也不能用所列胜负记录证明能赚钱。",
+        "differentiation": "把建议送进聊天工具，可能减少来回查找。最可能让人犹豫的是：无法判断建议是否可信。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI、iMessage，以及连接 Sleeper 或 ESPN 联赛，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先取得比赛、赔率和用户阵容，再生成建议并发送消息，同时附上数据时间。",
+        "tradeoffs": "最容易出错的是使用过期赔率。用户看到消息再下注时，可能已经拿不到建议中的价格。",
+        "unknowns": "比赛和赔率数据多久更新一次，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做个性化建议工具时，可以连接用户已有清单或账户，例如按现有阵容给排兵建议，减少反复输入背景。"
+      ],
+      "validation_questions": [
+        "收到推荐时，去所列平台检查对应赔率是否仍然可用。",
+        "查看公开战绩是否逐笔保留投注前的赔率，以判断胜负数字能否支持收益判断。"
+      ],
+      "source_tagline": "iMessage里那个懂体育、会下注的叔叔",
+      "source_description": "Big Mike是一个通过iMessage发体育博彩建议的AI助手，全天紧盯MLB、NFL/CFB、NBA/WNBA比赛，告诉你押哪场、什么赔率、哪个平台有，七月战绩115胜68负，公开记录不删输单。绑上Sleeper或ESPN联赛，还能针对你的阵容给首发/替补建议，适合爱看球又想下注的体育迷。"
+    },
+    {
+      "id": "1215892",
+      "name": "Joy",
+      "name_zh": "Joy",
+      "tagline_zh": "在 Mac 菜单栏里，为每一次小成功撒彩纸",
+      "description_zh": "Joy 是一款 macOS 菜单栏应用，会在 GitHub 星标增加、Stripe 收到付款或 Docker Hub 下载量增长等里程碑出现时，自动弹出彩纸庆祝。它让这些小进展变成可见的庆祝时刻，不用手动记录。",
+      "intro_zh": "给关注项目进展的开发者和产品经营者用，在星标、收款或下载量增长时，自动弹出彩纸庆祝。",
+      "url": "https://www.producthunt.com/products/joy-celebrate-your-wins?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H344PK7NRKALNU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3887185f-93bc-42c3-a6e7-d425b1889512.png?auto=format",
+      "votes_count": 125,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "场景清楚，但庆祝提醒能否带来持续价值还不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何识别新事件并避免重复庆祝，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把业务进展变成轻量反馈，可借用于有明确成功事件的工具。"
+        }
       },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "工具实用、小白友好，适合做教程类视频，但视觉冲击力一般，热度中等。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它让不显眼的小进展有了存在感；最影响判断的是庆祝条件能否控制，否则容易从鼓励变成干扰。",
+      "product_analysis": {
+        "target_problem": "开发者和小产品经营者可能想及时知道项目有了进展。数字变化本身不显眼，也未必带来完成一件事的感受。",
+        "workflow": "它在 macOS 菜单栏运行，遇到介绍中列举的里程碑就弹出彩纸。账户如何连接、庆祝条件如何设置，资料没说明。",
+        "ai_value": "介绍没提 AI，主要靠事件触发的屏幕反馈来改善体验。",
+        "differentiation": "它把进展通知变成庆祝时刻，省去手动发起庆祝的动作。用户可能不愿增加一个会打断工作的桌面提醒。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "这是 macOS 菜单栏应用，可针对 GitHub、Stripe 和 Docker Hub 的相关变化自动弹出彩纸。",
+        "possible_approach": "如果自己做，可以先读取一个来源的新事件，再保存处理记录，最后触发彩纸动画；跑通后再增加其他来源。",
+        "tradeoffs": "最容易错在把旧事件当成新事件。若重启后又庆祝同一笔付款，用户可能误以为新增了一笔收入。",
+        "unknowns": "它如何界定值得庆祝的里程碑，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做项目管理或经营工具时，可以在首次成交、首次发布等明确节点加入短暂庆祝，并允许关闭，避免每次数字变化都打断用户。"
+      ],
+      "validation_questions": [
+        "触发一次庆祝后重启应用，同一事件会不会再次触发？",
+        "能否关闭不想庆祝的事件类型？"
+      ],
+      "source_tagline": "Mac菜单栏小工具，为你的每一次胜利撒彩纸",
+      "source_description": "Joy是一款macOS菜单栏应用，当你达成里程碑——比如GitHub拿到星星、Stripe收到付款、Docker Hub下载量增长——它就会自动弹出彩纸庆祝。不用手动记录，每次小成功都给你即时的仪式感。"
+    },
+    {
+      "id": "1221450",
+      "name": "nenspace",
+      "name_zh": "nenspace",
+      "tagline_zh": "大语言模型的低保真之道：拓宽你的思考空间",
+      "description_zh": "nenspace 把工作记忆、待办、笔记、习惯和日志收在一个空间里，帮助记录脑中的事情。它加入了 AI，强调不强制打扰，支持网页和 iOS，可以免费开始使用。",
+      "intro_zh": "给想集中管理日常记录的人用，把待办、笔记、习惯和日志放在同一个空间里。",
+      "url": "https://www.producthunt.com/products/nenspace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/A3I5QRDNO2ESIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/53f4c4c9-292d-4598-a9c6-4d42b831e692.png?auto=format",
+      "votes_count": 132,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "集中记录的用途清楚，但能否方便找回和处理还不明确。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "没有说明 AI 的具体任务或记录处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一收纳的做法可借鉴，但组织记录的细节不足。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我看重把零散事情集中记下的便利；但收在一起之后是否容易找回，比有没有 AI 更影响判断。",
+      "product_analysis": {
+        "target_problem": "适合既记待办、又写笔记和日志的人。它想解决事情容易忘、记录分散的问题，但介绍没说用户原先如何管理。",
+        "workflow": "用户可在网页或 iOS 中，把待办、笔记、习惯和日志收进同一空间。如何分类、回顾或完成待办，资料没展开。",
+        "ai_value": "介绍只说融入 AI 且不强制打扰，没说它具体帮用户做什么，不能据此认定支持自动整理或提醒。",
+        "differentiation": "对原本分开记录的人，集中收纳可能减少切换工具。最可能不愿换的原因，是已有记录迁入后是否仍方便查找。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI，支持网页和 iOS，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户快速记下一条内容，再标成待办、笔记或日志，并提供对应的查看方式。",
+        "tradeoffs": "最容易出错的是把多种记录混在一起，却没有清楚的区分方式；用户可能记下了事情，回头仍找不到。",
+        "unknowns": "AI 到底在哪一步介入，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做个人记录工具时，可以让不同内容共用一个记录入口，再按用途查看，减少用户记之前先选工具的犹豫。"
+      ],
+      "validation_questions": [
+        "混合录入待办、笔记和日志后，能否找回一条指定记录？",
+        "只想手动记录时，AI 是否会打断输入？"
+      ],
+      "source_tagline": "LLM的低保真之道：让你的思维更广阔",
+      "source_description": "nenspace 是一个帮你扩展大脑的空间，把工作记忆、待办、笔记、习惯和日志都收在一起。它融入了 AI 但不强制打扰，你脑子只能同时装四件事，剩下的全交给它。可以免费开始用，支持网页和 iOS。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

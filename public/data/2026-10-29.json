@@ -1,367 +1,511 @@
 {
   "date": "2026-10-29",
-  "generated_at": "2026-10-30T21:54:34+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:17:55+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1294677",
       "name": "Empacer",
       "name_zh": "Empacer",
-      "tagline_zh": " The voice-first assistant for small business owners",
-      "description_zh": "Most small business owners face the same problem when trying to use AI tools: they don't have time for re-explaining their business in every chat. Empacer is designed to skip this part. Three questions at setup, then spoken requests become a ready plan and finished work: customer replies, social posts, invoices and more. Nothing is sent without the owner's approval.",
-      "intro_zh": "",
+      "tagline_zh": "面向小企业主的语音优先助手",
+      "description_zh": "Empacer 希望减少小企业主每次使用 AI 时重复介绍业务的麻烦，初次设置只需回答三个问题。之后可用语音提出需求，生成计划、客户回复、社交帖子、发票等内容，所有发送都需老板批准。",
+      "intro_zh": "给小企业主用的语音助手，把口述需求变成计划、客户回复或发票，发送前由老板批准。",
       "url": "https://www.producthunt.com/products/empacer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RXY756OTRKZOLG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6b420584-32d8-4b74-a9eb-920c76438c57.png?auto=format",
       "votes_count": 430,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复介绍业务的麻烦明确，但三个问题能覆盖多少业务信息尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何保留业务背景又避免把错误信息带进成品，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "少量初始问答与发送前审批，可借用于面向忙碌经营者的助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把重复讲背景变成一次设置；最影响判断的是，这些背景是否足够准确，能减少而非增加后续修改。",
+      "product_analysis": {
+        "target_problem": "小企业主用 AI 处理日常事务时，反复解释业务会占时间。以前每次聊天要重讲背景，现在它尝试用初次问答省去这一步。",
+        "workflow": "设置时回答三个问题，再口述需求。助手生成计划及工作内容，发送前交给老板批准。",
+        "ai_value": "AI 把口述需求变成可检查的工作内容；介绍未说明语音识别和内容生成分别如何实现。",
+        "differentiation": "省事点是少讲背景、少从空白开始写。若生成内容仍需大量修改，老板可能不愿换工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: a92bd386-80e8-4c94-a481-d5110f05a01b)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI、语音请求和发送前审批，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把问答存成业务资料，再将语音转成文字，结合资料生成内容，批准后才允许发送。",
+        "tradeoffs": "最容易出错的是把不完整的业务资料当成确定事实，导致客户回复或发票写错，增加老板核对负担。",
+        "unknowns": "三个问题收集什么，以及业务信息变化后如何更新，介绍没说。"
+      },
+      "transferable_insights": [
+        "做商家助手时，可先用少量问题收集常用业务背景，减少每次提问的输入。",
+        "涉及对外沟通时，把生成与发送分开，让经营者检查后再批准。"
+      ],
+      "validation_questions": [
+        "完成初始设置后，连续提出不同任务，检查是否还需重复解释同一业务背景。",
+        "对一条生成的客户回复不予批准，检查是否确实不会发送。"
+      ],
+      "source_tagline": " The voice-first assistant for small business owners",
+      "source_description": "Most small business owners face the same problem when trying to use AI tools: they don't have time for re-explaining their business in every chat. Empacer is designed to skip this part. Three questions at setup, then spoken requests become a ready plan and finished work: customer replies, social posts, invoices and more. Nothing is sent without the owner's approval."
     },
     {
       "id": "1288102",
       "name": "Scape",
       "name_zh": "Scape",
-      "tagline_zh": "An intelligent email inbox that works for you",
-      "description_zh": "Imagine opening your inbox and finding everything already organized, with replies ready to review. Scape is an intelligent email client that prioritizes messages, prepares contextual drafts, and helps track conversations and follow-ups. It understands your work across emails, meetings, calendars, and attachments, so you can spend less time managing communication and more time moving work forward.",
-      "intro_zh": "",
+      "tagline_zh": "替你处理邮件的智能收件箱",
+      "description_zh": "Scape 是一款智能邮件客户端，可排列邮件优先级、准备结合上下文的回复草稿，并帮助跟踪对话和后续事项。简介称，它会结合邮件、会议、日历和附件理解工作情况，减少沟通管理所花的时间。",
+      "intro_zh": "给需要处理大量工作邮件的人用，整理邮件优先级，准备回复草稿，并跟踪待跟进的对话。",
       "url": "https://www.producthunt.com/products/scape-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OG2OR3JKMHZ566?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a7bec0d6-10fa-405d-b1e6-4a7b7bfcc2a5.jpeg?auto=format",
       "votes_count": 320,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "整理邮件和准备回复的用途清楚，但实际省时程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨邮件和日历准备草稿有具体难点，但介绍未披露实现方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先准备草稿、再由用户审阅的做法可借到其他沟通工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把相关背景带进回复草稿；最影响判断的是，它能否选对最新信息，而不增加核对负担。",
+      "product_analysis": {
+        "target_problem": "适合同时跟进多条工作对话的人。需要判断先回哪封、补齐回复背景，还要记住哪些事没跟完。",
+        "workflow": "打开收件箱，查看排好优先级的邮件和准备好的回复草稿。用户审阅草稿，并借助对话跟踪继续跟进。",
+        "ai_value": "介绍没明确提 AI，只描述了智能排序和结合上下文准备草稿；具体由什么技术完成，无法确认。",
+        "differentiation": "把找背景、写回复和跟进放在同一客户端。若已有固定邮件工具，是否愿意迁移可能是主要阻力。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: a6ba2e20-774e-4965-affe-9db13c855efc)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术，只提到会结合邮件、会议、日历和附件。",
+        "possible_approach": "如果自己做，可以先找出与当前邮件相关的记录，再用这些内容生成草稿，留给用户确认。",
+        "tradeoffs": "最难的是选对背景。若引用了过期日历或旧附件，草稿可能写错时间或承诺，用户仍得逐项核对。",
+        "unknowns": "用户能否看出草稿里的信息来自哪封邮件或哪份附件？"
+      },
+      "transferable_insights": [
+        "做客服或销售沟通工具时，可以先准备可编辑草稿，再让用户确认，减少从空白开始写的负担。"
+      ],
+      "validation_questions": [
+        "用一组已知紧急程度的邮件，检查重要邮件是否被排到后面。",
+        "用日期有更新的对话，检查草稿是否仍引用旧时间。"
+      ],
+      "source_tagline": "An intelligent email inbox that works for you",
+      "source_description": "Imagine opening your inbox and finding everything already organized, with replies ready to review. Scape is an intelligent email client that prioritizes messages, prepares contextual drafts, and helps track conversations and follow-ups. It understands your work across emails, meetings, calendars, and attachments, so you can spend less time managing communication and more time moving work forward."
     },
     {
       "id": "1296361",
       "name": "Floot in ChatGPT",
       "name_zh": "Floot in ChatGPT",
-      "tagline_zh": "Build and publish real apps without leaving ChatGPT",
-      "description_zh": "Floot is now a native app in your ChatGPT sidebar. Describe what you want, watch it build in a live preview inside the chat, and publish it with a real link. Database, logins and hosting are built in, and the AI runs on your ChatGPT plan.",
-      "intro_zh": "",
+      "tagline_zh": "不离开 ChatGPT，构建并发布可运行的应用",
+      "description_zh": "Floot 作为原生应用出现在 ChatGPT 侧边栏：描述需求后，可以在聊天中查看实时构建预览，再发布为可访问的链接。它内置数据库、登录和托管，简介称 AI 使用你的 ChatGPT 套餐。",
+      "intro_zh": "给想把需求做成应用的产品经理和开发者，在 ChatGPT 里描述想法、查看预览并发布链接。",
       "url": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VOASQ4LXPHOIXR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5b951486-a972-41d7-82dd-059d2cfa1f92.jpeg?auto=format",
       "votes_count": 201,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从描述需求到发布的用途清楚，但能做多复杂的应用尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "生成应用如何正确处理登录后的数据权限，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把预览和发布放在需求讨论旁，适合借鉴到其他生成式工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把数据、登录和发布一起提供，减少从演示走向可用应用的准备工作。最影响判断的是生成应用能否正确隔离不同用户的数据。",
+      "product_analysis": {
+        "target_problem": "想验证应用想法的产品经理会需要它。把界面变成可用应用，还要处理数据保存、用户登录和上线。",
+        "workflow": "在 ChatGPT 侧边栏打开 Floot，描述需求，在聊天内查看实时预览，再发布获得链接。",
+        "ai_value": "AI 根据需求构建应用。简介称它使用 ChatGPT 套餐，但没有说明支持范围。",
+        "differentiation": "数据库、登录和托管内置，减少另行接入这些服务的工作。已有项目的团队可能因迁移方式不明而不愿换用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 7fa95d16-96a9-45f1-8abb-6e8fcd03218a)"
-    },
-    {
-      "id": "1295697",
-      "name": "Notch Metrics",
-      "name_zh": "Notch Metrics",
-      "tagline_zh": "Use claude code to build analytics widgets for your notch",
-      "description_zh": "Revenue, MRR and subscribers from Stripe, Polar, Paddle, Dodo Payments and more, in the MacBook notch.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/notch-metrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BJSV7OQQ7BMSV6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/887bbd13-a9e1-4bbd-a326-391aaf79aacd.jpeg?auto=format",
-      "votes_count": 185,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到聊天内实时预览，以及内置数据库、登录和托管，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先让 AI 把需求转成可运行应用，放进隔离的预览环境，再接入数据保存、登录和发布服务。",
+        "tradeoffs": "最容易出错的是数据访问权限。登录成功不代表权限正确，用户可能看到别人的记录。",
+        "unknowns": "哪些 ChatGPT 套餐可用，使用额度如何计算？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: f08fe555-8ade-4fe3-a2a6-e8b46213c665)"
+      "transferable_insights": [
+        "做生成式设计或开发工具时，把可操作预览放在对话旁，让用户直接检查结果，再决定是否发布。"
+      ],
+      "validation_questions": [
+        "用两个账号访问同一应用，检查是否能读到对方的私有记录。",
+        "核对当前 ChatGPT 套餐可用的功能与额度限制。"
+      ],
+      "source_tagline": "Build and publish real apps without leaving ChatGPT",
+      "source_description": "Floot is now a native app in your ChatGPT sidebar. Describe what you want, watch it build in a live preview inside the chat, and publish it with a real link. Database, logins and hosting are built in, and the AI runs on your ChatGPT plan."
     },
     {
       "id": "1289428",
       "name": "Gologin Cloud Browser",
       "name_zh": "Gologin Cloud Browser",
-      "tagline_zh": "Cloud browser for AI agents and tough sites ",
-      "description_zh": "Gologin Cloud Browser gives AI agents and scrapers real Chromium browsers that stay logged in. Persistent sessions survive across runs, so there’s no re-auth or lost state. Built-in stealth and anti-bot protection, plus proxies in 150+ countries. Fully serverless, it scales to thousands of browsers and works with Playwright and Puppeteer via WebSocket. Built by the GoLogin team: 7 years’ expertise, SOC 2 Type II, 99.9% SLA. Plans from $4.50/mo.",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 智能体和难以自动访问的网站的云浏览器",
+      "description_zh": "Gologin Cloud Browser 为 AI 智能体和采集程序提供可跨次运行保留登录状态的 Chromium 浏览器，并提供隐藏自动化特征、应对反机器人检测及覆盖 150 多个国家的代理服务。简介称它无需自管服务器，可扩展至数千个浏览器，通过 WebSocket 连接 Playwright 和 Puppeteer；同时列出团队七年经验、SOC 2 Type II 合规认证、99.9% 服务可用性承诺，以及每月 4.50 美元起的套餐。",
+      "intro_zh": "给开发网页自动化程序的团队用，在云端运行浏览器，让 AI 智能体和采集任务延续登录状态。",
       "url": "https://www.producthunt.com/products/gologin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/TJNEWWJYUBDNAH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8a33038a-ff30-42c0-b7c5-13bc3a3fc6d9.png?auto=format",
       "votes_count": 156,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨次保留登录状态对应明确麻烦，但实际可保持多久尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "浏览器状态如何持续保存，直接影响自动化任务能否接着运行。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把一次性任务改成可恢复会话，是可借用于重复网页操作的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是跨次复用会话，能减少任务启动时的重复准备；但保留浏览器状态不等于网站持续认可登录，这是判断能否长期使用的关键。",
+      "product_analysis": {
+        "target_problem": "开发 AI 网页助手或采集程序的人，需要反复访问已登录的网站。若每次启动都丢失状态，就得重新登录，也难以接着上次操作。",
+        "workflow": "程序通过现有自动化工具连接云端浏览器，执行网页操作。后续运行继续使用保留的会话，不必每次都从空白状态开始。",
+        "ai_value": "AI 在这里是浏览器的使用者。介绍没说产品自身用 AI 做什么，它主要替自动化程序保管浏览器会话。",
+        "differentiation": "省去自行维护浏览器运行环境和登录状态的部分工作。最可能让团队犹豫的是：登录凭据需要留在第三方云端。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: e7ab131d-b36f-4c89-84f6-506b03f1f781)"
-    },
-    {
-      "id": "1296195",
-      "name": "Gemini 4 Carbon",
-      "name_zh": "Gemini 4 Carbon",
-      "tagline_zh": "Google's next frontier model",
-      "description_zh": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2IANFENKZW6KZI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f257c60c-499b-4c1d-ba8f-67badbb2380b.png?auto=format",
-      "votes_count": 154,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "提供 Chromium 浏览器和持久会话，支持 Playwright、Puppeteer 两种网页自动化工具，通过 WebSocket（程序与远端浏览器持续通信的连接方式）接入。",
+        "possible_approach": "如果自己做，可以先给每个账号保存独立的浏览器资料，再在任务重启时加载同一份资料，供程序远程操作。",
+        "tradeoffs": "最容易出错的是把保存资料当成登录永远有效。网站若让登录过期，任务仍会停在验证页面。",
+        "unknowns": "简介没有说明网站要求重新验证时，任务如何恢复。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 2c86615b-f1b6-42b6-9979-531bea0ca5c7)"
+      "transferable_insights": [
+        "做周期性网页任务时，可以给用户固定的浏览器会话，让下一次任务接着用，减少重复登录。"
+      ],
+      "validation_questions": [
+        "结束并重启一次任务后，目标网站的登录状态是否仍在？",
+        "登录失效后，能否完成重新验证并继续原任务？"
+      ],
+      "source_tagline": "Cloud browser for AI agents and tough sites ",
+      "source_description": "Gologin Cloud Browser gives AI agents and scrapers real Chromium browsers that stay logged in. Persistent sessions survive across runs, so there’s no re-auth or lost state. Built-in stealth and anti-bot protection, plus proxies in 150+ countries. Fully serverless, it scales to thousands of browsers and works with Playwright and Puppeteer via WebSocket. Built by the GoLogin team: 7 years’ expertise, SOC 2 Type II, 99.9% SLA. Plans from $4.50/mo."
     },
     {
       "id": "1285420",
       "name": "TopAgent",
       "name_zh": "TopAgent",
-      "tagline_zh": "Drive B2B event attendance with an AI agent",
-      "description_zh": "Fill your next B2B conference, summit, or workshop with SMS invitations and relevant follow-ups. Give TopAgent your opted-in audience, event details, registration link, and deadline. It prepares the campaign, monitors delivery, clicks, and replies, and returns with follow-ups ready for your approval.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 助手推动 B2B 活动报名参会",
+      "description_zh": "用短信邀请和相关的后续联系，为下一场 B2B 会议、峰会或工作坊招募参会者。提供已同意接收消息的受众、活动详情、报名链接和截止日期后，TopAgent 会准备营销活动，监测送达、点击和回复，并提交后续联系内容供你批准。",
+      "intro_zh": "给组织 B2B 活动的营销人员用，准备短信邀请，查看受众反馈，再审批后续联系内容。",
       "url": "https://www.producthunt.com/products/topmessage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4WKNUM64IFEFUW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1495d4f7-aa10-4fd7-b3f6-4f1028df12e9.png?auto=format",
       "votes_count": 133,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "输入和交付物清楚，但能否带来更多报名尚无材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何根据反馈决定后续联系值得拆解，但处理规则未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先准备后续内容、再交人审批的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它能把受众反馈变成待审批的后续内容；最影响判断的是它能否知道谁已报名，避免重复催促。",
+      "product_analysis": {
+        "target_problem": "活动营销人员需要邀请已同意接收短信的受众，并根据反馈继续联系。麻烦在于看完送达、点击和回复后，还要决定下一条发什么。",
+        "workflow": "提供受众、活动详情、报名链接和截止日期。工具准备活动，监测送达、点击和回复，再把后续联系内容交给用户审批。",
+        "ai_value": "介绍将其称为 AI 助手，承担活动准备和后续内容准备；没有说明 AI 如何判断该联系谁。",
+        "differentiation": "把反馈监测与后续内容准备放在一起，可能减少来回整理。最可能让人犹豫的是后续短信是否仍需大量修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 97535809-a897-48d3-b1f4-8c7457f76911)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到短信邀请、送达与点击及回复监测，以及后续内容审批，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把每位受众的短信反馈记在一起，再让 AI 根据反馈和活动信息拟写后续消息，交人批准。",
+        "tradeoffs": "最容易错在把点击当成报名意愿，继续催促已报名的人，造成打扰。",
+        "unknowns": "能否识别已经完成报名的人，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做客户联系工具时，可让系统先拟好下一条消息，再让负责人审批，减少从空白开始写的工作。"
+      ],
+      "validation_questions": [
+        "给一位已完成报名的测试联系人，检查系统是否还会建议催报名。",
+        "让测试联系人回复拒绝继续联系，检查系统是否停止建议跟进。"
+      ],
+      "source_tagline": "Drive B2B event attendance with an AI agent",
+      "source_description": "Fill your next B2B conference, summit, or workshop with SMS invitations and relevant follow-ups. Give TopAgent your opted-in audience, event details, registration link, and deadline. It prepares the campaign, monitors delivery, clicks, and replies, and returns with follow-ups ready for your approval."
     },
     {
       "id": "1295110",
       "name": "Radar",
       "name_zh": "Radar",
-      "tagline_zh": "You don't need an AI SRE. Give your agent Radar.",
-      "description_zh": "Your agent knows Kubernetes. It doesn't know your cluster. Radar (open-source) gives it context over MCP: ranked issues, a change timeline, logs and owners in one view. New: click Investigate on a failing workload. Claude Code, Codex or Cursor finds the root cause, read-only, with evidence for each claim. In our benchmark of 50 live faults across six tools, Radar found the most root causes. Radar Cloud investigates every alert and posts findings to Slack.",
-      "intro_zh": "",
+      "tagline_zh": "你不需要 AI 运维工程师，给你的智能体配上 Radar。",
+      "description_zh": "Radar 是开源工具，通过 MCP 向智能体提供 Kubernetes 集群的问题排序、变更时间线、日志和负责人；点击故障工作负载的 Investigate，可让 Claude Code、Codex 或 Cursor 只读排查原因，并为结论提供证据。介绍称，它在覆盖六种工具、50 个真实故障的自建测试中找到的根因最多；Radar Cloud 还会调查每条告警，并把发现发到 Slack。",
+      "intro_zh": "给维护 Kubernetes 集群的团队用，把故障线索交给编程智能体，辅助排查并查看结论证据。",
       "url": "https://www.producthunt.com/products/radar-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OPRQGVDZ6RGUVJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2bf4525b-b60f-4d4f-a769-258469c0c95e.jpeg?auto=format",
       "votes_count": 123,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确补上智能体缺少现场信息的问题，但排查效果只有产品方测试支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把故障结论对应到证据，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先提供现场信息、再让智能体调查的做法可借鉴到其他排障工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把现场信息带进现有智能体；最影响判断的是，附带证据的结论能否真正分清相关性与因果。",
+      "product_analysis": {
+        "target_problem": "维护 Kubernetes（管理容器应用的系统）的团队会需要它。智能体懂通用知识，却不了解当前集群，排障缺的是现场线索。",
+        "workflow": "查看排序后的问题和变更、日志、负责人。对故障工作负载点击 Investigate，让支持的编程智能体只读调查，再查看结论及证据。",
+        "ai_value": "AI 根据集群信息分析故障原因。云端版本还会调查告警，把发现发到 Slack。",
+        "differentiation": "它把现场线索集中交给现有智能体，可能减少来回补材料。团队可能因日志对外提供的边界不清而不愿接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: d8cc9c02-896c-446f-a10c-3d2433c0ce19)"
+      "technical_analysis": {
+        "disclosed_facts": "Radar 开源，通过 MCP（让智能体连接外部工具的协议）提供上下文，支持只读调查和结论证据。",
+        "possible_approach": "如果自己做，可以先收集故障对象的日志和变更，按对象与时间整理，再交给智能体分析，并让结论指向原始记录。",
+        "tradeoffs": "最难的是区分同时发生的变更与真正原因。若把时间接近当成因果，附了日志也可能引导用户查错方向。",
+        "unknowns": "只读调查会把哪些集群数据发送到外部服务，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做排障助手时，可把“调查”放在故障对象旁，并携带该对象的现场信息，减少用户重述问题。"
+      ],
+      "validation_questions": [
+        "选一个已知根因的故障，检查结论引用的证据是否足以支持该原因。",
+        "用含敏感字段的测试日志，检查哪些内容会发送到外部服务。"
+      ],
+      "source_tagline": "You don't need an AI SRE. Give your agent Radar.",
+      "source_description": "Your agent knows Kubernetes. It doesn't know your cluster. Radar (open-source) gives it context over MCP: ranked issues, a change timeline, logs and owners in one view. New: click Investigate on a failing workload. Claude Code, Codex or Cursor finds the root cause, read-only, with evidence for each claim. In our benchmark of 50 live faults across six tools, Radar found the most root causes. Radar Cloud investigates every alert and posts findings to Slack."
     },
     {
       "id": "1296248",
       "name": "IFTTT.ai",
       "name_zh": "IFTTT.ai",
-      "tagline_zh": "The easiest way to automate anything",
-      "description_zh": "IFTTT is now IFTTT.ai, and every plan now includes our core features and all 1,000+ services, from multiple actions and filters to queries and Webhooks. Pricing is credit-based, and you can build unlimited Applets for free. AI got an upgrade too. AI Agent watches web pages for price changes or new listings, AI Action assist writes each action based on its trigger, and AI queries run on better models. Or describe an automation in IFTTT Chat and it builds the Applet for you.",
-      "intro_zh": "",
+      "tagline_zh": "让各种自动化更容易",
+      "description_zh": "IFTTT 更名为 IFTTT.ai，介绍称所有套餐均包含核心功能和逾千种服务，支持多动作、筛选、查询及 Webhooks（接收外部事件通知的连接方式）；按额度计费，可免费创建不限数量的 Applet（自动化规则）。AI 功能包括监测网页价格或新条目、根据触发条件编写动作、使用升级模型执行查询，以及用聊天描述需求来生成规则。",
+      "intro_zh": "给需要连接多个服务的人用，把触发条件和后续动作组成自动化规则，也能用聊天描述要做的事。",
       "url": "https://www.producthunt.com/products/ifttt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3M5JCBHRSW7U5G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/91a00847-cb52-4b57-b59b-990324f31b0e.png?auto=format",
       "votes_count": 111,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "连接服务和生成规则的用途明确，但运行费用仍不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把自然语言变成可执行规则，有具体的理解与校验问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先描述目标再生成规则的做法，可借用于其他流程工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把需求描述直接变成规则；最影响判断的是创建免费与运行收费之间的实际费用边界。",
+      "product_analysis": {
+        "target_problem": "需要跨服务自动办事的人，会用它组合触发条件和后续动作。麻烦在于把一句需求拆成软件能执行的规则。",
+        "workflow": "在 IFTTT Chat 中描述自动化需求，由它生成 Applet。规则可包含多个动作和筛选条件。",
+        "ai_value": "AI 可生成规则、根据触发条件编写动作，也能监测网页价格变化或新条目。",
+        "differentiation": "它把描述需求接到了规则生成上，减少手动配置。按额度计费后费用能否预估，可能影响用户是否愿意迁入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4e3d48cb-576b-46af-8836-1e9b2ccb267a)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到查询、Webhooks 和 AI 模型升级，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先把需求拆成触发条件和动作，再匹配可用服务，生成供用户确认的规则。",
+        "tradeoffs": "最难的是理解触发条件。若把“降到某价格”理解成“任何降价”，就可能反复执行用户不想要的动作。",
+        "unknowns": "免费创建规则后，实际运行如何扣额度？"
+      },
+      "transferable_insights": [
+        "做审批或通知工具时，可以让用户先描述目标，再展示生成的条件与动作，逐项确认后启用。"
+      ],
+      "validation_questions": [
+        "给出带价格门槛的需求，检查生成的触发条件是否准确。",
+        "运行一条固定规则，检查能否查清每次执行消耗的额度。"
+      ],
+      "source_tagline": "The easiest way to automate anything",
+      "source_description": "IFTTT is now IFTTT.ai, and every plan now includes our core features and all 1,000+ services, from multiple actions and filters to queries and Webhooks. Pricing is credit-based, and you can build unlimited Applets for free. AI got an upgrade too. AI Agent watches web pages for price changes or new listings, AI Action assist writes each action based on its trigger, and AI queries run on better models. Or describe an automation in IFTTT Chat and it builds the Applet for you."
     },
     {
       "id": "1285850",
       "name": "Viggle JST-2",
       "name_zh": "Viggle JST-2",
-      "tagline_zh": "JST-2: 3D scenes, characters and motion from one model",
-      "description_zh": "JST-2 is Viggle’s physics-native world foundation model for generating 3D scenes, characters and full-body motion in one shared world. Scenes take about one second, characters come from one image or text with motion built in, and motion comes from text or video. Try it free in the PINOC browser app, or use the API or MCP with agents like Claude Code. Benchmarks are Viggle’s own blind human tests.",
-      "intro_zh": "",
+      "tagline_zh": "JST-2：用一个模型生成 3D 场景、角色和动作",
+      "description_zh": "JST-2 是 Viggle 的世界基础模型，产品方称它原生考虑物理规律，可在同一个世界里生成 3D 场景、角色和全身动作：场景生成约需一秒，角色可由单张图片或文字生成并自带动作，动作可由文字或视频生成。用户可在 PINOC 浏览器应用中免费体验，也可通过 API 或 MCP 连接 Claude Code 等智能体；简介所提的基准测试来自 Viggle 自行组织的人类盲测。",
+      "intro_zh": "给需要制作三维内容的人，用图片、文字或视频生成角色与动作，并在同一世界里生成场景。",
       "url": "https://www.producthunt.com/products/viggle-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YEZ2L5PFTMCTQZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e6e25ced-8c69-47ec-a6b4-4e5fa421f110.png?auto=format",
       "votes_count": 108,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "输入和产出清楚，但生成结果能否用于后续制作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "角色动作与场景能否保持物理关系，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "统一生成关联素材的做法可借鉴，但减少返工的效果待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它可能减少素材拼合后的调整。最大疑问是输出能否继续编辑；“约一秒”和自有盲测也不足以证明实际制作效率。",
+      "product_analysis": {
+        "target_problem": "三维内容制作者需要让角色、场景和动作配合起来。若这些内容分别制作，组合后可能还要调整接触位置和比例。",
+        "workflow": "在 PINOC 浏览器应用中体验生成。角色输入可用单张图片或文字，动作输入可用文字或视频；简介未说明场景如何输入。",
+        "ai_value": "AI 负责生成场景、角色和全身动作，介绍强调三者处于同一个世界中。",
+        "differentiation": "它可能减少分别制作后再拼合的工作。最影响是否转用的是：结果能否导入现有制作工具继续修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: eb2ab192-401f-42f8-96c0-c10d360d87d7)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称三类内容由同一模型生成，并称其原生考虑物理规律；未披露具体实现。",
+        "possible_approach": "如果自己做，可以先统一场景尺度和角色骨架，再让动作生成同时参考身体结构与场景位置，最后检查脚与地面等接触关系。",
+        "tradeoffs": "最难的是动作与环境接触正确。若脚穿过地面或身体穿过物体，用户仍需手工修正。",
+        "unknowns": "生成结果是否支持导出为可编辑的三维文件？"
+      },
+      "transferable_insights": [
+        "做需要组合多种素材的创作工具时，可以让生成过程共享尺寸和位置约束，减少用户组合后再调整。"
+      ],
+      "validation_questions": [
+        "生成一段走路动作，检查脚与地面接触是否稳定。",
+        "将生成结果导入常用三维工具，检查能否继续编辑。"
+      ],
+      "source_tagline": "JST-2: 3D scenes, characters and motion from one model",
+      "source_description": "JST-2 is Viggle’s physics-native world foundation model for generating 3D scenes, characters and full-body motion in one shared world. Scenes take about one second, characters come from one image or text with motion built in, and motion comes from text or video. Try it free in the PINOC browser app, or use the API or MCP with agents like Claude Code. Benchmarks are Viggle’s own blind human tests."
+    },
+    {
+      "id": "1295697",
+      "name": "Notch Metrics",
+      "name_zh": "Notch Metrics",
+      "tagline_zh": "用 Claude Code 为 MacBook 刘海区域构建数据小组件",
+      "description_zh": "在 MacBook 刘海区域显示营收、月度经常性收入（MRR）和订阅者数量。数据来自 Stripe、Polar、Paddle、Dodo Payments 等支付平台。",
+      "intro_zh": "给用 MacBook 关注订阅业务的人，把支付平台的营收和订阅数据放到刘海区域查看。",
+      "url": "https://www.producthunt.com/products/notch-metrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BJSV7OQQ7BMSV6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/887bbd13-a9e1-4bbd-a326-391aaf79aacd.jpeg?auto=format",
+      "votes_count": 185,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "查看业务数字的场景清楚，但能省多少操作还不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "不同支付平台的数据如何保持同一口径，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把少量常看指标放到固定位置，可借用于其他监控工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让常看数字随手可见；最影响判断的是，用户是否必须借助 Claude Code 才能完成配置。",
+      "product_analysis": {
+        "target_problem": "适合用 MacBook 随时关注订阅业务数字的人。它针对的是快速看一眼数据的场景，不涉及完整的财务分析。",
+        "workflow": "介绍只明确了数据来自多个支付平台，并显示在刘海区域。账户如何连接、组件如何创建，没有具体步骤。",
+        "ai_value": "标语提到用 Claude Code 辅助写代码来构建组件；没有说明 AI 是否参与日常数据处理。",
+        "differentiation": "把常看数字放到屏幕固定位置，可能减少打开支付后台的次数。但若创建组件需要自己写代码，非技术用户可能不愿迁移。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "标语提到 Claude Code，简介列出了支付数据来源和 MacBook 刘海这一显示位置，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先读取一个支付平台的数据，再把三个指标显示到刘海附近，最后扩展到其他平台。",
+        "tradeoffs": "最容易错在指标口径：若各平台对营收的计算范围不同，放在一起看可能误导判断。",
+        "unknowns": "数据多久更新一次，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做业务监控工具时，可以把少量高频查看的数字放到固定位置，让用户不必每次打开完整报表。"
+      ],
+      "validation_questions": [
+        "选定同一时间范围，组件的营收数字能否与支付后台对上？",
+        "不写代码，能否完成第一个组件的配置？"
+      ],
+      "source_tagline": "Use claude code to build analytics widgets for your notch",
+      "source_description": "Revenue, MRR and subscribers from Stripe, Polar, Paddle, Dodo Payments and more, in the MacBook notch."
+    },
+    {
+      "id": "1296195",
+      "name": "Gemini 4 Carbon",
+      "name_zh": "Gemini 4 Carbon",
+      "tagline_zh": "Google 的下一代前沿模型",
+      "description_zh": "简介称 Gemini 4 Carbon 是其最强的模型。它宣称具有先进的网络安全和长程任务能力，但没有提供具体示例。",
+      "intro_zh": "面向关注网络安全或长程任务的模型使用者，宣称可处理这两类工作，具体用途尚不清楚。",
+      "url": "https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2IANFENKZW6KZI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f257c60c-499b-4c1d-ba8f-67badbb2380b.png?auto=format",
+      "votes_count": 154,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "没有具体用户任务，无法判断能省掉什么工作。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "只有能力宣称，没有技术说明或任务示例。"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "没有展示可直接借鉴的产品做法。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我关注的是它可能连续完成多步工作的能力，但目前没有实例。缓存中的 Google 归属和产品身份也未经核验，应先确认来源，再判断能力。",
+      "product_analysis": {
+        "target_problem": "做网络安全工作、或需要模型连续处理多步任务的人可能会关注它。但缓存没有说明具体任务，不能判断原来麻烦在哪。",
+        "workflow": "介绍只给出模型定位，没有说明如何输入任务、是否需要人工确认，以及最后得到什么结果，无法还原使用流程。",
+        "ai_value": "AI 模型本身就是产品。网络安全能力具体指发现漏洞、解释风险还是其他工作，介绍没有区分。",
+        "differentiation": "“最强”和“先进”都没有评测支持，暂时不能据此判断比现有模型省事。我会先确认它能否完成用户已有的实际任务。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到网络安全和长程任务能力，没有说明具体采用什么技术。",
+        "possible_approach": "无法判断它的实现。如果自己做，可以先选一个安全检查任务，再让模型分步分析，每一步保留依据，最后由人核对结果。",
+        "tradeoffs": "最需要防的是前一步判断错误后，后续步骤继续沿用；用户可能拿到看似完整、实际依据有误的结论。这是实现风险，并非已发现的产品缺陷。",
+        "unknowns": "“长程”到底指较长的输入，还是持续执行多步任务？缓存没有解释。"
+      },
+      "transferable_insights": [
+        "做安全分析工具时，可以把每一步结论与依据一起展示，方便用户定位错误；这是实现建议，不是缓存已证实的功能。"
+      ],
+      "validation_questions": [
+        "用一个已有人工结论的安全案例测试，检查模型判断是否正确。",
+        "给出一个有明确终点的多步任务，检查它是否遗漏中途要求。"
+      ],
+      "source_tagline": "Google's next frontier model",
+      "source_description": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

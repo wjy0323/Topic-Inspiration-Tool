@@ -1,367 +1,510 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-15T20:31:39+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:28:53+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1245781",
       "name": "Naoma AI Demo Agent V2",
       "name_zh": "Naoma AI Demo Agent V2",
-      "tagline_zh": "Turns website traffic into booked, qualified meetings",
-      "description_zh": "Your book-a-demo button converts 1-2% of visitors. The rest leave. Naoma replaces the form with an AI account executive that runs the demo right then: it walks the prospect through your live product, answers questions, qualifies them and books the meeting. It remembers returning visitors, picks up where they left off, and writes every session back to your CRM. 50,000+ demos run for B2B SaaS teams. Now self-serve: upload your product and knowledge base test the agent today.",
-      "intro_zh": "",
+      "tagline_zh": "把网站访客转成符合筛选条件的已预约会议",
+      "description_zh": "介绍称，预约演示按钮通常只让 1%—2% 的访客完成转化；Naoma 用 AI 销售助手替代表单，当场介绍实际产品、回答问题、筛选潜客并预约会议。它还能记住回访者、接续上次交流，把每次会话写入客户关系管理系统；介绍称已为企业软件团队运行超过五万次演示，现在支持自行上传产品资料和知识库后测试。",
+      "intro_zh": "给企业软件销售团队用，让网站访客当场看产品演示、提问，再预约后续会议。",
       "url": "https://www.producthunt.com/products/naoma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NPQUFAO3PMOWSZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/78740130-29e9-449f-ace4-864df3ba24b1.png?auto=format",
       "votes_count": 476,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把留资等待改成当场演示，场景明确，但成交收益未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "演示时能否准确回答产品问题，直接影响潜客判断。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先让访客获得具体帮助，再邀请预约，可借用于复杂产品获客。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让访客在离开前得到产品解答。最影响判断的是演示究竟能深入到什么程度，缓存资料不足以确认。",
+      "product_analysis": {
+        "target_problem": "面向靠预约演示获客的企业软件团队。以前访客先填表申请演示，现在可以当场了解产品，不必先等销售接洽。",
+        "workflow": "团队上传产品资料和知识库后测试助手。访客接受演示、提问并被筛选，助手安排会议，将会话写回客户关系管理系统。",
+        "ai_value": "AI 承担产品讲解、问答和潜客筛选，也会接续回访者之前的交流。",
+        "differentiation": "把填表前后的等待变成即时交流。团队可能不愿交给它的，是面向客户解释产品的准确性。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1231948",
-      "name": "Web Search Agents by Nimble",
-      "name_zh": "Web Search Agents by Nimble",
-      "tagline_zh": "Self-learning agents automate web research + retrieval",
-      "description_zh": "Web Search Agents are expert web crawling and research agents for your specific domain (company enrichment, regulations research, etc.). They self-learn your use case to go deeper into the sources that matter most to you, giving your AI deeper and more relevant web context. To get started, give your AI this link: https://docs.nimbleway.com/agent-onboarding.md",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/nimbleway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4KNJ3HJMVH26RK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/92ad84e5-a83c-463f-9af5-2549aa7bef10.jpeg?auto=format",
-      "votes_count": 357,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 助手、回访记忆和会话写回，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从产品资料中查找答案，再按演示步骤讲解，最后依据筛选规则预约并保存记录。",
+        "tradeoffs": "最容易出错的是把资料没写的能力说成已有功能，导致销售后续需要纠正客户预期。",
+        "unknowns": "所谓演示实际产品，是操作产品界面，还是按资料讲解，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做复杂产品的获客页面时，可以先提供即时讲解和问答，再让有兴趣的访客预约会议。"
+      ],
+      "validation_questions": [
+        "问一个产品尚不支持的功能，检查助手是否会明确承认限制。",
+        "用同一身份回访，检查它能否准确接续上次谈话。"
+      ],
+      "source_tagline": "Turns website traffic into booked, qualified meetings",
+      "source_description": "Your book-a-demo button converts 1-2% of visitors. The rest leave. Naoma replaces the form with an AI account executive that runs the demo right then: it walks the prospect through your live product, answers questions, qualifies them and books the meeting. It remembers returning visitors, picks up where they left off, and writes every session back to your CRM. 50,000+ demos run for B2B SaaS teams. Now self-serve: upload your product and knowledge base test the agent today."
     },
     {
       "id": "1243798",
       "name": "Elva",
       "name_zh": "Elva",
-      "tagline_zh": "Goodbye, Postman. Your APIs have new consumers",
-      "description_zh": "Developers use your APIs. Now agents do too. Elva discovers APIs from code, lets you choose what each audience can use, and runs your MCP servers with auth and analytics. Track agent activity and review changes as your code evolves",
-      "intro_zh": "",
+      "tagline_zh": "告别 Postman，你的 API 有了新的使用者",
+      "description_zh": "开发者在用你的 API，现在智能体也会用。Elva 从代码中发现 API，让你选择向不同使用者开放哪些功能，并运行带身份验证和使用分析的 MCP 服务；还能追踪智能体活动，在代码变化时供你审查相关变更。",
+      "intro_zh": "给需要向智能体开放软件功能的开发团队用，从代码中找出接口，控制开放范围并跟踪调用。",
       "url": "https://www.producthunt.com/products/elva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KKBBJSNCVH2VR2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b552c57c-3f39-4c01-9630-008728187935.jpeg?auto=format",
       "votes_count": 277,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "开放接口、控制权限和查看调用的需求明确，但实际省下多少配置工作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "代码变化后，如何避免智能体获得超出预期的权限，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按使用者选择开放功能的做法，可借用于面向外部工具的软件服务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让团队明确选择智能体能用哪些功能；最影响判断的是代码更新会不会悄悄扩大开放范围。",
+      "product_analysis": {
+        "target_problem": "已有 API（供其他软件调用功能的接口）的团队，向智能体开放功能时，需要决定哪些能用，并持续检查代码变化带来的影响。",
+        "workflow": "从代码中发现接口，选择向不同使用者开放的功能，再运行 MCP 服务并查看调用活动。代码演变时，可以审查相关变更。",
+        "ai_value": "智能体是接口的使用者。介绍没说 Elva 是否用 AI 分析代码，明确的作用是帮助团队管理智能体调用。",
+        "differentiation": "它把接口发现、开放范围设置和运行管理放在一起，可能减少分别维护的工作。迁入顾虑是现有权限规则能否保留；标语不足以证明它能替代 Postman。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持从代码发现接口，运行 MCP 服务（让智能体发现并调用工具的一种连接方式），并提供身份验证和调用分析。",
+        "possible_approach": "如果自己做，可以先扫描代码生成接口清单，再把选中的接口转成智能体可调用的工具，接上身份验证，并记录调用与版本变化。",
+        "tradeoffs": "最容易出错的是代码更新后的开放范围判断：若新增敏感功能被误开放，智能体可能执行不该执行的操作。",
+        "unknowns": "代码变化后，是否必须经人确认才会更新对外开放的功能？"
+      },
+      "transferable_insights": [
+        "做对外开放功能的平台时，可以先展示可开放清单，让负责人按使用者勾选，避免一次开放全部功能。"
+      ],
+      "validation_questions": [
+        "用权限较低的智能体调用未向它开放的功能，检查是否被拒绝。",
+        "在代码中新增一个接口，检查未经确认是否就能被智能体调用。"
+      ],
+      "source_tagline": "Goodbye, Postman. Your APIs have new consumers",
+      "source_description": "Developers use your APIs. Now agents do too. Elva discovers APIs from code, lets you choose what each audience can use, and runs your MCP servers with auth and analytics. Track agent activity and review changes as your code evolves"
     },
     {
       "id": "1226046",
       "name": "Hello Inbox",
       "name_zh": "Hello Inbox",
-      "tagline_zh": "Get more marketing emails into the inbox",
-      "description_zh": "Hello Inbox helps marketing teams get more emails into the inbox instead of spam. Test your campaigns before you send, see what is hurting deliverability, and get clear recommendations for what to fix. Instead of throwing deliverability scores and technical data at you, Hello Inbox turns the results into actionable steps so you can improve inbox placement without becoming an email deliverability expert.",
-      "intro_zh": "",
+      "tagline_zh": "让更多营销邮件进入收件箱",
+      "description_zh": "Hello Inbox 帮助营销团队在发送前测试邮件，找出影响邮件进入收件箱的问题，并提供修改建议。它把测试结果转成可执行步骤，让不熟悉邮件投递技术的人也能着手改进。",
+      "intro_zh": "给营销团队用的邮件检查工具，在群发前测试邮件，找出投递问题并列出修改建议。",
       "url": "https://www.producthunt.com/products/helloinbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7RVHWJWDFELG6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f168d169-57d4-4c04-ad42-2f16fa06452b.png?auto=format",
       "votes_count": 274,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用者和发送前检查的场景清楚，但实际改善程度未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "测试结果能否代表真实群发，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把诊断结果转成修改步骤，可借用于面向非技术用户的检查工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把投递问题变成能动手修改的步骤；最影响判断的是测试结果能否代表目标收件人的实际情况。",
+      "product_analysis": {
+        "target_problem": "营销团队发活动邮件时，需要排查邮件为何可能进入垃圾箱。麻烦在于看懂投递数据后，还得判断具体改什么。",
+        "workflow": "发送前测试营销邮件，查看影响投递的问题，再按建议修改。介绍没交代如何提交测试邮件。",
+        "ai_value": "介绍没提 AI，主要靠邮件测试和可执行建议来改善体验。",
+        "differentiation": "它把解读测试结果的工作变成修改步骤。团队可能担心测试结论不能代表真实群发，因此仍要保留其他检查。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确支持发送前测试、问题诊断和修改建议，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先向测试邮箱发信，记录邮件落入哪里，再结合检查结果生成修改步骤。",
+        "tradeoffs": "最难的是让测试覆盖真实收件环境。覆盖不足时，测试通过的邮件仍可能在部分收件人那里进入垃圾箱。",
+        "unknowns": "测试覆盖哪些邮箱服务？这决定结果能参考到什么范围。"
+      },
+      "transferable_insights": [
+        "做面向非技术用户的诊断工具时，每条问题后直接列出修改动作，别让用户拿着分数自己找办法。"
+      ],
+      "validation_questions": [
+        "用同一封邮件，对照测试结论和实际收件位置，检查结果是否一致。",
+        "挑一条修改建议，检查不懂邮件技术的营销同事能否照着完成。"
+      ],
+      "source_tagline": "Get more marketing emails into the inbox",
+      "source_description": "Hello Inbox helps marketing teams get more emails into the inbox instead of spam. Test your campaigns before you send, see what is hurting deliverability, and get clear recommendations for what to fix. Instead of throwing deliverability scores and technical data at you, Hello Inbox turns the results into actionable steps so you can improve inbox placement without becoming an email deliverability expert."
     },
     {
       "id": "1249790",
       "name": "Slashy Assistant",
       "name_zh": "Slashy Assistant",
-      "tagline_zh": "The AI assistant that does email for you",
-      "description_zh": "Slashy is an AI-native email client for managing all your inboxes. Slashy Assistant is the AI built into it: it drafts replies in your voice, organizes email, schedules meetings, prepares briefings, and tracks follow-ups. Connect your calendar, CRM, meeting notes, and favorite tools, and it starts helping within five minutes. Use it inside Slashy or through iMessage, Slack, or a phone call. Set up automations in plain English, and Slashy proactively handles recurring work before you have to ask.",
-      "intro_zh": "",
+      "tagline_zh": "替你处理邮件的 AI 助手",
+      "description_zh": "Slashy 是管理多个收件箱的 AI 邮件客户端，内置助手可按你的口吻起草回复、整理邮件、安排会议、准备简报和追踪后续事项。简介称，连接日历、客户管理系统、会议笔记等工具后，五分钟内即可开始协助；支持在 Slashy、iMessage、Slack 或电话中使用，也能用自然语言设置自动处理的重复工作。",
+      "intro_zh": "给需要管理多个收件箱的人，用 AI 起草回复、安排会议，并追踪邮件里的后续事项。",
       "url": "https://www.producthunt.com/products/slashy-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SGBGN3ITJC3HGN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fe5fffbc-476f-49aa-9323-ef48884ee303.jpeg?auto=format",
       "votes_count": 252,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "邮件与日程的处理场景清楚，但实际能代办到哪一步仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从理解邮件到执行操作，如何避免误发值得具体研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用自然语言设置重复工作，可借用于其他办公工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是从邮件中继续处理后续事务；最影响判断的是自动执行前，用户能否控制和确认。",
+      "product_analysis": {
+        "target_problem": "管理多个收件箱的人，要从往来邮件中找出待回复、待约时间和待跟进的事。麻烦在于这些事项分散，容易漏掉。",
+        "workflow": "在 Slashy 管理收件箱，连接日历等工具后，让助手起草回复或安排会议。也可通过 iMessage、Slack 或电话使用，并用自然语言设置重复工作。",
+        "ai_value": "AI 负责按用户口吻写草稿、整理邮件和准备简报，也参与会议安排与后续跟进。",
+        "differentiation": "它把邮件内容和后续事务放在一起处理，可能减少切换工具。用户可能不愿为了助手迁入另一个邮件客户端。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到内置 AI、连接外部工具，以及用自然语言设置自动化，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先读取相关邮件和日历，让模型提出草稿或操作建议，再经用户确认后执行。",
+        "tradeoffs": "最容易出错的是把邮件意图变成操作：若把试探性讨论当成承诺，可能发错回复或约错会议。",
+        "unknowns": "哪些操作会自动执行，哪些必须先经用户确认？"
+      },
+      "transferable_insights": [
+        "做办公工具时，可让用户用一句话设置重复任务，再展示系统理解的规则供确认。"
+      ],
+      "validation_questions": [
+        "给它一封只讨论备选时间的邮件，检查是否会擅自创建会议。",
+        "设置一条重复跟进规则，检查实际触发条件是否符合原意。"
+      ],
+      "source_tagline": "The AI assistant that does email for you",
+      "source_description": "Slashy is an AI-native email client for managing all your inboxes. Slashy Assistant is the AI built into it: it drafts replies in your voice, organizes email, schedules meetings, prepares briefings, and tracks follow-ups. Connect your calendar, CRM, meeting notes, and favorite tools, and it starts helping within five minutes. Use it inside Slashy or through iMessage, Slack, or a phone call. Set up automations in plain English, and Slashy proactively handles recurring work before you have to ask."
     },
     {
       "id": "1247984",
       "name": "Oats",
       "name_zh": "Oats",
-      "tagline_zh": "Free, open-source, and on device meeting notetaker",
-      "description_zh": "Oats is an AI meeting note-taking tool that is completely open, local, and free. Designed to not get in the way of your meetings, no bots, no subscription needed when running locally with on-device LLM. Available on both macOS and Windows. Enhanced transcription, multi-language support, speaker recognition, assessment, coaching, auto-tracking follow ups and more features via ariso.ai cloud backend.",
-      "intro_zh": "",
+      "tagline_zh": "免费、开源、在设备上运行的会议记录工具",
+      "description_zh": "Oats 是一款支持 macOS 和 Windows 的开源 AI 会议记录工具，本地运行设备端大语言模型时免费、无需订阅，也不需要机器人入会。简介还列出通过 ariso.ai 云端提供的增强转写、多语言支持、说话人识别、评估、辅导和自动跟踪后续事项等功能。",
+      "intro_zh": "给想在自己电脑上用 AI 记录会议的人用，无需机器人入会，支持 macOS 和 Windows。",
       "url": "https://www.producthunt.com/products/oats-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P7NBVYHWM3F6PN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/17af63e4-caa2-41b8-9fa3-b5d39320f34a.jpeg?auto=format",
       "votes_count": 244,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "本地记录和无需机器人入会的用途清楚，但本地功能范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "本地处理与云端增强如何分工，直接影响使用和隐私判断。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "基础功能留在本地、增强功能可选用云端的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重无需机器人入会、可在本地运行；最大疑问是本地模式究竟能独立完成多少工作。",
+      "product_analysis": {
+        "target_problem": "需要会议笔记、又不希望机器人加入会议的人会用到它。本地运行提供了另一种记录方式，但不能据此认定所有功能都离线可用。",
+        "workflow": "用户在 macOS 或 Windows 上使用 Oats 做会议记录，可在本地运行模型。增强转写等功能由云端提供，简介没说明具体录音操作。",
+        "ai_value": "AI 用来处理会议内容、辅助生成笔记；云端还提供转写增强和后续事项跟踪。本地能完成哪些任务没有列清。",
+        "differentiation": "无需让机器人入会，本地运行也无需订阅。最可能让人犹豫的是：所需功能是否仍要依赖云端。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1227583",
-      "name": "LLMagnet",
-      "name_zh": "LLMagnet",
-      "tagline_zh": "Make your WordPress site visible to AI",
-      "description_zh": "LLMagnet gives WordPress sites an AI visibility layer. Track visits from ChatGPT, Claude, Gemini and other AI crawlers, measure your AI Visibility Score, generate llms.txt and structured data, and make your site readable and actionable for AI agents.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/llmagnet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/L4ISAXK5EG6PUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/48142324-e133-489a-958f-399740089914.png?auto=format",
-      "votes_count": 152,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、设备端大语言模型，以及 ariso.ai 云端增强功能。",
+        "possible_approach": "如果自己做，可以先把会议音频转成文字，再让本地模型整理笔记；需要云端增强时，先让用户确认要发送的内容。",
+        "tradeoffs": "最容易出错的是本地与云端的选择不够清楚。用户可能以为内容留在电脑上，却启用了需要上传的功能。",
+        "unknowns": "完全断网时，能否从录音一直完成到生成笔记？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1248758",
-      "name": "Aside",
-      "name_zh": "Aside",
-      "tagline_zh": "AI browser that actually gets work done for you",
-      "description_zh": "Aside is a browser rebuilt for people and agents. It signs into your accounts, uses websites directly, and finishes complex work: messages, payments, internal tools, even local files. - Crafted in every detail: vertical tabs and Liquid Glass. - SOTA on agentic browsing benchmarks: outperforms Claude Cowork. - Full privacy: everything runs locally and is encrypted. - You can use your Claude or ChatGPT subscription.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/aside-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/ZG3CQQ442FU6YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/49ab04d0-f20e-4b91-8ce7-15ff24014c72.jpeg?auto=format",
-      "votes_count": 152,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1249723",
-      "name": "AppZapper 3000",
-      "name_zh": "AppZapper 3000",
-      "tagline_zh": "The uninstaller Apple forgot.",
-      "description_zh": "The most fun uninstaller for macOS has been rebuilt for the 31st century. Introducing AppZapper 3000. Drag in any app and instantly find all of its extra files. Then delete them with a real 3D zapper.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/appzapper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AWN5F3JGQIJQLW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e319eb79-dbaf-4761-a2f0-035c3a247d80.png?auto=format",
-      "votes_count": 110,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做处理敏感资料的桌面工具时，可以把本地功能与云端增强分开，并在启用云端前说明会发送什么。"
+      ],
+      "validation_questions": [
+        "断网完成一次会议记录，检查能否生成可用笔记。",
+        "启用一项云端增强功能，检查是否明确告知会上传哪些会议内容。"
+      ],
+      "source_tagline": "Free, open-source, and on device meeting notetaker",
+      "source_description": "Oats is an AI meeting note-taking tool that is completely open, local, and free. Designed to not get in the way of your meetings, no bots, no subscription needed when running locally with on-device LLM. Available on both macOS and Windows. Enhanced transcription, multi-language support, speaker recognition, assessment, coaching, auto-tracking follow ups and more features via ariso.ai cloud backend."
     },
     {
       "id": "1249725",
       "name": "appdesigns",
       "name_zh": "appdesigns",
-      "tagline_zh": "Design amazing appstore screenshots for free",
-      "description_zh": "appdesigns is a free, in-browser editor for App Store and Google Play screenshots. Drop in your screens, frame them in the latest iPhone, iPad or Mac, add headlines, backgrounds and stickers, and export at the exact sizes App Store Connect asks for. Design the whole set side by side, tilt and scale devices, or start from a community template. Unlimited exports, no watermark, and no account needed to start.",
-      "intro_zh": "",
+      "tagline_zh": "免费设计应用商店截图",
+      "description_zh": "appdesigns 是免费的浏览器内截图编辑器，面向 App Store 和 Google Play，可放入应用截图，添加 iPhone、iPad 或 Mac 设备外框、标题、背景和贴纸。它支持并排设计整组图片、调整设备倾斜与大小、使用社区模板，并按 App Store Connect 要求的尺寸导出；介绍称导出不限次数、无水印，开始使用无需账号。",
+      "intro_zh": "给准备上架应用的开发者和设计师用，把应用截图排成带设备外框和标题的商店展示图。",
       "url": "https://www.producthunt.com/products/appdesigns?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/W75L7NOSUW36S7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b7d30d0b-66bc-4c7e-af9b-9ddff88ae9b5.png?auto=format",
       "votes_count": 105,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "上架素材的制作目标明确，尺寸导出能省去部分手工设置。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多尺寸导出有具体问题可分析，但排版适配方式未说明。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "并排编辑整组素材、按提交规格导出的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重整组编辑和规定尺寸导出放在一起；最影响判断的是换尺寸后是否仍需大量手工调整。",
+      "product_analysis": {
+        "target_problem": "开发者上架应用时，需要把界面截图做成商店展示图。麻烦在于整组风格要一致，还得满足提交尺寸。",
+        "workflow": "放入截图，选设备外框，添加标题和背景；并排调整整组图片后导出，也可以从社区模板开始。",
+        "ai_value": "介绍没提 AI，主要靠浏览器编辑、模板和预设导出尺寸来改善体验。",
+        "differentiation": "以前若用通用设计工具手动设定提交尺寸，现在可以按要求直接导出。最可能影响切换的是现有设计稿能否继续编辑，介绍未说明。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确它是浏览器内编辑器，支持设备倾斜、缩放及指定尺寸导出，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把截图、外框和文字作为独立元素编辑，再按商店尺寸生成图片。难点是换尺寸后仍能保住原来的排版。",
+        "tradeoffs": "最容易出错的是尺寸适配：若只等比缩放或裁切，标题可能超出画面，用户还得逐张修。",
+        "unknowns": "介绍提到 Google Play，但没说明是否提供对应的导出尺寸。"
+      },
+      "transferable_insights": [
+        "做需要成组交付图片的工具时，可以让用户并排编辑，再按提交规格导出，方便检查整组是否一致。"
+      ],
+      "validation_questions": [
+        "用长标题导出不同尺寸，检查文字是否被裁掉。",
+        "检查是否能直接导出符合 Google Play 要求的图片尺寸。"
+      ],
+      "source_tagline": "Design amazing appstore screenshots for free",
+      "source_description": "appdesigns is a free, in-browser editor for App Store and Google Play screenshots. Drop in your screens, frame them in the latest iPhone, iPad or Mac, add headlines, backgrounds and stickers, and export at the exact sizes App Store Connect asks for. Design the whole set side by side, tilt and scale devices, or start from a community template. Unlimited exports, no watermark, and no account needed to start."
+    },
+    {
+      "id": "1231948",
+      "name": "Web Search Agents by Nimble",
+      "name_zh": "Web Search Agents by Nimble",
+      "tagline_zh": "自动学习使用需求的代理，自动开展网页研究与检索",
+      "description_zh": "Web Search Agents 面向企业信息补全、法规研究等特定领域，执行网页抓取与研究。简介称，它会学习使用需求，深入相关来源，为 AI 提供更相关的网页资料，并提供接入说明链接。",
+      "intro_zh": "给需要为 AI 收集企业或法规资料的团队用，按特定领域抓取和研究网页，提供参考资料。",
+      "url": "https://www.producthunt.com/products/nimbleway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4KNJ3HJMVH26RK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/92ad84e5-a83c-463f-9af5-2549aa7bef10.jpeg?auto=format",
+      "votes_count": 357,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "场景明确，但资料相关性和省时程度缺少验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "按任务选择来源有具体难点，但学习方式未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按领域筛选资料的做法可借鉴，反馈机制仍不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它按具体任务找资料的方向；最影响判断的是，“学习需求”能否带来可观察的筛选改善。",
+      "product_analysis": {
+        "target_problem": "做企业信息补全或法规研究的团队，需要给 AI 找到相关网页。麻烦在于找到页面后，还要判断它是否适合当前任务。",
+        "workflow": "简介给出的起点是把接入说明链接交给所用 AI。之后由代理围绕特定领域抓取、研究网页，具体配置步骤未说明。",
+        "ai_value": "它负责为 AI 寻找网页资料。所谓“自学习”被描述为逐步贴近使用需求，不能据此认定结果会持续变好。",
+        "differentiation": "它尝试把相关来源的筛选也交给代理。最可能让人犹豫的是：不清楚它为何选中这些来源。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到网页抓取、领域研究和学习使用需求，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先明确研究问题，再抓取候选网页，按相关性筛选，并保留原文链接供核对。",
+        "tradeoffs": "最难的是判断来源是否真正相关。若把提到关键词的页面当成有效依据，AI 可能据此给出偏题答案。",
+        "unknowns": "它靠什么反馈来学习用户需求？"
+      },
+      "transferable_insights": [
+        "做行业资料助手时，可以先让用户明确研究范围，再筛选网页，减少把无关资料交给 AI 的机会。"
+      ],
+      "validation_questions": [
+        "用一个熟悉的研究问题测试，返回资料是否切题？",
+        "纠正一次不相关结果后，同类任务的来源选择是否改变？"
+      ],
+      "source_tagline": "Self-learning agents automate web research + retrieval",
+      "source_description": "Web Search Agents are expert web crawling and research agents for your specific domain (company enrichment, regulations research, etc.). They self-learn your use case to go deeper into the sources that matter most to you, giving your AI deeper and more relevant web context. To get started, give your AI this link: https://docs.nimbleway.com/agent-onboarding.md"
+    },
+    {
+      "id": "1227583",
+      "name": "LLMagnet",
+      "name_zh": "LLMagnet",
+      "tagline_zh": "让你的 WordPress 网站更容易被 AI 发现",
+      "description_zh": "LLMagnet 为 WordPress 网站提供面向 AI 的访问追踪和内容整理功能，可追踪 ChatGPT、Claude、Gemini 等 AI 爬虫的访问，并提供 AI 可见度评分。它还能生成 llms.txt 和结构化数据，目标是让 AI 代理更容易读取网站并执行操作。",
+      "intro_zh": "给 WordPress 站长用，查看 AI 爬虫访问，并把网站内容整理成便于机器读取的形式。",
+      "url": "https://www.producthunt.com/products/llmagnet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/L4ISAXK5EG6PUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/48142324-e133-489a-958f-399740089914.png?auto=format",
+      "votes_count": 152,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "站长的观察与整理需求明确，但对实际被引用的帮助尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何识别 AI 爬虫访问，是具体且直接影响统计可信度的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把访问观察和内容整理放在一起可借鉴，但评分依据不明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把 AI 访问变成可查看的记录有用，但不能把爬虫到访或评分提高当成被 AI 引用的证据。",
+      "product_analysis": {
+        "target_problem": "WordPress 站长想知道 AI 是否访问网站，也需要让机器更容易理解内容。麻烦在于，访问过不等于读懂，更不等于在回答里引用。",
+        "workflow": "站长可查看 AI 爬虫访问和可见度评分，再生成 llms.txt 与结构化数据。简介没交代接入和发布步骤。",
+        "ai_value": "AI 是被观察和服务的对象。介绍没说产品本身用 AI 生成或分析内容。",
+        "differentiation": "它把访问追踪与内容整理放到一起。站长可能因无法确认这些改动能否增加引用而不愿投入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持生成 llms.txt（供 AI 参考的网站说明文件）和结构化数据（给内容加上机器可读的标签）。",
+        "possible_approach": "如果自己做，可以先从访问记录识别疑似 AI 爬虫，再把页面内容整理成说明文件和标签，最后核对是否与原文一致。",
+        "tradeoffs": "最难的是准确识别爬虫。访问者身份标记可能伪装，误判会让站长看错 AI 访问量。",
+        "unknowns": "可见度评分怎么算，是否只是检查网站配置？"
+      },
+      "transferable_insights": [
+        "做网站管理工具时，可把发现问题与生成修正材料放在同一处，减少用户在工具间搬运内容。"
+      ],
+      "validation_questions": [
+        "抽查被标为 AI 爬虫的访问，能否找到可信的身份依据？",
+        "生成的结构化数据是否与页面实际内容一致？"
+      ],
+      "source_tagline": "Make your WordPress site visible to AI",
+      "source_description": "LLMagnet gives WordPress sites an AI visibility layer. Track visits from ChatGPT, Claude, Gemini and other AI crawlers, measure your AI Visibility Score, generate llms.txt and structured data, and make your site readable and actionable for AI agents."
+    },
+    {
+      "id": "1248758",
+      "name": "Aside",
+      "name_zh": "Aside",
+      "tagline_zh": "能替你完成工作的 AI 浏览器",
+      "description_zh": "Aside 是面向用户和 AI 代理重做的浏览器，介绍称它能登录账户、直接操作网站，处理消息、付款、内部工具和本地文件，并提供竖向标签页与 Liquid Glass 视觉设计。介绍还称其在代理浏览测试中超过 Claude Cowork、所有内容均在本地运行并加密，且可使用已有的 Claude 或 ChatGPT 订阅。",
+      "intro_zh": "给需要在网站和本地文件之间处理事务的人用，让 AI 代为操作网页，完成消息、付款等工作。",
+      "url": "https://www.producthunt.com/products/aside-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZG3CQQ442FU6YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/49ab04d0-f20e-4b91-8ce7-15ff24014c72.jpeg?auto=format",
+      "votes_count": 152,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "处理对象明确，但复杂任务能完成到什么程度仍不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让 AI 操作已登录账户，涉及付款等不可轻易撤回的动作。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "直接在现有网站执行任务的思路可借鉴，但可靠性条件未说明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它直接替用户执行网页操作的方向。但历史简介没有解释本地运行与外部订阅如何配合，隐私承诺还不能直接采信。",
+      "product_analysis": {
+        "target_problem": "经常处理网页事务的人，需要在账户、内部工具和文件之间切换。Aside 想接手这些操作，减少用户逐页处理的工作。",
+        "workflow": "用户让它处理任务，它登录相关账户并直接操作网站。简介未说明任务如何输入、何时需要用户接手。",
+        "ai_value": "AI 代理（能代人执行操作的程序）负责使用网站，把任务推进到完成，而不只给出建议。",
+        "differentiation": "它把操作放进浏览器，可能省去用户照着建议再点击的步骤。最可能让人犹豫的是把付款权限交给 AI。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称支持本地运行、加密及使用 Claude 或 ChatGPT 订阅，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先让 AI 识别页面上的按钮和输入框，再逐步执行并检查结果；付款前要求用户确认。",
+        "tradeoffs": "最难的是确认执行对象无误。若把收款人认错，后续点击即使都成功，也可能付错钱。",
+        "unknowns": "“所有内容本地运行”是否包含 AI 推理，以及使用外部订阅时哪些数据会离开设备，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做报销或采购工具时，可以借用“直接操作已有网站”的思路；先覆盖一种固定任务，并在提交前展示关键字段供用户确认。"
+      ],
+      "validation_questions": [
+        "在测试付款中，检查最终提交前是否必须由用户确认收款人与金额。",
+        "处理含敏感内容的测试任务时，检查实际发送到设备外的数据范围。"
+      ],
+      "source_tagline": "AI browser that actually gets work done for you",
+      "source_description": "Aside is a browser rebuilt for people and agents. It signs into your accounts, uses websites directly, and finishes complex work: messages, payments, internal tools, even local files. - Crafted in every detail: vertical tabs and Liquid Glass. - SOTA on agentic browsing benchmarks: outperforms Claude Cowork. - Full privacy: everything runs locally and is encrypted. - You can use your Claude or ChatGPT subscription."
+    },
+    {
+      "id": "1249723",
+      "name": "AppZapper 3000",
+      "name_zh": "AppZapper 3000",
+      "tagline_zh": "Apple 忘了提供的卸载工具。",
+      "description_zh": "AppZapper 3000 是重新打造的 macOS 卸载工具，主打趣味操作。简介称，拖入应用就能立即找出其所有附属文件，再用 3D 删除器将它们删除。",
+      "intro_zh": "给想清理 Mac 应用及其附属文件的人用，拖入应用查找相关文件，再执行删除。",
+      "url": "https://www.producthunt.com/products/appzapper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AWN5F3JGQIJQLW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e319eb79-dbaf-4761-a2f0-035c3a247d80.png?auto=format",
+      "votes_count": 110,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "清理对象和操作方式明确，但能否准确找全附属文件尚未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "判断文件归属有具体难点，介绍未说明识别方法。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "拖入目标再查找关联项的做法可借用，但适用条件仍需验证。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "集中查找附属文件是最实在的好处。我的判断主要取决于文件归属是否准确，3D 删除效果不能证明清理可靠。",
+      "product_analysis": {
+        "target_problem": "Mac 用户卸载应用时，可能还想清理附属文件。麻烦在于判断哪些文件属于它，而不只是删除应用本身。",
+        "workflow": "把应用拖进 AppZapper 3000，工具查找附属文件，再通过 3D 删除器执行删除。介绍没展开具体确认步骤。",
+        "ai_value": "介绍没提 AI，主要靠查找附属文件和删除操作来改善体验。",
+        "differentiation": "它把查找和删除放在一起，减少自己找文件的工作。最可能让人犹豫的是：会不会删到其他应用还需要的文件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了面向 macOS、拖入应用查找附属文件，以及 3D 删除交互，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取应用标识，再查找可能关联的文件，让用户确认后删除。",
+        "tradeoffs": "最难的是判断文件归属。若把共用文件算成某个应用的附属文件，删除后可能影响其他应用。",
+        "unknowns": "删除前是否能查看并排除不想删除的文件？"
+      },
+      "transferable_insights": [
+        "做文件清理工具时，可以让用户拖入要处理的对象，再查找相关项，减少手动输入路径。"
+      ],
+      "validation_questions": [
+        "用包含共用文件的测试应用检查，是否会把共用文件列为删除对象？",
+        "查找完成后，能否逐项排除不想删除的文件？"
+      ],
+      "source_tagline": "The uninstaller Apple forgot.",
+      "source_description": "The most fun uninstaller for macOS has been rebuilt for the 31st century. Introducing AppZapper 3000. Drag in any app and instantly find all of its extra files. Then delete them with a real 3D zapper."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

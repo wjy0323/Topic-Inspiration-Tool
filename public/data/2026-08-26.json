@@ -1,367 +1,510 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-28T02:09:09+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:33:31+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1231551",
       "name": "x1",
       "name_zh": "x1",
-      "tagline_zh": "Lovable for iPhone apps go from idea to App Store",
-      "description_zh": "X1 is an AI app builder that takes you from an idea to an iPhone app you can publish on the App Store. Instead of trying to generate the entire app from one prompt, X1 guides you step by step. It asks focused questions, designs each screen for you to review and edit, then builds the app in stages. Preview and test it on your iPhone as you go. When it’s ready, X1 prepares your App Store listing, screenshots, and submission. No coding required.",
-      "intro_zh": "",
+      "tagline_zh": "面向 iPhone 应用的 Lovable：从想法走到 App Store",
+      "description_zh": "x1 是一款无需编程的 AI 应用构建工具，通过逐步提问、逐屏设计供你审阅修改，再分阶段构建，把想法做成可发布的 iPhone 应用。你可以边做边在 iPhone 上预览和测试，准备好后，它会准备 App Store 介绍页、截图和提交材料。",
+      "intro_zh": "给想做 iPhone 应用但不会编程的人用，逐步确认页面、构建应用，并准备上架材料。",
       "url": "https://www.producthunt.com/products/x1-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HRIWQ6DBNJOZ7W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b97cff53-6cd1-4c26-b8e2-14fbb42c8411.png?auto=format",
       "votes_count": 491,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从确认需求到准备上架的用途清楚，但可支持的应用复杂度未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "逐屏修改后如何保持应用行为正确，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先让用户确认局部结果再继续生成，可借用于复杂内容制作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重逐屏确认能让不会编程的人更早发现偏差；最影响判断的是，它能否支持用户真正需要的功能，而不只是做出页面。",
+      "product_analysis": {
+        "target_problem": "面向有 iPhone 应用想法、但不会编程的人。相比一次提示就生成整个应用，逐步提问能让用户分批补充需求、检查结果。",
+        "workflow": "回答聚焦问题，审阅并修改各个页面，再分阶段构建。在 iPhone 上边做边测试，最后准备上架介绍、截图和提交材料。",
+        "ai_value": "AI 把想法逐步变成页面和应用。介绍未说明提问、设计与构建分别怎样实现。",
+        "differentiation": "把检查点放在生成过程中，可能减少做完才发现方向不对的返工。最可能劝退用户的是复杂功能能否做出来仍不明确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1229149",
-      "name": "Expertise AI",
-      "name_zh": "Expertise AI",
-      "tagline_zh": "Turn your GTM skills into recurring revenue",
-      "description_zh": "Expertise AI is where GTM experts monetize their playbooks as protected Al skills. Each expert gets a storefront where businesses demo and install these skills on a subscription, and gets paid every time one runs.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/expertise-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UWNQIHNBEC6TSW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/50db997f-a5ce-4bdf-88b6-af7b450c5a08.png?auto=format",
-      "votes_count": 362,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 构建、分阶段生成和 iPhone 预览测试，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把回答整理成页面和操作清单，再逐屏生成；每次确认后构建可测试版本，再继续下一阶段。",
+        "tradeoffs": "难点是修改页面后仍保持操作正确。若按钮还指向旧页面，用户看到设计改好了，实际流程却走不通。",
+        "unknowns": "生成的应用支持哪些功能，介绍没有交代。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1232225",
-      "name": "PostHog Desktop",
-      "name_zh": "PostHog Desktop",
-      "tagline_zh": "The product editor for product builders",
-      "description_zh": "A multiplayer workspace for you, your team, and your agents – with your product data as context, and PostHog tools to ship and measure. Build and edit your product | Run a fleet of agents | Turn product signals into PRs.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/posthog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2RW3QOUU4OK7XB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ff678315-cade-4909-97d9-b598b74e9b8f.png?auto=format",
-      "votes_count": 338,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做网站或表单生成器时，可以先展示页面供用户确认，再继续生成，避免用户只能对最终成品提意见。"
+      ],
+      "validation_questions": [
+        "修改一个页面后，相关按钮和跳转能否仍按预期工作？",
+        "所谓准备提交，是否还需要用户自行处理关键上架步骤？"
+      ],
+      "source_tagline": "Lovable for iPhone apps go from idea to App Store",
+      "source_description": "X1 is an AI app builder that takes you from an idea to an iPhone app you can publish on the App Store. Instead of trying to generate the entire app from one prompt, X1 guides you step by step. It asks focused questions, designs each screen for you to review and edit, then builds the app in stages. Preview and test it on your iPhone as you go. When it’s ready, X1 prepares your App Store listing, screenshots, and submission. No coding required."
     },
     {
       "id": "1229226",
       "name": "ChatCut Desktop",
       "name_zh": "ChatCut Desktop",
-      "tagline_zh": "Video editor built for humans & AI. Edit with GPT & Claude.",
-      "description_zh": "Introducing ChatCut Desktop, the AI video editor built for humans and agents to edit together. Use ChatCut’s built-in agent, or connect ChatGPT/Codex or Claude Code. Say how you want your video edited and watch them happen on a fully editable timeline. Edit footage, create motion graphics and captions, generate video, images, music and SFX, and save reusable editing skills. Everything runs locally, and you stay in control. Export XML to Premiere Pro, DaVinci Resolve or CapCut.",
-      "intro_zh": "",
+      "tagline_zh": "为人与 AI 协作打造的视频编辑器，可用 GPT 和 Claude 剪辑。",
+      "description_zh": "ChatCut Desktop 支持人与 AI 助手一起剪片：使用内置助手，或连接 ChatGPT/Codex、Claude Code，用语言描述剪辑要求，并在可编辑时间线上查看和修改结果。它还支持动态图形、字幕及视频、图片、音乐、音效生成，可保存复用的剪辑技能；介绍称一切在本地运行，并可导出 XML 到 Premiere Pro、DaVinci Resolve 或 CapCut。",
+      "intro_zh": "给想用语言指挥剪辑的视频创作者，把剪辑要求变成时间线上的修改，再由人继续调整。",
       "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/J3QOL7SBC4ULA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c1485b5d-1b9c-4f15-8820-bb976da398cb.png?auto=format",
       "votes_count": 288,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "需求描述到可编辑结果的用途清楚，但剪辑质量未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "语言指令如何准确修改时间线，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把 AI 结果保留为可修改的操作对象，可借用于其他创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重结果仍能在时间线上细调；最影响判断的是它能否准确理解剪辑要求，避免省下操作却增加返工。",
+      "product_analysis": {
+        "target_problem": "面向有剪辑需求、又想保留细节控制的创作者。逐项调整片段、字幕和效果可能费时，它提供用语言下达要求的方式。",
+        "workflow": "选择内置助手或连接外部助手，描述剪辑要求，再在时间线上检查和修改结果。需要转到其他软件时，可导出 XML。",
+        "ai_value": "AI 把口头描述变成剪辑操作，也能生成素材。结果留在时间线上，用户可以继续改。",
+        "differentiation": "可能减少逐项手动操作；最可能影响迁移的是导出后能否保留已有编辑。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持连接所列 AI 助手，并用 XML（一种结构化文件格式）导出编辑信息；介绍称一切在本地运行。",
+        "possible_approach": "如果自己做，可以先把要求拆成剪切、移动、加字幕等动作，再逐项应用到时间线，保留撤销记录。",
+        "tradeoffs": "最难的是把模糊要求对应到准确片段；选错片段，用户就得检查并返工。",
+        "unknowns": "“一切在本地运行”是否也包含外部助手和素材生成，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做图片、音频等创作工具时，可以让 AI 直接修改用户熟悉的编辑对象，方便人接手细调。"
+      ],
+      "validation_questions": [
+        "给出指定片段的剪辑要求，检查它是否只修改目标片段。",
+        "把项目导入常用剪辑软件，检查时间线内容是否保留。"
+      ],
+      "source_tagline": "Video editor built for humans & AI. Edit with GPT & Claude.",
+      "source_description": "Introducing ChatCut Desktop, the AI video editor built for humans and agents to edit together. Use ChatCut’s built-in agent, or connect ChatGPT/Codex or Claude Code. Say how you want your video edited and watch them happen on a fully editable timeline. Edit footage, create motion graphics and captions, generate video, images, music and SFX, and save reusable editing skills. Everything runs locally, and you stay in control. Export XML to Premiere Pro, DaVinci Resolve or CapCut."
     },
     {
       "id": "1230621",
       "name": "MCP-Builder.ai",
       "name_zh": "MCP-Builder.ai",
-      "tagline_zh": "The fastest way to connect your data with your AI Tools. ",
-      "description_zh": "Build a hosted and secured MCP Server in minutes. Think of MCP-Builder.ai as Lovable for MCP connectors. Describe what you want to connect and it builds, hosts and secures your MCP Server for you. No deployment, infrastructure or security setup needed. Connect: • Databases • APIs • 3rd party apps • Files • And more Get your MCP URL, add it to Claude, ChatGPT, Cursor or any MCP compatible client and start using it.",
-      "intro_zh": "",
+      "tagline_zh": "快速把你的数据接入 AI 工具。",
+      "description_zh": "描述想连接的数据源，它会构建、托管并保护 MCP 服务器，支持数据库、接口、第三方应用和文件；介绍称几分钟即可完成，无需自行配置部署、基础设施和安全设置。拿到 MCP 地址后，可添加到 Claude、ChatGPT、Cursor 等兼容客户端使用。",
+      "intro_zh": "给想让 AI 工具访问业务数据的团队用，描述要连接的数据源，生成并托管连接服务。",
       "url": "https://www.producthunt.com/products/mcp-builder-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VCPNXA2NR6U5CT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b8d9dc09-c598-4a2a-ad1e-909575aa974f.png?auto=format",
       "votes_count": 172,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "省去自建连接服务的工作很具体，但接入范围和权限控制尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把数据交给 AI 使用时，如何限制访问权限是明确的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把生成、托管和可用地址一起交付，可借用于连接器产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是直接交付可连接的托管服务；最影响判断的是它能否把数据访问严格限制在授权范围内。",
+      "product_analysis": {
+        "target_problem": "想让 AI 访问业务数据的团队会需要它。以前若选择自建连接服务，要处理部署和安全配置；现在可以把这些工作交给它。",
+        "workflow": "描述要连接的数据源，由产品构建并托管服务。拿到 MCP 地址，再添加到兼容的 AI 客户端。",
+        "ai_value": "它让 AI 工具能连接外部数据。简介提到用描述生成服务，但没说明这一步由 AI 完成哪些工作。",
+        "differentiation": "省事点是交付可连接的服务，不只生成代码。团队可能不愿把敏感数据的访问交给外部托管服务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "采用 MCP（让 AI 工具连接外部数据和功能的通信规范），提供托管服务和连接地址。",
+        "possible_approach": "如果自己做，可以先把用户描述转成待确认的连接配置，再生成读取数据的操作，部署为 MCP 服务并返回地址。",
+        "tradeoffs": "最容易出错的是访问权限设得过宽，导致 AI 能读取用户本不打算开放的数据。",
+        "unknowns": "介绍所说的安全保护，能否限制到指定数据范围？"
+      },
+      "transferable_insights": [
+        "做连接器产品时，可以把生成、部署和连接地址合成一次交付，减少用户拿到代码后还得自行上线的工作。"
+      ],
+      "validation_questions": [
+        "用一个代表性数据源，检查返回的地址能否在目标 AI 客户端完成一次读取。",
+        "设置只允许访问部分数据，检查请求范围外的数据是否被拒绝。"
+      ],
+      "source_tagline": "The fastest way to connect your data with your AI Tools. ",
+      "source_description": "Build a hosted and secured MCP Server in minutes. Think of MCP-Builder.ai as Lovable for MCP connectors. Describe what you want to connect and it builds, hosts and secures your MCP Server for you. No deployment, infrastructure or security setup needed. Connect: • Databases • APIs • 3rd party apps • Files • And more Get your MCP URL, add it to Claude, ChatGPT, Cursor or any MCP compatible client and start using it."
     },
     {
       "id": "1231306",
       "name": "Tellie Prompter 1.5",
       "name_zh": "Tellie Prompter 1.5",
-      "tagline_zh": "The teleprompter that knows what you haven't said",
-      "description_zh": "Most teleprompters make you follow them. Tellie follows you. It listens to the words you actually say, so you can pause, skip, improvise, or go off script without losing your place. Now Tellie 1.5 knows what you haven’t said yet, too. It tracks your important points, warns when you’re running long, and debriefs your take. All in a 3 MB Mac app that runs locally, with no account and no telemetry. Free for 10 days and $10 off for ProductHunt with code PRODHUNT10",
-      "intro_zh": "",
+      "tagline_zh": "知道你还有什么没说的提词器",
+      "description_zh": "Tellie 会听取实际说出的内容，让你暂停、跳读、即兴发挥或偏离稿件时仍能跟上位置，并追踪重要要点、提醒超时、在讲完后提供回顾。介绍称它是本地运行的 3 MB Mac 应用，无需账号、不收集遥测数据，提供 10 天免费试用及 Product Hunt 专属优惠码 PRODHUNT10，可减 10 美元。",
+      "intro_zh": "给在 Mac 上照稿演讲或录制口播的人用，跟随实际讲话定位稿件，并检查重要要点是否讲到。",
       "url": "https://www.producthunt.com/products/tellie-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KS5JFRUHBLE2PP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/eec7d945-ee4e-4970-8d70-db26cb73f8f9.png?auto=format",
       "votes_count": 140,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "照稿讲话时的定位和漏讲问题明确，实际跟随效果仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "偏离稿件后如何找回位置，是直接影响使用的具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按实际表达追踪要点的做法，可借用于演讲排练工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让人按自己的节奏讲，少分心找稿件位置；最影响判断的是偏离稿件后能否可靠找回位置。",
+      "product_analysis": {
+        "target_problem": "演讲者和口播录制者照稿讲话时，可能停顿、跳段或临时补充内容。固定节奏的提词方式容易让人忙着追稿。",
+        "workflow": "讲话时，应用听取实际说出的词并跟随稿件位置，同时追踪重要要点、提醒讲得过长。讲完后提供本次表现的回顾。",
+        "ai_value": "介绍没提 AI，主要靠听取讲话、定位稿件和追踪要点来改善体验；无法确认是否使用模型。",
+        "differentiation": "它把找位置的工作交给软件，减少讲话者追赶提词进度的负担。最可能让人不愿换用的，是担心即兴发挥后定位不准。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称应用在 Mac 本地运行，体积 3 MB，无需账号且不收集遥测数据。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再与稿件片段匹配位置，另记已覆盖的要点，用讲话时长触发提醒。",
+        "tradeoffs": "最难的是偏离稿件后重新定位。若把相似句认错，提词位置可能跳走，打断讲话。",
+        "unknowns": "要点追踪能否识别换一种说法表达的同一意思，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做演讲排练工具时，可以把“稿件读到哪里”和“要点讲到哪些”分开记录，容许用户调整顺序。"
+      ],
+      "validation_questions": [
+        "跳过一段并即兴补充后再回到稿件，能否定位到正确位置？",
+        "不用原稿措辞讲出同一要点，是否仍会被记为已覆盖？"
+      ],
+      "source_tagline": "The teleprompter that knows what you haven't said",
+      "source_description": "Most teleprompters make you follow them. Tellie follows you. It listens to the words you actually say, so you can pause, skip, improvise, or go off script without losing your place. Now Tellie 1.5 knows what you haven’t said yet, too. It tracks your important points, warns when you’re running long, and debriefs your take. All in a 3 MB Mac app that runs locally, with no account and no telemetry. Free for 10 days and $10 off for ProductHunt with code PRODHUNT10"
     },
     {
       "id": "1232603",
       "name": "OpenComputer",
       "name_zh": "OpenComputer",
-      "tagline_zh": "Firebase for Agents",
-      "description_zh": "Introducing OpenComputer Deploy your agent as a function. Get a computer for it. - a real Linux machine per session - ffmpeg, chromium, git, install anything - durable: hibernate + resume - your keys never enter the runtime The cloud of the last decade was built for apps. The next one is for trillions of always on agents. OpenComputer is their home.",
-      "intro_zh": "",
+      "tagline_zh": "面向智能体的 Firebase",
+      "description_zh": "OpenComputer 支持将智能体作为函数部署，并为每个会话提供一台真实的 Linux 机器，可安装 ffmpeg、Chromium、Git 等软件。介绍称机器支持休眠后恢复，且用户密钥不会进入运行环境。",
+      "intro_zh": "给需要部署智能体的开发者用，为每个会话提供能安装软件、休眠后继续运行的电脑。",
       "url": "https://www.producthunt.com/products/opencomputer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VVHZVEVKSQXPBO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e7d800f1-461b-4f4a-a2f6-5930c9011316.png?auto=format",
       "votes_count": 138,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "运行环境和持续保存的用途清楚，但实际维护负担尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "休眠恢复涉及任务能否接着执行，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按会话提供电脑的做法，可借用于需要独立运行环境的任务产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是任务有可保留的工作环境；最大疑问是恢复能否接着执行，而不只是找回文件。",
+      "product_analysis": {
+        "target_problem": "开发者做需要浏览网页、处理视频或操作代码的智能体时，需要安排软件和运行环境。任务跨多次会话继续时，还得保存工作现场。",
+        "workflow": "把智能体作为函数部署，为会话取得 Linux 机器，安装所需软件并运行任务。机器可休眠后恢复；具体操作方式未说明。",
+        "ai_value": "它为智能体提供执行工具的电脑。介绍没说明模型如何接入，也没展示智能体本身的能力。",
+        "differentiation": "把会话用的电脑和休眠恢复放在同一服务里，可能减少自行管理环境的工作。我会先确认恢复后能否继续原任务。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "每个会话有真实 Linux 机器，可安装软件、休眠及恢复；介绍称密钥不进入运行环境。",
+        "possible_approach": "如果自己做，可以先为每个会话分配独立机器，再保存磁盘和运行状态供恢复使用。",
+        "tradeoffs": "最难的是恢复后的任务连续性：即使文件还在，网页登录或网络连接也可能失效，用户仍得重新操作。",
+        "unknowns": "休眠恢复保留的是文件，还是连正在运行的程序也能保留？"
+      },
+      "transferable_insights": [
+        "做长时间运行的自动化工具时，可以把会话绑定到可恢复的工作环境，让用户回来后继续处理同一任务。"
+      ],
+      "validation_questions": [
+        "运行一个尚未完成的程序后休眠，恢复时它能否继续执行？",
+        "给任务配置测试密钥后，能否从运行环境中读到它？"
+      ],
+      "source_tagline": "Firebase for Agents",
+      "source_description": "Introducing OpenComputer Deploy your agent as a function. Get a computer for it. - a real Linux machine per session - ffmpeg, chromium, git, install anything - durable: hibernate + resume - your keys never enter the runtime The cloud of the last decade was built for apps. The next one is for trillions of always on agents. OpenComputer is their home."
     },
     {
       "id": "1231169",
       "name": "Termy",
       "name_zh": "Termy",
-      "tagline_zh": "Learn languages from games, videos, and websites",
-      "description_zh": "Termy turns the games, videos, and websites you love into language practice. Press one shortcut and it finds the difficult words on your screen, explains them in context, and saves them with the exact moment you discovered them—without breaking your flow. Later, those moments become adaptive exercises built around your vocabulary. Works on Windows and macOS in 30 languages. Free to start.",
-      "intro_zh": "",
+      "tagline_zh": "通过游戏、视频和网站学习语言",
+      "description_zh": "Termy 用快捷键找出屏幕上的难词，结合上下文解释，并连同遇见它们时的具体片段一起保存。之后，这些片段会变成围绕个人词汇的自适应练习；支持 Windows、macOS 和 30 种语言，可免费开始使用。",
+      "intro_zh": "给看外语视频、玩外语游戏和浏览外语网站的人用，把屏幕上的难词存下来，留作练习。",
       "url": "https://www.producthunt.com/products/termy-language-learning?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SAZDUOG4HGIOQW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c019477f-7253-4680-ac04-58c49bed8efe.jpeg?auto=format",
       "votes_count": 121,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "场景明确，把理解难词、保存语境和后续练习放在一起，但实际打断程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从不同屏幕内容中取得足够语境，是影响解释是否可靠的具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保存词语时保留出处，再用原场景出题，适合借到阅读学习产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让复习材料带着原来的语境。最影响判断的是，它能否取得足够上下文，避免把错误释义带进练习。",
+      "product_analysis": {
+        "target_problem": "外语学习者看视频或玩游戏时，可能既想弄懂生词，又不想中断当前内容。只记下词语，日后可能忘了当时为什么不懂。",
+        "workflow": "遇到难词时按快捷键，让 Termy 找词、解释并保存当时片段。之后再用这些材料做自适应练习。",
+        "ai_value": "介绍没提 AI，主要靠屏幕找词、结合语境解释和后续练习改善体验，无法确认哪些步骤用了 AI。",
+        "differentiation": "它把生词和发现它的场景一起留下，减少日后回忆出处的麻烦。但若快捷键仍频繁打断游戏或观看，用户可能不愿持续使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Windows、macOS 和 30 种语言；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取屏幕文字及附近内容，再解释候选难词，保存对应画面，最后按已存词汇安排练习。",
+        "tradeoffs": "最容易出错的是取到的上下文不完整。漏掉前一句，可能把多义词解释错，后续练习也跟着出错。",
+        "unknowns": "“保存当时片段”具体保存什么，是否会包含屏幕上的私人信息？"
+      },
+      "transferable_insights": [
+        "做阅读学习产品时，收藏生词可同时保存原句和出处，让复习时能回到原来的语境。"
+      ],
+      "validation_questions": [
+        "用一个必须结合前句才能理解的多义词，检查解释是否正确。",
+        "在含私人信息的测试画面上保存生词，检查保存内容是否超出所需范围。"
+      ],
+      "source_tagline": "Learn languages from games, videos, and websites",
+      "source_description": "Termy turns the games, videos, and websites you love into language practice. Press one shortcut and it finds the difficult words on your screen, explains them in context, and saves them with the exact moment you discovered them—without breaking your flow. Later, those moments become adaptive exercises built around your vocabulary. Works on Windows and macOS in 30 languages. Free to start."
     },
     {
       "id": "1221455",
       "name": "ify",
       "name_zh": "ify",
-      "tagline_zh": "Resolution AI that works on top of your existing helpdesk",
-      "description_zh": "Most AI support tools ask you to rip out your helpdesk first. Ify works on top of Freshdesk, Zendesk, Salesforce, or HubSpot and gets to work across email, chat, WhatsApp, Slack, and more. The part that usually stalls an AI support rollout is \"our docs aren't good enough.\" Ify solves that by building its own knowledge base: it scrapes your site and docs, generates SOPs from release notes and past ticket resolutions. Built for support teams who want something live now.",
-      "intro_zh": "",
+      "tagline_zh": "在现有客服系统上运行的 AI 问题解决工具",
+      "description_zh": "ify 可在 Freshdesk、Zendesk、Salesforce 或 HubSpot 上运行，覆盖邮件、聊天、WhatsApp、Slack 等渠道。它会抓取网站和文档，并根据更新说明及历史工单的解决记录生成标准操作流程，建立自己的知识库。",
+      "intro_zh": "给想保留现有客服系统的支持团队用，整理网站、文档和历史工单，为 AI 处理咨询提供知识。",
       "url": "https://www.producthunt.com/products/ify-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QV2KSOZBY2NWLU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9555e309-0095-4082-8213-c2b867073ce8.png?auto=format",
       "votes_count": 116,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "保留客服系统、减少知识整理都有明确场景，但实际解决能力未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从历史处理记录提炼通用流程，有具体且影响答复质量的难点。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从已有工作记录生成知识，适合借到其他依赖文档的工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它利用已有资料补齐知识的做法；最影响判断的是，生成流程能否区分通用规则与个别例外。",
+      "product_analysis": {
+        "target_problem": "客服团队想上线 AI，但现有文档不足以支撑答复。ify 面向希望继续使用原客服系统、又需要补齐知识的团队。",
+        "workflow": "在已有客服系统上使用 ify，让它收集网站和文档，再从更新说明、历史工单解决记录中生成处理流程。介绍未交代人工审核步骤。",
+        "ai_value": "AI 的明确用途是把散落资料整理成知识库，并生成标准操作流程。它能否直接执行退款等业务动作，资料没有说明。",
+        "differentiation": "省去为使用它而替换客服系统的需要，也减少从零整理资料的工作。团队可能仍不愿采用，因为自动生成的流程需要先确认可靠。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持所列客服系统和沟通渠道，抓取网站、文档，并从更新说明及历史工单生成标准操作流程。",
+        "possible_approach": "如果自己做，可以先汇集资料并保留出处，再让 AI 提炼处理步骤，交给客服负责人确认后用于答复。",
+        "tradeoffs": "最容易错在把某次工单的特殊处理当成通用规则，导致其他客户收到不适用的承诺。",
+        "unknowns": "生成的流程能否追溯到原始资料？"
+      },
+      "transferable_insights": [
+        "做内部知识助手时，可以从已完成的工作记录生成知识草稿，不必要求用户先写齐文档。"
+      ],
+      "validation_questions": [
+        "给它一条包含特殊例外的历史工单，检查是否误生成通用规则？",
+        "在现有客服系统中提交一条咨询，检查处理结果能否留在原工单里？"
+      ],
+      "source_tagline": "Resolution AI that works on top of your existing helpdesk",
+      "source_description": "Most AI support tools ask you to rip out your helpdesk first. Ify works on top of Freshdesk, Zendesk, Salesforce, or HubSpot and gets to work across email, chat, WhatsApp, Slack, and more. The part that usually stalls an AI support rollout is \"our docs aren't good enough.\" Ify solves that by building its own knowledge base: it scrapes your site and docs, generates SOPs from release notes and past ticket resolutions. Built for support teams who want something live now."
+    },
+    {
+      "id": "1229149",
+      "name": "Expertise AI",
+      "name_zh": "Expertise AI",
+      "tagline_zh": "将你的市场拓展技能变成持续收入",
+      "description_zh": "Expertise AI 让市场拓展专家把工作方法变成受保护的 AI 技能并出售。每位专家都有店铺，企业可试用并订阅安装这些技能，专家在技能每次运行时获得报酬。",
+      "intro_zh": "给想出售市场拓展方法的专家，以及需要这些方法的企业用，把工作方法做成可订阅运行的 AI 技能。",
+      "url": "https://www.producthunt.com/products/expertise-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UWNQIHNBEC6TSW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/50db997f-a5ce-4bdf-88b6-af7b450c5a08.png?auto=format",
+      "votes_count": 362,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "买卖双方和交易方式清楚，但没有具体技能案例说明能省多少工作。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "方法保护与技能执行之间有具体难题，但保护方式没有披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先试用再订阅的做法可借鉴，但试用能否帮助判断质量仍待确认。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是买家能先运行再购买，而不只看方法介绍；但缺少具体技能案例，尚无法判断它卖的是可执行能力，还是需要大量人工补充的建议。",
+      "product_analysis": {
+        "target_problem": "市场拓展专家想出售自己的工作方法，企业想购买可直接使用的能力。它尝试让经验不只停在文档里，还能作为技能运行。",
+        "workflow": "专家拥有店铺，将方法作为 AI 技能出售。企业先试用，再订阅安装；技能每次运行，专家获得报酬。",
+        "ai_value": "AI 被用来把专家方法做成可运行技能。简介没给任务实例，无法判断它具体替用户完成哪项工作。",
+        "differentiation": "企业可以先看技能表现再购买，可能少一些筛选工作。最可能阻碍购买的是，试用表现未必适合自己的业务。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到受保护的 AI 技能、订阅安装和按运行付酬，没说具体技术。",
+        "possible_approach": "如果自己做，可以先把一种专家方法拆成输入、处理步骤和输出，再做试用入口，记录运行次数并结算。",
+        "tradeoffs": "最难的是让技能展示效果又不泄露方法；若能从输出反推出完整做法，专家可能不愿上架。",
+        "unknowns": "“受保护”具体保护什么，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做专业方法交易产品时，可以给每项方法提供可运行的试用，让买家看结果再决定是否订阅。"
+      ],
+      "validation_questions": [
+        "用一份真实业务材料试用，结果能否直接用于对应任务？",
+        "反复要求技能解释执行步骤，是否会暴露专家希望保密的方法？"
+      ],
+      "source_tagline": "Turn your GTM skills into recurring revenue",
+      "source_description": "Expertise AI is where GTM experts monetize their playbooks as protected Al skills. Each expert gets a storefront where businesses demo and install these skills on a subscription, and gets paid every time one runs."
+    },
+    {
+      "id": "1232225",
+      "name": "PostHog Desktop",
+      "name_zh": "PostHog Desktop",
+      "tagline_zh": "面向产品构建者的产品编辑器",
+      "description_zh": "一个供你、团队和智能代理共同使用的多人工作空间，以产品数据为上下文，并提供用于发布和衡量效果的 PostHog 工具。支持构建和编辑产品、运行多个代理，以及把产品信号转成 PR（供审查的代码修改请求）。",
+      "intro_zh": "给需要根据产品数据改进功能的团队用，在共同工作空间里编辑产品、运行代理并提出代码修改。",
+      "url": "https://www.producthunt.com/products/posthog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2RW3QOUU4OK7XB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ff678315-cade-4909-97d9-b598b74e9b8f.png?auto=format",
+      "votes_count": 338,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "连接了产品数据与代码修改，但实际能省多少人工尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把产品信号转成代码修改有具体难点，但实现细节很少。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让数据分析结果直接进入可审查的修改流程，有明确借鉴空间。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是让数据发现进一步变成可审查的修改；最大疑问是代理能否正确理解信号，而不只是生成看似合理的代码。",
+      "product_analysis": {
+        "target_problem": "面向既看产品数据、又推动功能修改的团队。难点是把数据里发现的问题，变成明确的修改任务。",
+        "workflow": "团队与代理共用工作空间，以产品数据作为工作背景，构建或编辑产品。简介还提出将产品信号转成 PR，但没交代具体操作顺序。",
+        "ai_value": "代理参与产品构建，并可同时运行多个。简介没有说明它们如何分工、哪些操作需要人确认。",
+        "differentiation": "它可能减少从发现问题到提出代码修改之间的手工转述。团队是否愿意换用，可能取决于修改过程能否保持可控。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到多人工作空间、产品数据上下文和多个代理，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户选定一条产品信号，再把相关数据和代码交给代理，生成供人审查的修改。",
+        "tradeoffs": "最难的是判断信号是否指向真正的问题。代理若把相关性当成原因，就可能修改无关功能，增加审查负担。",
+        "unknowns": "生成修改时，能否追溯它依据了哪些产品数据？"
+      },
+      "transferable_insights": [
+        "做数据分析工具时，可以给异常信号附上相关证据，再生成可审查的修改草案，让接手的人少做一次信息整理。"
+      ],
+      "validation_questions": [
+        "选一条已知原因的产品信号，检查生成的修改是否针对真正原因。",
+        "检查每份修改能否追溯到具体的数据依据。"
+      ],
+      "source_tagline": "The product editor for product builders",
+      "source_description": "A multiplayer workspace for you, your team, and your agents – with your product data as context, and PostHog tools to ship and measure. Build and edit your product | Run a fleet of agents | Turn product signals into PRs."
     },
     {
       "id": "1232208",
       "name": "Mac mini",
       "name_zh": "Mac mini",
-      "tagline_zh": "Now with M6 and M5 Pro chips",
-      "description_zh": "Mac mini now comes with M6 and M5 Pro, bringing faster performance, Apple Intelligence, Wi-Fi 7, and faster storage to Apple's compact 5-inch desktop. Built for coding, creating, and getting work done.",
-      "intro_zh": "",
+      "tagline_zh": "现配备 M6 和 M5 Pro 芯片（缓存标语，未核验）",
+      "description_zh": "缓存简介称，Mac mini 配备 M6 和 M5 Pro，带来更快的性能、Apple Intelligence、Wi-Fi 7 和更快的存储，机身尺寸为 5 英寸。它面向编程、创作和日常办公；这些配置与性能说法均未重新核验。",
+      "intro_zh": "Mac mini 面向编程、创作和日常办公用户，是一款用于桌面工作的紧凑型电脑。",
       "url": "https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2JZ6FLCI65LEON?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/eb0664e5-4f59-4ac3-ab72-273d2239b296.png?auto=format",
       "votes_count": 115,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但没有具体任务表现来支持换机收益。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "小机身如何维持持续性能值得关注，但材料没有测试信息。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "围绕常用任务组织硬件卖点可以借鉴，实际收益仍需验证。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "紧凑机身对桌面空间有限的人有明确意义，但芯片型号尚未核验，不能据此判断这一代是否值得购买。",
+      "product_analysis": {
+        "target_problem": "它面向需要桌面电脑做编程、创作和办公的人。紧凑机身回应了桌面空间有限的需求，但简介没交代旧设备的具体瓶颈。",
+        "workflow": "用户在这台电脑上编程、创作或办公。简介没有说明配置选择、迁移资料或具体软件的使用步骤。",
+        "ai_value": "简介提到 Apple Intelligence，但没说它在这些任务中具体做什么，无法判断能省哪一步。",
+        "differentiation": "主打小机身与性能升级。已有电脑的用户可能不愿换机，因为材料没有证明自己的常用任务能改善多少。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "缓存列出 M6、M5 Pro、Apple Intelligence、Wi-Fi 7 和 5 英寸机身；这些信息未核验，存储只称更快。",
+        "possible_approach": "如果自己做，可以先确定编程和创作需要的性能，再安排主板、存储和散热，最后用长时间任务检查表现。",
+        "tradeoffs": "最容易出问题的是小机身内的散热。若持续负载时温度过高，性能可能下降，长时间编译或导出就会变慢。",
+        "unknowns": "最先要确认的是：缓存中的芯片型号是否准确。"
+      },
+      "transferable_insights": [
+        "做硬件选型页时，可以按编程、创作、办公列出可重复测试的任务，让用户看完成时间，而不只看芯片名称。"
+      ],
+      "validation_questions": [
+        "当前官方规格是否确实包含缓存所列的 M6 和 M5 Pro？",
+        "连续运行同一个长时间编译任务，后几轮耗时是否明显增加？"
+      ],
+      "source_tagline": "Now with M6 and M5 Pro chips",
+      "source_description": "Mac mini now comes with M6 and M5 Pro, bringing faster performance, Apple Intelligence, Wi-Fi 7, and faster storage to Apple's compact 5-inch desktop. Built for coding, creating, and getting work done."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,511 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-06T19:34:26+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:31:05+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1217440",
       "name": "dif.sh",
       "name_zh": "dif.sh",
-      "tagline_zh": "Markdown feature flags your coding agent installs for you",
-      "description_zh": "Open source feature flags. Every flag is a markdown file that lives with the code it controls: what it does, why it exists, and what you decided, reviewed in a PR like any other change. Your coding agent installs Dif in one command, no account, and reads the context file so it knows what's live and what was already tried. A/B tests wait in the same files until you have traffic. Send events to your own analytics, or let Dif Cloud read the results and write the decision into the file.",
-      "intro_zh": "",
+      "tagline_zh": "用 Markdown 文件管理功能开关，由编程助手代你安装",
+      "description_zh": "dif.sh 是开源功能开关工具，每个开关都是与相关代码放在一起的 Markdown 文件，记录用途、存在原因和已有决定，像代码一样提交评审。编程助手可用一条命令安装，无需账号，并读取上下文了解已上线和已尝试的内容；同一文件也能保留 A/B 测试配置，事件可发送到自己的分析工具，或由 Dif Cloud 读取结果并写回决定。",
+      "intro_zh": "给使用编程助手的开发团队，把功能开关、试验说明和已有决定放进代码旁的文件。",
       "url": "https://www.producthunt.com/products/dif-sh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZYY34UR2OF3VDX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/af76189c-f704-4feb-a8bb-031116ca0882.png?auto=format",
       "votes_count": 353,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "安装和记录方式清楚，但实际维护负担尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "文件记录如何对应真实上线状态，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把决策说明放在相关代码旁，可借用于其他开发工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是让决策记录随代码一起保留；最影响判断的是，这份记录能否准确反映实际启用状态。",
+      "product_analysis": {
+        "target_problem": "开发团队让编程助手修改尚未全面开放的功能时，需要说明哪些已上线、哪些试过。若这些信息分散存放，助手可能漏读。",
+        "workflow": "让编程助手用一条命令安装。把功能开关（控制某项功能是否启用的设置）及说明放在代码旁，随代码评审；需要试验时，可把事件送到自己的分析工具或 Dif Cloud。",
+        "ai_value": "编程助手读取上下文文件，了解当前状态和过往尝试。介绍没说 Dif Cloud 是否用 AI 解读结果。",
+        "differentiation": "开关说明和决定能跟着代码一起评审，减少另找记录的麻烦。团队可能不愿切换，因为还需维护文件与实际状态的对应关系。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "工具开源，以 Markdown（纯文本排版格式）文件保存开关信息，支持外部分析工具及云端结果回写。",
+        "possible_approach": "如果自己做，可以先约定文件里的开关标识、启用条件和说明，再让应用读取设置，并让助手读取同一份记录。",
+        "tradeoffs": "最容易出错的是文件写着已启用，应用却仍未启用；助手可能据此改错代码。",
+        "unknowns": "文件修改后，运行中的应用何时采用新设置？"
+      },
+      "transferable_insights": [
+        "做面向编程助手的工具时，把用途和历史决定放在相关代码旁，并纳入代码评审，减少助手反复猜测修改原因。"
+      ],
+      "validation_questions": [
+        "修改开关文件后，检查应用实际行为何时改变。",
+        "给助手一份包含失败尝试的记录，检查它是否仍重复该方案。"
+      ],
+      "source_tagline": "Markdown feature flags your coding agent installs for you",
+      "source_description": "Open source feature flags. Every flag is a markdown file that lives with the code it controls: what it does, why it exists, and what you decided, reviewed in a PR like any other change. Your coding agent installs Dif in one command, no account, and reads the context file so it knows what's live and what was already tried. A/B tests wait in the same files until you have traffic. Send events to your own analytics, or let Dif Cloud read the results and write the decision into the file."
     },
     {
       "id": "1238273",
       "name": "Reflexio",
       "name_zh": "Reflexio",
-      "tagline_zh": "Behavioral learning that makes AI agents better over time",
-      "description_zh": "Reflexio makes AI agents better with every interaction. When users correct an agent, a path fails, or something works particularly well, Reflexio turns that experience into behavior the agent can reuse next time. Instead of leaving valuable lessons buried in logs, your agent continuously learns what to repeat and what to avoid — with every learning visible, testable, and reversible. Reduce task failure rate by more than 30%, while saving tokens by more than 60%.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 智能体随使用逐步改进的行为学习工具",
+      "description_zh": "Reflexio 把用户纠正、失败路径和成功经验转成 AI 智能体下次可复用的行为，并让每条学习结果可查看、测试和撤销。缓存简介宣称任务失败率可降低超过 30%，模型处理的文本量（token）可减少超过 60%，但未提供测试条件，原文也未重新核验。",
+      "intro_zh": "给开发 AI 智能体的团队用，把用户纠正和任务成败转成后续任务可复用的行为。",
       "url": "https://www.producthunt.com/products/reflexio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3COBJOOBFV7YMA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5a7f0aa4-040c-41fd-b223-7a1ffafb6c6c.png?auto=format",
       "votes_count": 277,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复犯错的问题明确，但改善幅度和适用任务尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何避免把一次纠正学成通用规则，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让学习结果可检查、测试和撤销，适合借到其他自动化产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重学习结果可以撤销，团队有机会修正错误学习。最影响判断的是它能否把经验限制在正确的任务范围内。",
+      "product_analysis": {
+        "target_problem": "开发 AI 智能体的团队会需要它。任务记录里虽有纠正和成败经验，后续执行却未必能用上，可能反复犯同样的错。",
+        "workflow": "用户纠正智能体，或任务出现失败、成功经验后，Reflexio 将其转成下次可复用的行为。团队可以查看、测试和撤销这些学习结果。",
+        "ai_value": "它要让 AI 把交互经验用于后续行动，而不只留下记录。介绍没说这是否涉及重新训练模型。",
+        "differentiation": "经验不再只留在日志中，而能影响后续执行。我会先确认新学到的行为是否会干扰原本正常的任务，这是团队可能不愿接入的原因。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到行为学习，以及学习结果可查看、测试和撤销，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录纠正及对应任务，再提炼带适用条件的行为规则。用历史任务测试，通过后供后续任务调用，并保留旧版本以便撤销。",
+        "tradeoffs": "最容易错在把局部纠正当成通用规则。某个用户的偏好若被套到所有任务，智能体可能越学越偏。",
+        "unknowns": "学到的行为如何限定适用范围？"
+      },
+      "transferable_insights": [
+        "做会根据反馈调整行为的助手时，把每条学习结果单独展示，并允许测试和撤销，让用户能纠正错误学习。"
+      ],
+      "validation_questions": [
+        "给出一条只适用于特定任务的纠正，检查它是否误影响其他任务。",
+        "撤销一条学习结果后，重跑对应任务，检查其影响是否消失。"
+      ],
+      "source_tagline": "Behavioral learning that makes AI agents better over time",
+      "source_description": "Reflexio makes AI agents better with every interaction. When users correct an agent, a path fails, or something works particularly well, Reflexio turns that experience into behavior the agent can reuse next time. Instead of leaving valuable lessons buried in logs, your agent continuously learns what to repeat and what to avoid — with every learning visible, testable, and reversible. Reduce task failure rate by more than 30%, while saving tokens by more than 60%."
     },
     {
       "id": "1241345",
       "name": "Ponytail",
       "name_zh": "Ponytail",
-      "tagline_zh": "Make new code the last resort",
-      "description_zh": "Ponytail is a plugin that makes coding agents write the least code that works. Before adding anything, it checks whether the change is needed, already exists, or can use the stdlib or a native API. Same behavior, fewer lines to own.",
-      "intro_zh": "",
+      "tagline_zh": "把新增代码作为最后的选择",
+      "description_zh": "Ponytail 是一个插件，旨在让编程助手用尽量少的代码完成任务。新增代码前，它会检查改动是否必要、已有实现能否复用，或能否使用标准库及原生接口，以减少需要维护的代码。",
+      "intro_zh": "给使用编程助手的开发者，在新增代码前检查必要性和复用机会，减少需要维护的实现。",
       "url": "https://www.producthunt.com/products/ponytail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/F54V33UO2L5EHU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/24d585eb-d17f-4d03-854a-c262cf14baed.jpeg?auto=format",
       "votes_count": 214,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "减少不必要代码的目标明确，但是否保持原有行为仍待验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "判断已有实现能否满足需求，比单纯缩短代码更值得思考。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "执行前先检查必要性和现成能力，可用于其他自动化工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把复用检查放到写代码之前；最大的疑问是，它能否区分真正可复用与只是表面相似的实现。",
+      "product_analysis": {
+        "target_problem": "使用编程助手改项目时，开发者需要防止它重复造已有功能，留下多余的维护工作。Ponytail 把检查放在新增代码之前。",
+        "workflow": "插件在编程助手准备添加代码时，先检查是否需要改、是否已有实现，再检查能否借用现成能力。介绍未说明安装和触发方式。",
+        "ai_value": "它约束编程助手动手前的判断，目标是少写不必要的代码；没有说明插件自身是否调用 AI。",
+        "differentiation": "它把找复用机会提前到生成代码之前。最可能让人犹豫的是：少写的实现能否覆盖原需求的边界情况。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确它是插件，会检查已有实现、标准库（语言自带的常用功能）和原生接口（平台直接提供的功能）。",
+        "possible_approach": "如果自己做，可以先让助手查找项目里的相关实现，再核对现成功能是否满足需求，最后才决定新增什么代码。",
+        "tradeoffs": "最难的是判断“看起来相似”是否真的可替代。若忽略异常处理或输入差异，代码虽少了，功能却可能出错。",
+        "unknowns": "它如何确认减少代码后，功能行为没有变化？"
+      },
+      "transferable_insights": [
+        "做自动化执行工具时，可在动手前加入一次必要性与已有能力检查，减少重复操作。"
+      ],
+      "validation_questions": [
+        "给它一个项目中已有实现的需求，检查它能否找到并复用。",
+        "给它一个现成功能只覆盖部分需求的任务，检查是否遗漏未覆盖的行为。"
+      ],
+      "source_tagline": "Make new code the last resort",
+      "source_description": "Ponytail is a plugin that makes coding agents write the least code that works. Before adding anything, it checks whether the change is needed, already exists, or can use the stdlib or a native API. Same behavior, fewer lines to own."
     },
     {
       "id": "1237032",
       "name": "Hyperprobe",
       "name_zh": "Hyperprobe",
-      "tagline_zh": "Lets your AI agents debug production without redeploying",
-      "description_zh": "HyperProbe is how backend teams debug production issues they can't reproduce locally. Instead of adding a log line and waiting on a deploy, we let Claude Code, Codex, or Cursor drop read-only probes into a running service and capture the variable state that was never recorded. From there your agent debugs like it has a local repro, closing the bug in one sitting.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 编程助手无需重新部署就能调试生产环境",
+      "description_zh": "Hyperprobe 帮助后端团队排查无法在本地复现的线上问题，让 Claude Code、Codex 或 Cursor 在运行中的服务里放置只读探针，采集此前没有记录的变量状态。介绍称，这能让助手像有本地复现条件一样排查，并在一次工作中修好问题，但这一效果未经核验。",
+      "intro_zh": "给排查线上故障的后端团队用，让 AI 编程助手采集运行中服务的变量状态，辅助定位问题。",
       "url": "https://www.producthunt.com/products/hyperprobe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/G2JREG7FXOOWLK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/24736056-7b29-43f5-8ecd-63912e035316.jpeg?auto=format",
       "votes_count": 192,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对缺少现场数据、加日志又要等部署的问题。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "在运行中的服务采集变量，如何不拖慢业务是具体难点。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让助手按需补取缺失证据的做法，可借用于故障排查工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是不用等部署就能补取故障现场信息；最影响判断的是采集对服务性能的实际影响。",
+      "product_analysis": {
+        "target_problem": "后端团队遇到本地复现不了、现有日志又没记下关键变量的故障。以前可能要补日志再等部署，现在可以在运行中的服务里采集。",
+        "workflow": "让 Claude Code、Codex 或 Cursor 放置只读探针，也就是采集状态、不修改业务数据的观察点，再根据拿到的变量排查。",
+        "ai_value": "AI 编程助手负责放置探针并分析采集结果，补上仅靠现有日志看不到的信息。",
+        "differentiation": "省去为补一条日志重新部署的等待。但团队可能不愿让助手接触生产数据。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到运行中服务、只读探针，以及采集此前未记录的变量状态。",
+        "possible_approach": "如果自己做，可以先让助手指定要观察的位置和变量，再由服务端校验权限并采集，最后把结果交回助手分析。",
+        "tradeoffs": "最难控制的是采集开销。只读不等于没有影响，若在频繁执行的位置采集大量变量，可能拖慢线上请求。",
+        "unknowns": "介绍没说支持哪些语言和运行环境，无法判断能否接入现有服务。"
+      },
+      "transferable_insights": [
+        "做故障排查工具时，可以让助手先指出缺什么证据，再定点采集，避免让用户反复补日志。"
+      ],
+      "validation_questions": [
+        "在接近真实流量的测试环境开启探针，检查请求延迟是否明显上升。",
+        "用含敏感字段的测试变量，检查采集结果是否会暴露原值。"
+      ],
+      "source_tagline": "Lets your AI agents debug production without redeploying",
+      "source_description": "HyperProbe is how backend teams debug production issues they can't reproduce locally. Instead of adding a log line and waiting on a deploy, we let Claude Code, Codex, or Cursor drop read-only probes into a running service and capture the variable state that was never recorded. From there your agent debugs like it has a local repro, closing the bug in one sitting."
     },
     {
       "id": "1240371",
       "name": "at8pm",
       "name_zh": "at8pm",
-      "tagline_zh": "Your honest journal",
-      "description_zh": "Every entry you write today locks at the time that you configured — 8pm by default. Once it locks, that's it: no editing, no rewriting history, no quietly polishing what you actually felt in the moment. Just an honest, raw, and unfiltered record of your day. Entries sync across your devices with your own private iCloud and never with a first/third-party server. When typing is not enough, record a squope (square video) or an audio note. at8pm is free to download (up to 2 entries per day).",
-      "intro_zh": "",
+      "tagline_zh": "你的真实日记",
+      "description_zh": "当天写下的日记会在设定时间锁定，默认晚上八点，此后不能编辑；除文字外，也能录制方形视频或语音笔记。内容通过用户自己的私人 iCloud 在设备间同步，介绍称不经过产品方或其他第三方服务器；可免费下载，每天最多免费写两篇。",
+      "intro_zh": "给想保留当天真实感受的人用，写下文字或录下影音，再按设定时间锁定日记，避免事后改写。",
       "url": "https://www.producthunt.com/products/at8pm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IKH2ZONP3QEURJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0bd43ae8-4bf1-4046-86ed-1deea0916eb6.jpeg?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "定时锁定回应了保留原始记录的需求，但不能编辑也可能带来不便。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多设备同步与定时锁定之间有具体冲突需要处理，介绍未说明规则。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先自由记录、到点冻结的做法，可借给需要保留原始判断的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它用明确截止时间保留原始记录，但不可编辑不等于记录必然真实。最影响判断的是：多设备离线时，这条限制是否仍然成立。",
+      "product_analysis": {
+        "target_problem": "想回看当时感受的人，可能担心自己事后修饰日记。at8pm 用固定时间锁定，限制后续改写。",
+        "workflow": "用户设定锁定时间，写文字、录方形视频或语音。当天条目到点后不可编辑，并通过私人 iCloud 跨设备同步。",
+        "ai_value": "介绍没提 AI，主要靠定时锁定和多种记录方式改善体验。",
+        "differentiation": "它让用户不必只靠自觉克制修改。最可能劝退人的也是不可编辑：锁定后发现写错内容，也无法直接修正。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1240885",
-      "name": "Experiential Labs",
-      "name_zh": "Experiential Labs",
-      "tagline_zh": "Open source AI gateway turning traffic into a better model",
-      "description_zh": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/experiential-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4UYNGTFOMOUGCH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4bf714d9-2211-4155-b6cc-0270467a1d49.png?auto=format",
-      "votes_count": 125,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到私人 iCloud 同步，以及按设定时间锁定当天条目。",
+        "possible_approach": "如果自己做，可以先给条目保存锁定时间，再在每次保存修改时检查是否到点；同步时也检查，避免另一台设备覆盖已锁内容。",
+        "tradeoffs": "最容易出错的是离线修改后的同步：若接受过期修改，锁定就失效；若直接丢弃，用户可能丢掉刚写的内容。",
+        "unknowns": "离线设备在锁定前后产生的修改，最终按什么规则处理？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做预测或决策日志时，可以允许截止前修改，到点冻结，方便日后对照原始判断。"
+      ],
+      "validation_questions": [
+        "一台设备离线修改，超过锁定时间再联网，已锁日记会不会被覆盖？",
+        "锁定后能否删除含敏感信息的条目？"
+      ],
+      "source_tagline": "Your honest journal",
+      "source_description": "Every entry you write today locks at the time that you configured — 8pm by default. Once it locks, that's it: no editing, no rewriting history, no quietly polishing what you actually felt in the moment. Just an honest, raw, and unfiltered record of your day. Entries sync across your devices with your own private iCloud and never with a first/third-party server. When typing is not enough, record a squope (square video) or an audio note. at8pm is free to download (up to 2 entries per day)."
     },
     {
       "id": "1234474",
       "name": "PostBox",
       "name_zh": "PostBox",
-      "tagline_zh": "Stage and post designs from your mac",
-      "description_zh": "PostBox turns the MacBook notch into a drag and drop poster for the work you make. Drag an export in, write the caption once, and post to X, Bluesky, Threads, LinkedIn, Dribbble, Instagram, Threads, Pinterest Behance and Cosmos at once.",
-      "intro_zh": "",
+      "tagline_zh": "在 Mac 上准备并发布设计作品",
+      "description_zh": "PostBox 把 MacBook 的刘海区域变成拖放发布作品的入口。拖入导出的文件，写一次配文，即可同时发布到 X、Bluesky、Threads、LinkedIn、Dribbble、Instagram、Pinterest、Behance 和 Cosmos。",
+      "intro_zh": "给需要在多个社交平台展示作品的设计师用，把导出文件拖入 Mac 刘海区域，写好配文后集中发布。",
       "url": "https://www.producthunt.com/products/postbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OIYKGBVYOM2P3Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/75709e07-522c-4ffb-86b0-6ec81a25543f.png?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多平台展示作品的场景明确，集中准备素材和配文能减少重复操作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "一次发布涉及多个平台，部分成功时如何处理是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把文件拖放入口放在桌面固定位置，可借用于素材提交类工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把作品导出后的多处发布集中处理；最影响判断的是，部分发送失败后能否清楚提示并单独补发。",
+      "product_analysis": {
+        "target_problem": "设计师展示同一份作品时，可能要在多个平台重复上传和填写配文。PostBox 将这些发布动作集中到一个入口。",
+        "workflow": "把导出的作品文件拖入 MacBook 刘海区域，写一次配文，再同时发布到介绍列出的多个平台。",
+        "ai_value": "介绍没提 AI，主要靠拖放入口和多平台发布来改善体验。",
+        "differentiation": "它减少了逐个平台准备帖子的操作。最可能让人不愿换用的原因，是同一份配文可能不适合所有平台。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 MacBook 刘海区域的拖放交互和多平台同时发布，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收拖入的文件和配文，再分别连接各平台的发布功能，并记录每个平台的发送结果。",
+        "tradeoffs": "最容易出错的是部分平台发送失败。若只显示一个总状态，用户可能漏发，重试时又重复发布。",
+        "unknowns": "介绍没说用户能否为不同平台分别修改配文。"
+      },
+      "transferable_insights": [
+        "做素材上传或作品提交工具时，可以把固定拖放入口放在桌面显眼位置，让用户从导出文件直接开始下一步。"
+      ],
+      "validation_questions": [
+        "让一个目标平台发布失败，检查能否单独重试且不重复发送其他平台。",
+        "用同一份作品发往两个平台，检查能否分别调整配文。"
+      ],
+      "source_tagline": "Stage and post designs from your mac",
+      "source_description": "PostBox turns the MacBook notch into a drag and drop poster for the work you make. Drag an export in, write the caption once, and post to X, Bluesky, Threads, LinkedIn, Dribbble, Instagram, Threads, Pinterest Behance and Cosmos at once."
     },
     {
       "id": "1238037",
       "name": "CommuteBar",
       "name_zh": "CommuteBar",
-      "tagline_zh": "Live commute times in your menu bar",
-      "description_zh": "Glance at traffic. Leave on time. CommuteBar puts live commute times visibly on your Mac menu bar, no app-switching required. Save multiple destinations like office, school, gym. Schedule automatic switching for recurring commutes and get leave soon / leave now indicators and optional notifications. You also get route comparison, delayed traffic alerts and different travel modes.",
-      "intro_zh": "",
+      "tagline_zh": "在菜单栏查看实时通勤时间",
+      "description_zh": "CommuteBar 在 Mac 菜单栏显示实时通勤时间，无需切换应用，并可保存办公室、学校、健身房等多个目的地。它支持按计划自动切换通勤目的地，提供即将出发和立即出发提示、可选通知，以及路线比较、交通延误提醒和多种出行方式。",
+      "intro_zh": "给用 Mac、经常按固定路线出行的人用，在菜单栏查看通勤耗时，接收出发提醒。",
       "url": "https://www.producthunt.com/products/commutebar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QZRIQAR322JJFD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bfe93036-1cc7-4a9a-a876-f0c0c9ab4fa2.jpeg?auto=format",
       "votes_count": 106,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查看路况和把握出发时间的需求明确，实际提醒效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "路况更新是否及时直接影响提醒，但资料未说明更新方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "常驻显示关键信息、按固定日程自动切换的做法容易借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是工作时能顺手看到通勤耗时；最影响判断的是数据更新能否跟上路况变化。",
+      "product_analysis": {
+        "target_problem": "在 Mac 前工作、又要准时去办公室或接孩子的人，需要知道路上要多久。专门切换应用查路况会打断手头的事。",
+        "workflow": "保存常去的目的地，为固定通勤设置自动切换计划。在菜单栏查看耗时，也可比较路线、选择出行方式并开启通知。",
+        "ai_value": "介绍没提 AI，主要靠菜单栏常驻显示和定时切换来减少操作。",
+        "differentiation": "把耗时和出发提示放在工作时看得到的位置，省去切换应用查看。若用户主要在手机上安排出行，可能不愿多维护一个工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1239518",
-      "name": "Queuebrick",
-      "name_zh": "Queuebrick",
-      "tagline_zh": "The Letterboxd alternative",
-      "description_zh": "Fast, elegant movie tracking. Search a film, rate it, queue it, rank what to watch next. The Letterboxd alternative.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/queuebrick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TCKW65R5TMS3PK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1f59fd0d-7dc3-4e55-8323-b49bb87df1a7.png?auto=format",
-      "votes_count": 100,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "它在 Mac 菜单栏显示实时通勤时间；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从交通数据服务取得路线耗时，再按通勤计划切换目的地，把结果和出发提示显示在菜单栏。",
+        "tradeoffs": "最容易出错的是耗时数据过期。路况已变、菜单栏却没更新时，用户可能按过早的估计出门。",
+        "unknowns": "“立即出发”的判断依据是什么，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做需要反复查询状态的桌面工具时，可把一个关键数值常驻菜单栏，让用户不用打开完整应用。",
+        "做固定日程工具时，可按时间自动切换当前关注对象，减少每天重复选择。"
+      ],
+      "validation_questions": [
+        "在交通情况变化时，对照同路线的导航估时，检查菜单栏数据是否及时更新。",
+        "设置一次固定通勤计划，检查目的地是否按预定时间自动切换。"
+      ],
+      "source_tagline": "Live commute times in your menu bar",
+      "source_description": "Glance at traffic. Leave on time. CommuteBar puts live commute times visibly on your Mac menu bar, no app-switching required. Save multiple destinations like office, school, gym. Schedule automatic switching for recurring commutes and get leave soon / leave now indicators and optional notifications. You also get route comparison, delayed traffic alerts and different travel modes."
     },
     {
       "id": "1232929",
       "name": "Retold",
       "name_zh": "Retold",
-      "tagline_zh": "Turn family voices into hand-drawn story films",
-      "description_zh": "Record a memory or import an old voice note. Retold keeps the real voice and turns the story into a hand-drawn film and readable book. The sketches follow the people, places and little details as they are spoken, then every memory is kept together on your family shelf.",
-      "intro_zh": "",
+      "tagline_zh": "把家人的声音变成手绘故事短片",
+      "description_zh": "录下一段回忆或导入旧语音，Retold 会保留原声，把故事做成手绘短片和可阅读的书。画面随讲述呈现人物、地点与细节，每段回忆都集中保存在家庭书架中。",
+      "intro_zh": "给想保存家庭回忆的人用，把口述录音做成保留原声的故事短片和可阅读的书。",
       "url": "https://www.producthunt.com/products/retold?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/O6EWZGAHLH3P7T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1854d56c-b6d8-4be3-b5ce-f6c9e9af4be8.png?auto=format",
       "votes_count": 99,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "保存家庭口述的用途明确，但成品是否忠实还待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让画面跟上讲述、又不画错人物，是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留原始素材并提供不同阅读形式的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "保留真实声音，比只留下整理后的文字多保存了一层个人表达；最影响判断的是，用户能否纠正生成内容，避免错误被当作家庭记忆留下。",
+      "product_analysis": {
+        "target_problem": "想保存长辈口述或家庭往事的人，可能已有录音，却不方便快速翻阅其中的故事。Retold 提供短片和书两种查看形式。",
+        "workflow": "录下一段回忆，或导入旧语音。产品保留原声，将故事转成手绘短片和书，再集中放进家庭书架。",
+        "ai_value": "介绍没提 AI，主要靠把语音故事变成可观看、可阅读的内容来改善体验，具体自动化方式未说明。",
+        "differentiation": "同一段录音可以直接得到两种成品，可能省去另行整理文字和配画的工作。但家人可能不愿上传私人往事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说会保留原声，画面随讲述呈现人物、地点和细节，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字并标出对应时间，再按故事分段配画；用原声串起画面，另排出可阅读的书。",
+        "tradeoffs": "最难的是认清口述里的人物关系。把“他”认成另一个人，可能让画面讲出错误的家庭往事。",
+        "unknowns": "用户能否修正成品中画错或写错的内容？"
+      },
+      "transferable_insights": [
+        "做口述史或个人档案产品时，可以保留原始录音，再提供文字等便于翻阅的版本，让整理结果仍能对照原话。"
+      ],
+      "validation_questions": [
+        "用一段多人称交替的录音，检查画面是否对应正确人物。",
+        "上传前检查家庭录音的保存与删除规则是否清楚。"
+      ],
+      "source_tagline": "Turn family voices into hand-drawn story films",
+      "source_description": "Record a memory or import an old voice note. Retold keeps the real voice and turns the story into a hand-drawn film and readable book. The sketches follow the people, places and little details as they are spoken, then every memory is kept together on your family shelf."
+    },
+    {
+      "id": "1240885",
+      "name": "Experiential Labs",
+      "name_zh": "Experiential Labs",
+      "tagline_zh": "开源 AI 网关，利用调用流量改进模型",
+      "description_zh": "Experiential 是一个开源、不加价的网关，支持自带密钥、自托管模型及市场中的 1000 多个模型。介绍称，它能从调用流量中学习，以降低成本、推荐更合适的模型，并训练归用户所有的专用模型。",
+      "intro_zh": "给接入多个 AI 模型的开发团队用，统一转发调用，并利用调用记录推荐模型、训练专用模型。",
+      "url": "https://www.producthunt.com/products/experiential-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4UYNGTFOMOUGCH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4bf714d9-2211-4155-b6cc-0270467a1d49.png?auto=format",
+      "votes_count": 125,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用对象和省钱方向清楚，但没有效果评估材料。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从调用记录判断模型好坏，是具体且影响结果的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "利用真实请求改进模型选择可以借鉴，但需要可靠的质量评价。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重把真实调用用于模型选择，减少凭价格猜效果；但它如何识别值得学习的回答，决定了后续优化是否可信。",
+      "product_analysis": {
+        "target_problem": "接入多个 AI 模型的团队，需要判断哪些任务该用哪个模型。麻烦在于价格容易比较，回答是否合用却难判断。",
+        "workflow": "把模型调用接入网关（统一接收并转发请求的入口），使用自带密钥、自托管或市场模型。介绍称，后续可根据调用流量获得推荐，并训练专用模型。",
+        "ai_value": "介绍称会从调用流量中学习，用于模型推荐和专用模型训练。如何判断回答质量，资料没说。",
+        "differentiation": "把调用和后续优化放在同一处，可能减少另行整理训练材料的工作。团队可能因请求数据的使用边界不清而不愿接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "网关开源，支持自带密钥、自托管及市场模型；未披露具体学习方法。",
+        "possible_approach": "如果自己做，可以先记录请求、回答和费用，再用一组人工确认合格的任务比较模型，最后挑选合格样本训练专用模型。",
+        "tradeoffs": "最难的是识别好回答。若把错误回答也当作训练样本，专用模型可能反复学到同一种错误。",
+        "unknowns": "调用数据会在哪里保存和用于训练？"
+      },
+      "transferable_insights": [
+        "做多模型应用时，可以用同一批真实任务比较候选模型，先确认质量过关，再比较费用。"
+      ],
+      "validation_questions": [
+        "用已有人工作答标准的任务，检查推荐模型是否仍能答对。",
+        "检查能否明确禁止敏感请求进入训练数据。"
+      ],
+      "source_tagline": "Open source AI gateway turning traffic into a better model",
+      "source_description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own."
+    },
+    {
+      "id": "1239518",
+      "name": "Queuebrick",
+      "name_zh": "Queuebrick",
+      "tagline_zh": "Letterboxd 的替代选择",
+      "description_zh": "提供电影记录功能，简介主打快速、简洁的体验。可以搜索电影、评分、加入待看队列，并排列接下来的观看顺序。",
+      "intro_zh": "给想记录观影、安排待看片单的人用，搜索电影后评分或加入队列，再决定下一部看什么。",
+      "url": "https://www.producthunt.com/products/queuebrick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TCKW65R5TMS3PK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1f59fd0d-7dc3-4e55-8323-b49bb87df1a7.png?auto=format",
+      "votes_count": 100,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "记录和安排待看的用途清楚，但省事程度缺少实际材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "影片搜索能否准确区分同名作品，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让收藏内容有先后顺序的做法可借用，但效果尚未验证。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重待看片单能排出先后顺序，减少临时挑片的犹豫；但旧记录能否带过来，会直接影响已有用户是否愿意换用。",
+      "product_analysis": {
+        "target_problem": "想记录观影、又积累了不少待看电影的人会需要它。麻烦在于记下想看的片子后，还要决定先看哪部。",
+        "workflow": "搜索一部电影，给它评分，或加入待看队列。再排列待看电影的顺序，安排下一部。",
+        "ai_value": "介绍没提 AI，主要靠电影搜索、评分和队列排序来改善体验。",
+        "differentiation": "它把记录影片和安排观看顺序放在一起。已有 Letterboxd 记录的人可能不愿迁移，简介没说能否导入旧数据。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接入电影资料，让用户搜索并选中影片，再保存评分和待看顺序。每条记录都关联到确定的影片，避免只凭片名保存。",
+        "tradeoffs": "最容易出错的是选错同名或不同年份的电影，结果会把评分和待看记录记到另一部作品上。",
+        "unknowns": "电影资料从哪里来，是否覆盖用户常搜的影片，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做书单或课程收藏时，可以让用户给待办内容排先后顺序，帮助他们从“存起来”走到“下一项做什么”。"
+      ],
+      "validation_questions": [
+        "搜索一组同名、不同年份的电影，检查能否准确区分并选中。",
+        "已有用户能否把 Letterboxd 的评分和待看片单导入？"
+      ],
+      "source_tagline": "The Letterboxd alternative",
+      "source_description": "Fast, elegant movie tracking. Search a film, rate it, queue it, rank what to watch next. The Letterboxd alternative."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

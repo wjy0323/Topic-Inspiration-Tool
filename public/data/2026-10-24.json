@@ -1,367 +1,511 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-25T20:24:36+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:19:07+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1281583",
       "name": "zCAD AI",
       "name_zh": "zCAD AI",
-      "tagline_zh": "AI 3D that creates real parts, not just shapes",
-      "description_zh": "zCAD. AI is an AI-native platform for generating parametric 3D models, built for designers, makers and engineers. Describe a part or assembly in plain language, and zCAD. AI generates an editable, dimension-driven 3D model built on real CAD geometry, not a static mesh. • Complete assemblies from a single prompt, with mates between parts • Refine in plain language, or edit dimensions in a browser-based CAD editor • Export to STEP for use in any CAD tool",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 创建真实零件，而不只是三维形状",
+      "description_zh": "zCAD AI 面向设计师、创客和工程师，可根据自然语言生成可编辑、由尺寸驱动的三维模型，也支持一次生成包含零件配合关系的装配体。用户可用自然语言修改模型，或在浏览器中的 CAD 编辑器里调整尺寸，再导出 STEP 格式供其他 CAD 软件使用。",
+      "intro_zh": "给设计师、创客和工程师用，用文字生成零件或装配体，再修改尺寸并导出。",
       "url": "https://www.producthunt.com/products/zcad-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VPIBBXXNICLFJA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/81056b59-8f93-4160-8c7f-50e6cdb5524b.jpeg?auto=format",
       "votes_count": 295,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从文字生成到修改、导出的用途清楚，但模型是否满足工程要求尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "语言修改后能否保住尺寸和零件配合关系，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "文字起草、尺寸精修的分工，可借用于需要精确控制的设计工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是生成后还能按尺寸修改；最影响判断的是，这种可编辑性在导出后能否保留。",
+      "product_analysis": {
+        "target_problem": "设计师和工程师想把零件构想变成可继续修改的模型。麻烦在于，外形做出来后，还得让尺寸和零件之间的关系成立。",
+        "workflow": "用文字描述零件或装配体，生成模型后继续用文字修改，或在浏览器里调整尺寸，最后导出 STEP 文件。",
+        "ai_value": "AI 负责把文字要求转成模型，并接受后续修改指令；目标结果包含可调整的尺寸，而不只有外观。",
+        "differentiation": "它尝试减少手动建立初始模型的工作。最可能让人不愿换用的原因，是仍需检查生成模型是否准确，省下的时间未必抵得过检查时间。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 94c61640-f57c-4b90-951d-5c0bf6b09bd2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持参数化模型（由尺寸和约束控制的模型）、零件配合关系，以及 STEP 这种 CAD 数据交换格式。",
+        "possible_approach": "如果自己做，可以先把文字拆成尺寸和几何操作，再生成模型；每次修改后检查零件间的关系是否仍成立。",
+        "tradeoffs": "最难的是改动一个尺寸后保住配合关系，否则零件看着齐全，装配位置却可能出错。",
+        "unknowns": "导出后，其他 CAD 软件能保留多少可编辑信息，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做精确设计工具时，可以让文字负责生成初稿，再提供尺寸输入控件，让用户明确修正关键数值。"
+      ],
+      "validation_questions": [
+        "把装配体中一个零件的关键尺寸改大，检查原有配合关系是否仍然成立。",
+        "将 STEP 文件导入常用 CAD 软件，检查能否继续修改关键尺寸。"
+      ],
+      "source_tagline": "AI 3D that creates real parts, not just shapes",
+      "source_description": "zCAD. AI is an AI-native platform for generating parametric 3D models, built for designers, makers and engineers. Describe a part or assembly in plain language, and zCAD. AI generates an editable, dimension-driven 3D model built on real CAD geometry, not a static mesh. • Complete assemblies from a single prompt, with mates between parts • Refine in plain language, or edit dimensions in a browser-based CAD editor • Export to STEP for use in any CAD tool"
     },
     {
       "id": "1281716",
       "name": "myPip",
       "name_zh": "myPip",
-      "tagline_zh": "Vibe code, publish, and monetize games with AI",
-      "description_zh": "MyPip turns your game ideas into playable games you can publish and monetize. Describe what you want to build, and AI brings it to life directly in your browser, no coding required. Create multiplayer experiences, add in-app purchases and ads, and take your games beyond the browser to reach more players. From your first idea to publishing and monetization, MyPip gives anyone the tools to become a game creator.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 描述需求、制作游戏，并发布和变现",
+      "description_zh": "myPip 让用户用文字描述游戏想法，由 AI 在浏览器里生成可玩的游戏，无需编程。介绍还提到多人游戏、应用内购买、广告，以及向浏览器之外的平台发布。",
+      "intro_zh": "给想做游戏但不会编程的人用，在浏览器里描述玩法，生成可玩的游戏，再发布和尝试变现。",
       "url": "https://www.producthunt.com/products/mypip-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EHF3WCHUMHPPQ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a6020b7b-60fd-481f-b8f4-9a7d1a4c84e4.png?auto=format",
       "votes_count": 252,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "从想法到可玩游戏的用途清楚，但生成质量和发布条件未交代。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把文字玩法变成可运行、可修改的游戏，有具体的可靠性问题可讨论。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先生成可体验的结果，再连接发布和收费，适合借用于创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "游戏娱乐",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是把想法直接变成可玩的验证对象；最影响判断的是，生成后能否稳定修改到符合创作者意图。",
+      "product_analysis": {
+        "target_problem": "不会编程的游戏创作者，需要把玩法想法做成别人能玩的作品。麻烦在于描述想法之后，仍要完成制作、发布和收费。",
+        "workflow": "用户在浏览器里描述想做的游戏，由 AI 生成可玩版本。介绍还支持制作多人体验、加入内购或广告，并发布到浏览器之外，但未说明具体操作。",
+        "ai_value": "AI 负责把文字需求变成可玩的游戏；介绍没有说明它能处理多复杂的规则。",
+        "differentiation": "它把生成游戏与发布、变现放在同一工具里，可能减少另找工具的工作。用户可能因无法精确修改玩法而不愿迁入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 255f0870-9e0c-4e90-a355-af8a343c7a83)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 在浏览器里生成游戏，没说具体模型或游戏引擎。",
+        "possible_approach": "如果自己做，可以先把描述整理成角色、规则和胜负条件，再基于游戏模板生成可运行版本，最后连接发布与收费功能。",
+        "tradeoffs": "最难的是修改一条规则时保住原有玩法。若改跳跃高度却破坏关卡通关条件，用户就得反复检查整局游戏。",
+        "unknowns": "浏览器之外具体支持哪些发布平台？"
+      },
+      "transferable_insights": [
+        "做低门槛创作工具时，可以先给出可操作的成品，让用户实际体验后再提出修改。"
+      ],
+      "validation_questions": [
+        "生成游戏后只修改一条规则，检查其他玩法是否保持不变。",
+        "选一个支持的浏览器外平台，检查能否完成发布。"
+      ],
+      "source_tagline": "Vibe code, publish, and monetize games with AI",
+      "source_description": "MyPip turns your game ideas into playable games you can publish and monetize. Describe what you want to build, and AI brings it to life directly in your browser, no coding required. Create multiplayer experiences, add in-app purchases and ads, and take your games beyond the browser to reach more players. From your first idea to publishing and monetization, MyPip gives anyone the tools to become a game creator."
     },
     {
       "id": "1289449",
       "name": "1Password for Agents",
       "name_zh": "1Password for Agents",
-      "tagline_zh": "Let AI agents sign in for you without seeing your passwords",
-      "description_zh": "1Password for Agents lets supported AI agents sign in to your accounts without ever seeing your passwords. When an agent hits a login, it asks 1Password. You approve or deny on your own device, and 1Password fills the password or one-time code directly. Connecting an agent doesn’t open your whole vault. Included in Individual and Family plans, with Meta Muse and Grok Bot rolling out and a waitlist.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 代理替你登录，无需看到你的密码",
+      "description_zh": "它让受支持的 AI 代理在遇到登录时请求 1Password，由你在自己的设备上批准或拒绝，再直接填入密码或一次性验证码，无需向代理展示密码，也不会开放整个密码库。缓存简介称该功能包含在个人和家庭套餐内，Meta Muse 和 Grok Bot 正陆续开放支持，并设有候补名单。",
+      "intro_zh": "给让 AI 代理代办在线事务的人用，在自己设备上批准登录，由 1Password 填入凭据。",
       "url": "https://www.producthunt.com/products/1password?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QPQLVSCTPHCQGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1c235f64-ca2f-4279-8d33-60588cd62e2c.webp?auto=format",
       "votes_count": 235,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "登录授权场景明确，但支持范围和实际隔离效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "替代理完成登录又不暴露凭据，是具体的权限设计问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把敏感操作交给独立工具执行、由人批准，可供代办产品借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是用户能批准登录而不向代理直接交出密码；但登录后代理能看到多少凭据信息，仍决定这项设计是否可靠。",
+      "product_analysis": {
+        "target_problem": "让 AI 代理代办在线事务时，登录会涉及敏感凭据。用户需要让任务继续，又不想开放整个密码库。",
+        "workflow": "受支持的代理遇到登录后请求 1Password。用户在自己的设备上批准或拒绝，批准后由 1Password 直接填入密码或一次性验证码。",
+        "ai_value": "AI 负责代办事务；这里新增的是登录配合能力，介绍没说用 AI 判断授权是否安全。",
+        "differentiation": "把填写凭据交给密码管理器，用户保留批准权。最可能阻碍使用的是代理支持范围有限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 416a5814-25d5-491f-b2c6-23bff5a4dd60)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说支持设备端审批、直接填入凭据，连接代理不开放整个密码库；未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先让代理提交目标网站和账户，再由用户确认，让独立的凭据工具填写登录表单，只向代理返回完成状态。",
+        "tradeoffs": "最难的是确认凭据确实填给了用户批准的网站。目标匹配错误，可能把密码交给冒充页面。",
+        "unknowns": "填入后，代理能否从页面或操作记录中读回凭据？"
+      },
+      "transferable_insights": [
+        "做能代用户操作账户的助手时，可把敏感凭据留在独立工具里，让助手发起请求，由用户批准执行。"
+      ],
+      "validation_questions": [
+        "批准一次登录后，检查代理的可见页面和操作记录是否包含密码或验证码。",
+        "把登录目标换成相似域名，检查系统是否阻止原凭据被填入。"
+      ],
+      "source_tagline": "Let AI agents sign in for you without seeing your passwords",
+      "source_description": "1Password for Agents lets supported AI agents sign in to your accounts without ever seeing your passwords. When an agent hits a login, it asks 1Password. You approve or deny on your own device, and 1Password fills the password or one-time code directly. Connecting an agent doesn’t open your whole vault. Included in Individual and Family plans, with Meta Muse and Grok Bot rolling out and a waitlist."
     },
     {
       "id": "1286641",
       "name": "AgentValley",
       "name_zh": "AgentValley",
-      "tagline_zh": "Every Claude Code agent, at a glance, in your Mac's notch",
-      "description_zh": "It sits in your MacBook's notch. Every Claude Code session gets a card, every sub-agent gets a row, and each one has a little pixel programmer. You see who's working, on which model, and who's waiting on you. Free and open source.",
-      "intro_zh": "",
+      "tagline_zh": "在 Mac 刘海区域，一眼查看所有 Claude Code 智能体",
+      "description_zh": "它位于 MacBook 的刘海区域，为每个 Claude Code 会话显示一张卡片，为每个子智能体显示一行，并配有像素程序员形象。你可以查看谁在工作、使用哪个模型、谁在等待你处理；产品免费且开源。",
+      "intro_zh": "给同时运行多个 Claude Code 任务的开发者用，在 MacBook 刘海区域查看任务状态和等待处理的事项。",
       "url": "https://www.producthunt.com/products/agentvalley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FXTTULYREWAUGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/94f375a4-baf2-4f4b-8e02-e2c1a5c4aee2.png?auto=format",
       "votes_count": 147,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多任务状态集中展示的用途清楚，但实际能少切换多少次窗口尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "会话与子任务的状态更新值得关注，但介绍未说明如何获取。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按会话分组、突出等待处理状态的做法可借到其他多任务工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把“哪里需要我处理”集中呈现；最影响判断的是状态是否准确及时，像素形象本身不能回答这个问题。",
+      "product_analysis": {
+        "target_problem": "同时跑多个编程任务时，开发者需要知道哪个仍在工作、哪个等自己处理。分散查看这些状态可能打断手头工作。",
+        "workflow": "运行 Claude Code 会话后，在刘海区域查看会话卡片及子智能体行。子智能体指会话中分出去执行工作的助手；安装和连接步骤未说明。",
+        "ai_value": "介绍未提 AgentValley 自身使用 AI。它展示已有 AI 编程任务的状态，不负责生成代码。",
+        "differentiation": "把多个会话放到同一处查看，可能减少窗口切换。是否愿意换用，取决于这里的状态能否让人放心。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 98a8cada-2a01-4fce-8300-938c9c57bd14)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 MacBook 刘海区域展示、会话与子智能体分层显示，以及免费开源。",
+        "possible_approach": "如果自己做，可以先读取各会话的状态，再按会话归组显示子任务，并突出需要用户处理的项。",
+        "tradeoffs": "最容易错在状态更新不及时：任务已经等人处理，界面却仍显示工作中，用户就可能一直空等。",
+        "unknowns": "它从哪里获取会话和子智能体的状态？"
+      },
+      "transferable_insights": [
+        "做批量任务工具时，可以把主任务和子任务分层展示，并把“等你处理”做成醒目标记，方便用户决定先管哪一个。"
+      ],
+      "validation_questions": [
+        "让一个会话进入等待用户处理的状态，检查界面是否及时反映。",
+        "同时运行两个含子任务的会话，检查子任务是否归到正确的会话。"
+      ],
+      "source_tagline": "Every Claude Code agent, at a glance, in your Mac's notch",
+      "source_description": "It sits in your MacBook's notch. Every Claude Code session gets a card, every sub-agent gets a row, and each one has a little pixel programmer. You see who's working, on which model, and who's waiting on you. Free and open source."
     },
     {
       "id": "1290061",
       "name": "Canva Craft",
       "name_zh": "Canva Craft",
-      "tagline_zh": "Turn prompts into design-ready images you can edit",
-      "description_zh": "Canva Craft is Canva’s first in-house image model, built for marketers, creators and designers who need images that work as designs, not just pictures. Unlike models trained mostly on photos that render pixels straight from a prompt, Craft learned from millions of Canva templates and plans the composition first, then renders it at 2K in 30+ aspect ratios. Expect legible text in 55 languages, precise placement and outputs you can split into editable layers. Live in Canva today, plus API.",
-      "intro_zh": "",
+      "tagline_zh": "把提示词变成可编辑、可用于设计的图像",
+      "description_zh": "Canva Craft 是 Canva 首个自研图像模型，面向营销人员、创作者和设计师；简介称它从数百万份 Canva 模板中学习，先规划构图，再生成 2K 图像，支持 30 多种宽高比。简介还称它能生成 55 种语言的清晰文字、精确安排元素位置，并把输出拆成可编辑图层，已在 Canva 内提供，也提供接口供其他软件调用。",
+      "intro_zh": "给营销人员、创作者和设计师用，按文字要求生成设计图，再拆成图层继续修改。",
       "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WZ53YD2FURN4TB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2340f058-d596-4a80-968f-19d6d7803e5f.png?auto=format",
       "votes_count": 137,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "生成后还能修改，需求清楚，但图层是否实用尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "先排构图再生成、再拆层，带出了具体的编辑难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先安排元素再生成内容的做法，可借给其他版式工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重生成结果还能继续修改；但可编辑究竟到什么程度，是这份缓存介绍留下的关键疑问。",
+      "product_analysis": {
+        "target_problem": "做营销配图的人需要的不只是好看的图片，还要文字和元素位置能用。拿到一张图后，修改局部仍可能费事。",
+        "workflow": "用户输入文字要求，生成设计图，再把输出拆成图层编辑。介绍未说明具体操作入口。",
+        "ai_value": "AI 先安排构图，再生成图像。它试图同时处理画面、文字和元素位置，具体效果仍需试用确认。",
+        "differentiation": "可编辑图层可能减少生成后重做局部的工作。最可能让人不愿换用的，是拆出的图层仍不好改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 278a25ca-837d-4996-9074-cafce4d93697)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介称模型从 Canva 模板学习，先规划构图再渲染，并支持把输出拆成可编辑图层。",
+        "possible_approach": "如果自己做，可以先把要求整理成文字、图片和位置安排，再生成画面，并为各元素保留独立编辑信息。",
+        "tradeoffs": "最难的是让拆出的图层真正可编辑。若文字仍混在图片里，改一句文案可能还得重做局部。",
+        "unknowns": "拆出的文字是能直接改字的文本，还是只能移动的图片？"
+      },
+      "transferable_insights": [
+        "做海报或演示文稿工具时，可以先确定标题、配图的位置，再生成内容，并保留单独修改的入口。"
+      ],
+      "validation_questions": [
+        "生成一张中文促销图，检查指定文案是否逐字正确。",
+        "拆层后替换标题，检查是否需要重做周围画面。"
+      ],
+      "source_tagline": "Turn prompts into design-ready images you can edit",
+      "source_description": "Canva Craft is Canva’s first in-house image model, built for marketers, creators and designers who need images that work as designs, not just pictures. Unlike models trained mostly on photos that render pixels straight from a prompt, Craft learned from millions of Canva templates and plans the composition first, then renders it at 2K in 30+ aspect ratios. Expect legible text in 55 languages, precise placement and outputs you can split into editable layers. Live in Canva today, plus API."
     },
     {
       "id": "1280718",
       "name": "LinkIntel",
       "name_zh": "LinkIntel",
-      "tagline_zh": "Post insights delivered direct to your AI",
-      "description_zh": "Your AI already drafts your X posts, but it has never seen how they performed. LinkIntel fixes that. Connect X once and it records how your recent posts do, every day. It also reads X's open-source ranking weights daily and links every change to its GitHub commit. Add one URL to Claude, ChatGPT, or your favorite agent harness and ask for a brief: your next draft starts from what actually worked for you",
-      "intro_zh": "",
+      "tagline_zh": "把帖子表现信息直接送给你的 AI",
+      "description_zh": "连接一次 X 后，LinkIntel 每天记录近期帖子的表现，并每日读取 X 开源排序权重，将变化关联到对应的 GitHub 代码提交。把一个网址添加到 Claude、ChatGPT 或其他智能助手中，就能请求简报，让下一篇草稿参考自己的历史表现。",
+      "intro_zh": "给用 AI 写 X 帖子的创作者，把近期帖子表现交给助手，供下一次起草时参考。",
       "url": "https://www.producthunt.com/products/linkintel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BRLPMVHM6UBNJP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ba800789-5c02-4297-a25d-48455f656f91.jpeg?auto=format",
       "votes_count": 115,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确补上写作助手缺少帖子表现数据的问题，但改稿收益未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把公开排序代码的变化与实际发帖建议联系起来，有具体的解释难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把作品后续表现送回创作工具，是可以借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让写稿助手看到发布后的结果；最大疑问是排序代码的变化能否支持实际写作建议。",
+      "product_analysis": {
+        "target_problem": "适合已经用 AI 起草 X 帖子的创作者。助手能写稿，却可能不知道此前哪些帖子表现好。",
+        "workflow": "连接 X，让它每日记录近期帖子表现。把提供的网址添加到助手中，再请求一份简报。",
+        "ai_value": "AI 根据接入的表现资料生成简报，为后续草稿提供参考；介绍没说 LinkIntel 自身用什么模型。",
+        "differentiation": "省去另行整理表现数据交给助手的工作。是否愿意连接 X 账号，可能是使用门槛。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ba7f2c38-3443-4733-9afd-c720ec7b0155)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "每天记录近期帖子表现，读取 X 开源排序权重，并把变化关联到 GitHub 代码提交。",
+        "possible_approach": "如果自己做，可以先按帖子保存每日表现，再整理代码变化和出处，最后提供一个助手能读取的资料网址。",
+        "tradeoffs": "最容易把公开代码变化误当成线上推荐规则已经变化，导致助手据此给出不可靠的写作建议。",
+        "unknowns": "公开代码中的权重与 X 当前线上规则有多大对应关系，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做创作助手时，可以把已发布作品的表现带回下一次起草，让建议有用户自己的记录可参考。",
+        "涉及外部规则变化时，附上原始变更出处，方便用户检查解释是否站得住。"
+      ],
+      "validation_questions": [
+        "抽查一篇帖子的每日记录，与 X 同一时点显示的数据是否一致？",
+        "请求简报时，助手是否把代码权重变化误说成帖子表现变化的原因？"
+      ],
+      "source_tagline": "Post insights delivered direct to your AI",
+      "source_description": "Your AI already drafts your X posts, but it has never seen how they performed. LinkIntel fixes that. Connect X once and it records how your recent posts do, every day. It also reads X's open-source ranking weights daily and links every change to its GitHub commit. Add one URL to Claude, ChatGPT, or your favorite agent harness and ask for a brief: your next draft starts from what actually worked for you"
     },
     {
       "id": "1280293",
       "name": "Many Displays",
       "name_zh": "Many Displays",
-      "tagline_zh": "Zero clicks: windows back after sleep, unlock or replugging",
-      "description_zh": "Nothing to save, no layouts to name, nothing to click. Many Displays quietly remembers where every window lives (display, position, size) and puts everything back on its own when your Mac wakes, unlocks or reconnects its monitors. Grant Accessibility once and forget it's there. Built for identical monitors that macOS keeps swapping: it tells them apart, even by the port they're plugged into. No cloud, no account. $19 one-time, 14-day free trial.",
-      "intro_zh": "",
+      "tagline_zh": "无需点击，睡眠唤醒、解锁或重接显示器后自动恢复窗口",
+      "description_zh": "Many Displays 会记住 Mac 上每个窗口所在的显示器、位置和大小，在唤醒、解锁或重接显示器后自动恢复，无需手动保存或命名布局。介绍称，授予一次辅助功能权限后即可使用，支持区分同型号显示器及其连接端口；无需云端和账户，一次性付费 19 美元，可试用 14 天。",
+      "intro_zh": "给使用多台显示器的 Mac 用户，在唤醒、解锁或重接屏幕后，自动把窗口放回原来的位置和大小。",
       "url": "https://www.producthunt.com/products/many-displays?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GSPZTCB4QSTTSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/31c7f631-da54-4c81-bf60-0d26689f7745.jpeg?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多屏窗口错位的场景清楚，但恢复可靠性尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "区分同型号显示器是具体且直接影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自动记住工作状态、在环境恢复后还原的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最实用的是免去手动保存布局；最影响判断的是同型号显示器重连后能否稳定认对，历史简介还不足以证明这一点。",
+      "product_analysis": {
+        "target_problem": "多屏 Mac 用户在唤醒或重接屏幕后，可能遇到窗口跑位。以前需要手动摆回的窗口，现在可以由它自动恢复。",
+        "workflow": "授予辅助功能权限后，让它记住窗口所在屏幕、位置和大小。唤醒、解锁或重接显示器时自动恢复，不用命名布局。",
+        "ai_value": "介绍没提 AI，主要靠记住窗口状态并在特定事件后恢复来改善体验。",
+        "differentiation": "省去主动保存和调用布局的操作。但需要授予辅助功能权限，可能让谨慎的用户犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 59b6e8fc-1f6e-44cc-ae41-91409361753e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1288672",
-      "name": "Penta",
-      "name_zh": "Penta",
-      "tagline_zh": "A ’90s 5-disc CD changer on iPhone Duo ",
-      "description_zh": "Penta turns your iPhone, iPad or iPhone Duo into a ’90s 5-disc CD changer for your Apple Music library. Every click, whir and tray motor is recorded from a real CD changer. On iPhone Duo the phone is the jewel case: close it and you’re holding the album, open it and the case opens with it, then drop the disc into the carousel. Hold it upright for a CD wallet over the tray that animates open and closed. Free, with an optional one-time Pro unlock for the real printed CD art.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/penta-cd-player-changer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OSUIR3XGHPGCRN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/369d7361-4cd7-4c03-aa13-3f75283d8b90.png?auto=format",
-      "votes_count": 99,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到辅助功能权限，并称可按连接端口区分同型号显示器，无需云端。",
+        "possible_approach": "如果自己做，可以先记录窗口位置、大小和对应屏幕，再监听唤醒与接屏事件，等屏幕就绪后还原。",
+        "tradeoffs": "最难的是认对同型号屏幕。认错后，即使窗口坐标恢复正确，也可能整组出现在另一块屏幕上。",
+        "unknowns": "换插口后，还能否正确判断窗口该回哪块屏幕？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e921e81b-f9de-4e5b-98e3-36a172e9e987)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做编辑器或工作台时，可以自动记住用户的面板位置，在重新打开时恢复，减少反复整理。"
+      ],
+      "validation_questions": [
+        "连接两台同型号显示器，睡眠唤醒后检查窗口是否仍在各自原来的屏幕上。",
+        "保持连接端口不变，拔插显示器后检查窗口位置和大小是否恢复。"
+      ],
+      "source_tagline": "Zero clicks: windows back after sleep, unlock or replugging",
+      "source_description": "Nothing to save, no layouts to name, nothing to click. Many Displays quietly remembers where every window lives (display, position, size) and puts everything back on its own when your Mac wakes, unlocks or reconnects its monitors. Grant Accessibility once and forget it's there. Built for identical monitors that macOS keeps swapping: it tells them apart, even by the port they're plugged into. No cloud, no account. $19 one-time, 14-day free trial."
     },
     {
       "id": "1288200",
       "name": "Byter",
       "name_zh": "Byter",
-      "tagline_zh": "Know exactly how much data you use, on every network",
-      "description_zh": "Byter shows how much internet data you use, and where. It tracks usage separately for every Wi‑Fi network, phone hotspot and wired connection, so you know exactly what your hotspot bundle went on. You also get live speed, a one-click speed test, daily-to-yearly charts, and gentle alerts when usage spikes. Everything stays on your device. No account, no ads. Available now for Mac, Windows coming soon, in 11 languages.",
-      "intro_zh": "",
+      "tagline_zh": "了解你在每个网络上用了多少流量",
+      "description_zh": "Byter 分别统计各个 Wi-Fi、手机热点和有线连接的流量，并提供实时网速、一键测速、按日到按年的图表及用量突增提醒。介绍称数据保留在本机，无需账号、没有广告；当时已提供 Mac 版和 11 种语言，Windows 版尚待推出。",
+      "intro_zh": "给经常用 Mac 连接不同网络的人，分别记录 Wi-Fi、手机热点和有线连接的流量，查看用量变化。",
       "url": "https://www.producthunt.com/products/byter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P5AUEEE3ERUV7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3aea0f09-db1d-44f5-b4ea-d0153e9b18ad.png?auto=format",
       "votes_count": 95,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "热点套餐用量不易分清，按网络统计对应了具体需求。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "网络切换时如何准确归属流量值得关注，但实现未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按资源来源拆分用量，可借用于其他额度管理产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把热点用量单独列出。最影响判断的是统计能否接近实际套餐消耗，现有材料没有回答。",
+      "product_analysis": {
+        "target_problem": "经常给 Mac 连手机热点的人，需要知道套餐流量用了多少。只看总用量，难以分清哪些发生在热点、哪些发生在其他网络。",
+        "workflow": "使用不同网络上网后，查看各网络的独立用量和历史图表；需要时点击测速，用量突增时接收提醒。",
+        "ai_value": "介绍没提 AI，主要靠流量统计、图表和提醒改善体验。",
+        "differentiation": "把总用量拆到具体网络，减少核对热点消耗的麻烦。若统计与套餐账单相差较大，用户可能不愿依赖它。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 90e650c3-86dc-42f2-94ab-9999b5f6a88a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称流量按网络分别统计，数据保留在设备本地；没有披露具体采集技术。",
+        "possible_approach": "如果自己做，可以先读取系统收发字节数，再把增量记到当前网络，存入本机并汇总成图表。",
+        "tradeoffs": "最容易出错的是切网时的流量归属。若仍记在上一个网络，热点消耗就可能被低估。",
+        "unknowns": "同时连接多个网络时，能否分清实际流量走向？"
+      },
+      "transferable_insights": [
+        "做云存储或接口额度管理时，可按实际计费来源分别记账，让用户知道是哪份额度在减少。"
+      ],
+      "validation_questions": [
+        "传输文件时从 Wi-Fi 切到热点，检查切换后的流量是否记到热点。",
+        "让热点独占连接并传输一批数据，比较统计增量与手机侧记录的差异。"
+      ],
+      "source_tagline": "Know exactly how much data you use, on every network",
+      "source_description": "Byter shows how much internet data you use, and where. It tracks usage separately for every Wi‑Fi network, phone hotspot and wired connection, so you know exactly what your hotspot bundle went on. You also get live speed, a one-click speed test, daily-to-yearly charts, and gentle alerts when usage spikes. Everything stays on your device. No account, no ads. Available now for Mac, Windows coming soon, in 11 languages."
     },
     {
       "id": "1283491",
       "name": "How It Went",
       "name_zh": "How It Went",
-      "tagline_zh": "Your route, photos and clips as a short film",
-      "description_zh": "Turns one ride or a whole trip into a short film from the GPS track, photos and clips you already have. Your track draws itself across a tilted map, each photo appears where you took it, and clips play where they were shot. Pick rides from Strava or bring Garmin FIT and GPX files. Several days merge into one film, rest days included. Fix a wrong camera clock once and every shot from it moves. Out comes an MP4, 9:16 or 16:9, assembled and encoded on your iPhone, Android phone or Mac.",
-      "intro_zh": "",
+      "tagline_zh": "把路线、照片和视频片段做成短片",
+      "description_zh": "把已有的 GPS 轨迹、照片和视频片段做成单次骑行或整段旅程的短片：路线在倾斜地图上逐步展开，照片和视频出现在拍摄地点，可从 Strava 选取骑行记录，或导入 Garmin FIT、GPX 轨迹文件。支持合并多日行程并包含休息日，一次校正相机时钟即可调整该相机的全部素材，最后在 iPhone、安卓手机或 Mac 上合成并编码为竖屏或横屏 MP4。",
+      "intro_zh": "给想记录骑行或旅行的人用，把已有轨迹和沿途影像做成带地图路线的短片。",
       "url": "https://www.producthunt.com/products/how-it-went?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HHBJPDPSK62X4D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0f34fe1e-7b6b-48e1-8ecf-93cb26146195.jpeg?auto=format",
       "votes_count": 87,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "素材来源和成片形式明确，但匹配准确度与整理工作量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "相机时钟校正涉及照片与轨迹的时间匹配，问题具体。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "一次校正带动同源素材批量调整，可借用于素材整理工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重一次校时就能批量调整素材；最影响判断的是，调整后的位置能否准确对应轨迹。",
+      "product_analysis": {
+        "target_problem": "骑行者或旅行者想把路线和沿途影像放进同一段回顾里。麻烦在于素材分散，相机时间还可能与轨迹对不上。",
+        "workflow": "从 Strava 选择骑行记录，或导入轨迹文件，再加入照片和视频。可合并多日行程、校正相机时间，导出横屏或竖屏短片。",
+        "ai_value": "介绍没提 AI，主要靠轨迹与影像对应、地图动画和设备内合成来改善体验。",
+        "differentiation": "把路线展示与沿途影像编排放在一起，可能减少手工对齐。若已有素材缺少可靠时间，用户仍可能需要额外整理。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7a0e7424-382b-4e9b-9a28-67d6d9b9d51d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 FIT、GPX 轨迹文件，在手机或 Mac 上完成视频合成与编码，即把画面转成可播放的 MP4。",
+        "possible_approach": "如果自己做，可以先按时间读取轨迹点，再用拍摄时间找到对应位置，最后生成地图动画并合入影像。",
+        "tradeoffs": "最容易错在时间匹配。相机时间若未校准，照片可能被放到错误路段。",
+        "unknowns": "没有轨迹的休息日，影像如何定位和编排，介绍未说明。"
+      },
+      "transferable_insights": [
+        "做多设备素材整理时，可让用户按相机统一校正时间，避免逐张修改。"
+      ],
+      "validation_questions": [
+        "导入一组已知拍摄地点的照片，校正相机时间后，是否都落在正确路段？",
+        "合并含休息日的多日行程，休息日影像是否仍按预期顺序出现？"
+      ],
+      "source_tagline": "Your route, photos and clips as a short film",
+      "source_description": "Turns one ride or a whole trip into a short film from the GPS track, photos and clips you already have. Your track draws itself across a tilted map, each photo appears where you took it, and clips play where they were shot. Pick rides from Strava or bring Garmin FIT and GPX files. Several days merge into one film, rest days included. Fix a wrong camera clock once and every shot from it moves. Out comes an MP4, 9:16 or 16:9, assembled and encoded on your iPhone, Android phone or Mac."
+    },
+    {
+      "id": "1288672",
+      "name": "Penta",
+      "name_zh": "Penta",
+      "tagline_zh": "在 iPhone Duo 上重现 90 年代五碟 CD 换碟机",
+      "description_zh": "Penta 把 iPhone、iPad 或介绍中所称的 iPhone Duo 变成 Apple Music 曲库的复古五碟换碟机，按键、转动和托盘马达声均录自真实设备。简介还描述了随手机开合的唱片盒、放入转盘的光盘和竖持时的 CD 收纳包；应用免费，可一次性付费解锁真实印刷版光盘图案。",
+      "intro_zh": "给使用 Apple Music、喜欢实体唱片操作感的人，把曲库里的专辑做成可摆弄的虚拟 CD。",
+      "url": "https://www.producthunt.com/products/penta-cd-player-changer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OSUIR3XGHPGCRN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/369d7361-4cd7-4c03-aa13-3f75283d8b90.png?auto=format",
+      "votes_count": 99,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用人群明确，但操作乐趣是否抵得过额外步骤仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "虚拟装盘动作与实际播放是否同步，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用真实设备录音配合操作反馈，可借用于模拟实体物件的产品。"
+        }
+      },
+      "category": "游戏娱乐",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重真实机械声与装盘动作的配合，能给数字专辑增加可感知的操作反馈；但开合玩法的设备条件不明，不能默认普通 iPhone 也有完整体验。",
+      "product_analysis": {
+        "target_problem": "它面向想在听歌时保留翻唱片、装碟乐趣的人。解决的是数字曲库缺少实体操作感的问题，不是找歌效率。",
+        "workflow": "使用 Apple Music 曲库里的专辑，以虚拟光盘和转盘操作。简介还描述了开合唱片盒、放入光盘及竖持展示收纳包，但未交代完整播放步骤。",
+        "ai_value": "介绍没提 AI，主要靠真实机械录音和拟物动画改善体验。",
+        "differentiation": "把装碟体验搬到手机上，不需要实际摆弄唱片。额外的装盘动作也可能让只想快速听歌的人不愿切换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "机械音效录自真实 CD 换碟机，播放内容来自 Apple Music 曲库。",
+        "possible_approach": "如果自己做，可以先让选中的专辑正常播放，再给装盘、换碟动作配上动画和录音。",
+        "tradeoffs": "最容易出错的是动画与播放不同步：画面已经换碟，声音还停在上一张，会破坏操作感。",
+        "unknowns": "缓存中的“iPhone Duo”具体指什么设备，开合交互需要什么条件，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做复古播放器或虚拟仪器时，可以给关键动作配真实设备录音，让声音回应用户操作。"
+      ],
+      "validation_questions": [
+        "连续换两张专辑，检查装盘动画结束后是否播放对应专辑。",
+        "核对“iPhone Duo”的设备要求，确认开合交互能在哪些设备上使用。"
+      ],
+      "source_tagline": "A ’90s 5-disc CD changer on iPhone Duo ",
+      "source_description": "Penta turns your iPhone, iPad or iPhone Duo into a ’90s 5-disc CD changer for your Apple Music library. Every click, whir and tray motor is recorded from a real CD changer. On iPhone Duo the phone is the jewel case: close it and you’re holding the album, open it and the case opens with it, then drop the disc into the carousel. Hold it upright for a CD wallet over the tray that animates open and closed. Free, with an optional one-time Pro unlock for the real printed CD art."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

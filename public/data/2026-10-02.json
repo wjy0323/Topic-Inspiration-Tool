@@ -1,367 +1,510 @@
 {
   "date": "2026-10-02",
-  "generated_at": "2026-10-03T20:19:11+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:24:23+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1264587",
       "name": "Gauth Unlimited Digital Canvas ",
-      "name_zh": "Gauth Unlimited Digital Canvas ",
-      "tagline_zh": "An AI tutor on an infinite whiteboard, not a chat thread",
-      "description_zh": "Gauth AI Course now runs on an Unlimited Digital Canvas: one continuous whiteboard where lessons unfold spatially instead of in a chat thread or slide deck. Chapters expand side by side as narration plays, board notes write out in sync with the AI voice, and you can zoom from the full concept map down to a single formula. Pause anytime to ask the AI Tutor, and it answers right on the board beneath your step. Generate a canvas lesson on any topic, then export it as a PDF or share a link.",
-      "intro_zh": "",
+      "name_zh": "Gauth Unlimited Digital Canvas",
+      "tagline_zh": "无限白板上的 AI 导师，不局限于聊天串",
+      "description_zh": "Gauth AI Course 将课程放在一张连续白板上：章节并排展开，板书随 AI 讲解同步出现，可从整体概念图缩放到单个公式。用户可暂停提问，回答会出现在当前步骤下方，也可按主题生成课程，导出 PDF 或分享链接。",
+      "intro_zh": "给想边听边看推导的学习者用，把主题生成白板课程，并在看不懂的步骤旁向 AI 提问。",
       "url": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/TCMAWBRPUPSDRM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bd5e7f68-cc51-46b3-a072-a44513edfd36.jpeg?auto=format",
       "votes_count": 481,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "学习场景清楚，能把讲解、板书和追问放在一起，但教学质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "语音与板书同步是具体难点，会直接影响能否跟上讲解。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把回答放在问题所在步骤旁，可借用于需要逐步解释的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重追问能留在具体步骤旁，复习时不用另找对话；最大的疑问仍是课程内容是否可靠。",
+      "product_analysis": {
+        "target_problem": "学习者看长推导时，聊天串或分页课件可能把前后步骤隔开。这里可以在同一张白板上查看章节关系和公式细节。",
+        "workflow": "按主题生成课程，边听讲解边看板书，缩放查看内容。遇到疑问可暂停提问，最后导出 PDF 或分享链接。",
+        "ai_value": "AI 负责生成主题课程、语音讲解和回答追问，回答会落在当前步骤下方。",
+        "differentiation": "少了来回翻找上下文的动作。但如果白板铺得太开，用户可能反而难找当前学到的位置。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 89c27466-5f67-46ee-980f-a61c16e5b11c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1253670",
-      "name": "Veltrix AI for E-commerce",
-      "name_zh": "Veltrix AI for E-commerce",
-      "tagline_zh": "Find how your e-commerce business could earn more",
-      "description_zh": "Find ways to make your e-commerce business more profitable. Veltrix uses AI to analyze your sales, costs, customers and marketing. Get help deciding what to promote, where to cut spending and how to solve problems holding the business back. Connect your business tools or upload files. Start with a Business Health Check to find improvements you may have missed. Then use Veltrix to work out what to improve. Your first check is free. No card required.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WLBR6YF7GXE2Z7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7a11c7b2-5b14-4083-a815-4c5f1fef098e.png?auto=format",
-      "votes_count": 297,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到板书与 AI 语音同步、画布缩放和板内问答，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把课程拆成带位置的讲解步骤，再给每步语音和板书标记播放时间；提问时带上当前步骤。",
+        "tradeoffs": "最容易出错的是语音与板书对齐。若公式还没出现，讲解已进入下一步，学习者就得反复暂停。",
+        "unknowns": "生成的公式和推导是否经过正确性检查，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: fc00da9f-41d7-4c95-8d01-55cd68747d51)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做编程或解题教学工具时，可把追问答案放在对应步骤旁，让用户保留原问题的位置。"
+      ],
+      "validation_questions": [
+        "播放一段多步公式推导，检查语音是否始终对应正在出现的板书。",
+        "用一道已知标准答案的题生成课程，检查推导是否正确。"
+      ],
+      "source_tagline": "An AI tutor on an infinite whiteboard, not a chat thread",
+      "source_description": "Gauth AI Course now runs on an Unlimited Digital Canvas: one continuous whiteboard where lessons unfold spatially instead of in a chat thread or slide deck. Chapters expand side by side as narration plays, board notes write out in sync with the AI voice, and you can zoom from the full concept map down to a single formula. Pause anytime to ask the AI Tutor, and it answers right on the board beneath your step. Generate a canvas lesson on any topic, then export it as a PDF or share a link."
     },
     {
       "id": "1251693",
       "name": "Teachoo",
       "name_zh": "Teachoo",
-      "tagline_zh": "AI that helps you learn anything and everything.",
-      "description_zh": "Teachoo helps students work through homework one question at a time. Type a problem or upload a photo, then work toward the answer with guided questions, feedback and hints. Need more help? Ask for a bigger hint or an explanation of the step. Free to use. Try a problem you haven’t solved in years.",
-      "intro_zh": "",
+      "tagline_zh": "帮助你学习各种知识的 AI。",
+      "description_zh": "Teachoo 帮学生逐题做作业：输入题目或上传照片，再借助引导问题、反馈和提示逐步解答。需要更多帮助时，可以要求更详细的提示或某一步的解释；介绍称可免费使用，也邀请用户试试多年没做过的题。",
+      "intro_zh": "给做作业遇到困难的学生用，输入题目或上传照片，通过引导提问和提示逐步解题。",
       "url": "https://www.producthunt.com/products/teachoo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KFXWOSQJDAFLPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b5bdd52a-1841-4098-974e-a42a94ef4479.jpeg?auto=format",
       "votes_count": 262,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "解题卡住的场景清楚，也能主动增加提示，但教学效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断学生卡在哪里、给多少提示，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按需增加提示的做法可借给其他练习类产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是学生卡住时能逐级求助；最影响判断的是，它能否针对真实错误给提示，而不只是继续讲解题目。",
+      "product_analysis": {
+        "target_problem": "学生做作业时，可能知道题目在问什么，却不知道下一步怎么走。它面向这种卡在中间步骤的求助。",
+        "workflow": "输入一道题或上传照片，跟着引导问题继续解答。仍然卡住时，要求更详细的提示或某一步的解释。",
+        "ai_value": "AI 的用途是围绕题目提供引导问题、反馈和提示。是否能准确理解学生的错误，仍需试用确认。",
+        "differentiation": "它把帮助拆成逐步提示，可能省去学生自己从完整解答中寻找卡点的功夫。但只想核对答案的人可能嫌过程太长。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e312c4a3-770f-47bc-a85c-957e06038405)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1237517",
-      "name": "Famulor",
-      "name_zh": "Famulor",
-      "tagline_zh": "Your agent to answer calls and follow ups on WhatsApp",
-      "description_zh": "Famulor answers calls, runs campaigns and follows up on WhatsApp. GDPR-ready, EU hosting. Try it free.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/famulor-telephony-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QBHP7XRZGWA2R7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/24b9cf66-96a2-485c-b84b-aa186a7e6466.jpeg?auto=format",
-      "votes_count": 218,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "标语提到 AI，简介支持文字和照片输入，未说明具体模型或识别技术。",
+        "possible_approach": "如果自己做，可以先把照片转成题目文字，再结合学生当前回答，生成下一问；学生求助时再增加提示。",
+        "tradeoffs": "最难的是判断该提示多少。提示太少会让学生继续卡住，太多则可能直接泄露答案。",
+        "unknowns": "是否能识别学生看似合理、实际错误的中间步骤？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e8f5502b-5e84-4136-b5ea-906921e97384)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1263860",
-      "name": "Eleven v4 and Eleven v4 Turbo",
-      "name_zh": "Eleven v4 and Eleven v4 Turbo",
-      "tagline_zh": "Elevenlabs' fastest and most emotive voice models yet",
-      "description_zh": "Meet Eleven v4 and Eleven v4 Turbo by ElevenLabs, their most expressive models yet, with Turbo built for real-time use. Available in apps, API, and agents.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6XZVTY74NPFNZP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c09eec67-3992-47ab-9639-55b6727e6f58.webp?auto=format",
-      "votes_count": 169,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3de2b260-824c-4c3c-9bcb-05fb710b0f34)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做编程或语言练习产品时，可以把帮助拆成小提示、更详细提示和步骤解释，让用户主动选择。"
+      ],
+      "validation_questions": [
+        "故意提交一个错误中间步骤，看它能否指出具体错处。",
+        "对同一处卡点连续索要更多提示，看帮助是否逐步增加而不直接跳到答案。"
+      ],
+      "source_tagline": "AI that helps you learn anything and everything.",
+      "source_description": "Teachoo helps students work through homework one question at a time. Type a problem or upload a photo, then work toward the answer with guided questions, feedback and hints. Need more help? Ask for a bigger hint or an explanation of the step. Free to use. Try a problem you haven’t solved in years."
     },
     {
       "id": "1265120",
       "name": "Mintlify Desktop",
       "name_zh": "Mintlify Desktop",
-      "tagline_zh": "An AI-native app for writing documentation and knowledge",
-      "description_zh": "A dedicated home for all your documentation, from internal knowledge bases, runbooks and onboarding guides to public docs. Keep projects open side by side across organizations and pick up where you left off. An agent works alongside you on the page you’re editing, while local files let you write offline and sync when you reconnect. Tabs, split views, and persistent sessions help you move between projects without losing context.",
-      "intro_zh": "",
+      "tagline_zh": "用于编写文档和知识内容的 AI 原生应用",
+      "description_zh": "集中编写内部知识库、操作手册、入职指南和公开文档，支持并排打开不同组织的项目，并接着上次的进度工作。AI 助手在当前编辑页面旁协作，本地文件支持离线写作、联网后同步，标签页、分屏和持久会话帮助保留项目上下文。",
+      "intro_zh": "给维护多个项目文档的人用，把知识库、操作手册和公开文档放在桌面应用中编写。",
       "url": "https://www.producthunt.com/products/mintlify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KXVFCRAGWYL3WT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1a567b74-ae30-407f-8e76-d83f86c74937.jpeg?auto=format",
       "votes_count": 167,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多项目切换和离线写作的场景明确，但同步体验尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "离线修改与联网同步之间有具体的冲突处理问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "恢复工作现场的做法可借给需要频繁切换项目的编辑工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是切回项目后不用重新找工作位置；最影响判断的是同步冲突会不会让已写内容丢失。",
+      "product_analysis": {
+        "target_problem": "维护多个组织文档的人，需要在项目间切换，也可能断网写作。麻烦在于切回后重新找页面、恢复编辑位置。",
+        "workflow": "打开文档项目，用标签页或分屏并排编辑。断网时写本地文件，重连后同步；下次继续保留的会话。",
+        "ai_value": "AI 助手围绕当前编辑的页面协作。简介没说明它具体能起草、修改还是检查内容，不能据此判断能省多少写作时间。",
+        "differentiation": "它把并排编辑和恢复进度放在一起，减少重新打开项目的操作。已有文档能否顺利接入，可能影响用户是否愿意换工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ac9a1c77-4f15-4ff8-9d61-e06bea8f9eaa)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1266859",
-      "name": "ShipHQ",
-      "name_zh": "ShipHQ",
-      "tagline_zh": "Build your own app studio, powered by your real apps",
-      "description_zh": "ShipHQ turns your app's real numbers into a living isometric startup office. Connect RevenueCat and every paying subscriber becomes a person at your desks. Each morning the Daily Brief replays last night: new subscribers walk in to applause, trials arrive in caps, churn gets a send-off. Milestones land as trophies on your wall — earned, never bought, never retroactive. AI managers bring a 09:00 standup on growth, reviews and competitors. Free on iPhone.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/shiphq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OTJP662DLDAQ2G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/db7c100f-4492-49ca-8ebd-bca5af622d48.jpeg?auto=format",
-      "votes_count": 153,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到本地文件、离线写作、重连同步，以及持久会话。",
+        "possible_approach": "如果自己做，可以先把编辑内容存到本地，再记录待同步修改，联网后与远端版本比较；另外保存打开的项目和页面位置。",
+        "tradeoffs": "最难的是处理离线期间的同页修改。若直接覆盖远端版本，可能丢掉同事更新的内容。",
+        "unknowns": "离线内容与远端内容冲突时，用户怎样选择保留哪个版本？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9550a6c6-6278-43f3-9739-34ae57fb1a89)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多项目编辑工具时，可保存每个项目打开的页面、分屏和编辑位置，让用户切回后继续工作。"
+      ],
+      "validation_questions": [
+        "同一页面在离线端和远端分别修改后，重连能否保留双方内容？",
+        "关闭并重开应用后，原有项目、标签页和编辑位置能否恢复？"
+      ],
+      "source_tagline": "An AI-native app for writing documentation and knowledge",
+      "source_description": "A dedicated home for all your documentation, from internal knowledge bases, runbooks and onboarding guides to public docs. Keep projects open side by side across organizations and pick up where you left off. An agent works alongside you on the page you’re editing, while local files let you write offline and sync when you reconnect. Tabs, split views, and persistent sessions help you move between projects without losing context."
     },
     {
       "id": "1266817",
       "name": "Bambu Lab R1",
       "name_zh": "Bambu Lab R1",
-      "tagline_zh": "CO2 laser cutting with Bambu-style automation",
-      "description_zh": "Bambu Lab R1 is a 55W CO2 laser cutter built around automation. It handles optical alignment, material positioning and surface tracking for you, with a 600 × 300 mm work area, clear acrylic support, and optional conveyor processing up to 3 meters.",
-      "intro_zh": "",
+      "tagline_zh": "采用 Bambu 风格自动化的 CO₂ 激光切割机",
+      "description_zh": "Bambu Lab R1 是一台以自动化为重点的 55W CO₂ 激光切割机，可自动处理光路对准、材料定位和表面跟踪。工作区域为 600 × 300 毫米，支持透明亚克力，并可选配输送装置处理最长 3 米的材料。",
+      "intro_zh": "给需要切割板材的工作室和制作人员用，自动处理光路对准、材料定位和表面跟踪。",
       "url": "https://www.producthunt.com/products/bambu-lab-r1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QYY6KYS42E7YIU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fa859971-c21a-4478-b560-435537940537.jpeg?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确减少切割准备工作，但实际精度和适用材料范围尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "透明材料上的定位与表面跟踪，有具体的实现难点可分析。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把设备校准和定位做成自动步骤，可借用于其他加工设备。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它减少开工前调整的方向，但透明材料上的自动测量是否可靠，最影响这项便利能否兑现。",
+      "product_analysis": {
+        "target_problem": "工作室切割板材时，需要让光路、材料位置和表面高度配合好。准备不准，可能切偏或切不透。",
+        "workflow": "用户放置材料后，由设备处理光路对准、材料定位和表面跟踪，再进行切割。选配输送装置可处理最长 3 米的材料；具体操作顺序未说明。",
+        "ai_value": "介绍没提 AI，主要靠自动校准、定位和跟踪来减少人工调整。",
+        "differentiation": "它把几项切割准备工作交给设备。最可能让人犹豫的是：自动定位是否足够可靠，仍需反复人工确认。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c5a68147-6427-48ed-a1d3-e9aa04d98254)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "采用 55W CO₂ 激光，工作区域为 600 × 300 毫米；介绍未披露自动定位的具体技术。",
+        "possible_approach": "如果自己做，可以先测出材料边界和表面高度，再换算成切割位置与焦点设置，切割前检查测量是否可信。",
+        "tradeoffs": "最难的是可靠测量透明亚克力表面。检测若受透光影响，焦点可能设错，造成切不透。",
+        "unknowns": "所谓表面跟踪，是开工前测一次，还是切割时持续调整？"
+      },
+      "transferable_insights": [
+        "做桌面加工设备时，可以把校准、定位和开工前检查串起来，减少用户漏做准备步骤。"
+      ],
+      "validation_questions": [
+        "同一块透明亚克力反复放置后，自动定位的切割位置是否一致？",
+        "用允许加工的轻微不平整材料，检查表面跟踪能否保持切透？"
+      ],
+      "source_tagline": "CO2 laser cutting with Bambu-style automation",
+      "source_description": "Bambu Lab R1 is a 55W CO2 laser cutter built around automation. It handles optical alignment, material positioning and surface tracking for you, with a 600 × 300 mm work area, clear acrylic support, and optional conveyor processing up to 3 meters."
     },
     {
       "id": "1267041",
       "name": "Clef",
       "name_zh": "Clef",
-      "tagline_zh": "Open-source decision models from Cloudflare",
-      "description_zh": "Clef is a 27B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single forward pass. There is no free-form text generation and no output parsing. The Clef API is fully compatible with Jev and SystemOne.",
-      "intro_zh": "",
+      "tagline_zh": "来自 Cloudflare 的开源决策模型",
+      "description_zh": "Clef 是一个 270 亿参数的多模态模型，可读取文字、JSON、图片或视频形式的当前情况，再根据预先定义类型的问题，一次计算所有允许选项的概率。简介称它不生成自由文本，无需解析输出，且 API 与 Jev、SystemOne 完全兼容。",
+      "intro_zh": "给需要自动分类或分流的开发者用，把当前情况和预设选项交给模型，获取各选项的概率。",
       "url": "https://www.producthunt.com/products/cloudflare-clef?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NWQ4OR426GAEWU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/84079699-2541-4fa1-baa8-d3a125c7ce0a.png?auto=format",
       "votes_count": 121,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "输入和输出清楚，能减少处理自由文本的工作，但决策准确性未交代。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把模型输出限制为选项概率，有明确的设计取舍可讨论。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "预先定义选项的做法可用于分类和分流，但需要覆盖异常情况。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它能让后续程序少处理一层文字歧义；但概率是否可信，决定了它能否用于自动决策。",
+      "product_analysis": {
+        "target_problem": "开发者做自动分类或分流时，需要模型给出程序能直接处理的结果。若以前让模型写文字再提取答案，现在可以直接拿到预设选项的概率。",
+        "workflow": "提交当前情况，以及规定问题类型和允许选项的结构定义。模型返回每个问题下各选项的概率。",
+        "ai_value": "AI 读取不同形式的材料，为候选答案计算概率；这些概率如何转成实际动作，仍需业务规则。",
+        "differentiation": "省去从自由文本中提取答案的步骤。最可能阻碍切换的是业务答案难以提前列全。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7331c0d9-f86c-4068-bbce-0814974df180)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其为 270 亿参数多模态模型，在一次模型计算中输出全部选项概率，不生成自由文本。",
+        "possible_approach": "如果自己做，可以先定义问题和候选答案，再训练模型为各选项打分，最后按固定字段返回概率。",
+        "tradeoffs": "最容易误用的是把高概率当成可靠保证；若概率与实际正确率不符，系统可能自信地分错任务。",
+        "unknowns": "介绍没有说明这些概率是否经过校准，即标为九成把握的答案是否真有约九成正确。"
+      },
+      "transferable_insights": [
+        "做工单分流时，可以先列出允许去向和“交人工确认”，让后续程序只处理约定好的选项。"
+      ],
+      "validation_questions": [
+        "用一批有标准答案的样本，检查高概率预测的实际正确率是否相符。",
+        "输入不属于任何预设选项的案例，检查能否识别并交给人工。"
+      ],
+      "source_tagline": "Open-source decision models from Cloudflare",
+      "source_description": "Clef is a 27B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single forward pass. There is no free-form text generation and no output parsing. The Clef API is fully compatible with Jev and SystemOne."
     },
     {
       "id": "1266705",
       "name": "Open Inspector",
       "name_zh": "Open Inspector",
-      "tagline_zh": "Hover any website, get its design system. Open-source. Free.",
-      "description_zh": "A free, open-source browser extension for inspecting layout, styles, colour, type and assets on any page, and exporting its design tokens. Unlike the popular alternatives, it requests no site access and makes zero network requests. MIT, no account.",
-      "intro_zh": "",
+      "tagline_zh": "悬停查看网页设计系统，免费开源。",
+      "description_zh": "一款免费、开源的浏览器扩展，可检查网页的布局、样式、颜色、字体和素材，并导出设计变量。简介称它不请求网站访问权限、不发送网络请求，采用 MIT 开源许可，无需账号。",
+      "intro_zh": "给设计师和前端开发者用，在网页上查看布局、颜色和字体，并导出可复用的设计变量。",
       "url": "https://www.producthunt.com/products/open-inspector?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3FZNOGTYO2AUWP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2aaa90d2-4e0a-4ab2-94f1-41e6c2bc78c7.png?auto=format",
       "votes_count": 119,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "检查网页样式并导出的用途清楚，但导出结果是否可直接使用尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "不请求网站访问权限却能检查页面，值得确认实际授权方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把查看结果变成可导出的变量，是设计检查工具可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重检查后能直接导出；但页面样式能否整理成有意义的设计变量，决定它能省多少后续工作。",
+      "product_analysis": {
+        "target_problem": "设计师和前端开发者在参考网页或核对样式时，需要弄清元素的颜色、字体和间距，并整理成可复用的值。",
+        "workflow": "在网页上悬停检查元素，查看布局、样式和素材，再导出设计变量，也就是颜色、字号等可重复使用的命名值。",
+        "ai_value": "介绍没提 AI，主要靠网页检查和导出来减少整理工作。",
+        "differentiation": "它把查看样式和导出放在一起。最可能让人不愿换用的原因，是导出内容可能仍需手工清理。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9fed6511-925b-4c96-9447-985e43be0ba2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "它是采用 MIT 许可的开源浏览器扩展；简介称不请求网站访问权限，也不发送网络请求。",
+        "possible_approach": "如果自己做，可以先读取选中元素最终生效的样式，再合并重复值并导出。浏览器如何授权读取页面，需要先验证。",
+        "tradeoffs": "最难的是从页面数值中识别真正共用的变量。把偶然出现的间距也当成规范，会让导出结果混入杂项。",
+        "unknowns": "“不请求网站访问权限”具体指哪种权限范围，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做设计检查工具时，可以让查看到的样式直接导出，减少用户另行抄录。"
+      ],
+      "validation_questions": [
+        "在未授予长期网站访问权限时，能否完成一次元素检查？",
+        "导出一页包含重复样式的网页，检查是否把相同值整理成可复用变量？"
+      ],
+      "source_tagline": "Hover any website, get its design system. Open-source. Free.",
+      "source_description": "A free, open-source browser extension for inspecting layout, styles, colour, type and assets on any page, and exporting its design tokens. Unlike the popular alternatives, it requests no site access and makes zero network requests. MIT, no account."
+    },
+    {
+      "id": "1253670",
+      "name": "Veltrix AI for E-commerce",
+      "name_zh": "Veltrix AI for E-commerce",
+      "tagline_zh": "找出你的电商业务可以如何赚得更多",
+      "description_zh": "Veltrix 用 AI 分析销售、成本、客户和营销数据，帮助电商经营者判断该推广什么、减少哪些开支，以及改善哪些经营问题。可以连接业务工具或上传文件，从经营健康检查开始寻找改进点，再继续分析；首次检查免费，无需信用卡。",
+      "intro_zh": "给电商经营者用，连接业务工具或上传文件，分析销售与开支，寻找可改善的经营问题。",
+      "url": "https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WLBR6YF7GXE2Z7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7a11c7b2-5b14-4083-a815-4c5f1fef098e.png?auto=format",
+      "votes_count": 297,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "经营决策场景清楚，但建议能否带来利润改善尚无依据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "销售和成本如何对应，是影响建议可信度的具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先做健康检查、再分析具体问题的使用顺序可借鉴。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重它尝试把经营数据变成可讨论的改进事项；最大的疑问是建议是否有清楚的数据依据，而不只是泛泛的经营常识。",
+      "product_analysis": {
+        "target_problem": "电商经营者想增加利润时，需要一起看销售、成本和营销表现。麻烦在于有数据，也未必知道该先改哪件事。",
+        "workflow": "连接业务工具或上传文件，先做经营健康检查，寻找可能遗漏的改进点，再用 Veltrix 分析要改善什么。",
+        "ai_value": "AI 分析经营数据，辅助判断推广重点、削减开支和需要解决的问题；介绍未说明如何得出这些建议。",
+        "differentiation": "它把数据分析和改进建议放在一起，可能减少自己整理结论的工作。是否愿意持续使用，取决于建议是否足够具体。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 分析，以及连接业务工具、上传文件两种数据输入方式，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先把销售和成本按同一时间段、商品对应起来，再计算经营指标，让 AI 根据这些结果解释异常并提出建议。",
+        "tradeoffs": "最容易错在收入与成本没有对应好，可能把实际不赚钱的商品推荐为推广重点。",
+        "unknowns": "健康检查是否能解释每条建议依据了哪些数据？"
+      },
+      "transferable_insights": [
+        "做经营分析工具时，可以先提供一次范围明确的健康检查，让用户发现问题后，再选择具体问题继续分析。"
+      ],
+      "validation_questions": [
+        "上传一份已知利润结果的数据，检查它对商品盈利情况的判断是否一致。",
+        "挑一条削减开支的建议，检查能否找到支持它的具体数据。"
+      ],
+      "source_tagline": "Find how your e-commerce business could earn more",
+      "source_description": "Find ways to make your e-commerce business more profitable. Veltrix uses AI to analyze your sales, costs, customers and marketing. Get help deciding what to promote, where to cut spending and how to solve problems holding the business back. Connect your business tools or upload files. Start with a Business Health Check to find improvements you may have missed. Then use Veltrix to work out what to improve. Your first check is free. No card required."
+    },
+    {
+      "id": "1237517",
+      "name": "Famulor",
+      "name_zh": "Famulor",
+      "tagline_zh": "帮你接听电话并在 WhatsApp 上跟进的助手",
+      "description_zh": "Famulor 可接听电话、开展营销活动，并在 WhatsApp 上跟进。介绍称其采用欧盟托管、已为 GDPR（欧盟个人数据保护法规）做好准备，并提供免费试用。",
+      "intro_zh": "面向需要处理客户来电和后续联系的团队，接听电话、开展营销活动，并在 WhatsApp 上跟进。",
+      "url": "https://www.producthunt.com/products/famulor-telephony-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QBHP7XRZGWA2R7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/24b9cf66-96a2-485c-b84b-aa186a7e6466.jpeg?auto=format",
+      "votes_count": 218,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "接听与跟进的用途清楚，但能处理哪些客户问题尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "电话与消息之间如何认对联系人，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把来电与后续联系放在一起有借鉴意义，但交接方式未说明。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是接听后还能继续联系客户。最大的疑问是接听能力边界；历史缓存不足以判断它能承担多少实际沟通。",
+      "product_analysis": {
+        "target_problem": "处理客户来电的团队，还要安排后续联系。接完电话后如何继续沟通，是它试图简化的事。",
+        "workflow": "介绍支持的流程是由助手接听电话，再在 WhatsApp 上跟进；另可开展营销活动。具体配置步骤未说明。",
+        "ai_value": "介绍没提 AI，也没解释电话如何被处理；明确提供的是接听和跟进功能。",
+        "differentiation": "它把来电与后续消息放在同一工具里，可能减少人工转交。若接听范围太窄，团队可能仍不愿交给它。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到欧盟托管，并宣称已为 GDPR 做好准备；没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先记录来电号码和沟通内容，再匹配 WhatsApp 联系人，生成待确认的跟进消息。",
+        "tradeoffs": "最容易出错的是匹配联系人。若来电号码与 WhatsApp 号码不同，可能漏掉跟进，或把内容发给错的人。",
+        "unknowns": "遇到无法处理的来电时，能否转交人工？"
+      },
+      "transferable_insights": [
+        "做客户沟通工具时，可以让通话记录直接成为后续消息的参考，减少员工重新整理背景的工作。"
+      ],
+      "validation_questions": [
+        "用不同的来电号码和 WhatsApp 号码测试，检查它如何确认跟进对象。",
+        "提出一个超出处理范围的问题，检查能否转交人工。"
+      ],
+      "source_tagline": "Your agent to answer calls and follow ups on WhatsApp",
+      "source_description": "Famulor answers calls, runs campaigns and follows up on WhatsApp. GDPR-ready, EU hosting. Try it free."
+    },
+    {
+      "id": "1263860",
+      "name": "Eleven v4 and Eleven v4 Turbo",
+      "name_zh": "Eleven v4 and Eleven v4 Turbo",
+      "tagline_zh": "ElevenLabs 称其为迄今最快、情感表现最丰富的语音模型",
+      "description_zh": "ElevenLabs 推出 Eleven v4 和 Eleven v4 Turbo，称它们是旗下表现力最强的语音模型，Turbo 面向实时使用。可在应用中使用，也可通过 API（让软件调用模型的接口）和智能体使用。",
+      "intro_zh": "给做语音应用和对话助手的团队，用于生成语音，并为实时交互提供模型选择。",
+      "url": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6XZVTY74NPFNZP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c09eec67-3992-47ab-9639-55b6727e6f58.webp?auto=format",
+      "votes_count": 169,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "实时语音场景明确，但没有响应速度或表现力的验证材料。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "实时响应与语音表现力如何兼顾，是具体且有意义的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按使用场景提供模型版本可借鉴，但版本差异尚不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把实时交互单独列为使用场景；但缺少速度与表达效果的对照，尚不能判断升级收益。",
+      "product_analysis": {
+        "target_problem": "做语音助手的团队，需要让用户少等，也让声音表达贴合内容。简介强调这两个方向，但没说明用户原来怎么做。",
+        "workflow": "可在应用中使用，或通过 API、智能体调用模型。Turbo 面向实时场景；具体输入、选声和输出步骤没有说明。",
+        "ai_value": "AI 负责生成语音。产品方强调声音表现力，并将 Turbo 定位于实时使用，但缓存资料不能证明实际效果。",
+        "differentiation": "Turbo 可能减少对话中的等待。最可能让团队暂缓切换的是：现有应用接入后，等待时间究竟能缩短多少。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出两个语音模型，说明 Turbo 面向实时使用，并提供应用、API 和智能体使用方式。",
+        "possible_approach": "如果自己做，可以先把待说内容交给语音模型，再把已生成的声音分段播放，减少等整句完成的时间。",
+        "tradeoffs": "难点是声音还没全部生成就开始播放。若后续生成跟不上，用户会听到停顿，打断对话节奏。",
+        "unknowns": "没有说明 Turbo 在加快响应时，是否会牺牲语音表现力。"
+      },
+      "transferable_insights": [
+        "做同时支持配音和实时对话的产品时，可以按场景提供模型选项，让用户先选用途，再决定用哪个版本。"
+      ],
+      "validation_questions": [
+        "在自己的实时对话场景里，从发起请求到听到第一段声音要等多久？",
+        "用同一段带情绪的台词比较两个版本，Turbo 的表达是否满足业务要求？"
+      ],
+      "source_tagline": "Elevenlabs' fastest and most emotive voice models yet",
+      "source_description": "Meet Eleven v4 and Eleven v4 Turbo by ElevenLabs, their most expressive models yet, with Turbo built for real-time use. Available in apps, API, and agents."
+    },
+    {
+      "id": "1266859",
+      "name": "ShipHQ",
+      "name_zh": "ShipHQ",
+      "tagline_zh": "用真实应用数据，搭建自己的应用工作室",
+      "description_zh": "ShipHQ 将应用数据变成等距视角的虚拟办公室：连接 RevenueCat 后，付费订阅者成为桌前的人物，每日简报回放新增、试用和流失，里程碑则变成不能购买、也不追溯补发的奖杯。AI 经理在每天 09:00 提供有关增长、评论和竞品的站会简报，iPhone 版免费。",
+      "intro_zh": "给经营订阅制应用的开发者用，把订阅变化变成虚拟办公室里的人员进出，并提供每日经营简报。",
+      "url": "https://www.producthunt.com/products/shiphq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OTJP662DLDAQ2G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/db7c100f-4492-49ca-8ebd-bca5af622d48.jpeg?auto=format",
+      "votes_count": 153,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "把订阅变化变得直观，但能否帮助经营判断尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "订阅记录如何准确对应人物进出，是具体且有后果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把真实业务事件变成可见变化，可借用于需要持续关注进展的产品。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重每日回放把零散变化放到一起；最影响判断的是，这种直观呈现能否准确反映订阅状态。",
+      "product_analysis": {
+        "target_problem": "经营订阅制应用的开发者，需要持续关注新增、试用和流失。单看数字可能不容易感受变化，它把这些变化放进一个办公室场景。",
+        "workflow": "连接 RevenueCat，付费订阅者会成为办公室人物。每天查看昨夜事件回放，再看 09:00 的 AI 经理简报。",
+        "ai_value": "AI 经理提供增长、评论和竞品简报；介绍没说明它如何获取资料、得出判断。",
+        "differentiation": "它让订阅变化可以直接看见，可能减少逐项读数的负担。但若人物动画难以对应准确数字，用户可能仍要回到原来的数据页面。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到连接 RevenueCat（应用订阅管理服务），并提供 AI 经理简报，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先读取订阅变化，再把新增、试用、流失映射成人物动作；另将经营资料整理成每日简报。",
+        "tradeoffs": "最难的是正确区分订阅状态。若把取消续订误当成立即流失，办公室就可能提前送走仍在付费的人。",
+        "unknowns": "每日回放按什么规则判定订阅者已经流失？"
+      },
+      "transferable_insights": [
+        "做需要用户每天关注的经营工具时，可以把真实事件对应成固定的视觉变化，让用户先看到变化，再查数字。"
+      ],
+      "validation_questions": [
+        "取消续订但尚未到期的订阅者，会不会被提前显示为离开？",
+        "AI 简报中的竞品判断，能否找到对应的原始资料？"
+      ],
+      "source_tagline": "Build your own app studio, powered by your real apps",
+      "source_description": "ShipHQ turns your app's real numbers into a living isometric startup office. Connect RevenueCat and every paying subscriber becomes a person at your desks. Each morning the Daily Brief replays last night: new subscribers walk in to applause, trials arrive in caps, churn gets a send-off. Milestones land as trophies on your wall — earned, never bought, never retroactive. AI managers bring a 09:00 standup on growth, reviews and competitors. Free on iPhone."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

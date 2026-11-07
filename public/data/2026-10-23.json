@@ -1,367 +1,512 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-24T19:54:09+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:19:17+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1289897",
       "name": "Product Hunt Visual Launch Editor",
       "name_zh": "Product Hunt Visual Launch Editor",
-      "tagline_zh": "See your launch as you build it",
-      "description_zh": "See your Product Hunt launch come to life as you build it! The new visual editor lets you edit your launch in fewer steps while while automatically saving your draft. You can simply click the name, tagline, gallery or makers to edit them in place. A checklist shows what's required and what will help your launch stand out, and clicking a checklist item will take you straight to the field that needs work. Drafts, scheduled launches and live launches now all use the same editor.",
-      "intro_zh": "",
+      "tagline_zh": "边编辑，边看发布页效果",
+      "description_zh": "这款可视化编辑器支持直接点击名称、标语、图库和制作者进行修改，并自动保存草稿。检查清单会提示必填项及可完善的内容，点击即可跳到对应字段；草稿、已排期和已上线的发布页使用同一个编辑器。",
+      "intro_zh": "给准备在 Product Hunt 发布产品的团队用，直接在发布页上修改内容，并按清单补齐资料。",
       "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y7DEMV6KEGC3FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/63e7224f-3120-4869-b8c5-6aca2a63c623.jpeg?auto=format",
       "votes_count": 402,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "编辑、保存和补齐资料的场景明确，但减少多少操作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动保存与已上线内容修改之间，有具体的生效规则需要厘清。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "点击内容直接编辑、点击清单定位缺项，都能用于其他内容发布工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重清单能直接带人找到待修改字段，提示之后就能动手；最影响判断的是已上线内容的保存与公开规则。",
+      "product_analysis": {
+        "target_problem": "准备发布产品的团队需要填写多项资料，还要检查遗漏。它把修改入口和待补内容放在发布页里，减少寻找对应字段的麻烦。",
+        "workflow": "点击名称、标语、图库或制作者就地修改，草稿自动保存。再按检查清单补齐内容，点击清单项即可跳到相应字段。",
+        "ai_value": "介绍没提 AI，主要靠就地编辑、自动保存和清单定位来改善体验。",
+        "differentiation": "三个发布阶段共用编辑器，不必重新熟悉修改入口。最可能让人犹豫的是：修改已上线内容后，何时对外可见并不清楚。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: bd9c9534-2c7c-4a04-9a32-6c946574364d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到自动保存草稿，以及草稿、已排期和已上线内容共用编辑器，未说明具体技术。",
+        "possible_approach": "如果自己做，可以先让页面上的内容块对应可编辑字段，再自动保存修改；检查清单读取同一份字段数据，点击后定位到缺项。",
+        "tradeoffs": "最容易出错的是把保存修改和对外发布混在一起。用户可能以为只存了草稿，未完成的文字却已公开。",
+        "unknowns": "已上线内容的修改是否需要单独确认才会生效？"
+      },
+      "transferable_insights": [
+        "做店铺或招聘信息编辑器时，可以让用户直接点击展示内容修改，少一次寻找表单字段。",
+        "做资料提交工具时，让缺项提示直接跳到对应输入框，避免用户看完提示还要逐项查找。"
+      ],
+      "validation_questions": [
+        "修改草稿并等待保存后刷新，检查最后一次修改是否保留。",
+        "修改已上线页面的一处文字，检查公开页面何时发生变化。"
+      ],
+      "source_tagline": "See your launch as you build it",
+      "source_description": "See your Product Hunt launch come to life as you build it! The new visual editor lets you edit your launch in fewer steps while while automatically saving your draft. You can simply click the name, tagline, gallery or makers to edit them in place. A checklist shows what's required and what will help your launch stand out, and clicking a checklist item will take you straight to the field that needs work. Drafts, scheduled launches and live launches now all use the same editor."
     },
     {
       "id": "1255211",
       "name": "MOVO AI",
       "name_zh": "MOVO AI",
-      "tagline_zh": "The world's first long-form video agent for mobile",
-      "description_zh": "MOVO AI is the world’s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want. MOVO plans, creates, refines, keeps characters and scenes consistent, and brings the whole video together. Lock your phone and MOVO keeps working. Come back to review or make changes through chat. No prompt gymnastics. No canvas-heavy workflows. No manual clip stitching.",
-      "intro_zh": "",
+      "tagline_zh": "自称全球首个面向移动端长视频创作的 AI 助手",
+      "description_zh": "MOVO AI 支持在手机和网页上创作长视频：拍摄、上传素材或提供想法后，用对话说明需求，它会规划、生成、修改并整合视频，保持角色和场景一致。介绍称锁屏后任务仍会继续，用户可回来查看或通过聊天修改，无需反复调整提示词、操作复杂画布或手动拼接片段。",
+      "intro_zh": "给想用手机制作长视频的创作者，把素材或想法交给 AI，再通过聊天查看和修改成片。",
       "url": "https://www.producthunt.com/products/movo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JXYZH5BXNMIBOM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c0db1ecf-ccf4-4006-accb-51767a6064fc.jpeg?auto=format",
       "votes_count": 291,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "创作入口和减少手动拼接的价值清楚，但长视频的可用程度尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多段视频如何保持角色一致，是直接影响成片的具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "后台执行长任务、回来查看并修改的做法可借用于其他生成工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是把多段制作和整合放进一次任务；最影响判断的是，它能否在足够长的视频里持续保持角色一致。",
+      "product_analysis": {
+        "target_problem": "面向想在手机上完成长视频的创作者。需要逐段生成、手动拼接时，整理片段和反复修改会占用精力。",
+        "workflow": "拍摄、上传素材或提供想法，再用聊天说明需求。MOVO 规划并制作视频；锁屏后继续工作，回来后可查看和修改。",
+        "ai_value": "AI 负责规划、生成、修改和整合视频，也承担跨片段保持角色、场景一致的工作。",
+        "differentiation": "把逐段制作和拼接交给助手，减少手动操作。最可能让人不愿换过来的，是聊天修改可能难以精确控制局部画面。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9628f6b3-6bea-4fbe-8077-0f8466b1daaf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1289806",
-      "name": "Agent Hunt",
-      "name_zh": "Agent Hunt",
-      "tagline_zh": "Live rankings of the tools AI agents use most",
-      "description_zh": "Agent Hunt is a live leaderboard of the tools AI agents actually use. Every place is earned by real calls agents make through Monid.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VX6RX4U6IBXRW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7fb51944-90bc-4a7d-8f7e-aad102e79bfb.jpeg?auto=format",
-      "votes_count": 258,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到手机和网页使用、锁屏后继续处理，以及角色和场景一致性，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把需求拆成分段计划，再按统一的角色和场景资料生成各段，最后拼接；把任务进度存下来，方便用户回来继续查看。",
+        "tradeoffs": "最难的是跨片段保持角色一致。若同一个人换了脸或服装，用户可能得重做多个片段。",
+        "unknowns": "介绍没有说明“长视频”支持多长，这会直接影响它能否覆盖实际项目。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d485371f-278c-4dc6-b925-007815252ac8)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做耗时生成工具时，可以让任务在用户离开后继续，并保留结果供回来查看，减少守着页面等待。",
+        "做多段内容创作工具时，可以先共享一份角色和场景设定，再生成各段，减少前后不一致。"
+      ],
+      "validation_questions": [
+        "让同一角色连续出现在多个场景中，检查外貌是否一致。",
+        "生成中锁屏，稍后返回，检查任务是否继续并保留结果。"
+      ],
+      "source_tagline": "The world's first long-form video agent for mobile",
+      "source_description": "MOVO AI is the world’s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want. MOVO plans, creates, refines, keeps characters and scenes consistent, and brings the whole video together. Lock your phone and MOVO keeps working. Come back to review or make changes through chat. No prompt gymnastics. No canvas-heavy workflows. No manual clip stitching."
     },
     {
       "id": "1273697",
       "name": "Ovren Live Preview",
       "name_zh": "Ovren Live Preview",
-      "tagline_zh": "See your product change live before it ships",
-      "description_zh": "Describe a change in plain words. Ovren writes the code on a safe copy of your project and gives you a live preview of every frontend change — your real page, with the change on it. Click through it, approve it, and your team merges the pull request.",
-      "intro_zh": "",
+      "tagline_zh": "上线前，实时查看产品改动",
+      "description_zh": "用日常语言描述改动，Ovren 会在项目的安全副本上编写代码，并提供改动后实际页面的实时预览。你可以点击体验并批准，再由团队合并拉取请求（提交给团队审查、合并的代码改动）。",
+      "intro_zh": "给需要调整产品页面的产品和开发团队用，把文字要求变成可点击的页面预览，再交给团队合并。",
       "url": "https://www.producthunt.com/products/ovren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/GZYWZ6Z6BGE5RV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4608a2ed-db7f-4c71-a72c-e630937fee3d.jpeg?auto=format",
       "votes_count": 190,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从描述改动到预览、批准和合并，分工清楚，但改动质量未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "预览能否代表最终合并结果，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先体验改动再批准的做法，可借用于其他生成内容的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让不写代码的人也能先体验改动；最影响判断的是预览与最终提交能否保持一致。",
+      "product_analysis": {
+        "target_problem": "产品同事提出页面调整时，仅靠文字不容易判断成品是否符合预期。它让团队在合并代码前，先点击检查改后的实际页面。",
+        "workflow": "描述改动，工具在项目副本上写代码并生成预览。用户点击体验、批准，再由团队合并代码。",
+        "ai_value": "介绍没明确提 AI，但说了自动按文字要求写代码；具体生成方式未说明。",
+        "differentiation": "把要求直接变成可体验的页面，可能减少来回解释。团队可能仍不愿接入，因为生成的代码还需要审查。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: db45dcdb-b513-402e-a1b0-007bcf0a51ae)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到项目安全副本、前端实时预览，以及由团队合并拉取请求。",
+        "possible_approach": "如果自己做，可以先复制项目，让代码生成工具按要求修改，再运行页面供用户确认，最后提交对应改动。",
+        "tradeoffs": "最容易出错的是预览与提交的代码不一致。用户批准了页面，团队合并后却可能看到另一种结果。",
+        "unknowns": "预览是否始终对应最终待合并的那版代码？"
+      },
+      "transferable_insights": [
+        "做页面或内容生成工具时，可以把可操作的结果放在批准之前，让用户根据成品作决定。"
+      ],
+      "validation_questions": [
+        "提一个明确的页面调整要求，检查预览是否准确体现要求。",
+        "批准后核对提交的代码，检查它是否对应刚才确认的预览版本。"
+      ],
+      "source_tagline": "See your product change live before it ships",
+      "source_description": "Describe a change in plain words. Ovren writes the code on a safe copy of your project and gives you a live preview of every frontend change — your real page, with the change on it. Click through it, approve it, and your team merges the pull request."
     },
     {
       "id": "1286735",
       "name": "ElevenLabs Realtime",
       "name_zh": "ElevenLabs Realtime",
-      "tagline_zh": "Realtime voice agent models with 570ms to first audio",
-      "description_zh": "Eleven Realtime is ElevenLabs’ new family of speech-to-speech models for voice agents. Speech recognition, turn-taking, the LLM and the voice are tuned end-to-end. v1 Mini is built for natural conversation, v1 Max for complex tasks, with 620ms and 570ms to first audio. It supports 90+ languages and works in ElevenAgents or through an OpenAI-compatible Realtime API, so you only change the endpoint and model name.",
-      "intro_zh": "",
+      "tagline_zh": "面向语音助手的实时模型，宣称最快 570 毫秒开始输出语音",
+      "description_zh": "Eleven Realtime 是 ElevenLabs 面向语音助手的语音到语音模型系列，将语音识别、轮流说话的判断、语言模型与声音输出一起调优。简介称，Mini 面向自然对话、Max 面向复杂任务，首次输出语音分别需 620 和 570 毫秒；支持 90 多种语言，可在 ElevenAgents 中使用，或通过兼容 OpenAI 的实时接口接入。",
+      "intro_zh": "给开发语音助手的团队用，接收用户说话并生成语音回答，可用于日常对话或复杂任务。",
       "url": "https://www.producthunt.com/products/realtime-max-mini?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/J2VB5S23Y57R7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4b26b4a9-9f7c-4a44-bcdf-2c6d0acff218.webp?auto=format",
       "votes_count": 183,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "语音助手的使用场景清楚，但响应速度和对话质量仍待实测。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "何时接话会直接影响对话体验，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "兼容已有接口的接入方式，可借用于同类服务迁移。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它可能减少语音能力的对接工作；但接口兼容能否覆盖已有用法，比宣传的首次出声数字更影响迁移判断。",
+      "product_analysis": {
+        "target_problem": "做语音助手的团队，需要让用户说完后及时得到回答。识别、判断是否说完和生成回答之间的等待，会打断交流节奏。",
+        "workflow": "团队可在 ElevenAgents 中使用，或通过实时接口（软件间持续传递声音的连接方式）接入，再选择 Mini 或 Max。",
+        "ai_value": "AI 负责听懂语音、判断何时接话并生成语音回答。Mini 侧重自然对话，Max 侧重复杂任务。",
+        "differentiation": "它把多项语音能力放在一起调优，可能减少分别对接的工作。已有系统是否真能只改地址和模型名，是迁移前最该确认的事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 95b7ac86-aba4-49d4-83b6-c6ab54ec09b9)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1289925",
-      "name": "ShogunAI",
-      "name_zh": "ShogunAI",
-      "tagline_zh": "Your personal AGI on your pc",
-      "description_zh": "An AI assistant that remembers your work and helps with meeting prep, search, writing and follow-ups. Try ShogunAI for Mac free for 7 days.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/shogunai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WGEUVK2HDK6FM6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3e47fa9a-cad9-472e-9e54-0112262675b3.jpeg?auto=format",
-      "votes_count": 153,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到语音到语音模型、端到端联合调优（把各环节一起优化），以及兼容 OpenAI 的实时接口。",
+        "possible_approach": "如果自己做，可以先接收连续音频，再判断用户是否说完，生成回答并逐段播放；最后一起调整各步的等待时间。",
+        "tradeoffs": "最难的是判断何时接话：把思考时的停顿当成结束，助手就会抢话，用户可能得重说。",
+        "unknowns": "宣称的首次出声时间从哪个时点开始计量，简介没有交代。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: eb00ec9e-0094-4a59-93b2-f878b1a60544)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1285865",
-      "name": "FLUX 3 Max",
-      "name_zh": "FLUX 3 Max",
-      "tagline_zh": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds",
-      "description_zh": "FLUX 3 Max is fal’s post-trained text-to-video and image-to-video model, built with Black Forest Labs on the FLUX 3 base. fal says it generates a 10-second 720p clip in about 12 seconds, around 10x faster than FLUX 3. It is tied for #1 on a preliminary Artificial Analysis image-to-video board. Pricing is $0.0425 per second of video through November 7 (list $0.17), with a playground and API.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/fal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/H7WZJVJO5LJCXF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6bbef86c-ed98-4f44-a379-15ec0574b38e.webp?auto=format",
-      "votes_count": 131,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 741dbf60-c630-4dd0-b4b0-f09663bb738c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做替代已有服务的开发工具时，可以保留原有调用方式，让用户先用少量改动验证能否接入。"
+      ],
+      "validation_questions": [
+        "说话中途停顿再继续，检查助手是否过早接话。",
+        "拿现有 OpenAI 实时调用代码，只改地址和模型名，检查能否完成一次语音对话。"
+      ],
+      "source_tagline": "Realtime voice agent models with 570ms to first audio",
+      "source_description": "Eleven Realtime is ElevenLabs’ new family of speech-to-speech models for voice agents. Speech recognition, turn-taking, the LLM and the voice are tuned end-to-end. v1 Mini is built for natural conversation, v1 Max for complex tasks, with 620ms and 570ms to first audio. It supports 90+ languages and works in ElevenAgents or through an OpenAI-compatible Realtime API, so you only change the endpoint and model name."
     },
     {
       "id": "1287301",
       "name": "Cloudflare Clairic",
       "name_zh": "Cloudflare Clairic",
-      "tagline_zh": "Cloudflare's AI model for fast, cheap data extraction",
-      "description_zh": "Clairic is Cloudflare's new AI model for extracting structured information without generating tokens. Give it messy text or images, and it returns typed values like names, dates, amounts, calculations, and estimates in a single pass, with confidence scores. Built for developers who need faster, cheaper data processing than traditional LLM calls. Available in preview on Workers AI at $0.10 per million input tokens, with open weights planned.",
-      "intro_zh": "",
+      "tagline_zh": "Cloudflare 用于快速、低成本提取数据的 AI 模型",
+      "description_zh": "缓存简介称，Clairic 可从杂乱文本或图片中一次提取姓名、日期、金额等带类型的值，并附置信分数，无需生成输出词元。它面向开发者，在 Workers AI 提供预览，标价每百万输入词元 0.10 美元，并计划开放模型权重；这些信息未重新核验。",
+      "intro_zh": "给需要处理杂乱文本或图片的开发者，用来提取姓名、日期、金额等字段，并返回置信分数。",
       "url": "https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/A6H4RT6E667XWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1b751f0a-6758-4390-aecb-b2656a8d2e8a.png?auto=format",
       "votes_count": 129,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "提取字段的需求清楚，但准确率和实际费用仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "直接返回带类型的值，以及置信分数是否可信，都有具体技术问题可研究。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "字段结果附置信分数的做法可借用，但分流阈值需要验证。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "直接取得带类型的值，可能省去整理模型回答的步骤；最影响判断的是置信分数能否支持自动处理。",
+      "product_analysis": {
+        "target_problem": "开发者把杂乱资料转成可入库的字段时，需要处理格式不一和数值歧义。",
+        "workflow": "提交文本或图片，取得带类型的字段值和置信分数。简介还列出了计算与估算结果。",
+        "ai_value": "AI 负责从非整齐输入中找出字段。简介称其无需逐个生成词元，即模型处理文本的小单位。",
+        "differentiation": "相比简介提到的传统大模型调用，它声称更快、更便宜。最可能阻碍切换的是提取准确率尚不明确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: df653910-0e71-4296-a3b7-b47fb2593dc5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称其单次处理返回带类型的值及置信分数，在 Workers AI 提供预览；未说明具体实现。",
+        "possible_approach": "如果自己做，可以先定义字段及类型，再训练模型直接预测各字段，并为结果附上可信程度。",
+        "tradeoffs": "最难的是让置信分数可靠。若错误金额也得高分，自动入库就可能放过错误。",
+        "unknowns": "字段能否由开发者自定义，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做资料录入工具时，可让低置信结果进入人工确认，减少逐项复核；阈值要用真实样本确定。"
+      ],
+      "validation_questions": [
+        "用已人工标注的样本检查：高置信结果是否仍有明显错误？",
+        "用业务特有字段检查：能否定义并提取简介示例之外的字段？"
+      ],
+      "source_tagline": "Cloudflare's AI model for fast, cheap data extraction",
+      "source_description": "Clairic is Cloudflare's new AI model for extracting structured information without generating tokens. Give it messy text or images, and it returns typed values like names, dates, amounts, calculations, and estimates in a single pass, with confidence scores. Built for developers who need faster, cheaper data processing than traditional LLM calls. Available in preview on Workers AI at $0.10 per million input tokens, with open weights planned."
     },
     {
       "id": "1285258",
       "name": "Context Engine",
       "name_zh": "Context Engine",
-      "tagline_zh": "One memory for your AI agents and human team members.",
-      "description_zh": "Context Engine is one memory for your AI agents and your team. Claude, ChatGPT, Cursor and Claude Code save to it as they work, and the people on your team read it, ask it questions and add files. Free to start.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 助手和团队成员共用一份记忆。",
+      "description_zh": "Context Engine 为 AI 助手和团队提供共用的记忆，Claude、ChatGPT、Cursor 和 Claude Code 可在工作时向其中保存内容。团队成员可以阅读、提问和添加文件，支持免费开始使用。",
+      "intro_zh": "给同时使用多个 AI 助手的团队用，把助手保存的内容和成员添加的文件放在一起，供团队阅读和提问。",
       "url": "https://www.producthunt.com/products/context-engine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MJ2TTPRLW354IS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6d2a5bbb-42bb-4576-89f9-50d5c201386c.png?auto=format",
       "votes_count": 108,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "共用资料的场景清楚，但能否减少重复交代背景仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个助手持续写入时，如何处理过期和矛盾内容是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让自动保存与人工补充进入同一资料库，是可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重成员能直接查阅助手留下的工作背景；但能否让助手之间也复用这些内容，仍缺关键信息。",
+      "product_analysis": {
+        "target_problem": "同时用多个 AI 助手的团队，需要让成员找到工作背景。资料分散时，可能要反复搬运和解释。",
+        "workflow": "介绍称，四款助手可在工作时保存内容。成员再阅读、提问或添加文件，具体接入步骤未说明。",
+        "ai_value": "AI 助手在工作中向共用记忆保存内容；提问时如何生成答案，介绍没说。",
+        "differentiation": "它把助手保存和人工补充放在同一处，可能减少资料搬运。能否信任其中的信息仍然有效，可能影响团队是否愿意换用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 20849211-1658-4765-9d36-3b4a88a17947)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确列出四款可保存内容的助手，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收助手内容和文件，记录来源与时间，再按问题查找相关段落并生成带出处的回答。",
+        "tradeoffs": "最难的是处理新旧内容冲突。若旧决定仍被当成现行结论，成员可能据此做错事。",
+        "unknowns": "保存的内容能否被其他助手读取并用于后续工作，介绍未说明。"
+      },
+      "transferable_insights": [
+        "做团队知识工具时，可让助手保存的内容与人工文件进入同一资料库，并保留各自来源，方便成员核对。"
+      ],
+      "validation_questions": [
+        "用其中一款助手完成一段工作，检查哪些内容实际被保存。",
+        "先后写入两条相互冲突的决定，再提问，检查回答是否采用最新决定。"
+      ],
+      "source_tagline": "One memory for your AI agents and human team members.",
+      "source_description": "Context Engine is one memory for your AI agents and your team. Claude, ChatGPT, Cursor and Claude Code save to it as they work, and the people on your team read it, ask it questions and add files. Free to start."
+    },
+    {
+      "id": "1289806",
+      "name": "Agent Hunt",
+      "name_zh": "Agent Hunt",
+      "tagline_zh": "实时查看 AI 智能体最常使用的工具排名",
+      "description_zh": "Agent Hunt 展示 AI 智能体实际使用工具的实时排行榜。介绍称，排名依据智能体通过 Monid 发起的真实调用。",
+      "intro_zh": "给关注 AI 工具使用情况的开发者和产品经理，用排行榜查看工具被智能体调用的情况。",
+      "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VX6RX4U6IBXRW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7fb51944-90bc-4a7d-8f7e-aad102e79bfb.jpeg?auto=format",
+      "votes_count": 258,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用次数能辅助选工具，但样本覆盖范围不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "调用如何计数会影响排名含义，值得具体检查。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用实际使用记录辅助发现工具，是可借用的具体做法。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把调用行为变成选工具的参考；最大的疑问是 Monid 的使用样本能代表多少实际需求。",
+      "product_analysis": {
+        "target_problem": "给 AI 智能体选工具的人，可能想知道哪些工具确实被使用。产品介绍能说明功能，却不能直接说明使用频率。",
+        "workflow": "用户查看实时榜单，了解工具的使用排名。资料未说明能否筛选、查看次数或比较历史变化。",
+        "ai_value": "AI 智能体是被观察的使用者。介绍没说用 AI 分析数据，主要靠调用记录形成榜单。",
+        "differentiation": "它把实际调用作为选型参考。最可能让人犹豫的是：榜单只覆盖通过 Monid 的调用，未必代表其他环境。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称，实时排名依据智能体通过 Monid 发起的真实工具调用。",
+        "possible_approach": "如果自己做，可以先记录每次工具调用，再按统一时间范围汇总次数，更新榜单。",
+        "tradeoffs": "最容易出错的是把失败后的重试也算成新的使用需求，导致高频报错的工具排名偏高。",
+        "unknowns": "排名按什么时间范围统计，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做工具目录时，可以在功能说明旁展示实际使用排名，并标明数据来源和统计时间，帮助用户判断参考范围。"
+      ],
+      "validation_questions": [
+        "同一次任务触发多次失败重试时，榜单会如何计数？",
+        "榜单是否明确标出排名对应的统计时间范围？"
+      ],
+      "source_tagline": "Live rankings of the tools AI agents use most",
+      "source_description": "Agent Hunt is a live leaderboard of the tools AI agents actually use. Every place is earned by real calls agents make through Monid."
+    },
+    {
+      "id": "1289925",
+      "name": "ShogunAI",
+      "name_zh": "ShogunAI",
+      "tagline_zh": "电脑上的个人通用人工智能助手（AGI）",
+      "description_zh": "一款能记住你的工作，并协助准备会议、搜索、写作和后续跟进的 AI 助手。Mac 版提供 7 天免费试用。",
+      "intro_zh": "给需要准备会议、查资料和写作的 Mac 用户，用记住的工作信息辅助处理这些任务。",
+      "url": "https://www.producthunt.com/products/shogunai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WGEUVK2HDK6FM6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3e47fa9a-cad9-472e-9e54-0112262675b3.jpeg?auto=format",
+      "votes_count": 153,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "工作场景明确，但记住哪些信息、能省多少准备工作尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何从历史工作中找对资料是具体问题，但实现方式未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "复用工作背景的思路可借鉴，实际收益取决于资料是否准确。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重工作背景能否被重复利用。最大疑问是“记住”到底覆盖什么；仅凭这份缓存简介，无法判断标语中的通用人工智能能力。",
+      "product_analysis": {
+        "target_problem": "适合经常围绕同一项目开会、检索和写作的人。相关背景散落时，重新整理资料可能很费事。",
+        "workflow": "在 Mac 上试用助手，让它协助会议准备、搜索、写作或跟进。介绍没说如何导入工作资料，也没展示具体操作。",
+        "ai_value": "AI 的作用是记住工作背景，再辅助后续任务。缓存简介没有说明这些任务能自动完成到哪一步。",
+        "differentiation": "可能省下反复补充背景的时间。最可能让人犹豫的是：是否愿意把工作资料交给它。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术；Mac 版不代表资料只在本机处理。",
+        "possible_approach": "如果自己做，可以先让用户选定工作资料，再按当前任务查找相关片段，交给模型整理答案，并附上来源。",
+        "tradeoffs": "最难的是找对当前任务需要的背景。若引用过期决定，会议准备和跟进内容都可能出错。",
+        "unknowns": "它会记住哪些资料，用户能否查看和删除？"
+      },
+      "transferable_insights": [
+        "做项目写作助手时，可以让同一项目的任务复用用户确认过的背景，减少重复输入。"
+      ],
+      "validation_questions": [
+        "更新一项项目决定后，再问相关问题，检查它是否仍引用旧版本。",
+        "删除一条已记住的信息后，再次提问，检查它是否还会使用。"
+      ],
+      "source_tagline": "Your personal AGI on your pc",
+      "source_description": "An AI assistant that remembers your work and helps with meeting prep, search, writing and follow-ups. Try ShogunAI for Mac free for 7 days."
+    },
+    {
+      "id": "1285865",
+      "name": "FLUX 3 Max",
+      "name_zh": "FLUX 3 Max",
+      "tagline_zh": "fal 的 FLUX 3 Max：号称约 12 秒生成 10 秒 AI 视频",
+      "description_zh": "缓存简介称，FLUX 3 Max 是 fal 与 Black Forest Labs 基于 FLUX 3 进一步训练的文字、图片生成视频模型；fal 宣称约 12 秒可生成 10 秒 720p 视频，比 FLUX 3 快约 10 倍，并在 Artificial Analysis 初步图生视频榜单并列第一。它提供在线试用和 API，缓存记载截至 11 月 7 日的优惠价为每秒视频 0.0425 美元，标价为 0.17 美元，但未注明年份，不能视为当前报价。",
+      "intro_zh": "给需要生成短视频的创作者和开发者用，把文字或图片变成视频，也提供在线试用和程序接入。",
+      "url": "https://www.producthunt.com/products/fal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/H7WZJVJO5LJCXF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6bbef86c-ed98-4f44-a379-15ec0574b38e.webp?auto=format",
+      "votes_count": 131,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途清楚，但速度宣传能否转化为可用成片仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "生成速度与画面连续性之间有具体问题可检查。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先在线验证再接入程序的做法可借用，但试用条件不明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是缩短反复生成的等待；最影响判断的是画面可用率，单次生成快不等于更快拿到满意结果。",
+      "product_analysis": {
+        "target_problem": "创作者试不同文字描述或参考图时，需要反复等待生成。若宣称的速度成立，可以缩短每轮尝试的等待。",
+        "workflow": "输入文字或图片，生成视频。可以在在线试用区尝试，也能通过 API（让程序调用生成服务的接口）接入自己的产品。",
+        "ai_value": "AI 负责把文字描述或静态图片生成动态画面，不只是拼接已有视频。",
+        "differentiation": "主打缩短生成时间。最可能让人不愿换过来的原因，是生成更快却仍要多次重做才能得到可用画面。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称它基于 FLUX 3 做了后训练，即在基础模型上继续训练，支持文字和图片生成视频。",
+        "possible_approach": "如果自己做，可以先接入现有视频生成服务，再做输入提交、等待状态和结果展示；仅凭简介无法复现模型训练。",
+        "tradeoffs": "最难的是让前后画面保持一致。若人物或物体中途变形，用户可能得重新生成，抵消速度收益。",
+        "unknowns": "约 12 秒是否包含排队等待，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做生成式工具时，可以提供在线试用，让用户先判断输出是否可用，再决定是否接入自己的程序。"
+      ],
+      "validation_questions": [
+        "提交一次 10 秒、720p 的生成任务，从提交到拿到视频实际需要多久？",
+        "用包含明确主体的参考图生成视频，主体在整段视频中是否保持一致？"
+      ],
+      "source_tagline": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds",
+      "source_description": "FLUX 3 Max is fal’s post-trained text-to-video and image-to-video model, built with Black Forest Labs on the FLUX 3 base. fal says it generates a 10-second 720p clip in about 12 seconds, around 10x faster than FLUX 3. It is tied for #1 on a preliminary Artificial Analysis image-to-video board. Pricing is $0.0425 per second of video through November 7 (list $0.17), with a playground and API."
     },
     {
       "id": "1286515",
       "name": "Dub Startup Program",
       "name_zh": "Dub Startup Program",
-      "tagline_zh": "Launch your partner-led growth program",
-      "description_zh": "Launch your partner program, track every referral, and reward the people helping you grow. Get 50% off your first year of Dub.",
-      "intro_zh": "",
+      "tagline_zh": "启动由合作伙伴带动增长的计划",
+      "description_zh": "启动合作伙伴计划，追踪推荐记录，并奖励帮助你拓展业务的人。介绍提供首年使用 Dub 五折的优惠。",
+      "intro_zh": "给想开展合作伙伴推广的创业团队用，追踪伙伴带来的推荐，并奖励帮助拓展业务的人。",
       "url": "https://www.producthunt.com/products/dub?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4BOWHNSPRGHOFP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/97560ae7-d1d8-418d-a77e-7211b3712311.jpeg?auto=format",
       "votes_count": 103,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "推荐追踪和奖励的用途清楚，但具体省下多少管理工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "推荐归属直接影响奖励，值得关注，但介绍未披露处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把推荐记录与奖励放在一起有借鉴意义，适用条件仍需确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把推荐与奖励对应起来，减少核对工作；最影响判断的是推荐归属规则是否清楚、可用。",
+      "product_analysis": {
+        "target_problem": "创业团队开展伙伴推广时，需要知道谁带来了推荐、该奖励谁。推荐来源不清，奖励就容易产生争议。",
+        "workflow": "团队启动伙伴计划，追踪推荐，再奖励帮助增长的人。介绍未说明具体配置和奖励发放步骤。",
+        "ai_value": "介绍没提 AI，主要靠推荐追踪和奖励功能来支持伙伴推广。",
+        "differentiation": "它把推荐追踪与奖励放进同一项服务，可能减少两边核对的工作。团队可能因不确定能否接入现有业务而暂缓使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 286a7f88-f27d-4dad-8e2b-882f7a4bb9d5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给伙伴分配可识别的推荐标记，再记录标记带来的注册或购买，按约定规则计算奖励。",
+        "tradeoffs": "最容易出错的是把推荐算给错误的伙伴，导致奖励发错，并让团队花时间处理争议。",
+        "unknowns": "同一用户被多个伙伴推荐时，最终算给谁？"
+      },
+      "transferable_insights": [
+        "做邀请奖励功能时，可以让每笔奖励对应一条推荐记录，方便运营人员核对奖励依据。"
+      ],
+      "validation_questions": [
+        "用两个伙伴先后推荐同一用户，检查最终归属是否符合团队规则。",
+        "完成一笔符合条件的推荐，检查能否从奖励追溯到对应记录。"
+      ],
+      "source_tagline": "Launch your partner-led growth program",
+      "source_description": "Launch your partner program, track every referral, and reward the people helping you grow. Get 50% off your first year of Dub."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

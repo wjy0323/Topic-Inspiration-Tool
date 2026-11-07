@@ -1,357 +1,510 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-13T16:34:02+08:00",
+  "generated_at": "2026-11-07T15:36:57+00:00",
   "generation_error": false,
   "products": [
-    {
-      "id": "1220287",
-      "name": "Grok Bot",
-      "name_zh": "Grok 机器人",
-      "tagline_zh": "能真正干活的 AI 队友",
-      "description_zh": "Grok Bot 是能真正干活的 AI 队友。它会登录你的各种工具，像你一样操作，然后把做好的工作交回来。你可以像跟同事聊天一样派任务，它会记住上下文、多任务并行，还会在云端电脑上学习你的工作习惯。比如让它通宵跑外联、从 Gmail 里整理报销、安排招聘面试、调广告或发布 bug 修复包，只有需要你拍板时才会回来找你。",
-      "intro_zh": "能替你登录各种办公软件、真把活儿干完的 AI 队友，从发邮件到排面试都能接。忙到飞起、又不想扩招的小团队和个体户会很需要。",
-      "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QE45KIR5XX72OH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3d40497c-8d0e-45c1-a28c-d3f198c06b33.png?auto=format",
-      "votes_count": 457,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的工具操作界面和自动化流程演示，可以录屏展示 AI 在云端操作各种软件、完成任务的前后对比，画面直观有冲击力，适合视频呈现。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念“AI 队友”略抽象，但具体例子（发邮件、整理报销、排面试）普通人一听就懂，不需要技术背景；不过实际配置需要连接各类工具账户，有一定使用门槛。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日排名第 2，457 票，热度非常高，说明关注度强，适合借势。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我雇了个 AI 同事，它半夜帮我把活全干完了？",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示 Bot 登录 Gmail、Notion、广告后台的过程；设计一个简单真实任务（如“把今天带‘报销’的邮件整理成表格”）；展示聊天派活界面和后台操作过程，用加速镜头呈现 AI 在云端电脑上自动点击输入；最后展示成果和审批节点，对比人工耗时。突出“不用亲自开一堆网页”“像给同事发消息一样简单”。节奏：前 10 秒抛痛点，中间 1 分钟演示，最后 10 秒总结。",
-        "target_audience": "每天被琐事淹没的创业者、小团队管理者，以及想用 AI 提效的运营、HR、财务人员。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "热度高、画面演示直观，普通用户也容易理解“AI 同事”概念，很适合拍成体验视频。"
-    },
-    {
-      "id": "1220190",
-      "name": "LaraCopilot",
-      "name_zh": "Lara智能编程副驾",
-      "tagline_zh": "能独立做出真实应用的 AI 工程师",
-      "description_zh": "你可以把它当成一个能直接做出可用应用的 AI 工程师。用大白话描述你的想法，它就把前端、后端、数据库、登录和接口全打包做好，还能一键部署。代码归你，不绑平台，想导到 GitHub 或自己的服务器都行。",
-      "intro_zh": "跟 AI 说句话就能生成完整应用，前端后端数据库登录全包，还能一键上线。不想写代码却想快速做出产品的人会很需要。",
-      "url": "https://www.producthunt.com/products/laracopilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7NRE4MBHHDCUWM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f4246fa3-08c7-412b-84da-8237afd0ab00.jpeg?auto=format",
-      "votes_count": 144,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有完整生成过程、界面操作和部署结果，适合录屏展示前后对比，视觉冲击力强。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "用自然语言描述想法就能生成应用，概念直观；但部署、代码导出等环节对零基础用户略有门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH 第7名、144票，热度不错，但未进前三。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "没写一行代码！让AI帮我做了个能上线的全栈App，前端后端数据库全包了",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从输入中文需求到生成界面、后端、数据库和登录功能的全过程，剪辑生成过程和部署环节，最后打开线上应用演示实际运行；突出“不用写代码”和“完整可用”两个卖点，节奏快，可加惊叹字幕。",
-        "target_audience": "想快速验证产品想法的创业者、独立开发者、不会编程但想做小工具的人"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作演示感强、普通人也能看懂，适合做一期‘AI 替我写 App’的爆款视频。"
-    },
-    {
-      "id": "1216886",
-      "name": "Swipe",
-      "name_zh": "Swipe",
-      "tagline_zh": "右滑，遇见你的下一个客户",
-      "description_zh": "告诉它你的目标客户是谁，它就用滑卡片的方式给你推荐真实公司。右滑保留值得发邮件的，左滑跳过，最后导出 CSV。不用注册、不用买积分，也不会去抓你的邮箱联系人。",
-      "intro_zh": "输入你想卖给谁，它像刷交友软件一样推来真实公司卡片，右滑留下，导出就能用。销售和找客户的人省得翻网页。",
-      "url": "https://www.producthunt.com/products/swipe-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GQEYPG4ZF2HMVQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8c0a7e65-70a7-4c7d-a0eb-7eba8053afd0.png?auto=format",
-      "votes_count": 142,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "界面像 Tinder 滑卡片，屏幕录制就能展示从输入到导出的完整流程，滑动操作有节奏感，适合演示。但整体是表格和文字卡片，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念就是'刷公司'，没有技术门槛，销售和普通人一看就懂，注册都不用。不过非销售人群可能只是看个热闹。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "Product Hunt 当日第 8 名，142 票，热度不错但不算爆款。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "像刷交友软件一样找客户，这工具让销售上瘾",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示输入目标客户描述（如'SaaS HR 软件'），然后一屏一屏滑卡片，强调右滑/左滑的即时反馈，最后导出 CSV 展示结果。节奏轻快，配上'叮'或滑动音效，突出像玩游戏一样选客户的爽感。",
-        "target_audience": "B2B 销售、市场拓展、创业公司创始人、自由职业者"
-      },
-      "category": "金融商业",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作界面像刷交友软件一样直观，普通人也能看懂，销售找客户场景痛点明确，适合拍成短视频演示。"
-    },
-    {
-      "id": "1217742",
-      "name": "RightCard",
-      "name_zh": "RightCard（智能选卡助手）",
-      "tagline_zh": "不登录银行账户的诚实信用卡选卡助手",
-      "description_zh": "RightCard 是一款免费的 Safari 扩展，能根据你在哪家店消费，推荐该刷哪张信用卡返现最高，还会自动帮你激活 Amex、Chase 等银行经常忘记领的优惠。它会帮你记住 5% 轮换类别，并在年费或积分到期前提醒你。无需登录银行、不追踪数据，手机离线也能算出推荐。",
-      "intro_zh": "这插件能告诉你结账时刷哪张卡返现最多，还自动激活你老忘的银行优惠。手里有多张美国信用卡的剁手党、海淘族必备。",
-      "url": "https://www.producthunt.com/products/rightcard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QBAV2SQH3UB2NZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/de90fd57-a7cc-4893-b9ea-256b82bee584.jpeg?auto=format",
-      "votes_count": 115,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的界面操作和前后返现对比，适合录屏演示，但画面整体偏工具类，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "只要用过信用卡就能看懂，不涉及技术概念；但需有美国信用卡背景，国内用户可能稍陌生。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 第10名，115票，属于当日榜单前列，有一定话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别再乱刷卡了！免费插件自动帮你选返现最高的信用卡",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段在购物网站下单前 RightCard 弹出推荐卡片界面的屏幕录制；再展示安装 Safari 扩展的过程；对比用错卡和用对卡的返现金额差异；强调无需登录银行、离线可用，镜头给到手机设置和扩展图标；节奏轻快，配上字幕和箭头标注。",
-        "target_audience": "持有两张以上美国信用卡，常网购或线下消费，想轻松最大化返现的上班族、留学生和海淘用户。"
-      },
-      "category": "金融商业",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面直观演示省钱效果，概念简单易懂，热度不错，适合做成实用省钱技巧视频。"
-    },
     {
       "id": "1217382",
       "name": "Dograh",
       "name_zh": "Dograh",
-      "tagline_zh": "开源版 VAPI 替代品，打造自己的语音代理",
-      "description_zh": "Dograh 是个完全开源的语音代理平台，自己部署不用租用别人的代理。拖拽式流程构建器能接30多种模型或本地模型，支持电话、转人工、质量监控，一条命令就能跑起来。还能连接 Claude Code 来定制语音机器人。",
-      "intro_zh": "一个能自己搭建语音机器人的开源平台，拖拖拽拽就能让AI接电话、做客服。想省钱、不想被大厂语音服务绑定的开发者和中小企业会喜欢。",
+      "tagline_zh": "开源的 VAPI 替代方案，用来搭建自己的语音代理",
+      "description_zh": "Dograh 是一个可自行部署的开源语音代理平台，提供拖拽式流程构建器，可连接三十多种模型或本地模型。简介还提到电话接入、转人工、质量监控，以及一条命令启动和连接 Claude Code 定制语音机器人。",
+      "intro_zh": "给想自行搭建电话语音机器人的团队，用拖拽流程组织对话，并连接模型、电话和人工服务。",
       "url": "https://www.producthunt.com/products/dograh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3e786432-ae63-4c7f-8096-185d60bbfd2b.jpeg?auto=format",
       "votes_count": 521,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有可视化流程构建器、通话演示、监控面板等丰富UI画面，可以录屏展示从部署到构建语音代理的全过程，前后对比效果明显。"
+          "reason": "搭建与管理电话机器人的用途明确，但上线后的维护负担不清楚。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及自托管、模型密钥、MCP等概念，普通用户理解门槛较高，需要一定技术背景才能上手。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt日榜第1名，521票，热度极高，话题性强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "开源版VAPI！免费自己搭AI语音助手，电话客服不用租了？",
-        "angle": "教程演示",
-        "shooting_tips": "先展示一个AI接电话的效果片段吸引注意，然后录屏演示一键部署命令，打开可视化流程构建器拖拽节点创建一个简单语音应答流程，再模拟电话呼入展示AI对话，最后展示监控面板。突出免费开源、无需租用、支持本地模型。节奏紧凑，步骤清晰。",
-        "target_audience": "开发者、技术创业者、中小企业主、对AI语音客服感兴趣的人"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面有演示空间但技术门槛偏高，适合面向开发者观众，热度足够但小白理解有难度。"
-    },
-    {
-      "id": "1218357",
-      "name": "Lettertrace",
-      "name_zh": "Lettertrace AI提及追踪",
-      "tagline_zh": "用你自己的API密钥，免费追踪品牌在AI里的曝光度",
-      "description_zh": "Lettertrace 能统计 Claude、ChatGPT 和 Gemini 提到你公司的频率。它完全免费、开源，但需要自带 API 密钥，开发者优先，适合有技术背景的人使用。",
-      "intro_zh": "能统计 Claude、ChatGPT、Gemini 提到你公司的次数，免费开源但要自带密钥。适合想搞清品牌在 AI 回答里存在感的开发者和技术营销人。",
-      "url": "https://www.producthunt.com/products/lettertrace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PERZM7L6ETGORE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ebbabf40-d179-47e3-b0d3-25f5384ba709.png?auto=format",
-      "votes_count": 376,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要是数据面板和配置页面，画面偏静态，缺乏视觉冲击和前后对比，更适合文字或代码演示，不太适合大众短视频。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 API 密钥、开源、AI 提及追踪等概念，普通用户有使用门槛，需要一定技术背景才能上手。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 排名第3，获得376票，热度很高，在开发者圈子里有话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "你的品牌被ChatGPT提到了吗？这个免费开源工具3分钟帮你查清",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示配置 API 密钥、输入公司名称、查看提及统计结果，前5秒抛出问题“你的品牌在AI眼里存在感如何”，突出免费、开源、自带密钥的极客玩法，节奏轻快。",
-        "target_audience": "开发者、技术营销人员、SEO/品牌从业者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度和话题性不错，但视觉表现和上手门槛偏开发者向，适合做垂直技术内容而非大众科普。"
-    },
-    {
-      "id": "1192171",
-      "name": "Assembly Studio",
-      "name_zh": "装配工作室",
-      "tagline_zh": "能帮你提升收入的 AI 应用搭建工具",
-      "description_zh": "Assembly Studio 是一款专为专业服务公司打造的 AI 应用生成器。你只需描述想要的功能，比如客户引导助手、数据看板、社区中心，几分钟就能生成能上生产环境的 App。内置 20 多个模板，能连接各种第三方工具，还能克隆那些按人头收费的昂贵软件，免费版永久可用。",
-      "intro_zh": "这是个 AI 应用生成器，说需求就能几分钟做出能用的业务工具。开公司、做专业服务的人能用它代替贵软件，省钱又省事。",
-      "url": "https://www.producthunt.com/products/assembly-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BHXHHSAE44JNNA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f6580cc8-1c1d-48e4-bfa7-d747fc37061d.png?auto=format",
-      "votes_count": 247,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "产品有丰富的界面操作和生成前后对比，适合录屏展示；可以演示从一句话生成仪表盘的过程，视觉直观，但部分价值需要一定业务背景才能感受。"
-        },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "普通用户能理解“描述生成应用”的概念，不需要写代码，但面向专业服务公司，部分功能对小白有一定认知门槛。"
+          "reason": "模型对话与转人工的衔接值得关注，但缺少具体实现和效果材料。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "排名第4，票数247，处于 ProductHunt 当日前列，有一定热度，但未进入前3。"
+          "reason": "把对话步骤做成可编辑流程，可借用于有固定处理步骤的服务场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "不用写代码，一句话生成公司级App？这AI工具把我整不会了",
-        "angle": "教程演示",
-        "shooting_tips": "开头先展示传统定制软件的高成本，再用一分钟快速生成一个仪表盘或客户引导页面，突出 AI 自动生成过程和 20+ 模板的丰富度。录制屏幕操作，配大字强调时间对比，结尾展示可连接的第三方工具和免费计划。",
-        "target_audience": "想降低软件成本的小企业主、专业服务从业者、数字创业者"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把流程编辑和电话服务放在一起；最影响判断的是“一条命令启动”距离可用的电话机器人还有多远。",
+      "product_analysis": {
+        "target_problem": "需要自建电话机器人的团队，要把模型、对话步骤和人工服务接起来。Dograh 把这些功能放进同一平台，减少分散搭建的工作。",
+        "workflow": "自行部署平台，在拖拽式构建器里组织流程并连接模型，再用于电话对话。平台还提供转人工和质量监控。",
+        "ai_value": "模型负责语音机器人的对话部分；简介没有说明听懂语音、生成回答和播报分别由什么组件完成。",
+        "differentiation": "吸引力是能自行部署并定制流程。最可能让团队犹豫的是：自建后可能要自己承担运行维护。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品演示效果好、有一定热度，但目标用户偏专业服务群体，对普通观众理解门槛略高，适合做成垂直内容。"
+      "technical_analysis": {
+        "disclosed_facts": "简介称平台完全开源，支持连接三十多种模型或本地模型，也可连接 Claude Code 做定制。",
+        "possible_approach": "如果自己做，可以先把电话语音转成文字，再让模型按流程回答并转成语音；需要人工时，把通话和已有记录一起交过去。",
+        "tradeoffs": "最容易出错的是转人工时没有带上前文。用户可能得重新解释一遍问题。",
+        "unknowns": "转人工时，接听者能否看到此前的对话记录？"
+      },
+      "transferable_insights": [
+        "做预约或客服工具时，可以把固定处理步骤画成可编辑流程，让业务人员调整分支，并在需要时交给人工。"
+      ],
+      "validation_questions": [
+        "模拟一次转人工，检查接听者能否拿到此前的对话记录。",
+        "按提供的部署说明启动一次，检查距离实际接通电话还缺哪些配置。"
+      ],
+      "source_tagline": "开源版 VAPI 替代品，打造自己的语音代理",
+      "source_description": "Dograh 是个完全开源的语音代理平台，自己部署不用租用别人的代理。拖拽式流程构建器能接30多种模型或本地模型，支持电话、转人工、质量监控，一条命令就能跑起来。还能连接 Claude Code 来定制语音机器人。"
     },
     {
       "id": "1220928",
       "name": "Unsloth Desktop",
-      "name_zh": "Unsloth 桌面版",
+      "name_zh": "Unsloth Desktop",
       "tagline_zh": "在本地桌面上运行和训练 AI 模型",
-      "description_zh": "Unsloth Desktop 是一个开源桌面应用，让你能在自己的电脑上运行和训练各种 AI 模型，包括大语言模型、图像/视频生成和音频模型。它还能用一条命令把 Claude Code、Codex 这类编程助手连接到你的本地 GPU 上，并提供无代码的微调工作流，不用写代码也能训练模型。",
-      "intro_zh": "在电脑上本地跑大模型、生成图片视频的开源工具箱，还能训练模型。不想把数据传云端、想免费折腾本地 AI 的玩家和开发者会很喜欢。",
+      "description_zh": "Unsloth Desktop 是开源桌面应用，可在自己的电脑上运行和训练大语言模型、图像与视频生成模型及音频模型。简介称，它能用一条命令将 Claude Code、Codex 等编程助手连接到本地 GPU，并提供不用写代码的模型微调流程。",
+      "intro_zh": "给想在自己电脑上使用或训练 AI 模型的人，用桌面界面操作，也能连接编程助手。",
       "url": "https://www.producthunt.com/products/unsloth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/V5SG67QSMWW4I2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/eca600ff-cf8f-4a7b-ab7f-3da948d306b3.png?auto=format",
       "votes_count": 225,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有直观的图形界面，可以展示本地运行模型、训练和生成图片视频的完整过程，前后对比明显，适合录制操作教程或效果展示，但训练过程技术性较强，画面吸引力中等。"
+          "reason": "本地运行与无代码训练的用途清楚，但硬件门槛未说明。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "需要了解 AI 模型、本地运行、GPU 等基本概念，无代码工作流降低了一些门槛，但完全小白理解起来仍有一定难度。"
+          "reason": "本地显存限制是具体问题，资料未解释如何处理。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "ProductHunt 排名第5，票数225，属于当日热门产品，但未进前三。"
+          "reason": "把训练操作做成可视化流程，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "不用云服务器！电脑本地就能跑AI大模型？开源神器Unsloth Desktop实测",
-        "angle": "教程演示",
-        "shooting_tips": "先展示软件界面和安装过程，快速演示加载模型、生成文本或图片，突出本地运行无需联网、数据私密、免费开源、无代码微调等卖点。节奏先快后慢，加入与云端服务的延迟和成本对比。",
-        "target_audience": "对 AI 感兴趣、想本地折腾模型的开发者、极客、关注数据隐私的用户和 AI 内容创作者。"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把训练操作放进桌面界面；最影响判断的是，自己的硬件究竟能支持哪些任务。",
+      "product_analysis": {
+        "target_problem": "想在本机试模型或训练模型的开发者、研究者会需要它。它试图降低手写训练代码的门槛，但没有说明能省掉多少环境配置。",
+        "workflow": "用户在桌面应用中运行模型，或进入无代码微调流程，用自己的数据调整模型。连接编程助手另有单条命令入口，具体操作未披露。",
+        "ai_value": "AI 是被运行和训练的对象。这里的便利主要来自桌面操作和训练流程封装，没有证据表明 AI 会替用户准备数据。",
+        "differentiation": "无代码流程可能减少编写训练脚本的工作。最可能劝退用户的是本机硬件无法运行想用的模型。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面直观、功能展示性强，适合做成教程演示类视频，但对普通用户有一定技术门槛。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到开源桌面应用、本地 GPU 连接和无代码微调，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先检查电脑资源，再让用户选择模型、导入数据并启动训练，把进度和失败原因显示出来。",
+        "tradeoffs": "最容易出错的是低估显存，也就是 GPU 存放计算数据的空间；训练时空间不足，任务可能中断。",
+        "unknowns": "哪些模型能在什么硬件配置下运行或训练，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做专业计算工具时，可以把脚本参数变成表单，并在启动前检查资源，避免用户等到运行失败才发现条件不够。"
+      ],
+      "validation_questions": [
+        "在自己的电脑上，目标模型能否完成一次小规模训练？",
+        "按提供的命令连接 Codex 后，能否实际调用本地模型完成一个小任务？"
+      ],
+      "source_tagline": "在本地桌面上运行和训练 AI 模型",
+      "source_description": "Unsloth Desktop 是一个开源桌面应用，让你能在自己的电脑上运行和训练各种 AI 模型，包括大语言模型、图像/视频生成和音频模型。它还能用一条命令把 Claude Code、Codex 这类编程助手连接到你的本地 GPU 上，并提供无代码的微调工作流，不用写代码也能训练模型。"
     },
     {
       "id": "1220840",
       "name": "BearDrive",
-      "name_zh": "熊盘",
-      "tagline_zh": "为你的团队 AI 智能体打造的开源共享文件夹",
-      "description_zh": "BearDrive 可以让团队里的 AI 智能体（比如 Claude Code、Codex、Gemini CLI）在本地生成的文件自动同步到一个共享文件夹里。每个文件都自带版本记录和来源追踪，还能生成只有你们团队能打开的安全链接。不用像 Notion 或 Google Drive 那样手动搬运，一个智能体刚写完的报告，同事的智能体几秒后就能在本地路径直接读到。",
-      "intro_zh": "给团队里的 AI 智能体配了个共享文件夹，谁生成的、改到哪版都清清楚楚。用 Claude Code、Codex 这类工具协作的开发者会很喜欢。",
+      "name_zh": "BearDrive",
+      "tagline_zh": "为团队 AI 智能体打造的开源共享文件夹",
+      "description_zh": "BearDrive 将团队 AI 智能体在本地生成的文件自动同步到共享文件夹，并提供版本记录、来源追踪和团队专用链接。简介称，同事的智能体几秒后就能从本地路径读取文件，无需手动搬运；这一速度未经核验。",
+      "intro_zh": "给用 AI 智能体协作的团队，把本地生成的报告等文件自动共享，让同事的智能体直接读取。",
       "url": "https://www.producthunt.com/products/beardrive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/M5MZKVAGCTAZLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a6dcda96-fb00-4db8-a639-cab79250cdff.png?auto=format",
       "votes_count": 173,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有本地文件系统、版本历史和团队链接等界面可展示，能演示前后同步效果；但整体偏开发者工具，没有消费级应用的视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 AI agent、CLI、本地路径、自托管等概念，普通用户理解成本高，需要一定技术背景。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日第6名、173票，在开发者工具中热度不错，但非大众话题。"
+          "reason": "共享生成文件的场景明确，但同步可靠性仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多端修改同一文件有具体难点，介绍未说明处理方法。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让自动化工具沿用本地路径读取共享结果，做法具体。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "给 AI 打工人装了个共享网盘，团队协作瞬间全自动了",
-        "angle": "教程演示",
-        "shooting_tips": "先展示痛点：多个 AI agent 生成的文件散落在本地、版本混乱；再打开终端跑 Claude Code 生成一份报告，用 BearDrive 界面展示文件自动同步、版本归属、团队私密链接；最后用同事视角打开本地路径直接读取。节奏紧凑，突出“自动同步”和“来源清晰”两个卖点。",
-        "target_audience": "使用 Claude Code、Codex、Gemini CLI 等 AI 编程/自动化工具的开发者、技术团队和 AI 初创公司。"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是文件交接后可直接继续处理；并发修改会不会丢内容，最影响它能否用于日常协作。",
+      "product_analysis": {
+        "target_problem": "团队用多个 AI 智能体分工时，生成的文件需要交给其他成员继续处理。以前若靠手动搬运，现在可以自动同步。",
+        "workflow": "智能体在本地生成文件，BearDrive 将其同步到共享文件夹。同事的智能体从本地路径读取，也可通过团队专用链接分享。",
+        "ai_value": "AI 负责生成和读取文件；介绍未说 BearDrive 自身用 AI 做处理。它主要省掉文件交接。",
+        "differentiation": "接收方可以沿用本地文件读取方式。最可能让团队犹豫的是敏感文件能否放心同步。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称其开源，支持自动同步、版本记录、来源追踪和团队专用链接，未说明具体同步技术。",
+        "possible_approach": "如果自己做，可以先监听指定文件夹的变化，再上传文件并通知其他成员下载，同时保存版本和来源。",
+        "tradeoffs": "最难的是多人同时修改同一文件。若直接覆盖，智能体可能读到缺失他人修改的版本。",
+        "unknowns": "介绍没说同时修改时如何保留和选择版本。"
+      },
+      "transferable_insights": [
+        "做 AI 协作工具时，可以把共享结果放到本地路径，减少接收方改写文件读取方式的工作。"
+      ],
+      "validation_questions": [
+        "让两个智能体同时修改同一文件，检查两份修改是否都能找回。",
+        "用团队外账号打开共享链接，检查是否被拒绝访问。"
+      ],
+      "source_tagline": "为你的团队 AI 智能体打造的开源共享文件夹",
+      "source_description": "BearDrive 可以让团队里的 AI 智能体（比如 Claude Code、Codex、Gemini CLI）在本地生成的文件自动同步到一个共享文件夹里。每个文件都自带版本记录和来源追踪，还能生成只有你们团队能打开的安全链接。不用像 Notion 或 Google Drive 那样手动搬运，一个智能体刚写完的报告，同事的智能体几秒后就能在本地路径直接读到。"
+    },
+    {
+      "id": "1220287",
+      "name": "Grok Bot",
+      "name_zh": "Grok Bot",
+      "tagline_zh": "能代你执行任务的 AI 队友",
+      "description_zh": "Grok Bot 可登录用户的工具，接受聊天指令并操作工具完成工作。简介称它能记住上下文、并行处理任务，在云端电脑上学习工作习惯，并在需要用户决定时请求确认。",
+      "intro_zh": "给需要处理邮件、招聘安排等事务的人用，通过聊天派任务，让 AI 操作工具并交回结果。",
+      "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QE45KIR5XX72OH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3d40497c-8d0e-45c1-a28c-d3f198c06b33.png?auto=format",
+      "votes_count": 457,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "场景明确，但任务完成质量和人工介入量未说明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "代用户操作工具时，何时停下请求确认是具体难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按决策点请求确认的做法可借鉴，但适用边界待验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是能交回执行结果；最影响判断的是它能否可靠识别必须由人批准的动作。",
+      "product_analysis": {
+        "target_problem": "适合要在邮件、日历等工具中处理事务的人。麻烦在于交代目标后，仍有一串具体操作要完成。",
+        "workflow": "用户通过聊天派任务，它登录相关工具执行，再交回结果。简介称遇到需要拍板的事会回来询问。",
+        "ai_value": "AI 把聊天指令变成工具操作，并保留任务上下文；具体如何学习工作习惯，资料没解释。",
+        "differentiation": "它尝试把建议推进到实际操作，减少用户亲手执行的步骤。让软件登录工作账号，可能是用户最不愿迈过的一步。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到云端电脑、上下文记忆和多任务并行，未说明具体模型或操作方式。",
+        "possible_approach": "如果自己做，可以先限定一种邮件整理任务，让 AI 拆出步骤，再执行操作；涉及对外发送时先请用户确认。",
+        "tradeoffs": "最难的是判断何时必须停下。若把需要批准的动作直接执行，可能发错邮件或改错广告。",
+        "unknowns": "用户能否自行设置哪些动作必须确认？"
+      },
+      "transferable_insights": [
+        "做招聘助手时，可以让软件处理资料整理和时间安排，在发出邀请前请求确认，避免每一步都打断用户。"
+      ],
+      "validation_questions": [
+        "给一项包含对外发送的任务，检查它是否在发送前请求确认。",
+        "中途补充一条限制，检查最终结果是否遵守新要求。"
+      ],
+      "source_tagline": "能真正干活的 AI 队友",
+      "source_description": "Grok Bot 是能真正干活的 AI 队友。它会登录你的各种工具，像你一样操作，然后把做好的工作交回来。你可以像跟同事聊天一样派任务，它会记住上下文、多任务并行，还会在云端电脑上学习你的工作习惯。比如让它通宵跑外联、从 Gmail 里整理报销、安排招聘面试、调广告或发布 bug 修复包，只有需要你拍板时才会回来找你。"
+    },
+    {
+      "id": "1218357",
+      "name": "Lettertrace",
+      "name_zh": "Lettertrace",
+      "tagline_zh": "自带 API 密钥，免费追踪品牌在 AI 回答中的提及情况",
+      "description_zh": "Lettertrace 统计 Claude、ChatGPT 和 Gemini 提到你公司的频率。简介称它免费、开源，需要自带 API 密钥，主要面向有技术背景的用户。",
+      "intro_zh": "给有技术背景的品牌和产品团队用，统计多个 AI 提到公司的频率，观察品牌是否出现在回答里。",
+      "url": "https://www.producthunt.com/products/lettertrace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PERZM7L6ETGORE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ebbabf40-d179-47e3-b0d3-25f5384ba709.png?auto=format",
+      "votes_count": 376,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途清楚，但提及频率能否代表实际曝光还不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "怎样选取问题会直接影响统计结果是否可信。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "自带密钥的做法可借鉴，但配置和付费负担需确认。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "集中统计多个 AI 的品牌提及有实际用途，但不能直接把提及率当成真实用户看到品牌的概率。",
+      "product_analysis": {
+        "target_problem": "品牌团队可能想知道，公司会不会出现在 AI 回答里。难点是单次问答只能看到一个结果，很难据此判断提及频率。",
+        "workflow": "用户需要准备自己的 API 密钥（调用模型服务的凭证），由工具统计三个 AI 提到公司的频率。简介没交代问题如何设置。",
+        "ai_value": "AI 是被观察的回答来源。介绍没说另用 AI 做提及识别或结果分析。",
+        "differentiation": "把多个 AI 的品牌提及情况集中统计。自带密钥是使用门槛；工具免费也不等于模型调用免费。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到开源、自带 API 密钥，以及支持统计 Claude、ChatGPT 和 Gemini 的品牌提及频率。",
+        "possible_approach": "如果自己做，可以先固定一组目标用户常问的问题，再重复请求各模型，识别公司名并计算提及比例。",
+        "tradeoffs": "最容易出错的是选问题：若问题本身暗示品牌，统计就可能偏高，让团队误判曝光情况。",
+        "unknowns": "这些统计是否仅来自 API 回答，能否代表消费者实际使用的聊天产品？"
+      },
+      "transferable_insights": [
+        "做面向开发者的多模型工具时，可以让用户自带密钥；同时把工具费用和模型调用费用分开说明。"
+      ],
+      "validation_questions": [
+        "用一组不含品牌名的相关问题重复测试，检查提及率是否大幅波动。",
+        "用同一组问题对照 API 与聊天产品的回答，检查品牌提及是否明显不同。"
+      ],
+      "source_tagline": "用你自己的API密钥，免费追踪品牌在AI里的曝光度",
+      "source_description": "Lettertrace 能统计 Claude、ChatGPT 和 Gemini 提到你公司的频率。它完全免费、开源，但需要自带 API 密钥，开发者优先，适合有技术背景的人使用。"
+    },
+    {
+      "id": "1192171",
+      "name": "Assembly Studio",
+      "name_zh": "Assembly Studio",
+      "tagline_zh": "面向专业服务公司的 AI 应用搭建工具，主打帮助增加收入",
+      "description_zh": "Assembly Studio 面向专业服务公司，可按文字描述生成客户引导助手、数据看板、社区中心等应用，并提供 20 多个模板及第三方工具连接功能。缓存简介宣称几分钟即可生成可用于生产环境的应用、可仿制按人头收费的软件，并提供永久免费版；这些说法尚未核验。",
+      "intro_zh": "给专业服务公司用的应用搭建工具，把文字需求变成客户引导助手、数据看板等应用。",
+      "url": "https://www.producthunt.com/products/assembly-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BHXHHSAE44JNNA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f6580cc8-1c1d-48e4-bfa7-d747fc37061d.png?auto=format",
+      "votes_count": 247,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用对象和用途清楚，但上线质量及节省多少工作尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "生成应用后如何隔离不同客户的数据，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用场景模板缩小生成范围可以借鉴，但缺少实际效果材料。"
+        }
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品功能有演示空间但技术门槛偏高，适合面向开发者群体的教学或行业解读视频。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是用具体业务场景缩短搭建起点；最影响判断的是，所谓可用于生产环境是否包含可靠的客户数据隔离。",
+      "product_analysis": {
+        "target_problem": "专业服务公司可能需要给客户提供引导、看板或交流空间。麻烦在于，把业务需求变成可用应用，还要处理数据连接和访问权限。",
+        "workflow": "用户描述想要的功能，由工具生成应用。介绍还列出模板和第三方工具连接能力，但没交代配置、检查和发布的具体步骤。",
+        "ai_value": "AI 用来把文字需求转成应用。介绍没有说明它生成哪些部分，也没说明后续如何修改。",
+        "differentiation": "它试图减少从需求到应用的搭建工作。最可能让人犹豫的是：生成后能否放心交给客户使用，仍需验证。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 应用生成、20 多个模板及第三方工具连接，未披露具体技术实现。",
+        "possible_approach": "如果自己做，可以先限定客户引导这一种场景，再让 AI 将需求填入预设页面和流程，最后连接测试数据，检查通过后再发布。",
+        "tradeoffs": "最容易出错的是客户数据的访问权限。页面能打开不代表权限正确，配错可能让一个客户看到另一个客户的资料。",
+        "unknowns": "生成的应用能否按客户分别限制数据访问？"
+      },
+      "transferable_insights": [
+        "做面向某类公司的应用生成器时，可以先提供几个常用业务模板，让用户围绕已有流程描述修改，减少从空白需求开始的歧义。"
+      ],
+      "validation_questions": [
+        "用两个客户账号登录，检查能否看到对方的数据。",
+        "选一项实际业务需求，检查生成应用能否完整走完该流程。"
+      ],
+      "source_tagline": "能帮你提升收入的 AI 应用搭建工具",
+      "source_description": "Assembly Studio 是一款专为专业服务公司打造的 AI 应用生成器。你只需描述想要的功能，比如客户引导助手、数据看板、社区中心，几分钟就能生成能上生产环境的 App。内置 20 多个模板，能连接各种第三方工具，还能克隆那些按人头收费的昂贵软件，免费版永久可用。"
+    },
+    {
+      "id": "1220190",
+      "name": "LaraCopilot",
+      "name_zh": "LaraCopilot",
+      "tagline_zh": "能独立构建应用的 AI 工程师",
+      "description_zh": "用日常语言描述想法，LaraCopilot 可生成前端、后端、数据库、登录和接口，并支持一键部署。简介称代码归用户所有，可导出到 GitHub 或自己的服务器。",
+      "intro_zh": "给想把想法做成应用的产品人员和开发者，用自然语言描述需求，生成应用代码并部署。",
+      "url": "https://www.producthunt.com/products/laracopilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7NRE4MBHHDCUWM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f4246fa3-08c7-412b-84da-8237afd0ab00.jpeg?auto=format",
+      "votes_count": 144,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "需求到部署的目标清楚，但生成结果能否满足实际业务尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "生成页面之外，还要让登录、数据和权限配合工作。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把代码导出作为交付选项，可借用于其他代码生成工具。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把登录和数据保存纳入生成范围，不只交付页面；但代码可导出是否意味着应用可独立运行，仍需确认。",
+      "product_analysis": {
+        "target_problem": "适合想做业务原型、但不熟悉开发的产品人员。页面之外，数据保存和账号登录也要有人完成。",
+        "workflow": "用大白话描述需求，让它生成应用，再使用一键部署。需要自行维护时，可导出代码。",
+        "ai_value": "AI 把文字需求转成应用代码，覆盖界面和服务端功能；是否还需人工修补，简介没交代。",
+        "differentiation": "它试图减少分别搭建各部分的工作。最可能让人犹豫的是：生成后遇到问题，自己能否接手修改。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到生成前后端、数据库、登录和接口（供软件交换数据的连接方式），没说具体模型或技术框架。",
+        "possible_approach": "如果自己做，可以先把需求拆成页面、数据和访问规则，再生成代码，检查功能能否连起来，最后部署。",
+        "tradeoffs": "最容易出错的是访问规则：能登录不等于权限正确，用户可能读到别人的数据。",
+        "unknowns": "导出后还需要哪些平台服务，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做代码生成工具时，可以把代码导出与在线部署并列提供，让需要自行维护的团队有明确出口。"
+      ],
+      "validation_questions": [
+        "建两个账号，检查其中一个能否读取另一个的私有数据。",
+        "把代码导到自己的服务器，检查能否脱离原平台运行。"
+      ],
+      "source_tagline": "能独立做出真实应用的 AI 工程师",
+      "source_description": "你可以把它当成一个能直接做出可用应用的 AI 工程师。用大白话描述你的想法，它就把前端、后端、数据库、登录和接口全打包做好，还能一键部署。代码归你，不绑平台，想导到 GitHub 或自己的服务器都行。"
+    },
+    {
+      "id": "1216886",
+      "name": "Swipe",
+      "name_zh": "Swipe",
+      "tagline_zh": "右滑，寻找你的下一个客户",
+      "description_zh": "告诉 Swipe 你的目标客户是谁，它会用卡片推荐公司，右滑保留、左滑跳过，最后导出 CSV 表格文件。简介称无需注册或购买积分，也不会抓取邮箱联系人。",
+      "intro_zh": "给需要寻找潜在客户的销售和创业者用，按目标客户描述推荐公司，滑动筛选后导出名单。",
+      "url": "https://www.producthunt.com/products/swipe-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GQEYPG4ZF2HMVQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8c0a7e65-70a7-4c7d-a0eb-7eba8053afd0.png?auto=format",
+      "votes_count": 142,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "筛选和导出用途清楚，但推荐是否符合目标客户仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把客户描述匹配到公司是具体问题，但资料未说明如何实现。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "逐项保留或跳过、最后统一导出的做法可借用于名单筛选。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重无需注册就能筛选并带走名单。但公司名单不等于可联系的客户，导出信息是否足够支持下一步，会影响实际用途。",
+      "product_analysis": {
+        "target_problem": "销售和创业者寻找潜在客户时，需要判断哪些公司值得联系。Swipe 把这项判断放进逐张筛选的卡片里。",
+        "workflow": "描述目标客户，查看推荐的公司卡片。右滑保留、左滑跳过，最后导出 CSV 表格文件。",
+        "ai_value": "介绍没提 AI，主要靠公司推荐、滑动筛选和导出来改善体验，不能据此认定用了模型。",
+        "differentiation": "把推荐和名单整理放在一起，且无需注册。最可能让人不愿换用的原因，是推荐公司不够符合筛选条件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持 CSV 导出；介绍没说具体用什么技术推荐公司。",
+        "possible_approach": "如果自己做，可以先把客户描述拆成行业、地区等条件，再从公司资料中匹配候选，记录筛选结果并生成表格。",
+        "tradeoffs": "最难的是把模糊描述匹配到合适公司。匹配错了，用户就得连续跳过无关卡片。",
+        "unknowns": "推荐所依据的公司资料来自哪里、多久更新一次？"
+      },
+      "transferable_insights": [
+        "做候选名单工具时，可把每项操作收成保留和跳过，最后统一导出；适合逐项判断，不适合多项并排比较。"
+      ],
+      "validation_questions": [
+        "输入一组明确的目标客户条件，前二十张卡片有多少符合？",
+        "导出的表格是否包含足够的公司识别信息，便于后续查找联系渠道？"
+      ],
+      "source_tagline": "右滑，遇见你的下一个客户",
+      "source_description": "告诉它你的目标客户是谁，它就用滑卡片的方式给你推荐真实公司。右滑保留值得发邮件的，左滑跳过，最后导出 CSV。不用注册、不用买积分，也不会去抓你的邮箱联系人。"
     },
     {
       "id": "1220687",
       "name": "Click",
       "name_zh": "Click",
-      "tagline_zh": "给 ChatGPT 和 Claude 接上实时情报雷达",
-      "description_zh": "Click 是一个给 ChatGPT 和 Claude 用的 MCP 连接器，能接入专业社交平台、电商市场、金融数据等各种实时信息源，补上内置搜索漏掉的内容。安装只要一分钟，之后你在聊天窗口里就能直接查这些外部数据，做研究、查资料更方便。",
-      "intro_zh": "给 ChatGPT 和 Claude 加了个实时情报外挂，能在对话里查社媒、市场和金融信息。做行业研究、竞品分析的人会觉得很省事。",
+      "tagline_zh": "让 ChatGPT 和 Claude 查询外部实时信息",
+      "description_zh": "Click 是供 ChatGPT 和 Claude 使用的 MCP 连接器，可接入专业社交平台、电商市场和金融数据等信息源。简介称它能补充内置搜索遗漏的内容，并可在一分钟内安装，之后在聊天窗口查询外部数据。",
+      "intro_zh": "给用 ChatGPT 或 Claude 做研究的人，在聊天窗口查询社交平台、电商和金融等外部数据。",
       "url": "https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LPBGWEQU47MYOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fb011c6b-b23e-4306-a5a8-381e3b95f749.png?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 3,
-          "reason": "可以录屏演示安装和查询过程，但核心是配置 MCP，画面偏技术配置，视觉冲击力一般。"
+          "reason": "查询场景清楚，但覆盖哪些来源、能查到什么仍不明确。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "普通人需要先理解 MCP 是什么，安装步骤虽然简单，但概念有一定门槛。"
+          "reason": "把不同来源接入聊天有具体问题可想，但缺少实现细节。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "PH 排名第 9，票数 131，属于前 10 内但热度不算爆。"
+          "reason": "把外部查询放进现有工作窗口，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "ChatGPT 搜索太弱？1分钟接入全网实时社媒+金融数据！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示在 ChatGPT 中安装 Click MCP 的完整过程，然后输入一个研究问题，对比内置搜索和 Click 返回的结果差异。前 10 秒先展示最终实时数据效果，再手把手教安装，最后用实际案例展示专业数据源优势。",
-        "target_audience": "需要做行业研究、竞品分析、市场调研，但嫌 ChatGPT/Claude 内置搜索不够全的职场人、自媒体和初级分析师。"
-      },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "可以拍成安装演示和效果对比，但需要先帮观众补一点 MCP 基础，有一定理解门槛。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是在原聊天中增加可查来源；最影响判断的是具体覆盖范围，历史简介没有给出名单。",
+      "product_analysis": {
+        "target_problem": "用聊天助手做行业或市场研究的人，可能遇到内置搜索找不到所需资料。Click 提供额外的信息来源。",
+        "workflow": "安装连接器后，在 ChatGPT 或 Claude 的聊天窗口查询接入的外部数据；简介没有说明具体配置步骤。",
+        "ai_value": "AI 助手成为查询外部数据的入口。介绍没说它是否还负责筛选、核对或汇总结果。",
+        "differentiation": "把查询留在已有聊天中，可能减少切换页面。若常用来源不在支持范围内，用户可能不会换过来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "使用 MCP（让 AI 助手连接外部工具和数据的协议），连接 ChatGPT、Claude 与多类实时信息源。",
+        "possible_approach": "如果自己做，可以先接通一个数据源，再把查询做成助手能调用的工具，返回结果时附上来源和时间。",
+        "tradeoffs": "最容易出错的是把旧数据当成实时结果，用户可能据此误判价格或市场变化。",
+        "unknowns": "所谓实时数据，实际多久更新一次？"
+      },
+      "transferable_insights": [
+        "做研究助手时，可以先接入一个搜索覆盖不足的专业来源，让用户在原聊天中完成查询。"
+      ],
+      "validation_questions": [
+        "选一个日常必查的来源，检查能否返回所需字段。",
+        "选一条刚更新的数据，核对查询结果是否同步变化。"
+      ],
+      "source_tagline": "给 ChatGPT 和 Claude 接上实时情报雷达",
+      "source_description": "Click 是一个给 ChatGPT 和 Claude 用的 MCP 连接器，能接入专业社交平台、电商市场、金融数据等各种实时信息源，补上内置搜索漏掉的内容。安装只要一分钟，之后你在聊天窗口里就能直接查这些外部数据，做研究、查资料更方便。"
+    },
+    {
+      "id": "1217742",
+      "name": "RightCard",
+      "name_zh": "RightCard",
+      "tagline_zh": "无需登录银行账户的信用卡选卡助手",
+      "description_zh": "RightCard 是免费的 Safari 扩展，可按消费商家推荐返现最高的信用卡，并称能自动激活 Amex、Chase 等银行的优惠。它还记录 5% 轮换返现类别，提醒年费和积分到期；简介称无需登录银行、不追踪数据，且支持手机离线推荐。",
+      "intro_zh": "给持有多张信用卡的人用，在消费时推荐用哪张卡，并提醒容易忘记的优惠和到期事项。",
+      "url": "https://www.producthunt.com/products/rightcard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QBAV2SQH3UB2NZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/de90fd57-a7cc-4893-b9ea-256b82bee584.jpeg?auto=format",
+      "votes_count": 115,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "选卡和优惠遗忘的问题清楚，但推荐准确性与激活条件尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "离线推荐如何保持优惠规则有效，是具体且影响结果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "在消费当下给出选择建议，可借用于其他规则明确的比较工具。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重消费当下就能得到选卡建议；但这份历史简介未重新核验，尤其要先确认无需登录与自动激活如何同时成立。",
+      "product_analysis": {
+        "target_problem": "持有多张返现卡的人，消费时需要比较商家、返现类别和当期优惠。规则会变，也容易忘记激活。",
+        "workflow": "消费时，扩展按商家给出用卡推荐。简介还提到自动激活优惠和到期提醒，但没说明如何录入持卡信息。",
+        "ai_value": "介绍没提 AI，主要靠匹配商家与信用卡优惠规则来改善选卡体验。",
+        "differentiation": "把临时比较变成直接看建议，可能省去查规则的时间。最可能让人不愿换用的原因，是无法确认推荐是否算全了条件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 Safari 扩展和手机离线推荐，并称无需登录银行、不追踪数据。",
+        "possible_approach": "如果自己做，可以先整理每张卡的返现条件和有效期，再按商家匹配并比较收益；把规则存到设备上，供离线计算。",
+        "tradeoffs": "最容易出错的是使用过期规则。离线仍能给出答案，但用户可能因此刷错卡、少拿返现。",
+        "unknowns": "不登录银行账户时，自动激活优惠需要什么授权或操作？"
+      },
+      "transferable_insights": [
+        "做套餐或支付方式比较工具时，可在用户准备交易时给出建议，并展示命中的规则与有效期，让结果便于核对。"
+      ],
+      "validation_questions": [
+        "用一笔返现条件明确的消费，核对推荐是否与当期规则一致。",
+        "在未登录银行账户的情况下，检查自动激活优惠实际要求哪些操作。"
+      ],
+      "source_tagline": "不登录银行账户的诚实信用卡选卡助手",
+      "source_description": "RightCard 是一款免费的 Safari 扩展，能根据你在哪家店消费，推荐该刷哪张信用卡返现最高，还会自动帮你激活 Amex、Chase 等银行经常忘记领的优惠。它会帮你记住 5% 轮换类别，并在年费或积分到期前提醒你。无需登录银行、不追踪数据，手机离线也能算出推荐。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

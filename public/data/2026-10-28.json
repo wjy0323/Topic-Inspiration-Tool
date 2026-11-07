@@ -1,367 +1,510 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-29T21:59:28+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:18:08+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1295250",
       "name": "Dedica",
       "name_zh": "Dedica",
-      "tagline_zh": "Check if AI agents can use your website",
-      "description_zh": "Dedica tests your website the way AI agents use it, then gives your team a fix for every place they fail. Muse, Instinct, GrokBot and other agents now browse, compare and sign up on people's behalf. Dedica runs 125 checks (for free) to see if they can use your site, and gives you a fix for every issue to hand to your coding agent.",
-      "intro_zh": "",
+      "tagline_zh": "检查 AI 代理能否使用你的网站",
+      "description_zh": "Dedica 按 AI 代理使用网站的方式进行测试，并为失败之处提供修复建议。介绍称它提供 125 项免费检查，发现的问题可连同修复建议交给编程代理处理。",
+      "intro_zh": "给网站产品和开发团队用，检查代人浏览、比较和注册的 AI 代理能否顺利使用网站。",
       "url": "https://www.producthunt.com/products/dedica?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SMFJH4J7K55FL4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/17001014-4632-4629-bfd5-c838f9da73f8.jpeg?auto=format",
       "votes_count": 299,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "检查对象和交付结果清楚，但能覆盖哪些真实任务还待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "检查结果能否代表代理实际完成任务，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把问题与可交给开发处理的修复建议一起输出，容易借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把检查结果直接变成修复任务；最大疑问是这 125 项检查能否反映真实代理的操作能力。",
+      "product_analysis": {
+        "target_problem": "网站团队可能需要确认：页面对人可用，是否也能让代人操作的 AI 代理完成浏览、比较和注册。",
+        "workflow": "让 Dedica 检查网站，查看失败项和对应修复建议，再交给编程代理处理。介绍未说明具体提交方式。",
+        "ai_value": "AI 代理是被检查的使用者。介绍没说检测和生成修复建议是否也使用 AI。",
+        "differentiation": "它把发现问题和给出修复建议放在一起，可能省去另行整理修改要求的工作；若检查不能代表真实代理，团队可能不愿依赖结果。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 41e9996c-0287-4a2d-9490-f274533e402f)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称有 125 项检查，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选定注册等任务，让代理在测试网站上执行，再记录卡住的位置并生成修改建议。",
+        "tradeoffs": "最难的是让检查代表真实任务。若只检查页面特征，可能显示通过，代理却仍无法完成注册。",
+        "unknowns": "这些检查会实际操作网站，还是只分析页面？"
+      },
+      "transferable_insights": [
+        "做检测工具时，可让每条失败记录附上修改位置和建议，方便开发接手。"
+      ],
+      "validation_questions": [
+        "在已知会让代理卡住的页面上测试，它能否检出该问题？",
+        "按一条建议修复后，同一代理能否完成原先失败的任务？"
+      ],
+      "source_tagline": "Check if AI agents can use your website",
+      "source_description": "Dedica tests your website the way AI agents use it, then gives your team a fix for every place they fail. Muse, Instinct, GrokBot and other agents now browse, compare and sign up on people's behalf. Dedica runs 125 checks (for free) to see if they can use your site, and gives you a fix for every issue to hand to your coding agent."
     },
     {
       "id": "1287824",
       "name": "bytemail",
       "name_zh": "bytemail",
-      "tagline_zh": "Native Mac email: every inbox, in your notch, no trackers",
-      "description_zh": "bytemail is a native Mac email app built in Swift. Gmail, iCloud, Outlook, Yahoo, Fastmail and any IMAP account in one fast window. New mail and sign-in codes grow out of your MacBook's notch, Undo Send flies a paper plane through it, and desktop widgets show what's unread. Tracking pixels are blocked, look-alike senders flagged, and your mail never touches our servers. Snooze, rules, one-click unsubscribe, and an MCP server for Claude and other AI apps. iPhone beta included. 7-day free trial.",
-      "intro_zh": "",
+      "tagline_zh": "原生 Mac 邮件应用：聚合多个邮箱，在刘海处提醒，拦截追踪",
+      "description_zh": "bytemail 用 Swift 开发，将 Gmail、iCloud、Outlook、Yahoo、Fastmail 和其他 IMAP 邮箱集中到一个窗口，支持刘海处的新邮件及验证码提醒、撤销发送动画和桌面未读小组件。介绍还列出追踪像素拦截、仿冒发件人提醒、邮件不经过其服务器、稍后提醒、规则、一键退订及连接 Claude 等 AI 应用的 MCP 服务，并提供 iPhone 测试版和七天免费试用。",
+      "intro_zh": "给同时管理多个邮箱的 Mac 用户，把邮件集中处理，并在刘海处显示新邮件和验证码。",
       "url": "https://www.producthunt.com/products/bytemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KKQJJZQQWWTXZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5297ffd3-a887-4b86-bcfa-242d8d96c2c6.jpeg?auto=format",
       "votes_count": 291,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多邮箱处理和验证码提醒场景清楚，但实际省事程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "邮件隐私与外部 AI 访问权限之间有具体问题可讨论。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把短信息放到轻量提醒中，适用于无需打开主窗口的任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把验证码直接放到提醒里；但邮件不经过产品服务器，并不能说明连接外部 AI 后的数据边界，需先确认授权范围。",
+      "product_analysis": {
+        "target_problem": "管理工作和私人邮箱的人，需要查看不同账户的来信。若以前分开查看，现在可以集中到一个窗口处理。",
+        "workflow": "接入支持的邮箱后，在统一窗口查看邮件；新邮件和验证码可在刘海处显示，也可用规则或稍后提醒整理邮件。",
+        "ai_value": "提供 MCP 服务，让 Claude 等 AI 应用连接邮件工具；MCP 是供 AI 调用外部工具的连接方式。介绍没说 AI 能执行哪些邮件操作。",
+        "differentiation": "验证码提醒可能减少打开邮件窗口的次数。最可能阻碍迁移的是：现有邮件处理习惯能否保留，介绍没有说明。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 32422083-6bc3-4525-a799-abe21aed31db)"
+      "technical_analysis": {
+        "disclosed_facts": "使用 Swift 开发，支持 IMAP 邮箱连接协议及 MCP；介绍称邮件不经过其服务器。",
+        "possible_approach": "如果自己做，可以先接入邮箱并在本机整理邮件，再提取提醒内容；向 AI 开放邮件时，单独设置可访问的范围。",
+        "tradeoffs": "最容易出错的是 AI 访问权限划得太宽，可能把无关的私人邮件也交给外部应用。",
+        "unknowns": "连接外部 AI 后，用户能否限制它读取哪些邮件？"
+      },
+      "transferable_insights": [
+        "做消息或审批工具时，可以把验证码、待确认状态等短信息直接放进提醒，减少为看一条信息打开主窗口。"
+      ],
+      "validation_questions": [
+        "连接 AI 应用后，能否只授权它读取指定邮件？",
+        "用含已知追踪像素的测试邮件，检查打开后是否仍发出追踪请求？"
+      ],
+      "source_tagline": "Native Mac email: every inbox, in your notch, no trackers",
+      "source_description": "bytemail is a native Mac email app built in Swift. Gmail, iCloud, Outlook, Yahoo, Fastmail and any IMAP account in one fast window. New mail and sign-in codes grow out of your MacBook's notch, Undo Send flies a paper plane through it, and desktop widgets show what's unread. Tracking pixels are blocked, look-alike senders flagged, and your mail never touches our servers. Snooze, rules, one-click unsubscribe, and an MCP server for Claude and other AI apps. iPhone beta included. 7-day free trial."
     },
     {
       "id": "1281746",
       "name": "BotGauge",
       "name_zh": "BotGauge",
-      "tagline_zh": "The trust layer for your agents ",
-      "description_zh": "AI agents don't just generate answers anymore. They take actions, call tools, and access real data. BotGauge helps engineering teams find where agents break before users do. Run adaptive red-team attacks and evals, catch security and behavioral failures, and replay every issue with full traces. Turn failures into regression tests, continuously retest as your agents evolve, and monitor their behavior in production. One reliability layer from development to deployment.",
-      "intro_zh": "",
+      "tagline_zh": "为你的智能体提供可信保障",
+      "description_zh": "AI 智能体开始执行操作、调用工具和访问真实数据，BotGauge 帮助工程团队在用户遇到问题前发现故障。它支持自适应攻击测试和评估、带完整执行记录的问题回放、将失败转成回归测试，以及持续复测和生产环境监控。",
+      "intro_zh": "给开发 AI 智能体的工程团队用，测试它会不会越权或做错事，并记录问题供修复后复测。",
       "url": "https://www.producthunt.com/products/botgauge-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QSDCJZKJUIFLGU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e8615952-8abe-443e-be1c-501721d2cb85.jpeg?auto=format",
       "votes_count": 250,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确覆盖发现故障到持续复测，但实际检出效果未知。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "执行操作后的故障如何回放，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把真实失败保留为固定测试，可用于其他自动化产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让一次失败成为以后持续检查的案例；最大疑问是外部状态变化后，回放是否仍能帮助定位原因。",
+      "product_analysis": {
+        "target_problem": "工程团队让智能体访问数据、执行操作后，需要检查它是否越权或做错事。只看最终回答，可能漏掉中间的错误操作。",
+        "workflow": "运行攻击测试和评估，发现问题后查看执行记录并回放。再把失败转成回归测试，也就是修改后重复检查旧问题，并在上线后监控行为。",
+        "ai_value": "被测对象是 AI 智能体。介绍提到自适应攻击测试，即根据情况调整攻击，但没说明测试本身是否由 AI 生成。",
+        "differentiation": "把发现的问题直接留作后续测试，减少重新整理案例的工作。最可能让团队犹豫的是：接入执行记录可能需要改动现有系统。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c3571f5a-92af-4ad2-9580-4f027487b083)"
+      "technical_analysis": {
+        "disclosed_facts": "支持攻击测试、行为评估、完整执行记录回放、失败转测试和生产监控，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先记录输入、工具调用和返回结果，再把失败案例及预期行为保存下来，每次更新后重跑。",
+        "tradeoffs": "最难的是回放时还原外部数据状态。数据变了，同一案例可能无法复现，团队也就难以确认修复是否有效。",
+        "unknowns": "回放会重新执行真实操作，还是只使用保存的结果？"
+      },
+      "transferable_insights": [
+        "做自动审批或客服操作产品时，可以把线上失败保存成测试案例，版本更新前重跑，检查旧问题是否再次出现。"
+      ],
+      "validation_questions": [
+        "用一个已知越权案例测试，能否准确标出出错的操作？",
+        "修改外部数据后回放旧问题，能否仍还原当时的执行过程？"
+      ],
+      "source_tagline": "The trust layer for your agents ",
+      "source_description": "AI agents don't just generate answers anymore. They take actions, call tools, and access real data. BotGauge helps engineering teams find where agents break before users do. Run adaptive red-team attacks and evals, catch security and behavioral failures, and replay every issue with full traces. Turn failures into regression tests, continuously retest as your agents evolve, and monitor their behavior in production. One reliability layer from development to deployment."
     },
     {
       "id": "1290434",
       "name": "Fraud Blocker",
       "name_zh": "Fraud Blocker",
-      "tagline_zh": "AI ad fraud protection for Google and Meta ads",
-      "description_zh": "Fraud Blocker is an AI-powered platform that blocks invalid ad traffic from bots, click farms, and AI agents, ensuring enterprises, marketers, and agencies pay only for real clicks and genuine leads. It uses AI agents trained on billions of clicks and IPs to identify sophisticated invalid traffic that traditional filters miss, then explains why each click or IP was blocked. This helps protect budgets, improve conversion quality, and reduce wasted ad spend.",
-      "intro_zh": "",
+      "tagline_zh": "为 Google 和 Meta 广告提供 AI 广告欺诈防护",
+      "description_zh": "Fraud Blocker 面向企业、营销人员和代理机构，识别并拦截机器人、点击农场和 AI 代理产生的无效广告流量。介绍称，其 AI 代理经过数十亿次点击及 IP 地址数据训练，会解释每次拦截的原因，以帮助减少广告预算浪费、改善转化质量。",
+      "intro_zh": "给投放 Google 和 Meta 广告的营销团队用，识别无效点击，并解释拦截原因。",
       "url": "https://www.producthunt.com/products/fraud-blocker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KLAMYKYCPTEVYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/71323e0d-147a-42b8-a85a-62906afb4bdc.png?auto=format",
       "votes_count": 230,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "预算浪费问题明确，但缺少实际拦截效果和误拦数据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "识别可疑点击并解释原因，涉及误判与用户信任的具体取舍。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "为自动拦截附上逐条理由，可借用于其他风险审核产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重逐条解释拦截原因，方便团队复核；最大的疑问是，拦截能否影响计费，不能把过滤流量直接等同于节省预算。",
+      "product_analysis": {
+        "target_problem": "营销团队需要分清哪些点击来自潜在客户，哪些只是消耗预算。机器人和点击农场会让点击量难以反映真实需求。",
+        "workflow": "产品识别广告流量中的无效点击或 IP 地址，执行拦截，再解释原因。介绍没交代用户如何接入广告账户。",
+        "ai_value": "AI 用来判断流量是否无效。介绍称它能发现传统过滤遗漏的流量，但未提供对照结果。",
+        "differentiation": "把识别、拦截和原因说明放在一起，可能减少人工排查。团队最可能犹豫的是误拦真实客户。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c9bf2a03-4c48-48a6-ab62-51b259820326)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称使用经过数十亿次点击及 IP 地址数据训练的 AI 代理，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先收集点击记录及后续转化，再用已确认的无效样本训练判断程序；先只标记可疑流量，核对后再开启拦截。",
+        "tradeoffs": "最难的是区分异常访问和真实客户。若把多人共用的 IP 地址当成作弊来源，可能连正常访客一起拦掉。",
+        "unknowns": "拦截发生在广告计费前，还是点击之后？这直接影响能否减少已发生的费用。"
+      },
+      "transferable_insights": [
+        "做自动风控或内容审核时，可以给每次拦截附上对应证据，让用户能检查具体判断。"
+      ],
+      "validation_questions": [
+        "抽查被拦截的点击，是否包含已确认的真实客户？",
+        "对照广告账单，拦截是否确实减少了计费点击？"
+      ],
+      "source_tagline": "AI ad fraud protection for Google and Meta ads",
+      "source_description": "Fraud Blocker is an AI-powered platform that blocks invalid ad traffic from bots, click farms, and AI agents, ensuring enterprises, marketers, and agencies pay only for real clicks and genuine leads. It uses AI agents trained on billions of clicks and IPs to identify sophisticated invalid traffic that traditional filters miss, then explains why each click or IP was blocked. This helps protect budgets, improve conversion quality, and reduce wasted ad spend."
     },
     {
       "id": "1200683",
       "name": "Tulu",
       "name_zh": "Tulu",
-      "tagline_zh": "Autonomous marketing operations & analytics for SMBs",
-      "description_zh": "Say ta-ta to manual work, and get the right answers without messing with UTMs, spreadsheets or...anything else. See where marketing spend produces revenue, and get alerts straight to WhatsApp when something actually needs your attention. Integrate offline spend, share views to align the entire team, and finally stop guessing with your budget. Get to the insights that matter, so you can decide exactly where to put your next euro.",
-      "intro_zh": "",
+      "tagline_zh": "面向中小企业的自动化营销运营与分析",
+      "description_zh": "Tulu 宣称能减少手动处理追踪参数和表格的工作，帮助查看营销支出带来的收入，并通过 WhatsApp 发送需要关注的提醒。它还支持纳入线下支出、共享视图，为团队讨论预算分配提供参考。",
+      "intro_zh": "给中小企业营销负责人用，集中查看营销支出与收入，纳入线下费用，并向团队共享分析视图。",
       "url": "https://www.producthunt.com/products/tulu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6OKRX6JA5BJRJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d624423f-6617-4157-89a2-6bb270d3af94.jpeg?auto=format",
       "votes_count": 181,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "预算判断和异常提醒的用途清楚，但收入如何对应支出尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "支出与收入如何对应是具体难题，介绍未交代处理方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把需要关注的变化送到常用通讯工具，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把预算讨论落到支出与收入的对应关系上；但历史简介没有解释对应规则，不能据此认定它能准确指导投放。",
+      "product_analysis": {
+        "target_problem": "中小企业营销负责人需要判断钱花在哪、是否带来收入。若原先靠表格汇总费用和收入，整理数据会占去决策时间。",
+        "workflow": "把线下支出纳入分析，查看营销支出对应的收入，再共享视图讨论预算。需要关注时，可在 WhatsApp 收到提醒；资料未说明数据如何接入。",
+        "ai_value": "介绍没提 AI，主要靠集中分析、共享视图和自动提醒来改善体验。",
+        "differentiation": "它试图减少手动整理数据的工作。最可能让人不愿迁移的原因，是无法确认收入归属是否可信。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 58a594a7-49ec-4ed5-a945-b2cd0a565764)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到通过 WhatsApp 发送提醒，没说具体用什么分析技术。",
+        "possible_approach": "如果自己做，可以先汇总费用和订单，再按明确规则把收入对应到营销活动，最后生成视图并发送提醒。",
+        "tradeoffs": "最难的是收入归属：同一客户可能接触多个渠道，若把同一笔收入重复算给不同活动，预算就可能投错地方。",
+        "unknowns": "不手动处理追踪参数时，靠什么确定收入来自哪项营销活动？"
+      },
+      "transferable_insights": [
+        "做经营看板时，可以把需要处理的变化推送到团队常用通讯工具，减少反复打开报表检查的动作。"
+      ],
+      "validation_questions": [
+        "选一笔已知来源的订单，检查它是否被计入正确的营销活动。",
+        "制造一次符合提醒条件的变化，检查 WhatsApp 是否收到通知。"
+      ],
+      "source_tagline": "Autonomous marketing operations & analytics for SMBs",
+      "source_description": "Say ta-ta to manual work, and get the right answers without messing with UTMs, spreadsheets or...anything else. See where marketing spend produces revenue, and get alerts straight to WhatsApp when something actually needs your attention. Integrate offline spend, share views to align the entire team, and finally stop guessing with your budget. Get to the insights that matter, so you can decide exactly where to put your next euro."
     },
     {
       "id": "1282332",
       "name": "Trigger.dev: Webhooks for your AI agents",
       "name_zh": "Trigger.dev: Webhooks for your AI agents",
-      "tagline_zh": "Run AI agents with Slack, Supabase and 50+ other services",
-      "description_zh": "Trigger.dev Webhooks let you build AI agents on top of the services your customers already use, like Slack, Supabase and Stripe. A GitHub pull request can start a code review agent, a new Sentry issue can start an agent that writes the fix, and a Stripe refund can wait for a human to approve it in Slack.",
-      "intro_zh": "",
+      "tagline_zh": "用 Slack、Supabase 等 50 多种服务触发 AI 智能体运行",
+      "description_zh": "Trigger.dev Webhooks 让开发者基于客户已在使用的 Slack、Supabase、Stripe 等服务构建 AI 智能体。GitHub 拉取请求可以触发代码审查，新 Sentry 问题可以触发编写修复的智能体，Stripe 退款则可以等待人在 Slack 中批准。",
+      "intro_zh": "给开发 AI 智能体的团队用，把客户现有服务里的事件接成任务，并在退款等操作前等待人工批准。",
       "url": "https://www.producthunt.com/products/trigger-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3EFM4NPQQEMV32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/93544332-f66f-4b84-9d21-04faddcf055e.jpeg?auto=format",
       "votes_count": 145,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "事件触发和人工审批的场景清楚，但接入工作量尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "等待审批后如何可靠恢复执行，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从现有服务触发任务、在关键操作前请求批准，都可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是任务能在关键操作前等人批准；但等待后能否可靠恢复，是判断它能否用于真实业务的关键。",
+      "product_analysis": {
+        "target_problem": "做 AI 智能体的开发者，需要让任务随客户业务事件启动，也需要让退款等操作等人批准。",
+        "workflow": "将服务事件接到智能体：GitHub 拉取请求触发审查，Sentry 新问题触发修复任务；退款可等待 Slack 中的人工批准。",
+        "ai_value": "AI 负责审查代码或编写修复。事件触发和等待批准负责安排任务，不能据此判断修复质量。",
+        "differentiation": "它把事件触发与人工批准放进同一流程。最可能影响接入意愿的是现有业务需要改多少，简介没有说明。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: de419198-fc29-418e-8d4d-5bda3e226742)"
-    },
-    {
-      "id": "1294903",
-      "name": "LFM3 by Liquid AI",
-      "name_zh": "LFM3 by Liquid AI",
-      "tagline_zh": "Six 2B-class models for phones, laptops and robots",
-      "description_zh": "LFM3 is Liquid AI’s third generation of Liquid Foundation Models, with open weights and a shared backbone across text, vision, audio, omni and decision models. The first release is six 2B-class models, including a 1.7B text model that fits in about 1 GB at 4-bit and has a 256K context. Liquid says they run on phones, laptops and edge devices and can be fine-tuned on one GPU. Weights are on Hugging Face.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/lfm2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YIAE2QFH3EFXKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cbb965a0-cb94-44a6-8e63-59ad97cb77da.jpeg?auto=format",
-      "votes_count": 134,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Webhook，即服务发生事件时向另一程序发送通知；未说明模型或执行架构。",
+        "possible_approach": "如果自己做，可以先接收事件并启动任务，再保存待审批任务，收到批准后继续执行。",
+        "tradeoffs": "最难的是审批后的恢复执行。如果同一批准被重复处理，退款可能重复执行。",
+        "unknowns": "等待人工批准期间，任务如何保存并恢复？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 5345511f-faa0-4177-9c8b-2202e8ab061e)"
+      "transferable_insights": [
+        "做业务助手时，可从用户已有服务的事件启动任务；涉及资金操作时，再到现有协作工具中请求批准。"
+      ],
+      "validation_questions": [
+        "同一条批准通知重复送达时，是否只执行一次退款？",
+        "接入一个 GitHub 审查任务，需要开发者写哪些连接代码？"
+      ],
+      "source_tagline": "Run AI agents with Slack, Supabase and 50+ other services",
+      "source_description": "Trigger.dev Webhooks let you build AI agents on top of the services your customers already use, like Slack, Supabase and Stripe. A GitHub pull request can start a code review agent, a new Sentry issue can start an agent that writes the fix, and a Stripe refund can wait for a human to approve it in Slack."
     },
     {
       "id": "1269164",
       "name": "App Store Screenshots",
       "name_zh": "App Store Screenshots",
-      "tagline_zh": "Your coding agent designs your app store screenshots",
-      "description_zh": "A free, open-source skill for Claude Code, Codex, and Cursor. Give your agent your app captures and a short brief, and it builds a local screenshot editor in your project. Choose from 18 styles, compare looks in Style Lab, edit the copy, and export every size for iPhone, iPad, Mac, and Android, in multiple languages. No screenshot subscription. It runs locally; your usual agent costs apply. Install: npx skills add ParthJadhav/app-store-screenshots",
-      "intro_zh": "",
+      "tagline_zh": "让编程助手设计应用商店截图",
+      "description_zh": "这是供 Claude Code、Codex 和 Cursor 使用的免费开源技能：提供应用截图和简短要求后，助手会在项目中创建本地截图编辑器。它提供 18 种风格、Style Lab 外观比较、文案编辑，以及面向 iPhone、iPad、Mac 和 Android 的多语言、多尺寸导出；无需截图工具订阅，但仍有编程助手的使用费用。",
+      "intro_zh": "给准备上架应用的开发者用，把应用截图和简短要求交给编程助手，制作多语言商店展示图。",
       "url": "https://www.producthunt.com/products/app-store-screenshots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MMLYDUYT2RHFD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/00d6ab96-4c61-4ba5-98e6-5e90a88860a0.png?auto=format",
       "votes_count": 115,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "上架截图的制作需求明确，但导出质量尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多尺寸、多语言排版有具体难点，实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让助手生成可继续编辑的工具，适合借用于重复出图任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是生成后还能在本地继续修改；最影响判断的是多语言、多尺寸导出是否仍需大量手工修版。",
+      "product_analysis": {
+        "target_problem": "开发者准备上架应用时，需要给不同设备和语言制作展示图。麻烦在于同一套内容要适应不同画幅和文字长度。",
+        "workflow": "运行 npx skills add ParthJadhav/app-store-screenshots 安装技能。交给助手应用截图和简短要求，生成本地编辑器，再选风格、比较外观、改文案并导出。",
+        "ai_value": "编程助手负责根据素材和要求搭建编辑器。介绍没有说明选风格、翻译或排版是否由 AI 自动完成。",
+        "differentiation": "它把制作工具放进项目，并提供多尺寸导出。对不用编程助手的人，先配置助手可能比直接使用现成编辑器更麻烦。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 18cbeda4-c0d4-4a72-a20e-8d98daf0153d)"
+      "technical_analysis": {
+        "disclosed_facts": "它是支持 Claude Code、Codex 和 Cursor 的开源技能，生成的编辑器在本地运行。",
+        "possible_approach": "如果自己做，可以先把截图、文案和风格做成可替换模板，再按目标尺寸生成画布，提供预览和图片导出。",
+        "tradeoffs": "最容易出错的是换语言后的排版：文字变长可能溢出，导致部分导出图仍需逐张修正。",
+        "unknowns": "介绍未说明导出尺寸是否持续跟随各商店的上架要求更新。"
+      },
+      "transferable_insights": [
+        "做海报或商品图工具时，可以让助手先生成可编辑模板，再让用户调文案和布局，避免每次修改都重新生成整张图。"
+      ],
+      "validation_questions": [
+        "用较长的德语文案导出一套图，检查文字是否溢出。",
+        "对照当前商店要求，检查导出文件的像素尺寸是否合规。"
+      ],
+      "source_tagline": "Your coding agent designs your app store screenshots",
+      "source_description": "A free, open-source skill for Claude Code, Codex, and Cursor. Give your agent your app captures and a short brief, and it builds a local screenshot editor in your project. Choose from 18 styles, compare looks in Style Lab, edit the copy, and export every size for iPhone, iPad, Mac, and Android, in multiple languages. No screenshot subscription. It runs locally; your usual agent costs apply. Install: npx skills add ParthJadhav/app-store-screenshots"
+    },
+    {
+      "id": "1294903",
+      "name": "LFM3 by Liquid AI",
+      "name_zh": "LFM3 by Liquid AI",
+      "tagline_zh": "面向手机、笔记本和机器人的六款约 20 亿参数模型",
+      "description_zh": "LFM3 是 Liquid AI 的第三代基础模型系列，开放模型权重，文本、视觉、音频、综合模态和决策模型共用基础结构。首批包含六款约 20 亿参数模型，其中 17 亿参数文本模型支持 256K 上下文；介绍称其以 4 位精度存储时约占 1 GB，可在手机、笔记本和边缘设备运行，并能用一张显卡微调，权重已放在 Hugging Face。",
+      "intro_zh": "给想把 AI 放进手机、笔记本或机器人的开发者用，提供可下载、可针对任务训练的模型。",
+      "url": "https://www.producthunt.com/products/lfm2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YIAE2QFH3EFXKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cbb965a0-cb94-44a6-8e63-59ad97cb77da.jpeg?auto=format",
+      "votes_count": 134,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "设备端运行的用途清楚，但实际速度和任务质量没有材料支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "模型存储较小与长文本运行占用之间的差别，是具体的工程问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先在目标设备验证小模型的做法可借用，但适用任务仍需测试。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是能下载模型并在自己的设备上调整；最影响判断的是它在目标任务上能否达到可用质量。",
+      "product_analysis": {
+        "target_problem": "做设备端 AI 的开发者，需要把模型放进有限的内存和算力里。难点是模型能装下，还得能完成任务。",
+        "workflow": "从 Hugging Face 获取权重，按任务选择模型并部署到目标设备。介绍称也可用一张显卡微调，即用自己的任务数据继续训练。",
+        "ai_value": "模型覆盖文本、视觉、音频等任务，但简介没说明各款模型具体能完成哪些操作。",
+        "differentiation": "开放权重让开发者可以自己部署和调整模型。最可能挡住采用的是目标设备上的回答质量不够。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称各类模型共用基础结构；文本款有 17 亿参数，支持 256K 上下文，即一次可处理的文本长度上限。",
+        "possible_approach": "如果自己做，可以先选文本款，在目标设备跑一组真实任务，再决定是否补充训练；不要一开始接入全部模型。",
+        "tradeoffs": "最容易误判的是把约 1 GB 的权重大小当成全部内存占用。处理长文本还可能需要更多内存，导致卡顿或运行失败。",
+        "unknowns": "权重的许可证是否允许预期的商业使用，简介没有回答。"
+      },
+      "transferable_insights": [
+        "做设备端助手时，可以先用真实输入测试小模型，只在质量不足时补充训练或换模型。"
+      ],
+      "validation_questions": [
+        "在目标设备逐步加长输入，检查内存是否超限。",
+        "核对许可证是否允许把模型随产品分发。"
+      ],
+      "source_tagline": "Six 2B-class models for phones, laptops and robots",
+      "source_description": "LFM3 is Liquid AI’s third generation of Liquid Foundation Models, with open weights and a shared backbone across text, vision, audio, omni and decision models. The first release is six 2B-class models, including a 1.7B text model that fits in about 1 GB at 4-bit and has a 256K context. Liquid says they run on phones, laptops and edge devices and can be fine-tuned on one GPU. Weights are on Hugging Face."
     },
     {
       "id": "1294823",
       "name": "Genie 4",
       "name_zh": "Genie 4",
-      "tagline_zh": "Turn a prompt into a living world you can steer",
-      "description_zh": "Genie 4 is Google DeepMind’s new real-time world model for creators, game developers and AI researchers. Unlike video generators that hand you a finished clip, Genie 4 builds a world you walk through with your keyboard and steer with text as it runs: change the weather, add a character, set an event in motion. It generates native audio and live dialogue, simulates physics and natural human motion, and uses Gemini to keep scenes coherent. Research preview, waitlist open now.",
-      "intro_zh": "",
+      "tagline_zh": "把文字提示变成可操控的动态世界",
+      "description_zh": "缓存简介将 Genie 4 描述为 Google DeepMind 面向创作者、游戏开发者和 AI 研究者的实时世界模型，可用键盘探索，并在运行时用文字改变天气、添加角色或触发事件。简介还称它能生成声音和实时对白、模拟物理与人体动作，并使用 Gemini 维持场景连贯；当时处于研究预览阶段，开放候补登记。",
+      "intro_zh": "面向创作者、游戏开发者和 AI 研究者，用文字生成场景，再用键盘探索、随时修改世界。",
       "url": "https://www.producthunt.com/products/gemini-1-5-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LQRWKQDQ6UWMRQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/af519a91-ce9a-45de-a822-22359f11e271.png?auto=format",
       "votes_count": 113,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "交互场景明确，但生成质量和可用范围尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "持续操作和临时修改后如何保持世界连贯，是具体的技术难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "边体验边修改的做法可借鉴，但适用条件仍待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是在探索中直接修改场景；最影响判断的是世界能否持续保持一致，缓存简介没有给出可检查的证据。",
+      "product_analysis": {
+        "target_problem": "创作者想验证可探索的场景时，成片视频无法让人走进去试。它面向需要边体验、边调整世界的工作。",
+        "workflow": "输入文字生成世界，用键盘探索，再用文字改变天气、添加角色或触发事件。缓存称当时需候补，不能据此判断现在能否使用。",
+        "ai_value": "AI 根据操作持续生成世界，并生成声音和对白。它要处理用户接下来做什么，而不只是输出一段固定视频。",
+        "differentiation": "相较于简介提到的成片视频，用户可以在运行中修改场景。我会先确认能否保存成果，否则可能难以用于正式创作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4fd5592e-eb55-42f3-8786-e173c890f920)"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称其采用实时世界模型，并用 Gemini 保持场景连贯；这些说法未经重新核验。",
+        "possible_approach": "如果自己做，可以先限定一个小场景，记录角色和物体的位置，再根据键盘和文字输入更新画面与声音。",
+        "tradeoffs": "最难的是修改后仍记住原来的世界。若离开再回来时物体位置变了，用户就无法可靠地探索和验证设计。",
+        "unknowns": "一次交互能持续多久而不出现明显的场景矛盾？"
+      },
+      "transferable_insights": [
+        "做场景原型工具时，可以让用户保留当前视角，直接用文字修改局部，减少重新生成整段内容的操作。"
+      ],
+      "validation_questions": [
+        "离开一个放有明显物体的位置，再返回，检查物体是否仍在原处。",
+        "输入一次改变天气的指令，检查场景是否准确执行。"
+      ],
+      "source_tagline": "Turn a prompt into a living world you can steer",
+      "source_description": "Genie 4 is Google DeepMind’s new real-time world model for creators, game developers and AI researchers. Unlike video generators that hand you a finished clip, Genie 4 builds a world you walk through with your keyboard and steer with text as it runs: change the weather, add a character, set an event in motion. It generates native audio and live dialogue, simulates physics and natural human motion, and uses Gemini to keep scenes coherent. Research preview, waitlist open now."
     },
     {
       "id": "1276545",
       "name": "Zro: Uncensored Security Models",
       "name_zh": "Zro: Uncensored Security Models",
-      "tagline_zh": "Abliterated open models for security work",
-      "description_zh": "Security research often involves questions that general-purpose models refuse Meet Dolly 1 Security and Dolly 2 Security, uncensored variants of GLM-5.3 Flash and GLM-5.3 for defensive testing and red-team workflows. Run them through the Zro API or CLI with zero request retention. Since our July launch, we’ve also added new models, agent integrations, yearly plans, and referrals.",
-      "intro_zh": "",
+      "tagline_zh": "面向安全工作的去拒答限制开放模型",
+      "description_zh": "安全研究中的一些问题会被通用模型拒答；Zro 提供 Dolly 1 Security 和 Dolly 2 Security，分别是 GLM-5.3 Flash 和 GLM-5.3 的去限制版本，用于防御测试和红队工作（模拟攻击以查找防守漏洞）。用户可通过 Zro API 或 CLI 调用，产品方声称不保留请求，并表示自七月上线后增加了模型、智能体集成、年付套餐和推荐奖励。",
+      "intro_zh": "给安全研究和防御测试人员用，通过软件连接或命令行调用减少拒答限制的模型，处理安全研究问题。",
       "url": "https://www.producthunt.com/products/zro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7N6PVVLDFD3TXQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad9ef8ae-058a-443d-b611-cbe4bcbdbe51.png?auto=format",
       "votes_count": 108,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "拒答妨碍安全研究的问题明确，但回答是否可靠还缺证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "减少拒答后能否保持安全分析准确性，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "按专业任务调整模型拒答范围可以借鉴，但适用边界尚不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "减少合理安全研究中的拒答有实际意义，但最影响判断的是模型能否在愿意回答的同时给出可靠答案。",
+      "product_analysis": {
+        "target_problem": "安全研究人员做防御测试时，可能遇到通用模型拒绝回答。以前被拒答的问题，现在可以交给限制更少的模型继续处理。",
+        "workflow": "通过 API（让软件互相传数据的连接方式）或 CLI（输入命令操作工具）调用模型，提交安全研究问题并获取回答。",
+        "ai_value": "AI 负责回答安全研究问题。这里强调减少拒答，没有材料证明它更擅长发现漏洞。",
+        "differentiation": "可能省去因拒答而反复改写问题的时间。最可能阻碍切换的是答案质量尚不明确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 01763526-5d9b-4367-b0ad-0de2fc97461f)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出两个模型的基础版本，并提供 API 和 CLI；产品方声称不保留请求，未说明去限制的具体方法。",
+        "possible_approach": "如果自己做，可以先整理获授权的安全测试题，再调整开放模型的拒答行为，用参考答案检查它是否答对。",
+        "tradeoffs": "最容易把“愿意回答”当成“回答正确”。模型若编造漏洞条件，研究人员可能沿着错误方向排查。",
+        "unknowns": "去限制后，安全任务的回答准确性是否下降？"
+      },
+      "transferable_insights": [
+        "做专业问答产品时，可把“是否拒答”和“是否答对”分开评测，避免只用回答率判断改进。"
+      ],
+      "validation_questions": [
+        "用一组有参考答案的授权安全测试题，检查模型回答是否正确。",
+        "核对数据保留说明，确认“不保留请求”是否也覆盖错误日志。"
+      ],
+      "source_tagline": "Abliterated open models for security work",
+      "source_description": "Security research often involves questions that general-purpose models refuse Meet Dolly 1 Security and Dolly 2 Security, uncensored variants of GLM-5.3 Flash and GLM-5.3 for defensive testing and red-team workflows. Run them through the Zro API or CLI with zero request retention. Since our July launch, we’ve also added new models, agent integrations, yearly plans, and referrals."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

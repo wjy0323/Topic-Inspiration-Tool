@@ -1,367 +1,510 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-16T20:29:16+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:28:38+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1199144",
-      "name": "tiun.",
-      "name_zh": "tiun.",
-      "tagline_zh": "Auth, billing, and payments for AI builders",
-      "description_zh": "One system for auth, payments, customer data, and analytics. One command to install. Launch a paid product the same day you start building.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TDDTPREQN2HR4H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d3f13ed1-c39b-4519-b391-4381f3807dc9.jpeg?auto=format",
-      "votes_count": 534,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1237367",
       "name": "Voiskey",
       "name_zh": "Voiskey",
-      "tagline_zh": "AI voice typing that sounds right in every app",
-      "description_zh": "Voiskey starts from what you meant, not just what you said. Speak a rough thought and it comes back shaped for where it's going and who's reading it: casual with a friend, composed with a colleague, technical with an AI. It arrives 5x faster than typing, cleaned up and ready to send, while you still sound like you. Voiskey is now available on iOS, macOS, Android, and Windows, in over 100 languages. It's free to start. Join during launch and get a free month of Pro.",
-      "intro_zh": "",
+      "tagline_zh": "面向各类应用、让表达更得体的 AI 语音输入工具",
+      "description_zh": "Voiskey 将口述的粗略想法整理成适合接收者的文字，例如给朋友的随意表达、给同事的正式表达，以及给 AI 的技术性表达，并称能保留个人语气、达到打字速度的五倍。介绍称它支持 iOS、macOS、Android、Windows 和超过 100 种语言，可免费开始使用，发布期间加入可获一个月 Pro。",
+      "intro_zh": "给常在聊天、工作沟通和 AI 对话中输入文字的人，把口述想法整理成适合接收者的表达。",
       "url": "https://www.producthunt.com/products/voiskey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QOEFADHWXGZN5X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/16c44c05-f7d4-42f0-ab7f-29b58a0ac4fe.png?auto=format",
       "votes_count": 488,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "口述后还要调整措辞的需求明确，但省时程度未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "按对象改写时如何保留原意，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按接收者调整同一段内容，可借用于写作和回复工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是少做一次口述后的润色；最影响判断的是，纠正改写所花的时间会不会抵消这份节省。",
+      "product_analysis": {
+        "target_problem": "需要频繁发消息的人，即使把想法说出来，也可能还要删口头语、调整措辞。朋友、同事和 AI 对表达方式的要求又不同。",
+        "workflow": "用户说出粗略想法，工具将其整理成适合目标场景和接收者的文字。介绍没说明用户如何指定对象，也没说明文字如何进入目标应用。",
+        "ai_value": "AI 负责把口述内容改写成适合接收者的表达，不只逐字记录；保留个人语气是它提出的目标。",
+        "differentiation": "它想省掉转写后的润色。用户可能不愿换用的原因是：每次都要检查改写是否改变原意，反而增加负担。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 语音输入、四个平台及超过 100 种语言，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再让用户选择接收者，由模型调整措辞，并保留原文供对照。",
+        "tradeoffs": "最难的是区分口头赘词与真实限定条件。删掉一句“可能”，就可能把试探变成承诺。",
+        "unknowns": "工具如何知道接收者是谁：用户选择，还是读取当前应用内容？"
+      },
+      "transferable_insights": [
+        "做邮件或消息助手时，可以先让用户选择接收者，再生成对应语气，减少反复修改提示词。"
+      ],
+      "validation_questions": [
+        "口述一段含否定和保留意见的话，检查改写是否完整保留这些限定。",
+        "把同一段话分别用于朋友和同事场景，检查语气是否改变而事实不变。"
+      ],
+      "source_tagline": "AI voice typing that sounds right in every app",
+      "source_description": "Voiskey starts from what you meant, not just what you said. Speak a rough thought and it comes back shaped for where it's going and who's reading it: casual with a friend, composed with a colleague, technical with an AI. It arrives 5x faster than typing, cleaned up and ready to send, while you still sound like you. Voiskey is now available on iOS, macOS, Android, and Windows, in over 100 languages. It's free to start. Join during launch and get a free month of Pro."
     },
     {
       "id": "1246693",
       "name": "Kilo Code for iOS and Android",
       "name_zh": "Kilo Code for iOS and Android",
-      "tagline_zh": "Start coding agents, control sessions, review PRs. Anywhere.",
-      "description_zh": "Run Cloud Agents, control VS Code and CLI sessions, review Pull Requests, and respond to coding agents from your iPhone, iPad, or Android.",
-      "intro_zh": "",
+      "tagline_zh": "随时随地启动编程代理、控制会话、审查代码合并请求。",
+      "description_zh": "在 iPhone、iPad 或 Android 上运行云端编程代理，控制 VS Code 编辑器和命令行会话。也可以审查代码合并请求，并回复编程代理。",
+      "intro_zh": "给离开电脑仍需跟进开发的程序员用，在手机或平板上管理编程代理、查看代码改动。",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3BV5OZ5E63H3QD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0ecbb72f-979b-4c84-a51c-c64a3f062a4e.png?auto=format",
       "votes_count": 480,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "离开电脑后继续跟进开发的场景清楚，但手机端能处理多复杂的任务尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "远程控制会话有具体技术问题可讨论，但介绍未披露实现细节。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务跟进和回复搬到移动端，是其他长时间运行工具也能借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是离开电脑仍能回复代理；最影响判断的是远程操作结果能否可靠确认。",
+      "product_analysis": {
+        "target_problem": "程序员离开电脑后，可能仍要查看代理进展、回复问题或审查代码。麻烦在于这些工作涉及电脑上的开发会话。",
+        "workflow": "在移动端启动云端代理，或控制 VS Code、命令行会话；需要时查看代码合并请求并回复代理。介绍未说明连接步骤。",
+        "ai_value": "这里的编程代理是能执行编程任务的 AI。移动端让用户启动和回应它，但介绍没说明代理能独立完成哪些任务。",
+        "differentiation": "它把开发会话的跟进放到手机上，减少回电脑处理的需要。但复杂代码改动在小屏幕上可能难以审查。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1240697",
-      "name": "siift",
-      "name_zh": "siift",
-      "tagline_zh": "Turn AI noise into better business decisions",
-      "description_zh": "Building a business with AI can quickly become a mess of chats, tools, ideas, and conflicting advice. siift turns that noise into a living map of your business, connecting strategy, evidence, decisions, and results in one place. From validation and build strategy to GTM and growth, our AI uses your evolving business context and proven processes to challenge assumptions, identify risks, and help you focus on what matters next.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/siift?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MZ6REKYNNA3MS4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c0c6ba33-d66e-4f5b-9e0f-f633e2b3cec3.png?auto=format",
-      "votes_count": 267,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持云端代理，以及 VS Code 和命令行会话控制；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让运行任务的一端传回进展，再让手机显示进展并发送操作，最后回传执行结果。",
+        "tradeoffs": "最容易出错的是断线后的操作确认：若回复已执行却未显示，用户可能重复发送指令。",
+        "unknowns": "手机断线重连后，能否恢复会话的最新状态？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做长时间运行的任务工具时，可以把查看进度和回复问题放到手机端，让用户离开电脑后仍能跟进。"
+      ],
+      "validation_questions": [
+        "发送一次指令后立即断网，重连时能否确认它是否已执行？",
+        "用手机审查一份真实代码改动，能否看到判断所需的上下文？"
+      ],
+      "source_tagline": "Start coding agents, control sessions, review PRs. Anywhere.",
+      "source_description": "Run Cloud Agents, control VS Code and CLI sessions, review Pull Requests, and respond to coding agents from your iPhone, iPad, or Android."
     },
     {
       "id": "1249781",
       "name": "OpenAI Agents API",
       "name_zh": "OpenAI Agents API",
-      "tagline_zh": "Cloud agents, run on OpenAI's Codex harness",
-      "description_zh": "OpenAI's managed version of the Codex harness to build cloud agents with one API call instead of your own orchestration. Handles long sessions, smart tool use, and subagents working in parallel. Runs on OpenAI or partner sandboxes. No extra fees beyond token and tool usage. Open source harness, public beta now.",
-      "intro_zh": "",
+      "tagline_zh": "在云端运行、使用 OpenAI Codex 运行框架的智能体",
+      "description_zh": "这是由 OpenAI 托管的 Codex 运行框架，简介称开发者可用一次接口调用构建云端智能体，无需自行编排，并支持长会话、工具使用和多个子智能体并行工作。简介还称它可运行在 OpenAI 或合作方的隔离环境中，仅收取模型用量和工具使用费用，运行框架开源，当时处于公开测试阶段。",
+      "intro_zh": "给开发云端 AI 助手的团队用，负责长任务中的工具调用和多助手协作，减少自行安排执行过程的工作。",
       "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/H64MIDHBQWCEAM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2e6e4e77-f978-4946-bec5-e07869d525f8.jpeg?auto=format",
       "votes_count": 183,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确面向自行编排智能体的开发团队，但实际能省多少开发工作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "长会话与并行任务如何保留进度，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "将任务执行管理集中托管，可借用于需要长时间运行的 AI 产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它把长任务执行管理交给托管服务；但历史简介没有说明失败恢复方式，这会直接影响能否用于实际业务。",
+      "product_analysis": {
+        "target_problem": "给需要长时间执行任务的云端 AI 产品团队用。以前自行编排时，要安排工具调用和多个助手的工作；现在可以把这些交给托管服务。",
+        "workflow": "开发者通过 API（让软件互相传数据的接口）发起任务，由服务管理长会话、工具使用和子智能体并行执行。简介未说明如何取回结果。",
+        "ai_value": "AI 执行任务并使用工具，子智能体是分担工作的其他 AI 助手。这里主要省的是开发者安排执行过程的工作。",
+        "differentiation": "减少自行维护任务执行框架的工作。已有自建系统的团队，可能因执行过程不够可控而不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1247482",
-      "name": "Anthropologic",
-      "name_zh": "Anthropologic",
-      "tagline_zh": "The zero distance consumer research platform.",
-      "description_zh": "Traditional research is deep but slow. Social listening is fast but shallow. LLMs are fluent but culturally blind. Anthropologic reads the whole internet through our 'Human Context Protocol' to uncover consumer, category and cultural truths. Nine workflows, 239 markets, 100+ languages. Research, innovation and foresight answers in minutes.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/anthropologic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AFNP4IRB77HQX5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6bb67bec-63d9-4cfe-9522-d61a157f3087.gif?auto=format",
-      "votes_count": 179,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称其托管 Codex 运行框架，支持长会话、工具使用及并行子智能体，可在沙箱（隔离的运行环境）中执行。",
+        "possible_approach": "如果自己做，可以先保存任务进度，再安排模型调用工具；能独立完成的部分分给多个助手，最后汇总结果。",
+        "tradeoffs": "最容易出错的是中断后恢复进度。若把已完成步骤再执行一次，用户可能遇到重复提交或重复修改。",
+        "unknowns": "长任务中断后，能否从已完成的位置继续？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1248914",
-      "name": "Axari",
-      "name_zh": "Axari",
-      "tagline_zh": "Assign your security busywork to your AI twin",
-      "description_zh": "Your Axari AI twin understands your security world, works across your tools and teams, and keeps work moving until it is actually done. Assign it a goal, let it work proactively, or give it recurring responsibilities – all from within Slack or MS Teams. Attackers aren't going to use less AI, neither should you. You + your AI twin = indefatigable.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/axari?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3UNO2F2UTMGA5I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9fd80c87-7f54-4d10-ad5b-87e14ee0eaeb.jpeg?auto=format",
-      "votes_count": 167,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做批量研究或代码任务产品时，可以把进度保存和恢复统一处理，不让每种任务各写一套。"
+      ],
+      "validation_questions": [
+        "中断一个已完成部分步骤的任务，恢复后会不会重复执行？",
+        "让两个子智能体分别处理独立子任务，最终结果能否完整汇总？"
+      ],
+      "source_tagline": "Cloud agents, run on OpenAI's Codex harness",
+      "source_description": "OpenAI's managed version of the Codex harness to build cloud agents with one API call instead of your own orchestration. Handles long sessions, smart tool use, and subagents working in parallel. Runs on OpenAI or partner sandboxes. No extra fees beyond token and tool usage. Open source harness, public beta now."
     },
     {
       "id": "1250802",
       "name": "PeekPaste",
       "name_zh": "PeekPaste",
-      "tagline_zh": "Your clipboard, within reach",
-      "description_zh": "PeekPaste is a native clipboard manager for Mac that stays out of your way until you need it. Push your pointer against the screen edge and your clipboard slides in. Find text, code, links, images, colors and files, search inside screenshots with on-device OCR, pin and organize clips, or open the full Library when you need more. Everything stays on your Mac - no accounts, analytics, telemetry or cloud clipboard service.",
-      "intro_zh": "",
+      "tagline_zh": "剪贴板，随手可及",
+      "description_zh": "PeekPaste 是一款 Mac 原生剪贴板管理器，将指针推向屏幕边缘即可展开，支持查找文字、代码、链接、图片、颜色和文件，并用设备端文字识别搜索截图内容。它支持固定和整理剪贴内容、打开完整资料库；介绍称所有内容留在 Mac 上，无需账号，也不使用分析、遥测或云剪贴板服务。",
+      "intro_zh": "给经常在 Mac 上复制文字、图片和文件的人用，把剪贴内容收在屏幕边缘，方便随时查找。",
       "url": "https://www.producthunt.com/products/lucidbit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2CZY32AEUO2AF5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/36fa5a3c-f146-4b99-93e7-f33851765c77.jpeg?auto=format",
       "votes_count": 118,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查找和整理剪贴内容的场景清楚，实际调用体验待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "截图文字搜索有具体难点，但没有识别效果材料。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "边缘唤出临时内容的做法，可借给需要频繁取用资料的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重截图也能按文字找回，省去逐张翻看的动作；关键疑问是小字和代码截图能否可靠检索。",
+      "product_analysis": {
+        "target_problem": "经常跨应用复制内容的人，需要找回之前复制的片段。麻烦在于内容类型多，截图里的文字也不容易直接检索。",
+        "workflow": "把指针推向屏幕边缘，展开剪贴内容。查找所需片段，固定或整理常用内容；需要更多内容时打开完整资料库。",
+        "ai_value": "介绍没提 AI，主要靠边缘唤出和本地搜索改善体验。截图搜索使用 OCR，即把图片里的文字识别出来。",
+        "differentiation": "把取用入口放在屏幕边缘，可能减少切换窗口找内容的动作。最可能劝退的是日常移动指针时误触展开。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是 Mac 原生应用，截图文字在设备端识别，剪贴内容保存在本机。",
+        "possible_approach": "如果自己做，可以先保存剪贴内容并分类，再识别图片文字供搜索，最后加入屏幕边缘唤出面板。",
+        "tradeoffs": "最容易出错的是截图文字识别。小字或代码符号识别错后，用户可能搜不到已经保存的截图。",
+        "unknowns": "介绍没说历史记录保存多久、何时清理。"
+      },
+      "transferable_insights": [
+        "做需要反复取用素材的编辑工具时，可以把近期素材放到边缘面板，完整资料库另设入口，避免每次都打开大窗口。"
+      ],
+      "validation_questions": [
+        "在常用截图中挑一张含小字的图片，检查能否用其中的文字搜到它。",
+        "按日常习惯切换窗口和移动指针，检查边缘面板是否频繁误弹。"
+      ],
+      "source_tagline": "Your clipboard, within reach",
+      "source_description": "PeekPaste is a native clipboard manager for Mac that stays out of your way until you need it. Push your pointer against the screen edge and your clipboard slides in. Find text, code, links, images, colors and files, search inside screenshots with on-device OCR, pin and organize clips, or open the full Library when you need more. Everything stays on your Mac - no accounts, analytics, telemetry or cloud clipboard service."
     },
     {
       "id": "1249707",
       "name": "Narrative",
       "name_zh": "Narrative",
-      "tagline_zh": "AI-first video editor, just describe edits & refine in chat",
-      "description_zh": "Narrative brings video editing, custom motion graphics, and reference-video style matching into one interface. Upload your footage, describe your edit, and keep refining through chat. Add music, sound effects, and transitions, or get inspiration from reference videos. From podcast clips to launch videos, create without learning Premiere or After Effects. We handle rendering and storage. Our launch video was made entirely in Narrative.",
-      "intro_zh": "",
+      "tagline_zh": "以 AI 为核心的视频编辑器，用文字描述修改，再通过聊天细调",
+      "description_zh": "Narrative 将视频剪辑、自定义动态图形和参考视频风格匹配放在同一界面，上传素材后可通过聊天反复修改，并添加音乐、音效和转场。产品方称它负责渲染和存储，让用户不必学习 Premiere 或 After Effects，并称其发布视频完全用 Narrative 制作。",
+      "intro_zh": "给不熟悉专业剪辑软件的内容创作者用，上传视频后用文字提出剪辑要求，再通过聊天调整。",
       "url": "https://www.producthunt.com/products/narrative-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/T5MY5GABVVLMSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/346d64f4-b6df-44ed-8a66-05f7eb3726f2.jpeg?auto=format",
       "votes_count": 111,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "上传素材后用聊天修改的用途清楚，但能替代多少手工操作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "连续修改时准确理解并保留此前编辑，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先描述目标再逐轮细调，适合借用于结果可预览的创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重用文字直接提出修改要求；最影响判断的是，多轮修改能否稳定保留用户已经满意的部分。",
+      "product_analysis": {
+        "target_problem": "面向要做播客片段或发布视频、又不熟悉专业剪辑软件的人。麻烦在于知道想要什么，却不会用软件做出来。",
+        "workflow": "上传素材，描述剪辑要求，再通过聊天反复调整。可添加音乐、音效和转场，也可提供参考视频。",
+        "ai_value": "AI 的作用是把文字要求变成视频编辑，并支持继续修改；介绍未交代具体如何执行。",
+        "differentiation": "把剪辑、动态图形和参考风格放在一处，可能减少切换工具。用户可能顾虑文字指令无法精确控制结果。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 编辑、参考视频风格匹配，以及由产品处理渲染和存储，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先把文字要求拆成剪切、配乐等操作，再应用到视频并生成预览，供下一轮修改。",
+        "tradeoffs": "最难的是确定每轮修改的范围。若把“缩短开头”理解成重剪全片，用户就得重新恢复满意的部分。",
+        "unknowns": "参考视频的哪些特征可以匹配，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做图片或视频编辑工具时，可让用户先描述目标，再围绕预览结果逐轮细调，减少一开始要学的操作。"
+      ],
+      "validation_questions": [
+        "只要求缩短开头，检查其余已确认的片段是否保持不变。",
+        "提供一段节奏鲜明的参考视频，检查结果是否匹配其剪辑节奏。"
+      ],
+      "source_tagline": "AI-first video editor, just describe edits & refine in chat",
+      "source_description": "Narrative brings video editing, custom motion graphics, and reference-video style matching into one interface. Upload your footage, describe your edit, and keep refining through chat. Add music, sound effects, and transitions, or get inspiration from reference videos. From podcast clips to launch videos, create without learning Premiere or After Effects. We handle rendering and storage. Our launch video was made entirely in Narrative."
+    },
+    {
+      "id": "1199144",
+      "name": "tiun.",
+      "name_zh": "tiun.",
+      "tagline_zh": "面向 AI 产品开发者的身份验证、计费与支付工具",
+      "description_zh": "把身份验证、支付、客户数据和分析放在一个系统中，支持用一条命令安装。介绍宣称，开始开发当天就能推出付费产品。",
+      "intro_zh": "给准备上线收费产品的 AI 开发者用，把用户登录、收款和客户数据管理放在同一套系统里。",
+      "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TDDTPREQN2HR4H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d3f13ed1-c39b-4519-b391-4381f3807dc9.jpeg?auto=format",
+      "votes_count": 534,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "收费产品的基础需求明确，但实际能省多少接入工作尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "付款结果如何对应到用户权限是具体问题，但介绍没有展开。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一安装相关功能可以借鉴，但配置范围和适用条件不明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重登录和付款数据能否直接对应，省去开发者自行连接的工作。最大疑问是安装之后还有多少上线配置，不能把“当天推出”当成已验证的收益。",
+      "product_analysis": {
+        "target_problem": "面向准备推出收费产品的 AI 开发者。若分别接入登录、支付和客户管理，还要把同一个用户的数据对应起来。",
+        "workflow": "介绍支持的起点是用一条命令安装，再使用同一系统中的身份验证、支付、客户数据和分析功能。具体配置及上线步骤没有说明。",
+        "ai_value": "介绍没提 AI 参与处理，主要靠集中提供这些功能来改善开发体验；AI 开发者是目标用户。",
+        "differentiation": "它可能减少分别接入多个工具的工作。最可能让人犹豫的是：现有收费规则能否在这套系统中实现。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说支持一条命令安装，未说明具体使用什么技术。",
+        "possible_approach": "如果自己做，可以先给每个用户一个固定编号，再把付款记录关联到该编号，并按付款结果更新可用功能。",
+        "tradeoffs": "最容易出错的是付款后更新权限：若付款已成功但权限没更新，用户付了钱仍无法使用。",
+        "unknowns": "一条命令完成的是安装，还是也包含可上线的配置？介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做开发者工具时，可以把经常一起使用的功能放进同一个安装入口，减少逐项接入的起步工作。"
+      ],
+      "validation_questions": [
+        "从执行安装命令到完成一笔测试付款，还需要手动配置哪些内容？",
+        "模拟付款结果通知延迟，检查用户权限最终能否正确开通。"
+      ],
+      "source_tagline": "Auth, billing, and payments for AI builders",
+      "source_description": "One system for auth, payments, customer data, and analytics. One command to install. Launch a paid product the same day you start building."
+    },
+    {
+      "id": "1240697",
+      "name": "siift",
+      "name_zh": "siift",
+      "tagline_zh": "把 AI 产生的杂乱信息变成更好的商业决策",
+      "description_zh": "用 AI 做业务时，对话、工具、想法和相互矛盾的建议容易混在一起；siift 将战略、证据、决策和结果关联起来，形成持续更新的业务全貌。介绍称，它的 AI 会结合不断变化的业务背景和既定流程，在验证、开发规划、市场推广及增长过程中质疑假设、识别风险，并帮助确定下一步重点。",
+      "intro_zh": "给用 AI 筹备或经营业务的团队，把战略、证据和决策放在一起，辅助判断下一步做什么。",
+      "url": "https://www.producthunt.com/products/siift?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MZ6REKYNNA3MS4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c0c6ba33-d66e-4f5b-9e0f-f633e2b3cec3.png?auto=format",
+      "votes_count": 267,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "信息分散和建议冲突的问题清楚，但整理负担与决策收益待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何让建议跟上业务变化，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把建议与证据关联的做法可借鉴，但交互细节不足。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重把决策和依据放在一起；最大的疑问是，业务变化后这些关联能否持续保持准确。",
+      "product_analysis": {
+        "target_problem": "创业者和小团队用 AI 讨论业务时，想法与建议可能散在多处。难的是判断建议依据什么、是否仍适用。",
+        "workflow": "介绍支持的流程是：把战略、证据、决策和结果关联起来，再由 AI 结合业务背景提示风险与下一步重点。资料如何进入，未说明。",
+        "ai_value": "AI 用业务背景质疑假设、识别风险和建议重点；这些判断是否可靠，仍需验证。",
+        "differentiation": "它试图省掉反复拼凑业务背景的工作。最可能让人不愿换过来的，是维护这些资料可能增加额外工作。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 会使用持续变化的业务背景，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先按战略、证据和决策整理资料，再让 AI 依据相关记录提出建议，并附上出处。",
+        "tradeoffs": "最容易出错的是沿用过期背景：目标已变，AI 却仍按旧目标建议，用户就得重新纠正。",
+        "unknowns": "业务背景变化后，旧结论如何更新？"
+      },
+      "transferable_insights": [
+        "做项目规划工具时，可以让每项决策关联支持它的证据，复盘时能查清当初为什么这样选。"
+      ],
+      "validation_questions": [
+        "修改一项核心业务目标后，下一次建议是否采用新目标？",
+        "抽查一条风险提示，能否找到支持它的具体业务资料？"
+      ],
+      "source_tagline": "Turn AI noise into better business decisions",
+      "source_description": "Building a business with AI can quickly become a mess of chats, tools, ideas, and conflicting advice. siift turns that noise into a living map of your business, connecting strategy, evidence, decisions, and results in one place. From validation and build strategy to GTM and growth, our AI uses your evolving business context and proven processes to challenge assumptions, identify risks, and help you focus on what matters next."
+    },
+    {
+      "id": "1247482",
+      "name": "Anthropologic",
+      "name_zh": "Anthropologic",
+      "tagline_zh": "拉近与消费者距离的研究平台。",
+      "description_zh": "介绍将传统研究、社交聆听和大语言模型分别概括为慢、浅和缺少文化理解，并称 Anthropologic 用自称的“Human Context Protocol”读取互联网内容，寻找消费者、品类和文化洞察。它列出九种工作流、239 个市场及超过 100 种语言，并宣称能在几分钟内回答研究、创新和趋势预判问题。",
+      "intro_zh": "给做消费者研究、产品创新和趋势判断的团队用，从互联网内容中寻找消费者与文化线索。",
+      "url": "https://www.producthunt.com/products/anthropologic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AFNP4IRB77HQX5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6bb67bec-63d9-4cfe-9522-d61a157f3087.gif?auto=format",
+      "votes_count": 179,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "研究场景明确，但答案质量和节省时间的程度缺少验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨语言理解文化语境有具体难点，但实现披露很少。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按研究任务组织工作流可以借鉴，具体设计仍未知。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把分散材料整理成研究答案有实际用途，但“覆盖很多市场”不能证明理解当地文化，关键仍是结论有没有可靠证据。",
+      "product_analysis": {
+        "target_problem": "消费者研究和产品团队需要理解不同市场里的购买动机。麻烦在于，网上相似的说法可能对应不同文化含义。",
+        "workflow": "平台提供九种研究工作流，面向消费者、品类和文化问题输出答案。介绍没列出具体入口、输入要求和结果形式。",
+        "ai_value": "介绍提到大语言模型，但没说明 AI 实际负责哪些步骤；不能据此认定它已经解决文化理解问题。",
+        "differentiation": "它试图减少从网络材料到研究答案的整理时间。“几分钟”只是介绍中的承诺；研究者可能因无法判断证据是否可靠而不愿替换现有方法。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只披露了名为“Human Context Protocol”的方法名称，没有解释具体技术。",
+        "possible_approach": "如果自己做，可以先限定市场和研究问题，收集带来源的当地材料，再结合上下文归纳观点，让每个结论对应原文。",
+        "tradeoffs": "最难的是保留当地语境。把反讽或圈内用语按字面理解，可能让团队误判消费者态度。",
+        "unknowns": "研究答案能否追溯到具体材料？"
+      },
+      "transferable_insights": [
+        "做研究工具时，可以按具体任务设置工作流，并为每种任务规定输出内容，减少用户从空白提问开始组织需求的负担。"
+      ],
+      "validation_questions": [
+        "选一条输出结论，能否找到支撑它的原始材料？",
+        "用一段含当地反讽的材料提问，是否会把态度理解反？"
+      ],
+      "source_tagline": "The zero distance consumer research platform.",
+      "source_description": "Traditional research is deep but slow. Social listening is fast but shallow. LLMs are fluent but culturally blind. Anthropologic reads the whole internet through our 'Human Context Protocol' to uncover consumer, category and cultural truths. Nine workflows, 239 markets, 100+ languages. Research, innovation and foresight answers in minutes."
+    },
+    {
+      "id": "1248914",
+      "name": "Axari",
+      "name_zh": "Axari",
+      "tagline_zh": "把安全事务中的琐碎工作交给你的 AI 分身",
+      "description_zh": "Axari 将自己描述为理解安全工作背景、跨工具和团队推进任务的 AI 分身。用户可以在 Slack 或 MS Teams 中给它目标、让它主动工作，或安排周期性职责。",
+      "intro_zh": "给安全团队用的 AI 助手，在 Slack 或 MS Teams 中接收目标，推进跨工具、跨团队的事务。",
+      "url": "https://www.producthunt.com/products/axari?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3UNO2F2UTMGA5I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9fd80c87-7f54-4d10-ad5b-87e14ee0eaeb.jpeg?auto=format",
+      "votes_count": 167,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但没有具体任务案例说明能省多少事。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何判断跨团队任务真正完成，是一个具体难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "从日常聊天入口委派周期任务的做法可借鉴，执行条件未说明。"
+        }
+      },
+      "category": "安全隐私",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重持续跟进任务的设想；但缺少具体案例，尚不能判断它能独立推进到哪一步。",
+      "product_analysis": {
+        "target_problem": "安全团队需要跨工具、找不同同事推进事务时，麻烦可能在持续跟进，而不只是发出一次请求。",
+        "workflow": "用户在 Slack 或 MS Teams 中交代目标，或安排周期性职责。介绍称助手会跨工具和团队持续推进，但没给出具体任务示例。",
+        "ai_value": "AI 被用于理解安全工作背景并主动推进任务。它能独立执行哪些动作，资料没有展开。",
+        "differentiation": "它想减少的是交代任务后反复追问进度的工作。最可能让团队犹豫的是：是否敢授权它代为操作安全工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 助手和 Slack、MS Teams 入口，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一种范围小的周期任务，再连接所需工具、记录进度，并要求提供完成凭据。",
+        "tradeoffs": "最难的是判断任务是否真的完成。若把“已通知同事”当成“已处理”，用户可能漏掉仍未解决的安全问题。",
+        "unknowns": "哪些操作可以自动执行，哪些必须由人批准？"
+      },
+      "transferable_insights": [
+        "做内部任务助手时，可以把周期性职责放进团队已有的聊天工具，减少用户另开系统安排任务。"
+      ],
+      "validation_questions": [
+        "交给它一个完成标准明确的任务，检查最终是否提供符合标准的凭据。",
+        "安排一个需要授权的操作，检查它是否在执行前请求批准。"
+      ],
+      "source_tagline": "Assign your security busywork to your AI twin",
+      "source_description": "Your Axari AI twin understands your security world, works across your tools and teams, and keeps work moving until it is actually done. Assign it a goal, let it work proactively, or give it recurring responsibilities – all from within Slack or MS Teams. Attackers aren't going to use less AI, neither should you. You + your AI twin = indefatigable."
     },
     {
       "id": "1250540",
       "name": "Thoughts for Mac",
       "name_zh": "Thoughts for Mac",
-      "tagline_zh": "Capture notes from your menubar using text, images or voice",
-      "description_zh": "Thoughts is a menubar app for your Mac which helps you keep notes quickly using text, images and voice. Add your favorite agent API key and it'll also help transcribe audio, context images to text and help do simple text-tranforms like capitalization, translations and spelling fixes. Think of it as a fun small multi-tool for your menubar.",
-      "intro_zh": "",
+      "tagline_zh": "从菜单栏用文字、图片或语音记笔记",
+      "description_zh": "Thoughts 是一款 Mac 菜单栏应用，支持用文字、图片和语音快速记笔记。填入所选 AI 服务的 API 密钥后，还能转写音频、将图片转为文字，并做大小写转换、翻译和拼写纠正等简单处理。",
+      "intro_zh": "给想在 Mac 上随手记录的人用，从菜单栏保存文字、图片和语音，并处理记录中的内容。",
       "url": "https://www.producthunt.com/products/thoughts-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XNRPFF23KK6FBE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a47f8dac-2f61-49ee-834b-e12439ff2f6e.jpeg?auto=format",
       "votes_count": 104,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "随手记录的场景清楚，但是否比现有笔记工具省事仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "自填密钥后的内容传输值得关注，但介绍没有实现细节。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把记录入口和简单文字处理放在一起，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是记完就能接着处理内容；但私人笔记会发到哪里，最影响是否愿意长期使用。",
+      "product_analysis": {
+        "target_problem": "适合工作中临时记想法、存图片或留语音的 Mac 用户。麻烦在于先记下来的内容，之后可能还要转成文字或修正。",
+        "workflow": "从菜单栏记录文字、图片或语音。需要转写、翻译等处理时，先填入所选服务的 API 密钥，也就是调用该服务的凭证。",
+        "ai_value": "AI 用来转写音频、把图片转为文字，以及翻译、改大小写和纠正拼写。图片转文字的具体含义，缓存简介说得不够清楚。",
+        "differentiation": "把记录和简单处理放在一个入口，可能减少来回切换工具。最可能劝退普通用户的是需要自己准备密钥。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是 Mac 菜单栏应用，支持用户填入服务密钥；介绍没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先保存原始记录，再把用户选中的内容交给所配置的服务处理，将结果与原记录一起保留。",
+        "tradeoffs": "最容易出错的是发送内容的范围。若把整条笔记而非选中部分发出去，用户可能无意间泄露私人内容。",
+        "unknowns": "调用外部服务时，笔记内容是否经过产品方服务器？"
+      },
+      "transferable_insights": [
+        "做轻量笔记工具时，可以把转写和文字修正放在记录旁边，让用户记完后直接处理。"
+      ],
+      "validation_questions": [
+        "填入有效密钥后，一段短语音能否成功转成文字？",
+        "只选中部分文字处理时，实际发送的内容是否仅限所选部分？"
+      ],
+      "source_tagline": "Capture notes from your menubar using text, images or voice",
+      "source_description": "Thoughts is a menubar app for your Mac which helps you keep notes quickly using text, images and voice. Add your favorite agent API key and it'll also help transcribe audio, context images to text and help do simple text-tranforms like capitalization, translations and spelling fixes. Think of it as a fun small multi-tool for your menubar."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

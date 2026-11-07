@@ -1,357 +1,510 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-24T17:27:14+08:00",
+  "generated_at": "2026-11-07T15:41:45+00:00",
   "generation_error": false,
   "products": [
     {
       "id": "1199558",
       "name": "PromptQL",
       "name_zh": "PromptQL",
-      "tagline_zh": "取代Slack的多玩家AI",
-      "description_zh": "别再让团队知识分散在Slack和大家的私人AI聊天里了。PromptQL是团队的多人协作AI，就像共享线程里的Claude或ChatGPT。你可以@队友来审查、修正和优化答案，推理过程不会丢失。还能连接数据库、SaaS应用、编码代理和事件。PromptQL能捕捉团队默契知识，并建议更新共享大脑，让上下文不断累积。通过权限管理，合适的人能看到合适的上下文。",
-      "intro_zh": "这玩意儿就是把AI助手搬进团队聊天里，大家一起用，还能标同事一块儿完善答案。如果你是天天用Slack的团队，又老在私聊里问AI，这下不用切来切去了。",
+      "tagline_zh": "旨在替代 Slack 的多人协作 AI",
+      "description_zh": "PromptQL 把团队 AI 对话放进共享线程，可 @ 队友审查、修正答案，并连接数据库、SaaS 应用、编码代理和事件。它还会捕捉团队隐性知识、建议更新共享知识，并通过权限管理控制上下文的可见范围。",
+      "intro_zh": "给需要共同使用 AI 的团队，把提问、答案和队友的修正留在共享线程里。",
       "url": "https://www.producthunt.com/products/promptql?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UDARQUO4K2JLJ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad66a363-60bc-4e00-8bfa-c78726524c1d.png?auto=format",
       "votes_count": 445,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "团队聊天界面、AI对话实时交互、标记协作等操作直观，适合录制演示画面。"
+          "reason": "知识分散的问题清楚，共享讨论能否融入团队日常仍待确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 4,
-          "reason": "概念简单，类似共享AI聊天室，用过办公IM的人都能看懂。"
+          "reason": "共享上下文与个人权限如何兼容，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "产品排名第1，票数445，热度很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把讨论中的修正转成知识更新建议，可借用于团队知识工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "告别Slack混乱！这个多玩家AI让团队知识活起来",
-        "angle": "对比测评",
-        "shooting_tips": "首先录制产品界面，展示创建共享线程、标记同事的过程；演示AI回答后@队友修正；突出数据源连接功能；最后展示知识积累建议。节奏先快后稳，以团队协作痛点切入。",
-        "target_audience": "企业团队负责人、远程办公工作者、AI工具爱好者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "多玩家AI概念新颖，界面直观，热度高，适合拍视频展示协作魔力"
-    },
-    {
-      "id": "1196080",
-      "name": "Teable 3.0",
-      "name_zh": "Teable 3.0",
-      "tagline_zh": "AI驱动的商业电子表格",
-      "description_zh": "把你的业务数据直接变成AI自动化流程和定制应用。能连接任何系统、迁移任何数据，百分百贴合你的生意。",
-      "intro_zh": "这是一个能把你的业务数据变成AI工作流和定制应用的超级表格。做电商、搞项目的老板们，不用写代码就能搭一套自己的管理系统。",
-      "url": "https://www.producthunt.com/products/teable-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XNGC556XAKVRWY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8bdc74c2-105a-45f9-8677-a0730d8bcb58.png?auto=format",
-      "votes_count": 435,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "界面操作丰富，从表格到自动化流程、应用搭建的演变过程画面感强，拖拽演示有视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "以熟悉的电子表格为基础，概念易懂，零代码搭建降低了技术门槛，普通人看完想试试。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日第2名，435票，话题热度高，目标用户群广。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "这个AI表格，能让你的生意自己跑起来！",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "屏幕录制，先从普通表格痛点切入，再展示连接数据库或API、拖拽生成工作流、一键发布成内部应用的过程，语速轻快，用真实业务场景举例。",
-        "target_audience": "中小企业主、电商运营、项目经理等寻求降本增效的非技术人群"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面丰富、操作直观，普通人能秒懂，热度高，非常适合做成爆款视频。"
-    },
-    {
-      "id": "1185996",
-      "name": "PodcastorAI",
-      "name_zh": "播客分身AI",
-      "tagline_zh": "你的AI孪生主播，替你出镜做视频播客",
-      "description_zh": "把你的脚本、链接、PDF或想法直接变成演播室级别的视频播客。你可以用AI主播、自然语音，甚至自己的数字分身出镜。PodcastorAI包办所有制作，把你推到屏幕前，把几小时的录制剪辑压缩成大约15分钟就能搞定的成品。单人、双人对谈随便选，无需摄像机、不用制作团队，就能拿到可以发布的视频。已经有音频单集？上传后就能把你的声音和AI形象变成视频播客。",
-      "intro_zh": "给想开视频播客又怕麻烦的人准备了个替身主播，你只要丢给它稿子或录音，它就能让AI替你露脸、开口，十几分钟搞定一条像样的视频。想做个人品牌又没空出镜录制的上班族、忙到飞起的创作者，靠这个省了大把时间。",
-      "url": "https://www.producthunt.com/products/podcastorai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WE6FPUEOFTA4RI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ecd491ad-0e99-40d2-a39b-fe1cb1e51285.jpeg?auto=format",
-      "votes_count": 316,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "产品本身就是生成视频播客，界面操作、AI主播生成、前后音频变视频的演示效果极强，画面观感丰富，非常适合视频展示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "普通人一听就懂：把内容丢进去，让AI替你出镜。不需要剪辑基础，门槛极低，唯一可能稍复杂的是数字分身录制，但整体上手没难度。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt今日第3名，316票，热度高，话题性强，对想省事做视频的群体很有吸引力。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "不用露脸！AI替我录播客，10分钟出片，效果能有多真？",
-        "angle": "开箱体验",
-        "shooting_tips": "先录制一段真人的数字分身导入过程，再展示用一段文字/文档生成视频播客的完整步骤，重点对比生成前和生成后的画面、口型同步度，最后拿一段真人播客和AI播客给观众盲猜，节奏前快后稳。",
-        "target_audience": "想做个人品牌但不想露脸的创作者、想转视频播客的音频主播、天天开会的知识分享者"
       },
       "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品自带强视觉演示属性，普通人一眼明白，热度够高，能做出爆款开箱视频。"
-    },
-    {
-      "id": "1182375",
-      "name": "RunEvr",
-      "name_zh": "RunEvr",
-      "tagline_zh": "面向创意者的智能项目管理环境",
-      "description_zh": "一个AI驱动的一站式工作空间，把你的项目、讨论、评审和创作都连起来。再也不用在多个工具间切来切去，RunEvr让整个创意流程待在一个地方，团队能保持专注、顺畅协作，创作不卡壳。",
-      "intro_zh": "一个把所有创作环节都打包在一起的AI工作间。不用再在各个软件窗口间跳来跳去，设计师、视频团队和创意工作者终于能一口气完成协作，不被频繁切换打断思路。",
-      "url": "https://www.producthunt.com/products/runevr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/C3ZSCUH4BNRBIC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/247172c2-60e4-44a1-b369-1976dc327dbf.jpeg?auto=format",
-      "votes_count": 192,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有完整的项目视图、对话面板和AI助手，操作流程清晰，适合录屏演示，但界面偏管理类，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直白，就是整合创意协作工具，免去了多工具切换的烦恼，普通创作者一看就明白，无技术门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH第6名，192票，在创意工具中有一定关注度，但未进入前三。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重把队友修正留给后续讨论使用；但受限资料能否在共享回答中得到保护，最影响判断。",
+      "product_analysis": {
+        "target_problem": "团队一起用 AI 查资料、讨论问题时，知识可能散在 Slack 和个人聊天里，其他人难以接着讨论。",
+        "workflow": "在共享线程里提问，@ 队友审查和修正答案。系统还会建议更新共享知识。",
+        "ai_value": "AI 回答团队问题，并从讨论中捕捉隐性知识、提出更新建议；如何识别这些知识，介绍没说。",
+        "differentiation": "把答案和修正留在同一处，可能减少转述。团队若仍依赖 Slack，就可能多维护一个讨论场所。"
       },
-      "video_inspiration": {
-        "title_idea": "一个工具管完所有创作流程？RunEvr给创意团队开了个作弊器",
-        "angle": "开箱体验+对比测评（突出从多工具切换到RunEvr的差别）",
-        "shooting_tips": "录屏展示从项目创建、分配任务、讨论到交付的全流程，重点对比之前用三个软件分别操作的繁琐，再展示AI自动归纳上下文、生成摘要的亮点，节奏轻快，加吐槽语气。",
-        "target_audience": "自由职业设计师、小型创意团队、视频制作组、内容创作者"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到外部数据连接和上下文权限管理，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先保存共享对话和修改记录，再让 AI 提出知识更新草稿，由成员确认后保存。",
+        "tradeoffs": "最难的是权限判断：回答若混入受限资料，即使隐藏原文，也可能向无权成员泄露内容。",
+        "unknowns": "共享知识更新前，是否需要人工确认？"
       },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "视觉化展示效果好，概念通俗易懂，且针对创意人群痛点，容易引发共鸣。"
-    },
-    {
-      "id": "1204048",
-      "name": "Wispro",
-      "name_zh": "Wispro",
-      "tagline_zh": "说完就写好，把声音直接变成干净文字",
-      "description_zh": "Wispro 能把你的语音瞬间转成文字，直接贴到文档、邮件或聊天框里。它不只直译，还能过滤口水话、自动润色，甚至听懂你的指令直接生成整段内容。适合任何想用说话代替打字的人。",
-      "intro_zh": "懒得打字时，张嘴说一句，它就能把啰里吧嗦的语音变成漂亮的文字，直接塞进你的工作里。经常需要写邮件、记灵感、写回复的上班族和学生党，可以省下大把时间。",
-      "url": "https://www.producthunt.com/products/wispro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LAGJ5YI7GQ3DCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a8861495-642a-48e8-8c91-9374d4067a67.png?auto=format",
-      "votes_count": 146,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "语音转文字的界面操作、不同模式的实时效果对比很有画面感，适合录屏展示；但缺乏夸张视觉冲击，评分4分。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直观——说话就能出字，普通人一听就懂，无需技术背景；但“命令模式”可能需要稍微解释一下。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第8名，146票，有不错的关注度，但未进前三，热度属于中上。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "懒人神器！说句话就能自动写邮件、回消息，这个语音转文字工具绝了",
-        "angle": "开箱体验",
-        "shooting_tips": "开局拿着手机说话，展示边说边实时出字，再快速切到Smart模式演示去废话效果，最后用Command模式说“帮我写封道歉邮件”直接生成完整草稿，全程录屏配合画外音吐槽自己平时打字多慢。节奏轻快，突出即时感和智能对比。",
-        "target_audience": "经常需要写邮件、做记录、喜欢用语音输入的上班族、学生和创作者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作画面丰富，普通人易上手，PH热度不错，很适合做成直观有趣的演示视频。"
-    },
-    {
-      "id": "1203012",
-      "name": "canitbebuilt",
-      "name_zh": "能造吗",
-      "tagline_zh": "你的硬件创意，验一验。结论、BOM、3D模型一键生成。",
-      "description_zh": "只要用一句话描述你的硬件创意，两分钟内就能知道它能不能造、需要多少钱，还有风险和认证提示，甚至直接拿到3D概念模型。基于23年硬件制造经验，搭载GPT-5.6 Terra，无需注册。",
-      "intro_zh": "想做个硬件？在这随便写句话，就能立刻知道这玩意能不能量产、成本多少，还给你生成一个3D概念模型。硬件爱好者、创客、甚至只是有个点子想验证的人，都能快速判断值不值得做。",
-      "url": "https://www.producthunt.com/products/canitbebuilt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UVNVPKJ4HBVOEE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/326b9fe9-8e58-43f2-b5f3-14cf21963076.png?auto=format",
-      "votes_count": 136,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "输入想法后生成3D模型和成本报表的过程非常适合录屏展示，视觉冲击力强，可演示多种想法的效果对比。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "用自然语言描述即可，无需专业知识，返回的结论和可视化模型普通人也能看懂。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt当日排名第9，获136票，有一定热度但并非现象级产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我让AI检验5个疯狂硬件创意，它居然给出了成本和3D模型！",
-        "angle": "娱乐演示",
-        "shooting_tips": "屏幕录制操作，突出从输入到出图的快速响应，展示3D模型旋转和BOM表格，配上音效和表情反应。加入离谱想法（比如‘自动遛猫无人机’），制造反差。",
-        "target_audience": "硬件DIY爱好者、创客、产品经理，以及好奇AI能做什么的科技粉。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "AI生成3D模型和成本报表的过程观赏性强，无技术门槛，适合制作惊喜感视频。"
+      "transferable_insights": [
+        "做团队知识库时，可以从讨论里的纠错生成更新草稿，让成员确认，减少另写文档的工作。"
+      ],
+      "validation_questions": [
+        "让无权查看某份资料的成员提问，检查回答是否泄露其内容。",
+        "在讨论中纠正一个事实，检查知识更新建议是否准确保留这次修正。"
+      ],
+      "source_tagline": "取代Slack的多玩家AI",
+      "source_description": "别再让团队知识分散在Slack和大家的私人AI聊天里了。PromptQL是团队的多人协作AI，就像共享线程里的Claude或ChatGPT。你可以@队友来审查、修正和优化答案，推理过程不会丢失。还能连接数据库、SaaS应用、编码代理和事件。PromptQL能捕捉团队默契知识，并建议更新共享大脑，让上下文不断累积。通过权限管理，合适的人能看到合适的上下文。"
     },
     {
       "id": "1204238",
       "name": "CrawlRaven",
-      "name_zh": "渡鸦爬取器",
-      "tagline_zh": "GSC+GA4+200项深度抓取的SEO总控台",
-      "description_zh": "连接Google Search Console和Google Analytics，导入Ahrefs或Semrush关键词列表，然后对你的网站进行一次200点的技术SEO审计。它把这些数据揉在一起，直接给你一个排好序的行动计划：告诉你该写什么新内容、改哪些旧内容、优先修哪里。",
-      "intro_zh": "这个工具像个SEO总指挥，把你网站的搜索数据和爬虫问题全打通，然后甩给你一份清晰的执行清单。做SEO的、搞内容优化的，再也不用东拼西凑，直接按它说的来就能提效。",
+      "name_zh": "CrawlRaven",
+      "tagline_zh": "整合 Google 搜索与分析数据、提供 200 项深度抓取检查的 SEO 总控台",
+      "description_zh": "连接 Google Search Console 和 Google Analytics，导入 Ahrefs 或 Semrush 关键词列表，并对网站进行 200 项技术 SEO 检查。它汇总这些数据，给出按优先级排列的新内容、旧内容修改和网站修复建议。",
+      "intro_zh": "给网站运营和搜索优化人员用，汇总搜索、访问与网站检查数据，列出内容和修复任务的先后顺序。",
       "url": "https://www.producthunt.com/products/crawlraven?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/STGKKHUMPHMMK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7ddd5b69-8997-4694-a966-1aa5efb5aba3.png?auto=format",
       "votes_count": 284,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有丰富的仪表盘、数据图表和审计报告，可以进行界面演示和前后对比，展示抓取过程，视觉效果不错。但部分操作较抽象，需要解释。"
+          "reason": "明确解决多来源数据难以变成行动顺序的问题，但排序收益未验证。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "SEO概念和工具集成对小白有一定门槛，需要了解GSC、GA4、Ahrefs等，但工具本身引导清晰，执行清单降低了上手难度。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "ProductHunt排名第4，票数284，热度较高，属于SEO领域新锐工具，有一定话题性。"
+          "reason": "不同来源的页面数据如何对应，直接影响建议是否可靠。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把数据汇总进一步做成有先后顺序的任务，适用于多来源运营工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "让网站流量翻倍？这个SEO工具箱把GSC、GA4和抓取审计全打通了！",
-        "angle": "开箱体验/教程演示",
-        "shooting_tips": "录屏展示连接GSC/GA4过程，演示导入Semrush数据，进行站点抓取，重点突出200点审计结果和行动计划清单。节奏先展示痛点，再演示操作，最后展示优化建议。可以用对比数据强调效果。",
-        "target_audience": "个人站长、SEO优化师、内容营销人员、中小企业主"
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把内容机会和网站修复放进同一份任务表；最影响判断的是排序是否有可追溯的依据。",
+      "product_analysis": {
+        "target_problem": "网站运营人员做 SEO（搜索引擎优化）时，需要判断先写内容还是先修网站。麻烦在于搜索表现、访问数据和技术问题分散，难以一起判断。",
+        "workflow": "连接两项 Google 服务，导入关键词列表，再抓取网站做技术检查。最后查看排好序的新增内容、旧文修改和修复建议。",
+        "ai_value": "介绍没提 AI，主要靠汇总数据和排列任务来改善体验，不能据此认定建议由模型生成。",
+        "differentiation": "它把多来源数据整理成下一步任务，减少自行归纳的工作。若排序依据不透明，用户可能仍要重新判断。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面演示性强，数据整合直观，但目标用户需要一定SEO基础，视频教程能有效降低理解门槛。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到连接两项 Google 服务、导入关键词列表和 200 项技术检查，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先按页面网址对应各来源数据，再把关键词机会和检查问题转成任务，按明确规则排序。",
+        "tradeoffs": "最容易出错的是把同一页面的不同网址当成多个页面，导致数据拆散，任务优先级可能排错。",
+        "unknowns": "没有说明任务优先级依据什么计算。"
+      },
+      "transferable_insights": [
+        "做多来源运营看板时，可以把每个问题转成具体任务，并附上支持它的数据，方便用户判断先做哪项。"
+      ],
+      "validation_questions": [
+        "抽查一条高优先级建议，能否找到支持它的原始数据？",
+        "选一个有多个网址形式的页面，检查数据是否正确归到一起？"
+      ],
+      "source_tagline": "GSC+GA4+200项深度抓取的SEO总控台",
+      "source_description": "连接Google Search Console和Google Analytics，导入Ahrefs或Semrush关键词列表，然后对你的网站进行一次200点的技术SEO审计。它把这些数据揉在一起，直接给你一个排好序的行动计划：告诉你该写什么新内容、改哪些旧内容、优先修哪里。"
     },
     {
       "id": "1202391",
       "name": "AskCodi",
       "name_zh": "AskCodi",
-      "tagline_zh": "大规模编排AI代理，成本砍半",
-      "description_zh": "告诉Codi你想开发什么，它自动制定计划，在所有项目上并行运行AI代理，并给每项任务选最便宜的模型，让你交付更快、开销更少。添加新项目时，它会自己生成章程和任务列表，只在需要你拍板时才通过统一收件箱把你拉进来。",
-      "intro_zh": "这玩意儿能自动把你的开发需求拆成计划，再用最便宜的AI模型并行干活。想省成本又加速交付的开发团队会爱死它。",
+      "tagline_zh": "大规模调度 AI 代理，宣称可将成本减半",
+      "description_zh": "告诉 Codi 想开发什么，它会制定计划，在多个项目中并行运行 AI 代理，并为每项任务选择最便宜的模型。添加新项目时，它会生成章程和任务列表，将需要用户决定的事项集中到统一收件箱；简介宣称这样能加快交付、减少开销。",
+      "intro_zh": "给同时推进多个开发项目的人用，把开发想法拆成任务，交给 AI 执行，并集中处理需要拍板的事项。",
       "url": "https://www.producthunt.com/products/askcodi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YSTXP3TVBSINLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/252f8ec6-67ae-47e6-8d0f-6bd450025703.png?auto=format",
       "votes_count": 258,
       "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的UI界面和流程演示，可录制从输入需求到自动生成计划、代理并行执行、智能选模型的全过程，动态操作画面有吸引力。"
+        "product_value": {
+          "score": 3,
+          "reason": "多项目分工与集中决策的用途清楚，但交付质量和节省幅度未获验证。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及AI代理、并行计算、成本优化等概念，主要面向开发者，普通用户理解门槛高，缺乏技术背景很难看懂。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "当日ProductHunt排名第5，获得258票，在开发者社区有一定话题性和热度。"
+          "reason": "按任务选便宜模型，会遇到价格与完成质量之间的具体取舍。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把需人工决定的事项集中呈现，可借用于多任务协作产品。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "AI总管帮你管所有开发项目，成本还砍半？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从创建新项目开始，输入一个开发需求，观看AskCodi自动生成项目计划和任务列表，然后并行启动多个AI代理处理不同任务，并实时显示各任务的模型选择和成本估算。重点对比传统开发流程的耗时和花费，最后展示统一决策收件箱如何让你只处理关键决定。节奏：轻快剪辑，前10秒抓结果对比，中间详讲操作，结尾展示效率提升。",
-        "target_audience": "软件开发者、技术团队管理者、对AI开发工具感兴趣的极客"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "视频化程度高，有丰富的操作演示潜力，但受众较窄，适合技术类内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重集中处理待决事项，可能减少多项目切换；但缓存资料没有解释选模型的质量门槛，不能据此认定成本真能减半。",
+      "product_analysis": {
+        "target_problem": "面向同时管理多个开发项目的人。拆任务、安排执行和处理待决事项容易分散注意力。",
+        "workflow": "用户描述开发目标，Codi 制定计划并安排多个项目并行执行。新增项目时生成章程和任务列表，需要用户拍板的事项进入统一收件箱。",
+        "ai_value": "AI 代理是能接收任务并执行的软件助手。这里负责规划和执行任务，系统还会为各项任务选择模型。",
+        "differentiation": "它把规划、执行与人工决策放在一起，可能减少逐项协调。最可能让人犹豫的是，自动完成的代码仍可能需要大量检查。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到多项目并行运行 AI 代理、按任务选择最便宜的模型，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先把目标拆成带验收条件的任务，再比较能完成任务的模型价格；执行中遇到待决事项，就送入统一收件箱。",
+        "tradeoffs": "最容易错在选模型：价格低却做不对，用户就得返工，节省的调用费用可能抵不过检查时间。",
+        "unknowns": "它如何判断某个模型足以完成当前任务？"
+      },
+      "transferable_insights": [
+        "做多任务协作工具时，可以把需要人工决定的事项集中到一个收件箱，并附上任务背景，减少来回找上下文。"
+      ],
+      "validation_questions": [
+        "给一个有明确验收条件的小任务，检查自动执行的结果能否通过验收。",
+        "制造一处需要用户选择的需求分歧，检查收件箱是否提供足够的决策背景。"
+      ],
+      "source_tagline": "大规模编排AI代理，成本砍半",
+      "source_description": "告诉Codi你想开发什么，它自动制定计划，在所有项目上并行运行AI代理，并给每项任务选最便宜的模型，让你交付更快、开销更少。添加新项目时，它会自己生成章程和任务列表，只在需要你拍板时才通过统一收件箱把你拉进来。"
     },
     {
-      "id": "1200903",
-      "name": "Moxie Docs: Knowledgebases",
-      "name_zh": "Moxie 文档知识库",
-      "tagline_zh": "为开发者、用户和AI工具自动生成文档，让知识触手可及",
-      "description_zh": "Moxie Docs 现在公开测试了！你可以用它自动生成对外的帮助中心和知识库，界面好看、完全自定义品牌，内置强大搜索，还不锁定数据。跟 Changelog 无缝集成，更新记录直接同步。",
-      "intro_zh": "一个能帮团队自动搭好漂亮帮助文档和知识库的工具，导出、搜索、通知全都有。有文档更新焦虑的开发者、产品经理或者技术写手，这下可以省心不少。",
-      "url": "https://www.producthunt.com/products/moxie-docs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UHAW5ZYE4HXGBR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7b9dcc62-7120-4c2c-83eb-7ab95c18d6ac.png?auto=format",
-      "votes_count": 170,
+      "id": "1204048",
+      "name": "Wispro",
+      "name_zh": "Wispro",
+      "tagline_zh": "把语音转成整理后的文字",
+      "description_zh": "Wispro 可将语音转成文字，直接填入文档、邮件或聊天框。简介还提到过滤口水话、自动润色，以及按口头指令生成整段内容。",
+      "intro_zh": "给想用说话代替打字的人，把口述整理成文字，填入文档、邮件或聊天框。",
+      "url": "https://www.producthunt.com/products/wispro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LAGJ5YI7GQ3DCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a8861495-642a-48e8-8c91-9374d4067a67.png?auto=format",
+      "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有配置界面和公开站点预览，能展示自动生成、搜索、白标等过程，但多为后台操作，缺乏连续视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "虽然主打自动化，但涉及 webhook、集成、无锁定等概念，纯小白用户可能需要学习成本。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第7，获得170票，属于中等热度，有一定话题性。"
+          "reason": "输入场景明确，能减少打字和整理，但改写质量待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "区分口述内容与修改指令是具体难题，实现方式未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "整理后直接填入目标位置的做法，可借用于其他输入工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "从零搭一个专业帮助中心要多久？Moxie Docs 直接给我生成好了",
-        "angle": "对比测评",
-        "shooting_tips": "先展示传统用 Notion/Confluence 搭文档的繁琐，再演示 Moxie Docs 从导入到发布一次生成公开站点的流畅操作，突出搜索和品牌定制功能，快节奏切换。",
-        "target_audience": "SaaS 创业者、技术写作人员、产品经理"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是整理后直接填入目标位置，省去搬运文字；最影响判断的是它能否分清要写的内容和要执行的指令。",
+      "product_analysis": {
+        "target_problem": "写邮件、文档或聊天消息时，想用说话代替打字的人会需要它。口述常带重复和停顿，逐字转写后还可能要手动整理。",
+        "workflow": "用户说出内容或生成指令，工具转写、整理或生成文字，再直接填入目标输入框。简介没说明如何启动。",
+        "ai_value": "介绍没明确提 AI；明确提到语音转文字、过滤口水话、润色和按指令生成内容。",
+        "differentiation": "相比只做逐字转写，可少一次手动整理。最可能让人不愿换用的原因，是润色可能改变原意。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有画面展示空间且概念不算复杂，但缺乏足够爆款潜力，适合作为实用工具类内容产出。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音识别成文字，再区分正文和操作指令，完成整理后写入当前输入框。",
+        "tradeoffs": "最容易错在把正文当成修改指令。例如用户要写下“删掉这一段”，工具却真的删了文字。",
+        "unknowns": "自动润色是否允许关闭，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做邮件或客服输入工具时，可以把整理后的文字直接放回输入位置，减少复制粘贴。"
+      ],
+      "validation_questions": [
+        "口述包含“删掉这一段”的正文，检查它会不会误执行。",
+        "口述包含否定词的句子，检查润色后是否保留原意。"
+      ],
+      "source_tagline": "说完就写好，把声音直接变成干净文字",
+      "source_description": "Wispro 能把你的语音瞬间转成文字，直接贴到文档、邮件或聊天框里。它不只直译，还能过滤口水话、自动润色，甚至听懂你的指令直接生成整段内容。适合任何想用说话代替打字的人。"
     },
     {
       "id": "1189491",
       "name": "Quaso",
       "name_zh": "Quaso",
-      "tagline_zh": "AI自动化代理，一句话帮你跨应用搞定各种琐事",
-      "description_zh": "Quaso把你每天在各应用和网页上的重复杂活变成自动化。你只需用自然语言说你要完成什么，它就会帮你搭建并运行起来。它连接了3000多个服务（像Gmail、Slack、Linear），没API的时候还能操控真实浏览器去操作。可以定时、按触发条件或者随时跑，也能把别人的模板复制成自己的技能，在Slack里@它就能让全团队一起用。",
-      "intro_zh": "说白了就是个能听懂人话的自动操作机器人，你说“把邮件里的订单同步到表格并通知团队”，它马上就在后台给你跑通了。每天困在不同应用里来回搬运信息的打工人、希望团队少点手工操作的小主管，一定会爱上这东西。",
+      "tagline_zh": "用自然语言安排跨应用任务的 AI 自动化代理",
+      "description_zh": "Quaso 接受自然语言指令，搭建并运行跨应用和网页的自动化；缓存简介称其连接了 3000 多个服务，没有接口时可操控真实浏览器。任务可定时、按条件或随时运行，也能复制他人的模板，并在 Slack 中通过 @ 调用供团队使用。",
+      "intro_zh": "给需要跨应用处理重复事务的个人和团队用，把口头描述的任务变成可运行、可复用的自动化。",
       "url": "https://www.producthunt.com/products/notte?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IHWDC3OGYBAC4E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/dbb8ad4e-acb6-4253-b9ac-c1ac71dba82f.png?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有丰富的界面操作和自动化流程演示，可以拍摄从输入自然语言指令到自动运行、跨应用交互的完整过程，前后对比效果直观，适合做成教程或展示类视频。"
+          "reason": "重复事务的场景清楚，但复杂任务能否可靠完成仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "虽然主打自然语言操作，降低了技术门槛，但涉及“自动化”“集成”这些概念，非技术用户第一次接触可能需要一点解释，不过稍作说明就能理解。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "产品排名第10，有135票，处于当日榜单前十，具备一定的话题度和早期关注。"
+          "reason": "接口与浏览器两种执行方式带来了具体的操作可靠性问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "复制模板并在团队聊天中调用，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "说句话就让AI替你在十几个App里跑腿，打工人的终极摸鱼神器！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示：先给一个真实办公痛点（比如手动从邮件提取信息再填入表格），然后打开Quaso，用一句提示生成自动化，展示创建过程、配置集成、运行结果和Slack调用，最后给一个前后耗时对比。节奏轻快，突出“省事儿”的爽感。",
-        "target_audience": "每天和各种办公软件打交道、想从重复操作里解脱的上班族，以及关注效率工具的小团队负责人。"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是接口覆盖不到时仍可尝试网页操作；最影响判断的是操作出错后能否恢复，且不重复执行。",
+      "product_analysis": {
+        "target_problem": "需要跨应用重复处理事务的人，麻烦在于多处操作和反复执行。Quaso 让用户描述目标，再搭建自动化。",
+        "workflow": "说出要完成的任务，让它搭建并运行；之后可定时、按条件或随时执行。团队也能复制模板，在 Slack 中 @ 调用。",
+        "ai_value": "AI 把自然语言要求转成可执行任务。复杂要求能理解到什么程度，简介没有说明。",
+        "differentiation": "省去部分手动搭建自动化的工作。我会先确认关键操作能否由人批准，否则用户可能不敢交出执行权。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介提到服务连接，以及无 API（软件间传数据、发指令的接口）时的真实浏览器操作。",
+        "possible_approach": "如果自己做，可以先把要求拆成步骤，再选择接口或浏览器执行，最后记录每步结果供用户检查。",
+        "tradeoffs": "最难的是浏览器里找准操作对象。页面变化后若点错按钮，可能修改错误记录。",
+        "unknowns": "浏览器操作失败后，能否避免重试时重复提交？"
+      },
+      "transferable_insights": [
+        "做团队自动化工具时，可以让用户复制已有模板再修改，并从团队聊天中调用，减少重复配置。"
+      ],
+      "validation_questions": [
+        "给一项有明确验收条件的跨应用任务，检查生成的步骤是否符合要求。",
+        "让浏览器任务在提交后中断，检查重试是否产生重复记录。"
+      ],
+      "source_tagline": "AI自动化代理，一句话帮你跨应用搞定各种琐事",
+      "source_description": "Quaso把你每天在各应用和网页上的重复杂活变成自动化。你只需用自然语言说你要完成什么，它就会帮你搭建并运行起来。它连接了3000多个服务（像Gmail、Slack、Linear），没API的时候还能操控真实浏览器去操作。可以定时、按触发条件或者随时跑，也能把别人的模板复制成自己的技能，在Slack里@它就能让全团队一起用。"
+    },
+    {
+      "id": "1196080",
+      "name": "Teable 3.0",
+      "name_zh": "Teable 3.0",
+      "tagline_zh": "AI 驱动的业务电子表格",
+      "description_zh": "把业务数据用于 AI 自动化流程和定制应用。简介宣称能连接任何系统、迁移任何数据，并适配业务需求，但未说明支持范围。",
+      "intro_zh": "给需要用业务数据搭建流程和应用的团队，把表格中的数据用于自动化处理和定制业务工具。",
+      "url": "https://www.producthunt.com/products/teable-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XNGC556XAKVRWY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8bdc74c2-105a-45f9-8677-a0730d8bcb58.png?auto=format",
+      "votes_count": 435,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用方向清楚，但缺少具体业务案例和节省工作的说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "数据迁移后的含义能否保留是具体难点，但没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "从现有数据出发搭建流程可以借鉴，适用条件仍待确认。"
+        }
       },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示自动化执行的过程有画面感和实用性，虽然对纯小白需要一点解释，但整体具备不错的视频化潜力。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是让已有数据直接用于业务操作；最影响判断的是连接和迁移的支持范围，缓存简介中的全面兼容承诺不足以作为依据。",
+      "product_analysis": {
+        "target_problem": "手里已有业务数据、又需要自动化流程或定制应用的团队可能会用它。麻烦可能在于数据虽然齐全，仍要另行接入流程和应用。",
+        "workflow": "以业务数据为起点，连接系统或迁移数据，再用于自动化流程和定制应用。简介没有给出具体操作方式。",
+        "ai_value": "AI 被用于自动化流程，但介绍没说它具体负责生成流程、理解数据，还是执行任务。",
+        "differentiation": "它把数据、流程和应用放在同一个产品方向里，可能减少单独拼接工具的工作。我会先确认现有系统能否接入，这是换用它的前提。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 自动化、系统连接和数据迁移，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先导入一张业务表，确认每列含义，再让用户选择触发条件和执行动作，最后生成对应的操作页面。",
+        "tradeoffs": "最容易错在迁移时把字段含义对应错。若把订单日期当成付款日期，后续自动化就可能在错误时间执行。",
+        "unknowns": "所谓连接任何系统，实际支持哪些系统、又有哪些限制？"
+      },
+      "transferable_insights": [
+        "做内部业务工具时，可以先复用团队已有的数据表，再围绕其中一个明确任务增加操作页面，减少重新录入。"
+      ],
+      "validation_questions": [
+        "用一张包含日期、金额和关联记录的业务表迁移，检查字段含义是否保留。",
+        "选一个团队正在使用的系统，检查能否实际完成连接。"
+      ],
+      "source_tagline": "AI驱动的商业电子表格",
+      "source_description": "把你的业务数据直接变成AI自动化流程和定制应用。能连接任何系统、迁移任何数据，百分百贴合你的生意。"
+    },
+    {
+      "id": "1185996",
+      "name": "PodcastorAI",
+      "name_zh": "PodcastorAI",
+      "tagline_zh": "用 AI 主播或自己的数字分身制作视频播客",
+      "description_zh": "把脚本、链接、PDF、想法或已有音频转成视频播客，支持 AI 主播、自然语音、自己的数字分身，以及单人或双人对谈形式。缓存简介称无需摄像机和制作团队，约 15 分钟可得到成品，但耗时与成片质量未经核验。",
+      "intro_zh": "给想做视频播客的创作者，把文字资料或已有音频转成由 AI 形象出镜的单人或双人节目。",
+      "url": "https://www.producthunt.com/products/podcastorai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WE6FPUEOFTA4RI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ecd491ad-0e99-40d2-a39b-fe1cb1e51285.jpeg?auto=format",
+      "votes_count": 316,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "制作场景清楚，但成片能否直接发布仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "声音与人物口型的配合值得检查，但实现信息有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让已有音频直接转成视频，是可借用的具体入口。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重已有音频转视频能省去重新录制。关键疑问是成片需要多少返工，缓存中的“约 15 分钟”不足以回答这一点。",
+      "product_analysis": {
+        "target_problem": "想做视频播客、却不想真人拍摄的创作者会需要它。以前若选择真人出镜，要安排录制和剪辑；现在可以提交素材，让 AI 形象出镜。",
+        "workflow": "提交脚本、链接、PDF 或想法，选择单人或双人形式生成视频。已有音频也可上传，配上 AI 形象。",
+        "ai_value": "AI 负责主播形象和语音呈现，也支持自己的数字分身；资料如何变成节目内容，介绍没展开。",
+        "differentiation": "省去真人拍摄的安排。最可能让人不愿换的是，合成主播可能缺少本人表达的辨识度。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 主播、自然语音和数字分身，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先把资料整理成台词，再生成语音，最后让人物画面跟随声音说话并合成视频。",
+        "tradeoffs": "最难的一步可能是让口型跟上声音；一旦错位，观众会明显感到人物不自然。",
+        "unknowns": "生成后能否只修改一句台词，而不用重做整段？"
+      },
+      "transferable_insights": [
+        "做内容转换工具时，可以给已有音频单独设置上传入口，让用户复用旧内容，不必从写稿开始。"
+      ],
+      "validation_questions": [
+        "上传一段现有音频，检查人物口型是否持续跟得上声音。",
+        "生成后修改一句台词，检查能否局部重做。"
+      ],
+      "source_tagline": "你的AI孪生主播，替你出镜做视频播客",
+      "source_description": "把你的脚本、链接、PDF或想法直接变成演播室级别的视频播客。你可以用AI主播、自然语音，甚至自己的数字分身出镜。PodcastorAI包办所有制作，把你推到屏幕前，把几小时的录制剪辑压缩成大约15分钟就能搞定的成品。单人、双人对谈随便选，无需摄像机、不用制作团队，就能拿到可以发布的视频。已经有音频单集？上传后就能把你的声音和AI形象变成视频播客。"
+    },
+    {
+      "id": "1200903",
+      "name": "Moxie Docs: Knowledgebases",
+      "name_zh": "Moxie Docs: Knowledgebases",
+      "tagline_zh": "为开发者、用户和 AI 工具自动生成文档，方便获取知识",
+      "description_zh": "缓存简介称，Moxie Docs 当时已开放公测，可自动生成对外帮助中心和知识库，支持品牌定制和内置搜索，并宣称不锁定数据。它还支持与 Changelog 集成，同步更新记录。",
+      "intro_zh": "给需要发布产品帮助文档的团队用，生成对外知识库，让用户搜索说明，并同步产品更新记录。",
+      "url": "https://www.producthunt.com/products/moxie-docs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UHAW5ZYE4HXGBR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7b9dcc62-7120-4c2c-83eb-7ab95c18d6ac.png?auto=format",
+      "votes_count": 170,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "发布和查询帮助文档的用途清楚，但自动生成的范围不明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "更新同步有具体问题可讨论，但缺少实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "同步更新记录的做法可借用，维护收益仍需验证。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重更新记录少维护一份的可能性；但自动生成的范围不清楚，还无法判断它能省下多少编辑工作。",
+      "product_analysis": {
+        "target_problem": "面向维护对外帮助文档的产品团队。帮助说明和更新记录分开维护时，内容可能漏改或过时。",
+        "workflow": "生成对外帮助中心或知识库，定制品牌，再让访客搜索内容。接入 Changelog 后可同步更新记录；介绍未说明文档从哪里生成。",
+        "ai_value": "标语提到 AI 工具是文档读者，简介没明确说用 AI 生成内容。不能据此认定它会自动撰写文章。",
+        "differentiation": "把帮助查询与更新记录放在一起，可能减少重复维护。我会先确认已有文档能否迁入，这可能影响团队是否愿意换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到内置搜索和 Changelog 同步，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先把文章发布成可搜索页面，再读取更新记录，按每条记录的唯一编号同步，避免重复创建。",
+        "tradeoffs": "难点是处理已同步记录的修改。若只同步新增内容，用户可能继续看到旧说明。",
+        "unknowns": "“自动生成”指生成网站页面，还是连文章内容也生成？"
+      },
+      "transferable_insights": [
+        "做帮助中心时，可以把更新记录接进同一处查询入口，适合用户经常要查版本变化的产品。"
+      ],
+      "validation_questions": [
+        "用一份现有材料测试自动生成，确认它究竟生成哪些内容。",
+        "修改一条已同步的更新记录，检查知识库对应内容是否更新。"
+      ],
+      "source_tagline": "为开发者、用户和AI工具自动生成文档，让知识触手可及",
+      "source_description": "Moxie Docs 现在公开测试了！你可以用它自动生成对外的帮助中心和知识库，界面好看、完全自定义品牌，内置强大搜索，还不锁定数据。跟 Changelog 无缝集成，更新记录直接同步。"
+    },
+    {
+      "id": "1203012",
+      "name": "canitbebuilt",
+      "name_zh": "canitbebuilt",
+      "tagline_zh": "检查硬件创意的可行性，生成结论、物料清单（BOM）和3D模型。",
+      "description_zh": "输入一句硬件创意描述，即可获得可制造性判断、成本估算、风险与认证提示，以及3D概念模型，无需注册。缓存简介声称两分钟内出结果，并称基于23年硬件制造经验、搭载“GPT-5.6 Terra”；这些说法未经重新核验。",
+      "intro_zh": "给有硬件创意的产品经理和创业者用，输入想法，获取可行性初判、成本估算和概念模型。",
+      "url": "https://www.producthunt.com/products/canitbebuilt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UVNVPKJ4HBVOEE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/326b9fe9-8e58-43f2-b5f3-14cf21963076.png?auto=format",
+      "votes_count": 136,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "早期评估需求明确，但结论准确性和报价依据不明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "一句话需求如何变成有依据的制造判断，是具体技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把判断、成本和概念模型放在一起，便于早期方案讨论。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是在详细设计前集中暴露问题；最大疑问是评估有没有可追溯依据。概念模型本身不能证明能制造。",
+      "product_analysis": {
+        "target_problem": "有硬件想法、尚未定方案的人，需要先判断是否值得继续投入。麻烦在于可制造性、成本和认证要求都要考虑，单看外观不够。",
+        "workflow": "无需注册，输入一句硬件创意描述，获取可行性结论、成本估算、风险与认证提示，以及物料清单和3D概念模型。",
+        "ai_value": "介绍把AI用于从文字创意生成评估与概念输出，但没说明各项结果如何核对。",
+        "differentiation": "它把多项初步评估集中到一次输入。最可能让人犹豫的是结论依据不清，仍可能需要找工程师复核。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称搭载“GPT-5.6 Terra”，但未核验；没有说明具体实现方式。",
+        "possible_approach": "如果自己做，可以先拆出尺寸、功能和使用环境，缺项先追问；再匹配元件资料，估算成本，并按同一组要求生成概念模型。",
+        "tradeoffs": "最容易错在把缺失条件当成默认值。例如没确认防水要求，就可能低估外壳成本，让后续预算失真。",
+        "unknowns": "成本估算按什么生产数量计算？"
+      },
+      "transferable_insights": [
+        "做早期方案评估工具时，可以把结论、费用和示意模型并排展示，让用户检查它们是否描述同一个方案。"
+      ],
+      "validation_questions": [
+        "输入缺少关键条件的创意，看它会追问还是直接下结论。",
+        "用一份已有报价的物料清单，检查相同数量下的估算偏差。"
+      ],
+      "source_tagline": "你的硬件创意，验一验。结论、BOM、3D模型一键生成。",
+      "source_description": "只要用一句话描述你的硬件创意，两分钟内就能知道它能不能造、需要多少钱，还有风险和认证提示，甚至直接拿到3D概念模型。基于23年硬件制造经验，搭载GPT-5.6 Terra，无需注册。"
+    },
+    {
+      "id": "1182375",
+      "name": "RunEvr",
+      "name_zh": "RunEvr",
+      "tagline_zh": "面向创意者的智能项目管理工作空间",
+      "description_zh": "RunEvr 是一个标称由 AI 驱动的工作空间，把项目、讨论、评审和创作放在一起。介绍称，这能减少工具切换，让团队在同一处协作。",
+      "intro_zh": "给需要协作的创意团队用，把项目、讨论、评审和创作集中在一个工作空间里。",
+      "url": "https://www.producthunt.com/products/runevr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/C3ZSCUH4BNRBIC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/247172c2-60e4-44a1-b369-1976dc327dbf.jpeg?auto=format",
+      "votes_count": 192,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但是否能替代现有工具仍缺少具体说明。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "没有说明 AI 的具体任务或各项功能如何连接。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕项目集中讨论和评审的做法可借鉴，但实现细节不足。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我看重的是讨论和作品放在一起后，可能少花时间找上下文；但创作功能的范围不明，尚不能判断它能减少多少工具切换。",
+      "product_analysis": {
+        "target_problem": "创意团队在推进项目时，需要反复讨论和评审。若这些工作分散在不同工具里，找上下文和切换工具就可能打断创作。",
+        "workflow": "团队在同一工作空间内开展项目、讨论、评审和创作。简介没有给出具体操作顺序，也没说明评审结果如何回到项目中。",
+        "ai_value": "介绍只说由 AI 驱动，没有说明 AI 具体做什么，无法判断它能省掉哪项人工工作。",
+        "differentiation": "它主张减少跨工具切换。最可能让团队不愿换过来的原因，是内置创作功能可能无法满足已有的专业需求。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "历史缓存介绍称产品由 AI 驱动，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先让讨论和评审关联到同一个项目，再让每条反馈指向对应作品及版本，方便成员回看上下文。",
+        "tradeoffs": "最容易出错的是反馈对应错版本。作品更新后，成员可能把旧意见当成新要求，改错内容。",
+        "unknowns": "“创作”指直接编辑作品，还是只集中展示和管理文件？"
+      },
+      "transferable_insights": [
+        "做设计交付或内容协作产品时，可以让评审意见直接挂在作品版本旁，减少成员反复找文件、核对意见的麻烦。"
+      ],
+      "validation_questions": [
+        "更新作品后，原有评审意见能否清楚对应到旧版本？",
+        "用一项团队日常创作任务，检查能否在其中完成所需编辑。"
+      ],
+      "source_tagline": "面向创意者的智能项目管理环境",
+      "source_description": "一个AI驱动的一站式工作空间，把你的项目、讨论、评审和创作都连起来。再也不用在多个工具间切来切去，RunEvr让整个创意流程待在一个地方，团队能保持专注、顺畅协作，创作不卡壳。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

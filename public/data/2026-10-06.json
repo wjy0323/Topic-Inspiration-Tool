@@ -1,367 +1,511 @@
 {
   "date": "2026-10-06",
-  "generated_at": "2026-10-07T22:18:32+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:23:29+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1270095",
       "name": "Rill Browser",
       "name_zh": "Rill Browser",
-      "tagline_zh": "The browser where Claude Code and Codex work beside you",
-      "description_zh": "Rill is an AI-native browser built around the Claude Code and Codex you already use. Browse normally, then press ⌘E on any page to turn what you're looking at into a task for your agent. Rill finds the right project, passes along the context, and the agent works while you keep browsing. It also sorts your tabs into themes, turns your history into days you can search, and brings every project your agents are working on into one place. Free, on the plan you already have.",
-      "intro_zh": "",
+      "tagline_zh": "让 Claude Code 和 Codex 在你身边工作的浏览器",
+      "description_zh": "Rill 是围绕 Claude Code 和 Codex 构建的 AI 浏览器：浏览任意页面时按 ⌘E，就能将当前内容变成任务，由它寻找对应项目、传递上下文，让助手在你继续浏览时工作。它还会按主题整理标签页、按天组织可搜索的历史记录，并集中展示助手正在处理的项目；简介称可沿用已有套餐免费使用。",
+      "intro_zh": "给已用 Claude Code 或 Codex 的开发者，把正在看的网页交给编程助手处理，并集中查看项目。",
       "url": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YZHJNNU36WBO6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/68a2e13a-55a4-4e98-b581-281ead67bd56.png?auto=format",
       "votes_count": 417,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和任务入口清楚，但项目匹配是否可靠尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把网页任务交给正确项目，是具体且影响结果的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从当前页面发起任务的做法，可用于其他已有工作环境。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把浏览中产生的任务直接交给已有助手；判断关键在于，它能否稳定找到正确项目。",
+      "product_analysis": {
+        "target_problem": "已用编程助手的开发者，看网页时可能想让助手处理相关任务。麻烦在于还要说明页面内容，以及任务属于哪个项目。",
+        "workflow": "正常浏览，按 ⌘E 将当前页面变成任务。Rill 寻找对应项目并传递上下文，助手继续工作，用户可以继续浏览。",
+        "ai_value": "Claude Code 或 Codex 接收任务并执行。Rill 负责衔接网页与项目；介绍未说明项目匹配是否也用 AI。",
+        "differentiation": "它把发起任务放在浏览现场，可能减少切换和补充背景。最可能让人犹豫的是要改用一个浏览器。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0abf2947-5d06-4175-ba3a-702edc0ea442)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1264594",
-      "name": "OpenBot",
-      "name_zh": "OpenBot",
-      "tagline_zh": "Grok Bot alternative: free, local, open-source, multiplayer",
-      "description_zh": "OpenBot is an open-source workspace for AI teammates. Connect Claude, ChatGPT, Grok, OpenCode, or custom agents on Mac, Windows, and iOS. Give agents clear roles, let them delegate work, and invite your team to collaborate live with the same agents.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6MPDE2Q3ZJDJZF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a7a31e10-1b74-4f56-871f-169a92900251.jpeg?auto=format",
-      "votes_count": 349,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到连接 Claude Code 和 Codex，并传递页面上下文，未说明具体连接方式。",
+        "possible_approach": "如果自己做，可以先提取当前页面内容，再结合任务描述寻找项目候选，让用户确认后交给助手。",
+        "tradeoffs": "最难的是选对项目。选错后，助手可能在无关项目里执行任务，用户还得检查并撤回改动。",
+        "unknowns": "自动选择项目后，执行前能否由用户确认？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: caf71c9b-90eb-4021-be7d-2fee9b2e8dc7)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做文档或设计工具时，可把“当前内容交给助手处理”放在内容旁边，减少用户重新描述背景。"
+      ],
+      "validation_questions": [
+        "打开与两个项目都相关的页面，检查它会把任务分给哪个项目。",
+        "在含关键细节的页面发起任务，检查助手实际收到的内容是否完整。"
+      ],
+      "source_tagline": "The browser where Claude Code and Codex work beside you",
+      "source_description": "Rill is an AI-native browser built around the Claude Code and Codex you already use. Browse normally, then press ⌘E on any page to turn what you're looking at into a task for your agent. Rill finds the right project, passes along the context, and the agent works while you keep browsing. It also sorts your tabs into themes, turns your history into days you can search, and brings every project your agents are working on into one place. Free, on the plan you already have."
     },
     {
       "id": "1262537",
       "name": "AUDR by Chargebee",
       "name_zh": "AUDR by Chargebee",
-      "tagline_zh": "Open standard for tracking agent run costs",
-      "description_zh": "AUDR (Agent Usage Detail Record) is an open standard, for capturing who initiated an agent run and what it cost across every system that run touches. Inspired by the telecom industry's Call Detail Record, AUDR defines a common JSON schema that any harness, router, or billing system can emit and ingest. Three core rules make it work: a shared run ID minted by the harness, clear field ownership, and strict merge rules where conflicts are rejected and corrections are new records.",
-      "intro_zh": "",
+      "tagline_zh": "追踪智能体运行成本的开放标准",
+      "description_zh": "AUDR（智能体使用明细记录）是一项开放标准，用来记录谁发起了智能体运行，以及这次运行涉及的各系统产生了多少费用；它借鉴电信行业的通话明细记录，定义了供运行框架、请求路由和计费系统生成与读取的统一 JSON 数据格式。它规定由运行框架生成共享运行编号、明确字段归属，并严格合并记录：拒绝冲突，修正则另建记录。",
+      "intro_zh": "给开发智能体和计费系统的团队用，用统一记录把一次任务在多个系统里的费用对应起来。",
       "url": "https://www.producthunt.com/products/chargebee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LKE36PULC3BUKW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/554c8399-f393-4c4e-8917-56879a664bf8.png?auto=format",
       "votes_count": 329,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨系统归集费用的问题清楚，但各系统是否支持仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "共享编号、字段归属和冲突处理提供了具体设计规则。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "统一编号和追加修正记录可借用于多系统费用核对。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把一次任务的分散费用对应起来；最影响判断的是共享编号能否随任务传遍实际涉及的系统。",
+      "product_analysis": {
+        "target_problem": "开发智能体和计费系统的团队，需要查清谁发起了一次任务、各系统分别花了多少。麻烦在于把分散记录对应到同一次运行。",
+        "workflow": "运行框架先生成共享编号；相关系统按统一格式输出和读取记录，再按字段归属合并。遇到冲突就拒绝，纠错另建记录。",
+        "ai_value": "AI 是被记录费用的对象。介绍没提用 AI 自动核账，主要靠统一记录规则改善费用追踪。",
+        "differentiation": "统一格式可能减少逐个对照记录的工作；但相关系统都要配合记录，可能让团队不愿接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 40ccfdb1-b5d3-455e-8c7b-146cad227d6f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "采用 JSON（结构化文本格式），规定共享运行编号、字段归属，以及拒绝冲突、另建修正记录的合并规则。",
+        "possible_approach": "如果自己做，可以先给每次任务分配编号，再让各系统随费用记录传回编号，最后检查字段归属并汇总。",
+        "tradeoffs": "最难的是让共享编号贯穿所有系统。中途漏传，费用就可能无法归到原任务。",
+        "unknowns": "新增的修正记录如何关联原记录，并参与最终费用计算？"
+      },
+      "transferable_insights": [
+        "做跨系统费用核对时，可先统一任务编号，再汇总明细，避免只靠时间和金额猜对应关系。"
+      ],
+      "validation_questions": [
+        "让一次任务经过多个系统，检查每笔费用是否保留同一运行编号。",
+        "提交一条修正记录，检查最终费用是否只计入修正后的金额。"
+      ],
+      "source_tagline": "Open standard for tracking agent run costs",
+      "source_description": "AUDR (Agent Usage Detail Record) is an open standard, for capturing who initiated an agent run and what it cost across every system that run touches. Inspired by the telecom industry's Call Detail Record, AUDR defines a common JSON schema that any harness, router, or billing system can emit and ingest. Three core rules make it work: a shared run ID minted by the harness, clear field ownership, and strict merge rules where conflicts are rejected and corrections are new records."
     },
     {
       "id": "1266988",
       "name": "Fuse AI",
       "name_zh": "Fuse AI",
-      "tagline_zh": "Build a Custom GTM Stack. One SDK. One MCP.",
-      "description_zh": "Your GTM stack shouldn’t need a dozen tools, subscriptions, and APIs. Fuse gives developers and AI agents one SDK and MCP for the entire workflow. Think OpenRouter x Apollo x Clay x Zapier. Fuse takes care of web automations, data enrichment, multi-channel outreach, workflows, and AI agents. Build unlimited workflows and agents on top, without stitching together separate GTM products for every step.",
-      "intro_zh": "",
+      "tagline_zh": "构建定制的获客与销售工具组合，只用一套 SDK 和一个 MCP 接入。",
+      "description_zh": "Fuse 为开发者和 AI 代理提供统一接入，覆盖网页自动化、资料补全、多渠道联系和工作流。产品介绍称，可以在其上构建不限数量的工作流和 AI 代理，减少逐步拼接不同获客与销售产品的需要。",
+      "intro_zh": "给开发者和 AI 代理用，把资料补全、联系潜在客户等获客与销售动作接入自建流程。",
       "url": "https://www.producthunt.com/products/fuseai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/I3CDQPOEFCTVY6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7a556450-a54e-4e0e-83df-d144927a64e5.jpeg?auto=format",
       "votes_count": 308,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "减少多工具接入的需求明确，但实际覆盖范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "连续执行多个动作时，如何处理失败是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把相关动作统一提供给开发者和代理，适用于需要组合多个服务的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是减少分别接入多款工具的工作；最影响判断的是，它能否覆盖用户真正需要的完整流程。",
+      "product_analysis": {
+        "target_problem": "开发者搭建获客与销售流程时，可能要分别连接资料、联系和自动化工具。以前分散接入的动作，现在可以通过 Fuse 统一调用。",
+        "workflow": "开发者接入后，组合网页自动化、资料补全和多渠道联系等动作，建立自己的工作流或 AI 代理。介绍没有给出具体配置步骤。",
+        "ai_value": "它给 AI 代理提供可执行的业务动作。介绍没有说明 AI 如何判断下一步，也未披露具体模型。",
+        "differentiation": "主要省去分别接入多款产品的工作。已有系统若要改用统一入口，可能需要重写现有调用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5164814c-ea3f-42e6-ab90-f76e504f4824)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供 SDK（供程序调用的开发工具包）和 MCP（让 AI 连接外部工具的协议）。",
+        "possible_approach": "如果自己做，可以先把资料补全、发送消息等动作统一成调用格式，再允许开发者把动作串起来，并记录每一步结果。",
+        "tradeoffs": "最容易出错的是失败后的重试：若消息已发出却没记成功，再试一次可能重复联系客户。",
+        "unknowns": "统一接入具体覆盖哪些渠道和操作，介绍没有列清楚。"
+      },
+      "transferable_insights": [
+        "做需要连接多个业务工具的产品时，可以把常用动作做成统一入口，让用户按任务组合，减少逐个接入的工作。"
+      ],
+      "validation_questions": [
+        "选一个现有获客流程，检查所需动作是否都能完成。",
+        "模拟发送后返回失败，检查重试是否会重复发送。"
+      ],
+      "source_tagline": "Build a Custom GTM Stack. One SDK. One MCP.",
+      "source_description": "Your GTM stack shouldn’t need a dozen tools, subscriptions, and APIs. Fuse gives developers and AI agents one SDK and MCP for the entire workflow. Think OpenRouter x Apollo x Clay x Zapier. Fuse takes care of web automations, data enrichment, multi-channel outreach, workflows, and AI agents. Build unlimited workflows and agents on top, without stitching together separate GTM products for every step."
     },
     {
       "id": "1264151",
       "name": "Incredible",
       "name_zh": "Incredible",
-      "tagline_zh": "Vibe computing. Control your computer with your voice.",
-      "description_zh": "Incredible is your personal AI assistant that gets work done on your computer. It learns how you work by watching you do it. Show it a task on your computer, talk through the steps, and let it handle the routine from there, from processing invoices and updating your CRM to editing spreadsheets.",
-      "intro_zh": "",
+      "tagline_zh": "用语音控制电脑。",
+      "description_zh": "Incredible 是一款在电脑上执行工作的个人 AI 助手，介绍称它能观察并学习你的操作方式。你可以演示任务并口述步骤，让它接手处理发票、更新客户关系管理系统或编辑表格等日常工作。",
+      "intro_zh": "给经常处理电脑重复任务的人用，演示操作并口述步骤，让 AI 助手接手后续工作。",
       "url": "https://www.producthunt.com/products/incredible?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4HJ5NAOQFNL6CT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9ffc1ba6-97ee-4fb3-b40c-76cc1bae66ce.jpeg?auto=format",
       "votes_count": 286,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "重复办公任务的场景清楚，但能独立完成多少工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从一次演示中区分固定步骤和变化数据，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "边操作边讲解的教学方式，可借用于重复任务的配置。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是直接用现有操作教任务；最影响判断的是换一批数据后，能否正确执行。",
+      "product_analysis": {
+        "target_problem": "处理发票、维护客户资料的人，会反复执行相似的电脑操作。它想省掉的是这些任务中的重复执行。",
+        "workflow": "用户在电脑上演示任务，同时口述步骤，再让助手接手同类日常工作。介绍未交代具体如何启动执行。",
+        "ai_value": "AI 用来观察操作、结合口头说明学习任务，再代为执行；具体能学会多复杂的流程还不清楚。",
+        "differentiation": "它把配置方式变成了演示加讲解，可能减少手动描述操作规则的负担。若每次都得逐步检查，用户可能不愿交给它。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f547a6cd-de78-4992-9d73-996cb232046e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称助手能观察并学习用户操作，支持语音控制，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录演示中的画面、操作和口述，再整理出步骤，标出每次需要替换的数据，执行前请用户确认。",
+        "tradeoffs": "最难的是分清哪些内容只是示例。若把演示中的客户名当成固定值，下一次可能更新错客户。",
+        "unknowns": "遇到与演示不同的情况时，它会暂停询问还是继续执行？"
+      },
+      "transferable_insights": [
+        "做重复办公任务工具时，可以让用户边操作边讲解，再生成可确认的步骤，减少填写规则的负担。"
+      ],
+      "validation_questions": [
+        "演示一次后，换一组客户数据，检查它是否仍更新到正确客户。",
+        "执行时出现演示中没有的弹窗，检查它是否暂停询问。"
+      ],
+      "source_tagline": "Vibe computing. Control your computer with your voice.",
+      "source_description": "Incredible is your personal AI assistant that gets work done on your computer. It learns how you work by watching you do it. Show it a task on your computer, talk through the steps, and let it handle the routine from there, from processing invoices and updating your CRM to editing spreadsheets."
     },
     {
       "id": "1271039",
       "name": "Extrovert",
       "name_zh": "Extrovert",
-      "tagline_zh": "Run LinkedIn outreach from your agent",
-      "description_zh": "Extrovert finds prospects, suggests who to comment on or DM today, and prepares drafts in your voice. Review in 20 minutes a day, or hand the whole job to your Claude.",
-      "intro_zh": "",
+      "tagline_zh": "让你的智能助手开展 LinkedIn 主动联系",
+      "description_zh": "Extrovert 寻找潜在客户，建议今天该给谁评论或发私信，并按你的口吻准备草稿。介绍称，每天可花 20 分钟审核，也可把整项工作交给 Claude。",
+      "intro_zh": "给在 LinkedIn 上找客户的人用，推荐当天联系对象，并准备评论和私信草稿。",
       "url": "https://www.producthunt.com/products/extrovert?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7SIV3AMV5HON7K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/24ac9e29-a2a0-4502-af50-69d2737533c1.jpeg?auto=format",
       "votes_count": 267,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找人、安排联系和写草稿的用途清楚，但推荐质量尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "代写与委托执行带来具体问题，但实现资料很少。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把候选对象和草稿一起交给用户审核，适合借到其他主动联系工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把选人和起草放在一起；最影响判断的是，它能否把不合适的联系对象筛掉。",
+      "product_analysis": {
+        "target_problem": "在 LinkedIn 上拓客的销售或创业者，需要决定联系谁、说什么。它把找对象、排当天联系建议和写草稿放在一起。",
+        "workflow": "工具寻找潜在客户，推荐当天评论或私信的对象，再生成符合用户口吻的草稿。用户审核，或按介绍将工作交给 Claude；委托后的具体操作未说明。",
+        "ai_value": "介绍提到 Claude，也明确提供按用户口吻起草内容的功能，但没有说明草稿是否由 Claude 生成。",
+        "differentiation": "把联系对象和拟好的话一起给出，可能减少来回准备。用户最可能犹豫的是：推荐的人是否真有联系价值。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 075500a0-1270-472d-8f4c-f8dd3bec17b2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1270741",
-      "name": "Willow Knowledge",
-      "name_zh": "Willow Knowledge",
-      "tagline_zh": "Your AI already knows you. Now Willow can too.",
-      "description_zh": "Willow Knowledge lets you bring your writing style and personal context into Willow from ChatGPT, Claude, Gemini, or any AI you use. It's like giving superpowers to Willow Scribe. From now on, your email, slack msg, prompt, or wherever you write will sound exactly like you when you dictate.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GG2FLKBOEACAJO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d29b4c26-e945-42f2-8de5-c1a0a3cc95df.png?auto=format",
-      "votes_count": 143,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到可把工作交给 Claude，未说明具体连接方式。",
+        "possible_approach": "如果自己做，可以先按用户定义的客户条件筛选候选人，再结合对方内容和用户写作样例起草，最后交给用户审核。",
+        "tradeoffs": "最容易错在把语气写得像用户，却误解对方内容；一旦发出，可能损害关系。",
+        "unknowns": "交给 Claude 后，哪些对外动作仍需要用户确认？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2761e668-dfef-483b-b763-6d188546c436)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做销售跟进工具时，可以把“今天联系谁”和对应草稿放在同一待办里，让用户逐条决定是否采用。"
+      ],
+      "validation_questions": [
+        "抽查一批推荐对象，是否符合预先写明的客户条件？",
+        "委托 Claude 后，对外发送前能否要求逐条确认？"
+      ],
+      "source_tagline": "Run LinkedIn outreach from your agent",
+      "source_description": "Extrovert finds prospects, suggests who to comment on or DM today, and prepares drafts in your voice. Review in 20 minutes a day, or hand the whole job to your Claude."
     },
     {
       "id": "1245696",
       "name": "Coddy",
       "name_zh": "Coddy",
-      "tagline_zh": "Learn to code 20+ languages in a fun way with short lessons",
-      "description_zh": "Coddy teaches you to code with short, interactive lessons you actually finish. 20+ languages (Python, JS, C++, SQL, Rust, Go...), a real code editor in the browser with test cases, streaks, weekly leagues and Bugsy - an AI tutor that gives hints, not answers. Everything is free with a daily limit, on web, iOS and Android. 5M+ learners so far. Product Hunt visitors get 50% off any plan for 72h, applied automatically.",
-      "intro_zh": "",
+      "tagline_zh": "用简短课程，以有趣的方式学习 20 多种编程语言",
+      "description_zh": "Coddy 提供简短的互动编程课，涵盖 Python、JS、C++、SQL、Rust、Go 等 20 多种语言，配有带测试用例的浏览器代码编辑器、连续学习记录、每周联赛，以及提供提示而非直接答案的 AI 导师 Bugsy。简介称其支持网页、iOS 和 Android，免费使用有每日额度，已有超过 500 万名学习者；缓存还提到面向 Product Hunt 访客的 72 小时套餐五折活动，当前是否有效未经核验。",
+      "intro_zh": "给想学编程的人用，把短课和代码练习放在一起，卡住时可向 AI 导师要提示。",
       "url": "https://www.producthunt.com/products/coddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UKMYYMNUR2X4TH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ec88fb8b-fc67-4608-986b-4176681a9613.png?auto=format",
       "votes_count": 134,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "学习、练习和求助集中在一起，但学习效果尚无材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何给出有用提示又不泄露答案，是明确的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "短练习配合渐进提示，可借用于其他技能学习产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是学完就能动手验证；最大的疑问是 AI 提示能否帮助理解，而不只是推动过关。",
+      "product_analysis": {
+        "target_problem": "适合想用零散时间学编程的人。课程太长可能难坚持，写代码卡住又缺少提示，也容易中断学习。",
+        "workflow": "用户学习短课，在浏览器编辑器里写代码，借助测试用例检查结果。遇到问题时，可向 Bugsy 获取提示。",
+        "ai_value": "Bugsy 的定位是提示解题方向，不直接给答案。它可能减少卡住后的等待，但提示是否有助于理解仍需试用。",
+        "differentiation": "课程内就能写代码并检查结果，省去另找练习环境的麻烦。每日免费额度可能打断一次完整学习，这是我会先确认的限制。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5bbf68c0-ba5b-4749-a09d-46396c88f900)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到浏览器代码编辑器、测试用例和 AI 导师，未说明具体模型或代码运行方式。",
+        "possible_approach": "如果自己做，可以先为短课配好题目和测试，再把学习者的代码及测试结果交给 AI，让它每次只提示一个方向。",
+        "tradeoffs": "最容易出错的是提示尺度：直接给出关键代码，可能让学习者做完题却没理解原因。",
+        "unknowns": "Bugsy 是否能根据当前代码给出针对性的提示，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做技能练习产品时，可以把内容拆成短任务，并让每项任务都有可检查的结果。",
+        "做学习助手时，可以先给小提示，再由用户决定是否继续求助，保留自己思考的空间。"
+      ],
+      "validation_questions": [
+        "故意写一段有逻辑错误的代码，检查 Bugsy 能否指出思考方向而不直接交出答案。",
+        "按正常节奏完成一组课程，检查免费额度是否会在练习中途耗尽。"
+      ],
+      "source_tagline": "Learn to code 20+ languages in a fun way with short lessons",
+      "source_description": "Coddy teaches you to code with short, interactive lessons you actually finish. 20+ languages (Python, JS, C++, SQL, Rust, Go...), a real code editor in the browser with test cases, streaks, weekly leagues and Bugsy - an AI tutor that gives hints, not answers. Everything is free with a daily limit, on web, iOS and Android. 5M+ learners so far. Product Hunt visitors get 50% off any plan for 72h, applied automatically."
     },
     {
       "id": "1270701",
       "name": "iphone-use",
       "name_zh": "iphone-use",
-      "tagline_zh": "Let AI agents drive a real iPhone, even apps with no API",
-      "description_zh": "iphone-use gives an AI agent a real iPhone: the screen as text, tap, type and scroll over WebDriverAgent, with an honest answer for every action (applied, not sent, or unknown). Payment apps that block screenshots come back as a wireframe. A task done once becomes a flow that replays with no model. HTTP API, a 21-tool MCP server for Claude Code, and remote control from a browser or iOS app. Open source, MIT.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 智能体操作真实 iPhone，包括没有 API 的应用",
+      "description_zh": "iphone-use 让 AI 智能体操作真实 iPhone：通过 WebDriverAgent 读取文字形式的屏幕内容、点击、输入和滚动，并把每次操作标为已执行、未发送或结果未知；对禁止截图的支付应用，返回界面线框图。完成过一次的任务可保存为无需模型即可回放的流程，同时提供 HTTP API、供 Claude Code 使用的 21 项 MCP 工具，以及浏览器和 iOS 应用远程控制，代码以 MIT 许可证开源。",
+      "intro_zh": "给想让 AI 操作手机应用的开发者，用真实 iPhone 读取界面、执行操作，并保存可重复运行的任务。",
       "url": "https://www.producthunt.com/products/iphone-use?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P4NPAMMP35SW4H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/349b7283-58bf-48a5-9d29-67546dc749c6.jpeg?auto=format",
       "votes_count": 111,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确面向没有接口的手机应用，但运行条件和可靠性待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "操作结果未知时如何恢复，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把完成过的任务保存为固定流程，适合重复操作场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它区分操作状态，给后续处理留下依据；但尚不清楚它如何确认应用里的任务真的完成。",
+      "product_analysis": {
+        "target_problem": "开发者想让 AI 代操作手机应用时，可能拿不到 API（让软件互相传数据的接口）。它提供从界面执行任务的办法。",
+        "workflow": "智能体读取屏幕文字，再点击、输入或滚动，接收每步操作状态。完成一次的任务可存成流程，之后无需模型即可回放。",
+        "ai_value": "AI 根据界面决定下一步操作；固定流程回放则不再调用模型。",
+        "differentiation": "省去每次都让模型重新决定步骤的过程。但接入真实 iPhone 的配置负担可能让人犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0574b167-34a0-4485-ad60-341f7271e140)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "通过 WebDriverAgent（iPhone 自动化控制工具）操作设备；提供 MCP（让 AI 调用工具的连接方式），以 MIT 许可证开源。",
+        "possible_approach": "如果自己做，可以先把界面整理成文字，再让模型选操作；记录成功步骤，供后续按顺序回放。",
+        "tradeoffs": "最难处理的是结果未知：直接重试可能重复提交，尤其涉及支付时，不能把点击已执行当成业务已成功。",
+        "unknowns": "固定流程遇到界面变化时，是否会停下并要求确认？"
+      },
+      "transferable_insights": [
+        "做重复操作工具时，可把跑通过的步骤保存为固定流程，减少后续对模型判断的依赖。"
+      ],
+      "validation_questions": [
+        "模拟操作后连接中断，检查工具能否明确报告结果未知。",
+        "改变一个按钮的位置，检查已保存流程是否会误点。"
+      ],
+      "source_tagline": "Let AI agents drive a real iPhone, even apps with no API",
+      "source_description": "iphone-use gives an AI agent a real iPhone: the screen as text, tap, type and scroll over WebDriverAgent, with an honest answer for every action (applied, not sent, or unknown). Payment apps that block screenshots come back as a wireframe. A task done once becomes a flow that replays with no model. HTTP API, a 21-tool MCP server for Claude Code, and remote control from a browser or iOS app. Open source, MIT."
     },
     {
       "id": "1264891",
       "name": "Ghostifier",
       "name_zh": "Ghostifier",
-      "tagline_zh": "Companies have your data. Ghostifier gets them to delete it.",
-      "description_zh": "Instead of one form per company, Ghostifier starts from your inbox. It finds who holds your data, unsubscribes you and opts you out of sale and sharing on day one, waits out the return window, then sends deletion requests and tracks every reply. Banks, insurers and your employer are left alone. It also asks data brokers to delete you. Gmail access is headers only, so it never reads your email bodies, and there is no AI: every decision follows fixed rules.",
-      "intro_zh": "",
+      "tagline_zh": "公司持有你的数据，Ghostifier 帮你要求它们删除。",
+      "description_zh": "Ghostifier 从收件箱识别持有你数据的公司，首日退订并申请退出数据出售与共享，等退货期结束后再发送删除请求、跟踪回复，也向数据经纪商提出删除要求。它不处理银行、保险公司和雇主；Gmail 只读取邮件头、不读正文，所有判断依照固定规则，不使用 AI。",
+      "intro_zh": "给想减少个人数据留存的人用，从收件箱找出相关公司，代发退订和删除请求，并跟踪回复。",
       "url": "https://www.producthunt.com/products/ghostifier?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QG5QFVAPFLFDXH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/aaa3a2ac-a598-447a-b101-656f01d07de9.png?auto=format",
       "votes_count": 111,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把逐家公司申请变成集中处理，但实际删除结果未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "只读邮件头仍要识别公司并避开重要账户，存在具体判断难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先做退订、延后删除的分阶段处理，可借用于有等待期的任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "集中跟踪请求能减少遗漏，但公司回信不等于数据已经删除，结果如何确认最影响判断。",
+      "product_analysis": {
+        "target_problem": "想清理个人数据的人，以前可能要逐家公司填表、追踪回复。现在可以从收件箱集中发起请求，减少重复处理。",
+        "workflow": "从收件箱识别公司，先退订并申请停止出售、共享数据。等退货期结束再请求删除，持续跟踪回复，并跳过银行、保险公司和雇主。",
+        "ai_value": "明确不使用 AI，主要靠固定规则决定处理对象和时机。",
+        "differentiation": "省下逐家申请的操作。最可能让人犹豫的是：为了清理数据，需要先开放邮箱邮件头访问权限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 42bbbd3f-62bd-4d4c-8c46-bd5219935c1b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "Gmail 访问限于邮件头、不读正文；所有决策使用固定规则。",
+        "possible_approach": "如果自己做，可以先从邮件头归并公司，按规则排除重要账户，再记录等待期限、发送请求并整理回复。",
+        "tradeoffs": "最难的是把发件人正确对应到公司；一旦认错，可能向用户仍需使用的服务发出删除请求。",
+        "unknowns": "只读邮件头时，如何确定退货期何时结束？"
+      },
+      "transferable_insights": [
+        "做账户清理工具时，可以把退订与删除拆开执行，让可能影响售后的操作晚一步发生。"
+      ],
+      "validation_questions": [
+        "用含银行、保险公司和雇主邮件的邮箱测试，检查它们是否被排除。",
+        "选一家已发出删除请求的公司，检查工具能否区分收件确认与删除完成。"
+      ],
+      "source_tagline": "Companies have your data. Ghostifier gets them to delete it.",
+      "source_description": "Instead of one form per company, Ghostifier starts from your inbox. It finds who holds your data, unsubscribes you and opts you out of sale and sharing on day one, waits out the return window, then sends deletion requests and tracks every reply. Banks, insurers and your employer are left alone. It also asks data brokers to delete you. Gmail access is headers only, so it never reads your email bodies, and there is no AI: every decision follows fixed rules."
+    },
+    {
+      "id": "1264594",
+      "name": "OpenBot",
+      "name_zh": "OpenBot",
+      "tagline_zh": "Grok Bot 替代工具：免费、本地、开源，支持多人协作",
+      "description_zh": "OpenBot 是一个供 AI 队友协作的开源工作空间，可在 Mac、Windows 和 iOS 上连接 Claude、ChatGPT、Grok、OpenCode 或自定义智能体。用户可以给智能体分配明确角色，让它们委派工作，并邀请团队成员与同一组智能体实时协作。",
+      "intro_zh": "给需要共同使用 AI 的团队，在一个工作空间里分配 AI 角色，并让同事参与协作。",
+      "url": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6MPDE2Q3ZJDJZF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a7a31e10-1b74-4f56-871f-169a92900251.jpeg?auto=format",
+      "votes_count": 349,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "团队共用 AI 的场景清楚，但能省多少交接工作尚未说明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人同时指挥同一组 AI 时，任务冲突是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "角色分工和共享协作可以借鉴，但适用任务与收益待确认。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重团队能围绕同一组 AI 分工；最影响判断的是多人指令冲突时，系统能否保持任务清楚。",
+      "product_analysis": {
+        "target_problem": "团队一起用 AI 做任务时，需要让同事知道各个 AI 负责什么、工作交给了谁。OpenBot 面向这种共同分工的场景。",
+        "workflow": "连接所需的 AI 智能体（能接收任务并执行工作的 AI 程序），给它们设定角色，再邀请同事实时协作；介绍也支持智能体之间委派工作。",
+        "ai_value": "AI 在这里承担不同角色，并把工作委派出去。介绍没有说明它们能独立完成哪些任务。",
+        "differentiation": "把角色分配与多人协作放在一起，可能减少转述任务的麻烦。若团队已有固定的 AI 使用方式，迁移现有任务可能让人犹豫。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、连接多种 AI 和跨平台使用；未说明具体连接技术。",
+        "possible_approach": "如果自己做，可以先统一记录任务、负责人和进度，再让不同 AI 领取任务，把结果放回团队共享的记录。",
+        "tradeoffs": "最难的是处理互相冲突的指令。两位同事同时改派同一任务，可能让 AI 重复执行，或按过时要求继续工作。",
+        "unknowns": "标语中的“本地”是否包括 AI 推理，即 AI 生成结果的计算过程？"
+      },
+      "transferable_insights": [
+        "做团队 AI 助手时，可以把角色、任务负责人和处理进度放在同一处，让同事接手前先看清分工。"
+      ],
+      "validation_questions": [
+        "让两名成员同时改派同一任务，检查是否出现重复执行。",
+        "检查一次任务执行时，哪些内容会发送到外部 AI 服务。"
+      ],
+      "source_tagline": "Grok Bot alternative: free, local, open-source, multiplayer",
+      "source_description": "OpenBot is an open-source workspace for AI teammates. Connect Claude, ChatGPT, Grok, OpenCode, or custom agents on Mac, Windows, and iOS. Give agents clear roles, let them delegate work, and invite your team to collaborate live with the same agents."
+    },
+    {
+      "id": "1270741",
+      "name": "Willow Knowledge",
+      "name_zh": "Willow Knowledge",
+      "tagline_zh": "你的 AI 已经了解你，现在 Willow 也可以。",
+      "description_zh": "Willow Knowledge 可将你在 ChatGPT、Claude、Gemini 等 AI 中的写作风格和个人背景带入 Willow，供 Willow Scribe 使用。简介称，这能让口述生成的邮件、Slack 消息或提示词更像你平时的表达。",
+      "intro_zh": "给用口述写邮件、消息的人，把其他 AI 中的个人背景和写作风格带进 Willow。",
+      "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GG2FLKBOEACAJO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d29b4c26-e945-42f2-8de5-c1a0a3cc95df.png?auto=format",
+      "votes_count": 143,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但省下多少修改取决于风格还原效果。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何学到语气又不改动原意，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "复用已有个人资料的做法可借鉴，但导入条件不明。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是让口述写作复用已有偏好；最影响判断的是，它能否在学语气时不改原意。",
+      "product_analysis": {
+        "target_problem": "适合已有 AI 使用积累、又想用口述写作的人。口述成文后，措辞可能还要改，才能像自己平时写的。",
+        "workflow": "把其他 AI 中的写作风格和个人背景带入 Willow，再用 Willow Scribe 口述成文。介绍没说明如何导入。",
+        "ai_value": "AI 用个人背景和写作风格影响口述后的文字表达；“完全像本人”只是简介中的效果主张。",
+        "differentiation": "它把已有的个人资料用于口述写作，可能减少重新交代偏好的麻烦。用户可能不愿把私人背景再交给一个工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到可从 ChatGPT、Claude、Gemini 等 AI 带入个人背景和写作风格，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户提供写作样本和背景，再整理成可修改的偏好，生成口述文本时参考。",
+        "tradeoffs": "最难的是模仿语气时保留原意。若把直接要求改成委婉建议，收件人可能误解用户的决定。",
+        "unknowns": "导入时能否只选择需要的资料，不带入整段私人对话？"
+      },
+      "transferable_insights": [
+        "做个性化写作工具时，可先展示从样本中整理出的语气偏好，让用户修改后再用于生成。"
+      ],
+      "validation_questions": [
+        "导入一组风格明确的样本后，口述成文是否体现了这些表达习惯？",
+        "口述包含明确拒绝的内容，生成文字是否保留拒绝的意思？"
+      ],
+      "source_tagline": "Your AI already knows you. Now Willow can too.",
+      "source_description": "Willow Knowledge lets you bring your writing style and personal context into Willow from ChatGPT, Claude, Gemini, or any AI you use. It's like giving superpowers to Willow Scribe. From now on, your email, slack msg, prompt, or wherever you write will sound exactly like you when you dictate."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

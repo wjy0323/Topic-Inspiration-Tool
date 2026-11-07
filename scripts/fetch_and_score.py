@@ -5,11 +5,14 @@ import os
 import json
 import time
 import traceback
+import argparse
+from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
 import pytz
 import requests
 from openai import OpenAI
+from dotenv import load_dotenv
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -20,49 +23,48 @@ PH_GRAPHQL_URL = "https://api.producthunt.com/v2/api/graphql"
 BEIJING_TZ = pytz.timezone("Asia/Shanghai")
 OUTPUT_DIR = "public/data"
 
-SYSTEM_PROMPT = """\
-你是一位资深的AI工具测评博主，擅长判断一个产品是否适合做成视频内容。\
-你的读者是"普通互联网用户"，不是技术人员。
-
-请阅读以下 ProductHunt 产品信息，输出一个严格的 JSON：
-
-{
-  "name_zh": "产品名称地道中文翻译",
-  "tagline_zh": "一句话标语的中文翻译（科普杂志风格）",
-  "description_zh": "产品简介的中文翻译（通俗口语化，2-3句说清楚它是什么、给谁用）",
-  "intro_zh": "产品卡片简介（30-50字），用大白话、像跟朋友聊天一样说清楚：第一句——这玩意儿干嘛的，第二句——什么人会需要它、为什么。禁止使用"该产品""它帮助""面向"这类僵硬表述，要自然有温度。示例："在Mac上装了个过目不忘的记忆助手，看到啥都能帮你记住、随时搜回来。经常忘事、记不住承诺的上班族和学生党必备。"",
-  "scores": {
-    "video_suitability": {
-      "score": <1-5整数>,
-      "reason": "为什么适合/不适合拍视频（画面观感、演示效果、视觉冲击力）"
-    },
-    "beginner_friendly": {
-      "score": <1-5整数>,
-      "reason": "普通人能否看懂（概念复杂度、是否需要技术背景、使用门槛）"
-    },
-    "popularity": {
-      "score": <1-5整数>,
-      "reason": "热度判断（ProductHunt排名、票数、话题性）"
-    }
-  },
-  "video_inspiration": {
-    "title_idea": "视频标题灵感（B站/抖音风格，抓眼球）",
-    "angle": "拍摄切入角度（开箱体验/对比测评/教程演示/行业解读/娱乐吐槽）",
-    "shooting_tips": "拍摄具体建议（录哪些画面、突出什么卖点、用什么节奏）",
-    "target_audience": "目标观众画像"
-  },
-  "category": "产品分类标签（从以下选择最匹配的一个：AI工具 | 效率工具 | 设计创意 | 开发工具 | 社交生活 | 数据分析 | 安全隐私 | 硬件设备 | 游戏娱乐 | 教育学习 | 金融商业 | 健康健身 | 其他）",
-  "overall_suggestion": "<强力推荐 | 可以做 | 谨慎考虑>",
-  "overall_reason": "一句话总结理由"
+SYSTEM_PROMPT = (Path(__file__).parent / "prompts" / "product_analysis.md").read_text(encoding="utf-8")
+SCORE_KEYS = ("product_value", "technical_insight", "transferability")
+ANALYSIS_FIELDS = {
+    "product_analysis": ("target_problem", "workflow", "ai_value", "differentiation"),
+    "technical_analysis": ("disclosed_facts", "possible_approach", "tradeoffs", "unknowns"),
 }
 
-评分标准：
-- 🎬 视频化程度：有丰富UI/画面操作/前后对比 → 高分；纯文字/概念/后台API → 低分
-- 🌱 小白友好度：普通人秒懂能上手 → 高分；需要编程/技术背景 → 低分
-- 🔥 热度：PH前3名 → 5分；前10 → 4分；10名后 → 3分
-- overall_suggestion：🎬≥4 且 🌱≥4 → 强力推荐；🎬≥2 → 可以做；其余 → 谨慎考虑
 
-只输出 JSON，不要任何其他文字。"""
+def validate_analysis(scored):
+    """Reject incomplete model output before saving a report."""
+    for key in ("name_zh", "tagline_zh", "description_zh", "intro_zh", "category", "overall_reason"):
+        if not isinstance(scored.get(key), str) or not scored[key].strip():
+            raise ValueError(f"Missing or invalid {key}")
+    for key in SCORE_KEYS:
+        dim = scored["scores"][key]
+        score = dim["score"]
+        if score is not None and (type(score) is not int or not 1 <= score <= 5):
+            raise ValueError(f"Invalid score for {key}")
+        if not isinstance(dim.get("reason"), str) or not dim["reason"].strip():
+            raise ValueError(f"Missing reason for {key}")
+    for section, fields in ANALYSIS_FIELDS.items():
+        for key in fields:
+            value = scored[section][key]
+            if not isinstance(value, str) or not value.strip():
+                raise ValueError(f"Missing or invalid {section}.{key}")
+    for key, minimum, maximum in (("transferable_insights", 1, 2), ("validation_questions", 2, 3)):
+        items = scored[key]
+        if not isinstance(items, list) or not minimum <= len(items) <= maximum:
+            raise ValueError(f"Invalid {key}")
+        if any(not isinstance(item, str) or not item.strip() for item in items):
+            raise ValueError(f"Invalid item in {key}")
+
+
+def derive_suggestion(scores):
+    values = [scores[key]["score"] for key in SCORE_KEYS]
+    if any(value is None for value in values):
+        return "信息不足"
+    if min(values) >= 3 and sum(value >= 4 for value in values) >= 2:
+        return "优先研究"
+    if sum(values) >= 9:
+        return "值得参考"
+    return "暂缓研究"
 
 
 def get_producthunt_token():
@@ -175,12 +177,16 @@ def extract_json_from_response(content):
 
 def score_product_with_deepseek(client, product, rank):
     """Score a single product using DeepSeek V4. Returns enriched product dict."""
-    user_prompt = f"""\
-产品排名：第{rank}名
-产品名称：{product['name']}
-标语：{product['tagline']}
-描述：{product['description']}
-票数：{product['votesCount']}"""
+    source = {
+        "rank": rank,
+        "name": product["name"],
+        "tagline": product.get("tagline", ""),
+        "description": product.get("description", ""),
+        "votes_count": product["votesCount"],
+        "producthunt_url": product.get("url", ""),
+        "website_url": product.get("website", ""),
+    }
+    user_prompt = "请按约定结构分析以下产品资料（未独立验证的厂商自述）：\n" + json.dumps(source, ensure_ascii=False)
 
     print(f"  Scoring [{rank}] {product['name']}...")
 
@@ -189,13 +195,13 @@ def score_product_with_deepseek(client, product, rank):
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
-                model=DEEPSEEK_MODEL,
+                model=os.getenv("DEEPSEEK_MODEL", "").strip() or DEEPSEEK_MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
                 max_tokens=4096,
-                temperature=0.7,
+                temperature=0.3,
             )
             content = response.choices[0].message.content.strip()
 
@@ -204,15 +210,8 @@ def score_product_with_deepseek(client, product, rank):
 
             scored = json.loads(content)
 
-            # Derive overall_suggestion by rule if missing or override to ensure consistency
-            vs = scored["scores"]["video_suitability"]["score"]
-            bf = scored["scores"]["beginner_friendly"]["score"]
-            if vs >= 4 and bf >= 4:
-                scored["overall_suggestion"] = "强力推荐"
-            elif vs >= 2:
-                scored["overall_suggestion"] = "可以做"
-            else:
-                scored["overall_suggestion"] = "谨慎考虑"
+            validate_analysis(scored)
+            scored["overall_suggestion"] = derive_suggestion(scored["scores"])
 
             return scored
 
@@ -230,19 +229,12 @@ def score_product_with_deepseek(client, product, rank):
         "name_zh": product["name"],
         "tagline_zh": product.get("tagline", ""),
         "description_zh": product.get("description", ""),
-        "scores": {
-            "video_suitability": {"score": 0, "reason": "评分失败"},
-            "beginner_friendly": {"score": 0, "reason": "评分失败"},
-            "popularity": {"score": 0, "reason": "评分失败"},
-        },
-        "video_inspiration": {
-            "title_idea": "",
-            "angle": "",
-            "shooting_tips": "",
-            "target_audience": "",
-        },
-        "overall_suggestion": "谨慎考虑",
-        "overall_reason": "LLM 评分失败",
+        "scores": {key: {"score": None, "reason": "分析生成失败"} for key in SCORE_KEYS},
+        **{section: {} for section in ANALYSIS_FIELDS},
+        "transferable_insights": [],
+        "validation_questions": [],
+        "overall_suggestion": "生成失败",
+        "overall_reason": "产品分析生成失败，暂无法判断研究价值",
         "category": "",
         "scoring_error": str(last_error),
     }
@@ -258,27 +250,60 @@ def get_image_url(media):
     return ""
 
 
-def main():
-    # Validate environment
-    ph_token = get_producthunt_token()
+def load_cached_products(path):
+    """Reuse saved product descriptions without fetching Product Hunt again."""
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    date_str = data["date"]
+    datetime.strptime(date_str, "%Y-%m-%d")
+    posts = []
+    for product in data["products"]:
+        posts.append({
+            "id": product["id"],
+            "name": product["name"],
+            "tagline": product.get("tagline", product.get("tagline_zh", "")),
+            "description": product.get("description", product.get("description_zh", "")),
+            "votesCount": product.get("votes_count", 0),
+            "url": product["url"],
+            "website": product.get("website", ""),
+            "media": [{"url": product.get("image_url", "")}],
+        })
+    if not posts:
+        raise ValueError("Cached report has no products")
+    return date_str, posts
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description="Generate AI product analysis")
+    parser.add_argument("--input", help="Regenerate a saved report JSON without a Product Hunt token")
+    args = parser.parse_args(argv)
+    # Process environment takes precedence, followed by .env and .env.local.
+    project_root = Path(__file__).resolve().parents[1]
+    load_dotenv(project_root / ".env", override=False)
+    load_dotenv(project_root / ".env.local", override=False)
     deepseek_key = os.getenv("DEEPSEEK_API_KEY")
     if not deepseek_key:
         raise RuntimeError("DEEPSEEK_API_KEY not set")
 
     client = OpenAI(
         api_key=deepseek_key,
-        base_url=DEEPSEEK_BASE_URL,
+        base_url=os.getenv("DEEPSEEK_BASE_URL", "").strip() or DEEPSEEK_BASE_URL,
     )
 
     # Fetch
-    print("Fetching ProductHunt Top 10...")
-    date_str, posts = fetch_top_products(ph_token)
+    if args.input:
+        print("Reusing cached product descriptions; no new Product Hunt fetch.")
+        date_str, posts = load_cached_products(args.input)
+    else:
+        print("Fetching ProductHunt Top 10...")
+        date_str, posts = fetch_top_products(get_producthunt_token())
 
     # Score
     generation_error = False
     products = []
     for i, post in enumerate(posts, 1):
-        scored = score_product_with_deepseek(client, post, i)
+        # Cached reports were sorted by recommendation, so restore PH rank by votes.
+        rank = 1 + sum(p["votesCount"] > post["votesCount"] for p in posts) if args.input else i
+        scored = score_product_with_deepseek(client, post, rank)
         product_entry = {
             "id": post["id"],
             "name": post["name"],
@@ -291,9 +316,12 @@ def main():
             "image_url": get_image_url(post.get("media")),
             "votes_count": post["votesCount"],
             "scores": scored.get("scores", {}),
-            "video_inspiration": scored.get("video_inspiration", {}),
+            "product_analysis": scored.get("product_analysis", {}),
+            "technical_analysis": scored.get("technical_analysis", {}),
+            "transferable_insights": scored.get("transferable_insights", []),
+            "validation_questions": scored.get("validation_questions", []),
             "category": scored.get("category", ""),
-            "overall_suggestion": scored.get("overall_suggestion", "谨慎考虑"),
+            "overall_suggestion": scored.get("overall_suggestion", "信息不足"),
             "overall_reason": scored.get("overall_reason", ""),
         }
         if "scoring_error" in scored:
@@ -306,13 +334,16 @@ def main():
             time.sleep(2)
 
     # Sort by overall_suggestion priority + votes
-    priority = {"强力推荐": 0, "可以做": 1, "谨慎考虑": 2}
-    products.sort(key=lambda p: (priority.get(p["overall_suggestion"], 3), -p["votes_count"]))
+    priority = {"优先研究": 0, "值得参考": 1, "信息不足": 2, "暂缓研究": 3, "生成失败": 4}
+    products.sort(key=lambda p: (priority.get(p["overall_suggestion"], 5), -p["votes_count"]))
 
     # Generate output
     now_beijing = datetime.now(timezone.utc).astimezone(BEIJING_TZ)
     output = {
         "date": date_str,
+        "schema_version": 2,
+        "analysis_style": "plain_language_v1",
+        "source_mode": "cached_report" if args.input else "producthunt_api",
         "generated_at": now_beijing.strftime("%Y-%m-%dT%H:%M:%S+08:00"),
         "generation_error": generation_error,
         "products": products,

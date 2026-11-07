@@ -1,357 +1,510 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-05T17:42:11+08:00",
+  "generated_at": "2026-11-07T15:38:53+00:00",
   "generation_error": false,
   "products": [
     {
       "id": "1090720",
       "name": "Hey Noah",
-      "name_zh": "嘿诺亚",
-      "tagline_zh": "创始人专属的主动式AI执行助理",
-      "description_zh": "Noah 是一个为创始人打造的主动式 AI 执行助理。Claude 跟你聊天，Noah 帮你搞定你的人脉网络。它像特斯拉的全自动驾驶，而不是定速巡航——一个能自主管理你的日历、维系关系、跨邮件、短信和 WhatsApp 紧跟进度的 AI 执行助理，让你不再漏掉任何事。想象一个常住你短信里的全天候助理，帮你打点会议后勤。",
-      "intro_zh": "这就像是给你配了个24小时在线的虚拟秘书，自动帮你管日程、盯进度、回复消息。忙到没空回信息、总漏跟进的创业者和管理者会超爱这体验。",
+      "name_zh": "Hey Noah",
+      "tagline_zh": "为创始人打造的主动式 AI 执行助理",
+      "description_zh": "Noah 面向创始人，帮助管理日历、维系人脉，并跨邮件、短信和 WhatsApp 跟进事务。它以短信中的助理为使用场景，处理会议后勤，并强调主动推进事情。",
+      "intro_zh": "给需要频繁约会和维护人脉的创始人用，通过短信沟通，让助理处理会议安排和后续跟进。",
       "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XG4DNYGMW6GCPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/26e4fcaa-a567-4f35-a82f-3f4e3f0ee446.png?auto=format",
       "votes_count": 537,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有丰富的演示画面可拍，比如实时对话界面、跨平台消息同步、日程自动安排效果，展示空间很大。"
+          "reason": "使用人群和事务明确，但能独立处理到哪一步尚不清楚。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 4,
-          "reason": "概念直白——就是个自动秘书，普通人能理解，但需展示具体操作来降低认知门槛。"
+          "reason": "跨渠道跟进涉及联系人和事项识别，出错会直接影响对外沟通。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第1，获得537票，热度极高，极具话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我让AI替我跟人约饭，结果它无缝搞定了三次改期…",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示如何用短信给Noah下指令，实际协调一次会议改期，突出它跨邮箱、短信和 WhatsApp 自动跟进的能力，用快节奏生活场景对比前后效率差异。",
-        "target_audience": "时间不够用的创业者、自由职业者、经常需要多线程沟通的职场人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品概念易懂、演示效果生动，且当天热度极高，非常适宜制作成视频爆款。"
-    },
-    {
-      "id": "1210439",
-      "name": "Wondering",
-      "name_zh": "好奇学",
-      "tagline_zh": "像多邻国一样，轻松学会任何知识",
-      "description_zh": "好奇学是一个把复杂知识拆成轻松记住、灵活运用的小课的快乐学习工具。你告诉它想学什么，它就给你定制一条学习路径，里面有小课程、图解、播客和互动练习。就像身边有个耐心又贴心的导师，帮你抓重点，让你用自己的方式学懂。",
-      "intro_zh": "这是个帮你把任何知识拆成超好懂小课的神器，有图有播客还能动手练。想学新东西又怕啃不动大部头的学生和职场人，闭眼入。",
-      "url": "https://www.producthunt.com/products/wondering-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/534DO3AKV4LOCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d442a259-33f7-44b7-92e5-5c9fdf79e28a.png?auto=format",
-      "votes_count": 350,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "界面操作流畅，学习路径、可视化图片、播客和互动练习都适合录屏演示，画面观感好，能直观展示个性化学习过程。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "输入话题就能学，操作跟多邻国一样简单，不需要任何技术背景，普通人一秒看懂。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt今日第2名，350票，话题性高，用户关注度强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "随便问它点什么，AI就给你整出一整套带图带播客的学习课，真香！",
-        "angle": "开箱体验",
-        "shooting_tips": "直接录屏，从输入“我想学日本战国史”开始，展示系统自动生成的课程地图、知识点卡片、插画风格可视化图片、播客片段和拖拽排序题，全程保持快节奏，突出“拆解复杂知识”和“上瘾式交互”两个卖点。",
-        "target_audience": "想用碎片时间学点真东西的上班族、自学新技能的学生、终身学习者"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "学习过程完全可视化，交互演示性强，热度高，大众友好，拍成视频天然有传播力。"
-    },
-    {
-      "id": "1210501",
-      "name": "Dashi Metrics",
-      "name_zh": "三维收入地球",
-      "tagline_zh": "把实时营收画在一个会转的地球上",
-      "description_zh": "一个可以把访客和支付数据实时映射到动态3D地球的工具。SaaS团队和创始人不用再盯着死板的图表，旋转、缩放地球就能一眼看出全球业务趋势。",
-      "intro_zh": "在屏幕上装了个会转的地球，每笔收入和每个访客都能看到从哪冒出来。天天跟数据打交道的创业者和运营，终于不用再忍受枯燥的柱状图了。",
-      "url": "https://www.producthunt.com/products/dashi-metrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MEYNOM2EOWKKZN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cb5e7595-0f75-4003-8383-306a2dfcc180.png?auto=format",
-      "votes_count": 221,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "动态3D地球旋转缩放、实时数据跳动，画面极具视觉冲击力，演示效果一流。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "直观易懂，就像看动画地图，普通人一眼就能明白，不需要任何技术背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH日榜第5名，221张投票，有一定热度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "老板看呆了！把公司收入投在地球上，客户从哪来一目了然！",
-        "angle": "开箱体验",
-        "shooting_tips": "先展示连接数据源的过程（Stripe等），再快速切入3D地球全景，边旋转边放大到不同城市，捕捉实时弹出的付款动画，配上热血的BGM，突出'活起来'的瞬间。",
-        "target_audience": "SaaS创业者、电商运营、想看直观业务动态的管理者"
-      },
-      "category": "数据分析",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面够炫、普通人秒懂，视频化潜力爆表，天然适合短视频传播。"
-    },
-    {
-      "id": "1213589",
-      "name": "Vibe Buddy",
-      "name_zh": "Vibe Buddy",
-      "tagline_zh": "让AI编程状态一目了然的桌面小硬件",
-      "description_zh": "Vibe Buddy 是个放在桌面的小机器人，专门用来显示 Codex、Claude Code 这类 AI 编程工具的状态。它能告诉你 AI 是在干活、需要你输入、已经完成，还是用到了次数上限，不用再专门切到网页看。",
-      "intro_zh": "桌面上多了个会报状态的机器人，AI 编程时瞟一眼就知道它跑完了没、要不要你接手。经常用 AI 写代码、又不想来回切屏幕的程序员和效率控会很喜欢。",
-      "url": "https://www.producthunt.com/products/vibe-buddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7Y3DVMWTPWVNJY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ba06aed0-5ea4-49bd-a208-373913fa580c.jpeg?auto=format",
-      "votes_count": 164,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "实物硬件可以拍开箱、桌面摆放和状态变化特写，配合屏幕录制能直观对比有无该设备时的工作流差异，演示效果不错。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直观不复杂，就是看 AI 干活的进度，普通人一听就懂，不需要技术背景，只要了解有人在用 AI 写代码就行。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第 6，拿到 164 票，热度可观。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "再也不用切屏看AI状态！这个小机器人让我写代码爽到飞起",
-        "angle": "对比测评/开箱体验",
-        "shooting_tips": "先展示包装和机器人类似的可爱外观，然后摆到显示器旁，连接电脑后演示 AI 编程时机器人的灯光或表情变化，同时录屏展示没有它时要不停切标签页的烦躁，最后给出效率提升的直观感受。节奏轻快，突出‘瞟一眼就懂’的核心卖点。",
-        "target_audience": "日常重度使用 AI 编程工具的开发者、程序员和科技数码爱好者"
-      },
-      "category": "硬件设备",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "实物硬件有天然的拍摄展示优势，功能直观易懂，热度也不错，适合做成对比鲜明的测评内容。"
-    },
-    {
-      "id": "1213557",
-      "name": "Screen Awesome ",
-      "name_zh": "录屏神器",
-      "tagline_zh": "一款绝不会上传你视频的免费屏幕录制工具",
-      "description_zh": "这是一款完全免费的Chrome屏幕录制扩展，不请求任何服务器权限，Chrome会自动阻止其联网，因此你的录像绝对不可能被上传。它能录制标签页、桌面或摄像头，输出MP4格式，支持自动缩放、区域截图、长滚动截图，并可以用箭头、模糊、马赛克、步骤编号和文字等进行标注，所有标注都是可编辑矢量元素。无需注册、没有水印，功能全开。",
-      "intro_zh": "一个完全免费还绝不偷窥的录屏扩展，录桌面、加标注、截图一气呵成。经常要录教程、做汇报演示的上班族和学生党，再也不用担心隐私泄露了。",
-      "url": "https://www.producthunt.com/products/screen-awesome-record-annotate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EGH3SRBAZ4GFQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6e82b55e-07ff-41b6-a77f-46b830ba4606.png?auto=format",
-      "votes_count": 140,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "屏幕录制工具本身就能生成画面，且有自动缩放、标注等可视化操作，演示过程直观，容易拍出吸引人的对比视频和教程内容。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极其简单，就是录屏+标注，Chrome商店一键安装即用，不需要任何技术背景，普通人秒懂。"
-        },
-        "popularity": {
+        "transferability": {
           "score": 3,
-          "reason": "ProductHunt当日排名第7，获得140票，属于中等热度，话题性一般，但免费+隐私保护卖点有一定传播潜力。"
+          "reason": "把助理放进已有沟通渠道的做法可借用，但权限条件未说明。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "「100%不会泄露的录屏神器，还免费无水印？！」",
-        "angle": "开箱体验",
-        "shooting_tips": "先展示安装过程和权限检查（无任何主机权限），然后演示一键录制、自动聚焦点击位置、快速添加标注和模糊效果，最后输出MP4文件，突出与传统录屏软件的安全对比和便捷性。节奏轻快，用大字幕强调“无法上传”和“完全免费”。",
-        "target_audience": "需要录制软件教程、工作汇报、在线课程的学生、职场人和内容创作者"
       },
       "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化操作丰富，隐私卖点直击痛点，普通人极易上手，非常适合通过演示视频快速吸引大量用户。"
-    },
-    {
-      "id": "1214128",
-      "name": "VIDEO AI ME",
-      "name_zh": "视频AI我",
-      "tagline_zh": "一个工具，把视频发遍全网",
-      "description_zh": "大多数排期工具都让你在别处剪好视频，再下载重传。VIDEO AI ME 直接把两个事都做了：用 AI 帮你生成 UGC 广告或产品视频，然后一键发布或排期到 TikTok、Instagram 等 15 个平台，连平台专属文案都自动写好。一次能批量安排 25 条视频，看哪条效果好，还能一键重新发布或让 AI 给你变个新版本。",
-      "intro_zh": "能直接用 AI 帮你生成视频，然后一键发到抖音、小红书等 15 个平台，连平台文案都自动配好。做自媒体和投广告的人，再也不用几个软件来回倒腾了。",
-      "url": "https://www.producthunt.com/products/video-ai-me?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HUEUUOMQH4YCYI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/059bb0c3-68d0-490c-8795-27939ebfe4a9.jpeg?auto=format",
-      "votes_count": 126,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有完整的 UI 操作流程，AI 生成视频的画面可以直观展示，多平台一键发布的过程也很有视觉效果，前后对比强烈，非常适合拍成视频。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直白，用户只需提供素材或脚本就能生成视频，发布操作一键完成，几乎没有学习门槛，普通人能立刻明白价值。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第 9，票数 126，挤进前十，属于当天较受关注的产品。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把散在多处的待跟进事项交给同一个助理；最影响判断的是，它采取行动前的授权边界是否清楚。",
+      "product_analysis": {
+        "target_problem": "创始人约会、维护关系时，同一件事可能散落在几个沟通渠道里。麻烦在于记住谁还没回复、哪件事还没定。",
+        "workflow": "用户通过短信与 Noah 沟通，由它处理会议后勤、管理日历，并跨邮件、短信和 WhatsApp 跟进。介绍没有提供具体操作步骤。",
+        "ai_value": "AI 被用于主动管理和跟进事务，而不只是回答问题。它如何判断何时该行动，资料没有展开。",
+        "differentiation": "它试图减少用户逐处查看消息、记住后续事项的负担。最可能让人犹豫的是：是否愿意让助理代自己对外沟通。"
       },
-      "video_inspiration": {
-        "title_idea": "AI 一键做视频，全网 15 个平台同时发，运营彻底躺平！",
-        "angle": "教程演示 + 对比测评",
-        "shooting_tips": "全程录屏，先展示传统方式做一条视频并逐个平台上传要多少步，再打开 VIDEO AI ME，输入同一个产品名或脚本，演示从 AI 生成视频到选中 15 个平台一键发布的全过程，重点突出自动写平台文案和批量排期功能，最后用秒表对比两种方式的耗时。",
-        "target_audience": "自媒体博主、电商卖家、广告投手、想用视频推广但嫌麻烦的小团队"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI，以及邮件、短信、WhatsApp 和日历，但没说具体模型或连接方式。",
+        "possible_approach": "如果自己做，可以先把各渠道消息按联系人和事项归在一起，再让 AI 找出待办并拟出下一步；早期先由用户确认后执行。",
+        "tradeoffs": "最容易出错的是把不同渠道中的人或事项认错。这样可能把跟进消息发错对象，或误改会议安排。",
+        "unknowns": "哪些动作可以自动执行，哪些必须先征得用户同意？"
       },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作直观、效果炫酷，非常适合用视频演示，普通人一眼就能看懂它的便利性，容易引起大量创作者的共鸣和分享。"
+      "transferable_insights": [
+        "做需要持续跟进的业务助理时，可以把沟通入口放在用户已有的消息渠道中，减少专门打开新工具的步骤。"
+      ],
+      "validation_questions": [
+        "用同名联系人分别在两个渠道讨论不同会议，检查它是否会混淆事项。",
+        "让它处理一次需要改期的会议，检查对外发送前是否有明确的确认环节。"
+      ],
+      "source_tagline": "创始人专属的主动式AI执行助理",
+      "source_description": "Noah 是一个为创始人打造的主动式 AI 执行助理。Claude 跟你聊天，Noah 帮你搞定你的人脉网络。它像特斯拉的全自动驾驶，而不是定速巡航——一个能自主管理你的日历、维系关系、跨邮件、短信和 WhatsApp 紧跟进度的 AI 执行助理，让你不再漏掉任何事。想象一个常住你短信里的全天候助理，帮你打点会议后勤。"
     },
     {
       "id": "1203025",
       "name": "Driven",
-      "name_zh": "驱动投资助手",
-      "tagline_zh": "从洞察到行动，值得信赖的 AI 投资代理",
-      "description_zh": "Driven 是一个 AI 投资代理，能把市场洞察直接变成实际行动，而不仅仅是给出答案。它在一个工作区里集成了260多个API、内置和自定义技能、剧本、定时任务、24/7监控、实时数据、投资组合和订单流程。投资者不用再切换工具或追逐每个信号，在 Driven 里就能完成从点子生成、数据收集到分析和执行的全流程，就像拥有一个 AI 投资团队，同时还能自己掌控大局。",
-      "intro_zh": "一个能帮你盯盘、分析、甚至直接下单的AI投资助手，把260多个数据源和自动化流程塞进一个工作台。适合不想在多个工具间来回切换，又想省心做投资决策的普通股民和理财玩家。",
+      "name_zh": "Driven",
+      "tagline_zh": "从洞察到行动的 AI 投资代理",
+      "description_zh": "Driven 将投资想法生成、数据收集、分析和执行放在同一工作区，集成了 260 多个 API、实时数据、投资组合和订单流程。它还提供内置及自定义技能、剧本、定时任务和全天候监控。",
+      "intro_zh": "给需要持续跟踪市场的投资者用，在一个工作区里收集数据、分析投资想法并处理订单流程。",
       "url": "https://www.producthunt.com/products/driven-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MXO3Z3S6LROVGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bd17f63e-c943-45c6-8455-392123b6addc.png?auto=format",
       "votes_count": 258,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "界面操作丰富，可展示监控面板、自动化交易流程、投资组合前后对比，实操性强，视觉冲击力不错。"
+          "reason": "减少投资研究与订单处理之间的工具切换，场景明确，但执行边界不清楚。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
+          "score": 4,
+          "reason": "分析如何进入订单流程，带来了具体的授权与误操作问题。"
+        },
+        "transferability": {
           "score": 3,
-          "reason": "金融投资概念有些门槛，但产品设计为一体化工作台，普通用户看到界面能大致理解，不过背后逻辑需要一定基础。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt排名第3，258票，热度很高，话题性强。"
+          "reason": "重复任务可以整理成剧本，但配置方式和实际收益尚不明确。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI替你炒股？实测Driven投资管家，从盯盘到下单全自动！",
-        "angle": "开箱体验+教程演示",
-        "shooting_tips": "录屏演示从连接账户、设置监控条件到自动执行交易的完整流程，突出界面操作和实时数据更新，用快节奏展示效率提升，插入实际案例前后对比。",
-        "target_audience": "对理财有兴趣但没时间盯盘的上班族、想尝试AI辅助投资的小白玩家"
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重研究结果能接着进入订单流程，省去重新录入。最影响判断的是，用户确认能否真正限制交易执行。",
+      "product_analysis": {
+        "target_problem": "面向需要持续看市场、管理组合的投资者。研究和订单处理若分散在不同工具里，就要反复切换。",
+        "workflow": "用户可在同一工作区生成投资想法、收集数据并分析，再进入组合和订单流程；也可设置定时任务与持续监控。",
+        "ai_value": "AI 被用于把市场洞察推进到行动，但缓存简介没有说明哪些步骤能独立完成。",
+        "differentiation": "它把研究和行动放在一起，减少来回搬运信息。用户可能最犹豫的是是否愿意让 AI 接近真实交易。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面操作丰富、热度高，普通人能看懂，适合拍成吸睛的实操视频。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称集成了 260 多个 API（让软件互相传数据的连接方式），并支持自定义技能、剧本和定时任务。",
+        "possible_approach": "如果自己做，可以先接入市场数据，让 AI 整理分析，再把行动建议转成待确认订单。",
+        "tradeoffs": "最容易出错的是把建议转成订单时误解买卖方向或数量；若直接提交，可能造成真实损失。",
+        "unknowns": "订单提交前是否必须由用户确认，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做重复研究工具时，可以把固定的数据收集和分析步骤保存成剧本，供定时任务重复调用。"
+      ],
+      "validation_questions": [
+        "未获用户确认时，它能否提交真实订单？",
+        "同一项定时监控遇到数据源中断时，会不会仍输出行动建议？"
+      ],
+      "source_tagline": "从洞察到行动，值得信赖的 AI 投资代理",
+      "source_description": "Driven 是一个 AI 投资代理，能把市场洞察直接变成实际行动，而不仅仅是给出答案。它在一个工作区里集成了260多个API、内置和自定义技能、剧本、定时任务、24/7监控、实时数据、投资组合和订单流程。投资者不用再切换工具或追逐每个信号，在 Driven 里就能完成从点子生成、数据收集到分析和执行的全流程，就像拥有一个 AI 投资团队，同时还能自己掌控大局。"
     },
     {
       "id": "1200155",
       "name": "Atlaso",
-      "name_zh": "阿特拉索 (AI记忆层)",
-      "tagline_zh": "一个共享记忆，让你的所有AI都彼此默契",
-      "description_zh": "Atlaso就像给AI装上一个统一的记忆库，你只要连接一次，之后无论是用Claude Code、Cursor、Codex还是ChatGPT，它们都能自动记起你的项目、决定和工作习惯。再也不用每个新会话都从头解释，一个记忆跟着你跨遍所有工具，免费就能用，背后还有正经的记忆研究撑腰。",
-      "intro_zh": "给所有AI装上同一个记忆大脑，让ChatGPT、Cursor都懂你的项目、你的习惯。经常在多个AI工具间切换的开发者、创作者和深度用户，终于不用再当复读机了。",
+      "name_zh": "Atlaso",
+      "tagline_zh": "让多个 AI 工具共用一份记忆",
+      "description_zh": "Atlaso 提供共享记忆库，介绍称连接后，Claude Code、Cursor、Codex 和 ChatGPT 可记住项目、决定及工作习惯，减少新会话中的重复说明。缓存简介还称可免费使用，并有记忆研究支持，但未提供具体依据。",
+      "intro_zh": "给交替使用多个 AI 工具的人，把项目背景、已有决定和工作习惯放进共享记忆库。",
       "url": "https://www.producthunt.com/products/atlaso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6W5Y6ZJIKG3INN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d21e56a1-27c2-4469-957f-16b1c9213f74.png?auto=format",
       "votes_count": 244,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 4,
+          "reason": "重复交代背景的问题清楚，但实际能省多少事尚未验证。"
+        },
+        "technical_insight": {
           "score": 3,
-          "reason": "可以通过对比有无记忆层的AI回答来演示效果，但界面比较抽象，没有复杂操作演示，视觉冲击力中等"
+          "reason": "共享记忆如何跟上决定变化是具体问题，但实现信息有限。"
         },
-        "beginner_friendly": {
+        "transferability": {
           "score": 4,
-          "reason": "概念直观：让AI记住你的上下文，但主要面向多AI工具使用者，普通人如果有多个AI助手也能快速理解并使用"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt排名第4，获得244票，当日讨论度较高"
+          "reason": "让多个工具复用项目背景，是可借用的明确做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "别再跟AI复读了！一个工具让你所有AI都懂你",
-        "angle": "对比测评",
-        "shooting_tips": "录屏展示：先在一款AI中开启全新会话，反复解释项目背景的繁琐；连接Atlaso后，再切换到其他AI工具，它们自动接上之前的对话和你的偏好，用同一套上下文无缝协作。节奏先痛点后舒爽，加上实时字幕保持说明清晰。",
-        "target_audience": "AI重度用户、程序员、产品经理、多工具切换的创作者"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重减少跨工具重复说明；最影响判断的是，共享记忆能否及时跟上决定变化。",
+      "product_analysis": {
+        "target_problem": "交替用多个 AI 工具做项目的人，可能反复解释背景和已有决定。以前这些说明要分别补给各个工具，现在可以让它们共用记忆。",
+        "workflow": "按介绍，用户连接 Atlaso 后，在所列 AI 工具中继续工作，由工具自动记起相关信息。具体连接方式未说明。",
+        "ai_value": "它让 AI 回答时能利用之前的项目背景；如何挑选和更新记忆，介绍没说。",
+        "differentiation": "省的是重复交代背景的工夫。最可能让人犹豫的是：是否愿意把项目资料交给额外的服务保存。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "通过前后对比可以直观展示跨AI记忆的效果，适合做成浅显易懂的测评内容。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到跨工具共享记忆，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先按项目保存背景和决定，再在提问时找出相关记录，交给当前 AI 使用。",
+        "tradeoffs": "最容易出错的是决定更新后，旧记录仍被取用。用户可能得到沿用旧方案的回答，还得重新纠正。",
+        "unknowns": "一条决定被修改后，其他工具何时能读到新版？"
+      },
+      "transferable_insights": [
+        "做多工具协作产品时，可以把项目背景独立保存，让不同工具复用，减少用户重复填写。"
+      ],
+      "validation_questions": [
+        "在一个工具中记录项目约定后，换另一个工具提问，它能否正确引用？",
+        "修改同一条约定后，其他工具是否还会沿用旧版本？"
+      ],
+      "source_tagline": "一个共享记忆，让你的所有AI都彼此默契",
+      "source_description": "Atlaso就像给AI装上一个统一的记忆库，你只要连接一次，之后无论是用Claude Code、Cursor、Codex还是ChatGPT，它们都能自动记起你的项目、决定和工作习惯。再也不用每个新会话都从头解释，一个记忆跟着你跨遍所有工具，免费就能用，背后还有正经的记忆研究撑腰。"
+    },
+    {
+      "id": "1213589",
+      "name": "Vibe Buddy",
+      "name_zh": "Vibe Buddy",
+      "tagline_zh": "显示 AI 编程工具状态的桌面小硬件",
+      "description_zh": "Vibe Buddy 是放在桌面的小机器人，用来显示 Codex、Claude Code 等 AI 编程工具的状态。它能提示工作中、等待输入、已完成或达到次数上限，减少切回工具查看的需要。",
+      "intro_zh": "给使用 AI 编程工具的开发者，把任务进展和等待处理的状态显示在桌面小机器人上。",
+      "url": "https://www.producthunt.com/products/vibe-buddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7Y3DVMWTPWVNJY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ba06aed0-5ea4-49bd-a208-373913fa580c.jpeg?auto=format",
+      "votes_count": 164,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "查看状态的场景清楚，但比软件通知方便多少尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何准确识别工具状态值得关注，介绍未说明实现方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把等待处理的状态放到独立显示位置，可借用于后台任务。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是不用切回窗口就能发现任务在等人；最影响判断的是状态提示是否准确，误报会让用户重新依赖手动查看。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 执行编程任务时，可能同时处理其他事。麻烦在于不知道它还在运行，还是已经等自己输入。",
+        "workflow": "运行 Codex、Claude Code 等工具后，在桌面机器人上查看状态。介绍没有交代首次连接和配置步骤。",
+        "ai_value": "AI 负责上游编程任务；没有材料表明机器人本身使用 AI，它主要负责显示状态。",
+        "differentiation": "把原本需要切回工具查看的信息移到桌面。若现有通知已经够用，用户可能不愿再添硬件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到显示两类 AI 编程工具的四种状态，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取编程工具提供的状态信号，再转换成统一状态，发送给桌面设备显示。",
+        "tradeoffs": "最容易错在把等待输入识别成运行中。用户会继续等，任务却早已停住。",
+        "unknowns": "同时运行多个任务时，设备显示哪一个？"
+      },
+      "transferable_insights": [
+        "做构建或文件处理工具时，可以把“需要人处理”单独显示，避免它被普通进度信息淹没。"
+      ],
+      "validation_questions": [
+        "让任务停在等待输入处，检查设备能否正确提示。",
+        "同时运行两个任务，检查能否辨认提示属于哪一个。"
+      ],
+      "source_tagline": "让AI编程状态一目了然的桌面小硬件",
+      "source_description": "Vibe Buddy 是个放在桌面的小机器人，专门用来显示 Codex、Claude Code 这类 AI 编程工具的状态。它能告诉你 AI 是在干活、需要你输入、已经完成，还是用到了次数上限，不用再专门切到网页看。"
+    },
+    {
+      "id": "1213557",
+      "name": "Screen Awesome ",
+      "name_zh": "Screen Awesome",
+      "tagline_zh": "免费屏幕录制工具，主打录像不上传",
+      "description_zh": "这款 Chrome 扩展可录制标签页、桌面或摄像头，输出 MP4，并支持自动缩放、区域截图和长滚动截图。简介称它完全免费、无需注册、没有水印，支持可编辑的矢量标注，并声称通过限制联网权限防止录像上传。",
+      "intro_zh": "给需要演示操作、反馈问题的人用，在 Chrome 中录屏、截图，再加上说明和遮挡。",
+      "url": "https://www.producthunt.com/products/screen-awesome-record-annotate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EGH3SRBAZ4GFQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6e82b55e-07ff-41b6-a77f-46b830ba4606.png?auto=format",
+      "votes_count": 140,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "录制和标注的用途清楚，但隐私承诺尚未核验。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "权限限制能否支持不上传的承诺，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "标注保留可编辑对象的做法，可用于截图反馈和教程工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重标注能反复修改，减少重做素材；但不能把历史简介中的权限说法当成隐私保证。",
+      "product_analysis": {
+        "target_problem": "做操作演示或提交问题反馈时，用户需要录下过程、指出重点，也可能不希望画面被上传。",
+        "workflow": "选择标签页、桌面或摄像头进行录制，输出 MP4；也可截取区域或长页面，再加箭头、文字或遮挡。",
+        "ai_value": "介绍没提 AI，主要靠录制、截图和可编辑标注来改善体验。",
+        "differentiation": "把素材采集和说明放在同一工具中，可能减少换软件处理。最影响使用意愿的是“不上传”能否核实。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称标注是可编辑矢量元素，即可单独修改的图形对象；也声称未申请服务器权限，但不足以据此确认完全不能联网。",
+        "possible_approach": "如果自己做，可以先在浏览器内采集画面并生成视频，再将标注单独保存，导出时合成到画面上。",
+        "tradeoffs": "最容易出错的是把权限限制等同于不能上传。若判断有误，用户可能在错误的隐私预期下录制敏感内容。",
+        "unknowns": "实际扩展有哪些联网途径，历史简介没有给出可核验的依据。"
+      },
+      "transferable_insights": [
+        "做截图反馈工具时，把箭头和文字保存为独立对象，让用户改说明时不用重新截图。"
+      ],
+      "validation_questions": [
+        "检查扩展权限及运行时网络请求，确认录制内容是否存在外发行为。",
+        "修改已有标注并导出，检查位置和遮挡范围是否保持一致。"
+      ],
+      "source_tagline": "一款绝不会上传你视频的免费屏幕录制工具",
+      "source_description": "这是一款完全免费的Chrome屏幕录制扩展，不请求任何服务器权限，Chrome会自动阻止其联网，因此你的录像绝对不可能被上传。它能录制标签页、桌面或摄像头，输出MP4格式，支持自动缩放、区域截图、长滚动截图，并可以用箭头、模糊、马赛克、步骤编号和文字等进行标注，所有标注都是可编辑矢量元素。无需注册、没有水印，功能全开。"
     },
     {
       "id": "1213190",
       "name": "ZapDigits MCP",
       "name_zh": "ZapDigits MCP",
-      "tagline_zh": "营销数据的MCP服务器",
-      "description_zh": "把 Claude 和 ChatGPT 对接到 Google Analytics、Search Console、Meta Ads 等30多个营销数据源，让 AI 能直接调用你的营销数据。主要给需要打通 AI 助手和营销数据的技术人员或营销运营使用。",
-      "intro_zh": "给 Claude、ChatGPT 装了个营销数据接口，连上 Google Analytics、Facebook 广告这些后台，动动嘴就能查数据、做分析。日常被各种报表折磨的运营和市场人，这下有救了。",
+      "tagline_zh": "连接营销数据的 MCP 服务器",
+      "description_zh": "将 Claude、ChatGPT 与 Google Analytics、Search Console、Meta Ads 等三十多个营销数据源连接，让 AI 能调用营销数据。面向需要连接 AI 助手与营销数据的技术人员和营销运营。",
+      "intro_zh": "给营销运营和技术人员用，把营销平台的数据接给 Claude 或 ChatGPT，供助手调用。",
       "url": "https://www.producthunt.com/products/zapdigits?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NTSETTC4L3HCIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ed121234-f282-429a-bcf1-1e9aefc96bb7.jpeg?auto=format",
       "votes_count": 133,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "产品本身是后端MCP服务，没有独立界面，演示效果依赖第三方AI界面操作，视觉冲击力弱，主要展示对话获取数据的流程，画面比较单调。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "MCP 概念对普通用户来说太技术化，需要理解如何配置AI助手连接服务器，还要获取各平台的API密钥，使用门槛较高。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第8，获得133票，属于热门产品，在开发者圈有一定话题性。"
+          "reason": "使用对象和数据连接用途明确，但配置负担与实际查询能力待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把自然语言问题对应到正确的数据范围，是具体且影响结果的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让助手调用现有业务数据的做法，可借用于其他数据查询产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "一句话让AI帮你查广告ROI，ZapDigits把ChatGPT喂成营销大师！",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕操作：从配置MCP连接到在Claude里输入「帮我拉昨日的广告转化数据」，展示AI实时读取 Google Ads 并生成报表的过程。节奏先慢后快，重点突出不用再切换几十个后台。",
-        "target_audience": "需要频繁查看多渠道营销数据的运营人员、广告投手、市场分析师，以及喜欢折腾AI自动化的技术爱好者。"
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让营销数据进入现有助手；最大的疑问是查询范围是否透明，用户能否判断它拿对了数据。",
+      "product_analysis": {
+        "target_problem": "营销运营想让 AI 参考自己的流量、搜索或广告数据回答问题，需要先解决助手如何读取这些平台的数据。",
+        "workflow": "把支持的营销数据源接到 Claude 或 ChatGPT，再让助手调用数据。简介没有交代具体授权和配置步骤。",
+        "ai_value": "AI 获得调用营销数据的能力。简介没有证明它能自动生成可靠的归因分析或投放建议。",
+        "differentiation": "它把多个平台的数据连接集中到一处。是否愿意采用，可能取决于团队能否接受向助手开放这些数据的权限。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品功能强大但画面表现力弱，且受众偏技术人群，做成视频容易显得枯燥，更适合图文拆解。"
+      "technical_analysis": {
+        "disclosed_facts": "采用 MCP（让 AI 助手连接外部数据和工具的通用协议），介绍称支持三十多个营销数据源。",
+        "possible_approach": "如果自己做，可以先接通一个平台的授权和查询，再把查询包装成助手能调用的工具，最后逐个扩展平台。",
+        "tradeoffs": "最容易错在把问题转成查询时选错账户或日期。即使取回的是真实数据，回答也可能不对应用户的问题。",
+        "unknowns": "调用数据时，用户能否看见并确认账户和日期范围？"
+      },
+      "transferable_insights": [
+        "做内部数据助手时，可以先开放少量常用查询，并随结果展示账户和日期，方便用户核对。"
+      ],
+      "validation_questions": [
+        "用指定账户和日期提问，检查助手返回的数据是否与平台报表一致。",
+        "用只授权一个账户的身份查询另一账户，检查访问是否被拒绝。"
+      ],
+      "source_tagline": "营销数据的MCP服务器",
+      "source_description": "把 Claude 和 ChatGPT 对接到 Google Analytics、Search Console、Meta Ads 等30多个营销数据源，让 AI 能直接调用你的营销数据。主要给需要打通 AI 助手和营销数据的技术人员或营销运营使用。"
+    },
+    {
+      "id": "1214128",
+      "name": "VIDEO AI ME",
+      "name_zh": "VIDEO AI ME",
+      "tagline_zh": "用一个工具制作视频并发布到多个平台",
+      "description_zh": "VIDEO AI ME 用 AI 生成用户分享风格的广告或产品视频，并支持发布或排期到 TikTok、Instagram 等 15 个平台，自动编写各平台文案。简介还称可批量安排 25 条视频、查看表现，并重新发布或用 AI 生成新版本。",
+      "intro_zh": "给需要经营多个社交账号的营销人员用，把广告或产品视频生成、排期和发布放在一起。",
+      "url": "https://www.producthunt.com/products/video-ai-me?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HUEUUOMQH4YCYI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/059bb0c3-68d0-490c-8795-27939ebfe4a9.jpeg?auto=format",
+      "votes_count": 126,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "制作与多平台发布的衔接问题明确，但生成质量和发布可靠性未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "批量排期后如何处理各平台发布失败，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把内容生成结果直接接到发布操作，可借用于其他内容工具。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重减少文件搬运，但生成视频是否能直接用于投放，决定了这份省事能否成立。",
+      "product_analysis": {
+        "target_problem": "面向要向多个平台投放视频的营销人员。以前若用只管排期的工具，要在别处制作再上传；现在可以在同一工具内生成并安排发布。",
+        "workflow": "生成广告或产品视频，配上自动生成的平台文案，再直接发布或批量排期。之后查看表现，选择重发或生成新版本。",
+        "ai_value": "AI 负责生成视频、编写平台文案和制作新版本。简介没说明用户能控制哪些生成细节。",
+        "differentiation": "省去制作工具与发布工具之间的文件搬运。最可能让人不愿换的是生成视频不符合品牌要求，仍得回原工具修改。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI 视频生成和文案生成，没说具体模型或发布技术。",
+        "possible_approach": "如果自己做，可以先把视频、文案和发布时间存成任务，再分别连接各平台发送，并记录每个平台的发布结果。",
+        "tradeoffs": "难点是部分平台发布失败后的重试。若没识别哪些已成功，用户可能重复发出同一条视频。",
+        "unknowns": "排期发布失败后，能否只重试失败的平台？"
+      },
+      "transferable_insights": [
+        "做内容生成工具时，可以让生成结果直接进入排期，不要求用户下载后再上传。适合需要持续发布的团队。"
+      ],
+      "validation_questions": [
+        "用一条符合品牌要求的产品素材生成视频，检查成片是否准确呈现产品。",
+        "安排一次多平台发布，检查失败的平台能否单独重试且不重复发布。"
+      ],
+      "source_tagline": "一个工具，把视频发遍全网",
+      "source_description": "大多数排期工具都让你在别处剪好视频，再下载重传。VIDEO AI ME 直接把两个事都做了：用 AI 帮你生成 UGC 广告或产品视频，然后一键发布或排期到 TikTok、Instagram 等 15 个平台，连平台专属文案都自动写好。一次能批量安排 25 条视频，看哪条效果好，还能一键重新发布或让 AI 给你变个新版本。"
     },
     {
       "id": "1209958",
       "name": "GrowthBook 5.0",
-      "name_zh": "增长手册5.0",
+      "name_zh": "GrowthBook 5.0",
       "tagline_zh": "规模化构建、发布与优化",
-      "description_zh": "GrowthBook 5.0将特性开关、实验和产品分析整合到一个AI原生、数据仓库原生的平台中。通过新的AI可视化编辑器，浏览器内即可创建无代码实验；利用25个开源技能，让代理创建开关并草拟实验；通过应用内AI助手探索产品数据；并借助更强的治理能力安全发布。更快的查询和简化的实验工作流程，帮助每个团队减少摩擦，从创意到洞察。",
-      "intro_zh": "一个不用写代码就能做产品实验和分析的平台，直接在浏览器里拖拖拽拽建测试、看数据。产品经理、增长团队必备，省掉工程师资源，自己就能快速验证想法。",
+      "description_zh": "GrowthBook 5.0 将特性开关、实验和产品分析整合到一个以 AI 和数据仓库为基础的平台。简介称，新版支持在浏览器内用 AI 可视化编辑器创建无代码实验，提供 25 个开源技能供代理创建开关、草拟实验，并加入应用内 AI 数据助手、治理改进和查询提速。",
+      "intro_zh": "给需要发布功能、验证改版效果的产品和研发团队用，在同一平台控制功能开放、创建实验并探索产品数据。",
       "url": "https://www.producthunt.com/products/growthbook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/A7P4WVTQVF6XBR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/31eaed1c-c3b2-4b50-8f3f-94d326695fba.png?auto=format",
       "votes_count": 114,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "拥有可视化编辑器、实验创建和分析仪表盘，画面操作丰富，适合录屏演示前后对比和AI交互过程，视觉观感较好。"
+          "reason": "发布、实验和分析的用途清楚，但省多少工作尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "虽然无代码操作降低了技术门槛，但概念涉及A/B测试、特性开关和数据分析，普通用户需具备一定的产品增长知识才能理解，非零基础友好。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "ProductHunt排名第10，获得114票，处于榜单前10，具有一定的热度与话题性。"
+          "reason": "AI 草拟实验后如何保证分组和指标正确，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让 AI 先生成可检查的操作草稿，可借用于其他高风险配置工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "不用写代码就能做A/B测试？这款增长工具让产品经理原地起飞",
-        "angle": "教程演示",
-        "shooting_tips": "全程录屏，从新建实验开始，用AI可视化编辑器拖拽修改页面元素，展示如何设置对照组，再演示运行实验后实时查看数据面板；穿插AI助手问答和自动生成实验方案的镜头，节秦轻快，配上清晰解说。",
-        "target_audience": "产品经理、增长黑客、数据分析师、关注产品迭代的创业者"
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是实验配置与数据探索放在同一处；最影响判断的是 AI 草稿能否被清楚检查，避免把错误指标当成业务结论。",
+      "product_analysis": {
+        "target_problem": "产品和研发团队需要控制谁能看到新功能，并判断改动有没有效果。麻烦在于发布规则、实验设置和结果分析都要照顾。",
+        "workflow": "可以在浏览器内创建无代码实验，或让代理创建开关、草拟实验，再用应用内 AI 助手探索数据。简介没有交代完整操作顺序。",
+        "ai_value": "AI 帮忙编辑实验、准备配置和探索数据。它能否正确理解业务指标，仍需确认。",
+        "differentiation": "把发布控制和效果分析放在一起，可能减少工具间切换。团队是否愿意换，可能取决于现有数据能否接入。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "可视化实验和AI辅助操作演示性强，但概念理解需要一定专业背景，适合垂类产品增长内容，不宜面向纯小白观众。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其为数据仓库原生平台，即围绕集中存放业务数据的系统工作，并提供 25 个开源技能供代理调用。",
+        "possible_approach": "如果自己做，可以先接入业务数据，明确分组和指标规则，再让 AI 生成实验草稿，经人工确认后执行。",
+        "tradeoffs": "最容易出错的是把业务问题配成错误指标。即使计算无误，团队也可能据此发布无效改动。",
+        "unknowns": "AI 生成的实验配置，执行前能否逐项查看和修改？"
+      },
+      "transferable_insights": [
+        "做发布或运营配置工具时，可以让 AI 先填草稿，把影响范围和指标留给人确认，减少重复填写。"
+      ],
+      "validation_questions": [
+        "给出一个定义明确的业务目标，检查 AI 草拟的实验指标是否匹配。",
+        "用现有数据仓库尝试接入，检查是否需要额外搬运数据。"
+      ],
+      "source_tagline": "规模化构建、发布与优化",
+      "source_description": "GrowthBook 5.0将特性开关、实验和产品分析整合到一个AI原生、数据仓库原生的平台中。通过新的AI可视化编辑器，浏览器内即可创建无代码实验；利用25个开源技能，让代理创建开关并草拟实验；通过应用内AI助手探索产品数据；并借助更强的治理能力安全发布。更快的查询和简化的实验工作流程，帮助每个团队减少摩擦，从创意到洞察。"
+    },
+    {
+      "id": "1210439",
+      "name": "Wondering",
+      "name_zh": "Wondering",
+      "tagline_zh": "像多邻国一样学习各类知识",
+      "description_zh": "Wondering 将复杂知识拆成小课，帮助用户理解和练习。用户告诉它想学什么，它会定制学习路径，包含小课程、图解、播客和互动练习。",
+      "intro_zh": "给想自学某个主题的人用，把学习目标变成一条包含小课、图解和练习的学习路径。",
+      "url": "https://www.producthunt.com/products/wondering-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/534DO3AKV4LOCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d442a259-33f7-44b7-92e5-5c9fdf79e28a.png?auto=format",
+      "votes_count": 350,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "学习入口清楚，但内容质量和学习效果尚无材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "怎样把知识拆小又保留必要前置知识，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先安排学习顺序，再配短课和练习的做法可用于其他培训场景。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它替用户安排学习顺序；最影响判断的是，这条路径是否符合用户已有基础。材料形式多，并不等于能学懂。",
+      "product_analysis": {
+        "target_problem": "想自学新主题的人，可能知道目标，却不知道先学什么、每次学多少。它把安排学习顺序也纳入了产品。",
+        "workflow": "告诉它想学什么，获得定制学习路径，再沿路径学习小课、查看图解、收听播客并做互动练习。",
+        "ai_value": "介绍没提 AI，主要靠拆分知识、安排路径和提供多种学习材料来改善体验。",
+        "differentiation": "它可能省去自己组织学习材料的功夫。但若课程深度不够，用户仍可能回到原有教材。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给一个主题整理知识点和先后顺序，再为每节短课配讲解、图解或音频，最后加入对应练习。",
+        "tradeoffs": "最容易出错的是拆课时漏掉前置知识。单节看似简单，用户往后学却可能接不上。",
+        "unknowns": "学习路径会不会根据用户已有基础调整，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做员工培训时，可以把岗位目标拆成有先后顺序的小课，每课配一道对应练习，避免只堆资料。"
+      ],
+      "validation_questions": [
+        "选一个自己熟悉的主题，检查路径是否漏掉必要的前置知识。",
+        "完成一课后做对应练习，检查题目是否真正要求运用刚学的内容。"
+      ],
+      "source_tagline": "像多邻国一样，轻松学会任何知识",
+      "source_description": "好奇学是一个把复杂知识拆成轻松记住、灵活运用的小课的快乐学习工具。你告诉它想学什么，它就给你定制一条学习路径，里面有小课程、图解、播客和互动练习。就像身边有个耐心又贴心的导师，帮你抓重点，让你用自己的方式学懂。"
+    },
+    {
+      "id": "1210501",
+      "name": "Dashi Metrics",
+      "name_zh": "Dashi Metrics",
+      "tagline_zh": "在旋转的地球上展示实时营收",
+      "description_zh": "把访客和支付数据实时映射到动态 3D 地球上。面向 SaaS 团队和创始人，可旋转、缩放地球来查看全球业务分布。",
+      "intro_zh": "给 SaaS 团队和创始人用，把访客与支付数据放到可旋转、缩放的地球上查看。",
+      "url": "https://www.producthunt.com/products/dashi-metrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MEYNOM2EOWKKZN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cb5e7595-0f75-4003-8383-306a2dfcc180.png?auto=format",
+      "votes_count": 221,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "查看业务地域分布的用途清楚，但能否帮助判断趋势尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把支付准确放到地图上有具体难点，但实现资料有限。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按地域呈现事件可以借用，前提是用户确实需要看地域差异。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把业务发生地点直接呈现出来。但地球上点位热闹，未必就能看清趋势；现有材料没有解释如何支持准确比较。",
+      "product_analysis": {
+        "target_problem": "面向想查看全球业务分布的 SaaS 团队和创始人。单看营收总数，难知道付款和访问来自哪里。",
+        "workflow": "接入方式未说明。数据映射到地球后，用户可旋转、缩放，查看访客与支付的地域分布。",
+        "ai_value": "介绍没提 AI，主要靠实时数据展示和可交互的地球改善查看体验。",
+        "differentiation": "把地域差异直接放到地球上，可能少一些地名与数字之间的对照。但需要精确比较地区时，用户可能仍偏好图表。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到实时映射访客、支付数据，以及支持旋转和缩放的动态 3D 地球。",
+        "possible_approach": "如果自己做，可以先接收访问和支付记录，再按地域归组，把新增记录更新到地球上。难点是确定每笔支付应归到哪里。",
+        "tradeoffs": "付款位置若归错，某个地区看起来就会异常活跃，用户可能误判市场表现。",
+        "unknowns": "支付位置按账单地址、访问位置，还是其他信息确定？"
+      },
+      "transferable_insights": [
+        "做跨地区业务看板时，可以让地域视图跟随新事件更新；先确认用户需要找地域差异，再决定是否使用 3D。"
+      ],
+      "validation_questions": [
+        "选取已知来源地区的支付记录，检查地图归属是否正确。",
+        "让同事找出支付最多的地区，检查能否准确完成比较。"
+      ],
+      "source_tagline": "把实时营收画在一个会转的地球上",
+      "source_description": "一个可以把访客和支付数据实时映射到动态3D地球的工具。SaaS团队和创始人不用再盯着死板的图表，旋转、缩放地球就能一眼看出全球业务趋势。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

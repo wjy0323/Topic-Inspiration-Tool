@@ -1,367 +1,510 @@
 {
   "date": "2026-10-05",
-  "generated_at": "2026-10-06T22:00:56+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:23:43+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1269915",
-      "name": "Spira Maxima",
-      "name_zh": "Spira Maxima",
-      "tagline_zh": "Video model that turns script into viral social media videos",
-      "description_zh": "Spira Maxima turns plain text into a finished social video: presenter, on-trend B-roll, captions and music in one pass, ready to post with nothing to re-edit. Bring a photo and voice for your AI clone, product shots, or a recording, and it builds the edit around you. Post-trained on social trend and performance data, so every video follows what is working to maximize your social impact.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/IAN7QVRIFKVUDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3d93cd45-3d08-45db-b704-9e3ccfec9201.jpeg?auto=format",
-      "votes_count": 435,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 78e22a1a-a42a-456e-b220-d4d7813754eb)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1266109",
       "name": "FastRouter.ai",
       "name_zh": "FastRouter.ai",
-      "tagline_zh": "Route requests to the right LLM for cost, latency & quality",
-      "description_zh": "FastRouter is a unified AI gateway and control plane for developers and enterprise teams building with LLMs. It routes every request to the right model across 200+ LLMs through one OpenAI-compatible API, optimizing for cost, latency, quality, and reliability. With intelligent routing, failover, observability, and governance, teams can scale AI apps without vendor lock-in or code changes.",
-      "intro_zh": "",
+      "tagline_zh": "按成本、响应时间和质量，将请求分配给合适的大语言模型",
+      "description_zh": "FastRouter 为开发者和企业团队提供统一的大语言模型接入与管理入口，通过兼容 OpenAI 的接口连接 200 多个模型。介绍称，它提供智能分流、故障切换、运行监测和使用管控，以兼顾成本、响应时间、质量与可靠性，减少对单一供应商的依赖。",
+      "intro_zh": "给开发 AI 应用的团队用，把模型请求交给统一入口，再分配给不同模型处理。",
       "url": "https://www.producthunt.com/products/fastrouter-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PAFQYYKYJKF7HJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/db42f12b-f6de-4f6f-b01a-9f8b569fd538.png?auto=format",
       "votes_count": 354,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多模型接入和故障切换的用途清楚，但节省多少成本尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何在切换模型时维持回答质量，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "统一接入与集中分流可借鉴，但需要先定义任务的合格标准。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "统一管理多模型调用有明确用途；但若质量判断不可靠，较低的单次调用成本可能换来更多重试。",
+      "product_analysis": {
+        "target_problem": "开发团队接入多个模型时，要处理不同调用方式，也要应对模型服务故障。FastRouter 把这些工作集中到一个入口。",
+        "workflow": "应用通过统一接口发送请求，由 FastRouter 分配模型；团队可使用运行监测和管控功能，服务出错时可切换模型。",
+        "ai_value": "模型负责处理应用请求，路由负责选择模型。介绍没说路由判断本身是否使用 AI。",
+        "differentiation": "省去一部分分别接入和维护模型的工作。最可能阻碍切换的是：团队未必愿意把模型选择权交给尚未验证的路由规则。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 29f7ea29-27c3-4124-85a6-918fe8fa6f55)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称支持 200 多个模型，提供兼容 OpenAI 的接口，即应用可沿用相近的请求格式接入。",
+        "possible_approach": "如果自己做，可以先统一请求格式，再按任务类型选择模型，并在调用失败时转给备用模型。",
+        "tradeoffs": "最难的是判断备用模型能否完成同一任务。若只保证请求成功，回答却不合格，用户仍要重试。",
+        "unknowns": "路由依据什么标准判断模型的回答质量？"
+      },
+      "transferable_insights": [
+        "做多模型应用时，可以把模型选择集中管理，避免每个业务页面各写一套切换规则。"
+      ],
+      "validation_questions": [
+        "用一组有合格答案标准的真实任务，检查路由后的回答是否达标。",
+        "模拟主模型不可用，检查备用模型能否返回业务要求的结果格式。"
+      ],
+      "source_tagline": "Route requests to the right LLM for cost, latency & quality",
+      "source_description": "FastRouter is a unified AI gateway and control plane for developers and enterprise teams building with LLMs. It routes every request to the right model across 200+ LLMs through one OpenAI-compatible API, optimizing for cost, latency, quality, and reliability. With intelligent routing, failover, observability, and governance, teams can scale AI apps without vendor lock-in or code changes."
     },
     {
       "id": "1259566",
       "name": "Invofox Self Serve",
       "name_zh": "Invofox Self Serve",
-      "tagline_zh": "99% accurate document extraction, SLA guaranteed",
-      "description_zh": "Invofox turns any document into clean, structured JSON through one API. Get 99%+ accuracy backed by SLAs. If we make a mistake, you don’t pay for that document. Invofox handles parsing, extraction, validation, edge cases, and monitoring behind one endpoint, then automatically learns from your feedback to keep improving on the documents your business actually processes.",
-      "intro_zh": "",
+      "tagline_zh": "宣称文档提取准确率达 99%，并提供服务水平协议保障",
+      "description_zh": "Invofox 通过一个接口把文档转成结构化 JSON 数据，包办解析、提取、校验、特殊情况处理和监控，并根据用户反馈自动改进。介绍宣称准确率超过 99%，有服务水平协议保障，处理出错的文档不收费。",
+      "intro_zh": "给需要批量处理业务文档的开发团队用，把文档内容提取成软件可直接读取的数据。",
       "url": "https://www.producthunt.com/products/invofox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/A73IARONEFI6BU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9818d98e-360c-4fd2-a581-62c2706ae035.png?auto=format",
       "votes_count": 336,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把多项文档处理工作放进一个接口，省事方向明确，但准确率口径待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从反馈中改进提取结果，涉及如何避免修正一类文档却影响其他文档。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "集中处理提取与校验可以借鉴，但缺少具体校验方式和适用条件。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是一次接入就覆盖提取与校验；最影响判断的是准确率承诺的计算口径，出错免单也不能补回后续业务损失。",
+      "product_analysis": {
+        "target_problem": "业务系统需要把文档内容变成可用字段。若团队自行处理，提取后还要校验，并照顾格式特殊的文档。",
+        "workflow": "通过接口提交文档，接收 JSON（按字段组织、供软件读取的数据）。发现错误后提供反馈，产品称会据此自动改进。",
+        "ai_value": "介绍没提 AI，主要靠统一接口和反馈改进来减少接入与维护工作。",
+        "differentiation": "把解析、校验和监控放在同一处，减少分别处理的工作。我会先确认输出字段能否满足现有业务要求，再考虑接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 945d98a8-829d-4b1a-bc8c-59ed31663a17)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到单一 API（软件之间传递数据的接口）、JSON 输出及基于反馈的自动改进，未说明具体算法。",
+        "possible_approach": "如果自己做，可以先定义要提取的字段，再读取文档、提取内容并校验格式；把人工纠错留下来，用于后续调整。",
+        "tradeoffs": "最难的是把反馈用于改进时不改坏其他文档。否则修好一种版式，另一种版式的字段可能又填错。",
+        "unknowns": "99% 准确率究竟按字段还是整份文档计算？"
+      },
+      "transferable_insights": [
+        "做文档导入功能时，可以把字段提取和校验放在同一次处理里，让业务系统少接一套检查逻辑。"
+      ],
+      "validation_questions": [
+        "用一批真实业务文档逐字段核对，检查关键字段是否准确。",
+        "提交一次纠错后重跑固定样本，检查其他文档的结果是否变差。"
+      ],
+      "source_tagline": "99% accurate document extraction, SLA guaranteed",
+      "source_description": "Invofox turns any document into clean, structured JSON through one API. Get 99%+ accuracy backed by SLAs. If we make a mistake, you don’t pay for that document. Invofox handles parsing, extraction, validation, edge cases, and monitoring behind one endpoint, then automatically learns from your feedback to keep improving on the documents your business actually processes."
     },
     {
       "id": "1250920",
       "name": "Opengeni",
       "name_zh": "Opengeni",
-      "tagline_zh": "Ship AI agents within minutes. Infrastructure for Agents",
-      "description_zh": "Ship AI agents to production in hours. Opengeni gives you sessions that recover from failures, isolated sandboxes, 100+ integrations, human approvals, and visibility into every step and dollar spent. Focus on your agents. We handle the infrastructure. Self-host for free, or get started on our cloud. For this launch, the first 100 users get $100 in cloud credit. Promo-code: PRODUCTHUNT100",
-      "intro_zh": "",
+      "tagline_zh": "AI 智能体运行基础设施，主打分钟级上线",
+      "description_zh": "Opengeni 宣称能让 AI 智能体在数小时内上线，提供故障恢复会话、隔离运行环境、100 多项集成、人工审批，以及步骤和费用查看功能。可免费自行部署或使用其云服务，本次发布还提供前 100 名用户各 100 美元的云额度，优惠码为 PRODUCTHUNT100。",
+      "intro_zh": "给准备上线 AI 智能体的开发团队用，集中处理任务恢复、运行隔离、人工审批和费用查看。",
       "url": "https://www.producthunt.com/products/opengeni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/T6GNSAK2RWSRW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/659d5145-c7c0-4aae-ab25-8105cf8f5ee4.jpeg?auto=format",
       "votes_count": 317,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖智能体上线后的多项具体需求，但节省多少开发工作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "故障恢复涉及外部操作是否重复，是直接影响可用性的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把人工审批放进自动执行流程，适合有高风险操作的产品借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是运行中断后可以恢复，减少人工重跑的麻烦；但恢复是否会重复产生外部操作，是判断能否用于实际业务的关键。",
+      "product_analysis": {
+        "target_problem": "开发团队把 AI 智能体投入实际使用时，需要处理失败恢复、权限隔离和费用追踪。自行补齐这些能力可能分散任务逻辑开发的精力。",
+        "workflow": "团队可选择自行部署或使用云服务，再利用集成连接外部工具。运行时可安排人工审批，查看执行步骤与花费；具体接入步骤未说明。",
+        "ai_value": "AI 负责执行智能体任务，Opengeni 提供运行支撑。介绍没有说明它会替用户设计任务或提升模型回答质量。",
+        "differentiation": "它把多项运行能力放在一起，可能减少分别搭建的工作。最可能影响迁入意愿的是现有任务能否方便接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a151a945-7947-4e51-b4ab-91871b5ca7ae)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到故障恢复会话、隔离沙箱（分开的运行环境）、100 多项集成、人工审批，以及步骤和费用可见性。",
+        "possible_approach": "如果自己做，可以先记录每一步状态，再把任务放进隔离环境执行；遇到敏感操作先暂停审批，失败后从记录的位置继续。",
+        "tradeoffs": "最难的是恢复时避免重复执行外部操作。若付款已成功但记录没保存，重试就可能再次扣款。",
+        "unknowns": "故障恢复如何处理已经执行成功的外部操作，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做自动发信、付款等工具时，可把人工确认设为执行中的暂停点，确认后再继续。"
+      ],
+      "validation_questions": [
+        "让任务在外部操作成功后中断，恢复时是否会重复执行？",
+        "用一个现有智能体接入，检查需要改动多少任务代码？"
+      ],
+      "source_tagline": "Ship AI agents within minutes. Infrastructure for Agents",
+      "source_description": "Ship AI agents to production in hours. Opengeni gives you sessions that recover from failures, isolated sandboxes, 100+ integrations, human approvals, and visibility into every step and dollar spent. Focus on your agents. We handle the infrastructure. Self-host for free, or get started on our cloud. For this launch, the first 100 users get $100 in cloud credit. Promo-code: PRODUCTHUNT100"
     },
     {
       "id": "1264927",
       "name": "DailyHelm",
       "name_zh": "DailyHelm",
-      "tagline_zh": "Turn analytics into daily revenue-boosting fixes ",
-      "description_zh": "DailyHelm is an AI business reviewer for founders and growth teams. It monitors your analytics, ads, SEO and store data overnight, then identifies the issues and opportunities worth acting on. Unlike traditional dashboards that leave you to interpret charts, DailyHelm delivers a prioritized list of fixes ranked by likely revenue impact so your team knows what to fix and what to do next.",
-      "intro_zh": "",
+      "tagline_zh": "把分析数据变成每日增收改进建议",
+      "description_zh": "DailyHelm 是面向创始人和增长团队的 AI 业务检查工具，会在夜间监测分析、广告、搜索引擎优化和店铺数据，找出需要处理的问题与机会。它按预估收入影响排列改进建议，帮助团队决定先做什么，而不只提供图表。",
+      "intro_zh": "给创始人和增长团队用，检查多处业务数据，整理每天优先处理的问题和改进建议。",
       "url": "https://www.producthunt.com/products/dailyhelm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ADBNQCALXCL4M4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/40d9e72e-974d-41ee-b411-f12084f4ecdc.jpeg?auto=format",
       "votes_count": 223,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把看数据推进到安排工作，场景明确，但建议质量尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "按收入影响排序涉及因果判断，比发现指标变化更难。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把监测结果整理成有先后顺序的行动项，可借用于运营工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把分散的数据变成当天可讨论的工作清单；最影响判断的是收入排序有没有足够依据。",
+      "product_analysis": {
+        "target_problem": "创始人和增长团队看完图表，还要判断哪里出了问题、先处理哪件事。以前需要自己解读仪表盘，现在可以先看工具整理的建议清单。",
+        "workflow": "工具夜间监测分析、广告、搜索优化和店铺数据，再给出按预估收入影响排序的改进项。团队据此决定下一步；介绍没说它会自动执行修改。",
+        "ai_value": "AI 用来找问题和机会，并整理优先级。收入影响只是预估，不能当成执行后一定增加的收入。",
+        "differentiation": "省的是从图表里挑出行动项的判断时间。若排序缺少可信依据，团队可能仍要逐项复查。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 61e82f16-f18e-4038-a075-e68edd3bcbfe)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确使用 AI，并在夜间监测多类业务数据，未说明具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先对齐各来源的日期和指标定义，再找异常、生成建议，最后结合业务规则估计影响并排序。",
+        "tradeoffs": "最难的是把指标变化换算成可改善的收入。若把同期发生当成因果关系，就可能把团队引向错误的优先事项。",
+        "unknowns": "收入影响估算依据是什么，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做运营监测工具时，可以在异常提醒后附上建议动作和排序依据，让用户直接讨论先做哪件事。"
+      ],
+      "validation_questions": [
+        "抽一条高优先级建议，能否追溯到支持它的原始数据？",
+        "拿一个已知原因的历史异常测试，它会不会建议处理无关因素？"
+      ],
+      "source_tagline": "Turn analytics into daily revenue-boosting fixes ",
+      "source_description": "DailyHelm is an AI business reviewer for founders and growth teams. It monitors your analytics, ads, SEO and store data overnight, then identifies the issues and opportunities worth acting on. Unlike traditional dashboards that leave you to interpret charts, DailyHelm delivers a prioritized list of fixes ranked by likely revenue impact so your team knows what to fix and what to do next."
     },
     {
       "id": "1269667",
       "name": "Web Search API",
       "name_zh": "Web Search API",
-      "tagline_zh": "Give AI Agents Access to Live Internet Data",
-      "description_zh": "Web Search API lets your AI agents and applications search the Internet and ground their responses in live information, instead of guessing URLs or relying on a model's training cutoff.",
-      "intro_zh": "",
+      "tagline_zh": "让 AI 智能体获取实时互联网信息",
+      "description_zh": "Web Search API 让 AI 智能体和应用搜索互联网，用实时信息作为回答依据。它旨在减少猜测网址或仅依赖模型训练时所掌握信息的情况。",
+      "intro_zh": "给开发 AI 助手的团队用，让应用搜索互联网，为涉及最新信息的问题寻找回答依据。",
       "url": "https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JIZ7VBITAYZ3LJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2c723fd3-b73f-40c6-8732-3272561c286f.png?auto=format",
       "votes_count": 169,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对模型信息过时和猜测网址的问题，但搜索质量尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "搜索结果能否支持回答是具体问题，但介绍没有披露处理方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先检索再回答的做法可用于需要最新信息的助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是给回答补上可查找的外部依据；最影响判断的是，搜到的信息能否准确支撑结论。",
+      "product_analysis": {
+        "target_problem": "开发新闻、政策等问答应用的团队会需要它。以前若只靠模型已有知识，可能答不出新变化；现在可以搜索互联网再组织回答。",
+        "workflow": "团队把搜索接口接入应用。应用搜索互联网，再把找到的信息用作回答依据；介绍未说明具体接入步骤。",
+        "ai_value": "它给 AI 补充外部信息，不是让模型本身学会新知识。介绍没有说明搜索环节是否使用 AI。",
+        "differentiation": "它提供应用可调用的搜索能力，减少对模型已有知识的依赖。接入后仍可能需要自行判断搜索结果是否可靠。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4ad2b028-cea6-481d-8313-d579f5a3959c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1270060",
-      "name": "HyperFrames Studio (Desktop)",
-      "name_zh": "HyperFrames Studio (Desktop)",
-      "tagline_zh": "The First Video Editor built for Agents",
-      "description_zh": "The first video editor built for agents - built by the team who open sourced HyperFrames at HeyGen Bring your favorite agent (either codex or claude code), HyperFrames Studio turn your coding agents into video editors, while you stay in the director seat. Describe a video and your agent makes it with HyperFrames, then you and your agent work on it together in one studio editor.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/heygen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/E4OXQDH5KEULCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c80ff1b0-553c-4c04-acdd-ad3a4b8d8fcf.jpeg?auto=format",
-      "votes_count": 158,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "提供搜索互联网的 API（让软件调用搜索功能的接口），介绍没说具体搜索技术。",
+        "possible_approach": "如果自己做，可以先把用户问题转成搜索词，再取回相关内容，交给模型据此回答。",
+        "tradeoffs": "最容易错在把相关页面当成充分证据。页面虽提到同一话题，却可能不支持结论，用户仍会得到错误答案。",
+        "unknowns": "所谓实时信息，能否搜到刚发布或刚更新的页面？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3c16dfa1-e618-4f7e-bbf6-18147fe5b8b8)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做政策或产品资料问答时，可以先检索最新资料，再生成回答，避免仅凭模型记忆作答。"
+      ],
+      "validation_questions": [
+        "选一条刚更新的公开信息，检查能否搜到最新版本。",
+        "选一个具体事实问题，核对搜索结果是否真正支持答案。"
+      ],
+      "source_tagline": "Give AI Agents Access to Live Internet Data",
+      "source_description": "Web Search API lets your AI agents and applications search the Internet and ground their responses in live information, instead of guessing URLs or relying on a model's training cutoff."
     },
     {
       "id": "1267967",
       "name": "devpit",
       "name_zh": "devpit",
-      "tagline_zh": "A native control room for your Claude Code agents",
-      "description_zh": "devpit is a native desktop app for running Claude Code agents. One terminal you actually watch, a board where moving a card runs real work, a cost on every agent call, and an orchestrator that sees every project at once. Local-first, open source.",
-      "intro_zh": "",
+      "tagline_zh": "管理 Claude Code 智能体的原生桌面控制台",
+      "description_zh": "devpit 是运行 Claude Code 智能体的原生桌面应用，提供终端、移动卡片即可触发工作的看板，以及每次智能体调用的费用显示。它还提供可同时查看所有项目的调度器，采用本地优先方式，并且开源。",
+      "intro_zh": "给用 Claude Code 处理开发任务的人，在桌面应用里运行智能体、用看板触发工作并查看调用费用。",
       "url": "https://www.producthunt.com/products/devpit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7NIH2O42LIBLJU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3c32a9f5-aefb-41e8-8e2e-73c9436911a0.png?auto=format",
       "votes_count": 110,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把任务操作和调用费用放在一起，用途清楚，但实际省事程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "移动卡片触发真实工作，值得关注如何避免重复执行。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让任务卡片直接触发执行，可借用于其他自动化任务工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重任务卡片能直接触发工作；最影响判断的是触发规则是否清楚，能否避免误操作产生真实执行。",
+      "product_analysis": {
+        "target_problem": "同时用 Claude Code 处理多个项目的开发者，需要看清任务进展和花费。麻烦在于把这些信息对应到具体工作。",
+        "workflow": "在桌面应用中运行智能体，移动看板卡片触发工作。通过终端观察执行，查看每次调用的费用，并由调度器查看各项目。",
+        "ai_value": "Claude Code 智能体承担开发工作；devpit 负责运行和管理。简介没有说调度器本身是否使用 AI。",
+        "differentiation": "看板不只记录任务，还能触发工作，可能减少从任务记录到启动执行的切换。但已有终端习惯的人未必愿意迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1820d5df-a90a-4025-a51d-149c34ded63d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到原生桌面应用、本地优先、开源，以及逐次调用费用显示。",
+        "possible_approach": "如果自己做，可以先把卡片关联到项目和任务，再由卡片移动启动 Claude Code，并把执行状态和费用写回卡片。",
+        "tradeoffs": "最容易出错的是重复触发。同一张卡片若因反复拖动启动多次工作，可能造成重复修改和额外费用。",
+        "unknowns": "哪些卡片移动会启动工作，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做批处理或自动化工具时，可以让任务卡片直接启动工作，并在卡片上保留执行状态，减少另找启动入口的操作。"
+      ],
+      "validation_questions": [
+        "连续移动同一张卡片，是否会重复启动同一任务？",
+        "选一次调用，将显示费用与对应账单记录对照，能否一致？"
+      ],
+      "source_tagline": "A native control room for your Claude Code agents",
+      "source_description": "devpit is a native desktop app for running Claude Code agents. One terminal you actually watch, a board where moving a card runs real work, a cost on every agent call, and an orchestrator that sees every project at once. Local-first, open source."
     },
     {
       "id": "1267987",
       "name": "Siteprint",
       "name_zh": "Siteprint",
-      "tagline_zh": "Measure any website's design, then hand it to your AI",
-      "description_zh": "Siteprint is a Safari extension for Mac that measures the design of any page: colours with their roles, type scale, spacing, corners and layout. Extract it as one exact prompt for Claude Code, Cursor or Codex. Runs on your Mac. $9.99 once.",
-      "intro_zh": "",
+      "tagline_zh": "测量网页设计，再交给你的 AI",
+      "description_zh": "Siteprint 是 Mac 上的 Safari 扩展，可测量网页的颜色及其用途、字号层级、间距、圆角和布局，并整理成一段供 Claude Code、Cursor 或 Codex 使用的提示词。介绍称它在 Mac 上运行，一次性售价为 9.99 美元。",
+      "intro_zh": "给用 AI 编写网页的人，把参考页面的配色、字号和布局整理成提示词，交给编程工具。",
       "url": "https://www.producthunt.com/products/siteprint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HTFIJJAVXM35LM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ef901ee2-7cb5-4f66-9609-fbf37bb13c56.jpeg?auto=format",
       "votes_count": 107,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把参考页设计整理成提示词的用途清楚，但还原效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "读出样式数值之后，如何判断颜色用途和布局关系是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把测量结果直接整理为下一个工具可用的输入，做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把视觉参考变成可交给编程工具的文字；关键疑问是能否读懂设计关系，而不只是列出样式数值。",
+      "product_analysis": {
+        "target_problem": "适合拿参考网页指导 AI 写界面的人。麻烦在于把眼前的视觉效果说明白，尤其是颜色用途、字号层级和间距。",
+        "workflow": "在 Mac 的 Safari 中打开参考页，用扩展测量设计，再导出一段提示词，交给 Claude Code、Cursor 或 Codex。",
+        "ai_value": "介绍没说测量过程是否使用 AI；明确的作用是给后续编程 AI 提供设计描述。",
+        "differentiation": "省去手工整理设计描述的一部分工作。只支持 Mac 上的 Safari，可能让其他浏览器用户不愿切换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1440d9c7-f8f4-435c-bdd1-e86def8ea3aa)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "它是 Mac 上的 Safari 扩展，在本机运行；介绍没说具体怎样测量网页。",
+        "possible_approach": "如果自己做，可以先读取页面元素最终显示的样式和位置，再归纳颜色用途、字号层级及布局，整理成提示词。",
+        "tradeoffs": "最难的是从数值判断用途。若把装饰色当成主按钮色，AI 生成的页面可能数值相近，视觉重点却错了。",
+        "unknowns": "测量的是当前屏幕状态，还是也能描述不同窗口宽度下的布局变化？"
+      },
+      "transferable_insights": [
+        "做检查或采集工具时，可以把结果整理成可直接交给下一步工具的文本，减少用户重新组织信息。"
+      ],
+      "validation_questions": [
+        "选一个颜色用途明确的页面，检查导出的提示词是否正确区分正文、背景和按钮用色。",
+        "对同一页面分别用窄窗口和宽窗口测量，检查提示词能否反映布局变化。"
+      ],
+      "source_tagline": "Measure any website's design, then hand it to your AI",
+      "source_description": "Siteprint is a Safari extension for Mac that measures the design of any page: colours with their roles, type scale, spacing, corners and layout. Extract it as one exact prompt for Claude Code, Cursor or Codex. Runs on your Mac. $9.99 once."
     },
     {
       "id": "1268970",
       "name": "Reactive Resume v6",
       "name_zh": "Reactive Resume v6",
-      "tagline_zh": "A free and open-source resume builder",
-      "description_zh": "This new version of Reactive Resume brings resumes, matching cover letters, and job tracking into one redesigned workflow, while staying free, open source, and self-hostable. There's AI, there's detailed customisability, there's sharing and collaboration features, and so much more. Most of all, it has built trust in the past 6 years as _the_ resume builder to go to for many users.",
-      "intro_zh": "",
+      "tagline_zh": "免费、开源的简历制作工具",
+      "description_zh": "Reactive Resume 新版把简历、配套求职信和求职进度跟踪放进同一套重新设计的工作流程，保持免费、开源，并支持自行部署。简介还提到 AI、细致的自定义、分享与协作功能，并称产品在过去六年积累了用户信任。",
+      "intro_zh": "给求职者制作简历和配套求职信，也能记录求职进度，把申请材料和后续跟进放在一起。",
       "url": "https://www.producthunt.com/products/reactive-resume?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/X7R3SLPFP52UZH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b3f55f2d-8cd8-44b7-9b63-5fca0d743f5a.jpeg?auto=format",
       "votes_count": 103,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把申请材料和求职进度放在一起，用途清楚，但具体衔接方式待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多份申请材料如何对应岗位值得关注，简介未说明实现方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕同一次申请组织材料与进度，是其他任务管理产品可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重材料和进度能一起管理；最影响判断的是，多岗位申请时能否可靠地区分材料版本。",
+      "product_analysis": {
+        "target_problem": "求职者同时准备多份申请时，需要管理简历、求职信和进度。如果这些内容分散保存，核对起来会比较麻烦。",
+        "workflow": "可以在工具中制作和自定义简历、准备配套求职信，并跟踪求职进度。介绍也提到分享和协作，但没交代具体操作顺序。",
+        "ai_value": "介绍提到 AI，但没说它负责写作、修改还是其他任务，无法判断能省哪一步。",
+        "differentiation": "它把材料制作和申请跟进放到同一处。最可能影响迁入意愿的是：现有简历能否保留原来的排版，这一点介绍没说。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 71e3ad4a-2510-44d5-b6ca-1db9e532d541)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "产品开源，支持自行部署，也就是运行在自己管理的服务器上；介绍未说明具体技术栈。",
+        "possible_approach": "如果自己做，可以先给每次岗位申请建一条记录，再关联对应的简历、求职信和进度。",
+        "tradeoffs": "最容易出错的是材料版本对应关系；若修改一份简历影响了其他申请，用户可能发出不合适的内容。",
+        "unknowns": "不同岗位的申请材料能否分别保存、互不覆盖？"
+      },
+      "transferable_insights": [
+        "做投稿或项目申报工具时，可以按一次提交组织材料和进度，让用户在同一处找到文件并继续跟进。"
+      ],
+      "validation_questions": [
+        "为两个岗位准备不同简历，修改其中一份，另一份是否保持不变？",
+        "导入一份现有简历后，原来的排版能否保留？"
+      ],
+      "source_tagline": "A free and open-source resume builder",
+      "source_description": "This new version of Reactive Resume brings resumes, matching cover letters, and job tracking into one redesigned workflow, while staying free, open source, and self-hostable. There's AI, there's detailed customisability, there's sharing and collaboration features, and so much more. Most of all, it has built trust in the past 6 years as _the_ resume builder to go to for many users."
+    },
+    {
+      "id": "1269915",
+      "name": "Spira Maxima",
+      "name_zh": "Spira Maxima",
+      "tagline_zh": "把脚本转成社交视频的视频模型，主打传播效果",
+      "description_zh": "Spira Maxima 将文本制成包含出镜人物、流行补充画面、字幕和音乐的社交视频，也可围绕照片与声音生成的 AI 分身、产品图片或录像来编排。缓存简介称，它利用社交趋势和表现数据做后训练，以改善传播效果，并宣称成片无需再编辑；这些效果未经核验。",
+      "intro_zh": "给制作社交内容的运营和创作者用，把脚本和个人或产品素材编排成带字幕、配乐的视频。",
+      "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/IAN7QVRIFKVUDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3d93cd45-3d08-45db-b704-9e3ccfec9201.jpeg?auto=format",
+      "votes_count": 435,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "制作任务明确，但成片能否直接发布仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "脚本与画面能否准确对应，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕用户素材编排内容可以借鉴，但效果缺少实例支持。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重把多项制作任务合成一次输出；最影响判断的是出错后能否局部修改，传播效果宣传不能替代这个检查。",
+      "product_analysis": {
+        "target_problem": "运营和创作者需要把文案变成社交视频。以前分开处理人物、画面、字幕和音乐的任务，现在可以交给一个工具生成。",
+        "workflow": "输入文本，也可提供照片与声音、产品图片或录像。工具围绕这些内容编排视频，加入人物、补充画面、字幕和音乐。",
+        "ai_value": "AI 负责从文本组织成片，并支持用照片与声音制作个人分身。",
+        "differentiation": "省的是逐项拼装视频的工作。若成片不合要求却难以局部修改，用户可能仍要回到剪辑软件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称模型用社交趋势和表现数据做过后训练，即在已有模型上继续训练。",
+        "possible_approach": "如果自己做，可以先把脚本拆成片段，再为每段匹配人物和画面，最后按时间顺序合成字幕与音乐。",
+        "tradeoffs": "最容易错在画面与脚本不对应。即使画面流行，放错产品或场景也可能让成片无法发布。",
+        "unknowns": "生成后能否只替换某个错误片段，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做营销内容工具时，可以让用户先提供产品素材，再围绕素材编排，减少生成内容偏离实际产品的可能。"
+      ],
+      "validation_questions": [
+        "用包含具体产品细节的脚本生成视频，检查画面是否准确对应文字。",
+        "对一个不满意的片段，检查能否单独替换。"
+      ],
+      "source_tagline": "Video model that turns script into viral social media videos",
+      "source_description": "Spira Maxima turns plain text into a finished social video: presenter, on-trend B-roll, captions and music in one pass, ready to post with nothing to re-edit. Bring a photo and voice for your AI clone, product shots, or a recording, and it builds the edit around you. Post-trained on social trend and performance data, so every video follows what is working to maximize your social impact."
+    },
+    {
+      "id": "1270060",
+      "name": "HyperFrames Studio (Desktop)",
+      "name_zh": "HyperFrames Studio (Desktop)",
+      "tagline_zh": "为 AI 代理打造的视频编辑器",
+      "description_zh": "由 HeyGen 内开源 HyperFrames 的团队打造，可配合 Codex 或 Claude Code 等编程代理制作视频。你描述想做的视频，代理用 HyperFrames 制作，再与你在同一个编辑器里共同修改。",
+      "intro_zh": "给想用编程代理制作视频的人用：描述需求，让代理制作，再在同一个桌面编辑器里共同修改。",
+      "url": "https://www.producthunt.com/products/heygen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/E4OXQDH5KEULCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c80ff1b0-553c-4c04-acdd-ad3a4b8d8fcf.jpeg?auto=format",
+      "votes_count": 158,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "描述需求到共同编辑的用途清楚，但成片质量和修改效率未有材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "人与代理共同修改视频有具体技术难点，但介绍未说明处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让代理进入可编辑的工作区有借鉴意义，适用条件仍待确认。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是生成后还能在原处共同修改；最影响判断的是它究竟提供多细的人工编辑能力。",
+      "product_analysis": {
+        "target_problem": "面向想让编程代理参与视频制作、又要自己控制结果的人。关键需求是让代理生成的内容还能继续共同修改。",
+        "workflow": "用户描述视频需求，Codex 或 Claude Code 用 HyperFrames 制作视频，再与用户在同一个 Studio 编辑器中修改。",
+        "ai_value": "AI 接收视频描述并参与制作和后续修改。介绍没说明它如何选择素材或安排画面。",
+        "differentiation": "它把代理制作与人工修改放在同一编辑器里，可能减少来回交接。使用门槛可能是需要先熟悉编程代理。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 HyperFrames 已开源，并支持配合 Codex 或 Claude Code；未说明具体连接方式。",
+        "possible_approach": "如果自己做，可以先让代理把视频描述转成可编辑项目，再让编辑器读取它，并把人工修改保存回同一项目。",
+        "tradeoffs": "最难的是避免代理覆盖人工修改。若代理继续按旧项目生成，用户刚调整的内容可能丢失。",
+        "unknowns": "介绍没说用户能直接编辑哪些内容。"
+      },
+      "transferable_insights": [
+        "做 AI 生成工具时，可以让生成结果直接进入可编辑工作区，适合用户需要反复微调的任务。"
+      ],
+      "validation_questions": [
+        "手动修改一处内容后，再让代理改另一处，原来的修改会不会被覆盖？",
+        "生成后，用户能否直接选中并修改单个画面元素？"
+      ],
+      "source_tagline": "The First Video Editor built for Agents",
+      "source_description": "The first video editor built for agents - built by the team who open sourced HyperFrames at HeyGen Bring your favorite agent (either codex or claude code), HyperFrames Studio turn your coding agents into video editors, while you stay in the director seat. Describe a video and your agent makes it with HyperFrames, then you and your agent work on it together in one studio editor."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

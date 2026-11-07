@@ -1,357 +1,510 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-29T17:43:13+08:00",
+  "generated_at": "2026-11-07T15:40:33+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1205253",
-      "name": "Lottie Creator 2.0",
-      "name_zh": "Lottie Creator 2.0",
-      "tagline_zh": "在浏览器里做动画，像用After Effects一样顺手",
-      "description_zh": "一款在浏览器里从零设计矢量动画的工具，内置Motion Copilot AI帮你加快创作，还能用状态机添加交互，直接导出Lottie和dotLottie格式。不用装软件，也不用跟开发来回对接。",
-      "intro_zh": "在网页上就能做出高级矢量动画，不用下载任何软件。设计师、动效师和需要快速出动画的前端同学会特别喜欢，因为做完就能直接用，省掉一堆导出和沟通的麻烦。",
-      "url": "https://www.producthunt.com/products/lottiefiles?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GSHXQX2CIK3S3Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5c5318ef-15cd-4bdf-84de-3310f281686b.jpeg?auto=format",
-      "votes_count": 366,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "动画创作过程本身就是极佳的画面素材：拖拖拽拽、实时预览、AI一键生成、交互连线，录制下来就是流畅的视觉演示，冲击力强。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念上像网页版After Effects，普通人一眼就能看懂是“做动画的”，虽然深入使用需要设计基础，但有AI辅助降低了上手门槛，演示性很强。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日第3名，366票，属于高热度产品，自带话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "扔掉AE！在浏览器里3分钟做出炫酷动画，AI还帮你画关键帧",
-        "angle": "教程演示",
-        "shooting_tips": "从新建项目开始，先展示界面布局，然后快速拖入形状，用Motion Copilot输入一句话生成一段动画，再展示状态机连线做出交互效果，最后预览导出。节奏要快，每一步都配上惊叹语气，突出无需安装、AI加速和直接交付的特点。",
-        "target_audience": "设计师、前端开发者、产品经理、自媒体创作者，对动画和效率工具有兴趣的泛互联网人群"
-      },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示效果极佳，小白能看懂，热度高，天然适合视频传播。"
-    },
-    {
-      "id": "1140514",
-      "name": "Hardbook",
-      "name_zh": "锁约",
-      "tagline_zh": "帮你自动签合同的自由职业者预约链接",
-      "description_zh": "自由职业最怕客户答应后迟迟不签合同，锁约专治这个痛点。客户在你的专属链接上选好时间，顺手就能完成电子签名，一步到位。不用下载、不用注册、不用反复催，一个链接锁死订单，专为怕跑单的设计师、摄影师、咨询师打造。",
-      "intro_zh": "一个链接就能让客户自己选时间、签合同，省去来回拉扯。自由职业者、摄影师、设计师、咨询师必备，再也不用担心客户放鸽子、合同没签就开工。",
-      "url": "https://www.producthunt.com/products/hardbook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BFSS4PCCKOXJ56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4f131a66-552f-44d8-8e3c-aa21418ef710.png?auto=format",
-      "votes_count": 214,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "全程可录屏演示，从生成链接到客户选时签名一气呵成，前后效果对比明显，画面操作流畅，但没有夸张的视觉特效。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极其简单，自雇者一看就懂，客户端零学习成本，无需技术背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "Product Hunt当日第5名，214票，属于中上热度，自由职业话题有持续关注度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "告别白嫖客户！一个链接自动签合同｜自由职业接单神器",
-        "angle": "教程演示",
-        "shooting_tips": "先展示传统噩梦：聊天记录追合同、客户已读不回，接着打开锁约创建链接，设置可选日期，模拟客户收到链接后选时并电子签名，最后展示后台确认。重点突出‘零注册’和‘一步到位’的爽快感。",
-        "target_audience": "独立设计师、摄影师、咨询顾问、自由插画师等常为合同拉扯而头痛的接单人"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "痛点戳得准，流程可完整演示，目标群体互联网活跃，极易在社交媒体引发共鸣。"
-    },
-    {
-      "id": "1205332",
-      "name": "Ycode AI Agents",
-      "name_zh": "Ycode AI 智能体",
-      "tagline_zh": "用AI指挥建站，说话就能改界面",
-      "description_zh": "把Claude、OpenAI、Gemini或Grok这些AI模型接进Ycode网站搭建工具，直接在编辑器里用你最喜欢的AI。告诉它你想改什么，智能体就能替你调整设计、管理后台内容、搭建优化组件。",
-      "intro_zh": "一个会听话的网站搭建工具，你动嘴它动手。想改样式、换文案、加功能，跟AI说一声就行，全程不用写代码。适合想快速上线网站又不想折腾技术的创业者、设计师和小团队。",
-      "url": "https://www.producthunt.com/products/ycode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/C72UKW3QLZRAJC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f047ccb7-a3b6-4aca-ac00-534b3a8a5275.jpeg?auto=format",
-      "votes_count": 187,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "操作界面丰富，有实时建站过程、AI对话修改页面、前后效果对比，画面冲击力强，非常适合视频演示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直观（对话式改网站），无需编程基础，但需要稍微理解网站组件结构，上手门槛低。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt第6名，187票，有一定热度但不算爆款，话题性中等。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "跟AI聊天就能做出一个网站？！Ycode这操作太离谱了",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "录屏展示从空白画布开始，通过对话一步步生成首页、修改配色、添加联系表单，突出即时反馈和无需代码的爽感，节奏轻快，配上真实人声解说。",
-        "target_audience": "非技术背景的创业者、设计师、自由职业者，以及想快速搭建作品集或落地页的学生。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "AI驱动、画面感强、学习成本低，非常适合拍成直观易懂的视频爆款。"
-    },
-    {
-      "id": "1208295",
-      "name": "EasyCircuit",
-      "name_zh": "简易电路",
-      "tagline_zh": "硬件原型设计，像说话一样简单",
-      "description_zh": "这是一个AI电路助手，你只要用大白话说出想法，它就能自动设计电路、配齐零件。不需要任何电子背景，拿到套件后从面包板搭起，最后焊成成品板。",
-      "intro_zh": "像聊天一样设计电路，说出想法就出图出清单。爱搞小发明的学生和创客，再不用死磕电路图了。",
-      "url": "https://www.producthunt.com/products/easycircuit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4SXXVFWMM64FI7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/aa8195f7-06ab-4aab-8308-aa50b8954350.png?auto=format",
-      "votes_count": 181,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以直观展示从文字描述到电路图的生成过程，以及面包板到成品板的搭建延时，画面有吸引力。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "无需任何电子知识，用大白话说出想法即可，普通人一看就懂，上手零门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第7名，181票，热度较高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "说句话就生成电路图？这工具让手残党也能搞发明！",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示输入自然语言描述生成电路图和BOM清单，然后实物开箱零件套件，用延时摄影拍摄面包板搭建和焊接过程。节奏明快，配上口语化解说，突出零基础也能上手。",
-        "target_audience": "想动手做电子制作的初学者、创客、学生和DIY爱好者。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "零门槛使用，演示过程直观有趣，非常适合拍成小白也能看懂的硬件入门视频。"
-    },
-    {
-      "id": "1185439",
-      "name": "Jotform Website Widgets",
-      "name_zh": "Jotform网站小组件",
-      "tagline_zh": "无代码，分钟级打造并嵌入网站互动组件",
-      "description_zh": "给你的网站加上评论、预约、在线聊天、弹窗、倒计时、常见问题解答、媒体画廊等各式互动模块，全程不需要写一行代码，每个组件都能自由定制外观，几分钟就能嵌入任何网站。",
-      "intro_zh": "不用懂代码，也能往网站上塞各种互动小玩意，像评论区、预约表、在线聊天泡泡这些。开网店、做服务的小老板，想给网站添点活力又不想花钱请程序员，用这个就对了。",
-      "url": "https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/KE33DH7C7KRGFV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a71e8d14-bf9c-4dc9-b670-833ee4001b9c.png?auto=format",
-      "votes_count": 168,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有完整的可视化搭建界面，拖拽配置过程展示性强，多种组件效果和个性化前后对比极具视频观赏性。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "完全无代码，全拖拽式操作，没有任何技术门槛，普通人看一眼就能动手做。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日第8名，斩获168票，话题性和讨论度都不错。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别写代码了！这网站神器让你5分钟变出聊天、预约、弹窗…",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从选模板到拖拽配置的全过程，快速演示预约、弹窗、倒计时三个典型组件，最后实拍网页前后效果对比，节奏明快，信息点突出。",
-        "target_audience": "不懂技术的网站主、自媒体博主、网店店主、小型服务商家"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化操作画面丰富，零门槛，热度适中，非常适合做成教学种草视频。"
-    },
-    {
-      "id": "1207552",
-      "name": "Firstpass",
-      "name_zh": "Firstpass",
-      "tagline_zh": "可执行的发布前检视，让你每次上线都一击即中",
-      "description_zh": "把你要发布的产品文案丢进去，它会把在 Product Hunt 页面、排行榜列表、Glaze Store 网格等各种地方最终显示的样子统统秀给你看，并用手写评注标出哪些文字会被砍掉、哪些关键信息会被忽略。省得发布后才发现标语变成“…”的尴尬。",
-      "intro_zh": "上线前帮你把产品介绍在各个平台长啥样提前看个遍，哪里被截断、哪里读起来不对劲，一眼就揪出来。经常在 ProductHunt、应用商店发东西的朋友，再也不用担心文案翻车。",
-      "url": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/A5C7RWUJJMXOLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cb7c57e6-f712-4f39-8839-6468a8009b76.png?auto=format",
-      "votes_count": 144,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的界面操作和多平台截断对比画面，可以直接录制演示流程，直观展示痛点，视觉对比度高，很容易拍出“发现问题-解决问题”的冲击感。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念非常直白：输入文案，看不同地方的显示效果。不需要任何技术背景，做过发布会、写过产品介绍的人秒懂，上手零门槛。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第10名，前10线内的位置，票数144，有一定关注度和话题性，属于值得关注的新工具。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "发PH前最后一步！你的介绍在别人眼里可能只剩一串“...”",
-        "angle": "开箱体验 + 痛点演示",
-        "shooting_tips": "录屏展示输入一个常见产品标语，然后分别切换到 Product Hunt 页面、排行榜行、Glaze Store 网格等预览窗口，突出文字被截断的位置以及手写标注的红圈，最后给一个修正前后的对比镜头。节奏前段略搞笑吐槽，后段正经讲解决方法。",
-        "target_audience": "经常要写产品发布文案的创业者、市场运营、独立开发者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "界面演示效果佳，痛点戳得准，普通人一看就明白值不值得用，热度也在线，非常适合做成直观易懂的种草视频。"
-    },
-    {
       "id": "1190808",
       "name": "Prefactor",
-      "name_zh": "预评估",
-      "tagline_zh": "实时评估你的AI智能体",
-      "description_zh": "很多AI智能体在测试时表现不错，一上线就出问题。Prefactor就是来填补这个空缺的评估层，能实时给每一次智能体运行打分，一旦出现质量下滑或偏差马上提醒你，让开发团队清楚看到智能体在实际场景中的真实表现。专为需要把智能体交付给客户的团队打造。",
-      "intro_zh": "给AI智能体装上实时监测仪，每次运行都能打分、报警。做AI应用、天天担心智能体掉链子的开发团队，有了它心里就有底了。",
+      "name_zh": "Prefactor",
+      "tagline_zh": "实时评估你的 AI 智能体",
+      "description_zh": "Prefactor 面向向客户交付 AI 智能体的团队，为实际运行中的每次任务打分。介绍称，它会在质量下滑或出现偏差时发出提醒，帮助团队了解上线后的表现。",
+      "intro_zh": "给交付 AI 智能体的开发团队用，为上线后的每次运行打分，并在质量异常时提醒。",
       "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Y5XXYGBXLHNUGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a3db6429-c30c-4462-a6ff-d3896ad6d2c5.png?auto=format",
       "votes_count": 584,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "产品有监控面板和数据可视化，可以通过屏幕录制展示实时评分、报警等操作，但视觉冲击力一般，适合演示型视频。"
+          "reason": "上线后发现质量问题的需求明确，但评分是否可信还缺依据。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解AI智能体评估、回归等专业概念，普通用户较难理解其用途，主要面向开发团队。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断真实任务做得好不好，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第1，票数584，热度很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把发布前测试延伸到实际运行监测，是可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "你的AI智能体上线后翻车？这个工具实时打分救命！",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕展示实时评分仪表盘，模拟一个智能体运行并触发质量回归报警，对比修复前后效果，搭配简洁解释。节奏快，突出痛点。",
-        "target_audience": "AI工程师、产品经理、技术创业者"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是上线后持续发现问题的机会；但历史简介未解释评分依据，暂时无法判断提醒是否可靠。",
+      "product_analysis": {
+        "target_problem": "向客户交付智能体的团队，需要知道上线后是否仍能把任务做好。测试表现不错，不代表真实场景中不会出错。",
+        "workflow": "智能体实际运行时，Prefactor 为每次运行评分，发现质量下滑或偏差后提醒团队。介绍没交代接入步骤。",
+        "ai_value": "它评估的是 AI 智能体；介绍没说明评分本身是否使用 AI，也没解释评分依据。",
+        "differentiation": "相比只看上线前测试，它把观察延伸到实际运行。团队可能不愿接入的原因是：分数未必对应客户眼中的任务成败。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高，有可视化界面适合视频演示，但概念对普通观众较难，适合技术向内容。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到逐次运行评分和异常提醒，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录任务要求、执行过程和结果，再按预设标准评分，低于阈值时提醒。",
+        "tradeoffs": "最难的是定准评分标准。若把表达流畅当成任务完成，真正失败的运行可能不会触发提醒。",
+        "unknowns": "评分标准能否按客户任务调整？"
+      },
+      "transferable_insights": [
+        "做自动执行任务的产品时，可以把发布前测试延伸为上线后的逐次检查，并保留异常任务供团队复查。"
+      ],
+      "validation_questions": [
+        "拿人工已确认失败的任务测试，检查它能否识别失败。",
+        "让同类任务的质量逐步下降，检查提醒能否触发。"
+      ],
+      "source_tagline": "实时评估你的AI智能体",
+      "source_description": "很多AI智能体在测试时表现不错，一上线就出问题。Prefactor就是来填补这个空缺的评估层，能实时给每一次智能体运行打分，一旦出现质量下滑或偏差马上提醒你，让开发团队清楚看到智能体在实际场景中的真实表现。专为需要把智能体交付给客户的团队打造。"
     },
     {
       "id": "1195320",
       "name": "Cekura",
       "name_zh": "Cekura",
-      "tagline_zh": "语音代理的自我进化闭环",
-      "description_zh": "Cekura 是一个专为生产环境中的语音和聊天 AI 代理打造的测试、观测与自我改进平台。它能模拟成千上万种场景，自动捕获故障、定位根因，甚至改写提示和配置，再通过全面回归验证修复效果。",
-      "intro_zh": "给你的语音 AI 装上一个自我纠错大脑，模拟各种对话场景，自动抓 bug 并修复。搞语音助手、客服机器人的团队，想要少加班调参的必备。",
+      "tagline_zh": "让语音代理持续测试并改进",
+      "description_zh": "Cekura 面向生产环境中的语音和聊天 AI 代理，提供测试、运行观察和自动改进功能。缓存简介称，它能模拟成千上万种场景，发现故障并定位原因，改写提示或配置后再运行回归测试，检查修复是否引入新问题。",
+      "intro_zh": "给维护语音和聊天 AI 代理的团队用，模拟对话找故障，并在修改提示或配置后检查结果。",
       "url": "https://www.producthunt.com/products/vocera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KH2LLNVN2ZL3SR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6edcace9-79d1-4ef3-b2f4-b07a9aab1f4d.png?auto=format",
       "votes_count": 407,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "界面包含场景模拟、故障捕获和自动修复的流程可视化，可以演示前后对比，但整体偏向后台仪表盘，缺乏强烈的视觉冲击。"
+        "product_value": {
+          "score": 4,
+          "reason": "把发现故障、修改和复测接在一起，但实际修复效果尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及语音代理测试、提示工程和回归验证，普通用户几乎无法理解，需要相当的技术背景。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动修改后如何避免破坏已有表现，是明确的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第2，获得 407 票，属于当日爆款，话题性很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "将失败场景保留为后续测试用例，可用于其他对话产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "让 AI 自己改 bug！这个平台把语音代理训练成了自愈高手",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示平台主界面，突出「模拟场景→捕获失败→自动诊断→重写配置→回归验证」的完整闭环；可先用一个真实语音代理出错片段做引子，再展示 Cekura 如何自动修复并验证；剪辑节奏先慢后快，强调对比效果。",
-        "target_audience": "正在搭建或运维语音/聊天代理的开发者、AI 团队负责人、技术决策者"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然技术门槛让普通观众看不懂，但作为 PH 第2名的高热度产品，用演示方式直击开发者痛点，仍能吸引对口的专业观众。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是修改后立即复测，避免只修好眼前案例。最影响判断的是：测试通过是否真的代表对话任务完成。",
+      "product_analysis": {
+        "target_problem": "维护线上语音或聊天代理的团队，需要发现对话在哪出错，并确认修改没有影响原本正常的回答。",
+        "workflow": "平台模拟场景，捕获故障并定位原因，再改写提示或配置，最后通过回归测试检查修复结果。简介没有说明用户如何接入。",
+        "ai_value": "自动改进体现在改写提示和配置；简介没说这些修改是否由 AI 生成，也没说明如何判断答案正确。",
+        "differentiation": "它把找错、修改和复测放在一起，可能减少来回处理。团队可能因不敢让系统自动改动线上行为而暂缓采用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到场景模拟、故障定位、提示及配置改写和回归测试，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先整理真实失败对话，写清每种场景的通过条件，再生成修改建议，重跑旧用例后交人确认。",
+        "tradeoffs": "最容易错在通过条件：若只检查措辞，系统可能把答非所问的回复也判为修复成功。",
+        "unknowns": "自动修改是否需要人工批准，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做客服或预约助手时，可以把每次失败对话保存成固定测试用例，每次改提示都重跑一遍。"
+      ],
+      "validation_questions": [
+        "放入一个已知失败场景，检查它能否正确识别问题。",
+        "应用一次修改后，检查原本通过的用例是否出现退步。"
+      ],
+      "source_tagline": "语音代理的自我进化闭环",
+      "source_description": "Cekura 是一个专为生产环境中的语音和聊天 AI 代理打造的测试、观测与自我改进平台。它能模拟成千上万种场景，自动捕获故障、定位根因，甚至改写提示和配置，再通过全面回归验证修复效果。"
+    },
+    {
+      "id": "1205253",
+      "name": "Lottie Creator 2.0",
+      "name_zh": "Lottie Creator 2.0",
+      "tagline_zh": "在浏览器里制作动画，主打类似 After Effects 的操作体验",
+      "description_zh": "这是一款在浏览器中从零设计矢量动画的工具，内置 Motion Copilot AI，并支持用状态机添加交互。它可导出 Lottie 和 dotLottie 格式；简介宣称无需安装软件，也能减少与开发的反复对接。",
+      "intro_zh": "给制作网页或应用动效的设计师用，在浏览器里设计矢量动画、添加交互，再导出动画文件。",
+      "url": "https://www.producthunt.com/products/lottiefiles?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GSHXQX2CIK3S3Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5c5318ef-15cd-4bdf-84de-3310f281686b.jpeg?auto=format",
+      "votes_count": 366,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "制作、交互和导出覆盖了明确需求，但减少开发对接的效果待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "交互动画导出后的播放兼容性值得关注，但实现细节不足。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把交互配置放进创作工具的做法，可借用于其他设计编辑器。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把交互规则和动画一起制作的便利；但“不用跟开发来回对接”说得过满，能否减少返工仍取决于实际播放环境。",
+      "product_analysis": {
+        "target_problem": "网页或应用设计师需要制作可交互的动效。麻烦可能在于动画做好后，还要向开发解释何时播放、如何切换。",
+        "workflow": "在浏览器中从零设计矢量动画，用状态机添加交互，再导出 Lottie 或 dotLottie 文件。状态机就是规定动画在什么条件下切换到哪个状态。",
+        "ai_value": "简介只说 Motion Copilot AI 能辅助创作，没说明它具体生成或修改什么，无法判断能省掉哪一步。",
+        "differentiation": "制作与交互配置可以在同一工具里完成，且无需安装软件。最可能让人犹豫的是导出后能否在自己的项目里正常运行。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持矢量动画、状态机交互，以及 Lottie 和 dotLottie 两种动画文件格式。",
+        "possible_approach": "如果自己做，可以先做图形与时间轴编辑，再让用户配置触发条件和状态切换，最后把动画及交互规则写入目标格式。",
+        "tradeoffs": "最难的是让导出后的交互与编辑器预览一致。若目标播放器不支持某种规则，用户可能看到动画，却无法触发预期动作。",
+        "unknowns": "哪些目标播放器能保留导出文件中的交互行为？"
+      },
+      "transferable_insights": [
+        "做图表或原型编辑器时，可以让设计师直接配置点击后的状态变化，减少另写交互说明的工作。"
+      ],
+      "validation_questions": [
+        "把带状态切换的动画放进目标项目，检查交互是否与预览一致。",
+        "用 Motion Copilot 完成一次明确的动画修改，检查它实际替代了哪些手工操作。"
+      ],
+      "source_tagline": "在浏览器里做动画，像用After Effects一样顺手",
+      "source_description": "一款在浏览器里从零设计矢量动画的工具，内置Motion Copilot AI帮你加快创作，还能用状态机添加交互，直接导出Lottie和dotLottie格式。不用装软件，也不用跟开发来回对接。"
     },
     {
       "id": "1150287",
       "name": "Leaping AI",
-      "name_zh": "跃步AI",
-      "tagline_zh": "能持续多天打电话、发短信的AI销售助理",
-      "description_zh": "帮家装、屋顶、贸易这类做实体生意的公司，把接打电话和收发短信的活儿全自动化，还能发起持续好几周的多轮跟进活动。AI客服能同时聊100多个对话，说不同语言，还能跟任何CRM打通，自动搞定预约、售后和确认回访，再也不会漏接、慢回复或者跟丢客户。",
-      "intro_zh": "一个能自动帮你打电话、发短信的AI管家，专门给装修、屋顶、小商店老板用，客户来了秒回应，跟进再也不忘事，订单自己找上门。",
+      "name_zh": "Leaping AI",
+      "tagline_zh": "可连续多天打电话、发短信的 AI 销售助理",
+      "description_zh": "为家装、屋顶施工等实体业务公司自动接打电话、收发短信，并开展持续数周的多轮跟进。简介还称它支持多语言、同时处理上百个对话，并连接客户管理系统，处理预约、售后和回访。",
+      "intro_zh": "给家装、屋顶施工等公司的销售和客服用，接打电话、收发短信，持续跟进客户并安排预约。",
       "url": "https://www.producthunt.com/products/leaping-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZTOYWVYEMJZG4Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7d344cb4-0d63-44bd-ac38-98b1663309f8.png?auto=format",
       "votes_count": 219,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "后台操作界面和模拟通话可以演示，但缺乏强视觉冲击，依赖屏幕录制和流程讲解，画面观感较平淡。"
-        },
-        "beginner_friendly": {
+        "product_value": {
           "score": 4,
-          "reason": "概念直观易懂，就是让AI替人接打电话，小企业主不需要技术背景也能明白价值，上手门槛低。"
+          "reason": "客户跟进场景明确，但减少漏接和跟丢客户的效果未经验证。"
         },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "ProductHunt当日排名第4、获219票，话题性和关注度较高。"
+          "reason": "跨数周、跨电话与短信的跟进，存在具体的状态判断难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "根据客户最新回应调整后续联系，适合借用于长周期服务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI客服24小时替你打电话？小老板亲测：漏单率直接归零",
-        "angle": "教程演示 + 行业解读",
-        "shooting_tips": "先拍一段传统手工接电话手忙脚乱的场景，再切到跃步AI后台设置多日活动、展示对话记录和预约日历，用模拟电话画面和分屏对比强调100+并行对话能力，结尾展现老板收到的预约通知。节奏前慢后快，最后给结论。",
-        "target_audience": "家居装修、屋顶修缮、家政维修等实体小企业主，以及销售管理者"
-      },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面和模拟通话有演示性，概念易懂，适合拍成实操教程或行业痛点解读视频，但画面冲击力一般，需要好的文案和节奏去抓人。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是持续处理多轮跟进，减少人工反复联系；但历史简介没说明它如何识别客户已拒绝，这直接影响客户体验。",
+      "product_analysis": {
+        "target_problem": "实体服务公司的销售和客服需要反复联系客户、确认预约。联系分散在电话和短信里，可能忘记下一次该跟进谁。",
+        "workflow": "用它接打电话、收发短信，开展持续数周的跟进，并连接 CRM（客户管理系统）处理预约、售后和回访。简介没交代具体配置步骤。",
+        "ai_value": "AI 负责与客户通话和短信交流，并继续后续跟进；介绍还提到多语言对话。",
+        "differentiation": "把单次沟通延伸到多轮跟进，可能减少人工逐次联系。换用前最需确认的是，它能否正确判断何时停止联系。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到多语言对话、电话与短信自动化，以及连接客户管理系统，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先把通话和短信归到同一位客户，再记录预约、拒绝等结果；每次联系前，按最新结果决定是否继续。",
+        "tradeoffs": "最容易错在跟进状态没更新：客户已拒绝或已预约，系统仍继续催问。",
+        "unknowns": "遇到无法回答的问题时，能否转交人工并保留此前沟通内容？"
+      },
+      "transferable_insights": [
+        "做维修、安装等预约服务时，可以让后续提醒读取最新沟通结果，已预约就停止邀约，避免机械地按固定日期群发。"
+      ],
+      "validation_questions": [
+        "在短信里明确拒绝后，检查后续电话跟进是否停止。",
+        "完成一次预约后，检查客户管理系统里的时间是否与客户确认的一致。"
+      ],
+      "source_tagline": "能持续多天打电话、发短信的AI销售助理",
+      "source_description": "帮家装、屋顶、贸易这类做实体生意的公司，把接打电话和收发短信的活儿全自动化，还能发起持续好几周的多轮跟进活动。AI客服能同时聊100多个对话，说不同语言，还能跟任何CRM打通，自动搞定预约、售后和确认回访，再也不会漏接、慢回复或者跟丢客户。"
+    },
+    {
+      "id": "1140514",
+      "name": "Hardbook",
+      "name_zh": "Hardbook",
+      "tagline_zh": "让自由职业者用一个预约链接完成约时间和签合同",
+      "description_zh": "Hardbook 面向设计师、摄影师和咨询师，让客户在专属链接里选择时间并完成电子签名。简介称，客户无需下载或注册，意在减少答应合作后迟迟不签合同的情况。",
+      "intro_zh": "给需要预约客户的自由职业者用，让客户在同一个链接里选好时间、完成合同电子签名。",
+      "url": "https://www.producthunt.com/products/hardbook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BFSS4PCCKOXJ56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4f131a66-552f-44d8-8e3c-aa21418ef710.png?auto=format",
+      "votes_count": 214,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "签约拖延的问题明确，但能否减少跑单尚无材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "预约与签署状态如何对应，是具体且值得检查的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把选时间和签约放在同一入口，可借用于预约型服务。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把签约放在客户约时间的当下，有机会减少后续催促。但历史缓存无法确认签署完成究竟提供了什么凭证，不能把它等同于订单不会取消。",
+      "product_analysis": {
+        "target_problem": "自由职业者接到口头答应后，可能还要催客户签合同。Hardbook 把签署放进预约过程，减少后续追问。",
+        "workflow": "自由职业者分享专属链接，客户打开后选择时间，再完成电子签名。简介称客户无需下载或注册。",
+        "ai_value": "介绍没提 AI，主要靠合并预约和签署来改善体验。",
+        "differentiation": "客户可以在同一入口完成两件事。最可能让人犹豫的是：电子签名是否满足自己的合同要求。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到电子签名，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先展示可预约时间，再展示合同供客户签署，最后把签署结果与这次预约对应保存。",
+        "tradeoffs": "最容易出错的是选了时间却没签完。如果仍显示预约成功，接单方可能误以为合同已经落实。",
+        "unknowns": "客户未完成签署时，所选时间是否仍被占用？"
+      },
+      "transferable_insights": [
+        "做咨询、拍摄等预约服务时，可以把选时间和签约放在同一入口，减少客户另找合同的步骤。"
+      ],
+      "validation_questions": [
+        "选好时间后中途退出签署，检查接单方看到的预约状态。",
+        "完成签署后，检查能否取得包含双方信息和完整条款的合同副本。"
+      ],
+      "source_tagline": "帮你自动签合同的自由职业者预约链接",
+      "source_description": "自由职业最怕客户答应后迟迟不签合同，锁约专治这个痛点。客户在你的专属链接上选好时间，顺手就能完成电子签名，一步到位。不用下载、不用注册、不用反复催，一个链接锁死订单，专为怕跑单的设计师、摄影师、咨询师打造。"
+    },
+    {
+      "id": "1185439",
+      "name": "Jotform Website Widgets",
+      "name_zh": "Jotform Website Widgets",
+      "tagline_zh": "无需编程，创建并嵌入网站互动组件",
+      "description_zh": "为网站添加评论、预约、在线聊天、弹窗、倒计时、常见问题解答和媒体画廊等互动模块，无需编写代码。组件外观可以定制；缓存简介称几分钟即可嵌入任何网站，但速度和适用范围未经核验。",
+      "intro_zh": "给需要维护网站的运营和小团队用，创建可定制的互动组件，再嵌入网站供访客使用。",
+      "url": "https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KE33DH7C7KRGFV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a71e8d14-bf9c-4dc9-b670-833ee4001b9c.png?auto=format",
+      "votes_count": 168,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，但能否顺利接入现有网站仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "嵌入后的样式兼容值得关注，具体实现未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "将常见功能做成可配置组件，是可借用的具体做法。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让不写代码的人也能补充网站功能；最影响判断的是目标网站能否接入，不能把“任何网站”当作兼容性保证。",
+      "product_analysis": {
+        "target_problem": "网站运营人员需要补上预约、评论等功能，却未必会写代码。逐项开发或寻找合适工具可能耗费时间。",
+        "workflow": "选择需要的互动组件，定制外观，再嵌入网站。介绍没有说明具体嵌入操作。",
+        "ai_value": "介绍没提 AI，主要靠现成组件和免编程配置来改善体验。",
+        "differentiation": "把常见互动功能集中提供，可能省去分别找工具的工夫。若网站已有同类功能，更换工具未必划算。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持免编程配置、外观定制和网站嵌入，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先做一套可复用组件，再把颜色、文字等做成配置项，最后生成供网站嵌入的内容。",
+        "tradeoffs": "最容易出错的是组件与原网页样式冲突，可能造成按钮错位或内容被遮挡，手机端尤其需要检查。",
+        "unknowns": "目标网站是否允许使用它要求的嵌入方式？"
+      },
+      "transferable_insights": [
+        "做面向运营的网站工具时，可以把反复出现的功能做成现成组件，只开放必要的外观配置，减少从空白开始的工作。"
+      ],
+      "validation_questions": [
+        "在实际使用的建站平台上，能否完成嵌入并显示组件？",
+        "在手机窄屏上，组件是否出现错位或遮挡？"
+      ],
+      "source_tagline": "无代码，分钟级打造并嵌入网站互动组件",
+      "source_description": "给你的网站加上评论、预约、在线聊天、弹窗、倒计时、常见问题解答、媒体画廊等各式互动模块，全程不需要写一行代码，每个组件都能自由定制外观，几分钟就能嵌入任何网站。"
     },
     {
       "id": "1200340",
       "name": "FlowTask 2.0",
       "name_zh": "FlowTask 2.0",
-      "tagline_zh": "AI代理的企业大脑",
-      "description_zh": "把公司散落在邮件、Slack、WhatsApp等各处的聊天和资料整合到一处，配上审批层，个人与工作消息不再混在一起。它可以同步接入多个AI代理，数据每分钟更新，让AI代理始终获得最新上下文，减少重复沟通成本。",
-      "intro_zh": "这工具就像给公司装了统一的聊天中枢，把邮件、Slack、微信上的工作信息全收拢，还能让AI同事随时读懂最新进展。经常在多个平台跟团队扯皮、又想让AI帮忙干活的管理者和创业者很需要这个。",
+      "tagline_zh": "为 AI 代理提供公司信息中心",
+      "description_zh": "将分散在邮件、Slack、WhatsApp 等处的聊天和资料集中起来，加入审批层，并区分个人与工作消息。简介称它可同时接入多个 AI 代理，每分钟更新数据，以便代理获取较新的背景信息，减少重复沟通。",
+      "intro_zh": "给使用多个 AI 代理的团队，把各处工作消息和资料集中起来，供代理获取任务背景。",
       "url": "https://www.producthunt.com/products/flowtask?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AIJVHGKNFOZEPM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/46825bdf-a155-4f71-91de-4b76f27f4671.png?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有仪表盘和消息整合界面可展示，但操作偏向后台配置，缺少强烈的视听冲击，适合做讲解但不那么容易出戏。"
+        "product_value": {
+          "score": 4,
+          "reason": "信息分散和重复交代背景的问题清楚，但节省多少沟通仍待验证。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "“企业大脑”“AI代理”“上下文成本”等概念需要一定解释，普通用户理解要加点解说，但核心价值（消息归拢）还算直观。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "集中消息后如何限制代理读取范围，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "PH当天排名第9，票数146，有一定关注度但未进入前三，话题性一般。"
+        "transferability": {
+          "score": 4,
+          "reason": "把资料更新与审批放在同一处，适合借用于团队助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "1个工具连起所有聊天，让你的AI同事不再失忆",
-        "angle": "教程演示",
-        "shooting_tips": "先拍多平台消息混乱的痛点场景，再录FlowTask界面如何一键拉取Slack和邮件，展示审批流和AI代理实时更新的联动效果，节奏轻快，最后用前后对比强化效率提升。",
-        "target_audience": "中小企业主、远程团队管理者、对AI落地的普通职场人"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是减少向多个代理重复交代背景；最影响判断的是，审批能否真正限制每个代理可读取的内容。",
+      "product_analysis": {
+        "target_problem": "团队让多个 AI 代理处理工作时，所需背景散在不同聊天工具里，可能要反复补充资料。",
+        "workflow": "将邮件、Slack、WhatsApp 等来源的信息汇集起来，再接入多个 AI 代理。介绍提到审批层，但没说明审批发生在哪一步。",
+        "ai_value": "AI 代理使用汇集后的公司信息作为任务背景。没有说明代理具体执行哪些任务，也不能据此认定资料整理本身由 AI 完成。",
+        "differentiation": "它把多个代理需要的资料集中供给，可能省去逐个补充背景的工作。团队是否愿意集中开放聊天内容，可能影响使用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到多来源信息汇集、审批层、多代理接入，并称数据每分钟更新；未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先按来源收集消息，保留发送者和访问权限，再按审批结果向代理提供允许读取的内容。",
+        "tradeoffs": "最容易出错的是汇集后丢失原有权限限制，让代理读到不该看的个人消息或内部资料。",
+        "unknowns": "审批层究竟控制资料进入、代理读取，还是代理执行动作？"
+      },
+      "transferable_insights": [
+        "做团队知识助手时，可以让多个助手共用一份持续更新的资料，减少用户重复上传；前提是保留每条资料的访问限制。"
+      ],
+      "validation_questions": [
+        "放入一条仅部分成员可见的测试消息，检查无权限代理能否读到。",
+        "修改一条已汇集的消息，检查代理何时能获取新内容。"
+      ],
+      "source_tagline": "AI代理的企业大脑",
+      "source_description": "把公司散落在邮件、Slack、WhatsApp等各处的聊天和资料整合到一处，配上审批层，个人与工作消息不再混在一起。它可以同步接入多个AI代理，数据每分钟更新，让AI代理始终获得最新上下文，减少重复沟通成本。"
+    },
+    {
+      "id": "1207552",
+      "name": "Firstpass",
+      "name_zh": "Firstpass",
+      "tagline_zh": "发布前检查文案展示，找出可修改的问题",
+      "description_zh": "输入待发布的产品文案，查看它在 Product Hunt 页面、排行榜列表和 Glaze Store 网格等位置的展示效果。工具会用手写风格的评注标出可能被截断的文字和被忽略的关键信息。",
+      "intro_zh": "给准备发布产品的团队用，把文案放进不同展示位置预览，提前发现截断和信息遗漏。",
+      "url": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/A5C7RWUJJMXOLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cb7c57e6-f712-4f39-8839-6468a8009b76.png?auto=format",
+      "votes_count": 144,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "发布前检查文案的场景清楚，但预览准确性尚未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "模拟外部页面的文字截断有具体难点，介绍未说明如何实现。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把同一份内容放进多个展示位置检查，可借用于其他发布工具。"
+        }
       },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品界面可演示，痛点明确，但热度中等，适合制作科普向的教程类视频。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是在发布前暴露展示问题；但只有预览贴近真实页面，修改建议才有可靠依据。",
+      "product_analysis": {
+        "target_problem": "准备上线的产品团队需要检查文案在不同位置是否完整。编辑时看得见的关键信息，进入列表或网格后可能被截掉。",
+        "workflow": "输入待发布文案，查看各位置的预览，再根据评注检查截断和信息遗漏。",
+        "ai_value": "介绍没提 AI，主要靠多位置预览和评注来改善检查体验；评注如何生成没有说明。",
+        "differentiation": "把不同位置的展示集中到一起，可能减少逐处核对的工作。最可能让人不愿依赖它的原因，是预览与真实页面不一致。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到多位置预览和手写风格评注，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先为各位置建立展示模板，再放入文案，检查文字是否超出可见区域并标注。",
+        "tradeoffs": "最难的是让模板跟上真实页面变化。宽度或字体不一致，就可能漏报截断，让用户误以为可以直接发布。",
+        "unknowns": "它如何判断哪些关键信息会被读者忽略？"
+      },
+      "transferable_insights": [
+        "做内容发布工具时，可在提交前并排展示列表页和详情页效果，让用户直接检查同一句话在哪个位置失去重点。"
+      ],
+      "validation_questions": [
+        "用一条接近长度限制的标语，对照预览与真实页面的截断位置是否一致。",
+        "放入一句关键信息靠后的文案，检查评注能否准确指出遗漏风险。"
+      ],
+      "source_tagline": "可执行的发布前检视，让你每次上线都一击即中",
+      "source_description": "把你要发布的产品文案丢进去，它会把在 Product Hunt 页面、排行榜列表、Glaze Store 网格等各种地方最终显示的样子统统秀给你看，并用手写评注标出哪些文字会被砍掉、哪些关键信息会被忽略。省得发布后才发现标语变成“…”的尴尬。"
+    },
+    {
+      "id": "1205332",
+      "name": "Ycode AI Agents",
+      "name_zh": "Ycode AI Agents",
+      "tagline_zh": "在 Ycode 里用自然语言指挥 AI 修改网站",
+      "description_zh": "把 Claude、OpenAI、Gemini 或 Grok 接入 Ycode 网站搭建工具，在编辑器里使用 AI。描述想修改的内容，让智能体调整设计、管理后台内容，以及搭建和优化组件。",
+      "intro_zh": "给用 Ycode 建站的人，在编辑器里描述修改要求，让 AI 调整页面、处理内容和组件。",
+      "url": "https://www.producthunt.com/products/ycode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/C72UKW3QLZRAJC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f047ccb7-a3b6-4aca-ac00-534b3a8a5275.jpeg?auto=format",
+      "votes_count": 187,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和修改任务清楚，但能否减少返工尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把自然语言变成准确的页面修改有具体难点，执行细节未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "在编辑器内直接执行修改可以借鉴，但可靠性条件仍待确认。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是描述需求后直接修改网站，少一道手动落实的工序；最影响判断的是它能否准确限制修改范围。",
+      "product_analysis": {
+        "target_problem": "用 Ycode 建站的人，在调整页面或维护内容时可以用它。它想减少的是把修改意图逐项落实到编辑操作的麻烦。",
+        "workflow": "把介绍列出的 AI 接入 Ycode，再在编辑器里描述修改要求。智能体据此调整设计、管理后台内容或搭建组件。",
+        "ai_value": "AI 把用户说的要求转成网站修改动作，不只提供文字建议。",
+        "differentiation": "把提要求和改网站放在同一个编辑器里，可能减少手动操作。对非 Ycode 用户，迁移现有网站可能是主要顾虑。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持接入 Claude、OpenAI、Gemini 或 Grok，未说明具体连接和执行方式。",
+        "possible_approach": "如果自己做，可以先让 AI 读取当前页面结构和选中对象，再把要求拆成编辑器能执行的修改动作，执行前展示改动预览。",
+        "tradeoffs": "最难的是确定修改范围。若把“改这个标题”理解成修改共享组件，其他页面也可能跟着变。",
+        "unknowns": "介绍没说批量修改出错后能否一次撤销。"
+      },
+      "transferable_insights": [
+        "做表格、设计或内容编辑器时，可以让 AI 围绕当前选中对象执行修改，减少用户反复解释操作位置。"
+      ],
+      "validation_questions": [
+        "选中一个页面标题要求修改，检查其他页面的同类标题是否保持不变。",
+        "让 AI 连续修改几个元素，再检查能否一次撤销整批改动。"
+      ],
+      "source_tagline": "用AI指挥建站，说话就能改界面",
+      "source_description": "把Claude、OpenAI、Gemini或Grok这些AI模型接进Ycode网站搭建工具，直接在编辑器里用你最喜欢的AI。告诉它你想改什么，智能体就能替你调整设计、管理后台内容、搭建优化组件。"
+    },
+    {
+      "id": "1208295",
+      "name": "EasyCircuit",
+      "name_zh": "EasyCircuit",
+      "tagline_zh": "用日常语言描述想法，制作硬件原型",
+      "description_zh": "EasyCircuit 是一个 AI 电路助手，可根据日常语言描述设计电路并配齐零件。简介称，无电子背景的人也能拿到套件后，从面包板搭建走到焊接成品板。",
+      "intro_zh": "给想做硬件原型、但不熟悉电子电路的人用，把口头想法变成电路方案和零件套件。",
+      "url": "https://www.producthunt.com/products/easycircuit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4SXXVFWMM64FI7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/aa8195f7-06ab-4aab-8308-aa50b8954350.png?auto=format",
+      "votes_count": 181,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "从想法到动手的用途清楚，但支持哪些电路、能否做成功尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "语言需求如何变成可用电路是具体难题，但资料没说明验证方法。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把设计结果配成可动手的材料值得借用，但实际交付条件不明。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是把方案推进到可以动手搭建；最影响判断的是，面向零基础用户的电路是否经过可靠验证。",
+      "product_analysis": {
+        "target_problem": "想做硬件原型的新手，可能卡在不知道该选什么零件、怎样连接。它试图把这些准备工作接过去。",
+        "workflow": "用户用日常语言描述想法，助手生成电路并配齐零件。拿到套件后，先在面包板上插接搭建，再焊成成品板。",
+        "ai_value": "AI 负责把文字想法转成电路设计和零件选择。缓存简介未说明它如何检查设计是否正确。",
+        "differentiation": "把设计和备料放在一起，可能减少新手自行找零件的工作；但若不能解释接线问题，新手仍可能不敢动手。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介只明确提到 AI 根据日常语言设计电路、配齐零件，没有披露具体技术。",
+        "possible_approach": "如果自己做，可以先把想法整理成供电、输入和输出要求，再从已验证的电路方案中选择并匹配零件。",
+        "tradeoffs": "最容易出错的是漏掉供电约束；零件即使能接起来，也可能不工作，甚至损坏。",
+        "unknowns": "自动设计覆盖哪些电路类型，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做面向新手的制作工具时，可以把方案和所需材料一起交付，让用户少做一次采购准备。"
+      ],
+      "validation_questions": [
+        "描述一个未说明电源的需求，检查它是否先追问供电条件。",
+        "按交付套件搭建一个简单电路，检查能否实现描述的功能。"
+      ],
+      "source_tagline": "硬件原型设计，像说话一样简单",
+      "source_description": "这是一个AI电路助手，你只要用大白话说出想法，它就能自动设计电路、配齐零件。不需要任何电子背景，拿到套件后从面包板搭起，最后焊成成品板。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

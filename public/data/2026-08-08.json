@@ -1,357 +1,510 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-09T15:58:54+08:00",
+  "generated_at": "2026-11-07T15:37:55+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1216176",
-      "name": "AstraPixels",
-      "name_zh": "星图像素",
-      "tagline_zh": "实时像素太阳系，每一颗天体都在它此刻的位置",
-      "description_zh": "一个动态的像素艺术太阳系地图，所有天体位置都是根据真实轨道数据实时计算的，不是从表格里复制的。你可以从太阳一直缩放到柯伊伯带，浏览171颗带科普小知识的编目天体，还能查看未来六个月的星空动态。每块太空岩石都标价出售：花5美元认领一颗小行星，永久拥有，名字随你起（仅在星图像素内展示，非国际天文学联合会官方命名）。",
-      "intro_zh": "一个会动的像素风太阳系地图，能实时看行星和小行星的准确位置，还能花5美元直接买下一颗小行星自己命名。天文迷、喜欢给星星起名的好奇宝宝，或者想送点独一无二礼物的人，都会爱上它。",
-      "url": "https://www.producthunt.com/products/astrapixels?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6BOFNHUVVMY6Q6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/81672151-a06d-4f05-8bb6-8f05ea1cfc7b.png?auto=format",
-      "votes_count": 270,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "像素画风本身就很有辨识度，动起来的天体轨迹、缩放效果和认领小行星的交易流程都适合录屏演示，视觉上节奏轻快，容易出片。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "就像一个互动地图，不需要专业知识也能看懂，认领小行星的流程也很像买数字藏品，几乎没有使用门槛。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当天排名第2，270票，话题性较高，自带猎奇和浪漫属性，容易引发分享。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我花5美元买了颗天上的小行星，还能实时看到它在哪",
-        "angle": "开箱体验",
-        "shooting_tips": "先录一段网页全屏的像素太阳系动画，从太阳推到小行星带，再点开几颗天体看看事实卡。接着完整演示认领一颗小行星的购买和命名过程，突出像素风视觉和‘拥有太空岩石’的新奇感。节奏可以快剪，配上轻科幻背景音乐。",
-        "target_audience": "天文爱好者、喜欢新奇数字纪念品的年轻人、想送独特礼物的人"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "像素美术+实时天文数据+小行星认领，概念新颖，画面好看，操作直观，在视频里很容易讲清楚，也容易引发观众互动。"
-    },
-    {
-      "id": "1217769",
-      "name": "Basedash Subscriptions",
-      "name_zh": "Basedash 定时订阅",
-      "tagline_zh": "仪表盘自动定时推送，数据截图按时送到邮箱或团队频道",
-      "description_zh": "把任何 Basedash 仪表盘或图表变成订阅，设定好时间（每周一早上9点、每天、每月1号等），就能自动把最新数据快照发到你的邮箱或 Slack 频道。不用手动导出、截图，也不用记着分享。你的团队再也不用专门花时间做周一数据邮件了。",
-      "intro_zh": "这玩意儿能让你把数据大屏设个闹钟，到时候自动截图发邮件或发到群里。做数据汇报的运营、产品经理，再也不用每周一早上手动发截图了。",
-      "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AWQTOUN4LM6VG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5036f64e-9d05-46e9-b5ce-f7f5c261e9c0.jpeg?auto=format",
-      "votes_count": 159,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有丰富的 UI 操作界面，从设置订阅频率到选择接收人，再到最终收到的邮件或 Slack 消息截图，前后过程完整，演示效果直观，视觉冲击力强，非常利于视频展示。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极其简单，就是“定时自动发仪表盘截图”，不需要任何技术背景，普通人一看就懂，使用门槛极低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH 当日第4名，159票，属于头部热门产品，话题性强，容易引起好奇。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "从此告别周一早上手动发数据截图，这工具自动帮你汇报",
-        "angle": "教程演示 + 效率技巧",
-        "shooting_tips": "用录屏展示基于真实仪表盘的订阅设置过程，突出“设一次，不用管”的懒人模式；切换至邮箱或 Slack 界面，展示准时收到的带图表的邮件，再点回看实时看板链接；节奏轻快，前10秒直接展示痛点场景（手忙脚乱发截图），然后展示产品解法。",
-        "target_audience": "运营、产品经理、数据分析师、团队管理者，任何需要定期分享数据报表的上班族。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品演示画面丰富，概念零门槛，且热度靠前，非常适合做成短视频快速种草效率人群。"
-    },
-    {
-      "id": "1216610",
-      "name": "Pocket Fit",
-      "name_zh": "口袋健身",
-      "tagline_zh": "用AI看清身材进阶的每一步",
-      "description_zh": "大部分人用健身App坚持不到三周就放弃了。你自律了21天，镜子里的自己却看不出变化，App也只丢给你一个冷冰冰的数字。Pocket Fit让进步肉眼可见：拍一张照片，AI就能模拟出你1个月、2个月、3个月甚至6个月后的样子，一个3D虚拟化身会随着你的训练实时改变。背后还有自动匹配重量和渐进超负荷的训练计划、拍照就能记录的食物识别、全身肌群覆盖追踪、心情日记、连续打卡，以及一群会因为你不练腿而疯狂吐槽你的队友。由伦敦的两个人独立开发。",
-      "intro_zh": "拍照就能预演未来身材的AI健身教练，还能自动安排训练和记录饮食。想练出线条但又怕坚持不住、看不见变化的健身小白和反复放弃星人，会像追剧一样追着它练。",
-      "url": "https://www.producthunt.com/products/pocket-fit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AXPIUPDBWJ3CA4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/fe00fda8-c0da-4701-baab-86886fc3efa0.png?auto=format",
-      "votes_count": 22,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "前后对比强烈：一张照片生成未来几个月的变身材动画，3D虚拟化身随训练实时变化，食物拍照记录过程，画面操作丰富，模拟效果极具视觉冲击力，非常适合用视频演示。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念直观，拍照片就能看到未来变化的自己，不需要任何健身知识或技术背景，操作门槛极低，普通人一眼就能明白。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第6，获得22票，处于榜单前10，话题性较强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "AI预测我练6个月后的样子，结果也太离谱了！",
-        "angle": "开箱体验",
-        "shooting_tips": "先拍一段自己当下的身材照片导入App，即刻展示AI生成的1/3/6个月变化对比图，再录下3D虚拟化身随着输入训练数据实时变瘦变壮的过程，最后穿插食物拍照秒出记录的镜头，节奏轻松带点惊讶，突出“看得见的进步”这一卖点。",
-        "target_audience": "想健身但容易放弃、对身材变化充满好奇、喜欢AI黑科技的年轻人。"
-      },
-      "category": "健康健身",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面语言丰富、AI预测的身材变化动画极具视觉冲击力，普通人秒懂且毫无使用门槛，非常适合做成爆款视频。"
-    },
-    {
-      "id": "1209298",
-      "name": "Patch — Your Security Center",
-      "name_zh": "Patch 安全中心",
-      "tagline_zh": "守护数字生活，一切尽在掌控",
-      "description_zh": "Patch 是 Mac 和 iPhone 上的一站式安全工具，专为不想在多个吓人工具之间跳来跳去的普通人设计。它能扫描诈骗、找出泄露和重复的密码，还能帮你冻结信用、从数据贩子网站上移除个人信息，内置的安全顾问会像真人一样回答问题，一步步教你怎么修。不用注册账号，数据也从不放在服务器上，根本没什么可偷的。",
-      "intro_zh": "Patch 把诈骗检查、密码管理、信用冻结和隐私清理全合到一起，就像手机上多了个贴心的安全管家。怕信息泄露又折腾不明白各种安全软件的普通人，终于能一个 App 搞定所有烦心事了。",
-      "url": "https://www.producthunt.com/products/patch-your-security-center?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/T2SLBACO5KLGWL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/75c62b45-70ab-48a5-a1c5-94967538f6a0.png?auto=format",
-      "votes_count": 12,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的 Mac 和 iPhone 操作界面，可演示扫描诈骗结果、密码泄露警告、信用冻结步骤等真实画面，前后对比直观，视觉节奏好。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "面向完全不懂技术的普通用户，概念就是“帮你看着安全”，一键式操作，全程中文引导，无需任何专业知识。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第 8 名，有一定热度，且“普通人网络安全一站式解决”的话题自带传播性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别再裸奔了！一键查出哪些密码已泄露，这个免费安全中心真救了我",
-        "angle": "开箱体验+教程演示",
-        "shooting_tips": "先用手机录屏展示从下载到首次扫描的全过程，重点拍出“发现3个泄露密码”这类警告弹窗的瞬间反应；然后转到 Mac 端演示信用冻结和移除数据经纪人信息的操作；最后口播对比以前用多个软件的痛苦和现在 Patch 的无脑体验，节奏轻快，穿插真实的安全恐慌场景。",
-        "target_audience": "经常网购、注册各种账号、总担心信息被盗但又不懂技术的普通人；对网络安全一知半解，希望有个“傻瓜式”保镖的大学生和上班族。"
-      },
-      "category": "安全隐私",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "功能直击普通人安全痛点，操作画面丰富易演示，小白看完就能上手，话题热度高。"
-    },
-    {
-      "id": "1216845",
-      "name": "Pesterly",
-      "name_zh": "催收宝",
-      "tagline_zh": "客户文件自动催收，替你跟进到底",
-      "description_zh": "Pesterly 是 Google Workspace 上的一款文档收集工具，能把一份文件清单自动变成邮件请求，定时追讨还没交的东西，收到的文件会规整存进你 Google Drive 的文件夹里。适合需要反复跟客户索要资料的会计、HR 和自由职业者。",
-      "intro_zh": "把要客户交的材料列个清单，邮件自动发出，漏了什么按时催，催来的文件直接存网盘。做会计、HR 或者自由职业，经常得追着人要文件的话，终于不用亲自一遍遍催了。",
-      "url": "https://www.producthunt.com/products/pesterly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YMMYQKBXHZMJEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9f6fd0bd-ae72-47e1-adb3-f35abf3d72f4.jpeg?auto=format",
-      "votes_count": 12,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的操作界面，可以录制设置清单、发送邮件、自动跟进的全流程，前后对比明显，演示价值高。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念非常直白，就是帮人自动催文件，普通人一听就懂，不需要任何技术背景。"
-        },
-        "popularity": {
-          "score": 2,
-          "reason": "ProductHunt 排名第 9，仅获 12 票，热度较低。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "再也不用追着客户要文件！谷歌这个工具帮你自动催",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从创建清单、发送催收邮件，到收件人上传、文件自动归入 Google Drive 的全过程，穿插手动催收的翻白眼吐槽片段，后半段用加速效果表现自动化带来的轻松感。",
-        "target_audience": "经常需要向客户或同事收集文件的上班族，如会计、HR、独立设计师、咨询师。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作画面直观，痛点清晰易懂，拍成教程节奏明快，即使热度不高也能成为垂直领域的实用爆款。"
-    },
-    {
-      "id": "1217593",
-      "name": "Rendemo",
-      "name_zh": "渲染魔",
-      "tagline_zh": "几分钟把任意网页变成可点击的交互演示",
-      "description_zh": "Rendemo 录下你产品页面的真实 HTML，而不是普通截图，生成一个别人可以点来点去、就像在用真东西的演示。用 Chrome 扩展录一次，就能得到一个能嵌入网页的演示（一行代码）、一个 MP4 视频，或是挂在应用上的引导教程。",
-      "intro_zh": "点两下就有个能点着玩的网页演示，录一次屏就能嵌到网站上，客户或同事像操作真实产品那样体验。做销售、产品讲解或者客户成功的朋友直接省下大把时间。",
-      "url": "https://www.producthunt.com/products/rendemo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TUCLPHCY5JL65L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c7c36be8-8886-4153-8396-531373e5b8b3.jpeg?auto=format",
-      "votes_count": 11,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "可以清晰展示从录屏到可交互演示的转变过程，前后对比强烈，画面操作感强，有视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "录制和生成 MP4 几乎零门槛；可交互演示嵌入一个 script 标签稍需引导，但整体概念直观，普通人能很快理解。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第 10，属于前排，但票数 11，话题热度中等。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "录个屏就能生成能点的网页演示？这个 Chrome 插件直接封神！",
-        "angle": "教程演示 + 对比测评",
-        "shooting_tips": "先快速安装扩展，录一段在网页上填表、点击的过程，然后展示生成的可点击演示页，让观众亲手感受可交互的效果。再示范一行 script 嵌入到自己的网站，顺便对比传统截图或 GIF 的局限。剪辑节奏轻快，配上惊讶的表情和活泼 BGM。",
-        "target_audience": "经常要做产品演示、销售 demo、用户引导的产品经理、市场运营、客户成功和设计师。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可录制生成可点击演示，视频表现力极佳，普通人也能看懂上手，非常适合拍成直观的种草教程。"
-    },
-    {
       "id": "1207906",
       "name": "The GTM Co-Founder",
-      "name_zh": "GTM联合创始人",
-      "tagline_zh": "给技术创始人的开源市场攻略，手把手从零到上线",
-      "description_zh": "大多数AI只会给开发者创始人一堆千篇一律的销售建议，这个不一样。它是一套开源技能，先像顾问一样问你几个问题，摸清你的产品和市场，然后按优先级给你一条清晰的上市路线：目标人群、定位、前50个用户、发布策略、定价……全都安排得明明白白。背后有资深从业者的实战手册和作者的亲身经验支撑，完全免费开源。",
-      "intro_zh": "像个会聊天的市场合伙人，先搞懂你的产品，再一步步把怎么卖、卖给谁全告诉你。不懂推广的技术创始人终于有保姆级向导了。",
+      "name_zh": "The GTM Co-Founder",
+      "tagline_zh": "面向技术创始人的开源市场推广指南，从零准备到产品发布",
+      "description_zh": "这套免费开源技能会先询问产品和市场情况，再按优先级给出推广路线，覆盖目标人群、定位、前50个用户、发布策略和定价。介绍称，内容参考了资深从业者的实战手册及作者经验。",
+      "intro_zh": "给准备推向市场的技术创始人用，先问清产品情况，再整理获客、定价和发布的行动顺序。",
       "url": "https://www.producthunt.com/products/the-gtm-co-founder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VPBAUGHOUKAU4E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9e9d0ad5-6421-4a91-909d-db9567828a79.png?auto=format",
       "votes_count": 373,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有对话式交互界面和路线图生成画面，可以录屏演示，但整体是问答和文字输出，缺乏强烈的视觉冲击和动态效果。"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和任务明确，能帮助安排推广顺序，但建议质量尚未验证。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "目标是技术创始人，需要理解GTM等商业概念，对纯小白有门槛，但操作本身不需要技术背景，普通人能看懂大概逻辑。"
+          "reason": "如何把问答转成有依据的优先级，是具体且有用的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt当日第1名，373票，在创业圈话题度高，有明显的热点效应。"
+        "transferability": {
+          "score": 4,
+          "reason": "先收集情况再安排动作的做法，可借用于其他指导型工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "我让PH热榜第一的AI帮我给产品写上市计划，结果它比顾问还细！",
-        "angle": "开箱体验",
-        "shooting_tips": "全程录屏演示从首次进入、回答问卷到生成路线图的全过程，重点展示它如何精准提炼目标用户和定价建议，配上自己的惊讶和吐槽，节奏先快后细致讲解最终生成的结果。",
-        "target_audience": "独立开发者、技术创始人、想把自己的工具推向市场的工程师。"
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它帮助创始人决定先做什么。关键疑问是：问答收集的信息，是否足以支撑这份排序。",
+      "product_analysis": {
+        "target_problem": "技术创始人准备发布产品时，可能知道要获客、定价，却不清楚先做哪件事。它试图把这些问题排成可执行的顺序。",
+        "workflow": "先回答有关产品和市场的问题，再获得按优先级排列的推广路线。介绍未说明后续能否持续修改计划。",
+        "ai_value": "AI 根据问答整理推广建议，主要帮助梳理决策；介绍没有说它会代为招募用户或执行发布。",
+        "differentiation": "它把了解情况放在给建议之前，可能减少用户自己筛选泛泛建议的工作。但创始人是否愿意采用，取决于建议是否贴合实际。"
       },
-      "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有可演示的对话交互和实用内容，虽视觉不强但正好切中技术创业者痛点，适合制作垂直讲解类视频。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它是一套免费开源技能，先提问，再生成有优先级的路线；未说明具体模型。",
+        "possible_approach": "如果自己做，可以先收集产品、用户和当前阶段，再让 AI 结合推广手册排列下一步，并说明排序依据。",
+        "tradeoffs": "最容易出错的是把信息不足当成已经了解市场。优先级一旦排错，创始人可能把时间花在尚不适合的推广动作上。",
+        "unknowns": "这套技能需要放在哪个工具里运行，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做创业或业务指导工具时，可以先收集影响决策的情况，再只给当前阶段最先做的几件事。"
+      ],
+      "validation_questions": [
+        "给出两个阶段不同的产品，检查行动优先级是否随之改变。",
+        "故意不提供目标用户信息，检查它会追问还是直接下结论。"
+      ],
+      "source_tagline": "给技术创始人的开源市场攻略，手把手从零到上线",
+      "source_description": "大多数AI只会给开发者创始人一堆千篇一律的销售建议，这个不一样。它是一套开源技能，先像顾问一样问你几个问题，摸清你的产品和市场，然后按优先级给你一条清晰的上市路线：目标人群、定位、前50个用户、发布策略、定价……全都安排得明明白白。背后有资深从业者的实战手册和作者的亲身经验支撑，完全免费开源。"
     },
     {
       "id": "1213979",
       "name": "Hexis",
       "name_zh": "Hexis",
-      "tagline_zh": "为AI代理定制的Git式技能、工具与上下文管理中心",
-      "description_zh": "把AI技能、知识库和工具都收进一个版本库，像管代码一样管理AI助手能用的东西。公司里的每个人都能提交修改、申请新技能，管理员可以精细控制谁（或哪个AI代理）能访问什么。支持MCP协议，任何AI代理都能接入，相当于给公司装上了一个统一的AI“装备库”。",
-      "intro_zh": "给公司里的AI助手搭了个装备后台，什么技能、工具、知识都能存里面，谁用啥清清楚楚。搞AI应用的团队和管AI权限的人会特别需要。",
+      "tagline_zh": "面向 AI 代理的 Git 式技能、工具与上下文管理中心",
+      "description_zh": "把 AI 技能、知识库和工具放进统一版本库，团队成员可以提交修改、申请新技能，管理员控制成员和 AI 代理的访问权限。支持 MCP 协议，让 AI 代理连接这些资源；具体兼容范围仍需确认。",
+      "intro_zh": "给管理多个 AI 助手的团队用，把技能、知识和工具集中管理，并控制成员与助手能访问哪些资源。",
       "url": "https://www.producthunt.com/products/bevel-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ATYYXLA223CYM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0c9aaabb-c19e-49aa-8b20-4621bc9a4441.png?auto=format",
       "votes_count": 180,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有管理后台界面和操作流程，可以演示创建技能、提PR、配置权限等画面，但整体偏文本和配置表单，视觉冲击力一般，需要靠解说补足。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解Git、AI代理、MCP等概念，普通用户会感到陌生。适合有技术背景的团队，如果是纯业务人员直接上手较难。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt当日第3名，180票，热度较高，有话题性，能吸引关注AI Infra的开发者眼球。"
+          "reason": "团队共用资源和分配权限的场景清楚，但省事程度尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "成员与代理的权限如何对应，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把共享资源的修改入口与访问权限放在一起，做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "程序员狂喜！给AI智能体装了个Git仓库，权限管理爽到起飞",
-        "angle": "教程演示",
-        "shooting_tips": "先快速展示一个AI代理在无管控时乱用工具的混乱场景，再切入Hexis界面，录屏演示如何创建技能库、提交PR、审核变更，重点突出版本历史和权限对比（使用前后差异），节奏轻快带点幽默。",
-        "target_audience": "技术团队管理者、AI工程师、DevOps/SRE，以及正在落地AI代理的企业用户"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "有可演示的操作界面，热度不错，但概念偏技术向，适合在开发者社区内容中介绍，需降低观看门槛。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是共享资源与权限可以一起管理；但缓存中“任何代理都能接入”的说法，不能替代实际兼容性检查。",
+      "product_analysis": {
+        "target_problem": "团队让多个 AI 助手共用知识和工具时，需要管清楚资源怎么改、谁能用。资源若分散维护，可能难以确认当前版本和访问范围。",
+        "workflow": "把技能、知识库和工具纳入版本库。成员提交修改或申请新技能，管理员分配访问权限，AI 代理连接后使用获准资源。",
+        "ai_value": "AI 代理是资源的使用方。介绍没有说 Hexis 会生成技能或自动判断权限，主要价值在集中管理。",
+        "differentiation": "把资源修改和授权放到同一处，可能减少分别维护的工作。团队是否愿意迁入，可能取决于现有助手能否接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称支持版本库管理、成员与代理的细粒度权限，以及 MCP（让 AI 连接外部工具和资料的通信规范）。",
+        "possible_approach": "如果自己做，可以先记录资源内容和每次修改，再给成员及代理分配身份，读取或调用前检查权限。",
+        "tradeoffs": "最难的是认准代理代表谁。身份对应错了，助手可能拿到用户无权查看的资料。",
+        "unknowns": "介绍没说明代理独立授权，还是继承使用者权限。"
+      },
+      "transferable_insights": [
+        "做团队共享的提示词或知识库时，可以同时提供修改提交和访问设置，让资源能共建，也能限制使用范围。"
+      ],
+      "validation_questions": [
+        "让无权限的代理请求受限资料，是否确实被拒绝？",
+        "选团队正在使用的一款助手，检查它能否接入并调用一项获准工具？"
+      ],
+      "source_tagline": "为AI代理定制的Git式技能、工具与上下文管理中心",
+      "source_description": "把AI技能、知识库和工具都收进一个版本库，像管代码一样管理AI助手能用的东西。公司里的每个人都能提交修改、申请新技能，管理员可以精细控制谁（或哪个AI代理）能访问什么。支持MCP协议，任何AI代理都能接入，相当于给公司装上了一个统一的AI“装备库”。"
+    },
+    {
+      "id": "1217769",
+      "name": "Basedash Subscriptions",
+      "name_zh": "Basedash Subscriptions",
+      "tagline_zh": "定时把仪表盘数据快照发到邮箱或 Slack 频道",
+      "description_zh": "把 Basedash 仪表盘或图表设为订阅，按指定时间发送最新数据快照到邮箱或 Slack 频道。它可以替代定期手动导出、截图和分享的操作。",
+      "intro_zh": "给用 Basedash 定期分享数据的团队，把仪表盘或图表快照按时发到邮箱或 Slack。",
+      "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AWQTOUN4LM6VG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5036f64e-9d05-46e9-b5ce-f7f5c261e9c0.jpeg?auto=format",
+      "votes_count": 159,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "定期分享数据的任务明确，能省去重复截图和发送。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "定时发送是否赶得上数据更新，是具体且值得检查的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把已有报表变成定时订阅，可借用于周期性汇报场景。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把重复的数据分享变成一次设置；最影响判断的是，准时发出的快照能否反映当期数据。",
+      "product_analysis": {
+        "target_problem": "定期向团队汇报数据的人会需要它。以前若靠手动导出、截图再发送，现在可以设好订阅，减少重复操作和忘发的情况。",
+        "workflow": "把一个 Basedash 仪表盘或图表设为订阅，指定发送时间和邮箱或 Slack 频道，到时自动收到数据快照。",
+        "ai_value": "介绍没提 AI，主要靠定时发送已有图表来改善体验。",
+        "differentiation": "省掉的是每次准备和发送快照的动作。它限定在 Basedash 内，未使用该平台的团队可能不愿为订阅功能迁移报表。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持按设定时间向邮箱或 Slack 频道发送快照，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存图表、发送时间和接收位置，再在到点后读取数据、生成快照并发送。",
+        "tradeoffs": "最容易出错的是发送时数据还没更新完。邮件虽然准时到了，团队看到的却可能仍是上一期数字。",
+        "unknowns": "介绍没说明生成快照前，如何确认数据已经更新。"
+      },
+      "transferable_insights": [
+        "做经营报表或项目进度工具时，可以给已有视图加定时订阅，让周期性分享不必每次重新操作。"
+      ],
+      "validation_questions": [
+        "在一次已知数据更新后触发订阅，检查快照是否包含新数字。",
+        "设定一次发送到 Slack 的订阅，检查是否按指定时间送达。"
+      ],
+      "source_tagline": "仪表盘自动定时推送，数据截图按时送到邮箱或团队频道",
+      "source_description": "把任何 Basedash 仪表盘或图表变成订阅，设定好时间（每周一早上9点、每天、每月1号等），就能自动把最新数据快照发到你的邮箱或 Slack 频道。不用手动导出、截图，也不用记着分享。你的团队再也不用专门花时间做周一数据邮件了。"
     },
     {
       "id": "1217619",
       "name": "Toolport",
       "name_zh": "Toolport",
-      "tagline_zh": "一个端口，连接所有工具；一次配置，畅享全部AI助手",
-      "description_zh": "免费开源的本地MCP网关。只需设置一次服务器，所有AI助手（如Claude、Cursor、VS Code、Codex等30多种）都能共享使用。它不是一股脑把所有工具定义塞进上下文，而是暴露几个“元工具”，让你的AI助手按需搜索。经过基准测试和评分，在任务成功率相同时，最多可减少91%的token消耗。密钥存储在操作系统钥匙串中，而非客户端配置。能标记恶意拉盘和工具投毒，危险操作会等待你的批准。",
-      "intro_zh": "一个本地小网关，让你所有的AI助手共享同一套工具，不用挨个配置。码农和AI重度用户会特别爽，省时省 token，还更安全。",
+      "tagline_zh": "一个入口连接工具，一次配置供多个 AI 助手使用",
+      "description_zh": "Toolport 是免费开源的本地 MCP 网关，可让多个 AI 助手共享工具配置，通过少量“元工具”按需查找工具；介绍称基准测试中，在任务成功率相同的情况下，最多减少 91% 的 token 消耗。密钥存入操作系统钥匙串，并提供可疑工具风险标记和危险操作审批。",
+      "intro_zh": "给同时使用多个 AI 助手的开发者用，集中配置外部工具，让不同助手共享调用。",
       "url": "https://www.producthunt.com/products/conduit-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5CMO6NALORXKZD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/342521e8-1165-401d-b281-30110db4f212.jpeg?auto=format",
       "votes_count": 149,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "虽然可以演示配置过程和命令行操作，但主要是后台逻辑和网关架构，缺乏丰富的视觉界面和直观冲击力。适合录制屏幕操作，但不够抓眼球。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及MCP协议、网关配置、AI代理连接等技术概念，普通用户不易理解，需要一定的开发背景，门槛较高。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt排名第5，获得149票，属于当日热门，有一定话题度。"
+          "reason": "共享配置解决了明确的重复劳动，但兼容范围尚未核验。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "按需查找工具带来了节省输入量与选对工具之间的具体取舍。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先搜索再加载详情的做法可用于工具数量较多的助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "一个网关统治所有AI工具，Token省91%，开发者偷偷在用的神器",
-        "angle": "教程演示",
-        "shooting_tips": "屏幕录制：展示安装Toolport、配置一个MCP服务器，然后在Claude、Cursor和VS Code中分别调用同一个工具的过程。突出“一次配置多处共享”和token节省对比。用分屏或标注强调安全审批功能。",
-        "target_audience": "开发者、AI深度用户、技术爱好者"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "视频化程度一般，对普通观众门槛高，但适合技术垂直频道，热度不错。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "集中维护配置是最直接的好处；按需搜索会不会漏掉任务所需工具，最影响实际判断。",
+      "product_analysis": {
+        "target_problem": "同时用多个 AI 助手的开发者，可能需要重复维护工具配置。以前若各自配置，现在可以集中设置后共享。",
+        "workflow": "配置工具服务器，再让支持的助手接入网关。助手按需搜索工具，危险操作等待用户批准。",
+        "ai_value": "AI 助手负责查找和调用工具。网关减少预先塞给助手的工具说明，91% 的节省幅度仍是介绍中的测试宣称。",
+        "differentiation": "省去多处维护配置的麻烦。最可能阻止切换的是现有助手接入后不能正常调用工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "采用本地 MCP 网关（集中连接助手与工具的程序），通过少量“元工具”提供搜索入口，密钥存入系统钥匙串。",
+        "possible_approach": "如果自己做，可以先集中保存工具配置，再建立可搜索的工具目录，让助手找到后读取调用说明。",
+        "tradeoffs": "最容易错在搜索漏掉合适工具。即使工具已经接入，助手也可能找不到，任务仍做不成。",
+        "unknowns": "介绍没说明基准测试覆盖了哪些任务。"
+      },
+      "transferable_insights": [
+        "做工具很多的助手时，可以先提供搜索入口，选中后再加载详细说明，避免每次输入完整目录。"
+      ],
+      "validation_questions": [
+        "同一份工具配置能否被自己常用的两个助手正常调用？",
+        "给出一个需要冷门工具的任务，助手能否通过搜索找到它？"
+      ],
+      "source_tagline": "一个端口，连接所有工具；一次配置，畅享全部AI助手",
+      "source_description": "免费开源的本地MCP网关。只需设置一次服务器，所有AI助手（如Claude、Cursor、VS Code、Codex等30多种）都能共享使用。它不是一股脑把所有工具定义塞进上下文，而是暴露几个“元工具”，让你的AI助手按需搜索。经过基准测试和评分，在任务成功率相同时，最多可减少91%的token消耗。密钥存储在操作系统钥匙串中，而非客户端配置。能标记恶意拉盘和工具投毒，危险操作会等待你的批准。"
+    },
+    {
+      "id": "1216845",
+      "name": "Pesterly",
+      "name_zh": "Pesterly",
+      "tagline_zh": "自动向客户收集文件并跟进未交材料",
+      "description_zh": "Pesterly 是 Google Workspace 上的文档收集工具，可把文件清单变成邮件请求，定时催收未交材料，并将收到的文件整理到 Google Drive 文件夹。它面向需要反复向客户索取资料的会计、HR 和自由职业者。",
+      "intro_zh": "给需要向客户收资料的会计、HR 和自由职业者用，把文件清单变成邮件请求，并跟进未交材料。",
+      "url": "https://www.producthunt.com/products/pesterly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YMMYQKBXHZMJEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9f6fd0bd-ae72-47e1-adb3-f35abf3d72f4.jpeg?auto=format",
+      "votes_count": 12,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "收资料的人群和重复工作明确，但催收是否准确还待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何判定材料已交，直接影响自动提醒是否可靠。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按清单跟踪缺项、只提醒未完成项的做法容易借用。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让缺项清单直接驱动后续提醒；最影响判断的是，它能否准确识别已交材料，避免自动催错。",
+      "product_analysis": {
+        "target_problem": "会计、HR 和自由职业者收客户资料时，需要反复确认缺了什么，再催对方补交。麻烦在于跟进会持续多轮。",
+        "workflow": "用户提供文件清单，工具生成邮件请求，定时跟进未交项目，并把收到的文件整理进 Google Drive。",
+        "ai_value": "介绍没提 AI，主要靠自动发请求、定时提醒和文件归档来减少重复操作。",
+        "differentiation": "把请求、催交和归档放在一起，减少逐项跟进。若团队不用 Google Workspace，可能不愿为收资料更换工作环境。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "工具用于 Google Workspace，支持邮件请求、定时催收和 Google Drive 文件夹归档。",
+        "possible_approach": "如果自己做，可以先给清单各项记录提交状态，再按未交项目发提醒；收件后将文件关联到对应项目并归档。",
+        "tradeoffs": "最容易错在把收到的文件对应到清单项目。对应错了，可能漏催缺件，或催客户重复提交。",
+        "unknowns": "介绍没说如何判断某项材料已经交齐。"
+      },
+      "transferable_insights": [
+        "做入职或供应商资料收集时，可以把缺项直接变成提醒内容，避免每轮重新整理催交邮件。"
+      ],
+      "validation_questions": [
+        "提交一项材料后，检查下一轮提醒是否只列剩余缺项。",
+        "收取两个客户的同名文件，检查是否分别存进正确文件夹。"
+      ],
+      "source_tagline": "客户文件自动催收，替你跟进到底",
+      "source_description": "Pesterly 是 Google Workspace 上的一款文档收集工具，能把一份文件清单自动变成邮件请求，定时追讨还没交的东西，收到的文件会规整存进你 Google Drive 的文件夹里。适合需要反复跟客户索要资料的会计、HR 和自由职业者。"
+    },
+    {
+      "id": "1217593",
+      "name": "Rendemo",
+      "name_zh": "Rendemo",
+      "tagline_zh": "把网页录成可点击的交互演示",
+      "description_zh": "Rendemo 录制产品页面的真实 HTML，生成可点击的演示，而不只是截图。通过 Chrome 扩展录制一次后，可生成网页嵌入演示、MP4 视频或应用内引导教程。",
+      "intro_zh": "给需要展示网页产品的销售、营销和产品团队，用浏览器扩展录制页面，制作可点击演示。",
+      "url": "https://www.producthunt.com/products/rendemo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TUCLPHCY5JL65L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c7c36be8-8886-4153-8396-531373e5b8b3.jpeg?auto=format",
+      "votes_count": 11,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "展示场景清楚，一次录制可用于多种展示形式，但交互范围待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "录下页面后能否保留关键交互，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "一次采集生成多种展示材料的做法，可借用于产品教学工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重一次录制能用于多种展示形式；最影响判断的是点击体验能覆盖多少真实操作。",
+      "product_analysis": {
+        "target_problem": "销售和产品团队需要让别人体验网页操作。截图能展示界面，却不能让观看者点击体验。",
+        "workflow": "用 Chrome 扩展录制产品页面，再生成可嵌入网页的演示、MP4 视频或应用内引导。",
+        "ai_value": "介绍没提 AI，主要靠录制页面 HTML（网页结构内容）来改善展示体验。",
+        "differentiation": "相比截图，多了可点击体验；一次录制也能生成不同形式。若关键操作无法还原，团队可能仍需现场演示。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "通过 Chrome 扩展录制真实 HTML，支持一行代码嵌入演示，并可输出 MP4 或应用内引导。",
+        "possible_approach": "如果自己做，可以先保存页面结构和样式，再记录点击前后的页面状态，把它们串成演示，最后生成视频或嵌入内容。",
+        "tradeoffs": "最难的是还原需要服务器返回结果的操作。只保存页面，点击后可能没有对应结果，用户会误以为演示坏了。",
+        "unknowns": "可点击演示支持哪些操作，还是只支持预先录好的路线？"
+      },
+      "transferable_insights": [
+        "做产品教学工具时，可以把同一次采集用于交互教程和视频，减少重复制作。"
+      ],
+      "validation_questions": [
+        "录制一个需要服务器返回结果的操作，检查演示能否呈现对应结果。",
+        "录制含客户信息的页面，检查发布前能否移除敏感内容。"
+      ],
+      "source_tagline": "几分钟把任意网页变成可点击的交互演示",
+      "source_description": "Rendemo 录下你产品页面的真实 HTML，而不是普通截图，生成一个别人可以点来点去、就像在用真东西的演示。用 Chrome 扩展录一次，就能得到一个能嵌入网页的演示（一行代码）、一个 MP4 视频，或是挂在应用上的引导教程。"
+    },
+    {
+      "id": "1216176",
+      "name": "AstraPixels",
+      "name_zh": "AstraPixels",
+      "tagline_zh": "实时像素太阳系，展示天体此刻的位置",
+      "description_zh": "一张动态像素太阳系地图，介绍称它按真实轨道数据实时计算位置，可从太阳缩放到柯伊伯带，浏览171颗天体及科普知识，并查看未来六个月的星空动态。用户可花5美元认领一颗小行星并在站内命名；所谓永久拥有仅限产品内，不是天体产权或官方命名。",
+      "intro_zh": "给天文爱好者和喜欢像素艺术的人，用可缩放星图浏览太阳系天体、阅读知识并查看未来位置。",
+      "url": "https://www.producthunt.com/products/astrapixels?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/6BOFNHUVVMY6Q6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/81672151-a06d-4f05-8bb6-8f05ea1cfc7b.png?auto=format",
+      "votes_count": 270,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "浏览和科普场景清楚，但持续使用的理由尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "真实位置与可读画面如何兼顾，是具体的设计难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把知识放进可探索对象的做法可借用，学习效果未验证。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重位置变化能让太阳系知识更直观；但像素画面怎样表达距离，会直接影响它是在帮助理解，还是制造误解。",
+      "product_analysis": {
+        "target_problem": "想了解太阳系的人，可以把天体位置和科普知识放在同一张图里看。它更像探索式科普，介绍未说明是否适合实际观星。",
+        "workflow": "缩放地图浏览太阳到柯伊伯带，查看天体知识，再查看未来六个月的动态。也可付费认领小行星并设置站内名字。",
+        "ai_value": "介绍没提 AI，主要靠轨道位置计算和可缩放地图改善体验。",
+        "differentiation": "位置和知识集中展示，可能减少来回查资料；若用户需要观星指引，地图能否对应所在地天空会影响选择。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称天体位置按真实轨道数据实时计算，未说明具体算法。",
+        "possible_approach": "如果自己做，可以先按所选时间计算天体位置，再绘成像素地图，随缩放调整显示范围和标签。",
+        "tradeoffs": "最难的是兼顾距离比例和可读性：按比例画，内侧天体可能挤在一起；调整比例，又可能让用户误解距离。",
+        "unknowns": "地图如何处理真实距离与画面展示比例，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做科普产品时，可以把知识附在可探索对象上，让用户先找到感兴趣的对象再阅读。"
+      ],
+      "validation_questions": [
+        "选一个未来日期，抽查天体位置是否与可靠天文资料一致。",
+        "完整查看购买说明，确认“永久认领”具体承诺什么。"
+      ],
+      "source_tagline": "实时像素太阳系，每一颗天体都在它此刻的位置",
+      "source_description": "一个动态的像素艺术太阳系地图，所有天体位置都是根据真实轨道数据实时计算的，不是从表格里复制的。你可以从太阳一直缩放到柯伊伯带，浏览171颗带科普小知识的编目天体，还能查看未来六个月的星空动态。每块太空岩石都标价出售：花5美元认领一颗小行星，永久拥有，名字随你起（仅在星图像素内展示，非国际天文学联合会官方命名）。"
+    },
+    {
+      "id": "1216610",
+      "name": "Pocket Fit",
+      "name_zh": "Pocket Fit",
+      "tagline_zh": "用 AI 呈现健身过程中的身材变化",
+      "description_zh": "Pocket Fit 提供照片生成的未来体型模拟、随训练变化的 3D 虚拟化身，以及自动匹配重量、逐步增加训练负荷的计划。它还提供拍照识别食物、肌群覆盖追踪、心情日记、连续打卡和队友互动，由伦敦的两人团队开发。",
+      "intro_zh": "给想观察身材变化的健身者用，通过照片模拟未来体型，并记录训练和饮食。",
+      "url": "https://www.producthunt.com/products/pocket-fit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AXPIUPDBWJ3CA4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fe00fda8-c0da-4701-baab-86886fc3efa0.png?auto=format",
+      "votes_count": 22,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "把进展变得可见有明确用途，但模拟能否帮助坚持尚无依据。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "未来体型模拟涉及如何区分视觉激励与可靠预测。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把长期目标画出来可借鉴，但需要防止用户误认成承诺。"
+        }
+      },
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它给长期训练提供直观反馈，但首先要确认：画面反映的是实际记录，还是单纯的理想化形象。",
+      "product_analysis": {
+        "target_problem": "面向短期内看不出身材变化、难以获得反馈的健身者。它试图让缓慢的进展更容易被感知。",
+        "workflow": "拍照查看未来不同月份的体型模拟，按计划训练；虚拟化身随训练变化，也可拍照记录食物。",
+        "ai_value": "AI 明确用于模拟未来体型。介绍也提到食物识别，但没说明具体技术。",
+        "differentiation": "把数字记录补成可视形象。用户可能不愿换用的原因，是不相信模拟图与真实训练结果有关。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 照片模拟、3D 虚拟化身和自动匹配训练重量，未披露实现细节。",
+        "possible_approach": "如果自己做，可以先从照片生成体型示意，再按训练记录更新形象，并明确标注这是模拟。",
+        "tradeoffs": "最难的是让变化幅度有依据。若只按月份把身材变好看，用户可能形成不切实际的预期。",
+        "unknowns": "未来体型模拟依据哪些个人信息，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做长期习惯产品时，可把阶段目标画出来，但要与实际记录分开展示，避免把愿景当成果。"
+      ],
+      "validation_questions": [
+        "模拟图是否明确提示不代表未来一定能达到的体型？",
+        "改变训练记录后，虚拟化身的变化是否与记录相符？"
+      ],
+      "source_tagline": "用AI看清身材进阶的每一步",
+      "source_description": "大部分人用健身App坚持不到三周就放弃了。你自律了21天，镜子里的自己却看不出变化，App也只丢给你一个冷冰冰的数字。Pocket Fit让进步肉眼可见：拍一张照片，AI就能模拟出你1个月、2个月、3个月甚至6个月后的样子，一个3D虚拟化身会随着你的训练实时改变。背后还有自动匹配重量和渐进超负荷的训练计划、拍照就能记录的食物识别、全身肌群覆盖追踪、心情日记、连续打卡，以及一群会因为你不练腿而疯狂吐槽你的队友。由伦敦的两个人独立开发。"
     },
     {
       "id": "1209574",
       "name": "Otiumz",
       "name_zh": "Otiumz",
-      "tagline_zh": "一个 AI 社交应用，让你的每一面都自在展现",
-      "description_zh": "Otiumz 是一款用 AI 驱动的社交应用，让你在同一个账号下创建多个子身份，在公开广场或私密圈子里分享动态、聊天、打语音视频。还能训练多个“数字分身”和 AI 角色，帮你生成聊天开场白、回复建议，甚至在你离线时自动代聊。",
-      "intro_zh": "一个能让你用不同身份混不同圈子的社交App，还能训练 AI 替身帮你聊天。不想在主号放飞自我、又想在各种小圈子里玩得嗨的深度网瘾选手必备。",
+      "tagline_zh": "一款 AI 社交应用，让你展现不同的自己",
+      "description_zh": "Otiumz 支持在同一账号下创建多个子身份，在公开广场或私密圈子里发动态、聊天及语音视频交流。用户还能训练数字分身和 AI 角色，生成开场白、获取回复建议，或在离线时自动代聊。",
+      "intro_zh": "给想区分不同社交身份的人用，在一个账号里切换身份交流，也能让 AI 提供回复建议或离线代聊。",
       "url": "https://www.producthunt.com/products/otiumz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/H6S6BDBHQWEM7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f80e39bd-9845-4ed4-a7cf-8bb3034998b7.png?auto=format",
       "votes_count": 18,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 3,
+          "reason": "身份区分和回复辅助的用途清楚，但自动代聊是否被双方接受仍待确认。"
+        },
+        "technical_insight": {
           "score": 4,
-          "reason": "具备多账户切换、AI分身对话、动态发布等丰富交互界面，演示效果直观，前后对比能体现便利性和趣味性，画面观感强。"
+          "reason": "多个身份并存时，如何避免代聊引用错身份的信息，是具体且重要的问题。"
         },
-        "beginner_friendly": {
+        "transferability": {
           "score": 3,
-          "reason": "普通人能理解多身份和AI替身概念，但训练数字分身、管理多个子账号有一定操作门槛，需要简单引导才能上手。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "排名第7，票数18，热度中等，有一定话题性但未进入前三。"
+          "reason": "按身份区分交流内容可以借鉴，但资料未说明隔离效果。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "一个App让我同时拥有社牛和社恐身份？AI替我自动聊天也太爽了吧！",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示在同一账号下切换不同子身份发动态、进入不同圈子；演示训练AI分身并让分身自动回复消息；通过对比有AI助手和无AI助手聊天效率，突出趣味性和实用性，节奏轻松带点夸张。",
-        "target_audience": "喜欢尝鲜社交玩法、希望在网络上管理多重身份的年轻网友"
-      },
       "category": "社交生活",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品玩法新颖，UI演示效果好，虽有一定门槛和热度中等，但适合通过开箱视频展示趣味性，吸引好奇用户。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我更看重一个账号内区分社交身份的便利；能否避免不同身份的信息混用，最影响使用判断。",
+      "product_analysis": {
+        "target_problem": "适合想把不同兴趣、关系和表达方式分开的人。它要解决的是同一账号承载多种社交身份，以及聊天时不知道如何开口的问题。",
+        "workflow": "在同一账号下创建子身份，再到公开广场或私密圈子交流。也可训练数字分身或 AI 角色，用于生成开场白、建议回复或离线代聊。",
+        "ai_value": "AI 参与生成聊天内容，并可替用户在离线时接话。简介没说明“训练”需要提供什么材料。",
+        "differentiation": "把多种身份放在一个账号里管理，减少分别管理的麻烦。最可能让人犹豫的是：自动发出的内容可能被别人当成本人表态。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI 数字分身、角色训练和自动代聊，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先分别保存各身份的资料和聊天记录，再只把当前身份的信息交给 AI 生成回复。先让用户确认内容，再开放自动发送。",
+        "tradeoffs": "最容易出错的是拿错身份的聊天记录。代聊一旦引用另一个圈子的私事，可能直接泄露用户不想公开的信息。",
+        "unknowns": "不同子身份的资料和聊天记录是否相互隔离？"
+      },
+      "transferable_insights": [
+        "做多角色社区时，可以按身份分别保存发帖和聊天内容，让用户在发送前明确看到当前身份。"
+      ],
+      "validation_questions": [
+        "给两个子身份设置不同的私有信息，检查代聊是否会交叉引用。",
+        "检查接收方能否明确辨认一条消息由 AI 代发。"
+      ],
+      "source_tagline": "一个 AI 社交应用，让你的每一面都自在展现",
+      "source_description": "Otiumz 是一款用 AI 驱动的社交应用，让你在同一个账号下创建多个子身份，在公开广场或私密圈子里分享动态、聊天、打语音视频。还能训练多个“数字分身”和 AI 角色，帮你生成聊天开场白、回复建议，甚至在你离线时自动代聊。"
+    },
+    {
+      "id": "1209298",
+      "name": "Patch — Your Security Center",
+      "name_zh": "Patch — Your Security Center",
+      "tagline_zh": "守护数字生活，集中管理安全问题",
+      "description_zh": "Patch 是面向普通用户的 Mac 和 iPhone 安全工具，可扫描诈骗、发现泄露和重复密码，并帮助冻结信用、申请移除数据贩子网站上的个人信息。简介还称，内置顾问能回答问题并指导修复，无需注册账号，用户数据不存放在服务器上。",
+      "intro_zh": "给不熟悉安全工具的 Mac 和 iPhone 用户用，集中检查风险，并指导处理密码和个人信息问题。",
+      "url": "https://www.producthunt.com/products/patch-your-security-center?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/T2SLBACO5KLGWL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/75c62b45-70ab-48a5-a1c5-94967538f6a0.png?auto=format",
+      "votes_count": 12,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用户和问题明确，但检测准确性与修复范围尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "处理敏感信息时如何兑现隐私承诺，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把风险发现与处理指导放在一起，可借用于其他排查工具。"
+        }
+      },
+      "category": "安全隐私",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是把发现风险和处理指导接在一起；最影响判断的是隐私承诺的具体边界，不能把不存储等同于不外传。",
+      "product_analysis": {
+        "target_problem": "普通用户发现可疑信息或密码风险后，可能不知道该先处理什么。Patch 把检查和修复指导放在一处，减少在不同工具间查找办法的麻烦。",
+        "workflow": "用户可用它扫描诈骗、检查密码，再向内置顾问询问处理办法。简介也提到协助冻结信用和移除个人信息，但没说明哪些步骤需要用户亲自完成。",
+        "ai_value": "介绍没明确提 AI，主要靠集中检查和逐步指导改善体验；不能据“像真人一样回答”认定顾问采用了什么技术。",
+        "differentiation": "省事之处是发现问题后就能接着找处理办法。用户可能不愿把密码等敏感信息交给一个新工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称支持 Mac 和 iPhone，无需注册、数据不存服务器，但没说具体检测技术。",
+        "possible_approach": "如果自己做，可以先在设备上检查重复密码，再把风险整理成待办，为每项提供处理说明；需要外部查询时，先说明会发送什么数据。",
+        "tradeoffs": "最容易出错的是外部查询的数据边界：若把原始密码或身份资料传出去，检查安全反而可能增加泄露风险。",
+        "unknowns": "“数据不存服务器”是否仍允许发送数据到外部处理，简介没有回答。"
+      },
+      "transferable_insights": [
+        "做故障排查或账号管理工具时，可在每条检查结果旁直接放处理指引，减少用户另找教程的步骤。"
+      ],
+      "validation_questions": [
+        "用一个已知的重复密码样本，检查它能否正确识别。",
+        "检查顾问回答问题时，是否向外部发送用户输入的敏感内容。"
+      ],
+      "source_tagline": "守护数字生活，一切尽在掌控",
+      "source_description": "Patch 是 Mac 和 iPhone 上的一站式安全工具，专为不想在多个吓人工具之间跳来跳去的普通人设计。它能扫描诈骗、找出泄露和重复的密码，还能帮你冻结信用、从数据贩子网站上移除个人信息，内置的安全顾问会像真人一样回答问题，一步步教你怎么修。不用注册账号，数据也从不放在服务器上，根本没什么可偷的。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

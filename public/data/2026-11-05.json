@@ -1,367 +1,510 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-06T22:51:14+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:16:11+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1302121",
       "name": "Glasshand",
       "name_zh": "Glasshand",
-      "tagline_zh": "Give your agent a real iPhone and Mac",
-      "description_zh": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt. The hardware sits in our data center, and your agent uses it the way you would: posting on TikTok, booking an Uber, or building and testing iOS apps. Each device is yours alone for as long as you rent it. When you’re done, we erase your data and factory-reset it.",
-      "intro_zh": "",
+      "tagline_zh": "给你的 AI 智能体一台真实的 iPhone 和 Mac",
+      "description_zh": "Glasshand 为 AI 智能体提供数据中心里的真实 iPhone 和 Mac，介绍称连接 Claude Code、Codex 等工具后，一条提示即可租用设备，用于发布 TikTok 内容、叫 Uber，或构建和测试 iOS 应用。设备在租期内由租用者独享，结束后会清除数据并恢复出厂设置。",
+      "intro_zh": "给需要操作苹果真机的开发者和自动化使用者，让 AI 租用远程 iPhone 或 Mac 执行任务。",
       "url": "https://www.producthunt.com/products/glasshand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4HPTGSLZ23MFLT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1bb914f9-fc0f-48dd-97a1-036322f4641d.png?auto=format",
       "votes_count": 370,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "真机操作场景清楚，但接入和登录是否省事仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "远程操作能否判断任务成功，是具体且关键的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按任务租用独享设备、结束后重置的做法可供借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让 AI 能在真实苹果设备上做事；最影响判断的是操作结果能否被可靠确认。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 测试 iOS 应用，或操作手机应用时，需要真实设备承接任务。设备准备和交给 AI 控制都可能增加工作。",
+        "workflow": "连接 Claude Code、Codex 等智能体工具，用提示租用设备，再让它执行任务。设备租期内独享，结束后由服务方清除数据并恢复出厂设置。",
+        "ai_value": "AI 负责在设备上执行任务；Glasshand 提供硬件和租用能力。介绍未说明 AI 如何识别界面、发出操作。",
+        "differentiation": "把远程真机租用放进智能体任务中，可能省去另行准备设备的工作。但把个人账号登录到远程设备，可能让用户犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: c439a0da-c738-4401-bc23-b6f7416e7e0a)"
+      "technical_analysis": {
+        "disclosed_facts": "设备位于数据中心，支持连接 Claude Code、Codex 等智能体，租期内独享，结束后清除数据并恢复出厂设置。",
+        "possible_approach": "如果自己做，可以先分配空闲真机，再提供读取屏幕和执行操作的控制方式，让智能体逐步确认结果，归还后重置。",
+        "tradeoffs": "最难的是判断操作是否成功。若提交后画面反馈不清，AI 可能重复操作，造成重复发布或下单。",
+        "unknowns": "遇到短信验证码或人工确认时，用户如何接手？"
+      },
+      "transferable_insights": [
+        "做云端测试工具时，可以按任务分配独享设备，结束后统一重置，减少下一次任务受到旧数据影响的可能。"
+      ],
+      "validation_questions": [
+        "让智能体完成一次真机测试，检查它能否正确识别任务已完成。",
+        "结束租用后，检查是否有可核验的数据清除记录。"
+      ],
+      "source_tagline": "Give your agent a real iPhone and Mac",
+      "source_description": "Glasshand gives your AI agents real iPhones and Macs to work on. Connect Claude Code, Codex, or any other agent, and it can rent a device with a single prompt. The hardware sits in our data center, and your agent uses it the way you would: posting on TikTok, booking an Uber, or building and testing iOS apps. Each device is yours alone for as long as you rent it. When you’re done, we erase your data and factory-reset it."
     },
     {
       "id": "1302947",
       "name": "Rerun",
       "name_zh": "Rerun",
-      "tagline_zh": "Turn your AI subscriptions into a team of coworkers",
-      "description_zh": "Rerun turns your ChatGPT or Claude subscription into a team of AI coworkers. Each one has tools, a computer and a shared workspace, runs on a schedule or a trigger, and asks before risky actions. Now open-source (AGPL v3) and self-hostable.",
-      "intro_zh": "",
+      "tagline_zh": "把你的 AI 订阅变成一组 AI 同事",
+      "description_zh": "Rerun 将 ChatGPT 或 Claude 订阅用于一组 AI 同事，每个都有工具、电脑和共享工作区，可按时间或事件触发运行，并在执行高风险操作前询问。介绍称其已按 AGPL v3 许可证开源，支持自行部署。",
+      "intro_zh": "给想把重复电脑任务交给 AI 的人用，让多个 AI 同事按计划工作，并在风险操作前询问。",
       "url": "https://www.producthunt.com/products/rerun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RMMH5HQHCIQO64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0cb6c50c-7dbb-4b41-9d6e-e3aa1fce28ae.jpeg?auto=format",
       "votes_count": 248,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "定时执行的用途清楚，但缺少具体任务与完成效果。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动操作电脑时，何时停下来请人确认是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自动执行与风险确认分开，适合借到代办操作的产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让重复任务按时启动；最影响判断的是，风险确认能否真正覆盖重要操作。",
+      "product_analysis": {
+        "target_problem": "已有 ChatGPT 或 Claude 订阅、想让 AI 定期处理电脑任务的人可能需要它。麻烦在于任务需要反复启动，还得盯住可能造成损失的操作。",
+        "workflow": "AI 同事按时间或事件触发，使用工具、电脑和共享工作区执行任务，遇到风险操作先询问。具体如何配置任务，介绍没说。",
+        "ai_value": "AI 承担任务执行，并能使用工具和电脑；不只生成一段供人参考的回答。",
+        "differentiation": "它把执行入口放到定时和事件触发上。用户可能仍不愿放手，因为不知道哪些操作会被拦下。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 76c679ba-7c9c-4e48-a13a-f517fd3c314b)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AGPL v3 开源许可证和自行部署能力，未说明订阅如何接入。",
+        "possible_approach": "如果自己做，可以先让一个 AI 执行范围明确的任务，再加定时触发；执行重要操作前暂停，等人批准后继续。",
+        "tradeoffs": "最难的是识别风险操作。漏掉一次确认，就可能在用户不知情时改动重要内容。",
+        "unknowns": "现有订阅能支持怎样的自动运行范围和用量？"
+      },
+      "transferable_insights": [
+        "做能替用户操作的软件时，把高风险动作设为暂停点，展示准备做的操作，再请求批准。"
+      ],
+      "validation_questions": [
+        "安排一次会改动重要内容的任务，检查执行前是否请求确认。",
+        "用现有订阅运行一项定时任务，检查它能否在无人值守时启动。"
+      ],
+      "source_tagline": "Turn your AI subscriptions into a team of coworkers",
+      "source_description": "Rerun turns your ChatGPT or Claude subscription into a team of AI coworkers. Each one has tools, a computer and a shared workspace, runs on a schedule or a trigger, and asks before risky actions. Now open-source (AGPL v3) and self-hostable."
     },
     {
       "id": "1301788",
       "name": "Living Brain",
       "name_zh": "Living Brain",
-      "tagline_zh": "Interoperable, efficient memory layer for agentic AI",
-      "description_zh": "Every AI conversation contains knowledge worth keeping, but most of it gets trapped in separate chats and tools. Living Brain captures that knowledge, connects it to what you already know, and turns it into a persistent memory that keeps evolving. Share that intelligence across AI models, apps, and agents through API, SDK, or MCP, so every new interaction builds on the last instead of starting over. Reuse memory across ChatGPT, Claude, Gemini, OpenClaw, Hermes, Cursor, Codex and more",
-      "intro_zh": "",
+      "tagline_zh": "供 AI 智能体互通使用的高效记忆层",
+      "description_zh": "Living Brain 保存 AI 对话中的知识，将其与已有知识关联，形成持续更新的记忆。它支持通过 API、SDK 或 MCP，让多个模型、应用和智能体复用记忆，简介列举了 ChatGPT、Claude、Gemini、Cursor、Codex 等工具。",
+      "intro_zh": "给经常切换 AI 工具的用户和开发者用，保存对话知识，让后续任务复用已有背景。",
       "url": "https://www.producthunt.com/products/chatandbuild?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FLQZ3AXUUI5C2T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0201946d-d283-4043-84ef-fdf57cc26d79.png?auto=format",
       "votes_count": 243,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨工具复用背景的需求清楚，但实际接入负担未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "持续更新记忆时，如何处理新旧信息冲突是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把长期背景独立保存，可借用于需要切换模型的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让项目背景跨工具复用；最影响判断的是记忆出错后，用户能否有效纠正。",
+      "product_analysis": {
+        "target_problem": "经常跨 AI 工具处理同一项目的人，需要复用背景。知识散在不同对话里，换工具后可能还得重新说明。",
+        "workflow": "它捕捉对话知识，关联已有内容，再供其他模型或应用调用。介绍没说明用户如何授权和选择要保存的内容。",
+        "ai_value": "它为 AI 提供可持续使用的背景；介绍没说知识提取和关联具体由什么技术完成。",
+        "differentiation": "省的是跨工具重复交代背景的事。最可能让人犹豫的是，要把哪些私人对话交给它保存。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: d91dc278-e208-4624-a71e-6f40b00d176b)"
+      "technical_analysis": {
+        "disclosed_facts": "支持 API（软件间传数据的接口）、SDK（接入开发工具包）和 MCP（AI 工具连接外部服务的协议）。",
+        "possible_approach": "如果自己做，可以先提取对话中的事实并保留来源，再按用户和项目保存，使用时找出相关内容交给模型。",
+        "tradeoffs": "最难的是更新记忆：新说法可能是纠正，也可能仅适用于本次任务。判断错了，后续回答就会沿用错误背景。",
+        "unknowns": "用户能否查看、修改和删除已保存的记忆？"
+      },
+      "transferable_insights": [
+        "做多模型助手时，可把长期项目背景独立保存，切换模型时继续读取，不要求用户重写。"
+      ],
+      "validation_questions": [
+        "在一个工具里保存项目背景后，换到另一工具能否准确调用？",
+        "明确纠正一条旧信息后，下一次调用是否仍引用旧版本？"
+      ],
+      "source_tagline": "Interoperable, efficient memory layer for agentic AI",
+      "source_description": "Every AI conversation contains knowledge worth keeping, but most of it gets trapped in separate chats and tools. Living Brain captures that knowledge, connects it to what you already know, and turns it into a persistent memory that keeps evolving. Share that intelligence across AI models, apps, and agents through API, SDK, or MCP, so every new interaction builds on the last instead of starting over. Reuse memory across ChatGPT, Claude, Gemini, OpenClaw, Hermes, Cursor, Codex and more"
     },
     {
       "id": "1300799",
       "name": "Maritime",
       "name_zh": "Maritime",
-      "tagline_zh": "Cloud computers for any AI agent, customized your way",
-      "description_zh": "Maritime gives AI agents their own cloud computers: persistent workspaces, disposable sandboxes, Linux and Windows desktops, and Android phones. Agents can run code, use browsers, and work in apps without APIs, with a human able to take over when needed. Whether you’re building a personal assistant or running thousands of tasks in parallel, Maritime handles the computers so you can focus on what your agent does.",
-      "intro_zh": "",
+      "tagline_zh": "按需定制、供 AI 智能体使用的云端电脑",
+      "description_zh": "Maritime 为 AI 智能体提供云端电脑，包括持久工作区、一次性沙箱、Linux 和 Windows 桌面，以及 Android 手机环境。智能体可以运行代码、使用浏览器、操作没有接口的应用，必要时由人接管；产品还提供面向个人助手和大量并行任务的电脑环境管理。",
+      "intro_zh": "给开发 AI 智能体的人用，提供可运行代码、操作网页和应用的云端电脑，并允许人接管。",
       "url": "https://www.producthunt.com/products/maritime?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LXZBKU4W5VMFPL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/023a7e78-a4b7-40a8-8eac-dc9062e58de0.png?auto=format",
       "votes_count": 198,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确解决智能体运行环境的管理问题，但实际稳定性尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "持久工作区与一次性环境如何隔离，会直接影响任务能否可靠执行。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按任务是否需要保留状态来分配环境，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是能操作没有接口（供软件互相传数据的连接方式）的应用，扩大可自动执行的任务范围。最影响判断的是不同任务的账号和资料能否可靠隔离。",
+      "product_analysis": {
+        "target_problem": "开发 AI 助手的人，需要让程序真正操作网页和应用。麻烦在于除了写任务逻辑，还要准备并管理运行它的电脑环境。",
+        "workflow": "按任务需要使用持久工作区或一次性环境，让智能体运行代码、使用浏览器或操作应用。需要时由人接管；具体配置步骤未说明。",
+        "ai_value": "AI 智能体负责执行任务，Maritime 提供它使用的电脑。介绍没有说明它是否自带负责理解任务的模型。",
+        "differentiation": "它把电脑环境交给服务方管理，减少开发者自己维护的工作。最可能让人犹豫的是：登录后的账号和资料放在云端，权限是否可控。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 19ad7add-20cb-45dc-a267-2c53ad21330f)"
+      "technical_analysis": {
+        "disclosed_facts": "支持持久工作区、一次性沙箱（任务用完即可丢弃的隔离环境）、Linux、Windows 和 Android 环境，以及人工接管。",
+        "possible_approach": "如果自己做，可以先为每个任务分配独立环境，再让智能体操作其中的应用；需要保留工作的存下文件，临时任务结束后销毁环境。",
+        "tradeoffs": "最容易出错的是环境清理与隔离。若上个任务的登录状态留给下个任务，智能体可能用错账号，甚至接触别人的资料。",
+        "unknowns": "人工接管时，正在执行的智能体会不会立即暂停？"
+      },
+      "transferable_insights": [
+        "做自动化任务平台时，可把长期保留资料的工作区与用完即弃的临时环境分开，避免所有任务都沿用同一套保存规则。"
+      ],
+      "validation_questions": [
+        "结束一个已登录账号的临时任务后，新任务是否还能看到该账号？",
+        "在智能体操作途中人工接管，它是否立即停止输入和点击？"
+      ],
+      "source_tagline": "Cloud computers for any AI agent, customized your way",
+      "source_description": "Maritime gives AI agents their own cloud computers: persistent workspaces, disposable sandboxes, Linux and Windows desktops, and Android phones. Agents can run code, use browsers, and work in apps without APIs, with a human able to take over when needed. Whether you’re building a personal assistant or running thousands of tasks in parallel, Maritime handles the computers so you can focus on what your agent does."
     },
     {
       "id": "1300616",
       "name": "Pushary for Teams",
       "name_zh": "Pushary for Teams",
-      "tagline_zh": "See who said yes to your team’s AI agents",
-      "description_zh": "When an AI agent stops to ask permission, Pushary sends the question to the person running it, in their Mac’s notch or on their phone. Lee’s agent asks Lee. Sam’s agent asks Sam. A rule can send a push to your infra repo to your lead instead. Answers from the phone, Mac app and dashboard are saved with a name, so when something breaks, one page shows whose agent asked and who said yes. Works with Claude Code, Codex, Cursor, Agy and Hermes.",
-      "intro_zh": "",
+      "tagline_zh": "查看是谁批准了团队 AI 代理的请求",
+      "description_zh": "AI 代理暂停并请求许可时，Pushary 会把问题发到运行者的 Mac 顶部缺口区域或手机，也能按规则把向基础设施仓库推送的请求转给负责人。手机、Mac 应用和控制台中的答复会实名保存，方便在同一页面查看谁的代理发起请求、谁批准了操作；介绍列出的兼容工具包括 Claude Code、Codex、Cursor、Agy 和 Hermes。",
+      "intro_zh": "给使用 AI 编程代理的团队，把许可请求发给相应成员，并记录谁批准了操作。",
       "url": "https://www.producthunt.com/products/pushary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FKYLG6Q6UE7GI2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1cd76568-850f-4fe9-883d-b6fd2757b8a6.jpeg?auto=format",
       "votes_count": 193,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "请求该找谁、批准后如何追查都有明确用途。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把批准准确对应到人和具体操作，是直接影响安全的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "默认找运行者、特殊操作找负责人的规则可借用于其他审批产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "具名批准记录有助于事后查清责任；最影响判断的是，系统是否真正限制了谁能批准，而不只是记录一个姓名。",
+      "product_analysis": {
+        "target_problem": "团队同时运行多个 AI 编程代理时，需要知道请求该交给谁，出问题后也要查清谁同意了操作。",
+        "workflow": "代理请求许可后，问题发到运行者的 Mac 或手机；规则也可指定负责人。成员作答后，系统保存姓名供集中查看。",
+        "ai_value": "AI 代理负责提出许可请求。介绍没提 Pushary 用 AI 判断该不该批准，决定仍由人做。",
+        "differentiation": "把许可请求送到人所在的设备，并留下具名答复，减少事后追问。团队可能因不愿接入额外审批工具而不换用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4d399884-1d18-4e3f-8edd-fb839f88caf3)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持多个编程代理工具、按规则分派请求，以及跨设备保存具名答复，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先接收代理的许可请求，记录运行者和操作，再按规则通知对应的人，把答复送回原请求并留档。",
+        "tradeoffs": "最容易出错的是把答复对应到错误请求；同时收到多条通知时，用户可能批准另一项操作。",
+        "unknowns": "介绍没说如何确认答复者确实有权批准该操作。"
+      },
+      "transferable_insights": [
+        "做团队审批产品时，可默认找任务发起者，再为高风险操作设置专门负责人，减少每次手选审批人的步骤。"
+      ],
+      "validation_questions": [
+        "同时发起两条相似请求，检查手机上的批准是否准确回到对应操作。",
+        "用无审批权限的成员账号，检查能否批准负责人的请求。"
+      ],
+      "source_tagline": "See who said yes to your team’s AI agents",
+      "source_description": "When an AI agent stops to ask permission, Pushary sends the question to the person running it, in their Mac’s notch or on their phone. Lee’s agent asks Lee. Sam’s agent asks Sam. A rule can send a push to your infra repo to your lead instead. Answers from the phone, Mac app and dashboard are saved with a name, so when something breaks, one page shows whose agent asked and who said yes. Works with Claude Code, Codex, Cursor, Agy and Hermes."
     },
     {
       "id": "1301590",
       "name": "Clocknext",
       "name_zh": "Clocknext",
-      "tagline_zh": "Pricing and Billing Infrastructure for AI Agents",
-      "description_zh": "Clocknext is a billing and monetization platform for AI-native apps and agents. It’s tailored for AI founders, revenue, and engineering teams, to track AI usage from your product in real time, turn it into billable metrics with flexible pricing plans, and monitor costs, margins, and profitability at every level.",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 智能体的定价与计费基础设施",
+      "description_zh": "Clocknext 是面向 AI 原生应用和智能体的计费与商业化平台，服务于 AI 创业者、营收和工程团队。它支持实时追踪产品中的 AI 用量，按灵活定价方案换算为计费指标，并监控不同层级的成本、利润率和盈利情况。",
+      "intro_zh": "给 AI 应用的创业者、营收和工程团队用，把产品用量转成收费依据，并查看成本与利润。",
       "url": "https://www.producthunt.com/products/clocknext?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7IUKMVZUC4C7ZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bb0e01c4-3997-46c2-88f7-e129460801c1.jpeg?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用量、收费和利润的使用场景清楚，但接入负担与核算准确性未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "用量如何准确变成账单值得分析，但实现细节有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "将同一份用量同时用于收费和成本核算，可借用于按量付费产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是能把收费与成本放在一起看；最影响判断的是成本归属是否足够准确，否则利润数字难以指导定价。",
+      "product_analysis": {
+        "target_problem": "AI 产品团队需要知道用户消耗了多少资源、该收多少钱，以及收入能否覆盖成本。麻烦在于这三件事需要对得上。",
+        "workflow": "平台追踪产品中的 AI 用量，按定价方案换算为计费指标，再供团队查看成本和利润。简介没有给出具体接入步骤。",
+        "ai_value": "它服务于 AI 产品，但介绍没说自身用 AI 完成什么工作。明确的作用是记录用量、计算收费依据和展示经营数据。",
+        "differentiation": "它把用量、定价和利润放在同一平台，可能减少分开核算的工作。我会先确认接入需要改动多少现有计费代码。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 259d779b-a37c-489a-b42b-216199e77383)"
-    },
-    {
-      "id": "1296394",
-      "name": "Bridge",
-      "name_zh": "Bridge",
-      "tagline_zh": "Video conferencing for the agentic era",
-      "description_zh": "This launch marks a new era for Bridge: one agentic meeting platform replacing the fragmented meeting stack. Bridge now brings scheduling pages, automatic preparation, video conferencing, live intelligence, AI notetaking, agentic workflows, and structured memory into one connected experience for people and agents. At the center of this launch is a new kind of video conferencing built for customizable AI agents to join and participant in meetings.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/meetonbridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PBNZKRHUASBSC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/043ae0b6-1859-435e-a4ff-d751143e4085.jpeg?auto=format",
-      "votes_count": 141,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到实时用量追踪和灵活定价，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给每次用量记录唯一编号，再按客户和定价规则汇总金额，最后关联成本计算利润。",
+        "tradeoffs": "最容易出错的是重复记录用量。网络重试若被当成新消耗，用户可能被多收费，利润也会算错。",
+        "unknowns": "成本如何归到具体客户或任务，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 4ed886f8-0f5b-4168-b1f5-aeeb30cb63f0)"
+      "transferable_insights": [
+        "做按量收费产品时，可以让收费统计和成本统计共用同一份用量记录，方便定位哪些使用行为在亏钱。"
+      ],
+      "validation_questions": [
+        "同一条用量记录重复提交，是否只计费一次？",
+        "选一个已知用量和定价的样例，平台算出的金额是否与手算一致？"
+      ],
+      "source_tagline": "Pricing and Billing Infrastructure for AI Agents",
+      "source_description": "Clocknext is a billing and monetization platform for AI-native apps and agents. It’s tailored for AI founders, revenue, and engineering teams, to track AI usage from your product in real time, turn it into billable metrics with flexible pricing plans, and monitor costs, margins, and profitability at every level."
     },
     {
       "id": "1302428",
       "name": "Tao Browser",
       "name_zh": "Tao Browser",
-      "tagline_zh": "Private browser with a separate login for every company",
-      "description_zh": "Tao Browser keeps each company, client or project in its own space with its own cookies and logins. Lock tabs with Face ID or Touch ID, block ads and trackers on your device, import from Arc. No account, no telemetry. Free on iPhone, iPad and Mac (beta).",
-      "intro_zh": "",
+      "tagline_zh": "为每家公司保留独立登录状态的隐私浏览器",
+      "description_zh": "Tao Browser 为公司、客户或项目提供独立空间，分别保存 Cookie 和登录状态，并支持用 Face ID 或 Touch ID 锁定标签页、在设备上拦截广告与追踪器，以及从 Arc 导入。简介称无需注册、不收集遥测数据，可在 iPhone、iPad 和 Mac 上免费使用，Mac 版处于测试阶段。",
+      "intro_zh": "给同时处理多家公司或客户事务的人用，把各自的网页和登录状态分开放，减少账号混用。",
       "url": "https://www.producthunt.com/products/tao-browser?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/67S6CGG52F2357?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f01ef2e1-c828-49b7-a936-910b538cadb6.png?auto=format",
       "votes_count": 115,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多客户账号混用的问题明确，但空间隔离效果尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "登录状态如何隔离，是直接影响使用结果的具体技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按客户组织工作内容并保留独立状态，可借用于多租户工作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是按客户保留登录状态，减少身份确认的负担；关键疑问是复杂登录跳转会不会破坏隔离。",
+      "product_analysis": {
+        "target_problem": "服务多个客户的顾问或代理团队，可能需要在同一网站使用不同账号。麻烦在于确认当前身份，避免把操作做进另一家公司的账号。",
+        "workflow": "按公司、客户或项目使用独立空间，各自保留登录状态。需要保护的标签页可用 Face ID 或 Touch ID 锁定，也支持从 Arc 导入。",
+        "ai_value": "介绍没提 AI，主要靠空间隔离、生物识别锁定和本机拦截改善体验。",
+        "differentiation": "它把工作对象和登录状态放在一起管理。最可能影响迁移的是 Arc 导入范围不明，原有工作环境可能仍需手动整理。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 196a2d9e-7d11-4dd5-b9e0-db958ecf6a5b)"
+      "technical_analysis": {
+        "disclosed_facts": "各空间有独立 Cookie（网站保存登录等状态的数据）和登录状态，广告与追踪器在设备上拦截。",
+        "possible_approach": "如果自己做，可以先为各空间分开保存网站数据，再让标签页只读取所属空间的数据。",
+        "tradeoffs": "最难的是跳转登录时仍保持空间隔离；若误用了另一空间的状态，用户可能进入错误账号。",
+        "unknowns": "空间隔离是否覆盖第三方登录跳转，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做多客户工作台时，可按客户保存独立工作状态，切换后显示对应内容，减少重新配置。"
+      ],
+      "validation_questions": [
+        "同一网站在两个空间登录不同账号，跳转登录后能否仍保持各自身份？",
+        "从 Arc 导入后，原有空间分组是否保留？"
+      ],
+      "source_tagline": "Private browser with a separate login for every company",
+      "source_description": "Tao Browser keeps each company, client or project in its own space with its own cookies and logins. Lock tabs with Face ID or Touch ID, block ads and trackers on your device, import from Arc. No account, no telemetry. Free on iPhone, iPad and Mac (beta)."
     },
     {
       "id": "1293184",
       "name": "Rainbrand",
       "name_zh": "Rainbrand",
-      "tagline_zh": "The brand layer for agents",
-      "description_zh": "Rainbrand builds and maintains shared brand context from your websites, brand guides and files. Give your agents the guidance and assets they need for marketing campaigns, websites, slides, email, video, and more. Keep that context current as your brands evolve. Use it with Claude, ChatGPT, Codex or Cursor, or build it into your product through the API.",
-      "intro_zh": "",
+      "tagline_zh": "为 AI 助手提供品牌背景与规范",
+      "description_zh": "Rainbrand 从网站、品牌指南和文件中建立并维护共享的品牌资料，为 AI 助手制作营销活动、网站、演示文稿、邮件和视频等内容提供指导与素材。资料可随品牌变化保持更新，并用于 Claude、ChatGPT、Codex 或 Cursor，也可通过 API 接入自己的产品。",
+      "intro_zh": "给用多个 AI 工具制作品牌内容的团队，把品牌规范和素材整理成可共同使用、持续更新的资料。",
       "url": "https://www.producthunt.com/products/rainbrand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FVQGXUQXBCJO2O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f4139cbb-5f5b-4b3f-bbd5-cb6628b56a11.jpeg?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多工具共用品牌资料的场景清楚，但实际减少多少整理工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "品牌规范更新后，如何避免助手沿用旧资料，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把反复使用的规范独立维护，可借用于多个内容生产工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把品牌资料的维护集中起来；最大疑问是更新能否可靠传到实际使用它的工具。",
+      "product_analysis": {
+        "target_problem": "营销和设计团队用多个 AI 工具制作内容时，需要让它们拿到一致的品牌规范。资料分散、版本变化后，容易漏掉更新。",
+        "workflow": "提供网站、品牌指南和文件，建立共享品牌资料，再供所用的 AI 工具使用。品牌变化后继续维护，也可通过接口接入自有产品。",
+        "ai_value": "它给 AI 提供品牌指导与素材；介绍没有说明整理资料本身是否由 AI 完成。",
+        "differentiation": "共享资料可能减少给不同工具重复补充背景的工作。换用前，我会先确认现有工具接入是否方便。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: 27601b63-cc0f-4535-b766-044ebf82449f)"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Claude、ChatGPT、Codex、Cursor，并提供 API（让软件互相传数据的接口）。",
+        "possible_approach": "如果自己做，可以先从来源中整理品牌规则和素材，再给每项标明来源、版本，按任务提供给 AI。",
+        "tradeoffs": "最容易出错的是更新时保留了互相冲突的新旧规则，助手可能继续使用旧标志或旧说法。",
+        "unknowns": "品牌变化后，哪些更新能自动发现，哪些需要人工确认？"
+      },
+      "transferable_insights": [
+        "做多入口的内容工具时，可以把品牌规则独立保存，让不同编辑功能读取同一份资料，避免各自维护副本。"
+      ],
+      "validation_questions": [
+        "修改一条品牌规则后，新任务是否仍会引用旧规则？",
+        "让两个受支持的工具完成同类任务，是否都能拿到同一份指定素材？"
+      ],
+      "source_tagline": "The brand layer for agents",
+      "source_description": "Rainbrand builds and maintains shared brand context from your websites, brand guides and files. Give your agents the guidance and assets they need for marketing campaigns, websites, slides, email, video, and more. Keep that context current as your brands evolve. Use it with Claude, ChatGPT, Codex or Cursor, or build it into your product through the API."
+    },
+    {
+      "id": "1296394",
+      "name": "Bridge",
+      "name_zh": "Bridge",
+      "tagline_zh": "面向 AI 智能体时代的视频会议",
+      "description_zh": "Bridge 将预约页面、自动会前准备、视频会议、会中辅助、AI 笔记、智能体工作流程和结构化记忆整合在一起，供人和智能体使用。此次更新重点是让可定制的 AI 智能体加入并参与视频会议。",
+      "intro_zh": "给需要组织和跟进会议的团队用，把预约、开会和记录放在一起，并让可定制的 AI 助手参会。",
+      "url": "https://www.producthunt.com/products/meetonbridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PBNZKRHUASBSC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/043ae0b6-1859-435e-a4ff-d751143e4085.jpeg?auto=format",
+      "votes_count": 141,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "覆盖会前到会后的需求，但是否能替代现有工具仍不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "智能体参会有具体难点，但参与方式和能力边界未说明。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕同一场会议组织准备和记录的做法可借鉴，实际衔接效果待确认。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是减少会议信息的重复搬运；最大疑问是智能体参会能完成什么，现有简介还不足以判断。",
+      "product_analysis": {
+        "target_problem": "需要频繁组织会议的团队可能会用它。若预约、开会和记录分散在不同工具里，会议信息就得来回搬。",
+        "workflow": "团队可用预约页面安排会议，使用自动会前准备，再进入视频会议并让可定制的智能体参与。平台还提供 AI 笔记和会议信息留存。",
+        "ai_value": "AI 用于记笔记，并以智能体形式参会。介绍没有解释智能体如何发言、回答问题或执行任务。",
+        "differentiation": "它尝试减少会前会后切换工具的次数。最可能让团队不愿更换的，是还得让参会者迁移到新会议平台。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到可定制 AI 智能体、AI 笔记和结构化记忆，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把会议语音转成文字，再生成笔记并保存成可检索的会议记录；让参会助手读取这些内容，按设定职责回应。",
+        "tradeoffs": "最容易出错的是把讨论中的提议记成最终决定。若这条记录继续供助手使用，后续回答也可能跟着出错。",
+        "unknowns": "智能体的“参与”究竟支持哪些具体动作？"
+      },
+      "transferable_insights": [
+        "做团队协作产品时，可以按同一场会议归集准备材料和会后记录，让用户沿会议找到上下文。"
+      ],
+      "validation_questions": [
+        "给智能体一个明确职责，检查它能否在会议中完成对应动作。",
+        "把一条错误的会议结论改正后，检查后续回答是否使用更正内容。"
+      ],
+      "source_tagline": "Video conferencing for the agentic era",
+      "source_description": "This launch marks a new era for Bridge: one agentic meeting platform replacing the fragmented meeting stack. Bridge now brings scheduling pages, automatic preparation, video conferencing, live intelligence, AI notetaking, agentic workflows, and structured memory into one connected experience for people and agents. At the center of this launch is a new kind of video conferencing built for customizable AI agents to join and participant in meetings."
     },
     {
       "id": "1302492",
       "name": "Stitch.ai",
       "name_zh": "Stitch.ai",
-      "tagline_zh": "Your AI workspace for mail, calendar, notes, tasks and more",
-      "description_zh": "Stitch.ai brings mail, calendar, contacts, tasks, notes, sheets, slides, boards, and files into one connected workspace. Stitchy, your AI assistant, works with you across it all. Dual workspace panels allow you to drag, drop, and Stitch anything to everything. Nothing gets lost. AI-powered Knots, Tags, and Connections keep your work organized and easy to surface. Everything is built in: no integrations or extra email clients to set up. Get your work done in one place, without losing context.",
-      "intro_zh": "",
+      "tagline_zh": "整合邮件、日历、笔记、任务等内容的 AI 工作空间",
+      "description_zh": "Stitch.ai 把邮件、日历、联系人、任务、笔记、表格、幻灯片、看板和文件放进同一个工作空间，内置 AI 助手 Stitchy。它支持在双面板间拖放并关联内容，用 AI 驱动的 Knots、标签和关联整理资料；介绍称无需另配集成或邮件客户端。",
+      "intro_zh": "给需要同时处理邮件、日程和项目资料的人用，在一个工作空间里查看、整理并关联这些内容。",
       "url": "https://www.producthunt.com/products/stitch-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RH3SUY5Z3KCC6L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b3325733-1d27-45a5-a98b-f02891cb75ad.jpeg?auto=format",
       "votes_count": 101,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "集中处理工作的用途清楚，但能省多少切换和查找仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨类型内容的关联值得分析，但没有具体实现信息。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "双面板拖放关联是明确可借用的交互做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重双面板让资料关联变成直接操作；但这些关联能否在实际工作中保持准确，仍影响判断。",
+      "product_analysis": {
+        "target_problem": "处理项目的人可能要对照邮件、日程和笔记，麻烦在于找齐同一件事的相关资料。",
+        "workflow": "在双面板里打开不同内容，拖放建立关联，再用标签等方式整理。介绍没有说明首次导入流程。",
+        "ai_value": "Stitchy 可跨工作区协助处理内容，AI 也参与整理；具体能代办哪些动作没有展开。",
+        "differentiation": "把查看和关联放在同一处，可能减少来回查找。我会先确认现有资料迁入是否费事，这是换用的主要顾虑。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - Authentication Fails, Your api key: ****b539 is invalid (request_id: cd19b03a-f7c3-4f0d-a565-a640b284a63f)"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到跨工作区 AI 助手、双面板拖放，以及 AI 驱动的 Knots、标签和关联，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先给邮件、任务等内容分配固定编号，再保存拖放建立的关联，让 AI 根据内容建议标签。",
+        "tradeoffs": "最容易出错的是把无关资料连在一起，用户查项目时可能看到错误背景。",
+        "unknowns": "介绍没说 AI 建立的关联能否由用户确认和撤销。"
+      },
+      "transferable_insights": [
+        "做项目管理工具时，可用双面板让用户对照邮件和任务，并拖放建立关联，省去反复复制链接。"
+      ],
+      "validation_questions": [
+        "放入主题相近但属于不同项目的资料，检查 AI 是否错误关联。",
+        "修改一封已关联邮件，检查关联处能否看到更新后的内容。"
+      ],
+      "source_tagline": "Your AI workspace for mail, calendar, notes, tasks and more",
+      "source_description": "Stitch.ai brings mail, calendar, contacts, tasks, notes, sheets, slides, boards, and files into one connected workspace. Stitchy, your AI assistant, works with you across it all. Dual workspace panels allow you to drag, drop, and Stitch anything to everything. Nothing gets lost. AI-powered Knots, Tags, and Connections keep your work organized and easy to surface. Everything is built in: no integrations or extra email clients to set up. Get your work done in one place, without losing context."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

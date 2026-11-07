@@ -1,367 +1,510 @@
 {
   "date": "2026-10-03",
-  "generated_at": "2026-10-04T21:05:33+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:24:12+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1259794",
-      "name": "ZooWork",
-      "name_zh": "ZooWork",
-      "tagline_zh": "The AI agent delivery platform for FDEs and domain experts",
-      "description_zh": "ZooWork lets you build, deploy, and deliver AI agents to teams or clients — experts start in the Builder UI, developers ship with the Managed Agent API. Turn your expertise into AI solutions built for real business operations.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/zoowork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EIW66MPSNX7TY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/04bae135-5c2e-468b-9d9f-cb2e321786f8.jpeg?auto=format",
-      "votes_count": 316,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ab8350aa-70da-4f5f-a855-c98e3ce9e358)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1254817",
       "name": "miso.com",
       "name_zh": "miso.com",
-      "tagline_zh": "Book flights and hotels through iMessage",
-      "description_zh": "Stop opening 20 tabs to book a trip. Miso is an AI travel agent in iMessage that finds, books, and manages flights and hotels for you. Just text where you want to go and Miso searches live options, learns your travel preferences, and handles the booking in the same conversation. With direct airline access and 24/7 support, you can go from “I need to be in London Tuesday” to booked without leaving Messages.",
-      "intro_zh": "",
+      "tagline_zh": "通过 iMessage 预订航班和酒店",
+      "description_zh": "Miso 是 iMessage 中的 AI 旅行助手，可查找、预订和管理航班与酒店，并在对话中了解你的旅行偏好。介绍称，它会搜索实时选项，直接连接航空公司，并提供全天候支持，让用户在消息中完成预订。",
+      "intro_zh": "给想用消息安排出行的人用，在 iMessage 中说明行程，查找并预订航班和酒店。",
       "url": "https://www.producthunt.com/products/miso-com?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RV2QIX6I3EB5JC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1ff8840f-b554-47c2-bef5-9f400ce58790.jpeg?auto=format",
       "votes_count": 258,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "出行需求明确，把搜索和预订放在同一对话中有实际便利。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把自然语言需求准确变成付费订单，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "对话中完成预订的做法可借鉴，但交易确认方式尚不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重少在搜索页和预订页之间切换；最影响判断的是，付款前能否让用户看清并确认订单。",
+      "product_analysis": {
+        "target_problem": "需要订机票和酒店的人，可能要在多个页面间比较、核对行程。Miso 把这些事情放进 iMessage 对话。",
+        "workflow": "发消息说明目的地和出行时间，Miso 搜索实时选项，再在同一对话中处理预订，并管理航班和酒店。",
+        "ai_value": "AI 用来理解出行要求、了解旅行偏好，并据此寻找选项。介绍没说明它如何确认含糊的需求。",
+        "differentiation": "搜索和预订不用离开消息应用。最可能让人犹豫的是：聊天能否清楚展示价格和退改条件。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 828c1db5-f2cf-4f06-9b8d-fd14738e88e4)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1264658",
-      "name": "Prefer",
-      "name_zh": "Prefer",
-      "tagline_zh": "The execution layer for AEO",
-      "description_zh": "AEO should not be another dashboard. Prefer works at the execution layer, helping brands understand how ChatGPT, Claude, Gemini and Perplexity talk about them, identify where they are missing, and take action to improve their visibility. Turn AI search insights into action with autonomous agents. Less reporting. More doing.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/prefer-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7BOKASBUEQX4KI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f58b510d-b6e6-4406-a796-4a709e55a413.jpeg?auto=format",
-      "votes_count": 191,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI、iMessage、实时搜索及直连航空公司，未披露具体实现。",
+        "possible_approach": "如果自己做，可以先把消息整理成日期、地点等条件，再查询可订选项；付款前展示完整订单，让用户确认后再提交。",
+        "tradeoffs": "最容易错在把口语时间变成订单日期。例如误解“周二到伦敦”，可能订成周二出发，导致行程不符。",
+        "unknowns": "下单前如何让用户核对并确认最终订单？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5b3ef2b6-179f-40ae-b12c-9bfbe4570acd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做需要付费的对话助手时，可把需求沟通留在聊天中，在提交前集中展示关键条款并要求确认。"
+      ],
+      "validation_questions": [
+        "输入“周二必须到伦敦”，检查它是否正确理解到达日期。",
+        "提交预订前，检查是否清楚展示退改条件。"
+      ],
+      "source_tagline": "Book flights and hotels through iMessage",
+      "source_description": "Stop opening 20 tabs to book a trip. Miso is an AI travel agent in iMessage that finds, books, and manages flights and hotels for you. Just text where you want to go and Miso searches live options, learns your travel preferences, and handles the booking in the same conversation. With direct airline access and 24/7 support, you can go from “I need to be in London Tuesday” to booked without leaving Messages."
     },
     {
       "id": "1268160",
       "name": "Muse Gadgets",
       "name_zh": "Muse Gadgets",
-      "tagline_zh": "Meta's open-source kit for building your own AI gadgets",
-      "description_zh": "Muse Gadgets is Meta's open-source hardware toolkit for bringing Muse into the physical world. Connect an ESP32, Raspberry Pi, or Linux device to displays, microphones, speakers, buttons, sensors, and more, then let Muse interact through the hardware you build. Make a pocket AI companion, e-ink briefing display, smart-home controller, TV interface, or something entirely your own. SDKs and firmware are open source under Apache 2.0.",
-      "intro_zh": "",
+      "tagline_zh": "用于自制 AI 硬件的开源套件，缓存标语称其来自 Meta",
+      "description_zh": "Muse Gadgets 是让 Muse 与实体设备交互的开源硬件工具包，可将 ESP32、树莓派或 Linux 设备连接到屏幕、麦克风、扬声器、按钮和传感器等部件。它可用于制作便携 AI 伙伴、电子墨水屏简报设备、智能家居控制器等，开发工具包和固件按 Apache 2.0 许可开源。",
+      "intro_zh": "给想做 AI 硬件的开发者和创客用，把 Muse 接到自己组装的屏幕、按钮和传感器上。",
       "url": "https://www.producthunt.com/products/muse-22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4J7IZNCDREAZMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/73609543-4268-4072-8958-bc3154547f5d.jpeg?auto=format",
       "votes_count": 173,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和设备用途明确，但能省多少开发工作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "软件如何可靠地驱动实体设备值得关注，但实现细节有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先支持常见开发板、再开放硬件扩展的做法可供原型工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是它可能减少 AI 硬件原型的连接工作；最影响判断的是示例能否直接跑通。缓存中的 Meta 归属尚未核验，不宜据此增加信任。",
+      "product_analysis": {
+        "target_problem": "面向想把 AI 做进实体设备的开发者。麻烦在于既要连接硬件，又要让软件读懂输入、控制输出。",
+        "workflow": "选择支持的设备，连接屏幕、麦克风或按钮等部件，再让 Muse 通过这些硬件交互。简介没有提供安装和配置步骤。",
+        "ai_value": "Muse 负责通过硬件与人交互；介绍未说明它具体如何理解语音、处理传感器数据或决定动作。",
+        "differentiation": "提供现成工具包，可能减少自行编写硬件连接代码的工作。若必须依赖 Muse，已有其他 AI 服务的团队可能不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ea2b3d7f-62ea-4dd6-a170-a41bf24465ee)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1267818",
-      "name": "Kindle 2026",
-      "name_zh": "Kindle 2026",
-      "tagline_zh": "A smaller, faster Kindle with a flush-front display",
-      "description_zh": "Kindle 2026 is Amazon’s redesigned 6-inch e-reader, now smaller and lighter with 30% faster book opening and a flush-front display. It also comes in a new 32GB aluminum version for the first time.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/kindle-2026?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2FVYYMWPUAJ4O6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d57fa15b-f5ce-44cf-a146-559f24340332.jpeg?auto=format",
-      "votes_count": 149,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持 ESP32、树莓派和 Linux 设备；开发工具包及固件（设备上运行的程序）按 Apache 2.0 许可开源。",
+        "possible_approach": "如果自己做，可以先选一块开发板，打通按钮输入和屏幕输出，再把输入交给 AI，并将回复显示出来。",
+        "tradeoffs": "最容易出错的是把 AI 的回复变成设备动作。若动作判断错误，智能家居控制器可能执行用户没要求的操作。",
+        "unknowns": "Muse 是否需要联网才能完成交互？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 86b07d81-139e-40de-ac6e-e3e14872fe29)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做硬件开发工具时，可以先提供一个按钮加一块屏幕的最小示例，让开发者跑通输入和输出，再扩展部件。"
+      ],
+      "validation_questions": [
+        "按提供的示例连接按钮和屏幕，能否完成一次输入与回复？",
+        "断网后，设备还能完成哪些交互？"
+      ],
+      "source_tagline": "Meta's open-source kit for building your own AI gadgets",
+      "source_description": "Muse Gadgets is Meta's open-source hardware toolkit for bringing Muse into the physical world. Connect an ESP32, Raspberry Pi, or Linux device to displays, microphones, speakers, buttons, sensors, and more, then let Muse interact through the hardware you build. Make a pocket AI companion, e-ink briefing display, smart-home controller, TV interface, or something entirely your own. SDKs and firmware are open source under Apache 2.0."
     },
     {
       "id": "1264987",
       "name": "Cubicle",
       "name_zh": "Cubicle",
-      "tagline_zh": "A live office for your AI agents, read-only by design",
-      "description_zh": "Watch Claude Code, Codex, Gemini CLI and Paperclip agents work in a live office: they sit down and type, raise a hand or line up at your desk when they need you, and go to the lounge when done. KPI board for your tasks, Telegram alerts with the agent's questions, phone view, pixel or HD themes, real faces, your logo. One command (npx), zero dependencies, MIT. Read-only by design: it only watches; the one optional write is your own Telegram reply, posted as a comment.",
-      "intro_zh": "",
+      "tagline_zh": "为 AI 代理打造的实时办公室，默认只读",
+      "description_zh": "把 Claude Code、Codex、Gemini CLI 和 Paperclip 代理的工作状态展示成实时办公室：工作时坐下打字，需要你时举手或排队，完成后去休息区，并提供任务指标看板、Telegram 问题提醒、手机视图和外观定制。介绍称可用一条 npx 命令启动、零依赖，采用 MIT 开源许可；默认只观察，唯一可选的写入是把你在 Telegram 的回复发布为评论。",
+      "intro_zh": "给同时运行多个 AI 代理的人用，把工作、等待提问和完成状态放进一个可观看的办公室。",
       "url": "https://www.producthunt.com/products/cubicle-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PSQ4HWY5PXORPM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/075b901c-416a-4ed7-9656-e8a2ca3e7ccb.gif?auto=format",
       "votes_count": 114,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "集中查看状态和接收问题的用途清楚，但识别准确性未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把不同代理的活动转成统一状态有具体难点，实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把需要人处理的任务单独显露出来，可用于多任务监控。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把等待人工回复的任务显露出来；最影响判断的是不同代理的等待状态能否被可靠识别。",
+      "product_analysis": {
+        "target_problem": "同时跑多个 AI 代理时，使用者需要知道谁在工作、谁等回复，避免任务停住却没注意到。",
+        "workflow": "用介绍提供的 npx 命令启动，观看办公室里的代理状态。收到 Telegram 问题后，可选择回复并将其发布为评论；具体接入步骤未说明。",
+        "ai_value": "它展示 AI 代理的活动；介绍没提 Cubicle 自身用 AI 判断状态或生成内容。",
+        "differentiation": "把多种代理的状态放到一处，还能在手机上收到问题。若动画不能准确反映进度，用户可能仍要回原工具确认。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 33422dca-0804-4e92-9c9f-3966a6c747ca)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1266483",
-      "name": "FoundrRadio",
-      "name_zh": "FoundrRadio",
-      "tagline_zh": "Pick a frequency, launch your radio station and go on air",
-      "description_zh": "FoundrRadio is an internet radio platform where founders could own their own radio stations and go on air. Visitors could listen to their favourite founders, their talks or music they love. An opportunity to own a small corner on the internet. An attempt to combine nostalgia and community.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/foundrradio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/L5ORNWNVOEL6S5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/601fe8ad-eeb4-4d13-93af-dd97264055c2.png?auto=format",
-      "votes_count": 94,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍称采用 MIT 许可、可用 npx 启动，默认只读，仅可选地写入用户的 Telegram 回复评论。",
+        "possible_approach": "如果自己做，可以先读取各代理的活动记录，再归成工作、等人、完成三种状态，驱动画面并发送提醒。",
+        "tradeoffs": "最难的是分清“还在计算”和“等你回复”。分错会漏掉求助，或频繁打断用户。",
+        "unknowns": "Telegram 回复写成评论后，代理是否会继续执行？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1aa5367c-18ba-4e28-b50f-718b641712e8)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做批量任务工具时，可以把“需要人处理”的任务单独排队，不让它们埋在运行列表里。"
+      ],
+      "validation_questions": [
+        "让代理提出一个明确问题，检查界面是否正确显示等待状态。",
+        "回复一次 Telegram 提问，检查评论是否落到对应任务。"
+      ],
+      "source_tagline": "A live office for your AI agents, read-only by design",
+      "source_description": "Watch Claude Code, Codex, Gemini CLI and Paperclip agents work in a live office: they sit down and type, raise a hand or line up at your desk when they need you, and go to the lounge when done. KPI board for your tasks, Telegram alerts with the agent's questions, phone view, pixel or HD themes, real faces, your logo. One command (npx), zero dependencies, MIT. Read-only by design: it only watches; the one optional write is your own Telegram reply, posted as a comment."
     },
     {
       "id": "1257580",
       "name": "SCMD ",
-      "name_zh": "SCMD ",
-      "tagline_zh": "Manage what Claude Remembers and Keeps as Memory.",
-      "description_zh": "Claude only! SCMD is an open-source, local review deck for the persistent memories Claude Code saves about you and your projects. Keep, delete, skip, undo, rewrite, and inspect why a memory was saved. Decisions stay staged until you confirm; deletes go to restorable trash. No telemetry, no cloud service, and zero npm dependencies. Run it with /scmd:run or npx. MIT-licensed and ready for contributors.",
-      "intro_zh": "",
+      "name_zh": "SCMD",
+      "tagline_zh": "管理 Claude 记住并保存的信息。",
+      "description_zh": "SCMD 是仅面向 Claude 的开源本地审阅工具，用来检查 Claude Code 保存的用户和项目长期记忆，支持保留、删除、跳过、撤销、改写及查看保存原因。操作确认后才生效，删除内容可从回收站恢复；简介称无遥测、无云服务、无 npm 依赖，可通过 /scmd:run 或 npx 启动，采用 MIT 许可证并欢迎贡献。",
+      "intro_zh": "给使用 Claude Code 的开发者，逐条检查它保存的长期记忆，决定保留、改写或删除哪些内容。",
       "url": "https://www.producthunt.com/products/scmd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/USKITC5YZNVI3N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4f4f1718-88b0-4df9-af16-7e9ab2748807.png?auto=format",
       "votes_count": 89,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "对象和操作明确，但清理记忆能否改善后续回答尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "暂存确认和可恢复删除，提出了具体的文件修改安全问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先审阅再提交、删除可恢复，适用于有误删风险的管理工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重修改前能确认、删除后能恢复；最影响判断的是它能否避免覆盖 Claude 同时写入的新记忆。",
+      "product_analysis": {
+        "target_problem": "Claude Code 用户需要检查长期记忆是否过时或记错。麻烦在于判断哪些内容该留，并避免清理时误删。",
+        "workflow": "用 /scmd:run 或 npx 启动，逐条查看记忆及保存原因。选择保留、改写或删除，确认后生效；删除内容可恢复。",
+        "ai_value": "介绍没提 SCMD 自身使用 AI，主要靠本地审阅和确认操作来管理 Claude 保存的记忆。",
+        "differentiation": "它把审阅、修改和恢复放在一起。是否值得换用，可能取决于用户是否经常需要清理记忆。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d0a5117a-8716-459c-9bfd-639e703ee04b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介称它开源、本地运行，无遥测、无云服务、零 npm 依赖，采用 MIT 许可证。",
+        "possible_approach": "如果自己做，可以先读取记忆并保存修改前的副本，再暂存用户决定，确认时写回，删除项移入回收站。",
+        "tradeoffs": "最容易出错的是确认写回时，Claude 已更新同一条记忆。若直接覆盖，可能丢失新内容。",
+        "unknowns": "介绍没说明如何处理审阅期间发生的记忆更新。"
+      },
+      "transferable_insights": [
+        "做配置或资料清理工具时，可先暂存修改供用户确认，再提供回收站，降低误操作后果。"
+      ],
+      "validation_questions": [
+        "审阅期间让 Claude 更新同一条记忆，确认操作会不会覆盖新内容？",
+        "删除一条记忆后，从回收站恢复能否还原原文？"
+      ],
+      "source_tagline": "Manage what Claude Remembers and Keeps as Memory.",
+      "source_description": "Claude only! SCMD is an open-source, local review deck for the persistent memories Claude Code saves about you and your projects. Keep, delete, skip, undo, rewrite, and inspect why a memory was saved. Decisions stay staged until you confirm; deletes go to restorable trash. No telemetry, no cloud service, and zero npm dependencies. Run it with /scmd:run or npx. MIT-licensed and ready for contributors."
+    },
+    {
+      "id": "1259794",
+      "name": "ZooWork",
+      "name_zh": "ZooWork",
+      "tagline_zh": "面向前线部署工程师和领域专家的 AI 智能体交付平台",
+      "description_zh": "ZooWork 支持构建、部署 AI 智能体，并将其交付给团队或客户：专家可从可视化搭建界面开始，开发者可使用托管智能体接口交付。它希望把专业知识做成用于实际业务的 AI 解决方案。",
+      "intro_zh": "给领域专家和开发者用的平台，把专业知识做成能执行任务的 AI 程序，再交给团队或客户使用。",
+      "url": "https://www.producthunt.com/products/zoowork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EIW66MPSNX7TY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/04bae135-5c2e-468b-9d9f-cb2e321786f8.jpeg?auto=format",
+      "votes_count": 316,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "交付对象和两类使用者明确，但缺少具体业务案例。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "可视化搭建与开发接口如何衔接，是具体的实现问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按专家和开发者分设入口可借鉴，但协作细节未披露。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是专家能参与搭建、开发者能接手交付；最影响判断的是，这两个入口是否真的能共用同一份任务配置。",
+      "product_analysis": {
+        "target_problem": "领域专家或参与客户落地的工程师，需要把专业知识做成团队能使用的工具。麻烦在于，写出业务要求之后，还要完成搭建、部署和交付。",
+        "workflow": "专家从 Builder UI（可视化搭建界面）开始构建；开发者可用 Managed Agent API（让其他软件调用托管智能体的连接方式）完成交付。介绍未说明两者是否必须接续使用。",
+        "ai_value": "AI 智能体负责承载专业知识并执行业务任务。具体能做哪些任务、哪些步骤需要人确认，资料没有举例。",
+        "differentiation": "它把搭建和交付放在同一平台，可能减少另找部署工具的工作。最可能让人犹豫的是，现有业务能否接进来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提供可视化搭建界面和托管智能体接口，支持构建、部署与交付。",
+        "possible_approach": "如果自己做，可以先让专家配置任务要求和示例，再把配置交给同一套运行程序，供界面和外部软件调用。",
+        "tradeoffs": "最容易出错的是搭建与交付后的行为不一致，导致专家调好的任务上线后仍要重新排查。",
+        "unknowns": "界面中建好的智能体，能否直接通过接口调用？"
+      },
+      "transferable_insights": [
+        "做面向业务专家的工具时，可以提供可视化配置入口，再给开发者保留调用入口，让两类人围绕同一份任务配置协作。"
+      ],
+      "validation_questions": [
+        "用一个真实业务任务搭建后，输出是否符合专家预先写下的验收标准？",
+        "同一任务分别从界面和接口运行，结果是否满足相同要求？"
+      ],
+      "source_tagline": "The AI agent delivery platform for FDEs and domain experts",
+      "source_description": "ZooWork lets you build, deploy, and deliver AI agents to teams or clients — experts start in the Builder UI, developers ship with the Managed Agent API. Turn your expertise into AI solutions built for real business operations."
+    },
+    {
+      "id": "1264658",
+      "name": "Prefer",
+      "name_zh": "Prefer",
+      "tagline_zh": "AEO（提升品牌在 AI 回答中可见度）的执行层",
+      "description_zh": "Prefer 帮助品牌了解 ChatGPT、Claude、Gemini 和 Perplexity 如何谈论自己，找出未被提及的地方，并采取改善可见度的行动。它提出用自主代理把 AI 搜索洞察转成行动，减少报告工作，但简介未说明具体执行哪些任务。",
+      "intro_zh": "给关注 AI 搜索曝光的品牌团队用，查看品牌如何被回答提及，找出遗漏并推动后续改善。",
+      "url": "https://www.producthunt.com/products/prefer-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7BOKASBUEQX4KI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f58b510d-b6e6-4406-a796-4a709e55a413.jpeg?auto=format",
+      "votes_count": 191,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找遗漏并推动改善的需求清楚，但具体行动和收益尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "从回答中发现问题后如何可靠执行，是具体但尚未展开的难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让监测结果直接带出后续任务可以借鉴，但缺少执行实例。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是减少“看完报告还得自己拆任务”的工作。但资料没说明代理能做什么，暂时无法判断它比监测工具多走了多远。",
+      "product_analysis": {
+        "target_problem": "品牌团队想知道 AI 推荐相关产品时有没有提到自己。麻烦在于发现遗漏后，还要判断能改什么。",
+        "workflow": "查看四类 AI 服务如何谈论品牌，识别遗漏，再借助自主代理推进改善。简介没给出操作步骤和行动范围。",
+        "ai_value": "自主代理（能自行推进任务的 AI 程序）被用于把分析转成行动；具体执行什么没有说明。",
+        "differentiation": "它想省下从报告到行动的人工衔接。我会先确认团队是否愿意让它代为执行，尤其是涉及对外发布时。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到自主代理，以及对四类 AI 服务中品牌表述的分析，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先收集固定问题下的回答，再标出品牌遗漏，生成待确认任务，获批后执行。",
+        "tradeoffs": "最难的是把“没被提到”变成有依据的改进任务；判断错了，团队可能修改无关内容。",
+        "unknowns": "代理究竟能完成哪些改善动作？"
+      },
+      "transferable_insights": [
+        "做监测产品时，可以给每个发现附上原始证据和一项待确认任务，让用户少做一次人工整理。"
+      ],
+      "validation_questions": [
+        "用同一组问题重复检查，识别出的品牌遗漏是否稳定？",
+        "选一项改善建议，检查代理能否实际完成对应任务？"
+      ],
+      "source_tagline": "The execution layer for AEO",
+      "source_description": "AEO should not be another dashboard. Prefer works at the execution layer, helping brands understand how ChatGPT, Claude, Gemini and Perplexity talk about them, identify where they are missing, and take action to improve their visibility. Turn AI search insights into action with autonomous agents. Less reporting. More doing."
+    },
+    {
+      "id": "1267818",
+      "name": "Kindle 2026",
+      "name_zh": "Kindle 2026",
+      "tagline_zh": "更小、打开书籍更快，配备纯平正面的 Kindle",
+      "description_zh": "Kindle 2026 是亚马逊重新设计的 6 英寸电子阅读器，简介称机身更小、更轻，书籍打开速度提升 30%，并采用纯平正面设计。简介还称首次新增 32GB 铝制版本。",
+      "intro_zh": "面向想随身读电子书的人，Kindle 2026 用更小、更轻的机身承载阅读，并提供更大存储版本。",
+      "url": "https://www.producthunt.com/products/kindle-2026?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2FVYYMWPUAJ4O6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d57fa15b-f5ce-44cf-a146-559f24340332.jpeg?auto=format",
+      "votes_count": 149,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "便携和打开书籍的改善方向清楚，但缺少重量及实际等待时间。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "打开书籍涉及多个处理步骤，但资料没说明提速发生在哪一步。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕高频等待做优化可以借鉴，收益仍需实际耗时验证。"
+        }
+      },
+      "category": "硬件设备",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我更看重机身缩小后是否更方便随身带；但缓存没有尺寸和重量，尚不能判断变化有多大。",
+      "product_analysis": {
+        "target_problem": "经常随身带书的人会关心设备是否轻便，打开书籍时也不想久等。缓存介绍针对这两件事，但没提供旧款尺寸和耗时。",
+        "workflow": "它用于在 6 英寸设备上打开并阅读电子书。介绍未说明书籍如何导入，也未交代购买和同步流程。",
+        "ai_value": "介绍没提 AI，主要靠机身设计、存储选项和打开书籍的速度来改善体验。",
+        "differentiation": "简介称打开书籍快了 30%，但比较对象不明。已有阅读器的人可能觉得，这点等待不足以成为换机理由。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介列出 6 英寸屏幕、纯平正面设计，以及新增的 32GB 铝制版本，未说明提速技术。",
+        "possible_approach": "如果自己做，可以先分别测量读取文件、解析书籍和显示首屏的时间，再优化最慢的一步。",
+        "tradeoffs": "最容易把“文件已打开”误当成“已经能读”。若首屏仍在加载，用户感受到的等待并没有结束。",
+        "unknowns": "“快 30%”比较的是哪款设备、哪类书籍？"
+      },
+      "transferable_insights": [
+        "做阅读器或文档工具时，把“内容可读”作为等待结束点，别只测文件加载完成。"
+      ],
+      "validation_questions": [
+        "用同一本书对比旧款，测到首屏可读需要多久？",
+        "随身携带时，新机的尺寸和重量差异是否明显？"
+      ],
+      "source_tagline": "A smaller, faster Kindle with a flush-front display",
+      "source_description": "Kindle 2026 is Amazon’s redesigned 6-inch e-reader, now smaller and lighter with 30% faster book opening and a flush-front display. It also comes in a new 32GB aluminum version for the first time."
+    },
+    {
+      "id": "1266483",
+      "name": "FoundrRadio",
+      "name_zh": "FoundrRadio",
+      "tagline_zh": "选一个频率，创建自己的电台并开始播出",
+      "description_zh": "FoundrRadio 是一个互联网电台平台，创始人可以拥有自己的电台，听众可以收听喜欢的创始人的谈话或音乐。它希望把电台的怀旧感与社区结合，让创始人在网上拥有一处自己的空间。",
+      "intro_zh": "给想用声音与听众交流的创始人用，创建自己的网络电台，播出谈话或音乐。",
+      "url": "https://www.producthunt.com/products/foundrradio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/L5ORNWNVOEL6S5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/601fe8ad-eeb4-4d13-93af-dd97264055c2.png?auto=format",
+      "votes_count": 94,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "播出和收听的场景清楚，但没说明比已有音频渠道省多少事。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "持续播出的稳定性有具体问题可想，但没有实现资料。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用个人电台组织内容的做法可借鉴，但社区效果尚不明确。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "个人电台给持续分享声音提供了明确的归属空间；但开播是否足够简单，资料还没有回答。",
+      "product_analysis": {
+        "target_problem": "想持续分享谈话或音乐的创始人，需要一个让听众找到自己的收听空间。资料没有说明他们原先用什么，也没证明原来的方式有多麻烦。",
+        "workflow": "创始人创建电台并播出内容，访客收听感兴趣的创始人、谈话或音乐。介绍没有交代具体开播操作。",
+        "ai_value": "介绍没提 AI，主要靠网络电台的播出与收听来改善体验。",
+        "differentiation": "它把创始人的内容放进个人电台，可能省去另行搭建收听页面的工作。但听众是否愿意转到新平台，是使用上的一个门槛。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确它是互联网电台平台，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让创始人建立电台页面，再接入音频播放服务，把播出的声音送到听众的播放器。",
+        "tradeoffs": "最容易出问题的是持续传送音频。网络波动若造成反复停顿，听众就很难跟上谈话。",
+        "unknowns": "所谓“播出”支持实时讲话、预录节目，还是两者都有？"
+      },
+      "transferable_insights": [
+        "做创作者社区时，可以给每个人一个固定的收听入口，让听众围绕同一位创作者持续回来，而不只浏览单条内容。"
+      ],
+      "validation_questions": [
+        "从创建电台到首次播出，是否需要创始人自行配置外部音频工具？",
+        "收听时短暂断网，恢复网络后能否自动继续播放？"
+      ],
+      "source_tagline": "Pick a frequency, launch your radio station and go on air",
+      "source_description": "FoundrRadio is an internet radio platform where founders could own their own radio stations and go on air. Visitors could listen to their favourite founders, their talks or music they love. An opportunity to own a small corner on the internet. An attempt to combine nostalgia and community."
     },
     {
       "id": "1263873",
       "name": "FeelMyMac",
       "name_zh": "FeelMyMac",
-      "tagline_zh": "Lets you feel different textures through your Mac’s trackpad",
-      "description_zh": "FeelMyMac brings haptic textures to cursor movement and scrolling on Mac trackpads. Instead of feeling feedback only when you click, you can actually feel simulated surfaces as you move your cursor, with different materials and textures to choose from. You can enable haptics separately for cursor customize intensity, and add optional sound effects. FeelMyMac also includes keyboard sounds for an extra layer of feedback. How it works? Easy it's Taptic Engine just like an iPhone would!",
-      "intro_zh": "",
+      "tagline_zh": "让你通过 Mac 触控板感受不同的模拟纹理",
+      "description_zh": "FeelMyMac 为 Mac 触控板上的光标移动和滚动添加触觉反馈，可选择不同的模拟材质与纹理。它支持调节反馈强度、添加可选音效，也提供键盘声音；简介称触觉反馈由 Taptic Engine 实现。",
+      "intro_zh": "给想增加操作触感的 Mac 触控板用户用，让移动光标和滚动时也能感到模拟纹理。",
       "url": "https://www.producthunt.com/products/feelmymac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/32YLQDB3IIGVYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b5f2c96f-0d31-4f7a-9db0-51d558ee4ce6.png?auto=format",
       "votes_count": 87,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但增加触感是否比安静操作更舒服仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把移动动作转成连续触感有具体难点，但实现细节有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴可调强度的操作反馈，但适用范围需要试用验证。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是能按个人偏好调节触感；最大的疑问是长时间操作时，这种反馈会增加感知还是增加干扰。",
+      "product_analysis": {
+        "target_problem": "想让触控板操作更有触感的 Mac 用户可能会需要它。按简介的对比，以前反馈主要发生在点击时，现在移动光标和滚动也能获得反馈。",
+        "workflow": "选择模拟材质或纹理，调节触觉强度，再移动光标或滚动感受反馈。音效可选，也可使用键盘声音。",
+        "ai_value": "介绍没提 AI，主要靠触控板振动和声音来增加操作反馈。",
+        "differentiation": "不用实际更换触控板表面，就能选择不同的模拟触感。持续振动也可能让人分心，这是最可能关闭它的原因。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 27cdd951-704c-4aa5-98aa-3e11b7297b4c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介称使用 Taptic Engine，即产生触觉振动的硬件。",
+        "possible_approach": "如果自己做，可以先读取光标移动和滚动动作，再按所选纹理安排振动节奏，并让用户调节强度。",
+        "tradeoffs": "最难的是让振动跟上动作。若反馈滞后，用户可能只感到零散震动，难以形成表面纹理的感觉。",
+        "unknowns": "哪些 Mac 机型和系统版本支持这些反馈，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做绘图或拖拽工具时，可以尝试在越过刻度等明确位置提供短促触觉反馈，并允许用户调低强度或关闭。"
+      ],
+      "validation_questions": [
+        "快速移动和慢速移动时，触觉是否都能跟上动作？",
+        "在自己的 Mac 机型和系统版本上，能否正常启用触觉反馈？"
+      ],
+      "source_tagline": "Lets you feel different textures through your Mac’s trackpad",
+      "source_description": "FeelMyMac brings haptic textures to cursor movement and scrolling on Mac trackpads. Instead of feeling feedback only when you click, you can actually feel simulated surfaces as you move your cursor, with different materials and textures to choose from. You can enable haptics separately for cursor customize intensity, and add optional sound effects. FeelMyMac also includes keyboard sounds for an extra layer of feedback. How it works? Easy it's Taptic Engine just like an iPhone would!"
     },
     {
       "id": "1267705",
       "name": "eu/jev",
       "name_zh": "eu/jev",
-      "tagline_zh": "The first Jev-like model hosted in the EU",
-      "description_zh": "If you want to try System One models like Jev for work, but can't because of GDPR and data sovereignty issues, eu/jev is for you; it's the first System One model hosted in the EU, running on our Hetzner GPUs in Germany. It's fully GDPR compliant and we don't save any prompts/answers. You can call it exactly the way you'd call Jev, at the exact same pricing as Jev (which means free output tokens!). Built on Winnow, the #1 open-source System One model on JevBench.",
-      "intro_zh": "",
+      "tagline_zh": "首个托管在欧盟的 Jev 类模型（产品方称）",
+      "description_zh": "eu/jev 面向想在工作中使用 Jev 一类 System One 模型、却受 GDPR（欧盟个人数据保护法规）和数据存放地区要求限制的人，介绍称服务基于 Winnow，运行在德国的 Hetzner GPU 上。产品方宣称其完全符合 GDPR、不保存提问和回答，调用方式及定价与 Jev 相同，输出文字不收费；这些说法未经核验。",
+      "intro_zh": "给需要欧盟托管模型的团队用，让业务程序调用 Jev 类服务，处理工作中的模型请求。",
       "url": "https://www.producthunt.com/products/bevel-software?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XR4IKWICY53AEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7761691d-f266-4a60-adc5-5810ac72ab28.png?auto=format",
       "votes_count": 85,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "使用限制很明确，但欧盟托管能否满足团队要求仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "调用兼容与数据留存都有具体问题可检查，但实现资料有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留原有调用方式、提供地区托管选择，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是把地区托管选择与调用兼容放在一起。但欧盟部署本身不足以证明符合 GDPR，仍需核实数据处理安排。",
+      "product_analysis": {
+        "target_problem": "想把模型用于工作、又受数据存放地区限制的团队会需要它。麻烦在于，能调用模型不等于获准上传工作数据。",
+        "workflow": "团队可按介绍所称的 Jev 调用方式接入 eu/jev，提交请求并取得回答。资料没有给出具体接入步骤。",
+        "ai_value": "AI 负责处理请求并生成回答。这里强调的是部署地点，介绍没有展示模型擅长哪些工作。",
+        "differentiation": "沿用原调用方式可能减少改接工作。最可能阻碍迁移的是：模型回答能否达到原业务要求尚不清楚。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c17154e5-fee1-4903-9b86-27af89b72f57)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称模型基于开源 Winnow，运行在德国 Hetzner GPU 上，且不保存提问和回答。",
+        "possible_approach": "如果自己做，可以先在欧盟服务器部署模型，再提供与原服务一致的请求和返回格式，并检查日志是否写入用户内容。",
+        "tradeoffs": "最容易漏的是日志留存。即使模型不保存对话，错误日志若记下请求，敏感内容仍可能留下。",
+        "unknowns": "“不保存”是否也覆盖运行日志和备份？"
+      },
+      "transferable_insights": [
+        "给已有模型用户提供地区托管版本时，保留原请求和返回格式，减少业务代码改动。"
+      ],
+      "validation_questions": [
+        "用一条现有 Jev 业务请求测试，eu/jev 的返回能否被原程序正常处理？",
+        "检查数据留存说明，确认日志和备份是否包含提问或回答？"
+      ],
+      "source_tagline": "The first Jev-like model hosted in the EU",
+      "source_description": "If you want to try System One models like Jev for work, but can't because of GDPR and data sovereignty issues, eu/jev is for you; it's the first System One model hosted in the EU, running on our Hetzner GPUs in Germany. It's fully GDPR compliant and we don't save any prompts/answers. You can call it exactly the way you'd call Jev, at the exact same pricing as Jev (which means free output tokens!). Built on Winnow, the #1 open-source System One model on JevBench."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

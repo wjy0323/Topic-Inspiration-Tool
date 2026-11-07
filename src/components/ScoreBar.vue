@@ -4,7 +4,8 @@
       <component v-if="icon" :is="icon" :size="compact ? 13 : 14" class="score-icon" />
       {{ label }}
     </span>
-    <span class="score-stars">
+    <span v-if="score == null" class="score-label">待评估</span>
+    <span v-else class="score-stars">
       <span v-for="i in 5" :key="i" :class="{ filled: i <= score, empty: i > score }">
         {{ i <= score ? '★' : '☆' }}
       </span>
@@ -15,7 +16,7 @@
 <script setup>
 defineProps({
   label: { type: String, required: true },
-  score: { type: Number, required: true },
+  score: { type: Number, default: null },
   compact: { type: Boolean, default: false },
   icon: { type: Object, default: null }
 })

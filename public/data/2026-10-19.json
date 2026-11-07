@@ -1,367 +1,511 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-20T20:35:59+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:20:21+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1284611",
       "name": "Beam.win",
       "name_zh": "Beam.win",
-      "tagline_zh": "Run AI agents on one Mac and use its windows on another",
-      "description_zh": "Keep your agents and builds running on a Mac mini or Studio. Beam brings their Terminal, browser and other app windows onto the Mac in front of you, each as its own window with a Dock icon and ⌘Tab presence. Encrypted between your Macs. Free to try.",
-      "intro_zh": "",
+      "tagline_zh": "在一台 Mac 上运行 AI 智能体，在另一台 Mac 上使用它的窗口",
+      "description_zh": "让智能体和构建任务持续运行在 Mac mini 或 Mac Studio 上，Beam 会把终端、浏览器及其他应用窗口带到你面前的 Mac，每个窗口都有自己的 Dock 图标，也能用 ⌘Tab 切换。两台 Mac 之间的传输经过加密，可免费试用。",
+      "intro_zh": "给用多台 Mac 跑开发任务的人，把另一台机器上的应用窗口带到当前 Mac 上操作。",
       "url": "https://www.producthunt.com/products/beam-win?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XR2QV6TXWMZHHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/30edef9e-850e-451a-86d4-81f7cf48e1d0.png?auto=format",
       "votes_count": 355,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多台 Mac 分工的场景明确，但远程操作体验仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "远程窗口如何配合本机焦点和快捷键，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把远程任务呈现为独立窗口，是可借用的交互做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重任务留在专用机器上、操作窗口仍在手边；最影响判断的是远程输入能否稳定落到正确窗口。",
+      "product_analysis": {
+        "target_problem": "开发者把智能体和构建任务放在另一台 Mac 上运行时，还需要查看输出、操作浏览器。Beam 让这些窗口出现在当前工作的 Mac 上。",
+        "workflow": "任务留在 Mac mini 或 Studio 上运行，在当前 Mac 使用对应的终端、浏览器等窗口，并通过 Dock 或 ⌘Tab 切换。",
+        "ai_value": "AI 智能体是被远程使用的对象。介绍没说 Beam 自身用 AI，它主要改善跨机器操作窗口的体验。",
+        "differentiation": "省去切回另一台机器查看应用的动作。最可能让人不愿换用的，是远程窗口可能不如本机操作跟手。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b01c0891-9257-45e8-a968-f916275f9cf6)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持将另一台 Mac 的应用呈现为独立窗口，并称两台 Mac 之间的传输经过加密。",
+        "possible_approach": "如果自己做，可以先传送单个应用窗口的画面，再把点击和按键送回远端，并在本机提供切换入口。",
+        "tradeoffs": "最容易出错的是输入焦点：切换窗口后若按键送错位置，命令可能输进错误的终端。",
+        "unknowns": "网络中断后，能否重新接回原来的窗口？"
+      },
+      "transferable_insights": [
+        "做远程开发工具时，可以把远端应用拆成独立窗口，让用户沿用本机的窗口切换习惯。"
+      ],
+      "validation_questions": [
+        "在本机与远程终端间反复切换，检查按键是否始终进入当前窗口。",
+        "断网再恢复，检查能否接回原有应用窗口。"
+      ],
+      "source_tagline": "Run AI agents on one Mac and use its windows on another",
+      "source_description": "Keep your agents and builds running on a Mac mini or Studio. Beam brings their Terminal, browser and other app windows onto the Mac in front of you, each as its own window with a Dock icon and ⌘Tab presence. Encrypted between your Macs. Free to try."
     },
     {
       "id": "1284894",
       "name": "Figma Specs",
       "name_zh": "Figma Specs",
-      "tagline_zh": "A container for your context that lives on the Figma canvas",
-      "description_zh": "Figma Specs is a collaborative Markdown document that can live on its own or beside your designs. Embed Figma frames and FigJam diagrams, work through comments with teammates and agents, and pass the full context to coding agents through MCP.",
-      "intro_zh": "",
+      "tagline_zh": "放在 Figma 画布上的上下文容器",
+      "description_zh": "Figma Specs 是可协作的 Markdown 文档，既可独立使用，也可放在设计旁边。它支持嵌入 Figma 画框和 FigJam 图示，与队友及智能体通过评论讨论，并通过 MCP 向编程智能体传递完整上下文。",
+      "intro_zh": "给需要一起交付设计和需求的产品、设计与开发人员用，把说明、设计和讨论放在一起，交给编程智能体。",
       "url": "https://www.producthunt.com/products/figma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/H3ROFCAUEHWD3V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8f32dea8-6e25-4029-8312-53cd5f106d44.jpeg?auto=format",
       "votes_count": 209,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确服务设计交接，但能否减少补充说明仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "设计、文档和评论能否被完整传给智能体，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把说明贴近工作对象，并支持整体交接，可供协作产品借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是交接时能一起带走设计与说明；最大疑问是评论里的关键决定是否也能传过去。",
+      "product_analysis": {
+        "target_problem": "产品、设计和开发一起交接需求时，需要让接手者理解设计及其讨论背景。说明与设计分散时，可能还得反复补充解释。",
+        "workflow": "建立协作文档，嵌入设计画框和 FigJam 图示，在评论中讨论，再把上下文传给编程智能体。",
+        "ai_value": "智能体可参与评论，编程智能体可接收上下文。介绍没说它会自动写需求或检查实现。",
+        "differentiation": "把说明放在设计旁，可能少一些来回查找；是否愿意迁入，取决于团队现有文档能否方便接续。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: bb3193e9-ae7b-455c-a1a7-fc5640918626)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1278782",
-      "name": "readywhen",
-      "name_zh": "readywhen",
-      "tagline_zh": "The senior personal assistant that works inside WhatsApp",
-      "description_zh": "readywhen is the senior Personal Assistant that works inside WhatsApp. It has its own phone number, its own computer, and a project board that keeps track of everything on your plate. Call it. Message it. Voice-note it. And it gets real work done.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/readywhen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/OLPNM6HLKRJKDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4610e31e-dc91-47b0-a004-5f64751aa1c8.jpeg?auto=format",
-      "votes_count": 191,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持 Markdown（纯文本排版格式），通过 MCP（让智能体读取外部资料的连接标准）传递上下文。",
+        "possible_approach": "如果自己做，可以先把文档、嵌入设计和评论关联起来，再提供给智能体读取，并标明各项内容的来源和版本。",
+        "tradeoffs": "最容易出错的是交接时漏掉讨论结论。智能体若只拿到设计和正文，可能按已被否定的要求写代码。",
+        "unknowns": "“完整上下文”具体包含哪些内容，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ffcdc949-a0f7-41d4-92d4-3dfb51e06293)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1283818",
-      "name": "walkai-talkai",
-      "name_zh": "walkai-talkai",
-      "tagline_zh": "Talk to your AI coding agent over a walkie-talkie",
-      "description_zh": "Press PTT on any handheld radio and talk to your AI coding agent, hands-free. walkai-talkai transcribes your voice on your Mac with local Whisper, types the command into Cursor, Claude Code or Antigravity (or calls OpenAI, Anthropic, Gemini, DeepSeek or Ollama directly), then speaks the answer back over the radio with neural voice, VOX tones and a roger beep. Your radio audio never leaves your Mac. macOS 13+ on Apple Silicon. One-time lifetime license, no subscription.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/walkai-talkai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GI5UU6MDF6EM6J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cdd4b101-9a1c-47d6-bf6d-260b54b083bb.jpeg?auto=format",
-      "votes_count": 159,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: b300a1fc-0598-4367-bc5f-858c4b953171)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做协作编辑工具时，可让说明紧邻被讨论的对象，交接时连同相关讨论一起提供。"
+      ],
+      "validation_questions": [
+        "让编程智能体读取一份带评论结论的文档，检查结论是否被包含。",
+        "修改嵌入的设计后再次读取，检查拿到的是否为最新版本。"
+      ],
+      "source_tagline": "A container for your context that lives on the Figma canvas",
+      "source_description": "Figma Specs is a collaborative Markdown document that can live on its own or beside your designs. Embed Figma frames and FigJam diagrams, work through comments with teammates and agents, and pass the full context to coding agents through MCP."
     },
     {
       "id": "1277569",
       "name": "Kai Resolve by Gleap",
       "name_zh": "Kai Resolve by Gleap",
-      "tagline_zh": "Support that does the digging for you.",
-      "description_zh": "Kai Resolve is the AI agent for support tickets your docs can't answer. It reads the screen recording, logs, account data and your code, read-only, then answers the customer or escalates with a diagnosis. Confirmed bugs become coding tasks your team reviews.",
-      "intro_zh": "",
+      "tagline_zh": "帮你查明问题的客服支持。",
+      "description_zh": "Kai Resolve 是处理帮助文档无法解答的支持工单的 AI 助手，会以只读方式查看屏幕录制、日志、账户数据和代码，再回复客户，或带着诊断结果转交处理。已确认的缺陷会转成编程任务，由团队审核。",
+      "intro_zh": "给处理疑难工单的客服和研发团队用，结合录屏、日志及代码查问题，再回复客户或交给研发。",
       "url": "https://www.producthunt.com/products/gleap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XI7TL2X7GPY7ZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b3180fde-762a-42cf-9566-75fec4454354.jpeg?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对文档答不了的工单，但诊断质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把用户操作与代码问题对应起来，是具体且关键的难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先查证据、再回复或转交的做法可借用，接入条件仍待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是转交时能带上诊断，减少重复排查；最影响判断的是诊断能否准确对应原始证据。",
+      "product_analysis": {
+        "target_problem": "客服遇到文档答不了的问题时，还需要查清客户做了什么、系统出了什么错。它面向这类需要研发协助排查的工单。",
+        "workflow": "它读取录屏、日志、账户数据和代码，再回复客户或附诊断转交。确认的缺陷会生成编程任务，交团队审核。",
+        "ai_value": "AI 承担跨资料排查和组织诊断的工作，不只从文档找答案；介绍没有说明如何确认缺陷。",
+        "differentiation": "它尝试把查资料和整理交接说明放在一起。团队可能因需要开放账户数据和代码访问而犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 54981028-d283-4f0f-bb90-f9601bf2d027)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 助手和只读访问，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先按工单关联同次操作的录屏、日志和账户信息，再查相关代码，让 AI 附证据写出诊断。",
+        "tradeoffs": "最难的是把不同资料对应到同一次故障。若关联错了，客服可能拿别的问题解释给客户。",
+        "unknowns": "只读防止修改，但能否限制读取哪些客户数据和代码，介绍没说。"
+      },
+      "transferable_insights": [
+        "做客服转研发工具时，可让交接内容同时包含诊断和证据，方便研发复查。"
+      ],
+      "validation_questions": [
+        "拿一张已知原因的历史工单，检查诊断引用的证据是否属于同一次故障。",
+        "用受限账户测试，检查它是否能读到权限范围外的资料。"
+      ],
+      "source_tagline": "Support that does the digging for you.",
+      "source_description": "Kai Resolve is the AI agent for support tickets your docs can't answer. It reads the screen recording, logs, account data and your code, read-only, then answers the customer or escalates with a diagnosis. Confirmed bugs become coding tasks your team reviews."
     },
     {
       "id": "1282904",
       "name": "Wally by Willow",
       "name_zh": "Wally by Willow",
-      "tagline_zh": "Your Scribe agent that learns how you write",
-      "description_zh": "Meet Wally, your new Scribe agent in Willow. Chat by voice to draft an email/slack/ prompt, rewrite highlighted text and keep refining it in the same conversation. Wally uses your personal context and learns your writing style as you go back and forth.",
-      "intro_zh": "",
+      "tagline_zh": "学习你写作方式的写作助手",
+      "description_zh": "Wally 是 Willow 中的写作助手，可通过语音对话起草邮件、Slack 消息或提示词，也能改写选中的文字，并在同一段对话中继续修改。简介称，它会利用个人上下文，在来回交流中学习你的写作风格。",
+      "intro_zh": "给经常写邮件和工作消息的人用，通过语音说明想法，起草文字并在同一段对话里反复修改。",
       "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PACLUWIXF3XULE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7edfd9e5-d305-47eb-9d37-36e776e670f1.jpeg?auto=format",
       "votes_count": 138,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "起草和反复改稿的场景明确，但风格贴合程度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何在连续修改中保留原意，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕选中文字持续修改的做法，可借到其他编辑工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是能接着同一份草稿继续改；最影响判断的是，多轮修改后能否守住原意。",
+      "product_analysis": {
+        "target_problem": "经常写邮件和工作消息的人，需要把零散想法整理成合适的措辞。难处是反复调整语气时，还得保留原本要表达的事。",
+        "workflow": "用语音说明要写的内容，生成草稿；也可以选中文字要求改写，再在同一段对话里继续提修改要求。",
+        "ai_value": "它把口头要求变成文字，并按后续要求改稿。简介还称会利用个人上下文学习写作风格，但没有说明如何学习。",
+        "differentiation": "把起草和后续修改放在同一段对话中，可能少重复交代要求。若措辞始终不像本人，用户可能仍愿意自己写。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 54e810ee-cb25-41dc-ad51-b5a6b81b9965)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1271076",
-      "name": "Beam",
-      "name_zh": "Beam",
-      "tagline_zh": "Highly efficient agentic 501B parameter open model",
-      "description_zh": "Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/beam-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EKSBMMH6A62RSY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/0dde17f8-c940-4c42-a87d-862a08a2b948.png?auto=format",
-      "votes_count": 127,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介提到语音对话、个人上下文和写作风格学习，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再结合当前草稿和修改要求生成新版，并保留用户确认的写作偏好。",
+        "tradeoffs": "最容易出错的是连续改稿时丢掉前面的约束，导致语气改好了，关键事实却被删掉，用户还得逐句核对。",
+        "unknowns": "个人上下文从哪里来，用户能否控制其使用范围？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 72c28278-1f36-4237-a8ea-b57ebe52e14a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做文档或消息编辑器时，可以让用户围绕选中文字连续提修改要求，减少每次重新指定修改对象的操作。"
+      ],
+      "validation_questions": [
+        "连续修改三轮后，草稿是否仍保留最初要求保留的事实？",
+        "能否查看并删除助手使用的个人上下文？"
+      ],
+      "source_tagline": "Your Scribe agent that learns how you write",
+      "source_description": "Meet Wally, your new Scribe agent in Willow. Chat by voice to draft an email/slack/ prompt, rewrite highlighted text and keep refining it in the same conversation. Wally uses your personal context and learns your writing style as you go back and forth."
     },
     {
       "id": "1280488",
       "name": "buddylist",
       "name_zh": "buddylist",
-      "tagline_zh": "Chat with your coding agents like it's 2005",
-      "description_zh": "A free desktop app for macOS (Apple Silicon), Windows and Linux that puts Claude Code, Codex, Gemini and OpenCode in an MSN-style buddy list. Use separate Git worktrees for separate jobs, or group-chat agents in a shared folder. Let them take turns, answer together or hand unfinished tasks to another agent. Review diffs, run terminals, preview your app and track PR checks beside the chat. Bring your own agent accounts; provider access and usage are separate.",
-      "intro_zh": "",
+      "tagline_zh": "像在 2005 年一样，和你的编程助手聊天",
+      "description_zh": "一款免费桌面应用，支持 macOS（Apple Silicon）、Windows 和 Linux，把 Claude Code、Codex、Gemini 和 OpenCode 放进 MSN 风格的好友列表，可用独立 Git 工作树分开任务，也可让助手在共享文件夹里群聊、轮流或同时回答，并交接未完成的任务。聊天旁可查看代码差异、运行终端、预览应用和跟踪拉取请求检查；需自备助手账号，服务访问与用量另计。",
+      "intro_zh": "给使用多个 AI 编程助手的开发者，把任务分给不同助手，并在聊天旁查看代码改动和运行结果。",
       "url": "https://www.producthunt.com/products/buddylist-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MU3NX4ZHCXFPBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/dd3095bc-34b6-4aed-ac6c-ecd37ac2738c.png?auto=format",
       "votes_count": 123,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "分工、交接和检查改动的场景明确，但实际省事程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个助手共享文件时，如何避免互相覆盖是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按任务隔离工作目录、把检查结果放在对话旁，均可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是能在聊天旁核对代码改动；最影响判断的是交接能否保留足够上下文，避免重新解释。",
+      "product_analysis": {
+        "target_problem": "同时用多个编程助手时，开发者要分清各自负责什么，也要检查它们改了哪些文件。任务交接时，还可能需要重新说明进度。",
+        "workflow": "接入自己的助手账号，为不同任务使用独立工作目录，或让助手在共享文件夹里协作。随后在聊天旁检查改动、运行终端和预览应用。",
+        "ai_value": "AI 负责处理编程任务；buddylist 提供分组、轮流回答和交接任务的操作界面，介绍没有说明新增的模型能力。",
+        "differentiation": "把对话和代码检查放在一起，可能减少切换窗口。最可能阻碍迁移的是现有助手账号能否顺利接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f2d6890e-524b-4df5-a645-779ef68137bc)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 Git worktree，即同一代码仓库的独立工作目录，也支持多个助手使用共享文件夹。",
+        "possible_approach": "如果自己做，可以先给每项任务建独立目录，再接入助手，把消息和文件改动关联到任务。",
+        "tradeoffs": "共享文件夹里若两个助手同时改同一文件，可能覆盖彼此的修改，用户得手动整理。",
+        "unknowns": "交接任务时，会把哪些上下文传给下一个助手？"
+      },
+      "transferable_insights": [
+        "做多助手开发工具时，可默认按任务隔离目录，让用户明确选择何时共享文件。",
+        "做任务聊天界面时，可把代码差异放在对话旁，方便逐项核对助手的改动。"
+      ],
+      "validation_questions": [
+        "让两个助手同时修改同一文件，检查是否提示冲突。",
+        "交接一个未完成任务，检查接手助手能否识别剩余工作。"
+      ],
+      "source_tagline": "Chat with your coding agents like it's 2005",
+      "source_description": "A free desktop app for macOS (Apple Silicon), Windows and Linux that puts Claude Code, Codex, Gemini and OpenCode in an MSN-style buddy list. Use separate Git worktrees for separate jobs, or group-chat agents in a shared folder. Let them take turns, answer together or hand unfinished tasks to another agent. Review diffs, run terminals, preview your app and track PR checks beside the chat. Bring your own agent accounts; provider access and usage are separate."
     },
     {
       "id": "1282616",
       "name": "Framefields",
       "name_zh": "Framefields",
-      "tagline_zh": "Open-source code-first video for AGI era",
-      "description_zh": "Framefields is a high-performance, code-first video engine powered by native WebGPU in Node.js. Built for AI agents and engineers, it replaces bulky creative suites with a single npm package: motion graphics, Photoshop-grade VFX, 3D scenes, and audio DSP. Zero Chromium or browser overhead—render deterministic, frame-accurate video and export hardware-accelerated MP4s directly from TypeScript.",
-      "intro_zh": "",
+      "tagline_zh": "面向通用人工智能时代的开源、代码优先视频引擎",
+      "description_zh": "Framefields 面向 AI 代理和工程师，在 Node.js 中使用原生 WebGPU，通过一个 npm 软件包提供动态图形、视觉特效、三维场景和数字音频处理。简介称它无需 Chromium 或浏览器，可直接用 TypeScript 按帧生成视频并借助硬件加速导出 MP4，同时宣称渲染结果可重复、精确到帧。",
+      "intro_zh": "给工程师和能执行代码的 AI 代理用，通过编写程序生成动态图形、三维场景并导出视频。",
       "url": "https://www.producthunt.com/products/framefields?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SVLMOG3GL4WKIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6a5362bf-f021-4467-b352-7787da2ce9b1.jpeg?auto=format",
       "votes_count": 97,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "代码生成视频的用途明确，但替代图形编辑工具的范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "无需浏览器仍保持逐帧输出稳定，是具体的工程问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把媒体制作封装成程序可调用的软件包，可供自动化工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重视频制作能直接由程序调用；最影响判断的是目标机器能否运行完整流程，不能只看“高性能”的宣传。",
+      "product_analysis": {
+        "target_problem": "适合想把视频生成接进程序的工程师。使用大型创作软件时，编辑与自动化可能分开；它尝试把制作和导出放进代码。",
+        "workflow": "安装 npm 软件包，也就是 Node.js 的可复用代码包；用 TypeScript 描述画面和音频，再渲染并导出 MP4。",
+        "ai_value": "介绍没说内置 AI。它面向能执行代码的 AI 代理，提供视频生成工具，不能据此认为它会自行写脚本或剪辑。",
+        "differentiation": "省去启动浏览器来渲染的环节。最可能劝退非工程用户的是：需要写代码，不能默认拥有熟悉的拖拽编辑体验。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8c4c9fe4-9d36-404b-9194-d209fc2150b2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其在 Node.js 中使用原生 WebGPU（调用图形处理器的技术），无需浏览器，并支持硬件加速导出 MP4。",
+        "possible_approach": "如果自己做，可以先用代码定义每一帧的画面，再交给图形处理器绘制，最后把画面和音频编码成视频。",
+        "tradeoffs": "最难的是让动画按帧编号推进，而不受机器运行快慢影响。处理不好，同一段代码重复导出时，动作位置就可能不同。",
+        "unknowns": "哪些操作系统和显卡能完整支持渲染与硬件加速导出，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做批量视频工具时，可以把场景制作和导出封装成可调用的软件包，让程序直接触发生成。"
+      ],
+      "validation_questions": [
+        "同一段含动画的代码重复导出两次，对应帧的画面是否一致？",
+        "在计划部署的机器上，能否实际启用硬件加速导出 MP4？"
+      ],
+      "source_tagline": "Open-source code-first video for AGI era",
+      "source_description": "Framefields is a high-performance, code-first video engine powered by native WebGPU in Node.js. Built for AI agents and engineers, it replaces bulky creative suites with a single npm package: motion graphics, Photoshop-grade VFX, 3D scenes, and audio DSP. Zero Chromium or browser overhead—render deterministic, frame-accurate video and export hardware-accelerated MP4s directly from TypeScript."
     },
     {
       "id": "1282153",
       "name": "Lazy AWS",
       "name_zh": "Lazy AWS",
-      "tagline_zh": "A keyboard-driven home for your AWS resources",
-      "description_zh": "Your AWS resources. One terminal. Browse, inspect, and run confirmed AWS CLI actions without leaving your keyboard.",
-      "intro_zh": "",
+      "tagline_zh": "用键盘集中管理 AWS 资源",
+      "description_zh": "在一个终端里查看你的 AWS 云资源。无需离开键盘，就能浏览、检查资源，并在确认后执行 AWS 命令行操作。",
+      "intro_zh": "给管理 AWS 云资源的开发和运维人员用，在终端里浏览资源、查看详情并确认执行操作。",
       "url": "https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7GT5YPN2WVDBEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e78a4962-b956-4e60-9758-4832566db0a4.jpeg?auto=format",
       "votes_count": 96,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和操作场景明确，但能覆盖多少日常工作还不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "操作确认如何对应到正确资源，是一个具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把资源浏览和操作确认放在一起，可借用于其他管理工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是查完资源后能直接进入操作确认；最影响判断的是确认界面能否让人识别执行目标，避免误操作。",
+      "product_analysis": {
+        "target_problem": "开发和运维人员管理 AWS 云资源时，需要查资源、看详情并执行操作。它面向希望这些工作都留在终端、用键盘完成的人。",
+        "workflow": "在终端中浏览资源，查看详情，再确认执行 AWS 命令行操作。介绍没交代安装和账号连接过程。",
+        "ai_value": "介绍没提 AI，主要靠集中展示资源和键盘操作来改善体验。",
+        "differentiation": "把查看和执行放在同一处，可能减少手写查询命令的工作。若常用资源不受支持，用户仍要回到原有工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d9efd42c-f78a-4d1a-baa4-fe7c3765785b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持终端内操作及 AWS CLI（用文字命令操作 AWS 的工具），执行动作需要确认。",
+        "possible_approach": "如果自己做，可以先读取并展示资源列表，再把选中资源转成操作命令，展示目标和动作，用户确认后执行。",
+        "tradeoffs": "最容易出错的是把选中的资源对应到执行目标。若账号或区域弄错，用户可能误改另一套环境。",
+        "unknowns": "确认时是否会清楚展示账号、区域和资源？"
+      },
+      "transferable_insights": [
+        "做数据库或部署管理工具时，可以把资源详情与可执行动作放在一起，执行前展示具体目标供用户核对。"
+      ],
+      "validation_questions": [
+        "选一项日常管理任务，检查所需资源和动作是否都受支持。",
+        "在测试环境检查确认界面，能否明确辨认操作的账号、区域和资源。"
+      ],
+      "source_tagline": "A keyboard-driven home for your AWS resources",
+      "source_description": "Your AWS resources. One terminal. Browse, inspect, and run confirmed AWS CLI actions without leaving your keyboard."
+    },
+    {
+      "id": "1278782",
+      "name": "readywhen",
+      "name_zh": "readywhen",
+      "tagline_zh": "在 WhatsApp 里工作的资深私人助理",
+      "description_zh": "readywhen 将自己定位为在 WhatsApp 里工作的资深私人助理，拥有独立电话号码、自己的电脑和追踪待办事项的项目看板。你可以打电话、发消息或发语音留言，介绍称它能据此完成实际工作。",
+      "intro_zh": "给习惯用 WhatsApp 交代事务的人，通过电话、消息或语音提出需求，用项目看板追踪待办。",
+      "url": "https://www.producthunt.com/products/readywhen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OLPNM6HLKRJKDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4610e31e-dc91-47b0-a004-5f64751aa1c8.jpeg?auto=format",
+      "votes_count": 191,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "交代事务的入口清楚，但能完成哪些工作没有例子。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "口头要求如何变成可执行任务，是具体且值得关注的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "聊天收需求、看板追进度的组合可以借用于事务处理产品。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重从熟悉的聊天入口交代事务；最大疑问是，所谓完成实际工作具体覆盖到哪一步。",
+      "product_analysis": {
+        "target_problem": "经常在 WhatsApp 里交代事务的人，可能需要把零散消息变成持续跟进的任务。readywhen 把沟通入口和项目看板放在同一项服务里。",
+        "workflow": "用户打电话、发消息或语音留言来交代事情，再用项目看板追踪待办。介绍没有说明任务确认和成果交付的具体方式。",
+        "ai_value": "介绍没提 AI，主要靠 WhatsApp 沟通和项目看板来改善体验；无法判断任务由谁执行。",
+        "differentiation": "可能省去另开任务工具录入需求的动作。但能代办的事项不明确，用户可能仍需自己处理关键步骤。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到独立电话号码、自己的电脑和项目看板，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把消息和通话内容整理成任务，请用户确认，再交给执行方处理，并更新看板。",
+        "tradeoffs": "最容易出错的是把模糊表达直接当成执行指令。理解错对象或时间，可能做错事，看板却仍显示任务已完成。",
+        "unknowns": "它究竟支持哪些可实际交付的任务？"
+      },
+      "transferable_insights": [
+        "做代办服务时，可以让用户在常用聊天工具里提需求，再用看板集中展示任务状态。"
+      ],
+      "validation_questions": [
+        "交代一项范围明确的小任务，检查它能否交付可用成果。",
+        "发送一条缺少时间的要求，检查它是否先追问再执行。"
+      ],
+      "source_tagline": "The senior personal assistant that works inside WhatsApp",
+      "source_description": "readywhen is the senior Personal Assistant that works inside WhatsApp. It has its own phone number, its own computer, and a project board that keeps track of everything on your plate. Call it. Message it. Voice-note it. And it gets real work done."
+    },
+    {
+      "id": "1283818",
+      "name": "walkai-talkai",
+      "name_zh": "walkai-talkai",
+      "tagline_zh": "用对讲机与你的 AI 编程助手交谈",
+      "description_zh": "按下手持对讲机的通话键，walkai-talkai 会在 Mac 上用本地 Whisper 将语音转成文字，输入 Cursor、Claude Code 或 Antigravity，也可直接调用 OpenAI 等模型服务，再把回答转成语音传回对讲机，支持声控发射提示音和通话结束提示音。简介称对讲机音频不离开 Mac；产品要求 Apple Silicon 芯片及 macOS 13 或更新版本，采用一次购买、终身许可，无订阅。",
+      "intro_zh": "给想离开键盘与 AI 编程助手交谈的开发者，用对讲机发指令，再听取语音回答。",
+      "url": "https://www.producthunt.com/products/walkai-talkai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GI5UU6MDF6EM6J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cdd4b101-9a1c-47d6-bf6d-260b54b083bb.jpeg?auto=format",
+      "votes_count": 159,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "离开键盘仍能发指令，但看代码和确认修改仍有条件限制。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把无线电语音接入编程助手，识别错误如何影响指令值得细看。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴语音接入现有工具的做法，但适用任务需要筛选。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把已有编程助手延伸到键盘之外；最影响判断的是，听回答能覆盖多少实际任务，还是经常需要回屏幕确认。",
+      "product_analysis": {
+        "target_problem": "开发者离开键盘时，可能仍想给编程助手发任务、听进展。它提供对讲机入口，但不能据此认为用户无需看屏幕。",
+        "workflow": "按住对讲机通话键说指令。Mac 将语音转成文字，交给编程工具或直接调用模型，再把回答用语音传回对讲机。",
+        "ai_value": "Whisper 负责语音转文字，编程助手或模型负责回答，语音合成负责读回结果。音频本地处理不等于转写文字也不外发。",
+        "differentiation": "省去回到键盘输入和阅读回答的动作。最可能让人不愿换的是：代码细节可能仍需回屏幕核对。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "使用本地 Whisper 转写，支持向编程工具输入文字或直接调用模型，并将回答合成为语音；要求 Apple Silicon Mac、macOS 13+。",
+        "possible_approach": "如果自己做，可以先把对讲机音频送入 Mac 并转成文字，再交给助手，把回复合成语音送回。",
+        "tradeoffs": "最容易错在转写代码名和文件路径。识别错一个词，助手就可能处理错对象。",
+        "unknowns": "对讲机接入 Mac 需要什么线材或音频设备，介绍没说明。"
+      },
+      "transferable_insights": [
+        "做语音控制开发工具时，可先把转写文字交给用户已有的助手，减少要求用户换工具的步骤。"
+      ],
+      "validation_questions": [
+        "用包含文件路径的真实指令，检查转写是否准确。",
+        "按实际接线要求，检查自己的对讲机能否完成双向收发。"
+      ],
+      "source_tagline": "Talk to your AI coding agent over a walkie-talkie",
+      "source_description": "Press PTT on any handheld radio and talk to your AI coding agent, hands-free. walkai-talkai transcribes your voice on your Mac with local Whisper, types the command into Cursor, Claude Code or Antigravity (or calls OpenAI, Anthropic, Gemini, DeepSeek or Ollama directly), then speaks the answer back over the radio with neural voice, VOX tones and a roger beep. Your radio audio never leaves your Mac. macOS 13+ on Apple Silicon. One-time lifetime license, no subscription."
+    },
+    {
+      "id": "1271076",
+      "name": "Beam",
+      "name_zh": "Beam",
+      "tagline_zh": "主打高效率、面向智能体任务的 5010 亿参数开放模型",
+      "description_zh": "Beam 是稀疏混合专家模型，总参数为 5010 亿，每次计算激活约 230 亿参数。它面向编程、推理和智能体任务，也就是让 AI 分步骤执行工作。",
+      "intro_zh": "给开发编程助手或自动执行任务工具的团队用，作为生成代码、推理和执行任务的候选模型。",
+      "url": "https://www.producthunt.com/products/beam-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EKSBMMH6A62RSY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0dde17f8-c940-4c42-a87d-862a08a2b948.png?auto=format",
+      "votes_count": 127,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但缺少任务表现和实际资源需求。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "总参数与激活参数的差异值得分析，但不能据此判断效率。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按任务选择部分计算模块的思路可借鉴，适用条件仍待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重只激活部分参数的计算思路；但“高效率”仍是宣传，不能由参数比例直接推出。",
+      "product_analysis": {
+        "target_problem": "做编程助手或自动化工具的团队，需要兼顾任务表现与运行开销。Beam 提供一个候选模型，但资料不足以说明它比现有选择省多少。",
+        "workflow": "介绍只明确了编程、推理和智能体三类用途，没有交代如何获取、接入或运行模型。",
+        "ai_value": "AI 模型就是产品本身。它面向代码和推理任务，但简介没有展示调用外部工具完成任务的具体能力。",
+        "differentiation": "它每次只激活部分参数，可能减少计算量；团队最可能犹豫的是完整模型的运行资源需求仍不清楚。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "采用稀疏混合专家结构，即每次只调用部分计算模块；总参数 5010 亿，激活参数 230 亿。",
+        "possible_approach": "如果自己做，可以先把模型分成多个计算模块，再训练一个选择器，为不同输入挑选模块。这需要模型训练能力，不能只靠拼接现成工具。",
+        "tradeoffs": "最难的是选对模块。选错可能让代码或推理结果不可靠，用户仍得检查返工。",
+        "unknowns": "激活参数较少，是否真的降低了同等任务质量下的运行开销？"
+      },
+      "transferable_insights": [
+        "做多步骤 AI 工具时，可以先按任务选择所需处理模块，再执行；借鉴选择性计算的思路，不必照搬模型结构。"
+      ],
+      "validation_questions": [
+        "用固定编程题检查生成代码能否通过测试。",
+        "在相同硬件和任务下，比较它与当前模型的实际资源消耗。"
+      ],
+      "source_tagline": "Highly efficient agentic 501B parameter open model",
+      "source_description": "Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

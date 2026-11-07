@@ -1,367 +1,510 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-09-26T20:06:52+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:26:04+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1259013",
-      "name": "PixVerse R2",
-      "name_zh": "PixVerse R2",
-      "tagline_zh": "A real-time world model you can explore and change",
-      "description_zh": "PixVerse R2 is a real-time world model that generates continuously evolving audiovisual worlds instead of fixed video clips. It accepts text, images, audio and actions while generating, remembers what happened earlier in the session, and carries those changes forward in real time. R2 scales to longer, more coherent and controllable experiences — powering everything from interactive stories and characters to playable generative worlds.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/pixverse-r2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VQZLAZ7ZJU56G3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9768c154-2f5d-4a4c-8433-f5820ddadf8b.png?auto=format",
-      "votes_count": 369,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: aa98a048-d9d3-48c9-b736-5e8eb618fbfe)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1259518",
-      "name": "Bleetz Network",
-      "name_zh": "Bleetz Network",
-      "tagline_zh": "AI agent-to-agent VC fundraising & scouting network",
-      "description_zh": "Fundraising is broken. Founders spend weeks searching for VCs, researching investment theses, checking sectors, stages and geographies, and sending cold emails, often without knowing who is actually a good fit. Bleetz Network automates the first part of this process. Your AI agent gets matched with 2,000+ SIMULATED agents of real VC, pitches the funds that fit your startup, and gets a YES, NO or MAYBE. A YES unlocks the fund’s contact details. Free, no strings attached.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/bleetz-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Z7GCSLX6DOHXC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/74b3ef62-951b-4a92-b461-67daabcc93e8.png?auto=format",
-      "votes_count": 280,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 92ed15ae-c8df-4969-9ad3-880a07a6647b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1259740",
       "name": "Quiver GTM",
       "name_zh": "Quiver GTM",
-      "tagline_zh": "Run developer marketing like an engineering system",
-      "description_zh": "Quiver is an agentic developer marketing system for technical founders and dev-tool teams. It keeps product context, customer evidence, campaigns, content, tasks and results connected in one controlled system. Unlike another AI writing tool, Quiver gives agents durable context, version history, explicit production states, a Content API, MCP access and a human-approved feedback loop. Use hosted Quiver with managed team access and built-in tasks, or self-host the free MIT-licensed edition.",
-      "intro_zh": "",
+      "tagline_zh": "像运行工程系统一样开展开发者营销",
+      "description_zh": "Quiver 面向技术创始人和开发工具团队，把产品背景、客户证据、营销活动、内容、任务和结果放在同一套可控系统中。它为 AI 代理提供持久上下文、版本历史、明确的制作状态、内容接口和 MCP 接入，并保留人工批准环节；可使用托管服务，也可自行部署免费 MIT 许可版本。",
+      "intro_zh": "给技术创始人和开发工具团队用，把营销资料、内容与任务放在一起，让 AI 代理带着产品背景开展工作。",
       "url": "https://www.producthunt.com/products/quiver-gtm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NYJMUSELCTEIJV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5edbe351-73d9-4df1-8085-ca927cdb8bb9.png?auto=format",
       "votes_count": 191,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "对象和用途清楚，但能省多少协调工作尚无证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "长期保存背景后，如何让代理使用正确版本是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保存背景、记录版本并保留人工批准，可借用于内容协作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重内容能和依据放在一起管理；但资料变化后能否及时提醒复核，仍决定它能省多少核对工作。",
+      "product_analysis": {
+        "target_problem": "技术创始人和开发工具团队做营销时，需要让内容对应产品事实和客户证据。资料分散时，可能反复补背景、核对依据。",
+        "workflow": "选择托管或自行部署，把资料、活动、内容和任务关联管理。代理带着保存的背景参与工作，反馈环节由人批准；具体操作顺序未说明。",
+        "ai_value": "AI 代理可持续获得产品背景，不局限于单次写作；介绍未说明它能独立完成哪些任务。",
+        "differentiation": "它把重点放在写作前后的资料与状态管理。最可能让团队犹豫的是，现有资料需要迁入或持续同步。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1506677a-a125-4ff1-b009-bbfcf24735bf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1260751",
-      "name": "10xJoy",
-      "name_zh": "10xJoy",
-      "tagline_zh": "Discover desired outcomes + connect w/ builders who can help",
-      "description_zh": "Meet Joy, your free AI business matchmaker. Turn business goals into an editable brief without knowing what to build. Our early beta is welcoming its first builders. You choose what to share; introductions are coordinated by email. Builder work is scoped and priced directly.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/10xjoy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WA3AWAIP6KR2F4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c56c3421-e23c-441f-bd8a-41bb5aa248ff.png?auto=format",
-      "votes_count": 158,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "提供持久上下文、版本历史、制作状态、Content API（供软件读写内容的接口）及 MCP 接入（让 AI 工具连接资料和功能的方式）。",
+        "possible_approach": "如果自己做，可以先把产品资料和内容按版本保存，再让代理读取指定版本，并把修改交给人批准。",
+        "tradeoffs": "最容易出错的是代理读到旧背景，导致新内容仍引用过时的产品能力。",
+        "unknowns": "产品资料更新后，已有内容会不会被标记为需要复核？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: fffa7983-cfa9-4fd3-a315-a579cb019ea6)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多人协作的内容工具时，可让每篇内容记录所依据的资料版本，方便改版后查出哪些稿件要重审。"
+      ],
+      "validation_questions": [
+        "修改一条产品事实，检查代理下一次工作是否使用新版本。",
+        "检查未经人工批准的修改能否进入下一制作状态。"
+      ],
+      "source_tagline": "Run developer marketing like an engineering system",
+      "source_description": "Quiver is an agentic developer marketing system for technical founders and dev-tool teams. It keeps product context, customer evidence, campaigns, content, tasks and results connected in one controlled system. Unlike another AI writing tool, Quiver gives agents durable context, version history, explicit production states, a Content API, MCP access and a human-approved feedback loop. Use hosted Quiver with managed team access and built-in tasks, or self-host the free MIT-licensed edition."
     },
     {
       "id": "1260239",
       "name": "DEV·TV",
       "name_zh": "DEV·TV",
-      "tagline_zh": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels",
-      "description_zh": "Most devs check GitHub, Hacker News, DEV and Hugging Face out of habit. DEV·TV turns them into 10 live channels that play on their own, like TV. Glance, catch one story, get back to coding. Leave it on an office screen or a remote team's always-on tab and it becomes shared context: everyone sees what's rising, and anyone can point and ask \"did you see this?\" One HTML file: no backend, no login, no build step. Real source data, built-in reader, no AI summaries. Free and MIT-licensed.",
-      "intro_zh": "",
+      "tagline_zh": "把 GitHub、HN、Hugging Face 等变成复古电视：10 个频道",
+      "description_zh": "DEV·TV 把开发者常看的 GitHub、Hacker News、DEV 和 Hugging Face 等内容做成 10 个自动播放的频道，可放在办公室屏幕或远程团队常开的标签页中，方便大家看到动态并发起讨论。它只有一个 HTML 文件，无需后端、登录或构建，使用真实来源数据，内置阅读器，不做 AI 摘要，免费且采用 MIT 开源许可。",
+      "intro_zh": "给想随时了解技术动态的开发者和团队，把多个社区的内容变成自动播放、可随手阅读的频道。",
       "url": "https://www.producthunt.com/products/dev-tv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZBOU2LEVTTF45O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f1da0054-67ef-46e7-9d7b-1f74a928fc7f.png?auto=format",
       "votes_count": 152,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "看技术动态的场景清楚，但自动播放是否减少打扰仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "单文件读取多个来源有具体技术问题，但介绍未披露处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把主动查看变成公共屏幕轮播，可借用于团队信息展示。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让团队顺手看到同一批技术动态；最影响判断的是，持续播放究竟方便了解信息，还是增加干扰。",
+      "product_analysis": {
+        "target_problem": "开发者想跟进多个技术社区，却未必想逐个打开查看。团队也可能需要一个共同看到新动态的地方。",
+        "workflow": "打开页面，让 10 个频道自动播放；看到感兴趣的内容，再用内置阅读器阅读。也可放在办公室屏幕或常开的标签页中。",
+        "ai_value": "介绍没提 AI 能力，并明确不做 AI 摘要，主要靠自动播放和集中阅读改善体验。",
+        "differentiation": "省去主动切换多个来源的动作。但持续播放可能打断编码，这是我会先确认的不愿切换原因。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 520a0543-143f-4191-9eca-b96f40607b2c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1257436",
-      "name": "Designeer",
-      "name_zh": "Designeer",
-      "tagline_zh": "Bringing the best of the internet together",
-      "description_zh": "Explore the Best of the Internet for Builders Designeer is a curated platform bringing the best of the internet together for designers, developers, and builders. Discover design inspiration, component libraries, design systems, AI tools, coding agents, MCP servers, and creators worth learning from, all in one place. Discover. Learn. Build. Showcase.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/designeer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CBDVI2CHONXLZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5c572c29-9de0-4da4-a005-b670b4b796f3.jpeg?auto=format",
-      "votes_count": 143,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "单个 HTML 文件，无后端、登录或构建步骤，内置阅读器，采用 MIT 开源许可。",
+        "possible_approach": "如果自己做，可以先读取各来源公开数据，整理成统一条目，再按频道轮播，并提供正文阅读入口。",
+        "tradeoffs": "最难的可能是浏览器能否持续读取各来源：若来源限制其他网页取数，对应频道就可能停止更新。",
+        "unknowns": "某个来源读取失败时，页面会怎样提示？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 220074d1-1252-49fb-98ba-f90d6fb95b0a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做团队动态看板时，可以把多个来源做成自动轮播，让成员不必逐个打开页面查看；适用于适合公开展示的信息。"
+      ],
+      "validation_questions": [
+        "持续运行一段时间，对照来源页面检查频道是否仍在更新？",
+        "编码时开启自动播放，是否会频繁被无关内容吸引而切走？"
+      ],
+      "source_tagline": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels",
+      "source_description": "Most devs check GitHub, Hacker News, DEV and Hugging Face out of habit. DEV·TV turns them into 10 live channels that play on their own, like TV. Glance, catch one story, get back to coding. Leave it on an office screen or a remote team's always-on tab and it becomes shared context: everyone sees what's rising, and anyone can point and ask \"did you see this?\" One HTML file: no backend, no login, no build step. Real source data, built-in reader, no AI summaries. Free and MIT-licensed."
     },
     {
       "id": "1254835",
       "name": "Howseen AI",
       "name_zh": "Howseen AI",
-      "tagline_zh": "Track how AI recommends your brand, and get cited",
-      "description_zh": "Your buyers now ask ChatGPT, Gemini and Perplexity which tool or brand to buy. Howseen tracks whether AI recommends you or your competitors across ChatGPT, Gemini, Perplexity and Google AI Overviews, finds the exact questions where you're invisible, and generates SEO & GEO-optimized content to get you cited, auto-published to your blog on the highest-impact gaps first. Most tools stop at a score. Howseen closes the loop: measure, then act. Free to see where you stand today.",
-      "intro_zh": "",
+      "tagline_zh": "追踪 AI 如何推荐你的品牌，争取被引用",
+      "description_zh": "Howseen AI 追踪品牌及竞品在 ChatGPT、Gemini、Perplexity 和 Google AI Overviews 中是否被推荐，并找出品牌未出现的具体问题。它还会生成面向搜索引擎和 AI 回答优化的内容，按其判断的优先级自动发布到博客，目标是增加引用；简介称可免费查看当前表现。",
+      "intro_zh": "给品牌营销人员用，查看品牌在哪些 AI 推荐中缺席，再生成并发布相关博客内容。",
       "url": "https://www.producthunt.com/products/howseen-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FD4U7XEMMTZA3C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/5a79481f-064e-4188-aad9-5f9a916e3b8f.png?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确连接了推荐监测与内容发布，但增加引用的效果未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "回答变化会影响缺席判断，但资料未说明采样方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把未被提及的问题直接变成内容选题，做法具体且可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把监测结果变成具体选题；最大疑问是补写内容后，能否真正增加引用。",
+      "product_analysis": {
+        "target_problem": "品牌营销人员需要知道，买家向 AI 问购买建议时，自家品牌有没有出现。麻烦在于发现缺席后，还要决定补哪些内容。",
+        "workflow": "查看多个 AI 服务中的品牌与竞品推荐情况，找到缺席问题，再由工具生成内容，按其判断的优先级自动发布到博客。",
+        "ai_value": "AI 相关功能包括推荐监测和内容生成。生成文章能否带来引用，资料没有验证。",
+        "differentiation": "它把发现问题和发布内容放在一起，可能减少人工整理选题的工作。最可能让人犹豫的是自动发布内容的质量。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f7d1c26d-5721-4596-9044-473b19091c6e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1260638",
-      "name": "Wand",
-      "name_zh": "Wand",
-      "tagline_zh": "Build software at the speed of thought",
-      "description_zh": "For builders who think faster than they type. The keyboard is becoming the bottleneck. Wand lets you think out loud instead of stopping to translate ideas into prompts. Ramble, react, change your mind mid-sentence - Wand keeps up and turns your thoughts into software. Welcome to the post-keyboard era.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/wand-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TZ3LV45SFLA63O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a3655816-3f87-4df8-8e2f-a61d4891557f.png?auto=format",
-      "votes_count": 121,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到四个监测渠道、内容生成和博客自动发布，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先固定一组购买问题，重复收集回答并标记品牌，再把缺席问题转成选题，生成草稿供审核发布。",
+        "tradeoffs": "最难的是分清偶尔没出现和持续缺席。单次回答可能变化，误判会让团队补写不必要的文章。",
+        "unknowns": "所谓优先处理的高影响缺口，是按什么依据排序的？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0397987d-9f0e-4399-a7e7-794b9498908d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做营销监测工具时，可把缺席的具体问题附到选题中，让写作者知道文章要回答什么。"
+      ],
+      "validation_questions": [
+        "对同一问题重复监测，品牌缺席的判断是否稳定？",
+        "发布一篇内容后，后续 AI 回答是否实际引用了该页面？"
+      ],
+      "source_tagline": "Track how AI recommends your brand, and get cited",
+      "source_description": "Your buyers now ask ChatGPT, Gemini and Perplexity which tool or brand to buy. Howseen tracks whether AI recommends you or your competitors across ChatGPT, Gemini, Perplexity and Google AI Overviews, finds the exact questions where you're invisible, and generates SEO & GEO-optimized content to get you cited, auto-published to your blog on the highest-impact gaps first. Most tools stop at a score. Howseen closes the loop: measure, then act. Free to see where you stand today."
     },
     {
       "id": "1253413",
       "name": "Promptic",
       "name_zh": "Promptic",
-      "tagline_zh": "Optimize GenAI applications for quality and cost",
-      "description_zh": "Promptic is the optimization platform for GenAI applications, better quality at lower cost. Benchmark models, tune prompts and agents, and optimize tool use against your own data and business metrics. Every candidate is scored on the quality and cost you actually care about, so you ship the configuration that wins instead of the one that sounded right. Runs wherever you are, dashboard UI, your CI, or your coding agent.",
-      "intro_zh": "",
+      "tagline_zh": "优化生成式 AI 应用的质量与成本",
+      "description_zh": "Promptic 用于比较模型、调整提示词和智能体，并根据自己的数据与业务指标优化工具使用，为各个候选配置评估质量和成本。它支持在仪表盘、持续集成流程或编程智能体中运行，帮助团队选择配置；介绍宣称可提高质量并降低成本。",
+      "intro_zh": "给开发 AI 应用的团队用，用自己的数据比较模型、提示词和工具配置，辅助选择上线方案。",
       "url": "https://www.producthunt.com/products/promptic-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7JIOFWEONG57ZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/51f5f0db-c97c-440b-beba-483d60f2e6ca.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确面向配置选型问题，但质量和成本的实际改善尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何用业务指标评判候选配置，是具体且影响决策的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用同一批业务数据比较配置的做法，可借用于其他 AI 产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把选配置变成可比较的结果；最影响判断的是评分能否代表真实业务质量。",
+      "product_analysis": {
+        "target_problem": "开发 AI 应用时，团队需要决定用哪个模型、怎样写提示词。麻烦在于回答看着更好，不一定更符合业务要求，也未必更省钱。",
+        "workflow": "用自己的数据和业务指标评估候选配置，比较质量与成本后选择方案。介绍支持从仪表盘、持续集成流程（自动检查代码改动的流程）或编程智能体中运行。",
+        "ai_value": "它评估和调整生成式 AI 应用的配置；介绍没有说明优化过程本身是否由 AI 自动完成。",
+        "differentiation": "它把配置选择落到同一套评分上，减少只凭观感做决定的空间。团队可能不愿切换，因为先要整理可信的测试数据与指标。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 92eae6c5-0bad-4d6b-b089-cfcea2f4c47b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持模型基准测试、提示词与智能体调优，以及按自有数据和业务指标评估工具使用。",
+        "possible_approach": "如果自己做，可以先固定一批业务样例和评分规则，再让不同配置逐一运行，记录回答得分与花费，供团队比较。",
+        "tradeoffs": "最容易出错的是评分规则偏离真实需求：配置在测试中得分更高，上线后却可能漏掉用户真正需要的信息。",
+        "unknowns": "质量分如何计算，能否按业务规则修改？"
+      },
+      "transferable_insights": [
+        "做 AI 客服或内容生成产品时，可以保留一批固定业务样例，每次换模型或改提示词都重跑，比较质量与成本。"
+      ],
+      "validation_questions": [
+        "拿一组人工已判定好坏的回答测试，检查质量评分是否符合业务判断。",
+        "对同一批任务核对平台成本记录与实际调用账单是否一致。"
+      ],
+      "source_tagline": "Optimize GenAI applications for quality and cost",
+      "source_description": "Promptic is the optimization platform for GenAI applications, better quality at lower cost. Benchmark models, tune prompts and agents, and optimize tool use against your own data and business metrics. Every candidate is scored on the quality and cost you actually care about, so you ship the configuration that wins instead of the one that sounded right. Runs wherever you are, dashboard UI, your CI, or your coding agent."
     },
     {
       "id": "1260601",
       "name": "SocialGPT",
       "name_zh": "SocialGPT",
-      "tagline_zh": "Edit videos by chatting with your timeline",
-      "description_zh": "Upload your footage and tell SocialGPT what to change. Tighten the cut, add captions, bring in B-roll, music, and sound effects. Keep refining through chat or edit the timeline yourself. For creators and business owners who want to make videos without learning every editing tool.",
-      "intro_zh": "",
+      "tagline_zh": "通过聊天编辑视频时间线",
+      "description_zh": "上传素材后，告诉 SocialGPT 要怎样修改，包括精简剪辑、添加字幕、补充画面、音乐和音效。你可以继续聊天调整，也可以自己编辑时间线，面向不想逐一学习剪辑工具的创作者和商家。",
+      "intro_zh": "给创作者和商家用的视频编辑工具，上传素材后用聊天提出修改，也能在时间线上手动调整。",
       "url": "https://www.producthunt.com/products/socialgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Z57Z5UBW56PV67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ea61a0b5-814d-4059-b7dc-3f2f6a4ea7bd.png?auto=format",
       "votes_count": 102,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "人群和编辑任务清楚，但修改准确度尚无依据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把口头要求变成准确的时间线修改，是具体且关键的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "聊天修改与手动编辑并存的做法，可借用于其他创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重聊天之后仍能手动调整，不必所有细节都靠文字描述；最大的疑问是它能否准确找到要改的片段。",
+      "product_analysis": {
+        "target_problem": "创作者和商家需要剪视频，却不想先学全套编辑工具。麻烦在于知道想改什么，却未必知道该用哪个操作。",
+        "workflow": "上传素材，用聊天要求精简剪辑或添加字幕、配乐等内容。之后继续聊天调整，或自己修改时间线。",
+        "ai_value": "介绍没明确说明 AI 如何参与；明确的功能是用聊天提出编辑要求，具体如何理解并执行没有交代。",
+        "differentiation": "它可能省去寻找编辑命令的步骤。最可能让人不愿换用的原因，是一句要求执行偏了，反而需要花时间修正。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 09bfdc8e-2da2-4bf2-96dd-f3613181a7fa)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持聊天修改和手动编辑时间线，介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把聊天要求拆成剪切、加字幕等动作，再定位到具体片段，写回时间线供用户检查。",
+        "tradeoffs": "最难的是确定用户指哪一段。“这里再短一点”若定位错，可能删掉原本要保留的内容。",
+        "unknowns": "聊天改错后，能否单独撤销这次修改？"
+      },
+      "transferable_insights": [
+        "做图片、音频等创作工具时，可以让聊天和手动操作修改同一份作品，让用户直接修正不满意的局部。"
+      ],
+      "validation_questions": [
+        "用“缩短第二段，保留结尾”检查修改是否落在指定片段。",
+        "完成一次聊天修改后，检查能否单独撤销并恢复原内容。"
+      ],
+      "source_tagline": "Edit videos by chatting with your timeline",
+      "source_description": "Upload your footage and tell SocialGPT what to change. Tighten the cut, add captions, bring in B-roll, music, and sound effects. Keep refining through chat or edit the timeline yourself. For creators and business owners who want to make videos without learning every editing tool."
+    },
+    {
+      "id": "1259013",
+      "name": "PixVerse R2",
+      "name_zh": "PixVerse R2",
+      "tagline_zh": "可供探索和改变的实时世界模型",
+      "description_zh": "PixVerse R2 是一种实时世界模型，会持续生成变化中的视听场景，生成期间可接收文字、图片、音频和操作，并记住本次会话中先前发生的事。简介称，它能支持更长、更连贯且可控的体验，用于互动故事、角色和可游玩的生成式世界。",
+      "intro_zh": "给制作互动故事或可玩场景的人用，让用户在视听内容生成过程中输入指令、改变后续发展。",
+      "url": "https://www.producthunt.com/products/pixverse-r2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VQZLAZ7ZJU56G3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9768c154-2f5d-4a4c-8433-f5820ddadf8b.png?auto=format",
+      "votes_count": 369,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景明确，但实时响应和持续体验的效果尚未核验。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "持续生成时如何保留此前的变化，是具体且影响体验的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "边生成边接受修改的做法可借鉴，但实现条件不明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有价值的是用户可以参与内容的发展，而不只接收成品。最影响判断的是这种参与能持续多久而不丢失此前的变化。",
+      "product_analysis": {
+        "target_problem": "做互动故事的人，需要场景随用户选择继续发展。固定视频片段无法在播放中根据新输入改变后续内容。",
+        "workflow": "用户在视听场景持续生成时，输入文字、图片、音频或操作。系统接着生成，并按介绍保留本次会话中此前的变化。",
+        "ai_value": "AI 负责根据输入继续生成视听内容。这里的“世界模型”，可以理解为会随输入变化、并记住此前事件的生成系统。",
+        "differentiation": "它把修改放进生成过程，减少先得到固定片段、再另行调整的需要。最可能让人犹豫的是，持续生成能否保持可控。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到持续视听生成、多种输入，以及会话内记忆，但未说明具体实现。",
+        "possible_approach": "如果自己做，可以先记录场景当前状态和用户操作，再把这些记录交给生成系统，逐段续接画面与声音。",
+        "tradeoffs": "最难的是让后续内容遵守已经发生的变化；一旦遗忘，用户刚改好的场景就可能恢复原样。",
+        "unknowns": "所谓实时，从输入操作到画面响应究竟要多久？"
+      },
+      "transferable_insights": [
+        "做交互式生成工具时，可以让用户在生成过程中继续修改，不必等整份结果完成后再重来。"
+      ],
+      "validation_questions": [
+        "改变一个场景细节后，继续交互一段时间，检查这个变化是否仍被保留。",
+        "输入一次明确操作，测量到画面出现对应变化的等待时间。"
+      ],
+      "source_tagline": "A real-time world model you can explore and change",
+      "source_description": "PixVerse R2 is a real-time world model that generates continuously evolving audiovisual worlds instead of fixed video clips. It accepts text, images, audio and actions while generating, remembers what happened earlier in the session, and carries those changes forward in real time. R2 scales to longer, more coherent and controllable experiences — powering everything from interactive stories and characters to playable generative worlds."
+    },
+    {
+      "id": "1259518",
+      "name": "Bleetz Network",
+      "name_zh": "Bleetz Network",
+      "tagline_zh": "用于融资与项目发掘的 AI 代理互相匹配网络",
+      "description_zh": "Bleetz Network 自动处理融资前期的筛选：创业者的 AI 代理会与 2,000 多个模拟真实风投机构的代理匹配，向适合的基金介绍项目，并获得 YES、NO 或 MAYBE。YES 会解锁基金联系方式；简介称服务免费，但这些回答来自模拟代理，不代表基金的真实意向。",
+      "intro_zh": "给寻找风投的创业者用，让 AI 代理筛选可能合适的基金，并在模拟回答为 YES 后获取联系方式。",
+      "url": "https://www.producthunt.com/products/bleetz-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Z7GCSLX6DOHXC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/74b3ef62-951b-4a92-b461-67daabcc93e8.png?auto=format",
+      "votes_count": 280,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "前期筛选需求明确，但模拟回答能否帮助找到合适基金尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让模拟判断贴近基金当前偏好，是具体且影响结果的技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先筛选再提供联系方式的做法可借用，但筛选质量仍待确认。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是缩小需要研究的基金范围；最影响判断的是模拟回应与真实投资偏好有多接近。",
+      "product_analysis": {
+        "target_problem": "正在融资的创业者需要逐家核对基金的行业、阶段和地区偏好。以前要自行研究这些条件，现在可以让代理先筛出可能合适的基金。",
+        "workflow": "创业者的代理与模拟风投代理匹配，向合适的基金介绍项目。模拟回答为 YES 后，系统开放基金联系方式。",
+        "ai_value": "AI 承担初步匹配和模拟回应。YES、NO、MAYBE 都不能当成真实投资人的答复。",
+        "differentiation": "它把部分前期研究交给代理处理。最可能让人犹豫的是：模拟 YES 是否足以支持下一步联系。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI 代理与 2,000 多个模拟真实风投机构的代理匹配，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先整理基金公开的投资条件，再与项目资料比对，让代理给出判断和依据。",
+        "tradeoffs": "最容易错在基金资料过时或不完整，导致模拟 YES 偏离真实偏好，让创业者联系不合适的机构。",
+        "unknowns": "模拟代理依据的基金资料多久更新一次？"
+      },
+      "transferable_insights": [
+        "做供需匹配产品时，可以先核对明确条件，再展示联系入口；同时标清系统判断与对方真实回复。"
+      ],
+      "validation_questions": [
+        "抽查推荐基金，匹配条件是否符合其当前公开的投资要求？",
+        "查看结果页，是否明确标出 YES 来自模拟代理？"
+      ],
+      "source_tagline": "AI agent-to-agent VC fundraising & scouting network",
+      "source_description": "Fundraising is broken. Founders spend weeks searching for VCs, researching investment theses, checking sectors, stages and geographies, and sending cold emails, often without knowing who is actually a good fit. Bleetz Network automates the first part of this process. Your AI agent gets matched with 2,000+ SIMULATED agents of real VC, pitches the funds that fit your startup, and gets a YES, NO or MAYBE. A YES unlocks the fund’s contact details. Free, no strings attached."
+    },
+    {
+      "id": "1260751",
+      "name": "10xJoy",
+      "name_zh": "10xJoy",
+      "tagline_zh": "理清想要的业务结果，联系能帮忙的开发者",
+      "description_zh": "Joy 是免费的 AI 业务牵线助手，可把业务目标整理成可编辑的需求简报，无需先确定要做什么产品。产品处于早期测试，正招募首批开发者；用户决定分享什么，双方通过邮件协调引荐，具体工作范围和价格直接商定。",
+      "intro_zh": "给有业务目标、还没想清楚做什么的需求方用，先整理需求简报，再联系能帮忙的开发者。",
+      "url": "https://www.producthunt.com/products/10xjoy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WA3AWAIP6KR2F4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c56c3421-e23c-441f-bd8a-41bb5aa248ff.png?auto=format",
+      "votes_count": 158,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "需求梳理和找人都有明确用途，但匹配效果尚无材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把模糊目标整理成不失真的需求，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先让用户确认简报再对外分享，可借用于服务撮合产品。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是先把业务目标整理成双方能讨论的文字；最大的疑问是早期开发者供给能否覆盖实际需求。",
+      "product_analysis": {
+        "target_problem": "有业务目标但不清楚该做什么的人，需要先把期望讲清楚，才能和开发者讨论工作。",
+        "workflow": "用户提供业务目标，得到可编辑的简报，并决定分享哪些内容。引荐通过邮件协调，工作范围和报价由双方直接商定。",
+        "ai_value": "AI 把业务目标整理成简报。介绍没说明 AI 是否也负责挑选开发者。",
+        "differentiation": "把整理需求和联系开发者接在一起，可能减少重复解释。仍在招募首批开发者，可选人手不足可能让用户不愿转过来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 生成可编辑简报、邮件协调引荐，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先收集目标和限制，再让 AI 整理简报，请用户修改确认，最后按确认内容寻找合适的开发者。",
+        "tradeoffs": "最容易错在把模糊目标写成确定需求。若把猜测也交给开发者，后续报价可能基于错误前提。",
+        "unknowns": "开发者按什么条件匹配，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做服务撮合时，可先生成一份可修改的需求摘要，让用户确认分享范围，再安排双方沟通。"
+      ],
+      "validation_questions": [
+        "输入一个模糊目标，检查简报是否把未经确认的假设写成事实？",
+        "只允许分享部分简报，检查引荐邮件是否严格遵守选择？"
+      ],
+      "source_tagline": "Discover desired outcomes + connect w/ builders who can help",
+      "source_description": "Meet Joy, your free AI business matchmaker. Turn business goals into an editable brief without knowing what to build. Our early beta is welcoming its first builders. You choose what to share; introductions are coordinated by email. Builder work is scoped and priced directly."
+    },
+    {
+      "id": "1260638",
+      "name": "Wand",
+      "name_zh": "Wand",
+      "tagline_zh": "让构建软件跟上思考的速度",
+      "description_zh": "Wand 面向想法比打字快的开发者，让他们直接说出想法，不必先整理成文字提示。简介称，即使边说边改主意，它也能跟上，并把想法转成软件。",
+      "intro_zh": "给想用说话表达需求的软件构建者用，把口头想法转成软件，也支持表达中途改变主意。",
+      "url": "https://www.producthunt.com/products/wand-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TZ3LV45SFLA63O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a3655816-3f87-4df8-8e2f-a61d4891557f.png?auto=format",
+      "votes_count": 121,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "减少打字和整理提示的需求明确，但生成软件的可用程度未知。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何理解中途改口是具体问题，但没有实现或效果材料。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "允许先表达再整理的做法可借用，适用边界仍需验证。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它允许边表达边修改想法；但交付物能否运行，决定它省的是输入时间，还是连开发工作也能省下。",
+      "product_analysis": {
+        "target_problem": "面向用文字提示构建软件、却常被输入打断思路的人。以前要把想法整理成提示，现在可以直接说出来。",
+        "workflow": "用户口述想做的软件，也可以边说边调整想法；Wand 将这些表达转成软件。介绍没说明如何查看和修改结果。",
+        "ai_value": "介绍没明确提 AI，只描述了口述生成软件，无法判断 AI 具体承担哪些步骤。",
+        "differentiation": "它想省下组织文字提示的工夫。最可能让人不愿换用的原因，是口头表达能否准确控制结果仍不清楚。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再让模型整理当前需求，最后据此生成代码。",
+        "tradeoffs": "最难的是识别改口：若把已经否定的想法也当成要求，生成的软件就会做错，用户还得重新解释。",
+        "unknowns": "“转成软件”具体能交付什么，是片段代码还是可运行应用？"
+      },
+      "transferable_insights": [
+        "做需求收集工具时，可以先让用户自由口述，再展示整理后的要求供确认，减少一开始就组织文字的负担。"
+      ],
+      "validation_questions": [
+        "连续说出一个要求再明确撤回，检查最终结果是否仍保留它。",
+        "口述一个简单应用需求，检查交付结果能否实际运行。"
+      ],
+      "source_tagline": "Build software at the speed of thought",
+      "source_description": "For builders who think faster than they type. The keyboard is becoming the bottleneck. Wand lets you think out loud instead of stopping to translate ideas into prompts. Ramble, react, change your mind mid-sentence - Wand keeps up and turns your thoughts into software. Welcome to the post-keyboard era."
+    },
+    {
+      "id": "1257436",
+      "name": "Designeer",
+      "name_zh": "Designeer",
+      "tagline_zh": "把互联网上的优质资源汇集起来",
+      "description_zh": "Designeer 是一个面向设计师、开发者和产品构建者的精选资源平台。它集中介绍设计灵感、组件库、设计系统、AI 工具、编程助手、MCP 服务器（供 AI 工具连接外部数据或功能的服务），以及可供学习的创作者。",
+      "intro_zh": "给设计师、开发者和做产品的人用，在一处发现设计参考、开发工具和可学习的创作者。",
+      "url": "https://www.producthunt.com/products/designeer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CBDVI2CHONXLZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5c572c29-9de0-4da4-a005-b670b4b796f3.jpeg?auto=format",
+      "votes_count": 143,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "集中发现资源的用途清楚，但筛选质量和覆盖范围待确认。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "资料没有说明资源如何收集、筛选和更新。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "围绕同一群人的工作收集不同资源可以借鉴，但组织方式未披露。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我看重设计参考与开发工具能放在一起发现；但“精选”依据不明，还不能判断它比已有收藏更省事。",
+      "product_analysis": {
+        "target_problem": "设计师和开发者找参考、选工具时，需要判断哪些资源值得看。Designeer 提供一个集中的发现入口。",
+        "workflow": "用户在平台浏览精选资源，发现可参考的设计、工具和创作者。简介没有交代搜索、收藏或展示作品的具体操作。",
+        "ai_value": "介绍提到了 AI 工具和编程助手，但它们是收录对象，没有说明平台自身使用 AI。",
+        "differentiation": "它把设计与开发资源放在一处，可能减少分散查找。最可能让人不愿换来的原因，是精选结果不符合自己的项目需要。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先人工筛选资源，记录用途和链接，再按设计参考、开发实现等任务组织入口。",
+        "tradeoffs": "最容易出错的是收录后没有持续复查。链接失效或工具用途变化，会让用户白点进去。",
+        "unknowns": "资源是否有明确的复查和更新安排？"
+      },
+      "transferable_insights": [
+        "做面向特定职业的资源导航时，可以围绕同一项工作收集不同类型的资料，让用户同时找到参考和实现工具。"
+      ],
+      "validation_questions": [
+        "带一个真实项目需求浏览，能否找到直接相关的资源？",
+        "抽查十条资源链接，是否仍能正常访问？"
+      ],
+      "source_tagline": "Bringing the best of the internet together",
+      "source_description": "Explore the Best of the Internet for Builders Designeer is a curated platform bringing the best of the internet together for designers, developers, and builders. Discover design inspiration, component libraries, design systems, AI tools, coding agents, MCP servers, and creators worth learning from, all in one place. Discover. Learn. Build. Showcase."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

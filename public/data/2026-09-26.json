@@ -1,367 +1,511 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-27T20:52:24+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:25:51+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1258326",
       "name": "Hemory",
       "name_zh": "Hemory",
-      "tagline_zh": "Keep listening. Searchable memory for your AI agents.",
-      "description_zh": "Hemory comes from Hear + Memory. It's not meeting transcription: Hemory listens on the phone or Apple Watch you already own, and keeps every conversation as memory. Your day is auto-split into moments with speaker labels, then settles into a private, searchable memory. Connect it to Claude, Codex, Cursor, or any agent over MCP, and your AI finally has real context to revisit what you heard and build on it.",
-      "intro_zh": "",
+      "tagline_zh": "持续聆听，为你的 AI 助手留下可搜索的记忆。",
+      "description_zh": "Hemory 的名字来自 Hear 和 Memory，可用已有的手机或 Apple Watch 收听对话，将一天自动划成带说话人标签的片段，保存为可搜索的个人记忆。它支持通过 MCP 连接 Claude、Codex、Cursor 等 AI 工具，让它们调用这些对话作为上下文。",
+      "intro_zh": "给想找回日常谈话内容、供 AI 参考的人用，用手机或 Apple Watch 留下可搜索的对话记忆。",
       "url": "https://www.producthunt.com/products/hemory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DESVXS45MENTRI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1c5cdafb-3ec1-4699-9459-e955bb067126.png?auto=format",
       "votes_count": 358,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找回谈话并供 AI 使用的用途清楚，但持续记录的实际负担待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "说话人标记出错会影响后续 AI 判断，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把日常记录整理成可检索片段供助手调用，做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让口头信息能被后续工作直接引用；最影响判断的是持续收听的数据访问边界是否清楚。",
+      "product_analysis": {
+        "target_problem": "适合常需回想口头约定、又想让 AI 参考谈话的人。麻烦在于记得聊过，却找不到具体内容。",
+        "workflow": "用手机或 Apple Watch 收听对话，系统自动分段并标记说话人。之后搜索记忆，或连接 AI 工具调用。",
+        "ai_value": "AI 助手可取回听过的内容，作为后续工作的参考。介绍没说分段和说话人标记是否由 AI 完成。",
+        "differentiation": "把对话记录与 AI 调用接起来，可能减少手工补充背景。持续收听涉及他人隐私，可能让人不愿开启。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: bb950f6f-7370-48c3-9d58-dfef2a343bc2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1237651",
-      "name": "Eclatira",
-      "name_zh": "Eclatira",
-      "tagline_zh": "Conversational Video Agent That Plugs Into Any Stack",
-      "description_zh": "Plug real-time conversational video AI into any application. Eclatira gives developers native voice-to-voice, live vision, and full-stack execution across custom APIs, MCPs, and 3,000+ apps. Ship autonomous multimodal video agents fast.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/eclatira?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/P76YJSQUC3QKHK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/867b1089-8580-47b9-8cea-895e99be9356.png?auto=format",
-      "votes_count": 312,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持手机、Apple Watch，以及 MCP（一种让 AI 工具连接外部数据的通用方式）；未披露具体模型。",
+        "possible_approach": "如果自己做，可以先把录音转成带时间和说话人标签的文字，再分段保存，供搜索和 AI 按需读取。",
+        "tradeoffs": "最容易出错的是把话归给错的人。AI 若据此判断谁作了承诺，后续提醒也可能找错对象。",
+        "unknowns": "介绍称记忆是私密的，但没有说明录音和记忆存在哪里、谁能访问。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1c501ce0-8d7a-4913-94a5-7c614a2ee618)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做日志或客服助手时，可以把长记录拆成可搜索片段，让 AI 按需取回相关内容，减少用户反复解释背景。"
+      ],
+      "validation_questions": [
+        "录一段两人交替发言的对话，检查说话人标签是否正确。",
+        "连接 AI 后询问一条已记录的约定，检查它取回的内容是否准确。"
+      ],
+      "source_tagline": "Keep listening. Searchable memory for your AI agents.",
+      "source_description": "Hemory comes from Hear + Memory. It's not meeting transcription: Hemory listens on the phone or Apple Watch you already own, and keeps every conversation as memory. Your day is auto-split into moments with speaker labels, then settles into a private, searchable memory. Connect it to Claude, Codex, Cursor, or any agent over MCP, and your AI finally has real context to revisit what you heard and build on it."
     },
     {
       "id": "1254383",
       "name": "Chit",
       "name_zh": "Chit",
-      "tagline_zh": "A printed receipt of your day in Claude Code",
-      "description_zh": "Chit reads the Claude Code transcripts already on your disk and prints the day back as a receipt, grouped by project and ready to paste into a standup. A 777 KB Mac app. No Hammerspoon, no Python, no account, and no network code in the binary at all.",
-      "intro_zh": "",
+      "tagline_zh": "把你在 Claude Code 中的一天做成一张小票",
+      "description_zh": "Chit 读取磁盘上已有的 Claude Code 对话记录，按项目整理成当天的小票式记录，供你粘贴到站会汇报中。简介称它是一个 777 KB 的 Mac 应用，无需 Hammerspoon、Python 或账号，二进制程序中也没有网络代码。",
+      "intro_zh": "给使用 Claude Code 的开发者，把当天对话按项目整理成小票式记录，用于站会汇报。",
       "url": "https://www.producthunt.com/products/chit-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XCG6RZHADQ7HCQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7a3065bc-0842-47a6-aed7-3f591a7ae731.png?auto=format",
       "votes_count": 213,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群和汇报场景明确，但整理结果是否可直接使用仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "从对话识别工作进展有具体难点，但资料未说明提取方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "读取已有记录并按汇报用途整理，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把已有记录变成可粘贴的汇报材料；最影响判断的是它能否准确区分讨论和实际成果。",
+      "product_analysis": {
+        "target_problem": "使用 Claude Code 的开发者准备站会汇报时，需要回顾当天各项目做了什么。对话包含尝试和讨论，不一定直接对应完成事项。",
+        "workflow": "应用读取磁盘上已有的 Claude Code 对话，按项目生成当天的小票式记录。用户可把内容粘贴到站会汇报中。",
+        "ai_value": "介绍没提 Chit 自身使用 AI，主要靠读取已有对话、按项目整理来改善体验。",
+        "differentiation": "省去从对话中手工整理汇报材料的部分工作。若结果仍需大量改写，用户可能不愿增加这个工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f480d691-8f67-4a4a-a1e5-c75f31ed4303)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1261392",
-      "name": "MakerMap",
-      "name_zh": "MakerMap",
-      "tagline_zh": "A living map of makers and what they’re building",
-      "description_zh": "MakerMap is a living map of the maker world. Discover 4,000+ makers and products, search by niche, location, interests or what people are building, explore live profiles, and find people worth meeting. Add yourself and become part of the map.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/makermap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EIO5PNY6Z5YWJB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ac21675d-a9bf-4cd4-bd37-8a1f0f176f49.jpeg?auto=format",
-      "votes_count": 186,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称它读取本地记录，是无需 Hammerspoon、Python 和账号的 Mac 应用，且二进制程序中没有网络代码。",
+        "possible_approach": "如果自己做，可以先读取当天记录并按项目归类，再提取工作事项，排成方便粘贴的文本。",
+        "tradeoffs": "最容易错在把讨论过的方案当成已完成工作，导致用户在汇报中夸大进度。",
+        "unknowns": "它如何区分计划、失败尝试和真正完成的事项？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3d907b94-aa6c-419f-b019-116cd6cf12c7)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做工作日志工具时，可以读取用户已有的操作记录，再按站会需要组织内容，减少额外填报。"
+      ],
+      "validation_questions": [
+        "放入含有未执行方案的对话，检查结果是否误报为已完成。",
+        "用同一天两个项目的记录，检查事项是否分到正确项目。"
+      ],
+      "source_tagline": "A printed receipt of your day in Claude Code",
+      "source_description": "Chit reads the Claude Code transcripts already on your disk and prints the day back as a receipt, grouped by project and ready to paste into a standup. A 777 KB Mac app. No Hammerspoon, no Python, no account, and no network code in the binary at all."
     },
     {
       "id": "1243953",
       "name": "Paragraph Notes",
       "name_zh": "Paragraph Notes",
-      "tagline_zh": "A private Markdown notes app for Mac",
-      "description_zh": "Paragraph Notes is a privacy-focused Markdown notes app for Mac. Write in a simple, distraction-free plain text editor. Paragraph Notes collects no data and never connects to the internet. Notes are stored locally in an open, portable format. Use Paragraph Notes free for up to 20 notes. Upgrade to Pro with a one-time in-app purchase for unlimited notes.",
-      "intro_zh": "",
+      "tagline_zh": "一款注重隐私的 Mac Markdown 笔记应用",
+      "description_zh": "Paragraph Notes 提供简洁、少干扰的纯文本编辑器，介绍称它不收集数据、不连接互联网，笔记以开放、便于迁移的格式保存在本地。免费版最多可用 20 条笔记，一次性应用内购买 Pro 后可不限条数使用。",
+      "intro_zh": "给想在 Mac 上本地写笔记的人用，用简洁的纯文本编辑器记录内容，并保留便于迁移的文件。",
       "url": "https://www.producthunt.com/products/paragraph-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZKH2M2UIPWMC7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8639ad99-79b7-4edb-96f3-c66f4f00f9a2.png?auto=format",
       "votes_count": 152,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "本地记录和隐私需求明确，但备份方式尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "本地文件保存有具体问题可讨论，但实现披露有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "开放格式与本地保存是其他个人工具可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重内容能留在本地并带走；但本地保存不等于不会丢失，恢复能力最影响长期使用的判断。",
+      "product_analysis": {
+        "target_problem": "适合不希望笔记上传服务端的 Mac 用户。需要解决的是本地写作和日后迁移，而非多人协作。",
+        "workflow": "在纯文本编辑器里用 Markdown（用文字标记标题、列表等格式）写笔记，内容保存在本地。超过 20 条需购买 Pro。",
+        "ai_value": "介绍没提 AI，主要靠简洁编辑、本地保存和不联网来改善体验。",
+        "differentiation": "开放格式可能减少换工具时整理内容的麻烦；需要多设备同步的人，可能不愿换到不联网的工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: af33ca8e-c3aa-4b79-b0a0-e37471359e15)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称应用不联网、不收集数据，笔记以开放、可迁移的格式存于本地。",
+        "possible_approach": "如果自己做，可以先让每条笔记对应一个普通文本文件，再加入编辑和可靠保存，确保其他编辑器也能读取。",
+        "tradeoffs": "最容易出错的是保存时覆盖了旧内容；若写入中断又没有恢复副本，用户可能丢掉笔记。",
+        "unknowns": "介绍没有说明是否提供备份或历史版本恢复。"
+      },
+      "transferable_insights": [
+        "做日记、草稿等个人工具时，可以采用其他软件也能读取的文件格式，让用户退出产品后仍能使用内容。"
+      ],
+      "validation_questions": [
+        "把一条包含标题和列表的笔记交给其他编辑器打开，检查内容能否完整读取。",
+        "在测试笔记保存时强制退出应用，检查重开后内容是否保留。"
+      ],
+      "source_tagline": "A private Markdown notes app for Mac",
+      "source_description": "Paragraph Notes is a privacy-focused Markdown notes app for Mac. Write in a simple, distraction-free plain text editor. Paragraph Notes collects no data and never connects to the internet. Notes are stored locally in an open, portable format. Use Paragraph Notes free for up to 20 notes. Upgrade to Pro with a one-time in-app purchase for unlimited notes."
     },
     {
       "id": "1260932",
       "name": "GoodSocials",
       "name_zh": "GoodSocials",
-      "tagline_zh": "AI social media manager for LinkedIn. Only authentic content",
-      "description_zh": "AI social media manager for LinkedIn. Writes high quality content, you approve it in a kanban board, it schedules so you post regularly, close to daily.",
-      "intro_zh": "",
+      "tagline_zh": "面向 LinkedIn 的 AI 社交媒体管理工具，主打真实内容",
+      "description_zh": "这是一款面向 LinkedIn 的 AI 社交媒体管理工具，可撰写内容，供用户在看板中审核。审核后安排发布时间，帮助用户保持接近每天发帖的节奏。",
+      "intro_zh": "给需要持续经营 LinkedIn 的个人或团队，用 AI 起草帖子，在看板里审核，再安排发布时间。",
       "url": "https://www.producthunt.com/products/goodsocials?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SUCR7F34JCNKDQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/cc47313e-648e-424a-acdb-4cd5fad87013.png?auto=format",
       "votes_count": 134,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "写稿、审核和排期的用途清楚，但内容质量尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何保证排期对应已批准的稿件，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先由 AI 起草、经人工批准再执行，可借用于其他对外内容工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是审稿后可继续安排发布，少一次人工交接；但“真实内容”如何保证，现有资料没有说明。",
+      "product_analysis": {
+        "target_problem": "需要持续在 LinkedIn 发帖的人，要兼顾写稿、审稿和发布时间。GoodSocials 把这几件事放在同一个工具里处理。",
+        "workflow": "AI 先写内容，用户在看板中审核批准，再由工具安排发布时间。简介未说明用户如何提供选题或个人素材。",
+        "ai_value": "AI 负责起草帖子。资料没有解释它如何了解用户经历，也不能据此认定内容真实或符合本人表达。",
+        "differentiation": "把草稿直接接到审核和排期，可能减少来回搬运。最可能让人不愿换用的，是生成稿仍需大量修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0924babb-ef66-4191-b842-a4e82b6e7c75)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 写稿、看板审核和排期，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先根据用户提供的素材生成草稿，再记录获批版本，最后按时间安排发布。",
+        "tradeoffs": "最容易出错的是批准后又改稿，却仍沿用旧的批准状态，导致未经确认的文字被发出去。",
+        "unknowns": "排期后是否会自动发布到 LinkedIn，还是仍需用户手动操作？"
+      },
+      "transferable_insights": [
+        "做邮件或公告工具时，可以把 AI 草稿、人工批准和定时发送连起来，让用户保留最后决定权。"
+      ],
+      "validation_questions": [
+        "用一组已知事实生成帖子，检查是否编造个人经历。",
+        "修改一篇已批准的排期稿，检查它是否要求重新批准。"
+      ],
+      "source_tagline": "AI social media manager for LinkedIn. Only authentic content",
+      "source_description": "AI social media manager for LinkedIn. Writes high quality content, you approve it in a kanban board, it schedules so you post regularly, close to daily."
     },
     {
       "id": "1257315",
       "name": "Fewer",
       "name_zh": "Fewer",
-      "tagline_zh": "The launcher that counts how often you pick up your phone",
-      "description_zh": "An Android launcher built around pickups, not screen time. A quiet home screen shows today's task, how many times you've looked at your phone (and how many for nothing) and the six tools you actually use. Time sinks get a pause. No server, no account, no ads.",
-      "intro_zh": "",
+      "tagline_zh": "记录你拿起手机次数的桌面启动器",
+      "description_zh": "Fewer 是一款 Android 桌面启动器，关注拿起手机的次数，而非屏幕使用时长；简洁桌面显示当天任务、查看手机的次数及其中无目的的次数，还有六个常用工具。它会给耗时间的应用加一道暂停，不需要服务器或账号，也没有广告。",
+      "intro_zh": "给想减少无意识查看手机的 Android 用户，用桌面上的次数提醒和应用暂停，帮助自己停一下。",
       "url": "https://www.producthunt.com/products/fewer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JWEO3EQ3C3WRFL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/490df1b8-b0e1-4f5b-8e7d-8c620eafce18.jpeg?auto=format",
       "votes_count": 125,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "针对反复查看手机的场景很明确，但能否减少次数尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何识别无目的查看是具体难题，介绍未交代判断方法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在动作发生处显示次数并加入暂停，可借用于减少重复打开的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重把提醒放在每次进入手机的地方；最影响判断的是计数是否符合用户直觉，否则提醒可能变成干扰。",
+      "product_analysis": {
+        "target_problem": "适合总想解锁看一眼的 Android 用户。单看使用时长，可能不容易注意到一天里频繁、短暂的查看。",
+        "workflow": "使用 Fewer 作为手机桌面，查看当天任务和拿起次数，打开六个常用工具；耗时间的应用会遇到暂停，具体形式未说明。",
+        "ai_value": "介绍没提 AI，主要靠桌面提醒、工具数量限制和暂停来改善体验。",
+        "differentiation": "它把次数直接放在手机入口，省去专门查统计的动作。但更换熟悉的桌面，可能让用户不愿迁移。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 27a12d9e-cff5-42cc-843c-d01026c3abbd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "它是 Android 桌面启动器，介绍明确说不需要服务器和账号。",
+        "possible_approach": "如果自己做，可以先在手机本地记录解锁和应用打开事件，再汇总次数、显示提醒，并在指定应用打开前加入暂停。",
+        "tradeoffs": "最容易错的是把短暂查看判成“无目的”：用户只是确认时间，也可能被误算，进而不信任提醒。",
+        "unknowns": "“拿起一次”按什么事件计算，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做减少重复打开的工具时，可以把当天次数放在打开入口，让用户当场看到自己的行为。",
+        "做专注类产品时，可以在容易分心的动作前加一次暂停，给用户重新决定的机会。"
+      ],
+      "validation_questions": [
+        "连续测试只看时间、解锁后退出和打开应用，检查拿起次数如何变化。",
+        "打开被暂停的应用，检查暂停是否真的给了用户取消打开的机会。"
+      ],
+      "source_tagline": "The launcher that counts how often you pick up your phone",
+      "source_description": "An Android launcher built around pickups, not screen time. A quiet home screen shows today's task, how many times you've looked at your phone (and how many for nothing) and the six tools you actually use. Time sinks get a pause. No server, no account, no ads."
     },
     {
       "id": "1255125",
       "name": "Kleanly",
       "name_zh": "Kleanly",
-      "tagline_zh": "One tap in the notch locks your keyboard and trackpad",
-      "description_zh": "Kleanly lives in your MacBook's notch. Tap it once and your keyboard and trackpad are locked, so you can wipe everything down while your video keeps playing. Kids can slap the keys during a cartoon and nothing gets typed. Double tap the trackpad when you're done. New since our first launch: the notch control, in-app updates, moving your license to a new Mac yourself, and a small tab on displays without a notch.",
-      "intro_zh": "",
+      "tagline_zh": "点一下刘海区域，即可锁定键盘和触控板",
+      "description_zh": "Kleanly 在 MacBook 刘海区域提供控制入口，点一下即可锁定键盘和触控板，方便在视频继续播放时擦拭设备，或防止孩子乱按键造成输入，结束后双击触控板即可解锁。此次更新增加了刘海控制、应用内更新、自助迁移许可证，以及无刘海屏幕上的小标签入口。",
+      "intro_zh": "给想擦拭 MacBook 或防止孩子误按的用户用，暂时锁住键盘和触控板，保留视频播放。",
       "url": "https://www.producthunt.com/products/kleanly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NLGKRL4WVCPGO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/76a62074-ab64-48d6-85b9-f180df3c8af9.jpeg?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "清洁和防误触的场景明确，但解锁是否容易误触仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "屏蔽触控板输入时仍需识别解锁手势，有具体取舍可分析。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "暂时禁用操作但保留内容播放的做法，可借用于其他防误触场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最实用的是清洁时不必中断播放；最影响判断的是解锁手势能否避开擦拭造成的误触。",
+      "product_analysis": {
+        "target_problem": "擦拭 MacBook，或让孩子看动画时，碰到键盘和触控板可能打断当前操作。用户需要暂时阻止输入，同时保留画面播放。",
+        "workflow": "点击刘海区域入口，锁住键盘和触控板；结束后双击触控板解锁。无刘海屏幕可用小标签入口。",
+        "ai_value": "介绍没提 AI，主要靠暂时屏蔽输入来改善体验。",
+        "differentiation": "它把防误触变成一次点击，不必停下视频。可能让人犹豫的是：擦拭触控板时会不会意外解锁。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2861bf29-a0cf-4587-87ce-79bde69210f3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持键盘与触控板锁定、双击解锁，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接收系统的键盘和触控板输入，在锁定时阻止它们传给应用，再单独识别双击来退出锁定。",
+        "tradeoffs": "最难的是区分清洁触碰和解锁双击。判断太宽会意外恢复输入，太严又会让用户解不开。",
+        "unknowns": "这种输入控制需要用户授予哪些系统权限，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做播放或展示工具时，可以增加临时防误触模式：保留内容运行，只禁用会打断观看的操作，并提供明确的退出动作。"
+      ],
+      "validation_questions": [
+        "锁定后正常擦拭触控板，会不会意外触发双击解锁？",
+        "首次启用时，需要授予哪些系统权限？"
+      ],
+      "source_tagline": "One tap in the notch locks your keyboard and trackpad",
+      "source_description": "Kleanly lives in your MacBook's notch. Tap it once and your keyboard and trackpad are locked, so you can wipe everything down while your video keeps playing. Kids can slap the keys during a cartoon and nothing gets typed. Double tap the trackpad when you're done. New since our first launch: the notch control, in-app updates, moving your license to a new Mac yourself, and a small tab on displays without a notch."
     },
     {
       "id": "1240702",
       "name": "Psst",
       "name_zh": "Psst",
-      "tagline_zh": "A shared shopping list that remembers what things cost",
-      "description_zh": "Psst is a shared shopping list. The useful part is that it remembers what you paid. Photograph a receipt and the lines come back structured, each one showing a crop of the row it came from and what that item cost last time, and where. Most of the work went into not saying so when it isn't sure. Two prices in different units are never compared, and comparison is on unit price, not the line total: buying 2kg instead of 1kg is not a price rise. iOS and Android.",
-      "intro_zh": "",
+      "tagline_zh": "记得商品价格的共享购物清单",
+      "description_zh": "Psst 是一款支持 iOS 和 Android 的共享购物清单，拍摄小票后会整理出商品明细，每项附上对应的小票截图，以及上次购买的价格和地点。它按单位价格而非整行总价比较，不比较单位不同的价格，并强调在不确定时不贸然给出判断。",
+      "intro_zh": "给一起采购的家庭或室友用，把购物清单共享起来，拍小票记录花费，再查看商品上次在哪里买、多少钱。",
       "url": "https://www.producthunt.com/products/psst-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MLWY6NOJS66A5U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3271d60d-b1e4-4de3-8b9a-0770aafe33ee.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "共同采购和回看历史价格的用途明确，实际识别质量仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "单位价格比较和不确定时暂不判断，都对应具体的出错风险。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "结果附原始凭据的做法，可直接借用于票据整理类产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是能直接对照小票核查价格记录；最影响判断的是，它能否可靠匹配两次购买的同一种商品。",
+      "product_analysis": {
+        "target_problem": "一起采购的人可能需要回看上次买了什么、花了多少。只看总价容易误判：买得更多，不代表单价涨了。",
+        "workflow": "共享购物清单，拍摄小票后查看整理出的商品明细。每项可对照原始行截图，并查看上次的价格和购买地点。",
+        "ai_value": "介绍没提 AI，主要靠小票明细整理和历史单价对照来改善体验。",
+        "differentiation": "把价格记录与原始凭据放在一起，减少翻找核对。持续拍小票可能是让人不愿坚持的原因。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d3b28b68-fb80-4f6c-a288-8b9b892d7c26)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到小票结构化、逐行截图和按单位价格比较，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从小票图片提取商品、数量和金额，再匹配历史商品；确认单位一致后计算单价，保留原图供核对。",
+        "tradeoffs": "最难的是确认两次记录能否比较。商品或计量单位配错，就可能把不同规格误报成涨价。",
+        "unknowns": "遇到商品缩写或规格变化时，如何确认是同一种商品？"
+      },
+      "transferable_insights": [
+        "做票据或报销工具时，可在每条提取结果旁附原图局部，让用户就地核对。"
+      ],
+      "validation_questions": [
+        "拍一张明细较密的小票，检查每项金额是否对应正确的原始行。",
+        "录入同种商品不同重量的两次购买，检查是否按单位价格比较。"
+      ],
+      "source_tagline": "A shared shopping list that remembers what things cost",
+      "source_description": "Psst is a shared shopping list. The useful part is that it remembers what you paid. Photograph a receipt and the lines come back structured, each one showing a crop of the row it came from and what that item cost last time, and where. Most of the work went into not saying so when it isn't sure. Two prices in different units are never compared, and comparison is on unit price, not the line total: buying 2kg instead of 1kg is not a price rise. iOS and Android."
+    },
+    {
+      "id": "1237651",
+      "name": "Eclatira",
+      "name_zh": "Eclatira",
+      "tagline_zh": "可接入各类技术系统的对话式视频智能体",
+      "description_zh": "Eclatira 供开发者向应用接入实时对话式视频 AI，支持原生语音对话和实时视觉。简介称，它可通过自定义接口、MCP（让 AI 连接外部工具的通用方式）及 3,000 多个应用执行操作，帮助开发者构建能自主处理任务的视频智能体。",
+      "intro_zh": "给开发者用，把能听、能看、能调用外部工具的对话式视频 AI 接入自己的应用。",
+      "url": "https://www.producthunt.com/products/eclatira?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/P76YJSQUC3QKHK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/867b1089-8580-47b9-8cea-895e99be9356.png?auto=format",
+      "votes_count": 312,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "接入需求清楚，但能省多少开发工作、适用哪些任务仍不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把实时对话接到实际操作上，值得关注误解如何变成误操作。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "对话中调用工具的做法可借鉴，但缺少具体接入案例。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是对话之后能直接调用工具办事。最影响判断的是执行前的确认能力，接入应用数量不能回答这个问题。",
+      "product_analysis": {
+        "target_problem": "面向想在应用里加入视频 AI 助手的开发者。难处是既要让助手听懂、看懂，又要让它调用工具办事。",
+        "workflow": "开发者将它接入应用，并连接外部工具。用户通过语音和实时画面交流，智能体可调用工具执行操作；具体接入步骤未说明。",
+        "ai_value": "AI 处理语音对话和实时视觉，再结合外部工具执行任务。简介未说明这些能力如何配合。",
+        "differentiation": "可能省去分别接入对话、视觉和执行工具的部分工作。我会先确认它能否连接团队现有系统。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到原生语音对话、实时视觉，以及自定义 API（软件间传数据、发指令的接口）和 MCP 接入。",
+        "possible_approach": "如果自己做，可以先接入实时音视频，让 AI 理解请求，再把请求交给获准使用的工具执行，并返回结果。",
+        "tradeoffs": "最容易出错的是把对话理解成操作指令。若用户只是在讨论，助手却执行了修改，就可能改错数据。",
+        "unknowns": "执行会修改数据的操作前，能否要求用户确认？"
+      },
+      "transferable_insights": [
+        "做语音或视频助手时，可把工具执行结果带回对话，让用户知道操作是否完成；前提是工具能返回明确结果。"
+      ],
+      "validation_questions": [
+        "用一句含糊的修改请求，检查它是否先确认再执行。",
+        "选一个现有业务接口，检查能否完成一次调用并返回正确结果。"
+      ],
+      "source_tagline": "Conversational Video Agent That Plugs Into Any Stack",
+      "source_description": "Plug real-time conversational video AI into any application. Eclatira gives developers native voice-to-voice, live vision, and full-stack execution across custom APIs, MCPs, and 3,000+ apps. Ship autonomous multimodal video agents fast."
+    },
+    {
+      "id": "1261392",
+      "name": "MakerMap",
+      "name_zh": "MakerMap",
+      "tagline_zh": "持续更新的创作者地图，看看大家正在做什么",
+      "description_zh": "MakerMap 汇集创作者及其产品，简介称可发现超过 4,000 位创作者及产品，按细分领域、地点、兴趣或正在做的项目搜索。你可以浏览动态个人资料，寻找想认识的人，也可以把自己加入地图。",
+      "intro_zh": "给想认识同行的创作者用，按领域、地点和在做的项目找人，也能展示自己的项目。",
+      "url": "https://www.producthunt.com/products/makermap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EIO5PNY6Z5YWJB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ac21675d-a9bf-4cd4-bd37-8a1f0f176f49.jpeg?auto=format",
+      "votes_count": 186,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找同行的场景明确，但资料是否新鲜、能否找到合适的人尚待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "人物与项目资料如何持续更新，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让用户按正在做的事情找人，可借用于专业社区。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重按具体项目找人，比只看身份更容易判断交流价值。最影响判断的是资料能否持续更新，历史缓存中的“动态”还不足以说明这一点。",
+      "product_analysis": {
+        "target_problem": "创作者想找同领域或附近的同行时，需要知道对方正在做什么。只有姓名和身份，可能不足以判断是否值得认识。",
+        "workflow": "按领域、地点、兴趣或在做的项目搜索，再查看个人资料，筛选想认识的人。也可以把自己加入地图；简介未说明如何联系对方。",
+        "ai_value": "介绍没提 AI，主要靠集中展示人物和项目、提供搜索来改善找人体验。",
+        "differentiation": "把“人”和“正在做的项目”放在一起，方便判断交流话题。若目标圈子里的人太少，用户可能仍留在原有社区。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到搜索和动态个人资料，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集个人资料和项目，再按地点、兴趣、领域整理成可搜索的目录，并让本人更新。",
+        "tradeoffs": "最难的是保持项目状态新鲜。若已经停做的项目仍被展示，用户可能找错交流对象。",
+        "unknowns": "所谓动态个人资料，是本人维护，还是会自动更新？"
+      },
+      "transferable_insights": [
+        "做专业社区时，可让成员填写“正在做什么”，并把它作为找人的条件，帮助用户从具体话题开始交流。"
+      ],
+      "validation_questions": [
+        "用一个熟悉的细分领域搜索，结果中有多少人的项目确实相关？",
+        "抽查几份资料，核对其项目状态是否仍与本人公开信息一致？"
+      ],
+      "source_tagline": "A living map of makers and what they’re building",
+      "source_description": "MakerMap is a living map of the maker world. Discover 4,000+ makers and products, search by niche, location, interests or what people are building, explore live profiles, and find people worth meeting. Add yourself and become part of the map."
     },
     {
       "id": "1258888",
       "name": "Lisen",
       "name_zh": "Lisen",
-      "tagline_zh": "Free Read Aloud with Cartesia Voices",
-      "description_zh": "Free read aloud for any article with your Cartesia voices. No subscription on top of your Cartesia plan.",
-      "intro_zh": "",
+      "tagline_zh": "使用 Cartesia 声音的免费文章朗读工具",
+      "description_zh": "用你在 Cartesia 的声音朗读文章。产品称，无需在 Cartesia 套餐之外另付订阅费。",
+      "intro_zh": "给已有 Cartesia 套餐、想听文章的人用，把文章用自己在 Cartesia 的声音读出来。",
       "url": "https://www.producthunt.com/products/lisen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UJ7DHXZZAECDGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/cd15257f-5ae5-45e2-a986-18c7402f1d73.jpeg?auto=format",
       "votes_count": 107,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "听文章的用途清楚，但使用范围和实际费用仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "正文提取会直接影响朗读是否可用，但介绍没交代处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "围绕用户已有服务做轻量工具可以借鉴，但接入条件不明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是不额外收订阅费的收费安排，但它不等于零成本，实际如何消耗 Cartesia 额度会影响判断。",
+      "product_analysis": {
+        "target_problem": "已有 Cartesia 套餐的人，想在不方便看屏幕时听文章。Lisen 提供朗读用途，并称不再收一份订阅费。",
+        "workflow": "用户用自己在 Cartesia 的声音收听文章。简介没说明文章如何导入，也没说明如何连接 Cartesia。",
+        "ai_value": "介绍没提 AI，主要靠文字转语音，也就是把文章读出来，改善阅读体验。",
+        "differentiation": "省下的可能是另一份朗读工具订阅费。最可能挡住新用户的是：仍要先有 Cartesia 套餐。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 05424043-c32d-4c37-86aa-6611aa5c6e36)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说使用 Cartesia 的声音朗读文章，没说具体接入技术。",
+        "possible_approach": "如果自己做，可以先提取文章正文，再交给语音服务生成音频，最后提供播放。",
+        "tradeoffs": "最容易出错的是正文提取：若混入导航和广告，用户会听到与文章无关的内容。",
+        "unknowns": "“免费”是否仍会消耗 Cartesia 套餐额度，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做已有服务的辅助工具时，可以只补一个高频任务，例如把用户已有的语音服务用于文章朗读，不另建一套订阅。"
+      ],
+      "validation_questions": [
+        "用一篇带广告和侧栏的文章，检查朗读是否只包含正文。",
+        "朗读一篇文章后，检查 Cartesia 的用量记录是否增加。"
+      ],
+      "source_tagline": "Free Read Aloud with Cartesia Voices",
+      "source_description": "Free read aloud for any article with your Cartesia voices. No subscription on top of your Cartesia plan."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,510 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-29T03:19:10+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:33:24+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1214277",
-      "name": "Skydive",
-      "name_zh": "Skydive",
-      "tagline_zh": "Build cloud agents that work across your tools",
-      "description_zh": "Build cloud agent coworkers that take on real, multi-step work across the tools you already use. Describe the outcome you want, and Skydive creates a working agent in minutes. No code, no prompt engineering, no workflow wiring required. Skydive agents live in your stack, execute repeatable work, and get sharper over time.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/YLZ2MF3E6WGU67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/aa941090-e357-44a8-a87f-7d446573efc5.png?auto=format",
-      "votes_count": 406,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1227752",
-      "name": "Enter Pro",
-      "name_zh": "Enter Pro",
-      "tagline_zh": "The AI-native platform to build and scale your apps",
-      "description_zh": "Building what runs a business takes more than code. Enter Pro is the AI-native platform that turns an idea into a working product. Plan, build, preview, launch, and scale apps, websites, and custom AI agents in one continuous workspace. Models, databases, authentication, hosting, payments, analytics, and localization are built in—so teams can ship software built for real business, not just prototypes.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BLPV3H4S2Y7TQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3f9f66f3-f330-4eb9-b1b2-7ac4321515e3.png?auto=format",
-      "votes_count": 381,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1113358",
       "name": "Lenz",
       "name_zh": "Lenz",
-      "tagline_zh": "Independent, multi-model fact-checking API for AI workflows",
-      "description_zh": "Lenz is an AI fact-checking API for products that cannot afford to hallucinate. It extracts verifiable claims from any text, then checks each one: searching independent sources, running multi-model debate, and routing through a review panel — returning a scored verdict with every source, argument, and step visible. Most AI tools give you one model's best guess from memory. Lenz ensures no single model's blind spots drive the conclusion. Available as API and MCP. Try it free at lenz.io/ph",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 工作流的独立、多模型事实核查接口",
+      "description_zh": "Lenz 从文本中提取可核查的陈述，搜索独立来源，再经多模型辩论和评审环节，返回带评分的判断，并展示来源、论据及过程。它提供 API 和 MCP 接入，目标是减少单个模型盲点对结论的影响。",
+      "intro_zh": "给需要核查 AI 文本的产品团队用，把可验证的陈述逐条检查，返回判断和依据。",
       "url": "https://www.producthunt.com/products/lenz-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4USMUFE5GNEFA6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/d33034fb-de14-42fb-a6fc-57b516d0b595.png?auto=format",
       "votes_count": 252,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "核查对象和返回结果清楚，但准确性与接入收益尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多模型如何处理相同的错误证据，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "逐条判断并展示证据的做法，可借用于内容审核。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重逐条展示依据，方便人工复核；但多模型是否真正使用独立证据，决定它能否减少共同误判。",
+      "product_analysis": {
+        "target_problem": "产品团队把 AI 文本交给用户前，需要知道哪些陈述有依据。麻烦在于一段文字可能混着多个事实，不能只给整段一个可信分。",
+        "workflow": "通过 API（软件间传数据的接口）提交文本。系统提取陈述、查找来源、组织多模型辩论和评审，再返回逐条评分及核查过程。",
+        "ai_value": "AI 负责提取待核查陈述，并让多个模型参与讨论；介绍没有说明评审环节是否有人参与。",
+        "differentiation": "它把找依据和给出判断放进一次调用。最可能阻碍接入的是等待时间，介绍没有提供耗时数据。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到来源搜索、多模型辩论、评审，以及 MCP（一种让 AI 工具接入外部服务的连接规范）。",
+        "possible_approach": "如果自己做，可以先拆出可核查陈述，再逐条检索证据，让多个模型评议，最后保留判断与原文证据的对应关系。",
+        "tradeoffs": "最容易出错的是把多处转载当成独立证据。多个模型若据此达成一致，仍可能给错误结论打高分。",
+        "unknowns": "评分表示证据充分程度，还是陈述为真的概率？介绍没解释。"
+      },
+      "transferable_insights": [
+        "做内容审核时，可以给每条判断附上对应证据，让用户能回到原文复查，而不只看到总分。"
+      ],
+      "validation_questions": [
+        "提交带时间限定的陈述，检查提取后是否保留该限定。",
+        "检查同一结论引用的多个来源，是否实际来自同一篇原始报道。"
+      ],
+      "source_tagline": "Independent, multi-model fact-checking API for AI workflows",
+      "source_description": "Lenz is an AI fact-checking API for products that cannot afford to hallucinate. It extracts verifiable claims from any text, then checks each one: searching independent sources, running multi-model debate, and routing through a review panel — returning a scored verdict with every source, argument, and step visible. Most AI tools give you one model's best guess from memory. Lenz ensures no single model's blind spots drive the conclusion. Available as API and MCP. Try it free at lenz.io/ph"
     },
     {
       "id": "1233567",
       "name": "Speko",
       "name_zh": "Speko",
-      "tagline_zh": "OpenRouter for Voice",
-      "description_zh": "One API for speech-to-text, language models, and text-to-speech, with public benchmarks beside runtime availability.",
-      "intro_zh": "",
+      "tagline_zh": "语音领域的 OpenRouter",
+      "description_zh": "用一个接口连接语音转文字、语言模型和文字转语音。公开基准测试与运行时可用性信息并列展示。",
+      "intro_zh": "给开发语音应用的团队用，通过一个接口调用语音转写、语言模型和语音合成，并查看测试与可用性信息。",
       "url": "https://www.producthunt.com/products/speko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DCVFCRIIY6FU7L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bf2630fd-f86a-41bf-8488-b93a7ea565e7.png?auto=format",
       "votes_count": 249,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "统一接入的用途清楚，但实际能省多少适配工作尚未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "统一调用后如何处理不同服务的输入输出差异，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把测试表现和当前可用性放在一起，可借用于服务选型工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重减少重复接入工作，但最影响判断的是统一接口会不会限制原服务能力；历史缓存不足以确认这一点。",
+      "product_analysis": {
+        "target_problem": "开发语音助手的团队需要接入听写、生成回答和朗读。若分别接入不同服务，就要处理各自的调用方式。",
+        "workflow": "开发者通过统一接口调用所需能力，并结合公开测试和运行时可用性信息选择服务。简介没说明具体接入步骤。",
+        "ai_value": "语音识别把声音转成文字，语言模型处理文字，语音合成再把文字读出来。不能据此认定它会自动串好整个流程。",
+        "differentiation": "它可能减少分别适配服务的工作。最可能让团队犹豫的是：统一接口能否保留原服务需要的参数。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1233386",
-      "name": "Gemini 3.5 Transcribe",
-      "name_zh": "Gemini 3.5 Transcribe",
-      "tagline_zh": "Our most precise speech-to-text model yet",
-      "description_zh": "Our latest speech-to-text model designed for precise and intelligent real-time transcription.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/gemini-3-5-transcribe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JBVAAWRYCWB575?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/89c21e8a-7915-4c10-b3c0-e51bca85bf08.jpeg?auto=format",
-      "votes_count": 224,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提供统一 API（软件之间传递请求和结果的接口），覆盖三类能力，并展示公开测试与运行时可用性。",
+        "possible_approach": "如果自己做，可以先定义统一的请求和返回格式，再为各服务写转换代码，最后并列展示测试结果和可用状态。",
+        "tradeoffs": "最容易出错的是格式转换漏掉参数，导致接入后无法使用某项原有能力。",
+        "unknowns": "运行时可用性多久更新一次，简介没说。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多服务选型工具时，可以把测试表现与当前可用状态并排放，让用户同时判断效果和能否调用。"
+      ],
+      "validation_questions": [
+        "选一个需要特定参数的语音服务，检查统一接口能否完整传入。",
+        "对照一次实际调用，检查页面显示的可用状态是否一致。"
+      ],
+      "source_tagline": "OpenRouter for Voice",
+      "source_description": "One API for speech-to-text, language models, and text-to-speech, with public benchmarks beside runtime availability."
     },
     {
       "id": "1229394",
       "name": "Traccia",
       "name_zh": "Traccia",
-      "tagline_zh": "Finally, a vendor-neutral AI Agent Control Plane.",
-      "description_zh": "Traccia is a vendor-neutral AI Agent Control Plane built for teams running autonomous agents in production. Observe agent behavior, evaluate performance, govern actions with policies and runtime controls, and maintain an auditable trail of what happened. Built with an open, developer-first SDK and OpenTelemetry, Traccia works across models, frameworks, and existing observability stacks—so teams can control their agents without being locked into a single AI vendor.",
-      "intro_zh": "",
+      "tagline_zh": "不绑定单一厂商的 AI 智能体管控平台。",
+      "description_zh": "Traccia 面向在生产环境运行自主智能体的团队，用于观察行为、评估表现、用策略和运行时控制约束动作，并保留可审计记录。介绍称，它采用开放的开发工具包和 OpenTelemetry，可连接不同模型、框架及已有监控系统，减少对单一 AI 厂商的依赖。",
+      "intro_zh": "给已上线 AI 智能体的团队用，查看它做了什么、评估表现，并用规则约束动作、保留记录。",
       "url": "https://www.producthunt.com/products/traccia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/5JRWFAAE2P7DIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/972e65aa-aab5-42bd-9eb5-f959026f39f3.png?auto=format",
       "votes_count": 192,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "上线后的观察、约束和追查需求明确，但实际控制范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "记录行为与及时阻止动作是两件事，两者如何配合值得细看。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把动作约束与审计记录一起设计，可借用于其他自动执行任务的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它同时关注行为记录和动作约束；但能否真正阻止越界动作，比接入多少模型更影响使用判断。",
+      "product_analysis": {
+        "target_problem": "自主智能体上线后，团队需要知道它做了什么，也需要限制它能做什么。跨模型和框架运行时，这些管理工作可能分散在不同工具里。",
+        "workflow": "通过开发工具包接入智能体，观察行为并评估表现；用策略和运行时控制约束动作，事后查看审计记录。具体配置步骤未说明。",
+        "ai_value": "它管理 AI 智能体的运行。介绍没说评估或策略判断本身是否使用 AI。",
+        "differentiation": "它把观察、约束和追查放在一起，并强调不绑定单一厂商。团队可能犹豫的是：已有智能体需要改多少代码才能接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到开放的 SDK（供开发者接入的工具包）和 OpenTelemetry（统一采集、传递运行记录的标准工具）。",
+        "possible_approach": "如果自己做，可以先记录每次任务和动作，再在执行动作前检查规则，把放行或拒绝的结果一起保存。",
+        "tradeoffs": "最难的是在动作执行前真正拦住它。若只记下违规，智能体可能已经发出消息或修改了数据。",
+        "unknowns": "运行时控制能覆盖哪些动作，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做自动发信、改数据等功能时，把规则检查放在执行前，并保存判断结果，方便追查为什么放行。"
+      ],
+      "validation_questions": [
+        "设置一条禁止规则，检查被禁止的动作是否确实没有执行。",
+        "跑一次跨模型任务，检查记录能否串起完整过程。"
+      ],
+      "source_tagline": "Finally, a vendor-neutral AI Agent Control Plane.",
+      "source_description": "Traccia is a vendor-neutral AI Agent Control Plane built for teams running autonomous agents in production. Observe agent behavior, evaluate performance, govern actions with policies and runtime controls, and maintain an auditable trail of what happened. Built with an open, developer-first SDK and OpenTelemetry, Traccia works across models, frameworks, and existing observability stacks—so teams can control their agents without being locked into a single AI vendor."
     },
     {
       "id": "1207898",
       "name": "Yomi",
       "name_zh": "Yomi",
-      "tagline_zh": "A little cat who loves being read to",
-      "description_zh": "Yomi is a little cat who gets fed when kids read stories aloud. Speech recognition listens along, kids can tap any tricky word to hear it, and a simple wizard lets them make up their own stories to read back. Real stories come at three levels, so kids pick what feels right today. What's not in it: streaks, ads, accounts, or data collection. No one loses a 14-day streak at bedtime. Yomi won't teach your kid to read, it gives them a reason to practice. Ages 5–9, English & Finnish, iOS.",
-      "intro_zh": "",
+      "tagline_zh": "一只爱听人读故事的小猫",
+      "description_zh": "Yomi 面向 5—9 岁儿童，让孩子通过朗读故事喂养小猫，提供语音识别跟读、点词听读、编故事向导和三个阅读难度，支持英语、芬兰语及 iOS。简介称它不设连续打卡、广告或账号，也不收集数据；它鼓励阅读练习，不负责教孩子识字。",
+      "intro_zh": "给 5—9 岁儿童用的朗读练习应用，让孩子读故事喂小猫，遇到难词可以点一下听读音。",
       "url": "https://www.producthunt.com/products/yomi-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RC7DBOADGEXTNO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ed9550f3-2a2b-45c9-83b9-e9c9bc21988b.png?auto=format",
       "votes_count": 151,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "练习对象和激励方式清楚，但能否持续带动朗读尚无验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "儿童朗读识别与奖励反馈之间有具体的准确性难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把练习变成照顾角色的动作，同时避免连续打卡压力，做法具体。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它不靠连续打卡制造压力；最影响判断的是，识别出错时会不会让孩子失去练习动力。",
+      "product_analysis": {
+        "target_problem": "适合需要练习朗读、但缺少练习动力的孩子。它给朗读增加一个照顾小猫的理由，不承担识字教学。",
+        "workflow": "孩子选择合适难度的故事并朗读，语音识别听读，朗读会喂养小猫。难词可点按听读，也能用向导编故事再读。",
+        "ai_value": "介绍明确提到语音识别，用来听孩子朗读；没说编故事是否使用生成式 AI。",
+        "differentiation": "点词听读可能减少卡在生词上的停顿。最可能影响继续使用的是，小猫奖励能否长期吸引孩子。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到语音识别和点词听读，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先把故事拆成可点读的词，再把识别出的朗读与原文对照，用阅读进度触发喂食。",
+        "tradeoffs": "最难的是处理孩子停顿、重复或发音不准。若把正常练习判成没读，孩子可能反复读却得不到反馈。",
+        "unknowns": "语音是否在设备上处理？“不收集数据”的说法还不足以说明处理位置。"
+      },
+      "transferable_insights": [
+        "做儿童练习产品时，可以把完成练习变成照顾角色的动作，不用断签惩罚催促回访。"
+      ],
+      "validation_questions": [
+        "让孩子自然停顿、重复朗读，检查喂食反馈是否仍与实际进度一致。",
+        "断网后朗读，检查语音识别能否继续工作。"
+      ],
+      "source_tagline": "A little cat who loves being read to",
+      "source_description": "Yomi is a little cat who gets fed when kids read stories aloud. Speech recognition listens along, kids can tap any tricky word to hear it, and a simple wizard lets them make up their own stories to read back. Real stories come at three levels, so kids pick what feels right today. What's not in it: streaks, ads, accounts, or data collection. No one loses a 14-day streak at bedtime. Yomi won't teach your kid to read, it gives them a reason to practice. Ages 5–9, English & Finnish, iOS."
     },
     {
       "id": "1232678",
       "name": "GitNexus (Akon Labs)",
       "name_zh": "GitNexus (Akon Labs)",
-      "tagline_zh": "The open-source kernel for coding agents",
-      "description_zh": "GitNexus (45k Github stars) is a Knowledge Graph Kernel that unifies every codebase in your org into one source of truth your coding agents can query. It resolves your code into a deterministic graph, so agents get exact callers, imports, and impact instead of embedding guesses, across every repo and SCM you run. On our public benchmark (https://www.akonlabs.com/benchmarks), coding agent runs 51% cheaper with GitNexus connected. It works with any agent over MCP.",
-      "intro_zh": "",
+      "tagline_zh": "面向编程智能体的开源内核",
+      "description_zh": "GitNexus 将组织内的代码库整理成知识图谱，供编程智能体查询调用、导入和修改影响；简介称其拥有 4.5 万 GitHub 星标，可通过 MCP 连接各类智能体。产品方称，在其公开基准测试中，接入后智能体运行成本降低了 51%，但缓存资料不足以核验测试条件。",
+      "intro_zh": "给使用编程智能体的开发团队，把多个代码库的调用和依赖关系整理出来，供智能体查询。",
       "url": "https://www.producthunt.com/products/gitnexus-akon-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RSJUDWOS6W4RS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/adb6a101-c9ef-4ce9-9d77-ae832c7b60b5.png?auto=format",
       "votes_count": 146,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨代码库查依赖的用途清楚，但节省成本的适用条件未交代。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让代码关系随修改保持准确，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先查询结构关系再让智能体判断，可借用于代码分析工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是让修改建议有可核对的依赖依据；但关系图能否跟上实际代码版本，直接影响这些依据是否可信。",
+      "product_analysis": {
+        "target_problem": "开发团队让智能体修改多个仓库时，需要查清谁调用了目标代码、改动会影响哪里。只找相似代码片段，可能漏掉真实依赖。",
+        "workflow": "将组织代码库整理成可查询的关系图，再让编程智能体连接它，查询调用方、导入关系和影响范围。简介没给出具体接入步骤。",
+        "ai_value": "它为编程智能体提供代码关系依据，帮助其判断改哪里；资料没有说明它自身是否用 AI 建图。",
+        "differentiation": "把依赖查询集中起来，可能减少智能体反复翻找代码。团队是否愿意接入，可能取决于现有语言和仓库能否被正确解析。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其将代码解析成确定性关系图，并通过 MCP（让智能体连接外部工具的协议）提供查询。",
+        "possible_approach": "如果自己做，可以先解析函数和导入声明，再连接调用关系，最后提供查询工具，让智能体按目标符号查依赖。",
+        "tradeoffs": "最容易出错的是更新关系图：代码改了而图没更新，智能体就可能漏改调用方。",
+        "unknowns": "跨仓库依赖能否对应到实际使用的版本，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做代码审查助手时，可以先列出改动涉及的调用方，再让模型判断风险，并保留对应代码位置供人核对。"
+      ],
+      "validation_questions": [
+        "选一处已知的跨仓库调用，检查查询结果是否漏掉调用方。",
+        "修改一个函数的调用关系，检查查询结果何时反映变化。"
+      ],
+      "source_tagline": "The open-source kernel for coding agents",
+      "source_description": "GitNexus (45k Github stars) is a Knowledge Graph Kernel that unifies every codebase in your org into one source of truth your coding agents can query. It resolves your code into a deterministic graph, so agents get exact callers, imports, and impact instead of embedding guesses, across every repo and SCM you run. On our public benchmark (https://www.akonlabs.com/benchmarks), coding agent runs 51% cheaper with GitNexus connected. It works with any agent over MCP."
     },
     {
       "id": "1230722",
       "name": "SpacebarX",
       "name_zh": "SpacebarX",
-      "tagline_zh": "A keyboard-first outliner for notes, tasks and projects",
-      "description_zh": "SpacebarX is a keyboard-first, local-first outliner for notes, tasks, writing, markdown, code, and projects. Capture and organize from the keyboard, add dates inline, and let Today collect what needs attention. Search across your workspace while keeping every note in context. It works offline and syncs through a cloud folder you control. Free forever. Pro adds visual views, saved searches, encrypted documents, version restore, Calendar, uploads, and BYOK AI.",
-      "intro_zh": "",
+      "tagline_zh": "以键盘操作为主的大纲工具，用来管理笔记、任务和项目",
+      "description_zh": "SpacebarX 是以键盘操作为主、优先在本地保存数据的大纲工具，支持笔记、任务、写作、Markdown、代码和项目；可用键盘记录整理、行内添加日期、在 Today 汇集待关注事项，并搜索整个工作区、保留笔记上下文，支持离线使用和通过自选云文件夹同步。简介称基础版永久免费，Pro 增加可视化视图、已保存搜索、加密文档、版本恢复、日历、上传和自带密钥的 AI 功能。",
+      "intro_zh": "给习惯用键盘整理工作的人用，把笔记和任务写成层级大纲，再按日期查看需要处理的事项。",
       "url": "https://www.producthunt.com/products/spacebarx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OL3KEVR6WNYKBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3527f39b-4b3c-406b-9002-f6187899ff39.png?auto=format",
       "votes_count": 123,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "记录、组织和按日期找任务的用途清楚，但实际操作体验未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "离线编辑与云文件夹同步有具体难点，但缺少实现说明。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从原笔记汇集日期事项的做法，可借用于文档和任务产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重任务留在笔记上下文里、又能按日期集中查看。最影响判断的是离线修改后的同步是否会丢内容。",
+      "product_analysis": {
+        "target_problem": "习惯键盘操作的人，可能需要在整理笔记时一起安排任务。日期散在不同笔记里，容易漏看。",
+        "workflow": "用键盘记录并组织大纲，在内容中添加日期，再到 Today 查看待关注事项；也可搜索工作区，结合上下文查看笔记。",
+        "ai_value": "Pro 提到自带密钥的 AI，即使用用户自己的 AI 服务访问凭证。介绍没说 AI 具体做什么，主要体验仍靠大纲、日期汇集和搜索。",
+        "differentiation": "日期可直接写进内容，再由 Today 汇集，可能减少另建任务的操作。不愿换用的一个原因可能是需要适应大纲式组织。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持本地优先、离线使用，并通过用户控制的云文件夹同步。",
+        "possible_approach": "如果自己做，可以先把大纲保存在本地，再通过云文件夹交换修改记录；遇到同一内容被两端修改时，保留两版供用户选择。",
+        "tradeoffs": "最难的是合并离线修改。两台设备改了同一条笔记，若直接覆盖，用户可能丢掉一端的内容。",
+        "unknowns": "同步发生冲突时，产品如何保留和呈现不同版本？"
+      },
+      "transferable_insights": [
+        "做文档内任务功能时，可让用户直接在正文标日期，再自动汇集到今日视图，同时保留回到原文的入口。"
+      ],
+      "validation_questions": [
+        "在两台设备离线修改同一条内容，再同步，检查两端修改是否都被保留。",
+        "给不同层级的条目添加日期，检查 Today 是否收齐应显示的事项。"
+      ],
+      "source_tagline": "A keyboard-first outliner for notes, tasks and projects",
+      "source_description": "SpacebarX is a keyboard-first, local-first outliner for notes, tasks, writing, markdown, code, and projects. Capture and organize from the keyboard, add dates inline, and let Today collect what needs attention. Search across your workspace while keeping every note in context. It works offline and syncs through a cloud folder you control. Free forever. Pro adds visual views, saved searches, encrypted documents, version restore, Calendar, uploads, and BYOK AI."
+    },
+    {
+      "id": "1214277",
+      "name": "Skydive",
+      "name_zh": "Skydive",
+      "tagline_zh": "创建能跨工具工作的云端智能体",
+      "description_zh": "Skydive 让用户创建云端智能体，在已有工具中执行多步骤任务和重复工作。介绍称，只需描述目标，无需编程、编写提示词或连接工作流程，几分钟即可创建可工作的智能体，并会随使用逐渐改进。",
+      "intro_zh": "给需要跨多个工具处理重复工作的团队，用目标描述创建智能体，让它执行多步骤任务。",
+      "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YLZ2MF3E6WGU67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/aa941090-e357-44a8-a87f-7d446573efc5.png?auto=format",
+      "votes_count": 406,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "跨工具重复工作的需求明确，但缺少具体任务和执行效果。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多步骤执行中如何避免失败重试造成重复操作，是具体技术问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "从目标生成执行步骤的做法可借鉴，但适用任务范围未说明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重的是用目标描述省去流程配置；最影响判断的是，多步骤任务中断后能否可靠继续。",
+      "product_analysis": {
+        "target_problem": "适合需要在多个工具间反复处理同类任务的团队。麻烦在于一步的结果要交给下一步，任务还要反复执行。",
+        "workflow": "用户描述想要的结果，Skydive 据此创建智能体，再由它在已有工具中执行多步骤工作。介绍没交代工具如何接入。",
+        "ai_value": "智能体负责把目标变成跨工具执行的任务。介绍称它会越用越好，但没有说明如何改进。",
+        "differentiation": "它试图省去手动配置工作步骤的过程。最可能让人犹豫的是，自动生成的步骤是否符合自己的业务规则。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到云端智能体和跨工具执行，没说具体模型或连接技术。",
+        "possible_approach": "如果自己做，可以先把目标拆成步骤，再连接所需工具，逐步执行并保存每步结果。",
+        "tradeoffs": "最容易出错的是失败后的重试：若前一步已成功却再次执行，可能重复创建记录或发送消息。",
+        "unknowns": "未说明支持哪些工具，这直接决定能否用于现有工作。"
+      },
+      "transferable_insights": [
+        "做重复任务自动化时，可以让用户先写目标，再展示生成的步骤供确认，减少从空白流程开始配置的负担。"
+      ],
+      "validation_questions": [
+        "选一项真实任务，检查它需要的工具是否都能接入。",
+        "让任务在中途失败一次，检查重试是否重复执行已完成的操作。"
+      ],
+      "source_tagline": "Build cloud agents that work across your tools",
+      "source_description": "Build cloud agent coworkers that take on real, multi-step work across the tools you already use. Describe the outcome you want, and Skydive creates a working agent in minutes. No code, no prompt engineering, no workflow wiring required. Skydive agents live in your stack, execute repeatable work, and get sharper over time."
+    },
+    {
+      "id": "1227752",
+      "name": "Enter Pro",
+      "name_zh": "Enter Pro",
+      "tagline_zh": "用于构建和扩展应用的 AI 原生平台",
+      "description_zh": "Enter Pro 将规划、构建、预览、发布和扩展应用、网站及自定义 AI 智能体放在同一工作区。简介称平台内置模型、数据库、身份认证、托管、支付、分析和多语言支持，面向实际业务软件的开发。",
+      "intro_zh": "给需要开发业务软件的团队用，把应用、网站和自定义 AI 助手的规划、构建与发布放在同一工作区。",
+      "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BLPV3H4S2Y7TQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3f9f66f3-f330-4eb9-b1b2-7ac4321515e3.png?auto=format",
+      "votes_count": 381,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "开发到上线的需求清楚，但能支撑多复杂的业务尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "生成应用后如何正确处理数据权限，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把预览和发布接在构建后面，可借用于有明确交付结果的工具。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把业务应用所需的配套服务放到一起；最影响判断的是遇到定制需求后，团队能否把代码和数据迁走。",
+      "product_analysis": {
+        "target_problem": "做业务应用的团队，除了写代码，还要准备登录、存储和部署。若以前需要分别接入这些服务，现在可以使用平台内置能力。",
+        "workflow": "在同一工作区规划应用、构建并预览，再发布和扩展。介绍没有说明需求如何输入、修改如何完成。",
+        "ai_value": "平台定位为 AI 原生，也支持自定义 AI 智能体，但没说 AI 具体负责哪些开发步骤，无法判断自动完成的范围。",
+        "differentiation": "省事之处是少做服务接入。团队可能不愿迁入，因为已有业务需要的定制能力未必受支持。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确列出内置模型、数据库、身份认证、托管、支付、分析和多语言支持，未披露具体技术方案。",
+        "possible_approach": "如果自己做，可以先让 AI 把需求拆成页面和数据字段，再接入登录、存储与托管，提供预览和发布。",
+        "tradeoffs": "最容易出错的是数据权限：能登录不等于只能看自己的数据，配置错误可能让用户读到别人的记录。",
+        "unknowns": "生成的代码和数据能否完整导出，迁到其他环境继续运行？"
+      },
+      "transferable_insights": [
+        "做内部工具搭建器时，可以把登录、数据存储和部署做成默认配置，让用户先跑通一个可预览的小应用。"
+      ],
+      "validation_questions": [
+        "建两个普通账号，检查彼此的私有记录是否隔离。",
+        "导出一个最小应用，检查能否在平台外运行。"
+      ],
+      "source_tagline": "The AI-native platform to build and scale your apps",
+      "source_description": "Building what runs a business takes more than code. Enter Pro is the AI-native platform that turns an idea into a working product. Plan, build, preview, launch, and scale apps, websites, and custom AI agents in one continuous workspace. Models, databases, authentication, hosting, payments, analytics, and localization are built in—so teams can ship software built for real business, not just prototypes."
+    },
+    {
+      "id": "1233386",
+      "name": "Gemini 3.5 Transcribe",
+      "name_zh": "Gemini 3.5 Transcribe",
+      "tagline_zh": "产品方称，这是其迄今最准确的语音转文字模型",
+      "description_zh": "这是一款新推出的语音转文字模型，面向实时转写场景。介绍强调准确性和智能化，但未给出具体指标。",
+      "intro_zh": "给需要边听边看文字的人使用，把语音实时转成文本，也可供寻找转写模型的产品团队了解。",
+      "url": "https://www.producthunt.com/products/gemini-3-5-transcribe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JBVAAWRYCWB575?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/89c21e8a-7915-4c10-b3c0-e51bca85bf08.jpeg?auto=format",
+      "votes_count": 224,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "实时转写用途清楚，但适用语言和准确率缺少材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "实时出字与识别准确之间有具体取舍，但介绍未说明处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "边说边出字可用于语音产品，但能否接入仍不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是边说边提供可读文字；但缓存里的“最准确”没有测试依据，尚不能据此判断是否值得替换现有工具。",
+      "product_analysis": {
+        "target_problem": "需要同步阅读语音内容的人会用到它。边听边手记容易漏字，实时转写可以减少人工记录。",
+        "workflow": "介绍支持的过程只有：接收语音，实时输出文字。未说明用户从哪里输入音频、如何取得结果。",
+        "ai_value": "语音转文字模型负责把说话内容识别成文本。“智能”具体包含什么，资料没有解释。",
+        "differentiation": "实时输出可能让用户不必等讲话结束再读全文。但已有转写工具的用户，可能不会仅凭“更准确”的宣传更换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到语音转文字模型和实时转写，未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把连续语音分段送入识别模型，再随着后续语音到来修正文字。",
+        "tradeoffs": "最难的是过早定稿：一句话尚未说完就确定文字，可能识别错；等得太久，又会让文字跟不上说话。",
+        "unknowns": "实时显示的文字是否会被后续识别结果改写？"
+      },
+      "transferable_insights": [
+        "做实时字幕时，可以区分“仍在识别”和“已确认”的文字，让用户知道哪些内容可能变化。"
+      ],
+      "validation_questions": [
+        "用目标场景的一段语音，检查文字出现是否明显落后于说话。",
+        "用带人工校对文本的语音，检查人名、数字等关键信息是否识别正确。"
+      ],
+      "source_tagline": "Our most precise speech-to-text model yet",
+      "source_description": "Our latest speech-to-text model designed for precise and intelligent real-time transcription."
     },
     {
       "id": "1183484",
       "name": "Kira Community",
       "name_zh": "Kira Community",
-      "tagline_zh": "Curate moments with #hashtag",
-      "description_zh": "Kira began as a tool for making beautiful things: turn a photo or a prompt into portraits, cinematic shots, videos. Now it's a place to share them, too. Kira Community is where your creations become moments. Tag your work with #hashtags, keep it on your profile, and browse a feed built around the themes people actually care about; and the people who care about them with you. This is Kira's first step from a tool to a community. Curate your moments, and share them with people who get it.",
-      "intro_zh": "",
+      "tagline_zh": "用 #话题标签整理创作时刻",
+      "description_zh": "Kira 最初是创作工具，可以把照片或文字提示转成人像、电影感画面和视频，现在也支持分享作品。Kira Community 让用户给作品添加话题标签、保存在个人主页，并浏览围绕主题和共同兴趣组织的信息流。",
+      "intro_zh": "给用 Kira 创作图片和视频的人，用话题标签整理、展示作品，也能浏览同主题的其他创作。",
       "url": "https://www.producthunt.com/products/kira-art?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZI2UPV3XXIEI34?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e0dcf019-aeb5-41b6-ad73-30f7a01de1d6.png?auto=format",
       "votes_count": 116,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "创作后整理和分享的用途清楚，但能否找到同好还缺证据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "标签如何组织信息流是具体问题，但介绍没有交代实现方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把作品标签同时用于个人整理和公共浏览，可供创作类产品借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是作品整理和公开发现共用标签；最大的疑问是主题里能否持续出现足够相关的作品。",
+      "product_analysis": {
+        "target_problem": "面向做完图片或视频后，还想展示作品、寻找同好的人。资料明确的变化是：以前 Kira 侧重制作，现在也能分享和浏览。",
+        "workflow": "用照片或文字提示创作，为作品加话题标签，留在个人主页；也可以浏览按主题组织的信息流。",
+        "ai_value": "介绍没明确提 AI，只说明能从照片或文字提示生成内容。社区部分主要靠标签和信息流帮助发现作品。",
+        "differentiation": "把创作后的展示也放进同一产品，可能减少转到别处发布的操作。但目标主题下若作品太少，用户可能仍留在原有社区。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持话题标签、个人主页和主题信息流，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存作品及其作者、标签，再按标签汇集作品，提供个人主页和主题浏览入口。",
+        "tradeoffs": "最容易出错的是标签与内容不匹配。若无关作品混入主题，用户就得反复筛选，难以找到想看的内容。",
+        "unknowns": "主题信息流如何决定作品的展示顺序，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做图片或视频创作工具时，可以让同一组标签既整理个人作品，也成为其他人发现作品的入口，减少重复填写。"
+      ],
+      "validation_questions": [
+        "选一个自己关心的标签，检查其中的作品是否确实符合主题。",
+        "发布一件带标签的作品，检查它能否出现在对应主题的信息流里。"
+      ],
+      "source_tagline": "Curate moments with #hashtag",
+      "source_description": "Kira began as a tool for making beautiful things: turn a photo or a prompt into portraits, cinematic shots, videos. Now it's a place to share them, too. Kira Community is where your creations become moments. Tag your work with #hashtags, keep it on your profile, and browse a feed built around the themes people actually care about; and the people who care about them with you. This is Kira's first step from a tool to a community. Curate your moments, and share them with people who get it."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

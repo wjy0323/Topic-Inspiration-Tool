@@ -1,367 +1,511 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-09T20:12:54+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:30:22+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1233670",
       "name": "Switch",
       "name_zh": "Switch",
-      "tagline_zh": "Bring any AI agent into Slack, Teams & Discord",
-      "description_zh": "Switch brings AI agents into the collaboration tools your team already uses. Agents join as named participants in your Slack, Teams, Discord, or Telegram channels, sharing the same context and history as your team. Connect an agent once and use it across projects. Each room carries its own context, participants, and rules. Works with Claude Code, OpenAI, Google ADK, LangChain, and more. Open source, self-hostable, running in minutes.",
-      "intro_zh": "",
+      "tagline_zh": "把 AI 智能体接入 Slack、Teams 和 Discord",
+      "description_zh": "Switch 将 AI 智能体带入团队已有的协作工具，让它们以具名参与者加入 Slack、Teams、Discord 或 Telegram 频道，共享团队的上下文和历史；连接一次即可跨项目使用，每个房间保留各自的上下文、参与者和规则。介绍称其支持 Claude Code、OpenAI、Google ADK、LangChain 等，开源且可自行部署，并宣称几分钟内即可运行。",
+      "intro_zh": "给在聊天工具里协作的团队用，让 AI 智能体加入频道，结合频道里的讨论参与工作。",
       "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EAQYN6B2W3MDVB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/122425e6-0677-42f1-be28-f2bc3bb9c2a6.png?auto=format",
       "votes_count": 506,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景清楚，但能省多少背景说明仍取决于历史读取效果。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "房间之间如何隔离上下文，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "一次连接、按房间管理上下文的做法可借用于团队助手。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是把项目背景留在讨论发生的地方；最影响判断的是，历史消息的读取范围能否随成员权限正确变化。",
+      "product_analysis": {
+        "target_problem": "在聊天频道里协作的团队，需要让 AI 理解正在讨论的项目。单独使用 AI 时，可能还要搬运讨论内容、补充背景。",
+        "workflow": "连接一个智能体，让它以具名成员加入频道，再跨项目使用。各房间分别保留上下文、参与者和规则；具体连接操作未说明。",
+        "ai_value": "AI 结合频道上下文参与工作。Switch 负责把智能体接入协作工具，介绍未说明它会自动完成哪些具体任务。",
+        "differentiation": "把 AI 放进讨论现场，可能减少来回复制背景。团队最可能犹豫的是：是否愿意让智能体读取频道历史。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到多种智能体工具支持、房间独立上下文，以及开源和可自行部署。",
+        "possible_approach": "如果自己做，可以先接收频道消息，再按房间整理可读取的历史，交给智能体处理，最后把回复发回原频道。",
+        "tradeoffs": "最难的是按房间限制可用信息。若混入其他项目的历史，回复可能泄露不该让当前成员看到的内容。",
+        "unknowns": "频道成员权限变化后，智能体还能读取哪些旧消息？"
+      },
+      "transferable_insights": [
+        "做团队助手时，可把上下文和规则绑定到项目房间，让同一个助手跨项目使用时分别取用背景。"
+      ],
+      "validation_questions": [
+        "在两个房间放入不同的测试信息，检查智能体是否会跨房间引用。",
+        "让智能体回答一个依赖加入前历史的问题，检查它实际能读取的历史范围。"
+      ],
+      "source_tagline": "Bring any AI agent into Slack, Teams & Discord",
+      "source_description": "Switch brings AI agents into the collaboration tools your team already uses. Agents join as named participants in your Slack, Teams, Discord, or Telegram channels, sharing the same context and history as your team. Connect an agent once and use it across projects. Each room carries its own context, participants, and rules. Works with Claude Code, OpenAI, Google ADK, LangChain, and more. Open source, self-hostable, running in minutes."
     },
     {
       "id": "1209261",
       "name": "Widgo",
       "name_zh": "Widgo",
-      "tagline_zh": "AI Sales rep for your website visitors",
-      "description_zh": "Widgo is an AI sales rep on your website. It scans your site, adds any docs you give it, and answers every visitor from that alone. It identifies the company, scores the lead, and books the demo on your calendar. One line of code. Free forever, no card.",
-      "intro_zh": "",
+      "tagline_zh": "面向网站访客的 AI 销售代表",
+      "description_zh": "Widgo 会扫描网站并加入你提供的文档，仅根据这些内容回答访客问题，还能识别访客公司、给销售线索评分，并在日历上预约演示。简介称只需一行代码接入，永久免费，无需信用卡。",
+      "intro_zh": "给需要接待官网潜在客户的销售团队用，回答产品问题、评估咨询者，并安排演示。",
       "url": "https://www.producthunt.com/products/widgo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KKQZVPBNVHRLPI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0f725b0e-f5ed-47c3-80d3-b3ced61a6c88.png?auto=format",
       "votes_count": 407,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从访客咨询到预约演示的用途清楚，但回答和筛选效果未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何让回答不超出网站和文档，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把资料问答接到预约动作上，可借用于其他咨询场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重答完问题就能约演示，减少继续协调的可能；最影响判断的是，资料不足时它能否守住回答范围。",
+      "product_analysis": {
+        "target_problem": "销售团队需要接待官网上正在了解产品的人。访客既有产品问题，也可能想约演示，团队需要处理这两类需求。",
+        "workflow": "让它扫描网站，补充文档，再接入网站。访客提问后，它用这些资料回答，并提供公司识别、线索评分和日历预约。",
+        "ai_value": "AI 负责根据网站和文档回答问题。公司识别与评分也在功能范围内，但简介没解释它们如何完成。",
+        "differentiation": "问答和预约放在同一处，可能减少后续协调。最可能让团队犹豫的是：它会不会向客户承诺资料里没有的事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到网站扫描、文档补充和仅依据这些内容回答，没说具体模型或技术方案。",
+        "possible_approach": "如果自己做，可以先收集网页和文档，再按问题找出相关段落，让 AI 据此作答；确认预约意向后，再连接日历。",
+        "tradeoffs": "最难的是资料不足时停止补答。若 AI 自行补出价格或服务承诺，销售后续就得解释和纠正。",
+        "unknowns": "遇到资料没有覆盖的问题，它会如何处理？"
+      },
+      "transferable_insights": [
+        "做课程或软件咨询工具时，可以让资料问答直接接到预约，把了解信息和下一步行动放在同一处。"
+      ],
+      "validation_questions": [
+        "问一个网站和文档都没提到的价格问题，看它是否明确表示不知道。",
+        "尝试预约一个已被占用的时段，看它是否避免重复预约。"
+      ],
+      "source_tagline": "AI Sales rep for your website visitors",
+      "source_description": "Widgo is an AI sales rep on your website. It scans your site, adds any docs you give it, and answers every visitor from that alone. It identifies the company, scores the lead, and books the demo on your calendar. One line of code. Free forever, no card."
     },
     {
       "id": "1238157",
       "name": "Kombai Gallery",
       "name_zh": "Kombai Gallery",
-      "tagline_zh": "20,000+ curated UI designs for agents and humans",
-      "description_zh": "Build standout UIs by giving your agent design taste. Browse curated web and mobile designs, from full pages to individual components. Preview them live and copy a ready-to-use prompt. The gallery is free forever, with no sign-up required.",
-      "intro_zh": "",
+      "tagline_zh": "为智能体和人提供 20,000 多个精选界面设计",
+      "description_zh": "浏览精选网页和移动端设计，范围从完整页面到单个组件，为智能体制作界面提供设计参考。支持实时预览和复制可直接使用的提示词；介绍称图库永久免费，无需注册。",
+      "intro_zh": "给设计师和用 AI 做界面的开发者，浏览页面与组件参考，预览后复制提示词。",
       "url": "https://www.producthunt.com/products/kombai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ALNGUII2YBU3ZB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2688949b-c839-4ec3-861f-13896411bdb2.png?auto=format",
       "votes_count": 345,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把设计参考和可复制提示词放在一起，使用目的清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何让提示词保留设计特征值得分析，但缺少生成结果。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "给参考案例配可复制指令，适合借用到其他创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重参考案例旁就能拿到提示词；关键疑问是，这段提示词能否让生成结果保留案例的设计特点。",
+      "product_analysis": {
+        "target_problem": "用 AI 做界面的人，可能知道喜欢哪个页面，却难以把布局和风格说清楚。它把设计参考与提示词放在一起，减少自己组织描述的工作。",
+        "workflow": "浏览完整页面或单个组件，实时预览设计，再复制现成提示词，交给负责生成界面的智能体。",
+        "ai_value": "介绍提到给智能体提供设计参考，没说图库本身用 AI 生成或筛选内容。",
+        "differentiation": "省下从参考图整理提示词的一部分工作。但若复制后仍需反复解释设计细节，用户可能继续用原来的参考图库。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1237958",
-      "name": "OpenMarket",
-      "name_zh": "OpenMarket",
-      "tagline_zh": "Multi-agent marketplace where proof decides who wins",
-      "description_zh": "What if marketplaces rewarded the best product instead of the best marketing? OpenMarket (in research preview), is a multi-agent marketplace where sellers pitch, competitors challenge their claims, and independent truth agents verify the evidence as they compete to earn a buyer's sale. Here, claims don’t count just because they’re written on a product page. They have to survive scrutiny and be proven.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/openmarket?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MFJR2TQDFWCXQB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3bf0b181-687f-4615-9bbb-c3e6bc207fd1.jpeg?auto=format",
-      "votes_count": 276,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持实时预览和复制提示词，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给每个案例配可运行预览，再写出布局、间距和交互说明，整理成可复制提示词。",
+        "tradeoffs": "最难的是让文字保留设计关键点。漏掉布局关系，智能体生成的页面可能与预览差很远。",
+        "unknowns": "复制的提示词是否附带图片或代码等参考材料，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做模板库时，可以给每个案例同时提供预览和可复制指令，让用户选完参考就能继续制作。"
+      ],
+      "validation_questions": [
+        "选一个布局有明显特点的案例，把提示词交给常用智能体，检查是否保留主要布局。",
+        "选一个有交互的组件，检查实时预览能否操作。"
+      ],
+      "source_tagline": "20,000+ curated UI designs for agents and humans",
+      "source_description": "Build standout UIs by giving your agent design taste. Browse curated web and mobile designs, from full pages to individual components. Preview them live and copy a ready-to-use prompt. The gallery is free forever, with no sign-up required."
     },
     {
       "id": "1243318",
       "name": "Knockin'",
       "name_zh": "Knockin'",
-      "tagline_zh": "Turns your static bio into an AI business card that replies",
-      "description_zh": "Knockin turns your bio into an AI business card people can chat with. Add your work, links, and content. It learns what you do and answers questions in your voice. Visitors can book time with you right away, even when you’re away. Knockin remembers who stopped by, so you know who to follow up with. This cuts down on back and forth and gives both sides more context before a call.",
-      "intro_zh": "",
+      "tagline_zh": "把静态个人简介变成能回复问题的 AI 商务名片",
+      "description_zh": "Knockin' 让访客与个人名片聊天，根据你添加的工作、链接和内容，用你的口吻回答问题。它还支持访客直接预约，并记录来访者，帮助双方在通话前了解背景，方便后续联系。",
+      "intro_zh": "给需要展示专业经历、接洽业务的人用，让访客通过聊天了解你，并直接预约交流。",
       "url": "https://www.producthunt.com/products/knockin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4PUMMDMWUCEB6E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/585ca20f-cca4-48eb-990d-71a1c9c498fb.png?auto=format",
       "votes_count": 212,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "回答业务问题、预约和后续联系的用途清楚，实际省事程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "以本人身份回答时，如何避免编造承诺是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先解答疑问再提供预约的做法，可借用于专业服务介绍页。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重预约前能先解答具体疑问；但能否守住资料范围、不替本人乱作承诺，最影响使用判断。",
+      "product_analysis": {
+        "target_problem": "顾问、自由职业者等接洽业务时，静态简介未必能回答访客的具体问题。以前需要本人补充解释的部分，现在可以交给名片先回答。",
+        "workflow": "添加工作、链接和内容后，访客可以提问并直接预约。名片记录来访者，供本人判断后续联系谁。",
+        "ai_value": "AI 根据添加的资料回答问题，并模仿本人的表达口吻。",
+        "differentiation": "把了解背景和预约放在同一处，可能减少来回沟通。但资料需要持续更新，可能让不常维护主页的人犹豫。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 会根据个人资料回答问题，未说明具体模型或资料处理技术。",
+        "possible_approach": "如果自己做，可以先把资料整理成可查找的片段，再让 AI 找到相关内容后作答，最后提供预约入口。",
+        "tradeoffs": "最容易出错的是资料不足时仍替本人回答。若编出价格或合作承诺，用户就得向访客澄清。",
+        "unknowns": "“记住来访者”如何识别身份、是否需要访客同意，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做顾问或服务商介绍页时，可以先让访客问清服务范围，再提供预约入口，帮助双方带着具体问题交流。"
+      ],
+      "validation_questions": [
+        "问一个资料里没有的报价问题，检查它是否明确说不知道。",
+        "以未登录访客访问一次，检查名片主人能看到哪些访客信息。"
+      ],
+      "source_tagline": "Turns your static bio into an AI business card that replies",
+      "source_description": "Knockin turns your bio into an AI business card people can chat with. Add your work, links, and content. It learns what you do and answers questions in your voice. Visitors can book time with you right away, even when you’re away. Knockin remembers who stopped by, so you know who to follow up with. This cuts down on back and forth and gives both sides more context before a call."
     },
     {
       "id": "1238864",
       "name": "Relaticle",
       "name_zh": "Relaticle",
-      "tagline_zh": "Open-source CRM with approval-gated AI writes",
-      "description_zh": "Most CRMs bolt AI on. Relaticle is built agent-first: any MCP client gets 37 first-party tools over OAuth, with workspace custom fields in each agent's schema automatically. The in-app assistant is stricter: every write is a proposal showing the exact change, approved record by record. Self-host everything under AGPL, including local inference with Ollama. Free forever self-hosted; Cloud is flat per-workspace pricing, not per-seat.",
-      "intro_zh": "",
+      "tagline_zh": "开源客户关系管理系统，AI 写入前需审批",
+      "description_zh": "Relaticle 面向 AI 助手设计：支持 MCP 的客户端可经 OAuth 授权使用 37 个内置工具，工作区自定义字段会自动纳入助手可用的数据定义；应用内助手的每次写入都会展示具体改动，由用户逐条批准。介绍称可按 AGPL 开源许可自行部署，包括使用 Ollama 在本机运行模型；自托管永久免费，云端按工作区固定收费，不按人数收费。",
+      "intro_zh": "给想让 AI 协助维护客户资料的团队用，在应用内先查看具体改动，再逐条批准写入。",
       "url": "https://www.producthunt.com/products/relaticle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MBVOOJKZXSJKZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bb334908-db77-421e-ba03-2d3a4a62476c.png?auto=format",
       "votes_count": 162,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确照顾了客户资料维护与改动审核，但省时程度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "应用内与外部助手的写入审批边界，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先展示改动再批准的做法，可用于其他重要数据编辑场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是保存前能看清具体改动；最影响判断的是这项保护是否覆盖外部助手。",
+      "product_analysis": {
+        "target_problem": "维护客户资料的团队可能想让 AI 帮忙，又担心它改错记录。Relaticle 把应用内助手的写入变成可逐条审核的提案。",
+        "workflow": "让应用内助手提出修改，查看具体变化，再逐条批准。也可授权外部 AI 客户端调用工具，但介绍未说明是否同样需要审批。",
+        "ai_value": "AI 提出资料修改；自定义字段会自动纳入助手的数据定义，供它识别团队自己的字段。",
+        "differentiation": "把查看改动和批准放在一起，可能减少人工核对的麻烦；逐条审批也可能让批量修改变慢。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 MCP（AI 客户端连接工具的通用方式）、OAuth（授权访问机制）、37 个工具，以及用 Ollama 在本机运行模型。",
+        "possible_approach": "如果自己做，可以先把修改保存成待审提案，再展示修改前后内容，批准后才真正写入。",
+        "tradeoffs": "最容易漏掉外部助手的写入入口；若它能绕过审批，用户以为尚未确认的数据可能已被改动。",
+        "unknowns": "外部 MCP 客户端的写入是否也受审批约束？"
+      },
+      "transferable_insights": [
+        "做库存或财务资料编辑时，可先生成修改前后对照，让用户确认后再保存。"
+      ],
+      "validation_questions": [
+        "从外部 MCP 客户端发起修改，检查是否必须经过批准。",
+        "在工作区新增一个自定义字段，检查助手能否正确识别它。"
+      ],
+      "source_tagline": "Open-source CRM with approval-gated AI writes",
+      "source_description": "Most CRMs bolt AI on. Relaticle is built agent-first: any MCP client gets 37 first-party tools over OAuth, with workspace custom fields in each agent's schema automatically. The in-app assistant is stricter: every write is a proposal showing the exact change, approved record by record. Self-host everything under AGPL, including local inference with Ollama. Free forever self-hosted; Cloud is flat per-workspace pricing, not per-seat."
     },
     {
       "id": "1242766",
       "name": "GoodLads",
       "name_zh": "GoodLads",
-      "tagline_zh": "AI growth manager for your Google Ads account",
-      "description_zh": "AI growth manager for Google Ads accounts. GoodLads generates hypotheses to improve your ROAS or CPA, ships each one in one click - never without your approval - and tracks it on a kanban board to a verdict.",
-      "intro_zh": "",
+      "tagline_zh": "为 Google Ads 账户提供 AI 增长管理",
+      "description_zh": "GoodLads 为 Google Ads 账户生成优化假设，目标是提高广告支出回报率（ROAS）或降低单次获客成本（CPA）。用户批准后可一键执行，并在看板上跟踪每项假设，直到得出结论。",
+      "intro_zh": "给管理 Google Ads 投放的人用，提出优化建议，经批准执行，再用看板跟踪结果。",
       "url": "https://www.producthunt.com/products/good-lads-1-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/A3H3YY7MH7X7PM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c8607970-16b7-46ae-b5a4-979c7603b2db.png?auto=format",
       "votes_count": 148,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "建议、批准和结果跟踪都有描述，但实际优化收益未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断广告变化是否由某项调整造成，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把建议变成需批准、可跟踪的事项，适合涉及真实支出的工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是保留人工批准，避免建议未经同意就影响投放；最影响判断的是，看板结论能否区分真实改善与同期波动。",
+      "product_analysis": {
+        "target_problem": "投放人员需要决定改什么，也要判断改完有没有用。GoodLads 把提出假设、执行和跟踪结果放在一起。",
+        "workflow": "查看 AI 生成的优化假设，批准后点击执行。随后在看板上跟踪，直到形成结论。",
+        "ai_value": "AI 负责提出优化假设。介绍没有说明它依据哪些账户数据，也不能据此认定它能稳定提升收益。",
+        "differentiation": "一键执行可能减少把建议另行落实的操作。最可能让人犹豫的是：建议会直接影响广告支出，却未说明批准前能看到多少变更细节。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 生成假设、批准后一键执行，以及看板跟踪；未披露具体模型。",
+        "possible_approach": "如果自己做，可以先读取投放数据，让 AI 提出带理由的调整，再展示具体变更供用户批准，最后记录执行时间和后续指标。",
+        "tradeoffs": "最难的是判断调整是否有效。若同期还有促销或其他改动，可能把自然波动算成优化成果，误导后续投放。",
+        "unknowns": "它用什么标准决定一项假设已经得到验证？"
+      },
+      "transferable_insights": [
+        "做会修改预算或线上配置的助手时，可把建议和执行分开，先展示变更，获批后再操作。",
+        "做实验管理工具时，可让每个假设保留执行记录和最终结论，方便回看。"
+      ],
+      "validation_questions": [
+        "批准前，能否看清将被修改的广告设置及其具体数值？",
+        "查看一项已结束的假设，结论是否有明确的对照依据？"
+      ],
+      "source_tagline": "AI growth manager for your Google Ads account",
+      "source_description": "AI growth manager for Google Ads accounts. GoodLads generates hypotheses to improve your ROAS or CPA, ships each one in one click - never without your approval - and tracks it on a kanban board to a verdict."
     },
     {
       "id": "1240399",
       "name": "Dictantor",
       "name_zh": "Dictantor",
-      "tagline_zh": "Record meetings and transcribe privately on Apple devices",
-      "description_zh": "Dictantor captures meetings and voice notes across Mac, iPhone, and Apple Watch. On Mac, it records microphone and system audio together and prompts you before meetings. Transcription runs on device in 25 European languages, separating your voice from everyone else. Search returns you to exact spoken moments. No Dictantor account or subscription. Supported recordings can sync through your private iCloud account.",
-      "intro_zh": "",
+      "tagline_zh": "在 Apple 设备上录制会议，并在设备内转写",
+      "description_zh": "Dictantor 可在 Mac、iPhone 和 Apple Watch 上记录会议与语音笔记；Mac 版支持同时录制麦克风和系统声音，并在会前提醒。它支持在设备内转写 25 种欧洲语言，区分本人和其他人的声音，搜索可定位到说话时刻；无需 Dictantor 账号或订阅，受支持的录音可通过个人 iCloud 账户同步。",
+      "intro_zh": "给用 Apple 设备记录会议和语音笔记的人，把录音转成文字，再搜索并回听对应片段。",
       "url": "https://www.producthunt.com/products/dictantor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q6S7OTP4LISIUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/74880e45-ecd6-4440-b5b2-4e7bc7fdc01c.png?auto=format",
       "votes_count": 125,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录音、转写和定位原声的用途清楚，准确性仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "同时录两路声音后如何区分本人，涉及具体的识别难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "搜索结果直接定位原声，适合借到需要核对原始材料的工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重转写在设备内完成，减少把音频交给外部转写服务的需要；但双路录音下能否准确区分本人，仍影响记录的可信度。",
+      "product_analysis": {
+        "target_problem": "经常开会或记语音笔记的 Apple 用户，需要事后找回某句话。麻烦在于既要找到内容，也要回听确认原意。",
+        "workflow": "录下会议或语音笔记，在设备内转成文字。随后搜索内容，跳回对应的说话时刻；受支持的录音可经 iCloud 同步。",
+        "ai_value": "介绍没提 AI，主要靠设备内转写和声音区分来减少整理工作，未说明所用模型。",
+        "differentiation": "把找到文字与回听原声连在一起，减少来回查找。我会先确认语言支持：只列出 25 种欧洲语言，中文会议用户不能据此判断可用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "Mac 可同时录麦克风与系统声音，转写在设备内运行，并支持区分本人和其他人的声音。",
+        "possible_approach": "如果自己做，可以先录下两路声音，再在设备内转写，为每段文字保存录音时间，让搜索结果能跳回原声。",
+        "tradeoffs": "难点是两路声音混在一起时仍区分本人和他人。若扬声器里的声音又被麦克风录入，可能把别人说的话标成本人。",
+        "unknowns": "“受支持的录音”具体包括哪些，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做访谈或会议记录工具时，让每条搜索结果带上原声位置，方便用户直接核对。"
+      ],
+      "validation_questions": [
+        "用 Mac 扬声器开会时，能否正确区分本人和远端参会者？",
+        "搜索一段已知发言，能否跳到对应的原声位置？"
+      ],
+      "source_tagline": "Record meetings and transcribe privately on Apple devices",
+      "source_description": "Dictantor captures meetings and voice notes across Mac, iPhone, and Apple Watch. On Mac, it records microphone and system audio together and prompts you before meetings. Transcription runs on device in 25 European languages, separating your voice from everyone else. Search returns you to exact spoken moments. No Dictantor account or subscription. Supported recordings can sync through your private iCloud account."
     },
     {
       "id": "1240790",
       "name": "Replay QA Security Scan",
       "name_zh": "Replay QA Security Scan",
-      "tagline_zh": "Automated Penetration Testing  for AI-Built Apps",
-      "description_zh": "Replay pentests your web app on every QA pass now: injection flaws, broken access control, IDOR, the stuff AI-generated code tends to miss. Findings come back as full bug reports, evidence and suggested fix included. Schedule it daily or weekly and skip the \"remember to test\" step. You wake up to a queue of bugs already triaged. Same projects also test against dev, staging, prod, and localhost, so you're not maintaining separate QA setups per environment.",
-      "intro_zh": "",
+      "tagline_zh": "面向 AI 生成应用的自动化渗透测试",
+      "description_zh": "Replay 在每次质量检查时测试网页应用的安全问题，包括注入漏洞、访问控制失效和不安全的直接对象引用，并提供附带证据与修复建议的完整漏洞报告。它支持每天或每周定时运行，整理待处理漏洞，也支持同一项目测试开发、预发布、生产和本机环境，不必为各环境分别维护测试配置。",
+      "intro_zh": "给开发网页应用的团队用，定期检查安全漏洞，把发现的问题整理成带证据和修复建议的报告。",
       "url": "https://www.producthunt.com/products/replayio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/W4ZDVFAWS5EYAA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0d6292d8-f5b2-4ce4-8c5f-c5c328834cdf.png?auto=format",
       "votes_count": 115,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "定期检查和多环境复用对应明确工作，检出效果仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "权限漏洞测试涉及身份与数据归属，具体且容易误判。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "定时检查并附证据的报告方式可用于其他质量检查工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重报告附带证据，便于开发者复核；关键疑问是它能否理解应用的权限规则，可靠识别越权。",
+      "product_analysis": {
+        "target_problem": "开发团队需要反复检查网页应用的安全问题。它把安全测试放进日常质量检查，减少忘记执行的机会。",
+        "workflow": "在项目中针对目标环境运行检查，也可设为每天或每周执行。发现问题后查看漏洞报告、证据和修复建议。",
+        "ai_value": "介绍提到 AI 生成的代码是检查对象，没说明扫描本身是否使用 AI。主要靠自动检查和定时运行改善体验。",
+        "differentiation": "同一项目可测试多个环境，省去分别维护配置的工作。最可能让团队犹豫的是生产环境扫描是否会影响真实数据。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确列出注入、访问控制和 IDOR（通过更换资源编号访问他人数据）检查，未说明扫描实现。",
+        "possible_approach": "如果自己做，可以先准备不同权限的测试账号，再尝试访问彼此的数据，把异常请求和响应整理成报告。",
+        "tradeoffs": "最难的是判断谁有权访问哪条数据；判断错了，可能把正常共享报成漏洞，或漏掉真实越权。",
+        "unknowns": "介绍没说怎样提供测试账号及其权限规则。"
+      },
+      "transferable_insights": [
+        "做持续质量检查工具时，可把定时任务与带证据的报告配在一起，让处理人直接复核问题。"
+      ],
+      "validation_questions": [
+        "用两个账号准备一处已知越权漏洞，检查能否检出并给出可复现证据？",
+        "检查生产环境扫描能否限制写入操作，避免改动真实数据？"
+      ],
+      "source_tagline": "Automated Penetration Testing  for AI-Built Apps",
+      "source_description": "Replay pentests your web app on every QA pass now: injection flaws, broken access control, IDOR, the stuff AI-generated code tends to miss. Findings come back as full bug reports, evidence and suggested fix included. Schedule it daily or weekly and skip the \"remember to test\" step. You wake up to a queue of bugs already triaged. Same projects also test against dev, staging, prod, and localhost, so you're not maintaining separate QA setups per environment."
     },
     {
       "id": "1241818",
       "name": "Jupitrr Cut",
       "name_zh": "Jupitrr Cut",
-      "tagline_zh": "Open source app for recording vids with a teleprompter",
-      "description_zh": "Jupitrr Cut is an open-source mobile app for recording polished talking-head videos. Use the built-in teleprompter to read line by line, retake anything, and automatically remove silences. Export a finished video without touching a timeline. Record the video. Skip the edit. Add captions and B-roll later with Jupitrr AI—completely optional. No account wall. GPL-3.0 licensed, with the APK on GitHub and one-tap updates through the App Store and Google Play.",
-      "intro_zh": "",
+      "tagline_zh": "带提词器的开源视频录制应用",
+      "description_zh": "Jupitrr Cut 是一款开源手机口播录制应用，内置逐行提词、重录和自动去除静音功能，无需操作时间线即可导出视频。无需注册账号；采用 GPL-3.0 许可证，GitHub 提供安卓安装包，也可通过苹果和谷歌应用商店更新，后续可选用 Jupitrr AI 添加字幕和补充画面。",
+      "intro_zh": "给用手机录口播的人用，边看提词边录制，支持重录和去除静音，再直接导出视频。",
       "url": "https://www.producthunt.com/products/jupitrr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OUQ5GO2NOHEYRH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bcfd23b3-2ef5-45e5-b87f-a2f18ca859a0.png?auto=format",
       "votes_count": 113,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "录口播和减少后期操作的需求清楚，但自动剪切的质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "静音剪切有明确的边界判断问题，介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把简单整理放进录制过程，适合借用到固定形式的内容工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把简单口播做到无需操作时间线；最影响判断的是自动剪切出错后能否方便纠正。",
+      "product_analysis": {
+        "target_problem": "需要照稿录口播的人，录完后还可能要剪掉停顿。它把提词、重录和静音处理放进同一款手机应用。",
+        "workflow": "跟着内置提词器逐行录制，需要时重录，再自动去除静音并导出。不必进入时间线剪辑，字幕和补充画面可留到之后处理。",
+        "ai_value": "核心录制功能没说明使用 AI。介绍只把 Jupitrr AI 列为后续添加字幕和补充画面的可选工具。",
+        "differentiation": "省去为简单口播操作时间线的步骤；最可能让人犹豫的是自动剪掉的停顿是否符合表达节奏。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "应用开源，采用 GPL-3.0 许可证，GitHub 提供安卓安装包；介绍没说静音检测的具体技术。",
+        "possible_approach": "如果自己做，可以先按稿件分段录制，再根据音量找出静音区间，保留少量停顿后拼接导出。",
+        "tradeoffs": "最难的是区分多余空白和有意停顿。剪得太紧，可能截掉轻声字尾，让口播听起来急促。",
+        "unknowns": "自动剪切后，能否恢复被删掉的片段？"
+      },
+      "transferable_insights": [
+        "做固定形式的录制工具时，可以把提词和简单整理放在录制过程中，让只需基础成片的人少进一次剪辑软件。"
+      ],
+      "validation_questions": [
+        "录一段带轻声字尾的口播，检查去静音是否误切语音。",
+        "导出前检查能否恢复一处被自动删除的停顿。"
+      ],
+      "source_tagline": "Open source app for recording vids with a teleprompter",
+      "source_description": "Jupitrr Cut is an open-source mobile app for recording polished talking-head videos. Use the built-in teleprompter to read line by line, retake anything, and automatically remove silences. Export a finished video without touching a timeline. Record the video. Skip the edit. Add captions and B-roll later with Jupitrr AI—completely optional. No account wall. GPL-3.0 licensed, with the APK on GitHub and one-tap updates through the App Store and Google Play."
+    },
+    {
+      "id": "1237958",
+      "name": "OpenMarket",
+      "name_zh": "OpenMarket",
+      "tagline_zh": "由证据决定谁胜出的多代理交易市场",
+      "description_zh": "OpenMarket 目前处于研究预览阶段：卖方介绍产品，竞争者质疑其主张，独立核验代理检查证据，各方争取买家的订单。产品页上的说法需要经受审查，并有证据支持。",
+      "intro_zh": "给需要比较商品主张的买家用，让卖方陈述、竞争者质疑，再由独立代理核验证据。",
+      "url": "https://www.producthunt.com/products/openmarket?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MFJR2TQDFWCXQB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3bf0b181-687f-4615-9bbb-c3e6bc207fd1.jpeg?auto=format",
+      "votes_count": 276,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "核验商品主张的需求清楚，但能否减少买家查证工作尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把提出质疑与核验证据分开，带出了如何判断证据可信这一具体问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借用质疑与核验分工，但适用的商品和证据条件还不清楚。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让商品主张接受公开质疑，而不只展示卖方说法。最影响判断的是：证据不足时，系统会承认未知，还是仍给出胜负。",
+      "product_analysis": {
+        "target_problem": "买家比较商品时，需要分清卖点和事实。麻烦在于卖方说得具体，也不等于有可信证据。",
+        "workflow": "介绍描述的流程是：卖方陈述，竞争者挑战，独立核验代理检查证据。买家如何发起比较、查看结果和下单，没有说明。",
+        "ai_value": "多个代理分别参与推销、质疑和核验。介绍未说明它们如何自动判断，也不能把“独立”当作公正的保证。",
+        "differentiation": "它尝试把对卖方主张的质疑放进交易过程。买家可能不愿依赖它，主要因为核验结论本身也需要被信任。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确采用多代理分工，但没说具体用什么模型或核验技术。",
+        "possible_approach": "如果自己做，可以先把卖点拆成可检查的陈述，再收集证据，让竞争方提异议，最后逐条展示核验依据。",
+        "tradeoffs": "最难的是判断证据是否真能支持主张。若把卖方材料当作独立证明，买家可能把宣传误认成已核实的事实。",
+        "unknowns": "独立核验代理依据什么来源作判断？"
+      },
+      "transferable_insights": [
+        "做采购比选工具时，可让供应商逐条提交“主张和证据”，并把异议与核验结果放在同一条下面。"
+      ],
+      "validation_questions": [
+        "检查一条核验结论，能否追溯到支持它的原始证据？",
+        "提交一条缺乏证据的卖点，检查系统会不会明确保留判断？"
+      ],
+      "source_tagline": "Multi-agent marketplace where proof decides who wins",
+      "source_description": "What if marketplaces rewarded the best product instead of the best marketing? OpenMarket (in research preview), is a multi-agent marketplace where sellers pitch, competitors challenge their claims, and independent truth agents verify the evidence as they compete to earn a buyer's sale. Here, claims don’t count just because they’re written on a product page. They have to survive scrutiny and be proven."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

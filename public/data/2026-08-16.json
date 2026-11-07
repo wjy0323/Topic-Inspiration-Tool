@@ -1,357 +1,510 @@
 {
   "date": "2026-08-16",
-  "generated_at": "2026-08-17T16:04:41+08:00",
+  "generated_at": "2026-11-07T15:36:01+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1221007",
-      "name": "Expeditione",
-      "name_zh": "探索百科",
-      "tagline_zh": "能走进去的互动3D百科全书",
-      "description_zh": "这是一个能在浏览器里直接打开的互动3D百科全书，由一个人独立开发。你不用干巴巴地读文字，而是可以进入手工打造的立体世界，边探索边学。它没广告、不用注册，还很轻量，前三趟“探险”永久免费，老师还能拿到课堂资源。",
-      "intro_zh": "一个能在浏览器里逛的3D互动百科，把死知识变成可以走来走去看的立体世界。学生、老师、好奇心重的人都用得上，边玩边学还不用注册。",
-      "url": "https://www.producthunt.com/products/expeditione?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/D7ZI6MYC6S5UNF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/381d1223-bc95-4097-b0f6-ad0b12d413ae.png?auto=format",
-      "votes_count": 258,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "产品本身就是3D可探索场景，画面感强，录屏就能展示丰富的交互和视觉冲击，非常适合视频呈现。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "无需登录、无广告，打开浏览器就能玩，概念直观，完全不需要技术背景，学习门槛极低。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第3，票数258，热度很高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "一个人做的3D百科，居然比课本好玩100倍？浏览器里免费逛古罗马！",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示打开浏览器进入3D场景的过程，重点演示自由走动、点击物体的互动细节，穿插字幕强调“个人开发”“免费无广告”等卖点，节奏轻快，配点探索感背景音乐。",
-        "target_audience": "中小学生、大学生、老师、家长，以及喜欢用新奇方式学知识的普通网友。"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "3D画面表现力强、上手门槛低、热度高，是难得的视频友好型产品。"
-    },
-    {
-      "id": "1216311",
-      "name": "Vidaya",
-      "name_zh": "Vidaya 健康寿命助手",
-      "tagline_zh": "用可穿戴设备、体检数据和 DNA 算出你的健康寿命分数",
-      "description_zh": "Vidaya 把你可穿戴设备、化验报告和生活习惯数据，变成一个实际的健康寿命分数，再给你一份个性化的长寿计划。创始团队受够了那些只显示数字、却从来不告诉你下一步该怎么做的仪表盘，于是做了这个工具。给关注健康、想提前管理身体的人用。",
-      "intro_zh": "把可穿戴设备、体检和 DNA 数据变成健康寿命分数，再定制长寿计划。关注身体状态、想活得更久更健康的上班族和健身爱好者会很吃这一套。",
-      "url": "https://www.producthunt.com/products/vidaya?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/NQURZFZSJX6BY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7a970293-89ee-41ce-a4da-f0e30ac00338.png?auto=format",
-      "votes_count": 240,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有健康评分、计划界面可以演示，能展示从数据到建议的完整过程，但画面偏静态，缺爆款视觉冲击。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念围绕健康寿命，普通用户有穿戴设备就能理解，不需要技术背景，但 DNA 和实验室数据稍显专业。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第4名，票数240，热度不错，属于前10，有话题基础但未进入前3。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "戴 Apple Watch 测基因，它算出你还能健康活几年？",
-        "angle": "教程演示",
-        "shooting_tips": "先展示普通健康App只给步数、心率一堆数字但不知道干啥，再演示 Vidaya 连接可穿戴设备和导入体检报告，突出生成健康寿命分和个性化建议的动画过程，节奏先抑后扬，最后给出实际可执行的生活建议截图。",
-        "target_audience": "有可穿戴设备、关心健康管理、想改善生活习惯的都市年轻人和健身爱好者"
-      },
-      "category": "健康健身",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "健康数据可视化有演示空间，普通人能看懂，且排名第4热度足够，适合做视频科普。"
-    },
-    {
       "id": "1222624",
       "name": "HarnessRouter Community Edition",
-      "name_zh": "HarnessRouter 社区版",
-      "tagline_zh": "开源统一的 AI 代理运行接口",
-      "description_zh": "这是一个开源工具，能让你在自己的产品里即插即用地接入 Codex、Claude Code、Hermes 这些 AI 代理，只用一个 API，不用改后端。它把会话、流式输出、文件、取消、故障恢复等都封装好了，模型密钥和状态也由你掌控。所有组件打成一个 Docker 容器，还附赠示例应用当灵感。",
-      "intro_zh": "一个开源工具，让你用一个接口接上 Codex、Claude Code 等 AI 编程代理，不用每次重构后端。想在自家产品里集成多种 AI 助手的技术团队会很喜欢。",
+      "name_zh": "HarnessRouter Community Edition",
+      "tagline_zh": "开源的统一 AI 代理运行接口",
+      "description_zh": "这是一个开源工具，用一个 API（让软件互相传数据的连接方式）接入 Codex、Claude Code、Hermes 等 AI 代理，并封装会话、流式输出、文件、取消和故障恢复。介绍称密钥和状态由使用方掌控，所有组件打包在一个 Docker 容器中，并提供示例应用。",
+      "intro_zh": "给要在产品里接入多种 AI 代理的开发者用，统一处理调用、会话和运行过程。",
       "url": "https://www.producthunt.com/products/epsilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/C247JURJJIF5WQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ab44ed35-a270-4ba3-87c2-7a1139a640d1.png?auto=format",
       "votes_count": 323,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "有控制台界面和 Docker 启动过程可拍，但核心是后端 API，画面多终端和代码，对普通观众缺乏视觉冲击力。"
+        "product_value": {
+          "score": 4,
+          "reason": "接入对象和省去的适配工作明确，但实际兼容程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "涉及 API、Docker、基础设施、模型密钥等概念，普通用户很难看懂，使用门槛高。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "统一接口下如何保留会话和恢复任务，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "Product Hunt 当日排名第1，票数323，热度很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把多种工具的共同操作统一封装，可借用于多供应商接入。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "一个接口通吃 Codex/Claude Code？开源神器 HarnessRouter 实测",
-        "angle": "教程演示",
-        "shooting_tips": "录制 Docker 一键启动过程，打开 Gateway/Console 界面，演示在 Codex、Claude Code、Hermes 之间切换时同一条请求的不同输出；突出流式响应和故障恢复。开头用“换一个 AI 助手就要改后端？”制造痛点，节奏先快后慢。",
-        "target_audience": "开发者、技术团队、AI 产品经理、独立开发者"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高且可做技术演示，但面向开发者，大众理解门槛高，适合技术圈层视频。"
-    },
-    {
-      "id": "1200353",
-      "name": "Blume",
-      "name_zh": "Blume 文档框架",
-      "tagline_zh": "AI就绪、Markdown优先的文档框架",
-      "description_zh": "从纯Markdown快速生成漂亮、快速的AI就绪文档网站。Blume提供搜索、主题、SEO和一键部署到Astro和Vite。",
-      "intro_zh": "把Markdown秒变漂亮文档网站，搜索、主题、SEO全都有，还能一键部署。经常写技术文档、API说明的开发者必看。",
-      "url": "https://www.producthunt.com/products/blume-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/ONQG5RFDF5YWMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8c76dca1-b213-4012-a635-a77523e8440e.png?auto=format",
-      "votes_count": 290,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以展示文档网站界面、搜索和主题切换效果，但核心操作偏代码，视觉冲击力一般。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要了解Markdown、部署和前端框架，普通用户难以上手。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt排名第2，290票，热度很高。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它连运行管理一起封装，而不只统一调用入口；最影响判断的是，统一之后是否仍能可靠恢复任务。",
+      "product_analysis": {
+        "target_problem": "产品开发者接入多种 AI 代理时，需要处理各自的调用和运行差异。以前若分别适配，现在可以尝试用统一接口减少重复工作。",
+        "workflow": "部署打包好的容器，再让产品通过统一接口调用代理。运行中的会话、逐步返回的输出、文件和取消操作由工具封装。",
+        "ai_value": "AI 代理负责执行任务；这个工具主要负责接入和运行管理，介绍没提它另用 AI 来做调度。",
+        "differentiation": "省事点是把运行管理也一起封装。已有接入的团队可能不愿迁移，因为仍需确认原有功能能否保留。"
       },
-      "video_inspiration": {
-        "title_idea": "开发者神器！Markdown一键变身高颜值文档站，还自带AI搜索？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从空文件夹开始，用几条命令初始化Blume，然后展示生成的文档站点界面，重点突出主题切换、搜索功能、一键部署流程，节奏轻快，配合前后对比。",
-        "target_audience": "前端开发者、技术写作者、需要维护开源文档的团队。"
+      "technical_analysis": {
+        "disclosed_facts": "开源，提供统一 API，以单个 Docker 容器（打包运行环境的方式）部署，密钥和状态由使用方掌控。",
+        "possible_approach": "如果自己做，可以先统一启动、输出和取消等操作，再为每种代理写转换代码，把各自的返回结果整理成同一种格式。",
+        "tradeoffs": "最难的是故障恢复时判断任务做到哪一步。判断错了，可能重复执行已经完成的动作。",
+        "unknowns": "故障恢复是否包含防止重复执行，介绍没有说明。"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "热度高且能演示可视化界面，但目标人群偏技术，需谨慎定位视频受众。"
+      "transferable_insights": [
+        "做多供应商接入时，可以把会话、输出和取消一起统一，避免业务代码到处判断供应商类型。"
+      ],
+      "validation_questions": [
+        "让任务执行中途断开，再恢复，检查已完成的动作会不会重复执行。",
+        "用同一项产品功能分别调用两种代理，检查业务代码是否需要针对代理修改。"
+      ],
+      "source_tagline": "开源统一的 AI 代理运行接口",
+      "source_description": "这是一个开源工具，能让你在自己的产品里即插即用地接入 Codex、Claude Code、Hermes 这些 AI 代理，只用一个 API，不用改后端。它把会话、流式输出、文件、取消、故障恢复等都封装好了，模型密钥和状态也由你掌控。所有组件打成一个 Docker 容器，还附赠示例应用当灵感。"
     },
     {
       "id": "1223253",
       "name": "Chert",
-      "name_zh": "切特",
-      "tagline_zh": "FaceTime版Vapi：几行代码打造AI视频代理",
-      "description_zh": "Chert就是FaceTime版的Vapi，用几行代码就能做出能接打FaceTime的AI视频代理。你可以把它用在远程支持、现场服务、远程医疗接诊、引导式入职培训这些“看比说更管用”的场景。现在就能去FaceTime一个AI代理，给它看看你手里的东西试试效果。",
-      "intro_zh": "给FaceTime装了个AI大脑，打视频电话就能让AI看懂你眼前的东西并实时指导。搞远程维修、远程看病、现场服务的团队用起来超省心。",
+      "name_zh": "Chert",
+      "tagline_zh": "用几行代码构建能接打 FaceTime 的 AI 视频代理",
+      "description_zh": "Chert 将自己比作 FaceTime 版的 Vapi，称开发者用几行代码就能创建可接打 FaceTime 的 AI 视频代理。介绍列出的用途包括远程支持、现场服务、远程医疗接诊和引导式入职培训，并邀请用户通过视频展示手边物品来体验。",
+      "intro_zh": "给需要视频服务的产品开发者用，让用户通过 FaceTime 向 AI 展示现场情况并交流。",
       "url": "https://www.producthunt.com/products/chert?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZSI5JWBOPMT6XQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c3d776fa-b38f-4639-b9d5-6d9a45468dc5.png?auto=format",
       "votes_count": 206,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "可演示AI代理实时视频对话和物体识别，画面直观有冲击力，但构建过程偏代码，视频需侧重成品交互。"
+          "reason": "展示现场的需求明确，但实际识别与指导效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "产品定位是开发者工具，普通人只能看演示不能直接上手，理解上需要一点技术概念。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "画面与对话如何同步值得分析，具体实现未披露。"
         },
-        "popularity": {
+        "transferability": {
           "score": 4,
-          "reason": "PH排名第5，票数206，属于Top 10，热度中等偏上。"
+          "reason": "让用户直接展示问题，可借用于设备排障等场景。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "我让AI跟我FaceTime，它竟然指导我修好了电脑？",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示FaceTime通话，展示AI识别物品、给出步骤，突出实时互动；在视频开头直接放效果片段吸引眼球，再简单讲解原理。",
-        "target_audience": "对AI应用好奇的科技爱好者、开发者、远程服务创业者"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示效果直观吸睛，但产品本身面向开发者，普通用户只能看热闹，所以适合做展示型视频，不宜做教程。"
-    },
-    {
-      "id": "1219365",
-      "name": "AirAlarm",
-      "name_zh": "AirAlarm 空气闹钟",
-      "tagline_zh": "在睡眠周期结束时温柔叫醒你",
-      "description_zh": "AirAlarm 把你的 iPhone 和 AirPods 变成一个更温和的睡眠闹钟。设定一个唤醒窗口，听内置声音或自己的媒体入睡，它会在 90 分钟睡眠周期结束时叫醒你。不需要 Apple Watch，不用注册账号，也没有广告、数据追踪或云端睡眠档案。",
-      "intro_zh": "把 iPhone 和 AirPods 变成温和起床闹钟，专挑睡眠周期末尾叫醒你。不想被刺耳闹铃吓醒的上班族和学生党会很喜欢。",
-      "url": "https://www.producthunt.com/products/airalarm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/B3ULOGYYDTGF6B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f2aa0b61-2164-4135-95e6-5da90a9dd588.png?auto=format",
-      "votes_count": 124,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有手机界面和闹钟设置可演示，但画面以简洁设置项和声音列表为主，缺少强烈视觉冲击或丰富前后对比，视频表现力中等。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念直观，只涉及设定唤醒时间段和选择声音，不需要 Apple Watch 或账户，普通人拿到就能用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第6，票数124，属于当天榜单前10，有一定话题性但还没到爆火。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把现场画面直接带入求助过程；最影响判断的是接通 FaceTime 的实际条件，缓存中的“几行代码”不足以说明部署难度。",
+      "product_analysis": {
+        "target_problem": "做远程支持、现场服务的团队，可能需要用户展示设备或环境。仅靠口头描述时，双方容易说不清具体位置和状态。",
+        "workflow": "开发者创建能接打 FaceTime 的 AI 代理。用户与它视频通话，把手边物品展示给它；介绍没交代配置步骤。",
+        "ai_value": "AI 担任视频通话中的交流对象。示例意图是让它结合所见提供回应，但能看懂哪些内容尚不清楚。",
+        "differentiation": "相比仅靠口述，视频可能减少描述现场的麻烦。是否愿意使用，可能取决于用户是否接受把现场画面交给 AI。"
       },
-      "video_inspiration": {
-        "title_idea": "iPhone + AirPods 变温柔闹钟？睡眠周期叫醒实测，起床不痛苦了？",
-        "angle": "教程演示",
-        "shooting_tips": "分别录屏演示设置唤醒窗口、切换内置声音/个人媒体，实测闹钟响铃前 90 分钟周期结束时的唤醒动画；可对比普通闹钟和 AirAlarm 的起床体感，重点突出'温和唤醒'和'不用 Apple Watch'两个卖点，节奏放慢、语气像聊天。",
-        "target_audience": "有 AirPods 的 iPhone 用户，关注睡眠质量、讨厌传统闹钟的上班族和学生党。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 视频代理可接打 FaceTime，未说明具体模型和接入技术。",
+        "possible_approach": "如果自己做，可以先验证通话接入，再把当前画面和语音交给能同时理解两者的模型，生成语音回应。",
+        "tradeoffs": "最难的是让回答对应当前画面。若用户已经移动镜头，AI 仍按旧画面指导，就可能指错操作位置。",
+        "unknowns": "FaceTime 接入需要哪些账号、设备或运行条件？"
       },
-      "category": "健康健身",
-      "overall_suggestion": "可以做",
-      "overall_reason": "功能直观、上手零门槛，但视觉呈现偏工具型，适合做轻量教程或对比测评视频，不适合追求强视觉冲击的内容。"
+      "transferable_insights": [
+        "做设备排障产品时，可以让用户展示部件，再围绕画面提问，减少用户猜测该怎么描述。"
+      ],
+      "validation_questions": [
+        "移动镜头切换物品后，AI 的回答是否仍对应旧画面？",
+        "按文档创建一个可接听的代理，需要准备哪些账号和设备？"
+      ],
+      "source_tagline": "FaceTime版Vapi：几行代码打造AI视频代理",
+      "source_description": "Chert就是FaceTime版的Vapi，用几行代码就能做出能接打FaceTime的AI视频代理。你可以把它用在远程支持、现场服务、远程医疗接诊、引导式入职培训这些“看比说更管用”的场景。现在就能去FaceTime一个AI代理，给它看看你手里的东西试试效果。"
     },
     {
       "id": "1211172",
       "name": "CostLogic",
-      "name_zh": "成本逻辑",
-      "tagline_zh": "AI驱动的建筑算量、报价和发票工具",
-      "description_zh": "CostLogic 是一个建筑算量和成本核算工作台，里面有个叫 Onyx 的智能代理能帮你自动干活。上传平面图，它就能识别房间、校准比例、测量工程量，接着把算量转成报价单、发送发票，全在浏览器里完成。从蓝图到发票不用再拼凑五个工具，把几天的工作压缩到几小时甚至几分钟。",
-      "intro_zh": "建筑行业AI助手，上传图纸自动算量、出报价、开发票。做装修、施工、造价的人能把几天活儿压到几小时。",
+      "name_zh": "CostLogic",
+      "tagline_zh": "AI 驱动的建筑算量、报价和发票工具",
+      "description_zh": "CostLogic 是一个建筑算量和成本核算工作台，内置名为 Onyx 的智能助手。简介称，用户上传平面图后，它能识别房间、校准比例、测量工程量，再生成报价单并发送发票，全部在浏览器内完成。",
+      "intro_zh": "给建筑算量和报价人员用，把平面图里的工程量整理成报价单，并继续处理发票。",
       "url": "https://www.producthunt.com/products/costlogic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZHFJ2QYN4Z2I2R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/06f0807e-8aee-4555-937b-5c468061c7d8.png?auto=format",
       "votes_count": 116,
       "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有上传图纸、自动识别房间、校准比例、测量数量、生成估算和发票等完整可视化流程，适合展示前后对比和效率提升，画面直观、演示效果好。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "产品界面可能直观，但涉及建筑算量、报价、发票等专业概念，普通观众需要一定行业背景才能完全理解价值。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt排名第7，票数116，属于前10名，有一定热度但距离爆款还有差距。"
+          "reason": "使用对象和省事之处清楚，但算量准确性尚无材料支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "比例校准如何影响后续报价，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让同一份工程量继续用于报价和开票，是可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "上传图纸，AI自动算量出报价！建筑佬终于不用熬夜手算了",
-        "angle": "对比测评",
-        "shooting_tips": "先录一段传统手动测量图纸的繁琐过程作为痛点铺垫，再录屏演示上传PDF平面图、Onyx自动识别房间、标注尺寸、生成材料清单和报价单，最后展示一键发送发票。突出从几小时到几分钟的效率提升，用分屏对比和快节奏切换强化观感。",
-        "target_audience": "建筑承包商、装修公司老板、造价员、施工项目经理，以及对AI落地行业应用感兴趣的科技爱好者"
-      },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示效果强、热度不错，但建筑行业术语对普通观众有一定门槛，适合做垂直领域内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重工程量不用重复录入报价单；最大疑问是自动测量能否方便核对，缓存中的耗时缩短宣传不足以证明这一点。",
+      "product_analysis": {
+        "target_problem": "建筑算量和报价人员需要从图纸提取尺寸，再把工程量用于计价。若这些工作分散在多个工具里，反复录入和核对会很麻烦。",
+        "workflow": "上传平面图，Onyx 识别房间、校准比例并测量工程量，再将结果转成报价单、发送发票。",
+        "ai_value": "AI 主要负责从图纸识别房间、校准比例和测量工程量，减少逐项读图与测量。",
+        "differentiation": "它把测量结果接着用于报价和开票，可能减少重复录入。最可能阻碍切换的是用户不敢直接拿自动算出的数量报价。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 Onyx 智能助手和浏览器内操作，没说具体使用什么模型或图纸识别技术。",
+        "possible_approach": "如果自己做，可以先识别房间边界和尺寸标注，再用已知长度换算实际工程量，最后套用用户确认的单价生成报价。",
+        "tradeoffs": "最容易出错的是比例校准。比例一旦识别错，面积和后续金额都可能跟着错，用户需要回头核对整张图。",
+        "unknowns": "自动测量结果能否在图纸上逐项核对和修改？"
+      },
+      "transferable_insights": [
+        "做装修或维修报价工具时，可以让测量、报价和发票共用一份数量记录，减少多处修改。"
+      ],
+      "validation_questions": [
+        "上传一张已知尺寸的图纸，检查比例校准后的面积是否正确。",
+        "修改一项工程量，检查报价单中的对应数量是否同步更新。"
+      ],
+      "source_tagline": "AI驱动的建筑算量、报价和发票工具",
+      "source_description": "CostLogic 是一个建筑算量和成本核算工作台，里面有个叫 Onyx 的智能代理能帮你自动干活。上传平面图，它就能识别房间、校准比例、测量工程量，接着把算量转成报价单、发送发票，全在浏览器里完成。从蓝图到发票不用再拼凑五个工具，把几天的工作压缩到几小时甚至几分钟。"
     },
     {
       "id": "1223718",
       "name": "Mac Developer Bridge",
-      "name_zh": "Mac 开发者桥",
-      "tagline_zh": "让 ChatGPT 在你的 Mac 上拥有真实终端",
-      "description_zh": "这是个开源桥接工具，能把 ChatGPT 接到你的 Mac 上，让它直接操作电脑：执行命令、读写文件、开终端、跑后台任务，甚至翻看 Codex 历史。适合想让 AI 真正动手干活、而不是只动嘴的开发者。",
-      "intro_zh": "给 ChatGPT 装了个能操控 Mac 的“手”，能帮你跑命令、改文件、开终端。喜欢把活儿丢给 AI 干的开发者会爱死这个，省得自己敲键盘。",
+      "name_zh": "Mac Developer Bridge",
+      "tagline_zh": "让 ChatGPT 在你的 Mac 上使用真实终端",
+      "description_zh": "这是一个开源桥接工具，可连接 ChatGPT 与 Mac，执行命令、读写文件、打开终端和运行后台任务。简介还提到查看 Codex 历史，面向希望让 AI 直接操作电脑的开发者。",
+      "intro_zh": "给使用 Mac 的开发者用，把 ChatGPT 接到本机，让它执行命令、读写文件和运行任务。",
       "url": "https://www.producthunt.com/products/mac-developer-bridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BWR6DKKLWQHON7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9f7b8652-1a25-495a-a5bd-e0c48f41744f.png?auto=format",
       "votes_count": 19,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以录制屏幕展示从 ChatGPT 发指令到 Mac 执行命令的完整过程，有一定视觉冲击，但界面偏终端和代码，对普通观众不够直观。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解终端、shell、MCP 协议等概念，使用门槛较高，普通人很难秒懂。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "PH 排名第9，属于前10，但票数仅19，热度集中在开发者圈子，话题性一般。"
+          "reason": "把聊天建议变成本机操作的用途明确，但实际省事程度待验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让模型执行本机命令后，如何限制误操作是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "连接聊天与本机操作的做法可借鉴，但授权方式没有说明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "给 ChatGPT 开了个终端，它真的帮我干完了所有活儿",
-        "angle": "教程演示",
-        "shooting_tips": "先展示痛点：一堆重复的文件操作或命令要手动敲，然后安装 Mac Developer Bridge，在 ChatGPT 里用自然语言下指令，屏幕录制终端实时执行命令、文件变化，突出“不用手敲命令”的爽感。节奏可以前半段铺垫，后半段连续演示多个任务，适当加入 AI 执行失误的幽默片段。",
-        "target_audience": "Mac 用户、开发者、AI 爱好者、效率工具控，喜欢折腾自动化的技术人群"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "适合做成开发者向的酷炫演示视频，但对普通观众门槛较高，热度中等。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让建议直接变成可执行操作；最影响判断的是权限能否被用户有效限制。",
+      "product_analysis": {
+        "target_problem": "面向想让 ChatGPT 直接处理 Mac 本地任务的开发者。若原来需要手动执行聊天里给出的命令，现在可以让它直接动手。",
+        "workflow": "连接 ChatGPT 与 Mac 后，让它执行命令、读写文件或运行后台任务。简介未交代安装和授权步骤。",
+        "ai_value": "AI 的作用从给建议延伸到发起本机操作；具体如何理解任务、判断完成，介绍没有说明。",
+        "differentiation": "可能省去复制命令和回传结果的操作。最可能让人犹豫的是要把多少本机权限交给它。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确称其开源，支持命令执行、文件读写、终端、后台任务及查看 Codex 历史；未说明连接技术。",
+        "possible_approach": "如果自己做，可以先在 Mac 上运行一个接收操作请求的程序，再把执行结果传回聊天。涉及写文件或危险命令时，先展示操作内容并请求确认。",
+        "tradeoffs": "最容易出错的是放行了不该执行的命令，可能误改或删除文件。授权不能只在首次连接时一概同意。",
+        "unknowns": "能否把操作权限限制在指定目录内？"
+      },
+      "transferable_insights": [
+        "做本地 AI 助手时，可把拟执行的操作和实际结果分别展示，让用户看清它做了什么。"
+      ],
+      "validation_questions": [
+        "指定一个允许操作的目录，检查它能否读取目录外的测试文件。",
+        "启动一个会失败的后台任务，检查聊天中能否拿到明确的失败结果。"
+      ],
+      "source_tagline": "让 ChatGPT 在你的 Mac 上拥有真实终端",
+      "source_description": "这是个开源桥接工具，能把 ChatGPT 接到你的 Mac 上，让它直接操作电脑：执行命令、读写文件、开终端、跑后台任务，甚至翻看 Codex 历史。适合想让 AI 真正动手干活、而不是只动嘴的开发者。"
     },
     {
       "id": "1220142",
       "name": "Assetli.app",
-      "name_zh": "Assetli 个人财务AI助手",
-      "tagline_zh": "个人财务与净资产，接入你的AI助手",
-      "description_zh": "大部分理财App只给你看个仪表盘，Assetli能让你的Claude或ChatGPT直接读写你的资产、交易和投资组合。除了记账，它还能跟踪股票、加密货币、房产和车辆，内置财务自由（FIRE）、房贷和租买对比计算器。不用强制绑银行，CSV/PDF导入，隐私自己掌控。",
-      "intro_zh": "把净资产和投资连进ChatGPT/Claude，AI帮你查账更新资产。喜欢用AI管钱又不想绑卡的人会爱。",
+      "name_zh": "Assetli.app",
+      "tagline_zh": "把个人财务与净资产接入你的 AI 助手",
+      "description_zh": "Assetli.app 支持 Claude 或 ChatGPT 读写资产、交易和投资组合记录，并跟踪股票、加密货币、房产和车辆。它还提供财务自由（FIRE）、房贷和租买对比计算器，支持 CSV/PDF 导入，不强制绑定银行。",
+      "intro_zh": "给想集中管理个人资产的人用，把财务记录接给 Claude 或 ChatGPT，供助手读取和修改。",
       "url": "https://www.producthunt.com/products/assetli-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2OSRFJSWLSIRRJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/28809869-eb10-41ce-9c8e-a0b6e3079685.png?auto=format",
       "votes_count": 19,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有财务仪表盘、AI聊天界面、资产分类和计算器，适合演示前后对比，但题材偏专业，视觉冲击力一般。"
+          "reason": "管理对象和使用方式明确，但导入与维护能省多少事尚不清楚。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
+          "score": 4,
+          "reason": "让助手修改财务记录，带来了具体的误写防护问题。"
+        },
+        "transferability": {
           "score": 3,
-          "reason": "概念不算复杂，但涉及MCP连接、FIRE等术语，普通用户需要一定学习成本；导入CSV/PDF对小白略麻烦。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt第10名，19票，排名尚可但票数不高，热度一般。"
+          "reason": "让已有助手操作业务记录可以借鉴，但授权与确认方式未披露。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "我用ChatGPT管钱，净资产自动同步，这App太顶了",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先展示仪表盘和资产分类，再演示连接Claude/ChatGPT的MCP配置，在聊天里问“我的净资产是多少”，AI回复并更新数据；展示FIRE和房贷计算器，对比传统理财App的只读模式，节奏轻快，突出AI读写和隐私控制。",
-        "target_audience": "对AI工具感兴趣的个人理财用户、加密货币/股票投资者、喜欢自动化和数据掌控的上班族、FIRE运动爱好者"
-      },
       "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品有清晰的界面和AI集成演示空间，但新手理解成本稍高，适合作为教程或测评视频。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是不用强制绑定银行也能整理财务资料；最影响判断的是，助手写入数据时用户能否控制每次修改。",
+      "product_analysis": {
+        "target_problem": "适合同时持有证券、房产等多类资产，又想用 AI 助手处理财务记录的人。它把这些记录放进助手能读写的范围，减少另行搬运数据的需要。",
+        "workflow": "可导入 CSV/PDF 财务资料，跟踪各类资产，再让 Claude 或 ChatGPT 读写相关记录。具体连接步骤没有说明。",
+        "ai_value": "AI 的明确作用是读取和修改财务记录；简介没有说明它会自动提供投资建议。",
+        "differentiation": "不强制绑定银行，给了用户另一种录入方式。但持续补齐数据可能仍需手工维护，影响换用意愿。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持 Claude、ChatGPT 读写财务数据及 CSV/PDF 导入，介绍没说具体连接技术。",
+        "possible_approach": "如果自己做，可以先把导入资料整理成统一记录，再让助手查询；修改前展示变更内容，由用户确认后保存。",
+        "tradeoffs": "最容易出错的是助手改错记录。若把金额或资产归属写错，净资产结果也会跟着失真。",
+        "unknowns": "助手能修改哪些记录，是否需要逐次确认？"
+      },
+      "transferable_insights": [
+        "做记账或库存工具时，可以先开放查询，再让助手提交修改预览，供用户确认。"
+      ],
+      "validation_questions": [
+        "导入一份已知内容的账单，核对金额是否准确。",
+        "让助手修改一条记录，检查保存前是否要求确认。"
+      ],
+      "source_tagline": "个人财务与净资产，接入你的AI助手",
+      "source_description": "大部分理财App只给你看个仪表盘，Assetli能让你的Claude或ChatGPT直接读写你的资产、交易和投资组合。除了记账，它还能跟踪股票、加密货币、房产和车辆，内置财务自由（FIRE）、房贷和租买对比计算器。不用强制绑银行，CSV/PDF导入，隐私自己掌控。"
+    },
+    {
+      "id": "1200353",
+      "name": "Blume",
+      "name_zh": "Blume",
+      "tagline_zh": "AI 就绪、Markdown 优先的文档框架",
+      "description_zh": "Blume 可从纯 Markdown 生成文档网站，简介称网站美观、快速且“AI 就绪”。它提供搜索、主题和 SEO（帮助搜索引擎发现内容），缓存简介还提到“一键部署到 Astro 和 Vite”，具体含义待确认。",
+      "intro_zh": "给维护产品或开发文档的团队用，把 Markdown 文档生成带搜索和主题的网站。",
+      "url": "https://www.producthunt.com/products/blume-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ONQG5RFDF5YWMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8c76dca1-b213-4012-a635-a77523e8440e.png?auto=format",
+      "votes_count": 290,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但建站和后续维护能省多少事尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "文档更新后搜索能否同步，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕已有文档格式补齐网站能力，是可借用的做法。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是复用已有文档来建站；最大的疑问是缓存中的部署描述含义不清，尚无法判断上线要做多少配置。",
+      "product_analysis": {
+        "target_problem": "已有 Markdown 文档的团队，可能还要为读者准备浏览、查找和发布入口。Blume 把这些网站能力放在一起。",
+        "workflow": "以 Markdown 文档为输入，生成文档网站，并使用搜索、主题和部署能力。简介未交代具体配置步骤。",
+        "ai_value": "“AI 就绪”没有说明 AI 实际做什么，不能据此认定有问答或自动写作功能。",
+        "differentiation": "它可能减少单独搭建搜索和页面样式的工作。已有文档站的团队可能因迁移工作不愿更换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到纯 Markdown、搜索、主题、SEO，以及 Astro 和 Vite，但未解释后两者如何参与发布。",
+        "possible_approach": "如果自己做，可以先把 Markdown 转成网页，再提取正文建立搜索索引，也就是供搜索查找的内容目录，最后打包发布。",
+        "tradeoffs": "最容易漏掉文档更新后的搜索同步。正文改了，搜索仍显示旧内容，读者就可能得到过时答案。",
+        "unknowns": "“AI 就绪”究竟对应哪项可使用、可检查的能力？"
+      },
+      "transferable_insights": [
+        "做内部知识库时，可以保留团队已有的 Markdown 文件，再补上统一浏览和搜索，减少重新录入内容。"
+      ],
+      "validation_questions": [
+        "修改一篇文档并重新发布后，搜索结果是否同步更新？",
+        "用一个最小项目，能否按说明完成所谓“一键部署”？"
+      ],
+      "source_tagline": "AI就绪、Markdown优先的文档框架",
+      "source_description": "从纯Markdown快速生成漂亮、快速的AI就绪文档网站。Blume提供搜索、主题、SEO和一键部署到Astro和Vite。"
+    },
+    {
+      "id": "1221007",
+      "name": "Expeditione",
+      "name_zh": "Expeditione",
+      "tagline_zh": "可以走进去探索的互动 3D 百科全书",
+      "description_zh": "Expeditione 是由一人独立开发、可在浏览器中打开的互动 3D 百科全书，让用户探索手工制作的立体世界来学习知识。简介称它轻量、无广告、无需注册，前三次“探险”永久免费，并为教师提供课堂资源。",
+      "intro_zh": "给想用立体场景学习知识的人和教师用，在浏览器里探索手工制作的世界，也提供课堂资源。",
+      "url": "https://www.producthunt.com/products/expeditione?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/D7ZI6MYC6S5UNF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/381d1223-bc95-4097-b0f6-ad0b12d413ae.png?auto=format",
+      "votes_count": 258,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但内容覆盖和学习收益尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "浏览器中加载立体场景有具体难点，但实现资料有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "免注册开放部分内容的做法可借用于互动学习产品。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重无需注册即可接触实际内容；最大的疑问是，探索场景能否帮助理解知识，而不只是增加观看趣味。",
+      "product_analysis": {
+        "target_problem": "想直观看懂知识的学习者，以及准备课堂材料的教师可能会用它。它提供立体场景供人探索，但资料没说明具体讲哪些主题。",
+        "workflow": "用户在浏览器打开产品，进入手工制作的立体世界探索学习。前三次“探险”免费，教师另有课堂资源；具体操作方式未说明。",
+        "ai_value": "介绍没提 AI，主要靠互动立体场景改善知识呈现方式。",
+        "differentiation": "无需注册就能开始探索，少了一道体验前的手续。是否愿意持续使用，可能取决于内容是否匹配自己的学习主题。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持浏览器内的互动 3D 场景，世界由手工制作；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先选一个适合用空间展示的知识主题，再制作场景，把知识说明放到对应位置，最后测试浏览器里的加载和操作。",
+        "tradeoffs": "最容易出问题的是场景加载：模型或图片过大，可能让用户等很久才能开始探索。",
+        "unknowns": "“前三次探险”指三个固定内容，还是三次使用机会？"
+      },
+      "transferable_insights": [
+        "做互动课程时，可以免注册开放一个完整学习单元，让用户先判断内容和操作是否适合自己。"
+      ],
+      "validation_questions": [
+        "用一台普通课堂电脑打开场景，检查能否顺利加载并操作。",
+        "完成一次探险后，检查能否说清其中讲解的一个知识点。"
+      ],
+      "source_tagline": "能走进去的互动3D百科全书",
+      "source_description": "这是一个能在浏览器里直接打开的互动3D百科全书，由一个人独立开发。你不用干巴巴地读文字，而是可以进入手工打造的立体世界，边探索边学。它没广告、不用注册，还很轻量，前三趟“探险”永久免费，老师还能拿到课堂资源。"
+    },
+    {
+      "id": "1216311",
+      "name": "Vidaya",
+      "name_zh": "Vidaya",
+      "tagline_zh": "用可穿戴设备、体检数据和 DNA 计算健康寿命分数",
+      "description_zh": "Vidaya 将可穿戴设备、化验报告和生活习惯数据转成健康寿命分数，并提供个性化长寿计划。它面向希望提前管理健康的人，试图补上健康仪表盘只展示数字、缺少下一步建议的问题。",
+      "intro_zh": "给想提前管理健康的人用，汇总可穿戴设备和体检等数据，生成健康寿命分数及个人行动计划。",
+      "url": "https://www.producthunt.com/products/vidaya?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/NQURZFZSJX6BY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7a970293-89ee-41ce-a4da-f0e30ac00338.png?auto=format",
+      "votes_count": 240,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "从看数据到获得建议的需求清楚，但计划是否可靠还缺依据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "不同健康数据如何变成可信分数，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "给指标配下一步行动可以借鉴，但健康建议需要额外验证。"
+        }
+      },
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把数据接到行动建议上；最影响判断的是，健康寿命分数是否有可靠依据。",
+      "product_analysis": {
+        "target_problem": "想提前管理健康的人，可能已有多种检查和监测数据，却不知道该先改什么。它试图把分散数字变成行动建议。",
+        "workflow": "用户提供可穿戴设备、化验报告和生活习惯数据，再获得健康寿命分数及个性化计划。资料没说明具体如何导入。",
+        "ai_value": "介绍没提 AI，主要靠汇总健康数据、给出分数和计划来改善体验。",
+        "differentiation": "比只看指标多了一份下一步计划。但分数依据不透明，可能让用户不敢照着做。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术；标语提到 DNA，但简介没有说明如何使用。",
+        "possible_approach": "如果自己做，可以先统一数据单位和采集时间，再依据有证据支持的健康规则生成分数与建议，并展示依据。",
+        "tradeoffs": "最难的是证明分数确实反映健康风险；若只是把指标凑成一个数字，用户可能误以为高分就无需就医。",
+        "unknowns": "这个分数是否经过长期健康结果验证，资料没有回答。"
+      },
+      "transferable_insights": [
+        "做指标看板时，可给异常指标配一项具体行动，并展示依据，帮助用户决定下一步。"
+      ],
+      "validation_questions": [
+        "分数是否提供与长期健康结果对应的验证证据？",
+        "生成的计划是否清楚区分生活建议与需要医生评估的问题？"
+      ],
+      "source_tagline": "用可穿戴设备、体检数据和 DNA 算出你的健康寿命分数",
+      "source_description": "Vidaya 把你可穿戴设备、化验报告和生活习惯数据，变成一个实际的健康寿命分数，再给你一份个性化的长寿计划。创始团队受够了那些只显示数字、却从来不告诉你下一步该怎么做的仪表盘，于是做了这个工具。给关注健康、想提前管理身体的人用。"
+    },
+    {
+      "id": "1219365",
+      "name": "AirAlarm",
+      "name_zh": "AirAlarm",
+      "tagline_zh": "在睡眠周期结束时温柔叫醒你",
+      "description_zh": "AirAlarm 用 iPhone 和 AirPods 提供睡眠闹钟：用户设定唤醒窗口，听内置声音或自己的媒体入睡，介绍称它会在 90 分钟睡眠周期结束时叫醒用户。它不需要 Apple Watch，也无需注册账号，介绍称没有广告、数据追踪或云端睡眠档案。",
+      "intro_zh": "给使用 iPhone 和 AirPods、希望温和醒来的人，用唤醒时间窗口安排闹钟，也能听声音入睡。",
+      "url": "https://www.producthunt.com/products/airalarm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/B3ULOGYYDTGF6B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f2aa0b61-2164-4135-95e6-5da90a9dd588.png?auto=format",
+      "votes_count": 124,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用场景清楚，但更温和的唤醒效果缺少验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何确定睡眠周期结束，是影响承诺能否兑现的具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用时间窗口表达偏好，适合允许时间浮动的提醒场景。"
+        }
+      },
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重无需另配手表就能使用；但若只是按固定间隔计时，就不能据此认定它知道用户何时更容易醒来。",
+      "product_analysis": {
+        "target_problem": "适合愿意留出一段起床时间、又不想佩戴 Apple Watch 的人。它想解决的是闹钟响了，却觉得醒得不舒服的问题。",
+        "workflow": "设定唤醒窗口，选择内置声音或自己的媒体入睡。介绍称，闹钟会在 90 分钟睡眠周期结束时唤醒用户。",
+        "ai_value": "介绍没提 AI，主要靠唤醒时间安排和声音播放来改善体验。",
+        "differentiation": "无需另配 Apple Watch，也省去注册。最可能让人犹豫的是：周期结束的判断是否符合自己的实际睡眠。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 iPhone、AirPods 和按 90 分钟睡眠周期安排唤醒，没说具体如何判断周期。",
+        "possible_approach": "如果自己做，可以先让用户提供预计入睡时间，再按 90 分钟间隔找出窗口内的候选闹钟时间。这只是时间估算，不能当成睡眠阶段检测。",
+        "tradeoffs": "最容易错在入睡起点：躺下不等于睡着，算出的周期终点可能偏移，用户仍可能被不舒服地叫醒。",
+        "unknowns": "它如何确定用户何时真正入睡？"
+      },
+      "transferable_insights": [
+        "做允许时间浮动的提醒工具时，可以让用户设定一个时间窗口，再按明确规则选定提醒时刻。"
+      ],
+      "validation_questions": [
+        "比预计时间晚入睡时，唤醒时刻是否会调整？",
+        "AirPods 夜间断连后，闹钟是否仍能按时发声？"
+      ],
+      "source_tagline": "在睡眠周期结束时温柔叫醒你",
+      "source_description": "AirAlarm 把你的 iPhone 和 AirPods 变成一个更温和的睡眠闹钟。设定一个唤醒窗口，听内置声音或自己的媒体入睡，它会在 90 分钟睡眠周期结束时叫醒你。不需要 Apple Watch，不用注册账号，也没有广告、数据追踪或云端睡眠档案。"
     },
     {
       "id": "1223632",
       "name": "Vaaya",
-      "name_zh": "瓦娅",
-      "tagline_zh": "把你的 GitHub 主页，变成 AI 智能体专用的信用卡",
-      "description_zh": "它会根据你的 GitHub 资料生成一个“智能体信用分”，然后给你的 AI 代理发钱去花。只要接一个 MCP，代理就能调用 Exa、Firecrawl、Apollo.io 等 1400 多个工具，安装跑一条 npx 命令就行。",
-      "intro_zh": "把 GitHub 主页变成 AI 代理的信用卡，让它能自己花钱调用 1400 多个工具。搞 AI 自动化、又不想一个个接支付的开发者会需要。",
+      "name_zh": "Vaaya",
+      "tagline_zh": "用 GitHub 资料为 AI 智能体获取工具消费额度",
+      "description_zh": "缓存简介称，Vaaya 根据 GitHub 资料生成“智能体信用分”，并给 AI 代理提供消费资金。它称接入一个 MCP 就能调用 Exa、Firecrawl、Apollo.io 等 1400 多个工具，安装只需运行一条 npx 命令。",
+      "intro_zh": "给需要让 AI 代理调用外部工具的开发者用，根据 GitHub 资料提供消费额度，并集中接入工具。",
       "url": "https://www.producthunt.com/products/vaaya?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HTDUYEWC5N5KGM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/54563da5-e96c-4e4a-a361-14bc6c5dc489.png?auto=format",
       "votes_count": 53,
       "scores": {
-        "video_suitability": {
-          "score": 1,
-          "reason": "产品主要是终端命令、后台 API 和 MCP 安装，没有图形界面或明显画面操作，视觉冲击力弱，普通观众很难产生观看兴趣。"
+        "product_value": {
+          "score": 3,
+          "reason": "集中接入和提供额度的用途清楚，但额度性质与使用条件不明。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要理解 GitHub、AI 智能体、MCP 和命令行安装等概念，技术门槛偏高，普通人不容易秒懂。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "ProductHunt 排名第 8、票数 53，进入前十说明有一定关注度，但不算现象级爆款。"
+          "reason": "代理自主调用工具时，如何限制消费是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一接入工具的做法可借鉴，但实际覆盖程度待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "给 AI 代理办张信用卡？1400 个工具随便花！",
-        "angle": "行业解读",
-        "shooting_tips": "先录制终端窗口：运行 npx @vaaya/mcp install 安装，再展示 AI 代理调用某个工具并消耗额度的过程；用动画把信用额度类比成信用卡刷卡，强调一个 MCP 接入 1400+ 工具的便利，节奏紧凑，前 10 秒抛出类比。",
-        "target_audience": "对 AI 自动化感兴趣的独立开发者、技术爱好者和做 AI Agent 效率工具的极客人群。"
-      },
       "category": "开发工具",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "技术味太浓、画面表现力弱，更适合开发者社区传播，普通观众视频化难度较高。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "集中接入工具有明确便利，但不能把缓存中的“信用卡”理解成已确认的金融服务；额度性质最影响判断。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 代理调用外部工具时，需要处理工具接入和费用。Vaaya 把这两件事放到一起。",
+        "workflow": "简介描述的是：根据 GitHub 资料评分并提供额度，运行 npx 命令安装，再接入 MCP 调用工具。未给出具体授权步骤。",
+        "ai_value": "AI 代理负责调用工具；介绍没说信用评分是否使用 AI。",
+        "differentiation": "它把多种工具集中到一个连接中，可能减少逐个接入的工作。最可能让人犹豫的是额度和收费规则不清楚。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 MCP（让 AI 连接外部工具的通用方式）和 npx（运行软件包命令的工具），没说明评分算法。",
+        "possible_approach": "如果自己做，可以先统一工具调用格式，再给每个代理设置预算，并在调用前检查余额、调用后记账。",
+        "tradeoffs": "最难的是并发调用时守住预算；多次请求若同时通过余额检查，可能产生超额费用。",
+        "unknowns": "所谓“发钱”是赠送额度、预付余额，还是需要偿还的授信？"
+      },
+      "transferable_insights": [
+        "做需要调用多家付费服务的 AI 产品时，可以统一工具入口，让用户少配置几套连接。"
+      ],
+      "validation_questions": [
+        "同时发起多次调用，预算耗尽时能否阻止新增消费？",
+        "选一个实际需要的工具，检查统一入口是否支持所需操作。"
+      ],
+      "source_tagline": "把你的 GitHub 主页，变成 AI 智能体专用的信用卡",
+      "source_description": "它会根据你的 GitHub 资料生成一个“智能体信用分”，然后给你的 AI 代理发钱去花。只要接一个 MCP，代理就能调用 Exa、Firecrawl、Apollo.io 等 1400 多个工具，安装跑一条 npx 命令就行。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

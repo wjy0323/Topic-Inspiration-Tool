@@ -1,357 +1,510 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-10T19:44:58+08:00",
+  "generated_at": "2026-11-07T15:37:39+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1218300",
-      "name": "VoiceOS App Store",
-      "name_zh": "VoiceOS 应用商店",
-      "tagline_zh": "藏在通知栏里的语音应用商店，说句话就能造个App",
-      "description_zh": "一个专门给语音应用准备的应用商店，你只要说出想法，它就能帮你自动生成一个语音App。做完之后会给你一条链接，别人点一下就能直接用，完全不用写代码。",
-      "intro_zh": "对着电脑说句话就能当场生成一个语音小工具，还能把链接甩给朋友直接安装。平时总想自己捣鼓点小应用又不会写代码的人，这下可算有救了。",
-      "url": "https://www.producthunt.com/products/voiceos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RAQNCR3ER46NG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ec0bfe10-3ee1-40ea-8891-bf52c750c419.png?auto=format",
-      "votes_count": 323,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的创建、生成、分享、安装流程，可以全程录屏展示，但纯语音交互界面可能略显简洁，需要靠讲解和节奏加分。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "一句话描述就能生成应用，不需要任何编程知识，普通人听完概念就能上手。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第2，323票，在当日榜单中属于头部热门产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "离谱！说一句话就能变出一个App，苹果刘海里的黑科技商店有多野？",
-        "angle": "开箱体验",
-        "shooting_tips": "直接录屏演示：从打开 VoiceOS 开始，随口说一句‘帮我做一个睡前故事应用’，看着它自动生成，然后点开试听效果，最后分享链接给朋友演示一键安装。全程保持惊讶和碎嘴调侃，突出‘这也能行’的反差感。",
-        "target_audience": "喜欢数码尝鲜、对AI应用好奇、想自己搞点小工具但不会编程的普通网友"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "一句话生成应用，演示效果炸裂，完全零门槛，加上榜单热度够高，天然适合拍成爆款短视频。"
-    },
-    {
-      "id": "1210454",
-      "name": "SoloUno",
-      "name_zh": "SoloUno",
-      "tagline_zh": "掌控拔头发、咬指甲和揪皮肤的习惯，不再被小动作支配",
-      "description_zh": "SoloUno 是一款帮助人们管理身体重复性强迫行为（如拔毛癖、咬指甲、抠皮肤）的自助工具。它把习惯逆转训练、认知行为疗法和接纳承诺疗法变成游戏化的日常小挑战，通过记录习惯、分析诱因和接纳冲动的练习，让你在无压力的节奏中一点点找回控制感。",
-      "intro_zh": "一个用打游戏的方式帮你改掉拔头发、咬指甲这种小动作的 APP。总是忍不住抠手、揪头发，试过很多方法没用的人，会在这里找到不用自责、慢慢进步的陪伴感。",
-      "url": "https://www.producthunt.com/products/solouno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XAIWIH5Z6NGPYS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/68703502-0357-41ff-96b0-aae3fc86f7f9.png?auto=format",
-      "votes_count": 300,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "APP 界面直观，有习惯打卡、挑战倒计时、进度条和数据分析画面，录屏演示就能清楚展现游戏化激励的完整流程，视觉节奏利落，适合做成沉浸式体验测评。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "不需要任何专业背景，页面引导清晰，功能入口简单易懂，虽然 BFRB 概念略小众，但用生活化的例子解释后普通人很快就能理解。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第 3，票数 300，热度非常高，评论区讨论积极，心理健康类工具常自带话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "偷偷拔头发、抠手指到流血？这个游戏化APP救了我的「手贱」",
-        "angle": "教程演示结合个人体验",
-        "shooting_tips": "开头用特写镜头展示真实的习惯动作场景制造代入感，然后切到手机录屏：从第一次记录习惯、领取挑战，到连续打卡后解锁里程碑的画面；突出七天无自拔倒计时和冲动接纳训练的动态反馈，用轻快节奏搭配「不再自责」的情感金句，结尾放连续打卡的日历截图。",
-        "target_audience": "有咬指甲、拔头发、抠皮肤等小动作困扰的年轻人，关注心理健康和习惯养成的普通观众。"
-      },
-      "category": "健康健身",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "界面演示效果佳，话题自带共情点，热度排名靠前，普通人极易代入，成片吸睛又治愈。"
-    },
-    {
-      "id": "1210857",
-      "name": "Prompt Golf",
-      "name_zh": "提示词高尔夫",
-      "tagline_zh": "把提示词工程变成竞技运动",
-      "description_zh": "Prompt Golf 将提示词工程变成了一款竞技解谜游戏。五轮比赛中，用尽可能少的字符引诱一个开箱即用的 AI 说出指定的目标词或短语。每轮都有特殊条件或禁用输入词，每个字符、每条消息都会增加杆数，巧妙简洁的提示能帮你冲上实时排行榜。整场游戏可重玩，随时查看排行榜，挑战朋友并围观他们的对话记录。",
-      "intro_zh": "跟 AI 玩文字高尔夫，用最精炼的话让对方说出目标词，少一个字就少一杆。喜欢解谜、热衷挑战的玩家和 AI 爱好者会玩上瘾。",
-      "url": "https://www.producthunt.com/products/prompt-golf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/FGKVBCQHSDLGO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b83f208e-7b27-4064-b923-a312d612e9f4.png?auto=format",
-      "votes_count": 137,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "游戏界面直观，有实时排行榜、杆数变化和对话展示，适合录制回合制冲突和玩家对决画面，视觉冲击力中等但演示效果流畅。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "规则简单易懂，不需要技术背景，任何人都能上手玩，唯一门槛是理解“用尽量少的字让AI说出特定词”。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "当日 ProductHunt 第7名，137票，热度中上，有一定话题性但非现象级。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "跟AI斗智斗勇！用四个字让它说出“我爱你”",
-        "angle": "开箱体验 + 娱乐吐槽",
-        "shooting_tips": "先录游戏规则介绍，再展示自己玩几轮的屏幕操作，突出用极简提示搞定目标的惊喜时刻，最后拉好友对战展示排行榜变动，节奏轻快带反转。",
-        "target_audience": "喜欢烧脑小游戏、AI 尝鲜者和经常在社媒围观趣味挑战的年轻用户。"
-      },
-      "category": "游戏娱乐",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "游戏画面丰富、易上手且具备社交竞技属性，非常适合做成好玩易懂的视频内容。"
-    },
-    {
-      "id": "1205840",
-      "name": "Macrobite",
-      "name_zh": "一口营养",
-      "tagline_zh": "拍张照，秒懂你这顿饭的营养成分",
-      "description_zh": "用 Macrobite 记录营养超快。拍一张食物照片就能立刻看到热量、蛋白质、碳水和脂肪的分解。如果识别有偏差，快速编辑一下就行，不用翻庞大的食物数据库。还支持语音记录（包括 Siri），在 iPhone 小部件或 Apple Watch 上轻松追踪全天摄入，不用打开 App。专为那些厌烦传统记录繁琐步骤、又想精准掌握营养的人设计。",
-      "intro_zh": "吃饭前拍个照，热量、蛋白、碳水立刻算清楚，不用再手动翻半天表格。平时忙、又想精准控制饮食的健身党和上班族会爱死这个。",
-      "url": "https://www.producthunt.com/products/macrobite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WJACCINHOHJWJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b5e9a5b0-a281-4319-b96a-d01fcf967db1.png?auto=format",
-      "votes_count": 126,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "拍照识别、快速编辑、语音记录、小部件和手表同步，操作步骤多、界面变化丰富，前后对比直观，演示效果强，适合展示“刷一下出结果”的快节奏画面。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念就是“拍照得营养”，没有任何技术门槛，会用手机拍照的人都能马上上手，理解零成本。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH 当日第 8 名，126 票，在健康类产品中有一定讨论度，属于当日热门。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我试了拍照算热量的 App，结果比健身教练还快！",
-        "angle": "对比测评",
-        "shooting_tips": "用饭桌实拍开场，先展示传统 App 翻找输入的繁琐，再切到 Macrobite 一拍即得，强调秒出结果；穿插手表小部件的抬手画面，最后用 Siri 语音记录一顿饭收尾，节奏轻快。",
-        "target_audience": "想控卡减肥、增肌减脂的都市青年，经常外食又懒得手记的上班族，Apple Watch 用户。"
-      },
-      "category": "健康健身",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示效果强、操作直观、普通人一看就懂，加上热度不错，非常适合做成吸睛的短视频。"
-    },
-    {
-      "id": "1218316",
-      "name": "Argos",
-      "name_zh": "阿戈斯",
-      "tagline_zh": "浏览器里的替身AI，说话就替你干",
-      "description_zh": "大多数AI只会给你建议，阿戈斯直接帮你干。它住在你的浏览器里，用你的登录账号自动点击、打字、填表，搞定真实任务。在侧边栏说句话，或者用 Telegram、WhatsApp 发消息，它就在前台或后台跑，然后把结果给你。原生接入 Gmail、Docs、Sheets，还能连通 GitHub、Slack、Notion 等工具。你的数据留在本机，无隐私担忧。免费就能上手。",
-      "intro_zh": "在浏览器里塞了个能替你动手干活的AI，你动嘴它动手，填表、回邮件、操作表格全自动。天天在网上重复操作的打工人和学生党终于能偷懒了。",
-      "url": "https://www.producthunt.com/products/argos-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WHTBY2XSHARI7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/72063fc0-1343-4db4-9307-81842898aa43.png?auto=format",
-      "votes_count": 115,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "浏览器自动操作的过程极具画面感，可录屏展示 AI 填表、发邮件、操作页面元素的全流程，前后对比强烈，视觉冲击力足。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "自然语言下达指令，无需任何编程知识，所有操作在熟悉的浏览器界面完成，普通互联网用户一看就懂，使用门槛极低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日第10名，获得115票，作为工具型产品热度不错，有一定话题性和关注度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "这AI抢了你的鼠标键盘，但你会笑着给它加鸡腿",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示：打开 Gmail 侧边栏，输入‘帮我给老板写封请假邮件并发送’，阿戈斯自动在收件人栏填好地址，撰写正文，点击发送。再切到 Google Sheets 演示自动整理数据。节奏由快转稳，先展示惊艳效果再逐步解密，最后强调数据本地处理的安全性。",
-        "target_audience": "厌倦重复浏览器操作的上班族、学生、效率工具爱好者"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化操作展示性强，受众广泛且理解零门槛，极易引发好奇和尝试冲动。"
-    },
-    {
-      "id": "1196035",
-      "name": "Omniwork",
-      "name_zh": "全能工作",
-      "tagline_zh": "创意代理操作系统，让桌面AI智能体助你更好地创作。",
-      "description_zh": "Omniwork是一套常驻的创意代理操作系统，能把你的想法变成完成的作品。专用的AI智能体可以研究、创作、监控并自动化你的创意工作流程，还有一个主动式的桌面伙伴，持续推动项目进展，把结果、提醒和进度直接推送到你的屏幕上。",
-      "intro_zh": "它是一个常驻桌面的AI创作大管家，主动帮你调研、写文案、盯进度，做完活直接弹窗提醒。搞设计、写方案、管项目的自由职业者和小团队用了会省心不少。",
-      "url": "https://www.producthunt.com/products/omniwork-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/M4Y5GPSVZTCBSU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9028ef02-49f7-429c-8ca3-c8d7abd4753d.png?auto=format",
-      "votes_count": 413,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "桌面应用有丰富UI，可录制AI代理自动执行任务、主动推送结果等动态操作，画面直观，演示效果强。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "AI代理、自动化工作流的概念对普通用户略抽象，需要一定解释，但操作本身可能不复杂，上手门槛中等。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第1，票数413，话题热度很高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我装了个AI大管家，桌面上的活全自动帮我干了！",
-        "angle": "开箱体验",
-        "shooting_tips": "录制桌面，从安装开始，设定一个创作任务，展示AI代理自动收集资料、撰写草案、最后结果弹窗推送的全过程，用快节奏剪辑突出‘自动化’和‘主动推送’的卖点。",
-        "target_audience": "内容创作者、设计师、自由职业者、小项目团队"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "桌面演示效果直观，适合拍操作视频，但普通人理解AI代理概念略有门槛，需在视频中着重解释。"
-    },
-    {
       "id": "1166306",
       "name": "Proxy Tester by ScrapeOps",
-      "name_zh": "代理测试器 by ScrapeOps",
-      "tagline_zh": "为可靠爬虫精准挑选代理的基准测评工具",
-      "description_zh": "一个给开发者、爬虫团队和AI智能体用的代理性能测评平台。提交目标网址就能自动测试20多种住宅、机房、移动代理及反封锁配置，看看谁的成功率、速度和成本最适合你的场景，再也不用听供应商自卖自夸。",
-      "intro_zh": "想找靠谱代理爬数据？这个工具能帮你把市面上的代理挨个儿跑分，告诉你哪个又快又稳又便宜。经常跟反爬虫系统斗智斗勇的开发者、做数据生意的公司都用得上。",
+      "name_zh": "Proxy Tester by ScrapeOps",
+      "tagline_zh": "为爬虫选择代理的性能测评工具",
+      "description_zh": "面向开发者、爬虫团队和 AI 智能体的代理性能测评平台，提交目标网址即可自动测试 20 多种住宅、机房、移动代理及反封锁配置。它比较成功率、速度和成本，帮助使用者选择适合目标网站的方案。",
+      "intro_zh": "给开发者和爬虫团队用，提交目标网址，比较多种代理配置的成功率、速度和成本。",
       "url": "https://www.producthunt.com/products/proxy-benchmark-by-scrapeops?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LYYFNPIONQKLRK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0f9a383d-e951-4335-8a94-557bf2070e19.png?auto=format",
       "votes_count": 202,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有可演示的网页操作和结果对比图表，但画面偏静态，缺乏视觉冲击力，纯技术流程难以吸引大众眼球。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及代理服务器、爬虫、带宽等专业术语，普通人很难快速理解，需要一定的技术背景。使用门槛较高。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt当日排名第4，得票202，在开发者圈有一定热度，但大众话题性一般。"
+          "reason": "选型场景明确，但测评结果能否代表长期运行仍待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何识别真正抓取成功，是影响比较结果的具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用用户自己的目标测试多个方案，可借用于服务选型工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "再也不花冤枉钱！实测20种代理，哪个真能用？",
-        "angle": "对比测评",
-        "shooting_tips": "录制屏幕操作：输入目标网站URL，展示测试过程图表，重点突出成功率、延迟和每GB成本的直接对比，最后给出性价比最高推荐。解说节奏轻快，用“踩坑”“避雷”口吻。",
-        "target_audience": "写爬虫的开发者、做数据抓取的技术团队、需要代理服务的数据公司"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "概念太技术，普通观众看不懂，只适合垂直开发者社区传播。"
-    },
-    {
-      "id": "1217602",
-      "name": "DocsAlot CLI",
-      "name_zh": "DocsAlot CLI",
-      "tagline_zh": "让 Claude 或 Codex 为你创建并维护高颜值的文档站点",
-      "description_zh": "Claude Code、Codex 这类 AI 写文档初稿还行，但排版不好看。DocsAlot 能把初稿变成一个漂亮的文档网站，还能让 AI 帮你持续维护更新。用大白话告诉它要加什么、改什么，它就能自动搞定，不用记任何命令。",
-      "intro_zh": "你让 AI 写好的文档草稿，它能一键变成漂亮网站，还包后期更新修改。懒得手动维护文档的程序员和技术团队，用这个可以省大把时间。",
-      "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SULGFU2UQH3T6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d2a4d783-3600-4eb5-8d81-2b71215d2386.png?auto=format",
-      "votes_count": 185,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "终端操作画面较单一，但生成文档网站的前后对比和预览效果有吸引力，适合展示技术流程。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "需要命令行使用经验，且涉及 AI 代理工作流，非技术用户难理解，上手门槛较高。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "当日 ProductHunt 排名第5，获得 185 票，热度中上，有一定关注度。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是围绕实际目标网址比较代理；最影响判断的是，所谓成功是否真的拿到了需要的内容。",
+      "product_analysis": {
+        "target_problem": "爬虫团队选代理（代替程序向网站发请求的中转服务）时，需要知道它对目标网站是否有效。供应商的通用指标未必能回答这个问题。",
+        "workflow": "提交目标网址，平台自动测试多种代理和反封锁配置，再比较成功率、速度与成本。",
+        "ai_value": "介绍没提 AI 技术，主要靠自动测试和结果比较改善体验。AI 智能体只是列出的使用对象。",
+        "differentiation": "把多个方案放到同一目标下比较，可能减少分别测试的工作。我会先确认测试条件是否可比，否则难以据此换供应商。"
       },
-      "video_inspiration": {
-        "title_idea": "再也不用维护文档了？一个自然语言命令，AI 自动帮你建站更新！",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段 AI 生成的丑陋 Markdown 初稿，再展示输入自然语言指令后 DocsAlot 自动生成预览、美化排版的过程，突出前后对比和一键发布能力。",
-        "target_audience": "需要经常写技术文档的程序员、DevOps 工程师或中小型技术团队"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到自动测试 20 多种代理及反封锁配置，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先让不同代理访问同一网址，再按统一规则检查内容是否拿到，并记录耗时和费用。",
+        "tradeoffs": "最容易错在把返回页面算作成功。若拿到的是验证码或拦截页，成功率就会虚高，用户可能选错方案。",
+        "unknowns": "成本如何计算，是否包含失败请求和重试费用？"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "命令行工具视觉吸引力一般，但能展示 AI 生成文档站点的强大功能，适合技术类 UP 主。"
+      "transferable_insights": [
+        "做服务选型工具时，让用户提交自己的任务，再用同一组指标比较候选服务，避免只展示通用排行榜。"
+      ],
+      "validation_questions": [
+        "用一个会返回验证码的目标，检查平台能否将其判为失败。",
+        "对同一目标重复测试，检查候选方案的排名是否稳定。"
+      ],
+      "source_tagline": "为可靠爬虫精准挑选代理的基准测评工具",
+      "source_description": "一个给开发者、爬虫团队和AI智能体用的代理性能测评平台。提交目标网址就能自动测试20多种住宅、机房、移动代理及反封锁配置，看看谁的成功率、速度和成本最适合你的场景，再也不用听供应商自卖自夸。"
     },
     {
       "id": "1212031",
       "name": "AgentConnect",
-      "name_zh": "智能体互联",
-      "tagline_zh": "工作在哪发生，代理就在哪待命",
-      "description_zh": "AgentConnect是个开源平台，把AI代理接入Slack、Telegram等常用工具，帮你自动处理工单、审查代码。你可以给每个AI分配不同角色和权限，从聊天或代码事件就能触发任务，全程在一个控制台监控。适合想用AI自动化工作流的开发团队。",
-      "intro_zh": "在Slack、GitHub里塞AI助理，像小队长一样分配任务、自动干活。经常跟AI协作、希望减少重复操作的开发者和项目经理会觉得超实用。",
+      "name_zh": "AgentConnect",
+      "tagline_zh": "工作在哪发生，AI 代理就在哪待命",
+      "description_zh": "AgentConnect 是一个开源平台，将 AI 代理接入 Slack、Telegram 等工具，用于处理工单和审查代码。开发团队可以分配角色与权限，通过聊天或代码事件触发任务，并在统一控制台监控。",
+      "intro_zh": "给开发团队用，把 AI 接进聊天和代码工作中，触发工单处理、代码审查，并集中查看任务。",
       "url": "https://www.producthunt.com/products/agentconnect?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3MVNGFQSNZHTP4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/219f7bdb-e71c-4b8f-9108-5fede3b01b9e.png?auto=format",
       "votes_count": 158,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有丰富的面板配置和聊天界面演示，但缺乏视觉冲击，适合录制操作流程。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及AI代理配置、ACP运行时等概念，普通用户不易理解，需要一定开发背景。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "当日排名第6，158票，属于PH热门话题。"
+          "reason": "使用对象和任务明确，但自动处理到哪一步尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "聊天触发任务后如何限制操作权限，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "在现有工具里触发任务、集中查看执行情况的做法可以借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "指挥五个AI帮我干活！多代理协作平台AgentConnect上手",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从安装、连接到在Slack中唤醒代理处理issue的全过程，突出多平台集成和权限管控，辅以解说说明自动化场景。",
-        "target_audience": "想用AI提高效率的开发团队和技术管理者"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "开源AI代理协作平台具备演示价值，但概念对普通用户不够友好，适合推出面向开发者的实操教程。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是任务可从工作发生处发起；最影响判断的是，角色权限能否真正限制 AI 的操作。",
+      "product_analysis": {
+        "target_problem": "开发团队想让 AI 处理聊天和代码事件里的任务，需要连接工作工具，并管理不同任务的操作权限。",
+        "workflow": "将 AI 代理接入 Slack、Telegram 等工具，分配角色和权限。聊天或代码事件触发任务后，在控制台查看执行情况。",
+        "ai_value": "AI 代理负责工单处理、代码审查等任务。简介没有说明它只给建议，还是会直接修改内容。",
+        "differentiation": "它把任务入口放在已有工具里，减少另开入口交办任务的需要。团队可能因权限边界不清而暂缓接入。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到开源、工具接入、事件触发、角色权限和统一监控，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先接收聊天和代码事件，再按角色找到负责的 AI，检查权限后执行，并把状态写入控制台。",
+        "tradeoffs": "最容易出错的是执行前的权限检查。若把能触发任务误当成能批准操作，AI 可能修改不该修改的内容。",
+        "unknowns": "高风险操作是否必须经过人工批准？"
+      },
+      "transferable_insights": [
+        "做团队自动化工具时，可以让用户在现有聊天工具中发起任务，再集中查看状态，减少分散查找进度。"
+      ],
+      "validation_questions": [
+        "用无操作权限的账号触发任务，检查是否被拦截。",
+        "触发一次代码审查，检查控制台能否查看最终结果。"
+      ],
+      "source_tagline": "工作在哪发生，代理就在哪待命",
+      "source_description": "AgentConnect是个开源平台，把AI代理接入Slack、Telegram等常用工具，帮你自动处理工单、审查代码。你可以给每个AI分配不同角色和权限，从聊天或代码事件就能触发任务，全程在一个控制台监控。适合想用AI自动化工作流的开发团队。"
+    },
+    {
+      "id": "1210857",
+      "name": "Prompt Golf",
+      "name_zh": "Prompt Golf",
+      "tagline_zh": "把提示词工程变成竞技运动",
+      "description_zh": "Prompt Golf 是一款五轮制的 AI 对话解谜游戏，玩家要在特殊条件或禁用词限制下，用尽量少的字符让 AI 输出指定词语，每个字符和每条消息都会增加杆数。游戏支持重玩、查看实时排行榜、挑战朋友，以及围观他们的对话记录。",
+      "intro_zh": "给喜欢 AI 对话解谜的玩家，用简短提示让 AI 说出目标词，再按杆数与朋友比成绩。",
+      "url": "https://www.producthunt.com/products/prompt-golf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/FGKVBCQHSDLGO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b83f208e-7b27-4064-b923-a312d612e9f4.png?auto=format",
+      "votes_count": 137,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "玩法和参与动机清楚，但持续游玩的吸引力尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "AI 回答的变化会直接影响竞技计分，公平性问题具体。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把文字任务变成有限制、可计分的短局挑战，做法容易借用。"
+        }
+      },
+      "category": "游戏娱乐",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重能查看朋友的对话，成绩之外还有解法可看。最大的疑问是，AI 回答的波动会不会让排行榜失去说服力。",
+      "product_analysis": {
+        "target_problem": "面向想挑战 AI 对话技巧、与朋友比成绩的人。它把开放式聊天变成有明确目标和限制的解谜题。",
+        "workflow": "玩家完成五轮挑战，按每轮条件输入提示，让 AI 输出目标词。字符和消息计入杆数，结束后可看榜、重玩或查看朋友的对话。",
+        "ai_value": "AI 负责回应提示，也是玩家要设法影响的对象。这里的价值是提供解谜反馈，不能据此认定能提升日常工作中的提示能力。",
+        "differentiation": "目标、计分和朋友对话记录放在一起，方便比较解法。可能劝退玩家的是：精简了提示，也未必能稳定得到相同回答。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称使用开箱即用的 AI，未说明具体模型；字符和消息都会增加杆数。",
+        "possible_approach": "如果自己做，可以先定义目标词和禁用词，再检查输入、交给 AI 回答，最后判断是否命中并累计杆数。",
+        "tradeoffs": "最难的是让成绩可比较。同样提示若得到不同回答，玩家可能因运气多发消息，影响排名。",
+        "unknowns": "目标词命中按什么规则判定，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做文字练习产品时，可以把任务拆成短局，加入字数限制，并展示完成者的原始作答，方便比较不同解法。"
+      ],
+      "validation_questions": [
+        "同一题重复提交完全相同的提示，成功率是否稳定？",
+        "AI 输出包含目标词的变形时，是否按明确规则判定命中？"
+      ],
+      "source_tagline": "把提示词工程变成竞技运动",
+      "source_description": "Prompt Golf 将提示词工程变成了一款竞技解谜游戏。五轮比赛中，用尽可能少的字符引诱一个开箱即用的 AI 说出指定的目标词或短语。每轮都有特殊条件或禁用输入词，每个字符、每条消息都会增加杆数，巧妙简洁的提示能帮你冲上实时排行榜。整场游戏可重玩，随时查看排行榜，挑战朋友并围观他们的对话记录。"
+    },
+    {
+      "id": "1205840",
+      "name": "Macrobite",
+      "name_zh": "Macrobite",
+      "tagline_zh": "拍照查看这顿饭的营养成分",
+      "description_zh": "Macrobite 支持拍照查看热量、蛋白质、碳水和脂肪，识别有偏差时可以编辑，也支持语音及 Siri 记录。用户还可在 iPhone 小部件和 Apple Watch 上追踪全天摄入，不必打开 App。",
+      "intro_zh": "给想持续记录饮食营养、又嫌录入麻烦的人用，拍下食物查看营养估计，再修改识别偏差。",
+      "url": "https://www.producthunt.com/products/macrobite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WJACCINHOHJWJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b5e9a5b0-a281-4319-b96a-d01fcf967db1.png?auto=format",
+      "votes_count": 126,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "记录场景和省事方式清楚，但估算准确性未获验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "照片难以确定分量，直接影响营养数字是否可信。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先给估计、再让用户纠错的做法适用于繁琐录入场景。"
+        }
+      },
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把查找录入变成检查修改；但若分量估算不准又难以纠正，省下的操作就可能换成不可靠的记录。",
+      "product_analysis": {
+        "target_problem": "需要持续追踪摄入的人，可能嫌查找食物、逐项录入太麻烦。以前依赖数据库检索的记录，现在可以从拍照开始。",
+        "workflow": "拍摄食物，查看四项营养数据，有偏差就编辑。也可用语音记录，并从小部件或手表查看全天摄入。",
+        "ai_value": "介绍没提 AI，主要靠拍照识别、语音记录和快捷查看减少操作；不能据此确定用了什么模型。",
+        "differentiation": "省去主动翻找食物条目的步骤。最可能让人不愿换来的，是担心估算偏差影响饮食安排。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到照片识别、语音及 Siri 记录，以及 iPhone 小部件和 Apple Watch 支持，未说明具体识别技术。",
+        "possible_approach": "如果自己做，可以先识别食物并估计分量，再匹配营养数据计算结果，最后允许用户修正。",
+        "tradeoffs": "最难的是从照片判断分量。菜品认对了，份量估错仍会让热量和营养数值一起偏离。",
+        "unknowns": "编辑时能否修改分量，而不只是食物名称？"
+      },
+      "transferable_insights": [
+        "做饮食或票据录入时，可以先给可编辑的识别结果，让用户只改错处，避免从空表开始。"
+      ],
+      "validation_questions": [
+        "用已称重、营养数据已知的一餐拍照，检查估算误差。",
+        "识别分量有误时，检查能否直接修改并更新营养数字。"
+      ],
+      "source_tagline": "拍张照，秒懂你这顿饭的营养成分",
+      "source_description": "用 Macrobite 记录营养超快。拍一张食物照片就能立刻看到热量、蛋白质、碳水和脂肪的分解。如果识别有偏差，快速编辑一下就行，不用翻庞大的食物数据库。还支持语音记录（包括 Siri），在 iPhone 小部件或 Apple Watch 上轻松追踪全天摄入，不用打开 App。专为那些厌烦传统记录繁琐步骤、又想精准掌握营养的人设计。"
     },
     {
       "id": "1213905",
       "name": "ConferenceGrid",
-      "name_zh": "会展图谱",
-      "tagline_zh": "B2B团队的会议情报数据库",
-      "description_zh": "只要输入公司名字，就能看到它赞助、参展或演讲的所有会议。把6000多场会议、62000个演讲者和55000个赞助席位都汇集在一张关系图里。",
-      "intro_zh": "一个能查公司参加哪些展会的数据库，做商务拓展和市场调研的人，用它找合作机会、摸清对手动向特别省事。",
+      "name_zh": "ConferenceGrid",
+      "tagline_zh": "面向 B2B 团队的会议情报数据库",
+      "description_zh": "输入公司名称，可以查看它赞助、参展或参与演讲的会议。简介称，它将 6000 多场会议、62000 位演讲者和 55000 个赞助席位汇集在一张关系图中。",
+      "intro_zh": "给面向企业客户的销售和市场团队用，按公司查询参会记录，了解目标企业在哪些会议出现。",
       "url": "https://www.producthunt.com/products/conferencegrid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/24VUQNT3HZ33Q2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/94d0ffa0-3130-4a44-8654-9f3fdb27c1d3.png?auto=format",
       "votes_count": 121,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "以数据库查询和图表展示为主，画面多为列表或关系图谱，缺乏动态操作演示和视觉冲击，不易产出吸睛视频。"
+        "product_value": {
+          "score": 4,
+          "reason": "按公司查参会记录的用途清楚，但数据覆盖和时效待确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "概念直白，但需要具备B2B商务背景才能理解用途，普通互联网用户可能不关心会议赞助数据。"
+          "reason": "公司身份匹配是具体难点，但介绍未说明如何处理。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "位列第9名，票数121，有一定关注但非现象级热点。"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕目标公司汇总分散活动记录的做法可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "输入公司名，自动挖出它参加的所有展会！销售侦查神器",
-        "angle": "行业解读",
-        "shooting_tips": "演示搜索一家知名B2B公司，展示关系图如何串联出它的活动足迹，强调竞品分析和商机挖掘的实用场景，节奏快速切入案例。",
-        "target_audience": "B2B销售、市场、商务拓展从业者"
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把公司参与过的会议集中展示，方便筛选活动；最大的疑问是数据是否及时，旧记录不能直接当作未来参会依据。",
+      "product_analysis": {
+        "target_problem": "销售和市场团队选会议、研究目标客户时，需要知道哪些企业会出现。麻烦在于把同一公司的多场活动记录放到一起看。",
+        "workflow": "输入公司名称，查看关联会议，以及赞助、参展或演讲等参与方式。",
+        "ai_value": "介绍没提 AI，主要靠集中会议资料、关联公司与参与记录来改善查询体验。",
+        "differentiation": "它让用户从公司出发找会议，省去自行汇总的工作。最可能让人不愿依赖它的原因是记录不够新。"
       },
-      "category": "数据分析",
-      "overall_suggestion": "可以做",
-      "overall_reason": "工具强数据属性导致视频表现力偏弱，且受众较窄，普通用户难以产生兴趣。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到用关系图汇集会议、演讲者和赞助席位，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集会议名单和参与角色，再统一公司名称，把公司与会议连起来供查询。",
+        "tradeoffs": "最容易错的是认公司：简称、同名公司或子公司若匹配错误，用户可能据此选错会议。",
+        "unknowns": "会议记录多久更新一次，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做展会或行业活动目录时，可以增加“按公司查活动”，让用户围绕目标企业筛选，而不只按日期浏览。"
+      ],
+      "validation_questions": [
+        "选一家有简称和子公司的企业，检查查询结果是否混入其他公司的记录。",
+        "选一场近期已公布名单的会议，检查其赞助记录是否已收录。"
+      ],
+      "source_tagline": "B2B团队的会议情报数据库",
+      "source_description": "只要输入公司名字，就能看到它赞助、参展或演讲的所有会议。把6000多场会议、62000个演讲者和55000个赞助席位都汇集在一张关系图里。"
+    },
+    {
+      "id": "1218316",
+      "name": "Argos",
+      "name_zh": "Argos",
+      "tagline_zh": "在浏览器里用自然语言交代任务，让 AI 代为操作",
+      "description_zh": "Argos 使用已有登录账号，在浏览器里自动点击、输入和填表，可从侧边栏、Telegram 或 WhatsApp 接收任务并返回结果。简介还列出 Gmail、Docs、Sheets 及其他工具连接，称数据留在本机，并提供免费使用入口。",
+      "intro_zh": "给需要在网页里处理事务的人用，通过消息交代任务，让 AI 使用已登录账号操作并返回结果。",
+      "url": "https://www.producthunt.com/products/argos-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WHTBY2XSHARI7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/72063fc0-1343-4db4-9307-81842898aa43.png?auto=format",
+      "votes_count": 115,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "操作和任务入口明确，但能稳定完成哪些任务还不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "使用登录账号执行网页动作，带来了误操作与授权边界问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "消息接任务、浏览器执行的做法可借鉴，但需要限制操作范围。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它能从回答问题推进到实际操作。最影响判断的是任务完成率：历史简介没有提供可复核的任务案例或测试结果。",
+      "product_analysis": {
+        "target_problem": "需要在网页里填表、处理办公事务的人可能会用。以前手动点击和输入的部分操作，现在可以交给 Argos 执行。",
+        "workflow": "用户在侧边栏或聊天软件里交代任务。Argos 使用已登录账号在前台或后台操作，再返回结果。",
+        "ai_value": "AI 把自然语言要求变成网页动作，承担实际执行；介绍没有说明它如何判断任务已完成。",
+        "differentiation": "省去的是用户亲自操作网页的部分工作。最可能让人犹豫的是：是否放心让它使用自己的账号执行动作。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到浏览器自动点击、输入和填表，以及办公工具连接；没有说明具体模型。",
+        "possible_approach": "如果自己做，可以先把要求拆成步骤，再识别页面上的输入框和按钮，逐步执行并检查结果。先从一种固定表单做起。",
+        "tradeoffs": "最容易出错的是认错操作对象，例如把内容填到错误字段，用户可能还要撤回或重做。",
+        "unknowns": "“数据留在本机”是否也覆盖 AI 处理和聊天软件传递的内容？"
+      },
+      "transferable_insights": [
+        "做办公助手时，可以借用“消息交代任务、网页完成操作”的方式；先开放少量明确任务，提交前让用户确认。"
+      ],
+      "validation_questions": [
+        "用一张有相似字段的测试表单，检查它能否填对位置。",
+        "核对数据流向说明，确认任务内容是否会发送到本机之外。"
+      ],
+      "source_tagline": "浏览器里的替身AI，说话就替你干",
+      "source_description": "大多数AI只会给你建议，阿戈斯直接帮你干。它住在你的浏览器里，用你的登录账号自动点击、打字、填表，搞定真实任务。在侧边栏说句话，或者用 Telegram、WhatsApp 发消息，它就在前台或后台跑，然后把结果给你。原生接入 Gmail、Docs、Sheets，还能连通 GitHub、Slack、Notion 等工具。你的数据留在本机，无隐私担忧。免费就能上手。"
+    },
+    {
+      "id": "1196035",
+      "name": "Omniwork",
+      "name_zh": "Omniwork",
+      "tagline_zh": "创意代理操作系统，用桌面 AI 智能体协助创作。",
+      "description_zh": "Omniwork 被介绍为一套常驻桌面的创意代理系统，用专用 AI 智能体研究、创作、监控和自动化创意工作。桌面伙伴会主动推送结果、提醒和项目进度。",
+      "intro_zh": "给需要推进创意项目的人用，让 AI 协助研究和创作，并在桌面接收结果与进度提醒。",
+      "url": "https://www.producthunt.com/products/omniwork-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/M4Y5GPSVZTCBSU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9028ef02-49f7-429c-8ca3-c8d7abd4753d.png?auto=format",
+      "votes_count": 413,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "场景明确，但没给出具体作品或节省操作的例子。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "持续执行任务与准确汇报进度有具体难点，但实现信息有限。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "主动推送进展可以借鉴，通知时机和收益仍待确认。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把进展送回桌面，减少主动查询；最大疑问是它能交付多少可直接使用的成果。",
+      "product_analysis": {
+        "target_problem": "创作者推进项目时，研究、制作和跟进进度都需要注意力。它试图接手部分工作，并把进展送到桌面。",
+        "workflow": "介绍支持的流程是：AI 智能体参与研究、创作和监控，桌面伙伴推送结果与提醒。如何提交任务、确认成果，资料没说。",
+        "ai_value": "AI 承担部分创意任务，并持续跟踪工作。支持哪些作品类型、能独立完成多少，尚不明确。",
+        "differentiation": "主动推送可能减少反复查看进度的操作。最可能让人关闭它的原因，是提醒频繁却没有可用结果。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到专用 AI 智能体和常驻桌面伙伴，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先让一个 AI 任务产出可检查的结果，再记录执行状态，由桌面程序推送需要查看的变化。",
+        "tradeoffs": "最容易出错的是把执行状态当成完成结果。若通知说已完成，作品却不可用，用户仍得逐项核查。",
+        "unknowns": "智能体执行到哪一步需要用户确认，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做耗时的生成工具时，可以在结果就绪或需要用户决定时推送通知，减少用户守着页面等待。"
+      ],
+      "validation_questions": [
+        "交给它一个边界清楚的创作任务，最终产物能否满足事先列出的要求？",
+        "让任务遇到缺失资料，检查它是否先请求确认再继续。"
+      ],
+      "source_tagline": "创意代理操作系统，让桌面AI智能体助你更好地创作。",
+      "source_description": "Omniwork是一套常驻的创意代理操作系统，能把你的想法变成完成的作品。专用的AI智能体可以研究、创作、监控并自动化你的创意工作流程，还有一个主动式的桌面伙伴，持续推动项目进展，把结果、提醒和进度直接推送到你的屏幕上。"
+    },
+    {
+      "id": "1218300",
+      "name": "VoiceOS App Store",
+      "name_zh": "VoiceOS App Store",
+      "tagline_zh": "通知栏里的语音应用商店，说出想法即可生成应用",
+      "description_zh": "这是一个面向语音应用的商店，用户说出想法后，它会自动生成一个语音应用。生成后会提供分享链接，其他人可以通过链接使用，不用写代码。",
+      "intro_zh": "给想制作语音应用但不想写代码的人用，说出想法生成应用，再用链接分享给别人。",
+      "url": "https://www.producthunt.com/products/voiceos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RAQNCR3ER46NG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ec0bfe10-3ee1-40ea-8891-bf52c750c419.png?auto=format",
+      "votes_count": 323,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "制作和分享的目标清楚，但没有说明能做哪些应用。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把口头想法变成可运行行为有具体难点，但实现细节缺失。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "生成后直接提供使用链接的做法可借鉴，适用范围仍待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是生成后就能分享使用；但缺少可实现任务的例子，还无法判断它能做实用工具，还是主要用于简单演示。",
+      "product_analysis": {
+        "target_problem": "想做语音应用的人，可以用它把口头想法变成可分享的成品。它试图省去编写代码的工作，但资料没说明支持多复杂的需求。",
+        "workflow": "说出想法，系统生成语音应用并提供链接。把链接发给别人，对方打开后使用。",
+        "ai_value": "介绍没提 AI，主要靠语音描述、自动生成和链接分享来改善体验，不能据此确认用了什么模型。",
+        "differentiation": "它把制作和分享放在一起，减少了交付应用的操作。最可能让人犹豫的是：生成结果不合要求时，能否继续修改。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了语音输入、自动生成应用和链接访问，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再把需求整理成触发条件和执行动作，交给预设模板运行，最后生成访问链接。",
+        "tradeoffs": "最难的是把模糊表达变成明确规则。理解错了条件，应用可能能打开，却在错误的时机执行动作。",
+        "unknowns": "生成的应用能调用哪些功能，还是只能完成有限的语音问答？"
+      },
+      "transferable_insights": [
+        "做无代码制作工具时，可以在生成完成后直接给出可用链接，让接收者不必进入编辑器就能体验结果。"
+      ],
+      "validation_questions": [
+        "用一个带明确触发条件的需求生成应用，检查实际行为是否符合条件。",
+        "把生成链接交给另一位用户，检查对方能否直接使用。"
+      ],
+      "source_tagline": "藏在通知栏里的语音应用商店，说句话就能造个App",
+      "source_description": "一个专门给语音应用准备的应用商店，你只要说出想法，它就能帮你自动生成一个语音App。做完之后会给你一条链接，别人点一下就能直接用，完全不用写代码。"
+    },
+    {
+      "id": "1210454",
+      "name": "SoloUno",
+      "name_zh": "SoloUno",
+      "tagline_zh": "帮助管理拔头发、咬指甲和抠皮肤的习惯",
+      "description_zh": "SoloUno 是一款帮助人们管理拔毛、咬指甲、抠皮肤等身体重复行为的自助工具。简介称，它把习惯逆转训练、认知行为疗法和接纳承诺疗法转成游戏化日常挑战，结合习惯记录、诱因分析和接纳冲动的练习。",
+      "intro_zh": "给想管理拔毛、咬指甲或抠皮肤行为的人用，通过记录和日常小练习，帮助觉察习惯与冲动。",
+      "url": "https://www.producthunt.com/products/solouno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XAIWIH5Z6NGPYS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/68703502-0357-41ff-96b0-aae3fc86f7f9.png?auto=format",
+      "votes_count": 300,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用人群和练习方式清楚，但缺少持续使用及改善效果的依据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何避免从记录中误判诱因，是一个具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把较复杂的练习拆成日常小挑战，可借用于需要反复练习的自助产品。"
+        }
+      },
+      "category": "健康健身",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把记录与练习放在一起；但历史简介无法证明效果，也没说明内容审核情况，不能据此把它当作治疗替代品。",
+      "product_analysis": {
+        "target_problem": "面向想管理反复拔毛、咬指甲或抠皮肤行为的人。它处理的是觉察行为、寻找诱因并持续练习这几件事。",
+        "workflow": "用户记录习惯，分析可能的诱因，再参与日常小挑战和接纳冲动的练习。简介没交代具体操作顺序。",
+        "ai_value": "介绍没提 AI，主要靠记录和游戏化练习来组织自助过程。",
+        "differentiation": "它把多种练习放进日常挑战，可能省去自行整理练习内容的功夫。持续记录本身仍可能成为负担。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术，只提到三类心理干预方法。",
+        "possible_approach": "如果自己做，可以先让用户记录行为发生时的情境，再汇总常见情境，并配上经专业审核的小练习。",
+        "tradeoffs": "最容易出错的是把经常同时出现的情境当成行为原因，用户可能因此练错方向。",
+        "unknowns": "练习内容是否经过专业人员审核，历史简介没有回答。"
+      },
+      "transferable_insights": [
+        "做需要长期练习的自助产品时，可以把单次练习拆小，让用户每次只完成一项明确动作。"
+      ],
+      "validation_questions": [
+        "诱因分析是否把结果标成可供用户确认的线索，而非确定原因？",
+        "用户漏做挑战后，是否仍能直接继续练习？"
+      ],
+      "source_tagline": "掌控拔头发、咬指甲和揪皮肤的习惯，不再被小动作支配",
+      "source_description": "SoloUno 是一款帮助人们管理身体重复性强迫行为（如拔毛癖、咬指甲、抠皮肤）的自助工具。它把习惯逆转训练、认知行为疗法和接纳承诺疗法变成游戏化的日常小挑战，通过记录习惯、分析诱因和接纳冲动的练习，让你在无压力的节奏中一点点找回控制感。"
+    },
+    {
+      "id": "1217602",
+      "name": "DocsAlot CLI",
+      "name_zh": "DocsAlot CLI",
+      "tagline_zh": "让 Claude 或 Codex 帮你创建和维护文档站点",
+      "description_zh": "DocsAlot 将 AI 写出的文档初稿整理成文档网站，主打页面呈现和持续更新。介绍称，用户用日常语言说明增改需求，就能让 AI 完成操作，无需记忆命令。",
+      "intro_zh": "给用 Claude Code 或 Codex 写文档的人，把初稿做成文档站，并用日常语言提出修改。",
+      "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SULGFU2UQH3T6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d2a4d783-3600-4eb5-8d81-2b71215d2386.png?auto=format",
+      "votes_count": 185,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "写完初稿后建站和更新的需求清楚，但省事程度尚未核验。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "持续修改时如何保留原有内容，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴用自然语言修改成品的做法，但可靠性条件不明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把文档后续维护也纳入自然语言操作；最影响判断的是，用户能否控制和撤销 AI 的修改。",
+      "product_analysis": {
+        "target_problem": "面向用 AI 写产品或开发文档的人。初稿完成后，还要处理网站呈现和后续增改；它试图把这些工作也交给 AI。",
+        "workflow": "把文档初稿变成网站，再用日常语言说明要增加或修改的内容。介绍没有给出安装和发布步骤。",
+        "ai_value": "AI 用来理解增改要求，并执行文档更新。介绍未说明这些操作如何与 Claude Code、Codex 配合。",
+        "differentiation": "省去记忆更新命令的负担。最可能让人犹豫的是，无法确定一次修改会不会影响其他页面。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 Claude Code、Codex 和自然语言更新，没说具体用什么建站技术。",
+        "possible_approach": "如果自己做，可以先用固定模板生成站点，再让 AI 把修改要求转成文件变更，展示差异后由用户确认。",
+        "tradeoffs": "难点是改准范围。若 AI 把局部修改理解成整页重写，用户就得找回被覆盖的内容。",
+        "unknowns": "更新前能否查看并撤销变更？"
+      },
+      "transferable_insights": [
+        "做报告或帮助中心工具时，可以让用户直接描述成品哪里要改，并在应用前展示修改差异。"
+      ],
+      "validation_questions": [
+        "只要求修改一段说明，检查其他内容是否保持不变。",
+        "生成一个含多页和内部链接的站点，检查链接是否正确跳转。"
+      ],
+      "source_tagline": "让 Claude 或 Codex 为你创建并维护高颜值的文档站点",
+      "source_description": "Claude Code、Codex 这类 AI 写文档初稿还行，但排版不好看。DocsAlot 能把初稿变成一个漂亮的文档网站，还能让 AI 帮你持续维护更新。用大白话告诉它要加什么、改什么，它就能自动搞定，不用记任何命令。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

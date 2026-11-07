@@ -1,7 +1,6 @@
 <template>
   <nav class="navbar">
     <div class="navbar-brand">
-      <img src="../icon.png" alt="logo" class="navbar-logo" />
       <h1 class="navbar-title">AI产品灵感日报</h1>
     </div>
     <div class="navbar-tabs">
@@ -40,13 +39,6 @@ defineEmits(['update:currentView'])
 .navbar-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-.navbar-logo {
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  object-fit: cover;
 }
 .navbar-title {
   font-size: 20px;

@@ -1,367 +1,510 @@
 {
   "date": "2026-10-14",
-  "generated_at": "2026-10-15T20:31:22+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:21:31+00:00",
+  "generation_error": false,
   "products": [
-    {
-      "id": "1221402",
-      "name": "Pancake",
-      "name_zh": "Pancake",
-      "tagline_zh": "The Vercel for GTM",
-      "description_zh": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d77de011-9237-4f78-bedc-3e03372e2824.png?auto=format",
-      "votes_count": 557,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9a92c07a-efb1-450f-b8f3-cb61d0646d92)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     {
       "id": "1265035",
       "name": "Inferock",
       "name_zh": "Inferock",
-      "tagline_zh": "Serverless inference, with credits back for failed calls.",
-      "description_zh": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using.",
-      "intro_zh": "",
+      "tagline_zh": "按调用量付费的模型推理服务，符合条件的失败调用可返还额度。",
+      "description_zh": "注册可获得额度，用于调用 Inferock 上可用的模型；也可带入自己的 OpenAI、Claude 或 Gemini 账户密钥，查看调用失败情况和费用。服务按词元计费，符合条件的失败调用可返还额度。",
+      "intro_zh": "给接入多个 AI 模型的开发者用，带入自己的账户密钥，查看调用失败情况和费用。",
       "url": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q5YAUE7WHFYYB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/298c83cd-d799-4604-af15-6358acae3332.jpeg?auto=format",
       "votes_count": 393,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查失败、看费用和返还额度对应明确需求，但返还条件不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "失败状态与实际扣费如何对应，是影响使用的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把失败记录与费用放在一起，适合借到其他按次收费的服务中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重失败记录能与费用一起查看；但额度返还不等于现金退款，返还条件和使用范围仍需确认。",
+      "product_analysis": {
+        "target_problem": "接入多个模型的开发者，需要知道哪次调用失败、花了多少钱，以及失败后是否仍被收费。",
+        "workflow": "注册领取额度，调用平台可用模型；也可带入自己的账户密钥，查看失败情况和费用。符合条件的失败调用可返还额度。",
+        "ai_value": "AI 负责根据输入生成结果。这里主要改善的是模型调用和费用管理，没有介绍额外的 AI 分析功能。",
+        "differentiation": "它把调用、失败查看和费用查看放在同一处。最可能让人犹豫的是：返还额度能否覆盖自己常遇到的失败。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c779d081-d24e-4801-aa87-31e8dd861e72)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持自带账户密钥、按词元计费，以及无服务器推理，即用户不必自行管理运行模型的服务器。",
+        "possible_approach": "如果自己做，可以先把请求转给所选模型，再逐次记录结果和费用，最后按规则返还额度。",
+        "tradeoffs": "最难的是判断失败是否已产生费用。若把超时都当成未执行，可能返错额度，用户也难以核对账单。",
+        "unknowns": "哪些失败符合返还条件，历史缓存简介没有说明。"
+      },
+      "transferable_insights": [
+        "做按次收费的服务时，把每次失败记录与对应费用放在一起，让用户能逐笔核对。"
+      ],
+      "validation_questions": [
+        "选一笔符合规则的失败调用，检查返还额度是否到账。",
+        "用一组已知调用记录，核对平台显示的费用与模型账户账单是否一致。"
+      ],
+      "source_tagline": "Serverless inference, with credits back for failed calls.",
+      "source_description": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using."
     },
     {
       "id": "1273690",
       "name": "Retriever AI",
       "name_zh": "Retriever AI",
-      "tagline_zh": "Free AI browser agent: find leads, reach out, apply to jobs",
-      "description_zh": "Retriever is a free AI browser agent that finishes work across websites. Ask it to find leads and send outreach, shortlist TikTok and Instagram creators for your next campaign, or apply to jobs. Run tasks in your own Chrome browser or in cloud browsers hosted by rtrvr. It beats OpenAI, Anthropic, and Muse on accuracy, runs 5x faster, and costs 300x less.",
-      "intro_zh": "",
+      "tagline_zh": "免费 AI 浏览器代理：寻找潜在客户、发送联系信息、申请职位",
+      "description_zh": "Retriever 是一款免费的 AI 浏览器代理，可跨网站执行任务，包括寻找潜在客户并发送联系信息、为营销活动筛选 TikTok 和 Instagram 创作者，以及申请职位。任务可在自己的 Chrome 或 rtrvr 托管的云端浏览器中运行；缓存简介另称其准确率超过 OpenAI、Anthropic 和 Muse，速度快 5 倍、成本低 300 倍，但未提供比较条件，且原文未经重新核验。",
+      "intro_zh": "给销售、营销人员和求职者用，把找客户、筛选创作者或申请职位交给浏览器里的 AI 执行。",
       "url": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WYCLMV7ALKHIUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/63240eff-1bee-463a-aa93-e005a496c9a5.png?auto=format",
       "votes_count": 223,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "场景和执行目标明确，但完成质量及人工介入程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨网站执行涉及页面识别与提交判断，出错后果具体。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "从查找信息延伸到执行操作的做法可借鉴，但可靠性条件不明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让查找之后的操作也能继续完成；最影响判断的是，用户能否在不可撤回的动作前把关。",
+      "product_analysis": {
+        "target_problem": "销售找客户、营销人员筛选创作者、求职者投递职位时，都可能需要跨网站查找信息并继续操作。麻烦在于找到对象后，事情还没做完。",
+        "workflow": "用户提出任务，选择在自己的 Chrome 或云端浏览器运行。它可查找并联系潜在客户、筛选创作者，或申请职位；介绍没说明中途如何确认结果。",
+        "ai_value": "AI 把自然语言要求变成浏览器操作，尝试把查找和后续动作一起完成。",
+        "differentiation": "省的是从找到信息到继续操作之间的人工接手。最可能让人犹豫的是：能否放心让它代表自己对外发送或提交。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1f0734fa-f7e2-4d68-a516-7993faf9e418)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持本机 Chrome 和 rtrvr 托管的云端浏览器，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先把要求拆成查找、筛选、填写几步，再逐页执行并检查结果。发送或提交前，让用户确认对象与内容。",
+        "tradeoffs": "最容易出错的是把页面上的按钮或填写位置认错，导致消息发错人或申请内容填错。",
+        "unknowns": "对外发送和提交前，是否支持强制人工确认？"
+      },
+      "transferable_insights": [
+        "做销售或招聘工具时，可以把查找结果接到后续操作，但先展示待提交内容，让用户确认后再执行。"
+      ],
+      "validation_questions": [
+        "安排一项需要跨两个网站查找信息的任务，检查最终结果是否符合筛选条件。",
+        "安排一次发送任务，检查实际发送前能否暂停并修改内容。"
+      ],
+      "source_tagline": "Free AI browser agent: find leads, reach out, apply to jobs",
+      "source_description": "Retriever is a free AI browser agent that finishes work across websites. Ask it to find leads and send outreach, shortlist TikTok and Instagram creators for your next campaign, or apply to jobs. Run tasks in your own Chrome browser or in cloud browsers hosted by rtrvr. It beats OpenAI, Anthropic, and Muse on accuracy, runs 5x faster, and costs 300x less."
     },
     {
       "id": "1278154",
       "name": "daily.dev for agents",
       "name_zh": "daily.dev for agents",
-      "tagline_zh": "Where agents discover what's next",
-      "description_zh": "daily.dev is where millions of developers find out what's next. Now your agent can too. Connect Claude, Cursor, Codex or any MCP client to read personalized feeds, search posts, learn from discussions, save bookmarks and tune your feed. In addition, plugin marketplace and apps ecosystem. YOUR AGENTS CAN READ daily.dev NOW!!",
-      "intro_zh": "",
+      "tagline_zh": "让智能体发现技术新动向",
+      "description_zh": "daily.dev 让开发者发现技术新动向，现在也支持连接 Claude、Cursor、Codex 或其他 MCP 客户端，读取个性化信息流、搜索文章、阅读讨论、保存书签和调整信息流。简介还提到插件市场和应用生态，但没有展开说明。",
+      "intro_zh": "给用 AI 助手追踪技术动态的开发者，让助手读取 daily.dev 的文章和讨论，并保存书签。",
       "url": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2DYUSJYPHY2MIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a1732b7c-cc1b-41dc-90ef-1c044b176475.jpeg?auto=format",
       "votes_count": 204,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把技术内容接入已有助手，使用对象和可做的事都清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "读取内容与修改个人设置并存，权限如何区分值得关注。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让用户在常用助手里操作已有内容服务，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是助手能直接取得文章之外的讨论内容；但是否能安全地区分查资料与改偏好，会影响我是否长期连接账户。",
+      "product_analysis": {
+        "target_problem": "用 AI 助手研究技术选型的开发者，可能还需要 daily.dev 上的文章和讨论。它让这些内容能被助手直接读取。",
+        "workflow": "连接 Claude、Cursor、Codex 或其他兼容客户端后，让助手读取信息流、搜索文章和阅读讨论，也能保存书签、调整信息流。",
+        "ai_value": "AI 助手负责调用内容与账户操作。介绍没有说明它会自动筛选结论或核验文章。",
+        "differentiation": "省去把找到的资料另行交给助手的动作。最可能让人犹豫的是，连接后助手能改动哪些个人设置。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 4155a58b-6ad4-4b5d-ab50-d21bd5a90a29)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 MCP，即让 AI 助手连接外部工具和数据的通用方式。",
+        "possible_approach": "如果自己做，可以先把搜索、读取和收藏做成独立功能，再让助手调用，并把读取权限与修改权限分开。",
+        "tradeoffs": "最容易出错的是把用户的临时兴趣当成长期偏好，直接修改信息流，导致后续推荐跑偏。",
+        "unknowns": "修改信息流前是否需要用户确认，介绍没说。"
+      },
+      "transferable_insights": [
+        "做知识库或内容社区时，可以让用户在常用助手里搜索、读取和收藏，减少来回切换。"
+      ],
+      "validation_questions": [
+        "同一账户下，助手读到的信息流是否与网页端一致？",
+        "只要求查找某个主题时，助手会不会未经确认就修改信息流偏好？"
+      ],
+      "source_tagline": "Where agents discover what's next",
+      "source_description": "daily.dev is where millions of developers find out what's next. Now your agent can too. Connect Claude, Cursor, Codex or any MCP client to read personalized feeds, search posts, learn from discussions, save bookmarks and tune your feed. In addition, plugin marketplace and apps ecosystem. YOUR AGENTS CAN READ daily.dev NOW!!"
     },
     {
       "id": "1275120",
       "name": "Tiden",
       "name_zh": "Tiden",
-      "tagline_zh": "Intent verification for coding agents",
-      "description_zh": "Tiden verifies your coding agents built what you actually asked for. Most checks run inside the session that wrote the code, so the tests agree with it by construction. Tiden keeps your intent as requirements that branch and merge like code, and checks every change against that record. The verdict comes from tests run in your environment; no model grades the diff. You decide what merges, and production errors trace back to the release. Works beside Claude Code, Cursor, Codex and Copilot.",
-      "intro_zh": "",
+      "tagline_zh": "为编程智能体核验需求是否实现",
+      "description_zh": "Tiden 将你的意图保存为可像代码一样分支、合并的需求记录，并逐次检查编程智能体的改动是否符合要求，避免只依赖编写代码的会话内检查。判断来自你自己环境中运行的测试，不由模型评判代码差异；你决定是否合并，生产错误可追溯到发布版本，并可配合 Claude Code、Cursor、Codex 和 Copilot 使用。",
+      "intro_zh": "给使用 AI 编程工具的开发者，把需求保存成可追踪的记录，再用测试检查代码是否按要求完成。",
       "url": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KLWVRGQPBSK7MC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/102bbb30-4e9e-40ff-8240-37167519ef18.jpeg?auto=format",
       "votes_count": 200,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对代码通过检查却偏离需求的问题，但测试覆盖能力未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "需求如何变成有效测试，是具体且影响结果的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让需求随代码一起分支和合并，可借用于多人开发中的验收管理。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是验收有一份独立于编程会话的需求记录；但测试若仍沿用同一种误解，这份记录能提供多少保护还不清楚。",
+      "product_analysis": {
+        "target_problem": "让 AI 写代码的开发者，需要确认结果符合要求。若检查也在写代码的会话里完成，可能沿用同一处误解，测试通过仍不等于需求完成。",
+        "workflow": "把意图保留为需求记录，随代码分支和合并；每次改动对照记录，在自己的环境运行测试，再由人决定是否合并。",
+        "ai_value": "它检查编程智能体的产出。介绍明确说不用模型评判代码差异，但没说明整理需求、生成测试是否使用 AI。",
+        "differentiation": "把检查依据留在会话之外，减少只凭当前对话验收的风险。维护需求记录可能成为额外负担。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5009c473-625c-4128-a92a-74bb19eb4a85)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "需求记录支持分支和合并，结论来自用户环境中的测试，生产错误可追溯到发布版本。",
+        "possible_approach": "如果自己做，可以先给需求编号并保存版本，再为需求关联测试，让每次改动运行对应测试，供人审核。",
+        "tradeoffs": "最难的是把意图变成正确的测试。若把“只能本人查看”漏成普通查看测试，测试通过也可能留下权限漏洞。",
+        "unknowns": "需求对应的测试由谁编写和确认？"
+      },
+      "transferable_insights": [
+        "做多人开发的验收工具时，可以让需求跟随代码分支保存，合并时一起检查需求冲突，避免拿旧要求验收新代码。"
+      ],
+      "validation_questions": [
+        "放入一处测试能通过、但违反明确需求的改动，检查能否被指出。",
+        "让两个分支修改同一条需求，检查合并时是否提示冲突。"
+      ],
+      "source_tagline": "Intent verification for coding agents",
+      "source_description": "Tiden verifies your coding agents built what you actually asked for. Most checks run inside the session that wrote the code, so the tests agree with it by construction. Tiden keeps your intent as requirements that branch and merge like code, and checks every change against that record. The verdict comes from tests run in your environment; no model grades the diff. You decide what merges, and production errors trace back to the release. Works beside Claude Code, Cursor, Codex and Copilot."
     },
     {
       "id": "1278698",
       "name": "AdAnt 2.0",
       "name_zh": "AdAnt 2.0",
-      "tagline_zh": "Muse for Social Media Marketing",
-      "description_zh": "AdAnt AI is your proactive, 24/7 social media marketing team. The Strategist researches your niche on TikTok, Instagram, YouTube and Meta Ads and writes content strategies that work. The Creator turns every strategy into a batch of videos. The Analyst listens on X and Reddit for conversations worth joining. The Manager plans the calendar and posts. Built on the strategies our founding team used to generate 100M+ organic views and cut paid acquisition costs by 60% on average.",
-      "intro_zh": "",
+      "tagline_zh": "社交媒体营销的灵感助手",
+      "description_zh": "AdAnt AI 将社交媒体营销分成几个角色：研究 TikTok、Instagram、YouTube 和 Meta Ads 上的细分领域并制定内容策略，把策略转成批量视频，寻找 X 和 Reddit 上值得参与的讨论，再安排日历和发布。简介称，创始团队曾用相关策略获得超过一亿次自然浏览，并将付费获客成本平均降低 60%；这些是团队过往成绩的宣传，不能视为本产品的效果。",
+      "intro_zh": "给需要持续运营社交账号的营销人员用，帮助研究选题、批量制作视频，并安排内容发布。",
       "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P2S3Z4QRV2ANYE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/558fbfc4-b0a4-4ae6-b393-b3862b073a6a.jpeg?auto=format",
       "votes_count": 180,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖持续运营中的多项具体工作，但成片质量和发布范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨平台发布有明确的可靠性问题，介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按工作产出拆分角色，再连接后续任务的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的可能是把策略接到制作和排期，减少交接工作；但成片需要多少人工修改，决定了它到底能省多少事。",
+      "product_analysis": {
+        "target_problem": "面向需要持续发内容、寻找讨论机会的营销人员。研究选题、制作视频和安排发布都要投入精力，它尝试把这些工作放在一起处理。",
+        "workflow": "先研究细分领域并写策略，再把策略转成一批视频，由 Manager 安排日历和发布。另有 Analyst 在 X 和 Reddit 寻找值得参与的讨论。",
+        "ai_value": "AI 被用于领域研究、策略撰写、视频生成和讨论筛选。介绍没有说明哪些结果需要人工确认。",
+        "differentiation": "它把策略继续转成视频和发布计划，可能减少重复交接。最可能让人不愿换用的原因，是生成内容仍需大量修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9189b8cb-81e8-4ea1-99a0-7df210e40d87)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1277882",
-      "name": "Confidence by Spotify ",
-      "name_zh": "Confidence by Spotify ",
-      "tagline_zh": "Build products at full speed, with both hands on the wheel",
-      "description_zh": "Confidence is a product intelligence platform built by Spotify. Spotify's approach to building products has always combined data with judgment and taste, and that scientific rigor is what Confidence brings to customers. Confidence is born from experimentation, but that’s now part of a wider story. Confidence analyzes your user signals, surfaces what's working, suggests the next move, and validates the hypothesis before it ships. You stay in the loop and approve the moves that matter.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MGDVIGENYLUYIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e9bfa8fb-5020-4288-9217-209c5f5a908e.png?auto=format",
-      "votes_count": 120,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确按四种角色分工，但没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先让研究结果形成可编辑的策略，再据此生成视频，最后将确认过的内容送入发布队列。",
+        "tradeoffs": "最容易出错的是发布失败后的重试：若没确认平台是否已经收到内容，就可能重复发帖。",
+        "unknowns": "介绍没有明确哪些平台支持直接发布。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c7db4119-64b1-4fc8-a6bd-db40ce2a20ba)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多步骤内容工具时，可以让每一步留下可编辑的结果，确认后再交给下一步，方便定位和修改问题。"
+      ],
+      "validation_questions": [
+        "抽查一批生成视频，是否准确表达所选策略？",
+        "模拟一次发布中断，恢复后是否出现重复帖子？"
+      ],
+      "source_tagline": "Muse for Social Media Marketing",
+      "source_description": "AdAnt AI is your proactive, 24/7 social media marketing team. The Strategist researches your niche on TikTok, Instagram, YouTube and Meta Ads and writes content strategies that work. The Creator turns every strategy into a batch of videos. The Analyst listens on X and Reddit for conversations worth joining. The Manager plans the calendar and posts. Built on the strategies our founding team used to generate 100M+ organic views and cut paid acquisition costs by 60% on average."
     },
     {
       "id": "1278817",
       "name": "Exodus for Google Cloud Run",
       "name_zh": "Exodus for Google Cloud Run",
-      "tagline_zh": "Upgrade any app to Cloud Run, with your coding agent",
-      "description_zh": "Cloud Run is Google's managed platform: no servers to look after, new copies in seconds under load, a bill only while your code works. Exodus takes your app there with your coding agent (Claude Code, Codex, Cursor): it checks the app on your machine, shows what you pay today and on Cloud Run and what to change, by 50+ playbooks from real moves. Then the agent makes the move, task by task, or designs a new app for Cloud Run. Free and open source. Try it on your repo today.",
-      "intro_zh": "",
+      "tagline_zh": "配合编程助手，把应用迁到 Cloud Run",
+      "description_zh": "Cloud Run 是 Google 的托管运行平台，简介称它可免去服务器维护、按负载扩容并按运行情况计费；Exodus 配合 Claude Code、Codex、Cursor 等编程助手，在本机检查应用，比较当前与迁移后的费用，并参考 50 多份迁移指南列出改动。随后由助手逐项执行迁移，也可用于设计面向 Cloud Run 的新应用；产品免费且开源。",
+      "intro_zh": "给准备迁移应用的开发者用，配合编程助手检查项目、比较费用，再逐项完成迁移。",
       "url": "https://www.producthunt.com/products/exodus-by-elim-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DKRZ5SVMJ577ZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/735ce32d-a1ee-4498-98ca-4548f1a9354b.jpeg?auto=format",
       "votes_count": 111,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "迁移前的检查、费用比较和改动执行都有明确用途，但适用范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把迁移经验变成助手可执行的任务有启发，但检查深度未知。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先检查再拆任务的做法可借用于其他代码迁移工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重检查结果能接着变成执行任务，省去重新交代背景；但它能识别多复杂的应用依赖，仍直接影响迁移是否可靠。",
+      "product_analysis": {
+        "target_problem": "准备把现有应用迁到 Google 托管平台的开发者，需要判断哪些地方要改、费用会怎样变化。麻烦在于这些判断依赖具体项目。",
+        "workflow": "在自己的代码仓库中配合编程助手使用：先做本机检查，查看费用比较和改动建议，再由助手逐项迁移。",
+        "ai_value": "编程助手负责按任务执行迁移，也可辅助设计新应用。介绍没有说明 Exodus 自身是否调用模型。",
+        "differentiation": "它把检查、费用比较和执行放在同一流程里，可能减少来回整理任务的工作。最可能让人犹豫的是不清楚它是否支持自己的应用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 7cb9d221-01a1-4d1e-906a-e330b012fe5b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称可配合 Claude Code、Codex、Cursor，参考 50 多份迁移指南；产品免费开源。",
+        "possible_approach": "如果自己做，可以先识别应用的启动方式和外部依赖，再匹配迁移指南，拆成助手能逐项修改和验证的任务。",
+        "tradeoffs": "最难的是找全应用对原环境的依赖。若漏掉保存在本机的文件，迁移后可能启动正常，却读不到原有数据。",
+        "unknowns": "费用比较是否覆盖运行应用所需的配套服务，介绍没说。"
+      },
+      "transferable_insights": [
+        "做框架升级或数据库迁移工具时，可以先检查项目，再把经验指南转成具体修改任务，让用户逐项确认。"
+      ],
+      "validation_questions": [
+        "用一个依赖本机文件的项目，检查它能否识别这项迁移风险。",
+        "检查费用比较是否包含应用需要的数据库费用。"
+      ],
+      "source_tagline": "Upgrade any app to Cloud Run, with your coding agent",
+      "source_description": "Cloud Run is Google's managed platform: no servers to look after, new copies in seconds under load, a bill only while your code works. Exodus takes your app there with your coding agent (Claude Code, Codex, Cursor): it checks the app on your machine, shows what you pay today and on Cloud Run and what to change, by 50+ playbooks from real moves. Then the agent makes the move, task by task, or designs a new app for Cloud Run. Free and open source. Try it on your repo today."
     },
     {
       "id": "1269704",
       "name": "Reason",
       "name_zh": "Reason",
-      "tagline_zh": "A state-of-the-art coding agent for cost efficiency",
-      "description_zh": "Reason is the best coding agent, in the cloud or locally. Give it a task and it writes code, runs tests and opens a pull request. Use Reason from the Mac app, terminal, web or Slack, with your choice of models and connected subscriptions. Start free on your own computer. Our published GPT-6 Astra evaluation scores 65.1 on the Coding Agent Index vs Codex’s 62.5, at 22% lower cost per solved task.",
-      "intro_zh": "",
+      "tagline_zh": "主打成本效率的编程智能体",
+      "description_zh": "Reason 可在云端或本机接收任务、编写代码、运行测试并发起拉取请求，支持从 Mac 应用、终端、网页或 Slack 使用，可选择模型、连接已有订阅，并可在自己的电脑上免费开始。缓存简介还声称，其公布的 GPT-6 Astra 评测在 Coding Agent Index 上得分 65.1，高于 Codex 的 62.5，每个解决任务的成本低 22%；这些名称、数字及比较均未重新核验。",
+      "intro_zh": "给需要委派编码任务的开发者用，接收任务后写代码、跑测试，再提交代码供人审查。",
       "url": "https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ACZF6BMTUGELS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0062589e-ee11-4497-9d51-5078016ea255.jpeg?auto=format",
       "votes_count": 111,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "任务到代码审查的用途清楚，但实际完成质量和成本尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动修改后如何验证任务完成是具体问题，介绍未交代验证办法。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把自动执行结果送进人工审查，是可借用的明确做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它能把代码修改送到审查环节；最影响判断的是，用户为确认结果正确还要投入多少精力。",
+      "product_analysis": {
+        "target_problem": "开发者处理编码任务时，写完代码还要测试、提交审查。Reason 把这些动作接在一起，减少逐项操作。",
+        "workflow": "从支持的入口交代任务，由它写代码、运行测试，再发起拉取请求，也就是把修改提交给人审查。",
+        "ai_value": "AI 接手代码编写和后续执行，交付可审查的修改，不只给出代码建议。",
+        "differentiation": "它把测试和提交也纳入任务执行。最可能让人不愿交给它的，是检查生成代码可能仍要花很多时间。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: aa650637-97b9-4ab3-a039-7602df1be62f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持本机或云端运行，可选择模型并连接已有订阅。",
+        "possible_approach": "如果自己做，可以先让模型读取项目并修改代码，再运行项目测试，把修改和测试结果整理成审查请求。",
+        "tradeoffs": "最容易错在把测试通过当作任务完成；测试没覆盖需求时，用户仍可能收到功能不对的代码。",
+        "unknowns": "测试失败后，它会继续修复，还是直接交回用户？"
+      },
+      "transferable_insights": [
+        "做自动修改文件的工具时，可把结果先送入人工审查，让用户确认后再采用。"
+      ],
+      "validation_questions": [
+        "交给它一个有明确验收条件的小任务，检查最终代码是否满足条件。",
+        "让任务触发已有测试失败，检查它如何处理失败。"
+      ],
+      "source_tagline": "A state-of-the-art coding agent for cost efficiency",
+      "source_description": "Reason is the best coding agent, in the cloud or locally. Give it a task and it writes code, runs tests and opens a pull request. Use Reason from the Mac app, terminal, web or Slack, with your choice of models and connected subscriptions. Start free on your own computer. Our published GPT-6 Astra evaluation scores 65.1 on the Coding Agent Index vs Codex’s 62.5, at 22% lower cost per solved task."
+    },
+    {
+      "id": "1221402",
+      "name": "Pancake",
+      "name_zh": "Pancake",
+      "tagline_zh": "面向市场拓展（GTM）的 Vercel",
+      "description_zh": "Pancake 提供一组组件，让用户从 Claude、Codex 等 AI 助手发起市场拓展任务。简介列出了 GTM Brain、发送基础设施，以及 40 多个数据提供方和信息补全能力，都可经一个 MCP 连接访问。",
+      "intro_zh": "给做市场拓展的团队用，让 AI 助手连接数据、补全信息，并调用发送能力。",
+      "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d77de011-9237-4f78-bedc-3e03372e2824.png?auto=format",
+      "votes_count": 557,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，但能完成哪些具体任务仍不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把查数据和发送放在同一入口，值得关注执行出错的后果。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一连接的做法可借鉴，但实际省多少接入工作尚未说明。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重从同一助手调用多种拓展工具；最影响判断的是发送能否由用户把关。",
+      "product_analysis": {
+        "target_problem": "市场和销售团队做拓展时，需要找数据、补全信息，再开展触达。Pancake 把这些能力放到 AI 助手可访问的同一入口。",
+        "workflow": "在 Claude、Codex 等助手中连接 Pancake，再由助手调用相关能力。简介未给出完整任务示例。",
+        "ai_value": "AI 助手是发起任务和调用工具的入口；GTM Brain 具体负责什么，介绍没解释。",
+        "differentiation": "一个连接可访问多类能力，可能减少分别接入工具的工作。已有数据来源是否覆盖，可能决定团队愿不愿换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "提供一个 MCP 连接，即让 AI 助手调用外部工具的连接方式，可访问发送设施及 40 多个数据提供方等能力。",
+        "possible_approach": "如果自己做，可以先把查找、补全和发送做成独立工具，再统一接给助手；发送前让用户确认对象和内容。",
+        "tradeoffs": "最容易出错的是把查到的信息对应到错误联系人，后续发送就可能找错人。",
+        "unknowns": "发送前是否支持人工确认？"
+      },
+      "transferable_insights": [
+        "做销售助手时，可以把查找和补全数据放在同一入口，减少用户在工具间搬运联系人信息。"
+      ],
+      "validation_questions": [
+        "用一组已知联系人测试，检查补全信息是否对应到正确的人。",
+        "发起一次测试发送，检查能否在实际发出前确认。"
+      ],
+      "source_tagline": "The Vercel for GTM",
+      "source_description": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection."
+    },
+    {
+      "id": "1277882",
+      "name": "Confidence by Spotify ",
+      "name_zh": "Confidence by Spotify",
+      "tagline_zh": "全速打造产品，同时牢牢掌握方向",
+      "description_zh": "Confidence 是 Spotify 打造的产品洞察平台，将数据与判断相结合，能力从实验扩展到分析用户信号、找出有效做法、建议下一步，并在发布前验证假设。用户持续参与，重要动作需要用户批准。",
+      "intro_zh": "给需要判断产品改动方向的团队用，分析用户信号、提出下一步建议，并在发布前验证假设。",
+      "url": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MGDVIGENYLUYIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e9bfa8fb-5020-4288-9217-209c5f5a908e.png?auto=format",
+      "votes_count": 120,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "决策场景明确，但能省多少分析和验证工作尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "从用户信号推到改动建议有具体难点，但实现细节不足。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先验证建议、再由人批准重要动作的做法可供决策工具借用。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重建议之后还有验证和人工批准。关键疑问是验证能否区分真正有效的改动与偶然波动，简介不足以判断。",
+      "product_analysis": {
+        "target_problem": "产品团队看到用户行为变化后，还要判断什么有效、下一步改什么。Confidence 面向这类需要用数据支持改动决策的场景。",
+        "workflow": "平台分析用户信号，指出有效做法，再建议下一步并在发布前验证假设。用户参与判断，批准重要动作；具体操作方式未说明。",
+        "ai_value": "介绍没提 AI，主要靠用户信号分析、实验验证和人工批准来辅助决策。",
+        "differentiation": "它把发现问题、提出建议和验证放在同一平台，可能减少来回整理信息的工作。但团队是否信任建议，会影响是否愿意使用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到实验和用户信号分析，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先整理用户行为和结果指标，再找出可能有效的改动，设计对照实验，最后把验证结果交给负责人批准。",
+        "tradeoffs": "最容易把同时发生的变化当成因果。若建议据此生成，团队可能改错方向。",
+        "unknowns": "发布前验证假设，具体采用什么方法？"
+      },
+      "transferable_insights": [
+        "做数据分析或运营决策工具时，可以把建议与验证结果放在一起，让负责人看完依据再批准重要动作。"
+      ],
+      "validation_questions": [
+        "选一条建议，检查它是否提供了可追溯的用户信号依据。",
+        "检查一项重要动作在未获批准时是否确实不会执行。"
+      ],
+      "source_tagline": "Build products at full speed, with both hands on the wheel",
+      "source_description": "Confidence is a product intelligence platform built by Spotify. Spotify's approach to building products has always combined data with judgment and taste, and that scientific rigor is what Confidence brings to customers. Confidence is born from experimentation, but that’s now part of a wider story. Confidence analyzes your user signals, surfaces what's working, suggests the next move, and validates the hypothesis before it ships. You stay in the loop and approve the moves that matter."
     },
     {
       "id": "1135009",
       "name": "AirJelly",
       "name_zh": "AirJelly",
-      "tagline_zh": "Your Proactive, Self-Organizing Second Brain",
-      "description_zh": "AirJelly is an always-on desktop AI agent that proactively captures your intent, organizes your tasks, and gets things done. By observing your on-screen activities, it knows who you are and what you're working on. It doesn't just spot your to-dos — it foresees what's next and acts. It also tracks your personal interactions, so you'll never miss a follow-up or forget a promise. Everything in your life is managed by AirJelly — freeing your time for what AI can't do, or simply for you to enjoy.",
-      "intro_zh": "",
+      "tagline_zh": "主动帮你整理事务的第二大脑",
+      "description_zh": "AirJelly 是持续运行的桌面 AI 助手，通过观察屏幕活动了解你正在做什么，整理任务并尝试执行后续行动。它也会追踪人际互动，帮助记住需要跟进的事情和答应过的事；介绍宣称它能预判下一步，但未说明具体执行范围。",
+      "intro_zh": "给经常在电脑上处理多项事务的人用，从屏幕活动中发现待办，整理任务并跟进承诺。",
       "url": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ad21d0ca-98c9-4f34-9604-10fd3925070c.jpeg?auto=format",
       "votes_count": 104,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "记住待办和承诺的需求明确，但可执行的动作和实际收益不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从屏幕内容判断用户是否真的承诺做事，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "从工作现场提取待办的做法可借鉴，但准确性和观察权限仍待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重从正在发生的工作中发现待办，减少漏记。最影响判断的是：它会在什么情况下未经确认就采取行动。",
+      "product_analysis": {
+        "target_problem": "适合在电脑上处理多项事务、需要记住跟进事项的人。麻烦在于事情发生在工作和交流过程中，未必及时记成待办。",
+        "workflow": "让桌面助手持续运行，观察屏幕活动。它据此整理任务、追踪互动并尝试采取后续行动，介绍未交代用户如何确认或纠正。",
+        "ai_value": "AI 用来从屏幕内容理解正在做的事，识别待办，并判断下一步可能要做什么。能判断到什么程度，材料没有证明。",
+        "differentiation": "可能省去一部分主动录入待办的动作。最可能让人犹豫的是，需要允许它持续观察屏幕。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: db371b02-2b31-4567-be96-75457beb2c15)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到持续运行的桌面 AI 助手和屏幕活动观察，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取获准观察的屏幕内容，再提取候选待办。先让用户确认，再执行允许的动作。",
+        "tradeoffs": "最难的是分清随口讨论和明确承诺。判断错了，可能生成不该做的任务，甚至触发多余行动。",
+        "unknowns": "屏幕中涉及隐私的内容会被保存或传到哪里？"
+      },
+      "transferable_insights": [
+        "做办公助手时，可以在用户当前处理的内容旁生成候选待办，并保留原文供确认，减少重新输入。"
+      ],
+      "validation_questions": [
+        "用包含假设讨论和明确承诺的内容，检查它能否正确区分两者。",
+        "检查能否排除指定窗口，阻止助手读取其中的敏感内容。"
+      ],
+      "source_tagline": "Your Proactive, Self-Organizing Second Brain",
+      "source_description": "AirJelly is an always-on desktop AI agent that proactively captures your intent, organizes your tasks, and gets things done. By observing your on-screen activities, it knows who you are and what you're working on. It doesn't just spot your to-dos — it foresees what's next and acts. It also tracks your personal interactions, so you'll never miss a follow-up or forget a promise. Everything in your life is managed by AirJelly — freeing your time for what AI can't do, or simply for you to enjoy."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

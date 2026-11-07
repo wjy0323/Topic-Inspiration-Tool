@@ -4,7 +4,8 @@
     <div v-for="dim in dimensions" :key="dim.key" class="score-detail-item">
       <div class="sd-header">
         <span class="sd-label"><component :is="dim.icon" :size="15" /> {{ dim.label }}</span>
-        <span class="sd-score">{{ '★'.repeat(scores[dim.key]?.score || 0) }}{{ '☆'.repeat(5 - (scores[dim.key]?.score || 0)) }}</span>
+        <span v-if="scores[dim.key]?.score == null" class="sd-reason">待评估</span>
+        <span v-else class="sd-score">{{ '★'.repeat(scores[dim.key]?.score || 0) }}{{ '☆'.repeat(5 - (scores[dim.key]?.score || 0)) }}</span>
       </div>
       <p class="sd-reason">{{ scores[dim.key]?.reason || '暂无分析' }}</p>
     </div>
@@ -12,16 +13,21 @@
 </template>
 
 <script setup>
-import { Video, Sprout, Flame } from '@lucide/vue'
-defineProps({
+import { computed } from 'vue'
+import { Video, Sprout, Flame, Target, Code, Lightbulb } from '@lucide/vue'
+const props = defineProps({
   scores: { type: Object, default: () => ({}) }
 })
 
-const dimensions = [
+const dimensions = computed(() => 'product_value' in props.scores ? [
+  { key: 'product_value', label: '产品价值', icon: Target },
+  { key: 'technical_insight', label: '技术启发', icon: Code },
+  { key: 'transferability', label: '可借鉴性', icon: Lightbulb }
+] : [
   { key: 'video_suitability', label: '视频化程度', icon: Video },
   { key: 'beginner_friendly', label: '小白友好度', icon: Sprout },
   { key: 'popularity', label: '热度', icon: Flame }
-]
+])
 </script>
 
 <style scoped>

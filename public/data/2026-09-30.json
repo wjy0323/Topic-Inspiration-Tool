@@ -1,367 +1,510 @@
 {
   "date": "2026-09-30",
-  "generated_at": "2026-10-01T22:18:24+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:24:54+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1254743",
       "name": "Pexo",
       "name_zh": "Pexo",
-      "tagline_zh": "Produce pitch perfect launch videos with precise control",
-      "description_zh": "Pexo makes creating your launch video as simple as having a conversation. Share your product, website, or assets. It plans the story, chooses the right AI model for each task, generates and assembles the scenes, and handles voiceover, music, captions, motion graphics, and editing. Leave a comment or circle what you want changed, and Pexo makes the edit. You direct one agent from idea to a finished, on-brand launch video.",
-      "intro_zh": "",
+      "tagline_zh": "制作产品发布视频，并精确控制修改",
+      "description_zh": "Pexo 让用户通过对话提供产品、网站或素材，再由它规划故事、为不同任务选择 AI 模型，生成并组装场景，处理配音、音乐、字幕、动态图形和剪辑。用户可以留言或圈出要改的地方，指挥同一个智能助手从想法做到成片；介绍称成片能符合品牌风格。",
+      "intro_zh": "给准备发布产品的团队用，把产品资料做成发布视频，再通过留言或圈选提出修改。",
       "url": "https://www.producthunt.com/products/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/O3T2IT5O2KIEFF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f2e2ecea-a5cc-412e-adac-ffbfee93de28.png?auto=format",
       "votes_count": 415,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖从资料到成片及修改的明确需求，但成片质量尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把圈选意见准确对应到视频修改，是具体且值得拆解的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在结果上直接标注修改位置，可借用于其他生成式编辑工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重直接在成片上提修改意见，能少解释“哪里要改”。最影响判断的是，这种局部修改能否不扰动其他内容。",
+      "product_analysis": {
+        "target_problem": "准备发布产品的团队，需要把产品资料变成有画面、声音和字幕的视频。麻烦在于这些内容要配合起来，修改也可能牵动多处。",
+        "workflow": "提供产品、网站或素材，让它规划故事并生成、组装视频。查看结果后，留言或圈出要改的地方，再由它修改。",
+        "ai_value": "AI 负责规划故事、选择各任务使用的模型，并生成和编辑内容，用户主要提供资料和修改意见。",
+        "differentiation": "它把多项制作工作放进同一对话中。最可能让人不愿换过来的，是无法确认修改能否精确落到指定位置。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 996eea31-e390-4187-a4f7-6ba167858480)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到按任务选择 AI 模型，以及通过评论和圈选触发修改，没说具体模型。",
+        "possible_approach": "如果自己做，可以先把资料整理成分镜，再逐段生成并组装音画；修改时，把评论或圈选对应到具体片段，只重做相关部分。",
+        "tradeoffs": "最难的是限定修改范围。若改一句配音也重做整段画面，用户就得重新检查已经确认的内容。",
+        "unknowns": "介绍没说用户能否锁定已经确认、不希望再变的片段。"
+      },
+      "transferable_insights": [
+        "做图片、文档等生成式编辑工具时，可以让用户直接圈选结果中的问题，减少反复描述位置。"
+      ],
+      "validation_questions": [
+        "只要求修改一处字幕，检查其他已确认内容是否保持不变。",
+        "提供明确的品牌素材，检查成片是否准确保留品牌名称和标识。"
+      ],
+      "source_tagline": "Produce pitch perfect launch videos with precise control",
+      "source_description": "Pexo makes creating your launch video as simple as having a conversation. Share your product, website, or assets. It plans the story, chooses the right AI model for each task, generates and assembles the scenes, and handles voiceover, music, captions, motion graphics, and editing. Leave a comment or circle what you want changed, and Pexo makes the edit. You direct one agent from idea to a finished, on-brand launch video."
     },
     {
       "id": "1264809",
       "name": "Ferndesk",
       "name_zh": "Ferndesk",
-      "tagline_zh": "The help center that never goes out of date",
-      "description_zh": "Ferndesk is a complete help center with an agent that checks every article against your product, catches what changed, and drafts the fixes for you.",
-      "intro_zh": "",
+      "tagline_zh": "让帮助中心保持更新",
+      "description_zh": "Ferndesk 是一个帮助中心，内置代理，可逐篇对照产品检查文章。它会找出产品变化，并起草相应的修改内容。",
+      "intro_zh": "给维护产品帮助文档的团队用，对照产品检查文章，找出过时内容并起草修改。",
       "url": "https://www.producthunt.com/products/ferndesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/576PDTHXOH2PTI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/352126fa-e851-48ab-9922-ed4b73ec60dd.png?auto=format",
       "votes_count": 372,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "维护对象和省事方式清楚，但检查准确性尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断文章与实际产品不符，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先找过时内容再起草修改的做法，可借用于其他文档维护。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是发现过时内容后直接给出修改草稿；最影响判断的是，它是否掌握足以核对文档的产品信息。",
+      "product_analysis": {
+        "target_problem": "产品更新后，文档维护人员需要确认哪些帮助文章已不准确。难处在于把产品变化对应到具体段落。",
+        "workflow": "代理逐篇对照产品检查文章，找出变化，再起草修改。介绍没有说明用户如何接入产品或发布修订。",
+        "ai_value": "介绍提到代理检查和起草，但没明确说明是否使用 AI。省事之处是把发现问题和准备修改放在一起。",
+        "differentiation": "它不只存放文章，还检查内容是否过时。团队可能因不确定检查是否可靠，仍保留人工逐篇核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ac156458-9c59-4056-99cd-c2aede922993)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1244102",
-      "name": "Autonomyware",
-      "name_zh": "Autonomyware",
-      "tagline_zh": "Idea to physical product, engineer anything you can imagine",
-      "description_zh": "Autonomyware turns your idea into an engineered physical product. Start with your vision and let autonomous AI handle the engineering process end to end. Describe what you want to create, then move from product definition through architecture, risk, CAD, BOMs, code, verification, and manufacturing preparation. One AI-native workspace keeps every decision and engineering artifact connected from idea to implementation.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/autonomyware?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3WU5KPPRXFN7CD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/52bb65ee-f1bb-47ea-8db2-da02da444af9.png?auto=format",
-      "votes_count": 213,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确有代理对照产品检查文章，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集产品当前界面和功能说明，再逐段核对文章，为不一致处生成带依据的修改草稿。",
+        "tradeoffs": "最难的是分清真正过时和适用条件不同。若把套餐差异当成产品变化，可能将原本正确的说明改错。",
+        "unknowns": "它拿什么作为产品当前状态的判断依据？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f6448472-d3da-4765-af02-83ceaa7eddb0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做内部操作手册时，可以把检查结果直接连到修改草稿，让维护者在同一处核对依据和改动。"
+      ],
+      "validation_questions": [
+        "选一篇已知过时的文章，检查它能否定位错误段落。",
+        "选一篇只适用于特定套餐的正确文章，检查它是否误报。"
+      ],
+      "source_tagline": "The help center that never goes out of date",
+      "source_description": "Ferndesk is a complete help center with an agent that checks every article against your product, catches what changed, and drafts the fixes for you."
     },
     {
       "id": "1265328",
       "name": "CrawlRaven MCP",
       "name_zh": "CrawlRaven MCP",
-      "tagline_zh": "Your SEO work, done from your AI agent",
-      "description_zh": "CrawlRaven joins Search Console, GA4, your keyword lists, and a technical crawl of your site into one plan, ranked by impact: what to fix, update and write first. Ask for it in Claude, ChatGPT or Cursor through our MCP server and get answers from your own data.",
-      "intro_zh": "",
+      "tagline_zh": "在 AI 助手中完成搜索优化工作",
+      "description_zh": "CrawlRaven 汇总 Google 搜索表现工具 Search Console、网站访问分析工具 GA4、关键词列表和网站技术抓取结果，生成按影响排序的修复、更新与写作计划。通过 MCP 服务，你可以在 Claude、ChatGPT 或 Cursor 中提问，获取基于自己数据的回答。",
+      "intro_zh": "给负责网站搜索优化的人用，汇总搜索、访问和网站检查数据，列出先修什么、更新什么、写什么。",
       "url": "https://www.producthunt.com/products/crawlraven-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/R7XUV6WU6IHUWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/820a2bbc-81a2-4887-9c5a-76138ce8bf0d.jpeg?auto=format",
       "votes_count": 195,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和计划输出明确，但排序是否可靠尚无依据。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多份数据如何对应到同一页面，会直接影响建议是否可信。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把多处数据整理成有先后顺序的行动清单，可以借用于其他分析产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把分散信息变成工作顺序；最影响判断的是，这个顺序是否有可核对的依据。",
+      "product_analysis": {
+        "target_problem": "网站运营者决定下一步优化什么时，需要综合搜索表现、访问情况和页面问题。麻烦在于把这些信息变成有先后顺序的任务。",
+        "workflow": "产品汇总四类资料，用户在支持的 AI 助手中提问，拿到按影响排序的计划。介绍未说明具体接入步骤。",
+        "ai_value": "AI 助手提供提问和获取答案的入口。介绍没有说明计划排序由 AI 判断还是由固定规则计算。",
+        "differentiation": "它把数据汇总和任务排序放进已有的助手中，可能减少切换工具。若排序缺乏依据，用户可能仍会回原工具复核。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 5abcd0fe-aff4-499a-a9b9-d28b83c4167e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供 MCP 服务，即让 AI 助手调用外部工具和数据的连接方式，并汇总四类网站资料。",
+        "possible_approach": "如果自己做，可以先把不同来源的数据对应到同一页面，再生成候选任务并排序，最后让助手查询结果。",
+        "tradeoffs": "最容易错在页面对应关系。若同一页面的不同网址被拆开，建议可能漏掉关键数据，排错优先级。",
+        "unknowns": "“影响”按什么指标估算，介绍没有解释。"
+      },
+      "transferable_insights": [
+        "做多来源分析产品时，可以把输出组织成“下一步做什么”的排序清单，帮助用户从看数据转向安排工作。"
+      ],
+      "validation_questions": [
+        "抽查一个页面，核对汇总数据是否与原工具中的记录一致。",
+        "选一条高优先级建议，检查能否追溯到具体数据和排序理由。"
+      ],
+      "source_tagline": "Your SEO work, done from your AI agent",
+      "source_description": "CrawlRaven joins Search Console, GA4, your keyword lists, and a technical crawl of your site into one plan, ranked by impact: what to fix, update and write first. Ask for it in Claude, ChatGPT or Cursor through our MCP server and get answers from your own data."
     },
     {
       "id": "1263355",
       "name": "GitBot",
       "name_zh": "GitBot",
-      "tagline_zh": "Build bots on the coding agent you already use",
-      "description_zh": "GitBot turns a job you keep giving Claude Code, Codex or OpenCode into a bot. Write the instructions once, set what it may touch, and run it in any repo. Each run is a thread you can come back to. Install bots other devs made from the Library, or share yours with a code. ShipGuard, for example, reads your branch and says merge or block, with file and line evidence. Runs on your machine with the logins you already have. Open source. No account, no telemetry.",
-      "intro_zh": "",
+      "tagline_zh": "用你已经在用的编程助手构建机器人",
+      "description_zh": "GitBot 把反复交给 Claude Code、Codex 或 OpenCode 的任务做成机器人：写一次指令，限定可操作范围，就能在不同代码仓库运行，并回看每次运行的对话。它支持从 Library 安装他人制作的机器人或用分享码分享自己的机器人，在本机使用已有登录运行；介绍称其开源、无需账号且不收集遥测数据。",
+      "intro_zh": "给反复使用编程助手的开发者，把常做的任务保存成机器人，在不同代码仓库运行并回看记录。",
       "url": "https://www.producthunt.com/products/gitbot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KBWQI4FQQ35DCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b5748fd3-11f6-477c-9d96-c902a7b41dfd.png?auto=format",
       "votes_count": 188,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "重复交代任务的场景明确，但实际能省多少操作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "任务复用后如何限制代码访问范围，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把指令与操作范围一起保存，适合借用于重复执行的 AI 任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重任务说明能跨仓库复用；但操作范围能否被强制执行，决定了能放心交给它多少工作。",
+      "product_analysis": {
+        "target_problem": "开发者反复让编程助手做同类任务时，以前要重复交代要求，现在可以写一次指令，再到不同仓库运行。",
+        "workflow": "写任务指令，设置它能操作的范围，再在仓库运行；每次运行保留为可返回的对话。也可从 Library 安装现成机器人。",
+        "ai_value": "AI 负责执行保存的任务。示例 ShipGuard 会读取当前分支，给出合并或阻止的建议，并附文件和行号依据。",
+        "differentiation": "省去反复组织任务说明的动作。最可能让人犹豫的是：换个仓库后，同一套要求是否仍然适用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d04c4f89-b356-4201-82b1-939def6b426c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持 Claude Code、Codex、OpenCode，并称在本机使用已有登录运行，且代码开源。",
+        "possible_approach": "如果自己做，可以先保存指令和允许操作的范围，再交给用户选定的编程助手执行，最后按次保存对话记录。",
+        "tradeoffs": "最难的是让操作范围真正生效；若只是写在指令里，机器人可能越界改动文件。",
+        "unknowns": "范围限制靠文字约定，还是有程序强制拦截？"
+      },
+      "transferable_insights": [
+        "做重复执行的 AI 工具时，可把任务指令和允许操作的范围一起保存，避免复用时漏掉限制。"
+      ],
+      "validation_questions": [
+        "让机器人修改范围外的测试文件，检查是否会被阻止。",
+        "把同一机器人放到结构不同的仓库，检查能否完成原定任务。"
+      ],
+      "source_tagline": "Build bots on the coding agent you already use",
+      "source_description": "GitBot turns a job you keep giving Claude Code, Codex or OpenCode into a bot. Write the instructions once, set what it may touch, and run it in any repo. Each run is a thread you can come back to. Install bots other devs made from the Library, or share yours with a code. ShipGuard, for example, reads your branch and says merge or block, with file and line evidence. Runs on your machine with the logins you already have. Open source. No account, no telemetry."
     },
     {
       "id": "1220299",
       "name": "OpenShip",
       "name_zh": "OpenShip",
-      "tagline_zh": "Open source PaaS on your server or in the cloud. No lock in.",
-      "description_zh": "OpenShip is an open source PaaS that runs on our cloud or your infrastructure. Push your code and OpenShip handles builds, deployments, domains, SSL, monitoring, backups, secrets, and the services your apps depend on. Start fully managed on OpenShip Cloud or self host on your own cloud or on prem. Move between them without changing how you deploy. No proprietary runtime. No vendor lock in. Remove OpenShip and your apps keep running. Deploy anything. Own everything.",
-      "intro_zh": "",
+      "tagline_zh": "运行在自有服务器或云端的开源应用托管平台，主打不绑定厂商。",
+      "description_zh": "OpenShip 是开源应用托管平台，可运行在其云服务或用户自己的基础设施上，提交代码后负责构建、部署、域名、加密证书、监控、备份、密钥和应用依赖服务。介绍称，托管与自建之间可保持相同部署方式，没有专有运行环境，移除 OpenShip 后应用仍能运行。",
+      "intro_zh": "给需要发布和维护应用的开发团队用，提交代码后统一处理部署，也可选择托管或自建。",
       "url": "https://www.producthunt.com/products/openship-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AOBYCP3ZZQ7VPO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/894cc5ba-3e1d-4e80-9d54-2fffd5b2b9ce.png?auto=format",
       "votes_count": 150,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "发布与维护的任务明确，但迁移和接管条件仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "移除管理平台后如何继续维护应用，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "托管与自建保持同一套操作方式，可供开发工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重托管与自建之间不必重学部署；但“移除后仍运行”是否包含后续维护能力，会直接影响退出成本的判断。",
+      "product_analysis": {
+        "target_problem": "开发团队发布应用时，除了代码，还要照顾证书、备份和依赖服务。需要保留自建选择的团队，也会关心以后能否搬走。",
+        "workflow": "先选 OpenShip Cloud 或自有基础设施，再提交代码，由平台处理构建、部署及相关维护任务。介绍称，两种环境之间可保持相同部署方式。",
+        "ai_value": "介绍没提 AI，主要靠统一管理部署和维护任务来改善体验。",
+        "differentiation": "把多项维护任务交给同一平台处理。最可能让团队犹豫的是：搬走时能否连同数据和配置一起接管。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1fc28abe-41f0-4ee3-aa60-ff857fb6975c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确称其开源、支持托管与自建，且不依赖专有运行环境；未说明具体实现。",
+        "possible_approach": "如果自己做，可以先把代码变成可运行的应用，再统一配置启动、域名和备份；将这些配置保留为用户可接管的文件。",
+        "tradeoffs": "最难的是移除平台后的接管。应用即使还在运行，若证书续期无人处理，之后仍可能无法正常访问。",
+        "unknowns": "移除 OpenShip 后，哪些维护任务需要用户接手？"
+      },
+      "transferable_insights": [
+        "做同时提供托管和自建的开发工具时，尽量保持相同的部署操作，减少切换环境时重新学习。"
+      ],
+      "validation_questions": [
+        "用带数据库的测试应用迁移一次，检查迁移后的数据是否完整。",
+        "在测试环境移除 OpenShip，检查能否独立完成证书续期。"
+      ],
+      "source_tagline": "Open source PaaS on your server or in the cloud. No lock in.",
+      "source_description": "OpenShip is an open source PaaS that runs on our cloud or your infrastructure. Push your code and OpenShip handles builds, deployments, domains, SSL, monitoring, backups, secrets, and the services your apps depend on. Start fully managed on OpenShip Cloud or self host on your own cloud or on prem. Move between them without changing how you deploy. No proprietary runtime. No vendor lock in. Remove OpenShip and your apps keep running. Deploy anything. Own everything."
     },
     {
       "id": "1258149",
       "name": "Macaly Cloud",
       "name_zh": "Macaly Cloud",
-      "tagline_zh": "Build and publish sites with your Claude or ChatGPT",
-      "description_zh": "Add Macaly Cloud to your Claude or ChatGPT and build websites and apps right from the chat. Macaly provides the database, hosting, domain and 70+ skills the code needs to go live, on the subscription you already pay for. Also works in Claude Code, Codex and Grok Bot.",
-      "intro_zh": "",
+      "tagline_zh": "用 Claude 或 ChatGPT 构建并发布网站",
+      "description_zh": "把 Macaly Cloud 加入 Claude 或 ChatGPT，就能在聊天中构建网站和应用。简介称它提供数据库、托管、域名和 70 多项技能，可配合现有订阅使用，也支持 Claude Code、Codex 和 Grok Bot。",
+      "intro_zh": "给想用聊天方式做网站和应用的人，把构建和发布放进已有的 AI 工具里。",
       "url": "https://www.producthunt.com/products/macaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/SD6AMPRVOBKHYQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0e34c523-5f06-4163-bdd3-1b21f5a65d0f.jpeg?auto=format",
       "votes_count": 132,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把聊天构建与上线资源放在一起，用途明确，但费用边界未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "从生成代码到实际发布有具体问题可分析，但连接方式未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在用户已有工具内补上发布能力，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把生成代码之后的上线工作接起来；但“现有订阅可用”的范围不清，暂时无法判断持续使用的成本。",
+      "product_analysis": {
+        "target_problem": "面向用 AI 做网站和应用的人。代码生成后，还要解决存数据、放到网上运行和绑定域名的问题。",
+        "workflow": "把 Macaly Cloud 加入支持的聊天工具，再通过对话构建网站或应用，并使用它提供的资源上线。具体接入和发布步骤未说明。",
+        "ai_value": "AI 是用户描述需求、构建网站的交互入口。资料没有说明 Macaly 自身是否另用模型。",
+        "differentiation": "它把上线所需资源带进已有工具，可能减少切换服务的麻烦。最可能让人犹豫的是现有订阅究竟覆盖哪些费用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 1d27023a-15e1-4d36-92e6-a1dc4e790e0d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确列出数据库、托管、域名和 70 多项技能，但没解释这些技能的具体内容。",
+        "possible_approach": "如果自己做，可以先让聊天工具把生成的代码交给发布服务，再连接数据库、部署网站并返回访问地址。",
+        "tradeoffs": "最容易出错的是更新代码时没处理好数据库变化，可能导致网站发布成功，原有数据却读不出来。",
+        "unknowns": "发布后的应用能否导出并迁到其他服务，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做生成式建站工具时，可以把发布能力接到用户已有的聊天工具里，让生成的代码有明确的上线出口。"
+      ],
+      "validation_questions": [
+        "发布一个需要存数据的小应用，更新后检查原有数据能否正常读取。",
+        "核对现有订阅覆盖的资源额度，确认何时需要额外付费。"
+      ],
+      "source_tagline": "Build and publish sites with your Claude or ChatGPT",
+      "source_description": "Add Macaly Cloud to your Claude or ChatGPT and build websites and apps right from the chat. Macaly provides the database, hosting, domain and 70+ skills the code needs to go live, on the subscription you already pay for. Also works in Claude Code, Codex and Grok Bot."
+    },
+    {
+      "id": "1244102",
+      "name": "Autonomyware",
+      "name_zh": "Autonomyware",
+      "tagline_zh": "从想法到实体产品，为你设想的产品做工程设计",
+      "description_zh": "Autonomyware 宣称让自主 AI 处理从想法到实体产品的工程过程，涵盖产品定义、架构、风险、计算机辅助设计、物料清单、代码、验证和制造准备。它将这些工作放在同一个工作区，让决策与工程产物保持关联。",
+      "intro_zh": "给开发实体产品的团队用，从描述想做的东西开始，辅助推进工程设计、验证和制造准备。",
+      "url": "https://www.producthunt.com/products/autonomyware?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3WU5KPPRXFN7CD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/52bb65ee-f1bb-47ea-8db2-da02da444af9.png?auto=format",
+      "votes_count": 213,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "场景明确，但工程产物能否直接用于后续工作仍不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "需求变化后，各类工程产物如何同步是具体且关键的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "关联决策与产物的做法可借鉴，但没有具体交互案例。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把设计依据与产物关联起来有实际意义；最大的疑问是，它能否提供可复核的工程依据，而不只是生成一套看起来完整的资料。",
+      "product_analysis": {
+        "target_problem": "实体产品团队要把需求逐步变成设计和制造资料。不同阶段的决定互相影响，修改需求后，相关资料可能需要一起调整。",
+        "workflow": "用户先描述要做的产品，再在同一工作区推进产品定义、架构、风险分析、设计、物料清单、代码、验证和制造准备。介绍没有说明哪些阶段需要人工审批。",
+        "ai_value": "AI 被用于推进工程过程，而不只回答设计问题。但材料没有展示它完成了哪些可检查的工程产物。",
+        "differentiation": "它试图减少决策与工程资料分散后反复对照的工作。最可能让团队犹豫的是，产物是否可靠到能用于实际制造。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到自主 AI，以及关联决策和工程产物的统一工作区，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把需求拆成可检查的指标，再逐项生成设计和物料清单，并记录每份产物依据哪条需求。",
+        "tradeoffs": "最难的是需求改动后找全受影响的产物。漏改一处，就可能出现图纸和采购清单对不上的问题。",
+        "unknowns": "所谓验证，是检查文档是否自洽，还是包含工程计算或实物测试？"
+      },
+      "transferable_insights": [
+        "做多阶段设计工具时，可以让每份产物标明对应需求；需求变化后，提示用户检查相关产物。"
+      ],
+      "validation_questions": [
+        "修改一个关键尺寸后，检查所有引用该尺寸的产物是否同步更新或提示待检查。",
+        "挑一项产品性能要求，检查验证结果是否给出了可复核的计算或测试依据。"
+      ],
+      "source_tagline": "Idea to physical product, engineer anything you can imagine",
+      "source_description": "Autonomyware turns your idea into an engineered physical product. Start with your vision and let autonomous AI handle the engineering process end to end. Describe what you want to create, then move from product definition through architecture, risk, CAD, BOMs, code, verification, and manufacturing preparation. One AI-native workspace keeps every decision and engineering artifact connected from idea to implementation."
     },
     {
       "id": "1257243",
       "name": "NotchDodo",
       "name_zh": "NotchDodo",
-      "tagline_zh": "NotchDodo turns your notch into a full-blown dashboard.",
-      "description_zh": "NotchDodo turns your Mac’s notch into a useful part of your everyday workflow. 🦤 With 14 built-in tools, NotchDodo gives you quick access to handy utilities without interrupting your work. It’s lightweight, simple, and designed specifically for Macs with a notch. Instead of working around the notch, make it useful. 14 tools. One notch. A more useful Mac.",
-      "intro_zh": "",
+      "tagline_zh": "把 Mac 的刘海区域变成工具面板。",
+      "description_zh": "NotchDodo 为带刘海的 Mac 提供工具面板，内置 14 个工具，方便日常调用。介绍称它轻巧、简单，希望让用户使用小工具时少打断手头工作。",
+      "intro_zh": "给使用带刘海 Mac 的人，把日常小工具集中到刘海区域，方便工作时调用。",
       "url": "https://www.producthunt.com/products/notchdodo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LMR7WWPEVTQXRV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ccbd1f25-203f-4498-aa87-681c85f0d5ef.jpeg?auto=format",
       "votes_count": 131,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "入口集中有明确用途，但没列出工具，难判断能省多少事。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "刘海附近的面板如何避免误触，是具体的交互问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "固定位置集中小工具可以借鉴，但适合哪些任务尚不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是固定入口可能减少找工具的动作；但工具清单缺失，暂时无法判断它能否替代现有习惯。",
+      "product_analysis": {
+        "target_problem": "适合使用带刘海 Mac、工作中需要调用小工具的人。它想减少找工具对当前任务的打断，但介绍没有说明用户原本从哪里调用。",
+        "workflow": "用户从刘海区域的面板调用内置工具。资料只明确有 14 个工具，没有列出名称或打开面板的方式。",
+        "ai_value": "介绍没提 AI，主要靠集中工具入口来改善体验。",
+        "differentiation": "它把入口放在刘海区域，可能减少寻找工具的动作。最可能让人不愿换用的原因，是内置工具不符合自己的日常需求。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 328bb976-1b78-4495-a76f-0363dcf54a7d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确面向带刘海的 Mac，内置 14 个工具，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先在刘海附近做一个可展开的小面板，再接入少量常用工具，先检查调用时是否打断当前操作。",
+        "tradeoffs": "最容易出错的是面板的触发范围。若鼠标经过就误展开，反而会干扰工作。",
+        "unknowns": "14 个工具分别是什么，决定了这个入口有没有日常价值。"
+      },
+      "transferable_insights": [
+        "做桌面效率工具时，可以把高频小操作集中在固定位置；先挑少量常用任务验证，不必先堆工具数量。"
+      ],
+      "validation_questions": [
+        "内置工具中，是否有自己每天都要用的一项？",
+        "正常操作顶部菜单时，面板会不会误展开？"
+      ],
+      "source_tagline": "NotchDodo turns your notch into a full-blown dashboard.",
+      "source_description": "NotchDodo turns your Mac’s notch into a useful part of your everyday workflow. 🦤 With 14 built-in tools, NotchDodo gives you quick access to handy utilities without interrupting your work. It’s lightweight, simple, and designed specifically for Macs with a notch. Instead of working around the notch, make it useful. 14 tools. One notch. A more useful Mac."
     },
     {
       "id": "1265274",
       "name": "jambuild",
       "name_zh": "jambuild",
-      "tagline_zh": "Near instant multiplayer vibecoding, just point and talk",
-      "description_zh": "A multiplayer vibecoding tool where you talk and point with your mouse, and every change lands in seconds. Has limited credits to try it out, and you can BYO API keys to unlock more usage.",
-      "intro_zh": "",
+      "tagline_zh": "用鼠标指一指、开口说，多人一起写代码；产品称改动近乎即时完成",
+      "description_zh": "一款多人协作编程工具，用口头描述和鼠标指向表达修改要求，产品称每次改动能在几秒内完成。提供有限试用额度，也可自带 API 密钥（调用外部服务的访问凭证）增加用量。",
+      "intro_zh": "给想一起修改软件的团队用，用鼠标指出位置，再说出修改要求，支持多人协作编程。",
       "url": "https://www.producthunt.com/products/jambuild?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7WIAUSXLGO3NKM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ef503cae-2953-4c77-8968-679499d1630d.png?auto=format",
       "votes_count": 126,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "输入方式和协作场景清楚，但修改质量与适用范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人同时发出修改要求时，如何避免互相覆盖是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "指向目标再口述要求的做法可借用，但定位准确度尚不清楚。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重指向位置后直接说要求，可能减少来回解释；最影响判断的是多人修改会不会互相覆盖。",
+      "product_analysis": {
+        "target_problem": "团队一起改软件时，既要说明改哪里，也要说清改成什么。jambuild 把鼠标指向和口头描述放在一起。",
+        "workflow": "用户用鼠标指向目标，再说出修改要求，工具据此改动；支持多人参与。资料未说明如何进入项目或确认结果。",
+        "ai_value": "简介用“对话式编程”描述用途，可能由 AI 把要求转成代码修改，但没有交代具体处理方式。",
+        "differentiation": "鼠标指向可能省去描述目标位置的文字。团队是否愿意换过来，可能取决于能否接入现有项目。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 53207d1e-13dc-4419-8077-3f25136c7dfa)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到口头输入、鼠标指向、多人协作和自带 API 密钥，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录鼠标所指对象，再把口述内容转成文字，结合相关代码生成修改，供参与者查看。",
+        "tradeoffs": "最难的是处理多人同时修改同一处：若后来的修改覆盖前面的结果，用户就得重新检查和返工。",
+        "unknowns": "自带密钥后，哪些服务支持、哪些用量仍受限，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做页面编辑器时，可以让用户先指向元素再口述修改，减少反复解释“改的是哪里”。"
+      ],
+      "validation_questions": [
+        "两人同时修改同一处时，是否会出现未提示的覆盖？",
+        "指向相邻的两个元素分别提出修改时，能否准确改到指定对象？"
+      ],
+      "source_tagline": "Near instant multiplayer vibecoding, just point and talk",
+      "source_description": "A multiplayer vibecoding tool where you talk and point with your mouse, and every change lands in seconds. Has limited credits to try it out, and you can BYO API keys to unlock more usage."
     },
     {
       "id": "1264640",
       "name": "Datastory",
       "name_zh": "Datastory",
-      "tagline_zh": "Turn the world's data into stories worth sharing",
-      "description_zh": "Datastory is the no-code platform for data storytellers. Create interactive charts, websites, and reports with AI, and access a growing catalog of open datasets.",
-      "intro_zh": "",
+      "tagline_zh": "把世界的数据变成值得分享的故事",
+      "description_zh": "Datastory 是面向数据叙事创作者的无代码平台。它支持借助 AI 创建交互式图表、网站和报告，并提供持续扩充的开放数据集目录。",
+      "intro_zh": "给需要用数据讲清事情的内容创作者，用 AI 制作交互式图表、网站和报告，也能查找开放数据。",
       "url": "https://www.producthunt.com/products/datastory-data-visualization-platform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CBQPYNI5JND72L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4cbbc057-9d5f-4b37-bcc3-77f8b5709946.jpeg?auto=format",
       "votes_count": 114,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "使用对象和产出明确，但省下多少制作工作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "数据转成图表时如何避免误读，是具体且值得关注的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "把数据资源与内容制作放在一起有借鉴意义，但衔接方式未说明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重无代码制作交互内容的便利；最影响判断的是，AI 对数据口径的理解能否让用户核对。",
+      "product_analysis": {
+        "target_problem": "面向制作数据报道或研究内容的人。把数据做成读者能探索的图表和页面，可能涉及额外的编程与排版工作。",
+        "workflow": "用户可查找开放数据，并借助 AI 创建交互式图表、网站或报告。简介没说明数据如何导入，也没交代发布步骤。",
+        "ai_value": "AI 用于辅助创建这些内容，但具体负责选图、写文字还是生成页面，资料无法判断。",
+        "differentiation": "无代码制作可能减少编程工作；最可能让人犹豫的是，生成结果能否按自己的表达意图修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 32975686-72f1-4bd5-a2cd-9a8327658334)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了无代码、AI 辅助创建和开放数据集目录，没说具体技术。",
+        "possible_approach": "如果自己做，可以先读取表格的列名、单位和数值，再让 AI 提议图表与说明文字，最后由用户确认后生成页面。",
+        "tradeoffs": "最容易错在理解数据口径。若把百分比当数量，图表即使能交互，也可能让读者得出错误结论。",
+        "unknowns": "生成内容能否保留可核对的数据来源与口径，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做研究内容工具时，可以把数据目录放进制作界面，减少用户另找数据的切换；前提是来源与口径容易查看。"
+      ],
+      "validation_questions": [
+        "用一份含百分比和绝对数量的表格生成图表，检查单位是否被正确识别。",
+        "生成页面后，检查能否直接修改图表类型。"
+      ],
+      "source_tagline": "Turn the world's data into stories worth sharing",
+      "source_description": "Datastory is the no-code platform for data storytellers. Create interactive charts, websites, and reports with AI, and access a growing catalog of open datasets."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

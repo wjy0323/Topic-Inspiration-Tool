@@ -1,367 +1,510 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-23T20:38:09+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:26:57+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1252189",
       "name": "Clueso MCP",
       "name_zh": "Clueso MCP",
-      "tagline_zh": "Create and edit videos by chatting",
-      "description_zh": "Make videos with Claude, ChatGPT, or any AI agent. Give Clueso an idea, deck, reference video, or recording, and it handles the whole video production: storyboard, scenes, voiceover, music, and editing, on-brand. Everything stays editable, by hand or by chat.",
-      "intro_zh": "",
+      "tagline_zh": "通过聊天创建和编辑视频",
+      "description_zh": "可以用 Claude、ChatGPT 或其他 AI 助手制作视频，输入想法、幻灯片、参考视频或录屏后，由 Clueso 处理分镜、场景、配音、音乐和剪辑，并按品牌风格制作。生成内容仍可手动或通过聊天修改。",
+      "intro_zh": "给需要制作视频的内容和产品团队，把想法或现有素材交给 AI，再通过聊天或手动修改。",
       "url": "https://www.producthunt.com/products/clueso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CFUV35KT4ZLPZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7d52afc1-9d27-45c5-b258-6b557bf0e7d4.jpeg?auto=format",
       "votes_count": 504,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "输入材料和制作范围清楚，但成片能省多少修改工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "聊天修改如何准确落到视频中的局部，是具体且重要的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "自动生成后保留手动修改，适合借鉴到需要反复调整的创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重生成后仍能继续编辑，用户有机会修正不满意的部分。最影响判断的是：局部修改能否准确执行，而不牵动已确认的内容。",
+      "product_analysis": {
+        "target_problem": "内容和产品团队拿到幻灯片或录屏后，还要安排画面、配音和剪辑。它把这些制作任务放进同一个聊天式流程。",
+        "workflow": "提交想法、幻灯片、参考视频或录屏，让它制作视频。拿到结果后，可以继续聊天修改，也可以手动编辑。",
+        "ai_value": "AI 把输入材料转成分镜、场景、配音和音乐，再完成剪辑；介绍还称能按品牌风格制作。",
+        "differentiation": "它试图减少分别安排各项制作工作的麻烦。最可能让人犹豫的是，生成后是否仍需大量返工。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持通过 Claude、ChatGPT 或 AI 助手制作视频，并保留手动和聊天编辑能力；没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把素材整理成逐场景脚本，再生成画面和音轨。每个场景单独保存，方便后续只修改指定部分。",
+        "tradeoffs": "最难的是准确定位聊天指令要改的内容。若只想改一句配音却连带改变其他场景，用户就得重新检查整段视频。",
+        "unknowns": "品牌风格依据什么设定，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做演示稿或视频工具时，可以让自动生成和手动编辑共用一份内容，避免用户为了精修重新制作。"
+      ],
+      "validation_questions": [
+        "只要求修改一句配音，其他画面和音轨是否保持不变？",
+        "给定明确的品牌字体和颜色，成片是否按要求使用？"
+      ],
+      "source_tagline": "Create and edit videos by chatting",
+      "source_description": "Make videos with Claude, ChatGPT, or any AI agent. Give Clueso an idea, deck, reference video, or recording, and it handles the whole video production: storyboard, scenes, voiceover, music, and editing, on-brand. Everything stays editable, by hand or by chat."
     },
     {
       "id": "1256969",
       "name": "WZRD",
       "name_zh": "WZRD",
-      "tagline_zh": "AI-native documents, slides, forms and sheets that talk back",
-      "description_zh": "WZRD is for teams and creators working with documents, slides, forms and sheets. Upload existing work or create from a prompt, then turn it into an AI experience users can engage with. Forms collect answers by speaking or typing. Sheets explain numbers out loud. Slides walk people through the story. Documents engage every user. The output stays conversational and responsive.",
-      "intro_zh": "",
+      "tagline_zh": "可对话的 AI 原生文档、幻灯片、表单和表格",
+      "description_zh": "WZRD 面向使用文档、幻灯片、表单和表格的团队与创作者，可上传已有内容或用提示词创建，再转成可互动的 AI 体验。表单接受语音或文字回答，表格能出声解释数字，幻灯片能引导讲解，文档也支持对话式互动。",
+      "intro_zh": "给制作材料的团队和创作者用，把文档、演示稿、表单和表格变成能与读者对话的内容。",
       "url": "https://www.producthunt.com/products/wzrd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6OKF7YXETYBRXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f092e01e-4adb-4c73-85b1-7e3518a807c9.jpeg?auto=format",
       "votes_count": 317,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，但能减少多少解释工作还未得到验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "围绕原始材料准确回答是具体难题，实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让用户直接围绕材料提问，是知识材料和培训产品可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把解释放到材料旁边，减少读者另找人询问；关键疑问是回答能否受原始内容约束。",
+      "product_analysis": {
+        "target_problem": "团队向读者交付材料时，可能还要解释数字、讲解演示稿或澄清填写问题。WZRD 试图让材料本身接住这些互动。",
+        "workflow": "上传已有材料，或用提示词创建内容，再将其转成可对话的体验。读者可用语音或文字回答表单，也可听取表格解释和幻灯片讲解。",
+        "ai_value": "AI 用来把材料变成可响应的内容，让读者不只阅读，还能通过对话参与。",
+        "differentiation": "它可能减少作者反复讲解的工作。最可能让人不愿换用的是：仍需逐条检查自动讲解是否准确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 互动、语音和文字作答，以及有声讲解，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先解析材料，保留段落和表格位置，再让 AI 根据相关内容回答，最后接上语音输入和朗读。",
+        "tradeoffs": "最难的是让解释始终符合原文；若把数字关系讲错，读者可能据此作出错误判断。",
+        "unknowns": "回答能否指出依据来自材料的哪一处？"
+      },
+      "transferable_insights": [
+        "做培训或知识库产品时，可以在材料旁加入提问入口，并让回答定位到原文，方便读者核对。"
+      ],
+      "validation_questions": [
+        "上传含百分比和单位的表格，检查口头解释是否保留数字含义。",
+        "针对材料未包含的信息提问，检查它是否明确说明无法回答。"
+      ],
+      "source_tagline": "AI-native documents, slides, forms and sheets that talk back",
+      "source_description": "WZRD is for teams and creators working with documents, slides, forms and sheets. Upload existing work or create from a prompt, then turn it into an AI experience users can engage with. Forms collect answers by speaking or typing. Sheets explain numbers out loud. Slides walk people through the story. Documents engage every user. The output stays conversational and responsive."
     },
     {
       "id": "1246175",
       "name": "Anomalo",
       "name_zh": "Anomalo",
-      "tagline_zh": "Your data is always talking. Don't miss what it's saying.",
-      "description_zh": "Your data changes constantly. Anomalo Analyst tells you what matters before you know to ask. It proactively monitors your Snowflake, Databricks, or BigQuery data, surfaces important trends, anomalies, and shifts, and lets you investigate with follow-up questions in plain language. Every insight is verified against your data, with Anomalo helping distinguish real business changes from broken data.",
-      "intro_zh": "",
+      "tagline_zh": "你的数据一直在传递信息，别错过它的提示。",
+      "description_zh": "数据不断变化，Anomalo Analyst 会主动监测 Snowflake、Databricks 或 BigQuery 中的数据，找出重要趋势、异常和变化，并支持用日常语言继续追问。介绍称，每条发现都会对照数据验证，并帮助区分真实业务变化与数据故障。",
+      "intro_zh": "给分析师和业务团队用，主动找出数据中的重要变化，再让用户用日常语言追问原因。",
       "url": "https://www.producthunt.com/products/anomalo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JX5YLOBNA72SYU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bf1246fd-ae8d-434e-b093-b510985328be.png?auto=format",
       "votes_count": 301,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "主动发现变化的用途清楚，但重要发现的准确性尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "区分业务变化与数据故障，是具体且直接影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先提示异常再支持追问，可借用于已有数据监测的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它尝试把变化提前送到人面前；最影响判断的是，它能否可靠地区分业务变化和数据故障。",
+      "product_analysis": {
+        "target_problem": "分析师和业务负责人需要及时发现指标变化。麻烦在于，不一定事先知道该查哪个指标，也难判断异常是否源于数据出错。",
+        "workflow": "以 Snowflake 等数据平台中的数据为监测对象，查看工具主动发现的趋势或异常，再用日常语言追问。",
+        "ai_value": "介绍没明确提 AI，主要靠主动监测和日常语言追问来改善体验，不能据此确定使用了什么模型。",
+        "differentiation": "它试图减少用户先想问题、再找变化的工作。但若经常提示无关变化，用户可能仍会依赖已有报表。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持监测 Snowflake、Databricks、BigQuery 这三种数据平台，并支持日常语言追问。",
+        "possible_approach": "如果自己做，可以先记录指标的正常波动范围，再找异常；随后检查缺失、延迟等数据问题，并把相关数据交给追问功能查询。",
+        "tradeoffs": "最难的是区分业务异常和数据故障。把漏传数据当成销量下跌，可能让团队查错方向。",
+        "unknowns": "所谓对照数据验证，是否能展示计算过程和依据？"
+      },
+      "transferable_insights": [
+        "做经营看板时，可以把异常提示直接连到相关数据和追问入口，让用户接着查，不必重新描述问题。"
+      ],
+      "validation_questions": [
+        "选一次已知的数据漏传，检查它是否误判为业务下降。",
+        "对一条趋势追问计算依据，检查能否用原始数据复算。"
+      ],
+      "source_tagline": "Your data is always talking. Don't miss what it's saying.",
+      "source_description": "Your data changes constantly. Anomalo Analyst tells you what matters before you know to ask. It proactively monitors your Snowflake, Databricks, or BigQuery data, surfaces important trends, anomalies, and shifts, and lets you investigate with follow-up questions in plain language. Every insight is verified against your data, with Anomalo helping distinguish real business changes from broken data."
     },
     {
       "id": "1250875",
       "name": "SereneDB",
       "name_zh": "SereneDB",
-      "tagline_zh": "Ultra-Fast Search & Analytics Database, Agentic AI ready",
-      "description_zh": "SereneDB is the result of 12 years of development - an open-source database that does ultra-fast full-text and fast analytics in one engine. Postgres- and Elastic-compatible: keep your SQL, your drivers, and your Elastic clients; drop the second system and the ETL between them. In our public benchmark, it outperforms Elasticsearch, ClickHouse, and Postgres search extensions, and indexes 1B logs in under 8 minutes at ~10x less disk. Apache 2.0, methodology, and raw results are public.",
-      "intro_zh": "",
+      "tagline_zh": "高速搜索与分析数据库，面向 AI 智能体使用",
+      "description_zh": "SereneDB 是一款开源数据库，介绍称它历经 12 年开发，在同一引擎内支持全文搜索和数据分析，兼容 Postgres 和 Elasticsearch，可保留现有 SQL 查询、驱动和客户端，减少维护第二套系统及搬运转换数据的工作。介绍还称，公开基准测试中它优于 Elasticsearch、ClickHouse 和 Postgres 搜索扩展，能在不到 8 分钟内为 10 亿条日志建立索引，磁盘占用约为对比对象的十分之一，并以 Apache 2.0 许可证开源，公开了测试方法和原始结果。",
+      "intro_zh": "给同时需要文本搜索和数据统计的开发团队，用一个数据库完成检索与分析，减少维护两套系统的工作。",
       "url": "https://www.producthunt.com/products/serenedb-krummelanke?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JNUSRVQLG5UDSB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7af97d99-3fe7-4f37-8b1f-4867e6aa781f.png?auto=format",
       "votes_count": 250,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "减少双系统维护和数据搬运的目标明确，但替换范围尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "兼容已有查询与客户端是具体难题，会直接影响迁移能否完成。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留用户已有调用方式，是合并后台系统时可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "少维护一套数据库是具体好处；但兼容范围决定了它能否真正替换旧系统，公开跑分不能回答这个问题。",
+      "product_analysis": {
+        "target_problem": "同时维护搜索库和分析库的团队，需要搬运数据并处理更新不同步。以前这些工作分在两套系统里，现在可以考虑交给一个引擎。",
+        "workflow": "将搜索与分析工作交给 SereneDB，并沿用介绍声称兼容的 SQL 查询、驱动和 Elastic 客户端。资料没给出具体迁移步骤。",
+        "ai_value": "标语提到面向 AI 智能体，但没有说明 AI 具体做什么；明确的省事之处来自搜索与分析合并。",
+        "differentiation": "它希望省掉第二套系统及中间的数据搬运。最可能让团队犹豫的是现有查询能否原样运行。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称同一引擎支持全文搜索与分析，兼容 Postgres 和 Elastic，并采用 Apache 2.0 开源许可证。",
+        "possible_approach": "如果自己做，可以先让同一份数据支持文本检索和统计，再接入已有客户端的请求格式，逐条核对查询结果。",
+        "tradeoffs": "最容易出错的是兼容性：能连接不等于查询含义完全相同，结果若有偏差，用户仍得改业务代码。",
+        "unknowns": "所谓兼容具体覆盖哪些查询和功能，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做替换型开发工具时，可以保留用户已有的调用方式；先拿真实查询检查结果，再决定能否撤掉旧系统。"
+      ],
+      "validation_questions": [
+        "把现有的一组关键查询原样运行，结果是否与旧系统一致？",
+        "持续写入日志时，搜索与统计的响应时间是否满足实际业务要求？"
+      ],
+      "source_tagline": "Ultra-Fast Search & Analytics Database, Agentic AI ready",
+      "source_description": "SereneDB is the result of 12 years of development - an open-source database that does ultra-fast full-text and fast analytics in one engine. Postgres- and Elastic-compatible: keep your SQL, your drivers, and your Elastic clients; drop the second system and the ETL between them. In our public benchmark, it outperforms Elasticsearch, ClickHouse, and Postgres search extensions, and indexes 1B logs in under 8 minutes at ~10x less disk. Apache 2.0, methodology, and raw results are public."
     },
     {
       "id": "1252191",
       "name": "thestory.run",
       "name_zh": "thestory.run",
-      "tagline_zh": "A writing coach for corporate influencers.",
-      "description_zh": "Your team already has things to say, they just don't know how. Our coach helps you stay consistent, find stories worth sharing and makes YOU the writer. Most AI tools take over writing. thestory.run flips it: the coach interviews you, finds the point you're circling, hands you the story arc, and you write it. It is the coach that helps you through it all: One real session, from a messy thought to a finished post. Between the posts, it keeps the week so you never have to guess what's next",
-      "intro_zh": "",
+      "tagline_zh": "面向企业内容创作者的写作教练。",
+      "description_zh": "thestory.run 帮助团队找到值得分享的故事、保持写作节奏，并让使用者自己执笔。教练通过访谈梳理零散想法、找出核心观点、提供故事结构，陪伴用户完成帖子，也帮助安排接下来的写作。",
+      "intro_zh": "给需要持续发布职场内容的团队成员用，通过访谈理清观点、搭好故事结构，再由本人写成帖子。",
       "url": "https://www.producthunt.com/products/thestory-run?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4NQTG6TFZMKOFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/b8ddc878-d110-46f6-825f-62f3310ddf10.jpeg?auto=format",
       "votes_count": 185,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对有经历却难以组织表达的人，但持续写作的收益尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何从访谈中准确提炼本人观点，是具体且值得考虑的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先提问再给结构、保留本人执笔，适合需要个人经验的内容工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它先帮人理清思路、再让本人写的分工；关键疑问是访谈能否抓住真实观点，而非套出通用故事。",
+      "product_analysis": {
+        "target_problem": "需要持续发布职场内容的团队成员，可能有经历可讲，却难以选题或把想法组织成文章。",
+        "workflow": "用户带着零散想法接受教练访谈，获得核心观点和故事结构，再自己写成帖子。介绍还提到协助安排后续写作，但未说明具体方式。",
+        "ai_value": "介绍将其放在 AI 写作工具的语境中，重点是提问和梳理思路。没有明确交代哪些教练动作由 AI 完成。",
+        "differentiation": "相比直接让工具代写，它把成文留给本人，可能更适合重视个人表达的人；只想快速拿到成稿的人可能嫌费事。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1257570",
-      "name": "Freebuff Ads",
-      "name_zh": "Freebuff Ads",
-      "tagline_zh": "Advertise to 500k developers in our coding agent",
-      "description_zh": "Run ads inside the Freebuff desktop app, mobile, web, and CLI - where 500k developers are already working. Pay per click, set your own caps, and measure clicks and conversions in one console.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/freebuff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/M4PG5RMW35MG4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/dcdb547c-c3b6-4eb1-84f6-cb802358e3cc.png?auto=format",
-      "votes_count": 151,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先围绕一件经历逐轮提问，再整理出观点和故事顺序，让用户确认后动笔。",
+        "tradeoffs": "最容易错在提炼观点：若把用户的犹豫误当成明确立场，后续结构就可能带偏整篇文章。",
+        "unknowns": "用户能否修正教练提炼的核心观点，并据此重新生成结构？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做经验分享或案例写作工具时，可以先问发生了什么、为什么重要，再给提纲，把具体表达留给用户。"
+      ],
+      "validation_questions": [
+        "用一段含有犹豫和转折的真实经历，检查教练是否准确保留自己的立场。",
+        "完成一篇帖子后，检查它对下次写什么给出的安排是否具体可用。"
+      ],
+      "source_tagline": "A writing coach for corporate influencers.",
+      "source_description": "Your team already has things to say, they just don't know how. Our coach helps you stay consistent, find stories worth sharing and makes YOU the writer. Most AI tools take over writing. thestory.run flips it: the coach interviews you, finds the point you're circling, hands you the story arc, and you write it. It is the coach that helps you through it all: One real session, from a messy thought to a finished post. Between the posts, it keeps the week so you never have to guess what's next"
     },
     {
       "id": "1255169",
       "name": "PixelCrew",
       "name_zh": "PixelCrew",
-      "tagline_zh": "Production-ready design from a crew of AI agents",
-      "description_zh": "A crew of specialized AI agents coordinates on your brief and ships production-quality design. Research, creative direction, wireframes, and production-ready HTML with a design system. You can watch the agents discuss decisions while it runs. Free in alpha: bring your own OpenRouter key and run the crew on whichever models you like.",
-      "intro_zh": "",
+      "tagline_zh": "由一组 AI 智能体协作生成可用于生产的设计",
+      "description_zh": "多个分工不同的 AI 智能体围绕需求协作，完成研究、创意方向、线框图，并生成带设计系统的 HTML；介绍称成果可用于生产，运行时能看到它们讨论决策。Alpha 测试阶段免费，需自备 OpenRouter 密钥，可选择运行模型。",
+      "intro_zh": "给需要制作网页的产品和设计人员用，围绕需求生成设计方案与网页代码，并展示 AI 的讨论过程。",
       "url": "https://www.producthunt.com/products/pixelcrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4J7QOHDZNA32KU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/15175cd5-73b4-43f7-adaf-0301003db16d.jpeg?auto=format",
       "votes_count": 138,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "覆盖从需求到网页代码，但成果能否直接使用仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个角色如何保留同一套设计约束，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "分阶段交付并展示决策的做法，可借用于复杂生成任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是设计过程能延续到网页代码；最大疑问是，讨论看起来完整，是否也意味着交付物可用。",
+      "product_analysis": {
+        "target_problem": "产品和设计人员把网页需求变成可实现方案时，需要把研究、页面结构和视觉规则衔接起来。PixelCrew 尝试让 AI 接手这些相互依赖的工作。",
+        "workflow": "提供需求和 OpenRouter 密钥，选择模型后启动协作。运行中可查看讨论，产出包括线框图和带设计系统的 HTML 网页代码。",
+        "ai_value": "AI 智能体，也就是承担不同任务的 AI 角色，分别参与研究、设计方向和代码生成。",
+        "differentiation": "它把多个阶段放在一次协作中，可能减少反复传递需求的工作。自备模型服务密钥可能劝退不熟悉配置的人。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到多智能体协作、可见的决策讨论，以及用 OpenRouter 密钥选择模型。",
+        "possible_approach": "如果自己做，可以先把需求整理成共同约束，再让各角色依次交付研究、线框图和代码，最后按同一份约束检查。",
+        "tradeoffs": "最容易出错的是后面的角色漏掉前面的约束，导致代码与设计不一致，用户仍要手动返工。",
+        "unknowns": "介绍没有说明生成结果如何达到所称的生产可用标准。"
+      },
+      "transferable_insights": [
+        "做多步骤生成工具时，可把关键决策与阶段产物一起展示，帮助用户定位哪一步开始偏离需求。"
+      ],
+      "validation_questions": [
+        "给出明确的字体和颜色限制，最终 HTML 是否全部遵守？",
+        "把生成的 HTML 放到窄屏查看，是否出现内容溢出？"
+      ],
+      "source_tagline": "Production-ready design from a crew of AI agents",
+      "source_description": "A crew of specialized AI agents coordinates on your brief and ships production-quality design. Research, creative direction, wireframes, and production-ready HTML with a design system. You can watch the agents discuss decisions while it runs. Free in alpha: bring your own OpenRouter key and run the crew on whichever models you like."
     },
     {
       "id": "1257313",
       "name": "Plane Agents",
       "name_zh": "Plane Agents",
-      "tagline_zh": "Assign work to AI agents, like any teammate",
-      "description_zh": "Plane Agents join your workspace as members. Assign them work items, tag them, trigger them when work changes, or run them on a schedule. They triage requests, draft specs, run standups, flag delivery risks and a lot more. Agents run on the AI credits included in every paid plan.",
-      "intro_zh": "",
+      "tagline_zh": "像给同事分工一样，把工作交给 AI 助手",
+      "description_zh": "Plane Agents 以成员身份加入工作区，可被分配工作项、被提及，也可随工作变化或按计划启动。它们能分流请求、起草规格说明、组织站会和提示交付风险，运行使用各付费套餐内含的 AI 点数。",
+      "intro_zh": "给使用 Plane 管理项目的团队用，把请求分流、规格起草和进度跟进交给工作区里的 AI 助手。",
       "url": "https://www.producthunt.com/products/planehq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/K3DAYV2WJKMEFI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/db04b224-47eb-4228-b358-4dba3370da66.jpeg?auto=format",
       "votes_count": 116,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "分工入口和任务场景清楚，但输出质量与节省时间尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "工作变化能触发助手，如何避免反复执行是具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "沿用成员分工方式调用助手，可借用于已有任务分配功能的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是任务现场就能分工给助手；最影响判断的是它能否遵守原有内容权限。",
+      "product_analysis": {
+        "target_problem": "项目负责人需要分流请求、整理规格和跟进风险。这些事依赖项目上下文，也需要反复检查工作变化。",
+        "workflow": "助手加入工作区后，用户可分配工作项或提及它。也可设置随工作变化触发，或按计划运行，执行上述任务。",
+        "ai_value": "AI 承担请求判断、文字起草和风险提示。介绍没说明它依据哪些项目资料作判断。",
+        "differentiation": "把助手放进现有分工方式，可能减少另开对话交代任务的操作。最可能让人犹豫的是，结果是否仍需大量人工核对。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1257720",
-      "name": "MiMo-V2.6",
-      "name_zh": "MiMo-V2.6",
-      "tagline_zh": "Open omnimodal intelligence, trained in public",
-      "description_zh": "MiMo-V2.6 is Xiaomi’s open omnimodal model family for long-horizon agent work. Pro and Flash handle text, images, audio and video with 1M context, while Xiaomi is also releasing the technical report, RL environments and training code behind the public post-training run.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/mimo-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2DBGXRT2EMQKE7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a98869b4-7a41-404e-a83f-287cd6fb6969.png?auto=format",
-      "votes_count": 114,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持工作变化触发和定时运行，使用付费套餐内含的 AI 点数；介绍没说具体模型。",
+        "possible_approach": "如果自己做，可以先把助手设为可分配对象，再把任务内容和相关记录交给 AI，最后将结果写回工作项。",
+        "tradeoffs": "最容易出错的是触发判断：若助手写回结果也被算作工作变化，可能反复运行，消耗点数并干扰成员。",
+        "unknowns": "助手能读取和修改哪些工作区内容，介绍没有交代。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做团队协作产品时，可让助手复用成员的分配和提及入口，让用户在任务所在处发起请求。"
+      ],
+      "validation_questions": [
+        "让助手处理一个工作项，检查它写回结果后是否会再次触发自己。",
+        "用受限成员不可见的任务，检查助手是否会向该成员透露内容。"
+      ],
+      "source_tagline": "Assign work to AI agents, like any teammate",
+      "source_description": "Plane Agents join your workspace as members. Assign them work items, tag them, trigger them when work changes, or run them on a schedule. They triage requests, draft specs, run standups, flag delivery risks and a lot more. Agents run on the AI credits included in every paid plan."
     },
     {
       "id": "1250257",
       "name": "Pulsetic RUM",
       "name_zh": "Pulsetic RUM",
-      "tagline_zh": "Uptime monitoring that measures your real visitors",
-      "description_zh": "Pulsetic is uptime monitoring that measures your real visitors too. One async script reports Core Web Vitals, load-time percentiles and the JavaScript errors they hit, sliced by page, country, browser and device, so you catch the slow checkout that a 200 response code hides. Ask Pulsetic AI what broke last night in plain language. Cron heartbeats, domain expiry and branded status pages run in the same account.",
-      "intro_zh": "",
+      "tagline_zh": "同时衡量真实访客体验的网站可用性监控",
+      "description_zh": "Pulsetic 在监控网站可用性的同时，用一段异步脚本收集真实访客的核心网页体验指标、加载耗时分位数和 JavaScript 错误，并按页面、国家、浏览器和设备查看，以发现响应码正常却结账缓慢的问题。用户还可以用自然语言询问 Pulsetic AI 昨晚出了什么故障，同一账户也提供定时任务心跳监控、域名到期监控和品牌化状态页。",
+      "intro_zh": "给网站运营和开发团队用，查看真实访客的加载体验与报错，定位哪些页面、设备或地区出了问题。",
       "url": "https://www.producthunt.com/products/pulsetic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IL52O5VB4PYSYL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/874f6f99-1497-4462-81f7-f34600849404.png?auto=format",
       "votes_count": 113,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确补上网站能访问却不好用的监控盲点，实际诊断效果待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "浏览器内采集能发现服务器响应码看不到的问题，但采集本身可能影响体验。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把真实使用表现按页面和设备拆开看，可借用于其他在线产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是发现“能打开但用起来慢”的问题；最影响判断的是 AI 能否用记录支撑解释，而不只生成一段总结。",
+      "product_analysis": {
+        "target_problem": "网站团队需要知道访客是否真正用得顺。以前只看响应码，可能漏掉结账页缓慢；现在可以查看访客端的耗时和报错。",
+        "workflow": "接入一段异步脚本，再按页面、国家、浏览器和设备查看指标。遇到异常，也可直接问 AI 昨晚出了什么问题。",
+        "ai_value": "AI 提供自然语言询问故障的入口。介绍没说明它如何找原因，不能据此认定它能自动定位根因。",
+        "differentiation": "把可用性和访客体验放在一起看，少一次来回核对。最可能让团队犹豫的是要在网站中增加采集脚本。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "异步脚本会收集核心网页体验指标（加载、交互和布局稳定性）、耗时分位数（不同占比访客的耗时界线）及网页脚本错误。",
+        "possible_approach": "如果自己做，可以先在浏览器记录加载表现和报错，再汇总到服务端，按页面与设备分组展示。",
+        "tradeoffs": "难点是采集不能明显拖慢页面。异步不等于没有开销，否则监控工具本身可能加重卡顿。",
+        "unknowns": "AI 的故障解释是否附有可核对的原始记录？"
+      },
+      "transferable_insights": [
+        "做交易或表单产品时，可把“请求成功”和“用户操作是否流畅”分开监控，再按页面、设备缩小排查范围。"
+      ],
+      "validation_questions": [
+        "同一页面接入脚本前后，加载和交互指标是否明显变差？",
+        "询问一次已知故障时，AI 能否给出与记录相符的证据？"
+      ],
+      "source_tagline": "Uptime monitoring that measures your real visitors",
+      "source_description": "Pulsetic is uptime monitoring that measures your real visitors too. One async script reports Core Web Vitals, load-time percentiles and the JavaScript errors they hit, sliced by page, country, browser and device, so you catch the slow checkout that a 200 response code hides. Ask Pulsetic AI what broke last night in plain language. Cron heartbeats, domain expiry and branded status pages run in the same account."
+    },
+    {
+      "id": "1257570",
+      "name": "Freebuff Ads",
+      "name_zh": "Freebuff Ads",
+      "tagline_zh": "在我们的编程代理中，向 50 万开发者投放广告",
+      "description_zh": "在 Freebuff 的桌面应用、移动端、网页和命令行中投放广告，产品介绍称已有 50 万开发者在这些地方工作。按点击付费，自行设置花费上限，并在同一控制台查看点击和转化。",
+      "intro_zh": "给面向开发者推广产品的广告主用，在 Freebuff 各端投放广告，并集中查看点击和转化。",
+      "url": "https://www.producthunt.com/products/freebuff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/M4PG5RMW35MG4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/dcdb547c-c3b6-4eb1-84f6-cb802358e3cc.png?auto=format",
+      "votes_count": 151,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "受众、计费和查看结果的方式清楚，但实际获客效果未知。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多端点击如何对应到最终转化，是具体且影响判断的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "花费上限与统一查看结果可以借鉴，但缺少执行细节。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重按点击付费并能限制花费，便于控制试投规模；但“50 万开发者”不等于实际可触达的广告受众，介绍没有说明覆盖口径。",
+      "product_analysis": {
+        "target_problem": "面向开发者卖工具或服务的广告主，需要接触相关人群，也要判断广告是否带来后续行动。Freebuff Ads 提供开发者工作场景内的广告位。",
+        "workflow": "在 Freebuff 各端投放广告，设置花费上限，按点击付费，再到同一控制台查看点击和转化。介绍没交代广告提交方式。",
+        "ai_value": "介绍没提 AI 参与广告投放，主要靠广告位置、花费限制和集中统计改善体验。",
+        "differentiation": "把各端结果放在一处，可能减少分别汇总的工作。广告主最可能犹豫的是，这批受众是否真的会购买自己的产品。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先给每次广告点击分配编号，再让落地页回传注册或购买结果，用编号对应起来。",
+        "tradeoffs": "最容易出错的是把转化对应到点击：用户换设备后可能接不上记录，广告主会低估效果。",
+        "unknowns": "控制台中的“转化”具体指什么行为？"
+      },
+      "transferable_insights": [
+        "做多端推广后台时，可以把花费限制和结果统计放在同一处，让用户调整投入时直接看到依据。"
+      ],
+      "validation_questions": [
+        "做一次已知的测试转化，检查控制台能否准确记录。",
+        "设置小额花费上限，检查达到上限后是否停止计费。"
+      ],
+      "source_tagline": "Advertise to 500k developers in our coding agent",
+      "source_description": "Run ads inside the Freebuff desktop app, mobile, web, and CLI - where 500k developers are already working. Pay per click, set your own caps, and measure clicks and conversions in one console."
+    },
+    {
+      "id": "1257720",
+      "name": "MiMo-V2.6",
+      "name_zh": "MiMo-V2.6",
+      "tagline_zh": "开放的多模态智能，公开训练过程",
+      "description_zh": "MiMo-V2.6 是小米面向长流程智能体任务的开放模型系列，Pro 和 Flash 支持文本、图像、音频、视频及 1M 上下文。简介还称，小米正发布此次公开后训练的技术报告、强化学习环境和训练代码。",
+      "intro_zh": "给开发多步骤 AI 助手的团队用，让模型处理文字、图片、音频和视频，并容纳较长的任务材料。",
+      "url": "https://www.producthunt.com/products/mimo-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2DBGXRT2EMQKE7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a98869b4-7a41-404e-a83f-287cd6fb6969.png?auto=format",
+      "votes_count": 114,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用方向明确，但没有具体任务表现来说明能省多少事。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "长任务中的信息保留，以及公开训练材料，都有具体研究价值。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "公开训练环境的做法可以借鉴，但材料完整程度尚不清楚。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重公开训练材料带来的检查机会；但能容纳长材料，是否就能可靠完成长任务，仍缺直接证据。",
+      "product_analysis": {
+        "target_problem": "做多步骤 AI 助手的团队，需要模型读懂不同形式的材料，并在任务推进时记住前面的要求。材料能放进去，不等于后续每一步都能用对。",
+        "workflow": "开发者可围绕 Pro 或 Flash 处理多种材料，研究训练过程的人可查看配套报告、环境和代码。简介没给出接入步骤。",
+        "ai_value": "AI 负责理解多种材料，并面向需要连续执行多步的任务；具体能执行哪些动作，介绍没有说明。",
+        "differentiation": "它把多种材料处理能力放进同一模型系列。团队可能仍不愿迁移，因为缺少自身任务上的可靠性证据。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称两个版本支持四类输入和 1M 上下文，并发布强化学习环境，即用于按反馈训练模型的任务场景。",
+        "possible_approach": "如果自己做，可以先选一个有明确验收结果的多步任务，再让模型分步处理材料，逐步核对输出。",
+        "tradeoffs": "最难的是长任务中持续遵守早期约束。若模型漏掉最初的限制，后面步骤可能都要重做。",
+        "unknowns": "所称“开放”具体包含哪些可下载、可修改的内容，简介没有说清。"
+      },
+      "transferable_insights": [
+        "做面向开发者的模型产品时，可随模型发布可运行的训练任务，让别人检查你训练了什么，而不只看能力介绍。"
+      ],
+      "validation_questions": [
+        "在长材料开头放一条关键限制，检查模型执行到最后是否仍遵守。",
+        "检查发布的训练环境和代码能否跑通一个完整示例。"
+      ],
+      "source_tagline": "Open omnimodal intelligence, trained in public",
+      "source_description": "MiMo-V2.6 is Xiaomi’s open omnimodal model family for long-horizon agent work. Pro and Flash handle text, images, audio and video with 1M context, while Xiaomi is also releasing the technical report, RL environments and training code behind the public post-training run."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

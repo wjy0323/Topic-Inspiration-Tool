@@ -1,367 +1,511 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-30T20:40:08+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:32:53+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1195558",
       "name": "1752vc Pitch Deck Analyzer",
       "name_zh": "1752vc Pitch Deck Analyzer",
-      "tagline_zh": "Know what investors will say before you ever hit send.",
-      "description_zh": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-      "intro_zh": "",
+      "tagline_zh": "发送前，先了解投资人可能会怎么评价。",
+      "description_zh": "这款融资演示文稿分析工具称，基于超过 25,000 份真实文稿及后续投资决策训练，能在几分钟内提供逐页反馈，并按融资阶段检查叙事连贯性和说法矛盾。产品由 1752vc 开发，该风投机构称每年评估超过 4,000 家初创公司。",
+      "intro_zh": "给准备融资的创业者用，上传融资演示文稿，逐页查看哪些表述可能让投资人产生疑问。",
       "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
       "votes_count": 311,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "发送融资材料前找问题的需求清楚，但反馈质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨页核对说法并结合融资阶段判断，有具体难点。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "逐页定位问题、全文检查矛盾的做法可用于其他材料审阅。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重跨页找矛盾，能直接帮助修改材料；最大疑问是，它给出的意见有多少真正来自材料，而非通用融资建议。",
+      "product_analysis": {
+        "target_problem": "创业者准备向投资人发送材料时，需要提前发现故事讲不通、前后说法冲突的地方。这些问题分散在不同页面，逐页看容易漏掉。",
+        "workflow": "上传融资演示文稿，获得逐页反馈。工具会按融资阶段审视内容，并检查整体叙事和跨页矛盾；介绍未说明融资阶段如何确定。",
+        "ai_value": "简介提到训练数据，AI 的用途是审阅材料并给出反馈。“投资人级别”和几分钟出结果是产品方说法，不能据此认定它能预测投资决定。",
+        "differentiation": "它把逐页意见和全文核对放在一起，可能减少来回翻页比对。最可能让人犹豫的是反馈过于通用，无法指导具体修改。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1235140",
-      "name": "Hy4 preview",
-      "name_zh": "Hy4 preview",
-      "tagline_zh": "Tencent’s 770B open model for long-horizon work",
-      "description_zh": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
-      "votes_count": 201,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介称训练使用了超过 25,000 份真实融资文稿及后续投资决策，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先提取每页文字和图表里的数字，再汇总关键说法，结合融资阶段找冲突，并把意见标回对应页面。",
+        "tradeoffs": "最难的是区分真矛盾和统计口径不同。把不同年份的收入误判成冲突，会让用户反复核对，甚至改错材料。",
+        "unknowns": "历史缓存未说明，训练所用的投资决策如何对应到具体文稿内容。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做商业计划或投标材料审阅时，可以把局部修改意见标回原页，再单独列出跨页冲突，方便用户定位和核对。"
+      ],
+      "validation_questions": [
+        "放入一处已知的跨页数字冲突，它能否准确指出涉及的两页？",
+        "上传前，能否确认融资材料是否会被留存或用于训练？"
+      ],
+      "source_tagline": "Know what investors will say before you ever hit send.",
+      "source_description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year."
     },
     {
       "id": "1235085",
       "name": "Cohere Parse 5",
       "name_zh": "Cohere Parse 5",
-      "tagline_zh": "Turn complex docs, tables & images into AI-ready data",
-      "description_zh": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
-      "intro_zh": "",
+      "tagline_zh": "把复杂文档、表格和图像转成 AI 可用的数据",
+      "description_zh": "Parse 是 Cohere 的文档视觉解析模型，把企业图像和文档中的非结构化内容转成供后续 AI 程序使用的结构化数据。简介列出文字识别、表格及图像解析、用矩形框标出内容位置，支持 9 种语言，可通过接口、云端或完全本地及隔离网络部署。",
+      "intro_zh": "给处理企业文档的开发团队用，把文档里的文字、表格和图像转成程序能继续处理的数据。",
       "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
       "votes_count": 196,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "文档转数据的用途清楚，但复杂版面的解析质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何保留表格关系并对应原文位置，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "给提取结果附上原文位置，可借用于文档核对工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重内容能带着原文位置交给后续程序；但表格关系一旦解析错，错误也可能继续传下去。",
+      "product_analysis": {
+        "target_problem": "做企业文档问答或数据提取的团队，需要让程序读懂表格和图像。难点不只在认字，还在保留内容之间的关系。",
+        "workflow": "将文档或图像交给模型解析，得到结构化数据，再供后续 AI 应用使用。介绍未说明具体提交方式和输出格式。",
+        "ai_value": "AI 负责识别文字、解析视觉内容，并用矩形框标出内容在原文中的位置。",
+        "differentiation": "相比只拿到文字，保留位置可能更方便核对来源；最可能阻碍接入的是输出能否适配现有程序。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "采用文档视觉解析模型，支持 9 种语言，并提供云端、本地及隔离网络部署方式。",
+        "possible_approach": "如果自己做，可以先识别页面上的文字和区域，再恢复表格行列关系，最后把内容与位置一起输出。",
+        "tradeoffs": "最容易出错的是把表格单元格对应错。数字即使识别正确，也可能被放到错误项目下。",
+        "unknowns": "复杂表格的行列关系能保留到什么程度，介绍没回答。"
+      },
+      "transferable_insights": [
+        "做文档审核工具时，可以给每条提取结果附上原文位置，让用户对照核查。"
+      ],
+      "validation_questions": [
+        "拿一张含合并单元格的业务表格，检查数字是否对应正确行列。",
+        "检查提取结果的位置框是否准确覆盖原文内容。"
+      ],
+      "source_tagline": "Turn complex docs, tables & images into AI-ready data",
+      "source_description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped."
     },
     {
       "id": "1231748",
       "name": "seendiff",
       "name_zh": "seendiff",
-      "tagline_zh": "Code diff viewer with progress tracking",
-      "description_zh": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
-      "intro_zh": "",
+      "tagline_zh": "可跟踪审阅进度的代码差异查看工具",
+      "description_zh": "编程助手可能生成大量代码改动，仍然需要有人阅读；seendiff 是用于审阅大规模改动的本地代码差异工具。它能记录已看内容、支持分块审阅，并让编程助手解释自己的改动。",
+      "intro_zh": "给需要检查大量代码改动的开发者用，分块查看修改、记录审阅进度，并请编程助手解释。",
       "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
       "votes_count": 142,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对大量改动难以逐项看完的问题，但实际省时程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "代码继续变化时，已读标记如何保持可信是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "分块阅读并保存进度的做法，可用于其他长内容审阅场景。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它让大量修改可以分次看完；最影响判断的是，代码持续变化时，进度记录还能否防止漏审。",
+      "product_analysis": {
+        "target_problem": "开发者检查编程助手生成的大量改动时，既要理解修改，也要记住看到了哪里。代码能批量生成，人工审阅仍需逐项进行。",
+        "workflow": "用本地工具查看代码差异，分块审阅并记录已看内容；遇到不明白的修改，可让编程助手解释。简介未交代具体操作入口。",
+        "ai_value": "编程助手负责解释自己的改动，可能减少读代码时的理解负担。介绍没有说它会自动发现缺陷。",
+        "differentiation": "它把审阅进度和改动解释放在一起。最可能让人犹豫的是需要离开惯用的代码审阅界面。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确它是本地代码差异工具，支持进度记录、分块审阅和调用编程助手解释改动。",
+        "possible_approach": "如果自己做，可以先把修改按文件和代码片段展示，再保存已读标记；提问时，把选中片段及相关代码交给编程助手。",
+        "tradeoffs": "最容易出错的是代码更新后仍保留旧的已读标记。用户可能以为已经检查过，漏看新增修改。",
+        "unknowns": "已读标记是否会在对应代码再次变化后失效？"
+      },
+      "transferable_insights": [
+        "做合同或长文档审阅工具时，可按片段保存阅读进度，让用户中断后继续检查。"
+      ],
+      "validation_questions": [
+        "把已读片段再次修改，检查它是否重新显示为未读。",
+        "选一处依赖其他文件的改动，检查助手解释是否遗漏关键上下文。"
+      ],
+      "source_tagline": "Code diff viewer with progress tracking",
+      "source_description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work."
     },
     {
       "id": "1225462",
       "name": "Neo",
       "name_zh": "Neo",
-      "tagline_zh": "A novel-writing tool from the author of Silo",
-      "description_zh": "NEO was created after using lots of writing tools and never quite finding \"the one.\" NEO doesn't try to do everything; it just wants you to get that rough draft written. Distraction free, minimal UI, see all your WIPs in one place, and most importantly, it formats your manuscripts to look like a book while you write. All you need for formatting is the Enter key. NEO does the rest.",
-      "intro_zh": "",
+      "tagline_zh": "《Silo》作者推出的小说写作工具",
+      "description_zh": "NEO 的创建者试过许多写作工具后，仍没找到合适的选择，因此做了一款专注于完成初稿的工具。它提供简洁、少干扰的界面，集中展示在写作品，并在写作时自动把稿件排成书籍样式；简介称，排版只需使用回车键。",
+      "intro_zh": "给正在写小说初稿的人用，集中查看在写作品，边写边把稿件排成书籍样式。",
       "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DTBFLEA2UBAF7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3f16f530-c34c-426d-bea8-aba443a3d89b.png?auto=format",
       "votes_count": 137,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "写初稿的场景清楚，自动排版能减少手动调整，但适用范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "回车操作如何对应不同段落样式，是具体且值得检查的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把固定格式交给工具处理，可借用于有明确版式的编辑器。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把初稿写作中的格式操作减下来；关键疑问是默认排版遇到例外时，是否仍方便修改。",
+      "product_analysis": {
+        "target_problem": "写小说初稿的人，可能不想在写内容时反复调整格式。Neo 把重点放在继续写下去，而非包办整个出版过程。",
+        "workflow": "用户可以集中查看在写作品，并在写作时看到书籍样式的排版。简介称只需用回车键处理格式，但没有说明具体规则。",
+        "ai_value": "介绍没提 AI，主要靠简洁界面和自动排版来改善体验。",
+        "differentiation": "对需要手动调格式的人，它可能省去排版操作。最可能让人不愿换用的，是预设样式不符合自己的稿件要求。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1234330",
-      "name": "publicdesktop.lol",
-      "name_zh": "publicdesktop.lol",
-      "tagline_zh": "Public computer of the internet",
-      "description_zh": "Buy a permanent $10 icon location on the internet's public computer, or bid to control its public song.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/publicdesktop-lol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VVTE3OMXQCBVCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/932de7b5-41e3-4feb-8436-40816d9b4ae3.png?auto=format",
-      "votes_count": 103,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术，只明确提到写作时自动排版。",
+        "possible_approach": "如果自己做，可以先定好正文与标题样式，再让回车触发预设的段落规则，把格式选择藏到默认设置里。",
+        "tradeoffs": "最容易出错的是把回车意图判断错：作者想分隔场景，却得到普通段落，就得停下来修格式。",
+        "unknowns": "自动排版不合意时，用户能否手动修改？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1229569",
-      "name": "Cursor Craft v2",
-      "name_zh": "Cursor Craft v2",
-      "tagline_zh": "Custom Mac cursors, rebuilt for v2",
-      "description_zh": "Cursor Craft v2 is a rebuilt macOS app for browsing, previewing, and applying custom cursor packs. The new version adds a redesigned interface, faster browsing, clearer offline states, improved cursor rendering, and prepares the app for dynamic and animated cursor packs.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/cursor-craft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/47RBS54W5J4LRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7465d99d-f693-49bd-b0eb-09a58c17a979.png?auto=format",
-      "votes_count": 101,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做日记或固定格式文档编辑器时，可以先给出可用的默认版式，让用户直接写内容，同时保留修改入口。"
+      ],
+      "validation_questions": [
+        "连续输入正文、章节标题和场景分隔，检查回车后的样式是否符合预期。",
+        "尝试修改自动生成的格式，检查能否保留这次调整。"
+      ],
+      "source_tagline": "A novel-writing tool from the author of Silo",
+      "source_description": "NEO was created after using lots of writing tools and never quite finding \"the one.\" NEO doesn't try to do everything; it just wants you to get that rough draft written. Distraction free, minimal UI, see all your WIPs in one place, and most importantly, it formats your manuscripts to look like a book while you write. All you need for formatting is the Enter key. NEO does the rest."
     },
     {
       "id": "1235253",
       "name": "God’s Eye View",
       "name_zh": "God’s Eye View",
-      "tagline_zh": "Spy satellite simulator in your browser but the data is real",
-      "description_zh": "A spy satellite simulator in your browser - then you realize the sources are public and the data is real. Photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Talk to the planet with hands-free voice control using a realtime AI agent. Fully open source under MIT license, runs in your browser and is designed to cost little to nothing for personal exploration. No place left behind!",
-      "intro_zh": "",
+      "tagline_zh": "浏览器里的间谍卫星模拟器，使用真实数据",
+      "description_zh": "在浏览器的逼真三维地球上，查看来自公开来源的飞机、船舶、卫星、地震、交通和公共摄像头数据，并用实时 AI 助手进行免手动语音控制。简介称项目采用 MIT 许可证完全开源，面向个人探索，设计目标是尽量降低使用成本。",
+      "intro_zh": "给想探索全球动态的人用，在三维地球上查看公开数据，并用语音控制浏览。",
       "url": "https://www.producthunt.com/products/god-s-eye-view?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CFL7AKRNAWM4YD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/16d337d0-edb2-4d4f-a490-ce9a927375a5.jpeg?auto=format",
       "votes_count": 97,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "探索场景明确，但数据覆盖和更新情况尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把不同更新频率的数据放在同一地球上，有具体问题可分析。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "统一地图呈现、语音辅助操作的做法可借给其他地图产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把分散信息放到地理位置上对照；最影响判断的是，这个“实时地球”里的数据究竟有多新。",
+      "product_analysis": {
+        "target_problem": "想了解全球交通与地理事件的人，可以在这里探索多类公开数据。来源分散时，逐个查找、对照地点会比较麻烦。",
+        "workflow": "打开浏览器，在三维地球上查看各类数据，也可以用语音控制。简介没交代具体指令和操作入口。",
+        "ai_value": "实时 AI 助手负责语音控制，让用户不必全程手动操作；没有依据说明它会分析事件或预测趋势。",
+        "differentiation": "把多类数据放进同一地球视图，可能减少来回查找。最可能让人不愿依赖它的是：关心的地区数据不全。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "浏览器运行，提供三维地球和实时 AI 语音控制，采用 MIT 开源许可证。",
+        "possible_approach": "如果自己做，可以先把公开数据转成统一的地点和时间记录，再画到地球上；最后把语音请求转换成地图操作。",
+        "tradeoffs": "最难的是处理数据的新旧差异。旧位置若看起来仍在实时更新，用户就可能误判当前情况。",
+        "unknowns": "各类数据实际多久更新一次，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做物流或城市地图时，可以把不同来源的信息放在同一位置，并显示更新时间，方便用户对照。"
+      ],
+      "validation_questions": [
+        "抽查一个移动目标，核对显示位置对应的数据时间。",
+        "用语音要求查看指定地点，检查地图是否到达正确位置。"
+      ],
+      "source_tagline": "Spy satellite simulator in your browser but the data is real",
+      "source_description": "A spy satellite simulator in your browser - then you realize the sources are public and the data is real. Photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Talk to the planet with hands-free voice control using a realtime AI agent. Fully open source under MIT license, runs in your browser and is designed to cost little to nothing for personal exploration. No place left behind!"
     },
     {
       "id": "1231231",
       "name": "Mossy",
       "name_zh": "Mossy",
-      "tagline_zh": " A desk plant that wilts when you need a break",
-      "description_zh": "Mossy is a small plant that lives on your Mac desktop. The longer you sit without a break, the more it wilts. You write one sentence about what your breaks should be. Stretch my bad back. 20 push-ups. Teach me a Spanish word. Just make me stand up. An AI writes every break from that sentence, one task at a time, with a timer. It never blocks or dims your screen. Ignoring it is a normal way to use it. Free, no account, 1.4 MB, native, macOS 12+.",
-      "intro_zh": "",
+      "tagline_zh": "该休息时就会枯萎的桌面植物",
+      "description_zh": "Mossy 是住在 Mac 桌面上的小植物，连续不休息越久，它就越萎蔫；用户写一句休息偏好，AI 会据此逐项生成带计时器的任务。它不遮挡或调暗屏幕，允许忽略提醒；简介称其免费、无需账号、体积为 1.4 MB，原生支持 macOS 12 及以上版本。",
+      "intro_zh": "给长时间在 Mac 前工作的人，用桌面植物提醒休息，并按个人偏好生成带计时的休息任务。",
       "url": "https://www.producthunt.com/products/mossy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P5QGOSUBJ3TMWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/45b729a9-5531-4ae1-88de-e16c71403657.png?auto=format",
       "votes_count": 94,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "提醒休息和安排休息内容都很明确，但能否促使用户起身尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把一句偏好变成可执行任务有具体问题可想，生成约束尚不清楚。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用可忽略的状态变化提醒用户，适合不宜打断工作的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它连休息内容也一起安排，减少临时想任务的麻烦；但不打断工作的提醒究竟能否被注意到，仍是关键疑问。",
+      "product_analysis": {
+        "target_problem": "面向久坐的 Mac 用户。工作时可能忘记休息，即使停下来，也未必想好做什么。",
+        "workflow": "写一句希望怎样休息，例如伸展或学一个西班牙语单词。植物随未休息时间变蔫，AI 每次给一个带计时的任务，用户也可以忽略。",
+        "ai_value": "AI 把自由填写的休息偏好变成具体任务。提醒本身靠植物状态变化，不需要 AI 才能成立。",
+        "differentiation": "把“该停一下”和“停下来做什么”放在一起，又不强制打断。最可能留不住人的原因是提醒太轻，忙起来仍会忽略。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI 生成任务、原生 Mac 应用及 macOS 12+ 支持，没说具体模型。",
+        "possible_approach": "如果自己做，可以先记录距上次休息的时间，映射成植物状态，再把用户偏好交给 AI 生成一个任务并计时。",
+        "tradeoffs": "最容易出错的是运动任务的强度。用户写了腰背不适，生成内容若不合适，可能增加身体负担。",
+        "unknowns": "它怎样判断用户已经休息，而非只是暂时没操作电脑？"
+      },
+      "transferable_insights": [
+        "做专注或习惯工具时，可以用持续变化的小图形提醒，把是否立即行动留给用户。",
+        "需要个性化任务时，可以先收一句偏好，再一次只给一个动作，减少填写和选择。"
+      ],
+      "validation_questions": [
+        "离开电脑休息后，植物状态会不会正确恢复？",
+        "输入“腰背不适，只做温和活动”，生成任务是否遵守限制？"
+      ],
+      "source_tagline": " A desk plant that wilts when you need a break",
+      "source_description": "Mossy is a small plant that lives on your Mac desktop. The longer you sit without a break, the more it wilts. You write one sentence about what your breaks should be. Stretch my bad back. 20 push-ups. Teach me a Spanish word. Just make me stand up. An AI writes every break from that sentence, one task at a time, with a timer. It never blocks or dims your screen. Ignoring it is a normal way to use it. Free, no account, 1.4 MB, native, macOS 12+."
     },
     {
       "id": "1232760",
       "name": "WIT",
       "name_zh": "WIT",
-      "tagline_zh": "Spot potential misunderstandings across global Englishes",
-      "description_zh": "WIT is an AI communication check for founders and global teams. Paste an email, Slack message or product copy to see how it may land across American, Indian and Singapore English, understand why and get a clearer alternative without losing your voice. Before you hit send, see if your message travels.",
-      "intro_zh": "",
+      "tagline_zh": "发现不同地区英语表达中可能产生的误解",
+      "description_zh": "WIT 为创始人和全球团队提供 AI 沟通检查。粘贴邮件、Slack 消息或产品文案，即可查看它在美国、印度和新加坡英语语境中可能如何被理解，了解原因，并获得尽量保留原有语气的更清晰表达。",
+      "intro_zh": "给用英语跨地区沟通的创始人和团队，在发送消息前检查可能的误解，并提供改写建议。",
       "url": "https://www.producthunt.com/products/wit-will-it-travel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/X45PSREHVK4XF3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4b2b0ed9-2229-4b10-8c5b-1c6e215401a6.jpeg?auto=format",
       "votes_count": 91,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户、检查时机和输出明确，但能否准确识别误解尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何区分地区表达习惯与个人差异，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先解释读者可能怎样理解，再给改写的做法可用于其他写作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是解释误解从何而来；最大疑问是地区判断是否有可靠依据，还是把泛泛的写作建议贴上地区标签。",
+      "product_analysis": {
+        "target_problem": "创始人和跨地区团队写英文消息时，可能语法没错，读者却理解偏了。它面向发送前的检查。",
+        "workflow": "粘贴邮件、Slack 消息或产品文案，查看三种英语语境下的可能理解、原因和替代表达，再决定是否修改。",
+        "ai_value": "AI 分析潜在误解并解释原因，再给出更清晰的写法。保留个人语气是产品目标，实际表现待确认。",
+        "differentiation": "它把检查重点放在不同地区读者的理解上，可能省去自己逐句揣摩的工夫。若提醒过于泛化，用户可能不愿每次发送前都检查。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确使用 AI，覆盖美国、印度和新加坡英语语境，未说明具体模型。",
+        "possible_approach": "如果自己做，可以先让模型分别分析三种语境下的可能理解，再定位有歧义的原句，解释原因并生成改写。",
+        "tradeoffs": "最难的是避免把地区习惯当成每个人的理解方式。判断错了，可能把正常表达改得生硬。",
+        "unknowns": "检查时能否补充收件人关系和沟通背景？"
+      },
+      "transferable_insights": [
+        "做客服或商务写作工具时，可先展示原句可能被怎样理解，再提供改写，让用户知道为什么要改。"
+      ],
+      "validation_questions": [
+        "找对应地区的读者独立判断，检查工具指出的误解是否确实存在。",
+        "对照原文检查改写，确认请求强度和承诺没有变化。"
+      ],
+      "source_tagline": "Spot potential misunderstandings across global Englishes",
+      "source_description": "WIT is an AI communication check for founders and global teams. Paste an email, Slack message or product copy to see how it may land across American, Indian and Singapore English, understand why and get a clearer alternative without losing your voice. Before you hit send, see if your message travels."
+    },
+    {
+      "id": "1235140",
+      "name": "Hy4 preview",
+      "name_zh": "Hy4 preview",
+      "tagline_zh": "腾讯面向长流程任务的 7700 亿参数开放模型",
+      "description_zh": "Hy4 Preview 是腾讯的混合专家模型，总参数 7700 亿、激活参数 490 亿，上下文容量为 100 万词元。简介称它能自主完成编程、游戏开发和复杂文档分析，并在交付前运行测试、修复错误。",
+      "intro_zh": "给需要完成多步骤工作的开发者和文档分析人员用，让模型连续处理任务，并自行测试、修错。",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
+      "votes_count": 201,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "任务对象清楚，但自主完成的范围和可靠性缺少实例支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "长任务中如何判断测试足够、何时停止修复，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "交付前自行检查的做法可借鉴，但需要明确的验收标准。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重生成之后继续检查和修复；最影响判断的是，它能否发现自己的测试没有覆盖用户需求。",
+      "product_analysis": {
+        "target_problem": "开发者做多步骤任务时，需要持续检查结果、定位错误并返工。它尝试把这些后续工作也交给模型。",
+        "workflow": "用户提出任务，模型持续处理；编程场景下，简介称它会运行测试、修复错误后再交付。具体操作入口未说明。",
+        "ai_value": "AI 不只生成一次答案，还尝试根据测试结果继续修改，减少用户逐轮催促。",
+        "differentiation": "可能省下反复检查和追问的时间；但用户可能仍需复核，尤其当测试也是模型自己写的。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "采用混合专家结构，即每次只启用部分参数；支持 100 万词元上下文，词元是模型处理文本的基本单位。",
+        "possible_approach": "如果自己做，可以先拆分任务，再让模型执行、读取测试结果并修改；用预先写好的验收条件决定是否交付。",
+        "tradeoffs": "最容易错在测试漏掉需求：即使全部通过，交付内容也可能不能用。",
+        "unknowns": "长任务执行到什么程度会停止，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做代码生成工具时，可以把运行测试和修错放进交付流程，验收标准由用户预先确认。"
+      ],
+      "validation_questions": [
+        "给它一个带独立验收测试的编程任务，最终结果能否通过？",
+        "让测试持续失败，它能否停止并说明尚未解决的问题？"
+      ],
+      "source_tagline": "Tencent’s 770B open model for long-horizon work",
+      "source_description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery."
+    },
+    {
+      "id": "1234330",
+      "name": "publicdesktop.lol",
+      "name_zh": "publicdesktop.lol",
+      "tagline_zh": "互联网上的公共电脑",
+      "description_zh": "花 10 美元，可以在这台互联网公共电脑上购买一个永久图标位置。也可以通过竞价，争取控制它公开播放的歌曲。",
+      "intro_zh": "给想在公共网页占个位置、参与点歌的人用，可以购买图标位置，也可以竞价控制歌曲。",
+      "url": "https://www.producthunt.com/products/publicdesktop-lol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VVTE3OMXQCBVCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/932de7b5-41e3-4feb-8436-40816d9b4ae3.png?auto=format",
+      "votes_count": 103,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "付费动作清楚，但图标位置对购买者有什么实际用途还不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人竞价如何决定歌曲控制权，是一个具体的实现问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "固定位置出售与临时控制权竞价可以借用，但适用收益取决于参与人数。"
+        }
+      },
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是参与方式直观，付费对应一个具体位置或控制权；但公共空间有没有持续访问者，最影响这些权利是否有吸引力。",
+      "product_analysis": {
+        "target_problem": "它面向想在公共空间留下标记或参与共同娱乐的人。简介没有说明原有做法有什么麻烦，更像提供一种可付费参与的网页活动。",
+        "workflow": "用户可以花 10 美元购买永久图标位置，或出价争夺公共歌曲的控制权。图标如何提交、竞价何时结束，介绍没说。",
+        "ai_value": "介绍没提 AI，主要靠出售图标位置和歌曲竞价来组织参与。",
+        "differentiation": "它把展示位置和点歌权放在同一个公共电脑概念里。最可能让人不愿付费的是，不知道这个空间有多少人会看。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先记录每个图标位置的购买归属，再记录歌曲出价，按事先公布的规则决定谁能控制播放。",
+        "tradeoffs": "最容易出错的是多人同时竞价时判错归属，导致用户付了钱却没拿到歌曲控制权。",
+        "unknowns": "所谓永久位置，在网站停运时如何处理，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做社区活动页时，可以把长期展示位按固定价格出售，把短期点歌权交给竞价；先写清各自购买的权利。"
+      ],
+      "validation_questions": [
+        "模拟两人同时出价，检查歌曲控制权是否按公布规则分配。",
+        "购买前检查条款，确认永久图标位置在网站停运时如何处理。"
+      ],
+      "source_tagline": "Public computer of the internet",
+      "source_description": "Buy a permanent $10 icon location on the internet's public computer, or bid to control its public song."
+    },
+    {
+      "id": "1229569",
+      "name": "Cursor Craft v2",
+      "name_zh": "Cursor Craft v2",
+      "tagline_zh": "为 v2 重构的 Mac 自定义光标应用",
+      "description_zh": "Cursor Craft v2 是一款重构后的 macOS 应用，用于浏览、预览和应用自定义光标包。新版重新设计了界面，介绍称浏览更快、离线状态更清楚、光标绘制有所改善，并为动态图标和动画光标包做准备。",
+      "intro_zh": "给想更换 Mac 鼠标指针外观的人用，在应用里浏览、预览并应用自定义光标包。",
+      "url": "https://www.producthunt.com/products/cursor-craft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/47RBS54W5J4LRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7465d99d-f693-49bd-b0eb-09a58c17a979.png?auto=format",
+      "votes_count": 101,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "更换光标的用途清楚，但实际显示效果和适用范围未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "光标外观与点击位置是否一致，是直接影响操作的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先预览再应用的做法，可借给主题和图标工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把预览和应用放在一起，方便挑选光标；但替换范围尚不清楚，会影响日常使用是否连贯。",
+      "product_analysis": {
+        "target_problem": "想个性化 Mac 指针的人，需要先看清光标包的样子，再决定是否使用。它把挑选和更换放在一个应用里。",
+        "workflow": "浏览光标包，预览外观，再应用选中的包。动态和动画光标包只提到正在做准备，不能视为已有功能。",
+        "ai_value": "介绍没提 AI，主要靠浏览、预览和应用光标包来改善体验。",
+        "differentiation": "挑选后可以直接应用，少了挑选与设置之间的分离。最可能让人犹豫的是：换完后能否保持日常操作准确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "这是 macOS 应用；介绍提到改善光标绘制，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取光标图片和点击位置，再做预览，最后接入系统允许的光标替换方式；具体限制需要先验证。",
+        "tradeoffs": "最容易出错的是图片中的指针尖端与实际点击位置对不上，用户看着点中了，操作却落在旁边。",
+        "unknowns": "光标替换能覆盖哪些应用和系统界面？"
+      },
+      "transferable_insights": [
+        "做主题或图标工具时，可以让用户先预览效果，再决定应用，减少反复更换。"
+      ],
+      "validation_questions": [
+        "应用光标包后，连续点击小按钮，检查指针尖端与实际点击位置是否一致。",
+        "切换几个常用应用，检查自定义光标是否持续生效。"
+      ],
+      "source_tagline": "Custom Mac cursors, rebuilt for v2",
+      "source_description": "Cursor Craft v2 is a rebuilt macOS app for browsing, previewing, and applying custom cursor packs. The new version adds a redesigned interface, faster browsing, clearer offline states, improved cursor rendering, and prepares the app for dynamic and animated cursor packs."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

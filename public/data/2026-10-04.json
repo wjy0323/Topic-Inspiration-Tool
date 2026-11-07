@@ -1,367 +1,511 @@
 {
   "date": "2026-10-04",
-  "generated_at": "2026-10-05T23:39:40+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:23:58+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1259946",
       "name": "CoreSpeed",
       "name_zh": "CoreSpeed",
-      "tagline_zh": "One MCP for everything your agents need: apps, memory, tools",
-      "description_zh": "CoreSpeed is an operating system for agents. Connect apps once and bring your accounts and shared or private memory to Claude Code, Codex, Cursor and other MCP agents. Use multiple accounts per app, including X, with web search, social research and media generation built in. CoreSpeed holds app credentials. Budgets, activity logs and Smart Approval (beta) keep agents in check. Planned: Agent Drive, Mail, Pay, sandboxes, and more. Everything your agents need, through one MCP endpoint.",
-      "intro_zh": "",
+      "tagline_zh": "用一个 MCP 连接点，为智能体提供应用、记忆和工具",
+      "description_zh": "CoreSpeed 将自己定位为智能体操作系统：应用连接一次，就能把账号及共享或私有记忆带到 Claude Code、Codex、Cursor 等支持 MCP 的智能体，支持同一应用多账号（包括 X），并内置网页搜索、社交研究和媒体生成。它保管应用凭证，提供预算、活动日志和测试版智能审批；Agent Drive、Mail、Pay、沙盒等仍在规划中。",
+      "intro_zh": "给使用多个 AI 助手的人，把应用账号和记忆接入助手，并集中管理助手的操作。",
       "url": "https://www.producthunt.com/products/corespeed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ZNJTNNHC4VT6ET?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2f7b81ca-21fc-4d62-be16-4ee674d75927.png?auto=format",
       "votes_count": 327,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨助手使用账号和记忆的用途明确，但实际支持范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多账号调用时如何避免选错身份，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "集中连接应用、按操作检查权限的做法可供多助手产品借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是换助手时可以沿用应用连接；最影响判断的是账号和记忆能否按权限隔离，不能把预算与日志当成隔离有效的证明。",
+      "product_analysis": {
+        "target_problem": "同时用多个 AI 助手的人，需要让它们使用应用账号和已有记忆。分别配置可能带来重复授权，也容易混淆账号。",
+        "workflow": "先连接应用账号，再让支持 MCP 的助手通过统一连接点使用账号、记忆和工具。可设置预算，并查看活动日志。",
+        "ai_value": "AI 助手负责调用工具完成任务。CoreSpeed 主要提供账号、记忆和操作管理；介绍没说智能审批如何判断。",
+        "differentiation": "把连接好的应用带到不同助手，可能减少重复配置。最可能让人犹豫的是：需要把应用凭证交给它保管。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: af204801-623a-40d2-9170-17aa67a51209)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1266015",
-      "name": "Gemini 4 Argon",
-      "name_zh": "Gemini 4 Argon",
-      "tagline_zh": "Google's frontier model for careful reasoning & complex work",
-      "description_zh": "Gemini 4 Argon is Google’s frontier AI model for complex, long-horizon professional work. It combines advanced reasoning, coding, multimodal understanding, and cybersecurity-defense capabilities, with support for up to 1 million output tokens. Designed for software engineering, finance, legal work, and enterprise research, it helps solve multi-step problems while Google gradually expands access through trusted testing and safety safeguards.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/gemini-4-argon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QVBKY22YSIL76U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c48c8722-3434-4951-9ec6-58bb17a6eb96.png?auto=format",
-      "votes_count": 281,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "提供统一 MCP 端点（供 AI 助手连接外部工具的入口），支持多账号，并保管应用凭证。",
+        "possible_approach": "如果自己做，可以先保存应用授权，再把可用操作提供给助手；每次执行前，检查账号身份、权限和预算。",
+        "tradeoffs": "最容易错的是多账号选择。若把私人账号当成工作账号，助手可能读错资料或用错身份发内容。",
+        "unknowns": "共享记忆和私有记忆的访问权限如何划分，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 45147c6e-d418-4c55-9496-57a47a2c2969)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多助手工具时，可把应用授权集中管理，让用户换助手时复用已连接的账号。"
+      ],
+      "validation_questions": [
+        "同一应用接两个账号，检查执行操作前能否明确确认使用哪个账号？",
+        "让另一个助手请求私有记忆，检查是否会被阻止？"
+      ],
+      "source_tagline": "One MCP for everything your agents need: apps, memory, tools",
+      "source_description": "CoreSpeed is an operating system for agents. Connect apps once and bring your accounts and shared or private memory to Claude Code, Codex, Cursor and other MCP agents. Use multiple accounts per app, including X, with web search, social research and media generation built in. CoreSpeed holds app credentials. Budgets, activity logs and Smart Approval (beta) keep agents in check. Planned: Agent Drive, Mail, Pay, sandboxes, and more. Everything your agents need, through one MCP endpoint."
     },
     {
       "id": "1268802",
       "name": "Smooth Recorder",
       "name_zh": "Smooth Recorder",
-      "tagline_zh": "  Mac screen recordings that look edited when you hit stop",
-      "description_zh": "Smooth Recorder is a native Mac app for demos and tutorials. It zooms in where you click, smooths your cursor, adds captions on your Mac and puts it all on a nice background. Screenshots get the same features.",
-      "intro_zh": "",
+      "tagline_zh": "停止录制时，就有剪辑观感的 Mac 录屏",
+      "description_zh": "Smooth Recorder 是面向演示和教程制作的 Mac 原生应用，会在点击处放大画面、平滑光标移动，并在 Mac 上添加字幕和背景。简介称截图也能使用这些功能，但未说明具体适用范围。",
+      "intro_zh": "给在 Mac 上制作演示和教程的人用，录屏时突出点击位置，并为画面添加字幕和背景。",
       "url": "https://www.producthunt.com/products/smooth-recorder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/4AEZRCAPJ32OPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c56b0f3b-6e01-4c9d-ae2a-ca522c69b66f.png?auto=format",
       "votes_count": 230,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "演示和教程场景明确，可减少部分画面修饰工作。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动放大如何兼顾操作重点和画面上下文，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "利用点击位置突出讲解重点的做法，可用于其他操作教学工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把突出操作位置这件事放进录制过程；最影响判断的是自动效果出错后能否方便修改。",
+      "product_analysis": {
+        "target_problem": "制作软件演示的人，需要让观众看清点了哪里。若以前靠后期加放大和光标效果，现在可以由录屏工具处理这些修饰。",
+        "workflow": "在 Mac 上录制演示或教程，工具随点击放大画面、平滑光标，并添加字幕和背景。简介没交代字幕如何生成，也没说明导出步骤。",
+        "ai_value": "介绍没提 AI，主要靠自动处理画面和光标来改善观看体验，不能据此认定字幕由 AI 生成。",
+        "differentiation": "把几种常见修饰放进录屏过程，可能少切换一次编辑工具。最可能让人不愿换的是自动放大不合讲解节奏，还得返工。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: cee3e0ea-271a-4168-97b9-948ce7ca76c5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "这是 Mac 原生应用，支持点击处放大、光标平滑、添加字幕和背景。",
+        "possible_approach": "如果自己做，可以先同步记录屏幕、点击位置和时间，再按点击生成放大片段，并处理光标轨迹、叠加字幕和背景。",
+        "tradeoffs": "最容易出错的是把每次点击都当成重点。连续操作时若频繁缩放，观众可能看不清菜单和前后关系。",
+        "unknowns": "自动生成的放大位置和时长能否手动修改，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做操作教学工具时，可以利用点击位置提示观看重点，让作者少做一次手动标记。"
+      ],
+      "validation_questions": [
+        "录一段连续切换菜单的操作，检查自动放大是否保留必要的画面上下文。",
+        "选一个不合适的放大片段，检查能否单独修改其位置和时长。"
+      ],
+      "source_tagline": "  Mac screen recordings that look edited when you hit stop",
+      "source_description": "Smooth Recorder is a native Mac app for demos and tutorials. It zooms in where you click, smooths your cursor, adds captions on your Mac and puts it all on a nice background. Screenshots get the same features."
     },
     {
       "id": "1261363",
       "name": "Blume 2.0",
       "name_zh": "Blume 2.0",
-      "tagline_zh": "The open-source docs framework for humans and agents",
-      "description_zh": "Fast, AI-ready, and zero-config. Drop Markdown into a folder and ship a production-grade docs site with no app boilerplate to write or maintain. Free and open source, forever.",
-      "intro_zh": "",
+      "tagline_zh": "面向人和智能体的开源文档框架",
+      "description_zh": "介绍称，把 Markdown 文件放进文件夹，就能生成可正式使用的文档站，无需编写或维护应用基础代码，并主打快速、零配置和适配 AI。产品承诺永久免费、开源。",
+      "intro_zh": "给需要发布产品或开发文档的团队用，把 Markdown 文件变成文档站，减少建站代码的维护。",
       "url": "https://www.producthunt.com/products/blume-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/O2OPZD4VAJNANS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/63080846-93c5-4f9c-b2e8-1c6642ebafe5.png?auto=format",
       "votes_count": 201,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "发布文档的用途清楚，但零配置能覆盖多少需求尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "文件如何自动组织成站点值得关注，但实现细节很少。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用内容文件直接生成站点的做法，可借给其他内容发布工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把维护内容与维护网站代码分开；但零配置遇到实际文档结构时是否仍够用，会直接影响省事程度。",
+      "product_analysis": {
+        "target_problem": "需要发布文档的团队，可能不想同时维护一套网站代码。Blume 把内容文件作为建站起点，让团队少管应用基础代码。",
+        "workflow": "准备 Markdown（用简单符号标记标题、列表等格式的文本）文件，放入文件夹，再用框架生成文档站。简介没交代发布到哪里。",
+        "ai_value": "介绍提到适配 AI 和智能体，但没说明具体功能，不能据此认定它会写文档或回答问题。",
+        "differentiation": "省事点是不用编写和维护应用基础代码。最可能让人犹豫的是：默认样式和结构能否满足自己的文档需求。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e6fea1e6-973f-42a7-8388-12e273031314)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、以 Markdown 文件生成文档站，并主打零配置；未说明具体技术栈。",
+        "possible_approach": "如果自己做，可以先读取文件夹中的文档，再把标题和目录变成页面、导航，最后生成可发布的网站文件。",
+        "tradeoffs": "难点是自动生成的页面地址要与文档内链接对应。映射不对，读者点链接就可能找不到页面。",
+        "unknowns": "“适配 AI”究竟提供了什么可使用的能力？"
+      },
+      "transferable_insights": [
+        "做知识库或帮助中心时，可以让团队直接提交内容文件，由工具统一生成页面，减少逐页排版。"
+      ],
+      "validation_questions": [
+        "放入一组带相互链接的文档，检查生成后链接是否仍能正确跳转。",
+        "选一个必需的导航调整，检查是否能完成，以及是否需要额外写代码。"
+      ],
+      "source_tagline": "The open-source docs framework for humans and agents",
+      "source_description": "Fast, AI-ready, and zero-config. Drop Markdown into a folder and ship a production-grade docs site with no app boilerplate to write or maintain. Free and open source, forever."
     },
     {
       "id": "1264719",
       "name": "DocsAlot MCP Connector",
       "name_zh": "DocsAlot MCP Connector",
-      "tagline_zh": "Maintain your help-center by asking Claude, Cursor or Codex",
-      "description_zh": "Create and update your knowledge base from Claude, Codex, or any compatible MCP client. Ask DocsAlot to add a page, fix an error, or improve your help center. It finds the relevant content, makes changes, creates a new version, and publishes, all from your existing workflow. See what questions users ask in your help center, discover what’s missing, and use those insights to improve your docs and decide what to build next.",
-      "intro_zh": "",
+      "tagline_zh": "向 Claude、Cursor 或 Codex 提要求，维护你的帮助中心",
+      "description_zh": "在 Claude、Codex 或其他兼容 MCP 的客户端中提出要求，DocsAlot 会查找相关内容，新增或修改知识库页面，创建新版本并发布。你还可以查看用户在帮助中心提出的问题，发现文档缺漏，用来改进文档和判断接下来开发什么。",
+      "intro_zh": "给维护帮助中心的产品、客服和文档人员用，在现有 AI 工具里提出修改要求，让它更新知识库。",
       "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RTNHESLAFK5LZB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/10c7749e-f756-4e77-806c-ef9ba22cc2a6.png?auto=format",
       "votes_count": 170,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "维护对象和操作明确，但实际能省多少审核工作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "从查找内容到发布，如何避免改错页面是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把内容维护放进现有工作工具的做法，可借用于其他内容系统。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是修改要求能直接变成知识库操作；但若缺少发布前确认，省下的操作可能变成额外检查。",
+      "product_analysis": {
+        "target_problem": "维护帮助中心的人，需要把发现的错误和用户疑问变成文档修改。它让人直接在现有 AI 工具里发起这些工作。",
+        "workflow": "提出新增页面、纠错或改进要求；工具查找内容、修改、创建新版本并发布。还可查看用户提问，寻找缺漏。",
+        "ai_value": "AI 把自然语言要求转成文档维护动作；介绍没有说明用户问题的分析是否也由 AI 完成。",
+        "differentiation": "省去另开编辑入口发起修改的步骤。最可能让人犹豫的是：修改发布前能否由人确认。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3423cbf4-246f-4d5e-b253-12ccde670bf5)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 MCP（一种让 AI 工具连接外部服务的协议），可从兼容客户端操作知识库。",
+        "possible_approach": "如果自己做，可以先让 AI 搜索并读取页面，再生成修改稿，展示差异供人确认，最后保存版本并发布。",
+        "tradeoffs": "最容易错在选中相似但不相关的页面；后续即使文字通顺，也可能把错误说明发布出去。",
+        "unknowns": "介绍没说发布前是否有人工确认。"
+      },
+      "transferable_insights": [
+        "做内部知识库或内容后台时，可以把查找、修改和发布接入员工常用工具，减少来回切换。"
+      ],
+      "validation_questions": [
+        "给出一个涉及多篇相似文档的纠错要求，检查它是否选对页面。",
+        "发起一次修改，检查发布前能否查看并确认差异。"
+      ],
+      "source_tagline": "Maintain your help-center by asking Claude, Cursor or Codex",
+      "source_description": "Create and update your knowledge base from Claude, Codex, or any compatible MCP client. Ask DocsAlot to add a page, fix an error, or improve your help center. It finds the relevant content, makes changes, creates a new version, and publishes, all from your existing workflow. See what questions users ask in your help center, discover what’s missing, and use those insights to improve your docs and decide what to build next."
     },
     {
       "id": "1264913",
       "name": "ChatGPT Space",
       "name_zh": "ChatGPT Space",
-      "tagline_zh": "Create, collaborate, and build together with AI in Space",
-      "description_zh": "ChatGPT Space is a shared canvas for creating, planning, and collaborating with AI. Add links, files, and ideas to build a living source of context, then work with ChatGPT to turn them into plans, docs, apps, and more - keeping your team aligned in one place.",
-      "intro_zh": "",
+      "tagline_zh": "在 Space 中与 AI 一起创作、协作和构建",
+      "description_zh": "ChatGPT Space 是一个与 AI 一起创作、规划和协作的共享画布。添加链接、文件和想法，积累持续更新的背景资料，再与 ChatGPT 将其转成计划、文档、应用等，让团队在同一处协作。",
+      "intro_zh": "给需要共同筹划项目的团队，把链接、文件和想法放进共享画布，再与 ChatGPT 一起整理成果。",
       "url": "https://www.producthunt.com/products/chatgpt-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/WHDZL3OTPBAM5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/77e54656-6be2-47c2-9ba1-480dbf9ee28c.png?auto=format",
       "votes_count": 159,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "团队共用资料并生成成果的用途清楚，但实际省多少整理工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何让 AI 用对持续变化的共享资料，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先集中背景资料再生成成果的做法，可借用于项目规划和文档工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重团队能围绕同一批资料继续工作；最影响判断的是资料变化后，AI 能否及时用到正确版本。",
+      "product_analysis": {
+        "target_problem": "适合围绕同一项目共同规划的团队。资料分散时，向 AI 交代背景和让成员掌握同一版本都可能费事。",
+        "workflow": "把链接、文件和想法加入共享画布，再与 ChatGPT 一起把这些资料转成计划、文档或应用。",
+        "ai_value": "AI 根据收集的背景资料帮助产出成果。简介未说明“应用”能做到可运行，还是仅生成雏形。",
+        "differentiation": "它把资料与围绕资料开展的 AI 工作放在同一处，可能减少来回搬运。成员是否愿意把现有资料迁进来，会影响使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: d2fd55b6-44b6-4191-ab82-fe1592e577a0)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到共享画布、添加链接和文件，以及与 ChatGPT 协作，没说具体如何读取资料。",
+        "possible_approach": "如果自己做，可以先保存资料并提取文字，再按当前任务选出相关内容交给 AI，最后把结果放回画布。",
+        "tradeoffs": "最难的是用对资料版本。若文件更新后仍引用旧内容，生成的计划就可能沿用已作废的要求。",
+        "unknowns": "共享资料更新后，AI 何时能用到新内容？"
+      },
+      "transferable_insights": [
+        "做项目规划工具时，可以让背景资料与生成结果留在同一工作区，方便成员接着修改。"
+      ],
+      "validation_questions": [
+        "替换一份文件中的关键要求后，再提问，回答是否采用新版要求？",
+        "用少量项目资料生成一个应用，检查交付物是否能实际运行。"
+      ],
+      "source_tagline": "Create, collaborate, and build together with AI in Space",
+      "source_description": "ChatGPT Space is a shared canvas for creating, planning, and collaborating with AI. Add links, files, and ideas to build a living source of context, then work with ChatGPT to turn them into plans, docs, apps, and more - keeping your team aligned in one place."
     },
     {
       "id": "1266122",
       "name": "opensend.cc",
       "name_zh": "opensend.cc",
-      "tagline_zh": "The open source email platform that runs on your server",
-      "description_zh": "opensend.cc is an open source email platform that runs on your server. It sends through your own AWS account, so your domain, your data and your sender reputation stay yours. You get a REST API and SDK, SMTP, templates, broadcasts, automations, audiences, webhooks and logs. One command installs it. No per-email pricing, no feature gates. Already on Resend? Change two lines and keep your code.",
-      "intro_zh": "",
+      "tagline_zh": "运行在你自己服务器上的开源邮件平台",
+      "description_zh": "opensend.cc 是自托管的开源邮件平台，通过你自己的 AWS 账户发信，强调域名、数据和发信信誉由你掌握；提供 REST API（供软件调用的接口）、SDK（开发工具包）、SMTP（邮件发送协议），以及模板、群发、自动化、受众管理、事件通知和日志。介绍称一条命令即可安装，平台不按邮件数量收费、不限制功能，从 Resend 迁移只需改两行代码。",
+      "intro_zh": "给需要自行管理发信服务的开发团队用，把邮件平台部署到自己的服务器，再用自己的 AWS 账户发送邮件。",
       "url": "https://www.producthunt.com/products/opensend-cc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HNGGRC2ECUBURA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8354c994-49fd-4b9f-8d6a-f8c2510749c2.jpeg?auto=format",
       "votes_count": 158,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "自托管和自有账户发信的用途明确，但维护负担与总费用待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "邮件发送后的失败处理，直接影响平台是否可用。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "兼容已有调用方式，是降低迁移工作量的具体思路。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把邮件管理与自有发送账户结合起来；最影响判断的是，自行维护需要投入多少工作，介绍没有交代。",
+      "product_analysis": {
+        "target_problem": "需要控制邮件数据和发送账户的开发团队会关注它。麻烦在于，除了发出邮件，还要管理模板、收件人和发送记录。",
+        "workflow": "在自己的服务器安装平台，使用自己的 AWS 账户发信。业务程序可通过接口或邮件发送协议接入，再使用模板、群发和自动化功能。",
+        "ai_value": "介绍没提 AI，主要靠集中管理邮件功能、开放程序接入来改善体验。",
+        "differentiation": "把发信与管理功能放在自己的环境中。最可能让人不愿换过来的是需要自己维护；平台不按封收费，也不等于 AWS 和服务器免费。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2c2c5c6c-f0d5-4ae9-bc92-07cd0ea9904f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到开源、自有服务器部署、通过自有 AWS 账户发送，并提供事件通知和日志。",
+        "possible_approach": "如果自己做，可以先保存发信任务，再调用发送服务，并把发送结果写回记录，供用户查询。",
+        "tradeoffs": "最容易出错的是失败重试：如果邮件已发出却没收到确认，再次发送可能让收件人收到重复邮件。",
+        "unknowns": "介绍没说明如何区分可重试的失败与已经发送成功的任务。"
+      },
+      "transferable_insights": [
+        "做开发者工具时，可以兼容用户已有的调用方式，减少迁移时要改的代码；但应明确哪些功能可以直接替换。"
+      ],
+      "validation_questions": [
+        "模拟发送后连接中断，检查重试是否造成重复邮件。",
+        "用现有 Resend 调用样例迁移，检查“两行修改”能覆盖哪些实际功能。"
+      ],
+      "source_tagline": "The open source email platform that runs on your server",
+      "source_description": "opensend.cc is an open source email platform that runs on your server. It sends through your own AWS account, so your domain, your data and your sender reputation stay yours. You get a REST API and SDK, SMTP, templates, broadcasts, automations, audiences, webhooks and logs. One command installs it. No per-email pricing, no feature gates. Already on Resend? Change two lines and keep your code."
     },
     {
       "id": "1257247",
       "name": "Octri.dev",
       "name_zh": "Octri.dev",
-      "tagline_zh": "Generate customizable Docs, SDKs, MCP server, and monitoring",
-      "description_zh": "Upload an OpenAPI spec and Octri generates a fully customizable documentation site, high-quality client SDKs in ten languages (TypeScript, Python, Go, Rust, Ruby, PHP, Java, Kotlin, Swift, Dart) and an MCP server so AI agents can call your API. The new part: every SDK reports its own production errors back, so you see integration failures before your users file tickets. GitHub sync regenerates everything on every merge.",
-      "intro_zh": "",
+      "tagline_zh": "生成可定制的文档、SDK、MCP 服务器，并提供错误监控",
+      "description_zh": "上传 OpenAPI 规范（描述接口用法的标准文件），即可生成可定制的文档网站、十种语言的 SDK（供开发者调用接口的代码包），以及 MCP 服务器（让 AI 助手调用接口的连接服务）。简介还称，SDK 会回报生产环境错误，帮助团队在用户报障前发现问题；GitHub 同步会在每次合并代码后重新生成这些内容。",
+      "intro_zh": "给维护 API 的开发团队用，把接口说明文件生成文档和调用代码，并收集实际使用中的错误。",
       "url": "https://www.producthunt.com/products/octri?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/UJ7XDTEGF4IO34?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/96a97be6-6fdf-49a8-a3cc-b307819b1b85.jpeg?auto=format",
       "votes_count": 126,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "生成资料与收集调用错误对应明确需求，但生成质量尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多语言调用代码如何准确表达同一接口，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用同一份说明生成多种交付物，适合需要同步维护接口资料的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把生成物运行后的错误带回维护团队；最影响判断的是，真实接口的细节能否被规范和生成代码准确表达。",
+      "product_analysis": {
+        "target_problem": "维护 API 的团队需要让文档和调用代码跟上接口变化，也需要知道外部开发者调用时哪里失败。",
+        "workflow": "上传接口规范，生成文档、十种语言的调用代码和 AI 调用服务。连接 GitHub 后，每次合并代码都会触发重新生成；SDK 还会回报生产环境错误。",
+        "ai_value": "它让 AI 助手能调用你的接口。介绍没说生成过程本身是否使用 AI。",
+        "differentiation": "把生成与更新集中到同一份规范上，可能减少分别维护的工作。迁入前最需要确认的是，现有规范是否足够完整。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: a9483e36-1053-4b5a-aaa6-87928e1b6c5d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1268204",
-      "name": "Pass Designer",
-      "name_zh": "Pass Designer",
-      "tagline_zh": "Design Apple Wallet passes and see the real card",
-      "description_zh": "Whether you’re creating passes for a local fitness center, a small music venue, a global airline, or a national coffee chain, Pass Designer makes it easy to craft and preview passes that reflect your business.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VGXSY6HTCERFUZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1ba81c50-a8ce-47fd-a36f-e9345a1f3438.png?auto=format",
-      "votes_count": 113,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 OpenAPI 输入、多语言代码生成、MCP 服务、SDK 错误回报和 GitHub 合并触发更新。",
+        "possible_approach": "如果自己做，可以先读取规范中的请求和返回格式，再按语言生成调用代码与文档，最后加入错误回报并接上代码合并事件。",
+        "tradeoffs": "难点是让生成代码准确表达接口行为。若规范遗漏鉴权要求，生成物可能看似完整，用户却无法成功调用。",
+        "unknowns": "错误回报会上传哪些数据，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: fa7488f6-e140-436d-944e-a30d07e110af)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做开发者工具时，可以让文档和调用示例共用一份接口说明，减少更新遗漏。",
+        "做代码生成产品时，可以收集生成物运行后的错误，帮助维护者发现模板未覆盖的问题。"
+      ],
+      "validation_questions": [
+        "用一个鉴权要求复杂的接口，检查生成代码能否正确完成调用。",
+        "制造一次含敏感请求参数的失败，检查错误回报是否泄露这些参数。"
+      ],
+      "source_tagline": "Generate customizable Docs, SDKs, MCP server, and monitoring",
+      "source_description": "Upload an OpenAPI spec and Octri generates a fully customizable documentation site, high-quality client SDKs in ten languages (TypeScript, Python, Go, Rust, Ruby, PHP, Java, Kotlin, Swift, Dart) and an MCP server so AI agents can call your API. The new part: every SDK reports its own production errors back, so you see integration failures before your users file tickets. GitHub sync regenerates everything on every merge."
     },
     {
       "id": "1217369",
       "name": "WikiFix for Confluence",
       "name_zh": "WikiFix for Confluence",
-      "tagline_zh": "Find and fix issues in your knowledge base",
-      "description_zh": "WikiFix monitors your KB for issues like contradicting pages, duplicates and orphans, and fixes them in one click once you approve, so your team can trust what it reads or hears from AI.",
-      "intro_zh": "",
+      "tagline_zh": "发现并修复知识库中的问题",
+      "description_zh": "WikiFix 持续检查知识库中相互矛盾、重复和孤立的页面。经你批准后，它可一键修复这些问题，目标是让团队更放心地阅读知识库或使用 AI 给出的回答。",
+      "intro_zh": "给维护 Confluence 知识库的团队用，找出矛盾、重复和孤立页面，并在批准后修复。",
       "url": "https://www.producthunt.com/products/wikifix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PBKWXEHN464ZLF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/519e7830-5ea1-4ff7-b58c-3cae4e81f601.png?auto=format",
       "votes_count": 96,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "问题和处理动作明确，但修复质量尚无材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "区分真正的矛盾与适用条件不同，是具体且重要的难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先找问题、经人批准再修改的做法可用于其他内容维护工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把问题发现推进到实际修复；但修复会改动哪些内容还不清楚，这直接影响团队是否敢批准。",
+      "product_analysis": {
+        "target_problem": "维护 Confluence 知识库的人，需要处理页面重复、说法冲突或缺少关联的问题。员工查资料时，可能不知道该信哪一页。",
+        "workflow": "工具监测知识库并找出问题。用户批准后，再一键执行修复；介绍没有展开具体修改方式。",
+        "ai_value": "介绍提到让 AI 回答更可信，但没说检测和修复是否由 AI 完成。能明确看出的价值是先清理知识来源。",
+        "differentiation": "把发现问题和批准修复放在一起，可能减少逐页检查和修改的工作。团队可能因担心误改正式文档而不愿交给它处理。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 818fb2f7-5101-4122-9851-33fb51735f91)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到持续监测和批准后修复，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取页面内容和链接，找出疑似问题，再生成修改建议供人批准，最后写回知识库。",
+        "tradeoffs": "最难的是判断两页是否真矛盾。若把适用于不同版本的说明当成冲突，修复后可能删掉仍然有效的信息。",
+        "unknowns": "所谓修复，是改正文、合并页面，还是补链接？"
+      },
+      "transferable_insights": [
+        "做文档维护工具时，可以把疑似问题和拟修改内容放在一起，让负责人批准后再执行。"
+      ],
+      "validation_questions": [
+        "放入两份分别适用于不同版本的说明，检查是否被误判为矛盾。",
+        "批准一次重复页面修复，检查原有有效信息是否保留。"
+      ],
+      "source_tagline": "Find and fix issues in your knowledge base",
+      "source_description": "WikiFix monitors your KB for issues like contradicting pages, duplicates and orphans, and fixes them in one click once you approve, so your team can trust what it reads or hears from AI."
+    },
+    {
+      "id": "1266015",
+      "name": "Gemini 4 Argon",
+      "name_zh": "Gemini 4 Argon",
+      "tagline_zh": "面向审慎推理与复杂工作的 Google 前沿模型",
+      "description_zh": "历史缓存将 Gemini 4 Argon 描述为 Google 面向复杂、长周期专业工作的 AI 模型，结合推理、编程、多模态理解和网络安全防御能力，并声称最多支持 100 万个输出词元（模型处理文字的基本单位）。简介称它面向软件工程、金融、法律和企业研究，帮助处理多步骤问题，并通过可信测试和安全措施逐步开放使用；这些信息尚未重新核验。",
+      "intro_zh": "面向开发、金融、法律和研究人员，用 AI 处理需要多步推理、编程或理解多种材料的专业任务。",
+      "url": "https://www.producthunt.com/products/gemini-4-argon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QVBKY22YSIL76U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c48c8722-3434-4951-9ec6-58bb17a6eb96.png?auto=format",
+      "votes_count": 281,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "专业场景明确，但没有具体任务案例说明能省多少事。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "长任务中如何避免早期错误影响后续结果，是具体问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴分阶段处理复杂任务的思路，但效果仍需验证。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是让复杂任务连续推进；但目前只有未经核验的缓存描述，连实际开放范围也不清楚，不能据此判断可用程度。",
+      "product_analysis": {
+        "target_problem": "开发和研究人员处理多步骤任务时，需要持续跟住约束和中间结论。它面向这类工作，但缓存没有说明具体替代哪种做法。",
+        "workflow": "介绍只说用户可用它处理专业问题，没有提供提交材料、检查过程或获取结果的操作方式。",
+        "ai_value": "AI 被用于推理、编程和理解多种形式的信息。介绍没有举例说明这些能力怎样配合完成一项任务。",
+        "differentiation": "它可能减少用户手动串联多个步骤的工作；最影响采用的因素是访问资格尚不明确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存声称支持最多 100 万个输出词元，未披露具体实现；这一数字未经核验，不能当成输入容量。",
+        "possible_approach": "如果自己做，可以先把任务拆成可检查的小步，再让模型逐步执行，并保存每步结论供后续使用。",
+        "tradeoffs": "最难的是发现早期推理错误。若错误结论被后续步骤沿用，用户可能拿到一份完整但方向错误的答案。",
+        "unknowns": "介绍没有回答长任务执行中能否查看并纠正中间结论。"
+      },
+      "transferable_insights": [
+        "做专业研究助手时，可以给每一步设置可确认的中间结果，方便用户发现问题后从该步重做。"
+      ],
+      "validation_questions": [
+        "给它一项有明确验收条件的多步骤任务，检查最终结果是否满足全部条件。",
+        "在中间结论出错时，检查能否纠正该步并继续执行。"
+      ],
+      "source_tagline": "Google's frontier model for careful reasoning & complex work",
+      "source_description": "Gemini 4 Argon is Google’s frontier AI model for complex, long-horizon professional work. It combines advanced reasoning, coding, multimodal understanding, and cybersecurity-defense capabilities, with support for up to 1 million output tokens. Designed for software engineering, finance, legal work, and enterprise research, it helps solve multi-step problems while Google gradually expands access through trusted testing and safety safeguards."
+    },
+    {
+      "id": "1268204",
+      "name": "Pass Designer",
+      "name_zh": "Pass Designer",
+      "tagline_zh": "设计 Apple Wallet 票卡，预览实际卡面",
+      "description_zh": "无论是为本地健身房、小型音乐场地，还是航空公司、连锁咖啡店制作票卡，都可以用 Pass Designer 进行设计。它支持制作和预览体现商家品牌的票卡。",
+      "intro_zh": "给需要制作 Apple Wallet 票卡的商家和设计人员用，设计卡面并预览呈现效果。",
+      "url": "https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VGXSY6HTCERFUZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1ba81c50-a8ce-47fd-a36f-e9345a1f3438.png?auto=format",
+      "votes_count": 113,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "设计和预览的用途清楚，但能否交付可用票卡还不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "预览与实际显示是否一致，是一个具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按最终载体预览的做法可借用，但介绍没有展示具体交互。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是设计时就能检查卡面效果；最影响判断的是它能否产出可用票卡，而不只是一张预览图。",
+      "product_analysis": {
+        "target_problem": "商家制作 Apple Wallet 票卡时，需要确认品牌信息放进卡面后是否合适。资料没有说明他们此前用什么工具。",
+        "workflow": "用户设计符合业务形象的票卡，再预览卡面。介绍未说明能否导出或添加到钱包。",
+        "ai_value": "介绍没提 AI，主要靠票卡设计与预览来改善体验。",
+        "differentiation": "把设计和预览放在同一工具里，可能减少来回核对。若只能预览、不能交付可用票卡，用户可能仍需其他工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持 Apple Wallet 票卡的设计与预览，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户填写票卡内容、设置品牌样式，再按钱包卡面的排版规则生成预览。",
+        "tradeoffs": "最难的是让预览贴近实际显示；若文字换行或图片裁切不一致，用户可能到手机上才发现要返工。",
+        "unknowns": "预览展示的是模拟卡面，还是可在 Apple Wallet 中打开的实际票卡？"
+      },
+      "transferable_insights": [
+        "做票券或证件编辑器时，可按最终显示尺寸提供预览，让用户在交付前发现文字过长、图片被裁切的问题。"
+      ],
+      "validation_questions": [
+        "用较长的商家名称制作卡面，检查预览与 Apple Wallet 中的显示是否一致。",
+        "检查完成设计后，能否生成可添加到 Apple Wallet 的票卡。"
+      ],
+      "source_tagline": "Design Apple Wallet passes and see the real card",
+      "source_description": "Whether you’re creating passes for a local fitness center, a small music venue, a global airline, or a national coffee chain, Pass Designer makes it easy to craft and preview passes that reflect your business."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

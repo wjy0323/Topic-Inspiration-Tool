@@ -1,367 +1,512 @@
 {
   "date": "2026-09-20",
-  "generated_at": "2026-09-21T21:44:03+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:27:20+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1241715",
       "name": "Mycel",
       "name_zh": "Mycel",
-      "tagline_zh": "Bring one past deliverable. Mycel drafts every future one.",
-      "description_zh": "Mycel runs the work your service business sells - clients, deliverables, approvals, invoices. Each job runs in a disposable sandbox that never holds a credential, and nothing reaches a client until you approve it. From $299/mo, or self-host free.",
-      "intro_zh": "",
+      "tagline_zh": "带来一份过去的交付成果，让 Mycel 起草今后的交付内容。",
+      "description_zh": "Mycel 处理服务型企业的客户、交付成果、审批和发票，每项工作在不存放凭据的一次性沙箱中运行，所有内容经你批准后才会送达客户。托管服务每月 299 美元起，也可免费自行部署。",
+      "intro_zh": "给承接客户项目的服务团队用，以过去的交付成果为起点起草新内容，并处理审批和发票。",
       "url": "https://www.producthunt.com/products/mycel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/T2UPVH2TQW5Y2F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/df013a82-90db-4103-9bcb-5b7a9e40be78.png?auto=format",
       "votes_count": 330,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "交付与审批场景清楚，但草稿能省多少修改尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "任务隔离与批准后发送，提出了具体的执行控制问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把自动起草与对外发送分开，适合借到客户交付工具中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重对外发送前保留人工确认；最大的疑问是，一份旧成果是否足够支持新任务的起草。",
+      "product_analysis": {
+        "target_problem": "服务团队要反复交付相似成果，还要处理客户确认和发票。Mycel 尝试把这些事放在一起，减少分散处理的麻烦。",
+        "workflow": "按标语，可提供一份旧成果作为起草起点。介绍还明确：内容送达客户前，需要用户批准；具体操作未说明。",
+        "ai_value": "介绍没提 AI，主要靠起草、业务管理和审批来改善体验，不能确认起草是否使用模型。",
+        "differentiation": "它把起草和后续交付事务放在同一工具里。最可能阻碍使用的是草稿仍需大量修改，省下的时间有限。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "每项工作在一次性沙箱（临时隔离的运行环境）中执行，其中不存放凭据。",
+        "possible_approach": "如果自己做，可以先从旧成果整理交付模板，再生成待审草稿。发送前检查批准记录，通过后才允许发送。",
+        "tradeoffs": "最容易出错的是批准后草稿又被修改，却沿用原批准。客户可能收到用户没确认过的版本。",
+        "unknowns": "沙箱不持有凭据时，系统如何获准操作外部业务服务？"
+      },
+      "transferable_insights": [
+        "做客户交付工具时，可把批准绑定到具体版本；内容修改后重新待审，避免误发。"
+      ],
+      "validation_questions": [
+        "用一份旧成果起草新任务，检查需要人工修改的内容有多少？",
+        "批准后修改草稿，检查系统是否阻止直接发送？"
+      ],
+      "source_tagline": "Bring one past deliverable. Mycel drafts every future one.",
+      "source_description": "Mycel runs the work your service business sells - clients, deliverables, approvals, invoices. Each job runs in a disposable sandbox that never holds a credential, and nothing reaches a client until you approve it. From $299/mo, or self-host free."
     },
     {
       "id": "1250524",
       "name": "Minicart",
       "name_zh": "Minicart",
-      "tagline_zh": "Launch your store. Let AI run the busywork.",
-      "description_zh": "Minicart helps makers, creators, and resellers launch and run an online store without learning ecommerce software. Minicart gives you a store and an AI team to help run it. Sloane manages your storefront, Milo creates marketing, and Logan handles logistics and customer replies. Add products, update inventory, create promotions, ship orders, and more by simply chatting with your team. Just tell your team what you need in plain language, review their work, and keep building your business.",
-      "intro_zh": "",
+      "tagline_zh": "开设你的商店，让 AI 处理繁杂事务。",
+      "description_zh": "Minicart 帮助手作者、创作者和转售商开设并经营网店，无需先学会使用电商软件，并提供分管店面、营销、物流及客户回复的 AI 助手。用户可以通过聊天要求助手添加商品、更新库存、创建促销或处理发货，再审核它们的工作。",
+      "intro_zh": "给想开网店的手作者、创作者和转售商用，通过聊天安排商品、营销和订单事务，再审核结果。",
       "url": "https://www.producthunt.com/products/minicart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ALDPT77U64KO3S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/773fb46c-fbca-4992-a082-17ca032205b4.png?auto=format",
       "votes_count": 227,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用户和任务明确，但实际能代办到哪一步仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把口头要求变成店铺操作，涉及具体且重要的执行风险。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按职责分配助手并让用户审核，可借用于其他业务软件。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是把不熟悉的店铺操作变成可表达、可审核的任务；最影响判断的是，审核能否在错误修改生效前拦住它。",
+      "product_analysis": {
+        "target_problem": "面向想卖货、又不熟悉电商软件的小商家。上架、库存、促销和订单涉及多种操作，理解这些操作本身就需要时间。",
+        "workflow": "用户用日常语言向 AI 团队提出要求，例如添加商品或更新库存，再审核其工作。简介把店面交给 Sloane、营销交给 Milo、物流和客户回复交给 Logan。",
+        "ai_value": "AI 把聊天要求转成店铺经营工作，覆盖内容创建和业务操作；简介没有说明哪些任务能独立完成。",
+        "differentiation": "它把多类经营操作集中到聊天中，减少学习不同操作入口的负担。商家可能不愿换用，因为仍需逐项确认助手是否理解正确。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提供按职责分工的 AI 助手，但没说具体模型或执行技术。",
+        "possible_approach": "如果自己做，可以先把聊天要求整理成商品、数量和操作，再生成待审核清单，确认后执行并展示结果。",
+        "tradeoffs": "最容易出错的是把模糊要求直接执行，例如误解促销适用商品，可能让商家以错误价格卖货。",
+        "unknowns": "审核发生在修改生效之前，还是完成之后？"
+      },
+      "transferable_insights": [
+        "做面向新手的业务软件时，可以按工作职责划分助手，让用户先选要办的事，再提出要求。",
+        "涉及价格或库存修改时，可以先展示变更清单，让用户核对后再执行。"
+      ],
+      "validation_questions": [
+        "提出一个未说明适用商品的促销要求，检查它会不会先追问。",
+        "要求更新一项库存，检查实际记录是否与审核内容一致。"
+      ],
+      "source_tagline": "Launch your store. Let AI run the busywork.",
+      "source_description": "Minicart helps makers, creators, and resellers launch and run an online store without learning ecommerce software. Minicart gives you a store and an AI team to help run it. Sloane manages your storefront, Milo creates marketing, and Logan handles logistics and customer replies. Add products, update inventory, create promotions, ship orders, and more by simply chatting with your team. Just tell your team what you need in plain language, review their work, and keep building your business."
     },
     {
       "id": "1255292",
       "name": "Answers by Context.dev",
       "name_zh": "Answers by Context.dev",
-      "tagline_zh": "Give it a research task + the JSON shape you want back.",
-      "description_zh": "Answers by Context.dev turns web research into a single API call. Define a task and your desired JSON structure. Answers finds sources, researches the web, and returns structured data with source URLs. Build enrichment pipelines, comparison tools, and research agents without stitching together search, scraping, and LLM calls.",
-      "intro_zh": "",
+      "tagline_zh": "给它一个研究任务，以及你想返回的 JSON 数据结构。",
+      "description_zh": "Answers by Context.dev 将网页研究整合为一次接口调用：指定任务和所需的 JSON 结构，它会寻找来源、研究网页，再返回带来源网址的结构化数据。它面向资料补全流程、比较工具和研究助手的开发，省去自行串接搜索、网页抓取和大语言模型调用的工作。",
+      "intro_zh": "给开发资料补全、比较工具和研究助手的人用，把网页研究任务变成带来源网址的结构化结果。",
       "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2IXIUKVNLWEOHZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/53d4db0a-80fb-4093-8379-3bddc539a5e4.jpeg?auto=format",
       "votes_count": 197,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "使用者和省下的整合工作明确，但研究结果的可靠性尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把网页证据准确填入指定字段，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先约定输出结构再执行研究，可借用于需要自动处理结果的工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把研究结果直接交给程序使用，减少中间整理；但来源网址能否支撑对应字段，最影响能否放心自动处理。",
+      "product_analysis": {
+        "target_problem": "开发资料补全或比较工具时，网页信息还得变成程序能用的字段。以前自行搭建需要串接搜索、抓取和模型调用，现在可以交给一个接口完成。",
+        "workflow": "用户提交研究任务和 JSON（按字段组织数据的格式）结构。接口（软件之间传数据的连接方式）返回研究结果及来源网址。",
+        "ai_value": "简介提到可省去自行串接 AI 模型调用，但没说明 AI 具体负责哪些研究步骤。",
+        "differentiation": "省的是多项服务的整合工作。最可能让人犹豫的是：返回字段虽然整齐，内容却未必有充分依据。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1253620",
-      "name": "Morsa Signals",
-      "name_zh": "Morsa Signals",
-      "tagline_zh": "GTM and AI visibility workflows for developer tools",
-      "description_zh": "Morsa Signals gives developer-tool founders and GTM teams practical GTM and SEO/GEO workflows in one place. Find relevant developers for scaled outreach, identify potential first users and early adopters, audit how AI search systems understand your site, and get a first read on competitors worth tracking. Each workflow starts from your actual product and produces a focused, actionable result instead of a generic report or database.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/morsa-signals?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CT33HQ2HPXSVR4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6487dd6e-3b97-4a1e-9c48-b43835631d87.png?auto=format",
-      "votes_count": 168,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持一次接口调用、指定输出结构，并返回来源网址，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先按任务搜索并读取网页，再提取字段、保留出处，最后检查输出是否符合指定结构。",
+        "tradeoffs": "最容易出错的是把网页内容填进字段时误解原意。格式即使正确，后续程序也可能继续使用错误数据。",
+        "unknowns": "找不到依据的字段会留空，还是仍然给出答案？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做需要批量处理研究结果的工具时，可以让用户先定义字段，再按字段返回数据，减少后续整理。"
+      ],
+      "validation_questions": [
+        "抽查一个返回字段，来源网页是否确实支持该值？",
+        "指定一个公开资料中不存在的字段，检查是否明确返回缺失？"
+      ],
+      "source_tagline": "Give it a research task + the JSON shape you want back.",
+      "source_description": "Answers by Context.dev turns web research into a single API call. Define a task and your desired JSON structure. Answers finds sources, researches the web, and returns structured data with source URLs. Build enrichment pipelines, comparison tools, and research agents without stitching together search, scraping, and LLM calls."
     },
     {
       "id": "1249800",
       "name": "Harbor",
       "name_zh": "Harbor",
-      "tagline_zh": "The Evernote alternative that puts its price in writing",
-      "description_zh": "A private second brain: notes, scans, PDFs and recordings, searchable with OCR, handwriting included. One-step Evernote import. Native on Mac, Windows, iPhone, iPad, Android, web and CLI. Full export on every plan. Price locked 3 years, then a 10%/yr cap.",
-      "intro_zh": "",
+      "tagline_zh": "把价格承诺写明的 Evernote 替代工具",
+      "description_zh": "Harbor 用于保存笔记、扫描件、PDF 和录音，支持文字识别搜索，包括手写内容，并提供一步导入 Evernote 的功能。覆盖 Mac、Windows、iPhone、iPad、Android、网页和命令行；所有套餐均可完整导出，价格锁定三年，此后每年涨幅不超过 10%。",
+      "intro_zh": "给想迁出 Evernote 或集中保存资料的人用，把笔记、文档和录音放在一起，并搜索图片中的文字。",
       "url": "https://www.producthunt.com/products/harbor-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IOKDQXULEPEW4L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/627fbd88-2cbe-4321-8f9e-181434e7e584.jpeg?auto=format",
       "votes_count": 150,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "迁移、资料检索和价格预期都有明确安排，但实际可用性未核验。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "手写内容识别有具体难点，但介绍未提供识别效果。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "导入、完整导出和明确涨价上限可供订阅型资料工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重所有套餐都能完整导出，给长期资料留了出口；但导出后能否在其他工具中继续使用，仍需确认。",
+      "product_analysis": {
+        "target_problem": "已有 Evernote 资料、又想换工具的人，需要搬走旧内容，也担心迁入后难以退出或持续涨价。",
+        "workflow": "导入 Evernote 资料，或保存笔记、扫描件、PDF 和录音，再搜索其中可识别的文字。介绍没有说明具体操作。",
+        "ai_value": "介绍没提 AI，主要靠文字识别、资料集中保存和导入导出来改善体验。",
+        "differentiation": "它把完整导出和价格期限写进承诺，可能减少长期使用的顾虑。最可能阻止迁移的是旧资料能否完整搬过来。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 OCR（从图片中识别文字），包括手写内容，并提供多平台客户端和 CLI（命令行工具）。",
+        "possible_approach": "如果自己做，可以先保存原文件，再识别扫描件和 PDF 图片中的文字，建立搜索目录，并让结果指回原件。",
+        "tradeoffs": "最容易出错的是手写识别：关键词一旦认错，用户可能搜不到已经存入的资料。",
+        "unknowns": "“私密”具体指什么，介绍没有说明，不能据此认定只有用户本人能读取内容。"
+      },
+      "transferable_insights": [
+        "做长期存资料的订阅工具时，可以同时提供完整导出和明确涨价上限，让用户在迁入前知道如何退出、费用如何变化。"
+      ],
+      "validation_questions": [
+        "导入一组包含附件的 Evernote 笔记后，内容是否完整保留？",
+        "用自己常见的手写扫描件搜索关键词，能否找到对应原件？"
+      ],
+      "source_tagline": "The Evernote alternative that puts its price in writing",
+      "source_description": "A private second brain: notes, scans, PDFs and recordings, searchable with OCR, handwriting included. One-step Evernote import. Native on Mac, Windows, iPhone, iPad, Android, web and CLI. Full export on every plan. Price locked 3 years, then a 10%/yr cap."
     },
     {
       "id": "1241585",
       "name": "Termphin",
       "name_zh": "Termphin",
-      "tagline_zh": "SSH client with sessions that never drop.",
-      "description_zh": "SSH that survives a locked phone, a lost signal or a switch to mobile data. A small agent holds the shell open on the server and puts you back on the same screen. htop and vim draw properly. SFTP, keys, snippets and tunnels included, free.",
-      "intro_zh": "",
+      "tagline_zh": "会话不中断的 SSH 客户端",
+      "description_zh": "Termphin 的介绍称，手机锁屏、信号丢失或切换移动网络后，服务器上的小程序会保持命令行会话，让用户回到原来的屏幕，并正确显示 htop 和 vim。它还免费提供 SFTP 文件传输、密钥、命令片段和隧道功能。",
+      "intro_zh": "给需要用手机远程管理服务器的人用，在锁屏或网络变化后接回原来的命令行会话。",
       "url": "https://www.producthunt.com/products/termphin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BIYJFP53BWOFNH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/faf4cd2a-0ff1-4f76-ad74-151f6ff5490a.png?auto=format",
       "votes_count": 123,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "移动连接中断的场景明确，但恢复效果未经验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "服务器保留会话后，如何正确恢复交互画面是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把任务留在服务器、让手机重新接入的做法可供借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是网络变化后不用重新找回操作现场；最影响判断的是它能否稳定恢复正在交互的程序，现有缓存资料不足以确认。",
+      "product_analysis": {
+        "target_problem": "用手机管理服务器的人，可能因锁屏或换网中断操作。Termphin 要减少重新连接后找回工作现场的麻烦。",
+        "workflow": "通过 SSH（远程登录服务器的方式）操作命令行。介绍称，服务器上的小程序保留会话，手机恢复连接后回到同一屏；具体配置步骤未说明。",
+        "ai_value": "介绍没提 AI，主要靠服务器保留会话来改善体验。",
+        "differentiation": "它把保留现场和重新接回放进客户端体验里。需要在服务器运行额外程序，可能让没有安装权限的人无法使用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1255982",
-      "name": "The 101 Plays Itself",
-      "name_zh": "The 101 Plays Itself",
-      "tagline_zh": "Five lanes of LA highway turned into an instrument",
-      "description_zh": "A live Caltrans traffic camera on the US-101 in Studio City, playing itself as music in your browser. Real traffic on the southbound 101, this minute. Every car that crosses the line plays a note, and the music is being made in your browser as they go past.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/the-101-plays-itself?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VP6G6OIHSON2PP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cde039e0-75c6-49f4-93b8-03a1f511a2db.png?auto=format",
-      "votes_count": 106,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到服务器端小程序保持命令行会话，并称可正确显示 htop 和 vim 这类交互程序。",
+        "possible_approach": "如果自己做，可以先让服务器程序独立维持命令行，再让手机凭身份验证接回，并恢复屏幕内容。",
+        "tradeoffs": "最容易出错的是恢复交互画面。如果光标位置与服务器实际状态不一致，用户可能在错误位置编辑文本。",
+        "unknowns": "服务器端程序需要什么安装权限，介绍没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做容易断网的远程操作工具时，可以让任务留在服务器继续运行，客户端恢复连接后接回原任务。"
+      ],
+      "validation_questions": [
+        "运行长任务时锁屏再解锁，检查是否仍接回原会话。",
+        "在 vim 编辑途中切换网络，检查恢复后的光标位置是否正确。"
+      ],
+      "source_tagline": "SSH client with sessions that never drop.",
+      "source_description": "SSH that survives a locked phone, a lost signal or a switch to mobile data. A small agent holds the shell open on the server and puts you back on the same screen. htop and vim draw properly. SFTP, keys, snippets and tunnels included, free."
     },
     {
       "id": "1255249",
       "name": "Launchie 1.6.1",
       "name_zh": "Launchie 1.6.1",
-      "tagline_zh": "Launchpad Replacement for MacOS 27 Golden Gate",
-      "description_zh": "Apple removed Launchpad in macOS 26 and kept it out of 27. Launchie brings the grid back: arrange apps your way, unlimited folders, Spaces for separate app pages, and instant search. Free to use, Pro is a one-time purchase. Mac App Store and Homebrew.",
-      "intro_zh": "",
+      "tagline_zh": "适用于 macOS 27 Golden Gate 的 Launchpad 替代工具",
+      "description_zh": "缓存简介称，Apple 在 macOS 26 移除 Launchpad 后，macOS 27 也未恢复；Launchie 提供应用网格、自定义排列、不限数量的文件夹、独立应用页面 Spaces 和搜索。产品可免费使用，Pro 为一次性购买，并通过 Mac App Store 和 Homebrew 提供。",
+      "intro_zh": "给习惯用应用网格的 Mac 用户，用自定义排列、文件夹和独立页面整理应用，再搜索打开。",
       "url": "https://www.producthunt.com/products/launchie?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/6NNIQRLK2ENINI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8220f27c-5e39-4826-988f-fa4ae65586a8.jpeg?auto=format",
       "votes_count": 104,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户和整理应用的用途明确，但免费版限制不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "应用变动后如何保留排列值得关注，但实现资料有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "用独立页面分开不同用途的应用，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是用户能按自己的位置习惯找应用。最影响判断的是缓存中的系统版本和 Launchpad 移除说法未经核验，不能据此认定所有对应版本用户都需要替代品。",
+      "product_analysis": {
+        "target_problem": "习惯按图标位置找应用的 Mac 用户，会需要一个可自行整理的入口。应用较多时，全放在一页可能难找。",
+        "workflow": "安装后，在网格中排列应用，用文件夹归类，再用 Spaces 分成独立页面。需要找应用时使用搜索；简介称搜索即时，未给出实测数据。",
+        "ai_value": "介绍没提 AI，主要靠应用排列、分类和搜索改善体验。",
+        "differentiation": "它把熟悉的网格入口和自定义分组放在一起。用户可能不愿迁入，因为重新整理应用仍要花时间。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1247275",
-      "name": "ManyPI",
-      "name_zh": "ManyPI",
-      "tagline_zh": "10x your revenue by finding your ideal customers",
-      "description_zh": "Define your ideal customer. ManyPI finds them on the live web, verifies their email, validates their pain points and emotional buying triggers, then sends hyper-personalized outreach that turns those signals into sales.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/manypi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/2ED5RL6VLMMHIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/81dd3a75-7cc0-493c-ac99-f85a3753c464.jpeg?auto=format",
-      "votes_count": 99,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取已安装应用及图标，再保存各应用所属的文件夹、页面和位置，最后加入按名称搜索并打开应用的功能。",
+        "tradeoffs": "最容易出错的是应用更新或移动后，仍把它认作原来的应用。认错可能造成重复图标，或让用户重新排列。",
+        "unknowns": "免费版与 Pro 分别包含哪些功能，简介没有说明。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做工具入口或收藏管理时，可以让用户把不同用途的项目放进独立页面，避免所有内容挤在一个列表里。"
+      ],
+      "validation_questions": [
+        "更新一个已归类的应用后，原来的文件夹和位置是否保留？",
+        "只用免费版，能否完成网格排列、文件夹归类和 Spaces 分页？"
+      ],
+      "source_tagline": "Launchpad Replacement for MacOS 27 Golden Gate",
+      "source_description": "Apple removed Launchpad in macOS 26 and kept it out of 27. Launchie brings the grid back: arrange apps your way, unlimited folders, Spaces for separate app pages, and instant search. Free to use, Pro is a one-time purchase. Mac App Store and Homebrew."
     },
     {
       "id": "1255756",
       "name": "Epismo OS",
       "name_zh": "Epismo OS",
-      "tagline_zh": "Keep your work when you switch AI tools",
-      "description_zh": "Epismo keeps your team’s AI work in a Case: the result, the decisions behind it, reviews, and the next step. Switch between AI tools or teammates without a re-brief. Auto review gives a saved result a fresh review, flags issues, and leaves the original unchanged.",
-      "intro_zh": "",
+      "tagline_zh": "切换 AI 工具时，保留已有工作",
+      "description_zh": "Epismo 把团队的 AI 工作保存在一个 Case（工作档案）里，包括结果、决策依据、评审和下一步，方便切换工具或交接同事时继续工作。自动评审会重新检查已保存的结果、标出问题，并保留原文不变。",
+      "intro_zh": "给用 AI 协作的团队，把结果和决策依据存成工作档案，供换工具或交接同事时接着做。",
       "url": "https://www.producthunt.com/products/epismo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BZ6U3VWQFG6UJL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/44453a5b-56bb-4af0-9b1c-8908f3476129.jpeg?auto=format",
       "votes_count": 93,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对换工具和交接时重复交代背景的问题，但实际接续效果未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何保留足够的决策背景，让下一次工作接得上，是具体的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把结果、依据和评审一起保存，可借用于需要反复交接的协作产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是保留决策理由，而不只留一份结果；最大的疑问是这些背景能否被下一工具实际用上。",
+      "product_analysis": {
+        "target_problem": "团队换 AI 工具或接手同事的任务时，需要知道已有结论和理由。只有最终结果，可能还得补问前面的取舍。",
+        "workflow": "把结果、决策依据、评审和下一步存入 Case，再用于换工具或交接。自动评审可重新检查已保存的结果，留下问题标记。",
+        "ai_value": "介绍明确提到自动评审，但没说明由什么技术执行。它承担的是复查已有结果，不是直接改写原文。",
+        "differentiation": "它把交接背景和结果放在一起，目标是减少重复说明。若还需手动补齐大量背景，团队可能不愿迁入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "自动评审会标出问题并保留原文；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先按固定字段保存结果、理由和待办，再把这些内容交给下一工具；复查意见单独保存。",
+        "tradeoffs": "最难的是保存足够的决策背景。若漏掉关键限制，下一工具可能重做已否定的方案，用户还得重新解释。",
+        "unknowns": "Case 如何交给其他 AI 工具，是否需要手动搬运，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做交接或审批产品时，可把“为什么这样决定”和结果一起存，方便接手者理解取舍。",
+        "做自动检查时，可把意见附在原文旁，避免复查覆盖已有成果。"
+      ],
+      "validation_questions": [
+        "把含关键限制的任务换到另一 AI 工具，检查它能否沿用这些限制继续做。",
+        "对已保存结果运行自动评审，检查原文是否保持不变。"
+      ],
+      "source_tagline": "Keep your work when you switch AI tools",
+      "source_description": "Epismo keeps your team’s AI work in a Case: the result, the decisions behind it, reviews, and the next step. Switch between AI tools or teammates without a re-brief. Auto review gives a saved result a fresh review, flags issues, and leaves the original unchanged."
+    },
+    {
+      "id": "1253620",
+      "name": "Morsa Signals",
+      "name_zh": "Morsa Signals",
+      "tagline_zh": "面向开发者工具的市场推广与 AI 搜索可见性工作流",
+      "description_zh": "Morsa Signals 为开发者工具创始人和市场团队集中提供推广、搜索引擎优化及 AI 搜索可见性相关流程，包括寻找适合联系的开发者、潜在首批用户和早期采用者。它还支持检查 AI 搜索系统如何理解网站、初步筛选值得关注的竞品；简介强调各流程从实际产品出发，给出聚焦的行动结果。",
+      "intro_zh": "给开发者工具创始人和市场团队用，帮助寻找早期用户、检查 AI 搜索如何理解网站，并筛选竞品。",
+      "url": "https://www.producthunt.com/products/morsa-signals?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CT33HQ2HPXSVR4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6487dd6e-3b97-4a1e-9c48-b43835631d87.png?auto=format",
+      "votes_count": 168,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找首批用户的需求清楚，但匹配质量和结果样例未提供。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何把产品描述变成可靠的开发者匹配条件，是具体难点。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "从具体产品出发、按任务限定结果的做法可借用。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把找人任务限定到具体产品，可能减少无关筛选；最影响判断的是推荐依据是否足以支持实际联系。",
+      "product_analysis": {
+        "target_problem": "开发者工具团队启动推广时，需要判断先联系谁、网站是否被正确理解，以及关注哪些竞品。难处是把宽泛的市场信息变成下一步行动。",
+        "workflow": "围绕自己的产品，使用找开发者、查 AI 搜索理解或筛竞品的流程，取得对应结果。介绍没说明具体输入和操作方式。",
+        "ai_value": "AI 搜索是检查对象。简介没有说明是否用 AI 寻人、分析网站或生成建议，不能据此认定它是 AI 自动推广工具。",
+        "differentiation": "它把几类推广任务放在一起，并强调结果围绕具体产品。最可能让人不愿换用的原因，是尚不清楚推荐对象为何适合自己。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让团队填写产品用途和目标开发者，再用这些条件筛选候选人，并为每个结果附上匹配依据。",
+        "tradeoffs": "最容易错在把技术话题相关当成有使用需求。用户可能联系了很多人，却找不到愿意试用的人。",
+        "unknowns": "候选开发者来自哪里、信息是否仍有效，介绍未说明。"
+      },
+      "transferable_insights": [
+        "做面向特定行业的信息工具时，可以先收集用户的产品背景，再按单项任务输出少量带理由的结果，减少用户自行筛选。"
+      ],
+      "validation_questions": [
+        "抽查推荐开发者：公开信息是否支持其确实有对应使用需求？",
+        "用一个熟悉的网站测试：AI 搜索理解检查能否指出可复现的具体误解？"
+      ],
+      "source_tagline": "GTM and AI visibility workflows for developer tools",
+      "source_description": "Morsa Signals gives developer-tool founders and GTM teams practical GTM and SEO/GEO workflows in one place. Find relevant developers for scaled outreach, identify potential first users and early adopters, audit how AI search systems understand your site, and get a first read on competitors worth tracking. Each workflow starts from your actual product and produces a focused, actionable result instead of a generic report or database."
+    },
+    {
+      "id": "1255982",
+      "name": "The 101 Plays Itself",
+      "name_zh": "The 101 Plays Itself",
+      "tagline_zh": "把洛杉矶高速公路的五条车道变成乐器",
+      "description_zh": "它使用加州交通局位于 Studio City 的 US-101 实时交通摄像头，把南向车流变成音乐。每辆车越过指定线时都会触发一个音符，音乐在浏览器中生成。",
+      "intro_zh": "给想听车流生成音乐的人用：打开浏览器，让实时公路画面中的车辆经过变成音符。",
+      "url": "https://www.producthunt.com/products/the-101-plays-itself?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VP6G6OIHSON2PP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cde039e0-75c6-49f4-93b8-03a1f511a2db.png?auto=format",
+      "votes_count": 106,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "体验目的明确，但持续聆听的吸引力尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "车辆越线如何准确触发一次音符，是具体且值得拆解的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "现实事件触发声音的做法可借鉴，但适用范围取决于声音是否有意义。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是声音有可见来源，观众容易理解这场音乐如何发生。最大的疑问是它能否从一次有趣的演示变成愿意反复打开的体验。",
+      "product_analysis": {
+        "target_problem": "它面向对声音实验和城市车流感兴趣的人。场景是把交通画面听成音乐，介绍没有显示它要解决效率问题。",
+        "workflow": "用户在浏览器中观看实时车流；车辆越过指定线时触发音符，音乐随车流生成。",
+        "ai_value": "介绍没提 AI，主要靠车辆经过与音符触发的对应关系来形成体验。",
+        "differentiation": "它把观看车流变成视听体验，无需用户逐个触发音符。能否持续吸引人，可能取决于生成的音乐是否耐听。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "使用 Caltrans 实时交通摄像头，车辆越线触发音符，音乐在浏览器中生成。",
+        "possible_approach": "如果自己做，可以先读取交通画面，连续跟踪车辆位置，再在车辆越线时触发浏览器发声。",
+        "tradeoffs": "难点是避免把同一辆车重复计数，否则一次经过会连响多个音符，声音与画面对不上。",
+        "unknowns": "介绍没说车辆越线是在哪里、用什么方法识别的。"
+      },
+      "transferable_insights": [
+        "做展览或环境声音作品时，可以让可见事件直接触发声音，让观众看懂声音从哪里来。"
+      ],
+      "validation_questions": [
+        "选一辆车连续观察，它越线时是否只触发一次音符？",
+        "连续听几分钟，车流变化是否能带来可辨认的音乐变化？"
+      ],
+      "source_tagline": "Five lanes of LA highway turned into an instrument",
+      "source_description": "A live Caltrans traffic camera on the US-101 in Studio City, playing itself as music in your browser. Real traffic on the southbound 101, this minute. Every car that crosses the line plays a note, and the music is being made in your browser as they go past."
+    },
+    {
+      "id": "1247275",
+      "name": "ManyPI",
+      "name_zh": "ManyPI",
+      "tagline_zh": "找到理想客户，让营收增长至十倍（产品方宣传）",
+      "description_zh": "定义理想客户后，ManyPI 会在实时网页中寻找匹配对象，验证邮箱，并判断其痛点和情绪性购买动因。它还会发送高度个性化的开发消息；简介宣称能将这些信号转化为销售，实际效果未经核验。",
+      "intro_zh": "给需要主动找客户的销售人员用，按理想客户条件寻找对象、验证邮箱并发送个性化开发消息。",
+      "url": "https://www.producthunt.com/products/manypi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/2ED5RL6VLMMHIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/81dd3a75-7cc0-493c-ac99-f85a3753c464.jpeg?auto=format",
+      "votes_count": 99,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找客户到发送消息的用途清楚，但匹配准确度和销售收益待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "从网页判断购买动因有具体难点，但介绍没有说明判断依据。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先找客户信号再写消息的做法可借鉴，成立条件是信号可靠。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是用客户线索组织联系理由，减少销售准备工作；但购买动因是否有可靠证据，直接影响消息能不能放心发。",
+      "product_analysis": {
+        "target_problem": "主动获客的销售需要找到合适的人，还要判断联系理由。找得到邮箱，不代表知道对方为什么会买。",
+        "workflow": "用户先定义理想客户。ManyPI 再从网页找人、验证邮箱、判断痛点和购买动因，最后发送个性化开发消息。",
+        "ai_value": "介绍没提 AI，主要靠找人、邮箱验证和个性化发送来省事；如何判断购买动因没有说明。",
+        "differentiation": "把客户筛选与消息发送放在一起，可能减少信息搬运。最可能让人犹豫的是自动发送前能否审核内容。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只提到实时网页查找和邮箱验证，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把客户条件变成搜索条件，再收集网页证据、验证邮箱，最后依据证据写消息并让用户审核后发送。",
+        "tradeoffs": "最容易错在把网页表述当成真实购买动因。猜错后写进消息，可能让收件人觉得被冒犯。",
+        "unknowns": "判断痛点时，能否展示对应的网页证据？"
+      },
+      "transferable_insights": [
+        "做销售辅助产品时，可把每条联系理由与原始网页并排展示，让销售确认依据后再发送。"
+      ],
+      "validation_questions": [
+        "抽查一批痛点判断，原网页是否真的支持这些结论？",
+        "自动发送前，能否逐条审核并拦下不合适的消息？"
+      ],
+      "source_tagline": "10x your revenue by finding your ideal customers",
+      "source_description": "Define your ideal customer. ManyPI finds them on the live web, verifies their email, validates their pain points and emotional buying triggers, then sends hyper-personalized outreach that turns those signals into sales."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

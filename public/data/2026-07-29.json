@@ -1,357 +1,510 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-30T18:14:26+08:00",
+  "generated_at": "2026-11-07T15:40:19+00:00",
   "generation_error": false,
   "products": [
-    {
-      "id": "1188822",
-      "name": "SoundGate Guitar",
-      "name_zh": "声闸吉他",
-      "tagline_zh": "实时聆听你演奏的AI音乐导师",
-      "description_zh": "SoundGate Guitar是一款真的能听你弹琴的AI陪练。它用零延迟的音符识别，在交互式指板上给出即时的视觉反馈。内置的AI导师会分析你的演奏，提供个性化指导、定制练习，还能解答各种吉他问题。",
-      "intro_zh": "一个能实时听你弹吉他、马上用动画告诉你弹对弹错的AI陪练。想学吉他但没人纠正手型、总练错不自知的初学者，就像多了个随身吉他老师。",
-      "url": "https://www.producthunt.com/products/soundgate-guitar-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MMIYN6ZQTIOL72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/afc2367d-037a-4fbe-939f-f515e92a1dea.png?auto=format",
-      "votes_count": 423,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "有丰富的画面操作，可以展示实时音符识别、交互式指板动画、错误纠正高亮、AI导师对话等，前后对比强烈，视觉冲击力足。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "学吉他的人群广泛，完全不需要技术背景，打开软件对着弹就行，概念简单，使用门槛极低。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt日榜第2名，423票，热度很高，话题性强，戳中大量吉他自学者痛点。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "「对着手机弹吉他，AI秒评你弹得怎么样」这个练琴App让我惊了",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "先拍一段没辅助时自己弹错不自知的画面，然后打开App展示实时音符检测、错误变红、正确变绿；接着展示AI生成个性化练习计划的过程；最后录一段使用者从磕巴到流畅的对比。节奏轻快，突出'零延迟'和'像真人老师'的体验感。",
-        "target_audience": "自学吉他的新手、想提高练习效率的进阶玩家、为孩子寻找陪练工具的家长"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品可视化效果极佳，概念简单，热度很高，非常适合做成吸引眼球的演示视频。"
-    },
-    {
-      "id": "1138570",
-      "name": "Denovo",
-      "name_zh": "Denovo",
-      "tagline_zh": "把灵感写成的应用，一键变成自动印钞机",
-      "description_zh": "你随手搓了个AI应用，但怎么赚钱？Denovo帮你从想法直达收入。它会立刻给你搭好带支付功能的网站，自动给海量客户发邮件、投广告，你只要动动嘴问一句“生意怎么样”，就能看到进账和下一步计划。",
-      "intro_zh": "给AI做的小程序配上自动收钱和拉客的保姆级工具箱。已经有1.5万个生意在这儿跑起来，适合手里有Demo但不知道怎么变现的程序员和独立开发者。",
-      "url": "https://www.producthunt.com/products/denovo-business-manager?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/N632XKIQZO65KB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8ac74405-ce8f-4b0b-b9cf-f386c2526be9.png?auto=format",
-      "votes_count": 336,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "纯浏览器操作过程，从空荡荡的后台到自动建站、发邮件、看收入仪表盘，前后对比极强，每一步都有亮眼的UI反馈，非常利于录屏展示效果。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "主打“用嘴问生意”这种自然语言交互，把技术细节隐藏得很深，但前提是需要自己有个做好的应用，对完全不懂代码的普通人仍有一点点门槛。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日第3名，票数336，话题性强，切中开发者变现刚需，评论区热议不断。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我写了个弱智App，第二天醒来账户多了多少钱？",
-        "angle": "开箱体验",
-        "shooting_tips": "先给观众看一个简陋的demo应用界面，然后全程录屏Denovo操作：粘贴链接→自动生成官网→连Stripe→查看邮件和广告自动发送→最后登录后台看收入曲线。重点把“什么都没做就已开始拉客”的戏剧感拍出来，节奏前半段疑惑，后半段狂喜。",
-        "target_audience": "会一点代码想搞副业的上班族、独立开发者、AI创业者"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作过程充满视觉反馈，普通人几乎可以秒懂价值，而且排名高、痛点扎心，天然适合拍成爆款开箱视频。"
-    },
-    {
-      "id": "1208746",
-      "name": "Totem",
-      "name_zh": "图腾",
-      "tagline_zh": "让你收藏的推文不再吃灰，真正读完它们",
-      "description_zh": "你在Twitter上收藏了一堆好帖子，然后就再也没看过。图腾把你的新标签页变成一个无干扰的阅读空间，就像用Substack看文章一样。可以全宽打开长帖、高亮重点、搜索所有内容，还能导出，让你的书签不再只是摆设。",
-      "intro_zh": "把推特上收藏的帖子变成一本整洁的杂志，每次打开新标签就能接着读。收藏了再也不看的重度推特用户，终于能清空书签了。",
-      "url": "https://www.producthunt.com/products/totem-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XYVSXCXMI3M4QN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/441b7702-09e3-41c9-9b29-2a4a46324a49.png?auto=format",
-      "votes_count": 149,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可直观展示浏览器新标签页的阅读界面、高亮和搜索操作，前后对比效果强，适合录屏演示，但视觉冲击力偏静态。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "浏览器插件一键安装，打开新标签页即用，概念简单，完全不需要技术背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第7，149票，属于热门但非顶尖话题。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Twitter收藏夹吃灰终结者！新标签页直接读长贴，再也忘不掉",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏展示安装图腾插件前后的浏览器新标签页变化，突出从杂乱书签到整洁杂志的对比。演示打开一条长帖、划动高亮、搜索关键词，强调无干扰阅读的沉浸感。节奏：开头用‘收藏了100条推文却从来没看过’的痛点引入，然后快速展示解决方案，最后给出实际使用效果。",
-        "target_audience": "Twitter重度用户、经常收藏帖子但从不回顾的人、内容创作者和知识工作者。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面直观易展示，普通人秒懂，热度不错，适合拍开箱体验视频。"
-    },
     {
       "id": "1200627",
       "name": "Prelint",
       "name_zh": "Prelint",
-      "tagline_zh": "防止 AI 写出跑偏的代码，守住产品方向",
-      "description_zh": "AI 帮你 10 倍速写代码，Prelint 负责把关每行代码是否跑偏。它会对照你的架构决策、文档和历史决策自动审查每个 PR，在产品逻辑悄悄漂移之前就把问题揪出来。在用多个 AI 审查工具的团队里，合并前修复的 bug 有近 40% 都是它发现的。",
-      "intro_zh": "一个自动审查代码 PR 的工具，专盯 AI 生成代码时悄悄跑偏的产品逻辑。经常用 Copilot、Cursor 这类 AI 写代码的开发团队会需要它，免得代码写得快，后期改得糟心。",
+      "tagline_zh": "防止 AI 生成的代码偏离产品方向",
+      "description_zh": "Prelint 会对照架构决策、文档和历史决策，自动审查每个 PR（提交合并前的代码变更），找出偏离产品逻辑的问题。缓存简介还声称，在使用多个 AI 审查工具的团队里，合并前修复的 bug 近 40% 由它发现，但统计口径未经核验。",
+      "intro_zh": "给使用 AI 写代码的开发团队，在代码合并前对照项目文档和既有决策，检查改动是否偏离约定。",
       "url": "https://www.producthunt.com/products/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/7JDFCGARSHV32N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/452c6376-5262-4400-929e-0b9befe4b96e.png?auto=format",
       "votes_count": 555,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要是代码审查界面和 PR 评论区的文字交互，画面变化少，视觉冲击力弱，难以做出强观感的视频内容。"
+        "product_value": {
+          "score": 4,
+          "reason": "审查对象和参考依据明确，但实际发现问题的能力尚未核验。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "受众严格限定为软件开发者，需要理解 Git、PR、ADR 等专业概念，普通用户完全看不懂，也没有使用场景。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断历史决策是否仍然有效，是具体且影响结果的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第 1，票数高，话题围绕着 AI 编码和工程实践，在开发者群体中有很高的关注度。"
+        "transferability": {
+          "score": 4,
+          "reason": "把既有约定带入变更审查，可以借用于其他有明确规则的工作。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI 写代码太快反而会翻车？给 PR 装个“产品方向过滤器”",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示一个典型的 PR 场景：先演示 AI 写了一段看似正确但违背架构决策的代码，然后 Prelint 自动在评论区捕获这个偏差，最后人工确认修复。用拆分左右对比的方式突出“有没有 Prelint 的差别”，节奏可以紧凑些，重点展示审查评论的高亮和关联文档的引用。",
-        "target_audience": "技术团队中的开发者、架构师、技术负责人，尤其是已经在使用 Copilot/Cursor 等 AI 编程工具的工程师。"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然视觉效果平淡，但切中了 AI 编码的热门痛点，对开发者有很强的实际价值，适合在程序员圈层传播。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把项目决策带进代码审查；最影响判断的是，它能否认出已经失效的约定。",
+      "product_analysis": {
+        "target_problem": "使用 AI 写代码的团队，需要检查改动是否违背项目约定。代码即使能运行，也可能偏离已有的产品决策。",
+        "workflow": "团队提交 PR 后，Prelint 自动对照架构决策、文档和历史决策审查改动，指出可能跑偏的地方。",
+        "ai_value": "它面向 AI 编码后的审查环节，把项目约定作为判断依据；简介未说明审查本身如何使用 AI。",
+        "differentiation": "它把检查范围延伸到是否符合项目决策。团队可能不愿采用的原因是：文档过时会带来额外的误报处理。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说会自动审查 PR，并对照架构决策、文档和历史决策，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先找出与改动相关的决策，再让模型比较是否冲突，并附上对应文档供人复核。",
+        "tradeoffs": "最难的是分清仍有效与已废弃的决策。选错依据，就可能把合理改动标成问题。",
+        "unknowns": "团队如何告诉它哪些决策已经被替代？"
+      },
+      "transferable_insights": [
+        "做内容或配置审查工具时，可以让每条问题附上所违反的具体约定，方便用户核对。"
+      ],
+      "validation_questions": [
+        "提交一处明确违反现行决策的改动，检查它能否指出冲突。",
+        "提交一处符合新决策、但违背旧决策的改动，检查是否误报。"
+      ],
+      "source_tagline": "防止 AI 写出跑偏的代码，守住产品方向",
+      "source_description": "AI 帮你 10 倍速写代码，Prelint 负责把关每行代码是否跑偏。它会对照你的架构决策、文档和历史决策自动审查每个 PR，在产品逻辑悄悄漂移之前就把问题揪出来。在用多个 AI 审查工具的团队里，合并前修复的 bug 有近 40% 都是它发现的。"
     },
     {
       "id": "1208194",
       "name": "/mission for Claude Code",
-      "name_zh": "Mission for Claude Code",
-      "tagline_zh": "给 Claude Code 下达任务，一键召唤 AI 智能体军团",
-      "description_zh": "一个免费的 Claude Code 插件，专为跨会话的大型开发工作设计。输入 /mission 就能把目标变成实时图谱，调度 Claude Code 和 Codex 多个 AI 工人，检查结果后还能继续推进。自带 BYOK 模式，通过 OpenRouter 接入 Kimi、GLM 等更多模型。",
-      "intro_zh": "在命令行里给 Claude Code 装个“任务指挥部”，一句话生成多个 AI 智能体帮你干活。适合总被复杂开发任务折磨的程序员和独立开发者，一次启动就能组团攻关。",
+      "name_zh": "/mission for Claude Code",
+      "tagline_zh": "给 Claude Code 下达任务，调度多个 AI 助手协作",
+      "description_zh": "这是一个免费的 Claude Code 插件，面向跨会话的大型开发任务，可将目标变成实时图谱，调度 Claude Code 和 Codex，并在检查结果后继续推进。它支持 BYOK（使用自己的模型服务密钥），通过 OpenRouter 接入 Kimi、GLM 等模型。",
+      "intro_zh": "给使用 Claude Code 做大型开发的开发者用，把目标变成任务图谱，调度多个 AI 助手推进工作。",
       "url": "https://www.producthunt.com/products/spine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/P3XBZI4J2DWVBF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e9bcc260-70db-464a-a2e0-24b5cbccdd55.png?auto=format",
       "votes_count": 300,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要操作在终端和代码界面，虽然有实时图谱可视化，但视觉冲击力弱，画面单调，缺乏大众感兴趣的演示效果。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "概念高度技术化，需要了解 Claude Code、智能体、BYOK、OpenRouter 等，普通互联网用户几乎无法直观理解，使用门槛极高。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日排名第4，票数300，在开发者圈有一定话题性，但大众传播热度一般。"
+          "reason": "跨会话开发的场景明确，但能否减少人工协调尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个助手如何衔接任务、检查后继续推进，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把目标和进度放进同一张图的做法，可借给长任务工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "一行命令变出 AI 打工团！/mission 把 Claude Code 玩成了“智能体工厂”",
-        "angle": "教程演示",
-        "shooting_tips": "录制终端操作过程，突出输入 /mission 后实时图谱的生成变化，对比多个任务队列的调度效果，穿插结果审查的快放，节奏紧凑，3分钟内讲清核心循环。",
-        "target_audience": "已有 AI 编程工具使用经验的前端 / 全栈开发者，效率工具爱好者"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "纯开发者向的高门槛工具，画面表现力不足，难以吸引普通观众，仅适合硬核技术类垂直内容。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是检查后还能接着推进，减少长任务反复交代背景的可能；但图谱是否保存了足够的工作依据，仍是关键疑问。",
+      "product_analysis": {
+        "target_problem": "做跨会话大型开发的开发者，需要持续掌握目标、进度和检查结果。任务一多，下一步交给谁、依据什么继续就可能难以跟踪。",
+        "workflow": "输入 /mission 提交目标，插件生成实时图谱并调度多个 AI 助手。检查结果后，可以继续推进。",
+        "ai_value": "AI 助手承担开发工作，插件负责组织和调度。介绍没有说明如何拆分任务。",
+        "differentiation": "它把目标展示、助手调度和继续执行放在一起。最可能让人犹豫的是：多人式协作可能反而增加检查负担。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持调度 Claude Code、Codex，并通过 OpenRouter 接入其他模型，允许用户自带密钥。",
+        "possible_approach": "如果自己做，可以先把目标拆成带先后关系的任务并保存进度，再分给助手执行，把检查结果写回任务记录。",
+        "tradeoffs": "最难的是确认前一项工作真的完成；若误判，后续助手可能沿着错误结果继续修改。",
+        "unknowns": "跨会话继续时，会保留哪些任务记录和检查结果？"
+      },
+      "transferable_insights": [
+        "做长任务工具时，可以让进度图同时显示待办、执行结果和检查状态，帮助用户决定下一步。"
+      ],
+      "validation_questions": [
+        "结束一次会话后重新进入，能否准确接上未完成任务？",
+        "给前置任务放入一个已知错误，后续任务是否仍会继续执行？"
+      ],
+      "source_tagline": "给 Claude Code 下达任务，一键召唤 AI 智能体军团",
+      "source_description": "一个免费的 Claude Code 插件，专为跨会话的大型开发工作设计。输入 /mission 就能把目标变成实时图谱，调度 Claude Code 和 Codex 多个 AI 工人，检查结果后还能继续推进。自带 BYOK 模式，通过 OpenRouter 接入 Kimi、GLM 等更多模型。"
     },
     {
       "id": "1184808",
       "name": "ClinicFrame ",
-      "name_zh": "诊间智记",
-      "tagline_zh": "医疗界的 Granola，全流程 HIPAA 合规",
-      "description_zh": "一个在后台默默工作的 AI 书记员，能实时把医患对话转成结构化临床笔记。不论当面问诊还是视频连线，它都能在结束那一秒，交出一份完整的记录。原生桌面应用，HIPAA 合规，几秒钟就能对接你的电子病历系统。今天先上记笔功能，未来要做成覆盖整个临床流程的智能平台。",
-      "intro_zh": "一个能边听边记的AI助手，专门帮医生写病历，接诊刚结束，笔记就自动生成好了。经常被文书工作追着跑的医生、护士，这下能轻松不少。",
+      "name_zh": "ClinicFrame",
+      "tagline_zh": "医疗场景的 Granola，主打全流程 HIPAA 合规",
+      "description_zh": "ClinicFrame 是一款原生桌面 AI 记录工具，可在当面或视频问诊时，将医患对话实时整理成结构化临床笔记。缓存简介宣称它能在问诊结束时完成记录、快速对接电子病历，并符合 HIPAA（美国医疗信息隐私与安全法规）；覆盖整个临床流程仍是未来计划。",
+      "intro_zh": "给需要记录问诊内容的医护人员用，在当面或视频问诊时，把医患对话整理成结构化临床笔记。",
       "url": "https://www.producthunt.com/products/clinic-scribe-clinicframe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DBV5VMI6JYIDKZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a09a43f2-0d7c-4134-aad1-255a410be792.png?auto=format",
       "votes_count": 201,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有丰富的桌面操作画面，可实时展示语音识别与笔记生成过程，对比传统手写病历有明显效率冲击力。"
+          "reason": "记录问诊内容的需求清楚，但笔记准确性和修改量尚未确认。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
+          "score": 4,
+          "reason": "把口语整理成临床笔记时，如何保留关键医学含义是具体难题。"
+        },
+        "transferability": {
           "score": 3,
-          "reason": "普通人能看懂‘AI帮忙记笔记’的概念，但产品本身面向医护人员，普通观众无法直接上手体验。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第5，票数201，在当天话题中属于中上热度，医疗AI方向也有一定讨论度。"
+          "reason": "随工作过程生成记录的做法可借鉴，但依赖场景准确性要求。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "医生终于不用再熬夜写病历？这个AI工具5秒生成问诊记录",
-        "angle": "对比测评 / 体验演示",
-        "shooting_tips": "用分屏画面：一侧录医生与患者对话（模拟），一侧录 ClinicFrame 桌面界面实时弹出结构化笔记。快节奏剪辑突出‘结束即完成’的速度感，结尾可加入医生使用后的轻松表情加强共鸣。",
-        "target_audience": "医护人员、医学生、数字健康关注者、想了解AI如何改变职业痛点的普通观众"
+      "category": "健康健身",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有吸引力的是减少问诊后的整理工作；最影响判断的是生成笔记需要多少人工纠错，缓存中的速度宣传不能回答这一点。",
+      "product_analysis": {
+        "target_problem": "医护人员在问诊时既要听患者讲述，也要留下可用记录。它试图减少把对话另行整理成临床笔记的工作。",
+        "workflow": "在当面或视频问诊期间，桌面应用在后台处理对话并生成结构化笔记。简介称可对接电子病历，但没说明具体操作。",
+        "ai_value": "AI 把对话整理成临床笔记，省去部分归纳和组织文字的工作；是否足够准确仍需检查。",
+        "differentiation": "记录随问诊生成，可能减少事后补写。最可能阻碍使用的是：医生改错所花的时间抵消了节省的时间。"
       },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示效果直观，能引起大众对医疗效率提升的兴趣，但目标用户较窄，适合作为行业创新案例。"
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介明确提到实时 AI 记录、原生桌面应用和电子病历对接，并宣称 HIPAA 合规，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再按临床笔记栏目整理内容，并保留原句供医生核对。",
+        "tradeoffs": "最容易出错的是把否认症状写成存在症状。这会改变笔记含义，医生若没发现，可能影响后续判断。",
+        "unknowns": "音频和笔记会在哪里处理、保存？合规宣传本身没有回答这一点。"
+      },
+      "transferable_insights": [
+        "做访谈或巡检记录工具时，可以在对话进行中生成固定栏目草稿，结束后让用户集中确认。"
+      ],
+      "validation_questions": [
+        "用含否定症状的模拟问诊，检查笔记是否保留原意。",
+        "核对数据处理条款，确认问诊音频的处理与保存位置。"
+      ],
+      "source_tagline": "医疗界的 Granola，全流程 HIPAA 合规",
+      "source_description": "一个在后台默默工作的 AI 书记员，能实时把医患对话转成结构化临床笔记。不论当面问诊还是视频连线，它都能在结束那一秒，交出一份完整的记录。原生桌面应用，HIPAA 合规，几秒钟就能对接你的电子病历系统。今天先上记笔功能，未来要做成覆盖整个临床流程的智能平台。"
     },
     {
       "id": "1205016",
       "name": "MemoryCustodian",
-      "name_zh": "MemoryCustodian（记忆管家）",
-      "tagline_zh": "让 AI 编程助手像人一样记住项目往事，不依赖云端、不拖累每次对话",
-      "description_zh": "MemoryCustodian 为 Codex、Claude Code、Gemini 这类编码代理提供“长时项目记忆”，所有关键决策、约束条件、试错记录都直接存为 Markdown 文件留在你的代码仓库里，像代码一样可审查、可版本控制、可随时增删。它只按需加载与当前任务相关的记忆，轻量开源，不依赖任何托管服务。",
-      "intro_zh": "让你的 AI 编程搭子自带记事本，上次踩的坑、定的规矩下次干活时自动想起。适合天天跟 AI 结对写代码的独立开发者和团队，告别每次都得重复交代的琐碎。",
+      "name_zh": "MemoryCustodian",
+      "tagline_zh": "为 AI 编程助手保存项目记忆，不依赖托管服务，按需加载",
+      "description_zh": "MemoryCustodian 为 Codex、Claude Code、Gemini 等编码代理提供长期项目记忆，将关键决策、约束和试错记录保存为代码仓库中的 Markdown 文件，可审查、版本控制和增删。简介称它轻量、开源，只按需加载与当前任务相关的记忆，不依赖托管服务。",
+      "intro_zh": "给使用 AI 编程助手的开发者，把项目决策和试错记录留在仓库，供后续任务按需读取。",
       "url": "https://www.producthunt.com/products/memorycustodian?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LSQNKPD3PHT2KG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/85121f0c-26d1-4087-877f-7556a0b9e070.png?auto=format",
       "votes_count": 162,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要交互为命令行和文本文件，缺乏动态界面或视觉冲击力，很难用画面直接展示效果，只能靠录屏讲解，比较枯燥。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "概念涉及编码代理、项目上下文记忆等，受众需懂编程和 AI 开发流程，普通互联网用户基本看不懂。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日第 6 名，162 票，在开发者圈子有一定话题度，但尚未出圈。"
+          "reason": "保存项目背景的用途清楚，但能否准确找回所需记录尚未确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何选中相关且仍有效的记忆，是会直接影响代码修改的具体问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把助手记忆做成可审查文件，可借用于需要长期协作的工具。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "AI编程老忘事？给你的Codex装个记忆管家，省去一万次重复交代",
-        "angle": "教程演示",
-        "shooting_tips": "用分屏录屏展示：左边编辑器里写需求，右边命令行演示记忆文件的生成和调用；重点突出‘第一次犯错→第二次自动纠正’的对比，配合快速剪辑带出省时爽感。",
-        "target_audience": "与 AI 协作写代码的开发者、独立制作人、技术团队负责人"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品技术性强、视觉展现力弱，对大众观众门槛过高，更适合纯技术圈内传播。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重记忆能随代码一起审查和修改；最影响判断的是过期决定能否停止影响后续任务。",
+      "product_analysis": {
+        "target_problem": "开发者让 AI 持续修改同一项目时，需要交代过去的决策和限制。背景若没保留下来，后续任务可能重复走弯路。",
+        "workflow": "把决策、约束和试错记录保存在仓库中，供后续任务按需加载。用户可审查、增删这些文件；介绍未说明如何触发记录。",
+        "ai_value": "它给 AI 补充项目历史，帮助后续任务参考已有决定。介绍没说记忆是否由 AI 自动整理。",
+        "differentiation": "相比每次重新交代背景，它把记录留给后续任务使用。最可能让人犹豫的是维护过期记录的负担。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "记忆以 Markdown 文本文件保存在仓库，可版本控制，按任务加载；介绍称其开源且不依赖托管服务。",
+        "possible_approach": "如果自己做，可以先按主题保存记录，再按当前任务挑选相关文件，交给编程助手读取。",
+        "tradeoffs": "最难的是选对记忆。若把已废弃的决定交给助手，它可能按旧约束修改代码。",
+        "unknowns": "新决定如何替代旧决定，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做长期协作助手时，可把记忆保存为用户能直接修改的文件，让错误记录有明确的纠正入口。"
+      ],
+      "validation_questions": [
+        "设置一条与任务直接相关的项目约束，检查助手是否会加载它。",
+        "用新决定替换旧决定后，检查助手是否仍沿用旧记录。"
+      ],
+      "source_tagline": "让 AI 编程助手像人一样记住项目往事，不依赖云端、不拖累每次对话",
+      "source_description": "MemoryCustodian 为 Codex、Claude Code、Gemini 这类编码代理提供“长时项目记忆”，所有关键决策、约束条件、试错记录都直接存为 Markdown 文件留在你的代码仓库里，像代码一样可审查、可版本控制、可随时增删。它只按需加载与当前任务相关的记忆，轻量开源，不依赖任何托管服务。"
     },
     {
-      "id": "1209039",
-      "name": "Bo AI",
-      "name_zh": "Bo AI",
-      "tagline_zh": "住在你短信里的AI私人助理 💬",
-      "description_zh": "Bo是第一款为普通人服务的消费级AI产品。它能帮你保持条理、节省时间、生活得更健康，还能随时回答你的问题——全部通过短信来搞定。",
-      "intro_zh": "就像有个靠谱的朋友藏在短信里，帮你记事、提醒、查资料，还陪你聊聊健康。懒得装新App、只想用消息搞定一切的上班族和懒人必备。",
-      "url": "https://www.producthunt.com/products/bo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HKCHIY3OYYT4LW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/54c26258-29d9-4e3d-b042-5f585d58ac96.jpeg?auto=format",
-      "votes_count": 145,
+      "id": "1208746",
+      "name": "Totem",
+      "name_zh": "Totem",
+      "tagline_zh": "让收藏的推文重新被看见，帮助你读完它们",
+      "description_zh": "Totem 把浏览器新标签页变成阅读 Twitter 收藏内容的空间，采用类似 Substack 的文章阅读形式。它支持全宽阅读长帖、高亮重点、搜索内容和导出。",
+      "intro_zh": "给收藏了推文却很少回看的人用，把浏览器新标签页变成阅读空间，方便读长帖和标重点。",
+      "url": "https://www.producthunt.com/products/totem-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XYVSXCXMI3M4QN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/441b7702-09e3-41c9-9b29-2a4a46324a49.png?auto=format",
+      "votes_count": 149,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "界面主要是短信聊天对话，有一定演示性，但视觉冲击力不强，缺乏华丽动画或前后对比效果。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "就是发短信聊天，所有人都看得懂，完全不需要技术背景，上手门槛几乎为零。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt当日排名第8，145票，有一定话题性和热度，但未进入前三。"
+          "reason": "收藏后不回看的问题明确，但能否增加阅读仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "收藏内容的获取与更新有具体难点，资料未说明处理方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把待读内容放进新标签页，是其他稍后阅读产品可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "手机自带短信变AI管家？Bo AI把聊天框玩出了花",
-        "angle": "开箱体验",
-        "shooting_tips": "用手机录屏展示实际对话过程：发送待办事项、询问健康建议、索要生活小贴士，截取AI即时回复的画面，突出“不用下载、打开短信就能用”的便利性，节奏轻松明快，配上生活化旁白。",
-        "target_audience": "觉得手机App太多、想要简单工具整理生活的年轻人与上班族。"
-      },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "短信交互形式简单直观，适合用录屏演示，视频制作门槛低，但画面表现力一般。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让收藏重新出现在眼前；但是否真能促成阅读，不能仅凭入口更显眼来判断。",
+      "product_analysis": {
+        "target_problem": "适合经常收藏推文、却很少回看的人。麻烦在于收藏完成后，内容没有再次进入注意范围。",
+        "workflow": "以 Twitter 收藏为阅读来源，在新标签页阅读；长帖可全宽打开，再高亮、搜索或导出。简介没说明如何接入收藏。",
+        "ai_value": "介绍没提 AI，主要靠新标签页展示和阅读整理功能改善体验。",
+        "differentiation": "把阅读入口放进经常打开的新标签页，可能减少主动找书签的步骤；不愿更换现有新标签页的人可能不会采用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持新标签页阅读、全宽长帖、高亮、搜索和导出，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先获取用户授权的收藏内容，再整理成阅读页，并保存高亮、建立搜索目录，最后接到新标签页。",
+        "tradeoffs": "最容易出错的是长帖收集不完整：如果漏掉后续推文，用户会读到缺少上下文的内容，还得返回原帖。",
+        "unknowns": "收藏是自动同步，还是需要用户手动导入？"
+      },
+      "transferable_insights": [
+        "做稍后阅读产品时，可以把待读内容放到用户经常打开的页面，减少依赖用户记得回来。"
+      ],
+      "validation_questions": [
+        "收藏一条多段长帖，检查阅读页是否收齐全部内容。",
+        "连续使用一周，检查新标签页是否让自己实际多读了收藏。"
+      ],
+      "source_tagline": "让你收藏的推文不再吃灰，真正读完它们",
+      "source_description": "你在Twitter上收藏了一堆好帖子，然后就再也没看过。图腾把你的新标签页变成一个无干扰的阅读空间，就像用Substack看文章一样。可以全宽打开长帖、高亮重点、搜索所有内容，还能导出，让你的书签不再只是摆设。"
     },
     {
       "id": "1209254",
       "name": "Task Monki",
       "name_zh": "Task Monki",
-      "tagline_zh": "让编码智能体帮你跑通整个开发流程",
-      "description_zh": "Task Monki 是一款开源的桌面应用，用来管理从分配任务到提交拉取请求的全过程。你可以同时运行多个编码智能体，跟踪每个智能体的进度，直接预览结果而不用手动配置服务或容器，还能把工作交给另一个智能体做审查和修复，甚至让多个智能体一起讨论，互相回应、比较方案、质疑假设。",
-      "intro_zh": "一个能帮你自动写代码、审查、改bug的桌面工具，多个AI同事同时干活，你只要提需求就行。经常需要快速迭代、搭建原型或者手头有一堆技术债要还的开发者会很喜欢。",
+      "tagline_zh": "让编码智能体协助完成整个开发流程",
+      "description_zh": "Task Monki 是一款开源桌面应用，可管理从分配任务到提交拉取请求的过程，支持同时运行多个编码智能体、跟踪进度，并直接预览结果，无需手动配置服务或容器。它还支持把工作交给另一个智能体审查和修复，或让多个智能体讨论、比较方案和质疑假设。",
+      "intro_zh": "给使用编码智能体的开发者，在桌面上分配任务、跟踪进度、预览改动，并安排其他智能体审查。",
       "url": "https://www.producthunt.com/products/task-monki?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/B5PN6WZY5KMHXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/19d1e9c3-b0b5-4310-82a2-2ca2ba0abc13.jpeg?auto=format",
       "votes_count": 126,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有完整的桌面端界面，可以展示多智能体并行工作的动态面板、代码变更预览、PR 生成过程，前后对比效果明显，很适合录屏演示。"
+          "reason": "任务、预览和审查放在一起，省事的方向清楚，实际支持范围待确认。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及编码智能体、任务到 PR 的开发流程，需要理解基本的软件开发术语，普通互联网用户难以快速上手。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多个智能体如何交接同一份代码，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt 当日第9名，126票，有一定的关注度但尚未成为爆款，在开发者圈子有讨论度。"
+        "transferability": {
+          "score": 4,
+          "reason": "把执行结果直接交给另一角色检查，可借用于其他协作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "一口气跑完开发全流程？这个AI同事能帮你写代码还能自己开会",
-        "angle": "演示教程",
-        "shooting_tips": "用 OBS 录制桌面操作，先展示创建一个新任务，然后同时启动3个智能体处理不同模块，切换看实时日志和进度条，最后展示自动生成的代码审查和 PR 链接。可以用分屏对比人工操作和智能体自动执行的时间差。",
-        "target_audience": "独立开发者、全栈程序员、需要快速出原型的技术团队"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "界面演示效果好，但对普通观众门槛太高，适合在开发者社区垂直传播，非泛科技观众可能看不懂。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重把改动直接交给另一智能体检查；但若审查版本对不上，多一个审查角色也可能漏掉问题。",
+      "product_analysis": {
+        "target_problem": "开发者同时使用多个编码智能体时，需要掌握各自进度，并把改动交给下一位检查。任务越多，交接越容易漏信息。",
+        "workflow": "分配任务后，同时运行多个智能体并查看进度；预览结果，再交给另一个智能体审查和修复，最终提交拉取请求（供团队审查的代码变更申请）。",
+        "ai_value": "编码智能体负责执行开发任务，也能审查、修复其他智能体的工作。介绍还支持它们互相回应、比较方案。",
+        "differentiation": "预览结果无需手动配置服务或容器，减少环境准备。最可能阻碍迁入的是现有项目能否直接运行，介绍未说明适用范围。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "明确是开源桌面应用，支持多个编码智能体并行运行；介绍没说具体如何实现。",
+        "possible_approach": "如果自己做，可以先给每个任务准备独立代码副本，再记录改动版本，把指定版本交给另一个智能体审查。",
+        "tradeoffs": "最容易错在审查对象不一致：执行方继续修改时，审查方可能还在检查旧代码，导致修复遗漏。",
+        "unknowns": "预览支持哪些项目类型，是否仍有环境准备限制？"
+      },
+      "transferable_insights": [
+        "做自动生成内容或代码的工具时，可让用户把当前结果直接交给独立审查角色，减少重新搬运材料。"
+      ],
+      "validation_questions": [
+        "用一个现有项目检查：能否不手动配置服务或容器就预览结果？",
+        "在审查期间继续修改代码，检查审查意见是否对应明确版本？"
+      ],
+      "source_tagline": "让编码智能体帮你跑通整个开发流程",
+      "source_description": "Task Monki 是一款开源的桌面应用，用来管理从分配任务到提交拉取请求的全过程。你可以同时运行多个编码智能体，跟踪每个智能体的进度，直接预览结果而不用手动配置服务或容器，还能把工作交给另一个智能体做审查和修复，甚至让多个智能体一起讨论，互相回应、比较方案、质疑假设。"
     },
     {
       "id": "1208373",
       "name": "Vela",
-      "name_zh": "维拉",
-      "tagline_zh": "你的AI招聘协调员，让面试安排不再乱成一团",
-      "description_zh": "Vela 是一个帮你搞定所有招聘杂事的 AI 助手。只要在邮件里抄送它，它就能自动和候选人约时间、协调面试官、处理改期，还能发简历、收集反馈。支持邮件、短信、WhatsApp、Slack 和电话，覆盖全球时区，7x24 小时干活，团队不用学任何新东西。",
-      "intro_zh": "一个会帮你自动安排面试的 AI 助手，抄送邮件就能接管整个招聘流程。天天被面试安排折腾到崩溃的 HR 和招聘官，有了它简直像多了个不知疲倦的助理。",
+      "name_zh": "Vela",
+      "tagline_zh": "AI 招聘协调员，帮团队安排面试",
+      "description_zh": "Vela 是招聘 AI 助手，在邮件里抄送它，就能协调候选人和面试官的时间、处理改期、发送简历并收集反馈。简介称其支持邮件、短信、WhatsApp、Slack 和电话，可跨时区全天候工作，无需团队学习新工具。",
+      "intro_zh": "给需要协调面试的招聘团队用，在邮件里抄送 Vela，让它接手约时间、改期和催收反馈。",
       "url": "https://www.producthunt.com/products/vela-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PG7LUDNHC7AGDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/03bb8f65-89d9-4f92-9ebb-9db675d1f964.png?auto=format",
       "votes_count": 126,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要靠邮件、日历等后台自动化运行，缺乏视觉化操作界面，难以拍出有冲击力的演示画面，多为邮件截图或对话记录，观感平淡。"
-        },
-        "beginner_friendly": {
+        "product_value": {
           "score": 4,
-          "reason": "概念直白——抄送邮件让 AI 接手安排面试。用口语化的描述普通人也能理解，不需要技术背景，但需对招聘流程有基本认知。"
+          "reason": "使用者和要省掉的协调工作明确，但实际能独立处理多少情况尚不清楚。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "排名第10，126票，表现中等，有一定关注度但尚未形成爆款话题。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "多人跨时区改期涉及明确的时间确认问题，出错会直接影响面试。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "在已有邮件中抄送助手的做法，可借用于其他多人协调任务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "抄送个邮件，AI 帮你把面试安排得明明白白，HR 原地放假？",
-        "angle": "开箱体验",
-        "shooting_tips": "录屏演示发送一封邮件抄送Vela，展示后续自动回复、协调时间、发送面试邀请的全过程，穿插真实邮件和日历通知的弹窗效果，节奏轻松，突出“抄送即完事”的省心感。",
-        "target_audience": "被大量面试安排压垮的 HR、创业公司招聘负责人、频繁要协调面试的团队经理"
-      },
       "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "概念实用但视觉呈现偏弱，画面以邮件和通知为主，缺乏引人注目的视频效果，热度也一般，视频传播潜力有限。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把反复约时间的工作交出去，同时保留邮件入口；最影响判断的是，它在无法确定安排时能否及时交回人工。",
+      "product_analysis": {
+        "target_problem": "招聘团队安排多人面试时，需要反复确认空闲时间；有人改期，还得重新通知相关人员。跨时区会让确认更麻烦。",
+        "workflow": "用户在邮件里抄送 Vela，由它联系候选人、协调面试官并处理改期。简介还列出发送简历和收集反馈，但没说明具体如何触发。",
+        "ai_value": "AI 接手邮件中的约时间和改期沟通。是否能准确理解含糊回复、何时需要人工接手，介绍没说。",
+        "differentiation": "它把任务入口放在现有邮件里，可能减少切换工具。最可能让团队犹豫的是，不放心它直接对外确认时间。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称其为 AI 助手，支持多种通信渠道和全球时区，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从邮件中提取参与人、可用时间和时区，再读取获准访问的日历找交集，收到确认后创建面试安排。",
+        "tradeoffs": "最容易错在改期：若把旧回复当成新确认，就可能通知错误时间，让候选人或面试官白等。",
+        "unknowns": "遇到时间冲突时，它会自行决定，还是交回招聘人员确认？"
+      },
+      "transferable_insights": [
+        "做客户预约或多人会议工具时，可以借用“抄送即委派”：让用户在正在进行的邮件里交办任务，不必重填一份表。"
+      ],
+      "validation_questions": [
+        "安排一次跨时区改期，检查最终通知是否准确对应双方当地时间。",
+        "故意给出相互冲突的回复，检查它是否暂停并请求人工确认。"
+      ],
+      "source_tagline": "你的AI招聘协调员，让面试安排不再乱成一团",
+      "source_description": "Vela 是一个帮你搞定所有招聘杂事的 AI 助手。只要在邮件里抄送它，它就能自动和候选人约时间、协调面试官、处理改期，还能发简历、收集反馈。支持邮件、短信、WhatsApp、Slack 和电话，覆盖全球时区，7x24 小时干活，团队不用学任何新东西。"
+    },
+    {
+      "id": "1188822",
+      "name": "SoundGate Guitar",
+      "name_zh": "SoundGate Guitar",
+      "tagline_zh": "实时聆听你演奏的 AI 吉他导师",
+      "description_zh": "SoundGate Guitar 是一款 AI 吉他陪练，介绍称它能识别演奏音符，并在交互式指板上即时显示反馈，其中“零延迟”尚未经核验。内置 AI 导师会分析演奏，提供个性化指导、定制练习，并回答吉他问题。",
+      "intro_zh": "给独自练吉他的人用，识别弹出的音符，在屏幕指板上显示反馈，并提供练习指导。",
+      "url": "https://www.producthunt.com/products/soundgate-guitar-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MMIYN6ZQTIOL72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/afc2367d-037a-4fbe-939f-f515e92a1dea.png?auto=format",
+      "votes_count": 423,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "练琴时获得反馈的需求清楚，但识别和指导效果未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "识别错误如何影响后续指导，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把动作反馈和后续练习放在一起的做法可借鉴，收益待验证。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重反馈后直接给练习的安排，但要先确认它能否听准，否则个性化建议可能建立在错误判断上。",
+      "product_analysis": {
+        "target_problem": "独自练吉他时，学习者可能听出不对，却不知道具体错在哪。它尝试在演奏当下指出音符，再给练习建议。",
+        "workflow": "用户弹奏，工具识别音符并在交互式指板上显示反馈。AI 导师分析演奏、给出指导和定制练习，用户也可以问吉他问题。",
+        "ai_value": "AI 用于分析演奏、生成个性化指导和练习，并回答问题。资料没说明音符识别是否也由 AI 完成。",
+        "differentiation": "把演奏反馈和下一步练什么放在一起，可能减少自行查找练习的工夫。最可能让人放弃的是反馈不准。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到实时音符识别、交互式指板反馈和 AI 导师，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先把演奏声音转成音符，再把结果显示到指板上，让 AI 根据练习目标和识别结果给建议。",
+        "tradeoffs": "最难的是稳定识别音符。若把环境噪声当成弹错，后面的指导也可能带偏，用户还得判断是谁错了。",
+        "unknowns": "识别范围是否包含同时弹响多个音的和弦？"
+      },
+      "transferable_insights": [
+        "做技能练习产品时，可以把当次错误对应到下一项练习，让用户知道收到反馈后该做什么。"
+      ],
+      "validation_questions": [
+        "弹一段已知音符的短句，检查指板反馈是否与实际演奏一致。",
+        "重复同一种错音，检查导师给的练习是否针对这个错误。"
+      ],
+      "source_tagline": "实时聆听你演奏的AI音乐导师",
+      "source_description": "SoundGate Guitar是一款真的能听你弹琴的AI陪练。它用零延迟的音符识别，在交互式指板上给出即时的视觉反馈。内置的AI导师会分析你的演奏，提供个性化指导、定制练习，还能解答各种吉他问题。"
+    },
+    {
+      "id": "1138570",
+      "name": "Denovo",
+      "name_zh": "Denovo",
+      "tagline_zh": "帮助把做好的应用变成可收费的生意",
+      "description_zh": "Denovo 面向已做出 AI 应用、希望开始收费的开发者，提供带支付功能的网站，并支持自动发送营销邮件和投放广告。用户还可以用自然语言询问经营情况，查看收入和下一步计划。",
+      "intro_zh": "给已有 AI 应用的独立开发者用，搭建收费网站、开展推广，并用提问的方式查看经营情况。",
+      "url": "https://www.producthunt.com/products/denovo-business-manager?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/N632XKIQZO65KB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8ac74405-ce8f-4b0b-b9cf-f386c2526be9.png?auto=format",
+      "votes_count": 336,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "收费和推广的需求清楚，但能否带来收入没有可靠材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动投广告涉及花钱权限，执行边界是具体难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把经营查询与下一步建议放在一起可借鉴，但建议质量未知。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重收费与推广能在同一处处理；最影响判断的是自动推广的花钱权限是否可控，现有缓存不能回答。",
+      "product_analysis": {
+        "target_problem": "做出 AI 应用的开发者，还需要解决收费和找客户的问题。Denovo 把网站、支付和推广放到一起处理。",
+        "workflow": "介绍列出的用法是搭建带支付的网站、自动发营销邮件和投广告，再提问查看收入与后续计划。接入已有应用的具体步骤没说。",
+        "ai_value": "自然语言查询是明确功能，但历史简介没说明 AI 如何参与建站、推广或计划生成，不能据此认定它能自主经营。",
+        "differentiation": "集中处理这些事务可能减少切换工具。最可能让人犹豫的是：是否愿意让它自动花广告费。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先连接网站支付和推广服务，再汇总经营数据供用户提问；涉及花钱的操作先要求确认。",
+        "tradeoffs": "最容易出错的是把推广计划直接执行。若预算限制失效，用户可能承担意外广告支出。",
+        "unknowns": "自动投放是否有预算上限和暂停控制？"
+      },
+      "transferable_insights": [
+        "做商家后台时，可以把收入查询和下一步建议放在同一处，但把付费执行单独留给用户确认。"
+      ],
+      "validation_questions": [
+        "设置小额广告预算，检查达到上限后是否停止投放。",
+        "用一笔已知支付记录，核对经营问答中的收入是否准确。"
+      ],
+      "source_tagline": "把灵感写成的应用，一键变成自动印钞机",
+      "source_description": "你随手搓了个AI应用，但怎么赚钱？Denovo帮你从想法直达收入。它会立刻给你搭好带支付功能的网站，自动给海量客户发邮件、投广告，你只要动动嘴问一句“生意怎么样”，就能看到进账和下一步计划。"
+    },
+    {
+      "id": "1209039",
+      "name": "Bo AI",
+      "name_zh": "Bo AI",
+      "tagline_zh": "短信里的 AI 私人助理",
+      "description_zh": "Bo 面向普通用户，提供通过短信使用的 AI 助理。介绍称它能帮助用户安排生活、节省时间、生活得更健康，并随时回答问题。",
+      "intro_zh": "给想用短信求助的普通用户，通过发消息向 AI 提问，获取日常生活帮助。",
+      "url": "https://www.producthunt.com/products/bo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HKCHIY3OYYT4LW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/54c26258-29d9-4e3d-b042-5f585d58ac96.jpeg?auto=format",
+      "votes_count": 145,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "短信问答场景清楚，但安排生活和健康方面的帮助缺少具体例子。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "短信多轮问答有上下文衔接问题，值得检查，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把轻量问答放进短信的做法可借鉴，但使用条件不明确。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是直接发短信就能提问；最大的疑问是，除问答外，它究竟能替用户完成哪些具体事情。",
+      "product_analysis": {
+        "target_problem": "面向希望随手提问、处理日常困惑的人。它把求助入口放在短信里，但资料没说明用户此前用什么方式解决。",
+        "workflow": "用户通过短信提出问题，Bo 通过短信回应。介绍没有给出安排生活或健康帮助的具体操作。",
+        "ai_value": "AI 用来理解问题并回答；节省时间、改善生活是介绍中的主张，缺少具体结果支持。",
+        "differentiation": "短信入口可能减少打开专用应用的操作；若回复需要较多阅读和追问，用户可能仍偏好完整聊天界面。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 和短信交互，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把收到的短信交给 AI 生成回答，再用短信发回，并保留同一用户前面的对话。",
+        "tradeoffs": "最容易出错的是没接上前文。用户追问“那明天呢”时，回答可能偏题，还得重新解释。",
+        "unknowns": "是否支持用户所在地区的手机号？这会直接影响能否使用。"
+      },
+      "transferable_insights": [
+        "做轻量问答服务时，可以把提问入口放进用户已有的消息渠道，先验证短问短答是否足够。"
+      ],
+      "validation_questions": [
+        "用实际手机号发送一条问题，检查所在地区能否正常收发。",
+        "围绕同一件事连续追问，检查它能否接住省略了背景的问题。"
+      ],
+      "source_tagline": "住在你短信里的AI私人助理 💬",
+      "source_description": "Bo是第一款为普通人服务的消费级AI产品。它能帮你保持条理、节省时间、生活得更健康，还能随时回答你的问题——全部通过短信来搞定。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

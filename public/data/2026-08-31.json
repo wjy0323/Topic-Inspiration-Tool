@@ -1,367 +1,510 @@
 {
   "date": "2026-08-31",
-  "generated_at": "2026-09-01T20:25:51+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:32:16+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1224981",
       "name": "Video Agent by Fotor",
       "name_zh": "Video Agent by Fotor",
-      "tagline_zh": "Create and edit precision motion graphics & video with chat",
-      "description_zh": "Fotor Video Agent helps founders, marketers, and creators turn ideas, scripts, or raw assets into precision videos & motion graphics. It auto-orchestrates scenes, timing, visual FX, and kinetic typography—while keeping text, numbers, logos, and charts editable on a multi-track timeline before you render. Update stats at the last minute or refine timing without regenerating the whole video. Ship promos and explainers faster with zero black-box outputs and no tedious keyframes.",
-      "intro_zh": "",
+      "tagline_zh": "通过对话创建和编辑精细的动态图形与视频",
+      "description_zh": "Fotor Video Agent 帮助创始人、营销人员和创作者，把想法、脚本或原始素材做成视频与动态图形，自动安排场景、时序、视觉效果和动态文字。简介称，文字、数字、标志和图表可在多轨时间线上继续编辑，临时修改数据或时序不必重新生成整段视频。",
+      "intro_zh": "给创始人、营销人员和创作者用，通过对话制作视频，再在时间线上修改文字、数据和节奏。",
       "url": "https://www.producthunt.com/products/fotor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KMJ6C2OCHCE4UL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a1138670-14b9-46ce-94d2-a0fa252b3edc.png?auto=format",
       "votes_count": 372,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确解决视频生成后还要修改文字、数据和时序的问题。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动编排后仍保留可编辑元素，是具体且有难度的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先生成可编辑草稿、再局部修改的做法可借给其他创作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重生成后还能局部修改；但编辑后能否保持原有排版和动画，决定它究竟省不省返工。",
+      "product_analysis": {
+        "target_problem": "做宣传片或讲解视频的人，常需临时改数字、标志或节奏。它瞄准的是成片前的反复修改。",
+        "workflow": "提供想法、脚本或素材，通过对话创建视频。再在多轨时间线中调整元素与时序，最后输出成片。",
+        "ai_value": "自动化承担场景、时序、特效和动态文字的编排。简介没说明如何理解对话，也没披露具体模型。",
+        "differentiation": "简介称，局部修改不用重做整段视频。用户可能不愿切换的原因，是自动编排的结果仍需花时间修正。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到多轨时间线，文字、数字、标志和图表在输出前仍可编辑。",
+        "possible_approach": "如果自己做，可以先把脚本拆成场景，再把文字、图表和动画分别保存为可编辑对象，最后按时间线合成视频。",
+        "tradeoffs": "最难的是修改后保持排版和动画正确。数字变长若挤出画面，用户还得重新调整布局。",
+        "unknowns": "对话修改能否只影响指定元素，保留其他已确认的内容？"
+      },
+      "transferable_insights": [
+        "做海报或演示文稿工具时，可先生成保留独立文字、图表的草稿，让用户局部修改后再导出。"
+      ],
+      "validation_questions": [
+        "把短数字改成长数字，检查文字是否溢出。",
+        "用对话只修改一个场景的时长，检查其他场景是否保持不变。"
+      ],
+      "source_tagline": "Create and edit precision motion graphics & video with chat",
+      "source_description": "Fotor Video Agent helps founders, marketers, and creators turn ideas, scripts, or raw assets into precision videos & motion graphics. It auto-orchestrates scenes, timing, visual FX, and kinetic typography—while keeping text, numbers, logos, and charts editable on a multi-track timeline before you render. Update stats at the last minute or refine timing without regenerating the whole video. Ship promos and explainers faster with zero black-box outputs and no tedious keyframes."
     },
     {
       "id": "1226002",
       "name": "BrandJet",
       "name_zh": "BrandJet",
-      "tagline_zh": "Turn public buying signals into sales pipeline",
-      "description_zh": "BrandJet turns live buying signals into outbound pipeline. It listens across X, Reddit, LinkedIn, and the open web for people asking about problems you solve, enriches every relevant signal into a lead, and reaches them on the channels they actually use. From first signal to outreach, unified inbox, CRM, and signed contract, BrandJet runs the entire motion in one platform. It's exposed through MCP so AI agents can run it too.",
-      "intro_zh": "",
+      "tagline_zh": "把公开的购买意向转成销售机会",
+      "description_zh": "BrandJet 监听 X、Reddit、LinkedIn 和公开网页上的相关需求，把信号补充成潜在客户资料，并在对方使用的渠道联系他们。简介称，它把触达、统一收件箱、客户管理和签约放在同一平台，也允许 AI 智能体通过 MCP（供 AI 调用外部工具的连接方式）操作。",
+      "intro_zh": "给主动寻找客户的销售团队用，从公开讨论中发现相关需求，再整理客户资料、联系对方并跟进销售。",
       "url": "https://www.producthunt.com/products/brandjet-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NTN6BE7PSJWFWC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/a4b7b59e-a209-4681-808e-56ec62f6383f.png?auto=format",
       "votes_count": 279,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找客户到跟进的用途清楚，但线索质量和触达收益未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把公开发言对应到可联系的人，是具体且影响结果的难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从需求原文直接发起跟进的做法，可借到其他线索型产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重发现需求后能接着跟进，少一次资料搬运；最影响判断的是，补充出来的联系人是否可靠。",
+      "product_analysis": {
+        "target_problem": "销售团队需要找到正在讨论相关问题的人。麻烦在于，发现一条需求后，还要弄清对方是谁、怎么联系。",
+        "workflow": "从公开讨论中发现相关信号，补充潜在客户资料，再联系对方。后续回复、客户记录和签约可在同一平台处理。",
+        "ai_value": "介绍明确提到 AI 智能体可以调用平台，但没说需求判断或资料补充是否由 AI 完成。",
+        "differentiation": "把发现需求和后续跟进放在一起，可能减少跨工具搬运。已有客户管理系统的团队，可能不愿迁移记录。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说平台通过 MCP 向 AI 智能体开放操作能力。",
+        "possible_approach": "如果自己做，可以先收集获准访问的公开讨论，再筛选相关需求、补充联系人资料，交给销售确认后联系。",
+        "tradeoffs": "最容易出错的是把发言者认错。账号与联系人匹配错误，会让销售联系到无关的人。",
+        "unknowns": "介绍没说如何确认补充的联系人就是原发言者。"
+      },
+      "transferable_insights": [
+        "做招聘或销售线索产品时，可以把需求原文附在线索旁，让使用者核对后直接跟进。"
+      ],
+      "validation_questions": [
+        "抽查一批线索，补充的联系人是否确实对应原发言者？",
+        "用测试账号调用 MCP，能否限制智能体未经确认就发送消息？"
+      ],
+      "source_tagline": "Turn public buying signals into sales pipeline",
+      "source_description": "BrandJet turns live buying signals into outbound pipeline. It listens across X, Reddit, LinkedIn, and the open web for people asking about problems you solve, enriches every relevant signal into a lead, and reaches them on the channels they actually use. From first signal to outreach, unified inbox, CRM, and signed contract, BrandJet runs the entire motion in one platform. It's exposed through MCP so AI agents can run it too."
     },
     {
       "id": "1225427",
       "name": "Interactive Sessions by Revolte",
       "name_zh": "Interactive Sessions by Revolte",
-      "tagline_zh": "Drive the full SDLC with AI agents, step by step",
-      "description_zh": "Different work needs different AI oversight, and Revolte gives you both. Our Interactive Sessions let you drive the full lifecycle with the agents, step by step: architecture, code, tests, staging, deploy. You approve every step. Autopilot mode hands off a Jira ticket end-to-end, with agents planning, coding, opening the PR, and deploying. Same workspace, same governance: plan approval, inline diffs, cost caps, and audit trails, built in. Hands-on when you want control, hands-off when you don't.",
-      "intro_zh": "",
+      "tagline_zh": "与 AI 代理逐步推进软件开发全流程",
+      "description_zh": "Revolte 的交互会话让用户与 AI 代理逐步完成架构、编码、测试、预发布和部署，每一步由用户批准；自动驾驶模式则接收 Jira 工单，由代理规划、编码、创建拉取请求并部署。两种模式共用工作区，提供计划审批、逐处查看代码改动、费用上限和操作记录。",
+      "intro_zh": "给软件开发团队用，在同一工作区里逐步审核 AI 的开发工作，或把工单交给它执行。",
       "url": "https://www.producthunt.com/products/revolte?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/L7YVCYBWPR4HFC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f8b9b439-b487-4df9-b6c7-fccfc2efca26.png?auto=format",
       "votes_count": 276,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确覆盖开发执行与人工审批，但实际交付质量未获验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "逐步审批与自动执行并存，提出了具体的审批有效性问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "两种执行模式共用审批与记录的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是把人工确认放进开发过程；最影响判断的是批准是否始终对应最终执行的内容。",
+      "product_analysis": {
+        "target_problem": "面向让 AI 参与开发、又需要控制改动的软件团队。不同任务需要不同程度的人工介入，逐步确认与整单交办都要有位置。",
+        "workflow": "交互模式中，用户随代理完成架构、代码、测试、预发布和部署，逐步批准。自动模式接收 Jira 工单，代理规划、编码、创建拉取请求（提交代码供审查），再部署。",
+        "ai_value": "AI 代理负责规划和执行开发任务。介绍未说明测试如何执行，也未说明交付质量。",
+        "differentiation": "把逐步审核与整单执行放在同一工作区，可能减少切换工具的麻烦。团队可能因不确定部署审批是否可靠而不愿交出执行权。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提供两种执行模式，以及计划审批、代码改动对比、费用上限和操作记录。",
+        "possible_approach": "如果自己做，可以先把工单拆成计划、改码、测试和部署几个阶段，再为各阶段保存结果，并设置继续执行所需的批准条件。",
+        "tradeoffs": "最容易出错的是批准后内容又发生变化。若仍沿用旧批准，用户可能部署并未审过的代码。",
+        "unknowns": "自动模式在哪些节点仍须人工批准，介绍没有说清。"
+      },
+      "transferable_insights": [
+        "做可代用户执行任务的工具时，可以让逐步确认和自动执行共用结果记录，方便用户回看依据。"
+      ],
+      "validation_questions": [
+        "批准代码后再修改内容，原批准是否失效？",
+        "费用达到设定上限时，后续执行是否会停止？"
+      ],
+      "source_tagline": "Drive the full SDLC with AI agents, step by step",
+      "source_description": "Different work needs different AI oversight, and Revolte gives you both. Our Interactive Sessions let you drive the full lifecycle with the agents, step by step: architecture, code, tests, staging, deploy. You approve every step. Autopilot mode hands off a Jira ticket end-to-end, with agents planning, coding, opening the PR, and deploying. Same workspace, same governance: plan approval, inline diffs, cost caps, and audit trails, built in. Hands-on when you want control, hands-off when you don't."
     },
     {
       "id": "1233229",
       "name": "Ask My Wardrobe",
       "name_zh": "Ask My Wardrobe",
-      "tagline_zh": "The complete digital wardrobe experience",
-      "description_zh": "Ask My Wardrobe is an AI outfit generator and outfit planner that makes it easier to get dressed, plan better looks, and shop with more confidence. Use clothes you already own to build new outfits, plan what to wear days or weeks ahead, and virtually try on clothes before you buy so you waste less money on things you won’t wear. Save your best looks, share them with friends for feedback, and use it free with no sign-up required.",
-      "intro_zh": "",
+      "tagline_zh": "完整的数字衣橱体验",
+      "description_zh": "Ask My Wardrobe 是 AI 穿搭生成和规划工具，可用已有衣物组合造型，提前几天或几周安排穿着，并在购买前虚拟试穿；简介称这能帮助减少买后闲置。用户可保存搭配、分享给朋友征求意见，无需注册即可免费使用。",
+      "intro_zh": "给想用现有衣物搭出新造型的人，生成穿搭、安排未来穿着，也支持买前虚拟试穿。",
       "url": "https://www.producthunt.com/products/ask-my-wardrobe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/N4IP643VTBHTPL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fb0bab64-12bd-4b51-bb0a-761bf255f1a6.png?auto=format",
       "votes_count": 237,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "日常搭配和提前安排穿着的需求清楚，实际推荐质量待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "虚拟试穿如何避免误导购买，是具体但尚未说明的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕用户已有物品给建议，可借用于其他个人物品管理工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是让已有衣物产生新搭配；最影响判断的是试穿画面能否提供可靠的购买参考。",
+      "product_analysis": {
+        "target_problem": "面向每天要决定穿什么、又想利用已有衣物的人。麻烦在于想到新组合后，还要记住并安排哪天穿。",
+        "workflow": "用已有衣物生成搭配，提前安排穿着，再保存满意的造型或分享给朋友。买新衣前也可虚拟试穿；衣物如何录入没有说明。",
+        "ai_value": "AI 明确用于生成穿搭。虚拟试穿是否也使用 AI，介绍没有说清。",
+        "differentiation": "把搭配建议和穿着计划放在一起，可能减少来回整理。若录入整个衣橱太费事，用户可能不愿开始。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 穿搭生成与虚拟试穿，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先记录衣物图片、类别和颜色，再按已有衣物生成组合，并把选中的搭配存到日期下。",
+        "tradeoffs": "最容易误导的是试穿图：画面好看不等于实际合身，用户可能据此买错尺码。",
+        "unknowns": "虚拟试穿只展示外观，还是也提供合身判断？"
+      },
+      "transferable_insights": [
+        "做食材或家居物品工具时，可以先围绕用户已有物品给组合建议，再让用户保存并安排使用时间。"
+      ],
+      "validation_questions": [
+        "录入一组日常衣物，检查生成搭配是否只用了这些衣物。",
+        "用实际穿过的同款衣服做虚拟试穿，比较衣服轮廓与实穿是否明显不符。"
+      ],
+      "source_tagline": "The complete digital wardrobe experience",
+      "source_description": "Ask My Wardrobe is an AI outfit generator and outfit planner that makes it easier to get dressed, plan better looks, and shop with more confidence. Use clothes you already own to build new outfits, plan what to wear days or weeks ahead, and virtually try on clothes before you buy so you waste less money on things you won’t wear. Save your best looks, share them with friends for feedback, and use it free with no sign-up required."
     },
     {
       "id": "1237132",
       "name": "Tether",
       "name_zh": "Tether",
-      "tagline_zh": "A ball for boring meetings to keep you busy",
-      "description_zh": "A ball hangs from your Mac menu bar on an elastic tether. Drag it, fling it, slingshot it. It bounces off your actual app windows, rolls along their edges and settles into the Dock. Cut the rope and it goes loose across the desktop. Real physics, not a canned animation, so it never does the same thing twice. One key hides it the instant somebody says your name. No account, no subscription, nothing leaves your Mac.",
-      "intro_zh": "",
+      "tagline_zh": "无聊开会时，让你有点事做的小球",
+      "description_zh": "一颗小球用弹力绳挂在 Mac 菜单栏上，可以拖拽、甩动、弹射，也会碰撞应用窗口、沿边缘滚动并落入 Dock，剪断绳子后还能在桌面自由运动。介绍称它采用物理模拟而非预制动画，支持一键隐藏，无需账号或订阅，数据不离开 Mac。",
+      "intro_zh": "给想在会议间隙随手玩两下的 Mac 用户，在桌面拖甩一颗会撞上窗口的小球。",
       "url": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CVBLPBKYAX7Z64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6862284f-58d4-48df-a074-e57c09031bbc.png?auto=format",
       "votes_count": 228,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "玩法和场景明确，但消遣是否会变成干扰取决于个人。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把真实窗口变成碰撞边界，有具体的交互实现难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "利用现有桌面布局参与玩法，可借给桌面玩具设计。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "游戏娱乐",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把桌面布局直接变成可玩的环境；最影响判断的是实际交互会不会妨碍正常使用窗口。",
+      "product_analysis": {
+        "target_problem": "面向开会时想找点轻量消遣的 Mac 用户。它解决的是无聊，不是会议效率问题。",
+        "workflow": "拖动菜单栏下的小球，再松手甩出或弹射；也能剪断绳子，让它在桌面运动。需要收起时按键隐藏。",
+        "ai_value": "介绍没提 AI，主要靠物理模拟和窗口碰撞来改善玩耍体验。",
+        "differentiation": "不用另开游戏场景，现有窗口就能参与玩法。但桌面持续有物体运动，可能让人不愿常开。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到物理模拟、与实际应用窗口碰撞，以及本地运行且数据不外传。",
+        "possible_approach": "如果自己做，可以先把窗口位置转成小球能碰撞的边界，再计算弹力、重力和反弹，并用透明图层显示运动。",
+        "tradeoffs": "最难的是让碰撞边界跟上窗口变化；窗口移动后若边界没更新，小球可能撞上空处或穿过窗口。",
+        "unknowns": "读取实际窗口位置需要用户授予哪些系统权限，介绍没说。"
+      },
+      "transferable_insights": [
+        "做桌面宠物或轻量玩具时，可以让已有窗口成为活动场地，减少用户另外布置场景的步骤。"
+      ],
+      "validation_questions": [
+        "连续移动窗口时，小球是否仍与当前窗口边缘正确碰撞？",
+        "在其他应用中操作时，隐藏快捷键是否仍能立即生效？"
+      ],
+      "source_tagline": "A ball for boring meetings to keep you busy",
+      "source_description": "A ball hangs from your Mac menu bar on an elastic tether. Drag it, fling it, slingshot it. It bounces off your actual app windows, rolls along their edges and settles into the Dock. Cut the rope and it goes loose across the desktop. Real physics, not a canned animation, so it never does the same thing twice. One key hides it the instant somebody says your name. No account, no subscription, nothing leaves your Mac."
     },
     {
       "id": "1237061",
       "name": "EP–2350 FX–MIC",
       "name_zh": "EP–2350 FX–MIC",
-      "tagline_zh": "The programmable mic you can squeeze, shake & play",
-      "description_zh": "EP–2350 FX–MIC is a standalone handheld performance microphone with built-in fx, 4 on-board samples and a parameter modulation lever. shape your vocals and trigger samples straight from the mic. fill the four sample slots with your own sounds and build your own effect presets using a simple json file. hook it up to your K.O. II or plug it straight into any setup.",
-      "intro_zh": "",
+      "tagline_zh": "可挤压、摇动和演奏的可编程麦克风",
+      "description_zh": "EP–2350 FX–MIC 是一款可独立使用的手持演出麦克风，内置音效、四个采样槽和参数调节杆，可直接改变人声并触发声音片段。用户可以装入自己的声音，用 JSON 配置文件编写音效预设，也可连接 K.O. II 或其他演出设备；具体兼容范围未说明。",
+      "intro_zh": "给需要现场改变人声、插入声音片段的表演者用，把音效调节和声音触发放到手持麦克风上。",
       "url": "https://www.producthunt.com/products/teenage-engineering?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/OOB2BZGABM6CVL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2f469f95-6f8e-40e9-8ada-a3d2ab4d11ba.webp?auto=format",
       "votes_count": 210,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "现场调节人声和触发声音的用途明确，但操作体验尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "手持操作如何避免误触，是具体且影响演出的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把高频控制放到手持设备、把预设编辑留到演出前，具有借鉴价值。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重少腾一只手就能控制音效；但握持动作是否会误触，直接影响它能否用于现场演出。",
+      "product_analysis": {
+        "target_problem": "面向边唱边调音效、播放短声音的表演者。若这些操作分散在其他设备上，演出时就要腾手切换。",
+        "workflow": "把自己的声音装入四个采样槽，用配置文件制作音效预设。演出时从麦克风触发声音、调节人声，也可连接 K.O. II。",
+        "ai_value": "介绍没提 AI，主要靠内置音效和麦克风上的控制来改善体验。",
+        "differentiation": "它把部分现场操作集中到拿麦的手上。最可能让人不愿换用的，是只有四个采样槽，不够安排整场素材。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1235109",
-      "name": "BrandMyLaptop",
-      "name_zh": "BrandMyLaptop",
-      "tagline_zh": "Sell ad space on your laptop",
-      "description_zh": "A marketplace where brands buy sticker spots on your laptop lid. Set your machine, your prices, your terms. Mac or PC, one you own or one the sales pay for.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/brandmylaptop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/RPCK6GKOGS3Q6F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ba3aa6b8-249e-46e4-b361-f2eb41e5895f.png?auto=format",
-      "votes_count": 176,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "内置音效、四个采样槽和参数调节杆，支持 JSON（一种按固定格式写设置的文本文件）配置音效预设。",
+        "possible_approach": "如果自己做，可以先让麦克风处理人声并播放采样，再把按键、调节杆对应到播放和音效参数，最后加入预设文件读取。",
+        "tradeoffs": "最难的是区分正常握持与有意操作；若容易误触，表演者可能在唱歌时意外改变音效。",
+        "unknowns": "标语中的挤压、摇动分别控制什么，简介没有解释。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做现场演出设备时，可把高频操作放到手持部件，把复杂预设留到演出前编辑，减少现场切换。"
+      ],
+      "validation_questions": [
+        "正常握持、走动和换手时，会不会误触音效控制？",
+        "自定义预设文件写错时，设备能否指出具体错误？"
+      ],
+      "source_tagline": "The programmable mic you can squeeze, shake & play",
+      "source_description": "EP–2350 FX–MIC is a standalone handheld performance microphone with built-in fx, 4 on-board samples and a parameter modulation lever. shape your vocals and trigger samples straight from the mic. fill the four sample slots with your own sounds and build your own effect presets using a simple json file. hook it up to your K.O. II or plug it straight into any setup."
     },
     {
       "id": "1235917",
       "name": "Orato",
       "name_zh": "Orato",
-      "tagline_zh": "Practice speaking with AI.",
-      "description_zh": "Pick a drill, speak for 30 to 90 seconds, and get scored on pacing, fluency, vocabulary and coherence. Every filler and long pause lands on a transcript you can read back. On an iPhone with Apple Intelligence it runs on the device, with no account.",
-      "intro_zh": "",
+      "tagline_zh": "用 AI 练习口头表达。",
+      "description_zh": "选一个练习题，讲 30—90 秒，获得语速、流畅度、词汇和连贯性评分，并在转写稿中回看填充词和长停顿。在支持 Apple Intelligence 的 iPhone 上，它可在设备本地运行，无需账号。",
+      "intro_zh": "给想练习口头表达的人用。选题说一小段，再看评分和标出填充词、长停顿的文字稿。",
       "url": "https://www.producthunt.com/products/orato-speech-coach?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HFET4EV36YRPHM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/05def9cb-5edc-4b6e-9f96-1daec4c23df1.png?auto=format",
       "votes_count": 143,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "练习对象和反馈方式清楚，但评分是否有助于改进仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把语音中的停顿对应到文字稿，是具体且影响反馈可信度的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "短练习配合可定位的反馈，适合借到其他表达训练产品中。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重能回到原话找问题，而不只拿到一个分数。关键疑问是评分能否合理解释表达问题，否则用户可能只是在追分。",
+      "product_analysis": {
+        "target_problem": "想练习口头表达的人，需要知道自己哪里卡顿、哪里说得不连贯。单有总分，很难找到该改的具体位置。",
+        "workflow": "选一道练习题，说 30—90 秒，再看四项评分。回读文字稿，查看填充词和长停顿的位置。",
+        "ai_value": "AI 用于评估这段表达，并提供可回看的反馈。具体评分标准没有说明。",
+        "differentiation": "它把评分和问题位置放在一起，方便有针对性地复盘。最可能限制使用的是设备条件：介绍只明确支持 Apple Intelligence 的 iPhone 可本地运行。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称可在支持 Apple Intelligence 的 iPhone 上本地运行，无需账号；未说明具体模型。",
+        "possible_approach": "如果自己做，可以先把录音转成带时间位置的文字，再计算语速、定位停顿，并让模型评估词汇和连贯性。",
+        "tradeoffs": "难点是转写时保留填充词并对准停顿。若识别时自动删掉口头语，用户看到的反馈就可能漏掉真正要改的问题。",
+        "unknowns": "评分是否会区分有意停顿和表达卡壳，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做面试或演讲训练时，可以把反馈指向原话的具体位置，让用户知道下一轮该改哪一句。"
+      ],
+      "validation_questions": [
+        "录一段刻意加入填充词和长停顿的话，检查文字稿是否准确标出。",
+        "对同一段录音重复评分，检查结果是否稳定。"
+      ],
+      "source_tagline": "Practice speaking with AI.",
+      "source_description": "Pick a drill, speak for 30 to 90 seconds, and get scored on pacing, fluency, vocabulary and coherence. Every filler and long pause lands on a transcript you can read back. On an iPhone with Apple Intelligence it runs on the device, with no account."
     },
     {
       "id": "1235226",
       "name": "Radar by Particle",
       "name_zh": "Radar by Particle",
-      "tagline_zh": "The Podcast Search Engine",
-      "description_zh": "The web is searchable. Podcasts should be too. Today, Particle is introducing Radar, the podcast search engine. Podcasts hold some of the most thoughtful and timely conversations happening right now, but that knowledge is hard to find. Radar searches 130,000+ actively transcribed podcasts, with ~20,000 new episodes daily. Millions of hours and billions of lines, fully searchable. Radar is powered by Particle’s Podcast Intelligence API, which allows agents to search across podcasts via API/MCP.",
-      "intro_zh": "",
+      "tagline_zh": "播客搜索引擎",
+      "description_zh": "Radar 用来搜索播客里难以找到的讨论内容；介绍称覆盖超过 13 万个持续转写的播客，每天新增约 2 万集，可搜索数百万小时的内容。它由 Particle 的 Podcast Intelligence API 支持，也允许智能代理通过 API 或 MCP 搜索播客。",
+      "intro_zh": "给想从播客里找资料的人用，按问题或话题搜索节目中的讨论内容，也供智能代理调用。",
       "url": "https://www.producthunt.com/products/particle-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/BLWELKQSMI42CU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8bf2281b-fcfe-4ffc-879a-f0b35f27836d.jpeg?auto=format",
       "votes_count": 142,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "找播客内容的需求清楚，但搜索准确性和结果呈现方式未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "持续转写和新增内容检索带来了具体的更新与准确性问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把音频变成可搜索文字、再供其他软件调用的做法可以借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让播客内部的讨论能被查找；最影响判断的是，搜到的内容能否追溯到原音频核对。",
+      "product_analysis": {
+        "target_problem": "研究者、记者或播客听众找某个话题时，需要知道哪些节目讨论过它。相关知识藏在音频里，难以直接查找。",
+        "workflow": "用户输入想找的内容，Radar 在已转写的播客中搜索。介绍没说明结果是否附带原音频位置。",
+        "ai_value": "明确支持智能代理调用搜索，但没说明 AI 是否参与转写或排序。不能据此认定它会理解并回答问题。",
+        "differentiation": "把音频中的讨论变成可搜索内容，减少寻找相关节目的麻烦。覆盖不到用户关心的播客，可能让人继续用原来的查找方式。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "使用 Particle 的播客搜索接口，支持 API（软件间传数据的连接方式）和 MCP（供智能代理连接工具的通用方式）。",
+        "possible_approach": "如果自己做，可以先把音频转成带时间位置的文字，再建立搜索索引，让查询返回相关片段及出处。",
+        "tradeoffs": "最容易出错的是转写中的人名和专有名词。关键字一旦写错，相关讨论可能搜不到。",
+        "unknowns": "新节目发布后，要多久才能搜到？每日新增量不能说明更新延迟。"
+      },
+      "transferable_insights": [
+        "做课程或访谈资料库时，可以先让录音内容可搜索，并保留对应音频位置，方便用户核对原话。"
+      ],
+      "validation_questions": [
+        "选一段包含已知人名的播客讨论，检查能否用该人名搜到。",
+        "选一集刚发布的节目，记录它首次能被搜到的时间。"
+      ],
+      "source_tagline": "The Podcast Search Engine",
+      "source_description": "The web is searchable. Podcasts should be too. Today, Particle is introducing Radar, the podcast search engine. Podcasts hold some of the most thoughtful and timely conversations happening right now, but that knowledge is hard to find. Radar searches 130,000+ actively transcribed podcasts, with ~20,000 new episodes daily. Millions of hours and billions of lines, fully searchable. Radar is powered by Particle’s Podcast Intelligence API, which allows agents to search across podcasts via API/MCP."
     },
     {
       "id": "1231542",
       "name": "WebTerm Learn",
       "name_zh": "WebTerm Learn",
-      "tagline_zh": "Learn the terminal like a game — in a browser sandbox",
-      "description_zh": "An interactive platform for learning the terminal, Git, and Vim. Hand-drawn slides teach the concept; a real in-browser sandbox checks every command you type. Progress across a 3D world map with a companion that evolves. 12 courses, 129 lessons, all free.",
-      "intro_zh": "",
+      "tagline_zh": "在浏览器沙盒里，像玩游戏一样学习终端",
+      "description_zh": "一个学习终端、Git 和 Vim 的互动平台，用手绘幻灯片讲解概念，并在浏览器沙盒中检查输入的每条命令。简介称有 12 门课程、129 节课，全部免费，还可沿着 3D 世界地图推进学习，让同行伙伴逐步成长。",
+      "intro_zh": "给刚接触命令行的人用，在浏览器里看概念、练命令，并通过课程检查学习进度。",
       "url": "https://www.producthunt.com/products/webterm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/PFRZJICVJHDLVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/8ff58653-af96-4cd9-8d07-2253735f708f.png?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把概念讲解和动手练习放在一起，新手用途清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判断命令是否完成任务，是具体且影响学习的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "讲解后立即操作并检查结果，可借用于其他软件教学。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重讲完就能练、练后有检查；但检查能否认可不同的正确解法，直接影响它是否会教错人。",
+      "product_analysis": {
+        "target_problem": "刚学终端、Git（版本管理工具）和 Vim（键盘操作为主的编辑器）的人，需要把概念变成实际操作。只看懂说明，还不等于会输入命令。",
+        "workflow": "先看手绘幻灯片，再在浏览器练习环境里输入命令，平台逐条检查。学习进度通过 3D 地图和成长伙伴呈现。",
+        "ai_value": "介绍没提 AI，主要靠动手练习和命令检查来改善体验。",
+        "differentiation": "讲解与练习放在同一处，可能减少来回切换。最可能让人犹豫的是，浏览器里的练习能否用于自己的电脑。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到浏览器内沙盒（隔离的练习环境）和逐条命令检查，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先为每课准备练习环境，再运行用户命令，检查文件等结果是否达到课程目标。",
+        "tradeoffs": "最难的是识别不同但正确的解法。若只匹配命令文字，用户可能做对了却被判错。",
+        "unknowns": "浏览器练习环境支持的命令行为，与本机终端有多大差别？"
+      },
+      "transferable_insights": [
+        "做软件入门教学时，可以把每个概念配成一个立即可做的小任务，按操作结果给反馈。"
+      ],
+      "validation_questions": [
+        "用两种正确命令完成同一任务，检查是否都能通过。",
+        "把一课的操作搬到本机终端，检查结果是否一致。"
+      ],
+      "source_tagline": "Learn the terminal like a game — in a browser sandbox",
+      "source_description": "An interactive platform for learning the terminal, Git, and Vim. Hand-drawn slides teach the concept; a real in-browser sandbox checks every command you type. Progress across a 3D world map with a companion that evolves. 12 courses, 129 lessons, all free."
+    },
+    {
+      "id": "1235109",
+      "name": "BrandMyLaptop",
+      "name_zh": "BrandMyLaptop",
+      "tagline_zh": "出售笔记本电脑上的广告位",
+      "description_zh": "一个让品牌购买笔记本电脑外盖贴纸广告位的市场，机主自行设定电脑、价格和条件。支持 Mac 或 PC；简介也提到用广告收入支付电脑费用，但未说明具体安排。",
+      "intro_zh": "给愿意在电脑外盖贴广告的机主和投放品牌用，让双方交易贴纸位置，由机主设定价格和条件。",
+      "url": "https://www.producthunt.com/products/brandmylaptop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RPCK6GKOGS3Q6F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ba3aa6b8-249e-46e4-b361-f2eb41e5895f.png?auto=format",
+      "votes_count": 176,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "买卖对象明确，但品牌能获得多少有效展示尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "线下贴纸是否持续展示，是一个具体且影响交易的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴由资源所有者设定交易条件的做法，但成交效果未知。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重机主能自行给展示位置定价；但如果无法证明广告持续展示，交易就很难建立信任。",
+      "product_analysis": {
+        "target_problem": "愿意贴广告的机主需要找到买家，品牌需要找到合适的展示位置。这个市场把双方放到一起，但没有说明哪些使用场景更受品牌欢迎。",
+        "workflow": "机主设定用于展示的电脑、价格和条件，品牌购买外盖上的贴纸位置。简介未交代贴纸制作、交付和结算步骤。",
+        "ai_value": "介绍没提 AI，主要靠集中展示广告位和交易条件来帮助双方寻找合作。",
+        "differentiation": "把电脑外盖变成可报价的广告位置，可能减少逐个寻找合作方的麻烦。品牌可能因难以判断实际展示量而不愿下单。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让机主登记电脑和可贴位置，再填写价格、展示期限及条件，让品牌按这些信息选择。",
+        "tradeoffs": "最难的是确认贴纸持续展示。若只凭一次照片，品牌可能付了钱，却不知道之后是否还在展示。",
+        "unknowns": "平台如何确认约定的展示已经完成？"
+      },
+      "transferable_insights": [
+        "做闲置空间出租产品时，可以让拥有者同时填写价格和使用限制，让买家在联系前判断是否合适。"
+      ],
+      "validation_questions": [
+        "品牌购买前，能否看到足以判断投放场景的信息？",
+        "展示期内，平台是否提供持续履约的证据？"
+      ],
+      "source_tagline": "Sell ad space on your laptop",
+      "source_description": "A marketplace where brands buy sticker spots on your laptop lid. Set your machine, your prices, your terms. Mac or PC, one you own or one the sales pay for."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

@@ -1,367 +1,510 @@
 {
   "date": "2026-09-28",
-  "generated_at": "2026-09-29T21:51:08+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:25:22+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1254665",
       "name": "MCP Connectors by Databox",
       "name_zh": "MCP Connectors by Databox",
-      "tagline_zh": "Give your AI Analyst context to explain performance and act",
-      "description_zh": "Connect your AI Analyst to the tools your business runs on. It pulls context from your CRM or support desk, so every answer reflects what's happening in your business, and it can act on what it finds. Choose from 10+ connectors or add any MCP server.",
-      "intro_zh": "",
+      "tagline_zh": "为你的 AI 分析助手补充业务背景，用来解释表现并采取行动",
+      "description_zh": "把 AI 分析助手连接到企业使用的工具，从客户关系管理系统或客服系统中获取业务背景，用于回答问题并据此采取行动。可选择 10 多个连接器，也可添加 MCP 服务器。",
+      "intro_zh": "给需要分析业务表现的团队用，把客户和客服信息接给 AI 分析助手，辅助解释数据并采取行动。",
       "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/G6WOTY7G4NBGJP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7cea0b2a-3749-4456-8ddf-ffb7b6deacbb.png?auto=format",
       "votes_count": 444,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "补充业务背景的用途清楚，但具体能执行哪些动作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "从读取业务信息走到执行动作，有明确的权限控制问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "预置连接器加开放接入的做法，可借用于需要连接多种业务工具的产品。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它能把指标变化与业务记录放在一起解释；最影响判断的是行动范围不明，还无法判断误操作的风险。",
+      "product_analysis": {
+        "target_problem": "业务团队解释业绩变化时，需要知道客户或客服端发生了什么。单看指标，可能缺少解释原因所需的背景。",
+        "workflow": "选择现成连接器，或添加 MCP 服务器。助手从连接的业务工具中获取背景，用于回答，并可据此采取行动；具体操作方式未说明。",
+        "ai_value": "AI 负责结合业务背景解释表现，并据发现采取行动。简介没有说明它如何核对信息与结论。",
+        "differentiation": "它把相关业务信息带进分析过程，可能减少来回查资料。团队可能因不清楚助手的操作权限而暂缓接入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 691be345-a1de-4c10-976a-343578a98bea)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 10 多个连接器及添加 MCP 服务器；MCP 是让 AI 工具连接外部数据和功能的一种通用约定。",
+        "possible_approach": "如果自己做，可以先接通业务系统，按问题读取相关记录，再交给 AI 分析；需要执行动作时，先展示操作内容并让用户确认。",
+        "tradeoffs": "最难的是把行动限制在获准范围内。若把读取权限和修改权限混在一起，分析判断出错就可能变成误改业务记录。",
+        "unknowns": "“采取行动”具体包括哪些操作，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做企业分析工具时，可以预置常见系统的连接入口，再允许用户补接其他系统，减少逐个定制的工作。"
+      ],
+      "validation_questions": [
+        "选一个已有结论的业务问题，检查回答是否正确使用了相关客户或客服记录。",
+        "对一个会修改记录的动作，检查执行前是否要求用户确认。"
+      ],
+      "source_tagline": "Give your AI Analyst context to explain performance and act",
+      "source_description": "Connect your AI Analyst to the tools your business runs on. It pulls context from your CRM or support desk, so every answer reflects what's happening in your business, and it can act on what it finds. Choose from 10+ connectors or add any MCP server."
     },
     {
       "id": "1248418",
       "name": "SaleSmartly",
       "name_zh": "SaleSmartly",
-      "tagline_zh": "Turn conversations across every channel into customers",
-      "description_zh": "SaleSmartly brings customer conversations from WhatsApp, Instagram, Messenger, TikTok, Telegram, LINE, WeChat and more into one workspace. Manage leads with a built-in CRM, let AI agents answer questions and qualify customers 24/7, translate conversations in real time, and automate follow-ups—all while your team keeps the context needed to turn more conversations into customers.",
-      "intro_zh": "",
+      "tagline_zh": "把各渠道的对话转化为客户",
+      "description_zh": "SaleSmartly 把 WhatsApp、Instagram、Messenger、TikTok、Telegram、LINE、微信等渠道的客户对话集中到一个工作区，并用内置客户管理工具管理潜在客户。简介还列出 AI 全天答疑和筛选客户、实时翻译、自动跟进，以及供团队保留对话背景的功能。",
+      "intro_zh": "给通过多个社交渠道接待客户的销售和客服团队用，集中处理消息、管理潜在客户并安排跟进。",
       "url": "https://www.producthunt.com/products/salesmartly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/EZKALQKOCUWIZ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/9023bdb9-9972-4394-a212-2c95be93c0d0.png?auto=format",
       "votes_count": 316,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多渠道接待的场景明确，但实际节省多少时间尚无材料支持。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨渠道识别客户是具体难题，会影响后续回复和跟进。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把对话记录与客户跟进放在一起，可借用于其他接待工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重集中对话后能少找资料；但客户身份如何匹配仍不清楚，可能直接影响回复是否准确。",
+      "product_analysis": {
+        "target_problem": "销售和客服同时接待多个社交渠道时，需要查找消息、理解客户前情，再决定怎么跟进。对话分散会增加查找和交接的麻烦。",
+        "workflow": "团队在统一工作区处理各渠道对话，用内置客户管理工具记录潜在客户。还可使用 AI 答疑、客户筛选、实时翻译和自动跟进。",
+        "ai_value": "AI 被用于全天回答问题和筛选潜在客户。筛选依据、答错后如何处理，简介没有说明。",
+        "differentiation": "消息和客户记录放在一起，可能减少来回查找。最可能阻碍迁移的是目标渠道的接入限制，这需要先确认。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c284236b-66cb-41b5-bc10-39690727f59c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "简介提到多渠道消息汇集、内置客户管理、AI 接待、实时翻译及自动跟进，没说具体模型或接入技术。",
+        "possible_approach": "如果自己做，可以先接入一个渠道，把消息关联到客户记录，再加入基于业务资料的自动答疑和跟进规则。",
+        "tradeoffs": "最容易出错的是把不同渠道的账号认成同一客户，导致回复引用别人的信息。",
+        "unknowns": "跨渠道客户记录如何确认属于同一个人？"
+      },
+      "transferable_insights": [
+        "做客服或销售工具时，可以把对话记录与跟进事项放在同一处，减少交接时重新找资料。"
+      ],
+      "validation_questions": [
+        "用两个同名客户测试，检查系统会不会错误合并记录。",
+        "问一个业务资料未覆盖的问题，检查 AI 会不会编造答案。"
+      ],
+      "source_tagline": "Turn conversations across every channel into customers",
+      "source_description": "SaleSmartly brings customer conversations from WhatsApp, Instagram, Messenger, TikTok, Telegram, LINE, WeChat and more into one workspace. Manage leads with a built-in CRM, let AI agents answer questions and qualify customers 24/7, translate conversations in real time, and automate follow-ups—all while your team keeps the context needed to turn more conversations into customers."
     },
     {
       "id": "1251721",
       "name": "Statable Analytics",
       "name_zh": "Statable Analytics",
-      "tagline_zh": "Web analytics built for you and your AI agents",
-      "description_zh": "Statable is web analytics built for humans and AI agents. Use the simple dashboard yourself, or connect Claude, ChatGPT, Cursor, Codex, and other agents through MCP to read reports, analyze traffic, and configure tracking, goals, and funnels. No cookies, no analytics consent banner in most cases, and your data stays hosted in the EU.",
-      "intro_zh": "",
+      "tagline_zh": "为你和 AI 助手打造的网站分析工具",
+      "description_zh": "Statable 提供网站分析看板，也支持 Claude、ChatGPT、Cursor、Codex 等 AI 助手通过 MCP 读取报告、分析流量，以及配置追踪、目标和漏斗。介绍称它不使用 Cookie，多数情况下无需分析用途的同意横幅，数据托管在欧盟。",
+      "intro_zh": "给网站运营者和产品团队用的网站分析工具，可自己查看报表，也可让 AI 助手读数据、配置统计。",
       "url": "https://www.producthunt.com/products/statable-analytics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XNQ4NCU2AP5NPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c817401a-ed30-443c-8e45-4c572aaad332.png?auto=format",
       "votes_count": 310,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查流量和配置统计的用途明确，但实际能省多少操作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "让 AI 既能读报告又能改配置，带来了具体的误操作风险。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留人工看板并开放助手操作，是其他数据工具可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把查数和配置放进已有的 AI 助手中，可能减少工具切换；关键疑问是配置出错前，用户有没有机会发现并阻止。",
+      "product_analysis": {
+        "target_problem": "网站运营者需要看访问情况，也要设置追踪和转化目标。它让这些工作既能在看板里做，也能交给已连接的 AI 助手。",
+        "workflow": "用户可直接看报表，或通过 MCP 连接 AI 助手，再让助手读取报告、分析流量或配置目标与漏斗（访客完成一串步骤的情况）。",
+        "ai_value": "AI 承担读报告、分析和配置操作；介绍没有说明分析结果如何核对。",
+        "differentiation": "可能省去查完数据再向助手转述的过程。我会先确认配置变更能否经用户确认后再生效。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e665a307-67ad-48f7-9c45-d0520fcf17ea)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持 MCP（让 AI 助手连接外部工具的协议）；不使用 Cookie，数据托管在欧盟。",
+        "possible_approach": "如果自己做，可以先把报表查询开放给助手，再开放配置操作，并在保存前展示将修改的内容。",
+        "tradeoffs": "最易出错的是把用户意图变成配置。若目标条件设错，后续转化报表可能持续误导判断。",
+        "unknowns": "不使用 Cookie 时，跨次访问如何识别和统计，介绍没说明。"
+      },
+      "transferable_insights": [
+        "做可由 AI 操作的数据工具时，可以保留人工看板，让用户核对助手读取的数据和准备提交的修改。"
+      ],
+      "validation_questions": [
+        "让助手配置一个目标，检查保存前能否确认具体条件。",
+        "用已知访问记录核对报表，检查重复访问的统计口径。"
+      ],
+      "source_tagline": "Web analytics built for you and your AI agents",
+      "source_description": "Statable is web analytics built for humans and AI agents. Use the simple dashboard yourself, or connect Claude, ChatGPT, Cursor, Codex, and other agents through MCP to read reports, analyze traffic, and configure tracking, goals, and funnels. No cookies, no analytics consent banner in most cases, and your data stays hosted in the EU."
     },
     {
       "id": "1261326",
       "name": "Vitals ",
       "name_zh": "Vitals ",
-      "tagline_zh": "A Mac activity monitor that thinks in apps, not processes",
-      "description_zh": "Activity Monitor lists a thousand processes, a hundred of them called Google Chrome Helper. Vitals adds every helper to the app that launched it, so you see 60 apps instead of 1,000 processes, each with one figure for memory, CPU, energy, disk and network. It keeps 30 days of history, alerts you when an app misbehaves, finds forgotten dev servers, and shows temperatures, fans and battery. Every readout can sit in your menu bar, arranged your way. Pay once. No subscription, no account.",
-      "intro_zh": "",
+      "tagline_zh": "按应用而非进程查看的 Mac 活动监视器",
+      "description_zh": "Vitals 将辅助进程归入启动它的应用，按应用汇总内存、CPU、能耗、磁盘和网络用量，保留 30 天历史，并提供异常提醒、查找遗忘的开发服务器以及温度、风扇和电池读数。各项读数可放入菜单栏并自由排列；一次购买，无需订阅或账户。",
+      "intro_zh": "给想查清 Mac 资源用在哪的人，把应用及其辅助进程合并查看，并追踪用量变化。",
       "url": "https://www.producthunt.com/products/vitals-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/AI4LWX7QMJSJZL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/edc86e9f-acd3-4bcb-b646-35ae82f8d882.png?auto=format",
       "votes_count": 288,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "把分散进程汇总到应用，明确减少查找和加总的麻烦。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "辅助进程能否正确归属，直接决定用量是否可信。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按用户认识的对象汇总底层记录，可借用于其他监控工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是不用自己拼出一个应用的总用量；最影响判断的是进程归属是否准确，历史缓存无法证明这一点。",
+      "product_analysis": {
+        "target_problem": "Mac 用户排查卡顿或耗电时，可能面对同一应用的一长串辅助进程。以前要逐项辨认和加总，现在可以直接看应用总量。",
+        "workflow": "查看各应用的资源用量，再用最长 30 天的历史追查变化；常看的读数可放进菜单栏。开发者还可查找遗忘的开发服务器。",
+        "ai_value": "介绍没提 AI，主要靠进程归组、历史记录和异常提醒改善查看体验。",
+        "differentiation": "省去了手动判断哪些进程属于同一应用的工作。若用户需要定位具体哪个辅助进程出问题，是否能展开查看可能影响换用意愿。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ef94543c-fab3-4a87-9744-9f5cbf4f4be1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说会把辅助进程归入启动它的应用，并保留 30 天历史，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先采集进程用量，再根据启动关系和应用信息归组，最后定时保存各应用的汇总值。",
+        "tradeoffs": "最难的是持续把辅助进程归对应用。归错后，用户可能把耗电或卡顿怪到错误的应用上。",
+        "unknowns": "异常提醒按什么标准触发，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做监控工具时，可以先按用户认识的应用或任务汇总记录，再允许展开明细，兼顾快速判断与深入排查。"
+      ],
+      "validation_questions": [
+        "打开多个带辅助进程的应用，核对进程是否归入了正确应用。",
+        "让某个应用持续高负载，检查异常提醒是否触发。"
+      ],
+      "source_tagline": "A Mac activity monitor that thinks in apps, not processes",
+      "source_description": "Activity Monitor lists a thousand processes, a hundred of them called Google Chrome Helper. Vitals adds every helper to the app that launched it, so you see 60 apps instead of 1,000 processes, each with one figure for memory, CPU, energy, disk and network. It keeps 30 days of history, alerts you when an app misbehaves, finds forgotten dev servers, and shows temperatures, fans and battery. Every readout can sit in your menu bar, arranged your way. Pay once. No subscription, no account."
     },
     {
       "id": "1253533",
       "name": "VibeDefend by CybeDefend",
       "name_zh": "VibeDefend by CybeDefend",
-      "tagline_zh": "The one command line to secure your Cursor and Claude Code",
-      "description_zh": "VibeDefend installs on your AI coding agent (Claude Code, Cursor, Windsurf, Copilot, Codex and more) with one command. From then on the agent writes with your business rules, mined from your repo, and your security rules in its context. It scans each diff while the file is still open, and a guard refuses rm -rf, sudo or a read of your secrets before it runs. Scanners check code after the commit, this runs before the line is written. Free plan, no card.",
-      "intro_zh": "",
+      "tagline_zh": "用一条命令，为 Cursor 和 Claude Code 加上安全防护",
+      "description_zh": "VibeDefend 称可用一条命令安装到 Claude Code、Cursor 等 AI 编程助手中，将从代码仓库提取的业务规则及安全规则放入助手上下文。它检查代码改动，并在执行前拦截 rm -rf、sudo 或读取秘密信息等操作；提供免费方案，无需信用卡。",
+      "intro_zh": "给使用 AI 编程助手的开发者，在写代码和执行命令时检查改动、拦截危险操作。",
       "url": "https://www.producthunt.com/products/cybedefend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/25TSH4XBNECIO2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/ec0faaf9-e354-4882-932c-1b56d4265732.png?auto=format",
       "votes_count": 271,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "对象和防护场景明确，但实际拦截效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "执行前如何拦截危险操作，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把规则检查放到操作发生时，可借用于其他自动执行工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是危险命令执行前有机会被阻止；最大疑问是拦截能否覆盖变形写法。",
+      "product_analysis": {
+        "target_problem": "使用 AI 编程助手的开发者，需要防止助手违反业务约束或执行危险命令。只在事后检查，可能来不及阻止文件被删或秘密被读取。",
+        "workflow": "用一条命令安装到编程助手。工具把仓库中的业务规则和安全规则放入上下文，检查代码改动，并在危险操作执行前阻止它。",
+        "ai_value": "AI 编程助手带着规则生成代码；介绍没说规则提取和安全检查是否也使用 AI。",
+        "differentiation": "它把部分检查移到执行前，减少事后补救。最可能让人不愿启用的是误拦正常开发操作。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c22cdb25-219f-45f4-b9ac-bd67bb514a1b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到仓库规则提取、上下文注入、代码差异检查和执行前拦截，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先把仓库约定整理成可确认的规则，再接入助手的命令执行入口，检查后决定放行或阻止。",
+        "tradeoffs": "最难的是识别换种写法的危险命令；漏掉一次，删除或泄密仍可能发生。",
+        "unknowns": "简介同时说检查已有改动和写入前检查，实际检查时点不清楚。"
+      },
+      "transferable_insights": [
+        "做能自动操作文件的助手时，可在执行前增加规则检查，避免只给出事后告警。"
+      ],
+      "validation_questions": [
+        "把危险删除操作换一种命令写法，是否仍会被拦截？",
+        "故意生成违反仓库规则的代码，检查发生在写入前还是写入后？"
+      ],
+      "source_tagline": "The one command line to secure your Cursor and Claude Code",
+      "source_description": "VibeDefend installs on your AI coding agent (Claude Code, Cursor, Windsurf, Copilot, Codex and more) with one command. From then on the agent writes with your business rules, mined from your repo, and your security rules in its context. It scans each diff while the file is still open, and a guard refuses rm -rf, sudo or a read of your secrets before it runs. Scanners check code after the commit, this runs before the line is written. Free plan, no card."
     },
     {
       "id": "1260728",
       "name": "Okara",
       "name_zh": "Okara",
-      "tagline_zh": "The world's first AI CMO",
-      "description_zh": "Okara is an AI CMO. Enter your website and it studies your product, competitors and brand voice, then runs 10+ agents for SEO, AI search, Reddit, X, LinkedIn, creators and UGC video. You approve every draft and it publishes. Used by 100,000+ businesses.",
-      "intro_zh": "",
+      "tagline_zh": "号称全球首个 AI 首席营销官",
+      "description_zh": "Okara 自称 AI 首席营销官：输入网站后，它会研究产品、竞品和品牌语气，再运行十多个智能体，处理搜索优化、AI 搜索、社交平台及创作者与用户生成视频相关工作。简介称每份草稿都经用户批准后发布，并宣称已有超过十万家企业使用。",
+      "intro_zh": "给需要经营多个营销渠道的团队用，读取网站信息生成营销草稿，经人工批准后发布。",
       "url": "https://www.producthunt.com/products/okara-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/3QJ7ZYY3QS6JUM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/fdc39121-0ffd-4141-8ff0-94d4cf144a85.png?auto=format",
       "votes_count": 200,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从网站研究到草稿审批、发布的用途明确，但内容质量尚未确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "同一品牌在多个渠道生成内容时，事实准确性是具体难题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先共享产品资料、再分渠道起稿和审批的做法可借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重草稿审批后直接发布，能少一次人工交接；但若产品事实不可靠，审核工作可能抵消省下的时间。",
+      "product_analysis": {
+        "target_problem": "面向要经营多个渠道的营销团队。准备产品资料、调整各渠道表达、审核和发布，需要反复衔接。",
+        "workflow": "输入网站，让它研究产品、竞品和品牌语气，再生成各渠道草稿。用户逐份批准后，由它发布。",
+        "ai_value": "AI 负责研究资料和起草内容。简介所说的智能体，可理解为分别承担营销任务的自动程序。",
+        "differentiation": "把研究、起稿和发布放在一起，可能减少来回搬运资料。若草稿仍需大量改写，团队可能不愿换工具。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: f571769e-c409-4a9c-810f-73233121fb9d)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1260615",
-      "name": "GenCode",
-      "name_zh": "GenCode",
-      "tagline_zh": "A coding agent inside the Genspark Super App",
-      "description_zh": "GenCode is Genspark’s coding agent with Chat and Terminal UIs. It supports models from Claude, GPT, Gemini, DeepSeek, and more, and works directly on code in a directory you choose.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/genspark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VHDYWP3KEREA6C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e374fd44-f5a7-45f3-a699-8336c01ce2bd.png?auto=format",
-      "votes_count": 131,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介提到十多个智能体，以及人工批准后发布的机制，没说明具体模型。",
+        "possible_approach": "如果自己做，可以先从网站整理带出处的产品事实，再按渠道生成草稿，最后把批准的版本交给发布程序。",
+        "tradeoffs": "最容易错在把网站信息理解错。错误卖点若被多渠道复用，用户就得逐份纠正。",
+        "unknowns": "竞品研究取自哪里，是否能查看依据？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 588aa0a8-fb43-4be0-a86e-7264a3cb4f6b)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1263102",
-      "name": "Shotcandy",
-      "name_zh": "Shotcandy",
-      "tagline_zh": "Make Your Screenshots Look Amazing",
-      "description_zh": "Paste a screenshot. Get something lovely. Shotcandy is a free screenshot beautifier that turns plain screenshots into beautiful, share-ready images and videos in seconds, right in your browser.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/shotcandy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Z5AKF2SDO33QCV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d470f970-79b0-4335-b099-da506caf30a7.jpeg?auto=format",
-      "votes_count": 130,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 8b18b2e4-a1dd-4833-91cc-795821db4dcd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1261279",
-      "name": "Microsoft Copilot",
-      "name_zh": "Microsoft Copilot",
-      "tagline_zh": "The Al built for work",
-      "description_zh": "The new Copilot connects the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Copilot connects with your work content and the apps you already use, bringing together the latest AI models to help you create finished work, not just answers.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/microsoft-copilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TRVZDND72DSGXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9a235f44-24ba-42e1-a357-0753552a97e4.jpeg?auto=format",
-      "votes_count": 129,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 3ffca4f9-9091-43c7-ad96-fe845c50d0c2)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多渠道内容工具时，可以先建立共用的产品事实表，再生成不同渠道版本，避免各写各的。"
+      ],
+      "validation_questions": [
+        "用一个有明确功能限制的网站起稿，检查它是否编造产品能力。",
+        "修改并批准一份草稿，检查实际发布内容是否与批准版本一致。"
+      ],
+      "source_tagline": "The world's first AI CMO",
+      "source_description": "Okara is an AI CMO. Enter your website and it studies your product, competitors and brand voice, then runs 10+ agents for SEO, AI search, Reddit, X, LinkedIn, creators and UGC video. You approve every draft and it publishes. Used by 100,000+ businesses."
     },
     {
       "id": "1263022",
       "name": "Dina 4.5",
       "name_zh": "Dina 4.5",
-      "tagline_zh": "Beautiful screen recordings, screenshots, and 3D motion",
-      "description_zh": "Record your screen, capture beautiful screenshots, add cinematic 3D motion and perspective, customize every detail, and share instantly with a link. Dina 4.5 brings screen recordings, screenshots, 3D animations, and sharing into one fast, beautifully designed workflow.",
-      "intro_zh": "",
+      "tagline_zh": "录制屏幕、制作截图，并添加 3D 动效",
+      "description_zh": "录制屏幕或截取图片，添加电影感的 3D 动效与透视效果，调整细节，再通过链接分享。Dina 4.5 将录屏、截图、3D 动画和分享放在同一套操作流程中。",
+      "intro_zh": "给需要展示软件操作的产品、设计和支持人员用，把录屏或截图加上动态效果，再用链接分享。",
       "url": "https://www.producthunt.com/products/dina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VA6OUT2YK62EQY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/bf7f2321-86a9-4cb1-9abe-4cee4ceca9a4.png?auto=format",
       "votes_count": 122,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "素材制作到分享的用途清楚，但实际能省多少操作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "透视动效与屏幕文字可读性的取舍具体，但缺少实现信息。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把采集、修饰和分享接在一起，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重制作完成后能直接用链接交付；但分享权限不明确，暂时无法判断它是否适合内部演示。",
+      "product_analysis": {
+        "target_problem": "产品、设计和支持人员展示软件时，需要让别人看清操作，也希望画面整洁。Dina 把素材采集、效果调整和分享放在一起。",
+        "workflow": "录制屏幕或截图，添加 3D 动效与透视效果，调整画面细节，再生成链接分享。",
+        "ai_value": "介绍没提 AI，主要靠集中录制、画面处理和分享来改善体验。",
+        "differentiation": "可能省去在多个工具之间搬运素材的操作。最可能让人不愿换用的原因，是已有编辑工具能否被它替代尚不清楚。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: c542d307-4287-4594-b501-3320f3ba56ed)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持录屏、截图、3D 动效、透视效果和链接分享，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先采集屏幕画面，再把素材放到可旋转的平面上制作动效，最后生成可通过链接观看的成品。",
+        "tradeoffs": "最容易出错的是透视处理：倾斜过大可能让界面文字变小、变形，观众反而看不清操作。",
+        "unknowns": "分享链接是否支持限制访问？这会影响能否用于内部产品演示。"
+      },
+      "transferable_insights": [
+        "做教程或演示工具时，可以把分享直接放在编辑完成之后，减少用户另找地方上传成品的步骤。"
+      ],
+      "validation_questions": [
+        "给一段含小字号文字的录屏加透视效果，检查成品里的文字是否仍可读。",
+        "分享一份测试素材，检查能否限制链接的访问范围。"
+      ],
+      "source_tagline": "Beautiful screen recordings, screenshots, and 3D motion",
+      "source_description": "Record your screen, capture beautiful screenshots, add cinematic 3D motion and perspective, customize every detail, and share instantly with a link. Dina 4.5 brings screen recordings, screenshots, 3D animations, and sharing into one fast, beautifully designed workflow."
+    },
+    {
+      "id": "1260615",
+      "name": "GenCode",
+      "name_zh": "GenCode",
+      "tagline_zh": "Genspark 超级应用内的编程助手",
+      "description_zh": "GenCode 是 Genspark 的编程助手，提供聊天和终端两种界面。它支持 Claude、GPT、Gemini、DeepSeek 等模型，可直接处理用户指定目录中的代码。",
+      "intro_zh": "给需要 AI 协助改代码的开发者用，在聊天或终端界面中处理指定目录里的代码。",
+      "url": "https://www.producthunt.com/products/genspark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VHDYWP3KEREA6C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e374fd44-f5a7-45f3-a699-8336c01ce2bd.png?auto=format",
+      "votes_count": 131,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "使用对象和代码操作范围清楚，但能完成哪些编程任务尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "直接处理目录代码涉及明确的修改风险，但介绍未交代保护措施。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让用户指定工作目录的做法可借鉴，实际权限边界仍待确认。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重它能直接处理指定目录中的代码，减少搬运操作的可能性。最影响判断的是：用户选定的目录究竟只是工作位置，还是实际的访问边界。",
+      "product_analysis": {
+        "target_problem": "开发者需要 AI 结合已有项目处理代码。它把工作对象放在用户指定的目录中，但介绍没说明能处理多复杂的任务。",
+        "workflow": "用户指定代码目录，通过聊天或终端界面与编程助手交互。具体如何下达任务、确认修改，资料没有展开。",
+        "ai_value": "AI 用来处理目录中的代码，支持多个模型系列。介绍未明确是否能自动运行测试或修复报错。",
+        "differentiation": "直接处理项目代码，可能减少手工搬运代码的步骤。最可能让人犹豫的是能否放心让它修改现有文件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "提供聊天和终端界面，支持多个模型系列，可直接处理指定目录中的代码。",
+        "possible_approach": "如果自己做，可以先读取指定目录中的相关文件，再让模型提出修改，展示改动供用户确认后写入。",
+        "tradeoffs": "最容易出错的是选错要改的文件，导致无关功能被改坏，用户还得排查和恢复。",
+        "unknowns": "指定目录是否也是严格的读写边界，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做文件处理助手时，可以先让用户指定工作目录，明确本次处理的对象范围。"
+      ],
+      "validation_questions": [
+        "给它一个只需修改单个文件的任务，检查是否改动了无关文件。",
+        "要求它读取指定目录之外的测试文件，检查目录限制是否生效。"
+      ],
+      "source_tagline": "A coding agent inside the Genspark Super App",
+      "source_description": "GenCode is Genspark’s coding agent with Chat and Terminal UIs. It supports models from Claude, GPT, Gemini, DeepSeek, and more, and works directly on code in a directory you choose."
+    },
+    {
+      "id": "1263102",
+      "name": "Shotcandy",
+      "name_zh": "Shotcandy",
+      "tagline_zh": "让截图更好看",
+      "description_zh": "Shotcandy 是免费的截图美化工具，在浏览器里粘贴截图，就能制作适合分享的图片和视频。简介称，处理只需几秒。",
+      "intro_zh": "给需要展示产品或分享操作截图的人用，在浏览器里把普通截图做成适合分享的图片或视频。",
+      "url": "https://www.producthunt.com/products/shotcandy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Z5AKF2SDO33QCV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d470f970-79b0-4335-b099-da506caf30a7.jpeg?auto=format",
+      "votes_count": 130,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途明确，但美化效果和输出限制尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "截图美化后的文字清晰度是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "粘贴现有素材再生成分享成品的做法可借给其他轻量编辑工具。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重粘贴截图就能开始制作分享素材的便捷性；最影响判断的是，成品能否保住截图里的文字细节。",
+      "product_analysis": {
+        "target_problem": "做产品展示或分享操作截图时，既要保留信息，也希望画面整洁。Shotcandy 面向这类临时整理截图的需求。",
+        "workflow": "在浏览器里粘贴截图，再将它做成可分享的图片或视频。简介没说明中间有哪些编辑选项。",
+        "ai_value": "介绍没提 AI，主要靠截图美化和输出图片、视频来改善体验。",
+        "differentiation": "它把截图输入和分享成品制作放在同一处，可能减少另开编辑工具的麻烦。若样式不能满足展示要求，用户可能仍会留在原来的工具里。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只明确了浏览器内使用、粘贴截图，以及生成图片和视频，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取粘贴的图片，再用固定版式组合截图和背景，最后分别生成静态图片与视频。",
+        "tradeoffs": "最容易出错的是输出时缩放截图。小字若被压得模糊，画面再整齐也不适合展示操作细节。",
+        "unknowns": "截图是否会上传服务器？这决定了含内部信息的截图能否放心使用。"
+      },
+      "transferable_insights": [
+        "做轻量素材编辑器时，可以让用户直接粘贴已有图片，减少寻找文件和上传的步骤。"
+      ],
+      "validation_questions": [
+        "用一张含小字的截图生成成品，检查文字是否仍清晰可读。",
+        "处理截图时检查网络请求，确认图片是否被上传。"
+      ],
+      "source_tagline": "Make Your Screenshots Look Amazing",
+      "source_description": "Paste a screenshot. Get something lovely. Shotcandy is a free screenshot beautifier that turns plain screenshots into beautiful, share-ready images and videos in seconds, right in your browser."
+    },
+    {
+      "id": "1261279",
+      "name": "Microsoft Copilot",
+      "name_zh": "Microsoft Copilot",
+      "tagline_zh": "为工作打造的 AI",
+      "description_zh": "新版 Copilot 将人们常用的工具与构建、定制和扩大工作中 AI 使用范围的能力连接起来。它连接工作内容和已有应用，结合多种 AI 模型，目标是帮助用户完成工作成果，而不只是获得答案。",
+      "intro_zh": "给需要结合工作资料完成任务的办公用户用，连接已有应用和内容，帮助产出工作成果。",
+      "url": "https://www.producthunt.com/products/microsoft-copilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TRVZDND72DSGXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9a235f44-24ba-42e1-a357-0753552a97e4.jpeg?auto=format",
+      "votes_count": 129,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "连接工作资料的用途清楚，但没说明能完成哪些具体任务。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨应用取用资料涉及权限问题，但实际处理方式未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "从已有资料出发完成任务的做法可借鉴，落地范围仍待确认。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它可能减少反复补充工作背景的操作；但“完成工作”的范围不清楚，尚不能判断它能替用户做到哪一步。",
+      "product_analysis": {
+        "target_problem": "办公人员需要结合已有资料完成任务时，单有问答可能还不够。它瞄准的是让 AI 用上工作内容，并帮助形成可交付的成果。",
+        "workflow": "介绍支持的流程是：连接工作内容和已有应用，再借助 AI 产出工作成果。如何发起任务、修改或保存结果，没有说明。",
+        "ai_value": "AI 结合工作内容帮助生成成果。简介提到多种模型，但没有说明各自负责什么。",
+        "differentiation": "可能省去手动向 AI 补充工作背景的操作。最可能让人犹豫的是：是否愿意让它访问内部资料。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到连接工作内容、已有应用，并结合多种 AI 模型，未披露具体实现。",
+        "possible_approach": "如果自己做，可以先选一种任务，读取用户有权访问的相关资料，再让模型生成草稿，交给用户确认。",
+        "tradeoffs": "最容易出错的是资料权限检查。若把无权查看的内容带进生成结果，就可能泄露内部信息。",
+        "unknowns": "它能直接在已有应用里完成哪些操作，还是只生成内容供用户搬过去？"
+      },
+      "transferable_insights": [
+        "做办公助手时，可以先围绕一种明确的交付物连接资料，例如根据项目记录起草周报，再逐步增加任务类型。"
+      ],
+      "validation_questions": [
+        "用权限不同的两个账号测试，生成结果是否包含当前账号无权查看的资料？",
+        "选一个真实办公任务，检查成果能否直接进入目标应用继续编辑？"
+      ],
+      "source_tagline": "The Al built for work",
+      "source_description": "The new Copilot connects the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Copilot connects with your work content and the apps you already use, bringing together the latest AI models to help you create finished work, not just answers."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

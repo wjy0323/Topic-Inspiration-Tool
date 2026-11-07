@@ -1,357 +1,510 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-03T18:49:17+08:00",
+  "generated_at": "2026-11-07T15:39:18+00:00",
   "generation_error": false,
   "products": [
-    {
-      "id": "1212015",
-      "name": "Capptivo",
-      "name_zh": "Capptivo",
-      "tagline_zh": "免费开源的屏幕录制与演示精修工具",
-      "description_zh": "Capptivo 是一款完全免费的屏幕录制和演示视频编辑器，支持 macOS、Windows 和 Linux。不需注册、无需订阅，本地录制后可以直接添加跟随鼠标的放大效果、美颜画面、自动烧录字幕，让你的产品演示或教程视频瞬间变得高大上。",
-      "intro_zh": "一个免费开源录屏工具，录完还能自动加光标追踪缩放、一键烧字幕，比收费软件还贴心。做产品演示、教程视频的上班族和内容创作者，再也不用为水印和会员费发愁了。",
-      "url": "https://www.producthunt.com/products/capptivo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4DHHOKGIDD7PW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/7caa3f44-29f0-4ff6-b9f3-b5678bdbe0c9.png?auto=format",
-      "votes_count": 337,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "录屏与视频编辑本身就是高度可视化的操作，界面操作、光标跟随缩放、字幕烧录等效果非常适合视频展示，做前后对比、开箱演示极具视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "无需账号、无需订阅，安装即用，跟手机录屏一样简单；烧字幕、美化画面都是自动或傻瓜化，完全不需要技术背景，普通人看一眼就会。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第2，获得337票，开源免费标签自带话题性，在同日正式发布产品中热度极高。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "免费开源录屏神器！自动追光标加字幕，吊打付费软件？",
-        "angle": "开箱体验+对比测评",
-        "shooting_tips": "先展示 Capptivo 简洁的主界面和无需登录直接开录特点，接着录一段任意操作，突出跟随光标放大和平滑移动效果；然后演示一键添加设备端字幕，对比原始录制和最终美化视频；再快速与同类收费工具做界面和功能对比；结尾给出下载方式和自己录的成品示例。节奏轻快，多放局部特写。",
-        "target_audience": "需要经常录制产品演示、软件教程、bug 反馈的上班族、自由职业者、技术 up 主和开源爱好者。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "免费开源+多平台+本地字幕+光标特效，热度高又极度易于视频展示，普通人一眼就能看懂并产生下载冲动。"
-    },
-    {
-      "id": "757840",
-      "name": "YourSitee",
-      "name_zh": "你的小站",
-      "tagline_zh": "让生物简介里的链接，终于有了让人想点下去的冲动",
-      "description_zh": "把你散落在各处的网络身份，聚合成一个真正像你的视觉主页，而不是又一组冷冰冰的按钮。你可以用20多种小组件来拼装页面，用AI一键导入原有Linktree链接，还能通过内置分析看大家点了哪里。所有链接，一个地方全搞定。",
-      "intro_zh": "一个能把各种链接变成漂亮个人主页的小工具，导入Linktree也只要几秒钟。适合想把社交媒体简介页收拾得好看、又想知道谁在点击的博主和普通上班族。",
-      "url": "https://www.producthunt.com/products/yoursitee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LC5JJVTOL5VR4W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/25985b02-e910-4941-9668-a040034efdd6.png?auto=format",
-      "votes_count": 234,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有丰富的页面搭建、组件拖拽和模板切换操作，可展示明显的前后对比和视觉效果，适合屏幕录制与演示类视频。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念就是个人链接聚合页，普通人秒懂；无需编程，点击拖拽就能上手，学习成本低。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "当日排名第3，票数234，热度属于头部水平，自带话题流量。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "还在用千篇一律的Linktree？这个小站让你主页像杂志一样高级",
-        "angle": "对比测评+开箱演示",
-        "shooting_tips": "开头用几秒展示传统Linktree的列表式单调，再切到YourSitee搭建的视觉页面对比；录屏演示用AI导入Linktree、拖拽小组件（头像、相册、YouTube卡片等）快速美化，最后展示内置分析页面和移动端效果，节奏紧凑，3分钟内结束。",
-        "target_audience": "想做个人品牌的博主、自由职业者、学生和职场人，不喜欢死板链接页，又懒得折腾的用户。"
-      },
-      "category": "设计创意",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品画面感强、上手零门槛，又赶上热度高峰，做成视频既有看头又容易获得推荐流量。"
-    },
-    {
-      "id": "1212303",
-      "name": "Lumichats",
-      "name_zh": "露米助手",
-      "tagline_zh": "怕终端星人的 Claude Code 替代品",
-      "description_zh": "七万人用浏览器版 LumiChats，却总想要一个浏览器给不了的能力：直接操作文件。于是我们做了桌面版。它能在你电脑上跑命令、生成真实文档，而且只为实际跑过的活儿付费。",
-      "intro_zh": "不想对着黑漆漆的终端敲代码？这桌面工具让你像聊天一样指挥电脑干活，写文件、跑命令全搞定。程序员和经常折腾文档的上班族用了都说香。",
-      "url": "https://www.producthunt.com/products/lumichats-offline?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TPDCAOHQP6TZQD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cec53868-2ed5-440b-a879-b23ca0dd8591.png?auto=format",
-      "votes_count": 200,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的 UI 交互，可以录制从聊天输入到自动生成文件、执行命令的全过程，前后对比效果直观，画面观感不枯燥。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "专门为避开终端设计，对话式操作降低了理解成本，普通人很快能上手，只需会提需求就行。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第4，200票，话题性较高，且有明确的用户痛点驱动。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "告别黑框！用聊天就能写代码、改文件，这桌面AI工具逆天了",
-        "angle": "开箱体验+场景演示",
-        "shooting_tips": "先展示传统终端的压迫感，再切换露米助手的聊天界面，录入几个任务（如‘帮我整理桌面文件’、‘写一份周报’），录屏展示命令执行和文件生成的实际效果，节奏轻快，配合惊讶表情和字幕。",
-        "target_audience": "想提效但讨厌命令行的程序员、经常处理文件又想自动化的办公族、尝鲜 AI 工具的普通用户"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "可视化强、零门槛、戳中终端恐惧症的痛点，演示效果生动，热度也够，非常适合拍成视频分享。"
-    },
-    {
-      "id": "1211693",
-      "name": "Zen Whisper",
-      "name_zh": "轻语听写",
-      "tagline_zh": "Mac 本地语音输入，在任意应用中张口即得",
-      "description_zh": "按住快捷键对着 Mac 说话，文字就自动打出来了，完全不上传云端。轻语听写用本地模型搞定核心识别，还支持搜索转录、语音备忘、媒体转写，Pro 版更有大模型和翻译加持。",
-      "intro_zh": "在 Mac 上装了个离线语音输入助手，按住快捷键就能在任何地方听写，不怕隐私泄露。常用电脑码字、做笔记但又不想敲键盘的人，或者经常开会记录的朋友，简直量身定做。",
-      "url": "https://www.producthunt.com/products/zen-whisper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PE7NC64GZFJYCM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1e09befc-b3d7-4990-954a-9b281d524b2f.jpeg?auto=format",
-      "votes_count": 147,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以直观展示按住快捷键说话、文字实时出现在不同应用中的过程，与云听写的隐私对比有视觉冲击力，适合出镜或录屏演示。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "功能逻辑简单，只需记住快捷键并说话，没有技术门槛，普通 Mac 用户都能立刻理解并使用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第5，147票，属于热门新品，有一定话题性和关注度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "Mac 不联网也能语音打字！一键把嘴替叫出来，再也不用手残敲键盘",
-        "angle": "开箱体验+功能演示",
-        "shooting_tips": "屏幕录制打开轻语听写，演示在 Pages、微信、浏览器中按住快捷键语音输入，实时对比在线听写的延迟和隐私警示；突出‘音频不出设备’的隐私卖点；开头用‘你还在一个字一个字敲吗？’抓住观众，节奏轻快。",
-        "target_audience": "Mac 用户中的文字工作者、学生、记者，以及特别在意隐私、不想把语音传到云端的人群。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "功能直观，隐私痛点强，视频演示画面丰富，小白也能秒懂，值得做成内容。"
-    },
-    {
-      "id": "1211921",
-      "name": "TimeOS 2.0",
-      "name_zh": "时间操作系统 2.0",
-      "tagline_zh": "安心干活，轻松开票，把时间变成钱。",
-      "description_zh": "TimeOS 上线两年后迎来 2.0 大更新，这次补上了开票功能。你只需要点一下加载，生成 PDF，之前记录的所有工作时间就会自动变成账单明细。还能按需调整发票，下载 PDF 直接发给客户。",
-      "intro_zh": "一个帮你记工时、一键生成发票的工作伙伴。做完项目直接把时间记录变成账单，自由职业者、小型工作室再也不用愁算钱的事了。",
-      "url": "https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HDVBQ2IOBLQU4B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/33743184-3f58-4217-8b88-2a01a627a7e5.png?auto=format",
-      "votes_count": 103,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的操作界面，从时间记录到生成发票的完整流程适合实机演示，前后对比效果明显，能直观展示省时省心的卖点。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念就是记工时和开发票，普通人一听就懂。界面操作简单，不需要技术背景，但可能需要几分钟熟悉流程。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 当日排名第 10，票数破百，在效率工具里有一定热度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "打工人狂喜！记个时间就能自动开发票？TimeOS 2.0 真香体验",
-        "angle": "开箱体验",
-        "shooting_tips": "先展示自由职业者接活后手动算账的苦恼，再切换到 TimeOS 里点几下就生成发票的顺畅过程，突出时间记录自动变成账单明细的魔法感。画面多用屏幕录制，节奏轻快，配合计时器和钞票飞入的小动画。",
-        "target_audience": "自由职业者、小型设计/开发/咨询工作室的上班族，经常需要按小时计费、手动开票的斜杠青年。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面操作流流畅，大众需求明确，热度也不错，演示效果直观有说服力。"
-    },
     {
       "id": "1137855",
       "name": "Zinley",
       "name_zh": "Zinley",
-      "tagline_zh": "你的私人AI代表，替你接电话、回邮件、办杂事",
-      "description_zh": "大多数AI都困在聊天框里，但Zinley有专属的电话号码和邮箱，能被你和身边的人直接联络。它能接听电话、处理邮件、预订日程，在你设定的规矩内完成工作。它会记住你的人际关系，再用你的语言向你汇报，不是又一个聊天机器人，而是另一个随时上线的你。",
-      "intro_zh": "这玩意儿就像是你的AI分身，能替你接电话、回邮件、订会议。忙到飞起的上班族、不想被打扰的创业者，甚至懒得回消息的社恐，都会觉得它是个救星。",
+      "tagline_zh": "私人 AI 助手，替你接电话、处理邮件和日常事务",
+      "description_zh": "Zinley 有专属电话号码和邮箱，你和其他人可以直接联系它，让它接听电话、处理邮件、预订日程。它会按你设定的规则办事，记住人际关系，并用你的语言汇报。",
+      "intro_zh": "给需要处理来电、邮件和日程的人用，让 AI 通过专属号码和邮箱接收联系，按规则办事。",
       "url": "https://www.producthunt.com/products/zinley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IQRSF4SZFC3JK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/29fdef64-b213-4aa7-85c5-ad13c0fba45a.png?auto=format",
       "votes_count": 399,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "可以展示手机来电AI接听、邮件自动回复的实况画面，有一定的演示效果，但全程以语音和文字为主，缺乏复杂的UI操作和视觉冲击力。"
-        },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "概念非常直白，就是雇了个AI助手，但用户需要绑定电话和邮箱，理解AI如何在通话中做出自然回应可能有一点认知门槛。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排行第1名，获得399票，属于平台顶流，本身就自带话题热度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "我雇了个AI替身，它帮我接电话回邮件，结果……",
-        "angle": "开箱体验",
-        "shooting_tips": "先从主角被电话轰炸的忙乱场景切入，然后注册Zinley、分配号码，重点拍摄AI接听电话的实时录音与对方反应，以及邮件自动处理的对比，节奏前慢后快，突出‘分身’带来的生活变化。",
-        "target_audience": "每天被电话、邮件淹没的职场人，需要维护大量客情关系的销售/中介，以及想节省精力经营个人品牌的创作者。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "能直观演示AI接电话的核心场景，普通人看得懂，加上PH榜首的高热度，做成视频很能抓住观众好奇心。"
-    },
-    {
-      "id": "1212508",
-      "name": "Finamie",
-      "name_zh": "费纳米",
-      "tagline_zh": "动动嘴就能记账，瞬间看懂开销去向",
-      "description_zh": "Finamie 把你的语音自动转成详细的财务洞察。不用动手就能记下每笔开销、追踪消费，比以往任何时候都更懂你的钱。",
-      "intro_zh": "一个用语音就能记账的小帮手，说完话就自动帮你分类统计，再也不用一笔笔敲了。想要轻松管钱、又懒得记流水账的上班族和学生党，这玩意儿正好对口。",
-      "url": "https://www.producthunt.com/products/finamie-know-your-money-for-real?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Y4KK6X4DKGW4QQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a0f986a5-7916-4256-ab6e-754f722d9747.png?auto=format",
-      "votes_count": 125,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有手机端操作画面和语音输入演示，能展示前后消费分析图表，但整体偏功能展示，缺乏强烈视觉冲击。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极简，就是语音记账，任何人一听就懂，无需技术背景，打开就能用。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "排名第6，125票，热度中等，没有特别爆点。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "再也不用打字记账了！对着手机说句话，开销分析全搞定",
-        "angle": "开箱体验",
-        "shooting_tips": "录一段从打开App到语音说“午餐花了35块”，接着展示实时记账和月度分类图表，突出免提方便和洞察直观，节奏轻松带点惊讶。",
-        "target_audience": "想记账但嫌麻烦的年轻人、白领、大学生"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "功能实用、小白友好，但画面表现力一般，热度中等，适合做轻量测评或技巧分享。"
-    },
-    {
-      "id": "1196679",
-      "name": "UniwebPay Skill",
-      "name_zh": "UniwebPay 技能包",
-      "tagline_zh": "AI时代的金融基础设施",
-      "description_zh": "产品发布当天就能收钱。UniwebPay 技能包是AI时代的金融底座，帮你把AI产品变成真正的生意。一键生成支付链接，接收全球付款方式，不用折腾常规的支付开通、商户入驻或基建开销，马上就能进账。",
-      "intro_zh": "在AI产品里加个支付链接，马上就能收钱，支持各种国际付款方式，省去所有对公对私的麻烦。做AI应用的独立开发者和小团队，想尽快把产品变现的人会特别喜欢。",
-      "url": "https://www.producthunt.com/products/uniwebpay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/L6WCX6N5NNN56H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e3d211dd-69ee-4760-9917-e4826eba6ba3.png?auto=format",
-      "votes_count": 113,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要是后台生成支付链接和API对接流程，画面以表单、配置项为主，缺乏视觉冲击力和操作观赏性，拍成视频显枯燥。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念上属于金融基础设施，面向的是AI产品构建者和开发者，普通用户没有技术背景较难看懂，也不太会直接用到。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 当日第7名，票数113，跻身前十，有一定话题热度但未达爆款级别。"
+          "reason": "场景明确，但能独立处理多少事务仍需确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "替用户对外办事时，如何守住授权范围是具体难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让助手接入他人已有的联系方式，是可借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI应用怎么秒变印钞机？UniwebPay一键收款实测",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示从零创建支付链接，再用手机扫码模拟付款，突出‘无需对接’的简易流程；适当穿插收入到账通知的特效，节奏轻快，强调几分钟就能开通收款。",
-        "target_audience": "AI独立开发者、小型创业团队、想快速把AI工具商业化的爱好者"
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重别人能直接联系助手，减少用户居中转述。关键疑问是它能否在授权不清时停下来，这决定了能否放心交事。",
+      "product_analysis": {
+        "target_problem": "适合经常被来电、邮件和约时间打断的人。麻烦在于每次沟通都要自己判断和回应。",
+        "workflow": "先设定办事规则，再通过它的号码或邮箱联系它。它处理电话、邮件和日程，并向你汇报；资料没交代具体配置步骤。",
+        "ai_value": "AI 承担沟通和事务处理，并结合记住的人际关系回应，减少用户逐条下指令的需要。",
+        "differentiation": "别人能直接联系助手，可能省去用户转述请求的步骤。最可能让人犹豫的是，不放心它替自己对外表态。"
       },
-      "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "偏后台工具性，视觉演示平淡，且受众较窄，普通人难以产生共鸣，视频传播效果有限。"
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到专属电话号码、邮箱、规则约束和关系记忆，没说具体技术。",
+        "possible_approach": "如果自己做，可以先把来电和邮件整理成待办，再检查用户规则；授权明确的才执行，其余请用户确认。",
+        "tradeoffs": "最难的是判断授权边界。把含糊请求当成许可，可能替用户答应本不想接受的安排。",
+        "unknowns": "遇到规则没覆盖的请求，它会暂停确认，还是自行决定？"
+      },
+      "transferable_insights": [
+        "做预约或事务助手时，可以提供电话、邮箱等熟悉入口，让其他人无需学习新工具就能提交请求。"
+      ],
+      "validation_questions": [
+        "给它一个超出已设规则的预约请求，检查是否先征求确认。",
+        "用两个同名联系人发来消息，检查它是否混淆关系。"
+      ],
+      "source_tagline": "你的私人AI代表，替你接电话、回邮件、办杂事",
+      "source_description": "大多数AI都困在聊天框里，但Zinley有专属的电话号码和邮箱，能被你和身边的人直接联络。它能接听电话、处理邮件、预订日程，在你设定的规矩内完成工作。它会记住你的人际关系，再用你的语言向你汇报，不是又一个聊天机器人，而是另一个随时上线的你。"
+    },
+    {
+      "id": "1212015",
+      "name": "Capptivo",
+      "name_zh": "Capptivo",
+      "tagline_zh": "免费开源的屏幕录制与演示视频编辑工具",
+      "description_zh": "Capptivo 是一款免费的屏幕录制和演示视频编辑器，支持 macOS、Windows 和 Linux，无需注册或订阅。简介称，本地录制后可添加跟随鼠标的放大效果、画面美化，并自动将字幕固定在视频画面中。",
+      "intro_zh": "给制作产品演示和教程的人用，录下屏幕操作，再添加鼠标跟随放大、画面美化和字幕。",
+      "url": "https://www.producthunt.com/products/capptivo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4DHHOKGIDD7PW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/7caa3f44-29f0-4ff6-b9f3-b5678bdbe0c9.png?auto=format",
+      "votes_count": 337,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "录制与演示加工的用途清楚，但编辑效果和限制尚未核验。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "鼠标跟随放大有具体的观看体验难点，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把常用演示加工放在录制之后，适合借用于教学和操作说明工具。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重录屏后能直接突出操作位置；最影响判断的是跟随放大是否稳定，历史简介无法回答。",
+      "product_analysis": {
+        "target_problem": "做产品演示或教程时，观众可能看不清鼠标正在操作哪里。制作者需要突出关键区域，并给视频配上字幕。",
+        "workflow": "在电脑上本地录屏，再添加跟随鼠标的放大效果、画面美化和烧录字幕。简介未交代具体编辑步骤与导出选项。",
+        "ai_value": "介绍没提 AI，主要靠录屏后的画面加工改善演示；自动烧录字幕不等于自动识别语音。",
+        "differentiation": "录制后能在同一工具里继续加工演示画面。最可能影响换用意愿的是放大效果是否方便调整。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确支持三种桌面系统和本地录制，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先录下屏幕和带时间的鼠标位置，再按鼠标轨迹移动放大区域，最后合成字幕。",
+        "tradeoffs": "难点是避免放大区域随鼠标频繁跳动，否则观众可能更难跟上操作。",
+        "unknowns": "字幕是自动生成，还是需要用户先提供文字，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做教程录制工具时，可以把突出操作位置作为录制后的直接选项，减少用户逐段寻找重点的工作。"
+      ],
+      "validation_questions": [
+        "录一段鼠标快速跨区域移动的操作，检查放大画面是否频繁跳动。",
+        "录一段带口述的视频，检查没有提供文字时能否生成字幕。"
+      ],
+      "source_tagline": "免费开源的屏幕录制与演示精修工具",
+      "source_description": "Capptivo 是一款完全免费的屏幕录制和演示视频编辑器，支持 macOS、Windows 和 Linux。不需注册、无需订阅，本地录制后可以直接添加跟随鼠标的放大效果、美颜画面、自动烧录字幕，让你的产品演示或教程视频瞬间变得高大上。"
+    },
+    {
+      "id": "757840",
+      "name": "YourSitee",
+      "name_zh": "YourSitee",
+      "tagline_zh": "让个人简介中的链接更吸引人点击",
+      "description_zh": "把分散的网络身份和链接集中到一个可自定义的视觉主页，用20多种小组件拼装页面。支持用AI导入原有Linktree链接，并通过内置分析查看访客点击了哪里。",
+      "intro_zh": "给需要集中展示作品和社交账号的创作者用，把多个链接排成个人主页，并查看访客点击。",
+      "url": "https://www.producthunt.com/products/yoursitee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LC5JJVTOL5VR4W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/25985b02-e910-4941-9668-a040034efdd6.png?auto=format",
+      "votes_count": 234,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "集中展示、导入旧链接和查看点击的用途清楚，但实际省事程度未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "旧页面导入有具体问题可讨论，但资料没说明AI如何处理链接。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "导入已有内容再编辑的做法，可借给需要用户迁移资料的产品。"
+        }
+      },
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它允许沿用已有链接，减少重新录入。关键疑问是导入后还需修正多少内容，这会直接影响迁移是否省事。",
+      "product_analysis": {
+        "target_problem": "创作者在个人简介里集中展示作品和账号时，需要兼顾链接收纳与个人风格。已有Linktree页面的人，还会面临搬运旧链接的麻烦。",
+        "workflow": "用20多种小组件拼装主页，也可以用AI导入原有Linktree链接。页面供人访问后，通过内置分析查看点击情况。",
+        "ai_value": "AI明确用于导入Linktree链接；介绍没说它是否负责页面设计，也没说明比普通导入多做了什么。",
+        "differentiation": "它把旧链接导入、页面编排和点击分析放在一起。最可能让人不愿换的是：迁移后仍要花时间重新整理页面。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到AI导入Linktree链接、20多种小组件和内置点击分析，未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先读取旧页面的链接和标题，再对应到可编辑的小组件，让用户确认后使用。",
+        "tradeoffs": "最容易出错的是导入时把标题和网址配错，访客可能因此点到错误页面。",
+        "unknowns": "导入能否保留原来的链接顺序和分组？"
+      },
+      "transferable_insights": [
+        "做作品集或店铺主页工具时，可以先导入用户已有内容，再让用户调整展示，减少从空白页开始的工作。"
+      ],
+      "validation_questions": [
+        "导入一个包含多个链接的Linktree页面，逐项核对标题和网址是否对应。",
+        "在手机上打开排好的主页，检查小组件中的链接是否容易找到并点击。"
+      ],
+      "source_tagline": "让生物简介里的链接，终于有了让人想点下去的冲动",
+      "source_description": "把你散落在各处的网络身份，聚合成一个真正像你的视觉主页，而不是又一组冷冰冰的按钮。你可以用20多种小组件来拼装页面，用AI一键导入原有Linktree链接，还能通过内置分析看大家点了哪里。所有链接，一个地方全搞定。"
+    },
+    {
+      "id": "1211693",
+      "name": "Zen Whisper",
+      "name_zh": "Zen Whisper",
+      "tagline_zh": "Mac 本地语音输入，在任意应用中说话打字",
+      "description_zh": "按住快捷键说话，即可在 Mac 上输入文字；简介称核心识别使用本地模型，语音不上传云端。另支持转录内容搜索、语音备忘和媒体转写，Pro 版提供大模型与翻译功能。",
+      "intro_zh": "给想在 Mac 上用说话代替打字的人，用快捷键启动听写，把语音转成当前应用里的文字。",
+      "url": "https://www.producthunt.com/products/zen-whisper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PE7NC64GZFJYCM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1e09befc-b3d7-4990-954a-9b281d524b2f.jpeg?auto=format",
+      "votes_count": 147,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "输入场景清楚，但识别准确度和应用兼容性尚未确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "本地识别与跨应用输入有具体实现问题，但技术披露有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用快捷键在当前工作位置完成输入，是可借用的交互做法。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是不用离开当前应用就能完成听写；最影响判断的是“完全不上传云端”的说法是否也覆盖 Pro 功能。",
+      "product_analysis": {
+        "target_problem": "经常在 Mac 上写消息、记想法的人，可能希望少打字，同时不把语音交给云端处理。它把听写放进正在使用的应用。",
+        "workflow": "在目标应用中按住快捷键说话，识别出的文字自动输入。也可使用语音备忘、媒体转写和转录搜索，具体操作未说明。",
+        "ai_value": "本地模型负责把语音识别成文字。Pro 版另有大模型和翻译，但大模型具体处理什么，简介没说。",
+        "differentiation": "直接在应用内得到文字，可能省去转录后复制粘贴。最可能让人不愿换的是识别错误仍需频繁手改。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "核心语音识别使用本地模型；介绍未披露模型名称。",
+        "possible_approach": "如果自己做，可以先用快捷键录音，再在本机转成文字，最后写入当前输入框。",
+        "tradeoffs": "最容易出错的是写入位置：如果说话期间切换了窗口，文字可能落进错误的输入框，用户还得撤回重填。",
+        "unknowns": "Pro 版的大模型和翻译是否也在本机运行？不能据核心识别在本地就认定全部功能都不联网。"
+      },
+      "transferable_insights": [
+        "做桌面输入工具时，可借用“快捷键唤起、结果回到当前输入框”的做法，减少用户切换窗口。"
+      ],
+      "validation_questions": [
+        "断网后，核心听写能否完整完成？",
+        "听写过程中切换窗口，文字最终会写到哪里？"
+      ],
+      "source_tagline": "Mac 本地语音输入，在任意应用中张口即得",
+      "source_description": "按住快捷键对着 Mac 说话，文字就自动打出来了，完全不上传云端。轻语听写用本地模型搞定核心识别，还支持搜索转录、语音备忘、媒体转写，Pro 版更有大模型和翻译加持。"
     },
     {
       "id": "1212781",
       "name": "Termexo",
-      "name_zh": "终端魔方",
+      "name_zh": "Termexo",
       "tagline_zh": "Claude Code 与 Codex 的本地 Windows 工作台",
-      "description_zh": "一个把 Claude Code 和 Codex 装进同个窗口的 Windows 工具。你可以自由拖拽终端面板，随时搜索和恢复之前的会话，AI 助手要执行操作时会主动提醒你确认，还能一键切换 AI 模型而无需重新配置环境。完全在本地运行，不用注册账号。",
-      "intro_zh": "把 Claude Code 和 Codex 放进一个 Windows 终端面板，分屏、搜历史、随时换模型都搞定。适合常用 AI 命令行的开发者，再也不用跟环境配置较劲。",
+      "description_zh": "Termexo 将 Claude Code 和 Codex 放进同一个 Windows 窗口，支持拖拽终端面板、搜索和恢复会话。简介还称，它提供操作确认提醒和免重新配置的模型切换，工具在本地运行，无需注册账号。",
+      "intro_zh": "给在 Windows 上用 AI 写代码的人，把 Claude Code 和 Codex 放在同一窗口，查找并接着做之前的任务。",
       "url": "https://www.producthunt.com/products/termexo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VMT252XQGQME22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/364367ac-5a68-4f24-8e7b-1cbab77c4f0c.png?auto=format",
       "votes_count": 112,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要展示终端界面和多窗口布局，操作画面单一，缺乏视觉冲击力，但可以演示会话恢复和模型切换的过程。"
+        "product_value": {
+          "score": 4,
+          "reason": "使用人群明确，会话恢复和统一窗口能减少整理工作，但实际效果未验证。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "需要命令行基础和 AI 编程工具的使用经验，普通用户难以理解，上手门槛很高。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "恢复会话时能否保留任务上下文，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "排名第 8，票数 112，还没进前三，热度中等。"
+        "transferability": {
+          "score": 4,
+          "reason": "把历史任务搜索和继续执行放在一起，可借用于其他多任务工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "Windows 上最强 AI 终端？一个窗口玩转 Claude Code 和 Codex",
-        "angle": "教程演示",
-        "shooting_tips": "录制 Windows 桌面，从下载安装开始，逐步展示打开分屏终端、执行命令，重点演示会话搜索恢复和一键切换模型配置，节奏稍快，突出操作流畅省心。",
-        "target_audience": "常和命令行、AI 编程打交道的开发者"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "对技术类观众有实用价值，但目标群体较窄，视频制作难度低，可以产出。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是找回旧任务后能直接继续；关键疑问是会话恢复究竟保留了多少工作上下文。",
+      "product_analysis": {
+        "target_problem": "在 Windows 上交替用两个 AI 编程助手时，用户可能需要找回旧任务、整理多个终端。它把这些操作集中到一个窗口。",
+        "workflow": "在同一窗口使用两个助手，拖拽终端面板；需要继续旧任务时搜索并恢复会话，收到操作提醒后确认。",
+        "ai_value": "AI 编程工作由 Claude Code 和 Codex 承担。介绍没说 Termexo 另有 AI，主要改善使用这些助手的方式。",
+        "differentiation": "省去模型切换时重新配置环境的工作。用户可能不愿换过来，因为已有终端布局和操作习惯。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介称工具在 Windows 本地运行，整合两个编程助手，支持会话恢复与模型切换；未披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先把两个助手接进可拖拽的终端面板，再保存会话记录和工作目录，让搜索结果能打开对应任务。",
+        "tradeoffs": "最容易出错的是恢复会话：若只找回文字，没恢复助手所需的上下文，用户仍得重新解释任务。",
+        "unknowns": "“本地运行”是否仅指工作台，模型请求是否仍会发送到外部服务？"
+      },
+      "transferable_insights": [
+        "做需要反复接续任务的工具时，让历史搜索结果直接提供“继续任务”，减少用户找到记录后再次定位工作位置的操作。"
+      ],
+      "validation_questions": [
+        "关闭再恢复一个未完成会话，助手能否接着原任务继续？",
+        "执行一次需要确认的操作，提醒是否在操作发生前出现？"
+      ],
+      "source_tagline": "Claude Code 与 Codex 的本地 Windows 工作台",
+      "source_description": "一个把 Claude Code 和 Codex 装进同个窗口的 Windows 工具。你可以自由拖拽终端面板，随时搜索和恢复之前的会话，AI 助手要执行操作时会主动提醒你确认，还能一键切换 AI 模型而无需重新配置环境。完全在本地运行，不用注册账号。"
+    },
+    {
+      "id": "1211921",
+      "name": "TimeOS 2.0",
+      "name_zh": "TimeOS 2.0",
+      "tagline_zh": "专心工作，轻松开票，让工时变成收入。",
+      "description_zh": "TimeOS 2.0 新增开票功能，可将此前记录的工作时间加载为账单明细并生成 PDF。用户可以调整发票内容，下载后发给客户。",
+      "intro_zh": "给按工时收费的自由职业者和服务团队用，把已记录的工作时间整理成可调整、可下载的客户账单。",
+      "url": "https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HDVBQ2IOBLQU4B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/33743184-3f58-4217-8b88-2a01a627a7e5.png?auto=format",
+      "votes_count": 103,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "工时转账单的用途清楚，但计费规则和实际省时程度未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "工时如何准确变成收费明细值得关注，但实现资料有限。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把已有业务记录直接整理成交付文件，是可借用的具体做法。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是已有工时能直接用于结算；最影响判断的是“开票”的实际含义，不能把生成 PDF 等同于合规开票。",
+      "product_analysis": {
+        "target_problem": "按工时收费的人，需要把工作记录整理成客户能核对的账单。麻烦在于工时记录和收费明细之间还要做一次整理。",
+        "workflow": "加载此前记录的工作时间，转成账单明细；按需调整内容，再生成并下载 PDF 发给客户。",
+        "ai_value": "介绍没提 AI，主要靠复用工时记录和生成账单来减少整理工作。",
+        "differentiation": "省掉从工时记录重新编排账单的部分工作。若用户没有在 TimeOS 记录工时，可能不愿为开票迁入记录。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持将已记录工时转为账单明细、调整内容并导出 PDF，介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取工时记录，再按用户确认的费率计算金额，最后填入账单模板并生成 PDF。",
+        "tradeoffs": "最容易错的是把工时归入错误的收费项目，导致客户收到金额或明细不对的账单。",
+        "unknowns": "这里的“发票”是否只是收款账单，还是满足特定地区税务要求的票据？"
+      },
+      "transferable_insights": [
+        "做工时或项目管理产品时，可以把已有记录整理成客户账单，并在导出前保留人工调整入口。"
+      ],
+      "validation_questions": [
+        "用一组已知工时生成账单，逐项核对明细是否准确。",
+        "确认生成的 PDF 是否满足目标客户所在地区的票据要求。"
+      ],
+      "source_tagline": "安心干活，轻松开票，把时间变成钱。",
+      "source_description": "TimeOS 上线两年后迎来 2.0 大更新，这次补上了开票功能。你只需要点一下加载，生成 PDF，之前记录的所有工作时间就会自动变成账单明细。还能按需调整发票，下载 PDF 直接发给客户。"
+    },
+    {
+      "id": "1212303",
+      "name": "Lumichats",
+      "name_zh": "Lumichats",
+      "tagline_zh": "面向不习惯终端用户的 Claude Code 替代工具",
+      "description_zh": "介绍称，已有七万人使用浏览器版 LumiChats，桌面版则增加了直接操作电脑文件的能力。它可以在本机运行命令、生成文档，并宣称只对实际执行的工作收费。",
+      "intro_zh": "给不习惯终端、又需要处理本地文件的人用，在桌面端运行命令并生成文档。",
+      "url": "https://www.producthunt.com/products/lumichats-offline?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TPDCAOHQP6TZQD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cec53868-2ed5-440b-a879-b23ca0dd8591.png?auto=format",
+      "votes_count": 200,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "本地文件处理需求明确，但操作方式和实际省事程度尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让工具执行本机命令时，如何限制误操作是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "从浏览器扩展到桌面以处理本地文件的做法可借鉴，但实现条件未说明。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是能直接生成本地文档，减少手动搬运内容；但执行命令前用户能控制到什么程度，最影响使用判断。",
+      "product_analysis": {
+        "target_problem": "面向不习惯终端、又想让工具处理本地文件的人。介绍指出，原有浏览器版不能满足直接操作文件的需求。",
+        "workflow": "用户改用桌面版，让它在电脑上运行命令、生成文档。如何提交任务、选择文件，资料没交代。",
+        "ai_value": "资料把它定位为 Claude Code 替代品，但没说明 AI 如何把用户要求变成命令，不能据此认定它能自主完成复杂任务。",
+        "differentiation": "桌面版把操作范围扩展到了本地文件。最可能让人犹豫的是，是否愿意允许它在自己的电脑上执行命令。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "明确提供桌面版，支持本机命令执行和文档生成；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先让用户选定可操作的文件夹，再把任务转成待执行命令，确认后运行并返回生成文件。",
+        "tradeoffs": "最容易出错的是操作范围判断：命令若指向错误文件，可能覆盖用户原有内容。",
+        "unknowns": "“实际跑过的活儿”如何计费，失败或重试是否收费？"
+      },
+      "transferable_insights": [
+        "做浏览器助手时，若用户需要直接读写本地文件，可以考虑增加桌面端，并让用户明确选择可操作的文件夹。"
+      ],
+      "validation_questions": [
+        "用测试文件夹执行任务，检查它能否阻止越过授权目录的写入。",
+        "安排一次失败任务，检查账单是否仍产生费用。"
+      ],
+      "source_tagline": "怕终端星人的 Claude Code 替代品",
+      "source_description": "七万人用浏览器版 LumiChats，却总想要一个浏览器给不了的能力：直接操作文件。于是我们做了桌面版。它能在你电脑上跑命令、生成真实文档，而且只为实际跑过的活儿付费。"
+    },
+    {
+      "id": "1212508",
+      "name": "Finamie",
+      "name_zh": "Finamie",
+      "tagline_zh": "用语音记账，了解开销去向",
+      "description_zh": "Finamie 将语音输入转成开销记录，并提供财务分析。它支持记录支出、追踪消费，帮助用户了解钱花在哪里。",
+      "intro_zh": "给想记录日常开销的人用，说出消费情况后，由工具记下支出并提供开销分析。",
+      "url": "https://www.producthunt.com/products/finamie-know-your-money-for-real?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Y4KK6X4DKGW4QQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a0f986a5-7916-4256-ab6e-754f722d9747.png?auto=format",
+      "votes_count": 125,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "记账场景清楚，但能否减少操作还取决于识别和纠错体验。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把口语准确变成账目是具体问题，但资料没有实现细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "语音输入后生成结构化记录的做法可借用，适用条件仍需验证。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是降低随手记账的输入负担；关键疑问是省下的输入时间，会不会又花在纠错上。",
+      "product_analysis": {
+        "target_problem": "想追踪日常消费的人，需要持续把开销记下来。Finamie 提供语音入口，可能减少手动填写账目的麻烦。",
+        "workflow": "用户说出开销，工具自动记录支出，再提供消费追踪和财务分析。介绍没有说明如何核对或修改账目。",
+        "ai_value": "介绍没提 AI，主要靠语音记账和自动分析来改善体验，不能据此确定用了什么模型。",
+        "differentiation": "它把输入开销和查看分析放在一起。最可能让人放弃语音记账的原因，是改错比手动填写更费事。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持语音转开销记录，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再提取金额和消费事项，供用户确认后保存，最后汇总开销。",
+        "tradeoffs": "最容易出错的是金额识别。一旦把“十五”记成“五十”，后面的开销分析也会跟着错。",
+        "unknowns": "自动生成的账目是否需要用户确认，介绍没有交代。"
+      },
+      "transferable_insights": [
+        "做报销或日常记录工具时，可以让用户先口述，再把识别结果放进可编辑表单，减少逐项输入。"
+      ],
+      "validation_questions": [
+        "口述几笔包含相近金额的开销，检查金额是否记对。",
+        "故意留下一笔错误记录，检查能否直接修改金额。"
+      ],
+      "source_tagline": "动动嘴就能记账，瞬间看懂开销去向",
+      "source_description": "Finamie 把你的语音自动转成详细的财务洞察。不用动手就能记下每笔开销、追踪消费，比以往任何时候都更懂你的钱。"
+    },
+    {
+      "id": "1196679",
+      "name": "UniwebPay Skill",
+      "name_zh": "UniwebPay Skill",
+      "tagline_zh": "AI 时代的金融基础设施",
+      "description_zh": "UniwebPay Skill 面向 AI 产品开发者，提供支付链接生成和多种全球付款方式。简介宣称可省去常规支付开通、商户入驻和基础设施开销，并在产品发布当天收款，但这些条件未经核验。",
+      "intro_zh": "给准备收费的 AI 产品开发者用，生成支付链接，让客户通过链接付款。",
+      "url": "https://www.producthunt.com/products/uniwebpay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/L6WCX6N5NNN56H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e3d211dd-69ee-4760-9917-e4826eba6ba3.png?auto=format",
+      "votes_count": 113,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "收款场景明确，但开通条件和到账承诺缺少细节。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "付款结果如何对应订单是具体问题，资料未说明处理方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先用支付链接收费的做法可借鉴，适用范围仍取决于结算条件。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是减少开始收费前的支付准备；最大疑问是“能收款”是否也意味着能顺利结算。历史缓存不足以确认这一点。",
+      "product_analysis": {
+        "target_problem": "准备销售 AI 产品的开发者，需要让客户付款。自行开通和接入支付服务可能拖慢上线，UniwebPay Skill 试图减少这部分准备。",
+        "workflow": "生成支付链接，再让客户通过链接付款。简介未交代开发者如何开通、配置商品或提取款项。",
+        "ai_value": "介绍提到了 AI 产品，但没说明 AI 具体做什么。明确的作用是生成支付链接和提供收款方式。",
+        "differentiation": "把收款入口简化为链接，可能减少支付接入工作。最可能让人犹豫的是：收到的钱何时能转入自己的账户。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先接入支付服务生成链接，再接收付款结果，把每笔付款对应到订单。",
+        "tradeoffs": "最容易出错的是付款与订单对应错误，可能出现客户已付款，却没有获得产品使用权限。",
+        "unknowns": "所谓免商户入驻，是否仍有身份或经营资质审核？"
+      },
+      "transferable_insights": [
+        "验证付费需求时，可以先提供支付链接，等收款流程跑通后再做更复杂的站内结账。"
+      ],
+      "validation_questions": [
+        "用目标经营主体申请，检查实际需要提交哪些审核材料。",
+        "完成一笔小额付款，检查何时能转入自己的账户。"
+      ],
+      "source_tagline": "AI时代的金融基础设施",
+      "source_description": "产品发布当天就能收钱。UniwebPay 技能包是AI时代的金融底座，帮你把AI产品变成真正的生意。一键生成支付链接，接收全球付款方式，不用折腾常规的支付开通、商户入驻或基建开销，马上就能进账。"
     },
     {
       "id": "1212580",
       "name": "Bolcho AI",
-      "name_zh": "博乔AI",
-      "tagline_zh": "打造真正会说印度话的AI语音助手",
-      "description_zh": "一个专为印度市场打造的AI语音平台，帮企业在几分钟内搭建、上线并扩展多语言AI电话和网页客服。支持自带语音识别、合成和语言模型，超低延迟，无缝对接电话系统，让销售、客服、预约和互动都像本地人对话一样自然。",
-      "intro_zh": "给印度生意用的AI语音客服，能说印地语、泰米尔语等各种本地话，接电话回网页咨询都不在话下。在印度做业务、需要大规模本地化呼叫中心或客服团队的企业，用了这玩意儿能省下大量人力和时间。",
+      "name_zh": "Bolcho AI",
+      "tagline_zh": "面向印度多语言场景的 AI 语音助手",
+      "description_zh": "Bolcho AI 面向印度企业，用于搭建、上线和扩展多语言 AI 电话及网页客服。简介称可自带语音识别、语音合成和语言模型，并接入电话系统；快速上线、低延迟和自然对话的说法尚未经核验。",
+      "intro_zh": "给服务印度多语言客户的企业用，搭建电话和网页语音助手，处理销售咨询、客服与预约。",
       "url": "https://www.producthunt.com/products/bolcho-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ARDYQ5LAOGAWQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f2e72072-f04d-431e-af9b-c9d5e19b84b1.png?auto=format",
       "votes_count": 109,
       "scores": {
-        "video_suitability": {
+        "product_value": {
+          "score": 3,
+          "reason": "服务对象和用途明确，但语言覆盖与实际服务效果不清楚。"
+        },
+        "technical_insight": {
           "score": 4,
-          "reason": "可以展示电话接通、网页弹窗对话、多语言切换的实机操作，语音交互的流畅度和响应速度有直观对比，画面观感强。"
+          "reason": "多语言语音对话需要协调识别、回答和播报，等待时间直接影响使用。"
         },
-        "beginner_friendly": {
+        "transferability": {
           "score": 3,
-          "reason": "核心概念（语音AI客服）普通人能理解，但涉及到自带模型、电话集成等技术细节，略有门槛，需要稍微解释才能完全看懂。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt当日第9名，109票，处于中等热度，有特定地域话题性但非全民爆款。"
+          "reason": "允许自带语音和语言模型的做法可借鉴，但接入条件未说明。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "印度方言语音AI，一句“Namaste”自动搞定客户预约！",
-        "angle": "开箱体验+演示",
-        "shooting_tips": "录屏演示后台创建语音代理流程，切换到不同印度语言测试对话，同时用两段真实通话录音做前后对比：无AI vs 有AI的客服效率，突出低延迟和多语言能力。节奏轻快，15秒内切入核心。",
-        "target_audience": "关注跨境电商、出海印度市场的创业者和运营人员，对AI实用案例感兴趣的普通网友。"
-      },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面展示性强，语言本土化卖点容易制造话题，虽有技术词汇但演示简单直白即可化解，热度中等但适合做深度体验内容。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把语音助手接入电话服务是具体用途；但目标语言和口音能否听准，比“像本地人对话”的宣传更影响判断。",
+      "product_analysis": {
+        "target_problem": "面向印度客户的企业，需要在电话和网页上回答不同语言的咨询。麻烦在于让语音助手听懂客户，并接上企业现有电话系统。",
+        "workflow": "企业在平台搭建多语言助手，可自带语音识别、语音合成和语言模型，再接入电话系统或上线网页客服。介绍未给出具体配置步骤。",
+        "ai_value": "AI 用于听懂语音、生成回答，再把回答读出来，可用于咨询或预约；能否完成预约操作仍不明确。",
+        "differentiation": "它把助手搭建和电话接入放在同一平台，可能减少分别连接组件的工作。最可能让企业犹豫的是当地语言识别是否可靠。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持自带语音识别、语音合成和语言模型，并可对接电话系统。",
+        "possible_approach": "如果自己做，可以先把来电语音转成文字，再生成回答并读出，最后接到电话和网页入口。",
+        "tradeoffs": "最难的是控制从客户说完到助手开口的等待时间。任一步太慢，客户都可能重复说话，打乱对话。",
+        "unknowns": "具体支持哪些印度语言，介绍没有列出。"
+      },
+      "transferable_insights": [
+        "做企业语音产品时，可以允许客户沿用已有语音和语言模型，减少为试用新平台而更换组件的工作。"
+      ],
+      "validation_questions": [
+        "用目标客户的当地口音说出预约时间，检查助手是否理解正确。",
+        "在真实电话线路上，记录客户说完到助手开始回答的等待时间。"
+      ],
+      "source_tagline": "打造真正会说印度话的AI语音助手",
+      "source_description": "一个专为印度市场打造的AI语音平台，帮企业在几分钟内搭建、上线并扩展多语言AI电话和网页客服。支持自带语音识别、合成和语言模型，超低延迟，无缝对接电话系统，让销售、客服、预约和互动都像本地人对话一样自然。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

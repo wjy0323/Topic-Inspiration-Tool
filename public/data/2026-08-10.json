@@ -1,357 +1,511 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-11T16:12:37+08:00",
+  "generated_at": "2026-11-07T15:37:25+00:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1218939",
-      "name": "SecondBrain Note by GenSpark",
-      "name_zh": "SecondBrain Note随身AI录音机",
-      "tagline_zh": "MagSafe一贴，会议纪要它替你写",
-      "description_zh": "一张卡片那么薄的AI录音机，按一下，开会内容自动变成笔记，存进你的SecondBrain。你只管听。薄至2.95毫米，重26克，能塞进卡包，吸在手机上。5米外的人声也能拾取，连续录35小时。企业级安全保护，通过SOC 2 Type II和ISO 27001认证，对话只属于你。",
-      "intro_zh": "这玩意儿是贴在你手机后面的超薄AI录音机，按一下就能把会议、对话全录下来，自动生成笔记，存进专属知识库。经常开会、不想做会议记录，或者总想记住零碎灵感的上班族和学生，简直救星。",
-      "url": "https://www.producthunt.com/products/genspark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SMUNJU5ZLWUARG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/71592481-0eaf-4bfd-be0e-f7719871582c.jpeg?auto=format",
-      "votes_count": 221,
-      "scores": {
-        "video_suitability": {
-          "score": 5,
-          "reason": "硬件产品外观极具科技感，磁吸贴合画面、手机App生成笔记的演示效果直观，开箱和实景收音测试视觉冲击力强，非常适合视频呈现。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "功能单一明确，一键录音自动转笔记，没有任何技术门槛，普通人拿到手就会用。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt日榜第4名，221票，属于当日热门产品，有较高的关注度和话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "手机吸上这张卡片，开会再也不用动笔了！",
-        "angle": "开箱体验",
-        "shooting_tips": "先展示包装和超薄机身特写，拍磁吸到手机背面的过程，然后模拟咖啡厅或会议室实际录音，同步录制手机App生成笔记的屏幕，最后展示长距离收音和长时间续航，节奏轻快，突出“偷懒”爽感。",
-        "target_audience": "不想做会议纪要的职场人、有灵感记录需求的创作者、喜欢新奇数码产品的普通用户。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "硬件演示生动，功能直击痛点，普通人一看就懂，热度也够，非常适合拍成产品体验视频。"
-    },
-    {
-      "id": "1218783",
-      "name": "AI Group Call",
-      "name_zh": "AI智囊团通话",
-      "tagline_zh": "输入目标，即刻连线六位AI智囊的现场语音通话",
-      "description_zh": "说出你的目标，几秒内就会生成一场由六位AI角色参与的实时语音通话。它们按顺序发言、互相辩论，你一开口它们就安静。每次通话自动转录成文字，提炼出关键要点和行动步骤，之后还能叫上同一拨AI继续聊。注册即送一分钟免费体验，无需绑卡。",
-      "intro_zh": "跟六个AI开了个电话会议，你只要说出想聊的目标，它们就开始七嘴八舌地出主意、互相抬杠，你一插话它们就立刻闭嘴。拿不定主意、想找人头脑风暴的，花一分钟试试这个。",
-      "url": "https://www.producthunt.com/products/ai-group-call?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AZM2SSSKDRU7GL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e8de820d-bccb-443a-9161-b4bddbc87106.jpeg?auto=format",
-      "votes_count": 187,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的UI和语音交互界面，展示AI轮流发言、实时转录和辩论过程，画面动态变化丰富，适合屏幕录制加画外音演示，但相比3D或全景应用，视觉冲击力稍弱。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念极其简单，就是发起一个群组通话，完全口语化操作，没有任何技术术语或配置门槛，普通人秒懂并能立即上手。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt当日排名第5，票数187，在社区有一定热度，但距离爆款还有距离。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "让六个AI替我做决策，结果它们当场吵起来了！",
-        "angle": "开箱体验",
-        "shooting_tips": "直接录制屏幕，开头对着麦克风说出一个真实的生活或工作难题，然后展示从输入到进入通话、六位AI轮番发言的全过程，重点捕捉AI之间观点冲突的时刻，再突然自己说话打断它们，最后展示自动生成的会议纪要和待办清单。用快节奏剪辑，突出“辩论”和“被打断”的趣味点。",
-        "target_audience": "经常需要头脑风暴、拖延决策、想快速获取多元视角的上班族、创业者、学生。"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品操作直观、演示效果生动，非常适合通过视频展现其趣味性和实用性，且小白用户能零障碍理解。"
-    },
-    {
-      "id": "1218804",
-      "name": "Gutta",
-      "name_zh": "小清单",
-      "tagline_zh": "藏在 Mac 菜单栏里的极简离线待办小助手",
-      "description_zh": "一个专为 Mac 菜单栏设计的极简任务清单，主打键盘操作。按下快捷键就能用自然语言输入任务，比如“明天下午3点开会”，它会自动识别日期和时间，还能把用分号隔开的一串文字拆成多项任务。所有数据只保存在你的电脑里，也可以选择用 iCloud、Dropbox 或 OneDrive 同步，不需要注册账号，没有订阅，不追踪隐私。",
-      "intro_zh": "这是一个藏在 Mac 菜单栏里的超轻量待办工具，敲个快捷键就能把脑子里的事儿快速记下来，说完就自动排期。习惯用键盘、不想被复杂 APP 打扰的上班族和学生党，用它刚好。",
-      "url": "https://www.producthunt.com/products/gutta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3LWBB3MAO7P4X2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/0d4eec39-e94d-4625-a6b0-954be74853ab.png?auto=format",
-      "votes_count": 143,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有菜单栏弹出、快速输入、自然语言解析等 UI 操作，演示过程流畅，但整体界面小巧简约，缺少大场面对比冲击，适合录屏教学或极简效率短片。"
-        },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念就是待办清单，任何一个用过备忘录的人都能秒懂，全程键盘操作，输入即所得，完全不需要技术背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "当日 ProductHunt 排名第七，票数 143，属于中上热度，在 macOS 效率工具圈有讨论话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别再让杂事占脑容量！藏在 Mac 顶栏的「脑内清空」神器",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先拍一个手忙脚乱的桌面，然后切到屏幕录制，演示按快捷键呼出小窗、连续输入多条任务、看自动排期效果，最后展示本地存储和可选的云同步设置。节奏轻快，突出“无感记录”的爽快感。",
-        "target_audience": "喜欢用键盘操作、追求极简效率的 Mac 用户，以及经常被临时任务打断的知识工作者。"
-      },
-      "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "操作直观、演示效果佳、普通用户零门槛，热度也足够，很适合做成“小而美”的效率工具推荐视频。"
-    },
-    {
-      "id": "1217870",
-      "name": "Salesman AI",
-      "name_zh": "Salesman AI",
-      "tagline_zh": "把每一场会议变成收入的AI销售助手",
-      "description_zh": "Salesman AI 在每次会议前自动整理买家与交易背景，变成自适应演练，然后将对话转化为交易情报和下一步行动。同样的背景信息在 AI Helper 和交易仪表盘中随时可用，帮助销售代表推动会议产生可衡量的管线进展。",
-      "intro_zh": "一个帮你做会前准备、会后跟进的AI销售搭档，自动分析对话找出成交机会。特别适合每天开一堆会、想少费口水多签单的销售和客户经理。",
-      "url": "https://www.producthunt.com/products/salesman-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CHTLTUUCQ3QDPA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cc284105-a817-4d6e-bc65-20626c36401e.png?auto=format",
-      "votes_count": 61,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "可以展示会议前智能准备、对话中实时提示、会后数据分析的界面，有丰富的UI操作与前后对比演示，视觉冲击力较强，适合录屏讲解。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直白，就是帮销售开好会、促成交，无技术门槛。各类销售岗位都能一看就懂，上手简单。"
-        },
-        "popularity": {
-          "score": 3,
-          "reason": "当日排名第10，票数61，有一定关注度但不算头部爆款，话题性中等。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "再也不怕开会忘词！AI销售助手让每通电话都变印钞机",
-        "angle": "教程演示",
-        "shooting_tips": "录制从会前智能简报、话术演练，到会中实时提醒、会后自动生成总结和待办的全流程，穿插真实业绩提升数据，节奏轻快，结合销售人员痛点场景。",
-        "target_audience": "销售代表、客户经理、商务拓展等需要频繁开销售会议的职场人"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "产品功能场景丰富，可视性强，容易做出有代入感的演示视频，热度中等但目标受众明确。"
-    },
-    {
       "id": "1199424",
       "name": "oqoqo",
-      "name_zh": "欧扣扣",
-      "tagline_zh": "为真实任务量身打造评测与私有基准",
-      "description_zh": "在逼真环境中大规模跑评测实验。你可以自定义任务集搭建私有基准，看AI智能体到底能不能顺畅使用各种产品，并帮你找到最适合自己场景的模型。还能生成动态洞察，发现产品界面卡顿和token浪费的环节。",
-      "intro_zh": "一个能让你自己出题考AI的工具，看看它操作各种软件时到底靠不靠谱。开发AI应用或选模型的公司和极客们肯定爱不释手。",
+      "name_zh": "oqoqo",
+      "tagline_zh": "为真实任务定制评测和私有基准",
+      "description_zh": "在接近真实的环境中批量运行评测，用自定义任务集建立私有基准，检查 AI 智能体使用产品的表现并比较模型。它还提供分析，帮助发现界面操作不顺畅和 token 消耗浪费的环节。",
+      "intro_zh": "给开发 AI 智能体和产品的团队用，把实际任务变成测试集，比较模型完成任务的表现。",
       "url": "https://www.producthunt.com/products/oqoqo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HURZKMJEK6FWXH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0f576f5a-fef2-4f60-b85a-6f27d5f11777.png?auto=format",
       "votes_count": 338,
       "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "界面有仪表盘、评测报告和任务运行过程，可以录屏展示，但缺乏强视觉冲击力，适合讲解型视频。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及评测框架、基准构建等专业概念，普通用户很难立刻理解价值，需要一定AI技术背景。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "当天ProductHunt第1名，338票，热度极高，话题性强。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "别再被AI吹牛骗了！这个工具让你亲手打分",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示如何创建一个自定义任务、配置环境、运行评测，然后展示结果报告和动态洞察，用具体例子对比不同AI模型的表现，节奏先快后慢，突出‘私人订制’和‘可视化诊断’的卖点。",
-        "target_audience": "AI开发者、技术测评博主、关注AI落地的产品经理"
-      },
-      "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示操作有看头，但目标受众偏专业，适合在技术圈层传播。"
-    },
-    {
-      "id": "1209876",
-      "name": "Portfolio Lab",
-      "name_zh": "投资组合实验室",
-      "tagline_zh": "AI投资，不靠运气靠真本事",
-      "description_zh": "AI让生成投资策略变得简单，但光有策略不行，还得分辨是真厉害还是纯碰运气。这是个负责任的AI投资平台，每个策略都要经过未知数据和真实市场的双重考验，再直接把靠谱策略部署到你自己的券商账户，还受SEC监管。",
-      "intro_zh": "用AI帮你自动生成投资策略，只挑那些经过数据检验、真有两下子的，不是瞎蒙。想自己理财又怕被割韭菜的人，终于有了个心里踏实的AI帮手。",
-      "url": "https://www.producthunt.com/products/portfolio-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/O2BNSCSAU5BUCP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a7481a55-cc44-4e97-a32b-91521c2b7293.png?auto=format",
-      "votes_count": 297,
-      "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有策略回测、实时市场数据等可视化界面，可以展示AI生成策略的筛选和验证过程，画面丰富，适合录屏演示。"
+          "reason": "用自己的任务比较模型，场景明确，但评测结果是否可靠仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "需要基本的投资常识，但概念如AI选股、回测不算深奥，普通人通过通俗解释能明白。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何判定任务真正完成，是具体且影响选型的技术问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日排名第2，297张投票，热度和话题性都很高。"
+        "transferability": {
+          "score": 4,
+          "reason": "把实际任务留作固定测试集，可用于模型选型和版本检查。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "SEC背书的AI投资，到底是割韭菜还是真香？",
-        "angle": "开箱体验 + 教程演示",
-        "shooting_tips": "先快剪展示平台主界面和几组亮眼的回测收益，然后放慢节奏录屏一步步创建策略、查看未见数据测试结果，突出SEC注册带来的安全感，最后给出适合谁用的建议。",
-        "target_audience": "对投资感兴趣、怕被忽悠的个人投资者，有点理财基础的上班族。"
-      },
-      "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示丰富，但需要一定金融知识，热度高，适合科普向内容。"
-    },
-    {
-      "id": "1201242",
-      "name": "Paritok",
-      "name_zh": "帕里托克",
-      "tagline_zh": "让代码代理省 85% 开销，还能一口气跑 3 倍时长",
-      "description_zh": "Paritok 压缩你的编程代理发送的工具、文件和历史记录。只用两条命令，就能把 token 账单砍掉 85%，让连续编码会话延长 3 倍，全程本地运行，数据不丢失。",
-      "intro_zh": "给你的代码助手装了个省钱的压缩包，token 成本直接砍掉 85%，还能让一次对话干三次的活。天天跟 AI 编程搭子一起搬砖的开发者，看到账单都得感动哭。",
-      "url": "https://www.producthunt.com/products/paritok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5JU3ETRZKEUGSH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3a4f376c-d73c-4e8b-969c-a744a0526c06.png?auto=format",
-      "votes_count": 255,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "主要交互在终端命令行，虽然可以演示压缩前后效果对比，但画面变化少，视觉冲击力一般，需要靠解说和图表支撑。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及编程代理、token 计费等概念，普通互联网用户较难理解，更适合已经使用 GitHub Copilot、Cursor 等工具的开发者。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第 3，获得 255 票，在开发者工具中热度很高，自带话题性。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "代码助手悄悄吞掉你多少私房钱？一个命令砍掉 85% 消耗",
-        "angle": "测评对比",
-        "shooting_tips": "先展示日常使用 Copilot 或 Cursor 时 token 消耗账单，再在相同任务下启用 Paritok，用录屏对比前后消耗数字和会话时长，最后用动画突出 85% 下降曲线。",
-        "target_audience": "已经在用 AI 编程助手的开发者、对编程工具成本敏感的自由职业者和初创团队"
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然操作门槛高、画面偏终端，但强热度与直击痛点的省钱效果，适合面向技术圈层的对比测评视频。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是按自己的任务选模型，而不只参考通用榜单；但成功判定方式不明，评测分数能否支撑选择仍有疑问。",
+      "product_analysis": {
+        "target_problem": "做 AI 智能体的团队，需要知道模型能否在自己的产品里完成任务。通用榜单未必能回答具体业务中的表现。",
+        "workflow": "用户自定义任务集，建立私有基准，再批量运行评测。查看模型表现及操作、消耗分析，用来辅助选型。",
+        "ai_value": "AI 智能体是被测对象，负责尝试使用产品、完成任务。介绍没说分析报告是否也由 AI 生成。",
+        "differentiation": "它把任务测试、模型比较和问题分析放在一起。团队可能不愿投入时间整理任务及成功标准。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到自定义任务集、私有基准和批量评测，也会分析 token（模型处理文本的计量单位）消耗。",
+        "possible_approach": "如果自己做，可以先选真实任务并写清成功条件，再让不同模型执行，记录操作、最终结果和消耗，汇总比较。",
+        "tradeoffs": "最容易错在把“走完步骤”当成“完成任务”。如果没有检查最终结果，团队可能选中看似顺畅、实际没办成事的模型。",
+        "unknowns": "介绍没说明如何判断任务成功。"
+      },
+      "transferable_insights": [
+        "做智能体产品时，可以把高频业务任务存成固定测试集，每次换模型或改界面后重跑，检查原本能完成的任务是否退步。"
+      ],
+      "validation_questions": [
+        "给任务设置一个表面完成、实际结果错误的情况，检查评测能否判失败。",
+        "对同一模型重复运行同一组任务，检查结果波动是否影响选型结论。"
+      ],
+      "source_tagline": "为真实任务量身打造评测与私有基准",
+      "source_description": "在逼真环境中大规模跑评测实验。你可以自定义任务集搭建私有基准，看AI智能体到底能不能顺畅使用各种产品，并帮你找到最适合自己场景的模型。还能生成动态洞察，发现产品界面卡顿和token浪费的环节。"
     },
     {
-      "id": "1219088",
-      "name": "Prime Agent",
-      "name_zh": "Prime 代理",
-      "tagline_zh": "一个能自我优化约束环境的编码智能体",
-      "description_zh": "Prime Agent 是开源的、自我改进的代码生成工具，基于递归语言模型和持续约束框架设计。用 Opus 5 时，它在 ARC-AGI-3 测试中达到 95.5% 的准确率，超过了报告的人类专家基线。",
-      "intro_zh": "这是一个能自己优化测试环境的代码生成 AI，刷榜比人还猛。搞 AI 研究的工程师、对模型编程能力感兴趣的技术党会需要它。",
-      "url": "https://www.producthunt.com/products/prime-intellect?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/REEJX5B2UDBHUG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d09a129c-110c-4dd0-b2e6-42d71c418163.gif?auto=format",
-      "votes_count": 169,
+      "id": "1218939",
+      "name": "SecondBrain Note by GenSpark",
+      "name_zh": "SecondBrain Note by GenSpark",
+      "tagline_zh": "MagSafe 磁吸贴上手机，自动生成会议笔记",
+      "description_zh": "这是一款卡片式 AI 录音机，按一下即可录音，将会议内容自动整理成笔记并存入 SecondBrain，可放入卡包或磁吸在手机上。缓存介绍称其厚 2.95 毫米、重 26 克，支持 5 米拾音和连续录音 35 小时，并宣称通过 SOC 2 Type II 与 ISO 27001 安全认证，但这些信息未经重新核验。",
+      "intro_zh": "给需要记录会议的人用，按键录音后自动整理成笔记，存进 SecondBrain 供之后查看。",
+      "url": "https://www.producthunt.com/products/genspark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SMUNJU5ZLWUARG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/71592481-0eaf-4bfd-be0e-f7719871582c.jpeg?auto=format",
+      "votes_count": 221,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "纯代码和命令行操作，没有丰富的可视化界面，很难展示前后对比，画面比较枯燥。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "概念涉及递归语言模型、测试约束、ARC-AGI 等专业术语，需要很强的技术背景，普通人完全看不懂。"
-        },
-        "popularity": {
+        "product_value": {
           "score": 4,
-          "reason": "ProductHunt 第6名，169票，在开发者圈子里有一定话题性，但出圈热度有限。"
+          "reason": "记录会议的场景清楚，但笔记准确度尚无材料支持。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "录音转笔记有明确难点，但未披露具体处理方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按键采集后自动归档的做法可借给其他记录工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "AI自己修复代码bug，程序员真要失业了？测了一个开源自修复代理",
-        "angle": "教程演示",
-        "shooting_tips": "采用屏幕录制，演示安装过程、运行ARC任务示例，用旁白解释自改进逻辑；开头用对比分数吸引眼球，中间加速展示迭代过程，结尾总结优缺点。",
-        "target_audience": "后端程序员、AI开发者、对代码生成评测感兴趣的极客"
+      "category": "硬件设备",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是录完后直接得到可回看的笔记；最影响判断的是关键事实写错后，用户能否方便核对和纠正。",
+      "product_analysis": {
+        "target_problem": "需要会后回看讨论内容的人会用到它。边听边记容易分心，录音后再整理也费事。",
+        "workflow": "把设备磁吸在手机上或随身携带，开会时按键录音。会议内容自动变成笔记，存入 SecondBrain；后续是否需要手动操作，介绍没说。",
+        "ai_value": "AI 将会议录音整理成笔记。资料没有说明是否能提取待办，不能直接当成任务分配工具。",
+        "differentiation": "把采集和整理放在一起，可能减少会后重听录音的工作。额外携带一台设备，可能让已有录音习惯的人不愿切换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 录音、自动生成笔记和磁吸硬件，没说具体使用什么模型。",
+        "possible_approach": "如果自己做，可以先把录音转成文字，再让模型整理要点，最后保存笔记并关联原录音，方便核对。",
+        "tradeoffs": "最容易出错的是把人名、金额或日期听错。整理后的笔记即使通顺，也可能让用户记错决定。",
+        "unknowns": "录音是否上传云端处理、用户能否彻底删除，介绍没有交代；安全认证宣称不能回答这些问题。"
+      },
+      "transferable_insights": [
+        "做访谈或现场记录工具时，可以借用“按一下采集，自动存入固定资料库”的做法，减少录完后忘记整理的情况。"
+      ],
+      "validation_questions": [
+        "用含有人名和日期的会议录音，检查生成笔记是否准确保留这些信息。",
+        "删除一段录音后，检查设备和云端是否都能确认删除。"
+      ],
+      "source_tagline": "MagSafe一贴，会议纪要它替你写",
+      "source_description": "一张卡片那么薄的AI录音机，按一下，开会内容自动变成笔记，存进你的SecondBrain。你只管听。薄至2.95毫米，重26克，能塞进卡包，吸在手机上。5米外的人声也能拾取，连续录35小时。企业级安全保护，通过SOC 2 Type II和ISO 27001认证，对话只属于你。"
+    },
+    {
+      "id": "1218783",
+      "name": "AI Group Call",
+      "name_zh": "AI Group Call",
+      "tagline_zh": "输入目标，与六位 AI 角色进行实时语音讨论",
+      "description_zh": "输入目标后，六位 AI 角色会轮流发言、互相辩论，并在用户开口时停止说话；介绍称通话可在几秒内生成。每次通话会自动转写并提炼要点和行动步骤，之后可找同一组角色继续聊，注册提供一分钟免绑卡体验。",
+      "intro_zh": "给想围绕目标听取不同意见的人，用语音与六位 AI 角色讨论，并整理要点和行动步骤。",
+      "url": "https://www.producthunt.com/products/ai-group-call?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AZM2SSSKDRU7GL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e8de820d-bccb-443a-9161-b4bddbc87106.jpeg?auto=format",
+      "votes_count": 187,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "讨论和记录的用途清楚，但六个角色能否提供有用的不同意见尚不明确。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "用户插话时如何停止发言并接住新问题，是具体的语音交互难题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把讨论结果整理成行动步骤，可借用于辅导和方案评审工具。"
+        }
       },
       "category": "AI工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "技术门槛太高，操作界面不适合拍摄，适合文字测评而非视频。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重讨论结束后直接得到行动步骤；最大的疑问是，六个角色是否真能补充不同判断，而非拉长同一段回答。",
+      "product_analysis": {
+        "target_problem": "需要围绕一个目标梳理方案的人可以用它。讨论后还要整理结论，它把语音讨论和会后记录放在一起。",
+        "workflow": "说出目标，听六位角色轮流讨论，随时开口介入。结束后查看转录、要点和行动步骤，也可找同一组角色继续聊。",
+        "ai_value": "AI 负责扮演讨论角色、回应彼此观点，并整理通话内容。角色数量多，不代表意见就足够独立。",
+        "differentiation": "它提供可插话的多人语音讨论形式。最可能让人不愿持续用的，是听六个角色发言可能比读文字更费时间。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到实时语音、轮流发言、插话即停和自动转录，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先把用户语音转成文字，再安排角色依次回应并读出来，最后整理记录；检测到用户开口时停止播放。",
+        "tradeoffs": "最难的是插话处理：若旧发言没及时停下，用户会与 AI 抢话，也难确认新问题是否被听见。",
+        "unknowns": "叫回同一组角色时，是否保留上次讨论内容，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做方案评审工具时，可让角色分别按不同标准提问，避免只换语气却重复同一观点。",
+        "做语音辅导工具时，可在结束后单列行动步骤，方便用户接着做事。"
+      ],
+      "validation_questions": [
+        "在角色说话中途插入新问题，检查它是否及时停下并回应新问题。",
+        "结束通话后重新叫回同一组角色，检查能否接着上次的具体结论讨论。"
+      ],
+      "source_tagline": "输入目标，即刻连线六位AI智囊的现场语音通话",
+      "source_description": "说出你的目标，几秒内就会生成一场由六位AI角色参与的实时语音通话。它们按顺序发言、互相辩论，你一开口它们就安静。每次通话自动转录成文字，提炼出关键要点和行动步骤，之后还能叫上同一拨AI继续聊。注册即送一分钟免费体验，无需绑卡。"
+    },
+    {
+      "id": "1218804",
+      "name": "Gutta",
+      "name_zh": "Gutta",
+      "tagline_zh": "Mac 菜单栏里的极简离线待办工具",
+      "description_zh": "Gutta 是一款以键盘操作为主的 Mac 菜单栏任务清单，支持快捷键输入、自然语言日期识别，以及按分号拆分多项任务。简介称数据默认保存在本机，也可选用 iCloud、Dropbox 或 OneDrive 同步，无需注册、没有订阅且不做追踪。",
+      "intro_zh": "给习惯用键盘的 Mac 用户，用快捷键记下待办，从输入的文字中识别日期和时间。",
+      "url": "https://www.producthunt.com/products/gutta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3LWBB3MAO7P4X2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0d4eec39-e94d-4625-a6b0-954be74853ab.png?auto=format",
+      "votes_count": 143,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "快速记任务的场景清楚，但日期识别的实际表现待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "自然语言日期解析有具体难点，但没有实现或准确率材料。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "快捷键输入和分号拆分可借用于需要快速记录的工具。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重一次输入就能拆出多项待办。最影响判断的是日期识别能否适应日常表达，这份历史缓存还不足以证明。",
+      "product_analysis": {
+        "target_problem": "适合工作中临时想到待办的 Mac 用户。要减少的是记任务时切换窗口、逐项填写时间的打断。",
+        "workflow": "按快捷键输入任务，工具识别文字里的日期和时间；用分号隔开多件事，可拆成多项任务。",
+        "ai_value": "介绍没提 AI，主要靠键盘操作、日期识别和批量拆分来减少录入动作。不能据此认定用了大模型。",
+        "differentiation": "相比逐项填写任务和时间，它把这些动作合在一次输入里。用户可能因日期识别不符合自己的表达习惯而放弃。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到本机存储、可选云同步、自然语言日期识别和分号拆分，未说明具体实现。",
+        "possible_approach": "如果自己做，可以先用快捷键打开输入框，再按分号拆分文字，逐条解析时间并保存到本机。",
+        "tradeoffs": "最容易错的是相对日期解析。把“下周五”算错，任务就可能落到错误的一天，用户还得逐条检查。",
+        "unknowns": "缓存中的中文示例不能证明产品实际支持中文日期输入。"
+      },
+      "transferable_insights": [
+        "做快速记录工具时，可借用“一个输入框加分隔符”的做法，让用户连续输入，再拆成独立条目。"
+      ],
+      "validation_questions": [
+        "用自己常用的语言输入“明天下午三点”和“下周五”，检查日期时间是否正确。",
+        "开启一种云同步后，在两台 Mac 上分别修改同一任务，检查是否丢失修改。"
+      ],
+      "source_tagline": "藏在 Mac 菜单栏里的极简离线待办小助手",
+      "source_description": "一个专为 Mac 菜单栏设计的极简任务清单，主打键盘操作。按下快捷键就能用自然语言输入任务，比如“明天下午3点开会”，它会自动识别日期和时间，还能把用分号隔开的一串文字拆成多项任务。所有数据只保存在你的电脑里，也可以选择用 iCloud、Dropbox 或 OneDrive 同步，不需要注册账号，没有订阅，不追踪隐私。"
     },
     {
       "id": "1216148",
       "name": "Remix",
       "name_zh": "Remix",
-      "tagline_zh": "像在Figma里设计，但在真实产品上实验——安全测试变体，直接上线",
-      "description_zh": "全团队一起，在真正的产品上做实验。Remix 让任何成员都能快速生成一个产品变体：一个安全的沙盒副本，你只需用提示词就能塑造它。无需搭建，不影响线上。团队可以并排探索想法，看到两个变体合拍？拖拽合并即可。想法成熟了，直接向 GitHub 提 PR。每一步提示都被记录，审查者能清楚知道它是怎么建出来的，还有实时链接，让任何人在代码合入主分支前就能测试。",
-      "intro_zh": "直接在真实产品上开个“分身体验服”，用聊天的办法生成变体，还能团队协作、合并创意、一键提代码。产品、设计、开发混搭的团队特别需要，省得在设计和代码之间来回扯皮。",
+      "tagline_zh": "像在 Figma 中设计一样，在真实产品副本上试验变体，再提交上线",
+      "description_zh": "Remix 让团队成员用提示词修改产品的沙盒副本，并排探索方案，还能拖拽合并变体。方案成熟后可向 GitHub 提交合并请求，附带提示记录和实时预览链接，供合入前审查与测试。",
+      "intro_zh": "给想一起改产品的设计、产品和开发团队，用提示词制作可测试的产品变体，再交给开发审查。",
       "url": "https://www.producthunt.com/products/remix-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JU5HMYYWYZUOOF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/df1b1fcd-88a6-4783-abfa-e9372e294d9e.gif?auto=format",
       "votes_count": 134,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有丰富的UI操作画面：沙盒生成、拖拽合并变体、提示词记录、实时链接测试等，演示效果直观，适合录屏展示前后对比和协同过程。"
+          "reason": "从尝试方案到提交审查的用途清楚，但接入条件未交代。"
         },
-        "beginner_friendly": {
-          "score": 3,
-          "reason": "面向产品经理、设计师、开发者混合团队，概念稍专业（变体、沙盒、PR），但核心操作如拖拽合并、提示词生成比较直觉，普通网民能看懂大概价值，上手需要一点背景知识。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "合并两个可运行变体时，如何保留双方行为是具体难题。"
         },
-        "popularity": {
-          "score": 3,
-          "reason": "ProductHunt 排名第8，票数134，有一定热度但未进入前3，属于不错的中腰部产品。"
+        "transferability": {
+          "score": 4,
+          "reason": "把修改记录和可测试结果一起交给审查者，可用于其他协作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "再也不怕改崩线上环境！这个工具让你在真实产品里随便折腾",
-        "angle": "对比测评",
-        "shooting_tips": "先展示传统协作痛点（设计稿和线上实现脱节），再录屏演示Remix：从一句话创建产品变体、团队成员同时探索不同方向、拖拽合并优秀点子、审查提示词记录、一键提PR并生成实时预览。用轻松节奏突出“所见即所得，安全实验”的卖点。",
-        "target_audience": "产品经理、设计师、前端开发者，以及关注团队协作效率的互联网从业者"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重合入前就能交给同事操作验证；但副本与线上是否真正隔离，直接决定能否放心使用。",
+      "product_analysis": {
+        "target_problem": "产品、设计和开发一起探索改版时，需要看到能操作的结果，也需要避免试验影响线上。Remix 提供产品副本作为尝试空间。",
+        "workflow": "用提示词塑造变体，并排比较方案；可拖拽合并变体，再向 GitHub 提交 PR（代码合并请求），让同事通过实时链接测试。",
+        "ai_value": "介绍没明确提 AI，只说提示词能修改变体，未说明自动修改的范围。",
+        "differentiation": "它把试验结果和提示记录一起带进审查，可能减少解释修改过程的工作；团队是否愿意接入，取决于副本能否运行自己的产品。"
       },
-      "category": "设计创意",
-      "overall_suggestion": "可以做",
-      "overall_reason": "视觉化操作强，适合视频展示，但概念稍有门槛，热度中等，适合带解读性质的测评内容。"
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到沙盒副本、变体拖拽合并、GitHub 合并请求，以及提示记录和实时预览。",
+        "possible_approach": "如果自己做，可以先为每个方案建立隔离副本，再把提示词转成代码修改，生成预览，最后提交代码和修改记录。",
+        "tradeoffs": "最难的是合并变体：两边若改到同一处，可能丢掉一方行为。拖拽成功不代表合并后的功能正确。",
+        "unknowns": "沙盒是否会连接线上数据或触发真实操作，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做生成式编辑工具时，可把修改指令和可测试结果一起交付，方便审查者核对意图与实际变化。"
+      ],
+      "validation_questions": [
+        "让两个变体修改同一个功能，合并后是否保留双方预期行为？",
+        "在副本中执行一次写入操作，是否会改变线上数据？"
+      ],
+      "source_tagline": "像在Figma里设计，但在真实产品上实验——安全测试变体，直接上线",
+      "source_description": "全团队一起，在真正的产品上做实验。Remix 让任何成员都能快速生成一个产品变体：一个安全的沙盒副本，你只需用提示词就能塑造它。无需搭建，不影响线上。团队可以并排探索想法，看到两个变体合拍？拖拽合并即可。想法成熟了，直接向 GitHub 提 PR。每一步提示都被记录，审查者能清楚知道它是怎么建出来的，还有实时链接，让任何人在代码合入主分支前就能测试。"
+    },
+    {
+      "id": "1217870",
+      "name": "Salesman AI",
+      "name_zh": "Salesman AI",
+      "tagline_zh": "帮助销售把会议转化为收入的 AI 助手",
+      "description_zh": "Salesman AI 在会前自动整理买家和交易背景，用于自适应演练，并将会议对话整理成交易信息和下一步行动。同一份背景也可在 AI Helper 和交易仪表盘中使用，产品希望借此帮助销售推进交易。",
+      "intro_zh": "给需要准备客户会议的销售代表用，整理买家背景、做会前演练，并从会谈中提取后续行动。",
+      "url": "https://www.producthunt.com/products/salesman-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CHTLTUUCQ3QDPA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cc284105-a817-4d6e-bc65-20626c36401e.png?auto=format",
+      "votes_count": 61,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "会前准备和会后跟进的用途清楚，但推进交易的效果未获验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把同一份交易背景用于演练和会后分析，有明确的准确性问题可讨论。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让准备、演练和跟进复用背景的做法，可借用于其他客户沟通工具。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是准备和跟进能共用背景；最大疑问是它能否分清客户承诺与一般讨论，这决定了行动建议是否可信。",
+      "product_analysis": {
+        "target_problem": "销售代表准备客户会议时，需要弄清买家和交易现状；会后还要判断下一步做什么。麻烦在于背景资料与本次谈话需要放在一起理解。",
+        "workflow": "会前由工具整理背景，并据此提供自适应演练。会后将对话整理为交易信息和行动，相关背景也能在 AI Helper 和交易仪表盘中查看。",
+        "ai_value": "AI 用背景资料支持演练，再从对话中提取交易信息和后续行动；介绍没解释演练如何随情况调整。",
+        "differentiation": "同一份背景可在多个使用场景中复用，可能减少反复交代情况。若整理结果不可靠，销售仍得逐条核对，可能不愿换用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI、自适应演练和背景信息复用，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先按交易归集背景，再用这些资料生成演练问题，最后结合会议文字提取后续行动。",
+        "tradeoffs": "最容易错在把客户的试探性表态当成承诺，导致销售按尚未确认的条件跟进。",
+        "unknowns": "背景信息从哪里取得、如何更新，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做客户沟通工具时，可以让会前准备和会后跟进复用同一份客户资料，减少重复填写。"
+      ],
+      "validation_questions": [
+        "客户只说“可以考虑”时，系统会不会把它记成已经同意？",
+        "修改一条交易背景后，下一次演练是否使用更新后的内容？"
+      ],
+      "source_tagline": "把每一场会议变成收入的AI销售助手",
+      "source_description": "Salesman AI 在每次会议前自动整理买家与交易背景，变成自适应演练，然后将对话转化为交易情报和下一步行动。同样的背景信息在 AI Helper 和交易仪表盘中随时可用，帮助销售代表推动会议产生可衡量的管线进展。"
+    },
+    {
+      "id": "1209876",
+      "name": "Portfolio Lab",
+      "name_zh": "Portfolio Lab",
+      "tagline_zh": "用 AI 投资，重视策略能力而非运气",
+      "description_zh": "Portfolio Lab 用 AI 生成投资策略，并称会用未参与策略生成的数据和真实市场检验策略表现。历史简介还称，策略可部署到用户自己的券商账户，并提到受 SEC（美国证券交易委员会）监管，但未说明具体监管身份。",
+      "intro_zh": "给想用 AI 制定投资策略的人，生成策略、检验表现，再部署到自己的券商账户。",
+      "url": "https://www.producthunt.com/products/portfolio-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/O2BNSCSAU5BUCP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a7481a55-cc44-4e97-a32b-91521c2b7293.png?auto=format",
+      "votes_count": 297,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "串起策略生成、检验和部署，但检验质量及适用账户不明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何避免把历史上的好运当成有效策略，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "生成后先独立检验再执行的做法可借鉴，但检验标准未披露。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它要求策略先受检验再执行；但检验是否真正独立仍不清楚，监管表述也不能替代收益可靠性的证据。",
+      "product_analysis": {
+        "target_problem": "想用 AI 制定投资策略的人，需要判断收益来自有效规则还是偶然。生成策略容易，不代表值得投入真金白银。",
+        "workflow": "介绍给出的流程是：AI 生成策略，经过未知数据和真实市场检验，再部署到自己的券商账户。操作方式未说明。",
+        "ai_value": "AI 负责生成投资策略。介绍没说它是否也参与检验或交易执行。",
+        "differentiation": "把检验和账户部署接在策略生成之后，可能减少另找工具的工作。但用户可能不愿把交易权限交给平台。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到 AI 生成策略、未知数据与真实市场检验，以及券商账户部署，未披露具体技术。",
+        "possible_approach": "如果自己做，可以先留出一段不参与策略生成的数据，再固定策略规则做检验，最后小额验证交易执行。",
+        "tradeoffs": "最容易错在反复看检验结果调策略。这样原本留出的数据也被用来挑策略，用户可能把偶然高收益当成可靠能力。",
+        "unknowns": "“真实市场考验”指模拟交易，还是实际资金交易？"
+      },
+      "transferable_insights": [
+        "做会替用户执行高风险操作的 AI 产品时，可把独立检验设为执行前的一关，而不只展示生成结果。"
+      ],
+      "validation_questions": [
+        "检查检验数据是否始终未被用于生成或调整策略。",
+        "检查券商授权是否允许用户随时撤销交易权限。"
+      ],
+      "source_tagline": "AI投资，不靠运气靠真本事",
+      "source_description": "AI让生成投资策略变得简单，但光有策略不行，还得分辨是真厉害还是纯碰运气。这是个负责任的AI投资平台，每个策略都要经过未知数据和真实市场的双重考验，再直接把靠谱策略部署到你自己的券商账户，还受SEC监管。"
+    },
+    {
+      "id": "1201242",
+      "name": "Paritok",
+      "name_zh": "Paritok",
+      "tagline_zh": "宣称让编程代理节省 85% 开销，连续运行时长增至 3 倍",
+      "description_zh": "Paritok 压缩编程代理发送的工具、文件和历史记录，在本地运行。缓存简介称，两条命令即可使用，能减少 85% 的 token（模型处理文本的计量单位）账单，让连续编码会话延长至 3 倍，并且不丢失数据。",
+      "intro_zh": "给使用编程代理的开发者，压缩代理发送的工具、文件和历史记录，减少输入量。",
+      "url": "https://www.producthunt.com/products/paritok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5JU3ETRZKEUGSH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3a4f376c-d73c-4e8b-969c-a744a0526c06.png?auto=format",
+      "votes_count": 255,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "省费用和延长会话的目标清楚，但具体收益只有缓存宣传支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "压缩后能否保留完成编码任务所需的信息，是具体且关键的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "发送前减少重复内容的思路可借鉴，但适用条件尚不清楚。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是少发重复内容就可能省费用；最影响判断的是“数据不丢失”能否落实为编码任务不受影响。",
+      "product_analysis": {
+        "target_problem": "用编程代理持续改代码的开发者，可能反复发送文件和历史记录，增加费用并占用模型可接收的文本容量。",
+        "workflow": "简介称用两条命令即可启用，随后压缩代理发送的内容。命令内容和支持哪些代理没有说明。",
+        "ai_value": "它服务于 AI 编程代理，减少送给模型的文本；介绍没说压缩本身是否使用 AI。",
+        "differentiation": "把减少发送内容这件事交给本地工具处理。最可能让人犹豫的是：压缩后会不会漏掉影响代码修改的细节。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到本地运行，压缩工具、文件和历史记录；未说明具体压缩技术。",
+        "possible_approach": "如果自己做，可以先找出重复发送的内容，再缩短模型实际收到的文本，并保留可恢复的原文。",
+        "tradeoffs": "最难的是判断哪些内容能删。原文可恢复，也不代表模型当前看到了关键约束，漏掉后可能改错代码。",
+        "unknowns": "“数据不丢失”指原文能恢复，还是压缩后模型仍能利用全部信息？"
+      },
+      "transferable_insights": [
+        "做需要反复读取文档的 AI 助手时，可以先识别重复内容，再验证减少发送量是否影响任务结果。"
+      ],
+      "validation_questions": [
+        "同一个编码任务开关压缩后，代码能否通过同一组测试？",
+        "同一代理和模型完成同一任务时，实际计费的 token 减少多少？"
+      ],
+      "source_tagline": "让代码代理省 85% 开销，还能一口气跑 3 倍时长",
+      "source_description": "Paritok 压缩你的编程代理发送的工具、文件和历史记录。只用两条命令，就能把 token 账单砍掉 85%，让连续编码会话延长 3 倍，全程本地运行，数据不丢失。"
+    },
+    {
+      "id": "1219088",
+      "name": "Prime Agent",
+      "name_zh": "Prime Agent",
+      "tagline_zh": "一个可自我优化约束环境的编码智能体",
+      "description_zh": "历史缓存将 Prime Agent 描述为开源、可自我改进的代码生成工具，采用递归语言模型和持续约束框架。缓存还声称，使用 Opus 5 时，其 ARC-AGI-3 测试准确率达 95.5%，超过所报告的人类专家基线；这些名称和成绩均未重新核验。",
+      "intro_zh": "面向想用 AI 生成代码的开发者，Prime Agent 尝试让代码生成过程持续自我改进。",
+      "url": "https://www.producthunt.com/products/prime-intellect?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/REEJX5B2UDBHUG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d09a129c-110c-4dd0-b2e6-42d71c418163.gif?auto=format",
+      "votes_count": 169,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "代码生成用途明确，但没有说明具体开发任务能省多少事。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "自我改进时如何保留原有约束是具体问题，但实现细节不足。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴按检查结果迭代代码的做法，但适用条件仍需验证。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是让生成结果接受检查后继续修改的方向。最大的疑问是自我改进是否真能帮助完成开发任务，缓存中的测试成绩不足以回答这一点。",
+      "product_analysis": {
+        "target_problem": "面向想让 AI 生成代码的开发者。它试图减少反复修正生成结果的麻烦，但缓存没有说明针对哪类项目。",
+        "workflow": "介绍只明确了生成代码和自我改进。用户如何提交任务、运行代码及接收修改，资料没有交代。",
+        "ai_value": "AI 负责生成代码，并被描述为能够自我改进。“改进”具体改的是代码、指令还是运行环境，尚不清楚。",
+        "differentiation": "可能省下部分人工纠错工作。最影响换用意愿的是：目前无法判断它能否在真实项目中减少返工。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存称其开源，采用“递归语言模型”和“持续约束框架”，但没有解释这两项技术如何工作。",
+        "possible_approach": "如果自己做，可以先让模型生成代码，再运行测试，把失败原因交回模型修改。把禁止改动的内容列为固定规则，每轮修改后重新检查。",
+        "tradeoffs": "最容易出错的是修改时只顾通过新测试，却破坏原有要求。用户可能拿到能通过局部检查、却不符合需求的代码。",
+        "unknowns": "所谓自我改进，究竟修改什么，又凭什么判定修改有效？"
+      },
+      "transferable_insights": [
+        "做代码生成工具时，可以把失败的测试结果交回模型作为修改依据；适用于能写出明确验收测试的任务。"
+      ],
+      "validation_questions": [
+        "给它一个带固定要求的小任务，检查多轮修改后是否仍满足原要求。",
+        "让它修改一个已有项目，用项目原有测试检查是否引入回归问题。"
+      ],
+      "source_tagline": "一个能自我优化约束环境的编码智能体",
+      "source_description": "Prime Agent 是开源的、自我改进的代码生成工具，基于递归语言模型和持续约束框架设计。用 Opus 5 时，它在 ARC-AGI-3 测试中达到 95.5% 的准确率，超过了报告的人类专家基线。"
     },
     {
       "id": "1216311",
       "name": "Vidaya",
-      "name_zh": "维达亚",
-      "tagline_zh": "从可穿戴设备、化验和基因中，算出你的健康寿命分数",
-      "description_zh": "Vidaya 把你手环数据、体检报告和生活习惯变成清晰直观的健康寿命分数，再给你定制化的长寿改善计划。创始团队受够了只会显示数据却给不出行动方案的仪表盘，于是做了这个帮你真正知道下一步该做什么的工具。",
-      "intro_zh": "一个把健康数据变成看得懂的行动指南的App，能给你打健康寿命分，还告诉你具体怎么活得更久。适合那些戴了智能手表、做过体检，但看不懂一堆数字到底该怎么改善的养生党。",
+      "name_zh": "Vidaya",
+      "tagline_zh": "结合可穿戴设备、化验和基因数据，计算健康寿命分数",
+      "description_zh": "Vidaya 把手环数据、体检报告和生活习惯整理成健康寿命分数，并提供个性化的长寿改善计划。团队希望在展示数据之外，进一步告诉用户可以采取哪些行动。",
+      "intro_zh": "给想用健康数据调整生活习惯的人，把手环和体检等信息整理成分数与改善计划。",
       "url": "https://www.producthunt.com/products/vidaya?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NQURZFZSJX6BY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7a970293-89ee-41ce-a4da-f0e30ac00338.png?auto=format",
       "votes_count": 116,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 3,
-          "reason": "有可视化仪表盘和个性化计划展示，但主要以静态数据和图表为主，缺乏强视觉冲击的动态操作或对比画面，拍视频需借助动画或真人讲解才能出彩。"
+          "reason": "从看数据到决定行动的需求明确，但分数和建议的可靠性未说明。"
         },
-        "beginner_friendly": {
+        "technical_insight": {
           "score": 3,
-          "reason": "健康寿命概念有一定认知门槛，需要用户拥有可穿戴设备或体检报告，普通人可能半懂不懂，需解释才能完全理解。"
+          "reason": "不同健康数据如何形成可信分数，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "PH当日排名第9，获得116票，有一定关注度，但没有挤进前三，热度属于中上。"
+        "transferability": {
+          "score": 3,
+          "reason": "给数据配行动建议可以借鉴，但健康场景需要额外验证。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "你的身体能活多少年？这个App用体检数据告诉你答案",
-        "angle": "开箱体验",
-        "shooting_tips": "先拍手机屏幕同步手表数据的操作，突出整合多种来源的流畅度；再展示从一堆数字到生成健康寿命分数和行动清单的过程，用前后对比强调“不只是看数据，更知道怎么做”。可以穿插真人查看分数后的反应和照着计划做的小片段。",
-        "target_audience": "关注健康、已经使用智能手表或经常体检，但觉得数据无用的养生爱好者"
-      },
       "category": "健康健身",
-      "overall_suggestion": "可以做",
-      "overall_reason": "健康管理可视化有真实需求，虽然画面不够炸裂但能靠讲清痛点吸引特定人群，画面足以支撑开箱演示。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它把数据转成行动的方向；但在评分依据明确前，不宜把健康寿命分数当成真实寿命预测。",
+      "product_analysis": {
+        "target_problem": "适合已有手环、体检等数据，却不知道先调整哪项习惯的人。麻烦在于看懂指标后，仍要判断下一步做什么。",
+        "workflow": "用户提供健康数据和生活习惯，产品生成健康寿命分数，再给出个性化改善计划。具体导入方式未说明。",
+        "ai_value": "介绍没提 AI，主要靠汇总健康信息、给出分数和计划来改善体验。",
+        "differentiation": "它试图省去从指标推到行动的判断。最可能让人犹豫的是：分数看似直观，却不清楚是否可信。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术，只明确会结合多类健康信息生成分数和计划。",
+        "possible_approach": "如果自己做，可以先统一数据的单位和日期，再按有依据的规则计算分数，并把建议关联到具体指标。",
+        "tradeoffs": "最难的是确定指标怎样影响分数。权重若不可靠，用户可能把分数变化误当成健康改善。",
+        "unknowns": "这个分数是否经过验证，能反映健康寿命？"
+      },
+      "transferable_insights": [
+        "做体检或运动数据产品时，可以给重点指标配一项可执行建议，并说明建议对应哪条数据。"
+      ],
+      "validation_questions": [
+        "分数是否有可查阅的验证依据？",
+        "缺少关键体检数据时，是否提示结论受限？"
+      ],
+      "source_tagline": "从可穿戴设备、化验和基因中，算出你的健康寿命分数",
+      "source_description": "Vidaya 把你手环数据、体检报告和生活习惯变成清晰直观的健康寿命分数，再给你定制化的长寿改善计划。创始团队受够了只会显示数据却给不出行动方案的仪表盘，于是做了这个帮你真正知道下一步该做什么的工具。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

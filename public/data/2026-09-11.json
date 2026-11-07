@@ -1,367 +1,510 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-12T19:31:50+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:29:36+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1220456",
       "name": "Anysite.io",
       "name_zh": "Anysite.io",
-      "tagline_zh": "Build and enrich B2B lists by chatting to your agent",
-      "description_zh": "Anysite.io is a B2B data layer living in your favorite AI agent. Ask your agent for the list you need — companies by geo, industry, and size; the people inside them; their current job titles and emails — and Anysite.io returns it. No queries to write, no scrapers to maintain. Works over MCP or REST API inside Claude, Codex, Cursor, OpenCode, and other agents. Plug in and launch your outbound data collection the same day.",
-      "intro_zh": "",
+      "tagline_zh": "与 AI 助手对话，建立并补全企业客户名单",
+      "description_zh": "Anysite.io 为 AI 助手提供企业数据，可按地区、行业和规模查找公司，以及公司人员的现任职位和邮箱，无需编写查询语句或维护抓取程序。它支持通过 MCP 或 REST API 接入 Claude、Codex、Cursor、OpenCode 等助手；介绍称接入当天即可开始收集外联数据。",
+      "intro_zh": "给做企业销售和获客的人用，在 AI 助手里描述筛选条件，获取公司、联系人及邮箱名单。",
       "url": "https://www.producthunt.com/products/anysite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LWEA45Q3YRJ7ZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/53b773ab-33de-4cf5-b4f2-bd64832263a4.png?auto=format",
       "votes_count": 450,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查找目标公司及联系人的任务清楚，但数据质量未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "把对话条件转成数据查询有具体问题可研究，实现细节有限。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让用户在现有助手里调用专业数据，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是把找公司和找联系人放进一次对话；最影响判断的是人员资料是否及时更新。",
+      "product_analysis": {
+        "target_problem": "企业销售需要按条件找公司，再找到对应联系人。若以前靠自己写查询或维护抓取程序，现在可以在助手里直接描述需求。",
+        "workflow": "接入支持的 AI 助手后，说出地区、行业、公司规模等条件，获取公司及人员职位、邮箱。",
+        "ai_value": "AI 承接自然语言请求并调用数据服务；介绍没说数据本身是否由 AI 收集。",
+        "differentiation": "省去另写查询的操作。最可能让人不愿换过来的，是无法确认联系人资料是否够新。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1243621",
-      "name": "Loqua",
-      "name_zh": "Loqua",
-      "tagline_zh": "Speak naturally and move from thoughts to being done",
-      "description_zh": "Your thoughts shouldn’t have to slow down for a keyboard. With Loqua, you can speak naturally to turn rough ideas into ready-to-use writing, understand what’s on your screen, listen when you’d rather not read, and move work forward by voice - from rewriting and translation to scheduling and coding workflows. Less typing, less context switching, more time in flow.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/loqua?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/TI22A4U5XM3DVC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/14d4bef0-370f-417d-aa68-f3eb6c1fbde7.png?auto=format",
-      "votes_count": 396,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "支持 MCP（让 AI 助手调用外部工具的协议）和 REST API（软件间传数据的接口）。",
+        "possible_approach": "如果自己做，可以先把用户要求整理成筛选条件，再查询企业和人员数据，按公司对应联系人后返回。",
+        "tradeoffs": "最难的是保证任职信息及时更新；人员已离职却仍被列出，会让销售联系错人。",
+        "unknowns": "介绍没说明人员数据的来源和更新时间。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1225735",
-      "name": "Wisry ",
-      "name_zh": "Wisry ",
-      "tagline_zh": "Clone the ads already winning in your market, at scale",
-      "description_zh": "AI agents that run the whole play: scan the Meta and TikTok ad libraries for the ads already winning in your market, clone them into your brand as static and video ads, and launch to Meta and Google, optimized for ROAS. Winning ads, without the guesswork.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/wisry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/T5YGJQXMEGFQV4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ddf37319-b496-4b8a-8dcd-494dc6f989b7.png?auto=format",
-      "votes_count": 310,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做专业数据库产品时，可以把查询能力接进用户已有的助手，让用户直接描述条件。"
+      ],
+      "validation_questions": [
+        "抽查返回联系人的现任职位是否准确。",
+        "给出明确的地区、行业和规模条件，检查返回公司是否符合。"
+      ],
+      "source_tagline": "Build and enrich B2B lists by chatting to your agent",
+      "source_description": "Anysite.io is a B2B data layer living in your favorite AI agent. Ask your agent for the list you need — companies by geo, industry, and size; the people inside them; their current job titles and emails — and Anysite.io returns it. No queries to write, no scrapers to maintain. Works over MCP or REST API inside Claude, Codex, Cursor, OpenCode, and other agents. Plug in and launch your outbound data collection the same day."
     },
     {
       "id": "1246952",
       "name": "Raycast 2.0",
       "name_zh": "Raycast 2.0",
-      "tagline_zh": "The next generation of Raycast is here",
-      "description_zh": "Raycast 2.0 is built on a new foundation, redesigned from the inside out. Your shortcut to everything now brings AI that can take action across your apps, Automations for recurring tasks, and Projects to keep ongoing work together. Connect your own ChatGPT or Claude account and put AI to work alongside the commands and extensions you use every day. The best Launcher got even better.",
-      "intro_zh": "",
+      "tagline_zh": "新一代 Raycast 到来",
+      "description_zh": "Raycast 2.0 重新设计了产品基础，加入可跨应用执行操作的 AI、处理重复任务的 Automations，以及集中管理持续工作的 Projects。你可以连接自己的 ChatGPT 或 Claude 账号，让 AI 配合日常使用的命令和扩展工作。",
+      "intro_zh": "给经常在多个应用间处理工作的人，用统一入口调用命令、让 AI 执行操作，并安排重复任务。",
       "url": "https://www.producthunt.com/products/raycast?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/MLZTWKGQKD6OHY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0f68001a-0463-4f31-a07a-3c3aa13be1e1.png?auto=format",
       "votes_count": 309,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "跨应用操作和重复任务有明确用途，但具体支持范围未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把 AI 的判断变成应用里的实际操作，涉及明确的误操作风险。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在已有命令旁加入 AI 操作入口，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是 AI 能配合已有命令工作，可能省去把回答转成操作的一步。关键疑问是实际支持哪些应用和动作。",
+      "product_analysis": {
+        "target_problem": "经常跨应用处理工作的人，需要反复切换入口、执行重复操作。Raycast 把命令、AI 和自动化放到一起，试图减少这些来回操作。",
+        "workflow": "用户可以连接自己的 ChatGPT 或 Claude 账号，配合命令和扩展使用 AI。重复任务交给 Automations，持续工作用 Projects 集中管理；具体配置步骤未说明。",
+        "ai_value": "AI 可以跨应用执行操作，不只生成回答。介绍没有举例说明它能操作哪些应用、完成哪些动作。",
+        "differentiation": "已有命令和扩展旁就能调用 AI，可能减少另开工具的切换。最可能让人犹豫的是，常用应用是否在支持范围内。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持连接用户自己的 ChatGPT 或 Claude 账号，并让 AI 配合命令和扩展执行操作。",
+        "possible_approach": "如果自己做，可以先把应用操作整理成可调用的命令，再让 AI 选择命令、填写参数；执行重要修改前让用户确认。",
+        "tradeoffs": "最容易出错的是把意图对应到错误动作或对象，导致 AI 改错内容。执行前需要让用户看清将操作什么。",
+        "unknowns": "跨应用操作是否提供执行前确认？"
+      },
+      "transferable_insights": [
+        "做已有命令体系的效率工具时，可以先让 AI 调用这些命令，从少量明确动作开始，避免一开始就追求任意操作。"
+      ],
+      "validation_questions": [
+        "选一个日常跨应用任务，检查能否完整执行到目标结果。",
+        "给出一个对象不明确的修改请求，检查它是否先询问再执行。"
+      ],
+      "source_tagline": "The next generation of Raycast is here",
+      "source_description": "Raycast 2.0 is built on a new foundation, redesigned from the inside out. Your shortcut to everything now brings AI that can take action across your apps, Automations for recurring tasks, and Projects to keep ongoing work together. Connect your own ChatGPT or Claude account and put AI to work alongside the commands and extensions you use every day. The best Launcher got even better."
     },
     {
       "id": "1244851",
       "name": "Cline Desktop App",
       "name_zh": "Cline Desktop App",
-      "tagline_zh": "An open-source app for open-weight models",
-      "description_zh": "Cline Desktop gives you an open-source workspace to put your favourite model to work - run multiple agent sessions, automate recurring tasks, extend their capabilities through Cline’s Marketplace, and continue work from agents like Claude Code and Codex. Choose the models and providers that work best for you, while Cline’s agent harness, optimized for open-weight models, powers the work behind them. All without being tied to a closed ecosystem.",
-      "intro_zh": "",
+      "tagline_zh": "面向开放权重模型的开源应用",
+      "description_zh": "Cline Desktop 提供开源工作空间，可运行多个智能体会话、自动执行重复任务、通过 Cline Marketplace 扩展能力，并接续 Claude Code、Codex 等智能体的工作。用户可选择模型和服务商，背后由针对开放权重模型优化的智能体运行框架支持工作，不绑定封闭生态。",
+      "intro_zh": "给使用 AI 智能体处理工作的人，在桌面工作空间里运行多个会话、安排重复任务，并接续其他工具的工作。",
       "url": "https://www.producthunt.com/products/cline-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LTNZETAC7HBN7K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/04e4c2d4-bdeb-4822-8c39-f8f45f33ae27.png?auto=format",
       "votes_count": 253,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "多会话、重复任务和工作接续有明确用途，但省事程度尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "接续其他智能体的工作，涉及如何保留任务进度这一具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把已有任务带进新工具，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是接续已有工作，可能减少换工具时的重复交代；但它能保留多少执行进度，仍决定这一好处是否成立。",
+      "product_analysis": {
+        "target_problem": "适合同时使用多个 AI 智能体、又有重复任务的人。更换工具时如何延续已有工作，是它试图处理的麻烦。",
+        "workflow": "选择模型和服务商，运行多个智能体会话；可设置重复任务自动执行，也可从 Claude Code、Codex 等工具接续工作。介绍未给出具体导入步骤。",
+        "ai_value": "AI 智能体负责执行任务。桌面应用把会话、重复任务和能力扩展放在同一处，但介绍没说具体能完成哪些任务。",
+        "differentiation": "它允许选择不同模型和服务商。最可能影响迁入意愿的是：已有任务能否完整接上，而不必重新解释。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1241271",
-      "name": "easyspecs.ai",
-      "name_zh": "easyspecs.ai",
-      "tagline_zh": "The spec review platform",
-      "description_zh": "The gap between 1.5x and 100x isn't speed, it's trust!! AI agents generate code 100x faster than humans write it. But your team can't review it all. EasySpecs documents undocumented codebases and turns them into trustworthy specifications, so spec review becomes your new merge request review. Ground your agents in reality. Scale agentic development without babysitting. Document the foundation once. Review specs including Oracles and Rubrics and Ship code you actually verified.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/easyspecs-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/HI6RJ5V5HIW3SN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/90fa3727-5931-4288-a9fd-2d353281ec19.png?auto=format",
-      "votes_count": 152,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "应用开源，运行框架针对开放权重模型优化；开放权重指模型参数可获取，不等于支持本地运行。",
+        "possible_approach": "如果自己做，可以先保存任务目标、对话和执行进度，再转换成目标智能体能读取的格式，让它从未完成处继续。",
+        "tradeoffs": "最容易出错的是遗漏原任务的状态。若只带入对话、没带入已完成的操作，智能体可能重复执行。",
+        "unknowns": "接续其他智能体时，究竟能保留哪些任务信息？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做需要用户迁入的 AI 工作台时，可以提供已有任务的接续入口，减少用户重新描述目标的工作。"
+      ],
+      "validation_questions": [
+        "接续一个未完成的 Codex 任务，检查已完成步骤是否被正确识别。",
+        "设置一个重复任务，检查它是否按设定自动执行。"
+      ],
+      "source_tagline": "An open-source app for open-weight models",
+      "source_description": "Cline Desktop gives you an open-source workspace to put your favourite model to work - run multiple agent sessions, automate recurring tasks, extend their capabilities through Cline’s Marketplace, and continue work from agents like Claude Code and Codex. Choose the models and providers that work best for you, while Cline’s agent harness, optimized for open-weight models, powers the work behind them. All without being tied to a closed ecosystem."
     },
     {
       "id": "1244322",
       "name": "Sliick",
       "name_zh": "Sliick",
-      "tagline_zh": "Free 3D mockups for your screenshots and videos",
-      "description_zh": "Turn screenshots and videos into beautiful 3D device mockups, right in your browser. Choose a scene, customize shapes and colors, adjust the camera, and add motion. Export images or videos for free, with no account or watermark. Your media stays on your device. Made by Liinks.",
-      "intro_zh": "",
+      "tagline_zh": "为截图和视频制作免费的 3D 设备样机",
+      "description_zh": "在浏览器中把截图和视频放进 3D 设备样机，选择场景，调整形状、颜色和镜头，并添加动画。简介称可免费导出图片或视频，无需账号、没有水印，媒体留在本机；由 Liinks 制作。",
+      "intro_zh": "给需要展示界面的产品、设计和营销人员用，把截图或视频做成带设备外观的展示图或动画。",
       "url": "https://www.producthunt.com/products/sliick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q27DUUEE6RDDU4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/c65b2801-ada9-4310-91b5-c7336ec4ae12.png?auto=format",
       "votes_count": 135,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用途明确，免注册和无水印减少了制作展示素材的限制。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "浏览器内处理视频并导出动画有具体难点，但缺少实现和性能信息。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先选场景再微调的做法，可借给其他视觉素材制作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是制作后能免注册、无水印地拿走素材；最大的疑问是导出规格能否满足实际发布要求。",
+      "product_analysis": {
+        "target_problem": "产品、设计和营销人员需要把界面截图或录屏做成展示素材。麻烦在于还要安排设备外观、构图和动画。",
+        "workflow": "把截图或视频放入样机，选场景，调整形状、颜色和镜头，添加动画，最后导出图片或视频。",
+        "ai_value": "介绍没提 AI，主要靠现成场景和可调的 3D 展示来改善体验。",
+        "differentiation": "把素材放入设备外观和制作动画集中在浏览器里。最可能让人不愿换用的，是现成场景未必符合品牌要求。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1247106",
-      "name": "Devin Voice",
-      "name_zh": "Devin Voice",
-      "tagline_zh": "You say it, Devin ships it",
-      "description_zh": "Devin Voice lets you talk to Devin, Cognition's AI software engineer, and have it ship the work. Speak a task out loud and Devin plans, codes, and delivers. Powered by GPT-Live for natural conversation, with Cognition's new SWE-2 coding model under the hood. Try Devin at https://devin.ai.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/devin-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4RQP6CHF5CGKTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/0b44d1d0-d22e-4ac3-aa51-eeb0a341688f.jpeg?auto=format",
-      "votes_count": 120,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持浏览器内制作 3D 样机，并称媒体留在本机；未说明具体技术。",
+        "possible_approach": "如果自己做，可以先把截图或视频贴到虚拟设备屏幕上，再按镜头和动画设置生成连续画面，合成导出文件。",
+        "tradeoffs": "最难的是视频导出时保持播放和动画同步；处理不稳可能让成片卡顿或漏帧。",
+        "unknowns": "没有说明视频导出的分辨率和时长限制。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做海报或演示素材工具时，可以先让用户选完整场景，再只调整少数参数，减少从空白画布开始的工作。"
+      ],
+      "validation_questions": [
+        "用一段带快速界面切换的录屏导出视频，检查是否漏帧。",
+        "断网后导入本地素材，检查能否完成制作和导出。"
+      ],
+      "source_tagline": "Free 3D mockups for your screenshots and videos",
+      "source_description": "Turn screenshots and videos into beautiful 3D device mockups, right in your browser. Choose a scene, customize shapes and colors, adjust the camera, and add motion. Export images or videos for free, with no account or watermark. Your media stays on your device. Made by Liinks."
     },
     {
       "id": "1247185",
       "name": "Moji",
       "name_zh": "Moji",
-      "tagline_zh": "Open Markdown files like PDFs.",
-      "description_zh": "Open Markdown like a document: fast, clean, and distraction-free. Moji is a lightweight reader and editor for Windows, macOS, and Linux, with live preview, Mermaid diagrams, and PDF, HTML, and PNG export.",
-      "intro_zh": "",
+      "tagline_zh": "像打开 PDF 一样打开 Markdown 文件。",
+      "description_zh": "Moji 希望让用户像读文档一样打开 Markdown，主打快速、简洁、少干扰。它是面向 Windows、macOS 和 Linux 的轻量阅读与编辑工具，支持实时预览、Mermaid 图表，以及 PDF、HTML 和 PNG 导出。",
+      "intro_zh": "给需要阅读或修改 Markdown 文档的人用，打开文件查看排版，修改内容后导出分享。",
       "url": "https://www.producthunt.com/products/moji-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IARQKQK776V4WE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f5528531-eb1f-4a71-9044-b03c89e08392.png?auto=format",
       "votes_count": 107,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "阅读、修改和导出的用途清楚，但体验是否足够省事尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "预览与导出的排版一致性是具体问题，但实现细节未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "围绕文件阅读安排编辑和导出，适合借鉴到格式专用工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是读完即可修改并导出，不必为分享另行整理；最影响判断的是导出能否完整保留文档内容。",
+      "product_analysis": {
+        "target_problem": "经常接收 Markdown 文档的人，可能只想看排版后的内容，不需要完整开发环境。Moji 把这类文件当作文档来读，也允许直接修改。",
+        "workflow": "打开 Markdown 文件阅读，需要时编辑并查看实时预览。内容可包含 Mermaid 图表，最后可导出为 PDF、HTML 或 PNG。",
+        "ai_value": "介绍没提 AI，主要靠文档展示、实时预览和格式导出来改善体验。",
+        "differentiation": "阅读、修改和导出集中在一个工具里。已有编辑器若能满足这些需求，用户可能不愿再装一个应用。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持三大桌面系统、实时预览和 Mermaid（用文本描述图表的语法），未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把 Markdown 文本转换为排版页面，再解析其中的图表描述，最后把页面输出为所需格式。",
+        "tradeoffs": "最容易出错的是导出排版：长图或宽表格若被截断，用户就得改内容或另找工具。",
+        "unknowns": "导出是否能保留预览中的完整内容和排版，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做日志或配置文件查看器时，可以先提供易读视图，把编辑留作可选操作，照顾只想查看内容的人。"
+      ],
+      "validation_questions": [
+        "用含长图和宽表格的文档导出 PDF，检查是否有内容被截断。",
+        "修改一段 Mermaid 描述，检查实时预览是否正确更新图表。"
+      ],
+      "source_tagline": "Open Markdown files like PDFs.",
+      "source_description": "Open Markdown like a document: fast, clean, and distraction-free. Moji is a lightweight reader and editor for Windows, macOS, and Linux, with live preview, Mermaid diagrams, and PDF, HTML, and PNG export."
     },
     {
       "id": "1246820",
       "name": "ChatHop",
       "name_zh": "ChatHop",
-      "tagline_zh": "Take your conversation anywhere.",
-      "description_zh": "Move your AI conversation to another assistant mid-thought, context included. Copy the whole chat as plain text or Markdown. Start with 20 free uses every month.",
-      "intro_zh": "",
+      "tagline_zh": "把你的对话带到任何地方。",
+      "description_zh": "将尚未结束的 AI 对话连同上下文转到另一个助手，也可以把整段聊天复制为纯文本或 Markdown 格式。每月可免费使用 20 次。",
+      "intro_zh": "给需要换用 AI 助手的人，把已有对话连同前文带过去，或复制成文本留用。",
       "url": "https://www.producthunt.com/products/chathop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/DGVVESZHKMLLGQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/48deb383-d0c6-4696-9227-7dfd03e48344.png?auto=format",
       "votes_count": 97,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "换助手时保留前文的用途清楚，但支持范围尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "长对话能否完整带入新助手，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让用户带走完整记录，是其他对话产品也能借用的做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重用户能把已有讨论带走；但保留了多少前文，会直接决定转移后能否接着聊。",
+      "product_analysis": {
+        "target_problem": "需要换用 AI 助手、又想接着聊的人会用到它。麻烦在于新助手需要了解前文，用户可能得重新交代背景。",
+        "workflow": "把当前对话连同上下文转到另一个助手，继续交流；也可将整段聊天复制为纯文本或 Markdown。介绍没交代具体操作。",
+        "ai_value": "它处理的是 AI 对话的转移，介绍没说它本身是否用 AI 整理内容。",
+        "differentiation": "省的是重新交代背景的工夫。最可能阻碍换用的，是常用助手不在支持范围内。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "支持将整段聊天复制为纯文本或 Markdown（一种用符号标记标题、列表的文本格式）。",
+        "possible_approach": "如果自己做，可以先按顺序提取双方发言，再整理成带角色标记的文本，供用户交给新助手。",
+        "tradeoffs": "最容易出错的是长对话超过新助手一次能接收的内容量。早期要求若被漏掉，后续回答就可能偏离原意。",
+        "unknowns": "所谓携带上下文，是保留全部原文，还是只保留部分内容？"
+      },
+      "transferable_insights": [
+        "做对话类产品时，可以提供带角色和顺序的整段文本导出，让用户换工具时不用逐条复制。"
+      ],
+      "validation_questions": [
+        "用自己常用的两个助手，检查能否完成一次对话转移。",
+        "在长对话开头放一条明确约束，转移后检查新助手能否准确复述。"
+      ],
+      "source_tagline": "Take your conversation anywhere.",
+      "source_description": "Move your AI conversation to another assistant mid-thought, context included. Copy the whole chat as plain text or Markdown. Start with 20 free uses every month."
+    },
+    {
+      "id": "1243621",
+      "name": "Loqua",
+      "name_zh": "Loqua",
+      "tagline_zh": "自然表达，把想法变成完成的事",
+      "description_zh": "Loqua 支持自然口述，将零散想法整理成可用文字，理解屏幕内容，并在不想阅读时提供听取内容的方式。简介还提到改写、翻译、安排日程和编程相关的语音工作流程，主张减少打字与切换操作。",
+      "intro_zh": "给想用口述处理文字和工作任务的人，把零散想法整理成文，并用语音推进改写、翻译等操作。",
+      "url": "https://www.producthunt.com/products/loqua?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/TI22A4U5XM3DVC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/14d4bef0-370f-417d-aa68-f3eb6c1fbde7.png?auto=format",
+      "votes_count": 396,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "口述成文的用途清楚，但任务能执行到哪一步尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "结合屏幕理解语音指令有具体难点，但实现细节未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把口述直接整理为成稿可以借鉴，适用条件仍需验证。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最看重从零散口述直接得到草稿；最影响判断的是语音任务能否真正执行，而不只停在生成文字。",
+      "product_analysis": {
+        "target_problem": "写草稿、改文字或查看屏幕资料时，有些人更容易先说出想法。麻烦在于口头表达零散，仍要整理成能用的文字。",
+        "workflow": "用户自然口述，得到整理后的文字，也可用语音提出改写、翻译等要求。简介还提到屏幕理解和听取内容，但没交代具体操作。",
+        "ai_value": "介绍没提 AI，主要靠语音交互和文字处理来改善体验，无法确认哪些步骤由 AI 完成。",
+        "differentiation": "它把口述与后续文字处理放在一起，可能减少重新输入要求的操作。若每次都要大量校正，用户可能不愿切换。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再结合当前屏幕内容整理成稿或生成操作建议；涉及日程等修改时，让用户确认后执行。",
+        "tradeoffs": "最容易错在判断指令指向屏幕上的哪段内容。选错对象，可能把无关文字改掉。",
+        "unknowns": "日程和编程流程究竟能直接执行，还是只生成建议？"
+      },
+      "transferable_insights": [
+        "做写作工具时，可以让用户先口述零散想法，再整理成可编辑草稿，减少必须先组织好句子才能输入的负担。"
+      ],
+      "validation_questions": [
+        "口述一段含停顿和自我纠正的想法，检查成稿是否保留原意。",
+        "屏幕同时放两段文字，要求只改其中一段，检查它是否选对对象。"
+      ],
+      "source_tagline": "Speak naturally and move from thoughts to being done",
+      "source_description": "Your thoughts shouldn’t have to slow down for a keyboard. With Loqua, you can speak naturally to turn rough ideas into ready-to-use writing, understand what’s on your screen, listen when you’d rather not read, and move work forward by voice - from rewriting and translation to scheduling and coding workflows. Less typing, less context switching, more time in flow."
+    },
+    {
+      "id": "1225735",
+      "name": "Wisry ",
+      "name_zh": "Wisry",
+      "tagline_zh": "批量复刻市场中已奏效的广告",
+      "description_zh": "Wisry 用 AI 智能体扫描 Meta 和 TikTok 广告库，寻找其认为表现好的广告，并改成使用你品牌的图片和视频广告。它还支持向 Meta 和 Google 投放，宣称以广告支出回报率（广告带来的收入与广告花费之比）为优化目标。",
+      "intro_zh": "给需要持续制作和投放广告的营销团队用，寻找同行广告参考，再生成自己品牌的图片和视频广告。",
+      "url": "https://www.producthunt.com/products/wisry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/T5YGJQXMEGFQV4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ddf37319-b496-4b8a-8dcd-494dc6f989b7.png?auto=format",
+      "votes_count": 310,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找参考、制作和投放的用途清楚，但选材质量和收益没有验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何从广告库判断广告有效，是影响后续制作和投放的具体难题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "参考素材直接进入制作的做法可借鉴，但自动筛选的依据不明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是减少从找参考到做素材的转手工作；最影响判断的是，它能否证明所选广告确实有效。",
+      "product_analysis": {
+        "target_problem": "营销团队持续上新广告时，需要找参考、改素材，再安排投放。Wisry 想把这些工作放到一起，减少分开处理的麻烦。",
+        "workflow": "先扫描 Meta 和 TikTok 广告库，筛出它认为有效的广告，再改成品牌图片或视频，最后向 Meta 和 Google 投放。介绍没交代人工确认环节。",
+        "ai_value": "AI 智能体，也就是自动执行多步任务的程序，负责找广告、改素材和发起投放。优化回报是产品宣称的目标，不能当成已验证结果。",
+        "differentiation": "它把广告参考继续变成可投放素材，省去部分转手工作。团队可能因担心近似复刻涉及素材授权而不愿采用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 智能体、广告库扫描、图片与视频广告生成，以及跨平台投放。",
+        "possible_approach": "如果自己做，可以先收集广告及筛选依据，再提取文案结构和画面布局，结合品牌素材生成版本，经人工确认后提交投放。",
+        "tradeoffs": "最难的是判定什么广告值得参考。若把持续展示误当成高回报，后面的生成和投放可能放大错误选择。",
+        "unknowns": "它依据什么数据判断广告已经奏效？"
+      },
+      "transferable_insights": [
+        "做营销素材工具时，可以让用户从一条参考广告直接发起改稿，保留参考与成稿的对应关系，方便审核。"
+      ],
+      "validation_questions": [
+        "抽查推荐广告，能否看到支持其效果判断的数据？",
+        "生成一条品牌广告，检查是否沿用了未获授权的原素材？"
+      ],
+      "source_tagline": "Clone the ads already winning in your market, at scale",
+      "source_description": "AI agents that run the whole play: scan the Meta and TikTok ad libraries for the ads already winning in your market, clone them into your brand as static and video ads, and launch to Meta and Google, optimized for ROAS. Winning ads, without the guesswork."
+    },
+    {
+      "id": "1241271",
+      "name": "easyspecs.ai",
+      "name_zh": "easyspecs.ai",
+      "tagline_zh": "规格审查平台",
+      "description_zh": "产品方认为，AI 生成代码后的瓶颈是团队能否审查并信任它，并声称 AI 智能体写代码可比人快 100 倍。EasySpecs 为缺少文档的代码库补充文档和规格，主张让团队审查规格及其验收依据，以支持 AI 开发和代码验证。",
+      "intro_zh": "给使用 AI 写代码的开发团队，把缺少文档的代码库整理成规格，供团队审查预期行为和验收要求。",
+      "url": "https://www.producthunt.com/products/easyspecs-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HI6RJ5V5HIW3SN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/90fa3727-5931-4288-a9fd-2d353281ec19.png?auto=format",
+      "votes_count": 152,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "审查负担明确，但规格能否支撑代码验收尚无证据。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "从现有代码提炼可信规格，存在具体且关键的正确性问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "先审预期行为的做法可借用，但需要可靠的验收依据。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把审查对象变成可讨论的行为要求有实际意义；但若无法核对实现，规格审查就不能替代代码审查。",
+      "product_analysis": {
+        "target_problem": "使用 AI 写代码的团队，在代码产出超出审查能力时会需要它。麻烦在于代码生成了，团队仍要确认行为是否符合要求。",
+        "workflow": "先为缺少文档的代码库整理文档和规格，再审查规格及验收依据。介绍没有交代代码如何接入、审查后如何执行验证。",
+        "ai_value": "它为 AI 编程智能体提供现有代码库的规格作为参考。介绍未说明整理规格本身是否由 AI 完成。",
+        "differentiation": "它尝试把部分审查前移到规格，减少直接理解大量代码的负担。团队可能不愿切换，因为审过规格不等于实现符合规格。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 Oracles（判断结果对错的依据）和 Rubrics（评价标准），但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从代码提取行为描述，再请维护者确认哪些是预期行为，最后为规格补上可执行的验收检查。",
+        "tradeoffs": "最容易把现有缺陷也写成正确规格，导致后续代码通过检查，却保留了错误行为。",
+        "unknowns": "规格与实际代码之间如何核对，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做 AI 编程工具时，可以让用户先确认行为描述和验收例子，再生成代码，适合需求容易被误解的改动。"
+      ],
+      "validation_questions": [
+        "用一段含已知缺陷的代码，检查生成规格是否把缺陷当成预期行为。",
+        "故意提交一处违反已确认规格的改动，检查验证能否发现。"
+      ],
+      "source_tagline": "The spec review platform",
+      "source_description": "The gap between 1.5x and 100x isn't speed, it's trust!! AI agents generate code 100x faster than humans write it. But your team can't review it all. EasySpecs documents undocumented codebases and turns them into trustworthy specifications, so spec review becomes your new merge request review. Ground your agents in reality. Scale agentic development without babysitting. Document the foundation once. Review specs including Oracles and Rubrics and Ship code you actually verified."
+    },
+    {
+      "id": "1247106",
+      "name": "Devin Voice",
+      "name_zh": "Devin Voice",
+      "tagline_zh": "你说出任务，Devin 来交付",
+      "description_zh": "Devin Voice 让你用语音向 Cognition 的 AI 软件工程师 Devin 布置任务，由它规划、编写代码并交付成果。缓存简介称，它使用 GPT-Live 支持自然对话，使用 Cognition 的 SWE-2 模型编写代码。",
+      "intro_zh": "给需要委派软件开发任务的人用，把任务说给 Devin，让它规划并编写代码。",
+      "url": "https://www.producthunt.com/products/devin-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4RQP6CHF5CGKTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0b44d1d0-d22e-4ac3-aa51-eeb0a341688f.jpeg?auto=format",
+      "votes_count": 120,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "语音委派任务的场景清楚，但交付质量和适用任务范围不明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把口头表达变成准确的开发要求，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "语音接入任务执行的做法可借鉴，但确认和纠错方式未说明。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是说完任务后能继续进入开发执行；最影响判断的是，需求被误解时有没有确认和纠正的机会。",
+      "product_analysis": {
+        "target_problem": "需要委派开发任务的人，可以直接口述需求。口头表达可能更方便，但需求里的条件和例外仍要讲清楚。",
+        "workflow": "用户说出任务，Devin 随后规划、编写代码并交付。简介没有说明用户怎样审阅或接收结果。",
+        "ai_value": "AI 负责自然对话，以及后续的开发规划和代码编写。语音入口能否减少解释需求的时间，仍需试用确认。",
+        "differentiation": "它把说出任务和执行开发接在一起，可能省去整理文字指令的步骤。最可能让人犹豫的是：口述是否足够准确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存简介称自然对话使用 GPT-Live，编码使用 SWE-2；这些信息未重新核验。",
+        "possible_approach": "如果自己做，可以先把语音整理成任务说明，再让用户确认关键条件，最后交给编码程序执行。",
+        "tradeoffs": "最容易出错的是把口述理解成了另一项要求。代码即使能运行，也可能做错功能，让用户返工。",
+        "unknowns": "开始写代码前，用户能否确认和修改它理解到的需求？"
+      },
+      "transferable_insights": [
+        "做语音委派工具时，可以在执行前展示简短的任务摘要，让用户纠正条件；尤其适合误解后返工较大的任务。"
+      ],
+      "validation_questions": [
+        "口述一项带明确例外条件的任务，检查 Devin 是否正确保留该条件。",
+        "交付后，检查用户能否查看具体代码改动。"
+      ],
+      "source_tagline": "You say it, Devin ships it",
+      "source_description": "Devin Voice lets you talk to Devin, Cognition's AI software engineer, and have it ship the work. Speak a task out loud and Devin plans, codes, and delivers. Powered by GPT-Live for natural conversation, with Cognition's new SWE-2 coding model under the hood. Try Devin at https://devin.ai."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

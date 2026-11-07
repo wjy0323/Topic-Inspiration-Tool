@@ -1,357 +1,511 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-18T15:50:50+08:00",
+  "generated_at": "2026-11-07T15:35:45+00:00",
   "generation_error": false,
   "products": [
     {
       "id": "1222691",
       "name": "Meridian",
-      "name_zh": "子午线工作日志",
-      "tagline_zh": "别让你的努力白费，升职加薪！",
-      "description_zh": "Meridian 是一款开源 AI 工作日志工具，完全在你自己的设备上运行。它会用大白话实时记录你一天的工作，到晚上自动生成工作总结。还能自动为 Jira 等项目工具起草更新，你审核后就能直接发布。干活就完了，记忆交给它。无需云端、不用注册，MIT 许可，免费。",
-      "intro_zh": "自动帮你记下一天工作，写成大白话总结，还能一键发到Jira。不想写日报、想升职的上班族会爱死它。",
+      "name_zh": "Meridian",
+      "tagline_zh": "别让工作付出被忽略，争取升职加薪。",
+      "description_zh": "Meridian 是一款开源 AI 工作日志工具，介绍称它完全在本机运行，实时用日常语言记录工作，并在晚上自动生成总结。它还能为 Jira 等项目工具起草更新，经用户审核后发布；无需云端或注册，免费，采用 MIT 许可。",
+      "intro_zh": "给需要写工作总结、更新项目进度的人用，自动记录当天工作，并起草可审核发布的进度更新。",
       "url": "https://www.producthunt.com/products/meridian-16?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Q3UR7I2PIWKD7D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/321b8078-2b3e-474b-8fa4-ad6d027527c2.png?auto=format",
       "votes_count": 398,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "有清晰的界面展示从工作记录到自动生成总结的过程，前后对比明显，可演示一键发布到Jira，但画面以文本为主，视觉冲击力中等。"
+          "reason": "记录、总结和起草更新的用途清楚，但记录准确性尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 5,
-          "reason": "概念直观，无需技术背景，本地运行零门槛，职场人一看就懂。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何把设备上的活动准确归到工作事项，是具体且影响使用的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt当日第1名，398票，热度极高。"
+        "transferability": {
+          "score": 4,
+          "reason": "先起草再由用户审核发布，可借用于自动生成工作记录的产品。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "上班摸鱼神器！AI自动帮你写日报，升职加薪不是梦",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕操作，展示安装后后台运行，实时记录工作事项，到日终生成总结，对比手动写日报的繁琐，强调一键发布Jira。节奏轻快，突出无感记录卖点，加入前后对比画面。",
-        "target_audience": "需要写日报/周报、希望晋升的上班族、远程办公者、项目经理"
       },
       "category": "效率工具",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示直观，热度第一，职场人痛点精准，非常适合做视频。"
-    },
-    {
-      "id": "1221696",
-      "name": "Scholé Scenarios",
-      "name_zh": "Scholé 实景演练",
-      "tagline_zh": "在做中学",
-      "description_zh": "大多数学习只告诉你该知道什么，却不让你练实际要做的事。Scholé Scenarios 把真实场景放进自适应学习，课程里会不断出现模拟练习：给同事讲解刚学的内容、挽回订单、跟客户专业交流。它还能根据你的表现调整下一步学什么，专练那些关键时刻。",
-      "intro_zh": "把真实工作场景搬进课程里，让你边学边练，比如跟客户聊天、救回订单。销售、客服、需要实战沟通的职场人拿来练手很合适。",
-      "url": "https://www.producthunt.com/products/schole-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/N6HR5PNEOHPMMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/84a32881-ac0d-449f-aad6-7bf3ba6c7da8.png?auto=format",
-      "votes_count": 172,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "产品包含情景模拟对话、角色扮演和实时反馈，可以展示生动的界面操作和前后对比，但视觉冲击力一般，适合演示类视频。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直白，强调练习而非技术，无需编程背景即可理解使用，学习场景贴近日常。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "PH排名第5，票数172，属于当日前列，有一定关注度。"
-        }
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重记录能继续用于项目更新，减少重复写作；关键疑问是它能否分清“看过什么”和“完成了什么”，升职加薪则没有材料支持。",
+      "product_analysis": {
+        "target_problem": "需要汇报进度的人，写总结时容易漏掉当天做过的事。Meridian 把工作记录和晚间总结接起来，减少事后回忆。",
+        "workflow": "工具实时记录当天工作，晚上生成总结。它也会为 Jira 等工具起草更新，用户审核后发布。",
+        "ai_value": "AI 用日常语言整理工作记录，再生成总结和更新草稿。简介没有说明它根据哪些信息判断做了什么。",
+        "differentiation": "把记录转成可发布的草稿，省去重新组织文字的步骤；最可能阻碍使用的是用户不愿让工具持续观察工作活动。"
       },
-      "video_inspiration": {
-        "title_idea": "别背了！这个AI让你直接和模拟客户练手，学完就能用？",
-        "angle": "教程演示",
-        "shooting_tips": "录制产品界面展示选择课程场景，重点演示与AI客户对话练习的过程，展示用户回答后的系统反馈和后续调整；开头用10秒高能片段吸引注意力，中间穿插实际使用画面，结尾给适用人群建议。",
-        "target_audience": "想提升职场沟通、销售和服务技能的上班族，尤其是销售、客服、市场人员和学生。"
+      "technical_analysis": {
+        "disclosed_facts": "简介称其开源、完全在本机运行，无需云端或注册，采用 MIT 许可；未说明模型和活动采集方式。",
+        "possible_approach": "如果自己做，可以先在用户授权后收集工作活动，再在本机整理成带来源的记录，最后生成总结和项目更新草稿。",
+        "tradeoffs": "最难的是把活动归到正确任务。若把查看资料误写成完成任务，用户就得逐条纠正进度。",
+        "unknowns": "实时记录究竟读取哪些内容，简介没有回答。"
       },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "学习场景直观可视、操作门槛低，非常适合拍成演示视频。"
-    },
-    {
-      "id": "1224203",
-      "name": "Skriptr",
-      "name_zh": "Skriptr",
-      "tagline_zh": "学生专属AI学习工作台",
-      "description_zh": "Skriptr 是给学生的AI工作空间，能帮做研究、写论文、学习。它会读你给的参考资料，每个答案都告诉你出自哪一页，还会反过来问你问题。它跟你一起思考，而不是替你思考，脑子还是你自己的。",
-      "intro_zh": "学生AI学习空间：读资料、写论文都能帮，答案还标页码。啃文献、赶论文的大学生研究生会爱，因为它只引导你思考，不替你动脑。",
-      "url": "https://www.producthunt.com/products/skriptr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EHNATGTZF2CDC4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f08b173e-c1c0-4533-ac06-118eb60a5235.png?auto=format",
-      "votes_count": 119,
-      "scores": {
-        "video_suitability": {
-          "score": 4,
-          "reason": "有清晰的录屏演示流程：上传文献→提问→答案标注具体页码→AI反问引导，画面操作感强，适合做教程测评类视频，但视觉冲击力中等。"
-        },
-        "beginner_friendly": {
-          "score": 4,
-          "reason": "概念直观，学生一看就懂，无需技术背景，上手门槛低。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第10，119票，热度中上，具备一定关注度。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "学生党救命AI！读文献直接标页码，还反过来问你问题",
-        "angle": "教程演示",
-        "shooting_tips": "录制屏幕操作：导入一篇PDF文献，输入问题，展示AI返回的答案和具体页码高亮；再拍一段AI反问的问题，突出'引导思考'卖点。节奏轻快，配大字字幕，最后加学生使用场景前后对比（找资料时间缩短）。",
-        "target_audience": "在校大学生、研究生、写论文需要高效读文献的学生群体，以及关注AI学习工具的科技爱好者。"
-      },
-      "category": "教育学习",
-      "overall_suggestion": "强力推荐",
-      "overall_reason": "画面演示清晰、使用门槛低、目标人群明确，适合做成实用教程类短视频。"
+      "transferable_insights": [
+        "做自动周报或项目汇报工具时，可以先生成草稿，把审核留在发布前，避免错误直接进入团队记录。"
+      ],
+      "validation_questions": [
+        "选一段涉及多个任务的工作，检查生成记录是否把活动归错任务。",
+        "检查实时记录会读取哪些内容，以及用户能否排除敏感应用。"
+      ],
+      "source_tagline": "别让你的努力白费，升职加薪！",
+      "source_description": "Meridian 是一款开源 AI 工作日志工具，完全在你自己的设备上运行。它会用大白话实时记录你一天的工作，到晚上自动生成工作总结。还能自动为 Jira 等项目工具起草更新，你审核后就能直接发布。干活就完了，记忆交给它。无需云端、不用注册，MIT 许可，免费。"
     },
     {
       "id": "1223058",
       "name": "Omni by xpander",
-      "name_zh": "Omni（xpander 出品）",
+      "name_zh": "Omni by xpander",
       "tagline_zh": "别再给 AI 智能体当保姆了",
-      "description_zh": "Omni 是个 AI 工程师，专门把你电脑里的 AI 智能体搬到云端，让它不关机也能定时跑、还能分享给团队。你只要描述需求或直接把搭好的工作流交给它，它就能接好工具、做测试，最后给你一个能在云端长期运行的智能体。之后它还会帮你优化提示词、换模型、修 bug，像请了个运维。",
-      "intro_zh": "能把本地 AI 智能体搬到云端，合上电脑也不停，还能定时跑、分享给团队。适合喜欢用 Claude 搭工作流、又不想天天盯电脑的 AI 玩家。",
+      "description_zh": "Omni 接收需求描述或已有工作流，帮助连接工具、测试，并将 AI 智能体部署到云端，支持定时运行和团队分享。简介还称它能持续优化提示词、更换模型和修复问题。",
+      "intro_zh": "给已有或准备搭建 AI 智能体的团队，把需求或工作流变成能在云端持续运行的任务。",
       "url": "https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VHCEJOVH4KWCVJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/4923cec9-ca20-4b4a-b79b-13555667c1fb.png?auto=format",
       "votes_count": 369,
       "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 4,
-          "reason": "可以演示从本地 Claude 工作流到云端部署的前后对比，展示定时运行、日志监控、自动修复等界面操作，直观呈现“合盖不停”的效果；但整体偏开发者工具，视觉冲击力中等。"
+          "reason": "部署和后续维护的麻烦很明确，但自动完成的范围尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 AI 智能体、云端部署、提示词、模型对比等概念，对普通互联网用户有门槛，需要一定 AI 工作流使用经验才能理解和使用。"
+        "technical_insight": {
+          "score": 4,
+          "reason": "自动修改后如何确认任务仍然正确，是具体且重要的问题。"
         },
-        "popularity": {
-          "score": 5,
-          "reason": "ProductHunt 当日排名第2，票数369，热度很高，话题性强。"
+        "transferability": {
+          "score": 4,
+          "reason": "同时接收需求描述与已有工作流，可借用于自动化工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "你的Claude智能体终于能自己打工了？合上电脑也不停！",
-        "angle": "对比测评",
-        "shooting_tips": "先拍痛点：笔记本合上后本地 Claude 工作流停止、任务中断；再录屏打开 Omni，导入或描述工作流，配置定时和共享，展示云端持续运行、自动调试修复失败；节奏先压抑后爽快，突出前后对比和“不用盯”的核心卖点。",
-        "target_audience": "喜欢折腾 AI 工作流、用 Claude 做自动化、想解放电脑的极客、个人开发者和效率爱好者"
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把已有工作流带到云端继续运行；最影响判断的是，简介没有说明如何防止自动维护把原本正确的任务改坏。",
+      "product_analysis": {
+        "target_problem": "在电脑上跑 AI 智能体的人，若要关机后继续执行、按时触发并交给团队使用，还需要处理云端部署和维护。",
+        "workflow": "用户描述需求，或提交搭好的工作流。Omni 连接工具、做测试，再提供可在云端长期运行、定时执行和分享的智能体。",
+        "ai_value": "AI 被用于帮助搭建和维护智能体，简介还提到优化提示词、换模型和修 bug；这些动作的自动化程度不明。",
+        "differentiation": "它把部署和后续修改放在一起，可能减少分头处理的工作。最可能让人犹豫的是不敢直接接受自动修改。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介提到云端运行、定时执行、工具连接和测试，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把工作流及所需工具整理成可部署任务，再配置定时运行，用固定案例测试每次修改。",
+        "tradeoffs": "最容易出错的是测试没覆盖真实任务：提示词或模型改了，任务仍能运行，结果却可能变错。",
+        "unknowns": "自动修改上线前，是否需要用户确认？"
+      },
+      "transferable_insights": [
+        "做自动化搭建工具时，可同时提供“描述需求”和“导入已有工作流”两个入口，让已有成果也能继续使用。"
+      ],
+      "validation_questions": [
+        "关闭本地电脑后，已部署任务能否按设定时间执行？",
+        "用已有正确答案的任务检查一次自动修改，结果是否仍符合预期？"
+      ],
+      "source_tagline": "别再给 AI 智能体当保姆了",
+      "source_description": "Omni 是个 AI 工程师，专门把你电脑里的 AI 智能体搬到云端，让它不关机也能定时跑、还能分享给团队。你只要描述需求或直接把搭好的工作流交给它，它就能接好工具、做测试，最后给你一个能在云端长期运行的智能体。之后它还会帮你优化提示词、换模型、修 bug，像请了个运维。"
+    },
+    {
+      "id": "1224529",
+      "name": "Vendo ",
+      "name_zh": "Vendo",
+      "tagline_zh": "让用户在你的产品里自行构建功能",
+      "description_zh": "Vendo 是可嵌入软件的开源定制层，客户用自然语言描述需求，它会基于软件自身的 API（供程序调用功能或数据的接口）生成对应功能或小应用。它面向希望减少逐客定制开发的 SaaS 团队，介绍称生成内容只能在团队设定的安全边界内运行。",
+      "intro_zh": "给需要处理客户定制需求的软件团队用，让客户在现有产品里描述需求，生成小功能或应用。",
+      "url": "https://www.producthunt.com/products/vendo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XMJNYPK5RL7FBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f46b4eea-d284-47e3-a1a4-b0d4cef7f664.png?auto=format",
+      "votes_count": 331,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "定制需求和省去部分开发工作的方向清楚，实际可覆盖范围待确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让生成的功能遵守现有权限，是具体且影响使用的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "围绕已有接口开放有限定制，是可借用的产品做法。"
+        }
       },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "画面演示有前后对比、热度高，但概念对普通观众略硬，适合定位给 AI 玩家看。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把部分定制工作交给客户完成；最影响判断的是权限限制能否在实际执行时生效。",
+      "product_analysis": {
+        "target_problem": "面向经常收到客户定制需求的软件团队。以前要由团队逐项开发的部分需求，现在可以尝试交给客户在产品内生成。",
+        "workflow": "团队先嵌入 Vendo，设定安全边界。客户描述需求，系统基于团队已有的接口生成功能或小应用。",
+        "ai_value": "自然语言生成应用可能由 AI 完成，但这份缓存简介没有明确说明，不能确认具体方式。",
+        "differentiation": "它试图省去部分定制需求的开发工作。团队可能因无法确认生成内容是否遵守权限而迟迟不敢开放。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到开源、可嵌入、基于自有接口生成，以及在设定的安全边界内运行。",
+        "possible_approach": "如果自己做，可以先开放少量可调用功能，再把用户需求转换成调用步骤；每一步执行前都检查用户权限。",
+        "tradeoffs": "最容易出错的是权限检查。若只检查生成内容、不检查实际调用，用户可能读到本不该看到的数据。",
+        "unknowns": "所谓安全边界具体如何限制生成内容的执行，简介没有解释。"
+      },
+      "transferable_insights": [
+        "做企业软件时，可以先把少量低风险功能开放给客户组合，验证哪些定制需求确实能自助完成。"
+      ],
+      "validation_questions": [
+        "用低权限账号要求生成读取受限数据的功能，检查执行是否被拦截。",
+        "拿一个真实定制需求测试，检查生成结果能否完成预定任务。"
+      ],
+      "source_tagline": "让你的用户在产品里自己构建功能",
+      "source_description": "Vendo 是一个开源定制层，可以装进你的软件里。客户用大白话描述想要什么功能，它就能基于你自己的 API 自动生成对应的功能或小应用，并且只在你设定的安全边界内运行。适合那些想让软件更灵活、减少逐客定制开发的 SaaS 团队。"
+    },
+    {
+      "id": "1221696",
+      "name": "Scholé Scenarios",
+      "name_zh": "Scholé Scenarios",
+      "tagline_zh": "在做中学",
+      "description_zh": "Scholé Scenarios 在课程中加入模拟练习，包括向同事讲解所学、挽回订单和与客户专业交流。它会根据学习者的表现，调整接下来学习的内容。",
+      "intro_zh": "给需要练习工作沟通的学习者用，在课程里模拟讲解、挽单和客户交流，并按表现调整后续学习。",
+      "url": "https://www.producthunt.com/products/schole-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/N6HR5PNEOHPMMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/84a32881-ac0d-449f-aad6-7bf3ba6c7da8.png?auto=format",
+      "votes_count": 172,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "练习场景和调整方向明确，但能否改善实际工作表现尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何判断练习表现并据此选课，是具体且值得拆解的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把知识点变成工作任务，再按表现安排练习，可借用于职业培训。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它让学习者实际组织一次工作回答，而不只阅读知识。判断能否持续使用，关键要看它是否能识别回答的真实问题。",
+      "product_analysis": {
+        "target_problem": "学完知识却还需要练习如何开口的人会需要它，例如要向客户解释或挽回订单的员工。麻烦在于，知道内容不等于能在具体情境中用出来。",
+        "workflow": "学习课程时，完成穿插其中的场景模拟。系统再根据练习表现，调整下一步学习内容。",
+        "ai_value": "介绍没提 AI，主要靠场景练习和按表现调整学习内容来改善体验。",
+        "differentiation": "它把练习放进课程，可能减少学习者另找情境演练的准备。最可能让人不愿持续用的原因，是模拟情境与自己的工作差得太远。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到按表现调整后续学习，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把工作任务写成场景，明确合格回答应包含什么，再依据回答中缺少的内容安排下一题。",
+        "tradeoffs": "最难的是判断回答是否真正完成任务。若只认固定措辞，合理的表达也可能被判错，后续练习就会安排偏。",
+        "unknowns": "系统按什么标准判断学习者的表现，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做销售或客服培训时，可以把一个知识点改成一次客户沟通任务，再按遗漏的信息安排补练。"
+      ],
+      "validation_questions": [
+        "用两种措辞不同但同样合理的回答完成同一任务，检查评价是否一致。",
+        "刻意漏掉一个关键点，检查下一步学习是否针对这个遗漏。"
+      ],
+      "source_tagline": "在做中学",
+      "source_description": "大多数学习只告诉你该知道什么，却不让你练实际要做的事。Scholé Scenarios 把真实场景放进自适应学习，课程里会不断出现模拟练习：给同事讲解刚学的内容、挽回订单、跟客户专业交流。它还能根据你的表现调整下一步学什么，专练那些关键时刻。"
+    },
+    {
+      "id": "1220962",
+      "name": "Treg",
+      "name_zh": "Treg",
+      "tagline_zh": "工具版 OpenRouter：整合 2600 多个 API，宣称零加价",
+      "description_zh": "Treg 面向 AI 智能体，把 SEO、社媒、获客、广告、爬虫等 2600 多个工具整合到一个网址和一个令牌下。用户可按任务搜索，查看价格、请求和响应，按调用付费；简介称其零加价且开源。",
+      "intro_zh": "给需要为 AI 智能体接入外部工具的开发者用，集中查找服务、查看调用说明并付费调用。",
+      "url": "https://www.producthunt.com/products/treg-openrouter-for-tools?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/V3RYGTZQGYCATF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e5b96bf0-f7a6-4342-ae83-a1400bcd8237.png?auto=format",
+      "votes_count": 147,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "找工具和管理接入的需求明确，但实际能省多少接入工作尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "统一入口后如何处理各工具不同的参数和结果，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "按任务找工具并展示调用信息，可借用于其他服务目录。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把选工具所需的信息放在一起。关键疑问是统一网址和令牌之外，能否减少逐个理解工具用法的工作。",
+      "product_analysis": {
+        "target_problem": "开发者给 AI 智能体找外部服务时，需要判断工具能否完成任务、怎么调用、花多少钱。Treg 把这些信息集中起来。",
+        "workflow": "按任务搜索工具，查看价格及请求、响应信息，再通过统一网址和令牌调用。费用按调用计算。",
+        "ai_value": "它服务于 AI 智能体，但介绍没说由 AI 自动选工具。明确的作用是提供工具搜索和统一调用入口。",
+        "differentiation": "集中查询和管理凭证可能减少接入工作。最可能让人犹豫的是：所需工具是否真正接得上。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到统一网址、统一令牌、按调用付费及开源；API 指软件之间传递请求和结果的接口。",
+        "possible_approach": "如果自己做，可以先给工具标注任务、价格和参数，再建统一入口，把请求转给对应服务并记录用量。",
+        "tradeoffs": "最难的是处理不同工具的参数和返回结果。即使入口统一，映射出错仍会让调用失败，用户还得逐个排查。",
+        "unknowns": "统一入口是否也统一了参数格式，还是仍需分别学习各工具的用法？"
+      },
+      "transferable_insights": [
+        "做服务市场时，可以让用户按“要完成什么任务”搜索，并在结果旁展示价格与请求、响应示例，帮助判断能否使用。"
+      ],
+      "validation_questions": [
+        "选一个实际任务，搜索结果中是否有能完成它的工具？",
+        "照展示的请求示例调用一次，能否拿到符合说明的响应？"
+      ],
+      "source_tagline": "工具版 OpenRouter：2600+ API，零加价",
+      "source_description": "AI 智能体不在乎用谁家的服务，只想找到最适合任务的 API。Treg 把 SEO、社媒、获客、广告、爬虫等 2600 多个工具整合到一个网址和一个令牌下。按任务搜索，查看价格、请求和响应，按调用付费，零加价，而且开源。"
+    },
+    {
+      "id": "1220459",
+      "name": "Replay QA for Teams",
+      "name_zh": "Replay QA for Teams",
+      "tagline_zh": "为发布快、验证时间不足的团队提供自动化质量测试。",
+      "description_zh": "Replay QA 自动操作网页应用，查找流程受阻、界面异常和功能错误，并提供问题定位与修复建议。团队版支持共享项目、@同事、本地测试，以及在每次代码合并请求上自动检查。",
+      "intro_zh": "给频繁发布网页应用的开发和测试团队用，自动检查操作流程，并把发现的问题交给同事一起处理。",
+      "url": "https://www.producthunt.com/products/replayio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/3OYFD6KYRAYJZ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/2cf12271-fef5-4343-b29a-2105be433eec.png?auto=format",
+      "votes_count": 146,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "发布前检查和团队协作的用途清楚，但发现问题的准确性未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何判断网页操作是否成功是具体难点，但介绍未说明判断方法。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把自动检查放进代码合并请求，是开发协作产品可借用的具体做法。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是让检查跟着代码变更发生；最影响判断的是它能否识别业务结果错误，而不只是页面表面异常。",
+      "product_analysis": {
+        "target_problem": "频繁发布网页应用的团队，需要在有限时间里检查关键流程，避免带着问题上线。",
+        "workflow": "工具自动操作网页并报告问题，成员通过共享项目和@同事协作处理。检查也可随代码合并请求触发；具体配置方式未说明。",
+        "ai_value": "介绍没提 AI，主要靠自动操作网页、检查问题和提供修复建议来改善体验。",
+        "differentiation": "它把检查放到每次提交变更时，可能减少漏做验证；若报告经常误报，团队可能不愿持续使用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持本地测试，以及在 pull request（请求把代码改动合入项目）时自动检查。",
+        "possible_approach": "如果自己做，可以先让浏览器执行关键操作，再把实际结果与预期结果比较，最后把失败记录发回代码合并请求。",
+        "tradeoffs": "最难的是判断操作是否真的成功。若只看按钮能否点击，可能漏掉提交后数据没有保存的问题。",
+        "unknowns": "预期结果由谁定义，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做开发协作工具时，可把检查结果直接放进代码评审处，让处理问题的人少切换一个地方。"
+      ],
+      "validation_questions": [
+        "放入一个已知的“提交后未保存”问题，检查它能否发现。",
+        "提交一次代码合并请求，检查是否自动触发测试。"
+      ],
+      "source_tagline": "为发布速度快到来不及验证的团队，提供自动化 QA 测试。",
+      "source_description": "Replay QA 会像真实用户一样操作你的网页应用，自动找出流程卡住、界面错乱和功能 bug，赶在客户发现前拦下来。它不光报错，还会告诉你问题出在哪、给出修复建议。新版本支持共享项目、@同事、本地测试，还能在每次 pull request 上自动做检查，让团队上线前一起抓虫。"
+    },
+    {
+      "id": "1220844",
+      "name": "Startup Program by Recall.ai",
+      "name_zh": "Startup Program by Recall.ai",
+      "tagline_zh": "为创业团队提供会议录制基础设施",
+      "description_zh": "Recall.ai 的创业计划为早期团队提供现成的会议录制技术，缓存介绍称前 10000 小时价格为每小时 0.25 美元。计划还包含工程师支持、快速机器人进会、全部录制产品、MCP 访问和日历集成，面向开发会议相关产品的初创团队。",
+      "intro_zh": "给开发会议产品的早期团队用，接入现成的会议录制能力，把精力留给自己的产品功能。",
+      "url": "https://www.producthunt.com/products/recall-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7FZY32QFKLL7MQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4f45a3ee-2bd4-4196-832e-1f13a763c4c2.png?auto=format",
+      "votes_count": 133,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标团队和省去自建录制工作的用途明确，但接入条件未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "机器人能否顺利进会是具体问题，但资料没有提供处理细节。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把现成技术、起步优惠和工程支持一起提供，是可借鉴的开发者服务做法。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是团队能先接入录制能力，再做自己的会议功能；最影响判断的是它是否支持团队实际使用的会议平台。",
+      "product_analysis": {
+        "target_problem": "做会议产品的早期团队，需要先拿到会议录音才能开发后续功能。若原本打算自建录制，现在可以接入现成服务。",
+        "workflow": "团队接入录制能力，再用于自己的会议产品。介绍提到机器人进会和日历集成，但没给出具体配置步骤。",
+        "ai_value": "介绍没提 AI 具体做什么，主要靠现成录制能力和工程支持减少开发工作。",
+        "differentiation": "省去从零搭建录制功能的部分工作。最可能让团队犹豫的是优惠结束后的价格，资料没说明。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到机器人进会、日历集成和 MCP 访问；MCP 是让 AI 应用连接外部工具的协议，但此处开放哪些能力未说明。",
+        "possible_approach": "如果自己做，可以先读取日历里的会议时间和链接，再安排机器人进会录制，把录制结果交给产品后续处理。",
+        "tradeoffs": "最容易出错的是机器人进会：若被留在等候室，可能漏录开头，甚至整场没有录到。",
+        "unknowns": "支持哪些会议平台？这直接决定目标用户能不能用。"
+      },
+      "transferable_insights": [
+        "做面向开发团队的服务时，可以把起步额度与工程支持打包，帮助小团队完成首次接入。"
+      ],
+      "validation_questions": [
+        "在目标会议平台开启等候室后，机器人能否获准进会并开始录制？",
+        "向产品方确认超过 10000 小时后的每小时价格是多少？"
+      ],
+      "source_tagline": "为创业团队打造的会议录制基础设施",
+      "source_description": "Recall.ai 创业计划给早期团队提供现成的会议录制技术，前10000小时只要0.25美元/小时，还附带工程师支持、快速机器人进会、所有录制产品、MCP访问和日历集成。适合正在做会议相关产品的初创团队，不用自己从零开发。"
+    },
+    {
+      "id": "1224203",
+      "name": "Skriptr",
+      "name_zh": "Skriptr",
+      "tagline_zh": "面向学生的 AI 学习工作台",
+      "description_zh": "Skriptr 是面向学生的 AI 工作空间，帮助研究、论文写作和学习，能读取用户提供的参考资料，并在回答中标出来源页码。它也会向用户提问，强调陪学生思考。",
+      "intro_zh": "给需要读参考资料的学生用，围绕资料回答问题、标出出处页码，并通过反问帮助梳理思路。",
+      "url": "https://www.producthunt.com/products/skriptr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EHNATGTZF2CDC4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f08b173e-c1c0-4533-ac06-118eb60a5235.png?auto=format",
+      "votes_count": 119,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "学生读资料和查出处的需求清楚，但引用准确性尚未确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "回答能否对应到真正支持结论的页面，是具体且关键的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "回答附出处和反问引导，都有明确的可借用场景。"
+        }
+      },
+      "category": "教育学习",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重回答能带回原文核对；但历史简介不足以证明，标出的页码确实能支撑结论。",
+      "product_analysis": {
+        "target_problem": "学生做研究、写论文时，需要理解参考资料，也要找到结论的依据。读懂回答后仍得翻找原文，会增加核对负担。",
+        "workflow": "提供参考资料，围绕资料提问，再按回答标出的页码核对原文。工具也会反过来提问，但介绍没说明何时触发。",
+        "ai_value": "AI 读取资料并组织回答，同时用问题引导学生继续思考。反问是否真正帮助理解，还需要试用判断。",
+        "differentiation": "把回答和出处页码放在一起，可能减少查找依据的时间。最可能让人不愿继续用的，是引用仍需花很多时间核对。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "简介明确提到 AI 读取参考资料、回答附来源页码和反向提问，没说具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先按页提取资料文字并保留页码，再找出相关段落，让 AI 据此回答并附出处。",
+        "tradeoffs": "最难的是让引用真正支持回答。页码即使存在，原文也可能没有那个结论，学生会误把它当成可靠依据。",
+        "unknowns": "资料里找不到答案时，它会明确说明，还是继续生成回答？"
+      },
+      "transferable_insights": [
+        "做资料问答产品时，把出处放在对应结论旁边，方便用户逐条核对。",
+        "做学习工具时，可在解释后追问理由，让学生尝试说出自己的理解。"
+      ],
+      "validation_questions": [
+        "用一份熟悉的资料提问，检查引用页是否真正支持回答。",
+        "针对资料中的一个概念作答，检查后续反问是否回应了自己的理解偏差。"
+      ],
+      "source_tagline": "学生专属AI学习工作台",
+      "source_description": "Skriptr 是给学生的AI工作空间，能帮做研究、写论文、学习。它会读你给的参考资料，每个答案都告诉你出自哪一页，还会反过来问你问题。它跟你一起思考，而不是替你思考，脑子还是你自己的。"
     },
     {
       "id": "1214248",
       "name": "Clears",
       "name_zh": "Clears",
       "tagline_zh": "从 AI 编码迈向智能体软件交付",
-      "description_zh": "Clears 是个自动化软件交付平台，让研发团队不再只是用单个 AI 工具写代码，而是让 AI 智能体把从需求到上线的整个开发流程都自动跑起来。适合那些想提升研发效率、减少人工重复劳动的技术团队。",
-      "intro_zh": "让AI智能体自动跑完软件开发全流程，写码、测试、上线都能自己推进。研发团队和技术负责人想省人力、提效率会需要它。",
+      "description_zh": "Clears 是一个自动化软件交付平台，介绍称它能让 AI 智能体自动执行从需求到上线的开发流程。它面向希望提高研发效率、减少重复劳动的技术团队。",
+      "intro_zh": "给研发团队用的软件交付平台，让 AI 智能体接手从需求到上线的开发工作。",
       "url": "https://www.producthunt.com/products/clears?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/XEDS2MD2VPICZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1ed758e9-04d5-4b96-9015-9ef436bab089.png?auto=format",
       "votes_count": 351,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "产品偏后台自动化和流程编排，UI 多为状态面板和日志，缺少视觉冲击，演示效果比较枯燥。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "涉及智能体执行、SDLC 等技术概念，普通人很难理解，使用者也基本是研发团队，门槛高。"
-        },
-        "popularity": {
-          "score": 5,
-          "reason": "PH 排名第3，351票，热度很高，属于当日头部产品。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "程序员看完沉默：AI已经能自己交付软件了？",
-        "angle": "行业解读",
-        "shooting_tips": "录屏产品界面，重点展示任务自动流转、状态看板；用简单流程图对比传统开发流程，配上快节奏剪辑和字幕解释，避免深入代码细节。",
-        "target_audience": "程序员、技术管理者、对AI软件开发感兴趣的科技爱好者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品热度高，适合做垂直技术解读，但对大众用户门槛较高。"
-    },
-    {
-      "id": "1224529",
-      "name": "Vendo ",
-      "name_zh": "Vendo",
-      "tagline_zh": "让你的用户在产品里自己构建功能",
-      "description_zh": "Vendo 是一个开源定制层，可以装进你的软件里。客户用大白话描述想要什么功能，它就能基于你自己的 API 自动生成对应的功能或小应用，并且只在你设定的安全边界内运行。适合那些想让软件更灵活、减少逐客定制开发的 SaaS 团队。",
-      "intro_zh": "给软件加了个“许愿”功能，用户说句话就能自己生成想要的小功能。做 SaaS 产品的团队想省掉无穷无尽的定制开发，用它正合适。",
-      "url": "https://www.producthunt.com/products/vendo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XMJNYPK5RL7FBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f46b4eea-d284-47e3-a1a4-b0d4cef7f664.png?auto=format",
-      "votes_count": 331,
-      "scores": {
-        "video_suitability": {
+        "product_value": {
           "score": 3,
-          "reason": "可以展示用户输入描述后自动生成功能的过程，有一定前后对比和操作画面，但整体偏配置界面和开发概念，视觉冲击力一般。"
+          "reason": "减少研发重复劳动的目标清楚，但自动执行的范围和收益未说明。"
         },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 API、开源、定制层、护栏等概念，普通人理解门槛较高，更适合有产品经理或开发背景的人。"
+        "technical_insight": {
+          "score": 3,
+          "reason": "从写代码走到上线涉及出错后的处理，介绍没有展开。"
         },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 第4名，331票，热度不错，但没有登顶，话题性中等偏上。"
+        "transferability": {
+          "score": 3,
+          "reason": "可以借鉴按完整任务组织自动化的思路，但适用条件仍待确认。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "让用户自己给APP加功能？这个开源层太敢了",
-        "angle": "教程演示",
-        "shooting_tips": "录屏演示从后台接入 Vendo，再模拟客户输入“我要一个导出Excel的按钮”，展示系统自动生成功能的过程。重点突出前后对比：原本需要提需求排期，现在几秒完成。用大字标注“自然语言等于功能”，节奏要快，开头3秒就展示生成效果。",
-        "target_audience": "SaaS 创业者、产品经理、独立开发者，尤其是经常被客户定制需求折磨的人"
-      },
       "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "演示“用户说句话就能加功能”的魔幻感足够抓人，但概念略硬核，适合开发者或产品经理向内容。"
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有吸引力的是减少写完代码后的人工接续；最大疑问是“从需求到上线”究竟覆盖多少工作，历史缓存没有提供细节。",
+      "product_analysis": {
+        "target_problem": "面向想减少重复劳动的研发团队。单个 AI 工具写完代码后，从需求到上线还有其他工作要完成。",
+        "workflow": "介绍给出的流程是从需求出发，由 AI 智能体执行开发工作并推进到上线；如何提交需求、何时人工确认，没有说明。",
+        "ai_value": "AI 的角色从生成代码扩展到执行开发流程，但缓存资料不足以确认它能独立完成哪些步骤。",
+        "differentiation": "可能省下不同开发步骤之间的人工接续。团队可能不愿交出上线控制权，这是我会先确认的使用障碍。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 智能体，未说明具体模型或实现技术。",
+        "possible_approach": "如果自己做，可以先把需求拆成可检查的任务，再让智能体修改代码、运行测试，最后由人确认发布。",
+        "tradeoffs": "最容易出错的是把需求理解错，却继续自动执行。即使代码能运行，也可能上线一个不符合要求的功能。",
+        "unknowns": "上线前是否必须经过人工批准？"
+      },
+      "transferable_insights": [
+        "做研发自动化工具时，可以围绕一项需求组织任务和结果，让用户看到工作走到哪一步；适合需要连续完成多个步骤的场景。"
+      ],
+      "validation_questions": [
+        "给一个有明确验收标准的小需求，检查最终功能是否逐项符合要求。",
+        "检查能否设置上线前必须由人批准。"
+      ],
+      "source_tagline": "从 AI 编码迈向智能体软件交付",
+      "source_description": "Clears 是个自动化软件交付平台，让研发团队不再只是用单个 AI 工具写代码，而是让 AI 智能体把从需求到上线的整个开发流程都自动跑起来。适合那些想提升研发效率、减少人工重复劳动的技术团队。"
     },
     {
       "id": "1223212",
       "name": "OpenTrade",
-      "name_zh": "OpenTrade 开源交易框架",
-      "tagline_zh": "给 Claude Code / Codex 装上开源交易方向盘，安全接进 Robinhood",
-      "description_zh": "OpenTrade 是个开源交易工具，专门给 Claude Code 或 Codex 这类 AI 编程代理配上交易能力和安全护栏，让它们能通过 Robinhood 官方接口自动买卖股票。装上之后，AI 可以自己设定时任务、写脚本给你发提醒，还能在后台一直开着，所有操作都在你自己电脑上完成。",
-      "intro_zh": "这是个开源 AI 自动交易工具，让 Claude Code 或 Codex 帮你盯盘、下单，还能定时提醒。想用 AI 炒股又怕乱操作的技术玩家会喜欢。",
+      "name_zh": "OpenTrade",
+      "tagline_zh": "为 Claude Code / Codex 接入 Robinhood 交易能力的开源工具",
+      "description_zh": "OpenTrade 为 Claude Code、Codex 等 AI 编程代理提供股票自动交易能力，并称带有安全护栏、通过 Robinhood 官方接口执行交易。它还支持设定时任务、写提醒脚本和持续后台运行，介绍称所有操作都在用户自己的电脑上完成。",
+      "intro_zh": "给想用 AI 编程代理操作股票账户的人用，把交易、定时任务和提醒接到 Robinhood。",
       "url": "https://www.producthunt.com/products/opentrade?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/VSZ2NL5GB7AXU6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1f0f0d08-799c-4f85-bb05-5edba3b2f374.jpeg?auto=format",
       "votes_count": 154,
       "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "主要操作都在终端和代码里，没有好看的图形界面或前后对比画面，视觉冲击力弱。能演示 AI 下单和定时提醒，但整体偏后台，拍摄起来比较枯燥。"
+        "product_value": {
+          "score": 3,
+          "reason": "交易与提醒场景明确，但安全限制和接入条件不清楚。"
         },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "涉及 Claude Code、Codex、MCP、cron 等概念，还需要配置 Robinhood 接口，普通用户几乎无法上手，必须有一定编程和交易技术背景。"
-        },
-        "popularity": {
+        "technical_insight": {
           "score": 4,
-          "reason": "ProductHunt 排名第6，票数154，处于前10，在开发者圈子里有一定热度，话题性不错。"
+          "reason": "AI 指令如何变成受限制的真实订单，是具体且后果重大的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "给代理增加执行限制的思路可借鉴，但介绍没有展开护栏做法。"
         }
-      },
-      "video_inspiration": {
-        "title_idea": "让 AI 帮你炒股？我把 Claude Code 接进了 Robinhood，结果……",
-        "angle": "教程演示",
-        "shooting_tips": "先录一段 AI 自动交易或定时提醒的效果画面，吸引注意力；然后逐步演示安装配置过程，突出开箱即用的 cron 计划和持久后台会话；中间穿插安全护栏的作用，最后加风险提示，节奏要快，避免长时间停留在代码堆里。",
-        "target_audience": "对 AI 编程和量化交易感兴趣的开发者、技术型散户"
       },
       "category": "金融商业",
-      "overall_suggestion": "可以做",
-      "overall_reason": "虽然技术门槛高，但 AI 自动交易话题有看点，适合技术圈观众做教程测评。"
-    },
-    {
-      "id": "1220962",
-      "name": "Treg",
-      "name_zh": "特雷格",
-      "tagline_zh": "工具版 OpenRouter：2600+ API，零加价",
-      "description_zh": "AI 智能体不在乎用谁家的服务，只想找到最适合任务的 API。Treg 把 SEO、社媒、获客、广告、爬虫等 2600 多个工具整合到一个网址和一个令牌下。按任务搜索，查看价格、请求和响应，按调用付费，零加价，而且开源。",
-      "intro_zh": "一个给 AI 智能体用的工具大集合，一个账号能调 2600 多个 API，按次付费零加价。做 AI 应用、需要各种数据接口的开发者会很喜欢。",
-      "url": "https://www.producthunt.com/products/treg-openrouter-for-tools?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/V3RYGTZQGYCATF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e5b96bf0-f7a6-4342-ae83-a1400bcd8237.png?auto=format",
-      "votes_count": 147,
-      "scores": {
-        "video_suitability": {
-          "score": 2,
-          "reason": "产品主要是后台 API 和开发者仪表盘，画面多为代码、请求响应和价格列表，视觉冲击力弱，演示效果偏技术向，缺乏直观的前后对比或炫酷 UI。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "涉及 AI Agent、API、令牌、按调用付费等概念，普通用户难以快速理解，需要一定的开发背景才能明白它的价值和使用方式。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "ProductHunt 排名第7，票数147，进入前10，在开发者圈有一定热度，但尚未破圈。"
-        }
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把代理生成的任务接到真实交易上有明确用途，但我最关心护栏能否强制生效；本机运行本身不保证交易安全。",
+      "product_analysis": {
+        "target_problem": "想让 AI 编程代理执行股票交易的人，需要把代理接到账户，并限制它能做什么。OpenTrade 把这些能力放进一个工具。",
+        "workflow": "安装后，让 Claude Code 或 Codex 通过 Robinhood 执行交易，也可安排定时任务和提醒。资料未给出账户连接步骤。",
+        "ai_value": "AI 负责安排任务、写提醒脚本并发起交易；介绍没有说明它如何作出买卖判断。",
+        "differentiation": "省去部分自行编写交易连接的工作。最可能让人犹豫的是：所谓安全护栏能否挡住错误订单。"
       },
-      "video_inspiration": {
-        "title_idea": "给 AI 装上 2600 个外挂！一个 token 调所有工具，这个开源神器让 Agent 无所不能",
-        "angle": "教程演示",
-        "shooting_tips": "屏幕录制注册和搜索流程，演示从“按任务搜索工具”到“查看价格和响应”再到“用统一 token 调用”的完整链路；突出 0 加价和开源卖点，用动画对比传统逐个接入 API 的繁琐；节奏轻快，避免大段代码，多用图表和标注。",
-        "target_audience": "AI 开发者、独立开发者、技术爱好者、做自动化脚本或智能体应用的人群"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称工具开源、本机运行，并使用 Robinhood 官方接口（软件间传数据和指令的连接方式）；接口说法未经核验。",
+        "possible_approach": "如果自己做，可以先让 AI 生成待执行订单，再由独立程序检查金额和交易权限，通过后才提交。",
+        "tradeoffs": "最难的是让订单检查无法被 AI 绕过，否则一句理解错的指令就可能变成真实买卖。",
+        "unknowns": "安全护栏具体限制哪些交易行为？"
       },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "产品技术性强，适合做成开发者向的教程或工具推荐视频，但普通观众理解门槛较高，需针对特定人群。"
-    },
-    {
-      "id": "1220459",
-      "name": "Replay QA for Teams",
-      "name_zh": "Replay QA 团队版",
-      "tagline_zh": "为发布速度快到来不及验证的团队，提供自动化 QA 测试。",
-      "description_zh": "Replay QA 会像真实用户一样操作你的网页应用，自动找出流程卡住、界面错乱和功能 bug，赶在客户发现前拦下来。它不光报错，还会告诉你问题出在哪、给出修复建议。新版本支持共享项目、@同事、本地测试，还能在每次 pull request 上自动做检查，让团队上线前一起抓虫。",
-      "intro_zh": "给开发团队配个自动测试机器人，像真用户一样点网页，找出bug和卡点。适合发布频繁、没空手动测试的开发和测试同学。",
-      "url": "https://www.producthunt.com/products/replayio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3OYFD6KYRAYJZ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2cf12271-fef5-4343-b29a-2105be433eec.png?auto=format",
-      "votes_count": 146,
-      "scores": {
-        "video_suitability": {
-          "score": 3,
-          "reason": "有界面展示和测试过程录屏，但核心是自动化流程，视觉冲击力一般，适合录屏演示前后对比。"
-        },
-        "beginner_friendly": {
-          "score": 2,
-          "reason": "概念涉及QA、pull request、localhost，非技术用户难理解，需要一定开发背景。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "第8名、146票，属于PH当日热门，但不算现象级爆款。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "发布太快没人测？这个自动 QA 工具，像真实用户一样帮你找 bug",
-        "angle": "教程演示",
-        "shooting_tips": "录屏展示从配置到自动测试跑出bug列表的完整过程；突出'像真实用户操作'的画面，比如自动点击、填表单；对比人工测试耗时 vs 自动QA；用红色标注发现的问题，配上修复建议。节奏紧凑，前30秒直接展示一个被发现的严重bug。",
-        "target_audience": "软件开发工程师、测试/QA工程师、技术团队负责人、SaaS创业者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "可以做",
-      "overall_reason": "适合开发者圈子的教程/工具分享，但普通观众理解门槛偏高。"
-    },
-    {
-      "id": "1220844",
-      "name": "Startup Program by Recall.ai",
-      "name_zh": "Recall.ai 创业计划",
-      "tagline_zh": "为创业团队打造的会议录制基础设施",
-      "description_zh": "Recall.ai 创业计划给早期团队提供现成的会议录制技术，前10000小时只要0.25美元/小时，还附带工程师支持、快速机器人进会、所有录制产品、MCP访问和日历集成。适合正在做会议相关产品的初创团队，不用自己从零开发。",
-      "intro_zh": "给创业团队提供现成的会议录制技术，按小时付费就能用。正在做会议相关产品的早期开发者能省下大把开发时间。",
-      "url": "https://www.producthunt.com/products/recall-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7FZY32QFKLL7MQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4f45a3ee-2bd4-4196-832e-1f13a763c4c2.png?auto=format",
-      "votes_count": 133,
-      "scores": {
-        "video_suitability": {
-          "score": 1,
-          "reason": "纯后台API和代码文档，没有直观界面或前后对比，画面单调，难以拍摄吸引人的视频。"
-        },
-        "beginner_friendly": {
-          "score": 1,
-          "reason": "需要开发背景才能理解基础设施、API、MCP等概念，普通用户完全看不懂。"
-        },
-        "popularity": {
-          "score": 4,
-          "reason": "Product Hunt第9名，前十热度不错，但票数133不算特别高，话题性一般。"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "创业团队开会录音神器，每小时不到2块钱？",
-        "angle": "行业解读",
-        "shooting_tips": "如果拍，走开发者教程或创业行业解读路线，用动画解释“会议录制基础设施”是什么，强调每小时0.25美元的成本节省和免开发的好处，配上接入流程录屏和成本对比图表。",
-        "target_audience": "开发者、创业团队、SaaS创业者"
-      },
-      "category": "开发工具",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "纯开发者基础设施，缺乏直观画面且小白难以理解，不适合面向普通用户的视频内容。"
+      "transferable_insights": [
+        "做能付款或改数据的 AI 工具时，可以把生成指令和批准执行分开，在执行前用程序强制检查权限。"
+      ],
+      "validation_questions": [
+        "提交超过预设金额的订单，是否会在发送前被拦截？",
+        "核对项目使用的 Robinhood 接口，是否确为官方支持且允许所述股票交易用途？"
+      ],
+      "source_tagline": "给 Claude Code / Codex 装上开源交易方向盘，安全接进 Robinhood",
+      "source_description": "OpenTrade 是个开源交易工具，专门给 Claude Code 或 Codex 这类 AI 编程代理配上交易能力和安全护栏，让它们能通过 Robinhood 官方接口自动买卖股票。装上之后，AI 可以自己设定时任务、写脚本给你发提醒，还能在后台一直开着，所有操作都在你自己电脑上完成。"
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

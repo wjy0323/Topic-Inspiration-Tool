@@ -1,367 +1,512 @@
 {
   "date": "2026-10-21",
-  "generated_at": "2026-10-22T20:51:02+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:19:48+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1280279",
       "name": "UseIt Studio",
       "name_zh": "UseIt Studio",
-      "tagline_zh": "Your AI design agent for real, editable project files.",
-      "description_zh": "UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it. You get a real, editable design file, not a flat image, ready to print, cut and fold, with real dimensions, bleed and dielines. Make pins, stickers, gift boxes, pop-up cards, brand kits and more. Use it in your browser, or call it up anywhere on your Windows desktop.",
-      "intro_zh": "",
+      "tagline_zh": "AI 设计助手，生成真正可编辑的项目文件。",
+      "description_zh": "UseIt 是面向实体物品的 AI 设计工作室：你用一句话描述需求，它会追问设计问题，并支持指着细节继续修改。它提供带实际尺寸、出血和刀模线的可编辑文件，供打印、裁切和折叠，可制作徽章、贴纸、礼盒、立体卡片和品牌套件，支持浏览器及 Windows 桌面调用。",
+      "intro_zh": "给需要制作贴纸、礼盒等实体物料的人用，通过对话设计和局部修改，生成可编辑的制作文件。",
       "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/YLLDQZV3DAU3ZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7d59c7ca-92b9-417d-bd34-b4dd52d16ba0.jpeg?auto=format",
       "votes_count": 325,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "用途和交付物明确，但文件能否直接用于制作尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "局部修改后仍需保持尺寸与裁切关系正确，是具体的技术难点。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先追问约束、再允许指向修改的做法，可借给其他设计工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把交付目标定为可编辑的制作文件；最大的疑问是，修改后的文件能否一直保持正确的裁切与折叠关系。",
+      "product_analysis": {
+        "target_problem": "做贴纸、礼盒的人需要的不只是效果图，还要有尺寸和裁切依据。麻烦在于把视觉方案变成能制作的文件。",
+        "workflow": "先用一句话描述需求，再回答设计追问，指着细节提出修改，最后取得可编辑文件。可在浏览器使用，也可从 Windows 桌面调用。",
+        "ai_value": "AI 负责追问需求、参与设计，并根据用户指向的细节继续修改。",
+        "differentiation": "它把设计修改和制作文件放在一起，可能减少另行整理文件的工作；若导出格式不适配现有软件，用户仍可能不愿换。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 52043679-61fe-45b7-847c-b2af997c93a9)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到可编辑文件、实际尺寸、出血（裁切边缘外预留的画面）和刀模线（裁切与折叠的参考线），未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先从一种盒型入手，追问尺寸和用途，再把文字、图形与裁切参考线分开保存，让用户选中对象修改后导出。",
+        "tradeoffs": "最容易出错的是改了外形，却没同步更新裁切和折叠位置。屏幕上看着正常，做出来可能合不上。",
+        "unknowns": "可编辑文件具体支持哪些格式？"
+      },
+      "transferable_insights": [
+        "做定制物料工具时，可先追问尺寸等必要条件，再生成设计，避免用户拿到方案后才发现缺少制作约束。"
+      ],
+      "validation_questions": [
+        "把导出文件放进常用设计软件，检查文字和图形能否分别编辑。",
+        "修改礼盒尺寸后打印折叠，检查盒体能否正确合拢。"
+      ],
+      "source_tagline": "Your AI design agent for real, editable project files.",
+      "source_description": "UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it. You get a real, editable design file, not a flat image, ready to print, cut and fold, with real dimensions, bleed and dielines. Make pins, stickers, gift boxes, pop-up cards, brand kits and more. Use it in your browser, or call it up anywhere on your Windows desktop."
     },
     {
       "id": "1278273",
       "name": "BAND for Developers",
       "name_zh": "BAND for Developers",
-      "tagline_zh": "Coding agents, meet teamwork",
-      "description_zh": "Running multiple coding agents shouldn’t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman. See what every agent is doing, step in when decisions need your judgment, and scale agentic development across teams. Your agents stay in their existing tools while BAND handles the teamwork.",
-      "intro_zh": "",
+      "tagline_zh": "让编程智能体一起协作",
+      "description_zh": "BAND 将现有开发工具中的编程智能体连接到共享工作区，让它们协调任务、交换上下文并交接工作，减少人工传话。开发者可以查看各个智能体的工作情况，在需要判断时介入，智能体仍留在原有工具中。",
+      "intro_zh": "给同时使用多个编程智能体的开发者和团队用，让它们共享任务背景、协调分工并交接工作。",
       "url": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/LFGJP5O6OXFYLB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3e26af9c-c3f2-4346-9b4b-425d511bcde5.png?auto=format",
       "votes_count": 298,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "减少多智能体之间的人工传话，场景明确，但实际省事程度未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨工具交接时能否传对工作背景，是具体且影响结果的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "保留原工具、集中协调任务的做法可借鉴，但依赖工具连接能力。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重减少人工转述任务背景；但交接能否传全最新要求，决定它会省事还是增加返工。",
+      "product_analysis": {
+        "target_problem": "同时使用多个编程智能体的开发者，需要协调分工和交接。以前要自己在工具间传递背景、跟进任务，现在可以让它们在共享工作区协调。",
+        "workflow": "连接现有开发工具中的智能体，让它们交换背景、协调任务并交接工作。开发者查看进展，在需要判断时介入。",
+        "ai_value": "编程智能体负责开发任务，BAND 负责支持它们协作。介绍没说协调本身是否由 AI 完成。",
+        "differentiation": "智能体不用离开原工具，可能减少来回传话。最可能阻碍使用的是现有工具不受支持。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 9259aca8-f76d-4b4b-9939-f6fae8594b72)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1274622",
-      "name": "Needle",
-      "name_zh": "Needle",
-      "tagline_zh": "The agent-native outbound engine",
-      "description_zh": "Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/E6AZ74Q5YPL2B5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c5d8f0ba-dea1-4953-87e7-c0348d4c42da.png?auto=format",
-      "votes_count": 272,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到跨开发工具连接智能体和共享工作区，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先连接两种工具，把任务和相关背景放到同一处，再让接手的智能体读取并更新进展。",
+        "tradeoffs": "最难的是交接时传全最新背景。若漏掉刚改的要求，接手者可能沿用旧方案，导致返工。",
+        "unknowns": "哪些开发工具和编程智能体已经支持连接？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 0762a07b-fe3e-4e70-b06d-f9889295e0db)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1271317",
-      "name": "The Library",
-      "name_zh": "The Library",
-      "tagline_zh": "Your business context organized by queries",
-      "description_zh": "The Querri Library is where your data gets organized around the questions your business asks, so every answer comes from the same trusted, shared foundation.. The library learns your definitions, business context, and past analysis, so its answers are grounded in how your business actually works. And when it doesn’t know, it says so, instead of making things up.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/querri?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XZ6RB34WYUJWIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1fb61d2d-aafe-43b1-be89-e30754f0b989.jpeg?auto=format",
-      "votes_count": 202,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 84670ba4-17eb-4f0f-8e4f-cad2ce25d681)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做跨工具协作产品时，可以保留用户原来的操作工具，只把任务状态和交接信息集中展示。"
+      ],
+      "validation_questions": [
+        "把两个常用编程智能体接入，检查是否都能读写同一项任务。",
+        "交接前修改一条关键需求，检查接手的智能体是否按新要求继续。"
+      ],
+      "source_tagline": "Coding agents, meet teamwork",
+      "source_description": "Running multiple coding agents shouldn’t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman. See what every agent is doing, step in when decisions need your judgment, and scale agentic development across teams. Your agents stay in their existing tools while BAND handles the teamwork."
     },
     {
       "id": "1195703",
       "name": "TwinMind for Desktop",
       "name_zh": "TwinMind for Desktop",
-      "tagline_zh": "Transcribe meetings and dictate anywhere on Mac & Windows",
-      "description_zh": "TwinMind now lives natively on your Desktop! Auto-detect meetings in Zoom, Meet, Teams and more, and get live transcripts and summaries in 140+ languages. With calendar reminders, join the call in one click and start capturing. A floating mic stays with you across every app and space: hold the hotkey to dictate, and a cleaned-up text pastes straight wherever you're writing.",
-      "intro_zh": "",
+      "tagline_zh": "在 Mac 和 Windows 上转写会议，随处语音输入",
+      "description_zh": "TwinMind 桌面版可自动检测 Zoom、Meet、Teams 等会议，提供实时转写和摘要，介绍称支持 140 多种语言，并可通过日历提醒一键入会、开始记录。浮动麦克风可跨应用和工作区使用，按住快捷键口述后，整理过的文字会直接粘贴到正在输入的位置。",
+      "intro_zh": "给经常开线上会议、写文字的桌面用户用，把会议转成文字和摘要，也能在当前应用里口述输入。",
       "url": "https://www.producthunt.com/products/twinmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/QXPYLTASWW6C47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/304b1784-541a-4fc5-8baa-af993c510a31.jpeg?auto=format",
       "votes_count": 162,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "会议记录和跨应用口述的场景清楚，但准确率与兼容性尚未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "跨应用粘贴涉及输入位置判断，出错会直接打断写作。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "让结果回到用户正在工作的地方，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重文字直接回到写作位置，少一次复制就少一次打断；最影响判断的是自动整理是否会悄悄改变原意。",
+      "product_analysis": {
+        "target_problem": "经常线上开会、边听边记的人，需要减少记录负担。另一类需求是在写邮件或文档时，直接口述成文。",
+        "workflow": "会议时可从日历提醒一键入会并开始记录，查看实时转写和摘要。写作时按住快捷键口述，整理后的文字直接粘贴到当前输入位置。",
+        "ai_value": "介绍没提 AI，也没说明模型。明确功能是语音转文字、生成会议摘要和整理口述文本。",
+        "differentiation": "相较于先转写再复制到目标应用，它省了搬运文字这一步。但若整理时改变原意，用户可能不愿用它处理重要内容。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 6e087886-6008-4b8d-8eca-7cd2df49a58c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Mac、Windows 桌面端和会议自动检测，没说具体识别或摘要技术。",
+        "possible_approach": "如果自己做，可以先把录音转成文字，再分别生成摘要或整理口述内容；口述结束后，将结果送回开始录音时的输入位置。",
+        "tradeoffs": "最容易出错的是粘贴目标判断：口述期间若切换窗口，文字可能进入错误的应用。",
+        "unknowns": "会议音频和转写文字是否上传、保存多久，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做桌面写作助手时，可以借用“原处输入、原处返回结果”的方式，减少用户复制和切换窗口。"
+      ],
+      "validation_questions": [
+        "口述期间切换窗口，结束后文字会粘贴到哪里？",
+        "口述带有否定词的句子，整理后是否保留原意？"
+      ],
+      "source_tagline": "Transcribe meetings and dictate anywhere on Mac & Windows",
+      "source_description": "TwinMind now lives natively on your Desktop! Auto-detect meetings in Zoom, Meet, Teams and more, and get live transcripts and summaries in 140+ languages. With calendar reminders, join the call in one click and start capturing. A floating mic stays with you across every app and space: hold the hotkey to dictate, and a cleaned-up text pastes straight wherever you're writing."
     },
     {
       "id": "1286604",
       "name": "SuperCMO AI",
       "name_zh": "SuperCMO AI",
-      "tagline_zh": "Open-source skills that turn your Claude into an AI CMO",
-      "description_zh": "Open-source agent skills that turn Claude Code, Cursor or Codex into an AI CMO. Give your agent your website and it learns your brand. It studies your competitors' ads, ranks what you should test next, writes the copy for each platform, and makes the ads (UGC videos, product ads, cartoon ads, image ads, product photos and more). It checks in with you at every step, and nothing expensive renders until you approve. Bring your own model keys, or pay per use with ours. Apache-2.0.",
-      "intro_zh": "",
+      "tagline_zh": "用开源技能，让 Claude 担任 AI 营销负责人",
+      "description_zh": "这套开源智能体技能可供 Claude Code、Cursor 或 Codex 使用，根据网站了解品牌，研究竞品广告，排序测试方向，并制作各平台文案和广告素材。介绍称每一步都会征求确认，高成本生成须先获批准；支持自带模型密钥或按用量付费，采用 Apache-2.0 许可。",
+      "intro_zh": "给需要制作广告的营销人员用，把品牌网站交给智能体，协助研究竞品、安排测试并生成广告素材。",
       "url": "https://www.producthunt.com/products/supercmo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/JNC2WQ7KOZXZ74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2bc1cdb8-1a24-4717-bbfa-9615831156c8.png?auto=format",
       "votes_count": 155,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "从品牌研究到素材制作的任务明确，但广告质量和测试建议的依据未说明。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把用户批准设为高成本生成的前提，是具体且重要的控制问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "先确认方案再执行付费生成，可借用于其他素材制作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重生成前的批准机制，能让用户保留花钱的决定权；最影响判断的是测试排序有无可靠依据。",
+      "product_analysis": {
+        "target_problem": "面向需要反复测试广告的营销人员。研究竞品、选测试方向和制作素材是不同任务，组织这些工作可能很费精力。",
+        "workflow": "把品牌网站交给智能体，再逐步确认竞品研究、测试排序和素材方案。高成本生成要等用户批准。",
+        "ai_value": "AI 根据网站了解品牌，分析竞品广告，推荐测试顺序，再写文案、生成图片或视频素材。",
+        "differentiation": "它把几项营销任务串在已有编程助手里。对不熟悉这些助手的营销人员，使用环境可能成为门槛。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: aad112a8-e653-47b9-94dc-2f3d3e86a291)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1286968",
-      "name": "Notion Auto",
-      "name_zh": "Notion Auto",
-      "tagline_zh": "Notion’s rebuilt Agents run for hours and cost far less",
-      "description_zh": "Notion’s Agents update rebuilds the agent harness so tasks can run for 24 hours or more, with a computer, a browser and a Review for me safety mode. Auto now routes each task to the best model, and Notion says it matches Opus 5.5 and Astra at about 90% lower cost. You can connect a ChatGPT plan, Notion MCP is overhauled, and a new credit system covers all AI usage. Live now for new customers.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/notion-99?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4KEI3HQ75GHV52?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5562306a-886f-48fd-805a-5a750a559afe.png?auto=format",
-      "votes_count": 137,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "采用开源智能体技能，支持 Claude Code、Cursor、Codex，以及自带模型密钥或按用量付费。",
+        "possible_approach": "如果自己做，可以先从网站整理品牌资料，再分析竞品并列出候选方案；记录用户批准后，才执行付费生成。",
+        "tradeoffs": "最容易出错的是批准范围：用户若只同意文案，却触发整批视频生成，就可能产生非预期费用。",
+        "unknowns": "介绍没说测试优先级根据什么证据排序。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: e993251c-44b6-4a71-9ac9-04baa018644c)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做图片或视频生成工具时，把方案确认放在付费生成前，并明确本次批准哪些素材。"
+      ],
+      "validation_questions": [
+        "只批准一条素材，检查是否会生成未批准的其他素材。",
+        "检查测试排序是否给出可核对的竞品广告依据。"
+      ],
+      "source_tagline": "Open-source skills that turn your Claude into an AI CMO",
+      "source_description": "Open-source agent skills that turn Claude Code, Cursor or Codex into an AI CMO. Give your agent your website and it learns your brand. It studies your competitors' ads, ranks what you should test next, writes the copy for each platform, and makes the ads (UGC videos, product ads, cartoon ads, image ads, product photos and more). It checks in with you at every step, and nothing expensive renders until you approve. Bring your own model keys, or pay per use with ours. Apache-2.0."
     },
     {
       "id": "1273919",
       "name": "NativeShip",
       "name_zh": "NativeShip",
-      "tagline_zh": "The easy way to launch your n8n native integration",
-      "description_zh": "NativeShip helps SaaS teams launch and maintain an n8n integration from their existing API. Nodes follow n8n's official guidelines and are ready for verification, with standard publishing and maintenance built in. Shape the node with a live preview, publish from your own GitHub and npm in one click, and track every release. No technical skills needed.",
-      "intro_zh": "",
+      "tagline_zh": "更轻松地发布你的 n8n 原生集成",
+      "description_zh": "NativeShip 帮助 SaaS 团队基于现有 API 创建并维护 n8n 集成，称生成的节点遵循官方规范，可提交验证，并包含发布和维护功能。团队可以实时预览节点，从自己的 GitHub 和 npm 账号一键发布并追踪版本；介绍称无需技术技能。",
+      "intro_zh": "给想接入 n8n 的 SaaS 团队用，把已有 API 做成工作流节点，并管理发布和版本。",
       "url": "https://www.producthunt.com/products/nativeship?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/B6J24ZLZVUNQHL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/0429aaad-5380-4931-a592-bf53306ca10e.jpeg?auto=format",
       "votes_count": 117,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "目标明确，把创建节点、发布和版本管理放到一起，但省多少开发工作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把不同 API 转成用户能正确配置的节点，有具体的适配问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "实时预览加自有账号发布，可借用于插件和扩展制作工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把发布纳入节点制作流程很实用；最影响判断的是复杂 API 需要多少人工修正，“无需技术技能”还缺少支持。",
+      "product_analysis": {
+        "target_problem": "想让客户在 n8n（连接不同软件的工作流工具）里使用自家服务的 SaaS 团队，需要把现有 API（让软件互相传数据的连接方式）做成节点，并持续维护。",
+        "workflow": "以现有 API 为基础塑造节点，查看实时预览，再从自己的 GitHub 代码仓库和 npm 软件包账号发布，之后追踪每次版本。",
+        "ai_value": "介绍没提 AI，主要靠节点制作、预览和发布管理来改善体验。",
+        "differentiation": "它把制作和发布放在一起，可能减少工具间的切换。若复杂 API 仍需大量手改，团队可能不愿迁入。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 2f1201d7-a8db-4bcb-81c1-297e373ab4ff)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍称节点遵循 n8n 官方规范、可提交验证，并支持从用户自己的 GitHub 和 npm 发布。",
+        "possible_approach": "如果自己做，可以先读取 API 说明，把每个操作变成节点选项，再提供预览和发布功能。",
+        "tradeoffs": "最容易错的是把 API 参数变成节点输入项；若必填项或格式映射错误，用户配置完仍可能调用失败。",
+        "unknowns": "遇到无法自动适配的 API，能否手动修改生成的节点？"
+      },
+      "transferable_insights": [
+        "做插件生成工具时，可以让用户边配置边看预览，发布前就能检查选项是否易懂。",
+        "面向开发团队的发布工具，可以借用自有账号发布的做法，让产物留在团队控制下。"
+      ],
+      "validation_questions": [
+        "选一个参数格式复杂的 API 操作，检查生成节点能否成功调用。",
+        "修改一个节点后发布新版，检查版本记录能否准确对应此次变更。"
+      ],
+      "source_tagline": "The easy way to launch your n8n native integration",
+      "source_description": "NativeShip helps SaaS teams launch and maintain an n8n integration from their existing API. Nodes follow n8n's official guidelines and are ready for verification, with standard publishing and maintenance built in. Shape the node with a live preview, publish from your own GitHub and npm in one click, and track every release. No technical skills needed."
     },
     {
       "id": "1286365",
       "name": "The Brains",
       "name_zh": "The Brains",
-      "tagline_zh": "Founders and investors as MCP servers, every answer cited",
-      "description_zh": "The Brains turns founders, CEOs and investors into searchable MCP servers built from their public talks, essays, interviews and posts. Ask how Pieter Levels prices, what Paul Graham says about fundraising, or how Ryan Hoover launched Product Hunt, right inside Claude, Cursor, ChatGPT or Codex. Every answer quotes the source with a link. 37 brains today, one URL per brain or one for all. Free, open source (MIT), unofficial and not affiliated with the people.",
-      "intro_zh": "",
+      "tagline_zh": "把创始人和投资人的公开内容做成 MCP 服务，回答附带引用",
+      "description_zh": "The Brains 将创始人、CEO 和投资人的公开演讲、文章、访谈及帖子整理成可搜索的 MCP 服务，可在 Claude、Cursor、ChatGPT 或 Codex 中提问，回答附原文引述和链接。简介称当时收录 37 人，支持单人或全体共用地址，免费且按 MIT 许可证开源，属于非官方项目，与所收录人物无隶属关系。",
+      "intro_zh": "给想查创业者和投资人观点的人用，在常用 AI 工具里提问，并查看回答引用的公开原文。",
       "url": "https://www.producthunt.com/products/the-brains?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/CG23RXF55QJIVC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6c6be4f5-b653-4d77-bec6-2a81077adb22.png?auto=format",
       "votes_count": 107,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "查观点和追溯出处的用途清楚，但资料覆盖程度待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "引用能否真正支持回答，是具体且影响使用的技术问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "按人物组织资料并随回答提供出处，可借用于专业知识库。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是回答后能直接回看出处；最影响判断的是，引用究竟支撑了结论，还是只与话题相关。",
+      "product_analysis": {
+        "target_problem": "创业者研究定价、融资或发布策略时，可能要翻找分散的访谈和文章。它把这些公开内容集中成可提问的资料。",
+        "workflow": "在介绍列出的 AI 工具中接入单人或全体资料地址，提出问题，再沿回答中的引用链接查看原文。",
+        "ai_value": "AI 将查找某人的公开观点变成问答；它提供的是资料中的说法，不能当成本人对当前问题的建议。",
+        "differentiation": "省去部分跨来源查找的工作。若关心的人物没有被收录，用户仍要自行找资料。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: ce330afc-a475-40f6-a052-74a27ad0a24e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供 MCP 服务，即让 AI 工具连接外部资料的标准方式；支持单人或全体共用地址。",
+        "possible_approach": "如果自己做，可以先按人物收集公开资料，保留出处，再检索相关段落，让 AI 据此回答并附引文。",
+        "tradeoffs": "最难的是让引文真正支持结论。段落即使出自本人，也可能因省略条件而让用户误解。",
+        "unknowns": "没有说明公开资料如何更新。"
+      },
+      "transferable_insights": [
+        "做专家知识库时，可按人物提供独立入口，让用户先限定回答依据。",
+        "做研究助手时，把原文引述和链接放在回答旁，方便用户当场核对。"
+      ],
+      "validation_questions": [
+        "抽查一个回答，引用的原文是否足以支持其结论？",
+        "问一个资料中未出现的问题，它会明确说找不到依据吗？"
+      ],
+      "source_tagline": "Founders and investors as MCP servers, every answer cited",
+      "source_description": "The Brains turns founders, CEOs and investors into searchable MCP servers built from their public talks, essays, interviews and posts. Ask how Pieter Levels prices, what Paul Graham says about fundraising, or how Ryan Hoover launched Product Hunt, right inside Claude, Cursor, ChatGPT or Codex. Every answer quotes the source with a link. 37 brains today, one URL per brain or one for all. Free, open source (MIT), unofficial and not affiliated with the people."
     },
     {
       "id": "1286674",
       "name": "Flagsmith Experiments",
       "name_zh": "Flagsmith Experiments",
-      "tagline_zh": "Open-source A/B testing built on your feature flags",
-      "description_zh": "Flagsmith now runs A/B tests on the flags you already use. Pick a flag and a metric, and get a Bayesian read on which variant wins. Use our managed warehouse or bring your own ClickHouse or Databricks. Free and open source, self-hosted or cloud.",
-      "intro_zh": "",
+      "tagline_zh": "基于现有功能开关的开源 A/B 测试",
+      "description_zh": "Flagsmith 可在现有功能开关上运行 A/B 测试，选择开关和指标后，用贝叶斯统计评估哪个版本更好。简介称其免费开源，支持自托管或云端部署，可使用托管数据仓库，也可接入自己的 ClickHouse 或 Databricks。",
+      "intro_zh": "给已用 Flagsmith 的产品和开发团队，在现有功能开关上比较不同版本对业务指标的影响。",
       "url": "https://www.producthunt.com/products/flagsmith?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/HG6UZLGHTKARDU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e79a43d0-ed60-454f-9c0b-997880564d06.jpeg?auto=format",
       "votes_count": 105,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "复用已有开关开展实验，使用场景清楚，但数据准备工作尚不明确。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "版本分配与指标数据如何对应，是直接影响实验可信度的具体问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "在用户已有配置上增加效果比较，是可借用的具体做法。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重复用现有开关，少维护一套实验配置；最影响判断的是指标数据能否准确对应用户实际看到的版本。",
+      "product_analysis": {
+        "target_problem": "已用功能开关控制用户看到哪个版本的团队，还需要判断改动是否有效。开关能分配版本，但单凭开关不能说明业务指标是否改善。",
+        "workflow": "选择已有开关和要观察的指标，使用托管数据仓库或自有仓库，再查看不同版本的统计比较。",
+        "ai_value": "介绍没提 AI，主要靠实验分组和统计分析来帮助判断改动效果。",
+        "differentiation": "可以复用现有开关，不必另建一套版本配置。非 Flagsmith 用户可能仍需先迁入开关管理，才有这项便利。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid (request_id: 390ddd59-8ac2-4668-87a7-4d9836feeecd)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "使用贝叶斯统计（用观测数据更新判断）；支持 ClickHouse、Databricks 数据仓库，以及自托管和云端部署。",
+        "possible_approach": "如果自己做，可以先记录每位用户实际看到的版本，再关联其后续指标事件，最后计算各版本表现更好的概率。",
+        "tradeoffs": "最容易错在把指标事件归给错误版本，导致团队依据不可信的结果上线改动。",
+        "unknowns": "介绍没说如何把用户看到的版本与指标事件对应起来。"
+      },
+      "transferable_insights": [
+        "做已有配置管理工具时，可以让用户直接从现有配置发起效果比较，减少重复维护实验版本的工作。"
+      ],
+      "validation_questions": [
+        "用已知版本和行为的测试用户，检查指标是否归入正确版本？",
+        "用没有实际差异的两个版本，检查结果是否清楚表达不确定性？"
+      ],
+      "source_tagline": "Open-source A/B testing built on your feature flags",
+      "source_description": "Flagsmith now runs A/B tests on the flags you already use. Pick a flag and a metric, and get a Bayesian read on which variant wins. Use our managed warehouse or bring your own ClickHouse or Databricks. Free and open source, self-hosted or cloud."
+    },
+    {
+      "id": "1274622",
+      "name": "Needle",
+      "name_zh": "Needle",
+      "tagline_zh": "面向 AI 智能体的主动获客工具",
+      "description_zh": "通过向 Claude、ChatGPT 或 Grok 输入提示，寻找符合需求的潜在客户并联系他们。介绍列出的渠道包括 LinkedIn、Instagram 和电子邮件。",
+      "intro_zh": "给需要主动获客的销售和创业者用，在 AI 对话中描述目标客户，寻找并联系潜在客户。",
+      "url": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/E6AZ74Q5YPL2B5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c5d8f0ba-dea1-4953-87e7-c0348d4c42da.png?auto=format",
+      "votes_count": 272,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "找客户并联系的需求明确，但筛选质量和发送条件未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把对话请求变成对外联系，值得关注发送前的确认方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "用自然语言表达筛选条件可以借鉴，实际效果仍待确认。"
+        }
+      },
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把客户描述变成找客和联系动作，能减少手动衔接；但发送是否可控，是目前最影响判断的疑问。",
+      "product_analysis": {
+        "target_problem": "销售和创业者需要找到符合目标画像的人，再发起联系。麻烦在于把“想找哪类客户”变成可用名单和联系动作。",
+        "workflow": "在 Claude、ChatGPT 或 Grok 中描述目标客户，让 Needle 寻找并联系潜在客户。简介提到三个联系渠道，但没交代账号如何接入。",
+        "ai_value": "AI 是表达找客需求和发起联系的入口。资料未说明它是否负责筛选判断或撰写消息。",
+        "differentiation": "它把找人和联系放进对话中，可能减少切换工具。最可能让人犹豫的是，能否控制消息发给谁。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到通过 Claude、ChatGPT 或 Grok 提示使用，没说具体连接技术。",
+        "possible_approach": "如果自己做，可以先把客户描述转成筛选条件，再查找候选人，展示名单和消息供用户确认后发送。",
+        "tradeoffs": "最容易出错的是把模糊描述当成准确条件，导致无关的人收到消息，影响发件人的信誉。",
+        "unknowns": "联系动作是直接发送，还是生成内容后由用户操作？"
+      },
+      "transferable_insights": [
+        "做找人或找公司的工具时，可以先让用户描述需求，再展示解析出的条件，方便纠正理解偏差。"
+      ],
+      "validation_questions": [
+        "给出一组明确的客户条件，检查候选名单是否符合。",
+        "发起一次测试联系，检查发送前能否确认收件人。"
+      ],
+      "source_tagline": "The agent-native outbound engine",
+      "source_description": "Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email."
+    },
+    {
+      "id": "1271317",
+      "name": "The Library",
+      "name_zh": "The Library",
+      "tagline_zh": "围绕业务问题组织你的业务背景信息",
+      "description_zh": "Querri Library 围绕业务问题组织数据，让回答基于同一份可信、共享的信息基础。介绍称，它会学习业务定义、背景和过往分析，让回答贴合业务实际，并在不知道时明确说明。",
+      "intro_zh": "给需要反复查询业务数据的团队用，围绕问题组织数据、业务定义和过往分析，为回答提供共同依据。",
+      "url": "https://www.producthunt.com/products/querri?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XZ6RB34WYUJWIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/1fb61d2d-aafe-43b1-be89-e30754f0b989.jpeg?auto=format",
+      "votes_count": 202,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "统一回答依据的需求清楚，但缺少具体使用案例和效果证据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何选对业务定义、何时承认不知道，是具体且重要的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把业务定义与相关问题一起保存，可借用于内部查询和分析工具。"
+        }
+      },
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是让后续分析复用同一套业务定义；最影响判断的是，定义冲突时它能否选对，而不只是给出看似有依据的回答。",
+      "product_analysis": {
+        "target_problem": "业务团队反复分析同类问题时，需要沿用共同定义和已有结论。口径若不一致，同一个问题可能得到不同答案。",
+        "workflow": "资料支持的使用方式是：围绕业务问题组织数据，回答时结合业务定义、背景和过往分析。信息怎样录入、由谁维护，介绍没说。",
+        "ai_value": "介绍没明确提 AI，主要靠组织和复用业务背景改善回答；“学习”和“不编造”的具体机制未披露。",
+        "differentiation": "它把共同依据用于后续回答，可能减少重复解释口径。团队可能不愿切换的原因是：还得有人持续维护这些定义。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到按业务问题组织数据，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先保存常见问题、对应定义和历史分析，再在回答新问题前查找相关记录；找不到足够依据就提示无法回答。",
+        "tradeoffs": "最容易错在选用了不适用的定义。比如不同部门对收入的口径不同，回答即使引用了记录，也可能答错。",
+        "unknowns": "同一指标存在多个定义时，它如何判断该用哪一个？"
+      },
+      "transferable_insights": [
+        "做内部数据问答时，可以把指标定义与相关问题一起保存，并标明适用部门和时间，供后续回答查用。"
+      ],
+      "validation_questions": [
+        "给出两个部门各自的收入定义，检查回答能否选中问题指定部门的口径。",
+        "问一个资料中没有依据的问题，检查它是否明确表示不知道。"
+      ],
+      "source_tagline": "Your business context organized by queries",
+      "source_description": "The Querri Library is where your data gets organized around the questions your business asks, so every answer comes from the same trusted, shared foundation.. The library learns your definitions, business context, and past analysis, so its answers are grounded in how your business actually works. And when it doesn’t know, it says so, instead of making things up."
+    },
+    {
+      "id": "1286968",
+      "name": "Notion Auto",
+      "name_zh": "Notion Auto",
+      "tagline_zh": "Notion 重建智能体运行机制，宣称可运行数小时且费用更低",
+      "description_zh": "缓存简介称，Notion 重建了智能体执行任务的机制，支持使用电脑、浏览器和“Review for me”安全模式，任务可持续运行 24 小时以上；Auto 会按任务选择模型，Notion 宣称其效果可匹配 Opus 5.5 和 Astra，成本约低 90%。简介还提到可连接 ChatGPT 套餐、更新 Notion MCP、用新积分体系统一计算 AI 用量，并称已向新客户开放；这些信息未重新核验。",
+      "intro_zh": "给希望把长时间电脑或浏览器任务交给 AI 的用户，自动选择模型并执行任务。",
+      "url": "https://www.producthunt.com/products/notion-99?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4KEI3HQ75GHV52?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5562306a-886f-48fd-805a-5a750a559afe.png?auto=format",
+      "votes_count": 137,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "长任务委托的用途清楚，但缺少具体任务和收益证据。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "长时间执行时如何保存进度和控制错误，值得具体拆解。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "按任务选模型可借鉴，但选择标准和适用条件不明。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重的是把长任务交出去后能少守着。关键疑问是，运行更久是否真的减少人工接手，而非只是延长执行时间。",
+      "product_analysis": {
+        "target_problem": "适合想委托 AI 完成长时间电脑操作的人。麻烦在于任务可能需要持续执行，用户又不能一直盯着。",
+        "workflow": "把任务交给 Auto，由它选择模型，并使用电脑或浏览器执行。介绍提到安全模式，但没交代如何开启、何时需要用户确认。",
+        "ai_value": "AI 负责执行任务，Auto 负责选择模型。省钱是产品方宣称，不能据此判断实际账单。",
+        "differentiation": "它试图减少用户挑模型、守着任务的工作。最可能让人犹豫的是：长时间操作是否仍需频繁接手。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称重建了智能体运行机制，支持按任务选择模型、电脑和浏览器操作，并提供安全模式。",
+        "possible_approach": "如果自己做，可以先把任务拆成小步，再按步骤选择模型并保存进度。涉及重要改动时，暂停并请用户确认。",
+        "tradeoffs": "最难的是及时发现执行偏离目标。早期一步做错，后续可能持续在错误结果上操作。",
+        "unknowns": "“Review for me”究竟会拦住哪些操作，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做长任务助手时，可以保存每一步的结果，让用户接手时能看清做到哪里、哪里出了错。"
+      ],
+      "validation_questions": [
+        "运行一个结果可核对的长任务，检查中途出错后能否从正确进度继续。",
+        "安排一次需要修改重要内容的操作，检查安全模式是否会在执行前要求确认。"
+      ],
+      "source_tagline": "Notion’s rebuilt Agents run for hours and cost far less",
+      "source_description": "Notion’s Agents update rebuilds the agent harness so tasks can run for 24 hours or more, with a computer, a browser and a Review for me safety mode. Auto now routes each task to the best model, and Notion says it matches Opus 5.5 and Astra at about 90% lower cost. You can connect a ChatGPT plan, Notion MCP is overhauled, and a new credit system covers all AI usage. Live now for new customers."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

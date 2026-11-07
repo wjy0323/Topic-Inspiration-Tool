@@ -1,367 +1,510 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-17T20:29:03+08:00",
-  "generation_error": true,
+  "generated_at": "2026-11-07T15:28:25+00:00",
+  "generation_error": false,
   "products": [
     {
       "id": "1247729",
       "name": "Weave Router 2.0",
       "name_zh": "Weave Router 2.0",
-      "tagline_zh": "Subscription aware coding agent router",
-      "description_zh": "Use Claude models in Codex and GPT models in Claude Code on your existing plans, routed to whichever has quota left. Weave Router 2.0 routes each coding agent request to the cheapest model that can get it right. On Terminal-Bench 4.0 and SWE-Atlas it matches GPT-6 Astra at half the cost, 2x faster. Powered by a new classifier that scores task complexity and cache-aware switching that only moves when savings beat the rebuild cost.",
-      "intro_zh": "",
+      "tagline_zh": "按订阅额度分配请求的编程助手路由工具",
+      "description_zh": "可用现有订阅在 Codex 中调用 Claude 模型、在 Claude Code 中调用 GPT 模型，并按剩余额度和任务复杂度分配请求；切换时会比较节省费用与重建缓存的成本。缓存简介称其在 Terminal-Bench 4.0 和 SWE-Atlas 上达到 GPT-6 Astra 的水平，成本减半、速度翻倍，但这些名称与效果均未重新核验。",
+      "intro_zh": "给使用多家 AI 编程助手的开发者，按任务难度和剩余额度选择模型，减少手动切换。",
       "url": "https://www.producthunt.com/products/weave?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/NDICOBJFOF2ARK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/3a29938b-291b-4563-83e0-d7a8541c0262.gif?auto=format",
       "votes_count": 331,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "额度分配的用途清楚，但订阅兼容范围和实际节省仍待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "把切换后的缓存重建成本计入决策，是具体的技术取舍。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "切换前先计算额外开销，可借用于多模型工具。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重它把额度和切换开销一起考虑；最影响判断的是，任务难度判断能否可靠到不让用户频繁返工。",
+      "product_analysis": {
+        "target_problem": "同时使用多家 AI 编程助手的开发者，需要兼顾剩余额度与任务难度。手动选择时，很难知道换模型是否真省钱。",
+        "workflow": "用户沿用现有订阅，在 Codex 或 Claude Code 中提交编程请求。工具按任务难度、剩余额度和切换成本选择模型。",
+        "ai_value": "分类器（判断任务类别的程序）给任务复杂度打分，帮助决定用哪个模型；它本身不负责写代码。",
+        "differentiation": "把逐次选择模型交给工具处理。最可能让人不愿换的是担心便宜模型接不住难题，需要返工。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1251186",
-      "name": "Appwrite 2.0",
-      "name_zh": "Appwrite 2.0",
-      "tagline_zh": "The open-source cloud for agents and developers",
-      "description_zh": "Appwrite 2.0 is the second major generation of the platform. It replaces the engine underneath, rebuilds the Console on top, and expands what a project can hold: relational, schemaless, and vector data, native PostgreSQL and MySQL engines, S3-addressable storage, an OAuth 2.1 and OIDC-compliant identity provider, and the network layer in front of all of it.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/appwrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/U3Y43T755ENOFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/5b00dbe3-773c-44f6-ae0b-b9f3dc4c30af.png?auto=format",
-      "votes_count": 240,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "简介提到复杂度分类器，以及考虑缓存（可复用的已处理内容）重建成本的切换策略。",
+        "possible_approach": "如果自己做，可以先估计任务难度，再结合额度筛选模型，最后比较预期节省与切换开销，决定是否换模型。",
+        "tradeoffs": "最容易错在低估任务难度：选中的模型虽便宜，却可能反复修改仍做不对，抵消节省。",
+        "unknowns": "现有订阅具体支持哪些套餐和调用方式，简介没说。"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1251643",
-      "name": "Gemini 3.8 & 3.8 Live Extended Thinking",
-      "name_zh": "Gemini 3.8 & 3.8 Live Extended Thinking",
-      "tagline_zh": "Our most advanced Gemini Audio models yet",
-      "description_zh": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QUVN4LJMOQATRS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/feeb7666-f92a-44bd-8442-461e1a93021d.jpeg?auto=format",
-      "votes_count": 205,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
-      },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做多模型助手时，切换前把重新处理已有对话的开销算进去，避免只看单次请求价格。"
+      ],
+      "validation_questions": [
+        "用实际订阅检查，能否在两种编程工具中调用对方模型？",
+        "用一组难度不同的真实代码任务，检查自动选模后的完成质量。"
+      ],
+      "source_tagline": "Subscription aware coding agent router",
+      "source_description": "Use Claude models in Codex and GPT models in Claude Code on your existing plans, routed to whichever has quota left. Weave Router 2.0 routes each coding agent request to the cheapest model that can get it right. On Terminal-Bench 4.0 and SWE-Atlas it matches GPT-6 Astra at half the cost, 2x faster. Powered by a new classifier that scores task complexity and cache-aware switching that only moves when savings beat the rebuild cost."
     },
     {
       "id": "1244321",
       "name": "Toki Coordination",
       "name_zh": "Toki Coordination",
-      "tagline_zh": "Your personal assistant to schedule + follow up on meetings",
-      "description_zh": "Stop wasting 3 days scheduling a 30 minute group meeting or starting over every time someone cancels. Like a real executive assistant, Toki will email attendees, negotiate a time that works for everyone, follow up if needed, and send out invites. Toki will also help protect your time, architect your schedule, remember your preferences, and help you prioritize your most important tasks and urgent deadlines. And instead of paying tens of thousands, it's now free.",
-      "intro_zh": "",
+      "tagline_zh": "帮你安排会议并跟进的个人助理",
+      "description_zh": "Toki 会通过邮件联系参会者、协商共同时间、按需跟进并发送邀请，减少多人会议安排中的来回沟通。简介还称它能记住偏好、规划日程和协助确定任务优先级，并称当时免费，但当前收费情况未经核验。",
+      "intro_zh": "给经常组织多人会议的人用，代为发邮件协调时间、跟进回复，并发送会议邀请。",
       "url": "https://www.producthunt.com/products/toki-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/FLVRL7CWDZR4KW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/1c14cc5c-68e4-48a1-8963-6dc662853bfa.png?auto=format",
       "votes_count": 196,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "协调对象、动作和省事之处清楚，但取消后的处理能力待确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多人回复变动带来具体难题，但没有实现或效果资料。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "从收集回复做到发送邀请，可借用于需要多人确认的事务。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重它把催回复也接过去，减少组织者持续盯邮件的负担。关键疑问是遇到取消后能否继续处理，历史简介没有交代清楚。",
+      "product_analysis": {
+        "target_problem": "组织多人会议的人，需要反复询问空闲时间；有人取消，还可能重新协调。",
+        "workflow": "Toki 发邮件联系参会者，协商共同时间，必要时跟进，再发送邀请。介绍没说用户如何发起委托。",
+        "ai_value": "介绍没明确说明 AI 做了什么，主要靠代为协调和跟进来减少人工沟通。",
+        "differentiation": "以前由组织者来回问时间，现在可以交给它协调。最可能让人犹豫的是，能否放心让它代表自己发邮件。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1250703",
-      "name": "CAT ME app",
-      "name_zh": "CAT ME app",
-      "tagline_zh": "See yourself or your friends as cats",
-      "description_zh": "The Cat Me app turns a photo of a person into their very own cat lookalike!  It’s simple and purr-fect:  1. Snap a picture of yourself or a friend. 2. Create a unique cat that matches their look and personality.  3. Share your new kitty with your crew. Each Purrtrait is generated by AI based on the original photo, transforming human features, expressions, hairstyles, and accessories into a one-of-a-kind cat. What would you look like as a cat?",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/cat-me-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/KYGBY2VUYVYO5Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/b53b7f80-b963-4cc8-920d-09488e670274.jpeg?auto=format",
-      "votes_count": 156,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到通过邮件协调和发送邀请，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先收集每人的可用时间，再找共同空档；有人改口就重新计算，确认后发邀请。",
+        "tradeoffs": "最难的是分清回复中的最新意向。若把旧回复当成确认，可能发出已有参会者无法参加的邀请。",
+        "unknowns": "有人取消后，它会自动重新协调，还是需要组织者介入？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做审批或活动报名工具时，可以记录谁还没回复，只跟进这些人，凑齐确认后再执行下一步。"
+      ],
+      "validation_questions": [
+        "让一名参会者修改已报时间，检查最终邀请是否采用最新回复。",
+        "在已定时间后让一人取消，检查它是否会重新发起协调。"
+      ],
+      "source_tagline": "Your personal assistant to schedule + follow up on meetings",
+      "source_description": "Stop wasting 3 days scheduling a 30 minute group meeting or starting over every time someone cancels. Like a real executive assistant, Toki will email attendees, negotiate a time that works for everyone, follow up if needed, and send out invites. Toki will also help protect your time, architect your schedule, remember your preferences, and help you prioritize your most important tasks and urgent deadlines. And instead of paying tens of thousands, it's now free."
     },
     {
       "id": "1251550",
       "name": "Expand Board for macOS",
       "name_zh": "Expand Board for macOS",
-      "tagline_zh": "Expand ideas, concepts, and plans across limitless boards",
-      "description_zh": "Expand is a spatial board for macOS. Place text, images, files, and shapes on an open canvas, then nest boards you can actually go into. Double-click the board to add something. Right-click to choose text, images, files, or shapes. The plus in the toolbar adds from the top of the window. Drag to arrange. Open a board to work inside it, then use the title-bar breadcrumbs to go back up.",
-      "intro_zh": "",
+      "tagline_zh": "在无限画板上展开想法、概念和计划",
+      "description_zh": "Expand 是一款 macOS 空间画板，可在开放画布上放置文字、图片、文件和形状，也能嵌套可进入的子画板。双击画板添加内容，右键选择内容类型，或使用工具栏加号添加；拖动整理，进入子画板后可通过标题栏的路径导航返回上层。",
+      "intro_zh": "给用 Mac 整理想法和项目资料的人，把文字、图片与文件摆在画板上，再进入子画板细化内容。",
       "url": "https://www.producthunt.com/products/expand-board-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/2KYLNZYXH5X3OP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/cf14d19b-a4b8-4e4c-a894-6a2c87168d88.jpeg?auto=format",
       "votes_count": 132,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "整理对象和操作明确，但嵌套后是否更好找资料仍需确认。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "多层画板的位置保留是具体问题，介绍未说明处理方式。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把总览与细节分层、用路径导航返回的做法可直接借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重总览与细节能分层整理；文件如何保存尚不明确，这会影响它能否长期承载项目资料。",
+      "product_analysis": {
+        "target_problem": "做方案的人需要并排查看文字、图片和文件。内容多时，既要保留全局关系，又要给细节留空间。",
+        "workflow": "双击添加内容，右键选类型，再拖动排列。打开嵌套画板处理细节，用标题栏路径导航返回上层。",
+        "ai_value": "介绍没提 AI，主要靠自由摆放和画板嵌套来改善整理体验。",
+        "differentiation": "可在总览下继续展开细节，减少单张画板的拥挤；但层级太深可能让人难找内容。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
-    {
-      "id": "1251215",
-      "name": "Thread",
-      "name_zh": "Thread",
-      "tagline_zh": "AI journal that connects your thoughts into something bigger",
-      "description_zh": "Thread is an AI journal and second brain for capturing thoughts, ideas, notes, and voice recordings. It automatically connects related memories, finds patterns in your thinking, and turns scattered ideas into meaningful threads. Capture anything in seconds, rediscover what matters, and turn your thoughts into actionable ideas with a private AI-powered memory system.",
-      "intro_zh": "",
-      "url": "https://www.producthunt.com/products/thread-ai-journal-memory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EMJZDUWGMD74NH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/48a705c3-9e31-4c26-8ea7-a5bac459e196.jpeg?auto=format",
-      "votes_count": 125,
-      "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
-        },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
-        }
+      "technical_analysis": {
+        "disclosed_facts": "这是 macOS 应用，支持混合内容画布、画板嵌套和路径导航；介绍没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先保存每个内容块的位置和所属画板，再建立父子关系；进入子画板时显示对应内容，并记录返回路径。",
+        "tradeoffs": "最容易出错的是返回上层时没保留视图位置，用户可能要重新缩放、寻找刚才的内容。",
+        "unknowns": "加入的文件是复制保存，还是只引用原位置？"
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
-      },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "transferable_insights": [
+        "做项目资料工具时，可让总览中的分组直接打开成子画板，并保留返回路径，让细节有地方展开。"
+      ],
+      "validation_questions": [
+        "进入子画板再返回，原来的缩放和浏览位置是否保留？",
+        "移动原始文件后，画板中的文件还能否打开？"
+      ],
+      "source_tagline": "Expand ideas, concepts, and plans across limitless boards",
+      "source_description": "Expand is a spatial board for macOS. Place text, images, files, and shapes on an open canvas, then nest boards you can actually go into. Double-click the board to add something. Right-click to choose text, images, files, or shapes. The plus in the toolbar adds from the top of the window. Drag to arrange. Open a board to work inside it, then use the title-bar breadcrumbs to go back up."
     },
     {
       "id": "1250484",
       "name": "Twigg",
       "name_zh": "Twigg",
-      "tagline_zh": "The context layer you never have to build",
-      "description_zh": "Twigg is a stateful API for calling LLMs. Instead of rebuilding and resending your whole conversation on every request, you create a chat once and send only the next event. Twigg holds the state: it fits context to the target model's schema, compacts or truncates when it runs long, and routes the call. Control tool schemas, system prompts and context windows from the dashboard, and track usage and billing. Build anything from personal agents to enterprise apps. You never manage context again.",
-      "intro_zh": "",
+      "tagline_zh": "无需自行搭建的上下文管理层",
+      "description_zh": "Twigg 提供有状态的 API：创建一次对话后，每次只发送新事件，由它保存历史、适配目标模型的输入格式，在内容过长时压缩或截断，并转发调用。开发者还可在控制台设置工具格式、系统提示词和上下文窗口，查看用量与账单，用于个人助手或企业应用。",
+      "intro_zh": "给开发 AI 助手和对话应用的人用，保存对话历史，替开发者整理并发送模型需要的内容。",
       "url": "https://www.producthunt.com/products/twigg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KMBSB2FNPLUN3Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/317b6502-43b5-431e-97e7-454d0262268c.jpeg?auto=format",
       "votes_count": 121,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 4,
+          "reason": "明确省去每轮重组和发送完整历史的工作，但压缩后的可用性未验证。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 4,
+          "reason": "长对话压缩时如何保留关键约束，是具体且影响体验的问题。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把历史管理集中处理、调用方只交新事件的做法可借用。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把逐轮整理历史交给统一服务；最影响判断的是缩短历史后，开发者还能否控制保留什么。",
+      "product_analysis": {
+        "target_problem": "做多轮 AI 对话的开发者会需要它。以前若自行拼装请求，每轮要重组并发送历史；现在可以创建一次对话，之后只传新事件。",
+        "workflow": "先创建对话，再逐次发送新事件。Twigg 保存历史、整理模型输入并转发调用；开发者可在控制台调整设置、查看用量与账单。",
+        "ai_value": "它围绕大语言模型调用管理上下文，也就是模型本轮能看到的历史内容。介绍没说压缩是否由 AI 完成。",
+        "differentiation": "省掉应用里反复整理历史的代码。最可能让人犹豫的是：压缩规则若不可控，关键要求可能被删掉。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "提供有状态 API（能记住前次请求的连接方式），支持输入格式适配、上下文压缩或截断，以及调用转发。",
+        "possible_approach": "如果自己做，可以先按对话编号保存事件，再按目标模型要求组织输入；超出可容纳的长度时缩短历史，最后发送请求。",
+        "tradeoffs": "最难的是缩短历史时保留关键约束。若删掉早先的限制，后续回答可能违背要求，用户还得重新解释。",
+        "unknowns": "开发者能否指定哪些历史内容必须保留？"
+      },
+      "transferable_insights": [
+        "做多端 AI 助手时，可以统一保存对话，让各端只提交新事件，减少各自拼装历史的代码。"
+      ],
+      "validation_questions": [
+        "让对话超过长度上限后，检查模型是否仍遵守开头设定的关键限制。",
+        "模拟发送超时后重试，检查同一事件是否被重复写入历史。"
+      ],
+      "source_tagline": "The context layer you never have to build",
+      "source_description": "Twigg is a stateful API for calling LLMs. Instead of rebuilding and resending your whole conversation on every request, you create a chat once and send only the next event. Twigg holds the state: it fits context to the target model's schema, compacts or truncates when it runs long, and routes the call. Control tool schemas, system prompts and context windows from the dashboard, and track usage and billing. Build anything from personal agents to enterprise apps. You never manage context again."
+    },
+    {
+      "id": "1251186",
+      "name": "Appwrite 2.0",
+      "name_zh": "Appwrite 2.0",
+      "tagline_zh": "面向智能体和开发者的开源云平台",
+      "description_zh": "Appwrite 2.0 是平台的第二个大版本，更换了底层引擎并重建管理控制台，扩展了项目可容纳的数据类型：关系型数据、无固定结构的数据，以及用于相似度检索的向量数据，并提供原生 PostgreSQL 和 MySQL 数据库引擎。它还提供可用 S3 方式访问的文件存储、符合 OAuth 2.1 和 OIDC 标准的身份服务（让应用按标准完成授权与登录），以及这些服务前面的网络层。",
+      "intro_zh": "给需要搭建应用后台的开发者用，在同一平台管理数据、文件存储和用户身份。",
+      "url": "https://www.producthunt.com/products/appwrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/U3Y43T755ENOFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/5b00dbe3-773c-44f6-ae0b-b9f3dc4c30af.png?auto=format",
+      "votes_count": 240,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "后台需求明确，但整合后能省多少工作尚不清楚。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "多种数据与文件服务如何统一执行权限，值得具体推敲。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一管理并保留标准访问方式可借鉴，但兼容范围未交代。"
+        }
+      },
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把常用后台服务放进同一项目管理；底层引擎更换后，旧项目能否平稳升级最影响判断。",
+      "product_analysis": {
+        "target_problem": "开发者搭建应用后台时，需要处理数据、文件和登录。若分别接入服务，连接和管理工作可能比较零散。",
+        "workflow": "介绍列出了一个项目可容纳的数据和服务。用户可围绕项目使用这些能力，但资料没有给出创建、配置到接入应用的具体步骤。",
+        "ai_value": "介绍没提具体 AI 功能，主要靠整合后台服务来改善体验；面向智能体不等于提供模型能力。",
+        "differentiation": "可能减少跨服务管理的切换。我会先确认旧项目迁移要改多少代码，这是最可能让人不愿升级的原因。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到更换底层引擎、重建控制台，并支持多类数据、标准存储访问和身份服务。",
+        "possible_approach": "如果自己做，可以先打通一种数据库和登录，再接入文件存储，让它们共用项目与用户权限。",
+        "tradeoffs": "最难的是让不同服务一致执行权限。若数据库拒绝访问，文件却仍能被读取，就可能泄露用户资料。",
+        "unknowns": "新版是否兼容旧版的数据与应用代码，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做多服务开发平台时，可以借用统一项目管理、保留标准访问方式的做法，让用户继续使用已有工具。"
+      ],
+      "validation_questions": [
+        "用无权限账号访问同一项目的数据和文件，是否都会被拒绝？",
+        "拿一个旧版项目按官方路径升级，现有应用代码是否需要修改？"
+      ],
+      "source_tagline": "The open-source cloud for agents and developers",
+      "source_description": "Appwrite 2.0 is the second major generation of the platform. It replaces the engine underneath, rebuilds the Console on top, and expands what a project can hold: relational, schemaless, and vector data, native PostgreSQL and MySQL engines, S3-addressable storage, an OAuth 2.1 and OIDC-compliant identity provider, and the network layer in front of all of it."
+    },
+    {
+      "id": "1250703",
+      "name": "CAT ME app",
+      "name_zh": "CAT ME app",
+      "tagline_zh": "看看你或朋友变成猫会是什么样",
+      "description_zh": "CAT ME app 将人物照片变成对应的猫咪形象，支持拍照、生成和分享。简介称，AI 会把人物的五官、表情、发型及配饰转化成猫咪特征，生成专属肖像。",
+      "intro_zh": "给想和朋友分享趣味肖像的人用，把自己或朋友的照片变成带有人物特征的猫咪形象。",
+      "url": "https://www.producthunt.com/products/cat-me-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KYGBY2VUYVYO5Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b53b7f80-b963-4cc8-920d-09488e670274.jpeg?auto=format",
+      "votes_count": 156,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "趣味分享场景清楚，但生成后是否像本人、是否愿意反复使用尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把人物特征转成猫咪特征有具体难点，但资料未说明如何实现。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "用个人照片生成可分享的主题形象，是其他趣味创作产品可借用的具体做法。"
+        }
+      },
+      "category": "游戏娱乐",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有意思的是把熟人的特征变成可分享的猫咪肖像；最影响判断的是，生成结果能否让朋友认出对应的人。",
+      "product_analysis": {
+        "target_problem": "想和朋友玩形象变身的人，可以用它制作猫咪版肖像。场景很明确，但资料没说用户原来怎么做，不宜假定它替代了哪种工具。",
+        "workflow": "拍一张自己或朋友的照片，让应用生成对应的猫咪形象，再分享给朋友。",
+        "ai_value": "AI 负责把照片中的人物特征转成猫咪外观。简介提到匹配性格，但仅凭照片能否做到，没有依据。",
+        "differentiation": "把拍照、变身和分享串在一起，减少自己设计猫咪形象的工作。若成品看不出人物特点，用户可能玩一次就离开。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说使用 AI，根据原照片转换五官、表情、发型和配饰，未披露具体模型。",
+        "possible_approach": "如果自己做，可以先找出照片中显眼的人物特征，再让图像生成模型把这些特征转成猫咪外观，最后提供分享。",
+        "tradeoffs": "最难的是变成猫后仍保留辨识度。若只生成一只普通的猫，用户就难以把结果和本人联系起来。",
+        "unknowns": "人物原照会保存多久，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做节日头像或趣味贺卡时，可以让用户从自己的照片开始生成，保留眼镜、发型等显眼特征，让结果更有个人意味。"
+      ],
+      "validation_questions": [
+        "用配饰和发型差异明显的照片生成，检查结果是否保留对应特征。",
+        "检查照片处理说明，确认原照的保存期限。"
+      ],
+      "source_tagline": "See yourself or your friends as cats",
+      "source_description": "The Cat Me app turns a photo of a person into their very own cat lookalike!  It’s simple and purr-fect:  1. Snap a picture of yourself or a friend. 2. Create a unique cat that matches their look and personality.  3. Share your new kitty with your crew. Each Purrtrait is generated by AI based on the original photo, transforming human features, expressions, hairstyles, and accessories into a one-of-a-kind cat. What would you look like as a cat?"
+    },
+    {
+      "id": "1251215",
+      "name": "Thread",
+      "name_zh": "Thread",
+      "tagline_zh": "用 AI 将零散想法串联起来的日记工具",
+      "description_zh": "Thread 是一款 AI 日记和个人记忆工具，可记录想法、灵感、笔记和语音，并自动关联相关记忆、寻找思考中的模式。介绍称，它能帮助用户重新发现重要内容，将零散想法整理成可行动的思路，并强调记忆系统的私密性。",
+      "intro_zh": "给经常记录灵感和日常想法的人用，保存文字与语音，再把相关记录串起来，帮助回看和整理思路。",
+      "url": "https://www.producthunt.com/products/thread-ai-journal-memory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EMJZDUWGMD74NH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/48a705c3-9e31-4c26-8ea7-a5bac459e196.jpeg?auto=format",
+      "votes_count": 125,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "记录后难以重新利用的问题清楚，但关联结果是否有用仍待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "如何区分真正相关与表面相似的记录，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把新记录与旧内容关联的做法，可借用于笔记和知识收藏产品。"
+        }
+      },
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重它帮助用户重新利用旧记录；最大的疑问是，自动找到的联系究竟有启发，还是仅仅看起来相关。",
+      "product_analysis": {
+        "target_problem": "经常记日记、存灵感的人，可能留下许多零散记录，却难以发现它们之间的联系。Thread 面向记录之后的回看与整理。",
+        "workflow": "用户记录想法、笔记或语音，系统自动关联相关记忆并寻找思考模式，供用户重新发现和整理。",
+        "ai_value": "AI 负责从已有记录中找关联、归纳模式。介绍没有说明“可行动的想法”会以什么形式呈现。",
+        "differentiation": "它可能减少手动翻找和串联旧笔记的工作。最可能让人犹豫的是把私人记录交给系统处理。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到 AI 自动关联记忆、识别思考模式，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先把文字和语音整理成可检索的文本，再找意思相关的记录，让 AI 附上原文解释联系。",
+        "tradeoffs": "最容易错在把措辞相似当成真正相关，用户可能被牵强的联系带偏，还得逐条核对。",
+        "unknowns": "所谓私密，是否意味着记录不会被用于训练？"
+      },
+      "transferable_insights": [
+        "做笔记或收藏产品时，可以在保存新内容后提示相关旧记录，并展示原文，让用户判断是否值得串起来。"
+      ],
+      "validation_questions": [
+        "放入措辞相近但主题不同的记录，检查系统是否会错误关联。",
+        "检查隐私说明是否明确承诺不将私人记录用于训练。"
+      ],
+      "source_tagline": "AI journal that connects your thoughts into something bigger",
+      "source_description": "Thread is an AI journal and second brain for capturing thoughts, ideas, notes, and voice recordings. It automatically connects related memories, finds patterns in your thinking, and turns scattered ideas into meaningful threads. Capture anything in seconds, rediscover what matters, and turn your thoughts into actionable ideas with a private AI-powered memory system."
     },
     {
       "id": "1251722",
       "name": "Fide Island",
       "name_zh": "Fide Island",
-      "tagline_zh": "Media, Notes, on-device translation + more in your Notch",
-      "description_zh": "Turn your MacBook notch into a Dynamic Island for media, Apple Notes, on-device translation, calendar, files, clipboard and quick tools with Fide Island.",
-      "intro_zh": "",
+      "tagline_zh": "在 MacBook 刘海区域使用媒体、笔记、设备端翻译等功能",
+      "description_zh": "Fide Island 将 MacBook 的刘海区域变成类似灵动岛的功能区。它提供媒体、Apple Notes、设备端翻译、日历、文件、剪贴板和快捷工具。",
+      "intro_zh": "给想在 MacBook 刘海区域处理常用操作的人用，集中放置媒体、笔记、翻译等功能。",
       "url": "https://www.producthunt.com/products/fide-island?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KEFVFWCZFCEBVI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/6bd5c996-b39e-4e0d-9fb2-0428e357a10b.jpeg?auto=format",
       "votes_count": 120,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "使用位置和功能明确，但能减少多少操作尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "刘海附近空间有限，展开交互如何避免遮挡有具体讨论价值。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 4,
+          "reason": "把高频小操作集中在固定位置，可供桌面工具借鉴。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我最看重常用操作有固定入口；最影响判断的是，这些功能能否直接完成任务，还是仍要跳回原应用。",
+      "product_analysis": {
+        "target_problem": "适合工作中经常穿插查看日历、处理笔记或翻译的 MacBook 用户。这些小事可能打断当前任务，它尝试把入口集中到刘海区域。",
+        "workflow": "用户在刘海功能区使用媒体、Apple Notes、翻译等功能。介绍未说明如何唤出，也没说明各项操作能在这里完成到什么程度。",
+        "ai_value": "介绍没提 AI，主要靠集中常用功能来改善体验。设备端翻译明确在本机进行，但不能据此判断所用模型。",
+        "differentiation": "它把常用入口放到屏幕顶部固定位置，可能减少寻找入口的动作。若展开后遮住当前内容，用户可能不愿常开。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到设备端翻译，以及在 MacBook 刘海区域提供多种功能。",
+        "possible_approach": "如果自己做，可以先在刘海附近做可展开面板，再逐项接入系统允许访问的功能，并接入能在本机运行的翻译组件。",
+        "tradeoffs": "最难的是安排展开面板的位置与大小；处理不好，用户点快捷工具时会挡住正在看的内容。",
+        "unknowns": "Apple Notes 在这里支持查看、编辑，还是仅提供打开入口？"
+      },
+      "transferable_insights": [
+        "做桌面效率工具时，可以把短时、高频操作放进固定小面板；先做好一两项，避免展开后变成另一个拥挤窗口。"
+      ],
+      "validation_questions": [
+        "在常用应用全屏时展开面板，检查是否遮住关键内容。",
+        "断网后翻译一段常用语言文本，检查能否完成翻译。"
+      ],
+      "source_tagline": "Media, Notes, on-device translation + more in your Notch",
+      "source_description": "Turn your MacBook notch into a Dynamic Island for media, Apple Notes, on-device translation, calendar, files, clipboard and quick tools with Fide Island."
     },
     {
       "id": "1251841",
       "name": "ZeroClick",
       "name_zh": "ZeroClick",
-      "tagline_zh": "Sell your product to AI agents",
-      "description_zh": "ZeroClick helps businesses sell to AI agents. Turn your API or product into a storefront AI agents can discover and buy from, with payments, pricing controls, and transaction tracking in one place. Free to start, with help getting set up.",
-      "intro_zh": "",
+      "tagline_zh": "把你的产品卖给 AI 智能体",
+      "description_zh": "ZeroClick 帮助企业把 API 或产品变成 AI 智能体可以发现并购买的店铺，集中管理支付、定价和交易记录。可以免费开始，并提供设置帮助。",
+      "intro_zh": "给想向 AI 智能体销售的企业用，把产品变成可被发现和购买的店铺，并管理价格与交易。",
       "url": "https://www.producthunt.com/products/zeroclick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/IGCCV7RYIWJV4K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e29635e3-a0c3-4c43-ba95-cb70f6d33075.png?auto=format",
       "votes_count": 120,
       "scores": {
-        "video_suitability": {
-          "score": 0,
-          "reason": "评分失败"
+        "product_value": {
+          "score": 3,
+          "reason": "销售对象和管理功能明确，但能否带来购买尚不清楚。"
         },
-        "beginner_friendly": {
-          "score": 0,
-          "reason": "评分失败"
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动购买中的扣款与交付对应关系值得关注，具体实现未披露。"
         },
-        "popularity": {
-          "score": 0,
-          "reason": "评分失败"
+        "transferability": {
+          "score": 3,
+          "reason": "集中提供购买所需信息的做法可借鉴，但适用条件仍待验证。"
         }
       },
-      "video_inspiration": {
-        "title_idea": "",
-        "angle": "",
-        "shooting_tips": "",
-        "target_audience": ""
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "我看重的是把价格、支付与交易记录集中管理；但支持哪些买方智能体仍不清楚，这直接影响店铺能否产生交易。",
+      "product_analysis": {
+        "target_problem": "面向想让 AI 智能体购买其产品的企业。要完成销售，买方程序需要找到商品、理解价格并付款；简介没有说明企业此前怎么处理。",
+        "workflow": "把 API（让软件互相传数据的连接方式）或产品转成店铺，让智能体发现并购买。商家在一处管理定价、支付和交易记录，具体配置步骤未说明。",
+        "ai_value": "AI 智能体是购买方。介绍没有说明 ZeroClick 自身是否用 AI，也没说它会替买方决定买什么。",
+        "differentiation": "把几项交易管理工作放在一处，可能减少分别处理的麻烦。最可能让商家犹豫的是：是否真有智能体能找到店铺并下单。"
       },
-      "category": "",
-      "overall_suggestion": "谨慎考虑",
-      "overall_reason": "LLM 评分失败",
-      "scoring_error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****b539 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确支持将 API 或产品转成面向智能体的店铺，未披露具体连接方式。",
+        "possible_approach": "如果自己做，可以先把商品、价格和购买条件整理成程序可读的信息，再接上付款与交付，并给每笔交易分配唯一编号。",
+        "tradeoffs": "最容易出错的是购买请求重试。如果同一笔订单被当成新订单，买方可能被重复扣款。",
+        "unknowns": "哪些智能体能发现并完成购买，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做面向自动采购的产品时，可以把商品说明、价格和购买条件放在同一份程序可读信息里，减少买方到处查找。"
+      ],
+      "validation_questions": [
+        "用一个目标客户实际使用的智能体，检查它能否找到指定商品。",
+        "对同一购买请求重复提交，检查是否只扣款一次。"
+      ],
+      "source_tagline": "Sell your product to AI agents",
+      "source_description": "ZeroClick helps businesses sell to AI agents. Turn your API or product into a storefront AI agents can discover and buy from, with payments, pricing controls, and transaction tracking in one place. Free to start, with help getting set up."
+    },
+    {
+      "id": "1251643",
+      "name": "Gemini 3.8 & 3.8 Live Extended Thinking",
+      "name_zh": "Gemini 3.8 & 3.8 Live Extended Thinking",
+      "tagline_zh": "产品方称，这是其迄今最先进的 Gemini 音频模型",
+      "description_zh": "Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 面向自然、实时的对话。历史缓存简介将它们称为产品方迄今最先进的实时对话模型，该说法未经核验。",
+      "intro_zh": "面向希望用语音与 AI 交流的人，以及开发语音应用的团队，提供面向自然交谈的实时对话模型。",
+      "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QUVN4LJMOQATRS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/feeb7666-f92a-44bd-8442-461e1a93021d.jpeg?auto=format",
+      "votes_count": 205,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "语音交谈的场景清楚，但没有具体任务和效果材料。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "实时对话有明确的响应时机问题，但介绍没有展开。"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "只有用途概述，没有可借鉴的具体产品做法。"
+        }
+      },
+      "category": "AI工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "我看重的是语音交流能否连贯进行，但缓存没有提供任何对话示例；目前还无法判断“自然”体现在哪里。",
+      "product_analysis": {
+        "target_problem": "面向想与 AI 自然交谈的人。语音交流需要接连听懂和回应；如果等待太久，交谈就容易中断，但资料没说明它具体改善了多少。",
+        "workflow": "介绍只支持“进行实时语音对话”这一层，未说明从哪里使用、如何开启或接入。",
+        "ai_value": "AI 承担对话中的理解与回应。Extended Thinking 的名称不足以说明它会怎样思考，也不能据此判断回答更准确。",
+        "differentiation": "主打自然交谈，但没有与既有方式比较的材料。最可能让开发团队犹豫的是，尚不清楚它能否接入现有应用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "缓存介绍将其称为音频和实时对话模型，没有披露具体实现技术。",
+        "possible_approach": "如果自己做，可以先把语音转成文字，再生成回答并转成声音，最后处理连续多轮交谈。这只是可行方案，不代表本产品采用这种结构。",
+        "tradeoffs": "最难的一步可能是判断用户是否说完：过早回应会打断人，等得太久又会让人以为系统没听见。",
+        "unknowns": "两个版本在实际使用上有什么区别，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做语音助手时，可以先用真实交谈测试停顿和接话时机，再决定是否增加复杂功能；这是场景启发，资料未披露对应做法。"
+      ],
+      "validation_questions": [
+        "说话中途停顿一下，系统会不会抢着回答？",
+        "让两个版本完成同一段对话，Extended Thinking 是否带来可辨认的回答差异？"
+      ],
+      "source_tagline": "Our most advanced Gemini Audio models yet",
+      "source_description": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation."
     }
-  ]
+  ],
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "cached_report"
 }

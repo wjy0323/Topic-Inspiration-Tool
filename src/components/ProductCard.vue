@@ -15,7 +15,12 @@
         <span class="highlight-label"><ScrollText :size="13" /> 产品简介</span>
         <p class="highlight-text">{{ product.intro_zh }}</p>
       </div>
-      <div class="card-scores">
+      <div v-if="product.scores && 'product_value' in product.scores" class="card-scores">
+        <ScoreBar label="产品价值" :icon="Target" :score="product.scores.product_value?.score" compact />
+        <ScoreBar label="技术启发" :icon="Code" :score="product.scores.technical_insight?.score" compact />
+        <ScoreBar label="可借鉴性" :icon="Lightbulb" :score="product.scores.transferability?.score" compact />
+      </div>
+      <div v-else class="card-scores">
         <ScoreBar label="视频化" :icon="Video" :score="product.scores?.video_suitability?.score || 0" compact />
         <ScoreBar label="小白友好" :icon="Sprout" :score="product.scores?.beginner_friendly?.score || 0" compact />
         <ScoreBar label="热度" :icon="Flame" :score="product.scores?.popularity?.score || 0" compact />
@@ -41,7 +46,7 @@
 </template>
 
 <script setup>
-import { ScrollText, Video, Sprout, Flame, FilePen, ThumbsUp, ArrowRight, Image } from '@lucide/vue'
+import { ScrollText, Video, Sprout, Flame, FilePen, ThumbsUp, ArrowRight, Image, Target, Code, Lightbulb } from '@lucide/vue'
 import ScoreBar from './ScoreBar.vue'
 import BookmarkButton from './BookmarkButton.vue'
 
