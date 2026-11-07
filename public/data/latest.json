@@ -1,193 +1,194 @@
 {
   "date": "2026-11-06",
   "schema_version": 2,
-  "source_mode": "cached_report",
-  "generated_at": "2026-11-07T23:10:32+08:00",
+  "analysis_style": "plain_language_v1",
+  "source_mode": "producthunt_api",
+  "generated_at": "2026-11-08T00:04:34+08:00",
   "generation_error": false,
   "products": [
+    {
+      "id": "1291263",
+      "name": "Tobira Site Agent",
+      "name_zh": "Tobira Site Agent",
+      "tagline_zh": "把网站变成能向其他 AI 代理销售的 AI 代理",
+      "description_zh": "Tobira 帮助网站把来自 AI 的访问转成销售线索和客户：回答用户及其 AI 的问题、协商、预约通话和接单，并把线索发到 Telegram 或邮箱。厂商称，粘贴网址后十分钟即可启用，客户可在 ChatGPT、Claude、Grok 等对话中完成这些操作，AI 代理读取网站的速度可提高一倍且无需浏览界面；使用自己的 AI 密钥可免费使用。",
+      "intro_zh": "给想接住 AI 访客的网站经营者用，让客户在 AI 对话中询价、预约和下单。",
+      "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LMNUHW4VUH6RGV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/28da0fe7-0365-47c8-954f-b19877f46d44.jpeg?auto=format",
+      "votes_count": 368,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "从咨询到接单的用途清楚，但实际支持范围和成交效果未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让 AI 代表商家协商和接单，会遇到具体的授权边界问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把询问和后续操作放在同一对话中的做法可借鉴。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "面向希望接住 AI 推荐流量的网站经营者。客户在 AI 里发现商家后，咨询、预约或购买可能仍要转到网站完成。",
+        "workflow": "商家粘贴网址，客户随后可在所列 AI 聊天中提问、协商、预约或下单。销售线索发送到商家的 Telegram 或邮箱。",
+        "ai_value": "AI 负责回答问题，并代表商家处理后续交易动作；价值取决于它能否准确理解商品和交易限制。",
+        "differentiation": "它试图省掉客户从 AI 对话跳到网站操作的步骤。商家可能不愿把协商和接单权限交给 AI。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍支持自带 AI 密钥（调用 AI 服务的凭证），但没说具体模型或连接方式。",
+        "possible_approach": "如果自己做，可以先把网站内容整理成可查询的商品资料，再连接预约和订单系统。对价格、库存和可执行动作设置明确限制。",
+        "tradeoffs": "最容易出错的是把协商结果当成商家已授权的承诺，导致客户拿到无法兑现的价格或订单。",
+        "unknowns": "它如何在所列 AI 聊天中提供这些操作，是否需要客户额外配置？"
+      },
+      "transferable_insights": [
+        "做咨询型销售产品时，可以让回答直接带出预约或下单动作，减少客户重新填写信息。"
+      ],
+      "validation_questions": [
+        "提出超出商家底价的折扣要求，检查它是否拒绝擅自承诺。",
+        "从一个全新的 ChatGPT 对话开始，检查客户需要哪些配置才能预约。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重客户不离开对话就能继续办理业务；最大疑问是这些操作在各个 AI 聊天中是否真正可用。"
+    },
     {
       "id": "1227308",
       "name": "Turnstone",
       "name_zh": "Turnstone",
-      "tagline_zh": "使用你已有 AI 的 Grok Bot 替代工具，号称完全免费",
-      "description_zh": "Turnstone 可连接已有的 AI 订阅、API 密钥（调用 AI 服务的凭证）或自托管模型，作为 Grok Bot 的替代工具。当一个来源达到用量上限时，智能助手会切换到另一个继续工作；支持 Mac 和 iPhone，产品方称完全免费。",
-      "intro_zh": "把你已有的 AI 服务接到一个助手里，一个用完额度，就换另一个继续做。",
+      "tagline_zh": "使用你已有 AI 的 Grok Bot 替代工具，宣称完全免费",
+      "description_zh": "Turnstone 是 Grok Bot 的替代工具，可接入你已有的 AI 订阅、API 密钥或自托管模型。某个来源达到用量上限后，智能助手会切换到另一个继续运行；支持 Mac 和 iPhone，产品方称完全免费。",
+      "intro_zh": "给已有 AI 订阅或模型的用户用，把多个来源接给智能助手，在某个来源用尽额度后自动切换。",
       "url": "https://www.producthunt.com/products/turnstone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/ELRJVLJUXTAYTL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/e4441222-9fa5-4339-ab37-3837cc27a1dc.png?auto=format",
-      "votes_count": 257,
+      "votes_count": 261,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "额度耗尽后自动换来源，解决的问题明确，但继续工作的效果待确认。"
+          "reason": "用量上限导致中断的问题明确，但能接哪些订阅尚不清楚。"
         },
         "technical_insight": {
           "score": 4,
-          "reason": "切换来源后能否接着完成任务，是具体且影响使用的问题。"
+          "reason": "切换模型后如何保留任务进度，是具体且影响使用的问题。"
         },
         "transferability": {
-          "score": 3,
-          "reason": "自动换可用来源的做法可借鉴，但支持范围和切换条件不明。"
+          "score": 4,
+          "reason": "主来源额度耗尽后自动启用备用来源，可借用于多服务工具。"
         }
       },
       "product_analysis": {
-        "target_problem": "已有多个 AI 来源的人，以前要自己处理某个来源额度耗尽的问题，现在可以让助手自动换一个继续。",
-        "workflow": "接入已有订阅、API 密钥或自托管模型。使用中若一个来源达到上限，助手会切换到另一个。",
-        "ai_value": "AI 负责执行助手任务，Turnstone 负责连接和切换来源；介绍没有说明助手具体能做哪些任务。",
-        "differentiation": "省去额度耗尽后自行换来源的操作。最可能让人犹豫的是，自己已有的订阅是否受支持。"
+        "target_problem": "适合已有多个 AI 来源、又会碰到用量上限的人。它要解决的是某个来源额度用尽后，助手无法继续工作的问题。",
+        "workflow": "接入自己的 AI 订阅、API 密钥（供软件调用 AI 服务的凭证）或自托管模型。助手运行时，若一个来源达到上限，就切到另一个。",
+        "ai_value": "AI 负责执行助手任务，Turnstone 负责在来源之间切换。介绍没说助手具体能完成哪些任务。",
+        "differentiation": "省去额度用尽时手动更换来源的操作。是否支持用户现有订阅，可能直接决定他愿不愿意换。"
       },
       "technical_analysis": {
-        "disclosed_facts": "支持三类 AI 来源，并在达到用量上限时自动切换；未披露具体实现技术。",
-        "possible_approach": "如果自己做，可以先统一各来源的调用方式，再识别额度耗尽的返回信息，把任务记录交给下一个来源继续。",
-        "tradeoffs": "最难的是切换时记住前面做了什么。换了一个 AI 后如果忘了进度，用户还得从头解释。",
-        "unknowns": "“完全免费”是否仅指工具本身，不包含外部 AI 使用费用？"
+        "disclosed_facts": "支持订阅、API 密钥和自托管模型三类接入，并在触及用量上限时自动切换。",
+        "possible_approach": "如果自己做，可以先统一保存任务进度，再在收到额度不足的提示时，把必要记录交给备用模型继续处理。",
+        "tradeoffs": "最难的是让新模型接住已有进度。若漏掉前面的要求，助手可能重复工作，用户还得重新解释。",
+        "unknowns": "自动切换能否保留完整任务进度，介绍没有说明。"
       },
       "transferable_insights": [
-        "做需要长时间运行的 AI 助手时，可以在额度耗尽后自动换来源，并向用户显示切换原因和当前来源。"
+        "做依赖外部 AI 服务的助手时，可以允许用户配置备用来源，在主来源额度耗尽后自动接替。"
       ],
       "validation_questions": [
-        "让一个来源达到上限，检查切换后是否仍记得原任务的约束。",
-        "接入自己常用的 AI 订阅，检查能否实际调用。"
+        "我会先确认自己正在使用的 AI 订阅能否实际接入。",
+        "让任务中途触发用量上限，检查切换后是否仍记得先前要求。"
       ],
       "category": "AI工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "一个 AI 用完额度后，能自动换另一个继续做，省掉手动切换的麻烦。关键是换完以后，还记不记得前面做了什么。"
-    },
-    {
-      "id": "1305524",
-      "name": "Rankfender v3.0",
-      "name_zh": "Rankfender v3.0",
-      "tagline_zh": "面向用户和 AI 代理的搜索优化与 AI 答案曝光管理平台",
-      "description_zh": "面向不想频繁切换搜索优化工具的营销人员、创始人和代理机构，Rankfender 3.0 将关键词研究、排名追踪（含 Google AI 搜索摘要）、竞品与外链分析、网站检查、流量、内容、社交及策略集中在一起，并查看 ChatGPT、Claude、Gemini、Perplexity 等八款 AI 助手如何谈论品牌。用户可以直接在应用中工作，也可以连接 Claude 或 ChatGPT，让 AI 代理操作。",
-      "intro_zh": "给营销人员、创始人和代理机构用，把搜索优化工作集中处理，并查看品牌在 AI 回答中如何被提及。",
-      "url": "https://www.producthunt.com/products/rankfender?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XXAKEEHHHA4XOR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d97eeb47-fb22-4d58-96c8-b595a79bb18e.jpeg?auto=format",
-      "votes_count": 168,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "使用人群和切换工具的麻烦很明确，但整合深度仍待确认。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "AI 品牌提及监测有具体难题，但采样方法没有披露。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "同一工具支持人工使用和 AI 代理操作，适合借鉴到重复任务多的工作软件。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "营销人员做搜索优化时，以前要在多个工具间切换，现在可以集中查看排名、网站问题和 AI 品牌提及。",
-        "workflow": "用户可在应用内做关键词研究、排名追踪和网站检查等工作。也可连接 Claude 或 ChatGPT，让 AI 代理操作；介绍没展开连接步骤。",
-        "ai_value": "它查看八款 AI 助手如何谈论品牌，也让 AI 代理操作工具。介绍没说 AI 会自动制定或执行营销策略。",
-        "differentiation": "把搜索表现和 AI 回答中的品牌表现放到一起，减少来回切换。最可能阻碍迁移的是：用户不确定它能否替代现有专用工具。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "支持连接 Claude 或 ChatGPT，由 AI 代理操作；介绍没说具体连接技术。",
-        "possible_approach": "如果自己做，可以先固定一组品牌相关问题，再定期向 AI 助手提问，保存原文并统计品牌提及。",
-        "tradeoffs": "最容易出错的是比较不同条件下的回答。问题或模型版本变了，品牌提及变化可能被误读为营销效果。",
-        "unknowns": "是否记录每次监测的问题、时间和模型版本，让用户能复查结果？"
-      },
-      "transferable_insights": [
-        "做营销工作台时，可让人工和 AI 代理使用同一套查询操作，先覆盖定期查排名这类重复任务。"
-      ],
-      "validation_questions": [
-        "用同一组问题重复监测，检查品牌提及结果有多大波动。",
-        "让 AI 代理完成一次排名查询，检查能否得到与应用内相同的结果。"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "把搜索排名和 AI 回答放在一起看，可能省去切换工具的时间。但回答本身会变，不能把每次变化都当成营销效果。"
+      "overall_reason": "最有用的是减少额度耗尽造成的中断；最影响判断的是，切换后能否真正接着做，而不只是换一个模型重新开始。"
     },
     {
       "id": "1301134",
       "name": "Wonder Dev View",
       "name_zh": "Wonder Dev View",
       "tagline_zh": "并行运行多个 Claude Code 和 Codex 编程助手",
-      "description_zh": "使用已有订阅，在并行的工作树中运行 Claude Code 和 Codex，并让一个检查另一个写的代码。把应用与设计放在一起查看，也能在预览中选中元素，告诉助手要改什么。",
-      "intro_zh": "给使用 AI 编程助手的开发者用，并行安排代码任务，再对照设计预览应用、点选元素提出修改。",
+      "description_zh": "使用你已有的订阅，在多个独立工作目录中并行运行 Claude Code 和 Codex，让一个检查另一个写的代码，并对照设计试用应用。在预览中选中元素，就能告诉编程助手要改什么。",
+      "intro_zh": "给使用 AI 编程助手的开发者，并行处理代码任务、交叉审查代码，并在预览中点选页面元素提出修改。",
       "url": "https://www.producthunt.com/products/wonder-dev-view?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/RJGZPEQMUG2EJU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/f457137e-e411-46c0-aa71-d7b4032c09b1.png?auto=format",
-      "votes_count": 152,
+      "votes_count": 153,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "并行开发、互相检查和预览修改的用途清楚，实际省时待验证。"
+          "reason": "明确覆盖并行开发、代码检查和页面修改，但实际省时程度未验证。"
         },
         "technical_insight": {
           "score": 4,
-          "reason": "多份代码与预览如何对应，是具体且影响使用的问题。"
+          "reason": "多个助手各自改代码后，如何合并并展示正确结果是具体难题。"
         },
         "transferability": {
           "score": 4,
-          "reason": "点选页面元素再提修改，可借用于可视化编辑工具。"
+          "reason": "选中页面元素再提修改要求，可借用于其他可视化编辑工具。"
         }
       },
       "product_analysis": {
-        "target_problem": "同时用两种编程助手的开发者，以前要分别安排任务和检查结果。现在可以并行运行，并让一个检查另一个的代码。",
-        "workflow": "用已有订阅，在不同工作树里运行助手；工作树就是同一项目的独立工作目录。让助手互查代码，再对照设计查看应用，选中预览元素提出修改。",
-        "ai_value": "AI 负责写代码、检查另一位助手的代码，并接收针对页面元素的修改要求。",
-        "differentiation": "把代码任务和页面反馈放到一起，少一些来回描述。若已有顺手的开发环境，重新适应操作方式可能让人不愿换。"
+        "target_problem": "开发者同时安排多个 AI 编程任务时，需要分开管理改动，也要检查代码和页面是否符合要求。它把这些操作放到同一工具中。",
+        "workflow": "用已有订阅并行运行助手，让一个审查另一个的代码。对照设计试用应用，再选中预览元素，提出修改要求。",
+        "ai_value": "AI 负责处理编程任务和审查代码，也接收针对页面元素的修改指令；介绍没有说明审查准确率。",
+        "differentiation": "点选元素可能省去描述页面位置的麻烦。最可能让人犹豫的是，多份并行改动最终是否仍需费力合并。"
       },
       "technical_analysis": {
-        "disclosed_facts": "支持 Claude Code、Codex、并行工作树，以及从 Preview 选中元素后向助手提出修改。",
-        "possible_approach": "如果自己做，可以先给每个任务分配独立工作目录，再把各自的预览与任务关联，将选中元素的信息交给对应助手。",
-        "tradeoffs": "最容易错在预览与工作目录的对应关系。若指错目录，助手可能改了另一份代码，用户却看不到预期变化。",
-        "unknowns": "多个工作树的修改最后如何合并，介绍没说。"
+        "disclosed_facts": "支持 Claude Code、Codex 和并行 worktree（同一代码仓库的独立工作目录），可在预览中选择元素。",
+        "possible_approach": "如果自己做，可以先给每个助手分配独立工作目录，再把预览中选中的元素信息连同修改要求交给助手。",
+        "tradeoffs": "最难的是合并多个助手的改动。若它们改到同一处，单独可用的代码合在一起也可能出错。",
+        "unknowns": "预览展示哪份工作目录的应用，介绍没有说明。"
       },
       "transferable_insights": [
-        "做页面编辑工具时，可以让用户先选中要改的元素，再输入要求，减少描述位置的麻烦。"
+        "做页面编辑工具时，可以让用户先选中目标元素，再输入修改要求，减少对“改哪里”的反复解释。"
       ],
       "validation_questions": [
-        "同时打开两个工作树后，点选预览元素，修改是否落到对应目录？",
-        "让一个助手检查另一个的代码，能否发现预先放入的明确错误？"
+        "让两个助手修改同一文件，检查合并时是否清楚提示冲突。",
+        "在预览中点选一个重复出现的按钮，检查助手是否改对目标。"
       ],
       "category": "开发工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "点着页面告诉助手改哪里，省掉描述位置的麻烦。关键是别把修改要求发到另一份代码里。"
+      "overall_reason": "我最看重点选页面元素后直接提修改要求；并行任务的结果能否顺利合并，是影响判断的主要疑问。"
     },
     {
       "id": "1301588",
       "name": "EdgeBar",
       "name_zh": "EdgeBar",
       "tagline_zh": "用触控板调节 Mac 的音量和亮度",
-      "description_zh": "EdgeBar 把 MacBook 触控板边缘变成控制区：右侧滑动调音量，左侧调亮度，显示与键盘按键相同的屏幕提示，并提供轻微触觉反馈；双击右上角静音，沿底边滑动切歌。它常驻菜单栏，厂商称几乎不占用 CPU，售价 9 美元，一次购买并享终身更新。",
-      "intro_zh": "给常用 MacBook 触控板的人，把边缘滑动变成音量、亮度和音乐控制。",
+      "description_zh": "EdgeBar 将 MacBook 触控板边缘变成带触觉反馈的控制区：右侧滑动调音量，左侧调亮度，显示与键盘按键相同的屏幕提示，并伴随轻微震动；双击右上角静音，沿底边滑动切歌。它常驻菜单栏，厂商称 CPU 占用极低，售价为一次性 9 美元，包含终身更新。",
+      "intro_zh": "给常用 MacBook 触控板的人，把边缘滑动变成音量、亮度和音乐控制动作。",
       "url": "https://www.producthunt.com/products/edgebar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/U6F4QOW3RM6SV4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/107ba604-867d-46c9-b593-3da670c6d1c8.jpeg?auto=format",
       "votes_count": 125,
       "scores": {
         "product_value": {
-          "score": 4,
-          "reason": "使用对象和操作收益清楚，但比键盘按键方便多少尚待体验。"
+          "score": 3,
+          "reason": "操作场景明确，但比键盘按键方便多少仍待确认。"
         },
         "technical_insight": {
-          "score": 3,
-          "reason": "边缘手势与正常操作如何区分，是具体且影响使用的问题。"
+          "score": 4,
+          "reason": "边缘手势如何避免干扰正常操作，是具体且关键的问题。"
         },
         "transferability": {
           "score": 4,
-          "reason": "利用输入设备边缘放置快捷操作，并即时反馈，做法可以借鉴。"
+          "reason": "固定区域配合即时反馈的做法，可借用于其他快捷控制。"
         }
       },
       "product_analysis": {
-        "target_problem": "常用触控板的人，以前要按键盘键调音量和亮度，现在可以直接滑动触控板边缘。它省的是手在两种输入位置之间切换。",
-        "workflow": "右边滑动调音量，左边调亮度，同时看屏幕提示、感受轻微震动。双击右上角静音，沿底边滑动切歌。",
-        "ai_value": "介绍没提 AI，主要靠固定手势映射和即时反馈改善体验。",
-        "differentiation": "它把已有快捷键操作搬到触控板边缘。习惯键盘按键的人，可能不愿再记一套手势。"
+        "target_problem": "常用触控板的人，调音量和亮度时可能需要移手去按键。以前可以用键盘调节，现在也可以沿触控板边缘滑动。",
+        "workflow": "沿右边缘滑动调音量，沿左边缘调亮度，并获得屏幕提示和轻微震动。双击右上角静音，沿底边滑动切歌。",
+        "ai_value": "介绍没提 AI，主要靠手势映射和即时反馈来改善体验。",
+        "differentiation": "它让调节动作留在触控板上；但已熟悉键盘快捷键的人，可能不愿再记一套手势。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍明确提到边缘手势、触觉反馈及与键盘按键相同的屏幕提示，没说具体实现技术。",
-        "possible_approach": "如果自己做，可以先识别手指是否从边缘开始滑动，再把方向和距离换成调节指令，最后给出屏幕与触觉反馈。",
-        "tradeoffs": "最容易错在把普通滑动当成控制手势。边缘区域设得太宽，可能在移动指针时意外改变音量。",
-        "unknowns": "介绍没说支持哪些 MacBook 机型和系统版本。"
+        "disclosed_facts": "介绍明确提到边缘手势识别、触觉反馈，以及与键盘按键相同的屏幕提示。",
+        "possible_approach": "如果自己做，可以先识别手指是否沿指定边缘移动，再把方向和距离换成调节量，同时给出画面与触觉反馈。",
+        "tradeoffs": "最难的是区分有意调节和普通触控。边缘判定过宽，移动指针时也可能误改音量。",
+        "unknowns": "我会先确认它支持哪些 MacBook 机型和系统版本。"
       },
       "transferable_insights": [
-        "做触控设备快捷操作时，可以把低频命令放在边缘，并用即时反馈让用户知道操作已被识别。"
+        "做触控快捷操作时，可以把连续调节放在固定边缘，并用轻微震动提示变化，减少用户反复看数值的需要。"
       ],
       "validation_questions": [
         "正常移动指针和滚动页面时，是否会误触边缘控制？",
@@ -195,15 +196,63 @@
       ],
       "category": "效率工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "不用挪手去按快捷键，省的动作很小。如果经常误触，这点方便就不划算了。"
+      "overall_reason": "我看重不用移手就能连续调节；但若日常触控容易误触，省下的动作就可能变成纠错负担。"
+    },
+    {
+      "id": "1298667",
+      "name": "Mechvibes 3",
+      "name_zh": "Mechvibes 3",
+      "tagline_zh": "让键盘和鼠标发出你喜欢的声音",
+      "description_zh": "Mechvibes 会在任何应用中，为每次按键和鼠标点击播放声音，可从社区库选择机械轴、打字机或游戏音效，也可在浏览器中自制。它免费且开源，支持 Windows、Linux 和 Mac。",
+      "intro_zh": "给想自定义输入音效的人用，为键盘按键和鼠标点击配上社区声音，也能在浏览器里自制音效。",
+      "url": "https://www.producthunt.com/products/mechvibes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5WQ7ID2VTZR7X5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/16dff156-d738-4112-a326-769885157c2e.png?auto=format",
+      "votes_count": 122,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用场景明确，社区素材和自制功能让声音选择更方便。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "跨应用响应输入值得关注，但实际跟手程度尚不清楚。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "现成素材与浏览器自制入口结合的做法，适合借给个性化工具。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想给日常打字和点击添加声音的人会用到它。它把不同风格的音效集中到社区库，方便选择。",
+        "workflow": "选择社区音效，或在浏览器中自制。随后在应用里按键、点击鼠标时，Mechvibes 播放对应声音。",
+        "ai_value": "介绍没提 AI，主要靠输入触发音效和社区素材改善体验。",
+        "differentiation": "跨应用播放，省去逐个应用寻找音效设置的麻烦。持续发声也可能干扰注意力，让用户不愿常开。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "免费开源，支持 Windows、Linux 和 Mac，并提供浏览器自制音效功能；介绍没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先接收系统中的按键和点击事件，再匹配声音播放；另外提供网页工具制作音效。",
+        "tradeoffs": "最难的是让声音及时跟上输入。连续打字时若播放排队，用户停手后还会听到声音，反馈就乱了。",
+        "unknowns": "浏览器里做好的音效，如何交给桌面端使用，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做个性化工具时，可以先给用户可直接选用的社区素材，再提供浏览器制作入口，兼顾直接使用和自行创作。"
+      ],
+      "validation_questions": [
+        "连续快速打字后停手，声音是否也立即停止？",
+        "在浏览器做一份音效，能否顺利用于桌面端？"
+      ],
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我看重的是同一套声音能用于不同应用；最影响判断的是高频输入时能否保持声音跟手。"
     },
     {
       "id": "1304303",
       "name": "Datastripes Data Stories",
       "name_zh": "Datastripes Data Stories",
-      "tagline_zh": "数秒内把电子表格变成数据故事",
-      "description_zh": "上传 CSV 或 Excel 文件，Datastripes 会生成标题、图表和用通俗英语表达的发现；你可以选择问题、对照数据检查结论，再以品牌配色发布为八种格式。厂商称，原本通常需要分析师、设计师和写作者配合的工作，现在一个人拿着表格就能在几分钟内完成。",
-      "intro_zh": "给需要讲解表格数据的业务人员用，上传文件后生成标题、图表和文字结论，再整理发布。",
+      "tagline_zh": "几秒内把电子表格变成数据故事",
+      "description_zh": "上传 CSV 或 Excel 文件后，Datastripes 会生成标题、图表和用通俗英语写出的发现；用户可以选择问题，对照数据检查结论，再按品牌配色以 8 种格式发布。团队希望把分析、设计和写作集中到一个工具里，并称一个人拿着电子表格就能在几分钟内完成。",
+      "intro_zh": "给需要用表格做汇报、发内容的人，把数据整理成带标题、图表和英文解读的材料。",
       "url": "https://www.producthunt.com/products/datastripes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/B2BRINIF6PPVVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/64ff9106-eadb-4ba5-9cd3-ce556cf0d975.jpeg?auto=format",
@@ -211,192 +260,48 @@
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "从表格到可发布内容的任务清楚，但省时程度尚未验证。"
+          "reason": "从表格到发布的用途清楚，但结论质量和实际省时程度未验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "文字结论能否经得起数据核对，是具体且重要的问题。"
+          "reason": "文字结论能否准确对应数据是具体问题，但实现细节未披露。"
         },
         "transferability": {
           "score": 4,
-          "reason": "先选问题、核对结论再发布的顺序，可借用于数据汇报工具。"
+          "reason": "先选问题、再检查结论、最后发布的顺序可借用于报告工具。"
         }
       },
       "product_analysis": {
-        "target_problem": "需要把表格讲给别人听的业务人员会用它。以前要分别分析数据、画图和写说明，现在可以在一个工具里生成这些内容。",
-        "workflow": "上传 CSV 或 Excel，选择要回答的问题，查看生成的标题、图表和英文发现。对照数据检查结论，再按品牌配色发布为八种格式。",
-        "ai_value": "介绍没提 AI，主要靠自动生成图文和统一发布来改善体验，无法判断具体用了什么模型。",
-        "differentiation": "它把分析结果和发布材料放在一起，减少分别整理的工作。若团队需要中文汇报，介绍只提英文输出，可能影响使用意愿。"
+        "target_problem": "做经营汇报或数据内容的人，需要把表格变成别人能读懂的材料。麻烦在于既要找出发现，又要做图和组织文字。",
+        "workflow": "上传 CSV 或 Excel，选择要回答的问题，获得标题、图表和英文发现。对照数据检查结论，再按品牌配色以 8 种格式发布。",
+        "ai_value": "介绍没提 AI，主要靠自动生成文字、图表和统一发布来改善体验，不能据此判断用了什么模型。",
+        "differentiation": "把分析结果整理成内容的工作集中到一处。若用户仍需逐条重算才能放心，可能不愿改变现有做法。"
       },
       "technical_analysis": {
-        "disclosed_facts": "支持 CSV、Excel 输入和八种格式发布，介绍没说具体用什么技术。",
-        "possible_approach": "如果自己做，可以先读取表头和数值，再按用户选的问题计算结果，最后据此生成图表和文字，并保留核对依据。",
-        "tradeoffs": "最容易错在把字段含义认错，例如把累计数当成当期数。后面的图表和文字可能都成立于错误口径，让用户误判趋势。",
-        "unknowns": "结论能否直接追溯到对应的数据和计算过程？"
+        "disclosed_facts": "介绍明确支持 CSV、Excel 输入及 8 种格式发布，没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先读取表格、确认字段含义，再按所选问题计算结果，最后据此生成图表和文字。",
+        "tradeoffs": "最容易错在理解统计口径，例如把比例直接相加。图文即使一致，也可能一起误导读者。",
+        "unknowns": "检查结论时，能否看到对应的数据范围和计算方法？"
       },
       "transferable_insights": [
-        "做经营汇报工具时，可以把“选择问题”放在生成前，让内容围绕用户要做的判断展开。",
-        "做数据内容发布时，可以在发布前安排结论核对，避免把排版完成当成分析完成。"
+        "做报告工具时，可先让用户选问题，再生成相关图文，避免一次堆出大量无关发现。",
+        "做自动解读时，可给每条结论附上对应数据和计算说明，让用户在发布前核对。"
       ],
       "validation_questions": [
-        "用含累计值和当期值的表格，检查它是否区分两种口径。",
-        "选一条生成结论，检查能否找到支撑它的数据和计算依据。"
+        "上传一份已知正确答案的表格，检查生成结论的统计口径是否正确。",
+        "发布为实际要用的格式，检查图表标签是否完整显示。"
       ],
       "category": "数据分析",
       "overall_suggestion": "优先研究",
-      "overall_reason": "图表和说明一起生成，能少做一些排版和写作。但一条结论若找不到对应数据，仍然得自己重算。"
-    },
-    {
-      "id": "1304221",
-      "name": "Pauta",
-      "name_zh": "Pauta",
-      "tagline_zh": "为每次对话保留私人记忆",
-      "description_zh": "Pauta 录制并转写会议、访谈和语音备忘，再整理成摘要和待办事项。介绍称它可完全离线运行，数据保存在设备上，只有用户选择时才连接外部 AI。",
-      "intro_zh": "给需要整理会议、访谈或语音备忘的人用，把录音转成文字，再整理摘要和待办。",
-      "url": "https://www.producthunt.com/products/pauta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GSNLNLDJL3ZT4U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9871b257-3103-4615-b1cf-415e55f150d3.jpeg?auto=format",
-      "votes_count": 88,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "整理录音的用途明确，本地保存也回应了隐私需求。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "完全离线时能否可靠生成摘要和待办，是具体且关键的技术问题。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "默认本地处理、由用户选择外部 AI 的做法可借鉴。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要整理会议或访谈的人，以前要回听录音、手写要点；现在可以让 Pauta 转写，再整理摘要和待办。",
-        "workflow": "录制会议、访谈或语音备忘，获取转写、摘要和待办。可离线使用，也可自行选择连接外部 AI。",
-        "ai_value": "介绍提到可选外部 AI，但没说明离线摘要由什么技术生成，也没说连接后会增加什么功能。",
-        "differentiation": "它把整理录音和本地保存放在一起。最可能让人犹豫的是离线结果是否可靠，仍需试用确认。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "支持完全离线运行，数据保存在设备上，外部 AI 连接由用户选择；具体模型未披露。",
-        "possible_approach": "如果自己做，可以先在设备上把语音转成文字，再用本地模型提取摘要和待办；连接外部 AI 前让用户确认。",
-        "tradeoffs": "最容易出错的是转写：若听错日期或否定词，后面的待办也可能写错，用户仍得回听核对。",
-        "unknowns": "完全离线时，摘要和待办是否有设备性能要求？"
-      },
-      "transferable_insights": [
-        "做处理敏感内容的记录工具时，可默认在本机处理，把连接外部 AI 留作用户主动选择。"
-      ],
-      "validation_questions": [
-        "断网后，能否从录音一直完成到生成摘要和待办？",
-        "用含明确日期和否定表述的录音，检查待办是否保留原意？"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "录音不方便上传时，离线整理很有用。但如果人名、日期总是听错，最后还是省不了回听核对的时间。"
-    },
-    {
-      "id": "1291263",
-      "name": "Tobira Site Agent",
-      "name_zh": "Tobira Site Agent",
-      "tagline_zh": "把网站变成能向其他 AI 代理销售的 AI 代理",
-      "description_zh": "Tobira 将网站变成 AI 代理，在客户的 ChatGPT、Claude、Grok 等聊天中回答问题、协商、预约通话和接单，并把线索发到 Telegram 或邮箱。厂商称粘贴网址后 10 分钟即可完成、AI 读取网站快两倍，使用自己的 AI 密钥可免费使用，这些效果未经验证。",
-      "intro_zh": "给希望从 AI 聊天获得客户的网站经营者用，让客户直接在聊天里询价、预约和下单。",
-      "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LMNUHW4VUH6RGV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/28da0fe7-0365-47c8-954f-b19877f46d44.jpeg?auto=format",
-      "votes_count": 365,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "减少客户跳转的用途清楚，但能否带来成交尚无材料支持。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "让 AI 从回答走到协商和接单，有明确的授权难题。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "把网站操作带进聊天的做法可借鉴，但接入条件不明。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "面向已有网站、希望接住 AI 来源客户的经营者。以前客户要进入网站操作，现在可以在 AI 聊天中继续预约或下单。",
-        "workflow": "经营者粘贴网址，客户随后可在ChatGPT 等 AI 聊天中提问、协商或发起交易。线索发送到 Telegram 或邮箱；介绍没交代中间配置。",
-        "ai_value": "AI 负责回答问题，并参与协商、预约和接单，不只提供网站链接。",
-        "differentiation": "省去从聊天跳到网站界面操作的步骤。经营者可能不愿把协商权限交给 AI。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "支持自带 AI 密钥，并称可在 ChatGPT、Claude、Grok 等聊天中使用；介绍没说具体连接技术。",
-        "possible_approach": "如果自己做，可以先整理网站商品和服务资料，再连接预约、订单系统，最后让聊天中的 AI 调用这些操作。",
-        "tradeoffs": "最难的是限制 AI 能答应什么。若协商越过价格或交付底线，经营者可能收到无法履行的订单。",
-        "unknowns": "介绍没说明协商结果是否需要经营者确认。"
-      },
-      "transferable_insights": [
-        "做预约或电商产品时，可把查询与提交操作放进同一段对话，减少用户跳转后重新填写信息。"
-      ],
-      "validation_questions": [
-        "在客户的 ChatGPT 中发起一次预约，检查能否真正写入经营者日程。",
-        "提出低于底价的报价，检查 AI 是否守住经营者设定的限制。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "把问价、预约留在客户正在用的聊天里，能少一次跳转。但 AI 能不能守住商家的价格和承诺，需要先试。"
-    },
-    {
-      "id": "1298667",
-      "name": "Mechvibes 3",
-      "name_zh": "Mechvibes 3",
-      "tagline_zh": "让键盘和鼠标发出你喜欢的声音",
-      "description_zh": "Mechvibes 会在任意应用中为每次按键和鼠标点击播放声音，可从社区库选择机械轴、打字机、游戏等音效，也能在浏览器中自制。它免费且开源，支持 Windows、Linux 和 Mac。",
-      "intro_zh": "给想自定义电脑操作音效的人用，为按键和鼠标点击配上社区声音，也支持在浏览器中自制。",
-      "url": "https://www.producthunt.com/products/mechvibes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5WQ7ID2VTZR7X5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/16dff156-d738-4112-a326-769885157c2e.png?auto=format",
-      "votes_count": 122,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "个性化需求清楚，但声音是否适合长期使用仍需体验。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "连续输入时能否让声音跟上动作，是具体的技术问题。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "社区素材加浏览器制作的组合，可借用于其他个性化工具。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "想给打字和鼠标点击加上喜欢的音效，但不想更换硬件的人，可以试这类软件。它改变的是听感，不是打字速度。",
-        "workflow": "从社区库选音效，或在浏览器中自制。使用其他应用时，按键和鼠标点击会触发声音。",
-        "ai_value": "介绍没提 AI，主要靠按键、点击触发音效来改善体验。",
-        "differentiation": "社区库省去自己找声音素材的麻烦。持续播放可能让人分心，这是我会先确认的使用障碍。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "免费开源，支持 Windows、Linux 和 Mac，并提供浏览器内音效制作。",
-        "possible_approach": "如果自己做，可以先捕捉系统中的按键和点击，再按用户选择播放对应声音，另做网页供用户制作音效。",
-        "tradeoffs": "最容易出错的是连续输入时声音排队。若处理不好，停止打字后还在响，声音就会与动作脱节。",
-        "unknowns": "介绍没说捕捉其他应用中的输入需要哪些系统权限。"
-      },
-      "transferable_insights": [
-        "做提示音或主题工具时，可以提供社区素材供直接选用，再用浏览器制作入口服务想自己创作的人。"
-      ],
-      "validation_questions": [
-        "快速连续打字后停手，检查声音是否仍在排队播放。",
-        "在目标操作系统上，检查启用跨应用按键响应需要授予哪些权限。"
-      ],
-      "category": "社交生活",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "它卖点在于好玩的声音，不在于提高效率。快速打字时声音会不会跟不上，试一下就知道。"
+      "overall_reason": "最有用的是把表格发现直接整理成可发布材料；最影响判断的是用户能否方便地核对结论依据。"
     },
     {
       "id": "1258465",
       "name": "Meadow",
       "name_zh": "Meadow",
-      "tagline_zh": "散步时发现藏在沿途的歌，由人挑选，不靠算法推荐",
-      "description_zh": "Meadow 让你把歌留在真实地点，供路过的人收听、收集，也能留下自己的歌。它支持通过实时活动把手机放在口袋里收歌，将发现保存在 Garden、转成 Apple Music 播放列表，并在 Feed 查看城市里的选曲；目前可通过 TestFlight 在 iPhone 上免费试用。",
-      "intro_zh": "给喜欢散步和发现音乐的人用，把歌留在某个地点，也收集别人留在沿途的歌。",
+      "tagline_zh": "散步途中发现藏在地点里的歌，由人挑选，不靠算法推荐",
+      "description_zh": "Meadow 让你把歌留在真实地点，路过的人可以收听、收藏，也能留下自己的歌给下一个人。它支持借助实时活动将手机放在口袋里收歌，在 Garden 保存发现、转成 Apple Music 歌单，并在 Feed 查看城市里的音乐动态，目前通过 TestFlight 提供免费的 iPhone 测试版。",
+      "intro_zh": "给想在散步时发现音乐的人用，把别人留在地点里的歌收进收藏，也能为路过的人留歌。",
       "url": "https://www.producthunt.com/products/meadow-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/KD2FP5YECF3KLS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/2dda004b-fa77-43fa-bd93-8c31de9a57fb.png?auto=format",
@@ -404,47 +309,143 @@
       "scores": {
         "product_value": {
           "score": 3,
-          "reason": "场景清楚，但附近有多少歌曲会直接影响使用价值。"
+          "reason": "散步发现音乐的场景清楚，但收益取决于附近有多少人留歌。"
         },
         "technical_insight": {
-          "score": 3,
-          "reason": "手机放进口袋后如何可靠收歌，是具体的技术问题。"
+          "score": 4,
+          "reason": "手机放进口袋后如何可靠发现附近歌曲，是直接影响体验的具体问题。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把内容绑定地点，再让用户带走收藏，做法可借鉴。"
+          "reason": "把地点发现保存为已有服务中的收藏，适合借到其他城市探索产品。"
         }
       },
       "product_analysis": {
-        "target_problem": "想在散步时听到别人为沿途地点挑的歌，而不只是刷推荐列表的人，可能会喜欢这种找歌方式。",
-        "workflow": "在地点留下歌曲，路过时收听并收集别人的歌。发现存进 Garden，也可转成 Apple Music 播放列表。",
-        "ai_value": "介绍没提 AI，主要靠人的选曲和真实地点来组织音乐发现。",
-        "differentiation": "省去主动搜索附近选曲的动作。但如果常走的路上没人留歌，可能很快失去打开它的理由。"
+        "target_problem": "面向想听听附近的人为某个地点选了什么歌的散步者。它让音乐选择带上地点背景，不需要先知道歌名。",
+        "workflow": "在 iPhone 上通过 TestFlight 安装。路过留歌地点时收听或收藏，在 Garden 回看并转成 Apple Music 歌单，也能自己留歌。",
+        "ai_value": "介绍没提 AI，主要靠人选歌、地点关联和沿途发现来改善体验。",
+        "differentiation": "发现的歌能直接留存为歌单，少一次另行整理。最可能让人不愿继续用的原因，是附近留歌太少。"
       },
       "technical_analysis": {
-        "disclosed_facts": "支持 iPhone 实时活动（锁屏等位置的持续状态展示），可把收藏转成 Apple Music 播放列表。",
-        "possible_approach": "如果自己做，可以先记录歌曲和地点，再根据手机位置查找附近的歌，最后保存用户收集的记录。",
-        "tradeoffs": "最容易出错的是后台判断用户是否经过地点；定位不准或更新不及时，可能漏收歌曲。",
-        "unknowns": "介绍没说距离歌曲多近才会触发收集。"
+        "disclosed_facts": "介绍明确提到 iPhone、实时活动（锁屏显示进行中信息的功能）和转成 Apple Music 歌单。",
+        "possible_approach": "如果自己做，可以先把歌曲和地点一起保存，再根据用户位置找附近的歌，最后保存收藏并支持导出歌单。",
+        "tradeoffs": "难点是手机放进口袋后仍能可靠发现附近歌曲。若后台位置更新不及时，用户可能走过地点却没收到歌。",
+        "unknowns": "实时活动只是展示发现结果，还是也支持不操作手机就完成收藏，介绍没有讲清。"
       },
       "transferable_insights": [
-        "做城市探索产品时，可以让用户把内容留在地点，再让路过的人存进个人收藏，保留一次出行的发现。"
+        "做城市探索产品时，可以把沿途发现转成用户已有服务里的收藏，例如歌单，让散步结束后仍有东西可回看。"
       ],
       "validation_questions": [
-        "把手机锁屏放进口袋，走过一个已知留歌点，检查能否收集到歌曲。",
-        "沿日常散步路线走一遍，检查沿途有多少可发现的歌曲。"
+        "锁屏走过一个已知留歌地点，检查能否收到这首歌。",
+        "在自己常走的一条路上，检查实际能遇到多少个留歌地点。"
       ],
       "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "我最看重的是把偶遇的歌留下来，散步结束后还能继续听；最大的疑问是本地内容是否足够支撑日常使用。"
+    },
+    {
+      "id": "1304221",
+      "name": "Pauta",
+      "name_zh": "Pauta",
+      "tagline_zh": "为每次对话留下私密记忆",
+      "description_zh": "Pauta 录制并转写会议、访谈和语音笔记，再整理成摘要和待办事项。它可完全离线运行，数据保存在设备上，只有用户选择时才连接外部 AI。",
+      "intro_zh": "给需要整理会议、访谈和语音笔记的人用，把录音转成文字、摘要和待办，并将数据留在设备上。",
+      "url": "https://www.producthunt.com/products/pauta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GSNLNLDJL3ZT4U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/9871b257-3103-4615-b1cf-415e55f150d3.jpeg?auto=format",
+      "votes_count": 88,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "整理录音与保留本地数据的用途明确，但输出质量尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "离线完成转写和整理有具体技术难题，值得检查识别错误如何影响待办。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "默认本地处理、按需连接外部 AI 的选择方式可借鉴。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "采访者和会议参与者需要回顾谈话、找出待办。涉及敏感内容时，还需要控制录音是否离开设备。",
+        "workflow": "用 Pauta 录下会议、访谈或语音笔记，再获取转写、摘要和待办。需要外部 AI 时，由用户选择连接。",
+        "ai_value": "介绍明确提到可选的外部 AI，但没说明它具体负责哪些任务，也没交代离线处理使用什么模型。",
+        "differentiation": "它把录音后的整理放在同一工具里，并支持离线使用。可能让人不愿换过来的原因，是转写结果仍需花很多时间校正。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持完全离线运行，数据保存在设备上，外部 AI 连接由用户选择。",
+        "possible_approach": "如果自己做，可以先在设备上把声音转成文字，再从文字提取摘要和待办；外部 AI 连接作为单独选项。",
+        "tradeoffs": "最容易出错的是转写中的人名和时间。一旦识别错，后续待办也可能写错负责人或期限。",
+        "unknowns": "启用外部 AI 后，哪些录音或文字会离开设备？"
+      },
+      "transferable_insights": [
+        "做敏感资料整理工具时，可借用“默认本地处理，用户主动选择外部 AI”的方式，把是否上传的决定留给用户。"
+      ],
+      "validation_questions": [
+        "断网录制一段对话，能否完整生成转写、摘要和待办？",
+        "用含明确人名和日期的录音，检查生成的待办是否保留了正确负责人和期限。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重无需连接外部服务也能整理谈话；最影响判断的是离线输出是否准确到足以减少人工返工。"
+    },
+    {
+      "id": "1305524",
+      "name": "Rankfender v3.0",
+      "name_zh": "Rankfender v3.0",
+      "tagline_zh": "为人和 AI 代理打造的搜索优化与 AI 答案可见度管理平台",
+      "description_zh": "面向不想在多个搜索优化工具间切换的营销人员、创始人和代理机构，Rankfender 3.0 将关键词研究、排名追踪（含 AI 搜索摘要）、竞品与外链分析、网站检查、流量、内容、社交及策略工作集中到一处，并查看 ChatGPT、Claude、Gemini、Perplexity 等八款 AI 助手如何谈论品牌。用户可以在应用内操作，也可以连接 Claude 或 ChatGPT，让 AI 代理执行操作。",
+      "intro_zh": "给营销人员、创始人和代理机构用，集中处理搜索优化工作，查看品牌在 AI 回答中如何被提及。",
+      "url": "https://www.producthunt.com/products/rankfender?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XXAKEEHHHA4XOR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d97eeb47-fb22-4d58-96c8-b595a79bb18e.jpeg?auto=format",
+      "votes_count": 168,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "用户和切换工具的麻烦明确，但整合后的实际省事程度待确认。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "AI 回答的波动会影响品牌监测判断，采样方式尚不清楚。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "同一工具支持人和 AI 操作可供借鉴，但操作范围未说明。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "营销团队做搜索优化时，可能要在多个工具间切换。以前分散查看关键词、排名和网站问题，现在可以集中处理，并查看 AI 助手如何描述品牌。",
+        "workflow": "用户可在应用内研究关键词、追踪排名、分析竞品和检查网站；也可连接 Claude 或 ChatGPT，让 AI 代理操作平台。介绍没给出具体连接步骤。",
+        "ai_value": "AI 有两种角色：其品牌回答是监测对象；连接后的 Claude 或 ChatGPT 则可代用户操作，具体能执行哪些任务未说明。",
+        "differentiation": "少切换工具是直接好处；若团队依赖原工具的历史记录，迁移是否方便可能影响换用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "支持追踪 AI 搜索摘要、监测八款 AI 助手的品牌回答，并连接 Claude 或 ChatGPT 执行操作。",
+        "possible_approach": "如果自己做，可以先固定一组品牌问题，定期获取回答，再记录品牌提及和引用来源，按时间比较变化。",
+        "tradeoffs": "最难的是区分回答随机变化与品牌表现变化。单次回答若被当作趋势，用户可能误判优化效果。",
+        "unknowns": "品牌监测是否固定问题、地区和重复采样次数？"
+      },
+      "transferable_insights": [
+        "做营销工具时，可以让同一套查询同时供页面和 AI 代理调用，减少用户在聊天与工具间搬运数据。"
+      ],
+      "validation_questions": [
+        "对同一品牌问题重复监测，检查结果是否稳定。",
+        "让连接后的 AI 代理查一次排名，检查是否与应用内结果一致。"
+      ],
+      "category": "效率工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "让路人为地点选歌，比单纯刷推荐多了一层探索感。不过常走的路上如果没有歌，设计再有趣也很难常用。"
+      "overall_reason": "我最看重的是集中查看搜索表现与 AI 品牌回答；最影响判断的是监测能否区分真实变化和回答波动。"
     },
     {
       "id": "1262113",
       "name": "DALI AI by SupplyzPro",
       "name_zh": "DALI AI by SupplyzPro",
-      "tagline_zh": "无需打开的 ERP（企业业务管理系统）",
-      "description_zh": "SupplyzPro 是一个由 AI 支持的集中式工作空间，用来管理销售、采购、实时库存、开票、供应商和付款等业务。介绍邀请用户通过 WhatsApp 发消息开始使用。",
-      "intro_zh": "给需要管理进销存和账单的经营者用，通过发消息与业务管理工作空间交互。",
+      "tagline_zh": "无需打开的企业资源管理系统",
+      "description_zh": "SupplyzPro 是一个由 AI 支持的一体化业务工作空间，可管理销售、采购、实时库存、开票、供应商和付款等事务。介绍提供了 WhatsApp 链接，用户可发送消息开始使用。",
+      "intro_zh": "给需要管理进销存和账务的经营者，用聊天方式处理销售、采购、库存和开票等业务。",
       "url": "https://www.producthunt.com/products/supplyzpro-the-conversational-erp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "website": "https://www.producthunt.com/r/Z4NJ6O6UCMBXQL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
       "image_url": "https://ph-files.imgix.net/7b338ae2-cf57-417b-9cd2-4a44acf03325.jpeg?auto=format",
@@ -452,40 +453,39 @@
       "scores": {
         "product_value": {
           "score": 3,
-          "reason": "业务范围和消息入口明确，但能直接完成哪些操作尚不清楚。"
+          "reason": "业务范围和聊天入口清楚，但能完成哪些具体操作还不明确。"
         },
         "technical_insight": {
-          "score": 3,
-          "reason": "把文字请求准确变成业务操作有具体难点，但实现细节未披露。"
+          "score": 4,
+          "reason": "如何把聊天内容准确变成业务记录，是具体且重要的技术问题。"
         },
         "transferability": {
           "score": 3,
-          "reason": "消息入口可借鉴，适用操作及确认方式仍需验证。"
+          "reason": "聊天入口可借鉴，但适用任务和确认方式仍需验证。"
         }
       },
       "product_analysis": {
-        "target_problem": "管理采购、库存和账单的经营者可能会需要它。以前要打开业务系统处理事情，现在主打发消息交互，减少进入后台找功能的麻烦。",
-        "workflow": "用户从提供的 WhatsApp 链接发消息开始。介绍没有展示后续如何查询库存或完成开票，不能据此补出完整操作流程。",
-        "ai_value": "介绍说工作空间由 AI 支持，但没说明 AI 是理解消息、查询数据，还是直接执行操作。",
-        "differentiation": "它把发消息作为业务入口。最可能让人犹豫的是：消息是否表达准确，尤其涉及金额和数量时。"
+        "target_problem": "同时管销售、采购和库存的经营者，需要频繁查询、登记业务。它尝试让这些事务在聊天中完成，但介绍没说明能替代多少系统内操作。",
+        "workflow": "从介绍中的 WhatsApp 链接发送消息开始。资料没有展示后续如何查询库存、录入订单或处理付款。",
+        "ai_value": "AI 被用于业务工作空间，但介绍没说明它如何理解消息、执行操作，或何时需要用户确认。",
+        "differentiation": "聊天入口可能省去寻找菜单的步骤。最可能让人不愿换过来的原因，是不确定一句话会改动哪些业务记录。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍明确提到 AI、实时库存和 WhatsApp 消息入口，没说具体用什么技术。",
-        "possible_approach": "如果自己做，可以先把消息识别成查询或修改请求，再匹配商品和单据；涉及修改时，先展示明细让用户确认，再保存。",
-        "tradeoffs": "最容易出错的是把口语中的商品和数量对应错。若直接修改，可能导致库存或账单记错。",
-        "unknowns": "发消息究竟能完成哪些业务操作？"
+        "disclosed_facts": "介绍明确提到 AI、实时库存和 WhatsApp 消息入口，没说具体实现技术。",
+        "possible_approach": "如果自己做，可以先把消息拆成业务动作和字段，再展示待写入内容，让用户确认后保存。",
+        "tradeoffs": "最容易错的是把含糊表达写成确定记录。商品或数量理解错了，库存就可能跟着出错。",
+        "unknowns": "聊天能直接修改业务数据，还是主要提供查询和操作引导？"
       },
       "transferable_insights": [
-        "做已有后台的业务产品时，可以先让用户发消息查询库存，把复杂表单操作留在原界面。"
+        "做库存或订单工具时，可先让聊天承担简单查询；涉及写入时，列出商品、数量和金额供用户确认。"
       ],
       "validation_questions": [
-        "发起一次库存查询，检查能否直接得到对应商品的数据。",
-        "发送有歧义的数量修改请求，检查是否先澄清再保存。"
+        "用一句包含商品简称的库存查询，检查它是否找对商品。",
+        "提交一条缺少数量的采购请求，检查它是否先追问再保存。"
       ],
       "category": "效率工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "发消息查库存，比进后台找菜单更顺手。但它能做哪些业务操作、改数据前会不会确认，介绍还没讲清楚。"
+      "overall_reason": "我看重把常用业务放进聊天入口的便利；但能否准确、可控地修改记录，比入口本身更影响使用判断。"
     }
-  ],
-  "analysis_style": "plain_language_v1"
+  ]
 }
