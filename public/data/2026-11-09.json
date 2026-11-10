@@ -1,0 +1,490 @@
+{
+  "date": "2026-11-09",
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "producthunt_api",
+  "generated_at": "2026-11-10T23:30:34+08:00",
+  "generation_error": false,
+  "products": [
+    {
+      "id": "1293370",
+      "name": "Databox CLI",
+      "name_zh": "Databox CLI",
+      "tagline_zh": "在终端里使用数据分析平台和 AI 代理",
+      "description_zh": "可以直接从终端创建数据源、加载数据、构建指标并自动化工作流。用户可以自己使用 90 多条命令，也可以让 Claude Code、Cursor、Codex 等 AI 编码代理借助 10 项现成技能来操作。",
+      "intro_zh": "面向需要管理数据分析流程的团队和开发者，可在终端创建数据源、加载数据、构建指标并自动化工作流。",
+      "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/BTKDEK3DQ7EK3M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c12420a9-d710-49fd-8fe1-d4259b157cf9.png?auto=format",
+      "votes_count": 296,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖多项分析平台操作，但具体省时效果和适用边界未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "命令行和代理技能的组合值得关注，资料未说明执行与权限控制方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让人和 AI 代理共用一组命令与技能的做法可借鉴，实际效果待验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要创建数据源、加载数据、维护指标或自动化分析流程的人会用到它。资料没有说明他们原先具体怎么操作；它把这些工作放到终端中处理。",
+        "workflow": "用户可以在终端运行 90 多条命令，完成数据源创建、数据加载、指标构建和工作流自动化；也可以让支持的 AI 编码代理使用 10 项现成技能来执行工作。",
+        "ai_value": "AI 编码代理可以调用现成技能操作平台，减少用户逐项手动执行命令的需要。资料没有说明代理能独立完成哪些决策。",
+        "differentiation": "它把分析平台操作和 AI 编码代理放进终端工作流。最可能的阻碍是团队不习惯用命令行管理分析工作。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称产品提供 90 多条命令，并为 Claude Code、Cursor 和 Codex 等 AI 编码代理提供 10 项现成技能。",
+        "possible_approach": "如果自己做，可以先把常用平台操作做成清晰的命令，再为代理提供能调用这些命令的技能说明。难点是让命令执行结果明确，代理出错时用户才能发现并纠正。",
+        "tradeoffs": "代理可能把错误的数据或指标操作执行下去，用户随后会基于错误结果分析；资料没有说明执行前确认或撤销方式。",
+        "unknowns": "介绍没有说明命令和代理如何获得数据访问权限，以及权限能否按操作限制。"
+      },
+      "transferable_insights": [
+        "做数据或运维产品时，可以把常用操作整理成命令，并提供代理可复用的技能，让熟悉终端的用户和 AI 使用同一套操作入口。"
+      ],
+      "validation_questions": [
+        "让代理创建一个数据源并加载一份测试数据，检查执行结果是否准确、过程是否可核对。",
+        "检查不同命令能否限制数据访问权限，以及误操作能否撤销。"
+      ],
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "同一组终端操作既可由人执行，也可交给 AI 编码代理；但资料没有说明代理权限如何限制，判断实际可用性还需要验证。"
+    },
+    {
+      "id": "1296250",
+      "name": "ProtoMap",
+      "name_zh": "ProtoMap",
+      "tagline_zh": "别再让 AI 编程工具耗费令牌重新查找依赖关系",
+      "description_zh": "ProtoMap 帮助工程师和 AI 编程工具理解大型代码库中服务、API 与数据字段之间的依赖关系。它为 gRPC 和 Protobuf 系统生成依赖图，并在每次提交后更新，可通过网页或 MCP 查询；产品方称，一家企业团队将变更规划时间和令牌用量减少了 8 倍。",
+      "intro_zh": "面向维护大型 gRPC、Protobuf 代码库的工程师和 AI 编程工具，用依赖图查询服务与字段之间的关系。",
+      "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AK5JMQTTDBGMD4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/add69d5b-9aeb-43bb-889d-14926ec882fb.gif?auto=format",
+      "votes_count": 164,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对跨仓库查依赖和评估变更影响，但 8 倍收益只有产品方的单一案例支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "每次提交更新依赖图，并供 AI 工具查询，关键在于图是否准确且及时。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把代码关系整理成可查询的图可借鉴，但目前只说明适用于 gRPC 和 Protobuf 系统。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "维护大型 gRPC、Protobuf 代码库的工程师和 AI 编程工具，需要确认服务、API、数据字段之间的依赖，以及改动会影响哪些部分。跨仓库搜索代码可能耗时，也会消耗 AI 令牌。",
+        "workflow": "提交代码后，ProtoMap 更新依赖图。工程师通过网页查看，或让 AI 编程工具通过 MCP 查询关系和变更影响；介绍没有说明具体查询步骤。",
+        "ai_value": "AI 编程工具可以直接查询依赖图，减少为理解关系而搜索多个代码仓库的需要。介绍没有说明它使用哪种 AI 模型。",
+        "differentiation": "以前需要在代码库中搜索依赖，现在可以查询集中生成的依赖图。最可能影响采用的是图谱若未覆盖团队实际关心的关系，查询结果就不足以支持变更规划。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它为 gRPC 和 Protobuf 系统生成确定性的依赖图，并在每次提交后更新；可通过网页或 MCP 访问。",
+        "possible_approach": "如果自己做，可以先从 gRPC 和 Protobuf 定义中提取服务、API 与字段，再记录它们之间的引用关系；随后在每次提交时更新这份关系图，并提供查询入口。",
+        "tradeoffs": "最容易出错的是提取或更新关系时漏掉引用。图谱一旦不完整，工程师或 AI 可能低估改动影响，计划时还得回到代码中核对。",
+        "unknowns": "介绍没有说明如何处理定义之外的依赖，也没有给出图谱覆盖率或准确性数据。"
+      },
+      "transferable_insights": [
+        "如果你的产品需要 AI 助手理解大型代码库，可以把常查的关系整理成可查询的数据，让助手先查关系，再决定是否深入搜索源码。"
+      ],
+      "validation_questions": [
+        "选一次涉及多个服务或字段的改动，检查依赖图是否列出实际受影响的对象。",
+        "代码提交后立即查询相关关系，确认图谱已更新且没有保留旧结果。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把依赖关系整理成 AI 可直接查询的图，可能减少变更前的代码搜索；但图谱的覆盖和准确性尚无材料验证。"
+    },
+    {
+      "id": "1308023",
+      "name": "Higgsfield Miracle",
+      "name_zh": "Higgsfield Miracle",
+      "tagline_zh": "只编辑视频中的指定部分，不改动其余内容",
+      "description_zh": "它把视频转换成可分层编辑的内容，支持实时局部修改。用户可以重着色、换背景、增删元素、调光或改纹理，同时保留原有动作、镜头和主体。",
+      "intro_zh": "面向需要修改视频局部的创作者，可换背景、改物体颜色或增删元素，同时保留画面其他部分。",
+      "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SQJXVLATW6UFHE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e4ef4d9c-3278-4958-8970-9e68d00db080.jpeg?auto=format",
+      "votes_count": 136,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对视频局部修改，减少重做整段画面的需要；实际保留效果仍待验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "把视频转成分层内容是关键做法，但分层如何生成和保持稳定未说明。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "局部编辑并保留其余内容的思路清楚，适用边界和实现细节不明。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要改视频里某个物体、背景或光线的创作者会用到它。逐帧修改局部内容可能繁琐，也容易连带改变不想动的部分。",
+        "workflow": "介绍支持将视频转换为可编辑层，再对指定区域做颜色、背景、元素、光线或纹理修改；没有说明具体操作步骤。",
+        "ai_value": "介绍提到内置对画面内容的理解，但没说明 AI 具体参与哪些编辑步骤。主要价值是定位并修改局部，同时尽量保留动作、镜头和主体。",
+        "differentiation": "它把编辑范围限定在视频局部，目标是保留其他画面内容。最可能的顾虑是修改后能否跨帧稳定，尤其是物体移动或被遮挡时。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它会把视频转换成可分层内容，支持实时局部、像素级编辑，并称内置对画面内容的理解。",
+        "possible_approach": "如果自己做，可以先识别每帧中要改的物体和区域，再把区域与原画面分开处理，最后逐帧合成并检查动作是否连贯。难点是物体移动或被遮挡时，持续认准同一对象。",
+        "tradeoffs": "最容易出错的是跨帧追踪编辑区域。若边界跳动或漏掉被遮挡部分，画面会闪烁，或修改到不该动的内容。",
+        "unknowns": "介绍没有说明复杂镜头和遮挡下，编辑结果能否稳定保留原有动作与主体。"
+      },
+      "transferable_insights": [
+        "做视频编辑工具时，可以把“只改指定区域、保留其余画面”作为明确的编辑目标，适合临时改背景或物体外观的场景。"
+      ],
+      "validation_questions": [
+        "选一个物体持续移动并短暂被遮挡的片段，检查局部修改边界是否闪动或漏改。",
+        "修改背景或物体外观后，检查主体动作、镜头运动和其他物体是否保持原样。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它试图省去为局部改动重做整段视频的麻烦；判断关键在于移动和遮挡时能否稳定地只改目标区域。"
+    },
+    {
+      "id": "1307104",
+      "name": "Product Hunt MCP",
+      "name_zh": "Product Hunt MCP",
+      "tagline_zh": "把你信任的社区带进常用的助手",
+      "description_zh": "让 AI 助手帮你发现新产品、比较替代品并查看 Product Hunt 社区的看法。准备发布产品的人也可以用 README 和网站生成发布草稿、添加图片，并检查提交前缺少的内容；连接时需登录 Product Hunt，无需 API key。",
+      "intro_zh": "给用 AI 助手找产品或准备在 Product Hunt 发布的人，用对话发现、比较产品，或从 README 和网站整理发布草稿。",
+      "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ERQDTXX2HLG67G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/4363272e-3e12-4a73-8e19-559a627fc568/9060d6c3d4e51b865150fc9f35b3142ca191c66dc3d5d006ccbe1cf342690ef5.png?auto=format",
+      "votes_count": 432,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖找产品和准备发布两类明确任务，但实际结果质量未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "需要把 Product Hunt 数据和发布草稿功能接入助手，具体实现与错误处理方式未说明。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴在助手里同时提供发现与发布准备，但适用效果要看数据和草稿质量。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想找新产品的人，可以在助手里探索发布内容、比较替代品并查看社区看法。准备发布的人，则可少做一部分从 README、网站整理资料和检查提交内容的工作。",
+        "workflow": "用户登录 Product Hunt 连接助手，然后用助手查找或比较产品；发布者可提供 README 和网站，生成草稿、添加图片并检查缺项。具体操作步骤没有说明。",
+        "ai_value": "AI 助手负责理解用户的查找或比较请求，也可根据 README 和网站整理发布草稿。介绍没有说明草稿如何生成或社区意见如何汇总。",
+        "differentiation": "查找产品和准备发布都能从常用助手发起，少切换到 Product Hunt 页面处理。是否愿意接入，可能取决于助手能否给出可信、及时的社区信息。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称需登录 Product Hunt 连接，且无需 API key；没有说明 MCP 的具体实现或使用的技术。",
+        "possible_approach": "如果自己做，可以先让助手把问题整理成查找或比较请求，再从产品资料中取回结果并整理回答；发布草稿则读取 README 和网站内容，生成字段后供用户检查。具体接入方式无法从介绍判断。",
+        "tradeoffs": "最容易出错的是从 README 和网站提取发布信息；若遗漏或误读关键信息，用户可能要重写草稿，甚至提交不准确的内容。",
+        "unknowns": "生成的草稿和图片能否在提交前逐项编辑、确认，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做面向创作者的产品时，可把已有资料整理成发布草稿，并在提交前列出缺项，适合资料分散、但发布表单固定的场景。"
+      ],
+      "validation_questions": [
+        "用内容完整和内容缺漏各一份的 README 与网站测试，检查草稿是否准确标出缺失字段。",
+        "询问多个具体产品并要求比较，核对返回信息是否对应 Product Hunt 上的产品及社区内容。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把产品发现和发布准备放进助手对话里；最影响判断的是草稿能否准确提取资料并指出缺项。"
+    },
+    {
+      "id": "1302788",
+      "name": "Dageno AI 2.0",
+      "name_zh": "Dageno AI 2.0",
+      "tagline_zh": "查看 AI 为什么推荐竞争对手而不是你",
+      "description_zh": "Dageno AI 是一个 AEO/GEO 平台，可查看 ChatGPT、Gemini、Perplexity 等 10 个以上 AI 模型是否推荐你或竞争对手，以及哪些来源影响了回答。它提供市场、品牌、买家问题和引用来源的免费查询；需要跟踪自己的提示词时再升级，面向品牌和代理机构。",
+      "intro_zh": "面向品牌团队和代理机构，查看多个 AI 模型在市场问题中推荐哪些品牌、引用哪些来源。",
+      "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZUTLEQZYV5KE47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b13af53b-4eb5-452d-8528-2e2622c60a7e.png?auto=format",
+      "votes_count": 372,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户和查询内容明确，但这些发现如何转成有效改进尚未说明。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "能对照多个模型的推荐和来源，具体采集与归因方法未披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "免费市场查询与付费自有提示词跟踪分层清楚，适合参考，但效果待验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "品牌和代理机构想知道，潜在买家向 AI 提问时，哪些品牌被推荐、哪些来源被引用。逐个模型和市场查找这些信息可能费时。",
+        "workflow": "先免费查询市场，查看热门品牌、买家问题和引用来源；需要持续跟踪自有提示词时再升级。简介没有说明查询结果如何导出或更新。",
+        "ai_value": "产品用多个 AI 模型回答市场问题，再展示品牌推荐和回答引用的来源。简介没有说明它是否用 AI 生成额外分析。",
+        "differentiation": "它把多模型推荐、竞争品牌和引用来源放在市场查询中查看，省去分别整理的工作。是否愿意换用，关键看结果是否能对应到真实买家问题。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称覆盖 ChatGPT、Gemini、Perplexity 等 10 个以上模型，并提供 12,000 多个细分市场和 300 多万个品牌的数据。",
+        "possible_approach": "如果自己做，可以先整理一组市场和买家问题，再分别查询多个模型并记录推荐品牌与引用来源。最后按市场汇总；最难的是让不同模型的回答能公平对照。",
+        "tradeoffs": "模型回答会变化，若查询时间或问题写法不同，品牌排名和来源就可能不可比，用户可能把波动误当成品牌表现变化。",
+        "unknowns": "没有说明模型查询频率，以及不同时间的结果如何记录和比较。"
+      },
+      "transferable_insights": [
+        "做品牌研究工具时，可以先开放市场级概览，再把自有提示词的持续跟踪作为付费功能，适合用户先判断是否值得深入的场景。"
+      ],
+      "validation_questions": [
+        "用同一市场问题重复查询，检查品牌推荐和引用来源是否稳定。",
+        "核对展示的引用来源是否确实出现在对应模型的原始回答中。"
+      ],
+      "category": "数据分析",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "多模型的品牌推荐与引用来源可集中查看；但查询结果的稳定性和可比较方式尚不清楚。"
+    },
+    {
+      "id": "1306799",
+      "name": "Arcjet AI security models",
+      "name_zh": "Arcjet AI security models（Arcjet AI 安全模型）",
+      "tagline_zh": "为编码智能体定制训练的一组安全模型",
+      "description_zh": "Arcjet 发布了一组用于分析 AI 智能体活动的定制模型。Himalia 1 用于通用提示注入检测，并已用于相关 SDK 调用；Thebe 1 面向编码智能体，Carme 1 面向自主安全智能体。",
+      "intro_zh": "面向接入 Arcjet 的开发者，用模型检测提示注入，并为编码或自主安全智能体提供专用检测模型。",
+      "url": "https://www.producthunt.com/products/arcjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VT6JRMB2LSBNQT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/d75616fe-ab9a-4af7-a0eb-d79209b2d81c.jpeg?auto=format",
+      "votes_count": 232,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "指出了智能体安全检测的用途和不同场景，但实际效果未经独立验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "按用途区分模型值得关注，资料没有说明检测机制或评估结果。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "专用模型对应特定场景的做法可借鉴，但适用边界仍待验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "开发者在产品中接入 AI 智能体时，可能需要识别用户输入或智能体活动中的提示注入。通用检测模型未必适合编码智能体和自主安全智能体的场景。",
+        "workflow": "介绍明确说，使用提示注入检测的 Arcjet SDK 调用会使用 Himalia 1。Thebe 1 和 Carme 1 分别针对编码智能体和自主安全智能体；具体如何选择或配置，介绍没有说明。",
+        "ai_value": "产品本身就是一组定制训练的 AI 安全模型，用于分析智能体活动和检测提示注入。介绍没有交代模型如何判断风险。",
+        "differentiation": "以前可以使用通用提示注入检测；现在 Arcjet 提供面向编码和自主安全智能体的专用版本。最可能影响采用的是：介绍没有给出误报、漏报或不同场景下的检测效果。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称这些模型经过定制训练；Himalia 1 用于通用提示注入检测，Thebe 1 面向编码智能体，Carme 1 面向自主安全智能体；Himalia 1 已用于相关 SDK 调用。",
+        "possible_approach": "如果自己做，可以先收集不同类型智能体会遇到的提示注入例子，再分别检查通用模型和专用模型的判断结果。整理误报和漏报后，调整训练数据或检测规则，并用新例子重复测试。",
+        "tradeoffs": "最容易出错的是把正常内容判成攻击，或漏掉伪装成代码、工具指令的注入。前者会打断正常操作，后者可能让智能体照着恶意指令行动。",
+        "unknowns": "介绍没有给出各模型的准确率、误报率，也没有说明用户能否查看或调整检测结果。"
+      },
+      "transferable_insights": [
+        "做代码助手或安全审查产品时，可以按实际任务区分检测场景，再用对应场景的例子检查通用模型是否容易误判。"
+      ],
+      "validation_questions": [
+        "用一组正常代码任务和带提示注入的代码任务测试 Thebe 1，分别记录误报和漏报。",
+        "确认接入 SDK 后，检测结果如何返回，开发者能否据此决定继续、阻止或交由用户确认。"
+      ],
+      "category": "安全隐私",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "按智能体用途区分检测模型，能让安全测试更贴近具体任务；但没有误报和漏报数据，尚难判断实际保护效果。"
+    },
+    {
+      "id": "1266350",
+      "name": "Voyager",
+      "name_zh": "Voyager",
+      "tagline_zh": "一款用来浏览工作资料、并将文件交给 AI 智能体使用的工具",
+      "description_zh": "Voyager 将 AI 智能体带入 macOS 上的日常文件工作。用户可以在熟悉的文件浏览器中查找文件，并把文件作为上下文交给 AI 智能体处理。",
+      "intro_zh": "面向在 macOS 上处理文件的用户：先找到工作资料，再在文件浏览器中把它们交给 AI 智能体作为上下文。",
+      "url": "https://www.producthunt.com/products/vygr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DECOX5K4UP7P3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e37fbd7c-a275-4e5b-8d28-6dbba9eddc8d.png?auto=format",
+      "votes_count": 168,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "明确把找文件和交给 AI 使用放在同一处，但未说明具体任务或节省多少时间。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "文件如何成为智能体的上下文是关键问题，介绍没有说明具体实现。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把 AI 操作放进熟悉的文件浏览场景可供借鉴，但适用效果仍需验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "适合需要在 macOS 上查找工作文件并借助 AI 处理资料的人。若文件分散在不同位置，找到合适资料后再交给 AI 可能要来回切换；介绍没有说明用户原先具体怎么做。",
+        "workflow": "在文件浏览器中查找需要的文件，再让 AI 智能体使用这些文件作为上下文。介绍没有列出后续任务类型或操作细节。",
+        "ai_value": "AI 智能体能使用用户找到的文件作为上下文；它会具体生成什么结果，介绍没有说明。",
+        "differentiation": "把文件查找和 AI 使用放在同一个文件浏览器里，可能少一次切换。最可能影响是否采用的是：用户能否确认智能体实际读取了哪些文件。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称 Voyager 面向 macOS，并将 AI 智能体与文件浏览器结合；没有说明具体技术。",
+        "possible_approach": "如果自己做，可以先提供文件浏览和查找，再让用户选定文件作为上下文交给智能体。难点是清楚标出实际交给智能体的文件，避免误用不相关资料。",
+        "tradeoffs": "最容易出错的是选入的文件不完整或不相关，智能体就可能依据错误上下文回答，用户还得重新检查和补充资料。",
+        "unknowns": "介绍没有说明智能体能访问哪些文件，以及用户如何控制访问范围。"
+      },
+      "transferable_insights": [
+        "做需要用户提供资料的 AI 工具时，可以把选文件放进用户已有的文件浏览场景，减少在查找资料和使用 AI 之间切换。"
+      ],
+      "validation_questions": [
+        "选定文件后，能否清楚查看哪些内容会作为上下文交给智能体？",
+        "让智能体处理一组不同类型的工作文件时，结果是否会遗漏关键文件中的信息？"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把找文件和交给 AI 使用合在熟悉的浏览器里，可能减少切换；但文件访问范围和上下文选择方式仍不清楚。"
+    },
+    {
+      "id": "1306678",
+      "name": "MCP1",
+      "name_zh": "MCP1",
+      "tagline_zh": "用一个网址连接所有 MCP 服务器。",
+      "description_zh": "MCP1 是 Appwrite 推出的网关，用于连接和管理多个 MCP 服务器。它支持管理权限、保护服务器凭据和查看工具使用情况，并可配合 Claude、Cursor、ChatGPT、Codex 等工具使用；个人用户免费，团队和企业有专属方案。",
+      "intro_zh": "面向使用多个 AI 工具或 MCP 服务器的个人与团队，用一个网关连接服务器，并统一管理权限和使用情况。",
+      "url": "https://www.producthunt.com/products/appwrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QC2MD2OS3ZT23L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fd600c2e-e49e-42eb-a759-dccbc3200e31.png?auto=format",
+      "votes_count": 140,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "介绍明确了连接、权限和凭据管理用途，但没有说明实际使用中能省多少操作。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "集中管理凭据和权限有具体技术问题，介绍未交代其实现方式与保护边界。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "统一入口和集中管理可借鉴，但适用条件与具体做法仍需验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "同时使用多个 MCP 服务器和 AI 工具的个人或团队，可能需要分别配置连接并管理权限。介绍没有说明他们原先具体采用什么流程。",
+        "workflow": "通过 MCP1 这个网关连接并管理 MCP 服务器，再将其与 Claude、Cursor、ChatGPT、Codex 等 AI 工具配合使用。介绍没有给出具体配置步骤。",
+        "ai_value": "介绍没有说 MCP1 使用 AI；它负责连接 AI 工具与 MCP 服务器，并管理权限、凭据和工具使用情况。",
+        "differentiation": "统一入口可能减少分别连接和管理多个服务器的工作。最需要确认的是，用户是否愿意把服务器凭据交由这个网关保护。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称 MCP1 由 Appwrite 构建，可通过单一网关连接和管理 MCP 服务器，并提供权限管理、凭据保护和使用情况监控。",
+        "possible_approach": "如果自己做，可以先让网关登记各个服务器，再让 AI 工具通过同一入口调用它们；随后集中管理访问权限并记录调用情况。凭据如何保存和限制访问，是实现中最需要仔细设计的部分。",
+        "tradeoffs": "最容易出错的是凭据保护或权限配置；一旦配置不当，用户可能暴露服务器凭据，或让工具获得不该有的访问权限。",
+        "unknowns": "介绍没有说明凭据如何存储、谁能访问，也没有解释网关不可用时各工具会怎样。"
+      },
+      "transferable_insights": [
+        "做需要连接多个外部服务的产品时，可以考虑提供统一入口，并在同一处管理权限和调用记录。"
+      ],
+      "validation_questions": [
+        "连接一个实际使用的 MCP 服务器和 AI 工具，检查配置过程是否清楚、调用是否能正常完成。",
+        "查看权限设置和凭据保护方式，确认不同工具能否被限制在各自获准的服务器与操作范围内。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把多个 MCP 服务器集中到一个入口，可能减少分散管理的工作；但凭据保护和权限边界的具体做法尚不清楚。"
+    },
+    {
+      "id": "1309486",
+      "name": "GitHub New PR Overview",
+      "name_zh": "GitHub New PR Overview（GitHub 新版拉取请求概览）",
+      "tagline_zh": "不用往下翻，就能看到拉取请求被什么卡住。",
+      "description_zh": "新版拉取请求概览页把合并状态放在顶部，并用一块摘要集中显示检查、审批、评论和下一步操作。它还增加未解决评论筛选、按最新优先排序和活动面板。",
+      "intro_zh": "给需要审查或跟进代码变更的人用，快速查看拉取请求能否合并、还有哪些事项待处理。",
+      "url": "https://www.producthunt.com/products/github?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CNDTGBVSQ4JX55?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b941d602-b9a4-4bb8-bab5-b1760bbc32a1.jpeg?auto=format",
+      "votes_count": 129,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确指出审查者要找的状态和待办，并把相关信息集中到页面顶部。"
+        },
+        "technical_insight": {
+          "score": 2,
+          "reason": "资料说明了界面功能，但没有交代实现方式或技术难点。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把状态、评论和下一步操作放在同一摘要中的做法可用于其他审核流程。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "审查者或提交者想判断一个拉取请求能否合并时，需要查看检查、审批和评论等信息。概览页针对的是这些状态分散在页面不同位置、需要往下翻找的麻烦。",
+        "workflow": "打开拉取请求的概览页，先看顶部的合并状态、检查、审批、评论和下一步操作；再用筛选和排序找未解决评论，或查看活动面板。",
+        "ai_value": "介绍没提 AI，主要靠调整信息位置、筛选和排序来改善查看体验。",
+        "differentiation": "它把合并状态和相关待办集中显示，减少翻找。最可能的换用阻力是用户仍需点进检查或评论的具体内容，才能处理问题；简介没有说明这些操作能否直接在概览页完成。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到顶部合并状态摘要、未解决评论筛选、最新优先排序和活动面板，没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先从拉取请求已有的数据中汇总检查、审批和评论状态，再按处理优先级放到页面顶部，并提供评论筛选和排序。",
+        "tradeoffs": "最容易出错的是汇总状态没有及时反映最新检查或审批结果，用户可能误以为请求已满足合并条件，或漏掉仍待处理的事项。",
+        "unknowns": "简介没有说明顶部状态更新得有多及时。"
+      },
+      "transferable_insights": [
+        "做审批或审核产品时，可以把最终状态和待办放在记录页顶部，让处理者先判断下一步，再查看详细活动。"
+      ],
+      "validation_questions": [
+        "更新检查或审批结果后，概览页是否能及时显示新的合并状态？",
+        "筛选未解决评论时，是否会漏掉仍需处理的评论？"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "顶部汇总能让审查者更快定位待办；但状态更新是否及时，决定了它能否可靠地帮助判断合并条件。"
+    },
+    {
+      "id": "1305634",
+      "name": "Cardboard AI",
+      "name_zh": "Cardboard AI",
+      "tagline_zh": "用 AI 编辑视频",
+      "description_zh": "Cardboard 是一款 AI 视频编辑器，可把原始片段整理成故事。产品将它描述为能理解素材、判断剪辑效果并呈现创作者想法的创作伙伴。",
+      "intro_zh": "面向要整理视频素材的人，把原始片段编辑成有故事的视频。",
+      "url": "https://www.producthunt.com/products/cardboard-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CUFL5L7KXTX4V4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3a48c809-c8ee-449b-8bfa-24575fe007d3.jpeg?auto=format",
+      "votes_count": 113,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "明确了原始片段到成片故事的用途，但没有说明实际能省多少编辑工作。"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "简介没有说明处理素材和生成剪辑的具体方法，难以判断技术难点。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴从原始素材出发组织成故事的方向，但具体做法和适用条件未说明。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要从一批原始视频片段整理出成片的人可能会用到它。简介没有说明他们原先的具体剪辑方式。",
+        "workflow": "用户提供原始片段，产品将其编辑成故事；简介未描述后续调整或导出步骤。",
+        "ai_value": "产品称 AI 会理解视频素材并参与剪辑判断；“有品味”是宣传说法，资料没有给出判断标准。",
+        "differentiation": "它试图把素材整理和故事剪辑交给 AI 参与，可能减少手动挑选片段的工作。创作者是否能控制剪辑结果，是最可能影响是否愿意换用的因素。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只说明这是 AI 视频编辑器，没有披露具体使用的技术。",
+        "possible_approach": "如果自己做，可以先识别片段中的人物、场景和动作，再按创作者给出的主题挑选片段并排成初稿。难点是判断哪些片段值得保留，避免剪出的故事偏离创作者想表达的内容。",
+        "tradeoffs": "最容易出错的是挑选和排序片段；若漏掉关键画面或误判内容，用户还得重新检查并调整剪辑。",
+        "unknowns": "用户能否查看并修改 AI 的选片和排序，简介没有说明。"
+      },
+      "transferable_insights": [
+        "做相册或内容整理产品时，可以先按主题把零散素材组织成一个可修改的初稿，适合用户素材多但尚未确定最终呈现方式的场景。"
+      ],
+      "validation_questions": [
+        "用一组有明确主题的原始片段，检查生成的剪辑是否保留了表达主题的关键画面。",
+        "检查用户能否方便地替换或重排片段，而不必从头生成。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "信息不足",
+      "overall_reason": "把原始片段整理成故事这一目标清楚；但能否让创作者控制选片和排序，资料没有交代。"
+    }
+  ]
+}
