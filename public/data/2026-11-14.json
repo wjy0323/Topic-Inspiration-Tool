@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-14",
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "producthunt_api",
+  "generated_at": "2026-11-15T22:38:37+08:00",
+  "generation_error": false,
+  "products": [
+    {
+      "id": "1301510",
+      "name": "HiringNow",
+      "name_zh": "HiringNow",
+      "tagline_zh": "会帮你找工作并申请的 AI 求职代理，抢在别人之前",
+      "description_zh": "HiringNow 每 5 分钟检查 247,000 多个公司招聘网站，让用户更早看到新职位。它根据个人资料匹配职位，定制简历和求职信，经用户确认后在雇主网站提交申请，并把回执记录到求职追踪器；另外提供简历制作和模拟面试，免费版支持 10 次自动申请。",
+      "intro_zh": "适合集中投递工作的求职者：自动找新职位、改材料，并在确认后代提交申请。",
+      "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WSO7S2YHKPGAXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/aa83ec4d-5bc0-4759-a87f-545a100040f0.jpeg?auto=format",
+      "votes_count": 285,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确减少了找职位、改申请材料和逐个提交的重复操作，但实际匹配和投递质量尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "同时处理招聘网站抓取、职位匹配和跨网站申请，网站差异会直接影响结果。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把每次申请的回执写入追踪器，适合借鉴到其他需要留痕的自动化流程。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要高频找工作和投递的求职者会用到它。原本可能要在公司招聘网站和大型招聘平台之间反复查看，再针对不同职位修改材料并填写申请。",
+        "workflow": "用户先提供个人资料。HiringNow 检查公司招聘网站，发现职位后进行匹配，生成定制简历和求职信；用户确认后，它在雇主网站提交申请，并把申请回执记录到工作追踪器。",
+        "ai_value": "AI 用来根据个人资料匹配职位，并定制简历和求职信；产品还把它用于模拟面试。介绍没有说明具体模型或判断规则。",
+        "differentiation": "它把职位发现、材料定制和雇主网站投递放在同一流程里，少做重复操作。最可能阻碍换用的原因是用户需要把个人资料交给它，并信任它代为提交申请。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它每 5 分钟检查 247,000 多个公司招聘网站，并提供职位匹配、材料定制、经确认后投递和申请回执记录。",
+        "possible_approach": "如果自己做，可以先定时收集公司招聘页面，再提取职位要求并与用户资料匹配，接着生成针对性的简历和求职信，最后让用户确认后填写各网站表单并保存回执。",
+        "tradeoffs": "最容易出错的是提交雇主网站表单：不同网站的字段、登录验证和上传要求可能不同，结果可能是申请失败、填错信息，或用户以为已提交但没有拿到有效回执。",
+        "unknowns": "介绍没有说明它如何处理登录、验证码、重复职位和申请失败，也没有说明自动生成材料的准确率。"
+      },
+      "transferable_insights": [
+        "做需要用户确认的自动化产品时，可以把确认放在不可逆动作前，并为每次完成动作保存可查的回执。",
+        "做信息监测工具时，可以把新内容发现、个性化处理和结果追踪放在同一条用户流程里。"
+      ],
+      "validation_questions": [
+        "用同一份个人资料测试多个不同公司的职位，检查匹配结果、简历修改和求职信是否准确且没有编造经历。",
+        "确认 10 次真实申请中，雇主网站是否都成功提交，并逐项核对表单内容、附件和回执。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最具体的好处是减少逐个找职位和填写申请的重复劳动；最影响判断的是它在不同雇主网站上能否稳定、准确地完成提交。"
+    },
+    {
+      "id": "1313358",
+      "name": "Dex Semantics",
+      "name_zh": "Dex Semantics",
+      "tagline_zh": "让你的智能体构建分析时少犯 25% 的错误",
+      "description_zh": "Dex Semantics 在分析模型中加入声明，说明每行代表什么、表之间如何关联、数值如何汇总，以及决策所依据的假设；这些声明作为代码保存在模型里，无需放进第三方工具，并可由它帮助智能体转换到用户选择的语义层。厂商称，搭配 Claude Sonnet 5.5 时，ADE-bench 得分从未使用 Dex 的 73.3% 提高到 80%，相当于失败任务减少约 25%。",
+      "intro_zh": "给用 AI 编写数据分析的数据团队，把数据含义和计算规则写进模型，帮助智能体按规则生成分析。",
+      "url": "https://www.producthunt.com/products/dex-by-exmergo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RZIMECXI6OYCNP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ba87a49e-64a9-4972-9c1a-e9f933738dfc.png?auto=format",
+      "votes_count": 204,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对分析口径出错，但实际收益只有厂商测试支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "如何保留表关联和汇总规则，是具体且重要的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把业务规则随模型保存，可借用于其他依赖业务含义的生成任务。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "用 AI 写分析时，数据团队需要让它理解一行代表什么、哪些数能相加。只看字段名，可能算出形式正确、口径错误的结果。",
+        "workflow": "先在分析模型中加入含义、关联和汇总声明，再让 Dex 帮助智能体将声明转换到所选语义层，也就是统一定义指标和计算规则的地方。",
+        "ai_value": "它为智能体提供业务规则，帮助其构建分析。介绍中的测试提升来自厂商，不能据此认定所有分析任务都会少错 25%。",
+        "differentiation": "规则直接留在模型代码里，便于随模型一起维护。团队可能不愿切换，因为需要先把隐含的业务约定写清楚。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "声明以代码形式保存在模型中，涵盖行含义、表关联、汇总规则和决策假设，并支持向所选语义层转换。",
+        "possible_approach": "如果自己做，可以先规定规则的写法，再读取声明并转换成目标工具的指标定义，最后用已知结果的样例核对。",
+        "tradeoffs": "最容易错在把表关联和汇总规则一起转换：关联后若重复计数，用户看到的收入等指标就可能偏大。",
+        "unknowns": "介绍没说支持哪些语义层，无法判断现有工具能否接入。"
+      },
+      "transferable_insights": [
+        "做 AI 报表工具时，可以把指标口径随数据模型保存，生成分析时一并提供，减少反复解释业务规则。"
+      ],
+      "validation_questions": [
+        "用一个关联后会重复行的样例，检查生成分析是否重复计数。",
+        "把声明转换到团队正在用的语义层，检查汇总规则是否保留。"
+      ],
+      "category": "数据分析",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把容易遗漏的业务含义写成可维护的规则；最影响判断的是，这些规则转换到现有工具后能否保持原意。"
+    },
+    {
+      "id": "1314543",
+      "name": "Gemini Robotics 2.5",
+      "name_zh": "Gemini Robotics 2.5",
+      "tagline_zh": "Gemini Robotics 2.5：Google 据称能力最强的机器人模型",
+      "description_zh": "Gemini Robotics 2.5 是 Google DeepMind 的视觉-语言-动作模型，把机器人看到的内容和收到的指令转换成手臂动作。介绍称，它已用于机器人伙伴合作，并在奔驰零件配套试点中达到 96% 成功率。",
+      "intro_zh": "给机器人研发和工厂自动化团队用，把视觉和指令转换成手臂动作来执行任务。",
+      "url": "https://www.producthunt.com/products/gemini-robotics-2-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/7TJIY2TFO3PDX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8c32c238-91e5-4f44-9dcc-9b4a1aa7cc02.jpeg?auto=format",
+      "votes_count": 163,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确对应机器人执行任务的需求，但适用任务、部署条件和实际收益仍需验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "介绍点明了从视觉和指令到动作的技术链条，动作可靠性仍是关键难点。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴视觉、指令和动作的组合方式，但资料不足以判断如何迁移到其他设备。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "工厂自动化和机器人研发团队会在需要机器人抓取、分拣或装配时使用它。以前要为不同任务编写或调整大量动作规则，现在可以让模型结合机器人看到的场景和文字指令生成手臂动作。",
+        "workflow": "机器人先获取现场视觉信息，再接收任务指令，由模型把两者转换成手和手臂的动作，最后由机器人执行。介绍还称它可适配不同类型的机器人，但没有说明具体配置步骤。",
+        "ai_value": "AI 负责理解视觉内容和自然语言指令，并把理解结果转成机器人可执行的手臂动作。它连接的是“看见和听懂”与“实际移动”这两步。",
+        "differentiation": "相比按场景逐条编写动作规则，它可能减少针对不同机器人任务的手工适配。最可能阻碍更换的原因是目前仍在向机器人合作伙伴逐步推出，团队未必能直接获得或部署。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确称它是视觉-语言-动作模型，可把机器人看到的内容和收到的指令转换成手和手臂动作，并支持不同机器人类型。",
+        "possible_approach": "如果自己做，可以先用视觉模型识别物体和位置，再把文字任务转成步骤，最后由动作控制模块把步骤变成关节运动。需要额外建立机器人状态和安全限制，避免模型输出超出设备能力的动作。",
+        "tradeoffs": "最容易出错的是从场景理解到精确动作的转换；一旦物体位置、形状或摆放方式变化，机器人可能抓偏、漏拿，甚至触发设备或人员安全风险。",
+        "unknowns": "介绍没有回答它支持哪些具体机器人接口、如何完成安全控制，以及 96% 成功率对应哪些任务和测试条件。"
+      },
+      "transferable_insights": [
+        "做需要操作现实设备的产品时，可以把“识别现场、理解指令、生成动作”拆成独立步骤，分别检查每一步的输入和输出。",
+        "做自动化功能时，可以先用受限任务验证动作成功率，再逐步增加物体种类和环境变化。"
+      ],
+      "validation_questions": [
+        "用同一批零件和固定任务测试，检查成功率是否接近介绍中的试点结果。",
+        "改变零件位置、朝向和光照后测试，检查机器人是否仍能正确完成动作并在失败时安全停下。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它可能减少机器人任务的规则编写，但能否落地主要取决于设备接入方式、动作安全控制和宣传成功率的测试条件。"
+    },
+    {
+      "id": "1314882",
+      "name": "Blender 5.3",
+      "name_zh": "Blender 5.3",
+      "tagline_zh": "Blender 现已原生支持 3D 高斯泼溅",
+      "description_zh": "Blender 5.3 新增对 3D 高斯泼溅（一种用大量带颜色、半透明的小斑点表示三维场景的方法）的原生支持，覆盖几何节点、Workbench、EEVEE 和 Cycles。其他新增内容包括 DLSS 4.5 视口降噪、可选的项目设置、合成器场景效果、材质光照节点，以及波纹剪辑（剪改片段时联动移动后续片段）。",
+      "intro_zh": "给使用高斯泼溅素材的三维创作者，在 Blender 内处理场景，并在不同预览与渲染工具中使用。",
+      "url": "https://www.producthunt.com/products/blender?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/AXLLXTVWQ7BDDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e92c3a1a-37a9-4422-8379-c61228a76abe.jpeg?auto=format",
+      "votes_count": 131,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "原生支持覆盖多个制作环节，但素材限制和实际省时程度未说明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "同一类场景数据如何在不同预览与渲染工具中呈现，是具体技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "让新素材进入现有编辑与输出工具，是可借用的产品做法。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "三维创作者需要把高斯泼溅素材放进场景继续制作。材料没有说明他们此前如何处理，不能据此断言过去必须依赖插件或切换软件。",
+        "workflow": "将高斯泼溅用于几何节点处理，再在 Workbench、EEVEE 或 Cycles 中查看或渲染。介绍未提供具体操作步骤。",
+        "ai_value": "介绍提到 DLSS 4.5 视口降噪，用于减少工作预览中的噪点；没有展开 AI 的具体作用，也没有效果数据。",
+        "differentiation": "原生支持可能减少素材在工具间转换的麻烦。最可能阻碍迁入的是现有素材能否兼容，介绍未说明格式范围。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "高斯泼溅支持覆盖几何节点及三套预览或渲染工具，并加入 DLSS 4.5 视口降噪。",
+        "possible_approach": "如果自己做，可以先让软件读取并保存斑点的位置、颜色和透明度，再接入编辑、预览和最终渲染。",
+        "tradeoffs": "难点可能在于透明斑点叠加后的显示一致性。若预览与最终渲染差异大，用户就得反复调整场景。",
+        "unknowns": "支持哪些高斯泼溅文件格式？"
+      },
+      "transferable_insights": [
+        "做素材编辑器时，新增素材类型应同时接入编辑、预览和导出，避免用户能打开却无法完成作品。"
+      ],
+      "validation_questions": [
+        "用现有的一份高斯泼溅素材，检查能否完整导入。",
+        "用同一场景对比工作预览和最终渲染，检查透明叠加是否明显变化。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最有用的是把新素材带入现有制作工具；最影响判断的是预览能否可靠反映最终画面。"
+    },
+    {
+      "id": "1281561",
+      "name": "CaptureFlow",
+      "name_zh": "CaptureFlow",
+      "tagline_zh": "开源录屏工具，立即生成分享链接",
+      "description_zh": "用 Chrome 扩展录制屏幕，并生成链接分享给团队或客户。AI 代理也能通过 MCP 服务器录制演示、教程和问题报告。",
+      "intro_zh": "给产品、客服和开发团队录制操作过程，生成链接分享；也支持让 AI 代理自动录制演示或报错过程。",
+      "url": "https://www.producthunt.com/products/captureflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/STO327RY5SWEKS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e961708c-c0bc-4870-a760-735ac6f22cbf.png?auto=format",
+      "votes_count": 103,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确减少了录屏后上传、导出和发送文件的步骤，但链接权限和实际分享体验未说明。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "同时支持浏览器录屏和 AI 代理录屏，权限、时机与内容完整性是具体技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把录制结果直接变成可分享链接的做法清楚，但适用成本和隐私条件仍需确认。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "产品、客服和开发人员需要展示操作流程、写使用教程或提交 bug。以前可能要录屏后再处理文件并找地方分享，现在可以直接从 Chrome 扩展录制并分享链接。",
+        "workflow": "用户通过 Chrome 扩展录制屏幕，再把生成的链接发给团队或客户。AI 代理可通过 MCP 服务器（让代理调用外部工具的连接方式）录制演示、教程和 bug 报告。",
+        "ai_value": "介绍没有说 AI 负责剪辑或分析录屏；它支持 AI 代理调用录制能力，自动留下演示、教程或问题复现过程。",
+        "differentiation": "它把录屏和分享链接放在同一流程里，并开放给 AI 代理调用。最可能阻碍迁移的是链接的访问权限、保存方式和隐私规则不够明确。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "产品介绍明确提到开源、Chrome 扩展、即时分享链接，以及通过 MCP 服务器让 AI 代理录制。",
+        "possible_approach": "如果自己做，可以先用浏览器扩展捕获屏幕并上传录屏，再生成带访问控制的分享链接；要支持 AI 代理，还要提供 MCP 工具，让代理发起和结束录制。",
+        "tradeoffs": "最容易出错的是录制启动时机和浏览器权限；权限未授予或页面还没准备好时，生成的链接可能缺少关键操作过程。",
+        "unknowns": "介绍没有说明分享链接是否默认公开，以及能否限制访问者或设置有效期。"
+      },
+      "transferable_insights": [
+        "做远程协作或客服产品时，可以把结果直接生成可访问链接，减少导出文件和发送附件的步骤。",
+        "如果产品要被 AI 代理使用，可以把关键操作封装成明确的开始、停止和提交工具。"
+      ],
+      "validation_questions": [
+        "实际录制一个包含多个页面切换的 bug 复现，检查生成链接是否完整且播放稳定。",
+        "检查分享链接是否能设置访问权限或有效期，并确认未登录用户能看到哪些内容。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最清楚的好处是录完即可分享，最影响判断的问题是录屏内容和分享链接的权限控制是否可靠。"
+    },
+    {
+      "id": "1300330",
+      "name": "Kokonut UI",
+      "name_zh": "Kokonut UI",
+      "tagline_zh": "供 AI 编程助手使用的开源界面组件",
+      "description_zh": "Kokonut UI 是采用 MIT 许可证的免费组件库，提供 100 多个 React 组件，面向编程助手；通过 MCP 连接 Claude Code、Cursor、VS Code 或 Codex 后，助手可按要求查找组件、安装并修改仓库代码，所有文档页也提供 Markdown 版本。本次发布新增 65 个组件、重做 34 个，重点包括 AI 聊天中的工具调用、工具批准、差异审阅和引用展示。",
+      "intro_zh": "给用 AI 编程助手做界面的开发者，按需求查找、安装并修改组件，重点覆盖 AI 聊天界面。",
+      "url": "https://www.producthunt.com/products/kokonutui?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WBXQ3VO2K7G57E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/aa81eeee-9f53-4fde-9186-32072606d66b.jpeg?auto=format",
+      "votes_count": 99,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "使用对象和省事方式清楚，但装进现有项目后的可用性未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "让助手找到合适组件并正确接入项目，是具体且值得拆解的问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "同时提供工具连接和可读文档，是其他组件库可以借用的做法。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "用编程助手开发 AI 聊天界面的人，需要把批准、引用等交互放进项目。组件选择和代码接入都可能需要人工处理。",
+        "workflow": "在支持的编程工具中通过 MCP 连接组件库，再描述需要的界面。助手查找组件、安装，并修改仓库代码。",
+        "ai_value": "AI 编程助手负责把自然语言需求对应到组件，再执行代码修改；介绍未提组件库自带模型。",
+        "differentiation": "它把找组件到改代码交给助手连续处理，减少人工接入工作。最可能让人犹豫的是组件能否适配现有项目。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "组件基于 React（构建界面的代码库），采用 MIT 开源许可证；支持 MCP（让助手连接外部工具的协议），文档另有 Markdown 纯文本格式。",
+        "possible_approach": "如果自己做，可以先整理组件用途和安装说明，再让助手按需求检索、读取文档，最后修改项目代码。",
+        "tradeoffs": "最容易出错的是接入项目：如果助手没处理好组件依赖，新增界面可能让项目无法构建。",
+        "unknowns": "介绍没说助手如何判断组件与现有项目是否兼容。"
+      },
+      "transferable_insights": [
+        "做开发者组件库时，可给每个组件提供助手可读取的用途和安装文档，帮助助手从需求找到可用代码。"
+      ],
+      "validation_questions": [
+        "要求添加工具批准卡片，助手能否选中用途匹配的组件？",
+        "在已有 React 项目中安装组件后，项目能否通过构建？"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重的是助手能直接把组件接进仓库；最大的疑问是现有项目需要多少人工修补。"
+    },
+    {
+      "id": "1310337",
+      "name": "Uber Parking",
+      "name_zh": "Uber Parking",
+      "tagline_zh": "在 Uber 应用内查找、比较和预订停车位",
+      "description_zh": "Uber Parking 支持输入目的地和时间，在地图上比较停车场及预先显示的价格，按代客泊车、自助停车或设施筛选，并用 Uber Wallet 付款；入场可扫码或识别车牌，迟到可用手机延时。产品方称覆盖美国和加拿大 400 个城市的逾 13,000 处停车设施，Uber One 会员可获 10% 返还。",
+      "intro_zh": "给开车去目的地、需要提前安排停车的人，在 Uber 内比较停车场、预订并付款。",
+      "url": "https://www.producthunt.com/products/uber?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KFS3PL2NO44MH4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e09a2fb9-02fe-4742-bea1-3b876e7d8288.png?auto=format",
+      "votes_count": 96,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "找车位、比价和预订的用途清楚，实际可订情况仍需确认。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "线上预订能否被停车场正确识别，是具体且影响使用的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把预订、付款和现场核验接起来，可借用于其他线下预约服务。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "开车去陌生地点的人，需要提前确定停哪里。以前可能绕街找车位，或另开停车应用；现在可以在 Uber 内比较并预订。",
+        "workflow": "输入目的地和时间，在地图上看价格并筛选，再预订付款。到场扫码或识别车牌入场，需要时用手机延时。",
+        "ai_value": "介绍没提 AI，主要靠地图找车场、应用内付款和入场识别来改善体验。",
+        "differentiation": "省去在 Uber 和停车应用之间切换。最可能让人不换的原因，是目的地附近没有合适的可订停车场。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 Uber Wallet 支付、二维码入场和车牌识别。",
+        "possible_approach": "如果自己做，可以先接入停车场的价格和可订时段，再把付款后的订单关联到二维码或车牌，供入口核验。",
+        "tradeoffs": "最容易出错的是订单未同步到停车场入口，用户付了钱却进不去。",
+        "unknowns": "预订是否保证到场有位，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做场馆或共享空间预约时，可以把已付款订单直接用作现场入场凭证，减少用户另找确认邮件的麻烦。"
+      ],
+      "validation_questions": [
+        "完成一笔预订后，到场能否用约定方式直接入场？",
+        "在预订时段内到场，是否确实有车位可用？"
+      ],
+      "category": "社交生活",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重提前比较价格并订好停车的便利；但预订能否保证有位，决定它能否真正减少到场后的不确定性。"
+    },
+    {
+      "id": "1310969",
+      "name": "Antelog",
+      "name_zh": "Antelog",
+      "tagline_zh": "阻止 AI 编程代理泄露或破坏数据",
+      "description_zh": "AI 编程代理很有用，但可能删除数据库或泄露密钥。Antelog 会在问题发生前进行阻止，并展示代理执行的命令、访问的网站和发送的数据；支持 Claude Code、Cursor 和 Codex，产品介绍称可免费使用。",
+      "intro_zh": "给使用 Claude Code、Cursor 或 Codex 的开发者用，记录代理行为，并在可能泄露或破坏数据时拦截。",
+      "url": "https://www.producthunt.com/products/antelog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZSOONCTWBQPHUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f42fe818-ba57-4db5-a21c-46e837d6d665.png?auto=format",
+      "votes_count": 93,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确针对代理误删数据库、泄露密钥等高风险操作，但拦截范围和实际效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "需要同时观察命令、网站访问和数据外发，并在危险动作发生前拦截，技术难点较具体。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把代理行为记录与风险拦截放在一起，适合借鉴到自动化运维和内部开发工具。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "使用 AI 编程代理写代码、执行命令或访问外部资源的开发者可能担心代理删库、泄露密钥。原本需要自行检查代理执行了什么、访问了什么，以及是否发送了敏感数据。",
+        "workflow": "把 Antelog 与 Claude Code、Cursor 或 Codex 配合使用。代理执行任务时，Antelog 会展示每条命令、访问的网站和发送的数据，并在介绍所称的灾难发生前进行阻止。",
+        "ai_value": "AI 不是 Antelog 的主要功能，而是它要监控和约束的对象。介绍没有说明 Antelog 是否使用 AI 来判断风险。",
+        "differentiation": "相比只看最终代码，Antelog 关注代理执行过程中的命令、网页访问和数据外发。最可能的阻力是开发者担心拦截过严，导致正常操作被阻止；介绍没有说明如何处理误报。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说它支持 Claude Code、Cursor 和 Codex，并可展示代理执行的命令、访问的网站及发送的数据。",
+        "possible_approach": "如果自己做，可以先为代理进程记录命令、网络访问和外发数据，再按规则检查删除、密钥外传等高风险动作，最后在执行前暂停并请求确认。具体如何接入这些代理，资料不足，无法判断。",
+        "tradeoffs": "最容易出错的是判断某次数据外发是否敏感。误判会放行密钥，拦截则可能打断正常开发；用户还需要确认记录本身不会保存更多敏感数据。",
+        "unknowns": "介绍没有说明它如何拦截危险动作，也没有说明日志保存在哪里、谁能查看。"
+      },
+      "transferable_insights": [
+        "做自动化运维或数据处理产品时，可以把执行记录和危险动作拦截放在同一流程里，让用户既能追溯结果，也能在执行前确认。",
+        "对会调用外部服务的自动化工具，可以单独展示发送了哪些数据，而不只展示任务是否成功。"
+      ],
+      "validation_questions": [
+        "用一个包含测试密钥和可删除测试数据库的项目，检查它是否能在外发或删除前准确拦截，并记录具体原因。",
+        "连续执行正常开发任务，检查日志是否完整，以及误报拦截是否会明显打断工作。"
+      ],
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它把 AI 编程代理的可见性和高风险操作拦截放在一起，最关键的疑问是能否准确拦截而不泄露更多日志数据。"
+    },
+    {
+      "id": "1306959",
+      "name": "Replay",
+      "name_zh": "Replay",
+      "tagline_zh": "无需机器人的 Mac 会议录音工具，一次付费，无需订阅",
+      "description_zh": "Replay 可直接在 Mac 上录制 Google Meet、Zoom 和 Teams 通话，无需笔记机器人入会；自己与对方的声音分轨保存，转写、摘要和待办在本机生成，录音以普通文件保存在本地，支持搜索历史会议。一次付费可激活两台 Mac，无需订阅；要求 Apple 芯片及 macOS 26 或更新版本。",
+      "intro_zh": "给用 Mac 开线上会议的人，把通话录下来，在本机生成文字、摘要和待办，并搜索历史会议。",
+      "url": "https://www.producthunt.com/products/replay-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XVCCQCYSG5JOED?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/76884383-efd0-4e7b-bcc4-546968eb7b06.png?auto=format",
+      "votes_count": 92,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "免机器人入会和本地整理会议的用途清楚，但识别质量未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "同时录下自己与对方的声音且不漏录，是具体的技术问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "本地保存普通文件的做法可借用于敏感资料工具。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "适合用 Mac 开会、又不想让笔记机器人入会的人。使用入会机器人时，还可能需要参会者放行。",
+        "workflow": "在符合要求的 Mac 上录制通话，再查看本机生成的转写、摘要和待办，之后可搜索历史会议。",
+        "ai_value": "介绍没提 AI，主要靠直接录音和本机整理来改善体验，未说明转写与摘要的具体技术。",
+        "differentiation": "省去机器人入会和放行这一步。最明确的使用门槛是只支持 Apple 芯片及 macOS 26 以上。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "自己与对方的声音分轨录制，文字整理在本机完成，录音以普通文件保存在本地。",
+        "possible_approach": "如果自己做，可以先分别采集麦克风和通话声音，再将音频转成文字，提取摘要与待办，建立本地搜索。",
+        "tradeoffs": "最容易出错的是漏录一侧声音；录音缺失后，转写和待办也可能漏掉关键信息。",
+        "unknowns": "本机处理对不同语言的识别准确度如何，介绍没有回答。"
+      },
+      "transferable_insights": [
+        "做访谈或会议记录工具时，可把录音保存为普通本地文件，方便用户自行备份和交接。"
+      ],
+      "validation_questions": [
+        "分别录制三种会议软件的通话，检查自己与对方的声音是否都完整。",
+        "用包含人名和日期的会议，核对转写是否准确。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重无需机器人入会就能留存会议；最影响判断的是两侧声音能否稳定录全。"
+    },
+    {
+      "id": "1315068",
+      "name": "Businesses in ChatGPT",
+      "name_zh": "Businesses in ChatGPT",
+      "tagline_zh": "帮助客户通过 ChatGPT 发现你的商家",
+      "description_zh": "了解客户如何在 ChatGPT 中找到你的商家。认领商家资料、管理信息、查看洞察，并在符合资格时创建商家智能体（Business Agent）。",
+      "intro_zh": "给希望在 ChatGPT 中被客户找到的商家用，认领并维护商家资料，了解客户如何发现自己。",
+      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4GOWHK6UYKH5KX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ad567e77-ea81-4c18-80fe-4314d6516cae.jpeg?auto=format",
+      "votes_count": 214,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "商家维护信息的需求清楚，但能看到哪些数据、带来什么收益尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "商家修改的资料如何体现在回答中，是具体且影响使用的问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "让商家认领并维护资料的做法可借用，但认领规则未说明。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "商家想知道客户怎样在 ChatGPT 中找到自己，也需要维护展示的信息。这里的需求是管理商家资料与了解发现情况。",
+        "workflow": "认领商家资料，管理信息，再查看相关洞察。符合资格的商家还可创建 Business Agent，具体用途未说明。",
+        "ai_value": "介绍提到 ChatGPT 和商家智能体，但没解释 AI 如何使用商家资料，也没说明智能体能替商家做什么。",
+        "differentiation": "它把资料维护和发现情况查看放在同一处。商家可能不愿投入维护，因为尚不清楚更新资料能影响哪些回答。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到可创建 Business Agent，但没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先核验认领者身份，再保存商家资料，让回答生成时查询这些信息，并记录商家被展示的情况。",
+        "tradeoffs": "最难的是让回答使用更新后的资料；若仍引用旧信息，客户可能按错误信息联系或到店。",
+        "unknowns": "商家资料更新后，会在什么范围、多久内影响回答？"
+      },
+      "transferable_insights": [
+        "做有商家信息的问答产品时，可以让商家认领并维护自己的资料，减少平台逐条代改。"
+      ],
+      "validation_questions": [
+        "修改一项可核对的商家信息后，相关回答是否采用新值？",
+        "查看洞察页面，能否明确知道“客户发现商家”这项数据怎样计算？"
+      ],
+      "category": "金融商业",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "最有用的是给商家一个维护自身信息的位置；最大的疑问是，这些信息究竟能在多大程度上影响 ChatGPT 的回答。"
+    }
+  ]
+}
