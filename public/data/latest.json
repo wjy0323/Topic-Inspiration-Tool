@@ -1,500 +1,350 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "schema_version": 2,
   "analysis_style": "plain_language_v1",
   "source_mode": "producthunt_api",
-  "generated_at": "2026-11-18T00:50:04+08:00",
-  "generation_error": false,
+  "generated_at": "2026-11-19T00:17:25+08:00",
+  "generation_error": true,
   "products": [
     {
-      "id": "1306136",
-      "name": "Zoom Slides",
-      "name_zh": "Zoom Slides",
-      "tagline_zh": "把 Zoom 会议变成可直接演示的幻灯片",
-      "description_zh": "Zoom Slides 是一款用 AI 把会议、文档和想法整理成可编辑演示文稿的工具。它可根据会议转录和摘要生成结构、版式、视觉内容与演讲者备注，并支持协作和导出为 PowerPoint。",
-      "intro_zh": "给经常开会并要做汇报的人用，把会议内容整理成可编辑的演示文稿。",
-      "url": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/EZUGWR53JD3PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/98e4df25-efd4-42ce-9f5a-dddd383e81d3.jpeg?auto=format",
-      "votes_count": 297,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确说明了从会议内容到演示文稿的省事之处，但实际成稿质量仍未验证"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "会议转录、结构提取和版式生成之间有具体的准确性问题值得检查"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把已有内容直接转成可编辑初稿的做法清楚，但适用范围和效果条件还不完整"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要把会议结论、资料或零散想法做成汇报的人会需要它。原本要从空白页面开始整理内容、安排结构、设计版式，并补写演讲备注。",
-        "workflow": "用户提供会议转录、会议摘要、文档或想法。工具生成演示文稿的结构、版式、视觉内容和演讲者备注，用户再用 AI 修改，与团队协作，最后导出为 PowerPoint。",
-        "ai_value": "AI 负责从会议转录和摘要中提取主题并组织成演示结构，还会生成版式、视觉内容和演讲者备注，并协助修改文本。",
-        "differentiation": "它把会议内容直接作为演示初稿的输入，减少从空白幻灯片开始整理的工作。最可能阻碍换用的原因是：生成内容是否准确、版式是否符合团队模板，介绍没有说明。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到使用 Zoom AI，根据会议转录和摘要生成演示文稿，并支持编辑、协作和导出 PowerPoint。",
-        "possible_approach": "如果自己做，可以先把会议录音转成带说话人和时间的文字，再让模型提取主题、结论和证据，随后按固定模板生成每页标题、要点、图片和备注，最后导出为 PowerPoint。",
-        "tradeoffs": "最容易出错的是从转录中判断哪些内容应放进演示文稿。若会议里有口误、重复讨论或未确认的结论，生成的页面可能把临时意见写成正式结论，用户还得逐页核对。",
-        "unknowns": "介绍没有说明它是否能识别说话人、引用原文并保留公司现有的 PowerPoint 模板。"
-      },
-      "transferable_insights": [
-        "做会议或知识管理产品时，可以把会议结束后的第一份交付物设为可编辑初稿，而不是只保存录音或摘要。",
-        "生成内容时同时给出页面结构、视觉元素和演讲备注，能减少用户在不同工具之间来回整理。"
-      ],
-      "validation_questions": [
-        "拿一场包含多人讨论、争议和未决事项的会议测试，检查生成页面是否正确区分结论、建议和待确认内容。",
-        "导出到 PowerPoint 后检查版式、图片、备注和可编辑性是否保持，并确认能否套用现有公司模板。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "最有吸引力的是会议结束后就能得到演示初稿；判断它是否真正省事，关键取决于内容准确性和 PowerPoint 导出质量。"
-    },
-    {
-      "id": "1302625",
-      "name": "Boost.space AgentOS",
-      "name_zh": "Boost.space AgentOS",
-      "tagline_zh": "为所有 AI 智能体提供一个统一的操作系统",
-      "description_zh": "用专业化智能体构建由智能体协作的公司，让它们共享上下文、技能和工具。你可以部署、控制、管理并通过文字或语音与智能体交流，还能接入 1,400 多个 AI 模型和 1,500 多种已有工具。",
-      "intro_zh": "适合想把多个 AI 智能体用于业务协作的团队，用一个平台部署、管理并让它们共享工具和工作上下文。",
-      "url": "https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/76XJJBTD4NW3OM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e96d8ab7-8824-43e0-8db5-dc8f09b96567.png?auto=format",
-      "votes_count": 282,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "介绍清楚了目标用户和统一管理多个智能体的价值，但实际节省多少操作仍需验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "共享上下文、技能和工具是明确的技术重点，但协作规则和数据隔离方式未说明。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把模型、工具和智能体管理集中到一个工作台的做法可借鉴，但适用边界尚不清楚。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要同时使用多个专业智能体的团队可能会遇到配置分散、工具连接重复、上下文无法顺畅共享的问题。它试图把智能体的部署、控制、管理和交流放在同一处。",
-        "workflow": "用户先创建或部署不同用途的智能体，再为它们配置可用的模型、技能和工具。之后可以管理智能体，并通过文字或语音与它们交流；介绍没有说明具体配置步骤。",
-        "ai_value": "介绍明确提到可接入 1,400 多个 AI 模型，但没有说明平台如何选择模型、分配任务或协调多个智能体。",
-        "differentiation": "相比分别使用多个模型平台和工具连接器，它试图把智能体、模型和工具放在同一套管理环境中。最可能阻碍迁移的是：团队已有工具和权限能否顺利接入并可靠共享。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确说智能体可以共享上下文、技能和工具，并可访问 1,400 多个 AI 模型和 1,500 多种工具。",
-        "possible_approach": "如果自己做，可以先为每个智能体定义职责，再建立统一的上下文记录和工具权限；接着根据任务选择模型，让智能体调用工具并把结果交给后续步骤。介绍不足以判断它实际采用的架构。",
-        "tradeoffs": "最容易出错的是共享上下文和工具权限的边界。配置不当时，一个智能体可能读到不该看的信息，或调用了不适合当前任务的工具，结果还可能被后续智能体继续使用。",
-        "unknowns": "介绍没有说明多个智能体如何分工、传递结果和处理冲突，也没有说明 1,500 多种工具的接入方式。"
-      },
-      "transferable_insights": [
-        "做多智能体产品时，可以把模型选择、工具授权和智能体职责放在同一处配置，减少用户在多个后台之间切换。",
-        "共享上下文时，应同时提供可见范围和工具权限设置，避免协作方便却扩大数据访问范围。"
-      ],
-      "validation_questions": [
-        "试用时先创建两个不同职责的智能体，检查它们是否能准确共享指定上下文，并且不会读到未授权内容。",
-        "接入一个团队已有工具，检查授权、调用失败和结果回传是否都能被用户看懂并处理。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它把多智能体的管理和工具接入集中起来，可能减少重复配置；但共享上下文的权限控制和智能体协作方式仍是判断可用性的关键疑问。"
-    },
-    {
-      "id": "1309589",
-      "name": "readywhen",
-      "name_zh": "readywhen",
-      "tagline_zh": "全天候住在邮箱里的个人助理",
-      "description_zh": "readywhen 是一个通过邮箱使用的个人助理。你把任务发给它，它起草跟进邮件，收到“send”后才从你的邮箱发出，并继续关注回复。",
-      "intro_zh": "适合经常跟进客户、合作方或同事的人，用邮件交代任务、确认后发送跟进，并查询还在等待什么。",
-      "url": "https://www.producthunt.com/products/readywhen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/55JJFHJGIO46RN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/7bd5ba69-b92e-4cf7-930a-948d42f0bfd0/751bf8bcf4b1bf7d302b9f18e8c8c2a6e32032e6f31b99fbd2c400926b72bfe6.png?auto=format",
-      "votes_count": 249,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "任务交代、邮件起草、发送确认和回复追踪的价值描述较清楚，但实际准确率未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "能看出需要处理邮箱授权、发送确认和回复识别，但具体实现与可靠性未知。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把复杂操作收进用户熟悉的邮箱，并在外发前设置确认点，做法具体且容易借鉴。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要反复催办的人会遇到跟进邮件容易漏发、忘记等待谁回复的问题。它把任务和后续提醒放进同一个邮箱对话里。",
-        "workflow": "用户给 assistant@readywhen.ai 发一封任务邮件。readywhen 起草跟进内容；用户回复“send”后，它从用户邮箱发出；之后继续观察回复，用户可以询问正在等待什么。",
-        "ai_value": "介绍没有明确说明使用 AI。按功能描述，它需要理解邮件任务、写出跟进内容，并从后续邮件中判断哪些事项仍在等待。",
-        "differentiation": "相比手动写邮件、发送后自己设提醒，它把交代任务、确认发送和等待查询集中到邮箱里。最可能的阻力是用户要把邮箱访问和外发权限交给它。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "产品介绍明确说它通过邮箱接收任务，用户回复“send”后才发送邮件，并会继续关注回复；无需设置账号。",
-        "possible_approach": "如果自己做，可以先接收和解析任务邮件，再生成跟进草稿；用户确认后调用邮箱发送功能，并保存对话状态，定期检查新回复。",
-        "tradeoffs": "最容易出错的是把回复对应到错误的任务或联系人，用户会看到错误的等待状态，甚至跟进错人；因此发送前的确认并不能覆盖后续判断错误。",
-        "unknowns": "介绍没有说明需要什么邮箱权限，以及是否支持 Gmail 之外的邮箱服务。"
-      },
-      "transferable_insights": [
-        "做需要用户授权外发的工具时，可以先生成草稿，再用明确的确认词作为发送开关。",
-        "做任务追踪产品时，可以让用户直接询问“还在等什么”，减少用户翻记录和维护状态的负担。"
-      ],
-      "validation_questions": [
-        "试用时先检查：它能否准确把任务、收件人和跟进时间写进草稿，并且未确认时绝不外发。",
-        "第二个检查：收到多封相关邮件后，它能否把回复正确归到对应事项，并给出可核对的等待列表。"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "最具体的好处是把跟进邮件和等待状态放进现有邮箱流程；最影响判断的问题是邮箱权限范围和多轮回复的归类准确性。"
-    },
-    {
-      "id": "1232008",
-      "name": "OpenBot",
-      "name_zh": "OpenBot",
-      "tagline_zh": "Grok Bot 的替代方案：自行部署、完全定制，支持任意技术栈",
-      "description_zh": "构建适合企业使用的智能体工作空间，采用模块化设计并支持自行部署。你可以接入不同智能体，再选择它们使用的模型、工具和基础设施，也可以直接使用、换成自己的品牌或深入定制。",
-      "intro_zh": "给需要内部部署智能体工作空间的企业团队使用，用统一界面接入智能体并管理模型、工具和运行环境。",
-      "url": "https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/IVRBK72SWJ3GFA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/102fe75f-49ce-4a41-8342-35dd008ac5a5.png?auto=format",
-      "votes_count": 245,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确指出了企业团队想自行部署、定制智能体工作空间的需求，但没有说明实际节省多少维护工作。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "涉及模块化、自行部署和多种模型、工具、基础设施的组合，技术边界清楚但实现细节不足。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "白标、模块化和可替换运行组件的做法可借鉴，但资料没有展示具体落地方式。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要在企业内部运行智能体的产品和工程团队会需要它。原来要自己拼接智能体、模型、工具、运行环境和权限治理，选型与维护边界可能比较分散。",
-        "workflow": "先把已有智能体接入工作空间，再选择它们使用的模型、工具和基础设施。团队可以直接使用现成界面，也可以换成自己的品牌或继续定制。",
-        "ai_value": "介绍没有说明 AI 具体如何推理或执行任务。它主要提供一个承载智能体的工作空间，让团队统一选择和组合模型、工具及运行环境。",
-        "differentiation": "相比从零搭建内部智能体平台，它把模块化、自行部署和白标定制放在同一套产品里。最可能阻碍迁移的是团队已有智能体或基础设施未必能顺利接入。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到模块化、自行部署、内置治理、可接入任意智能体，以及可选择模型、工具和基础设施。",
-        "possible_approach": "如果自己做，可以先把智能体接入层、模型调用、工具调用和运行环境拆成独立模块，再加上用户权限、配置管理和审计记录。最后提供品牌替换和扩展接口，让不同团队按需改界面与流程。",
-        "tradeoffs": "最容易出错的是智能体与模型、工具之间的接入契约。如果输入输出格式或权限规则不一致，用户可能看到任务执行失败、工具被错误调用，或无法追查是谁做了什么。",
-        "unknowns": "介绍没有说明支持哪些智能体接入方式、模型和基础设施，也没有说明治理具体包含权限、审计还是数据隔离。"
-      },
-      "transferable_insights": [
-        "做企业平台时，可以把模型、工具和运行环境做成可替换配置，让客户保留现有基础设施。",
-        "需要交付给不同客户时，可以同时提供直接使用、白标和深度定制三种层级，减少一开始就分叉开发。"
-      ],
-      "validation_questions": [
-        "接入一个现有智能体后，检查它能否按预期调用指定模型和工具，并保留必要的上下文。",
-        "检查治理功能是否包含可配置权限和操作审计，以及不同用户能否被限制在各自允许的智能体与数据范围内。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它最清楚的好处是把企业智能体工作空间的部署和组件选择集中起来；但能否替代现有平台，关键取决于实际接入方式和治理能力是否足够具体。"
-    },
-    {
-      "id": "1315610",
-      "name": "ChatGPT Wallet",
-      "name_zh": "ChatGPT Wallet（ChatGPT 钱包）",
-      "tagline_zh": "让 ChatGPT 代理购物时看不到你的卡号",
-      "description_zh": "ChatGPT Wallet 让 OpenAI 的“dots”代理替你完成购买。支付网络向代理提供支付令牌，因此代理和商家都看不到卡号；购买前你会检查商品、总额和付款卡，再用面容或指纹确认。",
-      "intro_zh": "给想让 ChatGPT 代理代购的人用，在确认商品和金额后完成付款，不直接暴露卡号。",
-      "url": "https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GSPNGEIHJHVZKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/ae541568-809e-4e86-8ad1-c36e2f980ef2.jpeg?auto=format",
-      "votes_count": 145,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "它明确减少了代理和商家接触卡号的需要，但实际可用范围和购买成功率未说明。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "支付令牌、用户逐笔确认和生物识别组合清楚，令牌如何限制风险仍需验证。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把自动操作拆成可检查的商品、金额、付款方式和最终确认，适合借鉴到其他高风险操作。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要让 ChatGPT 代理代购的人，会担心代理或商家拿到真实卡号。原本涉及卡信息的支付流程还要依赖商家的收卡页面或其他付款服务。",
-        "workflow": "代理先完成购物流程。付款前，用户检查商品、总额和使用的卡，再用 Face ID 或指纹批准购买。",
-        "ai_value": "ChatGPT 代理负责把购物任务推进到结账，并代替用户执行购买动作；介绍没有说明它如何挑选商品或处理异常订单。",
-        "differentiation": "它把支付令牌交给代理和商家使用，减少暴露真实卡号的范围。最可能的阻力是每次购买仍要用户检查并确认，连续购物时不一定比直接付款省事。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确说支付网络会向代理提供支付令牌，并称产品与 American Express、Mastercard 和 Visa 合作。",
-        "possible_approach": "如果自己做，可以先让发卡或支付网络生成受限的支付令牌，再让代理提交商品和金额；随后展示商品、总额和付款卡，用户通过生物识别确认后才提交交易。",
-        "tradeoffs": "最容易出错的是令牌的适用范围或金额限制没校验好，结果可能是付款被拒，或用户批准的金额与实际扣款不一致。",
-        "unknowns": "介绍没有说明令牌是否绑定具体商家、金额和单次交易，也没有说明退款、取消和争议支付怎么处理。"
-      },
-      "transferable_insights": [
-        "做代办型产品时，可以把自动执行拆成“展示关键结果、用户确认、再提交”三步，尤其适用于付款、发信和删除数据。",
-        "处理敏感信息时，可以让第三方使用受限令牌，而不是直接接触原始凭证。"
-      ],
-      "validation_questions": [
-        "试用时先检查：确认的商品和总额是否与最终扣款完全一致，失败或改价时是否会再次要求确认。",
-        "第二个检查：查看代理和商家实际拿到的是否只是单次或受限支付令牌，而不是可重复使用的真实卡号。"
-      ],
-      "category": "金融商业",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "最有价值的是让代理代购时减少卡号暴露；最影响判断的是支付令牌的权限边界，以及改价、退款和争议交易的处理方式。"
-    },
-    {
-      "id": "1310302",
-      "name": "Cookie Away",
-      "name_zh": "Cookie Away",
-      "tagline_zh": "替你拒绝 Cookie 横幅，连隐蔽的拒绝入口也会处理",
-      "description_zh": "Cookie Away 是一款免费的开源 Chrome 扩展，会替你拒绝 Cookie 横幅。没有拒绝按钮时，它会打开设置、关闭所有选项并保存；产品方称它会检查每次点击，并公布了在 69 个网站上的结果。",
-      "intro_zh": "经常浏览网页、在意隐私的人，用它自动处理 Cookie 同意弹窗，减少逐站查找拒绝入口的麻烦。",
-      "url": "https://www.producthunt.com/products/cookie-away?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4O7VFD3VX5PIIG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d2947f1a-c374-4272-871a-ee17d3bed789.jpeg?auto=format",
-      "votes_count": 120,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确针对 Cookie 弹窗和隐藏拒绝入口，能减少重复点击，但 69 个网站的结果未独立验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "它需要识别不同网站的弹窗并确认点击结果，资料还给出了检查点击的做法。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把常见拒绝路径和无按钮时的设置路径都纳入处理，适合借鉴到重复网页操作工具中。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "经常浏览网页、希望少接受追踪 Cookie 的人会需要它。麻烦在于不同网站的弹窗布局不同，有时没有直接的拒绝按钮，还要进入设置逐项关闭并保存。",
-        "workflow": "用户安装 Chrome 扩展后访问带 Cookie 弹窗的网站。扩展尝试点击拒绝；找不到拒绝按钮时打开设置、关闭所有选项并保存。产品介绍还称它会检查每次点击。",
-        "ai_value": "介绍没提 AI，主要靠扩展识别网页上的 Cookie 弹窗、按钮和设置项来完成操作。",
-        "differentiation": "相比手动处理每个网站，它把直接拒绝和进入设置关闭选项两条路径都纳入了。最可能阻碍使用的是网站结构变化后处理失败，用户仍需手动确认。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "它是免费的开源 Chrome 扩展，介绍称会检查每次点击，并公布了在 69 个网站上的结果。",
-        "possible_approach": "如果自己做，可以先识别页面上的 Cookie 弹窗和拒绝按钮，再按网站结构点击；找不到按钮时，进入设置并关闭选项，最后检查设置是否真的保存。",
-        "tradeoffs": "最容易出错的是把页面上的相似按钮认错，可能误点接受、关闭弹窗或其他设置，导致隐私选择与用户预期相反。",
-        "unknowns": "介绍没有说明支持哪些网站、遇到新布局时如何更新规则，也没有说明 69 个网站的成功标准。"
-      },
-      "transferable_insights": [
-        "做跨网站自动化时，可以同时覆盖常见的一键路径和隐藏在设置里的备用路径。",
-        "涉及隐私或权限的自动操作，应在点击后再次检查结果，而不是只判断按钮是否被点击。"
-      ],
-      "validation_questions": [
-        "在常见的 10 个网站上测试：它是否都能选中拒绝，而不是误点接受或只关闭弹窗。",
-        "修改一个网站的 Cookie 设置后重新打开页面：检查选择是否真的保存并持续生效。"
-      ],
-      "category": "安全隐私",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它把分散且重复的 Cookie 拒绝操作交给浏览器扩展处理；是否可靠主要取决于对不同网站布局的识别准确率。"
-    },
-    {
-      "id": "1312517",
-      "name": "Pharen Hub",
-      "name_zh": "Pharen Hub",
-      "tagline_zh": "为整个公司提供一个 AI 工作空间",
-      "description_zh": "Pharen Hub 将项目、任务、文档、邮件、会议、数据和 AI 代理放进同一个工作空间，并共享上下文。代理可以设定目标、限定可用资料，并在执行前请求人工批准；产品支持托管在欧盟或部署到自己的服务器，采用公平代码模式并在 GitHub 提供源代码。",
-      "intro_zh": "适合想把项目资料、沟通记录和 AI 代理放在一起的团队，用统一上下文处理任务并保留人工审批。",
-      "url": "https://www.producthunt.com/products/pharen-hub?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6B3J75VNZS7YOK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/971c8154-4482-47f3-bbdb-85b514f8c2cd.png?auto=format",
-      "votes_count": 106,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确覆盖团队常用资料和工作对象，但实际能省多少切换与整理时间还缺少验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "资料明确涉及共享上下文、资料权限和人工批准，代理如何稳定执行仍需确认。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "限定代理目标、资料来源和审批节点的做法可借用于需要人工把关的自动化产品。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要同时管理项目、任务、文档、邮件、会议和数据的公司会遇到信息分散、代理缺少上下文的问题。原本可能要在多个工具间查找资料，再把结果整理回工作系统；介绍没有说明所有团队都采用这种方式。",
-        "workflow": "用户把项目、任务、文档、邮件、会议和数据放在同一工作空间，再为 AI 代理设定目标、允许访问的资料来源和人工审批要求。代理基于共享上下文工作，涉及需要确认的动作时交给人批准；具体操作步骤和支持的动作范围未说明。",
-        "ai_value": "AI 代理根据设定的目标和允许使用的资料处理工作，并在人工批准后执行相应动作。介绍没有说明代理能完成哪些具体任务，也没有给出效果或速度数据。",
-        "differentiation": "相比把不同资料分散在多个工具中，核心省事点是让代理在一个共享上下文里工作。最可能阻碍迁移的原因是团队已有工具中的历史数据、权限和工作习惯如何迁入尚不清楚。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到共享上下文、限定代理可用资料、人工审批、欧盟托管或自有服务器部署，以及 GitHub 源代码。",
-        "possible_approach": "如果自己做，可以先把项目、任务和文档统一存储，再为代理建立资料访问范围和目标；代理生成结果后先进入审批队列，获得批准才执行。邮件、会议和数据接入会是额外的连接工作。",
-        "tradeoffs": "最容易出错的是资料范围和权限配置。范围过宽，代理可能引用不该看的内容；范围过窄，代理会缺少关键信息，给出不完整结果或频繁要求人工补充。",
-        "unknowns": "介绍没有回答代理具体能执行哪些动作，以及人工审批是否覆盖所有外部发送、数据修改等高风险操作。"
-      },
-      "transferable_insights": [
-        "做企业自动化时，可以让用户同时设定代理目标、可访问资料和审批条件，而不是只提供一个笼统的自动执行开关。",
-        "涉及邮件发送或数据修改的功能，可以把代理输出和真正执行分成两步，让用户先检查再批准。"
-      ],
-      "validation_questions": [
-        "试用时先用一个真实项目检查：代理能否只读取被允许的资料，并正确引用其中的关键信息。",
-        "再触发一次邮件发送或数据修改类动作，确认未获人工批准前不会执行。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "把公司资料放进共享上下文并给代理设置审批点，可能减少查找和交接；但代理能做什么、权限控制是否可靠，仍直接影响产品是否能用于真实工作。"
-    },
-    {
-      "id": "1317349",
-      "name": "Trusty CSV",
-      "name_zh": "Trusty CSV",
-      "tagline_zh": "像写代码一样编辑 CSV 文件，而不是像操作电子表格。",
-      "description_zh": "无需搭建项目、流程或脚本，也能准备数据。打开 CSV 文件后，可以聚类相似值、透视、连接、筛选，或直接修改单元格；每一步都能用 Ctrl+Z 撤销，保存文件的差异对比只显示实际改动。",
-      "intro_zh": "给需要临时清洗 CSV 的分析师、工程师和运营人员使用，直接在文件上完成整理、合并和修改。",
-      "url": "https://www.producthunt.com/products/trusty-csv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7H2YKH2SWT6KCP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/1a78b88b-74b5-4d0c-8d7e-027a9de1dacc.png?auto=format",
-      "votes_count": 99,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确覆盖了多种 CSV 整理动作，但实际节省时间和适用边界尚未验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "逐步撤销和保存差异是具体设计点，但实现方式及复杂操作的可靠性没有说明。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把数据操作做成可撤销步骤并保留清晰差异，适合借鉴到其他文件处理工具。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要临时清洗或修改 CSV 的人会用到它。原本可能需要搭建数据处理项目、操作流程或写脚本，才能完成聚类、筛选、连接等整理工作。",
-        "workflow": "打开 CSV 文件，在文件上直接输入或执行聚类相似值、透视、连接、筛选等操作，再保存结果。产品介绍称每一步都能用 Ctrl+Z 撤销，保存后的差异对比只显示改动内容。",
-        "ai_value": "介绍没有提 AI，主要靠直接编辑 CSV、提供数据操作和逐步撤销来改善体验。",
-        "differentiation": "它把数据准备放进文件编辑过程，减少为一次性任务建立项目或脚本的需要。最可能的阻力是用户不确定复杂操作是否足够可靠，尤其是连接和透视后是否容易误改数据。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到支持相似值聚类、透视、连接、筛选、单元格编辑、逐步撤销，以及保存文件后的差异对比。",
-        "possible_approach": "如果自己做，可以先把 CSV 解析成带列名和行号的数据表，再把筛选、合并、透视等操作记录成可撤销步骤，最后比较编辑前后的文件并生成差异。难点在于保存时要保持 CSV 的格式和原有内容边界。",
-        "tradeoffs": "最容易出错的是连接或透视后的数据对应关系；一旦键值重复、缺失或类型不一致，结果可能增加、丢失或错配，用户还可能只从表面变化中发现不了问题。",
-        "unknowns": "介绍没有说明是否保留原始 CSV 的编码、引号、列顺序和格式细节。"
-      },
-      "transferable_insights": [
-        "做文件处理工具时，可以把每次操作记录成独立步骤，让用户逐步撤销，而不是只能整体恢复。",
-        "保存结果时提供清晰的前后差异，适合需要审核或追踪修改来源的数据场景。"
-      ],
-      "validation_questions": [
-        "用包含重复键、空值和不同数据类型的 CSV 测试连接与透视，检查行数和字段值是否正确。",
-        "连续执行筛选、编辑和聚类后保存文件，检查 Ctrl+Z 是否逐步恢复，以及差异对比是否只包含预期改动。"
-      ],
-      "category": "数据分析",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "最有吸引力的是把一次性 CSV 整理变成可直接操作、可撤销的文件编辑；判断它是否可靠，关键要看复杂连接和透视是否会悄悄改变数据。"
-    },
-    {
-      "id": "1304602",
-      "name": "OpenFrame",
-      "name_zh": "OpenFrame",
-      "tagline_zh": "运行 IT 工作的 AI 智能体，每项修复都由你批准",
-      "description_zh": "OpenFrame 为小型 IT 团队提供两个 AI 智能体，处理持续不断的设备、技术任务和员工支持请求。它把终端管理、AI 智能体和 IT 支持放在一个平台中，价格为每台设备 1 美元。",
-      "intro_zh": "给小型 IT 团队用，自动处理设备修复和员工 IT 请求，并让管理员批准变更。",
-      "url": "https://www.producthunt.com/products/openframe-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/IN3WYQBAT773W4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/d08e044a-09dc-4dd8-aace-e696c6df4cd5.png?auto=format",
-      "votes_count": 210,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确覆盖设备维护、员工请求和结果汇报，但实际节省的时间仍未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "审批机制和两个智能体的分工清楚，但实现方式、权限边界和失败处理没有说明。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "把自动执行和人工批准结合起来的做法可借鉴，但适用范围还要看任务风险。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "小型 IT 团队需要持续处理设备补丁、故障和日常技术任务，也要反复回答员工的 IT 请求。原本这些工作会占用 IT 人员处理更重要事项的时间，管理层还需要单独了解完成了什么。",
-        "workflow": "管理员让 Mingo 处理设备修补、问题修复和例行技术任务，并批准每项变更。员工可以向 Fae 提出 IT 请求；平台再通过每周报告汇总已完成的工作。",
-        "ai_value": "介绍明确说有两个 AI 智能体：Mingo 负责设备和技术任务，Fae 负责回答员工 IT 请求。AI 如何判断修复方式、何时请求批准，介绍没有展开。",
-        "differentiation": "它把终端管理、员工 IT 支持和 AI 执行放在同一平台，并保留管理员审批。最可能阻碍迁移的是团队不愿让智能体接触设备或执行修复，即使每项变更需要批准。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到两个 AI 智能体、终端管理、管理员审批每项变更、员工请求处理和每周报告。",
-        "possible_approach": "如果自己做，可以先接入设备清单和补丁状态，再让智能体提出修复方案；管理员批准后执行，并记录结果，最后按周汇总。关键是把“提出建议”和“实际改动”分成两步。",
-        "tradeoffs": "最容易出错的是修复方案或目标设备判断错误。若审批人没看出风险，可能导致设备不可用；若审批过于频繁，IT 团队又会被审批工作拖住。",
-        "unknowns": "介绍没有说明支持哪些操作系统、设备管理方式和权限控制，也没有说明审批后失败时能否回滚。"
-      },
-      "transferable_insights": [
-        "做自动化运维或后台工具时，可以让系统先生成具体变更，再由管理员批准后执行，并留下结果记录。",
-        "面向内部服务的产品可以把员工请求处理和面向管理层的周报分开设计，分别服务即时响应和工作汇报。"
-      ],
-      "validation_questions": [
-        "试用一批真实设备，检查智能体提出的修复目标、变更内容和审批记录是否准确可追溯。",
-        "提交几类常见员工 IT 请求，检查 Fae 的回答是否能直接解决问题，以及无法解决时能否正确转交人工。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "最有价值的是把重复运维和员工问答集中处理，同时保留人工批准；最影响判断的是设备权限、支持范围和错误修复后的回滚能力都未说明。"
-    },
-    {
-      "id": "1317659",
-      "name": "Cal.com v7",
-      "name_zh": "Cal.com v7",
-      "tagline_zh": "Cal.com 现在加入 Events、Discover、助手等功能",
-      "description_zh": "官方发布 Cal.com Events、Cal.com Discover 和 Cal.ai Assistant。此次更新还包括新品牌及其他内容。",
-      "intro_zh": "给 Cal.com 用户集中查看 Events、Discover 和 Cal.ai Assistant 等新增功能。",
-      "url": "https://www.producthunt.com/products/cal?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/6OEY6HJXNWQWUC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a03673b1-bf44-44cf-99d4-85ec9b9d987b.png?auto=format",
-      "votes_count": 177,
+      "id": "1316291",
+      "name": "RankSpot",
+      "name_zh": "RankSpot",
+      "tagline_zh": "Pay-as-you-go SEO and AI Search execution layer for agents",
+      "description_zh": "RankSpot is the SEO and AI Search execution layer for agents. Connect the MCP to Claude or ChatGPT in 2 minutes and your agent does the work: it writes articles from what already ranks on Google in 100+ languages, publishes them, and pitches ranking sites from your mailbox for backlinks. Run every client or business from one chat. No subscription: $3 an article, $0.004 a prompt check, reading your data free. Start with $1 of credit and a free article.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/ZXC3TLTUHNL3JP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/df9a58a9-cff3-41a9-9e7d-7a982df725e2.jpeg?auto=format",
+      "votes_count": 432,
       "scores": {
         "product_value": {
           "score": null,
-          "reason": "资料只列出新增模块，没有说明具体用户、原有麻烦或节省了哪些操作。"
+          "reason": "分析生成失败"
         },
         "technical_insight": {
           "score": null,
-          "reason": "只知道有 Assistant，没有说明它处理什么任务、如何接入或使用什么技术。"
+          "reason": "分析生成失败"
         },
         "transferability": {
           "score": null,
-          "reason": "没有提供可复用的具体流程、交互方式或验证过的效果。"
+          "reason": "分析生成失败"
         }
       },
-      "product_analysis": {
-        "target_problem": "使用 Cal.com 的团队可能会关注这次新增的 Events、Discover 和助手功能。资料没有说明原来哪件事最麻烦，也没有交代这些模块分别解决什么场景。",
-        "workflow": "介绍只支持这样的流程：用户进入 Cal.com，查看或使用 Events、Discover、Cal.ai Assistant 等新增内容。具体如何配置、输入信息和拿到结果，资料没有说明。",
-        "ai_value": "Cal.ai Assistant 的名称表明产品包含助手，但介绍没有说明 AI 具体负责安排事项、回答问题，还是执行其他操作，不能进一步判断。",
-        "differentiation": "相比旧版本，资料明确提到新增了多个模块和新品牌，但没有足够信息证明它比原来的做法少了哪一步。最可能影响采用的是功能边界不清，用户需要先确认每个模块究竟能做什么。"
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001613.610-013804)"
+    },
+    {
+      "id": "1310455",
+      "name": "Creatify Max",
+      "name_zh": "Creatify Max",
+      "tagline_zh": "Your ad teammate, from strategy to creation to launch",
+      "description_zh": "Max is your teammate for paid ads. Share a product URL or brief and Max makes video ads, sets up campaigns on Meta and TikTok, and watches results 24/7, flagging what to fix next. You make the calls: nothing goes live without your approval.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/creatify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/NWW6YNL6LTJ6TX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/73ee2cdb-87d6-4b3a-adcc-4976061cbccb.jpeg?auto=format",
+      "votes_count": 422,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
       },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到 Cal.com Events、Cal.com Discover、Cal.ai Assistant、新品牌，以及其他未展开的更新。",
-        "possible_approach": "如果自己做，可以先把不同功能拆成独立入口，再分别定义输入和输出；若要做助手，再接入能理解用户请求的模型，并把请求转换成系统可执行的操作。具体实现仍取决于功能定义。",
-        "tradeoffs": "最容易出错的是助手对用户请求的理解。如果它把时间、对象或操作意图判断错，用户可能得到错误结果；资料没有说明是否有确认步骤。",
-        "unknowns": "介绍没有回答 Events、Discover 和 Assistant 各自的具体功能、使用流程及可连接的数据来源。"
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001621.235-013815)"
+    },
+    {
+      "id": "1257199",
+      "name": "TheBold",
+      "name_zh": "TheBold",
+      "tagline_zh": "Turn execution into meetings with investors",
+      "description_zh": "TheBold turns startup execution into direct investor access. 🎉 Launch Fast Track (Nov 17–27): pass one AI investor-readiness interview, land in the deal flow of investors who match your startup, and unlock direct meeting access. TheBold helps founders understand investor criteria, track and verify execution and traction, practice investor-specific AI simulations, and book meetings once qualified.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/thebold?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/C7KPFSSB5AHOYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/980611e0-917c-453e-9a6e-71b23a769ff7.jpeg?auto=format",
+      "votes_count": 415,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
       },
-      "transferable_insights": [
-        "做产品版本更新时，可以把多个新增能力按清晰名称拆开介绍，让用户先知道每个入口解决什么问题。",
-        "做带助手的工具时，可以在执行前展示它理解到的关键内容，让用户确认时间、对象或动作。"
-      ],
-      "validation_questions": [
-        "试用时先分别打开 Events、Discover 和 Assistant，记录每个入口的输入、输出和实际可完成的任务。",
-        "让 Assistant 处理一个包含时间和具体动作的请求，检查它是否正确理解，并确认执行前是否允许用户修改。"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "信息不足",
-      "overall_reason": "这次更新的明确好处是把多个新模块带到同一产品中，但目前最影响判断的是这些模块的实际任务和 Assistant 的执行边界都没有说明。"
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001629.735-013828)"
+    },
+    {
+      "id": "1309861",
+      "name": "Appxiom",
+      "name_zh": "Appxiom",
+      "tagline_zh": "Context layer for AI coding agents to detect & fix bugs",
+      "description_zh": "Appxiom gives your coding agent the production context it lacks: crashes, freezes, memory leaks, failed network calls and broken user journeys in mobile and web applications. Goal Friction Impact lets agents prioritise bugs by the goals they cost you. Supports Android (Kotlin, Jetpack Compose, Java), iOS (Swift, SwiftUI, Objective-C), Flutter, Kotlin Multiplatform and Web (all JavaScript / TypeScript frameworks, with special support for React).",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/appxiom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4U3S4XIEYDOCDN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/afdb99af-f558-490b-be02-ff46f7bb4545.png?auto=format",
+      "votes_count": 286,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001638.195-013841)"
+    },
+    {
+      "id": "1304738",
+      "name": "EkLine",
+      "name_zh": "EkLine",
+      "tagline_zh": "AI SEO for Developer Tools and API first companies! ",
+      "description_zh": "Your buyers ask ChatGPT which tool to use, then ask Cursor to build with it. EkLine helps your API or developer tool succeed at both. Its AI agents audit your website, docs, GitHub, and community content to find what AI misunderstands or can't implement. Then they prioritize gaps, write code-grounded fixes as pull requests your team approves, and retest AI responses to measure what improved.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/ekline?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RX3ZWI6MXJWW7K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c4ee4673-9f37-4caa-92de-756c0be36f88.jpeg?auto=format",
+      "votes_count": 266,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001645.802-013853)"
+    },
+    {
+      "id": "1304887",
+      "name": "Versine",
+      "name_zh": "Versine",
+      "tagline_zh": "Let your AI send and receive money. We're Venmo for agents.",
+      "description_zh": "Send and receive money with AI. Connect it to ChatGPT, Claude, Instinct, Muse, or your own agent through our MCP. Recipients don’t need a Versine account: they can cash out straight to their bank. Each transfer is approved by your passkey or sent autonomously to trusted contacts that you set.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/versine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/SLJZPHAQH5CWEI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/765cba81-f2b9-4f8d-99bd-62fa1fa57b3a.jpeg?auto=format",
+      "votes_count": 206,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001654.282-013865)"
+    },
+    {
+      "id": "1317811",
+      "name": "superlog",
+      "name_zh": "superlog",
+      "tagline_zh": "Finds the production bugs your monitoring never sees",
+      "description_zh": "Your monitoring only alerts on what you told it to watch, so customers still report bugs. Superlog finds the errors nobody set an alert for, investigates them 24/7 and hands you a fix. 100+ startups use it; 87% of our fixes get merged.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/superlog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/QPAYF22JVBNIOY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/46cbb98f-32cb-480f-8a03-754289e0abad.png?auto=format",
+      "votes_count": 188,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001702.311-013876)"
+    },
+    {
+      "id": "1318920",
+      "name": "VINC",
+      "name_zh": "VINC",
+      "tagline_zh": "Bring your filmmaking vision to life.",
+      "description_zh": "You know the scene, the mood, the camera movement, and how your film should feel. VINC helps you work on the rest. Develop your script, sketch your storyboard, plan and generate your shots, with room to review and refine at every stage. Finally, bring all your generated shots into the built-in editor, where SFX and BGM are taken care of, and deliver your final output.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/vinc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5TFM5AL6BZDXRS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/20e1c8e4-d307-4d56-b4d2-37ca0ceb925c.jpeg?auto=format",
+      "votes_count": 173,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001709.917-013889)"
+    },
+    {
+      "id": "1316484",
+      "name": "seshka",
+      "name_zh": "seshka",
+      "tagline_zh": "Kill what Claude Code left behind",
+      "description_zh": "Claude Code sessions end. The dev servers, watchers and scripts they started don't. seshka shows them in your menu bar, grouped by session, with memory and ports. Kill them in one click. End idle sessions too, by hand or automatically. Free and open source.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/seshka?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/IPCIDIB7EGGJHC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/mcp-draft-media/870852e8-270a-43c0-88d5-40e73b586cdc.jpeg?auto=format",
+      "votes_count": 138,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001717.523-013901)"
+    },
+    {
+      "id": "1318477",
+      "name": "Superhands",
+      "name_zh": "Superhands",
+      "tagline_zh": "Design the system, not every output.",
+      "description_zh": "Design’s deliverable is now the system, not the output. Turn your designs into guidance that agents follow in every AI tool your team uses. See what they produce, and fix the system once instead of chasing every output.",
+      "intro_zh": "",
+      "url": "https://www.producthunt.com/products/stencil-by-superhands?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UXLAJKIOFASLOH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/mcp-draft-media/310b5dbc-0023-4fd2-9c5c-790fb1ee0623.jpeg?auto=format",
+      "votes_count": 108,
+      "scores": {
+        "product_value": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "technical_insight": {
+          "score": null,
+          "reason": "分析生成失败"
+        },
+        "transferability": {
+          "score": null,
+          "reason": "分析生成失败"
+        }
+      },
+      "product_analysis": {},
+      "technical_analysis": {},
+      "transferable_insights": [],
+      "validation_questions": [],
+      "category": "",
+      "overall_suggestion": "生成失败",
+      "overall_reason": "产品分析生成失败，暂无法判断研究价值",
+      "scoring_error": "Error code: 402 - quota exceeded: 账户没有可用余额，或订阅额度已用完。请到 https://***.com/*** 充值或兑换后重试 (request_id: REQ-20261119-001725.125-013913)"
     }
   ]
 }
