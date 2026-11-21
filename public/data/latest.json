@@ -1,492 +1,493 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "schema_version": 2,
   "analysis_style": "plain_language_v1",
   "source_mode": "producthunt_api",
-  "generated_at": "2026-11-21T00:01:52+08:00",
+  "generated_at": "2026-11-21T23:17:08+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1314645",
-      "name": "TestSprite 4.0",
-      "name_zh": "TestSprite 4.0",
-      "tagline_zh": "改好一处又坏了别处？这个智能体会检查整套应用。",
-      "description_zh": "TestSprite 4.0 是一个测试智能体，会记住应用应该如何运行，并在每次变更后检查相关功能。你用日常语言描述测试目标，它会探索运行中的应用、编写并运行端到端测试，指出哪些失败可能是真实 bug，并从网页、终端或拉取请求中持续检查变更。",
-      "intro_zh": "给用编码智能体改应用的开发者，描述要检查的行为，让它探索应用并运行端到端测试。",
-      "url": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/7TKIXW445YMK2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/725acadf-a563-4f71-9403-e3c172ff5cca.jpeg?auto=format",
-      "votes_count": 362,
+      "id": "1322672",
+      "name": "Saparo",
+      "name_zh": "Saparo",
+      "tagline_zh": "可叠加优惠的购物助手",
+      "description_zh": "Saparo 是个人购物代理，会在美国商店寻找符合你尺码的同款商品，并组合可同时使用的促销码、返现和银行卡优惠。它按含运费和税费的估算总价排序；经你同意后应用所选优惠并准备结账，最后由你检查订单并付款。",
+      "intro_zh": "面向在美国网购、想少做逐店比价的人：输入商品需求，比较叠加优惠后的预计总价，再由自己确认付款。",
+      "url": "https://www.producthunt.com/products/saparo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/CGUN3ORBJWPLHU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cb4f4249-89e3-49d3-b59c-27a94e079519.png?auto=format",
+      "votes_count": 332,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "明确针对改动引发其他功能回归的问题，但实际准确度和覆盖范围未说明。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "自动探索和生成端到端测试有具体实现难点，资料未解释如何识别误报。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "用自然语言描述行为并持续回归检查可借鉴，但适用条件仍待验证。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "频繁修改应用的开发者，尤其是借助编码智能体改代码的人，可能需要它检查修改是否影响其他功能。手动补写和运行端到端测试可能费时；资料没有说明用户原本具体怎么做。",
-        "workflow": "用户用日常语言说要测什么；工具探索正在运行的应用，编写并运行端到端测试，再指出哪些失败可能是真实 bug。它还会从网页、终端或拉取请求中检查变更。",
-        "ai_value": "它用智能体把文字描述转成对运行中应用的探索和测试，并尝试区分真实 bug 与其他失败。资料没有说明这种区分如何完成。",
-        "differentiation": "相比每次改动后手动补测，它试图自动探索应用并持续检查。最可能的顾虑是测试失败能否准确指出真实 bug，避免开发者花时间排查误报。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称它会记住应用应有的行为，探索运行中的应用，编写并运行端到端测试，并从网页、终端或拉取请求检查变更。",
-        "possible_approach": "如果自己做，可以先把用户描述整理成可检查的行为，再让工具在运行中的应用里执行这些行为并记录结果；随后把测试结果和预期行为对照，标出失败项。最难的是判断失败来自真实缺陷还是测试环境或测试本身的问题。",
-        "tradeoffs": "最容易出错的是把偶发的加载失败或测试步骤不稳定当成真实 bug。用户可能反复收到无效告警，最后不再信任测试结果。",
-        "unknowns": "介绍没有说明测试失败的分类准确度，也没说应用行为变化后如何更新已记住的预期。"
-      },
-      "transferable_insights": [
-        "做持续交付或代码审查工具时，可以让用户用日常语言描述关键行为，并在每次变更后重查这些行为。"
-      ],
-      "validation_questions": [
-        "用自然语言写一个关键用户流程，检查生成的测试是否覆盖了描述中的主要步骤。",
-        "故意引入一个明确的界面缺陷，再检查它能否报告问题并区分测试环境造成的失败。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它把回归检查延伸到网页、终端和拉取请求中的改动；但能否可靠地区分真实 bug 与测试误报，现有资料无法判断。"
-    },
-    {
-      "id": "1320414",
-      "name": "Verse Engine by Ctruh",
-      "name_zh": "Verse Engine by Ctruh",
-      "tagline_zh": "从 Blender、Unity 或 Unreal 一键生成可实时浏览的 3D 链接",
-      "description_zh": "Verse Engine 是基于浏览器的 3D 与 XR 引擎，可将 3D 文件、扫描件和户型图转成一个链接，也支持从 Blender、Unity 和 Unreal 发布。链接可在浏览器中打开，无需安装应用或下载；产品称场景只传输观看者当前能看到的内容，并提供嵌入、API 和 SDK。",
-      "intro_zh": "面向 3D 创作者、开发者和需要展示空间的团队，把 3D 场景发布成可在浏览器打开的链接。",
-      "url": "https://www.producthunt.com/products/verse-engine-by-ctruh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CBNSNOACCLEF75?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/809eb699-e4be-4bdf-a820-8a87e064b494/8bb661d25b11d5b70a72ff4c2507294cea9edabd91ab8ead8daa0ee110bff6f1.jpeg?auto=format",
-      "votes_count": 318,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确覆盖 3D 场景分享和浏览器查看，但实际加载效果未验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "按观看内容传输场景是具体做法，资料未说明实现细节。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "按视野加载内容可供 3D 查看产品参考，适用效果待测。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "开发者、3D 艺术家、建筑和房产团队等，可能需要把大型 3D 场景交给别人查看。若接收者要安装软件或下载文件，查看门槛会更高；资料没有说明用户原先通常怎么分享。",
-        "workflow": "导入 3D 文件、扫描件或户型图，或从 Blender、Unity、Unreal 发布，再生成链接供他人在浏览器打开。资料还提到可嵌入页面，并提供 API 和 SDK。",
-        "ai_value": "介绍没提 AI。它主要通过浏览器打开场景，并按观看者看到的内容传输场景，来改善查看方式。",
-        "differentiation": "接收者可通过链接在浏览器查看，不必安装应用或下载。最可能的顾虑是大型场景在不同电脑和网络上的实际加载表现，资料中的超大场景例子未经独立验证。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称它是浏览器原生 3D 与 XR 引擎，场景只传输观看者当前看到的部分，并提供嵌入、API 和 SDK。",
-        "possible_approach": "如果自己做，可以先把场景拆成可独立传输的部分，再根据观看者当前视角选择要加载的部分。难点是切换视角时及时补齐内容，同时避免画面空白或卡顿。",
-        "tradeoffs": "最容易出错的是视角变化时内容加载跟不上，用户会看到空白或延迟；大型场景的实际体验还会受设备和网络影响。",
-        "unknowns": "介绍没说明支持哪些文件格式，以及大型场景在普通设备和网络上的实测表现。"
-      },
-      "transferable_insights": [
-        "做 3D 展示或地图产品时，可按用户当前视野加载内容，减少一次性传输整份场景的压力；需验证视角变化时是否会出现空白或延迟。"
-      ],
-      "validation_questions": [
-        "用常见笔记本和网络打开一个复杂场景，检查初次显示所需时间及是否能顺畅查看。",
-        "快速转动视角，检查新进入视野的区域是否及时出现。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "链接分享能减少接收者安装软件的步骤；但大型场景在普通设备上的加载体验和支持格式仍不清楚。"
-    },
-    {
-      "id": "1311952",
-      "name": "Netlify Server",
-      "name_zh": "Netlify Server（Netlify 后端服务）",
-      "tagline_zh": "运行 WebSocket、多人应用和需要长时间运行的智能体",
-      "description_zh": "Netlify Server 为应用提供使用期间保持运行的后端，可用于实时体验、多人游戏和需要时间完成任务的 AI 智能体。用户可以描述需求让智能体搭建，也可以带上 Express、Fastify、Hono 或 Koa 代码；服务支持保持 WebSocket 连接、在内存中保存状态，并随项目部署，每个预览版本都有自己的服务器。",
-      "intro_zh": "面向开发者，为实时应用、多人游戏和长任务提供持续运行的后端，也可接入现有框架代码。",
-      "url": "https://www.producthunt.com/products/netlify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VOJHOAWTB6DIXE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/eef318da-b1e4-4f61-b75f-541556934903.png?auto=format",
-      "votes_count": 286,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确覆盖实时连接、内存状态和长任务，但实际限制与适用边界未说明。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "持续运行、内存状态与空闲缩容之间的取舍值得验证。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "预览版本独立服务器是具体做法，但资料不足以判断其适用条件。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要实时连接、多人共享状态或长时间任务的开发者可能会用到它。自己搭建这类后端时，可能还要处理服务器运行、连接和部署；资料没有说明用户原先具体采用什么方案。",
-        "workflow": "开发者可以描述需求让智能体搭建，也可以带上 Express、Fastify、Hono 或 Koa 项目。服务随项目部署；每个预览版本有自己的服务器。",
-        "ai_value": "介绍提到可以描述需求，由智能体搭建应用；也提到可运行需要时间完成的 AI 智能体。没有说明搭建过程如何工作。",
-        "differentiation": "它把 WebSocket 长连接、内存状态和项目部署放在同一服务中。最需要确认的是服务器缩到零或重启时，内存状态和连接会怎样。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到支持 WebSocket、内存状态、Express、Fastify、Hono、Koa、独立预览服务器，以及按需求扩缩和空闲时缩到零。",
-        "possible_approach": "如果自己做，可以先让应用运行在能保持连接的服务器上，再处理多人共享状态和长任务；最后把服务器部署流程接到项目预览中。难点是服务器停止或重启时，内存里的状态可能随之消失。",
-        "tradeoffs": "最容易踩坑的是把内存状态当成长期保存的数据；服务器停止或重启后，用户可能发现游戏进度或任务状态不见了。",
-        "unknowns": "介绍没有说明服务器缩到零或重启时，内存状态是否保留、WebSocket 连接如何恢复。"
-      },
-      "transferable_insights": [
-        "做带预览环境的开发工具时，可以让每个预览版本使用独立服务器，减少不同版本的运行状态互相影响。"
-      ],
-      "validation_questions": [
-        "让服务空闲并缩到零后再访问，检查内存状态是否保留或有明确恢复方式。",
-        "在一个预览版本建立 WebSocket 连接，再创建另一个预览版本，检查服务器和连接是否彼此隔离。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它把实时连接和长任务所需的服务器运行方式放进项目部署流程；但缩到零后状态是否丢失，会直接影响多人应用能否可靠使用。"
-    },
-    {
-      "id": "1312482",
-      "name": "Stripo Email Widgets",
-      "name_zh": "Stripo Email Widgets",
-      "tagline_zh": "无需写代码，把游戏、测验或问卷放进邮件。",
-      "description_zh": "在邮件中加入刮刮卡、测验、投票、NPS 调查或活动日程。把组件拖进 Stripo 编辑器，再告诉 AI 助手要改哪些文字、颜色、问题或奖品；组件会按收件箱是否支持互动，显示互动内容或静态版本。",
-      "intro_zh": "面向制作营销邮件的团队，把互动组件拖入邮件、调整内容，并保存下来供其他模板复用。",
-      "url": "https://www.producthunt.com/products/stripo-email?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Q2V6HYMV6Q7K4J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/2cbeeeb7-c18a-45e0-90fb-439318f509b4.gif?auto=format",
-      "votes_count": 252,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "支持的互动形式和编辑、复用方式说得清楚，但实际效果没有验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "按收件箱支持情况显示互动或静态版本，兼容处理是关键技术点。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "同一内容准备互动版和静态版，可借鉴到其他需要兼容不同环境的内容工具。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "制作营销邮件的人想加入小游戏、问卷或活动日程。逐项设计互动内容并处理不同收件箱的显示差异，可能需要额外的制作和测试。",
-        "workflow": "在 Stripo 编辑器中拖入一个组件，再用 AI 助手调整文字、颜色、问题或奖品。完成后可保存组件容器，并在其他邮件模板中复用。",
-        "ai_value": "AI 助手根据指令修改组件中的文字、颜色、问题和奖品。介绍没有说明它如何理解或应用这些修改。",
-        "differentiation": "组件自带设计、互动和备用静态版本，减少分别制作两种显示内容的工作。最可能影响使用的是收件人的邮箱是否支持互动。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称有 20 多种组件，每种包含设计、互动和备用显示逻辑；邮箱不支持互动时会显示静态内容。",
-        "possible_approach": "如果自己做，可以先为每种互动内容准备可编辑的组件，再为不支持互动的环境准备静态版本。接着根据邮件客户端能力选择显示版本，并允许保存和复用组件。",
-        "tradeoffs": "最容易出错的是判断收件箱是否支持互动；判断不准时，收件人可能看到静态内容，或互动功能无法使用。",
-        "unknowns": "介绍没有说明哪些邮件客户端支持互动，也没有说明如何识别支持情况。"
-      },
-      "transferable_insights": [
-        "如果你的产品内容会在能力不同的环境中展示，可以同时准备完整互动版和可读的静态版，避免不支持互动时内容消失。"
-      ],
-      "validation_questions": [
-        "在常见邮件客户端中打开测试邮件，确认互动组件和静态版本分别如何显示。",
-        "修改问题、颜色和奖品后，检查保存的组件在另一个模板中复用时内容是否保留。"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它把多种邮件互动组件和静态备用显示放在同一编辑流程里；但各类收件箱能否正确显示互动仍需验证。"
-    },
-    {
-      "id": "1310799",
-      "name": "Manufact",
-      "name_zh": "Manufact",
-      "tagline_zh": "向各个插件市场发布并测试你的 MCP",
-      "description_zh": "Manufact 帮团队发布 MCP 服务器和插件，并了解智能体如何使用它们。它把发布检查、会话记录和跨客户端测试放进同一套流程。",
-      "intro_zh": "适合开发 MCP 服务器或插件的团队，用它检查发布、查看智能体使用记录，并在不同客户端测试版本。",
-      "url": "https://www.producthunt.com/products/manufact?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/UI6BJYW7WUUNYS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cd59dd82-9d74-4e0a-8f3a-4d39bbfe6b52.jpeg?auto=format",
-      "votes_count": 203,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "发布检查、使用记录和跨客户端测试针对同一类开发团队，具体收益仍需试用确认。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "跨客户端测试和会话记录涉及兼容性与问题定位，但介绍未说明实现细节。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把发布检查、使用记录和多客户端测试放进一个流程，可借鉴到其他插件开发工具。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "开发 MCP 服务器或插件的团队，在发布和维护时需要检查发布要求、了解智能体如何使用工具，并确认不同客户端能否正常运行。分开处理这些工作可能增加切换和排查成本。",
-        "workflow": "团队用它发布 MCP 服务器和插件，进行发布检查；发布后查看会话记录，了解智能体的使用情况，并在多个客户端测试版本。介绍没有说明具体操作步骤。",
-        "ai_value": "产品面向智能体使用的 MCP 服务器和插件，提供查看智能体使用情况的记录。介绍没有说它本身用 AI 做什么。",
-        "differentiation": "它把发布检查、会话记录和跨客户端测试放进一个工作流，可能少在不同工具间切换。最可能影响采用的是客户端覆盖范围是否符合团队实际使用情况。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到 MCP 服务器和插件发布、发布检查、会话记录，以及跨客户端测试；未说明具体技术实现。",
-        "possible_approach": "如果自己做，可以先记录每个客户端中的调用会话，再为同一插件准备跨客户端测试，并把发布检查结果放在一起。难点是不同客户端的运行差异可能让测试结果难以直接比较。",
-        "tradeoffs": "最容易出错的是测试覆盖与真实使用的客户端不匹配；团队可能因此漏掉实际用户遇到的问题，或花时间测试不相关的客户端。",
-        "unknowns": "介绍没有说明支持哪些客户端，也没有说明会话记录包含哪些信息。"
-      },
-      "transferable_insights": [
-        "做插件或集成开发工具时，可以把发布检查、使用记录和多环境测试放在同一工作流，适合需要同时发布和维护多个客户端版本的团队。"
-      ],
-      "validation_questions": [
-        "先核对它支持的客户端是否覆盖团队实际要发布和测试的目标。",
-        "选一个版本在不同客户端测试，检查会话记录能否帮助定位调用失败的原因。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "把发布检查和多客户端测试放在同一流程，可能减少分散处理；但支持哪些客户端、会话记录能否帮助排查问题仍未说明。"
-    },
-    {
-      "id": "1318828",
-      "name": "Spellar for Chrome",
-      "name_zh": "Spellar for Chrome",
-      "tagline_zh": "免费、无需机器人加入的会议记录工具，带记忆功能，可在浏览器中使用",
-      "description_zh": "Spellar for Chrome 可在 Windows 和 Mac 的浏览器中记录 Google Meet、Zoom、Teams 和 Webex 会议，无需安装桌面应用，也不会有机器人加入通话。它把每次会议记录与 Spellar 的 Mac 和 iPhone 笔记放在同一记忆中，可发送笔记到 Slack 或 Notion，并可选择 Claude、GPT 或 Gemini；提供 300 分钟免费额度，无需绑定银行卡。",
-      "intro_zh": "给常开线上会议、需要回查客户说过什么的人用，在浏览器里记录会议，并跨会议查找旧内容。",
-      "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Z7H2A7X3VNOPOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a384264f-dc75-4df2-8989-2a419ddb76f7.jpeg?auto=format",
-      "votes_count": 197,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确覆盖会议记录和跨会议回查，但转写准确性与实际收益未验证。"
+          "reason": "目标和省去的比价、找优惠工作说得清楚，但实际节省多少未验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "浏览器录制和跨设备记忆带来具体实现问题，介绍未说明实现方式。"
+          "reason": "优惠资格和叠加是否准确会影响结果，具体实现方式未说明。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把会议笔记汇入可回查的统一记忆，适合借鉴到客户协作工具。"
+          "reason": "把含税运费的总价用于排序，并在购买前让用户确认，做法明确可借鉴。"
         }
       },
       "product_analysis": {
-        "target_problem": "常与客户开线上会议的人，可能需要回想几次通话前客户说过什么。单次会议笔记分散时，跨会议查找会比较麻烦。",
-        "workflow": "在浏览器中记录 Google Meet、Zoom、Teams 或 Webex 会议；记录进入统一记忆后，可询问旧会议内容，也可把笔记发送到 Slack 或 Notion。",
-        "ai_value": "介绍提到可选择 Claude、GPT 或 Gemini，但没有明确说明 AI 具体负责转写、整理还是回答查询。不要据此假定笔记生成流程。",
-        "differentiation": "它强调会议记录无需机器人加入，并可与 Spellar 的 Mac、iPhone 笔记合并回查。是否愿意迁移，可能取决于这些会议和笔记能否稳定、完整地进入同一记忆。"
+        "target_problem": "在美国买指定商品、又想比较价格和优惠的人会用它。逐店核对同款、尺码、运费税费和优惠可能费时。",
+        "workflow": "告诉它想买什么；它搜索美国商店里的同款和尺码，按含运费税费的估算总价排序。你批准后，它应用所选优惠并准备结账；你检查订单并完成付款。",
+        "ai_value": "介绍称它是个人购物代理，但没说明是否使用 AI。明确功能是搜索商品、组合优惠并比较预计总价。",
+        "differentiation": "它把可叠加优惠和预计总成本放在一起比较，少些逐店核对。可能让人不愿切换的是优惠条件判断有误，导致结账价格与估算不同。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍称它通过浏览器记录会议、不安装桌面应用；Google Meet 转写会显示真实发言者姓名，并可选择 Claude、GPT 或 Gemini。",
-        "possible_approach": "如果自己做，可以先在浏览器中获取会议声音并转成带发言者的文字，再把不同会议的记录存到同一处，供用户搜索或提问。最难的是可靠识别发言者和会议内容；介绍没有说明它具体如何处理。",
-        "tradeoffs": "最容易出错的是发言者归属。若把客户的话记到同事名下，用户回查时可能据此做出错误判断。",
-        "unknowns": "浏览器如何在不让机器人加入的情况下获取各会议平台的音频，介绍没有说明。"
+        "disclosed_facts": "介绍说明它搜索美国商店的同款和尺码，估算含运费税费的总价，并在用户批准后应用优惠、准备结账；具体技术未说明。",
+        "possible_approach": "如果自己做，可以先识别商品和尺码，再收集各店价格及优惠条件，计算预计总价并排序。最后要核对优惠能否用于该商品并同时生效。",
+        "tradeoffs": "最容易出错的是优惠资格或叠加条件判断；如果结账时优惠不适用，用户看到的实际价格会更高，还得重新比较。",
+        "unknowns": "介绍没有说明覆盖哪些商店，搜索范围会直接影响比较结果。"
       },
       "transferable_insights": [
-        "做客户管理或项目协作产品时，可把多次会议记录汇入同一客户记忆，让用户按问题回查旧沟通。"
+        "做比价或预订产品时，把运费和税费计入排序，避免低标价掩盖最终成本。",
+        "涉及购买的产品可以先列出准备使用的优惠让用户确认，并把最终付款留给用户。"
       ],
       "validation_questions": [
-        "实际开会时，检查是否无需机器人加入，也能完整录到声音和转写内容。",
-        "在 Google Meet 中核对转写的发言者姓名是否准确。"
+        "选一件同时有促销码和银行卡优惠的商品，核对估算总价与结账页价格。",
+        "输入指定商品和尺码，检查结果是否为同款且该尺码确实可购买。"
       ],
-      "category": "效率工具",
+      "category": "金融商业",
       "overall_suggestion": "优先研究",
-      "overall_reason": "跨会议查找客户说过的话可能省去翻找多份记录的时间；但浏览器录音覆盖范围和说话人识别准确度尚无实测依据。"
+      "overall_reason": "它把优惠、运费和税费纳入同一份价格比较，能减少分散核对；但优惠在实际结账时是否仍符合条件尚无说明。"
     },
     {
-      "id": "1319464",
-      "name": "Tabstack by Mozilla",
-      "name_zh": "Tabstack by Mozilla",
-      "tagline_zh": "让模型使用网页信息，同时保护隐私",
-      "description_zh": "它把网页研究、内容提取和浏览器任务自动化放在一个托管 API 中，可一次调用返回带引用的答案、整理后的文本、匹配的 JSON 或已完成的浏览器任务。产品称默认注重隐私、不用数据训练模型，并提供 10,000 个免费额度；这些说法未独立验证。",
-      "intro_zh": "给开发网页智能体的团队用，一次调用就能获取网页答案、提取内容或执行浏览器任务。",
-      "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/FM63R7JHAJZXNE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/c21c067a-d808-496d-ad91-fe9abe9daf30/44fe0171d70f349bd33fe9be0b85b8dff7d20d2ebedf00608318004d0362ccee.png?auto=format",
-      "votes_count": 193,
+      "id": "1318366",
+      "name": "Tripmojo",
+      "name_zh": "Tripmojo",
+      "tagline_zh": "帮助规划、预订和管理旅程的旅行应用",
+      "description_zh": "Tripmojo 会把预订邮件同步到共享行程，由 AI 旅行助手 Mojo 协助管理。用户可以在群聊中提问、投票和找地点；出行当天，Mojo 会尝试办理值机、保存登机牌、提示延误或登机口变化及出发时间，旅途中更新当天计划并拆分费用。",
+      "intro_zh": "适合结伴出行的人：把预订邮件汇成共享行程，再在群聊里规划、查看提醒和分摊费用。",
+      "url": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MGYYGRQ2OTZNMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/4f22488c-25e9-4997-89a4-ea0f004f9130.png?auto=format",
+      "votes_count": 298,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "明确列出网页问答、提取和浏览器任务等用途，但实际省时效果未验证。"
+          "reason": "目标用户和整合行程的用途清楚，但实际覆盖范围与效果未验证。"
         },
         "technical_insight": {
-          "score": 4,
-          "reason": "把浏览器和网页处理环节放在模型之外，提示了任务执行与结果交接的关键问题。"
+          "score": 3,
+          "reason": "自动值机和邮件整理有具体难点，介绍没有说明实现方式或支持范围。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把多种网页结果整理成一次调用的输出，适合借鉴到需要联网取数的产品。"
+          "reason": "把确认邮件汇成共享时间表的做法可用于其他多人安排工具。"
         }
       },
       "product_analysis": {
-        "target_problem": "开发网页智能体的团队，可能需要让模型查网页、提取内容或操作浏览器。若自行搭建网页处理环节，团队还要维护浏览器和网页任务流程；具体原有做法因团队而异。",
-        "workflow": "开发者通过托管 API 发起一次调用，可请求带引用的答案、清理后的文本、符合要求的 JSON，或浏览器任务结果。介绍没有说明请求参数和任务配置步骤。",
-        "ai_value": "产品让模型能使用实时网页内容，并把检索、提取或浏览器任务的结果交给模型。介绍没有说明这些步骤具体由模型还是其他组件处理。",
-        "differentiation": "它把浏览器运行和网页处理流程放在模型之外，开发者不必自己搭建这部分网页工具栈。是否愿意换用，可能取决于托管过程能否满足团队对隐私和任务控制的要求。"
+        "target_problem": "同行者共同安排旅行时，预订信息、计划讨论、临行提醒和费用分摊容易分散处理。",
+        "workflow": "同步预订邮件到共享行程；在群聊让 Mojo 回答问题、发起投票和找地点。出行当天，它尝试值机并保存登机牌、提示延误或登机口变化及出发时间；旅途中更新当天计划并拆分费用。",
+        "ai_value": "Mojo 是 AI 旅行助手，协助回答群聊问题、找地点和管理行程。介绍没有说明它如何完成这些任务。",
+        "differentiation": "它把邮件中的预订信息、群聊协作、途中提醒和分账放进一份共享行程。用户可能会顾虑为了同步邮件而开放邮件访问权限。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍称服务通过托管 API 提供网页研究、内容提取和浏览器任务，并在模型之外运行浏览器及网页处理流程。",
-        "possible_approach": "如果自己做，可以先让浏览器访问网页并收集页面内容，再按调用者要求整理成答案、文本、JSON 或任务结果。最后保留来源信息，方便使用者核对答案。",
-        "tradeoffs": "最容易出错的是网页内容提取：页面改版或内容加载不全时，答案可能漏掉关键信息；引用若没有指向实际依据，用户也难以核实。",
-        "unknowns": "介绍没有说明网页数据如何保存、访问和删除，团队需要先确认这是否符合自己的隐私要求。"
+        "disclosed_facts": "介绍称它会同步预订邮件，并由 AI 助手 Mojo 协助规划与管理行程；没有说明具体技术。",
+        "possible_approach": "如果自己做，可以先从邮件中提取航班、酒店和时间，整理成共享行程；再让助手依据行程回答群聊问题、安排提醒。值机先覆盖明确支持的流程，失败时提示用户自行办理。",
+        "tradeoffs": "最容易出错的是不同航空公司的值机规则和开放时间各异；自动尝试失败时，用户仍需自行值机。",
+        "unknowns": "介绍没有说明哪些航空公司支持自动值机，这决定了用户能否依赖它办理登机。"
       },
       "transferable_insights": [
-        "做需要联网的智能体时，可以把网页访问和内容整理封装成一次调用，并让调用者选择答案、文本或 JSON 等结果格式。",
-        "提供网页答案时，可以同时返回引用，让用户能回到原网页核对关键内容。"
+        "做多人活动或项目安排工具时，可把确认邮件汇成共享时间表，让讨论直接围绕这份表进行。",
+        "做日程类产品时，可把当天计划和对应提醒放在一起，减少临时翻找。"
       ],
       "validation_questions": [
-        "用几类结构不同的网页请求带引用的答案，检查引用是否支持答案中的关键结论。",
-        "确认一次浏览器任务会访问和保存哪些数据，以及能否按团队要求删除。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "一次调用覆盖网页提取、回答和浏览器任务，能减少开发者自行搭建网页处理环节的工作；但数据如何保存和删除尚不清楚，影响隐私判断。"
-    },
-    {
-      "id": "1310284",
-      "name": "Teaflask",
-      "name_zh": "Teaflask",
-      "tagline_zh": "无需改后端的自我改进型 AI 助手",
-      "description_zh": "无需重建后端，就能把现有 SaaS 产品接入 AI 助手，让用户直接通过提问完成操作。Teaflask 通过前端接入，使用现有界面组件，并让产品知识基于代码、真实使用情况和发布前测试持续调整。",
-      "intro_zh": "给已有 SaaS 团队使用，把前端接入 AI 助手，让用户用提问完成产品内的操作。",
-      "url": "https://www.producthunt.com/products/teaflask?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/P7M5XVDZPLYNNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c6523d04-d99b-457e-b893-dd4dbe92f2a7.jpeg?auto=format",
-      "votes_count": 178,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确面向已有 SaaS 团队，主张减少后端重建工作，但上线速度和实际收益未验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "代码知识 grounding、使用反馈和发布前测试都涉及具体实现问题，但关键架构没有说明。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "前端接入、复用现有组件和发布前验证是可借鉴的产品接入方式，适用边界仍需确认。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "已有 SaaS 团队想增加自然语言操作，却不想为 AI 助手重做后端。原来的麻烦可能在于把产品能力、界面和 AI 交互重新接起来。",
-        "workflow": "团队从前端接入 Teaflask，继续使用自己的 UI 组件。系统根据代码建立产品知识，让用户通过提问完成操作，再依据真实使用情况调整，并在发布前测试改动。",
-        "ai_value": "AI 负责理解用户请求，并充当产品内的操作助手。介绍还称它会从真实使用中改进，但没有说明具体如何学习或由谁审核。",
-        "differentiation": "它把接入重点放在前端，主张无需改后端。最可能阻碍替换的是：团队仍要确认它能否准确调用现有功能，并遵守原有权限。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到托管式 AI copilot、前端接入、自有 UI 组件、基于代码建立产品知识、真实使用反馈和发布前测试。",
-        "possible_approach": "如果自己做，可以先把代码中的页面、字段和可执行操作整理成 AI 可读的产品说明，再让模型把用户请求对应到现有前端动作，并记录结果供人工测试和调整。关键是给每个动作加权限检查和失败提示。",
-        "tradeoffs": "最容易出错的是把用户的话映射到错误的页面或操作。结果可能是助手给出看似合理的回答，却没有完成用户真正想做的事；资料没有说明它如何避免这种情况。",
-        "unknowns": "介绍没有回答 AI 如何在不改后端的情况下安全执行操作，也没有说明权限、数据隔离和敏感操作的处理方式。"
-      },
-      "transferable_insights": [
-        "做已有 SaaS 的 AI 功能时，可以先复用现有 UI 组件，把自然语言入口放到前端，减少用户重新学习界面的成本。",
-        "发布 AI 行为前保留测试环境，并用真实使用反馈挑选要修正的请求，比直接上线所有自动改动更容易控制风险。"
-      ],
-      "validation_questions": [
-        "用几个涉及查询、编辑和权限限制的真实任务检查：助手是否能准确完成操作，并给出可核对的结果。",
-        "修改页面或产品规则后重新测试：代码知识是否及时更新，旧规则会不会继续影响回答或操作。"
+        "用一封航班预订邮件检查航班和时间是否正确进入共享行程。",
+        "选一趟自己乘坐的航班，检查 Mojo 能否完成值机并保存登机牌。"
       ],
       "category": "AI工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "它可能让已有 SaaS 以较小的后端改造接入自然语言操作，但是否真的安全可靠，取决于前端动作映射和权限执行方式。"
+      "overall_reason": "共享行程能把预订信息和同行讨论放在一起，减少临时找信息；但自动值机支持哪些航空公司还不清楚。"
     },
     {
-      "id": "1322288",
-      "name": "Adside",
-      "name_zh": "Adside",
-      "tagline_zh": "由多个专职 AI 智能体帮你管理付费广告",
-      "description_zh": "一组专职 AI 智能体可管理 Google、Meta、LinkedIn、Reddit 和 Twitter 上的付费广告。用户可以自行使用，也可以请产品提供的人工专家代管。",
-      "intro_zh": "面向需要投放多平台付费广告的团队，协助管理广告；也可选择由人工专家代管。",
-      "url": "https://www.producthunt.com/products/adside?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/32JCPUC6N6DHBO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/c32aa6b4-139b-4a45-bc87-0f836378d3ad.jpeg?auto=format",
-      "votes_count": 230,
+      "id": "1320093",
+      "name": "Bookella",
+      "name_zh": "Bookella",
+      "tagline_zh": "帮助你读得更多的阅读记录工具",
+      "description_zh": "Bookella 是 iPhone、iPad 和 Android 上的阅读记录工具与个人书库，可搜索 122 million 本书、扫描整排书的条码或让 AI 推荐下一本书。它支持设定阅读目标、计时、记录笔记和引文，并可从 Goodreads、StoryGraph 或 CSV 导入书目，且无广告。",
+      "intro_zh": "给想记录阅读进度、整理个人书库的读者用；可添加书目、设定目标并查看阅读记录。",
+      "url": "https://www.producthunt.com/products/bookella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XLV3656TB6CLUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/8a6681f8-4500-455c-bf0b-5bd53e0b594a/0e7cd379dd6c378e1cc0984c133784beabffd174b92300832541e19e65e52213.png?auto=format",
+      "votes_count": 184,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "明确覆盖多个广告平台，并提供自助和人工代管两种方式，但具体能省多少工作尚不清楚。"
+          "reason": "覆盖找书、整理书目和记录进度，但能否让用户读得更多没有验证数据。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "提到多个专职 AI 智能体，但没有说明它们如何管理广告或如何控制投放风险。"
+          "reason": "批量扫条码和 AI 选书值得关注，但实现细节与准确性未知。"
         },
         "transferability": {
-          "score": 3,
-          "reason": "自助与人工代管并列的服务方式可供参考，但介绍未说明两者如何衔接。"
+          "score": 4,
+          "reason": "扫码、搜索和导入提供了多种建库入口，可借鉴来降低初次整理成本。"
         }
       },
       "product_analysis": {
-        "target_problem": "需要在多个广告平台投放的团队可能会用到它。分平台管理广告可能增加日常操作负担，但介绍没有说明用户原先如何管理。",
-        "workflow": "用户可自行使用 Adside 管理 Google、Meta、LinkedIn、Reddit 和 Twitter 上的付费广告，或请人工专家代管。具体设置和管理步骤未说明。",
-        "ai_value": "介绍称由多个专职 AI 智能体管理付费广告，但没有说它们具体负责哪些任务，也没说明哪些操作需要用户确认。",
-        "differentiation": "它把自助使用和人工代管放在同一产品介绍中，可能适合希望自己管理或需要人工协助的团队。是否能减少切换平台的麻烦，取决于它实际支持哪些广告操作。"
+        "target_problem": "想管理个人藏书和阅读进度的读者会需要它。逐本录入、持续记录阅读情况可能比较费事。",
+        "workflow": "用户可搜索书名、从阅读清单选书、批量扫描书架条码，或从 Goodreads、StoryGraph、CSV 导入。之后设定每日或年度目标、计时阅读，并记录笔记和引文。",
+        "ai_value": "AI 用来推荐下一本书。介绍没有说明推荐依据，也没有说能否调整推荐。",
+        "differentiation": "批量扫码和已有书目导入能减少建库时的逐本录入。最可能的换用障碍是用户已有阅读记录是否能完整迁移，介绍未说明迁移范围。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍明确称产品使用多个专职 AI 智能体管理五个平台的付费广告；未说明具体技术或实现方式。",
-        "possible_approach": "如果自己做，可以先明确每个平台要管理的广告任务，再让相应模块提出修改建议；提交前由人确认，避免未经检查就改动预算或广告内容。",
-        "tradeoffs": "最容易出错的是广告修改没有经过充分确认，用户可能因此遇到预算或投放设置被改错的问题。",
-        "unknowns": "关键问题是 AI 能直接修改和投放广告，还是只提供建议？"
+        "disclosed_facts": "介绍称产品支持 iPhone、iPad 和 Android，可搜索 122 million 本、涵盖 28 种语言的书，并提供批量条码扫描与 AI 选书；未说明具体技术实现。",
+        "possible_approach": "如果自己做，可以先识别书籍条码并匹配书目，再保存到个人书架；推荐功能可先根据用户选过的书给出候选。条码匹配和推荐依据都需要实际验证。",
+        "tradeoffs": "最容易出错的是条码识别后匹配错书；用户会发现书架记录不准，还得手动查找和修正。",
+        "unknowns": "批量扫描能否识别不同摆放角度、遮挡或条码质量不佳的书？"
       },
       "transferable_insights": [
-        "做需要专业操作的工具时，可以同时提供用户自助和人工代管，让团队按自身能力选择服务方式。"
+        "做个人资料库时，可同时提供搜索、批量录入和外部文件导入，适合需要整理大量旧资料的用户。",
+        "做习惯记录工具时，可把目标、计时和事后记录放在同一流程里，适合需要回看每日投入的人。"
       ],
       "validation_questions": [
-        "检查 AI 对预算、受众或广告内容的修改是否需要用户确认。",
-        "检查五个平台分别支持哪些管理操作，是否能查看修改记录。"
+        "扫描一排不同角度摆放的书，检查识别和书目匹配是否准确。",
+        "导入一份已有阅读记录，检查书目、笔记和阅读进度是否保留。"
       ],
-      "category": "金融商业",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "多平台广告管理还提供人工代管选项，可能覆盖不同团队的管理需求；但 AI 是否会直接改动预算和投放设置尚不明确。"
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "批量建库和阅读记录能减少手工整理；但条码匹配准确度与旧数据迁移完整性仍不清楚。"
     },
     {
-      "id": "1322352",
-      "name": "Gemini 4 Neon",
-      "name_zh": "Gemini 4 Neon",
-      "tagline_zh": "以更快完成任务为目标的前沿推理模型",
-      "description_zh": "Gemini 4 Neon 面向更快的编码、研究和智能体工作流，提供前沿推理能力。它基于 Gemini 4 Carbon 调整，支持多模态输入和 100 万 token 上下文，可通过 Gemini API、AI Studio 和 Antigravity 使用。",
-      "intro_zh": "面向开发者、研究人员和智能体应用构建者，用来处理编码、研究及多模态任务。",
-      "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/VNQ2C436QNLPO3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bd279415-9ca4-4843-8944-59c52ebcbfac.png?auto=format",
+      "id": "1323083",
+      "name": "Currents",
+      "name_zh": "Currents",
+      "tagline_zh": "让 Claude 和 Codex 查看你的所有测试",
+      "description_zh": "Currents 会记录 CI 中每次 Playwright 测试运行。Claude 和 Codex 可以读取这些记录；连接插件并登录后，询问 CI 为什么失败，助手会自动获得失败信息、历史记录和运行轨迹。",
+      "intro_zh": "面向维护 Playwright CI 的开发团队，把测试失败、历史记录和运行轨迹交给 Claude 或 Codex，辅助排查问题。",
+      "url": "https://www.producthunt.com/products/currents-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/5CEHDWRBU3OWTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/cfe7571d-2738-4181-87f7-cac376074238.jpeg?auto=format",
+      "votes_count": 156,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标场景和提供的排查资料明确，但实际能否加快定位尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "把测试历史和运行轨迹交给助手有具体技术问题，资料未说明实现方式。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把故障所需的历史上下文一并提供给助手，适用于其他排查工具。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "维护 Playwright CI 的开发者遇到测试失败时，可能需要结合失败结果、历史记录和运行轨迹判断原因。Currents 面向这类排查场景。",
+        "workflow": "在 Claude 或 ChatGPT/Codex 的插件目录连接 Currents 并登录。CI 中的 Playwright 测试运行会被记录；用户询问失败原因后，助手会自动收到失败信息、历史记录和运行轨迹。",
+        "ai_value": "Claude 或 Codex 可以读取这些排查资料，供其回答用户关于 CI 失败的问题。介绍没有说明助手会自动判定根因，还是只提供分析帮助。",
+        "differentiation": "它把失败、历史和运行轨迹交给助手一起查看，可能减少在不同记录间查找的麻烦。是否愿意接入，关键要看授权范围是否符合团队要求。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说会记录 CI 中的 Playwright 测试运行，并让 Claude 或 ChatGPT/Codex 插件读取失败信息、历史记录和运行轨迹；未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先保存每次 CI 测试的结果和运行轨迹，再让插件按用户的问题取回相关失败及历史记录，交给助手分析。",
+        "tradeoffs": "最容易出错的是把失败和错误的历史记录或运行轨迹对应起来；这样助手可能根据别的测试运行解释问题。",
+        "unknowns": "介绍没说明插件能读取哪些项目的数据，需确认是否能限制到用户有权限查看的范围。"
+      },
+      "transferable_insights": [
+        "做 CI 告警排查工具时，可以在用户提问时一并提供故障记录和相关历史，让助手结合上下文分析，而非只给一条报错。"
+      ],
+      "validation_questions": [
+        "选一条已知失败的测试，检查助手收到的历史记录和运行轨迹是否确实对应这次运行。",
+        "用只能访问部分项目的账号连接插件，检查助手能否读取未授权项目的测试记录。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "失败记录、历史和运行轨迹能一起交给助手，是它最明确的排查便利；但记录是否准确对应测试、访问范围能否限制，仍会影响判断。"
+    },
+    {
+      "id": "1315726",
+      "name": "Kuc-kuc",
+      "name_zh": "Kuc-kuc",
+      "tagline_zh": "恶劣天气来临时，打个电话确认情况",
+      "description_zh": "预报有危险天气时，Kuc-kuc 会给独居长者打电话询问是否安好；若无人接听或对方说身体不适，就联系邻居上门查看，家人可看到处理进展。它支持固定电话，运行在 Cloud Run 上。",
+      "intro_zh": "面向独居长者的家人，在恶劣天气预报时自动打电话确认安好，并在需要时通知邻居上门。",
+      "url": "https://www.producthunt.com/products/kuc-kuc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/LKBGU35INMLRUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e0ade2f1-cea4-4d9f-9449-8c1abf84dfce.png?auto=format",
       "votes_count": 146,
       "scores": {
         "product_value": {
-          "score": 3,
-          "reason": "用途和接入方式明确，但更快完成任务的收益没有量化。"
+          "score": 4,
+          "reason": "目标人群和应急处理方式明确，但实际可靠性和覆盖范围未知。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "提到多模态输入和百万 token 上下文，未说明推理速度或长上下文表现。"
+          "reason": "提到固定电话和 Cloud Run，但没有说明天气触发与通话状态判断方式。"
         },
         "transferability": {
-          "score": 2,
-          "reason": "可借鉴的产品做法有限，资料没有说明任务流程或使用条件。"
+          "score": 4,
+          "reason": "先电话确认、未确认再联系附近人员的处理规则可借鉴，效果仍需验证。"
         }
       },
       "product_analysis": {
-        "target_problem": "开发者、研究人员和智能体应用构建者，可能需要一个处理编码、研究及多模态输入的模型。资料没有说明他们原先具体怎么完成这些任务。",
-        "workflow": "用户可通过 Gemini API、AI Studio 或 Antigravity 使用模型；简介未说明提交任务、查看结果等具体步骤。",
-        "ai_value": "它是推理模型，面向编码、研究和智能体工作流，并支持多模态输入。简介没有举例说明模型如何处理这些任务。",
-        "differentiation": "它强调更快完成任务，并提供百万 token 上下文。速度优势没有测试数据，用户是否愿意切换还取决于实际任务表现。"
+        "target_problem": "恶劣天气预报期间，家人想确认独居长者是否安好，也需要有人在失联或求助时上门查看。",
+        "workflow": "天气预报有危险天气时，系统给长者打电话询问情况；无人接听或对方说不舒服时，就联系邻居。家人可以查看处理进展。",
+        "ai_value": "介绍没提 AI，主要靠天气预报触发电话确认，并按通话结果联系邻居。",
+        "differentiation": "它能在电话未获确认时联系邻居，减少家人逐次打电话的负担；但需要有愿意配合、能及时上门的邻居。"
       },
       "technical_analysis": {
-        "disclosed_facts": "产品介绍称它基于 Gemini 4 Carbon 调整，支持多模态输入、100 万 token 上下文，并可通过 Gemini API、AI Studio 和 Antigravity 使用。",
-        "possible_approach": "如果自己做，可以先选定一个能处理文本和其他输入的模型，再把编码或研究任务连同相关资料交给它，并检查结果是否可靠。具体模型、资料处理和智能体编排方式无法从简介判断。",
-        "tradeoffs": "上下文很长不代表模型一定能准确找到关键资料；若它漏看或误用长文档里的信息，编码和研究结果都可能出错。",
-        "unknowns": "“更快”具体指响应时间还是完成任务的时间，简介没有说明。"
+        "disclosed_facts": "介绍明确说支持固定电话，并运行在 Cloud Run 上。",
+        "possible_approach": "如果自己做，可以先确定本地危险天气的触发条件，再设置固定电话确认和超时规则；收到回答或超时后，按规则联系邻居并通知家人。",
+        "tradeoffs": "最容易出错的是通话状态记录；如果接听、求助或无人应答被记错，邻居可能没收到通知，或被无谓打扰。",
+        "unknowns": "介绍没有说明危险天气的定义和预警来源，难判断它能否覆盖当地并及时触发。"
       },
       "transferable_insights": [
-        "做开发者工具时，可把模型放进用户已有的入口；这里列出了 API、AI Studio 和 Antigravity 三种接入方式。"
+        "做居家安全服务时，可以借用“先电话确认，未确认再联系附近人员”的分级处理方式。"
       ],
       "validation_questions": [
-        "用相同的编码任务比较它与团队现用模型的完成时间和结果质量。",
-        "给它一份较长资料并询问分散在不同位置的关键信息，检查是否能准确引用。"
+        "分别测试长者确认安好、表示不适和无人接听，检查邻居通知是否符合预期。",
+        "检查一条当地危险天气预报能否触发确认电话，以及触发时间是否及时。"
+      ],
+      "category": "安全隐私",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "电话未获确认时能转交邻居跟进，可能减轻家人逐次联系的负担；但预警来源和覆盖范围不明，影响它在具体地区是否可靠。"
+    },
+    {
+      "id": "1322934",
+      "name": "Tamekoshi",
+      "name_zh": "Tamekoshi",
+      "tagline_zh": "一款能实际处理工作的电子宠物式 AI 助手",
+      "description_zh": "Tame 是一款常驻屏幕顶部的 AI 助手：一条消息中的三项要求可交给三个子代理并行处理；它能在自己的电脑上运行任务、通过 WhatsApp 和 Telegram 回复客户，并按发言人整理会议记录。所有操作都需先经用户确认；目前处于免费测试阶段，移动应用、多人协作和开源仍在规划中。",
+      "intro_zh": "面向需要处理客户消息、电脑任务和会议记录的人，把多项要求交给屏幕顶部的 AI 助手并逐项确认。",
+      "url": "https://www.producthunt.com/products/tamekoshi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/D7S6JA3X5PKAUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/bca1bbcf-7d7f-496e-925c-02d78cab4190.jpeg?auto=format",
+      "votes_count": 111,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "用途和可处理的工作说得具体，但实际省时效果没有验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "并行拆分任务并保留用户确认，带来明确的准确性与控制问题。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "多事项拆分和执行前审批可借用于有外部操作风险的助手。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "同时处理客户消息、电脑任务和会议记录的人，可能需要在多个工具间切换、分别安排事项；资料未说明他们原先的具体流程。",
+        "workflow": "用户从屏幕顶部发消息；三项要求可交给三个并行子代理。助手在自己的电脑上运行任务、回复 WhatsApp 或 Telegram 客户，也能按发言人整理会议记录；操作前需用户确认。",
+        "ai_value": "AI 将一条消息中的多项要求交给子代理并行处理，也负责执行任务和整理会议记录；具体模型与拆分方法未说明。",
+        "differentiation": "它把多项工作并行处理，并要求用户批准操作。最可能让人犹豫的是确认步骤：任务多时，逐项审批可能拖慢处理。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它会把一条消息中的三项要求交给三个并行子代理，并在自己的电脑上运行任务；未说明具体采用什么技术。",
+        "possible_approach": "如果自己做，可以先把消息拆成三项清单，再让三个程序各做一项，最后列出结果和待执行操作，请用户确认。",
+        "tradeoffs": "最容易错在拆分时漏掉条件；子任务可能做偏，用户就得补充说明或重做。",
+        "unknowns": "介绍没说回复客户等外部操作是否会逐项等待用户批准。"
+      },
+      "transferable_insights": [
+        "做能代办的工作助手时，可把多事项请求拆成可检查的任务，并在执行前让用户批准；适合有外部操作风险的流程。"
+      ],
+      "validation_questions": [
+        "给它一条含三项且带先后条件的请求，检查是否拆分正确。",
+        "让它准备回复一条客户消息，检查未经确认是否确实不会发送。"
       ],
       "category": "AI工具",
-      "overall_suggestion": "暂缓研究",
-      "overall_reason": "多模态输入和长上下文覆盖了编码、研究等任务；但“更快”的实际含义和表现仍不清楚。"
+      "overall_suggestion": "优先研究",
+      "overall_reason": "明确的好处是多项工作能并行处理，同时保留用户确认；但审批是否覆盖对外发送消息仍不清楚。"
+    },
+    {
+      "id": "1314593",
+      "name": "tensorViz",
+      "name_zh": "tensorViz",
+      "tagline_zh": "让编程代理看见 PyTorch 模型内部的数据流",
+      "description_zh": "编程代理能读取 PyTorch 代码，却看不到模型运行时实际传递的数据；tensorViz 执行一次真实前向计算，并把模块和张量形状整理成交互图。Claude Code、Codex 和 Cursor 可以搜索这张图，用户也可以浏览近期论文中 560 多个模型的图；产品免费且采用 MIT 许可。",
+      "intro_zh": "面向用编程代理开发 PyTorch 的工程师，把一次真实运行整理成可搜索的模型结构和张量形状图。",
+      "url": "https://www.producthunt.com/products/tensorviz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GGVBUX3ATW7EJK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/19185f4a-d0ca-48b4-8c84-e6e3266c127c/f6d797e5e851a1f4256432606c76fc51481dc00c146523e082d3680bd781efc5.png?auto=format",
+      "votes_count": 96,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确对应代理看不到运行时张量的问题，但实际能否改善调试尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "用真实前向运行取得形状信息，具体呈现了代码与运行状态之间的差别。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴把运行时信息做成代理可搜索的图，但资料没有说明实现细节。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "用 Claude Code、Codex 或 Cursor 编写 PyTorch 模型的人可能会需要它。代理能读代码，却看不到实际运行时经过各层的数据形状，容易只能根据代码推测。",
+        "workflow": "让 tensorViz 对模型执行一次真实前向计算，它会生成包含模块和张量形状的交互图。编程代理可以搜索图并读取测得的形状；也可以不接入自己的模型，浏览 Model Explorer 中的模型图。",
+        "ai_value": "介绍没有说 tensorViz 用 AI 生成图。它提供运行时图和形状数据，让编程代理查询这些信息，辅助修改模型代码。",
+        "differentiation": "它补上了代码阅读与实际张量形状之间的信息差。使用前需要模型能成功运行一次真实前向计算，这可能让输入准备复杂的模型不易直接使用。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称 tensorViz 执行一次真实前向计算，生成含模块和张量形状的交互图，供编程代理搜索；没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先用一组输入运行模型，再记录每个模块运行时的张量形状，最后把模块和形状连成可搜索的图，供代理读取。难点是选对输入，让运行路径覆盖要排查的部分。",
+        "tradeoffs": "最容易漏掉的是只测了一次运行没经过的条件分支。图里若缺少相关路径，代理可能仍依据不完整的形状信息给出修改建议。",
+        "unknowns": "介绍没说复杂模型的前向输入如何准备；这关系到用户能否顺利生成第一张图。"
+      },
+      "transferable_insights": [
+        "做模型调试工具时，可把运行中测得的形状整理成代理能搜索的图，适合需要对照模型结构定位问题的场景。"
+      ],
+      "validation_questions": [
+        "用一个有代表性的模型运行后，检查图中显示的模块和张量形状是否与实际运行一致。",
+        "让编程代理搜索一个指定模块，检查它能否读到该模块对应的形状。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把实测张量形状交给编程代理查询，有机会减少猜测；但复杂模型能否顺利完成那一次前向运行还不清楚。"
+    },
+    {
+      "id": "1323572",
+      "name": "Docker",
+      "name_zh": "Docker",
+      "tagline_zh": "为智能体时代构建可信的运行环境",
+      "description_zh": "Docker 正面向智能体时代调整产品方向：容器隔离工作负载，而智能体还需要隔离、安全和治理。它提供面向智能体构建的供应链、用于隔离运行的 Docker Sandboxes，以及面向各团队的 Docker AI Governance，并更新了品牌和 Moby 鲸鱼形象。",
+      "intro_zh": "面向开发和平台团队，帮助隔离智能体运行环境，并管理构建来源与团队治理。",
+      "url": "https://www.producthunt.com/products/docker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/4IV63EDN4UZ3NO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/f9c26226-386c-4f90-a572-1ae0bd5f37d5/8b2f103eaf81b2fb3b30665b49f415a8a92d8c2ac52873f02d4c0c4099df5da5.png?auto=format",
+      "votes_count": 259,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确指出智能体运行的隔离与治理需求，但实际收益尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "隔离边界是具体技术难点，介绍未说明实现方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把构建来源、运行隔离和团队治理分开说明，做法可借鉴，细节仍待验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "开发和平台团队需要管理智能体的构建来源、运行隔离和团队规则。以前容器主要隔离工作负载；现在 Docker 也把智能体供应链、隔离运行和跨团队治理列为重点。",
+        "workflow": "介绍列出三部分：供智能体构建的可信供应链、隔离智能体的 Docker Sandboxes、跨团队治理的 Docker AI Governance。没有说明用户具体如何配置或使用。",
+        "ai_value": "介绍没有说产品用 AI 执行什么；AI 智能体是它要隔离和治理的对象。",
+        "differentiation": "它把构建来源、运行隔离和团队治理放进同一产品方向。最可能让团队暂缓采用的原因，是介绍没说明它如何接入现有环境。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到容器隔离工作负载、Docker Sandboxes 隔离智能体、Docker AI Governance 面向跨团队治理；未说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先划定智能体能访问的文件和资源，再记录构建来源并设定团队共用规则。这样分别处理运行风险、来源和管理要求。实现思路，非官方方案。",
+        "tradeoffs": "最难的是划清沙箱边界：如果智能体仍能读到不该访问的文件或凭据，用户仍会面临泄露风险。",
+        "unknowns": "介绍没有说明沙箱能限制哪些访问，也没说明治理规则如何配置。"
+      },
+      "transferable_insights": [
+        "做智能体平台时，可分别说明构建来源、运行隔离和团队治理各自管什么，避免用笼统的“安全”概括。"
+      ],
+      "validation_questions": [
+        "试用时检查沙箱中的智能体能否访问未授权的本机文件或凭据。",
+        "检查不同团队的治理规则能否分别设置并实际生效。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把智能体运行隔离和团队治理都纳入产品重点；但沙箱的实际访问边界尚不清楚。"
+    },
+    {
+      "id": "1322498",
+      "name": "Direct by Instagram",
+      "name_zh": "Direct by Instagram",
+      "tagline_zh": "不用打开信息流或 Instagram 账号，也能使用 Instagram 私信",
+      "description_zh": "Direct 是 Instagram 推出的独立聊天应用，可在不打开信息流、Reels 或快拍的情况下与朋友聊天。用户可用 Instagram 登录并同步现有对话，也可用邮箱或手机号加入；应用目前在土耳其和泰国测试，没有 Instagram 账号的用户会受到额外限制。",
+      "intro_zh": "给想避开 Instagram 信息流、单独聊天的人用；可同步已有对话，或用邮箱、手机号加入。",
+      "url": "https://www.producthunt.com/products/instagram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WTPU56RQWCD2XV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f44725c4-81ea-4820-b96c-6e01f73be38e.jpeg?auto=format",
+      "votes_count": 113,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确说明独立聊天能避开什么干扰，但实际使用效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "账号登录与对话同步值得关注，具体实现方式没有披露。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把聊天入口从内容浏览中分开可供借鉴，但适用条件仍待验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想用 Instagram 私信、但不想打开信息流、Reels 或快拍的人可能会需要它。分开聊天入口，能少接触这些内容。",
+        "workflow": "打开独立应用后，可用 Instagram 登录并同步已有对话，也可用邮箱或手机号加入；之后与朋友聊天，并使用贴纸、语音效果、涂鸦和主题等功能。",
+        "ai_value": "介绍没提 AI；主要靠独立聊天入口和个性化聊天功能改善体验。",
+        "differentiation": "相比在 Instagram 里聊天，它把私信放进独立应用。当前只在土耳其和泰国测试，且没有 Instagram 账号的用户受限，地区和账号条件是最直接的门槛。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍说明可用 Instagram 登录并同步现有对话，也可用邮箱或手机号加入；没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先明确不同登录方式如何对应用户，再决定哪些旧对话能同步。之后提供独立聊天入口，让用户直接查看和发送消息。",
+        "tradeoffs": "最容易出错的是账号对应和对话同步；若记录没同步到正确账号，用户可能找不到旧聊天或看到不属于自己的对话。",
+        "unknowns": "没有 Instagram 账号的用户具体能使用哪些聊天功能，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做同时包含内容浏览和私信的产品时，可以提供独立消息入口，适合希望专注处理对话、不想进入内容流的用户。"
+      ],
+      "validation_questions": [
+        "用 Instagram 登录后，现有对话是否都能正确同步？",
+        "不用 Instagram 账号加入后，实际能使用哪些聊天功能？"
+      ],
+      "category": "社交生活",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "独立入口能让用户避开内容流直接聊天；但无 Instagram 账号时的功能限制尚不清楚。"
+    },
+    {
+      "id": "1322506",
+      "name": "Volcano",
+      "name_zh": "Volcano",
+      "tagline_zh": "Kong 推出的自愈型智能体云",
+      "description_zh": "Volcano 集中构建、托管和运行智能体与应用，可从常用编程代理或 AI Builder 部署。它提供持久任务、人工审批、可恢复沙箱、数据库和应用托管；产品称 LavaFlow 会自动发现并修复错误。",
+      "intro_zh": "面向开发者，把智能体和应用部署到云端运行，并使用配套的后端服务。",
+      "url": "https://www.producthunt.com/products/volcano-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/M2PZAL4CR53OAW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/8ddb1683-785e-4310-bebf-a6a1dcfb2081.gif?auto=format",
+      "votes_count": 108,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途和功能范围清楚，但实际省下多少工作尚无资料。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "自动修复值得关注，具体实现和验证方式未说明。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "支持从现有编程代理部署是具体做法，适用条件仍待确认。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "开发智能体或应用的团队，需要部署、托管和后端能力。分开选服务可能增加配置工作，介绍未说明用户原先的具体做法。",
+        "workflow": "从已有编程代理发起部署，或用 AI Builder；之后在 Volcano 托管运行应用，并按需使用配套服务。",
+        "ai_value": "AI Builder 可用于构建；产品还称 LavaFlow 能自动找错并修复，但没说明如何验证补丁。",
+        "differentiation": "把部署入口、应用托管和后端服务放在一处，可少分别寻找服务。最可能的换用阻力是现有项目迁入要做多少适配，介绍未说明。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍列出可持续一年的持久函数、可恢复沙箱、分布式锁、可分支的 Postgres 数据库，以及后端和 Next.js 托管。",
+        "possible_approach": "如果自己做，可以先收集错误，再让代理提出补丁并用原有测试验证，通过后才发布。",
+        "tradeoffs": "最容易出错的是补丁验证；测试没覆盖真实故障时，修复可能引入新问题。",
+        "unknowns": "介绍未说明自动修复是否要经人工批准才发布。"
+      },
+      "transferable_insights": [
+        "做开发者平台时，可支持用户从已有编程代理部署，减少更换工作流的步骤。"
+      ],
+      "validation_questions": [
+        "用一个现有项目从支持的编程代理部署，检查能否正常运行。",
+        "给它一个可复现的缺陷，检查修复是否通过原有测试。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把部署和后端服务集中起来是明确好处；但自动修复如何验证、发布尚不清楚。"
     }
   ]
 }
