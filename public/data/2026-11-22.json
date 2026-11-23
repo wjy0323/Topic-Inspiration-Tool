@@ -1,0 +1,491 @@
+{
+  "date": "2026-11-22",
+  "schema_version": 2,
+  "analysis_style": "plain_language_v1",
+  "source_mode": "producthunt_api",
+  "generated_at": "2026-11-24T03:13:21+08:00",
+  "generation_error": false,
+  "products": [
+    {
+      "id": "1323002",
+      "name": "Rankhog",
+      "name_zh": "Rankhog",
+      "tagline_zh": "自动从 Reddit 获取客户",
+      "description_zh": "Rankhog 会在 Reddit 上寻找正在询问你所售产品的人，读取所在主题社区的规则，写一条有帮助的回复，并用你的账号按“人类节奏”发布。你可以逐条批准，也可以开启自动运行；没有 Reddit 账号时，它声称会先养一个新账号且账号归你所有，还能从应用、Claude、ChatGPT、Cursor 或 MCP 客户端运行，提供 7 天免费试用。",
+      "intro_zh": "面向想从 Reddit 获客的产品团队，自动发现相关提问，按社区规则生成并发布回复。",
+      "url": "https://www.producthunt.com/products/rankhog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HVFQNHONLRBAJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/mcp-draft-media/e9e750f2-a006-4464-82f9-b7b4c44693c4.jpeg?auto=format",
+      "votes_count": 344,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "找帖、读规则、写回复和发布的流程清楚，但实际获客效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "账号授权、规则判断和自动发帖都有明确难点，但实现方式与可靠性未说明。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "“先生成草稿、再批准发布”的分级自动化做法可以借到其他社区运营工具中。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想从 Reddit 获客的团队要面对分散在不同主题社区的提问和各自的发帖规则。若靠人工，就要自己找帖、读规则、写回复和发布；自动化又会带来账号风险。",
+        "workflow": "用户提供自己的 Reddit 账号后，Rankhog 找出相关提问，读取所在社区规则并生成回复。用户可以逐条批准后发布，也可以开启自动运行；没有账号时可让它先养号。",
+        "ai_value": "介绍没有明确说明 Rankhog 使用 AI。它描述了自动找帖、读取规则、生成回复和发布；Claude、ChatGPT 等是运行入口，不能据此断定内部模型。",
+        "differentiation": "它把找帖、查规则、起草和发帖放在同一流程，减少重复操作。最大的换用阻力是用户不愿让自动化程序操作自己的 Reddit 账号，尤其是在自动模式下。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到按主题社区读取规则、用用户自己的 Reddit 账号按人类节奏发帖，并支持 Claude、ChatGPT、Cursor 和 MCP 客户端（让 AI 客户端调用外部工具的连接方式）；没说具体模型、接口或架构。",
+        "possible_approach": "如果自己做，可以先按关键词和社区筛选帖子，再读取当前规则并生成回复草稿，交给人确认后用账号权限发布，最后记录结果。自动模式还要加入频率和重复发布限制。",
+        "tradeoffs": "最容易出错的是规则判断：漏掉置顶说明或读到旧规则，回复可能被删除，账号也可能被限制。",
+        "unknowns": "介绍没说明自动发布如何避免触发 Reddit 的反垃圾限制。"
+      },
+      "transferable_insights": [
+        "做社区运营或销售线索工具时，可以借用“先按社区规则生成草稿，再让用户逐条批准，最后才发布”的分级自动化。"
+      ],
+      "validation_questions": [
+        "用几个规则差异明显的主题社区检查生成的回复是否遵守当前版规。",
+        "在逐条批准模式下发少量回复，确认未批准的内容不会自动发出。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最直接的好处是把找帖、读规则、写回复和发布合在一起；最影响判断的是自动操作账号会不会触发 Reddit 的反垃圾限制。"
+    },
+    {
+      "id": "1325665",
+      "name": "oovi",
+      "name_zh": "oovi",
+      "tagline_zh": "桌面上的专属 AI 团队",
+      "description_zh": "把任务交给 oovi，由一组 AI 机器人分工处理：负责人制定计划，研究员查找资料，写作者起草，评论者检查。你可以观察每个机器人工作，并在内容发出前批准；可使用自己的 AI 密钥免费使用，或从每月 10 美元起购买不过期的额度。",
+      "intro_zh": "适合需要查资料、写草稿和复核内容的人，把一项工作交给分工协作的 AI 团队。",
+      "url": "https://www.producthunt.com/products/oovi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YLKKXHEBGSFA4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/dc5005ee-50e9-48c0-a744-a26f8fbaadb8.jpeg?auto=format",
+      "votes_count": 132,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "目标场景和审批流程清楚，但任务范围、质量和实际省时幅度没有资料支持。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "角色分工、步骤传递和审批带来具体实现问题，但模型与架构信息不足。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "计划、研究、写作、复核和人工审批是可借用的做法，但适用任务范围未说明。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "如果一项工作同时需要查资料、写草稿和复核，以前可能要自己分派这些步骤。现在可把任务交给 oovi，让不同 bot 分工，并在发出前审批。",
+        "workflow": "用户提交任务后，负责人规划，研究员查资料，写作者起草，评论者检查；用户可以观看各 bot 工作，并在内容发出前批准。",
+        "ai_value": "AI bot（按角色执行任务的程序）分别负责规划、研究、起草和检查；介绍没有说明具体模型或它们如何协作。",
+        "differentiation": "它把拆任务、查资料、写作和复核放进一条可观察的流程。最可能的阻力是用户仍要审阅每一步，复杂任务未必省时。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到四类 bot、可查看其工作、发布前审批，以及自带 AI 密钥免费或按月购买不过期额度；没说具体模型。",
+        "possible_approach": "如果自己做，可以先让协调器（负责分派步骤的程序）拆任务，再把研究结果传给写作和检查步骤，最后暂停等待用户批准。",
+        "tradeoffs": "最容易错在步骤传递资料和要求时丢内容；研究结果没传全，写作者会漏依据，用户只能多做一轮核对。",
+        "unknowns": "介绍没说明任务资料会发到哪里；处理内部材料前，无法判断隐私风险。"
+      },
+      "transferable_insights": [
+        "做需要多步产出的产品时，可以把计划、执行、复核拆成可见步骤，并在最终发布前加入人工审批。"
+      ],
+      "validation_questions": [
+        "提交一个包含查资料、写作和复核的任务，检查四个角色是否分别产出可读的中间结果。",
+        "检查未点击批准时，任何内容是否都不会发出。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "具体好处是把研究、写作和检查集中在可观察的流程里；最影响判断的是任务资料的处理位置没有说明。"
+    },
+    {
+      "id": "1307253",
+      "name": "Webless Agents",
+      "name_zh": "Webless Agents",
+      "tagline_zh": "让你愿意放到客户面前的代理",
+      "description_zh": "用户用日常语言描述目标，Webless Agents 基于已发布内容构建代理，使它只根据这些内容回答。用户可在上线前检查并修改指令；代理能回答问题、筛选买家、发送报价、预约会议或转交团队，Product Hunt 用户可免费使用最高档套餐三个月。",
+      "intro_zh": "面向希望接待网站访客的团队，让他们用已发布内容配置代理，回答客户问题并处理销售后续。",
+      "url": "https://www.producthunt.com/products/webless?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VH6EKEDCE4QLCA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f6df644e-3a27-4666-b13e-1b8cc03fe36f.png?auto=format",
+      "votes_count": 119,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "面向客户接待和销售跟进的用途明确，但实际效果未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "内容范围和上线前审阅值得关注，具体实现与可靠性信息不足。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先让团队审阅代理指令再上线，是可借鉴的具体做法。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要接待网站访客、筛选潜在买家的团队，可能希望自动回答问题，又担心代理答出已发布内容之外的信息。",
+        "workflow": "用日常语言描述想要的结果；产品根据已发布内容构建代理。上线前检查并修改指令，之后代理可回答问题、筛选买家、报价、预约会议或转交团队。",
+        "ai_value": "介绍没有明确提到 AI 或具体模型，只说可按目标和已发布内容构建代理，并处理客户问题及后续动作。",
+        "differentiation": "它把基于已发布内容回答、上线前审阅指令和销售动作放在一个代理里。团队可能会担心报价或预约是否准确、是否需要人工确认。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说可用日常语言描述目标、基于已发布内容构建代理，并允许上线前检查和修改指令；未说明具体技术。",
+        "possible_approach": "如果自己做，可以先整理并标明有效版本的公开内容，再让代理只依据匹配到的内容回答；报价和预约先要求确认，或转交给员工处理。",
+        "tradeoffs": "最容易出错的是内容过时或互相矛盾；代理若据此报出旧价格，客户会拿到错误信息，团队还得返工。",
+        "unknowns": "内容更新后，代理多久能同步？"
+      },
+      "transferable_insights": [
+        "做客户自助服务时，可以先让业务人员审阅代理指令再上线，尤其适合错误答复代价较高的场景。"
+      ],
+      "validation_questions": [
+        "修改网站上的价格或政策后，检查代理回答是否及时更新。",
+        "测试发送报价和预约会议时，检查它是否会在未经确认时执行。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "上线前可检查代理指令，客户接待和销售动作也有明确用途；但内容变更后能否及时同步，关系到客户会不会收到旧信息。"
+    },
+    {
+      "id": "1325043",
+      "name": "Omi CLI",
+      "name_zh": "Omi CLI",
+      "tagline_zh": "离开电脑后仍会工作的 AI 编程代理。",
+      "description_zh": "Omi 可以接收编程任务，读取代码仓库、修复问题、运行测试，并用真实浏览器检查应用。它支持在独立工作树中并行处理任务，终端关闭后继续运行，云端代理还能创建 PR；用户可查看差异、撤销改动，选择 13 个模型或接入自己的模型。",
+      "intro_zh": "给需要处理代码任务的开发者用：提交任务后，它读取仓库、修改代码、跑测试并检查网页。",
+      "url": "https://www.producthunt.com/products/omi-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GWUUBKQHSYM563?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/12a653df-be78-4f11-a1d0-8abe9be383b2/7e572a2fa8ba203059465045818dd6d15848605113fa6b225a38adb9472c4fad.gif?auto=format",
+      "votes_count": 97,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "场景、流程和减少盯守终端的地方说得清楚，但实际节省多少时间未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "明确提到工作树、后台代理和浏览器检查等技术点，但调度、权限和合并实现不明。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "独立任务副本、差异审查和可撤销结果可直接借鉴，适用边界仍需试用。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "适合需要处理代码任务的开发者，尤其是要并行推进修复或不想一直守着终端的人。麻烦在于要逐步盯着修改、测试和网页检查，还要隔离多个任务的代码。",
+        "workflow": "提交编程任务后，Omi 读取仓库并改代码，运行测试，再用真实浏览器检查应用。并行子代理各自在独立工作树中处理任务；后台代理可在终端关闭后继续，云端代理可创建 PR，用户最后查看差异或撤销改动。",
+        "ai_value": "AI 代理负责读取代码、执行修改，并处理测试和浏览器检查；介绍还称可选 13 个模型或接入自有模型。",
+        "differentiation": "它把读仓库、改代码、跑测试和网页检查交给持续运行的代理，也能并行分任务；最可能的阻力是用户要信任它长期修改自己的代码。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 编程代理、真实浏览器、独立工作树（每个任务单独的代码副本）、后台和云端代理，以及 13 个模型和自带模型。",
+        "possible_approach": "如果自己做，可以先让代理在独立工作树中读取仓库并修改代码，再自动运行测试和浏览器检查；用后台任务服务保存进度，最后汇总差异供人审查。",
+        "tradeoffs": "最容易出错的是并行任务的改动合并；若隔离或合并不完整，代码会互相覆盖或产生冲突，用户仍要手动整理。",
+        "unknowns": "介绍没说明本地、后台和云端代理的权限边界，无法判断代码与密钥如何处理。"
+      },
+      "transferable_insights": [
+        "做代码自动化工具时，可以借用“每个任务独立副本、结果用差异审查、保留撤销”的组合。"
+      ],
+      "validation_questions": [
+        "用一个有现成测试的小 bug，核对最终差异是否只包含完成该修复所需的改动。",
+        "关闭终端后启动后台任务，重新打开时检查任务状态和上下文是否完整保留。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它把持续盯终端的工作交给后台代理并保留差异审查；最影响判断的是云端运行时的代码和密钥权限。"
+    },
+    {
+      "id": "1320738",
+      "name": "Ulika",
+      "name_zh": "Ulika",
+      "tagline_zh": "用 Claude、Cursor 或 Codex 构建的网站可视化编辑器",
+      "description_zh": "AI 可以在一个周末交付 React、Vite 或 Next 网站；营销团队想改标题时还要提工单。Ulika 连接网站，让任何人无需改代码就能直接编辑页面文案和图片并发布；产品目前处于开放测试版，可在 ulika.co 免费试用。",
+      "intro_zh": "给用 Claude、Cursor 或 Codex 做网站的团队，让营销人员直接点页面改文案和图片并发布。",
+      "url": "https://www.producthunt.com/products/ulika?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RMUGMIHZYR2MRX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/850c86cc-c7ba-4934-a845-9e0f9d81df19.jpeg?auto=format",
+      "votes_count": 95,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户、修改场景和省去的代码工单都说清楚，但连接与发布效果未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "能看出页面映射和发布是关键问题，但介绍没有给出架构或实现细节。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "页面内直接编辑是具体可借用的做法，但适用边界和限制尚不清楚。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "在 AI 工具生成网站后，营销人员想改标题或图片时，可能仍要找开发者处理代码。Ulika 针对的是这类小改动需要提工单的场景。",
+        "workflow": "先把网站连接到 Ulika，再在页面上编辑文案或图片，最后发布改动。介绍没有说明连接方式和发布目标。",
+        "ai_value": "介绍没有说 Ulika 自己使用 AI。AI 被放在网站生成阶段，Ulika 负责接入、可视化编辑和发布。",
+        "differentiation": "相比让开发者改代码或处理工单，它把文案和图片修改放到页面上完成，省去一次沟通。最可能的阻力是团队不清楚改动如何进入现有代码和发布流程，因而不敢让非开发者直接发布。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到它面向由 Claude、Cursor 或 Codex 构建的 React、Vite 或 Next 网站，并支持连接、编辑文案和图片、发布改动。",
+        "possible_approach": "如果自己做，可以先给可编辑的文案和图片加稳定标记（让工具认出具体元素），再让编辑器点选页面内容并保存改动，最后接入现有发布流程。",
+        "tradeoffs": "最容易出错的是页面元素和内容记录的对应关系。代码改版后标记失效，用户可能改错内容，或预览改了但发布仍是旧版本。",
+        "unknowns": "介绍没有说明谁能发布、是否有版本历史和回滚能力；这关系到错误修改能否被及时撤回。"
+      },
+      "transferable_insights": [
+        "做面向运营的内容工具时，可以借用“在真实页面上直接点选并修改”的方式，让用户在看到结果的地方完成编辑。"
+      ],
+      "validation_questions": [
+        "接入一个真实的 React、Vite 或 Next 页面，改一次标题和图片并发布，检查线上是否只改变目标内容且布局保持不变。",
+        "把一次已发布的标题改错，检查是否能恢复上一版，以及恢复后线上内容是否同步。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它可能把营销的小改动从代码工单移到页面内直接处理，最影响判断的是发布结果能否与现有代码和部署流程保持一致。"
+    },
+    {
+      "id": "1323666",
+      "name": "Mockreel",
+      "name_zh": "Mockreel",
+      "tagline_zh": "把屏幕录制放进 3D 设备模型；免费使用，无需注册",
+      "description_zh": "放入录屏或截图，把画面放进 3D iPhone、MacBook、iPad 或浏览器窗口，选择外观、添加镜头移动和标题，再导出最高 4K 的 MP4。产品称它在浏览器标签页运行，无需上传、注册或付费，也没有水印；这些说法未经实测。",
+      "intro_zh": "面向需要展示应用界面的开发者和营销人员，把录屏或截图做成带设备模型、标题和镜头运动的 MP4。",
+      "url": "https://www.producthunt.com/products/mockreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JMDEOIWLDDDOHB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6c08b2a2-b4e3-443a-b12b-aeb9d17b1d76.png?auto=format",
+      "votes_count": 91,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标任务和制作步骤明确，但实际导出效果与免费条件未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "浏览器内处理和 4K 导出有性能与兼容性问题，具体实现未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "“录屏放入设备框，再加标题和镜头移动”的做法可用于应用展示短片。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要为应用发布或产品介绍制作设备样机视频的人会用它。产品方提到，其他工具可能要求下载或订阅，但这不一定是所有人的原有做法。",
+        "workflow": "放入录屏或截图，选择 iPhone、MacBook、iPad 或浏览器窗口外观，再加镜头移动和标题，导出 MP4。",
+        "ai_value": "介绍没有提 AI，主要靠设备模型、外观选项和镜头移动来制作展示视频。",
+        "differentiation": "它把录屏包装和导出放在浏览器中，省去另找工具制作设备样机的步骤。可调范围若有限，可能不适合需要精细控制品牌画面的团队；介绍没说明这一点。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它在浏览器标签页运行，可导出最高 4K 的 MP4，并称不上传文件；没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把录屏或截图放进设备画面，再逐帧合成外观、标题和镜头移动，最后编码成 MP4。若在浏览器本地处理，可减少文件上传，但高分辨率导出会更吃内存。",
+        "tradeoffs": "最容易出错的是高分辨率导出：浏览器内存或编码跟不上时，视频可能卡顿、失败或耗时较长。",
+        "unknowns": "不同浏览器和较长录屏能否稳定导出 4K，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做应用上新页或功能介绍时，可借用“把真实录屏放进设备框，再加标题和镜头移动”的做法；适合快速制作展示短片。"
+      ],
+      "validation_questions": [
+        "用一段录屏导出 4K 视频，检查画面是否完整、播放是否流畅。",
+        "导入素材时检查网络请求，确认文件是否真的没有上传。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它把录屏快速做成带设备外观的展示视频；判断能否替代现有工具，关键要确认 4K 导出是否稳定。"
+    },
+    {
+      "id": "1306148",
+      "name": "Yoroll",
+      "name_zh": "Yoroll",
+      "tagline_zh": "无需游戏引擎，制作可玩的故事",
+      "description_zh": "Yoroll 可让人无需写代码或使用游戏引擎，把故事做成可玩的电影式游戏。你可以从剧本、图片或视频片段开始，编排场景、加入玩家选择和分支结局；AI 会协助组合成可分享的互动体验。",
+      "intro_zh": "面向想把剧本或影像做成互动故事的创作者，让他们编排场景、设置选择并分享可玩的分支剧情。",
+      "url": "https://www.producthunt.com/products/yoroll?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XKLWN5SDJ5RSLW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e3de00d0-b549-4e7e-b8f9-34222a09983e.jpeg?auto=format",
+      "votes_count": 358,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户和省去的编程、引擎工作说得清楚，实际制作效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "AI 如何组合素材与分支未说明，仍有一个值得检查的控制和一致性问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把场景、选择和结局拆开编排的做法可借鉴，但适用效果待试。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想把剧本、图片或视频做成互动故事的创作者可能会用到它。编排场景、玩家选择和不同结局，通常需要处理游戏制作；它声称无需编程或游戏引擎。",
+        "workflow": "从剧本、图片或视频片段开始，编排场景，加入玩家选择并设置分支结局，再由 AI 协助组合成可分享的互动体验。",
+        "ai_value": "AI 被描述为协助把素材和互动安排组合起来；介绍没有说明它具体生成或修改哪些内容。",
+        "differentiation": "它省去编程和使用游戏引擎的要求。若场景或分支结果难以按创作者意图调整，可能仍不愿把作品迁过来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只说 AI 会协助组合互动体验，没有说明具体使用什么技术。",
+        "possible_approach": "如果自己做，可以先把素材整理成场景，再让创作者为场景添加选择和对应结局，最后组合成可玩的故事并分享。",
+        "tradeoffs": "最难的是让各条分支都符合原故事设定；如果角色或情节前后不一致，创作者就得逐条检查和修改。",
+        "unknowns": "AI 组合出的场景和分支能否细致编辑，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做故事或内容创作工具时，可以把作品拆成场景、选择和结果，让创作者逐项安排互动，而不只靠一次输入生成成品。"
+      ],
+      "validation_questions": [
+        "给它一段有多个角色和结局的剧本，检查生成的场景、选择和结局是否符合原文。",
+        "导入图片或视频片段并分享作品，检查素材能否正常进入场景、接收者能否顺利体验分支。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把场景和分支编排放进免编程的创作流程，可能减少制作门槛；但 AI 生成内容能否被准确控制，现有资料无法判断。"
+    },
+    {
+      "id": "1325452",
+      "name": "Resurf",
+      "name_zh": "Resurf",
+      "tagline_zh": "Mac 个人知识库与书签管理器",
+      "description_zh": "一款适用于 Mac、iPhone 和 iPad 的本地个人资料库，可保存笔记、链接、图片和文档。它可在 Mac 上通过 MCP 或命令行把资料交给 AI 使用。",
+      "intro_zh": "给在 Mac、iPhone 或 iPad 上收集资料的人，用来保存笔记、链接和文件，并把资料交给 AI。",
+      "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VXIIBY4W6WDWZU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e0ba3b43-0a39-4990-aa39-5348ff70d85a.png?auto=format",
+      "votes_count": 184,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "保存资料和交给 AI 的用途清楚，实际省时多少还不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "提到本地保存和两种交接方式，但没说明数据流向与权限细节。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "本地资料库加 AI 读取入口的做法可借鉴，适用条件仍待确认。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "适合想保存个人资料、并在使用 AI 时复用它们的人。资料没有说明用户原先如何整理或传递这些内容。",
+        "workflow": "把笔记、链接、图片和文档存入资料库，再在 Mac 上通过 MCP 或命令行把资料交给 AI。具体选择和查找资料的步骤未说明。",
+        "ai_value": "介绍没说 Resurf 自己用 AI 处理资料；它提供把资料交给 AI 使用的方式。",
+        "differentiation": "资料可集中保存在本地，并提供 AI 读取入口。可能的使用门槛是要有能配合 MCP 或 Mac 命令行的工具。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称资料库完全本地，可用于 Mac、iPhone 和 iPad；Mac 上支持 MCP（供 AI 工具读取外部资料的连接协议）或命令行交接。",
+        "possible_approach": "如果自己做，可以先把笔记、链接和文件存为本地资料，再提供 MCP 和 Mac 命令行入口，让 AI 工具读取需要的内容。",
+        "tradeoffs": "最需留意的是资料交给 AI 后是否离开设备。本地保存不代表 AI 处理也在本地，敏感内容可能因此发给外部服务。",
+        "unknowns": "介绍没有说明资料交给 AI 后会发往哪里，隐私边界需要确认。"
+      },
+      "transferable_insights": [
+        "做个人资料或知识管理产品时，可以把资料保存和交给 AI 使用分成两个清楚的步骤。"
+      ],
+      "validation_questions": [
+        "用一份已保存的资料测试，AI 能否通过 MCP 或命令行读到正确内容。",
+        "交接一份敏感资料，确认它是否会离开本机、发往哪里。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把个人资料集中保存，并提供给 AI 读取的入口；但资料交给 AI 后是否仍留在本机，介绍没有交代。"
+    },
+    {
+      "id": "1285780",
+      "name": "Daymaker",
+      "name_zh": "Daymaker",
+      "tagline_zh": "送出贴合个人的礼物，让潜在客户愿意见面。",
+      "description_zh": "Daymaker 以 coldcakes（面向陌生客户的礼物）闻名，并称这种做法将告一段落。它会研究潜在客户的兴趣、推荐个性化礼物、加上你的品牌包装并寄出；也提供代运营活动服务，并承诺带来会议。",
+      "intro_zh": "面向开发陌生客户的销售团队：了解潜在客户兴趣，挑选个性化礼物，加上品牌包装后寄出。",
+      "url": "https://www.producthunt.com/products/daymaker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/22SNOV53PPMTPX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ab500b8b-b48b-41bc-8d64-9b6dd37ae07f.jpeg?auto=format",
+      "votes_count": 161,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途和服务流程清楚，但会议承诺的实际效果没有验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "客户研究和礼物匹配有具体难点，但资料没说明信息来源或实现方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "研究兴趣、选礼、寄送的流程可借鉴，适用条件和效果仍不清楚。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "做陌生客户开发的销售团队，可能需要它来筹备个性化触达。研究客户、挑选合适礼物并安排寄送，都是这项活动要处理的事。",
+        "workflow": "先研究潜在客户并了解其兴趣，再推荐礼物、换上品牌包装并寄给对方。也可以让 Daymaker 代为运营活动。",
+        "ai_value": "介绍没提 AI；它通过研究潜在客户、按兴趣推荐礼物并安排寄送来完成触达流程。",
+        "differentiation": "如果团队原本分开处理客户研究、选礼和寄送，它把这些环节放在一起。最可能的顾虑是礼物是否贴合客户，还是显得冒犯。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍说它会研究潜在客户、了解兴趣、推荐礼物、加入品牌包装并寄送；没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先整理可用的客户资料，再提取有依据的兴趣线索，按线索匹配礼物，最后安排品牌包装和寄送。",
+        "tradeoffs": "最容易出错的是兴趣判断不准。礼物因此显得无关或过于私人，可能损害客户信任。",
+        "unknowns": "客户资料从哪里取得、如何处理，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做销售触达工具时，可以把客户研究、礼物选择和寄送安排放进同一流程，适合已有礼品营销需求的团队。"
+      ],
+      "validation_questions": [
+        "抽查几份客户兴趣依据，确认信息准确，礼物推荐也足够得体。",
+        "核对“保证会议”的定义、适用条件，以及未达成时如何处理。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把客户研究、选礼和寄送安排集中起来；但会议承诺的定义和适用条件还不清楚。"
+    },
+    {
+      "id": "1324705",
+      "name": "Creavit Studio 4.0",
+      "name_zh": "Creavit Studio 4.0",
+      "tagline_zh": "屏幕录制、iPhone 摄像头与 Mac 电影感演示",
+      "description_zh": "规划、录制并把屏幕内容做成产品演示。Creavit Studio 4.0 支持二维码配对 iPhone 人像拍摄、录制后补加镜头、内容规划、Standard 与 Liquid MultiFocus、MacBook 和 iPhone 电影感 3D 场景、Smooth Scroll、Smooth Typing、另一语言声音，以及每一步需用户确认的 Auto FX；也可在 iPhone 上录制和编辑。",
+      "intro_zh": "面向制作产品演示的团队和个人，把 Mac 录屏、iPhone 人像画面与演示效果放进一套制作流程。",
+      "url": "https://www.producthunt.com/products/creavit-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DO2TIU7I4GF4GO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a253204b-9014-4b40-b6d9-8b5e683bc6ce.jpeg?auto=format",
+      "votes_count": 121,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确了产品演示制作者和要处理的素材，但实际节省时间与成片质量尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "二维码配对、多设备素材和逐步确认带来具体技术问题，但资料未说明同步方式和技术边界。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "二维码配对和逐步审批可以借鉴，但适用条件与实际收益仍需试用确认。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要展示 Mac 软件或产品的人，可能要同时准备屏幕录制、手机出镜、滚动或打字效果和设备场景。资料没有说明他们原来统一怎么做，但这些内容若分开处理，整理素材和调整效果会更麻烦。",
+        "workflow": "先用 Content Planner 规划内容，再录制 Mac 屏幕，并可通过二维码配对 iPhone 拍摄人像画面；录完后还能补加摄像头镜头。随后加入设备场景、滚动或打字效果、另一语言声音和 Auto FX，并按介绍逐步确认自动效果；也可在 iPhone 上录制和编辑。",
+        "ai_value": "介绍没提 AI。它描述了需要用户逐阶段批准的 Auto FX，以及让自己的声音以另一种语言呈现，但没有说明具体模型或工作方式。",
+        "differentiation": "相比把录屏、手机人像素材、设备场景和演示动效分别处理，它试图把这些步骤放进同一套 Mac 制作流程，并支持录制后补加镜头。最可能劝退的是自动效果仍需逐步审批，若结果频繁返工，省下的整理时间就不确定。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到它面向 Mac，支持二维码配对 iPhone 人像拍摄、录制后补加摄像头镜头、内容规划、MacBook 和 iPhone 3D 场景、Smooth Scroll、Smooth Typing、另一语言声音和需逐步批准的 Auto FX；未说明具体技术栈。",
+        "possible_approach": "如果自己做，可以先录制 Mac 屏幕，再用二维码让 iPhone 建立配对（让两台设备互相识别），并把两路素材按时间对齐；然后加入补拍镜头、设备场景和滚动或打字效果，最后让自动效果支持预览和逐步批准。",
+        "tradeoffs": "最容易出错的是 Mac 录屏与 iPhone 人像画面的配对和时间对齐；一旦两路素材错位，出镜反应会对不上屏幕操作，用户还得手工调整甚至重录。",
+        "unknowns": "介绍没有说明 QR 配对后的 iPhone 画面能否独立编辑或精确对齐 Mac 录屏，这决定补拍镜头是否真的省事。"
+      },
+      "transferable_insights": [
+        "做录屏类产品时，可以用二维码降低手机加入拍摄流程的配置步骤。",
+        "自动处理涉及画面或声音时，可以让用户逐步预览、确认，而不是一次性生成最终结果。"
+      ],
+      "validation_questions": [
+        "实际录制一段 Mac 产品演示，检查二维码配对后的 iPhone 人像画面能否与录屏准确对齐。",
+        "检查 Auto FX 的每一步是否都能预览、批准，并在出错时撤回。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把 Mac 录屏、iPhone 出镜和演示效果放进一套流程，关键疑问是多设备素材能否稳定同步，以及自动效果是否真的减少返工。"
+    }
+  ]
+}

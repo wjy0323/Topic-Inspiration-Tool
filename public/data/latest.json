@@ -1,493 +1,491 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-22",
   "schema_version": 2,
   "analysis_style": "plain_language_v1",
   "source_mode": "producthunt_api",
-  "generated_at": "2026-11-21T23:17:08+08:00",
+  "generated_at": "2026-11-24T03:13:21+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1322672",
-      "name": "Saparo",
-      "name_zh": "Saparo",
-      "tagline_zh": "可叠加优惠的购物助手",
-      "description_zh": "Saparo 是个人购物代理，会在美国商店寻找符合你尺码的同款商品，并组合可同时使用的促销码、返现和银行卡优惠。它按含运费和税费的估算总价排序；经你同意后应用所选优惠并准备结账，最后由你检查订单并付款。",
-      "intro_zh": "面向在美国网购、想少做逐店比价的人：输入商品需求，比较叠加优惠后的预计总价，再由自己确认付款。",
-      "url": "https://www.producthunt.com/products/saparo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/CGUN3ORBJWPLHU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cb4f4249-89e3-49d3-b59c-27a94e079519.png?auto=format",
-      "votes_count": 332,
+      "id": "1323002",
+      "name": "Rankhog",
+      "name_zh": "Rankhog",
+      "tagline_zh": "自动从 Reddit 获取客户",
+      "description_zh": "Rankhog 会在 Reddit 上寻找正在询问你所售产品的人，读取所在主题社区的规则，写一条有帮助的回复，并用你的账号按“人类节奏”发布。你可以逐条批准，也可以开启自动运行；没有 Reddit 账号时，它声称会先养一个新账号且账号归你所有，还能从应用、Claude、ChatGPT、Cursor 或 MCP 客户端运行，提供 7 天免费试用。",
+      "intro_zh": "面向想从 Reddit 获客的产品团队，自动发现相关提问，按社区规则生成并发布回复。",
+      "url": "https://www.producthunt.com/products/rankhog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/HVFQNHONLRBAJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/mcp-draft-media/e9e750f2-a006-4464-82f9-b7b4c44693c4.jpeg?auto=format",
+      "votes_count": 344,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "目标和省去的比价、找优惠工作说得清楚，但实际节省多少未验证。"
+          "reason": "找帖、读规则、写回复和发布的流程清楚，但实际获客效果尚未验证。"
         },
         "technical_insight": {
-          "score": 3,
-          "reason": "优惠资格和叠加是否准确会影响结果，具体实现方式未说明。"
+          "score": 4,
+          "reason": "账号授权、规则判断和自动发帖都有明确难点，但实现方式与可靠性未说明。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把含税运费的总价用于排序，并在购买前让用户确认，做法明确可借鉴。"
+          "reason": "“先生成草稿、再批准发布”的分级自动化做法可以借到其他社区运营工具中。"
         }
       },
       "product_analysis": {
-        "target_problem": "在美国买指定商品、又想比较价格和优惠的人会用它。逐店核对同款、尺码、运费税费和优惠可能费时。",
-        "workflow": "告诉它想买什么；它搜索美国商店里的同款和尺码，按含运费税费的估算总价排序。你批准后，它应用所选优惠并准备结账；你检查订单并完成付款。",
-        "ai_value": "介绍称它是个人购物代理，但没说明是否使用 AI。明确功能是搜索商品、组合优惠并比较预计总价。",
-        "differentiation": "它把可叠加优惠和预计总成本放在一起比较，少些逐店核对。可能让人不愿切换的是优惠条件判断有误，导致结账价格与估算不同。"
+        "target_problem": "想从 Reddit 获客的团队要面对分散在不同主题社区的提问和各自的发帖规则。若靠人工，就要自己找帖、读规则、写回复和发布；自动化又会带来账号风险。",
+        "workflow": "用户提供自己的 Reddit 账号后，Rankhog 找出相关提问，读取所在社区规则并生成回复。用户可以逐条批准后发布，也可以开启自动运行；没有账号时可让它先养号。",
+        "ai_value": "介绍没有明确说明 Rankhog 使用 AI。它描述了自动找帖、读取规则、生成回复和发布；Claude、ChatGPT 等是运行入口，不能据此断定内部模型。",
+        "differentiation": "它把找帖、查规则、起草和发帖放在同一流程，减少重复操作。最大的换用阻力是用户不愿让自动化程序操作自己的 Reddit 账号，尤其是在自动模式下。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍说明它搜索美国商店的同款和尺码，估算含运费税费的总价，并在用户批准后应用优惠、准备结账；具体技术未说明。",
-        "possible_approach": "如果自己做，可以先识别商品和尺码，再收集各店价格及优惠条件，计算预计总价并排序。最后要核对优惠能否用于该商品并同时生效。",
-        "tradeoffs": "最容易出错的是优惠资格或叠加条件判断；如果结账时优惠不适用，用户看到的实际价格会更高，还得重新比较。",
-        "unknowns": "介绍没有说明覆盖哪些商店，搜索范围会直接影响比较结果。"
+        "disclosed_facts": "介绍明确提到按主题社区读取规则、用用户自己的 Reddit 账号按人类节奏发帖，并支持 Claude、ChatGPT、Cursor 和 MCP 客户端（让 AI 客户端调用外部工具的连接方式）；没说具体模型、接口或架构。",
+        "possible_approach": "如果自己做，可以先按关键词和社区筛选帖子，再读取当前规则并生成回复草稿，交给人确认后用账号权限发布，最后记录结果。自动模式还要加入频率和重复发布限制。",
+        "tradeoffs": "最容易出错的是规则判断：漏掉置顶说明或读到旧规则，回复可能被删除，账号也可能被限制。",
+        "unknowns": "介绍没说明自动发布如何避免触发 Reddit 的反垃圾限制。"
       },
       "transferable_insights": [
-        "做比价或预订产品时，把运费和税费计入排序，避免低标价掩盖最终成本。",
-        "涉及购买的产品可以先列出准备使用的优惠让用户确认，并把最终付款留给用户。"
+        "做社区运营或销售线索工具时，可以借用“先按社区规则生成草稿，再让用户逐条批准，最后才发布”的分级自动化。"
       ],
       "validation_questions": [
-        "选一件同时有促销码和银行卡优惠的商品，核对估算总价与结账页价格。",
-        "输入指定商品和尺码，检查结果是否为同款且该尺码确实可购买。"
+        "用几个规则差异明显的主题社区检查生成的回复是否遵守当前版规。",
+        "在逐条批准模式下发少量回复，确认未批准的内容不会自动发出。"
       ],
-      "category": "金融商业",
+      "category": "效率工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "它把优惠、运费和税费纳入同一份价格比较，能减少分散核对；但优惠在实际结账时是否仍符合条件尚无说明。"
+      "overall_reason": "最直接的好处是把找帖、读规则、写回复和发布合在一起；最影响判断的是自动操作账号会不会触发 Reddit 的反垃圾限制。"
     },
     {
-      "id": "1318366",
-      "name": "Tripmojo",
-      "name_zh": "Tripmojo",
-      "tagline_zh": "帮助规划、预订和管理旅程的旅行应用",
-      "description_zh": "Tripmojo 会把预订邮件同步到共享行程，由 AI 旅行助手 Mojo 协助管理。用户可以在群聊中提问、投票和找地点；出行当天，Mojo 会尝试办理值机、保存登机牌、提示延误或登机口变化及出发时间，旅途中更新当天计划并拆分费用。",
-      "intro_zh": "适合结伴出行的人：把预订邮件汇成共享行程，再在群聊里规划、查看提醒和分摊费用。",
-      "url": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MGYYGRQ2OTZNMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/4f22488c-25e9-4997-89a4-ea0f004f9130.png?auto=format",
-      "votes_count": 298,
+      "id": "1325665",
+      "name": "oovi",
+      "name_zh": "oovi",
+      "tagline_zh": "桌面上的专属 AI 团队",
+      "description_zh": "把任务交给 oovi，由一组 AI 机器人分工处理：负责人制定计划，研究员查找资料，写作者起草，评论者检查。你可以观察每个机器人工作，并在内容发出前批准；可使用自己的 AI 密钥免费使用，或从每月 10 美元起购买不过期的额度。",
+      "intro_zh": "适合需要查资料、写草稿和复核内容的人，把一项工作交给分工协作的 AI 团队。",
+      "url": "https://www.producthunt.com/products/oovi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/YLKKXHEBGSFA4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/dc5005ee-50e9-48c0-a744-a26f8fbaadb8.jpeg?auto=format",
+      "votes_count": 132,
       "scores": {
         "product_value": {
-          "score": 4,
-          "reason": "目标用户和整合行程的用途清楚，但实际覆盖范围与效果未验证。"
+          "score": 3,
+          "reason": "目标场景和审批流程清楚，但任务范围、质量和实际省时幅度没有资料支持。"
         },
         "technical_insight": {
-          "score": 3,
-          "reason": "自动值机和邮件整理有具体难点，介绍没有说明实现方式或支持范围。"
+          "score": 4,
+          "reason": "角色分工、步骤传递和审批带来具体实现问题，但模型与架构信息不足。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把确认邮件汇成共享时间表的做法可用于其他多人安排工具。"
+          "reason": "计划、研究、写作、复核和人工审批是可借用的做法，但适用任务范围未说明。"
         }
       },
       "product_analysis": {
-        "target_problem": "同行者共同安排旅行时，预订信息、计划讨论、临行提醒和费用分摊容易分散处理。",
-        "workflow": "同步预订邮件到共享行程；在群聊让 Mojo 回答问题、发起投票和找地点。出行当天，它尝试值机并保存登机牌、提示延误或登机口变化及出发时间；旅途中更新当天计划并拆分费用。",
-        "ai_value": "Mojo 是 AI 旅行助手，协助回答群聊问题、找地点和管理行程。介绍没有说明它如何完成这些任务。",
-        "differentiation": "它把邮件中的预订信息、群聊协作、途中提醒和分账放进一份共享行程。用户可能会顾虑为了同步邮件而开放邮件访问权限。"
+        "target_problem": "如果一项工作同时需要查资料、写草稿和复核，以前可能要自己分派这些步骤。现在可把任务交给 oovi，让不同 bot 分工，并在发出前审批。",
+        "workflow": "用户提交任务后，负责人规划，研究员查资料，写作者起草，评论者检查；用户可以观看各 bot 工作，并在内容发出前批准。",
+        "ai_value": "AI bot（按角色执行任务的程序）分别负责规划、研究、起草和检查；介绍没有说明具体模型或它们如何协作。",
+        "differentiation": "它把拆任务、查资料、写作和复核放进一条可观察的流程。最可能的阻力是用户仍要审阅每一步，复杂任务未必省时。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍称它会同步预订邮件，并由 AI 助手 Mojo 协助规划与管理行程；没有说明具体技术。",
-        "possible_approach": "如果自己做，可以先从邮件中提取航班、酒店和时间，整理成共享行程；再让助手依据行程回答群聊问题、安排提醒。值机先覆盖明确支持的流程，失败时提示用户自行办理。",
-        "tradeoffs": "最容易出错的是不同航空公司的值机规则和开放时间各异；自动尝试失败时，用户仍需自行值机。",
-        "unknowns": "介绍没有说明哪些航空公司支持自动值机，这决定了用户能否依赖它办理登机。"
+        "disclosed_facts": "介绍明确提到四类 bot、可查看其工作、发布前审批，以及自带 AI 密钥免费或按月购买不过期额度；没说具体模型。",
+        "possible_approach": "如果自己做，可以先让协调器（负责分派步骤的程序）拆任务，再把研究结果传给写作和检查步骤，最后暂停等待用户批准。",
+        "tradeoffs": "最容易错在步骤传递资料和要求时丢内容；研究结果没传全，写作者会漏依据，用户只能多做一轮核对。",
+        "unknowns": "介绍没说明任务资料会发到哪里；处理内部材料前，无法判断隐私风险。"
       },
       "transferable_insights": [
-        "做多人活动或项目安排工具时，可把确认邮件汇成共享时间表，让讨论直接围绕这份表进行。",
-        "做日程类产品时，可把当天计划和对应提醒放在一起，减少临时翻找。"
+        "做需要多步产出的产品时，可以把计划、执行、复核拆成可见步骤，并在最终发布前加入人工审批。"
       ],
       "validation_questions": [
-        "用一封航班预订邮件检查航班和时间是否正确进入共享行程。",
-        "选一趟自己乘坐的航班，检查 Mojo 能否完成值机并保存登机牌。"
+        "提交一个包含查资料、写作和复核的任务，检查四个角色是否分别产出可读的中间结果。",
+        "检查未点击批准时，任何内容是否都不会发出。"
       ],
       "category": "AI工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "共享行程能把预订信息和同行讨论放在一起，减少临时找信息；但自动值机支持哪些航空公司还不清楚。"
+      "overall_reason": "具体好处是把研究、写作和检查集中在可观察的流程里；最影响判断的是任务资料的处理位置没有说明。"
     },
     {
-      "id": "1320093",
-      "name": "Bookella",
-      "name_zh": "Bookella",
-      "tagline_zh": "帮助你读得更多的阅读记录工具",
-      "description_zh": "Bookella 是 iPhone、iPad 和 Android 上的阅读记录工具与个人书库，可搜索 122 million 本书、扫描整排书的条码或让 AI 推荐下一本书。它支持设定阅读目标、计时、记录笔记和引文，并可从 Goodreads、StoryGraph 或 CSV 导入书目，且无广告。",
-      "intro_zh": "给想记录阅读进度、整理个人书库的读者用；可添加书目、设定目标并查看阅读记录。",
-      "url": "https://www.producthunt.com/products/bookella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XLV3656TB6CLUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/8a6681f8-4500-455c-bf0b-5bd53e0b594a/0e7cd379dd6c378e1cc0984c133784beabffd174b92300832541e19e65e52213.png?auto=format",
+      "id": "1307253",
+      "name": "Webless Agents",
+      "name_zh": "Webless Agents",
+      "tagline_zh": "让你愿意放到客户面前的代理",
+      "description_zh": "用户用日常语言描述目标，Webless Agents 基于已发布内容构建代理，使它只根据这些内容回答。用户可在上线前检查并修改指令；代理能回答问题、筛选买家、发送报价、预约会议或转交团队，Product Hunt 用户可免费使用最高档套餐三个月。",
+      "intro_zh": "面向希望接待网站访客的团队，让他们用已发布内容配置代理，回答客户问题并处理销售后续。",
+      "url": "https://www.producthunt.com/products/webless?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VH6EKEDCE4QLCA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f6df644e-3a27-4666-b13e-1b8cc03fe36f.png?auto=format",
+      "votes_count": 119,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "面向客户接待和销售跟进的用途明确，但实际效果未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "内容范围和上线前审阅值得关注，具体实现与可靠性信息不足。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "先让团队审阅代理指令再上线，是可借鉴的具体做法。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要接待网站访客、筛选潜在买家的团队，可能希望自动回答问题，又担心代理答出已发布内容之外的信息。",
+        "workflow": "用日常语言描述想要的结果；产品根据已发布内容构建代理。上线前检查并修改指令，之后代理可回答问题、筛选买家、报价、预约会议或转交团队。",
+        "ai_value": "介绍没有明确提到 AI 或具体模型，只说可按目标和已发布内容构建代理，并处理客户问题及后续动作。",
+        "differentiation": "它把基于已发布内容回答、上线前审阅指令和销售动作放在一个代理里。团队可能会担心报价或预约是否准确、是否需要人工确认。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确说可用日常语言描述目标、基于已发布内容构建代理，并允许上线前检查和修改指令；未说明具体技术。",
+        "possible_approach": "如果自己做，可以先整理并标明有效版本的公开内容，再让代理只依据匹配到的内容回答；报价和预约先要求确认，或转交给员工处理。",
+        "tradeoffs": "最容易出错的是内容过时或互相矛盾；代理若据此报出旧价格，客户会拿到错误信息，团队还得返工。",
+        "unknowns": "内容更新后，代理多久能同步？"
+      },
+      "transferable_insights": [
+        "做客户自助服务时，可以先让业务人员审阅代理指令再上线，尤其适合错误答复代价较高的场景。"
+      ],
+      "validation_questions": [
+        "修改网站上的价格或政策后，检查代理回答是否及时更新。",
+        "测试发送报价和预约会议时，检查它是否会在未经确认时执行。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "上线前可检查代理指令，客户接待和销售动作也有明确用途；但内容变更后能否及时同步，关系到客户会不会收到旧信息。"
+    },
+    {
+      "id": "1325043",
+      "name": "Omi CLI",
+      "name_zh": "Omi CLI",
+      "tagline_zh": "离开电脑后仍会工作的 AI 编程代理。",
+      "description_zh": "Omi 可以接收编程任务，读取代码仓库、修复问题、运行测试，并用真实浏览器检查应用。它支持在独立工作树中并行处理任务，终端关闭后继续运行，云端代理还能创建 PR；用户可查看差异、撤销改动，选择 13 个模型或接入自己的模型。",
+      "intro_zh": "给需要处理代码任务的开发者用：提交任务后，它读取仓库、修改代码、跑测试并检查网页。",
+      "url": "https://www.producthunt.com/products/omi-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GWUUBKQHSYM563?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/12a653df-be78-4f11-a1d0-8abe9be383b2/7e572a2fa8ba203059465045818dd6d15848605113fa6b225a38adb9472c4fad.gif?auto=format",
+      "votes_count": 97,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "场景、流程和减少盯守终端的地方说得清楚，但实际节省多少时间未验证。"
+        },
+        "technical_insight": {
+          "score": 4,
+          "reason": "明确提到工作树、后台代理和浏览器检查等技术点，但调度、权限和合并实现不明。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "独立任务副本、差异审查和可撤销结果可直接借鉴，适用边界仍需试用。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "适合需要处理代码任务的开发者，尤其是要并行推进修复或不想一直守着终端的人。麻烦在于要逐步盯着修改、测试和网页检查，还要隔离多个任务的代码。",
+        "workflow": "提交编程任务后，Omi 读取仓库并改代码，运行测试，再用真实浏览器检查应用。并行子代理各自在独立工作树中处理任务；后台代理可在终端关闭后继续，云端代理可创建 PR，用户最后查看差异或撤销改动。",
+        "ai_value": "AI 代理负责读取代码、执行修改，并处理测试和浏览器检查；介绍还称可选 13 个模型或接入自有模型。",
+        "differentiation": "它把读仓库、改代码、跑测试和网页检查交给持续运行的代理，也能并行分任务；最可能的阻力是用户要信任它长期修改自己的代码。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 AI 编程代理、真实浏览器、独立工作树（每个任务单独的代码副本）、后台和云端代理，以及 13 个模型和自带模型。",
+        "possible_approach": "如果自己做，可以先让代理在独立工作树中读取仓库并修改代码，再自动运行测试和浏览器检查；用后台任务服务保存进度，最后汇总差异供人审查。",
+        "tradeoffs": "最容易出错的是并行任务的改动合并；若隔离或合并不完整，代码会互相覆盖或产生冲突，用户仍要手动整理。",
+        "unknowns": "介绍没说明本地、后台和云端代理的权限边界，无法判断代码与密钥如何处理。"
+      },
+      "transferable_insights": [
+        "做代码自动化工具时，可以借用“每个任务独立副本、结果用差异审查、保留撤销”的组合。"
+      ],
+      "validation_questions": [
+        "用一个有现成测试的小 bug，核对最终差异是否只包含完成该修复所需的改动。",
+        "关闭终端后启动后台任务，重新打开时检查任务状态和上下文是否完整保留。"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "最看重它把持续盯终端的工作交给后台代理并保留差异审查；最影响判断的是云端运行时的代码和密钥权限。"
+    },
+    {
+      "id": "1320738",
+      "name": "Ulika",
+      "name_zh": "Ulika",
+      "tagline_zh": "用 Claude、Cursor 或 Codex 构建的网站可视化编辑器",
+      "description_zh": "AI 可以在一个周末交付 React、Vite 或 Next 网站；营销团队想改标题时还要提工单。Ulika 连接网站，让任何人无需改代码就能直接编辑页面文案和图片并发布；产品目前处于开放测试版，可在 ulika.co 免费试用。",
+      "intro_zh": "给用 Claude、Cursor 或 Codex 做网站的团队，让营销人员直接点页面改文案和图片并发布。",
+      "url": "https://www.producthunt.com/products/ulika?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RMUGMIHZYR2MRX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/850c86cc-c7ba-4934-a845-9e0f9d81df19.jpeg?auto=format",
+      "votes_count": 95,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户、修改场景和省去的代码工单都说清楚，但连接与发布效果未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "能看出页面映射和发布是关键问题，但介绍没有给出架构或实现细节。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "页面内直接编辑是具体可借用的做法，但适用边界和限制尚不清楚。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "在 AI 工具生成网站后，营销人员想改标题或图片时，可能仍要找开发者处理代码。Ulika 针对的是这类小改动需要提工单的场景。",
+        "workflow": "先把网站连接到 Ulika，再在页面上编辑文案或图片，最后发布改动。介绍没有说明连接方式和发布目标。",
+        "ai_value": "介绍没有说 Ulika 自己使用 AI。AI 被放在网站生成阶段，Ulika 负责接入、可视化编辑和发布。",
+        "differentiation": "相比让开发者改代码或处理工单，它把文案和图片修改放到页面上完成，省去一次沟通。最可能的阻力是团队不清楚改动如何进入现有代码和发布流程，因而不敢让非开发者直接发布。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到它面向由 Claude、Cursor 或 Codex 构建的 React、Vite 或 Next 网站，并支持连接、编辑文案和图片、发布改动。",
+        "possible_approach": "如果自己做，可以先给可编辑的文案和图片加稳定标记（让工具认出具体元素），再让编辑器点选页面内容并保存改动，最后接入现有发布流程。",
+        "tradeoffs": "最容易出错的是页面元素和内容记录的对应关系。代码改版后标记失效，用户可能改错内容，或预览改了但发布仍是旧版本。",
+        "unknowns": "介绍没有说明谁能发布、是否有版本历史和回滚能力；这关系到错误修改能否被及时撤回。"
+      },
+      "transferable_insights": [
+        "做面向运营的内容工具时，可以借用“在真实页面上直接点选并修改”的方式，让用户在看到结果的地方完成编辑。"
+      ],
+      "validation_questions": [
+        "接入一个真实的 React、Vite 或 Next 页面，改一次标题和图片并发布，检查线上是否只改变目标内容且布局保持不变。",
+        "把一次已发布的标题改错，检查是否能恢复上一版，以及恢复后线上内容是否同步。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它可能把营销的小改动从代码工单移到页面内直接处理，最影响判断的是发布结果能否与现有代码和部署流程保持一致。"
+    },
+    {
+      "id": "1323666",
+      "name": "Mockreel",
+      "name_zh": "Mockreel",
+      "tagline_zh": "把屏幕录制放进 3D 设备模型；免费使用，无需注册",
+      "description_zh": "放入录屏或截图，把画面放进 3D iPhone、MacBook、iPad 或浏览器窗口，选择外观、添加镜头移动和标题，再导出最高 4K 的 MP4。产品称它在浏览器标签页运行，无需上传、注册或付费，也没有水印；这些说法未经实测。",
+      "intro_zh": "面向需要展示应用界面的开发者和营销人员，把录屏或截图做成带设备模型、标题和镜头运动的 MP4。",
+      "url": "https://www.producthunt.com/products/mockreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/JMDEOIWLDDDOHB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/6c08b2a2-b4e3-443a-b12b-aeb9d17b1d76.png?auto=format",
+      "votes_count": 91,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标任务和制作步骤明确，但实际导出效果与免费条件未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "浏览器内处理和 4K 导出有性能与兼容性问题，具体实现未披露。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "“录屏放入设备框，再加标题和镜头移动”的做法可用于应用展示短片。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "需要为应用发布或产品介绍制作设备样机视频的人会用它。产品方提到，其他工具可能要求下载或订阅，但这不一定是所有人的原有做法。",
+        "workflow": "放入录屏或截图，选择 iPhone、MacBook、iPad 或浏览器窗口外观，再加镜头移动和标题，导出 MP4。",
+        "ai_value": "介绍没有提 AI，主要靠设备模型、外观选项和镜头移动来制作展示视频。",
+        "differentiation": "它把录屏包装和导出放在浏览器中，省去另找工具制作设备样机的步骤。可调范围若有限，可能不适合需要精细控制品牌画面的团队；介绍没说明这一点。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它在浏览器标签页运行，可导出最高 4K 的 MP4，并称不上传文件；没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先把录屏或截图放进设备画面，再逐帧合成外观、标题和镜头移动，最后编码成 MP4。若在浏览器本地处理，可减少文件上传，但高分辨率导出会更吃内存。",
+        "tradeoffs": "最容易出错的是高分辨率导出：浏览器内存或编码跟不上时，视频可能卡顿、失败或耗时较长。",
+        "unknowns": "不同浏览器和较长录屏能否稳定导出 4K，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做应用上新页或功能介绍时，可借用“把真实录屏放进设备框，再加标题和镜头移动”的做法；适合快速制作展示短片。"
+      ],
+      "validation_questions": [
+        "用一段录屏导出 4K 视频，检查画面是否完整、播放是否流畅。",
+        "导入素材时检查网络请求，确认文件是否真的没有上传。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它把录屏快速做成带设备外观的展示视频；判断能否替代现有工具，关键要确认 4K 导出是否稳定。"
+    },
+    {
+      "id": "1306148",
+      "name": "Yoroll",
+      "name_zh": "Yoroll",
+      "tagline_zh": "无需游戏引擎，制作可玩的故事",
+      "description_zh": "Yoroll 可让人无需写代码或使用游戏引擎，把故事做成可玩的电影式游戏。你可以从剧本、图片或视频片段开始，编排场景、加入玩家选择和分支结局；AI 会协助组合成可分享的互动体验。",
+      "intro_zh": "面向想把剧本或影像做成互动故事的创作者，让他们编排场景、设置选择并分享可玩的分支剧情。",
+      "url": "https://www.producthunt.com/products/yoroll?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/XKLWN5SDJ5RSLW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e3de00d0-b549-4e7e-b8f9-34222a09983e.jpeg?auto=format",
+      "votes_count": 358,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户和省去的编程、引擎工作说得清楚，实际制作效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "AI 如何组合素材与分支未说明，仍有一个值得检查的控制和一致性问题。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把场景、选择和结局拆开编排的做法可借鉴，但适用效果待试。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想把剧本、图片或视频做成互动故事的创作者可能会用到它。编排场景、玩家选择和不同结局，通常需要处理游戏制作；它声称无需编程或游戏引擎。",
+        "workflow": "从剧本、图片或视频片段开始，编排场景，加入玩家选择并设置分支结局，再由 AI 协助组合成可分享的互动体验。",
+        "ai_value": "AI 被描述为协助把素材和互动安排组合起来；介绍没有说明它具体生成或修改哪些内容。",
+        "differentiation": "它省去编程和使用游戏引擎的要求。若场景或分支结果难以按创作者意图调整，可能仍不愿把作品迁过来。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍只说 AI 会协助组合互动体验，没有说明具体使用什么技术。",
+        "possible_approach": "如果自己做，可以先把素材整理成场景，再让创作者为场景添加选择和对应结局，最后组合成可玩的故事并分享。",
+        "tradeoffs": "最难的是让各条分支都符合原故事设定；如果角色或情节前后不一致，创作者就得逐条检查和修改。",
+        "unknowns": "AI 组合出的场景和分支能否细致编辑，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做故事或内容创作工具时，可以把作品拆成场景、选择和结果，让创作者逐项安排互动，而不只靠一次输入生成成品。"
+      ],
+      "validation_questions": [
+        "给它一段有多个角色和结局的剧本，检查生成的场景、选择和结局是否符合原文。",
+        "导入图片或视频片段并分享作品，检查素材能否正常进入场景、接收者能否顺利体验分支。"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把场景和分支编排放进免编程的创作流程，可能减少制作门槛；但 AI 生成内容能否被准确控制，现有资料无法判断。"
+    },
+    {
+      "id": "1325452",
+      "name": "Resurf",
+      "name_zh": "Resurf",
+      "tagline_zh": "Mac 个人知识库与书签管理器",
+      "description_zh": "一款适用于 Mac、iPhone 和 iPad 的本地个人资料库，可保存笔记、链接、图片和文档。它可在 Mac 上通过 MCP 或命令行把资料交给 AI 使用。",
+      "intro_zh": "给在 Mac、iPhone 或 iPad 上收集资料的人，用来保存笔记、链接和文件，并把资料交给 AI。",
+      "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/VXIIBY4W6WDWZU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e0ba3b43-0a39-4990-aa39-5348ff70d85a.png?auto=format",
       "votes_count": 184,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "覆盖找书、整理书目和记录进度，但能否让用户读得更多没有验证数据。"
+          "reason": "保存资料和交给 AI 的用途清楚，实际省时多少还不明确。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "批量扫条码和 AI 选书值得关注，但实现细节与准确性未知。"
+          "reason": "提到本地保存和两种交接方式，但没说明数据流向与权限细节。"
         },
         "transferability": {
-          "score": 4,
-          "reason": "扫码、搜索和导入提供了多种建库入口，可借鉴来降低初次整理成本。"
+          "score": 3,
+          "reason": "本地资料库加 AI 读取入口的做法可借鉴，适用条件仍待确认。"
         }
       },
       "product_analysis": {
-        "target_problem": "想管理个人藏书和阅读进度的读者会需要它。逐本录入、持续记录阅读情况可能比较费事。",
-        "workflow": "用户可搜索书名、从阅读清单选书、批量扫描书架条码，或从 Goodreads、StoryGraph、CSV 导入。之后设定每日或年度目标、计时阅读，并记录笔记和引文。",
-        "ai_value": "AI 用来推荐下一本书。介绍没有说明推荐依据，也没有说能否调整推荐。",
-        "differentiation": "批量扫码和已有书目导入能减少建库时的逐本录入。最可能的换用障碍是用户已有阅读记录是否能完整迁移，介绍未说明迁移范围。"
+        "target_problem": "适合想保存个人资料、并在使用 AI 时复用它们的人。资料没有说明用户原先如何整理或传递这些内容。",
+        "workflow": "把笔记、链接、图片和文档存入资料库，再在 Mac 上通过 MCP 或命令行把资料交给 AI。具体选择和查找资料的步骤未说明。",
+        "ai_value": "介绍没说 Resurf 自己用 AI 处理资料；它提供把资料交给 AI 使用的方式。",
+        "differentiation": "资料可集中保存在本地，并提供 AI 读取入口。可能的使用门槛是要有能配合 MCP 或 Mac 命令行的工具。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍称产品支持 iPhone、iPad 和 Android，可搜索 122 million 本、涵盖 28 种语言的书，并提供批量条码扫描与 AI 选书；未说明具体技术实现。",
-        "possible_approach": "如果自己做，可以先识别书籍条码并匹配书目，再保存到个人书架；推荐功能可先根据用户选过的书给出候选。条码匹配和推荐依据都需要实际验证。",
-        "tradeoffs": "最容易出错的是条码识别后匹配错书；用户会发现书架记录不准，还得手动查找和修正。",
-        "unknowns": "批量扫描能否识别不同摆放角度、遮挡或条码质量不佳的书？"
+        "disclosed_facts": "介绍称资料库完全本地，可用于 Mac、iPhone 和 iPad；Mac 上支持 MCP（供 AI 工具读取外部资料的连接协议）或命令行交接。",
+        "possible_approach": "如果自己做，可以先把笔记、链接和文件存为本地资料，再提供 MCP 和 Mac 命令行入口，让 AI 工具读取需要的内容。",
+        "tradeoffs": "最需留意的是资料交给 AI 后是否离开设备。本地保存不代表 AI 处理也在本地，敏感内容可能因此发给外部服务。",
+        "unknowns": "介绍没有说明资料交给 AI 后会发往哪里，隐私边界需要确认。"
       },
       "transferable_insights": [
-        "做个人资料库时，可同时提供搜索、批量录入和外部文件导入，适合需要整理大量旧资料的用户。",
-        "做习惯记录工具时，可把目标、计时和事后记录放在同一流程里，适合需要回看每日投入的人。"
+        "做个人资料或知识管理产品时，可以把资料保存和交给 AI 使用分成两个清楚的步骤。"
       ],
       "validation_questions": [
-        "扫描一排不同角度摆放的书，检查识别和书目匹配是否准确。",
-        "导入一份已有阅读记录，检查书目、笔记和阅读进度是否保留。"
+        "用一份已保存的资料测试，AI 能否通过 MCP 或命令行读到正确内容。",
+        "交接一份敏感资料，确认它是否会离开本机、发往哪里。"
       ],
       "category": "效率工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "批量建库和阅读记录能减少手工整理；但条码匹配准确度与旧数据迁移完整性仍不清楚。"
-    },
-    {
-      "id": "1323083",
-      "name": "Currents",
-      "name_zh": "Currents",
-      "tagline_zh": "让 Claude 和 Codex 查看你的所有测试",
-      "description_zh": "Currents 会记录 CI 中每次 Playwright 测试运行。Claude 和 Codex 可以读取这些记录；连接插件并登录后，询问 CI 为什么失败，助手会自动获得失败信息、历史记录和运行轨迹。",
-      "intro_zh": "面向维护 Playwright CI 的开发团队，把测试失败、历史记录和运行轨迹交给 Claude 或 Codex，辅助排查问题。",
-      "url": "https://www.producthunt.com/products/currents-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5CEHDWRBU3OWTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/cfe7571d-2738-4181-87f7-cac376074238.jpeg?auto=format",
-      "votes_count": 156,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "目标场景和提供的排查资料明确，但实际能否加快定位尚未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "把测试历史和运行轨迹交给助手有具体技术问题，资料未说明实现方式。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把故障所需的历史上下文一并提供给助手，适用于其他排查工具。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "维护 Playwright CI 的开发者遇到测试失败时，可能需要结合失败结果、历史记录和运行轨迹判断原因。Currents 面向这类排查场景。",
-        "workflow": "在 Claude 或 ChatGPT/Codex 的插件目录连接 Currents 并登录。CI 中的 Playwright 测试运行会被记录；用户询问失败原因后，助手会自动收到失败信息、历史记录和运行轨迹。",
-        "ai_value": "Claude 或 Codex 可以读取这些排查资料，供其回答用户关于 CI 失败的问题。介绍没有说明助手会自动判定根因，还是只提供分析帮助。",
-        "differentiation": "它把失败、历史和运行轨迹交给助手一起查看，可能减少在不同记录间查找的麻烦。是否愿意接入，关键要看授权范围是否符合团队要求。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确说会记录 CI 中的 Playwright 测试运行，并让 Claude 或 ChatGPT/Codex 插件读取失败信息、历史记录和运行轨迹；未说明具体实现技术。",
-        "possible_approach": "如果自己做，可以先保存每次 CI 测试的结果和运行轨迹，再让插件按用户的问题取回相关失败及历史记录，交给助手分析。",
-        "tradeoffs": "最容易出错的是把失败和错误的历史记录或运行轨迹对应起来；这样助手可能根据别的测试运行解释问题。",
-        "unknowns": "介绍没说明插件能读取哪些项目的数据，需确认是否能限制到用户有权限查看的范围。"
-      },
-      "transferable_insights": [
-        "做 CI 告警排查工具时，可以在用户提问时一并提供故障记录和相关历史，让助手结合上下文分析，而非只给一条报错。"
-      ],
-      "validation_questions": [
-        "选一条已知失败的测试，检查助手收到的历史记录和运行轨迹是否确实对应这次运行。",
-        "用只能访问部分项目的账号连接插件，检查助手能否读取未授权项目的测试记录。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "失败记录、历史和运行轨迹能一起交给助手，是它最明确的排查便利；但记录是否准确对应测试、访问范围能否限制，仍会影响判断。"
-    },
-    {
-      "id": "1315726",
-      "name": "Kuc-kuc",
-      "name_zh": "Kuc-kuc",
-      "tagline_zh": "恶劣天气来临时，打个电话确认情况",
-      "description_zh": "预报有危险天气时，Kuc-kuc 会给独居长者打电话询问是否安好；若无人接听或对方说身体不适，就联系邻居上门查看，家人可看到处理进展。它支持固定电话，运行在 Cloud Run 上。",
-      "intro_zh": "面向独居长者的家人，在恶劣天气预报时自动打电话确认安好，并在需要时通知邻居上门。",
-      "url": "https://www.producthunt.com/products/kuc-kuc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LKBGU35INMLRUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e0ade2f1-cea4-4d9f-9449-8c1abf84dfce.png?auto=format",
-      "votes_count": 146,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "目标人群和应急处理方式明确，但实际可靠性和覆盖范围未知。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "提到固定电话和 Cloud Run，但没有说明天气触发与通话状态判断方式。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "先电话确认、未确认再联系附近人员的处理规则可借鉴，效果仍需验证。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "恶劣天气预报期间，家人想确认独居长者是否安好，也需要有人在失联或求助时上门查看。",
-        "workflow": "天气预报有危险天气时，系统给长者打电话询问情况；无人接听或对方说不舒服时，就联系邻居。家人可以查看处理进展。",
-        "ai_value": "介绍没提 AI，主要靠天气预报触发电话确认，并按通话结果联系邻居。",
-        "differentiation": "它能在电话未获确认时联系邻居，减少家人逐次打电话的负担；但需要有愿意配合、能及时上门的邻居。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确说支持固定电话，并运行在 Cloud Run 上。",
-        "possible_approach": "如果自己做，可以先确定本地危险天气的触发条件，再设置固定电话确认和超时规则；收到回答或超时后，按规则联系邻居并通知家人。",
-        "tradeoffs": "最容易出错的是通话状态记录；如果接听、求助或无人应答被记错，邻居可能没收到通知，或被无谓打扰。",
-        "unknowns": "介绍没有说明危险天气的定义和预警来源，难判断它能否覆盖当地并及时触发。"
-      },
-      "transferable_insights": [
-        "做居家安全服务时，可以借用“先电话确认，未确认再联系附近人员”的分级处理方式。"
-      ],
-      "validation_questions": [
-        "分别测试长者确认安好、表示不适和无人接听，检查邻居通知是否符合预期。",
-        "检查一条当地危险天气预报能否触发确认电话，以及触发时间是否及时。"
-      ],
-      "category": "安全隐私",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "电话未获确认时能转交邻居跟进，可能减轻家人逐次联系的负担；但预警来源和覆盖范围不明，影响它在具体地区是否可靠。"
-    },
-    {
-      "id": "1322934",
-      "name": "Tamekoshi",
-      "name_zh": "Tamekoshi",
-      "tagline_zh": "一款能实际处理工作的电子宠物式 AI 助手",
-      "description_zh": "Tame 是一款常驻屏幕顶部的 AI 助手：一条消息中的三项要求可交给三个子代理并行处理；它能在自己的电脑上运行任务、通过 WhatsApp 和 Telegram 回复客户，并按发言人整理会议记录。所有操作都需先经用户确认；目前处于免费测试阶段，移动应用、多人协作和开源仍在规划中。",
-      "intro_zh": "面向需要处理客户消息、电脑任务和会议记录的人，把多项要求交给屏幕顶部的 AI 助手并逐项确认。",
-      "url": "https://www.producthunt.com/products/tamekoshi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/D7S6JA3X5PKAUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bca1bbcf-7d7f-496e-925c-02d78cab4190.jpeg?auto=format",
-      "votes_count": 111,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "用途和可处理的工作说得具体，但实际省时效果没有验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "并行拆分任务并保留用户确认，带来明确的准确性与控制问题。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "多事项拆分和执行前审批可借用于有外部操作风险的助手。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "同时处理客户消息、电脑任务和会议记录的人，可能需要在多个工具间切换、分别安排事项；资料未说明他们原先的具体流程。",
-        "workflow": "用户从屏幕顶部发消息；三项要求可交给三个并行子代理。助手在自己的电脑上运行任务、回复 WhatsApp 或 Telegram 客户，也能按发言人整理会议记录；操作前需用户确认。",
-        "ai_value": "AI 将一条消息中的多项要求交给子代理并行处理，也负责执行任务和整理会议记录；具体模型与拆分方法未说明。",
-        "differentiation": "它把多项工作并行处理，并要求用户批准操作。最可能让人犹豫的是确认步骤：任务多时，逐项审批可能拖慢处理。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称它会把一条消息中的三项要求交给三个并行子代理，并在自己的电脑上运行任务；未说明具体采用什么技术。",
-        "possible_approach": "如果自己做，可以先把消息拆成三项清单，再让三个程序各做一项，最后列出结果和待执行操作，请用户确认。",
-        "tradeoffs": "最容易错在拆分时漏掉条件；子任务可能做偏，用户就得补充说明或重做。",
-        "unknowns": "介绍没说回复客户等外部操作是否会逐项等待用户批准。"
-      },
-      "transferable_insights": [
-        "做能代办的工作助手时，可把多事项请求拆成可检查的任务，并在执行前让用户批准；适合有外部操作风险的流程。"
-      ],
-      "validation_questions": [
-        "给它一条含三项且带先后条件的请求，检查是否拆分正确。",
-        "让它准备回复一条客户消息，检查未经确认是否确实不会发送。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "明确的好处是多项工作能并行处理，同时保留用户确认；但审批是否覆盖对外发送消息仍不清楚。"
-    },
-    {
-      "id": "1314593",
-      "name": "tensorViz",
-      "name_zh": "tensorViz",
-      "tagline_zh": "让编程代理看见 PyTorch 模型内部的数据流",
-      "description_zh": "编程代理能读取 PyTorch 代码，却看不到模型运行时实际传递的数据；tensorViz 执行一次真实前向计算，并把模块和张量形状整理成交互图。Claude Code、Codex 和 Cursor 可以搜索这张图，用户也可以浏览近期论文中 560 多个模型的图；产品免费且采用 MIT 许可。",
-      "intro_zh": "面向用编程代理开发 PyTorch 的工程师，把一次真实运行整理成可搜索的模型结构和张量形状图。",
-      "url": "https://www.producthunt.com/products/tensorviz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/GGVBUX3ATW7EJK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/19185f4a-d0ca-48b4-8c84-e6e3266c127c/f6d797e5e851a1f4256432606c76fc51481dc00c146523e082d3680bd781efc5.png?auto=format",
-      "votes_count": 96,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确对应代理看不到运行时张量的问题，但实际能否改善调试尚未验证。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "用真实前向运行取得形状信息，具体呈现了代码与运行状态之间的差别。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "可借鉴把运行时信息做成代理可搜索的图，但资料没有说明实现细节。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "用 Claude Code、Codex 或 Cursor 编写 PyTorch 模型的人可能会需要它。代理能读代码，却看不到实际运行时经过各层的数据形状，容易只能根据代码推测。",
-        "workflow": "让 tensorViz 对模型执行一次真实前向计算，它会生成包含模块和张量形状的交互图。编程代理可以搜索图并读取测得的形状；也可以不接入自己的模型，浏览 Model Explorer 中的模型图。",
-        "ai_value": "介绍没有说 tensorViz 用 AI 生成图。它提供运行时图和形状数据，让编程代理查询这些信息，辅助修改模型代码。",
-        "differentiation": "它补上了代码阅读与实际张量形状之间的信息差。使用前需要模型能成功运行一次真实前向计算，这可能让输入准备复杂的模型不易直接使用。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称 tensorViz 执行一次真实前向计算，生成含模块和张量形状的交互图，供编程代理搜索；没有说明具体实现技术。",
-        "possible_approach": "如果自己做，可以先用一组输入运行模型，再记录每个模块运行时的张量形状，最后把模块和形状连成可搜索的图，供代理读取。难点是选对输入，让运行路径覆盖要排查的部分。",
-        "tradeoffs": "最容易漏掉的是只测了一次运行没经过的条件分支。图里若缺少相关路径，代理可能仍依据不完整的形状信息给出修改建议。",
-        "unknowns": "介绍没说复杂模型的前向输入如何准备；这关系到用户能否顺利生成第一张图。"
-      },
-      "transferable_insights": [
-        "做模型调试工具时，可把运行中测得的形状整理成代理能搜索的图，适合需要对照模型结构定位问题的场景。"
-      ],
-      "validation_questions": [
-        "用一个有代表性的模型运行后，检查图中显示的模块和张量形状是否与实际运行一致。",
-        "让编程代理搜索一个指定模块，检查它能否读到该模块对应的形状。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "把实测张量形状交给编程代理查询，有机会减少猜测；但复杂模型能否顺利完成那一次前向运行还不清楚。"
-    },
-    {
-      "id": "1323572",
-      "name": "Docker",
-      "name_zh": "Docker",
-      "tagline_zh": "为智能体时代构建可信的运行环境",
-      "description_zh": "Docker 正面向智能体时代调整产品方向：容器隔离工作负载，而智能体还需要隔离、安全和治理。它提供面向智能体构建的供应链、用于隔离运行的 Docker Sandboxes，以及面向各团队的 Docker AI Governance，并更新了品牌和 Moby 鲸鱼形象。",
-      "intro_zh": "面向开发和平台团队，帮助隔离智能体运行环境，并管理构建来源与团队治理。",
-      "url": "https://www.producthunt.com/products/docker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/4IV63EDN4UZ3NO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/f9c26226-386c-4f90-a572-1ae0bd5f37d5/8b2f103eaf81b2fb3b30665b49f415a8a92d8c2ac52873f02d4c0c4099df5da5.png?auto=format",
-      "votes_count": 259,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "明确指出智能体运行的隔离与治理需求，但实际收益尚未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "隔离边界是具体技术难点，介绍未说明实现方式。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "把构建来源、运行隔离和团队治理分开说明，做法可借鉴，细节仍待验证。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "开发和平台团队需要管理智能体的构建来源、运行隔离和团队规则。以前容器主要隔离工作负载；现在 Docker 也把智能体供应链、隔离运行和跨团队治理列为重点。",
-        "workflow": "介绍列出三部分：供智能体构建的可信供应链、隔离智能体的 Docker Sandboxes、跨团队治理的 Docker AI Governance。没有说明用户具体如何配置或使用。",
-        "ai_value": "介绍没有说产品用 AI 执行什么；AI 智能体是它要隔离和治理的对象。",
-        "differentiation": "它把构建来源、运行隔离和团队治理放进同一产品方向。最可能让团队暂缓采用的原因，是介绍没说明它如何接入现有环境。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍提到容器隔离工作负载、Docker Sandboxes 隔离智能体、Docker AI Governance 面向跨团队治理；未说明具体实现技术。",
-        "possible_approach": "如果自己做，可以先划定智能体能访问的文件和资源，再记录构建来源并设定团队共用规则。这样分别处理运行风险、来源和管理要求。实现思路，非官方方案。",
-        "tradeoffs": "最难的是划清沙箱边界：如果智能体仍能读到不该访问的文件或凭据，用户仍会面临泄露风险。",
-        "unknowns": "介绍没有说明沙箱能限制哪些访问，也没说明治理规则如何配置。"
-      },
-      "transferable_insights": [
-        "做智能体平台时，可分别说明构建来源、运行隔离和团队治理各自管什么，避免用笼统的“安全”概括。"
-      ],
-      "validation_questions": [
-        "试用时检查沙箱中的智能体能否访问未授权的本机文件或凭据。",
-        "检查不同团队的治理规则能否分别设置并实际生效。"
-      ],
-      "category": "开发工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "把智能体运行隔离和团队治理都纳入产品重点；但沙箱的实际访问边界尚不清楚。"
+      "overall_reason": "它把个人资料集中保存，并提供给 AI 读取的入口；但资料交给 AI 后是否仍留在本机，介绍没有交代。"
     },
     {
-      "id": "1322498",
-      "name": "Direct by Instagram",
-      "name_zh": "Direct by Instagram",
-      "tagline_zh": "不用打开信息流或 Instagram 账号，也能使用 Instagram 私信",
-      "description_zh": "Direct 是 Instagram 推出的独立聊天应用，可在不打开信息流、Reels 或快拍的情况下与朋友聊天。用户可用 Instagram 登录并同步现有对话，也可用邮箱或手机号加入；应用目前在土耳其和泰国测试，没有 Instagram 账号的用户会受到额外限制。",
-      "intro_zh": "给想避开 Instagram 信息流、单独聊天的人用；可同步已有对话，或用邮箱、手机号加入。",
-      "url": "https://www.producthunt.com/products/instagram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WTPU56RQWCD2XV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/f44725c4-81ea-4820-b96c-6e01f73be38e.jpeg?auto=format",
-      "votes_count": 113,
+      "id": "1285780",
+      "name": "Daymaker",
+      "name_zh": "Daymaker",
+      "tagline_zh": "送出贴合个人的礼物，让潜在客户愿意见面。",
+      "description_zh": "Daymaker 以 coldcakes（面向陌生客户的礼物）闻名，并称这种做法将告一段落。它会研究潜在客户的兴趣、推荐个性化礼物、加上你的品牌包装并寄出；也提供代运营活动服务，并承诺带来会议。",
+      "intro_zh": "面向开发陌生客户的销售团队：了解潜在客户兴趣，挑选个性化礼物，加上品牌包装后寄出。",
+      "url": "https://www.producthunt.com/products/daymaker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/22SNOV53PPMTPX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/ab500b8b-b48b-41bc-8d64-9b6dd37ae07f.jpeg?auto=format",
+      "votes_count": 161,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途和服务流程清楚，但会议承诺的实际效果没有验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "客户研究和礼物匹配有具体难点，但资料没说明信息来源或实现方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "研究兴趣、选礼、寄送的流程可借鉴，适用条件和效果仍不清楚。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "做陌生客户开发的销售团队，可能需要它来筹备个性化触达。研究客户、挑选合适礼物并安排寄送，都是这项活动要处理的事。",
+        "workflow": "先研究潜在客户并了解其兴趣，再推荐礼物、换上品牌包装并寄给对方。也可以让 Daymaker 代为运营活动。",
+        "ai_value": "介绍没提 AI；它通过研究潜在客户、按兴趣推荐礼物并安排寄送来完成触达流程。",
+        "differentiation": "如果团队原本分开处理客户研究、选礼和寄送，它把这些环节放在一起。最可能的顾虑是礼物是否贴合客户，还是显得冒犯。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍说它会研究潜在客户、了解兴趣、推荐礼物、加入品牌包装并寄送；没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先整理可用的客户资料，再提取有依据的兴趣线索，按线索匹配礼物，最后安排品牌包装和寄送。",
+        "tradeoffs": "最容易出错的是兴趣判断不准。礼物因此显得无关或过于私人，可能损害客户信任。",
+        "unknowns": "客户资料从哪里取得、如何处理，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做销售触达工具时，可以把客户研究、礼物选择和寄送安排放进同一流程，适合已有礼品营销需求的团队。"
+      ],
+      "validation_questions": [
+        "抽查几份客户兴趣依据，确认信息准确，礼物推荐也足够得体。",
+        "核对“保证会议”的定义、适用条件，以及未达成时如何处理。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把客户研究、选礼和寄送安排集中起来；但会议承诺的定义和适用条件还不清楚。"
+    },
+    {
+      "id": "1324705",
+      "name": "Creavit Studio 4.0",
+      "name_zh": "Creavit Studio 4.0",
+      "tagline_zh": "屏幕录制、iPhone 摄像头与 Mac 电影感演示",
+      "description_zh": "规划、录制并把屏幕内容做成产品演示。Creavit Studio 4.0 支持二维码配对 iPhone 人像拍摄、录制后补加镜头、内容规划、Standard 与 Liquid MultiFocus、MacBook 和 iPhone 电影感 3D 场景、Smooth Scroll、Smooth Typing、另一语言声音，以及每一步需用户确认的 Auto FX；也可在 iPhone 上录制和编辑。",
+      "intro_zh": "面向制作产品演示的团队和个人，把 Mac 录屏、iPhone 人像画面与演示效果放进一套制作流程。",
+      "url": "https://www.producthunt.com/products/creavit-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/DO2TIU7I4GF4GO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/a253204b-9014-4b40-b6d9-8b5e683bc6ce.jpeg?auto=format",
+      "votes_count": 121,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "明确说明独立聊天能避开什么干扰，但实际使用效果尚未验证。"
+          "reason": "明确了产品演示制作者和要处理的素材，但实际节省时间与成片质量尚未验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "账号登录与对话同步值得关注，具体实现方式没有披露。"
+          "reason": "二维码配对、多设备素材和逐步确认带来具体技术问题，但资料未说明同步方式和技术边界。"
         },
         "transferability": {
           "score": 3,
-          "reason": "把聊天入口从内容浏览中分开可供借鉴，但适用条件仍待验证。"
+          "reason": "二维码配对和逐步审批可以借鉴，但适用条件与实际收益仍需试用确认。"
         }
       },
       "product_analysis": {
-        "target_problem": "想用 Instagram 私信、但不想打开信息流、Reels 或快拍的人可能会需要它。分开聊天入口，能少接触这些内容。",
-        "workflow": "打开独立应用后，可用 Instagram 登录并同步已有对话，也可用邮箱或手机号加入；之后与朋友聊天，并使用贴纸、语音效果、涂鸦和主题等功能。",
-        "ai_value": "介绍没提 AI；主要靠独立聊天入口和个性化聊天功能改善体验。",
-        "differentiation": "相比在 Instagram 里聊天，它把私信放进独立应用。当前只在土耳其和泰国测试，且没有 Instagram 账号的用户受限，地区和账号条件是最直接的门槛。"
+        "target_problem": "需要展示 Mac 软件或产品的人，可能要同时准备屏幕录制、手机出镜、滚动或打字效果和设备场景。资料没有说明他们原来统一怎么做，但这些内容若分开处理，整理素材和调整效果会更麻烦。",
+        "workflow": "先用 Content Planner 规划内容，再录制 Mac 屏幕，并可通过二维码配对 iPhone 拍摄人像画面；录完后还能补加摄像头镜头。随后加入设备场景、滚动或打字效果、另一语言声音和 Auto FX，并按介绍逐步确认自动效果；也可在 iPhone 上录制和编辑。",
+        "ai_value": "介绍没提 AI。它描述了需要用户逐阶段批准的 Auto FX，以及让自己的声音以另一种语言呈现，但没有说明具体模型或工作方式。",
+        "differentiation": "相比把录屏、手机人像素材、设备场景和演示动效分别处理，它试图把这些步骤放进同一套 Mac 制作流程，并支持录制后补加镜头。最可能劝退的是自动效果仍需逐步审批，若结果频繁返工，省下的整理时间就不确定。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍说明可用 Instagram 登录并同步现有对话，也可用邮箱或手机号加入；没说具体用什么技术。",
-        "possible_approach": "如果自己做，可以先明确不同登录方式如何对应用户，再决定哪些旧对话能同步。之后提供独立聊天入口，让用户直接查看和发送消息。",
-        "tradeoffs": "最容易出错的是账号对应和对话同步；若记录没同步到正确账号，用户可能找不到旧聊天或看到不属于自己的对话。",
-        "unknowns": "没有 Instagram 账号的用户具体能使用哪些聊天功能，介绍没有说明。"
+        "disclosed_facts": "介绍明确提到它面向 Mac，支持二维码配对 iPhone 人像拍摄、录制后补加摄像头镜头、内容规划、MacBook 和 iPhone 3D 场景、Smooth Scroll、Smooth Typing、另一语言声音和需逐步批准的 Auto FX；未说明具体技术栈。",
+        "possible_approach": "如果自己做，可以先录制 Mac 屏幕，再用二维码让 iPhone 建立配对（让两台设备互相识别），并把两路素材按时间对齐；然后加入补拍镜头、设备场景和滚动或打字效果，最后让自动效果支持预览和逐步批准。",
+        "tradeoffs": "最容易出错的是 Mac 录屏与 iPhone 人像画面的配对和时间对齐；一旦两路素材错位，出镜反应会对不上屏幕操作，用户还得手工调整甚至重录。",
+        "unknowns": "介绍没有说明 QR 配对后的 iPhone 画面能否独立编辑或精确对齐 Mac 录屏，这决定补拍镜头是否真的省事。"
       },
       "transferable_insights": [
-        "做同时包含内容浏览和私信的产品时，可以提供独立消息入口，适合希望专注处理对话、不想进入内容流的用户。"
+        "做录屏类产品时，可以用二维码降低手机加入拍摄流程的配置步骤。",
+        "自动处理涉及画面或声音时，可以让用户逐步预览、确认，而不是一次性生成最终结果。"
       ],
       "validation_questions": [
-        "用 Instagram 登录后，现有对话是否都能正确同步？",
-        "不用 Instagram 账号加入后，实际能使用哪些聊天功能？"
+        "实际录制一段 Mac 产品演示，检查二维码配对后的 iPhone 人像画面能否与录屏准确对齐。",
+        "检查 Auto FX 的每一步是否都能预览、批准，并在出错时撤回。"
       ],
-      "category": "社交生活",
+      "category": "设计创意",
       "overall_suggestion": "值得参考",
-      "overall_reason": "独立入口能让用户避开内容流直接聊天；但无 Instagram 账号时的功能限制尚不清楚。"
-    },
-    {
-      "id": "1322506",
-      "name": "Volcano",
-      "name_zh": "Volcano",
-      "tagline_zh": "Kong 推出的自愈型智能体云",
-      "description_zh": "Volcano 集中构建、托管和运行智能体与应用，可从常用编程代理或 AI Builder 部署。它提供持久任务、人工审批、可恢复沙箱、数据库和应用托管；产品称 LavaFlow 会自动发现并修复错误。",
-      "intro_zh": "面向开发者，把智能体和应用部署到云端运行，并使用配套的后端服务。",
-      "url": "https://www.producthunt.com/products/volcano-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/M2PZAL4CR53OAW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8ddb1683-785e-4310-bebf-a6a1dcfb2081.gif?auto=format",
-      "votes_count": 108,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "用途和功能范围清楚，但实际省下多少工作尚无资料。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "自动修复值得关注，具体实现和验证方式未说明。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "支持从现有编程代理部署是具体做法，适用条件仍待确认。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "开发智能体或应用的团队，需要部署、托管和后端能力。分开选服务可能增加配置工作，介绍未说明用户原先的具体做法。",
-        "workflow": "从已有编程代理发起部署，或用 AI Builder；之后在 Volcano 托管运行应用，并按需使用配套服务。",
-        "ai_value": "AI Builder 可用于构建；产品还称 LavaFlow 能自动找错并修复，但没说明如何验证补丁。",
-        "differentiation": "把部署入口、应用托管和后端服务放在一处，可少分别寻找服务。最可能的换用阻力是现有项目迁入要做多少适配，介绍未说明。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍列出可持续一年的持久函数、可恢复沙箱、分布式锁、可分支的 Postgres 数据库，以及后端和 Next.js 托管。",
-        "possible_approach": "如果自己做，可以先收集错误，再让代理提出补丁并用原有测试验证，通过后才发布。",
-        "tradeoffs": "最容易出错的是补丁验证；测试没覆盖真实故障时，修复可能引入新问题。",
-        "unknowns": "介绍未说明自动修复是否要经人工批准才发布。"
-      },
-      "transferable_insights": [
-        "做开发者平台时，可支持用户从已有编程代理部署，减少更换工作流的步骤。"
-      ],
-      "validation_questions": [
-        "用一个现有项目从支持的编程代理部署，检查能否正常运行。",
-        "给它一个可复现的缺陷，检查修复是否通过原有测试。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "把部署和后端服务集中起来是明确好处；但自动修复如何验证、发布尚不清楚。"
+      "overall_reason": "它把 Mac 录屏、iPhone 出镜和演示效果放进一套流程，关键疑问是多设备素材能否稳定同步，以及自动效果是否真的减少返工。"
     }
   ]
 }
