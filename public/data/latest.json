@@ -1,492 +1,491 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "schema_version": 2,
   "analysis_style": "plain_language_v1",
   "source_mode": "producthunt_api",
-  "generated_at": "2026-11-26T01:58:27+08:00",
+  "generated_at": "2026-11-27T01:42:54+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1322050",
-      "name": "Granular.Build",
-      "name_zh": "Granular.Build",
-      "tagline_zh": "在可视化工作区里让 AI 代理开始干活",
-      "description_zh": "Granular 把模型、代理、文件和项目背景放进一个可视化工作区，让用户向主代理说明目标，再由它并行协调专门代理。用户可以自带 AI，在需要时使用内置终端和插件，并在一个地方保存项目记忆和文件；产品称可以从计划推进到发布结果。",
-      "intro_zh": "面向想把大想法做成应用、设计或视频的人，在一个工作区里安排 AI 代理并查看产出。",
-      "url": "https://www.producthunt.com/products/granular-build?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WWPJRVRNRSEYXS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/774b76ae-52c5-4269-a7f8-e8edbb973577.jpeg?auto=format",
-      "votes_count": 230,
+      "id": "1329374",
+      "name": "MyClaw 3.0",
+      "name_zh": "MyClaw 3.0",
+      "tagline_zh": "搭建一支持续在线、共享记忆的 AI 团队",
+      "description_zh": "MyClaw 可用 OpenClaw、Claude Code、Codex、Hermes Agent、Pi 等工具组建 AI 团队，并为每位助手设置角色、工具、技能和 50 多种模型中的选择。助手运行在持续在线的云电脑上，可使用应用和数据、处理重复任务，也能从网页、Slack、Telegram 或 WhatsApp 接收工作；介绍称无需设置服务器，也不绑定单一 AI 提供方。",
+      "intro_zh": "面向想让多个 AI 助手长期处理重复工作的个人或团队，可分配任务并从常用聊天工具派活。",
+      "url": "https://www.producthunt.com/products/myclaw-3-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/I5P5AWTAYY2JLB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f834d013-e2d5-4082-afed-4c8450160364.jpeg?auto=format",
+      "votes_count": 334,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "目标用户和整合多种 AI 工具、项目资料的用途说得清楚，实际产出效果未验证。"
+          "reason": "说清了持续运行的助手能处理重复任务，但实际效果尚未验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "代理并行协作和实时预览带来具体实现难点，但介绍没有说明如何处理。"
+          "reason": "共享记忆和云端运行带来具体实现问题，介绍未说明实现细节。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把项目背景与文件集中管理、再让专门代理并行做事，是可借鉴的具体做法。"
+          "reason": "按角色分配助手并共享团队记录，是可借鉴的具体做法。"
         }
       },
       "product_analysis": {
-        "target_problem": "适合想制作应用、设计或视频，但需要协调多个模型、代理和项目资料的人。资料没有说明用户原本采用哪种流程；它针对的是工具和项目背景分散的问题。",
-        "workflow": "用户向主代理说明目标，由它协调专门代理并行工作；用户查看应用、设计或视频的实时预览。项目文件和记忆可放在同一工作区，也可以自带 AI，按需使用终端和插件。",
-        "ai_value": "主代理接收目标并协调专门代理并行处理，AI 参与产出应用、设计或视频。介绍没有交代代理如何分工或用户如何修改结果。",
-        "differentiation": "把模型、代理和项目资料放在同一工作区，可能减少在多个工具间切换和搬运信息。最可能让人犹豫的是：代理产出是否足够可控，能否达到可发布的质量。"
+        "target_problem": "需要多个 AI 助手长期处理重复工作的人，可能希望它们使用不同工具、访问应用数据，并在自己离线时继续运行。",
+        "workflow": "创建 AI 团队，为成员设置角色、工具、技能和模型；再从网页或消息应用派活，让助手处理任务。",
+        "ai_value": "AI 助手可调用工具、访问数据并处理重复任务；团队成员共享记忆。",
+        "differentiation": "它把助手配置、持续运行和多种派活入口放在一起。是否愿意授权它访问应用和数据，是一个可能的顾虑。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍提到可视化工作区、主代理与并行工作的专门代理、自带 AI、内置终端和插件，以及项目记忆和文件管理。",
-        "possible_approach": "如果自己做，可以先让用户集中项目文件和背景，再让主代理把目标分给不同专门代理，最后在工作区展示各自结果和实时预览。",
-        "tradeoffs": "最难的是让并行代理的结果彼此一致；如果设计、代码或内容互相冲突，用户就得手动整合，实时预览也未必代表最终成品。",
-        "unknowns": "介绍没有说明自带 AI 支持哪些模型或服务。"
+        "disclosed_facts": "介绍列出多个 AI 助手工具、50 多种模型、共享记忆、云电脑，以及网页和聊天应用派活入口。",
+        "possible_approach": "如果自己做，可以先按角色分配任务，再接通应用工具并保存团队共享记忆，最后加上持续运行的云端环境和消息入口。共享记忆就是助手都能查阅的团队记录。",
+        "tradeoffs": "共享记忆若过期或检索错内容，助手可能沿用错误信息，用户还得纠正后续任务。",
+        "unknowns": "介绍没有说明应用数据的授权范围和保护方式，这是托付任务前需要弄清的一点。"
       },
       "transferable_insights": [
-        "做需要多步产出的产品时，可把项目文件和背景集中保存，让不同专长的代理并行处理，再把结果放在同一处预览。"
+        "做团队协作产品时，可按角色拆分助手，并让它们查阅同一份团队记录，减少重复交代背景。"
       ],
       "validation_questions": [
-        "给主代理一个需要设计和开发的具体目标，检查并行产出能否组合成一致的结果。",
-        "确认自己现用的 AI 服务是否能接入，并在项目中保留文件和记忆。"
+        "让一个重复任务在离线时运行，检查它能否按预期完成。",
+        "修改一条共享记忆后，让不同助手使用它，检查是否读到更新内容。"
       ],
       "category": "AI工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "同一工作区集中项目资料并协调多个代理，可能减少切换工具的麻烦；但代理结果能否合并成可发布成品仍不清楚。"
+      "overall_reason": "持续运行并能从多种入口派活，可能省去反复启动助手的麻烦；但应用权限和共享记忆的可靠性仍不清楚。"
     },
     {
-      "id": "1327970",
-      "name": "Viktor Code",
-      "name_zh": "Viktor Code",
-      "tagline_zh": "编程代理了解你的代码库，Viktor 了解你的公司。",
-      "description_zh": "Viktor 面向客户、指标和业务决策理解工作背景，让用户给出业务目标，而不是工单。它会拆分技术与非技术工作，在代码托管平台创建拉取请求供团队审核，并让团队通过 Slack、Teams 或 Discord 参与项目；产品介绍称可免费开始，并提供最高 100 美元额度。",
-      "intro_zh": "适合想从业务目标推进开发的团队：描述要达成的结果，让 Viktor 拆分工作并提交代码变更供审核。",
-      "url": "https://www.producthunt.com/products/viktor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/PN7G3CJSNEP2H7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/781b4ad2-6e39-43e7-a8f2-adc284bebd7a.png?auto=format",
-      "votes_count": 187,
+      "id": "1323240",
+      "name": "Airbot",
+      "name_zh": "Airbot",
+      "tagline_zh": "会先给你发消息的 AI 幕僚长",
+      "description_zh": "多数 AI 助手等你提问；Airbot 会查看邮件、Slack、日历和 CRM 中的对话、会议与客户更新，再挑出它认为重要的事项。它还会准备回复草稿、会议简报、预约或 CRM 修改，供你在 WhatsApp 或 iMessage 中批准，帮助创始人和精简团队少盯通知。",
+      "intro_zh": "面向创始人和精简团队，汇总分散的工作更新、准备待办，再让你在 WhatsApp 或 iMessage 中批准。",
+      "url": "https://www.producthunt.com/products/airbots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/EGSFSGAVXJ7PGU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/e36c237d-d67d-4b63-88d9-56b0c331013c.jpeg?auto=format",
+      "votes_count": 294,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "目标到任务和代码审查的用途明确，但实际效果未经验证。"
+          "reason": "目标用户、信息来源和待办处理方式说得清楚，但实际能否减少漏看仍待验证。"
         },
         "technical_insight": {
-          "score": 4,
-          "reason": "把业务背景转成正确的技术任务很有挑战，具体实现信息不足。"
+          "score": 3,
+          "reason": "跨应用汇总并准备可批准的操作有具体技术难点，资料未说明实现方式。"
         },
         "transferability": {
-          "score": 3,
-          "reason": "“先描述结果”和团队共享项目可借鉴，但适用条件未说明。"
+          "score": 4,
+          "reason": "“主动挑重点、附上可审阅的下一步”可借鉴，但适用效果取决于信息准确度和用户信任。"
         }
       },
       "product_analysis": {
-        "target_problem": "需要把业务目标推进到开发工作的团队可能会用到它。原本要先把目标整理成工单，再协调技术任务和其他工作。",
-        "workflow": "用户给出业务目标；Viktor 将工作拆成技术和非技术部分，在 GitHub、GitLab 或 Bitbucket 仓库创建拉取请求，再交给团队审核。项目可在 Slack、Teams 或 Discord 中共享。",
-        "ai_value": "介绍没有说明 AI 或模型细节。它明确称能结合客户、指标和决策背景拆分业务目标，并创建代码变更供审核。",
-        "differentiation": "它把输入从具体工单改为业务结果，并尝试覆盖代码和非技术工作。最可能的阻碍是团队不确定它如何获得准确的公司背景。"
+        "target_problem": "创始人和精简团队的客户消息、会议和进展散落在多个工具里，容易被通知淹没，也要自己找出哪些事该先处理。",
+        "workflow": "Airbot 查看邮件、Slack、日历和 CRM 的更新，整理出优先事项并准备回复、会议简报、预约或 CRM 修改；用户在 WhatsApp 或 iMessage 中批准。",
+        "ai_value": "AI 助手负责挑出它认为重要的更新，并准备对应的草稿或操作。资料没有说明它如何判断优先级。",
+        "differentiation": "以前需要自己留意不同工具里的更新；现在可以先收到整理好的重点和待处理内容。最可能的阻碍是用户不确定它有没有漏掉重要事项，或准备的操作是否可靠。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍提到可在 GitHub、GitLab、Bitbucket 创建拉取请求，并在 Slack、Teams、Discord 中共享项目；没有说明具体技术。",
-        "possible_approach": "如果自己做，可以先收集业务目标和相关背景，再把目标拆成技术与非技术任务；接着让代码工具按任务修改仓库并生成拉取请求，交给人审核。",
-        "tradeoffs": "最难的是把模糊目标拆对并选中相关代码；如果方向错了，团队会收到解决错问题的拉取请求，还得重新解释需求。",
-        "unknowns": "它如何获取并更新客户、指标和决策信息，介绍没有说明。"
+        "disclosed_facts": "介绍提到它查看邮件、Slack、日历和 CRM，并在 WhatsApp 或 iMessage 中提供待批准的内容；介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先汇总各工具的更新，再按客户和时间整理，找出优先事项并生成草稿；最后把内容发到聊天工具供人批准。难点是认准同一客户的最新信息，否则草稿或操作可能依据过时内容。",
+        "tradeoffs": "最容易出错的是把不同来源的消息归到错误客户，或漏掉较新的进展；用户可能因此批准错误的回复、预约或 CRM 修改。",
+        "unknowns": "它用什么标准判断一条更新是否重要？"
       },
       "transferable_insights": [
-        "做面向团队的开发工具时，可以先让用户描述要达成的业务结果，再协助整理成技术和非技术任务。",
-        "做跨职能项目工具时，可让项目直接出现在团队常用的聊天平台中，方便共同查看。"
+        "做需要处理大量更新的产品时，可以先呈现少量优先事项，并附上可审阅的下一步；适合用户需要快速决定、但不宜让系统直接代办的场景。"
       ],
       "validation_questions": [
-        "给它一个真实业务目标和背景，检查拆出的技术与非技术任务是否贴合团队判断。",
-        "连接测试仓库后，检查生成的拉取请求是否修改了相关代码，并能否让团队顺利审核。"
+        "给它一组包含紧急客户消息和普通更新的真实样本，检查它是否把紧急事项排在前面。",
+        "检查回复、预约或 CRM 修改是否在批准前清楚展示内容，并且只有批准后才执行。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把重点消息和待办放到用户常用的聊天工具里，可能减少来回查看多个应用；但优先级判断是否可靠，资料没有说明。"
+    },
+    {
+      "id": "1329327",
+      "name": "Canva MCP",
+      "name_zh": "Canva MCP",
+      "tagline_zh": "让 AI 智能体调用 Canva 的创作工具",
+      "description_zh": "Canva MCP 向 AI 智能体和开发者开放 Canva 的创作工具。它可生成可编辑的设计、图片和视频，移除背景、调整尺寸，并自动处理符合品牌风格的创作流程。",
+      "intro_zh": "面向使用 AI 智能体和 Canva 的团队与开发者，让智能体调用设计工具生成、修改视觉素材。",
+      "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/R2X5P4ZWZ37ZCY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/475e55f8-fdbe-46be-9eda-566b178e6ebf.gif?auto=format",
+      "votes_count": 183,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "介绍列出创作和素材处理任务，但未说明实际使用效果。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "开放创作工具供智能体调用值得借鉴，具体调用流程尚不清楚。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "可借鉴把常用设计操作做成智能体能调用的工具。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "使用 AI 智能体做营销、内容或品牌设计的团队和开发者，可能需要把生成、改尺寸、去背景等创作操作接入自动化流程。手动在智能体和设计工具间衔接可能增加操作。",
+        "workflow": "介绍称可通过 MCP、REST API 或 CLI 使用 Canva 创作工具，完成设计、图片和视频生成、去背景、调整尺寸及品牌化流程自动化；没有说明具体输入和操作顺序。",
+        "ai_value": "它让 AI 智能体调用 Canva 的创作工具。介绍未说明 AI 如何生成设计，也未说明哪些步骤由 Canva 或智能体完成。",
+        "differentiation": "重点是让智能体接入 Canva 的设计操作，减少自动化流程中人工处理素材的需要。最可能的阻碍是接入和配置是否足够简单，介绍没有提供细节。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍明确提到 MCP（让智能体调用外部工具的连接方式）、REST API（软件间传数据的接口）和 CLI（命令行工具），未说明内部实现。",
+        "possible_approach": "如果自己做，可以先把生成、去背景和改尺寸定义成可调用的操作，再用 MCP 或接口接入智能体，并让操作结果返回给用户编辑。这里是实现思路，非官方方案。",
+        "tradeoffs": "最容易出错的是设计结果不符合用户的品牌要求；用户可能还得手动调整颜色、字体或版式，自动化就省不了多少事。",
+        "unknowns": "介绍没有说明哪些智能体能连接，以及用户如何授权 Canva 账号。"
+      },
+      "transferable_insights": [
+        "做内容或营销产品时，可以把去背景、改尺寸等重复操作做成智能体可调用的工具，适合已有明确素材处理流程的团队。"
+      ],
+      "validation_questions": [
+        "智能体生成的设计能否在 Canva 中继续编辑，而非只能拿到扁平图片？",
+        "给出品牌素材和风格要求后，生成结果是否仍需大量人工修改？"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把 Canva 的创作操作开放给智能体，可能省去流程中的手动素材处理；但接入方式和生成结果是否便于继续编辑，仍需确认。"
+    },
+    {
+      "id": "1328447",
+      "name": "Snag by Parallel",
+      "name_zh": "Snag by Parallel",
+      "tagline_zh": "比较你向智能助手询问过的商品价格",
+      "description_zh": "它把你向 ChatGPT、Claude 等助手询问过的商品整理成愿望清单，支持一键导入、匹配商品并比较多家商店的价格。清单按优惠程度排序，价格对照标价评分，也可通过链接分享；产品称免费，并由 Parallel Shopping API 和 Parallel Images API 提供支持。",
+      "intro_zh": "面向常用聊天助手找商品的人，把对话里提过的商品整理成清单并比较商店价格。",
+      "url": "https://www.producthunt.com/products/snag?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MANSMUJQCJ47AN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/mcp-draft-media/acf972ed-c889-4678-bc91-ed52b0b840a4.jpeg?auto=format",
+      "votes_count": 142,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "整理商品和逐店比价的麻烦说得清楚，实际匹配与价格质量尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "提到商品匹配和两类 API，但没说明匹配规则或出错时如何处理。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "把对话内容转成可排序、可分享清单的做法具体，适用于购物收藏场景。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "常在 ChatGPT、Claude 等助手里问商品的人，之后还要整理商品并逐店比价；Snag 把这些商品归成清单。",
+        "workflow": "一键导入对话形成的愿望清单；它匹配商品、查询多店价格，按优惠排序，并可生成分享链接。",
+        "ai_value": "介绍没说明 Snag 用 AI；明确的工作是整理清单、匹配商品和比较价格。",
+        "differentiation": "把商品整理、查价和排序放在一处；若匹配错型号，低价结果反而会误导，这是最可能的换用顾虑。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称使用 Parallel Shopping API 和 Parallel Images API；API 是软件交换数据的连接方式。",
+        "possible_approach": "如果自己做，可以先从导入内容里整理商品名称和规格，再匹配具体商品，查询多店价格并按优惠排序。",
+        "tradeoffs": "最容易错在商品匹配：同名不同型号或规格被当成一款，价格比较就会误导用户。",
+        "unknowns": "介绍没说明覆盖哪些商店；这会直接影响用户能否在清单里找到常用购买渠道。"
+      },
+      "transferable_insights": [
+        "做购物收藏功能时，可以把对话中提到的商品汇成清单，再按优惠排序并生成分享链接。"
+      ],
+      "validation_questions": [
+        "导入一段提到不同型号的对话，检查清单是否保留了准确型号。",
+        "抽查一个商品，核对展示价格和标价是否与商店页面一致。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "它能把聊天里提过的商品集中比较；判断实用性前，我会先确认常用商店是否在覆盖范围内。"
+    },
+    {
+      "id": "1329892",
+      "name": "Omi X 2.0",
+      "name_zh": "Omi X 2.0",
+      "tagline_zh": "用 Omi 构建产品，让创意上线运行。",
+      "description_zh": "Omi X 2.0 是适用于 Mac 和 Windows 的桌面应用，可在用户自己的 Google Cloud 和 Firebase 上构建 AI SaaS。新版支持点击运行中的应用提出修改、导入现有 Next.js 项目并由 Omi 测试、构建和部署；新项目从经过测试的起始模板开始，免费计划无需绑卡，构建功能每月 29 美元起。",
+      "intro_zh": "给想搭建或迭代 AI SaaS 的产品和开发者，用桌面应用从模板起步或导入 Next.js 项目，再修改并部署。",
+      "url": "https://www.producthunt.com/products/omi-x?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Z3QZI4LDUROIBE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/6314b9e4-81eb-46c5-b871-cd80e7bc6f3a/38ffa454198ecfd0befed95a39d5cf662dfd916c88d18510a4b700462dd52934.png?auto=format",
+      "votes_count": 98,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "目标用户和从建项目到部署的用途清楚，但实际节省多少工作尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "点选页面后要准确找到对应代码是关键难点，具体实现和测试范围未说明。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "页面点选修改和新项目模板两种做法都能借鉴，适用范围仍需验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "介绍没有交代用户原先怎么做。它面向想从零搭建 AI SaaS，或要继续修改和部署 Next.js 项目的人，试图减少处理页面修改与发布的工作。",
+        "workflow": "新项目从经过测试的起始模板开始；已有项目可导入 Next.js 应用。用户点击运行中应用的一处并说明修改要求；对导入的项目，介绍称 Omi 会测试、构建和部署。",
+        "ai_value": "介绍把它定位为搭建 AI SaaS 的工具，并支持用文字提出页面修改；但没说明 AI 具体负责哪些代码工作，或如何生成改动。",
+        "differentiation": "点选页面目标再描述修改，可能省去手动寻找对应代码的步骤。最需要确认的是改动能否审查和回滚，否则团队难放心用于现有项目。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "这是支持 Mac 和 Windows 的桌面应用，可在用户自己的 Google Cloud 和 Firebase 上构建；支持导入 Next.js 项目，Omi 会测试、构建和部署。",
+        "possible_approach": "如果自己做，可以先把页面点击定位到对应代码，再把文字要求变成修改；随后运行测试和构建，并部署到用户自己的云项目。难点是找对代码，避免改坏原有功能。",
+        "tradeoffs": "最容易出错的是把点击位置对应到正确代码；改错后可能影响原页面功能，用户还得排查和恢复。",
+        "unknowns": "介绍没说改动能否逐项审查和回滚，团队因此难判断出错后如何接管项目。"
+      },
+      "transferable_insights": [
+        "做网页编辑工具时，可让用户点选运行中的页面再描述修改，适合目标容易在界面上指出的场景。",
+        "做开发工具时，可同时提供经过测试的起始模板和导入现有项目入口，照顾从零试做与接手旧项目两种需求。"
+      ],
+      "validation_questions": [
+        "导入一个已有 Next.js 项目，要求修改一个页面，检查是否改对位置且没有影响相邻功能。",
+        "部署到自己的 Google Cloud 或 Firebase 后，检查能否看清改动并恢复到上一版本。"
       ],
       "category": "开发工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "从业务目标直接生成待审代码变更，可能减少需求整理工作；但它如何掌握并保持公司背景准确，仍是判断关键。"
+      "overall_reason": "点选页面并用文字提出修改，可能省去寻找代码位置的步骤；但改动能否审查和回滚，决定了团队能否放心用于现有项目。"
     },
     {
-      "id": "1327369",
-      "name": "Clam AI",
-      "name_zh": "Clam AI",
-      "tagline_zh": "让 AI 代理在受限权限下使用你的收件箱",
-      "description_zh": "收件箱里可能有密码重置、银行提醒和健康报告等信息。Clam 让 AI 代理按用户用日常语言写下的规则处理邮件，并展示它尝试的操作。",
-      "intro_zh": "面向想让 AI 代理处理邮件、又不愿交出整个邮箱权限的人；用文字规定代理能读什么、能做什么。",
-      "url": "https://www.producthunt.com/products/clam-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/Y4C2MX2E5DS3E5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/04adf431-7497-4918-b694-386ba5e23cd5.jpeg?auto=format",
-      "votes_count": 184,
+      "id": "1323229",
+      "name": "RelayRunner",
+      "name_zh": "RelayRunner",
+      "tagline_zh": "按需切换持续集成运行器，无需改工作流代码。",
+      "description_zh": "RelayRunner 为现有 CI 运行器提供路由，可同时使用多个服务商或自托管选项。它按你设置的顺序，把每个 GitHub Actions 任务交给第一个空闲的运行器；可随时调整顺序，并提供开源项目、Mac 应用和命令行工具，让机器按需充当运行器。",
+      "intro_zh": "给使用 GitHub Actions 的开发团队，按优先顺序把任务分配给自有机器、自托管运行器或外部服务。",
+      "url": "https://www.producthunt.com/products/relayrunner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/WNBSVSS2YZDUYO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/9df65db8-04ca-46d3-8804-8cb13c90ad82/932bb59b74999388d838ac3c8b842b0847290cce898ac1314545b1599015df1a.jpeg?auto=format",
+      "votes_count": 93,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "目标问题和权限控制方式说得清楚，但实际使用效果未验证。"
+          "reason": "目标用户和免改工作流调整运行器的用途说得清楚，但没有实际效果数据。"
         },
         "technical_insight": {
-          "score": 4,
-          "reason": "按邮件内容和请求上下文判断权限有明确难点，具体实现未说明。"
+          "score": 3,
+          "reason": "说明了按顺序选空闲运行器，未交代运行器状态检测和故障处理方式。"
         },
         "transferability": {
           "score": 4,
-          "reason": "按代理设定读写范围并展示操作记录，能借鉴到其他敏感数据工具。"
+          "reason": "可配置优先顺序并自动选择空闲资源，适合借鉴到其他任务分配场景。"
         }
       },
       "product_analysis": {
-        "target_problem": "想让 AI 代理处理邮件的人，可能担心代理获得整个邮箱的访问权；邮箱里还可能有银行和健康信息。",
-        "workflow": "用户用英文写下规则，例如允许读取旅行邮件、起草回复但禁止发送。代理按规则处理 Gmail 邮件，用户能查看它尝试的操作；介绍未说明连接和配置步骤。",
-        "ai_value": "AI 代理负责处理邮件，Clam 按规则限制它能看什么、能做什么。介绍称权限层会理解数据含义和请求上下文，但没说明具体由什么来判断。",
-        "differentiation": "用户可以按规则限制代理，而不必把整个邮箱访问权交给它。产品目前从 Gmail 开始，使用其他邮箱的人可能无法直接采用。"
+        "target_problem": "需要混用不同 CI 运行器的团队会遇到选择和切换问题。如果原先靠工作流指定运行器，换目标时可能需要改工作流；RelayRunner称可按预设顺序分配而不改工作流。",
+        "workflow": "把自有 Mac、自托管运行器、GitHub 默认运行器或 Blacksmith、Boat 等选作候选项并排好顺序。GitHub Actions 任务到来时，RelayRunner 将它交给顺序中第一个空闲的运行器；用户可调整顺序。",
+        "ai_value": "介绍没提 AI，主要靠按顺序挑选空闲运行器来分配任务。",
+        "differentiation": "它省去为调整运行器顺序而修改工作流的步骤。团队若依赖特定系统环境，任务换到另一台机器后可能遇到兼容问题。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍提到 Gmail、用自然语言设定代理权限并查看其尝试行为；还称正在为 MCP（让 AI 应用连接工具的协议）构建理解数据含义和请求上下文的权限层。",
-        "possible_approach": "如果自己做，可以先把自然语言规则整理成明确的读写权限，再在代理每次请求邮件前检查权限和邮件内容，并记录处理结果。难点是稳定执行“可以起草、不能发送”这类限制。",
-        "tradeoffs": "最容易出错的是判断请求是否违背规则；若把“只起草”误判成允许发送，邮件可能被直接发出。",
-        "unknowns": "规则判断不确定时，系统会默认拒绝操作还是放行？"
+        "disclosed_facts": "介绍称它是现有 CI 运行器的路由器，支持 GitHub Actions，并提供开源项目、Mac 应用和命令行工具。",
+        "possible_approach": "如果自己做，可以先让用户登记运行器并设置优先顺序，再在任务到来时检查哪些运行器空闲并派给第一个可用项。难点是状态判断要及时，否则任务可能交给已离线的机器。",
+        "tradeoffs": "不同运行器的操作系统和已装工具可能不一致。同一任务换到另一台机器后，可能因环境差异而失败。",
+        "unknowns": "运行器离线或无法接单时，它会跳过该运行器继续分配，还是让任务等待？"
       },
       "transferable_insights": [
-        "做企业文档 AI 助手时，可以为每个助手分别设定可读范围和可执行动作，并向管理员展示它尝试过的操作。"
+        "做构建任务或批处理调度时，可让用户设置资源优先顺序，再自动选择第一个空闲资源；适用于资源类型可互换的任务。"
       ],
       "validation_questions": [
-        "设置“只起草、不能发送”后，要求代理发送一封测试邮件，确认发送操作确实被拦截。",
-        "检查操作记录是否同时显示被允许和被拒绝的尝试。"
+        "把两个运行器设为不同优先级并同时保持空闲，任务是否会交给排在前面的那个？",
+        "让优先级最高的运行器离线，任务是否会转交给下一台可用运行器？"
+      ],
+      "category": "开发工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "按顺序分配空闲运行器，可能省去为切换运行目标而改工作流；但离线运行器的处理方式尚不清楚。"
+    },
+    {
+      "id": "1329956",
+      "name": "Hiring Right Now",
+      "name_zh": "Hiring Right Now",
+      "tagline_zh": "哪些初创公司会聘用你？",
+      "description_zh": "粘贴 LinkedIn 资料后，Backdoor 会读取你的工作经历，搜索正在成长的初创公司。它会列出匹配的公司、可联系的创始人和邮件内容；产品称免费、无需注册，约两分钟可完成。",
+      "intro_zh": "面向想找初创公司机会的求职者：粘贴 LinkedIn 资料，获取匹配公司、创始人和联系邮件。",
+      "url": "https://www.producthunt.com/products/hiring-right-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/PX2A4HLUDBWHZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/146d4ae5-c9db-4b6a-858d-96e0ee233166.png?auto=format",
+      "votes_count": 199,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "用途和要省的搜集、写信步骤说得清楚，但匹配效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "公司与创始人信息是否准确及时会影响结果，具体实现没有说明。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把匹配对象、联系人和联系邮件一起呈现的做法明确，数据来源仍待确认。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想找初创公司工作的求职者，可能要分别筛公司、找创始人并起草联系邮件。它试图把这些信息放在同一份结果里。",
+        "workflow": "粘贴 LinkedIn 资料；工具读取工作经历并搜索成长型初创公司；用户查看匹配公司、创始人和可发送的邮件内容。",
+        "ai_value": "介绍没提 AI；它描述的是读取工作经历、搜索公司并提供联系人和邮件。",
+        "differentiation": "相较于分别搜公司、找联系人和写邮件，它把这些步骤合并呈现。最可能让人犹豫的是要提交职业资料，而介绍没说明资料如何保存或删除。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术。",
+        "possible_approach": "如果自己做，可以先从履历提取经历和技能，再与初创公司信息匹配，最后补上创始人和联系邮件。关键是找到可靠且及时更新的公司与联系人资料。",
+        "tradeoffs": "公司或创始人信息过期时，用户可能把邮件发给错误的人，或联系已经不合适的公司。",
+        "unknowns": "公司和创始人信息来自哪里、多久更新一次？"
+      },
+      "transferable_insights": [
+        "做求职线索工具时，可以把匹配公司、关键联系人和联系邮件一起呈现，减少用户在搜索与写作间来回切换。"
+      ],
+      "validation_questions": [
+        "粘贴不同经历的 LinkedIn 资料后，推荐的公司是否确实符合求职者背景？",
+        "抽查推荐结果，创始人和邮件信息是否仍然有效？"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它把找公司、找联系人和起草邮件放在一次查询里；但公司与创始人资料是否准确及时仍不清楚。"
+    },
+    {
+      "id": "1329543",
+      "name": "Fompi",
+      "name_zh": "Fompi",
+      "tagline_zh": "会指出风险的个人安全与隐私助手",
+      "description_zh": "Fompi 会在浏览器和 Mac 后台运行，在发现诈骗网页、钓鱼邮件或伪装下载等情况时提醒你。它也会提示通话中的 AI 记录工具、正在使用麦克风的应用，以及可能发往 AI 聊天的银行卡号，并解释原因；可免费开始使用。",
+      "intro_zh": "面向想留意上网和 Mac 隐私风险的人，在可疑页面、邮件或应用行为出现时提醒并说明原因。",
+      "url": "https://www.producthunt.com/products/fompi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/FAN6OQRRZPVGJU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/b333ee37-7719-403d-bd83-d62732227362.png?auto=format",
+      "votes_count": 126,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "覆盖了多种具体风险场景，但提醒效果尚未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "风险识别准确度和权限范围值得关注，具体技术信息缺失。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "“出现风险时解释原因”的做法明确，但实际效果未知。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "浏览网页、收邮件、下载文件或开会的 Mac 用户，可能需要留意不同场景里的诈骗和隐私风险；风险分散在网页、邮件和系统应用中，不容易一处查看。",
+        "workflow": "Fompi 在浏览器和 Mac 后台运行；发现介绍列出的风险时发出提醒，并说明原因。资料没有提到安装后的具体设置步骤。",
+        "ai_value": "介绍没说 Fompi 自己使用 AI；它把通话中的 AI 记录工具，以及可能发给 AI 聊天的银行卡号，列为提醒场景。",
+        "differentiation": "它把网页、邮件、下载和 Mac 上的隐私提醒放在一个工具里，并解释触发原因。最可能的顾虑是它需要查看哪些浏览器或系统活动，资料没有说明授权范围。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍没说具体用什么技术；只说它在浏览器和 Mac 后台运行，并在列出的风险出现时提醒、解释原因。",
+        "possible_approach": "如果自己做，可以先整理网页、邮件、下载和应用行为中的风险信号，再在对应场景显示警告和原因；先从少数高风险场景做起。",
+        "tradeoffs": "最难的是区分真实风险和正常行为；误报太多会打断用户，也可能让人忽略之后的提醒。",
+        "unknowns": "它需要哪些浏览器和 Mac 权限，资料没有说明。"
+      },
+      "transferable_insights": [
+        "做浏览器或系统安全工具时，可以在风险出现的场景直接提醒，并用一句话说明触发原因。"
+      ],
+      "validation_questions": [
+        "已知的钓鱼邮件会不会触发提醒，正常邮件会不会被误报？",
+        "安装后需要哪些浏览器和 Mac 权限，每项用途是否说清楚？"
       ],
       "category": "安全隐私",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "把代理能读和能做的事写成具体规则，有助于限制邮件访问；但规则判断失误时如何兜底仍不清楚。"
-    },
-    {
-      "id": "1327242",
-      "name": "SparrowDesk Phone Calls",
-      "name_zh": "SparrowDesk Phone Calls",
-      "tagline_zh": "在邮件、聊天和 WhatsApp 共用的收件箱里接听电话",
-      "description_zh": "它把电话支持放进帮助台，与邮件、聊天和 WhatsApp 共用收件箱。用户可购买 51 个国家的号码，用可视化语音菜单或 AI 坐席分流来电，并在浏览器接听；通话会录音、转写并按工单处理，费用从预付语音余额中按量扣除。",
-      "intro_zh": "给使用帮助台处理客户支持的团队，把电话接入同一收件箱，并将通话作为工单处理。",
-      "url": "https://www.producthunt.com/products/sparrowdesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/5EBF7WFUTOT75F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/8c66f381-036b-42c8-b921-2b7031a2f14f.jpeg?auto=format",
-      "votes_count": 156,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "用途和统一处理电话与其他支持渠道的做法明确，但实际省时程度未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "涉及来电分流、录音转写和工单处理，具体实现与准确度没有说明。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把不同支持渠道放进同一收件箱处理，是可借鉴的具体做法。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "适合在帮助台处理客户问题、也需要电话支持的团队。电话、邮件和聊天若分开处理，客服可能要在不同入口间切换；介绍没有说明用户原先具体怎么做。",
-        "workflow": "来电进入帮助台，可由可视化语音菜单或 AI 坐席分流；客服在浏览器接听。通话随后录音、转写，并按工单处理。",
-        "ai_value": "AI 坐席可用于分流来电。介绍没有说明它会回答哪些问题，或何时转给人工。",
-        "differentiation": "电话与邮件、聊天、WhatsApp 共用收件箱，减少在多个支持入口间切换。最可能让团队犹豫的是按量付费的总费用是否容易预估。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍提到 51 个国家的号码、可视化语音菜单或 AI 坐席、浏览器接听，以及通话录音、转写和工单处理；未说明具体技术实现。",
-        "possible_approach": "如果自己做，可以先接入电话并把来电显示在帮助台，再保存录音、生成文字并关联到工单。最后让客服在同一处查看通话和其他支持消息。",
-        "tradeoffs": "最容易出错的是把通话关联到正确客户或工单；关联错了，客服可能看不到相关上下文，或把记录放到错误的问题下。",
-        "unknowns": "介绍没有说明能否接入团队现用的帮助台；这会决定是否需要迁移或更换工作入口。"
-      },
-      "transferable_insights": [
-        "做多渠道客服产品时，可以让电话记录和文字消息进入同一收件箱，并按同一套工单方式跟进。"
-      ],
-      "validation_questions": [
-        "接通一通测试来电，检查录音和转写能否出现在对应工单中。",
-        "查看预付语音余额的扣费规则，估算团队常见通话量下的月度费用。"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "把电话通话转写并作为工单处理，能让客服在帮助台里跟进；但帮助台兼容情况和按量费用都还不清楚。"
-    },
-    {
-      "id": "1328270",
-      "name": "tday.com",
-      "name_zh": "tday.com",
-      "tagline_zh": "类似 Screen Studio 的 AI 录制、可编辑演示视频",
-      "description_zh": "多数功能发布时没有演示视频；制作一段通常要花数小时写脚本、录制、重录、配音和剪辑。通过 Claude Code、Cursor 或 Codex 用一句话请求演示，编码代理会在本机（包括 localhost）录制真实应用，tday 添加旁白、光标、缩放、字幕和品牌元素；旁白可逐句修改，成片可用于发布、文档或更新日志，支持网页、桌面、终端、iPhone 和 Android 应用，免费保存 5 个演示。",
-      "intro_zh": "面向要发布产品更新的开发者：用编码代理录下本机应用，生成可修改旁白的演示视频。",
-      "url": "https://www.producthunt.com/products/tday?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/XR4BWOLUZFCM5O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/760f5caa-bb95-4e03-a33f-dd3ee8ccdba5.jpeg?auto=format",
-      "votes_count": 121,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "目标用户和制作演示视频的耗时步骤都说得清楚，但省时效果没有实测数据。"
-        },
-        "technical_insight": {
-          "score": 4,
-          "reason": "本机录制和代理操作真实应用带来具体实现难点，但录制原理未披露。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把真实产品操作录屏复用于发布说明和文档，是可借鉴的具体做法。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "需要发布功能、写文档或更新日志的开发者，可能要花时间准备脚本、录屏、重录、配音和剪辑。产品简介称，多数功能发布时没有演示视频。",
-        "workflow": "用 Claude Code、Cursor 或 Codex 提出一句话录制请求；编码代理在本机录制真实应用，包含 localhost。tday 添加旁白、光标、缩放、字幕和品牌元素，用户可修改旁白，再用于发布、文档或更新日志。",
-        "ai_value": "AI/编码代理负责根据一句话请求录制真实应用；tday负责添加旁白等呈现元素。介绍没有说旁白是否由 AI 生成。",
-        "differentiation": "相较自行写脚本、录制、重录和剪辑，它把请求简化为一句话，并整理出可编辑的演示；可能的阻力是用户要信任代理操作本机应用。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称编码代理会在本机（包括 localhost）录制，代码留在本机；未说明具体录制技术。",
-        "possible_approach": "如果自己做，可以先把一句话转成操作步骤，再在本机启动应用并录屏，最后加上旁白、光标、缩放和字幕。难点是让操作步骤适配不同应用和设备。",
-        "tradeoffs": "最容易出错的是代理操作应用的步骤：如果页面状态或操作顺序不对，视频就会展示错误流程，后续改旁白也无法修正画面。",
-        "unknowns": "代码留在本机不代表录屏或成片也留在本机；介绍没说明这些内容是否上传、存在哪里。"
-      },
-      "transferable_insights": [
-        "做开发者文档或更新公告时，可把同一段准确的产品操作录屏复用于多个场景，减少重复制作。"
-      ],
-      "validation_questions": [
-        "给代理一个简单的功能演示请求，核对实际录下的操作顺序和页面状态是否正确。",
-        "检查录制和生成成片时的网络传输，确认代码、画面和旁白分别会不会离开本机。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "一句话请求后可得到能复用的真实应用演示，最影响判断的是录制画面和旁白是否会上传。"
-    },
-    {
-      "id": "1320041",
-      "name": "distribution.dev",
-      "name_zh": "distribution.dev",
-      "tagline_zh": "用一场广告活动，在多个网站向开发者投放广告",
-      "description_zh": "任何人都能做出产品，因此难点变成让人看到它。distribution.dev 是面向开发者的广告网络，由 daily.dev 和 DEV（dev.to）的出版方建立；广告主设置一次活动，广告便可同时投放到多个开发者网站，并调整为适合各站的样式。",
-      "intro_zh": "给想触达开发者的广告主用，一次设置广告活动，就能在多个开发者网站投放。",
-      "url": "https://www.producthunt.com/products/distribution-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/FLP2CUVR6YHJZC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/1cdfb3bf-2554-4e80-b976-5a4b92e589d7/ade5c1b82dd9cbbe1f8d6e01c7b4c3a24f4e08f107a079956678c8bfe1232ac7.jpeg?auto=format",
-      "votes_count": 293,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "目标受众和减少重复设置的好处明确，但覆盖范围与投放效果没有数据。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "多站点适配是具体难点，但资料没有说明实现方式或控制能力。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "一次设置、多站展示的做法可借鉴，适用效果仍取决于站点覆盖。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "想把产品推广给开发者的广告主会需要它。分别在多个开发者网站安排广告，可能要重复处理投放设置。",
-        "workflow": "广告主设置一场活动，广告随后在多个开发者网站投放，并适配各站的展示样式。资料没有说明具体设置项。",
-        "ai_value": "介绍没提 AI，主要靠把多个开发者网站的广告投放合并到一场活动里来减少重复设置。",
-        "differentiation": "它把多站投放合并为一次设置。若覆盖的网站或受众不符合广告主的目标，省下设置时间也未必有用。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称该广告网络由 daily.dev 和 DEV（dev.to）的出版方建立，可在多个开发者网站投放适配各站样式的广告；未说明具体技术。",
-        "possible_approach": "如果自己做，可以先统一活动和广告素材，再让各站按自己的版式展示；关键是适配后仍保留广告原意。",
-        "tradeoffs": "最容易出错的是各站展示适配：版式变化若影响广告信息，用户看到的内容可能不完整或难以理解。",
-        "unknowns": "资料没有列出具体覆盖哪些网站，广告主难判断是否能触达目标开发者。"
-      },
-      "transferable_insights": [
-        "做面向多个内容社区的推广产品时，可以把重复的站点设置合并成一次活动，再由各站适配展示样式。"
-      ],
-      "validation_questions": [
-        "创建一场活动后，实际会在哪些开发者网站展示？",
-        "查看广告在不同网站上的展示，核心文案和行动入口是否都清楚？"
-      ],
-      "category": "金融商业",
       "overall_suggestion": "值得参考",
-      "overall_reason": "一次活动覆盖多个开发者网站，能减少分头设置；但实际覆盖的站点尚不清楚，难判断受众是否匹配。"
+      "overall_reason": "它能在多个使用场景提示风险并解释原因；最大疑问是需要读取哪些浏览器或系统活动，这会影响用户是否愿意授权。"
     },
     {
-      "id": "1328257",
-      "name": "Claude Ship",
-      "name_zh": "Claude Ship",
-      "tagline_zh": "写完代码后尽快推进交付",
-      "description_zh": "Claude Ship 会审查、修复并批准拉取请求（PR），把 PR 从创建推进到可合并；代码审查会发布问题，并称这些发现经过核实，测试版 PR Steward 可处理 CI 失败、冲突和审查意见，但不会合并。测试版 Claude Approvals 按团队规则文件批准常规改动，其余交给人工；在 Claude Code 中运行 /ship 可推送代码、创建 PR 并交接，面向 GitHub 上的 Claude Team 与 Enterprise。",
-      "intro_zh": "面向在 GitHub 上协作的 Claude Team 与 Enterprise 团队，用 Claude Code 推送代码、开 PR，并处理审查与修复。",
-      "url": "https://www.producthunt.com/products/claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/3ENQV4OYKF2LDA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/f18ee99f-e500-472a-b154-006dd93b0014/add57b902eaf68e592a85f60d8f4a1a85b0d7496b4f51c2953e036b95069d591.png?auto=format",
-      "votes_count": 153,
+      "id": "1328887",
+      "name": "Koed",
+      "name_zh": "Koed",
+      "tagline_zh": "为编码代理补充项目上下文",
+      "description_zh": "Koed 为每个编码项目配一个可定制的助手 Kin，记住工作偏好、已做决定和尝试过的方法，并据此为 Claude Code、Codex 和 Pi 提供指导。产品称它在设备本地运行、免费且开源；目前面向个人开发者，更多代理集成、可选云端处理和团队共享计划稍后推出。",
+      "intro_zh": "面向使用编码代理的个人开发者，为每个项目记住偏好、决定和尝试记录，再给代理提供项目相关指导。",
+      "url": "https://www.producthunt.com/products/koed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/RNK2UCV5BQK2TR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/f0eb5c10-f483-45ed-950b-0868f5064340.png?auto=format",
+      "votes_count": 111,
       "scores": {
         "product_value": {
-          "score": 4,
-          "reason": "明确列出 PR 审查、修复和审批环节，但实际省时效果没有验证。"
+          "score": 3,
+          "reason": "目标问题和解决方式清楚，但节省时间或 token 的幅度没有验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "自动审批的规则边界值得检查，但实现细节和准确性未知。"
+          "reason": "项目记忆是否准确、及时是关键难点，具体实现信息不足。"
         },
         "transferability": {
-          "score": 3,
-          "reason": "把审查、修复和审批分开处理的做法具体，但适用效果待验证。"
+          "score": 4,
+          "reason": "按项目保存偏好、决策和尝试记录，可借鉴到其他项目助手。"
         }
       },
       "product_analysis": {
-        "target_problem": "适合希望把 PR 推进到可合并状态的开发团队。PR 创建后还要处理审查意见、CI 失败、冲突和审批；介绍没有说明团队现在如何分工。",
-        "workflow": "在 Claude Code 中运行 /ship，工具推送代码、创建 PR 并交接。之后，代码审查发布问题，PR Steward 处理 CI 失败、冲突和审查意见；Claude Approvals 按规则批准常规改动，其余交给人工。",
-        "ai_value": "介绍没有说明 AI 具体参与哪些判断，只列出代码审查、修复和按规则审批等自动处理功能。",
-        "differentiation": "它把审查、修复和审批放进同一套 PR 处理流程，减少逐项跟进；团队是否愿意授权自动审批，可能是最主要的顾虑。"
+        "target_problem": "使用编码代理的个人开发者，可能需要反复补充项目背景、偏好和已尝试过的方法。项目多时，这些信息也容易混在一起。",
+        "workflow": "每个编码项目对应一个可定制的 Kin。Kin 记住工作偏好、项目决定和尝试记录，再为 Claude Code、Codex 或 Pi 提供相关指导；具体设置步骤未说明。",
+        "ai_value": "介绍称 Kin 会根据项目上下文推理并指导编码代理，但没有说明具体用了什么模型。",
+        "differentiation": "它把项目记忆放在代理之外，供不同编码代理参考。最可能的顾虑是记忆过时后，指导会沿用旧决定。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍明确说可在 Claude Code 中运行 /ship 推送代码并创建 PR，供 GitHub 上的 Claude Team 和 Enterprise 使用；没有说明实现技术。",
-        "possible_approach": "如果自己做，可以先让开发环境推送代码并创建 PR，再分别安排问题检查、CI 和冲突修复；最后按团队规则处理常规审批，规则不明确时交给人工。",
-        "tradeoffs": "最容易出错的是判断改动是否符合审批规则；规则边界理解错，可能让本该人工检查的 PR 被自动批准。",
-        "unknowns": "介绍没有说明“经过核实”的审查发现如何验证，也没有提供误报情况。"
+        "disclosed_facts": "介绍称 Koed 在设备本地运行、开源，并为每个项目配置 Kin；未说明记忆和代理集成的实现方式。",
+        "possible_approach": "如果自己做，可以先按项目保存偏好、决定和尝试过的方法，再按当前任务挑出相关记录交给编码代理；具体接入方式还需确认。",
+        "tradeoffs": "最难的是让项目记忆及时更新。旧决定若没被替换，代理可能给出过时建议，用户还得纠正它。",
+        "unknowns": "Kin 怎样收集、更新并让用户修正项目记忆？"
       },
       "transferable_insights": [
-        "做代码托管或内容发布工具时，可把检查、修复和审批拆成不同步骤，并明确哪些情况必须交给人工。"
+        "做项目助手时，可把偏好、决定和失败尝试按项目分别保存，减少不同项目之间的背景混淆。"
       ],
       "validation_questions": [
-        "用一个包含已知问题的 PR 检查审查结果，确认它能发现问题且没有明显误报。",
-        "设置一个不符合自动审批规则的改动，确认它会暂停并交给人工。"
+        "切换项目后，Kin 是否只引用当前项目的决定？",
+        "修改一项旧决定后，Kin 是否停止沿用旧结论？"
       ],
       "category": "开发工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "它能把 PR 审查、修复和审批分开处理，减少人工逐项跟进；但自动审批能否准确遵循团队规则仍无材料可判断。"
+      "overall_reason": "按项目保存经验并提供给多个编码代理，可能减少重复交代；但记忆如何更新仍不清楚，过时信息会直接影响建议。"
     },
     {
-      "id": "1327680",
-      "name": "frwrd.to",
-      "name_zh": "frwrd.to",
-      "tagline_zh": "用一条消息让 AI 整理你的个人简介链接页",
-      "description_zh": "把现有的个人简介链接页或网站发给 AI 助手，它会保留重要内容、匹配品牌风格，并发布所需语言的页面。活动可自动结束，所有内容也能手动编辑。",
-      "intro_zh": "面向维护个人简介链接或网站页面的人，把现有页面交给 AI 助手整理并发布多语言版本。",
-      "url": "https://www.producthunt.com/products/frwrd-to?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/WXNOFU2KUUJDSV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bbbfdc95-7c28-4e0f-b943-aa62411f2c5d.jpeg?auto=format",
-      "votes_count": 145,
+      "id": "1329023",
+      "name": "Hai",
+      "name_zh": "Hai",
+      "tagline_zh": "会替你打电话的 AI 助手",
+      "description_zh": "有些预约仍只能通过电话办理，而听障、重听，或有言语和焦虑障碍的人可能难以完成通话。Hai让用户说明需求并确认方案，再用任意语言致电接受电话预约的商家，并以文字回报；可免费开始，由日本独立开发者开发。",
+      "intro_zh": "面向难以打电话的人：说明预约需求并确认方案后，让 Hai 代为致电，再用文字回报结果。",
+      "url": "https://www.producthunt.com/products/hai-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/UXWKKW5IL44KD4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3baab221-f8a5-45bf-85ec-e98a7f3911b4.png?auto=format",
+      "votes_count": 108,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "输入和页面整理、多语言发布的用途说得清楚，实际内容质量仍需验证。"
+          "reason": "目标人群、电话预约障碍和代打流程都说得清楚，但实际预约成功情况未知。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "内容保留、品牌匹配和活动结束都涉及实现取舍，但介绍未说明具体做法。"
+          "reason": "电话沟通中的理解和确认很关键，介绍却未说明它如何处理。"
         },
         "transferability": {
           "score": 3,
-          "reason": "可借鉴 AI 整理加手动编辑的做法，但适用效果还缺少试用依据。"
+          "reason": "先让用户确认方案再代为执行，适合借鉴到有风险的自动化任务。"
         }
       },
       "product_analysis": {
-        "target_problem": "需要维护个人简介链接页或网站、还要面向多语言受众的人可能会用到它。整理已有内容、保持品牌风格和准备多种语言，是几项需要处理的工作；介绍没有说明用户原先具体怎么做。",
-        "workflow": "把当前的个人简介链接页或网站发给 AI 助手；它整理重要内容、匹配品牌并发布所需语言的页面。之后可以手动编辑，活动也会自动结束。",
-        "ai_value": "AI 助手负责整理已有内容并匹配品牌，产品也称可发布多语言页面。介绍没说明具体如何判断哪些内容重要，或如何处理语言转换。",
-        "differentiation": "它把内容整理、品牌适配和多语言发布集中到一条消息里，可能少做一些手动处理。最可能让人犹豫的是整理结果是否准确，用户仍需检查。"
+        "target_problem": "听障、重听，或有言语和焦虑障碍的人，可能难以完成电话预约；商家只接受电话预约时，这会成为办事门槛。",
+        "workflow": "用户说明预约需求，确认 Hai 拟定的方案；Hai 致电接受电话预约的商家，再以文字反馈。",
+        "ai_value": "AI 助手负责代为打电话；介绍没有说明它如何理解需求、应对商家追问或确认预约。",
+        "differentiation": "原本需要本人开口沟通的预约，现在可以交给助手代打并看文字回报。最可能的顾虑是预约内容说错，或把未落实的意向误当成确认。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍提到 AI 助手会整理重要内容、匹配品牌并发布多语言页面；没说具体用什么技术。",
-        "possible_approach": "如果自己做，可以先读取现有页面并提取链接和文字，再生成符合品牌风格的多语言页面；另为活动设置结束时间，到期后结束对应活动。",
-        "tradeoffs": "最容易出错的是判断哪些内容要保留；如果漏掉重要链接或文字，用户就得自己找回并修正。",
-        "unknowns": "活动结束后具体会关闭什么、原页面链接是否仍可访问，介绍没有说明。"
+        "disclosed_facts": "介绍称它是 AI 助手，可用任意语言致电接受电话预约的商家并以文字回报；未说明具体技术。",
+        "possible_approach": "如果自己做，可以先把需求整理成预约方案并请用户确认，再让语音系统按方案致电，最后把商家的答复转成文字。",
+        "tradeoffs": "最容易出错的是听错日期或把商家的初步答复当成预约成功，用户可能因此按错误时间安排。",
+        "unknowns": "商家没有空位、要求改期或需要补充信息时，Hai 会如何处理？"
       },
       "transferable_insights": [
-        "做个人主页或营销页工具时，可以让用户从现有页面开始，再由 AI 整理内容，同时保留手动编辑入口。",
-        "做限时活动页面时，可以把结束时间作为页面设置的一部分，减少活动过期后忘记处理的情况。"
+        "做会替用户执行操作的产品时，先展示计划并让用户确认，再交由系统处理；适合预约、下单等出错代价较高的任务。"
       ],
       "validation_questions": [
-        "把包含多个链接的现有页面交给它，检查重要链接是否都被保留且准确。",
-        "检查一项活动到期后页面实际显示什么、原链接是否还能访问。"
+        "用目标用户的语言完成一次真实电话预约，检查 Hai 是否能应对商家的追问并得到明确答复。",
+        "对照通话结果检查文字回报，确认日期、时间和预约状态没有被写错或夸大。"
       ],
       "category": "AI工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "它试图把已有页面整理和多语言发布合并成一次交代；但内容保留是否可靠，以及活动结束后页面如何变化，都还没有材料说明。"
-    },
-    {
-      "id": "1328526",
-      "name": "Kodak SlideTag",
-      "name_zh": "Kodak SlideTag",
-      "tagline_zh": "一款仿 1935 年胶片幻灯片框的电子墨水相框，也带有类似 AirTag 的追踪功能。",
-      "description_zh": "Kodak SlideTag 的设计灵感来自复古 Kodachrome 幻灯片框，是一款可用手机更新照片的六色电子纸小屏幕。它也可配合 Apple Find My 或 Google Find Hub 追踪物品，售价 34.99 美元，以盲盒形式销售。",
-      "intro_zh": "面向想给随身物品配照片展示和追踪功能的人；用手机更新屏幕，并通过苹果或谷歌的查找服务定位物品。",
-      "url": "https://www.producthunt.com/products/kodak-slidetag?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/NDZXUM47GD262O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/3a6c41dd-45cb-413f-a5ed-490e9db1b303.jpeg?auto=format",
-      "votes_count": 129,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "照片展示和追踪用途明确，但实际显示与定位效果尚未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "涉及电子纸显示和查找服务兼容，资料未说明具体实现与限制。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "把展示和找物放进同一设备的做法具体，但用户是否同时需要两者还不清楚。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "想给随身物品加照片展示、同时保留找物能力的人会用。它把两种用途放进一个小设备，减少分别挑选和携带的需要。",
-        "workflow": "用手机更新屏幕上的照片；需要找物时，通过 Apple Find My 或 Google Find Hub 使用追踪功能。介绍没有说明具体设置步骤。",
-        "ai_value": "介绍没提 AI；主要靠六色电子纸显示照片，并兼作物品追踪器。",
-        "differentiation": "照片展示和追踪合在一个小设备里。盲盒销售可能让想预先挑选外观的人不愿购买。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍提到六色 E Ink 屏、可从手机更新照片，并支持 Apple Find My 或 Google Find Hub。",
-        "possible_approach": "如果自己做，可以先让手机选图并转换成屏幕能显示的六种颜色，再把图传到电子纸；随后接入查找服务，并检查配对和定位是否可用。",
-        "tradeoffs": "最容易出错的是追踪服务的接入和配对；如果在用户的手机上无法正常配对或查找，追踪功能就用不上。",
-        "unknowns": "同一款设备是否同时兼容 Apple Find My 和 Google Find Hub，介绍没有说明。"
-      },
-      "transferable_insights": [
-        "做随身设备时，可考虑让展示内容和找物共用一个小设备；适合两种需求可能来自同一批用户的场景，先确认他们是否确实都会用。"
-      ],
-      "validation_questions": [
-        "分别用 iPhone 的 Find My 和 Android 的 Find Hub 配对并实际查找，确认支持范围。",
-        "传一张包含人脸和细节的彩色照片，检查屏幕效果以及手机更新是否顺畅。"
-      ],
-      "category": "硬件设备",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "照片展示与找物功能合在一件小设备里，用途清楚；但同一款能否适配苹果和谷歌的查找服务，会影响它适合哪些用户。"
-    },
-    {
-      "id": "1328677",
-      "name": "Agenda Hero Magic Labs",
-      "name_zh": "Agenda Hero Magic Labs",
-      "tagline_zh": "任意日程，任意版式，任意风格。",
-      "description_zh": "它想用适合日期和时间的动态计划，替代静态 PDF 日历，可用于团队活动或足球赛季等安排。计划变化时，实时数据会更新版面和已订阅的日历。",
-      "intro_zh": "适合安排团队活动、赛季等日程的人；制作可随计划变化更新的版面，并同步到订阅日历。",
-      "url": "https://www.producthunt.com/products/agenda-hero-magic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/BRD7ISDGYKEIV4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/f9a3d631-c316-42bd-b58d-1abbbbbd605b/81571fb638f03ca1c39f17e9f5bbaae66ba5370b94080f60ccee7a1721a25da9.webp?auto=format",
-      "votes_count": 113,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "解决日程变更后静态版面过时的问题，但实际同步效果未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "版面与订阅日历要跟随数据更新，具体实现方式未说明。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "让日程版面随数据更新的做法可借鉴，适用范围仍需看场景。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "安排团队活动、足球赛季等日程的人，可能需要处理计划变动。静态 PDF 不会随日期或时间变化自动更新，容易与最新安排不一致。",
-        "workflow": "为活动制作一份设计好的日程；计划变化时，版面和订阅日历会更新。具体创建、编辑和订阅步骤没有说明。",
-        "ai_value": "介绍没提 AI；主要靠实时数据在计划变化时更新版面和订阅日历。",
-        "differentiation": "它把计划变化与版面、订阅日历更新关联起来，静态 PDF 本身不会随变更更新。是否适合替换现有安排，关键看订阅日历是否符合团队习惯。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称产品由实时数据驱动，计划变化会更新设计版面和订阅日历；未说明具体技术。",
-        "possible_approach": "如果自己做，可以先把活动安排存成可修改的日期和时间，再用同一份数据生成版面并更新订阅日历。",
-        "tradeoffs": "最容易出错的是变更同步；如果版面更新了、订阅日历却没更新，参与者可能看到两套时间。",
-        "unknowns": "介绍没说支持哪些日历平台；这会影响团队能否直接订阅。"
-      },
-      "transferable_insights": [
-        "做活动、课程或赛事排期产品时，可让分享版面跟随日程数据更新，减少静态导出过时的情况。"
-      ],
-      "validation_questions": [
-        "改动一场活动的日期后，版面和已订阅日历是否都显示新时间？",
-        "用团队实际使用的日历订阅，能否成功加入并显示这份计划？"
-      ],
-      "category": "效率工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "计划变动时版面和订阅日历都能更新，能减少信息过时；但支持哪些日历平台尚不清楚。"
+      "overall_reason": "它能让难以通话的人通过确认方案和阅读文字结果处理电话预约；但介绍没有说明系统如何判断商家的答复是否代表预约已落实。"
     }
   ]
 }
