@@ -1,491 +1,492 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "schema_version": 2,
   "analysis_style": "plain_language_v1",
   "source_mode": "producthunt_api",
-  "generated_at": "2026-11-28T01:26:42+08:00",
+  "generated_at": "2026-11-29T00:08:01+08:00",
   "generation_error": false,
   "products": [
     {
-      "id": "1303130",
-      "name": "ExtraOrbital",
-      "name_zh": "ExtraOrbital",
-      "tagline_zh": "让智能体使用数据库、存储桶和 AI 密钥",
-      "description_zh": "应用常要数据库、存储、缓存、AI 密钥等资源，分散管理会带来多个账号、密钥、账单和备份。ExtraOrbital 会读取 .env.example 文件并创建所需资源，提供命令行工具供智能体使用，也可在中央面板管理。",
-      "intro_zh": "面向用智能体开发应用的团队，根据 .env.example 创建数据库、存储等依赖，并集中管理资源。",
-      "url": "https://www.producthunt.com/products/extraorbital-deleted-1365752?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/JCNISXP62SHDGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/bd5dcd2e-0781-4eaf-af19-2b9d540e73e1.jpeg?auto=format",
-      "votes_count": 186,
+      "id": "1332760",
+      "name": "Depost AI",
+      "name_zh": "Depost AI",
+      "tagline_zh": "了解哪些 LinkedIn 帖子适合你的品牌",
+      "description_zh": "它按账号自己的平均表现给已发布的 LinkedIn 帖子评分，找出同领域表现较好的内容，再规划月度帖子、按品牌语气写稿并制作配图。用户审批后，产品通过 LinkedIn 官方 API 发布，也能起草评论回复，并可在应用内或 Claude、ChatGPT 中使用。",
+      "intro_zh": "面向负责品牌 LinkedIn 运营的人，分析帖子表现，并协助规划、写稿、制图和发布。",
+      "url": "https://www.producthunt.com/products/depost-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/32DE54NLUY7ZZ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/91e44f58-70c6-4535-836d-bbfff3004b8b/ea32c29b9af5c90075172854d45388297aef25d2097358e372b3d582fb3d522e.png?auto=format",
+      "votes_count": 217,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "说明了资源分散管理的麻烦和自动创建的用途，但支持范围与实际效果未明。"
+          "reason": "覆盖内容规划到发布的具体工作，但实际效果没有验证。"
         },
         "technical_insight": {
-          "score": 3,
-          "reason": "按环境变量样例创建资源的做法明确，变量识别和密钥保护细节缺失。"
+          "score": 4,
+          "reason": "个性化表现分析和账号授权发布都有明确的实现难点。"
         },
         "transferability": {
           "score": 4,
-          "reason": "用项目配置样例作为依赖清单的做法具体，适合配置较规范的开发项目。"
+          "reason": "按账号自身表现作基线、发布前由人审批，都可借鉴。"
         }
       },
       "product_analysis": {
-        "target_problem": "开发应用的人需要数据库、存储、缓存等服务，也可能让智能体参与开发。麻烦在于相关账号、密钥、账单和备份分散管理，智能体也不容易直接使用这些资源。",
-        "workflow": "命令行工具读取项目的 .env.example 并创建所需资源；介绍称智能体可以通过命令行工具使用这些资源，用户则可在中央面板统一管理。",
-        "ai_value": "介绍没说 AI 会执行什么任务；AI 密钥只是它管理的资源之一，主要改进来自读取配置样例并创建依赖。",
-        "differentiation": "它把读取配置样例和创建资源放进命令行工具，可能减少逐个管理账号和凭据的工作。最可能让人犹豫的是：它如何保护创建资源所需的权限和密钥。"
+        "target_problem": "负责 LinkedIn 品牌运营的人，需要判断帖子表现、准备后续内容并跟进评论。介绍没有说明原先用什么工具，麻烦在于这些工作都要持续完成。",
+        "workflow": "产品分析已发布帖子并与账号平均表现比较，再找同领域的优胜内容；随后规划月度帖子、写稿和制作配图。用户审批后发布，也可用它起草评论回复。",
+        "ai_value": "AI 用于分析帖子表现、规划内容、按品牌语气写稿、制作配图和起草评论回复。",
+        "differentiation": "它结合账号自身平均表现与同领域内容来规划帖子，并保留发布前审批。最可能的顾虑是授权账号，以及生成内容是否符合品牌表达。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍提到命令行工具会读取 .env.example 并创建资源，也提供中央面板；没说具体用什么技术。",
-        "possible_approach": "如果自己做，可以先解析 .env.example（环境变量样例文件）并让用户确认对应服务，再通过服务接口（软件间下指令的连接方式）创建资源、保存密钥。难点是变量名未必能准确对应服务。",
-        "tradeoffs": "最容易错的是变量识别；认错服务可能创建出不需要的资源，或漏掉应用必需的配置，用户还得手动排查。",
-        "unknowns": "介绍没有说明支持哪些服务，也没说明如何保护创建资源所需的权限和密钥。"
+        "disclosed_facts": "介绍称通过 LinkedIn 官方 API 发布，并支持在 Claude、ChatGPT 中经 MCP（连接外部工具的协议）使用；未说明评分和生成所用技术。",
+        "possible_approach": "如果自己做，可以先读取账号帖子及表现数据，按账号平均值和同领域内容作比较；再生成计划、文案和配图草稿，等人批准后发布。",
+        "tradeoffs": "最容易出错的是数据不全或比较口径不一致，系统可能把偶然表现当成规律，导致后续选题跑偏。",
+        "unknowns": "介绍没说同领域内容的样本来源，难判断比较结果是否有代表性。"
       },
       "transferable_insights": [
-        "做开发环境初始化工具时，可以把项目的 .env.example 当作依赖清单，减少用户重复填写配置；适合配置格式较统一的项目。"
+        "做内容运营工具时，可用账号自己的历史表现作基线，避免只拿通用标准评价内容。",
+        "自动生成内容后保留人工审批，适合发布错误代价较高的品牌账号。"
       ],
       "validation_questions": [
-        "拿一个真实项目的 .env.example 试用，检查识别出的服务和生成的配置是否完整。",
-        "查看智能体通过命令行工具创建资源时，所需权限和密钥如何保存、撤销。"
+        "授权真实账号后，检查能否读取完整帖子和表现数据，并正确算出账号平均值。",
+        "检查帖子是否只有在用户审批后才会通过 LinkedIn 发布。"
       ],
-      "category": "开发工具",
+      "category": "AI工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "按项目配置样例创建依赖有机会减少分散管理的工作；但服务覆盖范围和密钥保护方式都还不清楚。"
+      "overall_reason": "按账号自身表现规划内容，比只靠通用建议更贴近品牌；但同领域比较的数据来源未说明。"
     },
     {
-      "id": "1330192",
-      "name": "Kagi Mail",
-      "name_zh": "Kagi Mail",
-      "tagline_zh": "优先显示等你回复的人，注重隐私的邮件服务",
-      "description_zh": "Kagi Mail 是一项注重隐私的邮件服务，会优先显示等你回复的人和需要处理的邮件，并把新闻订阅和不需要的消息放到一边。它支持询问收件箱、用自然语言规则整理邮件、无限别名和自定义域名，并提供 50 GB 存储和内置日历；产品称不投放广告、不追踪或画像用户，并采用开放标准。",
-      "intro_zh": "面向想更快处理邮件的人，优先查看待回复和待办邮件，并用自然语言整理收件箱。",
-      "url": "https://www.producthunt.com/products/kagi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/C2PPJIYKNSS7AC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/9bed6bb4-cfdc-4193-bcb0-8c3c44a2b3b1.jpeg?auto=format",
-      "votes_count": 115,
+      "id": "1326302",
+      "name": "snibl",
+      "name_zh": "snibl",
+      "tagline_zh": "在任意应用中保存选中文字，再向 AI 提问",
+      "description_zh": "别再丢掉读过的内容。在 Mac 或 Windows 的任意应用里选中文字，Snibl 会连同来源和上下文保存。之后可向 Snibl AI 提问，让它根据你保存的摘录回答；产品还称软件由用户真正拥有，但未解释具体含义。",
+      "intro_zh": "给经常跨应用阅读、需要回找资料的人用；选中文字连来源和上下文一起保存，再向 AI 提问。",
+      "url": "https://www.producthunt.com/products/snibl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/IET2H5J64ZBLDK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/fcb81e77-139a-47a8-895c-ea89c28b942c.jpeg?auto=format",
+      "votes_count": 108,
       "scores": {
         "product_value": {
           "score": 4,
-          "reason": "清楚说明了要优先处理哪些邮件，但实际能省多少时间尚未验证。"
+          "reason": "保存摘录并据此提问的用途清楚，但实际省时效果未经验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "邮件分类和自然语言规则有具体实现难点，介绍没有说明实现方式。"
+          "reason": "跨应用捕获和按摘录回答有具体难点，产品未说明实现方式。"
         },
         "transferability": {
           "score": 4,
-          "reason": "把待回复和待处理邮件单独突出，是可借鉴的具体做法。"
+          "reason": "“选中即保存来源，再围绕收藏提问”的流程可借鉴，适用效果待验证。"
         }
       },
       "product_analysis": {
-        "target_problem": "邮件较多时，用户可能要自己翻找待回复和待办邮件，也要整理订阅内容。它把这些邮件优先呈现，并让用户用自然语言设整理规则。",
-        "workflow": "用户在收件箱查看等回复和待处理邮件；可以询问收件箱，也可以用自然语言规则整理邮件。介绍还提到别名、自定义域名、存储和日历功能。",
-        "ai_value": "介绍没有明确说使用 AI。它提到智能收件箱、询问收件箱和自然语言规则，但没说明这些功能背后的技术。",
-        "differentiation": "它把待回复和待办提示、邮件整理规则放在邮箱里，可能减少手动翻找；最可能让人犹豫的是邮件内容如何被处理，介绍没有说明细节。"
+        "target_problem": "经常在不同应用里阅读、之后还要找回信息的人，可能会遇到摘录散落、来源难记的问题。Snibl 把选中的文字与来源、上下文一起保存。",
+        "workflow": "在 Mac 或 Windows 的任意应用中选中文字，Snibl 保存文字及其来源和上下文；之后向 Snibl AI 提问，由它根据已保存的摘录回答。",
+        "ai_value": "AI 根据用户保存的摘录回答问题。介绍没说明它如何挑选相关摘录，也没说回答是否会指出依据。",
+        "differentiation": "相比只收藏链接或另行整理摘录，它把选中文字和来源、上下文放在一起。用户可能不愿迁移，是因为还要养成在阅读时用它保存内容的习惯。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍提到开放标准、无限别名和自定义域名，但没有说明具体技术实现。",
-        "possible_approach": "如果自己做，可以先按发件人和邮件内容区分待回复、待处理和订阅邮件，再把自然语言规则转成可检查的筛选条件。分类和规则都要允许用户纠正。",
-        "tradeoffs": "最容易出错的是判断邮件是否需要行动：漏掉请求会让用户错过待办，误把普通通知列为重点则会让收件箱更吵。",
-        "unknowns": "邮件内容如何被处理、是否用于训练，介绍没有回答。"
+        "disclosed_facts": "介绍称支持 Mac 和 Windows，可保存任意应用中的选中文字及其来源、上下文，并让 AI 根据已存摘录回答；未说明具体技术。",
+        "possible_approach": "如果自己做，可以先捕获选中文字和来源信息，再整理成可检索的摘录；用户提问时找出相关摘录交给模型回答，并让用户能回看原文。",
+        "tradeoffs": "最容易出错的是跨应用捕获文字或来源；如果来源漏了或记错，用户之后找到的可能只是一段脱离上下文的文字。",
+        "unknowns": "摘录和提问数据存在哪里、是否会上传，介绍没有说明。"
       },
       "transferable_insights": [
-        "做客服或项目协作产品时，可把“等回复”和“需要行动”分成两个列表，减少用户从长列表里逐条寻找。"
+        "做阅读研究或知识整理产品时，可借用“选中即保存来源和上下文，再围绕已存内容提问”的具体流程。"
       ],
       "validation_questions": [
-        "用一组包含待回复、待办、普通通知和订阅邮件的样本，检查重点邮件是否分对。",
-        "输入一条带例外条件的自然语言整理规则，检查结果是否符合预期，以及用户能否检查和纠正规则。"
+        "分别在 Mac 和 Windows 选一段文字，检查保存的来源与上下文是否正确。",
+        "问一个只有已存摘录能回答的问题，核对回答是否忠于摘录。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "优先研究",
+      "overall_reason": "把摘录和来源一起保存，能减少日后找回内容时缺少上下文的麻烦；但数据是否上传尚不清楚，会影响用户是否愿意保存私人阅读材料。"
+    },
+    {
+      "id": "1331316",
+      "name": "Remove Silence",
+      "name_zh": "Remove Silence",
+      "tagline_zh": "在浏览器里剪掉音频中的静音，免费使用",
+      "description_zh": "拖入音频或视频文件后，可以在波形上查看停顿、调整阈值，再下载删去停顿后的 WAV。产品称处理在设备本地完成，不上传文件、不需账号且无水印；视频剪辑则指向 iPhone 上的 QuellCut。",
+      "intro_zh": "给想缩短录音或视频所含停顿的人：在浏览器里查看静音位置、调阈值，再下载更紧凑的 WAV 音频。",
+      "url": "https://www.producthunt.com/products/remove-silence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/X7WERDIFQLWNNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/338db223-f7c5-4040-8e59-a7b825afda8f.png?auto=format",
+      "votes_count": 106,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "用途和处理结果清楚，但实际效果与适用文件范围未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "本地处理和阈值调节带来具体问题，处理细节仍未说明。"
+        },
+        "transferability": {
+          "score": 4,
+          "reason": "波形标出停顿并允许用户调阈值，是可借用的具体交互。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "想缩短录音的人，可能需要找出并删掉长停顿。资料没有说明用户原来具体怎么处理。",
+        "workflow": "拖入音频或视频，在波形上查看停顿、调整阈值，然后下载 WAV；介绍没有说它会导出剪好的视频。",
+        "ai_value": "介绍没提 AI，主要靠波形显示停顿和可调阈值来处理音频。",
+        "differentiation": "它把停顿定位和阈值调整放在浏览器里；若目标是剪辑视频，介绍指向另一款 iPhone 产品，可能无法满足只想用一个工具完成的人。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它在用户设备上运行，文件不上传；支持在波形上查看停顿并调整阈值。",
+        "possible_approach": "如果自己做，可以先在浏览器里读取文件、绘制波形，再按音量门槛标出候选停顿，最后让用户调整并导出 WAV。",
+        "tradeoffs": "门槛过高可能把轻声说话也当成停顿，删掉词句；过低则会留下不少安静片段。",
+        "unknowns": "未说明支持哪些文件格式，以及视频输入能否稳定导出 WAV。"
+      },
+      "transferable_insights": [
+        "做录音整理工具时，可以在波形上标出自动识别的片段，并让用户调整门槛后再导出，避免结果像黑箱。"
+      ],
+      "validation_questions": [
+        "用含轻声说话的录音调节阈值，检查是否会误删词句。",
+        "导入一段视频，检查能否显示停顿并导出可播放的 WAV。"
       ],
       "category": "效率工具",
       "overall_suggestion": "优先研究",
-      "overall_reason": "把待回复和待办邮件突出显示，能针对收件箱里的具体负担；但邮件内容的处理方式没有交代，隐私判断因此仍不完整。"
+      "overall_reason": "可视化停顿并让用户调阈值，能减少手动找位置的工作；但支持的文件格式和视频输入后的导出行为尚不清楚。"
     },
     {
-      "id": "1330643",
-      "name": "Monton",
-      "name_zh": "Monton",
-      "tagline_zh": "帮代理机构处理日常杂务的 AI 助手",
-      "description_zh": "Monton 是内置 AI 助手的代理机构管理软件，可依据工时、人员安排、账单和客户关系数据监看预算、催逾期发票、写客户报告，并提醒补录工时。用户可选 18 个模板或用聊天描述任务；每封邮件都需批准，付费方案含 AI 且不按点数或人数收费，最多 5 人可免费使用。",
-      "intro_zh": "给代理机构团队用，依据业务数据监看预算、催账、写客户报告和提醒补工时。",
-      "url": "https://www.producthunt.com/products/monton?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MYQORKGIV2MIOS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/a0718869-f6b0-44d3-af41-a93ebc104564.jpeg?auto=format",
-      "votes_count": 92,
+      "id": "1330231",
+      "name": "Wizstar R1",
+      "name_zh": "Wizstar R1",
+      "tagline_zh": "以较低成本制作 Seedance 2.0 水平的产品视频",
+      "description_zh": "Wizstar R1 是一款面向日常创作的自研 AI 视频模型，可组合最多九张参考图或视频，生成 5 至 15 秒、带原生音频的视频，并用商品、角色、场景和风格引导画面。产品称它擅长动画和 3D，并称内部测试中产品视频的可用输出率与 Seedance 2.0 相当；符合条件的会员可不限次数、免积分生成。",
+      "intro_zh": "面向需要制作产品短视频的创作者，用商品、角色或场景参考素材生成带音频的短片。",
+      "url": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MFADSN4RJLJCWY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/3e1ca6ec-c247-4aa6-bbf9-5d3eec4fd9d2.jpeg?auto=format",
+      "votes_count": 282,
       "scores": {
         "product_value": {
-          "score": 4,
-          "reason": "列出的日常事务具体，但实际能省多少时间、结果是否准确还没有依据。"
+          "score": 3,
+          "reason": "用途和低成本主张明确，但实际质量与费用收益没有独立验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "数据准确性和邮件审批值得关注，但实现细节没有披露。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "按模板启动任务并让人审批邮件，是可借鉴的具体做法。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "代理机构团队要持续留意预算、逾期发票和工时记录，还要准备客户报告。资料没有说明他们原来用什么工具或流程。",
-        "workflow": "在 Monton 里选一个模板，或用聊天描述任务。AI agents 根据工时、人员、账单和客户关系数据处理监看、报告或提醒；每封邮件都要先获批准。",
-        "ai_value": "AI agents 负责检查业务数据、起草客户报告和邮件，并生成提醒。产品没有说明它如何判断异常或生成内容。",
-        "differentiation": "它把多类管理事务放在同一套软件里处理。若团队现有数据不易放入或同步，提醒和报告就可能不可靠，也会增加换用顾虑。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称软件内置 AI agents，可用 18 个模板或聊天描述任务，并使用工时、人员、账单和客户关系数据；具体技术实现未说明。",
-        "possible_approach": "如果自己做，可以先整理预算、账单、工时和客户数据，再设定逾期或缺工时等检查条件；然后让 AI 起草报告和邮件，并在发送前要求人审批。",
-        "tradeoffs": "最容易出错的是业务数据不准或更新不及时。这样可能造成错误的预算提醒、报告或催款邮件，人工审批虽能拦住邮件发送，却仍需核对内容。",
-        "unknowns": "这些业务数据如何导入或同步、更新频率如何，介绍没有说明。"
-      },
-      "transferable_insights": [
-        "做财务或项目管理产品时，可把常见任务做成模板，也允许用户用聊天描述需求，降低首次设置的负担。",
-        "做自动生成邮件的工具时，可保留发送前审批，让用户检查内容再发出。"
-      ],
-      "validation_questions": [
-        "用一组已核对的账单和工时记录测试，预算与逾期提醒是否正确？",
-        "检查生成的邮件能否在发送前查看、修改或拒绝？"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "优先研究",
-      "overall_reason": "它能围绕工时、账单等实际业务数据处理多种管理事务；但数据接入和更新方式不明，直接影响提醒与报告是否可信。"
-    },
-    {
-      "id": "1329592",
-      "name": "Hub",
-      "name_zh": "Hub",
-      "tagline_zh": "像管理 5 个会话一样运行 100 个 Claude Code 或 Codex 会话",
-      "description_zh": "这是一个开源调度器，可把你在浏览器或 Telegram 写下的目标交给 Claude Code 或 Codex 会话处理，并只返回决策。它可自行部署，采用 Apache-2.0 许可，使用自己的 Claude 或 ChatGPT 订阅；介绍还称可一行安装，并实验性地允许代理不经权限提示运行。",
-      "intro_zh": "适合要并行安排多个编码代理的人：从浏览器或 Telegram 写下目标，让协调器分派任务并汇总决策。",
-      "url": "https://www.producthunt.com/products/hub-20?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/SKCIVKZDKR5QGT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/37db94e3-5648-4389-9b04-08fec8a2a075/fee29ad8544eee167257a2215762dc1217ba97c5127fab033ef102a8dadb876f.png?auto=format",
-      "votes_count": 413,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "目标用户和减少逐个查看会话的做法清楚，但省下多少精力未经验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "取消权限提示带来明确的执行风险，但介绍没有说明如何控制。"
+          "reason": "多份参考素材生成视频有具体的质量难点，产品没有说明实现细节。"
         },
         "transferability": {
           "score": 3,
-          "reason": "只返回待决策结果的做法具体，但是否适合其他任务需看场景。"
+          "reason": "多素材共同引导生成可借鉴，但效果取决于参考素材的一致性。"
         }
       },
       "product_analysis": {
-        "target_problem": "需要同时运行多个 Claude Code 或 Codex 会话的人，可能要逐个查看进展和结果。Hub试图让他们从一个入口交代目标，再集中查看决策。",
-        "workflow": "用户在浏览器或 Telegram 写下目标；协调器把目标交给代理；代理处理后，只把决策返回给用户。",
-        "ai_value": "Claude Code 或 Codex 会话负责处理交付的目标。介绍没有说明协调器本身是否使用 AI，也没说它如何判断哪些内容算决策。",
-        "differentiation": "相比逐个查看多个会话，它让协调器分派任务并只回传决策。可能让人犹豫的是代理实验性地不经权限提示运行，用户不易确认执行边界。"
+        "target_problem": "做日常产品视频、尤其动画和 3D 内容的创作者会需要它。资料强调低成本，但没说明创作者原来具体怎样制作或最费时在哪。",
+        "workflow": "选取最多九张参考图或视频，用商品、角色、场景和风格引导生成 5 至 15 秒、带原生音频的视频。符合条件的会员可免积分不限次数生成。",
+        "ai_value": "AI 根据参考图和视频生成短片，并加入原生音频；产品称它擅长动画和 3D。",
+        "differentiation": "它能用多份素材共同引导短片生成，减少从头描述画面意图的需要。最可能的顾虑是商品细节能否稳定保留，资料没有提供证据。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍称它是开源调度器，支持 Claude Code 和 Codex，可从浏览器或 Telegram 输入目标，并可自行部署。",
-        "possible_approach": "如果自己做，可以先提供一个入口收集目标，再由调度器分给多个编码代理，最后汇总待人决定的结果；还要让用户看得到失败状态，避免把没回报误当成已完成。",
-        "tradeoffs": "最容易出问题的是代理不经权限提示就执行操作；如果它误解目标，用户可能在发现前就遇到意外改动。",
-        "unknowns": "多个代理任务失败或结果冲突时，协调器如何处理并通知用户？"
+        "disclosed_facts": "介绍称它是自研 AI 视频模型，可组合最多九张参考图或视频，生成带原生音频的 5 至 15 秒视频。",
+        "possible_approach": "如果自己做，可以先让生成模型读取参考图和视频，再按商品、角色、场景和风格生成短片，最后检查画面细节和音频是否可用。",
+        "tradeoffs": "最容易出错的是模型改动参考素材中的细节；若商品颜色或包装变样，成片可能就得重做。",
+        "unknowns": "内部测试的可用输出率没有说明测试样本、评判标准或对比条件。"
       },
       "transferable_insights": [
-        "做需要人监督自动任务的产品时，可以只推送需要用户决定的结果，减少无关进度打扰；前提是失败和未完成状态仍然可见。"
+        "做商品内容工具时，可以让用户同时提供产品、场景和风格参考，适合已有视觉素材的短视频团队。"
       ],
       "validation_questions": [
-        "试用时检查代理未经权限提示执行的操作范围，是否会超出预期。",
-        "同时分派多个目标后，检查失败或冲突的任务是否会被明确标出。"
+        "用同一组商品素材生成多次，检查包装、颜色和标志是否稳定。",
+        "核对内部对比测试的样本量、可用输出定义和测试条件。"
       ],
       "category": "AI工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "只回传决策可能减少查看多个会话的负担；但失败任务如何呈现，以及无权限提示时能否限制操作，仍会影响实际使用。"
+      "overall_reason": "多份参考素材可以共同引导带音频的短片；但与 Seedance 2.0 可用率相当的说法缺少测试口径，难判断成片质量。"
     },
     {
-      "id": "1329270",
-      "name": "QA.tech MCP",
-      "name_zh": "QA.tech MCP",
-      "tagline_zh": "在 IDE 中用 QA 测试代理检查代码改动",
-      "description_zh": "QA.tech MCP 为 Claude Code、Cursor 或 Codex 接入外部 QA 测试代理，检查代码改动并寻找遗漏的缺陷和边界情况。它在 IDE 工作流中探索应用、编写并运行端到端测试（检查从用户操作到结果的完整流程），再让编码助手读取结果并修复问题；产品介绍称支持任意 MCP 客户端。",
-      "intro_zh": "给用编码助手改产品的开发者，在 IDE 里检查代码改动并发现应用流程中的问题。",
-      "url": "https://www.producthunt.com/products/qa-tech?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/AAE5I2SEYZUMZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/launch-image-uploads/f91ef9cb-1973-46c8-8edb-c982c00c40e0/02229123ede1d18428ab66b7a29a8c313951d42d31ec564559b1dec1cac41dad.png?auto=format",
-      "votes_count": 216,
+      "id": "1331740",
+      "name": "Contral",
+      "name_zh": "Contral",
+      "tagline_zh": "会检查工作结果、也会教你的 AI 编程代理",
+      "description_zh": "Contral 已结束测试阶段，用户可用自己的账号在其中运行 Claude Code、Codex、Cursor、OpenCode、Gemini CLI 或 Copilot CLI。它逐轮检查结果、把具体修正交给较小模型，并提供改动讲解卡片、整轮撤销、防护模式、Scrimba 视频讲解及支持五种语言的学习模式；可在 VS Code、Cursor、Windsurf 等环境或 Contral IDE 中使用，免费开始。",
+      "intro_zh": "面向用 AI 编程代理写代码的人，逐轮核对结果、讲解改动，并支持撤回整轮修改。",
+      "url": "https://www.producthunt.com/products/contral?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/O345273IOJN5AK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/a2a2c891-e8c3-455b-b564-f0fd762943c3/30f02d762188c97a780b0daf912a478ba550b831eed63846669a6713af8a799f.png?auto=format",
+      "votes_count": 184,
       "scores": {
         "product_value": {
-          "score": 4,
-          "reason": "目标用户、检查场景和结果去向都明确，但实际效果未经验证。"
+          "score": 3,
+          "reason": "检查、讲解和撤销对应明确需求，但实际能省多少检查时间尚无验证。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "测试代理与编码助手如何配合说得清楚，应用接入和测试可靠性仍未知。"
+          "reason": "逐轮核对和纠正带来具体技术问题，但介绍未说明检查如何实现。"
         },
         "transferability": {
-          "score": 3,
-          "reason": "把测试结果交回编码助手的做法可借鉴，但适用效果缺少验证。"
+          "score": 4,
+          "reason": "按轮展示检查结果和提供整轮撤销，都是可借用的具体做法。"
         }
       },
       "product_analysis": {
-        "target_problem": "用 Claude Code、Cursor 或 Codex 改产品的开发者，可能想在 PR 评审前检查改动。介绍指出编码助手可能漏掉缺陷和边界情况；没有说明团队原先怎么测试。",
-        "workflow": "用户在 IDE 的 MCP 客户端中发提示，让工具映射应用并启动首次测试。测试代理探索应用、编写并运行测试，编码助手读取结果后修复问题。",
-        "ai_value": "测试代理负责探索应用、编写测试和运行检查；编码助手读取结果并处理失败。介绍没有说明所用模型。",
-        "differentiation": "测试结果可直接交给 IDE 中的编码助手处理，少一次手动转交报告的步骤。最可能的阻碍是测试代理无法顺利访问目标应用。"
+        "target_problem": "用 AI 编程代理写代码、又需要理解改动的人，会想确认每轮结果是否符合要求。出了偏差时，还要找出改动并决定如何恢复。",
+        "workflow": "用户用自己的账号，在 Contral 中运行支持的编程代理。Contral 按用户要求检查每轮结果，把具体修正交给较小模型，提供改动讲解卡片，并支持一键撤销整轮。",
+        "ai_value": "AI 用于逐轮对照用户要求，并处理具体修正；讲解卡片则帮助用户理解改动。",
+        "differentiation": "相比只使用编程代理，它增加了逐轮检查、改动讲解和整轮撤销。用户可能会顾虑检查是否可靠，尤其是它判断正确、实际改动却不符合预期时。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍称支持任意 MCP 客户端；MCP 是让 AI 应用连接外部工具的协议。未说明具体测试技术。",
-        "possible_approach": "如果自己做，可以先让测试代理识别应用页面，再生成并运行端到端测试，最后把失败步骤交给编码助手修复。",
-        "tradeoffs": "最容易错在代理没理解页面或交互，导致漏报问题或误报失败；开发者就得自己复查测试结果。",
-        "unknowns": "介绍没说明测试代理如何登录目标应用；这会影响它能否检查登录后的流程。"
+        "disclosed_facts": "介绍称 Contral 支持多种编程代理，并会把具体修正交给较小模型处理；未说明检查机制。",
+        "possible_approach": "如果自己做，可以先记录用户要求和每轮代码改动，再逐项核对是否满足要求；发现遗漏时给代理具体修正，并保存本轮改动以便撤销。难点是把自然语言要求变成可靠的检查项。",
+        "tradeoffs": "最难的是判断代码是否真的满足用户的自然语言要求；漏掉偏差可能留下错误改动，误判则可能带来多余修正。",
+        "unknowns": "它按什么标准判断一轮改动符合用户要求？"
       },
       "transferable_insights": [
-        "做有网页操作流程的开发工具时，可让测试结果带上失败步骤，再交给写代码的助手处理。"
+        "做代码生成或自动化操作产品时，可逐轮展示用户要求、系统改动和检查结果，让用户及时发现偏差。",
+        "对会自动修改内容的产品，可把单次任务作为撤销单位，方便用户恢复到操作前。"
       ],
       "validation_questions": [
-        "用一个登录后的核心流程，检查代理能否进入应用并完成探索。",
-        "让它检查一次真实改动，确认报告中的失败是否能复现。"
+        "选一项明确的代码需求，检查它能否识别结果中的遗漏。",
+        "撤销一轮改动后，检查该轮涉及的文件是否都恢复原状。"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "整轮撤销能让用户更容易恢复代理改动；但判断一轮结果是否符合要求的标准尚不清楚。"
+    },
+    {
+      "id": "1331479",
+      "name": "Periscope",
+      "name_zh": "Periscope",
+      "tagline_zh": "把任何工作变成可调用接口",
+      "description_zh": "描述一项任务，就能生成一个可调用的接口。代理会在自己的云桌面里通过屏幕操作软件；接口可经 REST 调用，也可由 Claude、ChatGPT 或 Cursor 通过 MCP 调用，免费方案无需信用卡。",
+      "intro_zh": "面向想从其他工具触发软件操作的团队，把任务描述成接口，让代理在云桌面里代为操作。",
+      "url": "https://www.producthunt.com/products/periscope-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/MKDWAD6MXFEF3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/dd56eb17-2c45-4418-9f69-b6e6be240469/58ad5f556ebb9214f978de9e33d0faed0d0ad2733fa2b4df4a9c48683010499f.png?auto=format",
+      "votes_count": 173,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "说明了如何从其他工具触发软件操作，但没有具体任务案例或效果数据。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "屏幕操作可能受界面变化影响，资料未说明如何处理失败。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把软件操作包装成接口的做法可借鉴，但适用条件还需验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "当任务要在旧软件或缺少现成接口的软件里完成，而团队希望从其他工具触发时，可能会用到它。资料没有说明用户现在具体怎么处理这类任务。",
+        "workflow": "用户描述任务并获得一个接口；代理在自己的云桌面上通过屏幕操作软件。之后可经 REST 调用，也可通过 MCP 从 Claude、ChatGPT 或 Cursor 调用。",
+        "ai_value": "介绍没有明确说明是否使用 AI，只说代理在云桌面上通过屏幕完成任务，并支持 REST 和 MCP 调用。",
+        "differentiation": "它试图让其他工具触发原本要在软件界面里完成的操作。若任务每次仍需人工检查结果，省下的时间可能有限。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍说代理在自己的云桌面上通过屏幕操作软件，并可经 REST 或 MCP 调用；没有说明具体实现技术。",
+        "possible_approach": "如果自己做，可以先让程序在云桌面读取画面并操作软件，再把任务包装成接口；随后提供 REST（软件间调用的接口）和 MCP（让 Claude 等应用调用工具的连接方式）入口。",
+        "tradeoffs": "最容易出错的是屏幕操作：窗口或按钮位置变化时，代理可能点错位置或没完成任务，用户还得检查并重做。",
+        "unknowns": "介绍没说如何登录目标软件、保管账号凭据；这会影响能否接入真实工作账号。"
+      },
+      "transferable_insights": [
+        "做需要操作旧后台的内部工具时，可把步骤明确、结果可核对的任务包装成接口，方便其他工具触发。"
+      ],
+      "validation_questions": [
+        "用目标软件里的真实任务运行一次，核对操作结果是否正确落地。",
+        "改变窗口布局或加入弹窗后再运行一次，检查它能否报告失败而不是误操作。"
+      ],
+      "category": "效率工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "它让没有现成接口的软件操作也可能被其他工具调用；但账号如何接入和保护尚不清楚。"
+    },
+    {
+      "id": "1326480",
+      "name": "Pushary Calls",
+      "name_zh": "Pushary Calls",
+      "tagline_zh": "错过 AI 代理的提醒？Pushary 会打电话给你。",
+      "description_zh": "AI 代理遇到重要操作前会先询问；如果你没及时看到问题，Pushary 会把问题发到手机上，之后打电话提醒。你可以听取代理的请求，再口头回答同意、拒绝或给出其他指示。它只会在你设定的时段来电，支持 Claude Code、Codex、Gemini CLI、Grok Build、Hermes 等工具。",
+      "intro_zh": "给使用 AI 代理的人，在代理等待确认时把问题发到手机；若没及时回复，再打电话提醒。",
+      "url": "https://www.producthunt.com/products/pushary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/KPT5IG56HJWKXE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/c75282db-f7b5-4951-8ea9-d1223f70bd6d.jpeg?auto=format",
+      "votes_count": 140,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "它针对代理等待人工确认的停顿，给出明确的电话提醒方式；实际能否及时接通未知。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "语音答复如何准确传回代理是关键问题，但介绍没有说明实现方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "“先发提醒，错过后升级为电话”的做法可借鉴，适用效果仍需验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "使用 AI 代理执行任务的人，可能需要在离开电脑时批准重要操作。代理等不到答复就会暂停，用户也可能错过它的提问。",
+        "workflow": "代理提出重要操作前的确认问题后，Pushary 将问题发到手机；如果你没回应，就打电话。你听取请求并口头回答同意、拒绝或其他指示，代理再继续工作。来电时段可自行设定。",
+        "ai_value": "AI 代理负责提出确认请求并等待答复。介绍没有说明 Pushary 本身使用 AI。",
+        "differentiation": "它把未回复的问题升级为电话提醒，减少必须盯着代理消息的需要。电话可能打扰用户；产品提供了设定来电时段的选项。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称它支持 Claude Code、Codex、Gemini CLI、Grok Build、Hermes 等工具，并可在用户设定的时段来电；底层技术未说明。",
+        "possible_approach": "如果自己做，可以先接收代理发出的确认请求，再在未回复时拨打电话；接着把用户的口头答复交回代理。关键是让答复对应到正确的问题和任务。",
+        "tradeoffs": "最容易出错的是把口头答复听错或对应错问题；代理可能因此执行了用户不想要的操作，或仍停在等待状态。",
+        "unknowns": "介绍没有说明用户没接电话时，代理会继续等待多久或如何处理。"
+      },
+      "transferable_insights": [
+        "做需要人工批准的后台任务时，可以先发普通提醒，未获回复再用电话升级；适合用户不总盯着电脑的场景。"
+      ],
+      "validation_questions": [
+        "代理提出确认后，手机收到的问题是否包含足够上下文，让人能判断该不该同意？",
+        "在嘈杂环境中口头回答后，代理是否能收到正确的同意、拒绝或替代指示？"
+      ],
+      "category": "AI工具",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "错过代理提问后可升级为电话提醒，缓解人离开电脑时任务停住的问题；但语音答复是否能准确交回代理尚不清楚。"
+    },
+    {
+      "id": "1332620",
+      "name": "RightFont 2026",
+      "name_zh": "RightFont 2026",
+      "tagline_zh": "此刻，找到合适的字体。",
+      "description_zh": "RightFont 2026 重新设计了字体管理体验，可在设计中预览和应用字体、用设备端 AI 发现字体、共享字体库，并清理重复字体。产品称它能在 20 万字体规模下保持速度，这一效果未经独立验证。",
+      "intro_zh": "面向整理大型字体库的设计师，帮助他们查找、预览并应用字体，也能共享字体库和清理重复项。",
+      "url": "https://www.producthunt.com/products/rightfont?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/OD5RPEPLXTOXMS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/launch-image-uploads/4e8918d0-3c73-4d78-a4c9-e4f7a28f28b2/ebf22f30ca43619d6e2b39246ca385798bb8921cd5b25322a2ee0a975b1d2ab6.png?auto=format",
+      "votes_count": 128,
+      "scores": {
+        "product_value": {
+          "score": 4,
+          "reason": "明确列出字体查找、应用和整理场景，但实际省时效果未验证。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "提到设备端 AI 和大规模字体管理，未说明实现方式或准确度。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "把查找、预览和整理放在同一流程的做法明确，适用效果待验证。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "整理大量字体的设计师，可能需要频繁找字体、共享字库和清理重复项。资料没有说明他们原先具体怎么操作。",
+        "workflow": "用户可发现字体，在设计中预览并应用；也可共享字体库，并用 Font Insights 清理重复字体。介绍没有说明具体步骤或支持哪些设计软件。",
+        "ai_value": "AI 用于在设备端发现字体；介绍没有解释它如何理解用户需求或推荐字体。",
+        "differentiation": "它把字体发现、设计中预览应用和字体库整理放在一起，减少分头处理这些事情的需要。若不支持用户正在用的设计软件，直接应用的便利就有限。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍提到设备端 AI 字体发现，并宣称可在 20 万字体规模下保持速度；没有说明具体技术。",
+        "possible_approach": "如果自己做，可以先为字体建立本地索引和预览，再按用户描述筛选候选字体并支持预览应用。清理重复项时，先列出疑似重复字体，让用户确认后再处理。",
+        "tradeoffs": "最难的是判断不同文件是否真是重复字体；误删可能让现有设计找不到原字体或出现替换。",
+        "unknowns": "设备端 AI 是否会读取或上传字体文件，介绍没有说明。"
+      },
+      "transferable_insights": [
+        "做素材管理产品时，可把搜索结果直接连到预览和使用动作，减少用户在查找与实际工作之间切换。"
+      ],
+      "validation_questions": [
+        "用常见设计软件测试：能否在设计中预览并应用字体？",
+        "用包含不同格式、字重和版本的字体库测试：重复项识别是否会误删？"
+      ],
+      "category": "设计创意",
+      "overall_suggestion": "值得参考",
+      "overall_reason": "把找字体和在设计中应用连起来，可能减少来回切换；但支持哪些设计软件、设备端 AI 如何处理字体，都会影响实际使用。"
+    },
+    {
+      "id": "1330307",
+      "name": "Espresso 27",
+      "name_zh": "Espresso 27",
+      "tagline_zh": "为热爱 Mac 的人打造的网页编辑器",
+      "description_zh": "迄今最大的一次 Espresso 更新。它为 macOS 27 带来新外观，并加入可跨整个网站工作的 AI；产品方称内容不会离开 Mac，编辑器内部功能也有所扩展。",
+      "intro_zh": "面向偏好 Mac 的网站编辑者，用 AI 处理全站内容，并在 Mac 上编辑网页。",
+      "url": "https://www.producthunt.com/products/espresso-27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/GZAIXAZWRZ3ICN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/0412f39a-a2e4-4c2c-9838-643b5e9f14e7.jpeg?auto=format",
+      "votes_count": 123,
+      "scores": {
+        "product_value": {
+          "score": 3,
+          "reason": "目标用户和全站编辑场景清楚，但具体能完成哪些修改尚不明确。"
+        },
+        "technical_insight": {
+          "score": 3,
+          "reason": "本机处理与全站理解值得验证，但介绍没有说明实现方式。"
+        },
+        "transferability": {
+          "score": 3,
+          "reason": "可借鉴全站 AI 与本机处理的组合，适用条件仍需确认。"
+        }
+      },
+      "product_analysis": {
+        "target_problem": "面向偏好 Mac 的网站编辑者。站点改动涉及多处时可能需要它；资料没有说明他们原来如何处理。",
+        "workflow": "用户在 Mac 上用 Espresso 编辑网站，并可让 AI 跨站点构建内容。介绍未说明如何输入需求或应用结果。",
+        "ai_value": "AI 可跨整个网站构建内容；产品方称内容不会离开 Mac。介绍没说明具体会生成或修改什么。",
+        "differentiation": "若 AI 能理解全站，可能少逐处重复说明；最可能的换用阻力是资料没交代现有网站项目是否兼容。"
+      },
+      "technical_analysis": {
+        "disclosed_facts": "介绍称 AI 能跨整个网站构建内容，且内容不会离开 Mac；没有说明具体使用什么技术。",
+        "possible_approach": "如果自己做，可以先整理网站页面与内容，再让 AI 根据目标提出跨页面改动，并把处理限制在本机。具体本地运行方案需要验证。",
+        "tradeoffs": "最难的是准确理解页面间关系；若漏掉关联页面，改动可能不完整，用户还得逐页补改。",
+        "unknowns": "AI 是否确实完全在本机处理，介绍没有说明实现方式。"
+      },
+      "transferable_insights": [
+        "做网站编辑工具时，可让 AI 的作用范围覆盖整站，并清楚说明内容是否离开设备；适用于处理未发布网站内容的场景。"
+      ],
+      "validation_questions": [
+        "选一个涉及多个关联页面的改动，检查 AI 是否覆盖相关页面。",
+        "检查处理网站内容时，是否有内容离开 Mac。"
       ],
       "category": "开发工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "测试发现可直接回到编码助手处理，能否覆盖真实用户流程则取决于代理能否稳定访问并理解应用。"
+      "overall_reason": "全站编辑可能减少逐处说明的麻烦，但 AI 是否真的在本机处理仍需核实。"
     },
     {
-      "id": "1329325",
-      "name": "Bifura",
-      "name_zh": "Bifura",
-      "tagline_zh": "像 AI 智能体一样查看你的网站",
-      "description_zh": "AI 助手如今会替买家读取网站。Bifura 按 AI 爬虫的方式抓取页面，展示它们读到或读错的内容，并可在沙盒中测试修复；产品称可在一分钟内免费给出准备度评分，无需注册。",
-      "intro_zh": "面向想确认网站能否被 AI 助手正确读取的团队，抓取页面并检查读取结果、测试修复。",
-      "url": "https://www.producthunt.com/products/bifura?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/LEZHQJUHVZTF4Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e14423b9-74b6-4e38-942d-2b5211668a34.png?auto=format",
-      "votes_count": 170,
+      "id": "1332846",
+      "name": "Woomool",
+      "name_zh": "Woomool",
+      "tagline_zh": "让思考变得具体的 AI 画布",
+      "description_zh": "Woomool 是一款用于构思、知识管理和实时协作的 AI 画布。它采用简洁、不打扰的设计，产品方称其旨在帮助用户专注思考。",
+      "intro_zh": "面向需要共同构思和整理知识的个人或团队，用一张画布开展协作。",
+      "url": "https://www.producthunt.com/products/woomool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "website": "https://www.producthunt.com/r/Y5ICTAOJGXUV2K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
+      "image_url": "https://ph-files.imgix.net/936e3f1b-bc6f-4193-b976-cbb34c71de55.jpeg?auto=format",
+      "votes_count": 99,
       "scores": {
         "product_value": {
-          "score": 4,
-          "reason": "用途和检查结果说得清楚，但资料不足以确认评分是否可靠。"
+          "score": 3,
+          "reason": "用途和目标人群较清楚，但具体流程与实际收益没有说明。"
         },
         "technical_insight": {
           "score": 3,
-          "reason": "模拟爬虫读取和检查修复有具体技术问题，抓取方式与评分依据未披露。"
+          "reason": "实时协作涉及多人同时编辑的问题，具体实现方式未披露。"
         },
         "transferability": {
           "score": 3,
-          "reason": "“先展示读取结果，再在沙盒验证修复”可借鉴，适用场景仍较窄。"
+          "reason": "把构思、知识整理和协作放在同一画布的做法可借鉴，效果仍待验证。"
         }
       },
       "product_analysis": {
-        "target_problem": "当买家通过 AI 助手了解产品时，网站团队需要知道爬虫读到了什么。只看网页本身，未必能发现内容缺失或被误读。",
-        "workflow": "工具按 AI 爬虫的方式抓取页面，展示读到和可能读错的内容；用户可在沙盒测试修复。简介称它会在一分钟内免费给出准备度评分，无需注册。",
-        "ai_value": "AI 助手是被检查的读取者。简介没说 Bifura 内部使用 AI；明确提到的是按 AI 爬虫的方式抓取和展示页面内容。",
-        "differentiation": "相比只检查网页本身，团队可以查看爬虫读到的内容，并在沙盒中先试修。最可能让人犹豫的是评分依据不明，难判断结果是否可信。"
+        "target_problem": "适合需要共同构思、整理知识并实时协作的个人或团队。资料没有说明他们原先怎么做；可以确认的场景是这些工作需要放在同一画布中进行。",
+        "workflow": "用户用画布进行构思、知识管理和实时协作。介绍没有交代具体操作步骤或最后产出的形式。",
+        "ai_value": "产品称它是 AI 画布，但没有说明 AI 具体负责什么；明确提到的用途是构思、知识管理和实时协作。",
+        "differentiation": "它把构思、知识管理和实时协作放在同一画布。是否能减少在现有工具间切换尚无资料支持；团队已有的工具习惯可能让人不愿迁移。"
       },
       "technical_analysis": {
-        "disclosed_facts": "介绍明确说会按 AI 爬虫的方式抓取页面、展示读取结果并支持沙盒测试修复；没有说明具体技术或评分方法。",
-        "possible_approach": "如果自己做，可以先选定要模拟的爬虫并抓取它能读到的文字，再用检查规则标出缺失或冲突，最后让用户在页面副本中修改并重新检查。",
-        "tradeoffs": "最容易出错的是抓取结果与目标爬虫不一致，尤其页面内容依赖脚本加载时；工具可能漏报或误报，让用户修错地方。",
-        "unknowns": "准备度评分按什么标准计算？"
+        "disclosed_facts": "介绍称它是 AI 画布，支持构思、知识管理和实时协作；没有说明使用什么模型或其他技术。",
+        "possible_approach": "如果自己做，可以先让多人在同一画布整理想法和资料，再加入实时同步；之后明确一个 AI 动作，例如根据画布内容归纳要点。",
+        "tradeoffs": "多人同时修改同一内容时，若更新互相覆盖，用户可能丢失内容或看到不一致的版本。",
+        "unknowns": "AI 能执行的具体动作是什么？"
       },
       "transferable_insights": [
-        "做帮助中心或商品页等需要被外部系统读取的产品时，可先展示读取结果，再让用户在沙盒中验证修复。"
+        "做团队知识工具时，可把资料整理和实时讨论放在同一画布；适合围绕同一主题共同工作的团队，是否减少切换要实际验证。"
       ],
       "validation_questions": [
-        "抽查一个关键页面，工具展示的抓取文本是否与指定爬虫实际读到的内容一致？",
-        "在沙盒修正一处缺失信息后，重新检查能否识别该问题已解决？"
+        "试用时确认 AI 能执行哪项具体任务，并检查结果是否可直接使用。",
+        "安排两人同时编辑同一画布，检查修改是否会丢失或互相覆盖。"
       ],
       "category": "AI工具",
       "overall_suggestion": "值得参考",
-      "overall_reason": "能看到 AI 爬虫读到的页面内容，并先试修再发布；但评分标准未说明，结果是否值得信赖还无法判断。"
-    },
-    {
-      "id": "1331434",
-      "name": "Pax by Pydantic",
-      "name_zh": "Pax by Pydantic",
-      "tagline_zh": "一款连编码本身也做成插件的终端编码代理",
-      "description_zh": "Pax 是 Pydantic AI 官方推出、用于终端的编码代理。它的各个部分都采用插件形式，支持运行任意模型，也能用 --agent 在其中运行自己的 Pydantic AI agent。",
-      "intro_zh": "面向在终端写代码、想使用编码代理或接入自有 Pydantic AI agent 的开发者。",
-      "url": "https://www.producthunt.com/products/pydantic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/NMB6ADZU5ATEMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/6df06b23-004d-4c7d-bd12-a272d3ec0ddf.png?auto=format",
-      "votes_count": 130,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "说明了终端编码代理和自定义 agent 的入口，但没说具体能省下哪些操作。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "全插件化和模型选择值得关注，但没有说明插件接口如何工作。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "插件化可供开发工具借鉴，但适用条件和实现细节不明。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "终端开发者若想使用编码代理，或在终端工具中运行自己的 Pydantic AI agent，可以考虑 Pax。资料没有说明他们原先需要做哪些操作。",
-        "workflow": "在终端使用 Pax；需要运行自己的 agent 时，通过 --agent 在其中运行。介绍称各部分都采用插件形式，但没说明插件如何安装或配置。",
-        "ai_value": "它是编码代理，并提供运行模型的入口。介绍没有说明 AI 如何读取代码、生成修改或验证结果。",
-        "differentiation": "它把终端编码代理的各部分做成插件，并支持运行自有 agent。是否比直接运行自己的 agent 更省事，取决于插件接口和权限，资料未说明。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍称 Pax 是用于终端的 Pydantic AI 官方编码代理，各部分采用插件形式，支持任意模型，并可用 --agent 运行自己的 Pydantic AI agent。",
-        "possible_approach": "如果自己做，可以先把终端交互、模型调用和工具操作拆成插件，再定好统一的输入输出。这样替换组件时有明确约定；具体接口设计并非产品已披露的实现。",
-        "tradeoffs": "最容易出错的是插件间的输入输出约定。自有 agent 若拿不到当前任务所需的代码上下文，可能给出不相关结果，或无法继续操作。",
-        "unknowns": "介绍没有说明 agent 能访问哪些项目文件和终端操作；这会影响它能否完成实际编码任务。"
-      },
-      "transferable_insights": [
-        "做允许团队替换模型或接入自定义逻辑的开发工具时，可把可替换部分设为插件，并先定义输入输出，避免扩展后丢失任务上下文。"
-      ],
-      "validation_questions": [
-        "运行自己的 --agent 时，它能否取得实际代码任务所需的项目上下文？",
-        "切换不同模型后，现有配置和同一项编码任务是否仍能正常运行？"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "把自有 agent 放进终端编码工具是明确的使用入口；但它能访问哪些代码和终端操作尚不清楚。"
-    },
-    {
-      "id": "1331268",
-      "name": "Doodle",
-      "name_zh": "Doodle",
-      "tagline_zh": "任务栏上的简笔小人，可以回答问题",
-      "description_zh": "Doodle 是一个驻留在 Windows 任务栏上的 AI 助手。用户可按 Ctrl+Shift+Space 提问，也可在任意应用中口述；遇到无法完成的事时，Doodle Evolution 会生成定制插件，展示可访问范围并等待用户批准。",
-      "intro_zh": "面向常用 Windows 的用户，用快捷键提问或在当前应用中口述；遇到它做不到的事时，可让它生成插件并先查看访问范围。",
-      "url": "https://www.producthunt.com/products/doodle-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/QXHWNWTFM24C6G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/afce6789-aa88-4015-907e-66173de1bf70.jpeg?auto=format",
-      "votes_count": 115,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "使用场景和入口明确，但回答质量、应用兼容性与实际省时未验证。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "按需生成插件并展示访问范围值得关注，但生成和运行方式未说明。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "先展示插件可访问范围、再等用户批准，是具体可借鉴的权限交互。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "常在 Windows 上工作、需要随时提问或在当前应用里口述的人可能会用到它。临时切换到单独的工具窗口会打断手头操作。",
-        "workflow": "按 Ctrl+Shift+Space 提问，或在任意应用中口述；如果它无法完成请求，Doodle Evolution 会生成定制插件、展示可访问范围，并等待用户批准。",
-        "ai_value": "AI 用来回答问题，并在遇到无法完成的请求时生成定制插件。介绍没有说明它使用的模型或生成过程。",
-        "differentiation": "快捷键和应用内口述减少了切换窗口的需要。用户可能担心自动生成的插件会访问什么，以及它实际会执行哪些操作。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍说明它是 Windows 任务栏 AI 助手，支持快捷键提问、向任意应用口述，并可生成插件、展示访问范围和等待批准；没有说明具体模型或插件实现技术。",
-        "possible_approach": "如果自己做，可以先加入全局快捷键和语音转文字，让用户在当前应用输入或提问；再让 AI 为未支持的操作生成受限插件，列出访问范围，得到用户确认后才运行。",
-        "tradeoffs": "最容易出错的是插件实际访问范围与展示内容不一致。用户可能批准超出预期的访问，或插件无法完成请求。",
-        "unknowns": "介绍没有说明插件支持哪些应用和操作，也没有说明生成后的插件如何隔离运行。"
-      },
-      "transferable_insights": [
-        "做会调用外部工具的助手时，可以先列出工具将访问的内容，再等用户确认；适合涉及文件、应用或账户权限的操作。"
-      ],
-      "validation_questions": [
-        "用一个实际请求触发插件，核对展示的访问范围是否准确且不超出完成请求所需。",
-        "在常用应用中口述一段文字，检查文字是否进入正确的输入位置且没有覆盖已有内容。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "快捷键提问和应用内口述可能减少切换窗口；但插件的实际权限边界和运行方式仍不清楚。"
-    },
-    {
-      "id": "1329841",
-      "name": "Clary",
-      "name_zh": "Clary",
-      "tagline_zh": "用发件人的克隆音色朗读 WhatsApp 等 iOS 通知",
-      "description_zh": "Clary 会用发件人的克隆音色朗读 iPhone 通知，支持 WhatsApp、iMessage 等；发件人通过链接录制一次 20 秒语音并先同意，产品称声音会在 iPhone 上生成。它把通知保存在手机上，并按 Messages、Updates、Promotions 分类；免费版含历史记录、分类和两次播放，要求 iPhone 15 Pro 或更新机型及 iOS 27。",
-      "intro_zh": "想少看屏幕的 iPhone 用户，以前读文字通知；现在可点按消息听发件人的克隆音色。",
-      "url": "https://www.producthunt.com/products/clary-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/MLYVI4EXR363WY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/mcp-draft-media/4627b410-117a-463d-bbe6-ce0bc3c41b3a.jpeg?auto=format",
-      "votes_count": 103,
-      "scores": {
-        "product_value": {
-          "score": 4,
-          "reason": "目标场景和操作结果明确，但设备要求限制了可用人群。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "短录音的克隆效果和语音数据处理方式都未说明。"
-        },
-        "transferability": {
-          "score": 3,
-          "reason": "先征得发件人同意再让收件人点播，适用于需要保留说话者语气的提醒。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "想少盯屏幕处理消息的 iPhone 用户，可以把文字通知改为听取。介绍没有说明用户原先采用哪种通知管理方式。",
-        "workflow": "发件人通过链接录制 20 秒语音并同意；Clary 为其生成对应声音。用户可查看按 Messages、Updates、Promotions 分类的通知历史，点开消息播放。",
-        "ai_value": "介绍没直接提 AI；明确说使用声音克隆，把通知文字转成发件人的克隆音色播放。",
-        "differentiation": "它让用户点按消息听发件人的克隆音色，并保留分类后的通知历史。最可能劝退的是需要 iPhone 15 Pro 或更新机型及 iOS 27。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确提到声音克隆、每人经链接录制 20 秒并先同意，也称声音在 iPhone 上生成；介绍没说具体用什么技术。",
-        "possible_approach": "如果自己做，可以先让发件人同意并录音，再把声音样本关联到联系人；收到通知后，将文字转成该声音的音频，点按时播放并分类保存。",
-        "tradeoffs": "最容易出错的是 20 秒录音不足以还原稳定、可辨认的音色；播放不像发件人时，用户可能不再信任这项功能。",
-        "unknowns": "介绍没说明录音和通知是否会离开 iPhone，这会影响用户是否愿意提供语音和消息内容。"
-      },
-      "transferable_insights": [
-        "做消息或家庭提醒产品时，可借鉴让发送者先授权录音、接收者再点按收听，适合需要保留熟人语气的场景。"
-      ],
-      "validation_questions": [
-        "请几位发件人录制 20 秒语音，检查不同消息的播放是否仍能让人辨认出说话者。",
-        "检查发件人撤回授权后，声音样本是否删除、后续克隆播放是否停止。"
-      ],
-      "category": "AI工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "它给用户提供了不盯屏幕听通知的选择；但录音和通知是否留在设备内仍未交代。"
-    },
-    {
-      "id": "1330907",
-      "name": "DeskFleet",
-      "name_zh": "DeskFleet",
-      "tagline_zh": "让团队在各自的电脑上共同运行编程代理",
-      "description_zh": "DeskFleet让团队共享正在使用的编程代理会话，并在代码所在的机器上运行 Claude Code、Codex 或 Cursor。同事可从自己的笔记本加入，查看代码差异、批准下一条命令或接管远程桌面；工具和代理凭据留在执行任务的机器上。",
-      "intro_zh": "面向一起使用编程代理的开发团队，让同事加入代码所在机器上的会话，查看差异、批准命令或接管桌面。",
-      "url": "https://www.producthunt.com/products/deskfleet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "website": "https://www.producthunt.com/r/ZDO3VZNN2YJRV2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A++%E7%A7%8B%E8%8A%9D%E9%80%89%E9%A2%98%E7%AB%99+%28ID%3A+293818%29",
-      "image_url": "https://ph-files.imgix.net/e0be6c7c-1768-4eca-aeef-1ddf73480141.jpeg?auto=format",
-      "votes_count": 90,
-      "scores": {
-        "product_value": {
-          "score": 3,
-          "reason": "共同审阅和批准操作的场景明确，但实际节省的时间或协作收益没有验证材料。"
-        },
-        "technical_insight": {
-          "score": 3,
-          "reason": "凭据留在执行机器上，但远程操作的权限边界和实现方式未说明。"
-        },
-        "transferability": {
-          "score": 4,
-          "reason": "把差异审阅和下一步确认放进同一会话，是具体可借鉴的协作做法。"
-        }
-      },
-      "product_analysis": {
-        "target_problem": "团队成员需要一起检查编程代理的改动、批准后续命令或远程接手时会用到它。介绍没有说明他们此前具体用什么方式协作。",
-        "workflow": "在存有代码的机器上运行现有代理；同事从自己的笔记本加入共享会话，再查看差异、批准下一条命令，或接管桌面。",
-        "ai_value": "AI相关工作由用户已有的编程代理承担；DeskFleet提供共同查看会话和远程操作的方式。介绍没有说它自身使用AI。",
-        "differentiation": "同事可以加入代理运行的会话，而不只是收到改动结果。可能让人犹豫的是把远程桌面控制交给同事，介绍未说明权限范围。"
-      },
-      "technical_analysis": {
-        "disclosed_facts": "介绍明确说，Claude Code、Codex、Cursor在代码所在机器运行，工具和代理凭据也留在执行机器；同事可加入、看差异、批准命令或远控桌面。",
-        "possible_approach": "如果自己做，可以先让开发机运行现有代理并共享会话，再提供差异查看、逐条命令确认和远程桌面控制；还要限制谁能批准或接管。",
-        "tradeoffs": "最难的是限制远程权限。若接管桌面或批准命令的范围设错，同事可能执行不该运行的命令，或控制超出预期。",
-        "unknowns": "介绍未说明如何授权成员、限制命令批准和桌面接管；这关系到能否用于敏感代码。"
-      },
-      "transferable_insights": [
-        "做多人代码工具时，可把“看改动”和“批准下一步”放在同一会话里；适用于需要共同把关代理操作的团队。"
-      ],
-      "validation_questions": [
-        "让未持有执行机器的成员加入会话，检查能否找到并审阅代理产生的差异。",
-        "用不同权限的成员尝试批准命令或接管桌面，确认系统是否限制了操作范围。"
-      ],
-      "category": "开发工具",
-      "overall_suggestion": "值得参考",
-      "overall_reason": "同事能在代理运行的机器旁审阅差异并批准下一条命令；但远程接管和命令权限如何限制，决定了它能否用于敏感代码。"
+      "overall_reason": "把构思、知识管理和实时协作放进一张画布，可能减少内容分散；但 AI 实际能做什么还不清楚。"
     }
   ]
 }
